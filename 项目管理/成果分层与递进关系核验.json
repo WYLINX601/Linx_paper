@@ -1,0 +1,69 @@
+{
+  "scope": "artifact-groups-and-progression",
+  "updated": "2026-11-04",
+  "stats": {
+    "packages": 22,
+    "topics": 7,
+    "topic_artifact_relations": 60,
+    "primary_relations": 22,
+    "reused_relations": 38,
+    "progression_edges": 3,
+    "generated_views": 31
+  },
+  "groups": {
+    "current": 9,
+    "candidate": 2,
+    "prototype": 4,
+    "redirect": 2,
+    "display": 3,
+    "record": 2
+  },
+  "progression_edges": [
+    {
+      "successor": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "type": "merges",
+      "predecessor": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "note": "D01尺寸与比较链并入V01；旧入口保留，不标sameAs"
+    },
+    {
+      "successor": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "type": "merges",
+      "predecessor": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "note": "D03六项外部表达接续同一原型；旧入口保留"
+    },
+    {
+      "successor": "研究成果/〔方法衔接〕建筑单体框架-本体与分析衔接v0.1/README.md",
+      "type": "builds_on",
+      "predecessor": "研究成果/〔候选框架〕建筑单体研究内容框架v0.1/README.md",
+      "note": "原框架CSV仍是维护源，本稿做本体与分析衔接，不替代原框架"
+    }
+  ],
+  "checks": {
+    "topic_artifact_views": {
+      "out_of_sync": []
+    },
+    "research_structure": {
+      "out_of_sync": []
+    },
+    "research_claims": {
+      "questions": 15,
+      "claims": 16,
+      "edges": 41,
+      "out_of_sync": []
+    },
+    "relative_links": {
+      "checked": 566,
+      "missing": 0
+    }
+  },
+  "published_files": {
+    "artifact_packages_and_catalog": 23,
+    "theme_pages": 3
+  },
+  "not_included": [
+    "documents relations",
+    "derived_view relations",
+    "unsupported candidate-model/model-prototype lineage edges",
+    "database or empirical validation"
+  ]
+}

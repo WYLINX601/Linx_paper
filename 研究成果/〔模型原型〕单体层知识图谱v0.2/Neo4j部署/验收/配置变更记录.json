@@ -1,0 +1,34 @@
+{
+  "recordedAt": "2026-10-22T12:28:08.086292+00:00",
+  "authorization": "用户要求通过SSH将图谱软件配置到空间充足的Linux",
+  "changes": [
+    {
+      "target": "Linux user directory",
+      "action": "Installed pinned Neo4j 5.26.32 Community and Temurin Java 21.0.13+9 with SHA-256 checks",
+      "details": "No Docker or global Java install; only tailnet listeners and password authentication"
+    },
+    {
+      "target": "Linux systemd user",
+      "action": "Enabled neo4j-paper.service",
+      "details": "Existing Linger=yes retained; service restart tested, full host reboot not performed"
+    },
+    {
+      "target": "Mac Wi-Fi proxy exceptions",
+      "action": "Appended exact address 100.68.38.32",
+      "reason": "Browser returned HTTP 502 while direct API succeeded; adding exception restored login page",
+      "previousSettingsBackup": "/Users/wangyuelin/.config/neo4j-paper/proxy-before.json"
+    },
+    {
+      "target": "KG projection",
+      "action": "Imported frozen v0.2 snapshots with 94 nodes and 216 relationships",
+      "details": "21 domain entities,55 assertions,4 classification judgments; original source JSON not modified; one conflict-evidence display edge corrected to CONFLICTING_EVIDENCE with migration record"
+    }
+  ],
+  "credentials": "Stored outside Obsidian in mode600 local and remote private files; values excluded from reports",
+  "limitations": [
+    "First browser password entry left to user; HTTP/Bolt authentication and WebSocket connection verified separately",
+    "No automatic backup schedule",
+    "No restore rehearsal",
+    "Original PDF and image attachments remain in existing Mac archives"
+  ]
+}

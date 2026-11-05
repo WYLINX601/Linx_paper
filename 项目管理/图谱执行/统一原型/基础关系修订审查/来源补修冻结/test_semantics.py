@@ -1,0 +1,125 @@
+"""Basic-relation positive/negative tests; no mutation reaches Neo4j."""
+from pathlib import Path
+import copy,json,sys,unittest
+W=Path(__file__).parent;sys.path.insert(0,str(W/'tools'))
+from compile_model import compile_model,validate_model
+from analyze import analyze
+import semantics as S
+M,P=compile_model(W/'candidate/model.json');A=analyze(P)['basicRelations']
+def n(m,id):return next(x for x in m['nodes'] if x['id']==id)
+def r(m,id):return next(x for x in m['relationships'] if x['id']==id)
+class BasicRelationsTests(unittest.TestCase):
+ def test_no_new_objects(self):self.assertEqual({x['id'] for x in M['nodes']},{x['id'] for x in json.loads((W/'baseline/model-2.1.json').read_text())['nodes']})
+ def test_only_five_new_edges(self):
+  old=json.loads((W/'baseline/model-2.1.json').read_text());ids={x['id'] for x in old['relationships']};self.assertEqual({x['id'] for x in M['relationships'] if x['id'] not in ids},{'BOUND-'+a+'-'+b for a,b in S.REQUIRED_NEW})
+ def test_localized_count(self):self.assertEqual(len(S.qualified_boundaries(M)),28)
+ def test_four_veranda_columns(self):
+  vals=[S.local_ranges(M,r(M,'BOUND-S04-C0'+str(i)))[0]['netLengthM'] for i in range(1,5)]
+  for a,b in zip(vals,[.14,.28,.28,.14]):self.assertAlmostEqual(a,b)
+  self.assertAlmostEqual(sum(vals),.84)
+ def test_other_side_not_copied(self):self.assertAlmostEqual(S.local_ranges(M,r(M,'BOUND-S05-C01'))[0]['netLengthM'],.02);self.assertAlmostEqual(S.local_ranges(M,r(M,'BOUND-S04-C01'))[0]['netLengthM'],.14)
+ def test_gate_outer_two_local_parts(self):
+  x=S.local_ranges(M,r(M,'BOUND-S06-W10'))[0];self.assertEqual(x['deductedOpeningIds'],['I05']);self.assertEqual(len(x['intervalsM']),2);self.assertAlmostEqual(x['netLengthM'],.4)
+ def test_gate_not_full_wall(self):self.assertLess(S.local_ranges(M,r(M,'BOUND-S06-W10'))[0]['netLengthM'],n(M,'W10')['properties']['lengthM'])
+ def test_fifteen_original_relations_localized(self):
+  for i in range(59,74):self.assertTrue(S.local_ranges(M,r(M,f'R{i:03}')))
+ def test_no_wall_end_candidate_edges(self):self.assertFalse(any(r['source']=='S04' and r['target'] in ['W04','W05','W08','W09'] and r['type']=='BOUNDARY_PARTICIPANT' for r in M['relationships']))
+ def test_wall_end_candidates_exposed(self):
+  x=next(x for x in A['localizedBoundaries'] if x['spaceUid']=='V01:S04');ids={r['uid'] for seg in x['segments'] for r in seg['geometryCandidates']};self.assertEqual(ids,{'V01:W04','V01:W05','V01:W08','V01:W09'})
+ def test_overlap_union(self):
+  x=next(x for x in A['localizedBoundaries'] if x['spaceUid']=='V01:S04');self.assertGreater(sum(s['overlapDeductedM'] for s in x['segments']),0.)
+ def test_roof_six_spaces(self):self.assertEqual(len(A['roofCoverage']),6)
+ def test_roof_first_four_full(self):self.assertTrue(all(x['state']=='full-projection' for x in A['roofCoverage'][:4]))
+ def test_court_partial_roof(self):
+  x=next(x for x in A['roofCoverage'] if x['spaceUid']=='V01:S05');self.assertAlmostEqual(x['coveredAreaM2'],5.616);self.assertAlmostEqual(x['coverageRatio'],5.616/43.8048);self.assertEqual(x['overallCoverType'],'open-air-space-character')
+ def test_no_roof_provider_not_universal_absence(self):self.assertEqual(A['roofCoverage'][-1]['state'],'none-from-this-provider')
+ def test_roof_update_recomputes(self):
+  m=copy.deepcopy(M);n(m,'RF01')['geometry']['y'][0]=-.3;self.assertAlmostEqual(S.roof_coverage(m)[4]['coveredAreaM2'],2.808)
+ def test_unreconciled_roof_geometry_rejected(self):
+  m=copy.deepcopy(M);n(m,'RF01')['geometry']['y'][0]=-.3
+  with self.assertRaisesRegex(ValueError,'projections disagree'):S.validate(m)
+ def test_interface_three_plan_gaps(self):
+  x=A['interfaceOccupation'];self.assertEqual(len(x['planOpenLengthsM']),3)
+  for v in x['planOpenLengthsM']:self.assertAlmostEqual(v,2.92)
+ def test_interface_not_passage(self):self.assertFalse(A['interfaceOccupation']['clearanceValidated']);self.assertEqual(A['interfaceOccupation']['passageConclusion'],'not-established')
+ def test_interface_endpoint_columns(self):self.assertEqual([x['uid'] for x in A['interfaceOccupation']['participants'] if x['role']=='endpoint-limit-no-positive-occupation'],['V01:C01','V01:C04'])
+ def test_no_fake_interface_host(self):self.assertFalse(any(x['source']=='I04' and x['target'].startswith('C') for x in M['relationships']))
+ def test_street_plan_level(self):x=A['streetReference'];self.assertAlmostEqual(x['intersectionAreaM2'],2.76);self.assertTrue(x['fullyWithinPlanProjection'] and x['sameDeclaredLevel']);self.assertFalse(x['semanticRelationPersisted'])
+ def test_street_level_change_is_not_same(self):m=copy.deepcopy(M);n(m,'ST01')['geometry']['surfaceZM']=.1;self.assertFalse(S.street_reference(m)['sameDeclaredLevel'])
+ def test_street_not_added_access(self):self.assertFalse(any(x['source']=='S06' and x['target']=='ST01' for x in M['relationships']))
+ def test_all_objects_covered(self):self.assertEqual(len(A['objectCoverage']),56);self.assertEqual(len({r['uid'] for r in A['objectCoverage']}),56)
+ def test_every_coverage_has_four_modes(self):self.assertTrue(all({'mandatory','optional','notApplicable','unknown'}<=set(x) for x in A['objectCoverage']))
+ def test_missing_column_rejected(self):
+  m=copy.deepcopy(M);m['relationships']=[x for x in m['relationships'] if x['id']!='BOUND-S04-C02']
+  with self.assertRaises(ValueError):S.validate(m)
+ def test_zero_cover_claim_rejected(self):
+  m=copy.deepcopy(M);n(m,'S05')['properties']['coverStateMeaning']='zero-projection'
+  with self.assertRaisesRegex(ValueError,'cover meaning'):S.validate(m)
+ def test_wrong_source_field_rejected(self):
+  m=copy.deepcopy(M);r(m,'SRC-S04')['properties']['fields'].remove('boundarySegments')
+  with self.assertRaises(ValueError):S.validate(m)
+ def test_changed_local_cache_rejected(self):
+  p=copy.deepcopy(P);r(p,'BOUND-S04-C01')['properties']['localNetLengthM']=99
+  with self.assertRaisesRegex(ValueError,'Local boundary cache'):analyze(p)
+ def test_missing_actual_local_field_rejected(self):
+  p=copy.deepcopy(P);n(p,'S04')['properties'].pop('boundaryBasis')
+  with self.assertRaises(ValueError):analyze(p)
+ def test_bad_membership_rejected(self):
+  m=copy.deepcopy(M);m['relationships']=[x for x in m['relationships'] if not (x['source']=='C01' and x['type']=='MEMBER_OF_ZONE')]
+  with self.assertRaises(ValueError):S.validate(m)
+ def test_unknown_windows_not_errors(self):self.assertTrue(S.validate(M));self.assertTrue(all('未实例化外侧空间' in next(x for x in A['objectCoverage'] if x['uid']=='V01:'+id)['unknown'] for id in ['I08','I09','I10']))
+ def test_legacy_source_version_preserved(self):self.assertEqual(n(M,'EV09')['properties']['sourceVersion'],'1.1')
+ def test_reversed_graph_order(self):p=copy.deepcopy(P);p['nodes'].reverse();p['relationships'].reverse();self.assertEqual(analyze(p)['basicRelations'],A)
+ def test_no_paused_branches_reintroduced(self):
+  old=json.loads((W/'baseline/model-2.1.json').read_text())
+  for t in ['SUPPORTS_SYSTEM','DIRECT_ACCESS_TO']:self.assertEqual([r['id'] for r in old['relationships'] if r['type']==t],[r['id'] for r in M['relationships'] if r['type']==t])
+ def test_old_relation_roles_preserved(self):
+  old=json.loads((W/'baseline/model-2.1.json').read_text())
+  for x in old['relationships']:self.assertEqual(x['properties'].get('evidenceRole'),r(M,x['id'])['properties'].get('evidenceRole'))
+ def test_old_relation_changes_whitelisted(self):
+  old=json.loads((W/'baseline/model-2.1.json').read_text());up=lambda v:json.loads(json.dumps(v).replace('V01-unified-2.1','V01-unified-2.2'))
+  local={'localBoundaryIds','rangeState','analysisSliceZM','geometryVersion','localRuleVersion','localRangeBasis'}
+  for x in old['relationships']:
+   y=r(M,x['id']);allowed=local if x['type']=='BOUNDARY_PARTICIPANT' else {'fields'} if x['id'] in {'SRC-'+s for s in S.SPACE_IDS} else set()
+   self.assertEqual({k:v for k,v in up(x['properties']).items() if k not in allowed},{k:v for k,v in y['properties'].items() if k not in allowed})
+ def test_full_analysis_json_roundtrip(self):
+  a=analyze(P);self.assertEqual(a,json.loads(json.dumps(a)))
+ def test_roof_json_roundtrip(self):
+  a=S.roof_coverage(M);self.assertEqual(a,json.loads(json.dumps(a)))
+ def test_current_candidate_analysis(self):self.assertEqual(analyze(P),json.loads((W/'candidate/analysis.json').read_text()))
+ def check_actual_and_canonical(self,relation_id,field,value):
+  m=copy.deepcopy(M);p=copy.deepcopy(P)
+  for a in [m,p]:
+   q=r(a,relation_id)
+   if field in ['source','target']:q[field]=('V01:' if a is p else '')+value
+   elif value is None:q['properties'].pop(field,None)
+   else:q['properties'][field]=value
+  with self.assertRaises(ValueError):validate_model(m)
+  with self.assertRaises(ValueError):analyze(p)
+ def test_member_source_endpoint_rejected(self):
+  x=next(r for r in M['relationships'] if r['source']=='C01' and r['type']=='MEMBER_OF_ZONE');self.check_actual_and_canonical(x['id'],'target','EV09')
+ def test_member_other_building_rejected(self):
+  x=next(r for r in M['relationships'] if r['source']=='C01' and r['type']=='MEMBER_OF_ZONE');self.check_actual_and_canonical(x['id'],'target','B02')
+ def test_duplicate_interface_role_rejected(self):
+  x=next(r for r in M['relationships'] if r['source']=='I01' and r['type']=='INTERFACE_OF' and r['properties']['role']=='side-b');self.check_actual_and_canonical(x['id'],'role','side-a')
+ def test_interface_nonspace_rejected(self):
+  x=next(r for r in M['relationships'] if r['source']=='I01' and r['type']=='INTERFACE_OF' and r['properties']['role']=='side-b');self.check_actual_and_canonical(x['id'],'target','W01')
+ def test_interface_nonwall_host_rejected(self):
+  x=next(r for r in M['relationships'] if r['source']=='I02' and r['type']=='INTERFACE_OF' and r['properties']['role']=='opening-host');self.check_actual_and_canonical(x['id'],'target','C01')
+ def test_empty_source_fields_rejected(self):self.check_actual_and_canonical('SRC-C01','fields',[])
+ def test_missing_boundary_assertion_source_rejected(self):self.check_actual_and_canonical('BOUND-S04-C01','assertionSourceUid',None)
+ def test_wrong_boundary_assertion_source_rejected(self):self.check_actual_and_canonical('BOUND-S04-C01','assertionSourceUid','V01:EV09')
+ def test_wrong_source_locator_rejected(self):self.check_actual_and_canonical('SRC-C01','locator','/nodes/0/properties')
+ def test_wrong_source_version_rejected(self):self.check_actual_and_canonical('SRC-C01','sourceVersion','1.1')
+ def test_missing_property_not_masked_by_empty_fields(self):
+  p=copy.deepcopy(P);n(p,'C01')['properties'].pop('diameterM');r(p,'SRC-C01')['properties']['fields'].remove('diameterM')
+  with self.assertRaises(ValueError):analyze(p)
+ def test_new_boundary_source_alias_changes_rejected(self):
+  for f,v in [('sourceUid','V01:EV09'),('sourceVersion','1.1'),('locator','/relationships/0')]:self.check_actual_and_canonical('BOUND-S04-C01',f,v)
+ def test_new_boundary_source_alias_missing_rejected(self):
+  for f in ['sourceUid','sourceVersion','locator']:self.check_actual_and_canonical('BOUND-S04-C01',f,None)
+ def test_old_boundary_source_alias_changes_rejected(self):
+  for f,v in [('sourceUid','V01:EV09'),('sourceVersion','1.1'),('locator','/relationships/0')]:self.check_actual_and_canonical('R059',f,v)
+ def test_old_boundary_source_alias_missing_rejected(self):
+  for f in ['sourceUid','sourceVersion','locator']:self.check_actual_and_canonical('R059',f,None)
+if __name__=='__main__':unittest.main()

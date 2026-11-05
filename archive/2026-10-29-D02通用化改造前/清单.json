@@ -1,0 +1,26 @@
+{
+  "snapshot": "2026-10-29 D02通用化改造前",
+  "source": "Mac Paper主源；导图已先保存并关闭当前页签",
+  "files": [
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D02屋顶侧样与构架拆解表.md",
+      "sha256": "b016462d190672d386274ab82ac7ec8d12534bed30933b9dad8a1dcd4d7c84ee",
+      "bytes": 24819
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D02屋顶侧样与构架拆解图.smm.md",
+      "sha256": "088ca80003d410ffe08b0615f55ac824d7dd347c3d4b380a0a0499623080749f",
+      "bytes": 23915
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "5e89675ea878cfddb3ca63cf6c4eec3e6d434dcb54cf8d398ff3d9db03db882c",
+      "bytes": 6986
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "7aa22420365a2a205c089ee2fea1e19b34120bc98e5cd54db151f807bf4e3533",
+      "bytes": 9067
+    }
+  ]
+}

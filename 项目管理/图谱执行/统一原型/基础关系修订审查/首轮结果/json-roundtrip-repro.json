@@ -1,0 +1,9 @@
+{
+  "fullAnalysisRoundtripEqual": false,
+  "normalizedEqual": true,
+  "firstMismatchPath": "/basicRelations/roofCoverage/0/intersectionGeoJSON/coordinates",
+  "beforeType": "tuple",
+  "afterType": "list",
+  "leafEqual": false,
+  "buildReviewFailure": "build_review.py:19 assertion false even for its own freshly serialized analysis; builder not executed"
+}

@@ -1,0 +1,25 @@
+{
+  "layout": "continuous-image-text-table",
+  "desktop": {
+    "width": 1050,
+    "scrollWidth": 1050,
+    "images": 101,
+    "loaded": 101,
+    "records": 99,
+    "continuousTables": 20,
+    "tableHeaders": 20
+  },
+  "mobile": [
+    {
+      "width": 390,
+      "scrollWidth": 390
+    },
+    {
+      "width": 320,
+      "scrollWidth": 320
+    }
+  ],
+  "dialog": true,
+  "dialogClosed": true,
+  "errors": []
+}

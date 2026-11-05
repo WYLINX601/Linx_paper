@@ -1,0 +1,22 @@
+{
+  "status": "passed",
+  "callCount": 11,
+  "readOnlyTools": [
+    "get-schema",
+    "read-cypher"
+  ],
+  "sourceDataUnchanged": true,
+  "checkedResults": [
+    "connected",
+    "94 total nodes",
+    "55 assertions",
+    "4 classifications",
+    "two demo access assertions",
+    "zero literature access assertions",
+    "no missing or duplicate UID",
+    "all indexes online"
+  ],
+  "codexNativeCatalogReloaded": false,
+  "protocolActuallyUsed": "Official MCP JSON-RPC over configured SSH stdio",
+  "newSkillsVisibleInCatalog": true
+}

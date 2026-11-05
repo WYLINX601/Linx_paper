@@ -1,0 +1,9 @@
+{
+  "status": "passed",
+  "backupDirectory": "/home/linx/.local/share/neo4j-paper/backups/20261022T122419Z",
+  "dumpBytes": 109987,
+  "dumpSha256": "36391172cb1d6a5e1c2c46d5777a3795e0d5f8d3df69ccc825f0162b761b577b",
+  "archiveInfo": "Database: neo4j\nFormat: Neo4j ZSTD Dump.\nFiles: 37\nBytes: 1637958\n\n",
+  "serviceRestartAndGraphVerification": "passed",
+  "boundary": "Native dump metadata checked; no restoration into another database performed. The system/auth database is not included."
+}

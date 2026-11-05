@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (c:V01 {uid:'V01:CMP01'})\nOPTIONAL MATCH (c)-[ar:COMPARES_SUBJECT]->(a)\nOPTIONAL MATCH (c)-[br:COMPARES_REFERENCE]->(b)\nOPTIONAL MATCH (a)-[sa:HAS_SOURCE]->(asrc) WHERE sa.id=ar.sourceRelationId AND 'eaveZM' IN sa.fields\nOPTIONAL MATCH (b)-[sb:HAS_SOURCE]->(bsrc) WHERE sb.id=br.sourceRelationId AND 'eaveZM' IN sb.fields\nOPTIONAL MATCH (a)-[da:USES_DATUM]->(ad) WHERE 'eaveZM' IN da.fields\nOPTIONAL MATCH (b)-[db:USES_DATUM]->(bd) WHERE 'eaveZM' IN db.fields\nWITH c,a,b,coalesce(a.unit='m' AND b.unit='m' AND a.geometryActive=true AND b.geometryActive=true AND ad=bd AND da.frameVersion=$version AND db.frameVersion=$version AND a.scenario=b.scenario AND c.scenario=a.scenario AND a.geometryVersion=$version AND b.geometryVersion=$version AND ar.geometryVersion=a.geometryVersion AND br.geometryVersion=b.geometryVersion AND c.inputGeometryVersion=ar.geometryVersion AND c.inputGeometryVersion=br.geometryVersion AND ar.expectedSourceVersion=sa.sourceVersion AND ar.expectedSourceVersion=asrc.sourceVersion AND br.expectedSourceVersion=sb.sourceVersion AND br.expectedSourceVersion=bsrc.sourceVersion AND a.eaveZM IS NOT NULL AND b.eaveZM IS NOT NULL,false) AS valid\nRETURN c.uid AS uid,a.uid AS subject,b.uid AS reference,valid,CASE WHEN valid THEN a.eaveZM-b.eaveZM ELSE null END AS valueM,CASE WHEN valid THEN abs(c.valueM-(a.eaveZM-b.eaveZM))<1e-9 ELSE false END AS cacheAgreement",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"cacheAgreement\": true,\n    \"reference\": \"V01:B01\",\n    \"subject\": \"V01:B02\",\n    \"uid\": \"V01:CMP01\",\n    \"valid\": true,\n    \"valueM\": 3.7333333333333334\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:50:24.480145+08:00"
+}

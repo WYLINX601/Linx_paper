@@ -1,0 +1,6233 @@
+{
+  "schema_version": "CMS-reading-1.0",
+  "status": "资料知识整理首轮讨论稿；不是Neo4j Schema或已核实建筑名录",
+  "updated": "2026-11-02",
+  "scope": "敕木山第一次主要材料与对象拆解；不建立真实实例库、不改双基准及暂停模块",
+  "statistics": {
+    "本轮核读去重论文": 10,
+    "对应Zotero条目": 11,
+    "文献材料单元": 205,
+    "来源限定陈述": 94,
+    "继承资料索引条目": 32,
+    "对象或模式讨论项": 16,
+    "关系讨论项": 7,
+    "待核问题": 9
+  },
+  "corpus_boundary": {
+    "检索": "Zotero元数据/摘要敕木山检索，结合既有村落索引和已定位的卷草凤凰纹、植物景观文献；不是全库所有全文穷尽检索。",
+    "题录命中但未本轮展开": [
+      "ATDN2BQQ：惠明寺村，非本村；只核题录/摘要",
+      "PIMB8MAY：东弄村，沿用CMS-M030已核边界"
+    ],
+    "重复": "C7DT63HR与Q3QJSRAK附件SHA一致，只计一篇，未删Zotero条目",
+    "原典缺口": "史图博/李化民调查记与蓝氏房谱完整原件未核读；论文转引不冒称直接证据",
+    "外部核查": "本轮以Zotero原件和已存Paper材料为准；未重新核查全部网页或2026现场"
+  },
+  "legacy_source": {
+    "path": "研究资料/村落资料/敕木山/资料索引.json",
+    "sha256": "23750d344b4746d5c44d952bde221a43130127bb6f1792d7ce68bd6a9f4c682e",
+    "count": 32,
+    "rule": "不另维护旧资料正文；本包引用CMS-M稳定编号及当前主索引。"
+  },
+  "papers": [
+    {
+      "key": "PIW7KR8U",
+      "title": "浙江省丽水市景宁县敕木山村 国家历史文化名城研究中心历史街区调研",
+      "authors": [
+        "张云",
+        "都铭"
+      ],
+      "year": "2025",
+      "scope": "敕木山村、未具名住宅类型、蓝姓族长四合院候选",
+      "contribution": "把山地、水脉、古道与院落生活组织联系起来，并提出以水脉—古道体系为重点的保护利用建议。",
+      "method": "村落观察、房谱图与当代图像对照、居民说法和建筑类型描述；未报告逐栋样本表或测量方案。",
+      "limitations": "调查/摄影日期未载；地域专属性和生态解释属于作者主张；照片、类型概括与具体房屋属性分开。",
+      "visual_pages": [
+        1,
+        2
+      ],
+      "imprint": "城市规划 49(2):133–134；原页以PDF1–2定位，253是栏目标识",
+      "materials": [
+        {
+          "id": "PIW7KR8U:T01",
+          "kind": "正文段落",
+          "title": "§1 村落概况",
+          "pdf_page": 1,
+          "locator": "PDF第1页，§1 村落概况",
+          "scope": "村落整体",
+          "supports": [
+            "PIW7KR8U:T01:C"
+          ],
+          "boundary": "分母、调查日及逐栋名单未给；约50不是保护四幢、不是2026现存量。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "PIW7KR8U:T02",
+          "kind": "正文段落",
+          "title": "§1 房谱迁徙记载",
+          "pdf_page": 1,
+          "locator": "PDF第1页，§1 房谱迁徙记载",
+          "scope": "村落聚居史叙述",
+          "supports": [
+            "PIW7KR8U:T02:C"
+          ],
+          "boundary": "房谱原件本轮未读；文献归档不意味着恢复D07时序分析。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "PIW7KR8U:T03",
+          "kind": "正文段落",
+          "title": "§2 山地与水脉",
+          "pdf_page": 1,
+          "locator": "PDF第1页，§2 山地与水脉",
+          "scope": "村落—水系—道路—宅院",
+          "supports": [
+            "PIW7KR8U:T03:C"
+          ],
+          "boundary": "不是拓扑实测；缺坐标、成员、完整网络，不能据此建立每户连接。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "PIW7KR8U:T04",
+          "kind": "正文段落",
+          "title": "§2 海拔与高差",
+          "pdf_page": 1,
+          "locator": "PDF第1页，§2 海拔与高差",
+          "scope": "村落入口与最高宅基地",
+          "supports": [
+            "PIW7KR8U:T04:C"
+          ],
+          "boundary": "测量基准和方法未载，不能当模型量测；不把82m赋给任意两栋民居。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "PIW7KR8U:T05",
+          "kind": "正文段落",
+          "title": "§3 前后院与水流",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§3 前后院与水流",
+          "scope": "类型层：住宅—前院—后院—厨房—鱼池—水渠",
+          "supports": [
+            "PIW7KR8U:T05:C"
+          ],
+          "boundary": "无逐栋对应和测量图；建筑朝向、前后院与水池不可分配给全部照片对象。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "PIW7KR8U:T06",
+          "kind": "正文段落",
+          "title": "§3 水池养鱼用途",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§3 水池养鱼用途",
+          "scope": "类型层鱼池",
+          "supports": [
+            "PIW7KR8U:T06:C"
+          ],
+          "boundary": "不是已验证水质检测效能，也不是全部鱼池唯一用途。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "PIW7KR8U:T07",
+          "kind": "正文段落",
+          "title": "§3 形制与空间功能",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§3 形制与空间功能",
+          "scope": "住宅类型及两个未具名八开间对象线索",
+          "supports": [
+            "PIW7KR8U:T07:C"
+          ],
+          "boundary": "内部构架信息仅作文献储备，不恢复暂停模块；分母、个体对应未载。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "PIW7KR8U:T08",
+          "kind": "正文段落",
+          "title": "§3 蓝姓族长四合院",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§3 蓝姓族长四合院",
+          "scope": "蓝姓族长四合院候选",
+          "supports": [
+            "PIW7KR8U:T08:C"
+          ],
+          "boundary": "与2012民居1号、蓝文成家、28号、2013门楼尚无跨来源唯一身份依据。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "PIW7KR8U:T09",
+          "kind": "正文段落",
+          "title": "§4—5 文化与保护建议",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§4—5 文化与保护建议",
+          "scope": "村落文化及建议",
+          "supports": [
+            "PIW7KR8U:T09:C"
+          ],
+          "boundary": "建议不是已实施用途；声景光景描述不恢复人的感知研究。",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F01",
+          "kind": "原刊图像单元",
+          "title": "房谱中的敕木山村",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“房谱中的敕木山村”",
+          "scope": "房谱中的敕木山村",
+          "supports": [],
+          "boundary": "历史图示；非现状测绘底图；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F01.png",
+          "crop_pdf_points": [
+            216.84994506835938,
+            99.21009826660156,
+            311.5555725097656,
+            274.966796875
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F02",
+          "kind": "原刊图像单元",
+          "title": "村落全景处于群山中的鸟瞰",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“村落全景处于群山中的鸟瞰”",
+          "scope": "村落全景处于群山中的鸟瞰",
+          "supports": [],
+          "boundary": "村落/山地关系；未定位单栋；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F02.png",
+          "crop_pdf_points": [
+            316.01898193359375,
+            99.21876525878906,
+            578.532958984375,
+            274.966796875
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F03",
+          "kind": "原刊图像单元",
+          "title": "宅旁阶梯、沟渠及挡墙1",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“宅旁阶梯、沟渠及挡墙1”",
+          "scope": "宅旁阶梯、沟渠及挡墙1",
+          "supports": [],
+          "boundary": "未具名宅旁环境；无量尺；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F03.png",
+          "crop_pdf_points": [
+            216.84999084472656,
+            289.83660888671875,
+            333.02130126953125,
+            446.2806396484375
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F04",
+          "kind": "原刊图像单元",
+          "title": "宅旁阶梯、沟渠及挡墙2",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“宅旁阶梯、沟渠及挡墙2”",
+          "scope": "宅旁阶梯、沟渠及挡墙2",
+          "supports": [],
+          "boundary": "未具名宅旁环境；无量尺；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F04.png",
+          "crop_pdf_points": [
+            338.4441833496094,
+            289.8367004394531,
+            455.7772216796875,
+            446.2807312011719
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F05",
+          "kind": "原刊图像单元",
+          "title": "街巷与民居1",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“街巷与民居1”",
+          "scope": "街巷与民居1",
+          "supports": [],
+          "boundary": "未具名街巷/民居；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F05.png",
+          "crop_pdf_points": [
+            461.2000427246094,
+            289.83642578125,
+            578.5330810546875,
+            446.2804870605469
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F06",
+          "kind": "原刊图像单元",
+          "title": "民居建筑组团",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“民居建筑组团”",
+          "scope": "民居建筑组团",
+          "supports": [],
+          "boundary": "组团；成员和边界未列；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F06.png",
+          "crop_pdf_points": [
+            216.8499298095703,
+            462.35406494140625,
+            456.4828186035156,
+            614.00048828125
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F07",
+          "kind": "原刊图像单元",
+          "title": "街巷与民居2",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“街巷与民居2”",
+          "scope": "街巷与民居2",
+          "supports": [],
+          "boundary": "未具名街巷/民居；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F07.png",
+          "crop_pdf_points": [
+            461.20001220703125,
+            461.6296081542969,
+            578.25,
+            614.0170288085938
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F08",
+          "kind": "原刊图像单元",
+          "title": "组合形成内院的一字型民居",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“组合形成内院的一字型民居”",
+          "scope": "组合形成内院的一字型民居",
+          "supports": [],
+          "boundary": "户型候选；未具名；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F08.png",
+          "crop_pdf_points": [
+            217.9219512939453,
+            628.9834594726562,
+            456.48321533203125,
+            725.9569702148438
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F09",
+          "kind": "原刊图像单元",
+          "title": "独栋一字型民居及条状前院",
+          "pdf_page": 1,
+          "locator": "PDF第1页，题注“独栋一字型民居及条状前院”",
+          "scope": "独栋一字型民居及条状前院",
+          "supports": [],
+          "boundary": "未具名；不可据图版估尺寸；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F09.png",
+          "crop_pdf_points": [
+            461.2000732421875,
+            629.994140625,
+            579.6578979492188,
+            724.9547729492188
+          ],
+          "derived_from": "PIW7KR8U:PDF1",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=1"
+        },
+        {
+          "id": "M008-F10",
+          "kind": "原刊图像单元",
+          "title": "一字型民居条状后院和鱼塘",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“一字型民居条状后院和鱼塘”",
+          "scope": "一字型民居条状后院和鱼塘",
+          "supports": [],
+          "boundary": "未具名住宅/院落；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F10.png",
+          "crop_pdf_points": [
+            226.7498321533203,
+            31.209945678710938,
+            401.43603515625,
+            164.41546630859375
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F11",
+          "kind": "原刊图像单元",
+          "title": "民居屋架与覆瓦",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“民居屋架与覆瓦”",
+          "scope": "民居屋架与覆瓦",
+          "supports": [],
+          "boundary": "构造局部；未具名住宅；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F11.png",
+          "crop_pdf_points": [
+            405.3625183105469,
+            31.2100830078125,
+            583.25634765625,
+            164.41558837890625
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F12",
+          "kind": "原刊图像单元",
+          "title": "蓝姓族长的四合院民居",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“蓝姓族长的四合院民居”",
+          "scope": "蓝姓族长的四合院民居",
+          "supports": [],
+          "boundary": "具体宅名候选；未证与蓝文成家/史图博旧居/省保四幢相同；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F12.png",
+          "crop_pdf_points": [
+            226.7500762939453,
+            181.068603515625,
+            448.73358154296875,
+            347.55621337890625
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F13",
+          "kind": "原刊图像单元",
+          "title": "民居二层供位",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“民居二层供位”",
+          "scope": "民居二层供位",
+          "supports": [],
+          "boundary": "房间/构件；住宅未具名；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F13.png",
+          "crop_pdf_points": [
+            453.3714294433594,
+            181.06837463378906,
+            580.7344360351562,
+            347.55596923828125
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F14",
+          "kind": "原刊图像单元",
+          "title": "民居外墙更新的畲族彩带纹饰",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“民居外墙更新的畲族彩带纹饰”",
+          "scope": "民居外墙更新的畲族彩带纹饰",
+          "supports": [],
+          "boundary": "更新墙面装饰；未具名住宅；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F14.png",
+          "crop_pdf_points": [
+            226.74984741210938,
+            363.4668884277344,
+            400.40179443359375,
+            480.0639343261719
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F15",
+          "kind": "原刊图像单元",
+          "title": "四合院民居的木梁雕刻",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“四合院民居的木梁雕刻”",
+          "scope": "四合院民居的木梁雕刻",
+          "supports": [],
+          "boundary": "未具名四合院；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F15.png",
+          "crop_pdf_points": [
+            406.0645751953125,
+            363.4873352050781,
+            579.716552734375,
+            481.0641784667969
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F16",
+          "kind": "原刊图像单元",
+          "title": "檐柱牛腿木雕",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“檐柱牛腿木雕”",
+          "scope": "檐柱牛腿木雕",
+          "supports": [],
+          "boundary": "未具名住宅构件；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F16.png",
+          "crop_pdf_points": [
+            226.74986267089844,
+            496.99993896484375,
+            342.980712890625,
+            657.9375
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F17",
+          "kind": "原刊图像单元",
+          "title": "四合院民居夯土墙上挑檐",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“四合院民居夯土墙上挑檐”",
+          "scope": "四合院民居夯土墙上挑檐",
+          "supports": [],
+          "boundary": "未具名四合院构件；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F17.png",
+          "crop_pdf_points": [
+            346.9577941894531,
+            495.99749755859375,
+            478.504150390625,
+            573.5066528320312
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F18",
+          "kind": "原刊图像单元",
+          "title": "畲族传统纺织工具",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“畲族传统纺织工具”",
+          "scope": "畲族传统纺织工具",
+          "supports": [],
+          "boundary": "非住宅建筑图像，保留文化背景用途；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F18.png",
+          "crop_pdf_points": [
+            347.9602966308594,
+            586.8102416992188,
+            478.50433349609375,
+            658.9530029296875
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        },
+        {
+          "id": "M008-F19",
+          "kind": "原刊图像单元",
+          "title": "畲族传统纺织技艺",
+          "pdf_page": 2,
+          "locator": "PDF第2页，题注“畲族传统纺织技艺”",
+          "scope": "畲族传统纺织技艺",
+          "supports": [],
+          "boundary": "非住宅建筑图像，保留文化背景用途；无独立拍摄日期；不得推计建筑数",
+          "asset": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F19.png",
+          "crop_pdf_points": [
+            483.4415283203125,
+            496.0250244140625,
+            582.0016479492188,
+            658.6160888671875
+          ],
+          "derived_from": "PIW7KR8U:PDF2",
+          "review_status": "本轮原页核图及题注，裁切衍生，不是新独立来源",
+          "source_key": "PIW7KR8U",
+          "source_link": "zotero://open-pdf/library/items/N9ALJ8SM?page=2"
+        }
+      ],
+      "claims": [
+        {
+          "id": "PIW7KR8U:T01:C",
+          "material_id": "PIW7KR8U:T01",
+          "pdf_page": 1,
+          "locator": "PDF第1页，§1 村落概况",
+          "text": "作者报告畲族人口占97%、以蓝姓为主，建筑约50栋、多为传统风貌民居。",
+          "attribution": "作者报告",
+          "object": "村落整体",
+          "knowledge_use": "来源限定的统计陈述",
+          "boundary": "分母、调查日及逐栋名单未给；约50不是保护四幢、不是2026现存量。"
+        },
+        {
+          "id": "PIW7KR8U:T02:C",
+          "material_id": "PIW7KR8U:T02",
+          "pdf_page": 1,
+          "locator": "PDF第1页，§1 房谱迁徙记载",
+          "text": "作者据《汝南郡蓝氏房谱》叙述1584年迁至张村及暮洋湖、1674年来敕木山垦荒、1698年开基则民丘。",
+          "attribution": "作者转述房谱",
+          "object": "村落聚居史叙述",
+          "knowledge_use": "保存二手历史资料链",
+          "boundary": "房谱原件本轮未读；文献归档不意味着恢复D07时序分析。"
+        },
+        {
+          "id": "PIW7KR8U:T03:C",
+          "material_id": "PIW7KR8U:T03",
+          "pdf_page": 1,
+          "locator": "PDF第1页，§2 山地与水脉",
+          "text": "作者描述村落位于北峡谷东向坡地，三溪向东汇合；民居分布各台地，古道沿溪或跨沟渠，寨墙用于挡土、分界、防御，道路、公共空间、建筑与水池依溪沟组织为树状结构。",
+          "attribution": "作者报告",
+          "object": "村落—水系—道路—宅院",
+          "knowledge_use": "提出有来源的关系候选：依托、流向、联系；供未来空间核对",
+          "boundary": "不是拓扑实测；缺坐标、成员、完整网络，不能据此建立每户连接。"
+        },
+        {
+          "id": "PIW7KR8U:T04:C",
+          "material_id": "PIW7KR8U:T04",
+          "pdf_page": 1,
+          "locator": "PDF第1页，§2 海拔与高差",
+          "text": "平均海拔约700m；东侧入口至西北最高宅基地的高差为82m。",
+          "attribution": "作者报告",
+          "object": "村落入口与最高宅基地",
+          "knowledge_use": "有端点口径的作者报告值",
+          "boundary": "测量基准和方法未载，不能当模型量测；不把82m赋给任意两栋民居。"
+        },
+        {
+          "id": "PIW7KR8U:T05:C",
+          "material_id": "PIW7KR8U:T05",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§3 前后院与水流",
+          "text": "文中多数民居东西朝向、条状前后院与建筑平行；前院朝东作为入口且常设牲畜圈栏，后院朝西临厨房，院墙往往借岩壁或上层台地挡土墙；竹竿引山水入池，再经宅院到水渠和梯田。",
+          "attribution": "作者报告",
+          "object": "类型层：住宅—前院—后院—厨房—鱼池—水渠",
+          "knowledge_use": "可记录空间用途及供水链，先保留类型模式而非实例化每户",
+          "boundary": "无逐栋对应和测量图；建筑朝向、前后院与水池不可分配给全部照片对象。"
+        },
+        {
+          "id": "PIW7KR8U:T06:C",
+          "material_id": "PIW7KR8U:T06",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§3 水池养鱼用途",
+          "text": "作者转述村民说法：养鱼用于鉴定水质、防御危害，而非食用。",
+          "attribution": "作者转述村民解释",
+          "object": "类型层鱼池",
+          "knowledge_use": "用途解释与物理可见对象分开保存",
+          "boundary": "不是已验证水质检测效能，也不是全部鱼池唯一用途。"
+        },
+        {
+          "id": "PIW7KR8U:T07:C",
+          "material_id": "PIW7KR8U:T07",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§3 形制与空间功能",
+          "text": "作者概括多为一字型两层、3至5开间、三进深，另有两座八开间；前披檐、悬山双坡顶；二楼中间祖宗神位，两侧卧室与粮储。",
+          "attribution": "作者报告",
+          "object": "住宅类型及两个未具名八开间对象线索",
+          "knowledge_use": "保留原分类词和条件性空间用途，不造两栋唯一ID",
+          "boundary": "内部构架信息仅作文献储备，不恢复暂停模块；分母、个体对应未载。"
+        },
+        {
+          "id": "PIW7KR8U:T08:C",
+          "material_id": "PIW7KR8U:T08",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§3 蓝姓族长四合院",
+          "text": "作者明确将村内低处的四合院描述为蓝姓族长旧居，并称史图博与李化民1929年曾住于此。",
+          "attribution": "作者报告",
+          "object": "蓝姓族长四合院候选",
+          "knowledge_use": "同篇内四合院—历史居住叙事可以关联",
+          "boundary": "与2012民居1号、蓝文成家、28号、2013门楼尚无跨来源唯一身份依据。"
+        },
+        {
+          "id": "PIW7KR8U:T09:C",
+          "material_id": "PIW7KR8U:T09",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§4—5 文化与保护建议",
+          "text": "作者记录彩带纹用于民居更新、纺织及民歌传承，主张保护水脉—古道体系，并建议闲置民居用于文化交流。",
+          "attribution": "作者报告与规范性建议（分用途阅读）",
+          "object": "村落文化及建议",
+          "knowledge_use": "保留装饰语义、活动和规划建议的不同归属",
+          "boundary": "建议不是已实施用途；声景光景描述不恢复人的感知研究。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [],
+      "attachment": "N9ALJ8SM",
+      "pdf": "/Users/wangyuelin/Zotero/storage/N9ALJ8SM/张云和都铭 - 2025 - 浙江省丽水市景宁县敕木山村 国家历史文化名城研究中心历史街区调研.pdf",
+      "sha256": "2b03a9666fef818846c9ab2ece55ab2fd246173e1d26d71bebe100249c9055ac",
+      "pages": 2,
+      "chars": 3114,
+      "pages_read": [
+        1,
+        2
+      ],
+      "reading_status": "主会话全文文字核读；图像核看页另列，不等于全部被引原典核读",
+      "source_link": "zotero://select/library/items/PIW7KR8U"
+    },
+    {
+      "key": "VQRBWRBF",
+      "title": "浙江畲族80年文化变迁——《浙江景宁县敕木山畲民调查记》回访调查",
+      "authors": [
+        "何孝辉"
+      ],
+      "year": "2012",
+      "scope": "敕木山村为主，另比较大张坑和东弄",
+      "contribution": "从饮食、服饰、建筑、民歌四方面回访，讨论政策与社会经济对文化变迁及传承的影响。",
+      "method": "短期田野观察、访谈/摄影、历史调查记的对读，跨村比较。",
+      "limitations": "调查日期写2012-07-14至19又称五天，本轮原样保留；跨村排列为发展直线是作者解释，非纵向追踪证据。",
+      "visual_pages": [
+        3,
+        4
+      ],
+      "imprint": "丽水学院学报 34(6):48–53；PDF页+47=印刷页",
+      "materials": [
+        {
+          "id": "VQRBWRBF:T01",
+          "kind": "正文段落",
+          "title": "调查范围与方法",
+          "pdf_page": 2,
+          "locator": "PDF第2页，调查范围与方法",
+          "scope": "调查活动",
+          "supports": [
+            "VQRBWRBF:T01:C"
+          ],
+          "boundary": "文中称五天，与所列日期有口径疑点；不能自行改成六天。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=2"
+        },
+        {
+          "id": "VQRBWRBF:T02",
+          "kind": "正文段落",
+          "title": "饮食与农业",
+          "pdf_page": 2,
+          "locator": "PDF第2页，饮食与农业",
+          "scope": "敕木山村生产生活",
+          "supports": [
+            "VQRBWRBF:T02:C"
+          ],
+          "boundary": "不是逐地块调查；同页大张坑餐食不转归敕木山。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=2"
+        },
+        {
+          "id": "VQRBWRBF:T03",
+          "kind": "正文段落",
+          "title": "服饰与技艺",
+          "pdf_page": 3,
+          "locator": "PDF第3页，服饰与技艺",
+          "scope": "来源时点技艺状态",
+          "supports": [
+            "VQRBWRBF:T03:C"
+          ],
+          "boundary": "与2025称村内有传承人的表述并列；不能判定真实消失或自动推断恢复。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=3"
+        },
+        {
+          "id": "VQRBWRBF:T04",
+          "kind": "正文段落",
+          "title": "建筑概况",
+          "pdf_page": 3,
+          "locator": "PDF第3页，建筑概况",
+          "scope": "敕木山住宅概括",
+          "supports": [
+            "VQRBWRBF:T04:C"
+          ],
+          "boundary": "不是所有住宅属性；内部构架仅作原文储备；与2025前后院概括的差异待口径核查。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=3"
+        },
+        {
+          "id": "VQRBWRBF:T05",
+          "kind": "正文段落",
+          "title": "蓝村长家与民居1号",
+          "pdf_page": 4,
+          "locator": "PDF4／印刷51左栏第2段",
+          "scope": "文献中的民居1号候选",
+          "supports": [
+            "VQRBWRBF:T05:C"
+          ],
+          "boundary": "这比笼统旧居线索更强，但未独立核验档案；不等于28号或2025四合院已跨源对齐。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=4"
+        },
+        {
+          "id": "VQRBWRBF:T06",
+          "kind": "正文段落",
+          "title": "村委办公楼及住宅装饰",
+          "pdf_page": 4,
+          "locator": "PDF第4页，村委办公楼及住宅装饰",
+          "scope": "村委办公楼及未具名修缮住宅",
+          "supports": [
+            "VQRBWRBF:T06:C"
+          ],
+          "boundary": "办公楼不是传统民居样本；未给房间边界或各住宅身份。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=4"
+        },
+        {
+          "id": "VQRBWRBF:T07",
+          "kind": "正文段落",
+          "title": "跨村建筑文化比较",
+          "pdf_page": 4,
+          "locator": "PDF第4页，跨村建筑文化比较",
+          "scope": "三村比较",
+          "supports": [
+            "VQRBWRBF:T07:C"
+          ],
+          "boundary": "横向对照不能直接当同一村的演变序列；本轮不恢复D07。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=4"
+        },
+        {
+          "id": "VQRBWRBF:T08",
+          "kind": "正文段落",
+          "title": "民歌分类与演唱",
+          "pdf_page": 4,
+          "locator": "PDF第4页，民歌分类与演唱",
+          "scope": "歌类与村落文化实践",
+          "supports": [
+            "VQRBWRBF:T08:C"
+          ],
+          "boundary": "分类是本文采用，不是建筑类型；具体演唱场所未在该段明确。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=4"
+        },
+        {
+          "id": "VQRBWRBF:T09",
+          "kind": "正文段落",
+          "title": "山歌选及广场活动",
+          "pdf_page": 5,
+          "locator": "PDF第5页，山歌选及广场活动",
+          "scope": "文献中歌本、歌舞队及村委会前广场",
+          "supports": [
+            "VQRBWRBF:T09:C"
+          ],
+          "boundary": "歌本原件未取得；不能把村委会前广场自动合并为2015文中畲族文化广场。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=5"
+        },
+        {
+          "id": "VQRBWRBF:T10",
+          "kind": "正文段落",
+          "title": "变迁原因讨论",
+          "pdf_page": 5,
+          "locator": "PDF第5页，变迁原因讨论",
+          "scope": "文化变迁解释",
+          "supports": [
+            "VQRBWRBF:T10:C"
+          ],
+          "boundary": "没有独立因果识别或全体样本验证；不当确定因果边。",
+          "source_key": "VQRBWRBF",
+          "source_link": "zotero://open-pdf/library/items/DAJ6JURK?page=5"
+        }
+      ],
+      "claims": [
+        {
+          "id": "VQRBWRBF:T01:C",
+          "material_id": "VQRBWRBF:T01",
+          "pdf_page": 2,
+          "locator": "PDF第2页，调查范围与方法",
+          "text": "作者记录调查日期2012年7月14日至19日，涉及环境、习俗、民歌、手工技艺、建筑与服饰，负责摄影。",
+          "attribution": "作者报告",
+          "object": "调查活动",
+          "knowledge_use": "将调查时点和出版年分开",
+          "boundary": "文中称五天，与所列日期有口径疑点；不能自行改成六天。"
+        },
+        {
+          "id": "VQRBWRBF:T02:C",
+          "material_id": "VQRBWRBF:T02",
+          "pdf_page": 2,
+          "locator": "PDF第2页，饮食与农业",
+          "text": "作者记录茶园扩大、部分粮田改种茶、菜园与购买食品并用，并以自述进餐观察讨论生活变化。",
+          "attribution": "作者报告",
+          "object": "敕木山村生产生活",
+          "knowledge_use": "农业土地利用与住宅生活的背景知识",
+          "boundary": "不是逐地块调查；同页大张坑餐食不转归敕木山。"
+        },
+        {
+          "id": "VQRBWRBF:T03:C",
+          "material_id": "VQRBWRBF:T03",
+          "pdf_page": 3,
+          "locator": "PDF第3页，服饰与技艺",
+          "text": "作者报告敕木山和大张坑基本无人会织彩带，服饰主要用于表演或来客展示；东弄另有传承人访谈。",
+          "attribution": "作者报告",
+          "object": "来源时点技艺状态",
+          "knowledge_use": "文化实践/知识传承背景，保留跨村范围",
+          "boundary": "与2025称村内有传承人的表述并列；不能判定真实消失或自动推断恢复。"
+        },
+        {
+          "id": "VQRBWRBF:T04:C",
+          "material_id": "VQRBWRBF:T04",
+          "pdf_page": 3,
+          "locator": "PDF第3页，建筑概况",
+          "text": "作者称住宅依陡坡分布、少有房前院；碎石墙基、两端泥墙、木柱薄板、二层栏杆走廊和瓦檐。",
+          "attribution": "作者报告",
+          "object": "敕木山住宅概括",
+          "knowledge_use": "形制/外廊/表层材料的类型词汇",
+          "boundary": "不是所有住宅属性；内部构架仅作原文储备；与2025前后院概括的差异待口径核查。"
+        },
+        {
+          "id": "VQRBWRBF:T05:C",
+          "material_id": "VQRBWRBF:T05",
+          "pdf_page": 4,
+          "locator": "PDF4／印刷51左栏第2段",
+          "text": "作者明确称1929年蓝村长家为敕木山畲族民居1号；并报告四座民居捆绑命名为敕木山畲族民居、列第六批古建筑类省级文保。1号2012年初抢救维修，7月调查时尚未完工。",
+          "attribution": "作者报告",
+          "object": "文献中的民居1号候选",
+          "knowledge_use": "同篇有明文的名称对应和维修记录；可以追问保护档案编号",
+          "boundary": "这比笼统旧居线索更强，但未独立核验档案；不等于28号或2025四合院已跨源对齐。"
+        },
+        {
+          "id": "VQRBWRBF:T06:C",
+          "material_id": "VQRBWRBF:T06",
+          "pdf_page": 4,
+          "locator": "PDF第4页，村委办公楼及住宅装饰",
+          "text": "作者报告村委两层办公楼设办公室、会议室、值班室、文化娱乐室、乡村书屋、卫生间；民居修缮包括墙面凤凰图案/彩带及二层栏杆瓦檐。",
+          "attribution": "作者报告",
+          "object": "村委办公楼及未具名修缮住宅",
+          "knowledge_use": "功能归属与装饰记录",
+          "boundary": "办公楼不是传统民居样本；未给房间边界或各住宅身份。"
+        },
+        {
+          "id": "VQRBWRBF:T07:C",
+          "material_id": "VQRBWRBF:T07",
+          "pdf_page": 4,
+          "locator": "PDF第4页，跨村建筑文化比较",
+          "text": "作者把大张坑、敕木山、东弄新村分别作为传统、变迁、趋同化的比较位置。",
+          "attribution": "作者解释",
+          "object": "三村比较",
+          "knowledge_use": "保存作者比较框架及判断",
+          "boundary": "横向对照不能直接当同一村的演变序列；本轮不恢复D07。"
+        },
+        {
+          "id": "VQRBWRBF:T08:C",
+          "material_id": "VQRBWRBF:T08",
+          "pdf_page": 4,
+          "locator": "PDF第4页，民歌分类与演唱",
+          "text": "作者按内容、形式及场合分欢乐歌、祭祀/悼念歌、传师学师丙歌，并记四位老人演唱《高皇歌》。",
+          "attribution": "作者报告",
+          "object": "歌类与村落文化实践",
+          "knowledge_use": "分类判据可借鉴：对象/内容/场合分维度",
+          "boundary": "分类是本文采用，不是建筑类型；具体演唱场所未在该段明确。"
+        },
+        {
+          "id": "VQRBWRBF:T09:C",
+          "material_id": "VQRBWRBF:T09",
+          "pdf_page": 5,
+          "locator": "PDF第5页，山歌选及广场活动",
+          "text": "作者记录雷汤花2011年整理《畲族山歌选》及供稿者；观察妇女在村委会前广场跳舞，并记学习民歌。",
+          "attribution": "作者报告",
+          "object": "文献中歌本、歌舞队及村委会前广场",
+          "knowledge_use": "材料→歌本线索；活动→发生场所的限定关联",
+          "boundary": "歌本原件未取得；不能把村委会前广场自动合并为2015文中畲族文化广场。"
+        },
+        {
+          "id": "VQRBWRBF:T10:C",
+          "material_id": "VQRBWRBF:T10",
+          "pdf_page": 5,
+          "locator": "PDF第5页，变迁原因讨论",
+          "text": "作者将政府政策和经济发展分别解释为较直接和间接的作用因素。",
+          "attribution": "作者解释",
+          "object": "文化变迁解释",
+          "knowledge_use": "保留作者理论化路径：观察—比较—因果解释",
+          "boundary": "没有独立因果识别或全体样本验证；不当确定因果边。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [],
+      "attachment": "DAJ6JURK",
+      "pdf": "/Users/wangyuelin/Zotero/storage/DAJ6JURK/何孝辉 - 2012 - 浙江畲族80年文化变迁——《浙江景宁县敕木山畲民调查记》回访调查.pdf",
+      "sha256": "abc08e6dda9deb014edbae3bfc7932a7106bb567700ae300f1e093671b8280a5",
+      "pages": 6,
+      "chars": 11277,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reading_status": "主会话全文文字核读；图像核看页另列，不等于全部被引原典核读",
+      "source_link": "zotero://select/library/items/VQRBWRBF"
+    },
+    {
+      "key": "44AKWLBL",
+      "title": "景宁敕木山畲民生活现状调查——基于史图博《浙江景宁敕木山畲民调查记》的比较",
+      "authors": [
+        "钟梦迪"
+      ],
+      "year": "2015",
+      "scope": "2014年6月10日至19日敕木山村回访",
+      "contribution": "以生活水平、民族性格、政府行为、畲汉交往组织观察，讨论文化自觉与保护发展的平衡。",
+      "method": "10天参与观察、住户访问、一次满月宴观察及历史记述比较；有具体场所和设施叙述。",
+      "limitations": "没有系统的逐栋测绘与样本表；群体性格/社会进步判断是作者解释；健康等传闻不得作为医学事实。",
+      "visual_pages": [
+        6
+      ],
+      "imprint": "非物质文化遗产研究集刊，题录2015，pp.284–291；PDF页+283=印刷页",
+      "materials": [
+        {
+          "id": "44AKWLBL:T01",
+          "kind": "正文段落",
+          "title": "回访方法",
+          "pdf_page": 2,
+          "locator": "PDF第2页，回访方法",
+          "scope": "田野调查",
+          "supports": [
+            "44AKWLBL:T01:C"
+          ],
+          "boundary": "历史调查记仅为二手引文，未读原件。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=2"
+        },
+        {
+          "id": "44AKWLBL:T02",
+          "kind": "正文段落",
+          "title": "书记家满月宴",
+          "pdf_page": 3,
+          "locator": "PDF第3页，书记家满月宴",
+          "scope": "书记家宴请活动（宅址未明）",
+          "supports": [
+            "44AKWLBL:T02:C"
+          ],
+          "boundary": "不要收集私人账簿细项或将户数/账簿名数当建筑数；不与1929蓝村长旧居合并。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=3"
+        },
+        {
+          "id": "44AKWLBL:T03",
+          "kind": "正文段落",
+          "title": "闲话广场",
+          "pdf_page": 3,
+          "locator": "PDF第3页，闲话广场",
+          "scope": "闲话广场称谓候选",
+          "supports": [
+            "44AKWLBL:T03:C"
+          ],
+          "boundary": "不能因名称近似自动合并为文化广场或村委广场。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=3"
+        },
+        {
+          "id": "44AKWLBL:T04",
+          "kind": "正文段落",
+          "title": "住房及外墙装饰",
+          "pdf_page": 4,
+          "locator": "PDF第4页，住房及外墙装饰",
+          "scope": "村级住宅状态概括",
+          "supports": [
+            "44AKWLBL:T04:C"
+          ],
+          "boundary": "未列逐栋；不代表2026状态，不能以新彩带纹替代传统木雕。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=4"
+        },
+        {
+          "id": "44AKWLBL:T05",
+          "kind": "正文段落",
+          "title": "村中心设施关系",
+          "pdf_page": 6,
+          "locator": "PDF6／印刷289，第三节",
+          "scope": "老年活动室—畲族文化广场",
+          "supports": [
+            "44AKWLBL:T05:C"
+          ],
+          "boundary": "“旁”是文字相对位置，不等于BOT共享界面的adjacentZone；未给坐标/共同边界。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=6"
+        },
+        {
+          "id": "44AKWLBL:T06",
+          "kind": "正文段落",
+          "title": "入口标识",
+          "pdf_page": 6,
+          "locator": "PDF第6页，入口标识",
+          "scope": "入村牌坊、村头景观石",
+          "supports": [
+            "44AKWLBL:T06:C"
+          ],
+          "boundary": "非传统民居实例；未给图纸，不能凭叙述恢复几何或现状。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=6"
+        },
+        {
+          "id": "44AKWLBL:T07",
+          "kind": "正文段落",
+          "title": "2011改造工程量",
+          "pdf_page": 6,
+          "locator": "PDF6／印刷289，第三节中段",
+          "scope": "2011叙述中的项目/住户及装饰统计",
+          "supports": [
+            "44AKWLBL:T07:C"
+          ],
+          "boundary": "不是47栋民居，22非凤凰纹类型数；缺清单/验收资料，不能分配到个体。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=6"
+        },
+        {
+          "id": "44AKWLBL:T08",
+          "kind": "正文段落",
+          "title": "家庭与畲汉交往",
+          "pdf_page": 7,
+          "locator": "PDF第7页，家庭与畲汉交往",
+          "scope": "家庭生活访谈",
+          "supports": [
+            "44AKWLBL:T08:C"
+          ],
+          "boundary": "样本有限；保留匿名/最小必要身份，不推广全体群体。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=7"
+        },
+        {
+          "id": "44AKWLBL:T09",
+          "kind": "正文段落",
+          "title": "文化自觉",
+          "pdf_page": 8,
+          "locator": "PDF第8页，文化自觉",
+          "scope": "解释框架",
+          "supports": [
+            "44AKWLBL:T09:C"
+          ],
+          "boundary": "不是建筑形态证据；引述费孝通定义仍须回原典核验。",
+          "source_key": "44AKWLBL",
+          "source_link": "zotero://open-pdf/library/items/P4CL4IVN?page=8"
+        }
+      ],
+      "claims": [
+        {
+          "id": "44AKWLBL:T01:C",
+          "material_id": "44AKWLBL:T01",
+          "pdf_page": 2,
+          "locator": "PDF第2页，回访方法",
+          "text": "作者明确本次回访为2014年6月10日至19日，共10天。",
+          "attribution": "作者报告",
+          "object": "田野调查",
+          "knowledge_use": "出版年与观察时点分离",
+          "boundary": "历史调查记仅为二手引文，未读原件。"
+        },
+        {
+          "id": "44AKWLBL:T02:C",
+          "material_id": "44AKWLBL:T02",
+          "pdf_page": 3,
+          "locator": "PDF第3页，书记家满月宴",
+          "text": "记录村支书家满月宴的备餐、宴请与账簿按来客村落分组；账上名字不等于实际人数。",
+          "attribution": "作者报告",
+          "object": "书记家宴请活动（宅址未明）",
+          "knowledge_use": "家庭空间的社会使用和跨村来往线索",
+          "boundary": "不要收集私人账簿细项或将户数/账簿名数当建筑数；不与1929蓝村长旧居合并。"
+        },
+        {
+          "id": "44AKWLBL:T03:C",
+          "material_id": "44AKWLBL:T03",
+          "pdf_page": 3,
+          "locator": "PDF第3页，闲话广场",
+          "text": "作者在教育讨论中提到村民在“闲话广场”聊天。",
+          "attribution": "作者报告",
+          "object": "闲话广场称谓候选",
+          "knowledge_use": "场所称谓和日常交往用途",
+          "boundary": "不能因名称近似自动合并为文化广场或村委广场。"
+        },
+        {
+          "id": "44AKWLBL:T04:C",
+          "material_id": "44AKWLBL:T04",
+          "pdf_page": 4,
+          "locator": "PDF第4页，住房及外墙装饰",
+          "text": "作者称老房子依山而建，经加固修缮、统一粉刷，外侧增添腰带花纹。",
+          "attribution": "作者报告",
+          "object": "村级住宅状态概括",
+          "knowledge_use": "外墙装饰的来源语境，不是原建年代证据",
+          "boundary": "未列逐栋；不代表2026状态，不能以新彩带纹替代传统木雕。"
+        },
+        {
+          "id": "44AKWLBL:T05:C",
+          "material_id": "44AKWLBL:T05",
+          "pdf_page": 6,
+          "locator": "PDF6／印刷289，第三节",
+          "text": "作者称村中心建老年活动室，2012年又在活动室旁建畲族文化广场，供唱歌、跳舞、聚会。",
+          "attribution": "作者报告",
+          "object": "老年活动室—畲族文化广场",
+          "knowledge_use": "可保存有出处的“旁”及活动场所关系",
+          "boundary": "“旁”是文字相对位置，不等于BOT共享界面的adjacentZone；未给坐标/共同边界。"
+        },
+        {
+          "id": "44AKWLBL:T06:C",
+          "material_id": "44AKWLBL:T06",
+          "pdf_page": 6,
+          "locator": "PDF第6页，入口标识",
+          "text": "作者报告盘山公路上的“敕木山畲族村寨”牌坊及村头景观石，并称牌坊由书记蓝华亮设计。",
+          "attribution": "作者报告",
+          "object": "入村牌坊、村头景观石",
+          "knowledge_use": "关联对象及标识文字/设计归属",
+          "boundary": "非传统民居实例；未给图纸，不能凭叙述恢复几何或现状。"
+        },
+        {
+          "id": "44AKWLBL:T07:C",
+          "material_id": "44AKWLBL:T07",
+          "pdf_page": 6,
+          "locator": "PDF6／印刷289，第三节中段",
+          "text": "作者报告47户的下屋檐、前廊、平面畲元素和栏杆改造，凤凰标志22个，墙腰彩带286米，服饰125套。",
+          "attribution": "作者报告",
+          "object": "2011叙述中的项目/住户及装饰统计",
+          "knowledge_use": "同时保留计量单位：户、个、米、套；是项目层原文数",
+          "boundary": "不是47栋民居，22非凤凰纹类型数；缺清单/验收资料，不能分配到个体。"
+        },
+        {
+          "id": "44AKWLBL:T08:C",
+          "material_id": "44AKWLBL:T08",
+          "pdf_page": 7,
+          "locator": "PDF第7页，家庭与畲汉交往",
+          "text": "作者通过入住书记家等经历讨论通婚、语言及家庭交往。",
+          "attribution": "作者报告",
+          "object": "家庭生活访谈",
+          "knowledge_use": "关联解释背景，不由民族称谓推导建筑形制",
+          "boundary": "样本有限；保留匿名/最小必要身份，不推广全体群体。"
+        },
+        {
+          "id": "44AKWLBL:T09:C",
+          "material_id": "44AKWLBL:T09",
+          "pdf_page": 8,
+          "locator": "PDF第8页，文化自觉",
+          "text": "作者用文化自觉解释文化符号再认识、自主保护和旅游机遇。",
+          "attribution": "作者解释",
+          "object": "解释框架",
+          "knowledge_use": "作者概念采用可供理解装饰意义和保护行动",
+          "boundary": "不是建筑形态证据；引述费孝通定义仍须回原典核验。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [],
+      "attachment": "P4CL4IVN",
+      "pdf": "/Users/wangyuelin/Zotero/storage/P4CL4IVN/钟梦迪 - 2015 - 景宁敕木山畲民生活现状调查——基于史图博《浙江景宁敕木山畲民调查记》的比较.pdf",
+      "sha256": "3f88dcc90c81f288c2cb301949a1c82274acae84066d2b52cc7c9aebe2e3aae0",
+      "pages": 8,
+      "chars": 6572,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "reading_status": "主会话全文文字核读；图像核看页另列，不等于全部被引原典核读",
+      "source_link": "zotero://select/library/items/44AKWLBL"
+    },
+    {
+      "key": "7KCJR9EB",
+      "title": "浙江景宁畲族传统民居卷草凤凰纹装饰研究",
+      "authors": [
+        "蓝法勤"
+      ],
+      "year": "2013",
+      "scope": "景宁及周边跨村木雕比较，敕木山直接图为图1和图6",
+      "contribution": "区分纹样形式与地方诠释，讨论装饰、厅空间使用和文化认同的关联。",
+      "method": "四段骨架分析、三类样式比较、构件位置比较、工匠/居民称谓访谈和民俗文献解释。",
+      "limitations": "地方访谈和异地比较不能证明所有畲族民居民族专属性；末页右栏含无关鼠标论文续文，已排除。",
+      "visual_pages": [
+        2,
+        3,
+        4
+      ],
+      "imprint": "设计艺术研究 3(1):94–99；PDF页+93=印刷页",
+      "materials": [
+        {
+          "id": "7KCJR9EB:F01",
+          "kind": "原刊图",
+          "title": "畲族卷草凤凰纹（敕木山村28号蓝姓畲族寮）",
+          "pdf_page": 2,
+          "locator": "PDF2／印刷95，图1",
+          "scope": "畲族卷草凤凰纹（敕木山村28号蓝姓畲族寮）",
+          "supports": [],
+          "boundary": "敕木山直接材料；纹样骨架示意，非住宅测绘；图像不是新建筑实例",
+          "review_status": "本轮原页核图",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=2"
+        },
+        {
+          "id": "7KCJR9EB:F02",
+          "kind": "原刊图",
+          "title": "汉族龙须纹（丽水市区谭宅）",
+          "pdf_page": 3,
+          "locator": "PDF3／印刷96，图2",
+          "scope": "汉族龙须纹（丽水市区谭宅）",
+          "supports": [],
+          "boundary": "异地比较，非敕木山；图像不是新建筑实例",
+          "review_status": "本轮原页核图",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=3"
+        },
+        {
+          "id": "7KCJR9EB:F03",
+          "kind": "原刊图",
+          "title": "凤头鹤嘴式（沙湾镇张坑村蓝凤新寮）",
+          "pdf_page": 3,
+          "locator": "PDF3／印刷96，图3",
+          "scope": "凤头鹤嘴式（沙湾镇张坑村蓝凤新寮）",
+          "supports": [],
+          "boundary": "异村比较；沙湾张坑不是东坑大张坑；图像不是新建筑实例",
+          "review_status": "本轮原页核图",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=3"
+        },
+        {
+          "id": "7KCJR9EB:F04",
+          "kind": "原刊图",
+          "title": "金鸡头式（大漈乡小佐村雷姓寮）",
+          "pdf_page": 3,
+          "locator": "PDF3／印刷96，图4",
+          "scope": "金鸡头式（大漈乡小佐村雷姓寮）",
+          "supports": [],
+          "boundary": "异村比较；图像不是新建筑实例",
+          "review_status": "本轮原页核图",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=3"
+        },
+        {
+          "id": "7KCJR9EB:F05",
+          "kind": "原刊图",
+          "title": "金鸡头式（大均乡大均村）",
+          "pdf_page": 3,
+          "locator": "PDF3／印刷96，图5",
+          "scope": "金鸡头式（大均乡大均村）",
+          "supports": [],
+          "boundary": "异村比较；图像不是新建筑实例",
+          "review_status": "本轮原页核图",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=3"
+        },
+        {
+          "id": "7KCJR9EB:F06",
+          "kind": "原刊图",
+          "title": "敕木山村蓝村长寮的门楼凤凰纹装饰",
+          "pdf_page": 3,
+          "locator": "PDF3／印刷96，图6",
+          "scope": "敕木山村蓝村长寮的门楼凤凰纹装饰",
+          "supports": [],
+          "boundary": "敕木山直接材料；门楼横梁局部；图像不是新建筑实例",
+          "review_status": "本轮原页核图",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=3"
+        },
+        {
+          "id": "7KCJR9EB:F07",
+          "kind": "原刊图",
+          "title": "大均富商李氏大屋纹样",
+          "pdf_page": 4,
+          "locator": "PDF4／印刷97，图7",
+          "scope": "大均富商李氏大屋纹样",
+          "supports": [],
+          "boundary": "异村比较；前后装饰秩序；图像不是新建筑实例",
+          "review_status": "本轮原页核图",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=4"
+        },
+        {
+          "id": "7KCJR9EB:F08",
+          "kind": "原刊图",
+          "title": "沙湾镇张坑村蓝凤新寮纹样",
+          "pdf_page": 4,
+          "locator": "PDF4／印刷97，图8",
+          "scope": "沙湾镇张坑村蓝凤新寮纹样",
+          "supports": [],
+          "boundary": "异村比较；图3同宅不同表达；图像不是新建筑实例",
+          "review_status": "本轮原页核图",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=4"
+        },
+        {
+          "id": "7KCJR9EB:T01",
+          "kind": "正文段落",
+          "title": "§1 四部分骨架",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§1 四部分骨架",
+          "scope": "纹样局部而非整栋住宅",
+          "supports": [
+            "7KCJR9EB:T01:C"
+          ],
+          "boundary": "旧资料图7是本地编排名，原刊为图1；原文28号不自动等于现门牌。",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=2"
+        },
+        {
+          "id": "7KCJR9EB:T02",
+          "kind": "正文段落",
+          "title": "§1 三类样式",
+          "pdf_page": [
+            2,
+            3
+          ],
+          "locator": "PDF第[2, 3]页，§1 三类样式",
+          "scope": "作者纹样分类方案",
+          "supports": [
+            "7KCJR9EB:T02:C"
+          ],
+          "boundary": "不是敕木山存在全部三型的证据，也不是几何自动分类已验证。",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=2"
+        },
+        {
+          "id": "7KCJR9EB:T03",
+          "kind": "正文段落",
+          "title": "§2 名称与诠释",
+          "pdf_page": 3,
+          "locator": "PDF第3页，§2 名称与诠释",
+          "scope": "纹样称谓及解释主体",
+          "supports": [
+            "7KCJR9EB:T03:C"
+          ],
+          "boundary": "访谈未给全体名单/日期；文化认同属于作者解释，不从照片直接推断。",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=3"
+        },
+        {
+          "id": "7KCJR9EB:T04",
+          "kind": "正文段落",
+          "title": "§2 蓝村长寮部位差异",
+          "pdf_page": 4,
+          "locator": "PDF第4页，§2 蓝村长寮部位差异",
+          "scope": "同一来源中的宅—前檐梁/门楼横梁",
+          "supports": [
+            "7KCJR9EB:T04:C"
+          ],
+          "boundary": "跨源宅址尚未对齐；不是把名称不同的两部位当不同住宅。",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=4"
+        },
+        {
+          "id": "7KCJR9EB:T05",
+          "kind": "正文段落",
+          "title": "§4 厅文化",
+          "pdf_page": 5,
+          "locator": "PDF第5页，§4 厅文化",
+          "scope": "区域性厅空间概括",
+          "supports": [
+            "7KCJR9EB:T05:C"
+          ],
+          "boundary": "不能套为敕木山每栋厅用途；内部构架仍仅文献储备。",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=5"
+        },
+        {
+          "id": "7KCJR9EB:T06",
+          "kind": "正文段落",
+          "title": "§5 象征性思维",
+          "pdf_page": 5,
+          "locator": "PDF第5页，§5 象征性思维",
+          "scope": "建筑装饰解释框架",
+          "supports": [
+            "7KCJR9EB:T06:C"
+          ],
+          "boundary": "需跨地域/跨群体比较；民族独有性未由本轮证实。",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=5"
+        },
+        {
+          "id": "7KCJR9EB:T07",
+          "kind": "正文段落",
+          "title": "地方梁与寮塞",
+          "pdf_page": 5,
+          "locator": "PDF第5页，地方梁与寮塞",
+          "scope": "区域/异村比较",
+          "supports": [
+            "7KCJR9EB:T07:C"
+          ],
+          "boundary": "地方梁不直接等同标准梁；区域概括，内部构架仅文献储备。",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=5"
+        },
+        {
+          "id": "7KCJR9EB:T08",
+          "kind": "正文段落",
+          "title": "同工匠跨宅雕刻",
+          "pdf_page": 2,
+          "locator": "PDF第2页，同工匠跨宅雕刻",
+          "scope": "区域/异村比较",
+          "supports": [
+            "7KCJR9EB:T08:C"
+          ],
+          "boundary": "三宅不合并，且非敕木山单体；工匠共同不证明民族寓意相同。",
+          "source_key": "7KCJR9EB",
+          "source_link": "zotero://open-pdf/library/items/PIHCARAE?page=2"
+        }
+      ],
+      "claims": [
+        {
+          "id": "7KCJR9EB:T01:C",
+          "material_id": "7KCJR9EB:T01",
+          "pdf_page": 2,
+          "locator": "PDF第2页，§1 四部分骨架",
+          "text": "作者将前檐梁正面的卷草凤凰纹分为起始、中间、末端、延展四部分，图1以敕木山28号为示意。",
+          "attribution": "作者报告",
+          "object": "纹样局部而非整栋住宅",
+          "knowledge_use": "分析单元可为构件表面的装饰区域；分段不自动独立建节点",
+          "boundary": "旧资料图7是本地编排名，原刊为图1；原文28号不自动等于现门牌。"
+        },
+        {
+          "id": "7KCJR9EB:T02:C",
+          "material_id": "7KCJR9EB:T02",
+          "pdf_page": [
+            2,
+            3
+          ],
+          "locator": "PDF第[2, 3]页，7KCJR9EB:T02",
+          "text": "作者分凤头鹤嘴、金鸡头、卷草与凤鸟结合三类；各图跨村，图6的敕木山蓝村长寮门楼用于说明第三类。",
+          "attribution": "作者报告",
+          "object": "作者纹样分类方案",
+          "knowledge_use": "可借鉴判据和异例组织，分类方案与实例归类分开",
+          "boundary": "不是敕木山存在全部三型的证据，也不是几何自动分类已验证。"
+        },
+        {
+          "id": "7KCJR9EB:T03:C",
+          "material_id": "7KCJR9EB:T03",
+          "pdf_page": 3,
+          "locator": "PDF第3页，§2 名称与诠释",
+          "text": "同类纹样在畲民/工匠叙述中称凤凰纹，在汉族受访者中称龙须纹；作者据此讨论象征意义。",
+          "attribution": "作者报告",
+          "object": "纹样称谓及解释主体",
+          "knowledge_use": "保留原词—讲述者角色—语境，形态同类不等于文化意义同一",
+          "boundary": "访谈未给全体名单/日期；文化认同属于作者解释，不从照片直接推断。"
+        },
+        {
+          "id": "7KCJR9EB:T04:C",
+          "material_id": "7KCJR9EB:T04",
+          "pdf_page": 4,
+          "locator": "PDF第4页，§2 蓝村长寮部位差异",
+          "text": "作者称蓝村长寮前檐梁是龙须纹，门楼横梁则为卷草凤凰纹，并以图6支持后者。",
+          "attribution": "作者报告",
+          "object": "同一来源中的宅—前檐梁/门楼横梁",
+          "knowledge_use": "先明确部位再归属性，不把局部纹样覆盖整栋",
+          "boundary": "跨源宅址尚未对齐；不是把名称不同的两部位当不同住宅。"
+        },
+        {
+          "id": "7KCJR9EB:T05:C",
+          "material_id": "7KCJR9EB:T05",
+          "pdf_page": 5,
+          "locator": "PDF第5页，§4 厅文化",
+          "text": "作者将厅解释为会客、家庭议事、对歌、婚嫁、祭祀等公共使用场所，并联系厅前檐梁重点装饰。",
+          "attribution": "作者解释及田野转述",
+          "object": "区域性厅空间概括",
+          "knowledge_use": "物理空间、活动用途、装饰部位及解释链分开",
+          "boundary": "不能套为敕木山每栋厅用途；内部构架仍仅文献储备。"
+        },
+        {
+          "id": "7KCJR9EB:T06:C",
+          "material_id": "7KCJR9EB:T06",
+          "pdf_page": 5,
+          "locator": "PDF第5页，§5 象征性思维",
+          "text": "作者将卷草凤凰纹解释为族群识别、图腾崇拜及文化适应融合的艺术表达。",
+          "attribution": "作者解释",
+          "object": "建筑装饰解释框架",
+          "knowledge_use": "保留作者理论与观察的衔接",
+          "boundary": "需跨地域/跨群体比较；民族独有性未由本轮证实。"
+        },
+        {
+          "id": "7KCJR9EB:T07:C",
+          "material_id": "7KCJR9EB:T07",
+          "pdf_page": 5,
+          "locator": "PDF第5页，地方梁与寮塞",
+          "text": "作者记录当地把厅中架在立柱上的檩木称梁、其他称寮塞，并比较装饰精细程度。",
+          "attribution": "作者报告",
+          "object": "地方梁与寮塞",
+          "knowledge_use": "术语与解释边界",
+          "boundary": "地方梁不直接等同标准梁；区域概括，内部构架仅文献储备。"
+        },
+        {
+          "id": "7KCJR9EB:T08:C",
+          "material_id": "7KCJR9EB:T08",
+          "pdf_page": 2,
+          "locator": "PDF第2页，同工匠跨宅雕刻",
+          "text": "作者报告李氏住宅、蓝凤新自宅及其兄弟住宅的纹样均出自蓝凤新，供跨族属/跨宅比较。",
+          "attribution": "作者报告",
+          "object": "同工匠跨宅雕刻",
+          "knowledge_use": "术语与解释边界",
+          "boundary": "三宅不合并，且非敕木山单体；工匠共同不证明民族寓意相同。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [],
+      "attachment": "PIHCARAE",
+      "pdf": "/Users/wangyuelin/Zotero/storage/PIHCARAE/蓝法勤 - 2013 - 浙江景宁畲族传统民居卷草凤凰纹装饰研究.pdf",
+      "sha256": "6b30cf06b88ef879e5e181d79d5933539afc6f086be7e44b63940b602a25b6e4",
+      "pages": 6,
+      "chars": 12025,
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "reading_status": "主会话全文文字核读；图像核看页另列，不等于全部被引原典核读",
+      "source_link": "zotero://select/library/items/7KCJR9EB"
+    },
+    {
+      "key": "QWR5IH33",
+      "attachment": "QFALYUYL",
+      "pdf": "/Users/wangyuelin/Zotero/storage/QFALYUYL/许宪隆和谢文强 - 2019 - 畲族传统服饰的文化功能及变迁——基于敕木山村的实证调查研究.pdf",
+      "sha256": "22b1ae506e6e3379ad1298b6c118998b908b44494d704bcf0f4906a48a23391d",
+      "pages": 6,
+      "chars": 12693,
+      "title": "畲族传统服饰的文化功能及变迁——基于敕木山村的实证调查研究",
+      "authors": [
+        "许宪隆",
+        "谢文强"
+      ],
+      "year": "2019",
+      "scope": "敕木山村田野材料与区域服饰文献并用",
+      "contribution": "把服饰外观、制作工艺和文化功能分别比较；提出实用、艺术、教育教化与个性化、标签性、展演功能的差别。",
+      "method": "实地调研、文献与匿名访谈结合，改革开放前后作为作者比较口径；全文未给具体田野日期和抽样表。",
+      "limitations": "文化功能及变化原因主要为定性解释；多栏提取有交错，关键语境依章节读；未对采访者缩写反查身份。",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "visual_pages": {
+        "版面目录核看": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ],
+        "结论": "未见图、照片或表格，保留文字材料；缩略图未逐字核验"
+      },
+      "reading_status": "主会话全文文字核读；图表按另列视觉覆盖核对，未核全部被引原典",
+      "materials": [
+        {
+          "id": "QWR5IH33:T01",
+          "kind": "正文段落",
+          "title": "村落范围与统计",
+          "pdf_page": 1,
+          "locator": "PDF第1页，村落范围与统计",
+          "scope": "敕木山村田野材料与区域服饰文献并用",
+          "supports": [
+            "QWR5IH33:T01:C"
+          ],
+          "boundary": "调查日期、分母清单未给；52平方公里等原值待更高精度原页/地方档案复核，本轮不采用其面积作空间范围。",
+          "source_key": "QWR5IH33",
+          "source_link": "zotero://open-pdf/library/items/QFALYUYL?page=1"
+        },
+        {
+          "id": "QWR5IH33:T02",
+          "kind": "正文段落",
+          "title": "传统服饰的三个观察维度",
+          "pdf_page": 2,
+          "locator": "PDF第2页，传统服饰的三个观察维度",
+          "scope": "敕木山村田野材料与区域服饰文献并用",
+          "supports": [
+            "QWR5IH33:T02:C"
+          ],
+          "boundary": "服饰分类不是建筑分类，不推出建筑构件定义。",
+          "source_key": "QWR5IH33",
+          "source_link": "zotero://open-pdf/library/items/QFALYUYL?page=2"
+        },
+        {
+          "id": "QWR5IH33:T03",
+          "kind": "正文段落",
+          "title": "传统文化功能",
+          "pdf_page": 3,
+          "locator": "PDF第3页，传统文化功能",
+          "scope": "敕木山村田野材料与区域服饰文献并用",
+          "supports": [
+            "QWR5IH33:T03:C"
+          ],
+          "boundary": "头冠结构描述部分转引史图博；未核原典，不能当本次实测。",
+          "source_key": "QWR5IH33",
+          "source_link": "zotero://open-pdf/library/items/QFALYUYL?page=3"
+        },
+        {
+          "id": "QWR5IH33:T04",
+          "kind": "正文段落",
+          "title": "技艺状态与当代服饰",
+          "pdf_page": 4,
+          "locator": "PDF第4页，技艺状态与当代服饰",
+          "scope": "敕木山村田野材料与区域服饰文献并用",
+          "supports": [
+            "QWR5IH33:T04:C"
+          ],
+          "boundary": "作者的“不复存在”未有全村名册支撑；不能据此裁定2026无传承人。",
+          "source_key": "QWR5IH33",
+          "source_link": "zotero://open-pdf/library/items/QFALYUYL?page=4"
+        },
+        {
+          "id": "QWR5IH33:T05",
+          "kind": "正文段落",
+          "title": "服饰展演与活动情境",
+          "pdf_page": 4,
+          "locator": "PDF第4页，服饰展演与活动情境",
+          "scope": "敕木山村田野材料与区域服饰文献并用",
+          "supports": [
+            "QWR5IH33:T05:C"
+          ],
+          "boundary": "未提供活动场地坐标，不把所有服饰活动定位到某一广场或住宅。",
+          "source_key": "QWR5IH33",
+          "source_link": "zotero://open-pdf/library/items/QFALYUYL?page=4"
+        },
+        {
+          "id": "QWR5IH33:T06",
+          "kind": "正文段落",
+          "title": "文化变迁解释",
+          "pdf_page": 5,
+          "locator": "PDF第5页，文化变迁解释",
+          "scope": "敕木山村田野材料与区域服饰文献并用",
+          "supports": [
+            "QWR5IH33:T06:C"
+          ],
+          "boundary": "未做因果识别或量化效果评价；不得把全体族群特质概括当无条件事实。",
+          "source_key": "QWR5IH33",
+          "source_link": "zotero://open-pdf/library/items/QFALYUYL?page=5"
+        }
+      ],
+      "claims": [
+        {
+          "id": "QWR5IH33:T01:C",
+          "material_id": "QWR5IH33:T01",
+          "pdf_page": 1,
+          "locator": "PDF第1页，村落范围与统计",
+          "text": "作者称辖敕木山、九重垟两个自然村，103户272人，畲族占98.9%；脚注称除特别标注外数据源于实地调研。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "村落范围与统计",
+          "knowledge_use": "行政/自然村与统计单位分别保留。",
+          "boundary": "调查日期、分母清单未给；52平方公里等原值待更高精度原页/地方档案复核，本轮不采用其面积作空间范围。"
+        },
+        {
+          "id": "QWR5IH33:T02:C",
+          "material_id": "QWR5IH33:T02",
+          "pdf_page": 2,
+          "locator": "PDF第2页，传统服饰的三个观察维度",
+          "text": "作者从颜色、纹样、制作工艺三方面描述传统服饰；服饰包含衣裳、鞋帽及装饰，不限于单一物件。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "传统服饰的三个观察维度",
+          "knowledge_use": "可借鉴整体—部件—装饰的粒度分离。",
+          "boundary": "服饰分类不是建筑分类，不推出建筑构件定义。"
+        },
+        {
+          "id": "QWR5IH33:T03:C",
+          "material_id": "QWR5IH33:T03",
+          "pdf_page": 3,
+          "locator": "PDF第3页，传统文化功能",
+          "text": "作者以实用、艺术、教育与教化三类功能组织解释，联系彩带、头冠纹样和家庭传授。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "传统文化功能",
+          "knowledge_use": "保存材料形式、用途与解释主体的区别。",
+          "boundary": "头冠结构描述部分转引史图博；未核原典，不能当本次实测。"
+        },
+        {
+          "id": "QWR5IH33:T04:C",
+          "material_id": "QWR5IH33:T04",
+          "pdf_page": 4,
+          "locator": "PDF第4页，技艺状态与当代服饰",
+          "text": "作者依据LXH等访谈称服饰多从市场购买，传统织布手艺衰退，并解释改良头冠从分体装配走向整体佩戴。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "技艺状态与当代服饰",
+          "knowledge_use": "与2012/2025技艺记载并列为有时点、有对象范围的陈述。",
+          "boundary": "作者的“不复存在”未有全村名册支撑；不能据此裁定2026无传承人。"
+        },
+        {
+          "id": "QWR5IH33:T05:C",
+          "material_id": "QWR5IH33:T05",
+          "pdf_page": 4,
+          "locator": "PDF第4页，服饰展演与活动情境",
+          "text": "作者以会议、三月三、婚礼及民歌比赛说明标签和文化展演功能，保留LXJ等匿名缩写。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "服饰展演与活动情境",
+          "knowledge_use": "文化符号要结合具体使用情境解释。",
+          "boundary": "未提供活动场地坐标，不把所有服饰活动定位到某一广场或住宅。"
+        },
+        {
+          "id": "QWR5IH33:T06:C",
+          "material_id": "QWR5IH33:T06",
+          "pdf_page": 5,
+          "locator": "PDF第5页，文化变迁解释",
+          "text": "作者把观念改变、外来文化与审美转变作为服饰功能变化原因，并借用文化变迁内外因视角。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "文化变迁解释",
+          "knowledge_use": "可作为解释框架备查，非当前建筑时序模块。",
+          "boundary": "未做因果识别或量化效果评价；不得把全体族群特质概括当无条件事实。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [],
+      "source_link": "zotero://select/library/items/QWR5IH33"
+    },
+    {
+      "key": "DMXMQDP5",
+      "attachment": "FU88YK32",
+      "pdf": "/Users/wangyuelin/Zotero/storage/FU88YK32/谢文强 - 2020 - 传统与现代：浙江畲族民歌新形式及变迁——基于敕木山村的实证调查研究.pdf",
+      "sha256": "997ff46cd616840c7e93af155c5c319cd473d4478a2b69154a0183eb2d63495d",
+      "pages": 5,
+      "chars": 9914,
+      "title": "传统与现代：浙江畲族民歌新形式及变迁——基于敕木山村的实证调查研究",
+      "authors": [
+        "谢文强"
+      ],
+      "year": "2020",
+      "scope": "2018年6月敕木山村调查，含文献与匿名访谈",
+      "contribution": "把媒介、表达方式、场所、组织、功能和职业化区分为六方面民歌形式变化，解释新媒体和组织作用。",
+      "method": "2018年6月田野调查，观察、文献和LXJ/LSG/LXH等匿名访谈；包含微信对歌转录。",
+      "limitations": "没有系统问卷和活动频率样本；正文“6个民歌队”与后文“艺术队6组、其中列出3种民歌队”口径不完全相同。",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "visual_pages": {
+        "版面目录核看": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "结论": "未见图表；微信对歌是正文转录而非聊天截图，未复制长段歌词"
+      },
+      "reading_status": "主会话全文文字核读；图表按另列视觉覆盖核对，未核全部被引原典",
+      "materials": [
+        {
+          "id": "DMXMQDP5:T01",
+          "kind": "正文段落",
+          "title": "研究时点与村落范围",
+          "pdf_page": 2,
+          "locator": "PDF第2页，研究时点与村落范围",
+          "scope": "2018年6月敕木山村调查，含文献与匿名访谈",
+          "supports": [
+            "DMXMQDP5:T01:C"
+          ],
+          "boundary": "两篇同作者/同数字可能共用资料，不作为独立统计互证；2018不是2020或2026现状。",
+          "source_key": "DMXMQDP5",
+          "source_link": "zotero://open-pdf/library/items/FU88YK32?page=2"
+        },
+        {
+          "id": "DMXMQDP5:T02",
+          "kind": "正文段落",
+          "title": "媒介与表达方式",
+          "pdf_page": 3,
+          "locator": "PDF第3页，媒介与表达方式",
+          "scope": "2018年6月敕木山村调查，含文献与匿名访谈",
+          "supports": [
+            "DMXMQDP5:T02:C"
+          ],
+          "boundary": "歌词中“家堂”“哥寮”等不能当真实宅址、住宅名称或空间测绘事实；不扩取私人群聊。",
+          "source_key": "DMXMQDP5",
+          "source_link": "zotero://open-pdf/library/items/FU88YK32?page=3"
+        },
+        {
+          "id": "DMXMQDP5:T03",
+          "kind": "正文段落",
+          "title": "文化广场与三月三",
+          "pdf_page": 4,
+          "locator": "PDF第4页，文化广场与三月三",
+          "scope": "2018年6月敕木山村调查，含文献与匿名访谈",
+          "supports": [
+            "DMXMQDP5:T03:C"
+          ],
+          "boundary": "未给正式场地名称、位置和具体活动日；暂不合并2012村委广场/2015闲话广场。",
+          "source_key": "DMXMQDP5",
+          "source_link": "zotero://open-pdf/library/items/FU88YK32?page=4"
+        },
+        {
+          "id": "DMXMQDP5:T04",
+          "kind": "正文段落",
+          "title": "组织与排练",
+          "pdf_page": 4,
+          "locator": "PDF第4页，组织与排练",
+          "scope": "2018年6月敕木山村调查，含文献与匿名访谈",
+          "supports": [
+            "DMXMQDP5:T04:C"
+          ],
+          "boundary": "不是每月五次活动；排练场所未明示；6队/6组的叙述差异保留。",
+          "source_key": "DMXMQDP5",
+          "source_link": "zotero://open-pdf/library/items/FU88YK32?page=4"
+        },
+        {
+          "id": "DMXMQDP5:T05",
+          "kind": "正文段落",
+          "title": "生活与民歌功能",
+          "pdf_page": 4,
+          "locator": "PDF第4页，生活与民歌功能",
+          "scope": "2018年6月敕木山村调查，含文献与匿名访谈",
+          "supports": [
+            "DMXMQDP5:T05:C"
+          ],
+          "boundary": "群体概括不分配到每栋住宅；经济补贴是个别受访者报告，非统一标准。",
+          "source_key": "DMXMQDP5",
+          "source_link": "zotero://open-pdf/library/items/FU88YK32?page=4"
+        },
+        {
+          "id": "DMXMQDP5:T06",
+          "kind": "正文段落",
+          "title": "原因解释及边界",
+          "pdf_page": 5,
+          "locator": "PDF第5页，原因解释及边界",
+          "scope": "2018年6月敕木山村调查，含文献与匿名访谈",
+          "supports": [
+            "DMXMQDP5:T06:C"
+          ],
+          "boundary": "田间到广场是作者归纳，不证明活动互斥替代；不恢复D07时序或D08感知。",
+          "source_key": "DMXMQDP5",
+          "source_link": "zotero://open-pdf/library/items/FU88YK32?page=5"
+        }
+      ],
+      "claims": [
+        {
+          "id": "DMXMQDP5:T01:C",
+          "material_id": "DMXMQDP5:T01",
+          "pdf_page": 2,
+          "locator": "PDF第2页，研究时点与村落范围",
+          "text": "作者明确2018年6月到敕木山村调查；村情段同列两个自然村、103户272人及98.9%。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "研究时点与村落范围",
+          "knowledge_use": "本篇可以给调查时点，但不能反向替2019服饰文献补日期。",
+          "boundary": "两篇同作者/同数字可能共用资料，不作为独立统计互证；2018不是2020或2026现状。"
+        },
+        {
+          "id": "DMXMQDP5:T02:C",
+          "material_id": "DMXMQDP5:T02",
+          "pdf_page": 3,
+          "locator": "PDF第3页，媒介与表达方式",
+          "text": "作者观察LXJ与LSG通过微信对歌，并以语音和借汉字记音的文字回复讨论新形式。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "媒介与表达方式",
+          "knowledge_use": "物理场所、线上媒介与活动形式分开；只保留论文披露的匿名缩写。",
+          "boundary": "歌词中“家堂”“哥寮”等不能当真实宅址、住宅名称或空间测绘事实；不扩取私人群聊。"
+        },
+        {
+          "id": "DMXMQDP5:T03:C",
+          "material_id": "DMXMQDP5:T03",
+          "pdf_page": 4,
+          "locator": "PDF第4页，文化广场与三月三",
+          "text": "作者称敕木山村文化广场是民歌演唱新舞台，每年三月三文化节在文化广场举行。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "文化广场与三月三",
+          "knowledge_use": "增加有来源的场所—活动关联，并与2015文化广场候选对读。",
+          "boundary": "未给正式场地名称、位置和具体活动日；暂不合并2012村委广场/2015闲话广场。"
+        },
+        {
+          "id": "DMXMQDP5:T04:C",
+          "material_id": "DMXMQDP5:T04",
+          "pdf_page": 4,
+          "locator": "PDF第4页，组织与排练",
+          "text": "作者讨论政府和村委组织艺术队；后段列迎客、祝酒、对唱畲歌队，并转述前两队每月不少于5天排练。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "组织与排练",
+          "knowledge_use": "组织、场合、场所、频率分别记录，避免把队伍当建筑对象。",
+          "boundary": "不是每月五次活动；排练场所未明示；6队/6组的叙述差异保留。"
+        },
+        {
+          "id": "DMXMQDP5:T05:C",
+          "material_id": "DMXMQDP5:T05",
+          "pdf_page": 4,
+          "locator": "PDF第4页，生活与民歌功能",
+          "text": "作者将劳动、婚嫁、宴饮和悼念歌与生活场合联系，并转述歌手对补贴、授艺与职业选择的看法。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "生活与民歌功能",
+          "knowledge_use": "民居用途解释的背景线索，具体活动有位置证据才连接空间。",
+          "boundary": "群体概括不分配到每栋住宅；经济补贴是个别受访者报告，非统一标准。"
+        },
+        {
+          "id": "DMXMQDP5:T06:C",
+          "material_id": "DMXMQDP5:T06",
+          "pdf_page": 5,
+          "locator": "PDF第5页，原因解释及边界",
+          "text": "作者用内外因素文化变迁框架解释新媒体、政府重视和歌手地位的作用。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "原因解释及边界",
+          "knowledge_use": "保留理论—观察—解释链而不生成已证因果边。",
+          "boundary": "田间到广场是作者归纳，不证明活动互斥替代；不恢复D07时序或D08感知。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [],
+      "source_link": "zotero://select/library/items/DMXMQDP5"
+    },
+    {
+      "key": "3GUCM2SK",
+      "attachment": "R5EPYQKE",
+      "pdf": "/Users/wangyuelin/Zotero/storage/R5EPYQKE/王逍 - 2010 - 浙南畲族社会变迁中的文化适应——以景宁敕木山区畲族村落社区汤夫人信仰为田野案例.pdf",
+      "sha256": "ffcbd2abc60af812299691215473066a064539bf7a3a391c5169325f19649a9d",
+      "pages": 6,
+      "chars": 12813,
+      "title": "浙南畲族社会变迁中的文化适应——以景宁敕木山区畲族村落社区汤夫人信仰为田野案例",
+      "authors": [
+        "王逍"
+      ],
+      "year": "2010",
+      "scope": "以惠明寺村为主的“六保”跨村社区；不是敕木山村单村建筑调查",
+      "contribution": "以文化采借与再编码解释汤夫人信仰体系、跨村仪式和社区整合，提出文化适应/族群互动的分析路径。",
+      "method": "田野访谈、地方传说、县志和历史调查记相互对读；正文未给本次田野日期、访谈样本表。",
+      "limitations": "传说、主位解释、作者理论解释与物质对象事实须分开；不把仪式层级误作空间包含层级。",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "visual_pages": [],
+      "reading_status": "主会话全文文字核读；图表按另列视觉覆盖核对，未核全部被引原典",
+      "materials": [
+        {
+          "id": "3GUCM2SK:T01",
+          "kind": "正文段落",
+          "title": "六保的范围",
+          "pdf_page": 2,
+          "locator": "PDF第2页，六保的范围",
+          "scope": "以惠明寺村为主的“六保”跨村社区；不是敕木山村单村建筑调查",
+          "supports": [
+            "3GUCM2SK:T01:C"
+          ],
+          "boundary": "只是文献所述成员；成员关系不自动成为BOT空间包含，不把六村人口或建筑合计归本村。",
+          "source_key": "3GUCM2SK",
+          "source_link": "zotero://open-pdf/library/items/R5EPYQKE?page=2"
+        },
+        {
+          "id": "3GUCM2SK:T02",
+          "kind": "正文段落",
+          "title": "山顶庙与村庙",
+          "pdf_page": 3,
+          "locator": "PDF第3页，山顶庙与村庙",
+          "scope": "以惠明寺村为主的“六保”跨村社区；不是敕木山村单村建筑调查",
+          "supports": [
+            "3GUCM2SK:T02:C"
+          ],
+          "boundary": "山顶庙不是敕木山村村庙；未给村级庙址、名称或建筑几何，不按“各村”预造六个庙节点。",
+          "source_key": "3GUCM2SK",
+          "source_link": "zotero://open-pdf/library/items/R5EPYQKE?page=3"
+        },
+        {
+          "id": "3GUCM2SK:T03",
+          "kind": "正文段落",
+          "title": "采借与再编码",
+          "pdf_page": 3,
+          "locator": "PDF第3页，采借与再编码",
+          "scope": "以惠明寺村为主的“六保”跨村社区；不是敕木山村单村建筑调查",
+          "supports": [
+            "3GUCM2SK:T03:C"
+          ],
+          "boundary": "神力与传说不当自然事实；不把东弄传说地点当敕木山村实物。",
+          "source_key": "3GUCM2SK",
+          "source_link": "zotero://open-pdf/library/items/R5EPYQKE?page=3"
+        },
+        {
+          "id": "3GUCM2SK:T04",
+          "kind": "正文段落",
+          "title": "巡境与做福",
+          "pdf_page": 4,
+          "locator": "PDF第4页，巡境与做福",
+          "scope": "以惠明寺村为主的“六保”跨村社区；不是敕木山村单村建筑调查",
+          "supports": [
+            "3GUCM2SK:T04:C"
+          ],
+          "boundary": "无完整路线、个次日期或宅院地址，不能据此生成可通行网络或逐宅活动边。",
+          "source_key": "3GUCM2SK",
+          "source_link": "zotero://open-pdf/library/items/R5EPYQKE?page=4"
+        },
+        {
+          "id": "3GUCM2SK:T05",
+          "kind": "正文段落",
+          "title": "社区功能解释",
+          "pdf_page": 5,
+          "locator": "PDF第5页，社区功能解释",
+          "scope": "以惠明寺村为主的“六保”跨村社区；不是敕木山村单村建筑调查",
+          "supports": [
+            "3GUCM2SK:T05:C"
+          ],
+          "boundary": "定性功能解释不证明畲族专属性或因果效应；当前不启动历史演变/人的感知模块。",
+          "source_key": "3GUCM2SK",
+          "source_link": "zotero://open-pdf/library/items/R5EPYQKE?page=5"
+        }
+      ],
+      "claims": [
+        {
+          "id": "3GUCM2SK:T01:C",
+          "material_id": "3GUCM2SK:T01",
+          "pdf_page": 2,
+          "locator": "PDF第2页，六保的范围",
+          "text": "作者明确六保为惠明寺、敕木山、周湖、东弄、双后岗、旱塔的乡土联合称谓，不是保甲制六个行政保。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "六保的范围",
+          "knowledge_use": "提供跨村文化共同体与行政村不同的范围依据。",
+          "boundary": "只是文献所述成员；成员关系不自动成为BOT空间包含，不把六村人口或建筑合计归本村。"
+        },
+        {
+          "id": "3GUCM2SK:T02:C",
+          "material_id": "3GUCM2SK:T02",
+          "pdf_page": 3,
+          "locator": "PDF第3页，山顶庙与村庙",
+          "text": "作者区分敕木山顶汤夫人主庙与各村村庙，转引材料记述山顶庙1933修缮、1981重建。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "山顶庙与村庙",
+          "knowledge_use": "保护物、庙宇、神祇、信仰共同体分别识别。",
+          "boundary": "山顶庙不是敕木山村村庙；未给村级庙址、名称或建筑几何，不按“各村”预造六个庙节点。"
+        },
+        {
+          "id": "3GUCM2SK:T03:C",
+          "material_id": "3GUCM2SK:T03",
+          "pdf_page": 3,
+          "locator": "PDF第3页，采借与再编码",
+          "text": "作者以选择、遗忘、补充、重构解释六保居民对汤夫人、汤三公及配神关系的讲述。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "采借与再编码",
+          "knowledge_use": "文化解释需保留讲述者与作者推断身份。",
+          "boundary": "神力与传说不当自然事实；不把东弄传说地点当敕木山村实物。"
+        },
+        {
+          "id": "3GUCM2SK:T04:C",
+          "material_id": "3GUCM2SK:T04",
+          "pdf_page": 4,
+          "locator": "PDF第4页，巡境与做福",
+          "text": "作者描述巡游六保的求雨仪式及以村为单位的做福互相呼应，涉及共同食宿和迁出者返回。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "巡境与做福",
+          "knowledge_use": "形成活动—参与群体—地点范围的候选关联。",
+          "boundary": "无完整路线、个次日期或宅院地址，不能据此生成可通行网络或逐宅活动边。"
+        },
+        {
+          "id": "3GUCM2SK:T05:C",
+          "material_id": "3GUCM2SK:T05",
+          "pdf_page": 5,
+          "locator": "PDF第5页，社区功能解释",
+          "text": "作者归纳自我整合、精神纽带、族群认同、组织凝聚四方面作用，以地方信仰连接地缘亲缘与经济生活。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "社区功能解释",
+          "knowledge_use": "可作民居相关文化背景的解释备查。",
+          "boundary": "定性功能解释不证明畲族专属性或因果效应；当前不启动历史演变/人的感知模块。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [],
+      "figure_inventory": "全文文字未见图表；子任务核全部原页未见图表，主会话另核文本；不是建筑图纸来源。",
+      "source_link": "zotero://select/library/items/3GUCM2SK"
+    },
+    {
+      "key": "H5BFBT9N",
+      "attachment": "LUVAUUHS",
+      "pdf": "/Users/wangyuelin/Zotero/storage/LUVAUUHS/张洁 - 2015 - 浙西南环敕木山带畲族妇女“雄冠式”头冠解析.pdf",
+      "sha256": "0b2378cd8e4a8bc5762820f409fee977fe8351768656e299603130b6d5a76f03",
+      "pages": 7,
+      "chars": 14569,
+      "title": "浙西南环敕木山带畲族妇女“雄冠式”头冠解析",
+      "authors": [
+        "张洁"
+      ],
+      "year": "2015",
+      "scope": "环敕木山区域；佩戴演示实际位于郑坑乡吴布村，九凤图来自渤海镇安亭行政村上寮自然村",
+      "contribution": "通过测量/工艺复原、佩戴步骤和纹样解释连接头冠形制、制作、使用与文化寓意。",
+      "method": "作者测量与调查、银匠口述、吴布村佩戴演示、历史图片及神话文献比较。",
+      "limitations": "没有代表性样本量；拱手人祖先寓意在原文明确称大胆推测。末页下接其他文章不属于本文。",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7
+      ],
+      "visual_pages": {
+        "主会话本轮图像核对": [
+          5,
+          6
+        ],
+        "继承子任务原页核看": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "边界": "子任务未交候选；细部文字以已提取正文及逐项范围为限"
+      },
+      "reading_status": "主会话全文文字核读；图表按另列视觉覆盖核对，未核全部被引原典",
+      "materials": [
+        {
+          "id": "H5BFBT9N:T01",
+          "kind": "正文段落",
+          "title": "区域类型与工艺复原",
+          "pdf_page": 2,
+          "locator": "PDF第2页，区域类型与工艺复原",
+          "scope": "环敕木山区域；佩戴演示实际位于郑坑乡吴布村，九凤图来自渤海镇安亭行政村上寮自然村",
+          "supports": [
+            "H5BFBT9N:T01:C"
+          ],
+          "boundary": "不是建筑分类或BOT定义；具体头冠样本地点与数量未给全，不赋到敕木山村。",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=2"
+        },
+        {
+          "id": "H5BFBT9N:T02",
+          "kind": "正文段落",
+          "title": "银匠与材料",
+          "pdf_page": 3,
+          "locator": "PDF第3页，银匠与材料",
+          "scope": "环敕木山区域；佩戴演示实际位于郑坑乡吴布村，九凤图来自渤海镇安亭行政村上寮自然村",
+          "supports": [
+            "H5BFBT9N:T02:C"
+          ],
+          "boundary": "传承代数和材料为受访者/作者报告，未做成分检测。",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=3"
+        },
+        {
+          "id": "H5BFBT9N:T03",
+          "kind": "正文段落",
+          "title": "演示地点与佩戴习俗",
+          "pdf_page": 4,
+          "locator": "PDF第4页，演示地点与佩戴习俗",
+          "scope": "环敕木山区域；佩戴演示实际位于郑坑乡吴布村，九凤图来自渤海镇安亭行政村上寮自然村",
+          "supports": [
+            "H5BFBT9N:T03:C"
+          ],
+          "boundary": "吴布村不是敕木山村；不能把配图人物宅院转为敕木山建筑样本。",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:T04",
+          "kind": "正文段落",
+          "title": "拱手人解释",
+          "pdf_page": 5,
+          "locator": "PDF第5页，拱手人解释",
+          "scope": "环敕木山区域；佩戴演示实际位于郑坑乡吴布村，九凤图来自渤海镇安亭行政村上寮自然村",
+          "supports": [
+            "H5BFBT9N:T04:C"
+          ],
+          "boundary": "祖先/生殖崇拜为作者推测，不是访谈一致证实，也不直接解释民居木雕。",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=5"
+        },
+        {
+          "id": "H5BFBT9N:T05",
+          "kind": "正文段落",
+          "title": "九凤图与凤形纹样",
+          "pdf_page": 6,
+          "locator": "PDF第6页，九凤图与凤形纹样",
+          "scope": "环敕木山区域；佩戴演示实际位于郑坑乡吴布村，九凤图来自渤海镇安亭行政村上寮自然村",
+          "supports": [
+            "H5BFBT9N:T05:C"
+          ],
+          "boundary": "不把九凤图或服饰纹样看作敕木山民居装饰原图。",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=6"
+        },
+        {
+          "id": "H5BFBT9N:F01",
+          "kind": "图表单元",
+          "title": "图1 雄冠式头冠",
+          "pdf_page": 2,
+          "locator": "PDF第2页，图1 雄冠式头冠",
+          "scope": "历史转载图",
+          "supports": [],
+          "boundary": "来源调查记；原典未读，不当作者现场拍摄",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=2"
+        },
+        {
+          "id": "H5BFBT9N:F02",
+          "kind": "图表单元",
+          "title": "图2 雄冠式头冠的制作步骤图",
+          "pdf_page": 2,
+          "locator": "PDF第2页，图2 雄冠式头冠的制作步骤图",
+          "scope": "区域工艺",
+          "supports": [],
+          "boundary": "13个组件标号是制作部件/状态，不是13个独立头冠",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=2"
+        },
+        {
+          "id": "H5BFBT9N:F03",
+          "kind": "图表单元",
+          "title": "图3 正面银片制作图：钳搭、奇喜牌",
+          "pdf_page": 3,
+          "locator": "PDF第3页，图3 正面银片制作图：钳搭、奇喜牌",
+          "scope": "工艺部件",
+          "supports": [],
+          "boundary": "两个具名子项分列于图像说明，不作建筑构件",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=3"
+        },
+        {
+          "id": "H5BFBT9N:F03A",
+          "kind": "图表单元",
+          "title": "图3子项 钳搭",
+          "pdf_page": 3,
+          "locator": "PDF第3页，图3子项 钳搭",
+          "scope": "工艺部件",
+          "supports": [],
+          "boundary": "原地方词",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=3"
+        },
+        {
+          "id": "H5BFBT9N:F03B",
+          "kind": "图表单元",
+          "title": "图3子项 奇喜牌",
+          "pdf_page": 3,
+          "locator": "PDF第3页，图3子项 奇喜牌",
+          "scope": "工艺部件",
+          "supports": [],
+          "boundary": "图2齐喜牌/正文奇喜牌异写保留",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=3"
+        },
+        {
+          "id": "H5BFBT9N:F04",
+          "kind": "图表单元",
+          "title": "图4 方形笄（头抓）",
+          "pdf_page": 3,
+          "locator": "PDF第3页，图4 方形笄（头抓）",
+          "scope": "部件图",
+          "supports": [],
+          "boundary": "非建筑",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=3"
+        },
+        {
+          "id": "H5BFBT9N:F05",
+          "kind": "图表单元",
+          "title": "图5 集市上的丽水畲民",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图5 集市上的丽水畲民",
+          "scope": "历史图片",
+          "supports": [],
+          "boundary": "来自沈作乾1924文献，摄影任美锷，非敕木山村现场",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F06",
+          "kind": "图表单元",
+          "title": "图6 畲族耳饰",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图6 畲族耳饰",
+          "scope": "佩戴分类",
+          "supports": [],
+          "boundary": "三个具名子项",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F06A",
+          "kind": "图表单元",
+          "title": "图6子项 耳牌",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图6子项 耳牌",
+          "scope": "未婚",
+          "supports": [],
+          "boundary": "作者习俗描述",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F06B",
+          "kind": "图表单元",
+          "title": "图6子项 耳环",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图6子项 耳环",
+          "scope": "婚后",
+          "supports": [],
+          "boundary": "作者习俗描述",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F06C",
+          "kind": "图表单元",
+          "title": "图6子项 耳垂",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图6子项 耳垂",
+          "scope": "祖母身份",
+          "supports": [],
+          "boundary": "作者习俗描述",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F07",
+          "kind": "图表单元",
+          "title": "图7 雷一彩演示佩戴过程",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图7 雷一彩演示佩戴过程",
+          "scope": "吴布村",
+          "supports": [],
+          "boundary": "不能归本村",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F08",
+          "kind": "图表单元",
+          "title": "图8 缠头步骤",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图8 缠头步骤",
+          "scope": "吴布村演示",
+          "supports": [],
+          "boundary": "两步非两件独立文物",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F08A",
+          "kind": "图表单元",
+          "title": "图8步骤1 黑纱绕额",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图8步骤1 黑纱绕额",
+          "scope": "吴布村",
+          "supports": [],
+          "boundary": "过程图",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F08B",
+          "kind": "图表单元",
+          "title": "图8步骤2 缠绕后打结",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图8步骤2 缠绕后打结",
+          "scope": "吴布村",
+          "supports": [],
+          "boundary": "过程图",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=4"
+        },
+        {
+          "id": "H5BFBT9N:F09",
+          "kind": "图表单元",
+          "title": "图9 戴冠步骤",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图9 戴冠步骤",
+          "scope": "吴布村演示",
+          "supports": [],
+          "boundary": "四步非四件独立文物",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=5"
+        },
+        {
+          "id": "H5BFBT9N:F09A",
+          "kind": "图表单元",
+          "title": "图9步骤1 理顺置额前",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图9步骤1 理顺置额前",
+          "scope": "吴布村",
+          "supports": [],
+          "boundary": "过程图",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=5"
+        },
+        {
+          "id": "H5BFBT9N:F09B",
+          "kind": "图表单元",
+          "title": "图9步骤2 长珠链后方汇合",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图9步骤2 长珠链后方汇合",
+          "scope": "吴布村",
+          "supports": [],
+          "boundary": "过程图",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=5"
+        },
+        {
+          "id": "H5BFBT9N:F09C",
+          "kind": "图表单元",
+          "title": "图9步骤3 后脑缠绕置于前方银针片",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图9步骤3 后脑缠绕置于前方银针片",
+          "scope": "吴布村",
+          "supports": [],
+          "boundary": "过程图",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=5"
+        },
+        {
+          "id": "H5BFBT9N:F09D",
+          "kind": "图表单元",
+          "title": "图9步骤4 前方八条石珠分两边穿过长石珠",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图9步骤4 前方八条石珠分两边穿过长石珠",
+          "scope": "吴布村",
+          "supports": [],
+          "boundary": "过程图",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=5"
+        },
+        {
+          "id": "H5BFBT9N:F10",
+          "kind": "图表单元",
+          "title": "图10 拱手人纹样",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图10 拱手人纹样",
+          "scope": "头冠局部",
+          "supports": [],
+          "boundary": "寓意属作者推测",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=5"
+        },
+        {
+          "id": "H5BFBT9N:F11",
+          "kind": "图表单元",
+          "title": "图11 奏名学法九凤图",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图11 奏名学法九凤图",
+          "scope": "上寮自然村",
+          "supports": [],
+          "boundary": "第7页注10明确来源；非敕木山村",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=6"
+        },
+        {
+          "id": "H5BFBT9N:F12",
+          "kind": "图表单元",
+          "title": "图12 凤形纹样",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图12 凤形纹样",
+          "scope": "图形类型",
+          "supports": [],
+          "boundary": "三子项",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=6"
+        },
+        {
+          "id": "H5BFBT9N:F12A",
+          "kind": "图表单元",
+          "title": "图12子项1 凤尾纹",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图12子项1 凤尾纹",
+          "scope": "区域",
+          "supports": [],
+          "boundary": "服饰纹样",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=6"
+        },
+        {
+          "id": "H5BFBT9N:F12B",
+          "kind": "图表单元",
+          "title": "图12子项2 凤翎纹",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图12子项2 凤翎纹",
+          "scope": "区域",
+          "supports": [],
+          "boundary": "服饰纹样",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=6"
+        },
+        {
+          "id": "H5BFBT9N:F12C",
+          "kind": "图表单元",
+          "title": "图12子项3 凤鸟纹",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图12子项3 凤鸟纹",
+          "scope": "区域",
+          "supports": [],
+          "boundary": "服饰纹样",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "H5BFBT9N",
+          "source_link": "zotero://open-pdf/library/items/LUVAUUHS?page=6"
+        }
+      ],
+      "claims": [
+        {
+          "id": "H5BFBT9N:T01:C",
+          "material_id": "H5BFBT9N:T01",
+          "pdf_page": 2,
+          "locator": "PDF第2页，区域类型与工艺复原",
+          "text": "作者区分雄冠式/景宁式、雌冠式/丽水式、泰顺式，并据自身测量与调查重构头冠组件制作流程。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "区域类型与工艺复原",
+          "knowledge_use": "可借鉴整体—部件—材料—连接—制作流程分层，地方称谓原样保留。",
+          "boundary": "不是建筑分类或BOT定义；具体头冠样本地点与数量未给全，不赋到敕木山村。"
+        },
+        {
+          "id": "H5BFBT9N:T02:C",
+          "material_id": "H5BFBT9N:T02",
+          "pdf_page": 3,
+          "locator": "PDF第3页，银匠与材料",
+          "text": "作者依据银匠陈家郁回忆讨论跨族群工艺传承及银、铜、铁等材料替代。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "银匠与材料",
+          "knowledge_use": "材料外观与材料实质分开；工匠/工艺不由物件族属反推。",
+          "boundary": "传承代数和材料为受访者/作者报告，未做成分检测。"
+        },
+        {
+          "id": "H5BFBT9N:T03:C",
+          "material_id": "H5BFBT9N:T03",
+          "pdf_page": 4,
+          "locator": "PDF第4页，演示地点与佩戴习俗",
+          "text": "作者在郑坑乡吴布村请雷一彩演示佩戴，说明梳髻、缠头、戴冠、插笄步骤及婚龄相关耳饰。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "演示地点与佩戴习俗",
+          "knowledge_use": "明确人—演示—地点与区域传统的不同证据范围。",
+          "boundary": "吴布村不是敕木山村；不能把配图人物宅院转为敕木山建筑样本。"
+        },
+        {
+          "id": "H5BFBT9N:T04:C",
+          "material_id": "H5BFBT9N:T04",
+          "pdf_page": 5,
+          "locator": "PDF第5页，拱手人解释",
+          "text": "受访者对纹样说不知道或一对结婚的人；作者结合兄妹婚神话推测其为祖先符号。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "拱手人解释",
+          "knowledge_use": "支持“形态记录—主位说法—研究者解释”分别保存。",
+          "boundary": "祖先/生殖崇拜为作者推测，不是访谈一致证实，也不直接解释民居木雕。"
+        },
+        {
+          "id": "H5BFBT9N:T05:C",
+          "material_id": "H5BFBT9N:T05",
+          "pdf_page": 6,
+          "locator": "PDF第6页，九凤图与凤形纹样",
+          "text": "作者比较凤尾、凤翎、凤鸟图形与九凤图；第7页注释明确九凤图藏于上寮自然村。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "九凤图与凤形纹样",
+          "knowledge_use": "保存原件、作者照片、历史转载的来源层次。",
+          "boundary": "不把九凤图或服饰纹样看作敕木山民居装饰原图。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [
+        "图2的13个组件标号保留原图，不逐件构建对象；细字需回原页核读。"
+      ],
+      "source_link": "zotero://select/library/items/H5BFBT9N"
+    },
+    {
+      "key": "Q3QJSRAK",
+      "attachment": "52MMTZRF",
+      "pdf": "/Users/wangyuelin/Zotero/storage/52MMTZRF/任维 等 - 2016 - 浙西南少数民族地区乡土景观研究——以景宁县环敕木山地区传统畲族聚落景观为例.pdf",
+      "sha256": "5e2e1e3be7736c778728e45eb4cb58ea25604897f88e6f54076794b5a3d9a15a",
+      "pages": 8,
+      "chars": 16180,
+      "title": "浙西南少数民族地区乡土景观研究——以景宁县环敕木山地区传统畲族聚落景观为例",
+      "authors": [
+        "任维",
+        "张雪葳",
+        "钱云",
+        "刘通"
+      ],
+      "year": "2016",
+      "scope": "区域分类含敕木山村；深入案例仅大张坑、东弄",
+      "contribution": "从景观格局、聚落形态、土地利用三个方面比较两类聚落，归纳林—寮—田—水复层结构与三类空间单元。",
+      "method": "半参与式观察、测绘、摄影、无结构访谈；按海拔、地形与景观要素分布分两类后选典型案例。",
+      "limitations": "未提供完整测绘数据、调查日期或生态通量测试；宏观生态良性循环是作者解释，不是量测成效。",
+      "pages_read": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8
+      ],
+      "visual_pages": {
+        "主会话本轮图像核对": [
+          5,
+          6
+        ],
+        "继承子任务实际原页核看": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "边界": "子任务只完成核读、未交候选；最终陈述由主会话完成"
+      },
+      "reading_status": "主会话全文文字核读；图表按另列视觉覆盖核对，未核全部被引原典",
+      "materials": [
+        {
+          "id": "Q3QJSRAK:T01",
+          "kind": "正文段落",
+          "title": "研究方法",
+          "pdf_page": 4,
+          "locator": "PDF第4页，第2节案例选择与方法",
+          "scope": "区域分类含敕木山村；深入案例仅大张坑、东弄",
+          "supports": [
+            "Q3QJSRAK:T01:C"
+          ],
+          "boundary": "本村未作为深入案例；方法不能替代原始记录交付。",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=4"
+        },
+        {
+          "id": "Q3QJSRAK:T02",
+          "kind": "正文段落",
+          "title": "两类景观与本村归类",
+          "pdf_page": 4,
+          "locator": "PDF第4页，两类景观与本村归类",
+          "scope": "区域分类含敕木山村；深入案例仅大张坑、东弄",
+          "supports": [
+            "Q3QJSRAK:T02:C"
+          ],
+          "boundary": "4+7是村庄类别分组，不是本村建筑数；原分类不是本研究已验证分型。",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=4"
+        },
+        {
+          "id": "Q3QJSRAK:T03",
+          "kind": "正文段落",
+          "title": "异村案例表达",
+          "pdf_page": 5,
+          "locator": "PDF第5页，异村案例表达",
+          "scope": "区域分类含敕木山村；深入案例仅大张坑、东弄",
+          "supports": [
+            "Q3QJSRAK:T03:C"
+          ],
+          "boundary": "大张坑3条带状寮群和东弄2条带状寮群不得转归敕木山。",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=5"
+        },
+        {
+          "id": "Q3QJSRAK:T04",
+          "kind": "正文段落",
+          "title": "宗教建筑与聚落关系",
+          "pdf_page": 6,
+          "locator": "PDF第6页，宗教建筑与聚落关系",
+          "scope": "区域分类含敕木山村；深入案例仅大张坑、东弄",
+          "supports": [
+            "Q3QJSRAK:T04:C"
+          ],
+          "boundary": "明确东弄，不是本村庙祠名录；不生成敕木山建筑实体。",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=6"
+        },
+        {
+          "id": "Q3QJSRAK:T05",
+          "kind": "正文段落",
+          "title": "四要素与三单元",
+          "pdf_page": 7,
+          "locator": "PDF第7页，四要素与三单元",
+          "scope": "区域分类含敕木山村；深入案例仅大张坑、东弄",
+          "supports": [
+            "Q3QJSRAK:T05:C"
+          ],
+          "boundary": "区域归纳不证明本村完整结构；垂直循环无通量实测。",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=7"
+        },
+        {
+          "id": "Q3QJSRAK:T06",
+          "kind": "正文段落",
+          "title": "保护与发展建议",
+          "pdf_page": 8,
+          "locator": "PDF第8页，保护与发展建议",
+          "scope": "区域分类含敕木山村；深入案例仅大张坑、东弄",
+          "supports": [
+            "Q3QJSRAK:T06:C"
+          ],
+          "boundary": "没有建成追踪验证；本文不是本村更新项目实施记录。",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=8"
+        },
+        {
+          "id": "Q3QJSRAK:F01",
+          "kind": "图表单元",
+          "title": "图1 环敕木山区域主要传统畲族聚落分布图",
+          "pdf_page": 3,
+          "locator": "PDF第3页，图1 环敕木山区域主要传统畲族聚落分布图",
+          "scope": "区域",
+          "supports": [],
+          "boundary": "分布图不是村界实测",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=3"
+        },
+        {
+          "id": "Q3QJSRAK:B01",
+          "kind": "图表单元",
+          "title": "表1 农作物种植与经济变迁",
+          "pdf_page": 3,
+          "locator": "PDF第3页，表1 农作物种植与经济变迁",
+          "scope": "区域二手整理",
+          "supports": [],
+          "boundary": "根据参考文献17；不是本文长期跟踪数据",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=3"
+        },
+        {
+          "id": "Q3QJSRAK:F02",
+          "kind": "图表单元",
+          "title": "图2 大张坑村入口全景",
+          "pdf_page": 4,
+          "locator": "PDF第4页，图2 大张坑村入口全景",
+          "scope": "大张坑",
+          "supports": [],
+          "boundary": "非敕木山村",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=4"
+        },
+        {
+          "id": "Q3QJSRAK:F03",
+          "kind": "图表单元",
+          "title": "图3 大张坑景观格局剖面示意",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图3 大张坑景观格局剖面示意",
+          "scope": "大张坑",
+          "supports": [],
+          "boundary": "示意非本村测绘",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=5"
+        },
+        {
+          "id": "Q3QJSRAK:F04",
+          "kind": "图表单元",
+          "title": "图4 大张坑聚落形态与梯田肌理",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图4 大张坑聚落形态与梯田肌理",
+          "scope": "大张坑",
+          "supports": [],
+          "boundary": "两具名子图",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=5"
+        },
+        {
+          "id": "Q3QJSRAK:F04A",
+          "kind": "图表单元",
+          "title": "图4A 聚落形态示意",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图4A 聚落形态示意",
+          "scope": "大张坑",
+          "supports": [],
+          "boundary": "非敕木山村",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=5"
+        },
+        {
+          "id": "Q3QJSRAK:F04B",
+          "kind": "图表单元",
+          "title": "图4B 梯田肌理",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图4B 梯田肌理",
+          "scope": "大张坑",
+          "supports": [],
+          "boundary": "非敕木山村",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=5"
+        },
+        {
+          "id": "Q3QJSRAK:F05",
+          "kind": "图表单元",
+          "title": "图5 东弄村内部全景",
+          "pdf_page": 5,
+          "locator": "PDF第5页，图5 东弄村内部全景",
+          "scope": "东弄",
+          "supports": [],
+          "boundary": "非敕木山村",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=5"
+        },
+        {
+          "id": "Q3QJSRAK:F06",
+          "kind": "图表单元",
+          "title": "图6 东弄景观格局剖面示意",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图6 东弄景观格局剖面示意",
+          "scope": "东弄",
+          "supports": [],
+          "boundary": "非本村测绘",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=6"
+        },
+        {
+          "id": "Q3QJSRAK:F07",
+          "kind": "图表单元",
+          "title": "图7 东弄聚落形态与梯田肌理",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图7 东弄聚落形态与梯田肌理",
+          "scope": "东弄",
+          "supports": [],
+          "boundary": "两具名子图",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=6"
+        },
+        {
+          "id": "Q3QJSRAK:F07A",
+          "kind": "图表单元",
+          "title": "图7A 聚落形态示意",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图7A 聚落形态示意",
+          "scope": "东弄",
+          "supports": [],
+          "boundary": "非敕木山村",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=6"
+        },
+        {
+          "id": "Q3QJSRAK:F07B",
+          "kind": "图表单元",
+          "title": "图7B 梯田肌理",
+          "pdf_page": 6,
+          "locator": "PDF第6页，图7B 梯田肌理",
+          "scope": "东弄",
+          "supports": [],
+          "boundary": "非敕木山村",
+          "review_status": "正文/图注核读；原页视觉覆盖另列",
+          "source_key": "Q3QJSRAK",
+          "source_link": "zotero://open-pdf/library/items/52MMTZRF?page=6"
+        }
+      ],
+      "claims": [
+        {
+          "id": "Q3QJSRAK:T01:C",
+          "material_id": "Q3QJSRAK:T01",
+          "pdf_page": 4,
+          "locator": "PDF第4页，第2节案例选择与方法",
+          "text": "作者选择半参与观察、测绘、摄影、无结构访谈，借田野资料解释景观格局、聚落形态和土地利用。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "研究方法",
+          "knowledge_use": "方法名称、实际资料和结果三者对齐，不把提到测绘当已有本村测绘。",
+          "boundary": "本村未作为深入案例；方法不能替代原始记录交付。"
+        },
+        {
+          "id": "Q3QJSRAK:T02:C",
+          "material_id": "Q3QJSRAK:T02",
+          "pdf_page": 4,
+          "locator": "PDF第4页，两类景观与本村归类",
+          "text": "作者将敕木山、惠明寺、大张坑、吴山头归为山中坡谷景观，另列东弄等七村为山脚河谷；深入研究选大张坑和东弄。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "两类景观与本村归类",
+          "knowledge_use": "可以保存敕木山的文献原分类及依据维度。",
+          "boundary": "4+7是村庄类别分组，不是本村建筑数；原分类不是本研究已验证分型。"
+        },
+        {
+          "id": "Q3QJSRAK:T03:C",
+          "material_id": "Q3QJSRAK:T03",
+          "pdf_page": 5,
+          "locator": "PDF第5页，异村案例表达",
+          "text": "图3/4对应大张坑剖面和聚落/梯田，图5是东弄；正文分别报告村庄格局与土地利用。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "异村案例表达",
+          "knowledge_use": "剖面、平面、肌理图互补，可作为本村以后分析的表现方法。",
+          "boundary": "大张坑3条带状寮群和东弄2条带状寮群不得转归敕木山。"
+        },
+        {
+          "id": "Q3QJSRAK:T04:C",
+          "material_id": "Q3QJSRAK:T04",
+          "pdf_page": 6,
+          "locator": "PDF第6页，宗教建筑与聚落关系",
+          "text": "作者称东弄汤三公庙与蓝氏宗祠独立于畲寮，位于聚落西部半山腰山坞。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "宗教建筑与聚落关系",
+          "knowledge_use": "为关联建筑位置描述的异村比较例。",
+          "boundary": "明确东弄，不是本村庙祠名录；不生成敕木山建筑实体。"
+        },
+        {
+          "id": "Q3QJSRAK:T05:C",
+          "material_id": "Q3QJSRAK:T05",
+          "pdf_page": 7,
+          "locator": "PDF第7页，四要素与三单元",
+          "text": "作者以林、寮、田、水描述复层结构，并合为生态林地、聚落生活、梯田生产三单元，田与水共同归生产单元。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "四要素与三单元",
+          "knowledge_use": "区分要素、功能单元、空间关系，不把四要素误称四单元。",
+          "boundary": "区域归纳不证明本村完整结构；垂直循环无通量实测。"
+        },
+        {
+          "id": "Q3QJSRAK:T06:C",
+          "material_id": "Q3QJSRAK:T06",
+          "pdf_page": 8,
+          "locator": "PDF第8页，保护与发展建议",
+          "text": "作者提出保护核心要素、强化空间结构、结合传统现代、塑造特色人居环境。",
+          "attribution": "作者报告／解释，具体归属见陈述措辞",
+          "object": "保护与发展建议",
+          "knowledge_use": "保留规范性建议与观察结论的差别。",
+          "boundary": "没有建成追踪验证；本文不是本村更新项目实施记录。"
+        }
+      ],
+      "model_lessons": [],
+      "unresolved": [],
+      "duplicate_item_keys": [
+        "C7DT63HR"
+      ],
+      "duplicate_attachment_keys": [
+        "MP2QMPRR"
+      ],
+      "duplicate_evidence": "附件SHA完全一致，只作同一篇；不擅自删除Zotero重复条目",
+      "source_link": "zotero://select/library/items/Q3QJSRAK"
+    },
+    {
+      "key": "VBZBMSS9",
+      "title": "基于乡土特色的景宁畲族村庄植物景观营造研究",
+      "authors": [
+        "赵梅"
+      ],
+      "year": 2015,
+      "pages_read": {
+        "计页规则": "以下均为PDF页序，自1起；正文印刷页1对应PDF第10页。",
+        "身份与前置文本核读": [
+          1,
+          2,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "概念方法框架及区域论述定向核读": [
+          10,
+          11,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18,
+          19,
+          20,
+          21,
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34
+        ],
+        "敕木相关命中页及东弄案例上下文核读": [
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43,
+          44,
+          45
+        ],
+        "植物分类及建筑水体结合方法补读": [
+          46,
+          47,
+          56,
+          57
+        ],
+        "结论与展望核读": [
+          58
+        ],
+        "仅图表目录与版面核查未精读正文": [
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55
+        ],
+        "未精读": [
+          3,
+          12,
+          59,
+          60,
+          61,
+          62
+        ],
+        "检索覆盖": "逐页检索指定62页文本，兼检敕、勅、木山及去空白后的地名；检出PDF第30、35、41页。第30页文字层将照片内敕木山误识为松木山，已返回原页核图。未检出明确的敕木山村字样；这不是对全部扫描图内文字的无遗漏保证。",
+        "原件核验": "指定原件62页，SHA256实测为8c576056a3c210b771c308f801eba956e8a99821ca877ffbf626592445b9ce80，与用户给定值一致。"
+      },
+      "visual_pages": {
+        "原页单页核图": [
+          1,
+          18,
+          24,
+          30,
+          35,
+          41,
+          44,
+          51
+        ],
+        "其中局部放大": [
+          30,
+          44
+        ],
+        "缩略拼页目录核查": [
+          13,
+          14,
+          15,
+          22,
+          23,
+          28,
+          31,
+          36,
+          38,
+          40,
+          43,
+          48,
+          49,
+          50,
+          51,
+          52,
+          53,
+          54,
+          55,
+          56,
+          57
+        ],
+        "边界": "单页核图用于身份、技术路线、布局框架和敕木相关证据；缩略拼页只检查图表存在、排布和与文字层标题对应，不声称读清全部图例、植物名称或测量参数。第44页组图子项另作高分辨率局部核对，辨识不稳处保留疑读。"
+      },
+      "scope": {
+        "阅读模式": "62页论文的定向核读，不是全文精读。",
+        "主体案例": "景宁县东弄村植物景观营造规划设计；第39页4.2.2进一步限定设计范围为东弄中心居民点，涉及东弄老村、岗头村、新安置区。",
+        "地名边界": "敕木山相关材料只有山地照片、东弄区位说明和环敕木山区域旅游背景。三项均不能直接认定为敕木山村的实测事实；东弄、环敕木山地区及其他村寺不得与敕木山村合并。",
+        "时间边界": "2015年12月提交的浙江大学工程硕士专业学位论文。作者报告、背景统计和设计建议均按论文时期存档，不代表2026年现状。",
+        "身份核验": "封面申请人为赵梅，指导教师为李王鸣；第4页致谢亦确认李王鸣为导师。导师不列为作者。第2页答辩日期为2015年12月5日。",
+        "当前研究边界": "只提供建筑与文化知识候选及分析依据，不制定Neo4j结构、不写数据库。论文的环境心理学、季相变化、演替及建筑内部相关语句可以归档，但不得据此恢复人的感知、时序分析、内部构架模块。"
+      },
+      "contribution": [
+        {
+          "text": "作者把乡土特色植物景观组织为四大营造要素、五类特征、五项原则及点线面三类布局，并以东弄村设计说明其运用；贡献主要是理论整理和情境化规划设计，而不是敕木山村专项调查。",
+          "locator": "PDF第16—27、58页，1.4、第二章、5.1",
+          "material_id": "VBZBMSS9:M04"
+        },
+        {
+          "text": "论文将乡土植物的生态适应性与食用、药用、生产及村落文化联系起来，提供植物—用途—场所的分析线索；其10类植物推荐和五方面设计模式均须保留推荐性质。",
+          "locator": "PDF第10—11、20—21、45—47、56—58页",
+          "material_id": "VBZBMSS9:M18"
+        },
+        {
+          "text": "与本轮敕木山任务最直接的增量，是第30页照片内地名被文字层误识、以及第35与41页地理尺度并非村庄身份的边界，不能靠全文关键词命中便归村。",
+          "locator": "PDF第30、35、41页",
+          "material_id": "VBZBMSS9:V032"
+        }
+      ],
+      "method": [
+        {
+          "text": "作者列出文献阅读、实地考察、案例分析三种方法。文献经选择归类整理分析；实地考察比较新建、改建、扩建、未改造及乡土特色保存较好的村庄；案例分析服务于要素、原则和布局类型归纳。",
+          "locator": "PDF第17页1.5.2",
+          "material_id": "VBZBMSS9:M03"
+        },
+        {
+          "text": "技术路线依次为提出问题、理论研究、案例研究；理论研究含景观美学、群落生态学、环境心理学和要素—特征—原则—布局类型，案例层区分景宁畲族村庄区域认识与东弄设计。",
+          "locator": "PDF第18页图1-1",
+          "material_id": "VBZBMSS9:V011"
+        },
+        {
+          "text": "设计层先作村庄概况与条件优劣分析，再区分自然环境、人工环境、人文环境要素，转入景观规划、绿地规划、植物选择与配置模式；不能把流程图误作经过效果验证的因果模型。",
+          "locator": "PDF第39—47页4.2—4.3",
+          "material_id": "VBZBMSS9:M15"
+        }
+      ],
+      "limitations": [
+        {
+          "text": "本次核读未获得敕木山村范围内的植物清单、建筑位置、样地或村级调查表。第30页仅标敕木山，不能把山名自动换成村名。",
+          "locator": "PDF第30、35、41页及本次阅读范围",
+          "attribution": "阅读者证据边界判断"
+        },
+        {
+          "text": "已读方法节未具体交代调查日期、村庄抽样规则、访谈样本数量、测量记录及指标计算；不能由实地调查四字推出可复核的量化调查设计。",
+          "locator": "PDF第17页1.5.2",
+          "attribution": "阅读者判断，仅限已读方法节"
+        },
+        {
+          "text": "效果图、意向图、推荐表和配置示意图属于设计产出。已读方法与结论未见建成后追踪评价、对照试验或效果量检验，不将改造后效果图当成实景验收。",
+          "locator": "PDF第17、44、48—58页；其中第48—55页仅图表目录核查",
+          "attribution": "阅读者判断"
+        },
+        {
+          "text": "东弄宗祠年代在已读正文中不一致：第37页称蓝氏宗祠建于清道光年间，第43页把蓝氏宗祠与民国年间建筑并列叙述；未据此替作者统一年代。",
+          "locator": "PDF第37页4.1.6；第43页4.3.1（2）",
+          "attribution": "原文内部疑点"
+        },
+        {
+          "text": "表1-3位于第二章但沿用1-3编号；原则在第24页由（4）后跳到（6）；第30页两张照片均标图3-4；第44页正文写一轴、两带、三面、数点，第45页标签却写五面。均保留原文位置，不擅自规范化。",
+          "locator": "PDF第21—24、30、44—45页",
+          "attribution": "阅读者校核"
+        },
+        {
+          "text": "作者展望强调继续保护和挖掘乡土自然元素与村落文化、保护开发野生乡土植物和田园风貌、选育植物，并协调资源保护及植物与建筑、水系、山体、道路之间关系；属于后续方向，不是已完成的验证。",
+          "locator": "PDF第58页5.2",
+          "attribution": "作者展望"
+        },
+        {
+          "text": "植物种名文字层存在明显误识，且推荐同时涉及观赏、药用、用材等用途。本轮不生成逐种可执行种植名录、不评判保护等级、不提供药用或采伐建议。",
+          "locator": "PDF第45—47页4.3.4",
+          "attribution": "阅读者使用限制"
+        }
+      ],
+      "materials": [
+        {
+          "id": "VBZBMSS9:M01",
+          "kind": "题名页与身份段落",
+          "title": "作者、导师与年份的交叉核验",
+          "pdf_page": [
+            1,
+            2,
+            4
+          ],
+          "locator": "封面；签名答辩页；致谢首段与落款",
+          "scope": "文献身份",
+          "supports": [
+            "VBZBMSS9:C01"
+          ],
+          "boundary": "作者为赵梅；李王鸣只作为导师；封面已核图。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=1"
+        },
+        {
+          "id": "VBZBMSS9:M02",
+          "kind": "概念段落",
+          "title": "乡土特色的地域尺度及乡土植物的扩展定义",
+          "pdf_page": [
+            10,
+            11
+          ],
+          "locator": "1.1（1）乡土特色、（4）乡土植物及次页续段",
+          "scope": "通用概念框架",
+          "supports": [
+            "VBZBMSS9:C02",
+            "VBZBMSS9:C03"
+          ],
+          "boundary": "作者采用的工作定义，不是敕木山村物种调查；感官性植物景观定义仅存档。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=10"
+        },
+        {
+          "id": "VBZBMSS9:M03",
+          "kind": "方法段落",
+          "title": "文献阅读、实地考察、案例分析",
+          "pdf_page": 17,
+          "locator": "1.5.1—1.5.2",
+          "scope": "论文研究方法",
+          "supports": [
+            "VBZBMSS9:C04"
+          ],
+          "boundary": "说明方法名称及比较对象，但未提供可复核的抽样、日期与测量细节。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=17"
+        },
+        {
+          "id": "VBZBMSS9:M04",
+          "kind": "问题与贡献段落",
+          "title": "研究目的与作者结论中的框架贡献",
+          "pdf_page": [
+            5,
+            16,
+            58
+          ],
+          "locator": "中文摘要；1.4.1；5.1（1）（2）",
+          "scope": "作者的研究定位与自述贡献",
+          "supports": [
+            "VBZBMSS9:C05"
+          ],
+          "boundary": "实际案例是东弄；结论中的理论归纳和设计产出不等于普适性验证。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=5"
+        },
+        {
+          "id": "VBZBMSS9:M05",
+          "kind": "理论段落",
+          "title": "三类理论借鉴与紫苏文化解释",
+          "pdf_page": [
+            19,
+            20
+          ],
+          "locator": "2.1.1—2.1.3",
+          "scope": "作者理论来源及景宁区域文化举例",
+          "supports": [
+            "VBZBMSS9:C06"
+          ],
+          "boundary": "环境心理学及视觉、味觉、听觉的论述完整保留其存在，但当前不转为感知模块；紫苏例不下沉至敕木山村。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=19"
+        },
+        {
+          "id": "VBZBMSS9:M06",
+          "kind": "框架段落",
+          "title": "地理气候、地形地貌、植物资源、村落文化四要素",
+          "pdf_page": [
+            20,
+            21
+          ],
+          "locator": "2.2.1（1）—（4）",
+          "scope": "植物景观分析框架",
+          "supports": [
+            "VBZBMSS9:C07",
+            "VBZBMSS9:C08"
+          ],
+          "boundary": "要素是分析维度，不是已确认的村级对象清单；古树等文化标志物需另有地点证据。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=20"
+        },
+        {
+          "id": "VBZBMSS9:M07",
+          "kind": "原则段落",
+          "title": "自然植被、多样群落、地域文化、功能与养护五原则",
+          "pdf_page": [
+            23,
+            24
+          ],
+          "locator": "2.2.3",
+          "scope": "规范性营造原则",
+          "supports": [
+            "VBZBMSS9:C09"
+          ],
+          "boundary": "第五项原文编号为（6），并非六条原则；属于作者建议，不写成实测生态成效。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=23"
+        },
+        {
+          "id": "VBZBMSS9:M08",
+          "kind": "空间定义段落",
+          "title": "庭院、房前屋后与村口的点状布局",
+          "pdf_page": [
+            24,
+            25
+          ],
+          "locator": "2.2.4（1）",
+          "scope": "建筑外部空间与植物关系",
+          "supports": [
+            "VBZBMSS9:C10",
+            "VBZBMSS9:C11"
+          ],
+          "boundary": "庭院可无明确界线；建筑采光通风是外部配置约束，不扩张到建筑内部构架研究。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=24"
+        },
+        {
+          "id": "VBZBMSS9:M09",
+          "kind": "布局段落",
+          "title": "河渠堤道路的线状联系与公园农田的面状布局",
+          "pdf_page": [
+            25,
+            26,
+            27
+          ],
+          "locator": "2.2.4（2）（3）",
+          "scope": "村庄绿化网络及生产景观框架",
+          "supports": [
+            "VBZBMSS9:C12"
+          ],
+          "boundary": "河道水位和道路条件是作者提出的适用约束；不把一般布局直接标在敕木山村地图上。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=25"
+        },
+        {
+          "id": "VBZBMSS9:M10",
+          "kind": "区域背景与解释段落",
+          "title": "景宁山地环境、空间层次和文化关联植物",
+          "pdf_page": [
+            28,
+            29,
+            30,
+            31,
+            32
+          ],
+          "locator": "3.1；3.2（1）—（4）",
+          "scope": "景宁县及景宁山区村庄的作者概括",
+          "supports": [
+            "VBZBMSS9:C13",
+            "VBZBMSS9:C14"
+          ],
+          "boundary": "县域统计、地形和人文独特性不能代替敕木山村事实；基本同化等是作者概括，不作为本轮独立认定。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=28"
+        },
+        {
+          "id": "VBZBMSS9:M11",
+          "kind": "诊断建议段落",
+          "title": "景宁山区植物景观问题与改善措施",
+          "pdf_page": [
+            32,
+            33,
+            34
+          ],
+          "locator": "3.3—3.4",
+          "scope": "区域性作者诊断与建议",
+          "supports": [
+            "VBZBMSS9:C15"
+          ],
+          "boundary": "单一、雷同、配置不合理等为作者调查后归纳，未给逐村评分；保留制度、宣传、经济结合等方法，不移作敕木山村现状。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=32"
+        },
+        {
+          "id": "VBZBMSS9:M12",
+          "kind": "敕木相关段落",
+          "title": "东弄位于敕木山东峡谷的区位说明",
+          "pdf_page": 35,
+          "locator": "4.1.1基本情况首段",
+          "scope": "东弄村与敕木山地理关系",
+          "supports": [
+            "VBZBMSS9:C16"
+          ],
+          "boundary": "敕木山是地形区位参照，不是敕木山村同一性证据；已逐段核读并核图4-1、4-2。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=35"
+        },
+        {
+          "id": "VBZBMSS9:M13",
+          "kind": "案例上下文段落",
+          "title": "东弄自然地理、建筑遗产与传统空间骨架",
+          "pdf_page": [
+            36,
+            37,
+            38
+          ],
+          "locator": "4.1.2—4.1.6及图4-3至4-7",
+          "scope": "东弄村历史与论文时期报告",
+          "supports": [
+            "VBZBMSS9:C17"
+          ],
+          "boundary": "蓝姓迁徙、建筑、溪流和道路均属东弄，不能写入敕木山村。内部构造及木雕仅存档，不开研究模块。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=36"
+        },
+        {
+          "id": "VBZBMSS9:M14",
+          "kind": "敕木相关段落",
+          "title": "环敕木山旅游开发作为东弄区位优势",
+          "pdf_page": [
+            40,
+            41
+          ],
+          "locator": "4.2.3（1）⑤及其前后优势、劣势段落",
+          "scope": "环敕木山区域开发背景与东弄评价",
+          "supports": [
+            "VBZBMSS9:C18"
+          ],
+          "boundary": "不是敕木山村项目实施或2026年旅游状态证明。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=40"
+        },
+        {
+          "id": "VBZBMSS9:M15",
+          "kind": "案例方法段落",
+          "title": "设计范围及自然、人工、人文环境三类要素",
+          "pdf_page": [
+            39,
+            40,
+            41,
+            42,
+            43,
+            44
+          ],
+          "locator": "4.2.2—4.2.4；4.3.1（1）—（3）",
+          "scope": "东弄规划分析方法",
+          "supports": [
+            "VBZBMSS9:C19",
+            "VBZBMSS9:C20",
+            "VBZBMSS9:C21"
+          ],
+          "boundary": "对象边界为东弄中心居民点；保护整治和医药植物配置属于设计策略；宗祠年代叙述存在内部疑点。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=39"
+        },
+        {
+          "id": "VBZBMSS9:M16",
+          "kind": "规划组织段落",
+          "title": "景观系统与绿地系统的层级组织",
+          "pdf_page": [
+            44,
+            45
+          ],
+          "locator": "4.3.2—4.3.3",
+          "scope": "东弄景观规划方案",
+          "supports": [
+            "VBZBMSS9:C22"
+          ],
+          "boundary": "第44页为三面、第45页为五面，不能自行为作者修正；轴、带、面、点属于设计组织术语，不等于已建对象。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:M17",
+          "kind": "植物推荐段落",
+          "title": "十类乡土植物选择依据与功能分类",
+          "pdf_page": [
+            45,
+            46,
+            47
+          ],
+          "locator": "4.3.4（1）—（10）",
+          "scope": "供东弄及景宁县村庄绿化参考的推荐分类",
+          "supports": [
+            "VBZBMSS9:C23"
+          ],
+          "boundary": "同一植物可能跨类出现；不是互斥分类，不是敕木山村实存物种表；种名未逐个视觉校正。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=45"
+        },
+        {
+          "id": "VBZBMSS9:M18",
+          "kind": "设计与结论段落",
+          "title": "山体、水体、建筑结合及五方面模式的作者概括",
+          "pdf_page": [
+            56,
+            57,
+            58
+          ],
+          "locator": "4.3.5.5（1）续段、（2）（3）；5.1（2）",
+          "scope": "设计模式方法参考",
+          "supports": [
+            "VBZBMSS9:C24",
+            "VBZBMSS9:C25"
+          ],
+          "boundary": "第48—55页模式正文未精读，仅图表编目；季相、心理体验不纳入当前分析模块；建议不等于建成。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=56"
+        },
+        {
+          "id": "VBZBMSS9:M19",
+          "kind": "展望段落",
+          "title": "乡土资源保护、选育及要素协调的后续要求",
+          "pdf_page": 58,
+          "locator": "5.2展望",
+          "scope": "作者后续研究方向",
+          "supports": [
+            "VBZBMSS9:C26"
+          ],
+          "boundary": "不是已完成的资源保护和设计效果评价。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=58"
+        },
+        {
+          "id": "VBZBMSS9:T011",
+          "kind": "表",
+          "title": "表1-1 国外代表性研究一览表",
+          "pdf_page": 13,
+          "locator": "1.3.1，页面中上部",
+          "scope": "理论综述框架项",
+          "supports": [],
+          "boundary": "表列乡土特色景观与村庄景观保护等观点，为作者转述他人研究；不得改写为本文实证结论。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=13"
+        },
+        {
+          "id": "VBZBMSS9:T012",
+          "kind": "表",
+          "title": "表1-2 国内代表性研究一览表（跨页）",
+          "pdf_page": [
+            14,
+            15
+          ],
+          "locator": "1.3.2，PDF第14页起表、第15页续表",
+          "scope": "理论综述框架项",
+          "supports": [],
+          "boundary": "乡土植物资源应用、村庄整治建设等研究整理；其中他人TWINSPAN分类不等于赵梅本人使用该分析方法。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=14"
+        },
+        {
+          "id": "VBZBMSS9:T013",
+          "kind": "表",
+          "title": "表1-3 乡土特色植物景观的特征（原编号）",
+          "pdf_page": [
+            22,
+            23
+          ],
+          "locator": "2.2.2，第22页主体及第23页上部续表",
+          "scope": "核心特征框架项",
+          "supports": [
+            "VBZBMSS9:C27"
+          ],
+          "boundary": "自然性、地域性、生产性、多样性、经济性；第58页结论末项改称节约性，保留术语差异；表位于第二章但不擅改编号。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=22"
+        },
+        {
+          "id": "VBZBMSS9:V011",
+          "kind": "图",
+          "title": "图1-1 技术路线框架图",
+          "pdf_page": 18,
+          "locator": "1.6，全页流程图",
+          "scope": "核心研究流程框架项",
+          "supports": [
+            "VBZBMSS9:C28"
+          ],
+          "boundary": "作者自绘；已核原页；图中三个理论与四类营造思路不自动转成当前研究模块。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=18"
+        },
+        {
+          "id": "VBZBMSS9:V021",
+          "kind": "图",
+          "title": "图2-1 村庄乡土特色植物景观布局主要类型",
+          "pdf_page": 24,
+          "locator": "2.2.4，页面中部树状图",
+          "scope": "核心空间分类框架项",
+          "supports": [
+            "VBZBMSS9:C29"
+          ],
+          "boundary": "点状含庭院、房前屋后、村口；线状含河渠堤、道路；面状含公园、农田。已核图；不是按面积阈值定义的测量分区。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=24"
+        },
+        {
+          "id": "VBZBMSS9:V031",
+          "kind": "图",
+          "title": "图3-1 景宁畲族自治县区位图",
+          "pdf_page": 28,
+          "locator": "3.1.1，页面中部",
+          "scope": "县域背景图",
+          "supports": [],
+          "boundary": "作者自绘；仅作为区域尺度定位，细小地名与边界未逐一核读，不作敕木山村图。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=28"
+        },
+        {
+          "id": "VBZBMSS9:V032",
+          "kind": "图与图内地名说明",
+          "title": "图3-2 景宁畲寨的高山水田景观1；图内说明：敕木山上林木环抱的小梯田",
+          "pdf_page": 30,
+          "locator": "3.2（1），页面上组左图及其照片下缘小字",
+          "scope": "敕木山山地直接相关影像，非明确村界证据",
+          "supports": [
+            "VBZBMSS9:C30"
+          ],
+          "boundary": "来源标为作者自摄；原页放大可见敕木山地名，文字层误为松木山。只支持照片中梯田与周边林木组合，不确认拍摄年份、坐标、权属、植物种类或位于敕木山村界内。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=30"
+        },
+        {
+          "id": "VBZBMSS9:V033",
+          "kind": "图",
+          "title": "图3-3 景宁畲寨的高山水田景观2",
+          "pdf_page": 30,
+          "locator": "3.2（1），页面上组右图",
+          "scope": "景宁区域比较影像",
+          "supports": [],
+          "boundary": "作者自摄；图内另有保留裸岩的封金山小梯田说明，不能与左图的敕木山合并为同地样本。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=30"
+        },
+        {
+          "id": "VBZBMSS9:V034L",
+          "kind": "图",
+          "title": "图3-4 流经景宁山村的瓯江支流（左图）",
+          "pdf_page": 30,
+          "locator": "3.2（1），页面下组左图",
+          "scope": "区域水系影像编目",
+          "supports": [],
+          "boundary": "作者自摄；保留原图号；未标为敕木山村。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=30"
+        },
+        {
+          "id": "VBZBMSS9:V034R",
+          "kind": "图",
+          "title": "图3-4 流经景宁山村的瓯江支流2（右图，同号）",
+          "pdf_page": 30,
+          "locator": "3.2（1），页面下组右图",
+          "scope": "区域水系影像编目",
+          "supports": [],
+          "boundary": "原页确与左图重号；不补造图3-5。作者自摄；未标为敕木山村。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=30"
+        },
+        {
+          "id": "VBZBMSS9:V036",
+          "kind": "图",
+          "title": "图3-6 景宁望东洋高山湿地全景",
+          "pdf_page": 31,
+          "locator": "页面上部",
+          "scope": "望东洋背景影像编目",
+          "supports": [],
+          "boundary": "作者自摄；望东洋不是敕木山村；全景不拆无名子图。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=31"
+        },
+        {
+          "id": "VBZBMSS9:V037",
+          "kind": "图",
+          "title": "图3-7 景宁山村丰富的空间层次",
+          "pdf_page": 31,
+          "locator": "3.2（2），页面中部",
+          "scope": "区域地形层次框架配图",
+          "supports": [],
+          "boundary": "作者自摄；未见有名子图，不推断具体村庄。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=31"
+        },
+        {
+          "id": "VBZBMSS9:V041",
+          "kind": "图",
+          "title": "图4-1 东弄村区位图",
+          "pdf_page": 35,
+          "locator": "4.1.1，页面上图",
+          "scope": "敕木相关区位段落配图，绘图对象是东弄",
+          "supports": [],
+          "boundary": "作者自绘；核原页用于确认案例对象，图内小字未全部读清，不提取敕木山村范围。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=35"
+        },
+        {
+          "id": "VBZBMSS9:V042",
+          "kind": "图",
+          "title": "图4-2 东弄村村域图",
+          "pdf_page": 35,
+          "locator": "4.1.1，页面下图",
+          "scope": "东弄村范围图",
+          "supports": [],
+          "boundary": "作者自绘；不是敕木山村域，不从此图量取村级面积或边界。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=35"
+        },
+        {
+          "id": "VBZBMSS9:V043",
+          "kind": "图",
+          "title": "图4-3 典型畲寨——景宁县东弄村鸟瞰",
+          "pdf_page": 36,
+          "locator": "4.1.3（1），页面中部",
+          "scope": "东弄案例影像编目",
+          "supports": [],
+          "boundary": "作者自摄；只核图目，不将图中空间格局转述为敕木山村格局。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=36"
+        },
+        {
+          "id": "VBZBMSS9:V044",
+          "kind": "图",
+          "title": "图4-4 依山就势的东弄村布局",
+          "pdf_page": 38,
+          "locator": "页面上组左图",
+          "scope": "东弄案例影像编目",
+          "supports": [],
+          "boundary": "作者自摄；非敕木山村。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=38"
+        },
+        {
+          "id": "VBZBMSS9:V045",
+          "kind": "图",
+          "title": "图4-5 东弄村的溪流",
+          "pdf_page": 38,
+          "locator": "页面上组右图",
+          "scope": "东弄案例影像编目",
+          "supports": [],
+          "boundary": "作者自摄；不借图生成敕木山村水系。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=38"
+        },
+        {
+          "id": "VBZBMSS9:V046",
+          "kind": "图",
+          "title": "图4-6 东弄村的传统建筑1",
+          "pdf_page": 38,
+          "locator": "页面下组左图",
+          "scope": "东弄建筑影像编目",
+          "supports": [],
+          "boundary": "作者自摄；建筑内部细部不展开当前研究。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=38"
+        },
+        {
+          "id": "VBZBMSS9:V047",
+          "kind": "图",
+          "title": "图4-7 东弄村的传统建筑2",
+          "pdf_page": 38,
+          "locator": "页面下组右图",
+          "scope": "东弄建筑影像编目",
+          "supports": [],
+          "boundary": "作者自摄；不据此命名敕木山村建筑或构件。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=38"
+        },
+        {
+          "id": "VBZBMSS9:V048",
+          "kind": "图",
+          "title": "图4-8 东弄村中心居民点分布图",
+          "pdf_page": 40,
+          "locator": "4.2.2之后，页面上部",
+          "scope": "案例规划范围框架配图",
+          "supports": [],
+          "boundary": "作者自绘；支持区分村域与中心居民点设计范围，图例未全核。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=40"
+        },
+        {
+          "id": "VBZBMSS9:V049",
+          "kind": "图",
+          "title": "图4-9 东弄村中心居民点景观规划图",
+          "pdf_page": 43,
+          "locator": "4.3.1，页面上部",
+          "scope": "规划方案框架配图",
+          "supports": [],
+          "boundary": "作者自绘；是规划而非现状实测；图中无名符号不另造材料标题。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=43"
+        },
+        {
+          "id": "VBZBMSS9:V0410",
+          "kind": "组图",
+          "title": "图4-10 东弄村中心居民点景观意向图",
+          "pdf_page": 44,
+          "locator": "页面上部；左侧总示意与右侧、下方八个字母子图",
+          "scope": "设计意向框架项",
+          "supports": [],
+          "boundary": "作者自绘，非建成影像；保留总图及八个有名子图，子图低清处不强补整句。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:V0410A",
+          "kind": "命名子图",
+          "title": "图4-10子图A：沿途门楼",
+          "pdf_page": 44,
+          "locator": "图4-10右上",
+          "scope": "东弄设计意向",
+          "supports": [],
+          "boundary": "图下注释另述提高识别性、趣味性；后半小字不稳定，标题仅取可辨名词，不作为实存门楼证据。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:V0410B",
+          "kind": "命名子图",
+          "title": "图4-10子图B：沿山路坡坎下休息平台（坡坎小字疑读）",
+          "pdf_page": 44,
+          "locator": "图4-10右中",
+          "scope": "东弄设计意向",
+          "supports": [],
+          "boundary": "可辨休息平台；中间字低清，不用疑读字生成对象或关系。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:V0410C",
+          "kind": "命名子图",
+          "title": "图4-10子图C：巧妙构思的坐凳、古井等（中间一项不可辨）",
+          "pdf_page": 44,
+          "locator": "图4-10中下部左",
+          "scope": "东弄设计意向",
+          "supports": [],
+          "boundary": "可辨坐凳、古井，中间一项不猜字；此处按图内位置单列但不作事实提取。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:V0410D",
+          "kind": "命名子图",
+          "title": "图4-10子图D：古朴的木亭，与村内风格协调",
+          "pdf_page": 44,
+          "locator": "图4-10中下部中",
+          "scope": "东弄设计意向",
+          "supports": [],
+          "boundary": "意向木亭，不是经现场确认的具体建筑。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:V0410E",
+          "kind": "命名子图",
+          "title": "图4-10子图E：新村入口停车场水池",
+          "pdf_page": 44,
+          "locator": "图4-10中下部右",
+          "scope": "东弄设计意向",
+          "supports": [],
+          "boundary": "只用于保留原图意向，不认定已经建设。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:V0410F",
+          "kind": "命名子图",
+          "title": "图4-10子图F：传统古宅、曲径通幽",
+          "pdf_page": 44,
+          "locator": "图4-10底部左",
+          "scope": "东弄设计意向",
+          "supports": [],
+          "boundary": "不据艺术性意向图判断真实建筑年代或空间尺寸。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:V0410G",
+          "kind": "命名子图",
+          "title": "图4-10子图G：再现廊桥",
+          "pdf_page": 44,
+          "locator": "图4-10底部中",
+          "scope": "东弄设计意向",
+          "supports": [],
+          "boundary": "再现为规划表达；不是原有廊桥存续证据。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:V0410H",
+          "kind": "命名子图",
+          "title": "图4-10子图H：停车场服务中心",
+          "pdf_page": 44,
+          "locator": "图4-10底部右",
+          "scope": "东弄设计意向",
+          "supports": [],
+          "boundary": "属于服务设施意向，不等同现存实物。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=44"
+        },
+        {
+          "id": "VBZBMSS9:T041",
+          "kind": "表",
+          "title": "表4-1 东弄村观赏型庭院推荐植物与植物景观模式",
+          "pdf_page": 48,
+          "locator": "页面上部",
+          "scope": "非敕木山村，模式表目录项",
+          "supports": [],
+          "boundary": "仅图表目录核查，未逐项精读推荐树种和模式。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=48"
+        },
+        {
+          "id": "VBZBMSS9:V0411",
+          "kind": "图",
+          "title": "图4-11 东弄村观赏型庭院改造前照片",
+          "pdf_page": 48,
+          "locator": "页面中部左图",
+          "scope": "东弄案例图目",
+          "supports": [],
+          "boundary": "作者自摄；仅图目核查，拍摄年月未核。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=48"
+        },
+        {
+          "id": "VBZBMSS9:V0412",
+          "kind": "图",
+          "title": "图4-12 东弄村观赏型庭院改造后效果图",
+          "pdf_page": 48,
+          "locator": "页面中部右图",
+          "scope": "东弄方案图目",
+          "supports": [],
+          "boundary": "作者自绘；效果图不等于改造后实景。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=48"
+        },
+        {
+          "id": "VBZBMSS9:V0413",
+          "kind": "图",
+          "title": "图4-13 东弄村观赏型庭院改造植物配置平面示意图",
+          "pdf_page": 48,
+          "locator": "页面下部",
+          "scope": "东弄模式图目",
+          "supports": [],
+          "boundary": "作者自绘；仅图目核查，不提取植物点位或种名。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=48"
+        },
+        {
+          "id": "VBZBMSS9:T042",
+          "kind": "表",
+          "title": "表4-2 东弄村果蔬型庭院推荐植物与植物景观模式",
+          "pdf_page": 49,
+          "locator": "页面中部",
+          "scope": "东弄模式表目录项",
+          "supports": [],
+          "boundary": "仅图表目录核查，未精读正文和全部表项。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=49"
+        },
+        {
+          "id": "VBZBMSS9:V0414",
+          "kind": "图",
+          "title": "图4-14 东弄村果蔬型庭院改造前照片",
+          "pdf_page": 49,
+          "locator": "页面下部左图",
+          "scope": "东弄案例图目",
+          "supports": [],
+          "boundary": "作者自摄；仅图目核查。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=49"
+        },
+        {
+          "id": "VBZBMSS9:V0415",
+          "kind": "图",
+          "title": "图4-15 东弄村果蔬型庭院改造后效果图",
+          "pdf_page": 49,
+          "locator": "页面下部右图",
+          "scope": "东弄方案图目",
+          "supports": [],
+          "boundary": "作者自绘；不视为建成照片。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=49"
+        },
+        {
+          "id": "VBZBMSS9:V0416",
+          "kind": "图",
+          "title": "图4-16 东弄村果蔬型庭院植物配置平面示意图",
+          "pdf_page": 50,
+          "locator": "页面上部",
+          "scope": "东弄模式图目",
+          "supports": [],
+          "boundary": "作者自绘；未逐项精读图内植物标注。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=50"
+        },
+        {
+          "id": "VBZBMSS9:T043",
+          "kind": "表",
+          "title": "表4-3 东弄村林木型庭院推荐植物与植物景观模式",
+          "pdf_page": 50,
+          "locator": "页面下部",
+          "scope": "东弄模式表目录项",
+          "supports": [],
+          "boundary": "章节称经济林木型，表题简称林木型；仅目录核查，不归入敕木山村。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=50"
+        },
+        {
+          "id": "VBZBMSS9:V0417",
+          "kind": "图",
+          "title": "图4-17 东弄村林木型庭院改造前照片",
+          "pdf_page": 51,
+          "locator": "页面上部左图",
+          "scope": "东弄案例图目",
+          "supports": [],
+          "boundary": "作者自摄；仅图目核查。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=51"
+        },
+        {
+          "id": "VBZBMSS9:V0418",
+          "kind": "图",
+          "title": "图4-18 东弄村林木型庭院改造后效果图",
+          "pdf_page": 51,
+          "locator": "页面上部右图",
+          "scope": "东弄方案图目",
+          "supports": [],
+          "boundary": "作者自绘；非改造后现场记录。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=51"
+        },
+        {
+          "id": "VBZBMSS9:V0419",
+          "kind": "图",
+          "title": "图4-19 东弄村林木型庭院改造植物配置平面示意图",
+          "pdf_page": 51,
+          "locator": "页面中部",
+          "scope": "东弄模式图目",
+          "supports": [],
+          "boundary": "作者自绘；文字层图号误识，另渲染原页核实确为图4-19，并非仅按连续编号推定；未核全部图内细字。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=51"
+        },
+        {
+          "id": "VBZBMSS9:T044",
+          "kind": "表",
+          "title": "表4-4 东弄村晒场型庭院推荐植物与植物景观模式",
+          "pdf_page": 52,
+          "locator": "页面上部",
+          "scope": "东弄模式表目录项",
+          "supports": [],
+          "boundary": "仅图表目录核查，未精读全部表项。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=52"
+        },
+        {
+          "id": "VBZBMSS9:V0420",
+          "kind": "图",
+          "title": "图4-20 东弄村晒场型庭院改造前照片",
+          "pdf_page": 52,
+          "locator": "页面中部左图",
+          "scope": "东弄案例图目",
+          "supports": [],
+          "boundary": "作者自摄；仅图目核查。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=52"
+        },
+        {
+          "id": "VBZBMSS9:V0421",
+          "kind": "图",
+          "title": "图4-21 东弄村晒场型庭院改造后效果图",
+          "pdf_page": 52,
+          "locator": "页面中部右图",
+          "scope": "东弄方案图目",
+          "supports": [],
+          "boundary": "作者自绘；不据此认定广场设施已经存在。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=52"
+        },
+        {
+          "id": "VBZBMSS9:V0422",
+          "kind": "图",
+          "title": "图4-22 东弄村晒场型庭院改造植物配置平面示意图",
+          "pdf_page": 52,
+          "locator": "页面下部",
+          "scope": "东弄模式图目",
+          "supports": [],
+          "boundary": "作者自绘；仅图目核查。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=52"
+        },
+        {
+          "id": "VBZBMSS9:T045",
+          "kind": "表",
+          "title": "表4-5 东弄村道路推荐植物与植物景观模式",
+          "pdf_page": 53,
+          "locator": "页面中部",
+          "scope": "东弄模式表目录项",
+          "supports": [],
+          "boundary": "仅图表目录核查，不精读具体配置参数。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=53"
+        },
+        {
+          "id": "VBZBMSS9:V0423",
+          "kind": "图",
+          "title": "图4-23 东弄村道路植物景观改造前照片",
+          "pdf_page": 53,
+          "locator": "页面下部左图",
+          "scope": "东弄案例图目",
+          "supports": [],
+          "boundary": "作者自摄；仅图目核查。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=53"
+        },
+        {
+          "id": "VBZBMSS9:V0424",
+          "kind": "图",
+          "title": "图4-24 东弄村道路植物景观改造后效果图",
+          "pdf_page": 53,
+          "locator": "页面下部右图",
+          "scope": "东弄方案图目",
+          "supports": [],
+          "boundary": "作者自绘；不作真实道路改造结果。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=53"
+        },
+        {
+          "id": "VBZBMSS9:V0425",
+          "kind": "图",
+          "title": "图4-25 东弄村道路植物景观植物配置示意图",
+          "pdf_page": 54,
+          "locator": "页面上部",
+          "scope": "东弄模式图目",
+          "supports": [],
+          "boundary": "作者自绘；两条线性配置示意未见独立子图名，不补造子图标题。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=54"
+        },
+        {
+          "id": "VBZBMSS9:T046",
+          "kind": "表",
+          "title": "表4-6 东弄村公园推荐植物与植物景观模式",
+          "pdf_page": 54,
+          "locator": "页面下部",
+          "scope": "东弄模式表目录项",
+          "supports": [],
+          "boundary": "仅图表目录核查，未精读全部表项。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=54"
+        },
+        {
+          "id": "VBZBMSS9:V0426",
+          "kind": "图",
+          "title": "图4-26 东弄村公园植物景观改造前照片",
+          "pdf_page": 55,
+          "locator": "页面上部左图",
+          "scope": "东弄案例图目",
+          "supports": [],
+          "boundary": "作者自摄；仅图目核查。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=55"
+        },
+        {
+          "id": "VBZBMSS9:V0427",
+          "kind": "图",
+          "title": "图4-27 东弄村公园植物景观改造后效果图",
+          "pdf_page": 55,
+          "locator": "页面上部右图",
+          "scope": "东弄方案图目",
+          "supports": [],
+          "boundary": "作者自绘；非建成结果。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=55"
+        },
+        {
+          "id": "VBZBMSS9:V0428",
+          "kind": "图",
+          "title": "图4-28 东弄村公园植物景观植物配置平面示意图",
+          "pdf_page": 55,
+          "locator": "页面中部",
+          "scope": "东弄模式图目",
+          "supports": [],
+          "boundary": "作者自绘；仅图目核查，未逐个识别植物点位。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=55"
+        },
+        {
+          "id": "VBZBMSS9:V0429",
+          "kind": "图",
+          "title": "图4-29 东弄村滨水植物景观效果图",
+          "pdf_page": 56,
+          "locator": "4.3.5.5（2），页面下部",
+          "scope": "水体结合模式配图",
+          "supports": [],
+          "boundary": "作者自绘；未见另命名子图；仅支持方案示意性质，水位适应性来自正文而非图片可测参数。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=56"
+        },
+        {
+          "id": "VBZBMSS9:V0430",
+          "kind": "图",
+          "title": "图4-30 东弄村建筑环境整治效果图",
+          "pdf_page": 57,
+          "locator": "4.3.5.5（3），页面中部",
+          "scope": "建筑外部环境整治模式配图",
+          "supports": [],
+          "boundary": "作者自绘；不将效果图当现状，也不从图中推断室内构架。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=57"
+        },
+        {
+          "id": "VBZBMSS9:V0431",
+          "kind": "图",
+          "title": "图4-31 东弄村建筑环境整治植物配置平面示意图",
+          "pdf_page": 57,
+          "locator": "4.3.5.5（3），页面下部",
+          "scope": "建筑与植物配置模式配图",
+          "supports": [],
+          "boundary": "作者自绘；不量测植物与建筑间距，图内细小种名未全部核清。",
+          "source_key": "VBZBMSS9",
+          "source_link": "zotero://open-pdf/library/items/F6CSMFHB?page=57"
+        }
+      ],
+      "claims": [
+        {
+          "id": "VBZBMSS9:C01",
+          "material_id": "VBZBMSS9:M01",
+          "pdf_page": [
+            1,
+            2,
+            4
+          ],
+          "locator": "封面、答辩日期栏、致谢首段及落款",
+          "text": "论文申请人为赵梅，导师为李王鸣，提交年月为2015年12月；李王鸣不应列入作者字段。",
+          "attribution": "原件身份信息，经封面视觉核验并与致谢交叉核对",
+          "object": "文献身份",
+          "knowledge_use": "来源归属和年代界定",
+          "boundary": "不推定另有共同作者。"
+        },
+        {
+          "id": "VBZBMSS9:C02",
+          "material_id": "VBZBMSS9:M02",
+          "pdf_page": 10,
+          "locator": "1.1（1）乡土特色",
+          "text": "作者将乡土特色放在特定地域的自然与文化特征中理解，并明确研究乡土特色必须联系具体地域环境。",
+          "attribution": "作者采用的概念界定",
+          "object": "乡土特色的空间尺度",
+          "knowledge_use": "提示每项知识记录地域范围，不因属于景宁就默认属于敕木山村",
+          "boundary": "理论界定，不是村界划定依据。"
+        },
+        {
+          "id": "VBZBMSS9:C03",
+          "material_id": "VBZBMSS9:M02",
+          "pdf_page": [
+            10,
+            11
+          ],
+          "locator": "1.1（4）及续段",
+          "text": "本文乡土植物的工作范围除原生态植被外，还包括当地食物材料及被赋予特定文化含义的植物。",
+          "attribution": "作者明确限定本文用法",
+          "object": "植物与食用、文化关联",
+          "knowledge_use": "分开记录生态来源、实际用途、文化含义，避免把乡土仅解释为生物地理原生",
+          "boundary": "不能由文化关联推定植物原产地，更不能推定敕木山村实存。"
+        },
+        {
+          "id": "VBZBMSS9:C04",
+          "material_id": "VBZBMSS9:M03",
+          "pdf_page": 17,
+          "locator": "1.5.2（1）—（3）",
+          "text": "作者以文献阅读、实地考察、案例分析组织研究，并提出比较不同建设状态与特色保存状态的村庄来归纳植物选择及营造经验。",
+          "attribution": "作者自述方法",
+          "object": "调查与归纳路径",
+          "knowledge_use": "可借鉴样本状态比较的思路，迁移前需明确调查时间、范围和记录标准",
+          "boundary": "未给出足以复做的抽样和量化细节；不推断采用问卷或统计模型。"
+        },
+        {
+          "id": "VBZBMSS9:C05",
+          "material_id": "VBZBMSS9:M04",
+          "pdf_page": [
+            16,
+            58
+          ],
+          "locator": "1.4.1；5.1（1）（2）",
+          "text": "论文先整理营造要素、特征、原则和布局类型，再以东弄村魅力畲寨建设规划项目讨论植物选择和设计模式。",
+          "attribution": "作者研究目标与结论自述",
+          "object": "论文贡献及案例对象",
+          "knowledge_use": "将本文定位为区域框架与东弄设计参考，而非敕木山村专项调查文献",
+          "boundary": "不把作者总结的一套方法当作已经广泛验证的方法论。"
+        },
+        {
+          "id": "VBZBMSS9:C06",
+          "material_id": "VBZBMSS9:M05",
+          "pdf_page": [
+            19,
+            20
+          ],
+          "locator": "2.1.1—2.1.3",
+          "text": "作者借鉴景观美学、群落生态学、环境心理学；以紫苏的食物使用解释景宁乡土植物与地方文化的联系。",
+          "attribution": "作者理论论述与举例",
+          "object": "理论来源与植物文化关系",
+          "knowledge_use": "保留作者完整解释链，当前只将食用文化关联作为待验证知识线索",
+          "boundary": "感官体验、乡愁和群落演替内容不据此启用人的感知或时序模块；紫苏例不特指敕木山村。"
+        },
+        {
+          "id": "VBZBMSS9:C07",
+          "material_id": "VBZBMSS9:M06",
+          "pdf_page": [
+            20,
+            21
+          ],
+          "locator": "2.2.1（1）—（4）",
+          "text": "作者提出地理位置与气候条件、地形地貌、植物资源、村落文化四类营造要素。",
+          "attribution": "作者框架归纳",
+          "object": "分析维度",
+          "knowledge_use": "可用作后续材料分类和缺项检查：自然条件、地形、植被、文化分别找证据",
+          "boundary": "分类维度不能直接转换为实体清单、因果边或数据库结构。"
+        },
+        {
+          "id": "VBZBMSS9:C08",
+          "material_id": "VBZBMSS9:M06",
+          "pdf_page": 21,
+          "locator": "2.2.1（4）村落文化",
+          "text": "作者把村庄布局、建筑形式、民风民俗及古树名木纳入村落文化表达，并主张植物文化标志物与周边建筑结合保护。",
+          "attribution": "作者解释与保护主张",
+          "object": "古树、建筑与村落文化的联系",
+          "knowledge_use": "提示建立可定位的植物—建筑—文化实践证据链，而非只保存物种名称",
+          "boundary": "不能据此为敕木山村补出某株古树或赋予某建筑风水含义。"
+        },
+        {
+          "id": "VBZBMSS9:C09",
+          "material_id": "VBZBMSS9:M07",
+          "pdf_page": [
+            23,
+            24
+          ],
+          "locator": "2.2.3五项原则",
+          "text": "作者的五项原则为模拟自然植被类型、营造多样群落模式、凸显特色地域文化、满足不同功能要求、立足节约养护成本；功能进一步区分生产、防护与观赏。",
+          "attribution": "作者规范性原则",
+          "object": "设计判断依据",
+          "knowledge_use": "将功能、生态适应性与养护条件分开作为方案比较依据",
+          "boundary": "末项原编号（6）；未测定实际成本或生态效果。"
+        },
+        {
+          "id": "VBZBMSS9:C10",
+          "material_id": "VBZBMSS9:M08",
+          "pdf_page": 25,
+          "locator": "2.2.4（1）①庭院",
+          "text": "本文庭院指建筑之间或房前屋后相对围合、但不一定具有明确范围线的空间，作者强调兼顾劳作工具、养殖等日常使用。",
+          "attribution": "作者空间定义及设计解释",
+          "object": "庭院及使用关系",
+          "knowledge_use": "避免把庭院机械限定为有围墙的私家院落；后续识别须记录实际围合与使用证据",
+          "boundary": "这是本文定义，不等于已发现敕木山村具体庭院。"
+        },
+        {
+          "id": "VBZBMSS9:C11",
+          "material_id": "VBZBMSS9:M08",
+          "pdf_page": 25,
+          "locator": "2.2.4（1）②房前屋后、③村口",
+          "text": "作者把房前屋后视为建筑外部绿化的延续空间，要求树木配置兼顾采光通风；村口可由古树、井等形成标志，但反对简单堆砌景观元素。",
+          "attribution": "作者设计主张",
+          "object": "建筑外部空间与村口标志",
+          "knowledge_use": "记录植物、建筑开敞条件及村口标志物之间的有据关联",
+          "boundary": "不恢复建筑内部构架；古树与井只是通用举例，不是敕木山村实物目录。"
+        },
+        {
+          "id": "VBZBMSS9:C12",
+          "material_id": "VBZBMSS9:M09",
+          "pdf_page": [
+            25,
+            26,
+            27
+          ],
+          "locator": "2.2.4（2）（3）",
+          "text": "线状布局利用河渠堤和道路联系分散绿地，面状布局包含公园和农田；作者要求水岸配置适应水文条件，农田配置兼顾生产及景观用途。",
+          "attribution": "作者布局方法与约束",
+          "object": "线性联系、面状空间及生产景观",
+          "knowledge_use": "区分几何布局、实际用地和功能，不把一切绿化均理解为公共公园",
+          "boundary": "未在敕木山村验证网络连通性；本轮不把水位变化扩展为时序分析模块。"
+        },
+        {
+          "id": "VBZBMSS9:C13",
+          "material_id": "VBZBMSS9:M10",
+          "pdf_page": [
+            30,
+            31
+          ],
+          "locator": "3.2（1）—（3）",
+          "text": "作者以山水相依、空间层次丰富和生态脆弱概括景宁山区村庄，并将起伏地形与植物分布差异联系起来。",
+          "attribution": "作者区域性解释",
+          "object": "景宁山区地形与植物景观",
+          "knowledge_use": "提示村级调查需要坡地、水体、地形与植被的对应证据",
+          "boundary": "区域概括不能替代敕木山村地形测绘；生态脆弱性也未提供村级量化指标。"
+        },
+        {
+          "id": "VBZBMSS9:C14",
+          "material_id": "VBZBMSS9:M10",
+          "pdf_page": 32,
+          "locator": "3.2（4）人文独特续段",
+          "text": "作者将乌饭植物与三月三制作乌米饭习俗联系，并将杜仲等与畲族医药文化联系，作为乡土植物选择的文化理由。",
+          "attribution": "作者对景宁区域文化的举例解释",
+          "object": "植物—食俗、植物—医药文化",
+          "knowledge_use": "形成需另找村级材料验证的文化知识候选",
+          "boundary": "不是敕木山村习俗调查，也不构成食用、药用安全建议。"
+        },
+        {
+          "id": "VBZBMSS9:C15",
+          "material_id": "VBZBMSS9:M11",
+          "pdf_page": [
+            32,
+            33,
+            34
+          ],
+          "locator": "3.3—3.4",
+          "text": "作者诊断景宁山区植物景观存在品种单一、配置不合理、质量与生态效益不足、村庄意象与文化传承不足等问题，建议从文化挖掘、乡土植物、地方导则、参与宣传及经济结合等方面改善。",
+          "attribution": "作者调查后归纳及规范性建议",
+          "object": "区域诊断与治理方法",
+          "knowledge_use": "可作检查调查材料是否包含制度和维护条件的依据，不只收集空间形态",
+          "boundary": "没有逐村评价表，不转写为敕木山村问题清单或2026现状。"
+        },
+        {
+          "id": "VBZBMSS9:C16",
+          "material_id": "VBZBMSS9:M12",
+          "pdf_page": 35,
+          "locator": "4.1.1首段；参见图4-1",
+          "text": "作者称东弄村位于景宁县城东南部的敕木山东峡谷；这一句提供东弄与敕木山的地理参照关系。",
+          "attribution": "作者区位报告，论文时期",
+          "object": "东弄村；敕木山山地",
+          "knowledge_use": "保留明确地名与空间关系，阻止把东弄资料归为敕木山村",
+          "boundary": "没有说东弄等于敕木山村，也没有给敕木山村范围、人口或植物数据。"
+        },
+        {
+          "id": "VBZBMSS9:C17",
+          "material_id": "VBZBMSS9:M13",
+          "pdf_page": [
+            36,
+            37
+          ],
+          "locator": "4.1.3（1）；4.1.6",
+          "text": "作者报告东弄老村依山就势、溪流贯村、梯田与植被共同形成山村环境；青石板或碎石道路构成其传统空间骨架，并记述传统民居、宗祠与庙宇。",
+          "attribution": "作者对东弄的论文时期报告",
+          "object": "东弄建筑文化与外部空间",
+          "knowledge_use": "作为异村比较材料保存，借鉴地形—水系—道路—建筑组合的观察方式",
+          "boundary": "不得迁移为敕木山村事实；宗祠年代内部叙述有疑点，内部木构与雕刻不展开当前分析。"
+        },
+        {
+          "id": "VBZBMSS9:C18",
+          "material_id": "VBZBMSS9:M14",
+          "pdf_page": 41,
+          "locator": "4.2.3（1）⑤区位有利",
+          "text": "作者把环敕木山畲族核心聚居区旅游开发作为东弄逐渐受到重视的背景因素。",
+          "attribution": "作者对区域开发与东弄区位优势的解释",
+          "object": "环敕木山区域开发；东弄村",
+          "knowledge_use": "保留区域政策旅游背景，不据此生成敕木山村项目实录",
+          "boundary": "不是2026年状态，也不证明敕木山村具体项目已经实施。"
+        },
+        {
+          "id": "VBZBMSS9:C19",
+          "material_id": "VBZBMSS9:M15",
+          "pdf_page": [
+            39,
+            40
+          ],
+          "locator": "4.2.2及图4-8",
+          "text": "东弄案例的具体规划设计范围是东弄中心居民点，包括东弄老村、岗头村、新安置区，而不是敕木山村；村域图与居民点规划范围不能混用。",
+          "attribution": "作者明确的设计范围及阅读者尺度辨析",
+          "object": "东弄村域与中心居民点",
+          "knowledge_use": "在比较方案前先确定案例边界和分析尺度",
+          "boundary": "图4-2与4-8不用于推算敕木山村界。"
+        },
+        {
+          "id": "VBZBMSS9:C20",
+          "material_id": "VBZBMSS9:M15",
+          "pdf_page": [
+            42,
+            43,
+            44
+          ],
+          "locator": "4.3.1（1）自然环境、（2）人工环境、（3）人文环境",
+          "text": "作者区分自然环境、人工环境、人文环境：分别讨论山体水体地形保护、整体建筑风貌保护改造，以及行为习惯和医药文化的保留。",
+          "attribution": "作者案例分析分类与设计策略",
+          "object": "三类环境要素及不同干预对象",
+          "knowledge_use": "可借鉴物质环境与文化实践分层取证，区分观察对象与保护行动",
+          "boundary": "类别并非互斥的本体定义；不直接转成数据库结构。"
+        },
+        {
+          "id": "VBZBMSS9:C21",
+          "material_id": "VBZBMSS9:M15",
+          "pdf_page": 43,
+          "locator": "4.3.1（2）人工环境要素末段",
+          "text": "作者的东弄建筑保护策略包括保护基本格局、控制传统建筑保护范围内新建、限制破坏外部界面的改建，并以植物美化建筑。",
+          "attribution": "作者规范性保护策略",
+          "object": "建筑外部界面、整体格局与植物",
+          "knowledge_use": "为后续核对建筑—开放空间—植物的保护约束提供维度",
+          "boundary": "不是证明该保护已执行的材料，不恢复内部构架模块。"
+        },
+        {
+          "id": "VBZBMSS9:C22",
+          "material_id": "VBZBMSS9:M16",
+          "pdf_page": [
+            44,
+            45
+          ],
+          "locator": "4.3.2—4.3.3及图4-10",
+          "text": "东弄规划以沿溪轴、古道带、山体和防护林面、步道节点组织景观，并分列节点、沿溪、道路、庭院、公园绿化；正文三面与五面的数量表述存在不一致。",
+          "attribution": "作者规划方案；数量不一致为阅读者校核",
+          "object": "方案层级与绿地组织",
+          "knowledge_use": "借鉴总体组织与具体场所分层表达，数量字段必须回原文核实",
+          "boundary": "不生成不存在的第五片绿地，不把方案表达当已建关系。"
+        },
+        {
+          "id": "VBZBMSS9:C23",
+          "material_id": "VBZBMSS9:M17",
+          "pdf_page": [
+            45,
+            46,
+            47
+          ],
+          "locator": "4.3.4（1）—（10）",
+          "text": "植物推荐分为观叶、观花、观果、林荫木、地被、观赏竹、用材、药用、芳香、蜜源十类，依据兼有观赏形态、生活型和用途，同一植物可在不同类别中重复。",
+          "attribution": "作者推荐分类；非互斥性为阅读者依据列项重复作出的判断",
+          "object": "植物功能与用途的多重分类",
+          "knowledge_use": "后续材料整理应允许多种用途并列，而非强制每种植物只归一类",
+          "boundary": "推荐表不是村内存在清单，未逐种校正OCR，不生成具体物种断言。"
+        },
+        {
+          "id": "VBZBMSS9:C24",
+          "material_id": "VBZBMSS9:M18",
+          "pdf_page": 57,
+          "locator": "4.3.5.5（3）及图4-30、4-31",
+          "text": "作者提出建筑周边植物配置应先满足通风采光，避免高大乔木过近，再考虑建筑风格、植物美化及立体绿化。",
+          "attribution": "作者东弄设计建议",
+          "object": "建筑外部与植物配置约束",
+          "knowledge_use": "将采光通风、建筑风格和绿化方式分别记录为方案判断依据",
+          "boundary": "不是敕木山村测量结果，不从中恢复内部构架或人的感知模块；示意图不提供已核实距离。"
+        },
+        {
+          "id": "VBZBMSS9:C25",
+          "material_id": "VBZBMSS9:M18",
+          "pdf_page": 56,
+          "locator": "4.3.5.5（2）及图4-29",
+          "text": "作者在与水体结合的模式中强调根据水位和植物需水特性选择植物，并以滨水效果图表达方案。",
+          "attribution": "作者设计方法",
+          "object": "水体条件与植物选择",
+          "knowledge_use": "提示滨水植物候选需附生境和水文适用边界",
+          "boundary": "未提供水位实测序列，当前不据此建立时序分析；效果图不证明已建成。"
+        },
+        {
+          "id": "VBZBMSS9:C26",
+          "material_id": "VBZBMSS9:M19",
+          "pdf_page": 58,
+          "locator": "5.2展望",
+          "text": "作者认为后续仍需加强乡土自然元素和村落文化保护挖掘、野生植物与田园风貌保护开发及植物选育，并协调植物与建筑、水系、山体、道路的关系。",
+          "attribution": "作者展望",
+          "object": "资源保护与跨要素协调",
+          "knowledge_use": "把未完成的工作保留为后续验证问题，而非既有成果",
+          "boundary": "不能推断保护已发生，也不能视为2026研究任务已经决定。"
+        },
+        {
+          "id": "VBZBMSS9:C27",
+          "material_id": "VBZBMSS9:T013",
+          "pdf_page": [
+            22,
+            23
+          ],
+          "locator": "表1-3五项特征",
+          "text": "作者以自然性、地域性、生产性、多样性、经济性刻画乡土植物景观，特别保留房前屋后果蔬及经济林的生活生产价值与养护成本考虑。",
+          "attribution": "作者理论整理",
+          "object": "植物景观的特征及评价关注点",
+          "knowledge_use": "避免只按美观度评价村庄植物；需同时核验生产用途和维护条件",
+          "boundary": "特征不是已完成的量化指标体系；结论将末项写为节约性，不能混同为独立第六项。"
+        },
+        {
+          "id": "VBZBMSS9:C28",
+          "material_id": "VBZBMSS9:V011",
+          "pdf_page": 18,
+          "locator": "图1-1全图",
+          "text": "技术路线把提出问题、理论研究、案例研究串联；案例层同时包含区域畲族村庄认识、东弄设计、结论讨论，东弄设计进一步分景观要素、景观规划、绿地规划、植物选择和配置模式。",
+          "attribution": "作者自绘流程图，经原页核验",
+          "object": "研究流程与分析层级",
+          "knowledge_use": "保留区域—案例两级推理，不把区域图景与村级实物混写",
+          "boundary": "流程关系不是统计因果或实施成效验证。"
+        },
+        {
+          "id": "VBZBMSS9:C29",
+          "material_id": "VBZBMSS9:V021",
+          "pdf_page": 24,
+          "locator": "图2-1全图",
+          "text": "布局框架分点状、线状、面状：点状对应庭院、房前屋后、村口；线状对应河渠堤与道路；面状对应公园、农田。",
+          "attribution": "作者自绘分类图，经原页核验",
+          "object": "植物景观布局与场所类型",
+          "knowledge_use": "可作为空间资料整理的候选分类，允许道路旁点状绿地等不同层次交叉",
+          "boundary": "图未设大小阈值，不应把点线面当互斥实物种类或直接数据库标签。"
+        },
+        {
+          "id": "VBZBMSS9:C30",
+          "material_id": "VBZBMSS9:V032",
+          "pdf_page": 30,
+          "locator": "图3-2及照片内下缘敕木山地名说明",
+          "text": "图3-2以高山水田景观为题，照片内小字标为敕木山上林木环抱的小梯田，图像可见坡地梯田与周边林木组合。",
+          "attribution": "作者照片及图内地名标注，经原页与局部放大核验",
+          "object": "敕木山山地梯田影像",
+          "knowledge_use": "作为敕木山相关景观线索单独保存，待其他村界或地理证据再判断能否归村",
+          "boundary": "标题没有写敕木山村；无拍摄时间坐标，不判定2026存续，不推断植物种类、田亩和具体经营方式。"
+        }
+      ],
+      "model_lessons": [
+        {
+          "text": "先辨地域层级再提取对象：本篇的景宁县、敕木山山地、环敕木山聚居区、东弄村、东弄中心居民点是不同范围；不得因同现一个地名便合并。",
+          "locator": "PDF第28、30、35、39—41页；VBZBMSS9:M12、M14、M15、V032",
+          "status": "可采用的证据管理原则；不制定数据库结构"
+        },
+        {
+          "text": "将材料、陈述、作者解释、设计建议分别保存；尤其改造前照片与改造后效果图虽成对排版，也不能作为同地实施前后验证。",
+          "locator": "PDF第48—55页图4-11至4-28；第56—57页图4-29至4-31",
+          "status": "可采用；第48—55页仅图表编目，不宣称正文精读"
+        },
+        {
+          "text": "植物类别混合观赏、生活型及用途，应允许同一植物有多个关联用途；物种实存必须另有调查材料，推荐类目不能转成村级植物名录。",
+          "locator": "PDF第45—47页4.3.4；VBZBMSS9:M17",
+          "status": "候选分析规则；逐种名称与敕木山村存在性待核"
+        },
+        {
+          "text": "点线面是作者组织植物景观的布局框架，场所类型与几何组织不是同一层；道路、庭院、农田可作为观察对象候选，需依具体场地证据确认。",
+          "locator": "PDF第24—27页图2-1及2.2.4；VBZBMSS9:V021、M08、M09",
+          "status": "可用于材料分类试验；不是本体或数据库方案"
+        },
+        {
+          "text": "建筑文化材料不只包括建筑实体，还可包括庭院使用、古树与井的地方标志意义、植物食用和医药实践；这些文化联系都要逐项保留地域与来源，不能从区域畲族叙述下推至敕木山村。",
+          "locator": "PDF第10—11、21、25、32、44页；VBZBMSS9:M02、M06、M08、M10、M15",
+          "status": "待村级证据验证的观察维度"
+        },
+        {
+          "text": "建筑—植物关联可暂限定在外部场地、采光通风约束、风貌协调和保护范围；不因原文出现木雕、群落结构或建筑内部延续等词语恢复内部构架模块。",
+          "locator": "PDF第25、37、43、57页；VBZBMSS9:M08、M13、M15、M18",
+          "status": "当前边界内可借鉴；内部构架不纳入"
+        },
+        {
+          "text": "环境心理学、视觉味觉听觉、乡愁、季相与演替在文献中确实存在，应原样保留其文献身份，但不据此增加人的感知或时序分析模块。",
+          "locator": "PDF第19—21、25、56、58页；VBZBMSS9:M05、M08、M18",
+          "status": "仅存档，当前不纳入研究模块"
+        },
+        {
+          "text": "检索不能只依敕字：第30页的图内敕木山被文字层识为松木山。应保留原页位置和视觉校核结果，不以零命中断言没有相关影像。",
+          "locator": "PDF第30页图3-2；VBZBMSS9:V032",
+          "status": "已在本次核读验证的提取风险"
+        },
+        {
+          "text": "原文重号、跳号和数量冲突应保留为来源问题；例如两张图3-4使用位置区分而不是虚构图3-5，三面与五面不靠阅读者补齐。",
+          "locator": "PDF第22—24、30、44—45页；VBZBMSS9:T013、V034L、V034R、M16",
+          "status": "可采用的来源保真规则"
+        }
+      ],
+      "unresolved": [
+        {
+          "text": "图3-2敕木山小梯田是否位于敕木山村行政或自然村范围内，缺少拍摄坐标、村界对照与现场确认，当前不能确定。",
+          "locator": "PDF第30页图3-2；VBZBMSS9:V032"
+        },
+        {
+          "text": "敕木山村的具体植物、古树、庭院、农田、建筑和文化实践，本篇已读材料不足以逐项认定；不能拿东弄案例填补。",
+          "locator": "PDF第30、35—45页及本次阅读范围"
+        },
+        {
+          "text": "图4-10子图A—C的部分低清注释仍不稳定，尤其B中间位置词、C中间两字，已保留疑读且不据此生成事实；如需正式引用需更清晰原图。",
+          "locator": "PDF第44页图4-10，VBZBMSS9:V0410A、V0410B、V0410C"
+        },
+        {
+          "text": "蓝氏宗祠建造年代在第37页与第43页叙述不一致，未核外部文献，不确定是表述并列歧义还是原文错误。",
+          "locator": "PDF第37页4.1.6；第43页4.3.1（2）"
+        },
+        {
+          "text": "景观系统三面与五面的数量表述不一致，不能确认作者最终意图；本轮不据意向图补造缺失数量。",
+          "locator": "PDF第44页4.3.2；第45页续段"
+        },
+        {
+          "text": "植物种名及表4-1至4-6详细推荐内容未作全量视觉校正，尚不能用于准确物种名录或具体种植执行。",
+          "locator": "PDF第45—55页，特别是第48—55页未精读正文"
+        },
+        {
+          "text": "图表单元已按逐页文字检索与所列图表页版面核查编目：表1-1、1-2、1-3、4-1至4-6；图1-1、2-1、第三章七幅实际图像（图3-4重号，无独立图3-5）、图4-1至4-31；图4-10另分列八个有名字母子图。未把封面校徽、无名图例符号或无独立标题的多段配置线型另算图表。细小未识文字及未精读页不做无遗漏内容保证。",
+          "locator": "PDF第13—15、18、22—24、28、30—31、35—36、38、40、43—44、48—57页"
+        },
+        {
+          "text": "第3、62页文字层为空，本轮未视觉核定其内容；第12、59—61页未精读。第48—55页仅图表目录和版面核查，不能声称论文全文精读或已核验全部引用。",
+          "locator": "阅读覆盖说明"
+        }
+      ],
+      "attachment": "F6CSMFHB",
+      "pdf": "/Users/wangyuelin/Zotero/storage/F6CSMFHB/赵梅 - 基于乡土特色的景宁畬族村庄植物景观营造研究.pdf",
+      "sha256": "8c576056a3c210b771c308f801eba956e8a99821ca877ffbf626592445b9ce80",
+      "pages": 62,
+      "chars": 142154,
+      "reading_status": "子任务定向核读并交候选，主会话审核方法和范围；不是62页全文精读",
+      "source_link": "zotero://select/library/items/VBZBMSS9"
+    }
+  ],
+  "objects": [
+    {
+      "id": "CMS-O01",
+      "name": "敕木山村",
+      "kind": "村落范围候选",
+      "basis": [
+        "PIW7KR8U:T01",
+        "VQRBWRBF:T01",
+        "44AKWLBL:T01"
+      ],
+      "decision": "村落、自然村、环敕木山地区分别保留；不把标题命中当地点一致。",
+      "check": "需行政/自然村边界、调查范围与三维覆盖对应。",
+      "model_role": "对象/部位候选；独立身份与查询需要确认后再定节点、属性或局部记录。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O02",
+      "name": "2012文献中的蓝村长家／畲族民居1号",
+      "kind": "单体身份线索",
+      "basis": [
+        "VQRBWRBF:T05"
+      ],
+      "decision": "同篇作者明确对应，可在该来源内共用身份；跨篇仍是候选。",
+      "check": "取省保四幢清单及1号维修档案，核门牌、宅主和照片。",
+      "model_role": "身份明确后为宅院整体/主屋的候选实例；两者范围须区分，不能直接同挂Building。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O03",
+      "name": "2013图1的28号蓝姓畲族寮",
+      "kind": "单体身份线索",
+      "basis": [
+        "7KCJR9EB:F01",
+        "7KCJR9EB:T01"
+      ],
+      "decision": "保留原编号28号；纹样示意不是住宅测绘。",
+      "check": "28号的编号体系、地点与现门牌待核。",
+      "model_role": "身份明确后为宅院整体/主屋的候选实例；两者范围须区分，不能直接同挂Building。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O04",
+      "name": "2013蓝村长寮及门楼横梁",
+      "kind": "宅及部位的来源内组织",
+      "basis": [
+        "7KCJR9EB:F06",
+        "7KCJR9EB:T04"
+      ],
+      "decision": "同篇保留宅—门楼横梁／前檐梁部位；两部位纹样不能相互覆盖。",
+      "check": "不要仅凭蓝村长称谓合并O02/O05。",
+      "model_role": "对象/部位候选；独立身份与查询需要确认后再定节点、属性或局部记录。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O05",
+      "name": "2025蓝姓族长四合院",
+      "kind": "单体候选",
+      "basis": [
+        "M008-F12",
+        "PIW7KR8U:T08"
+      ],
+      "decision": "同篇内与1929居住叙事关联；未定与1号、28号或展馆相同。",
+      "check": "核原图地点、保护档案与宅主沿革；其他四合院局部配图未明说全部同宅。",
+      "model_role": "身份明确后为宅院整体/主屋的候选实例；两者范围须区分，不能直接同挂Building。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O06",
+      "name": "老年活动室",
+      "kind": "关联设施/空间候选",
+      "basis": [
+        "44AKWLBL:T05"
+      ],
+      "decision": "保留村中心位置叙述与老人娱乐用途；不作为传统民居样本。",
+      "check": "具体建筑身份、边界、是否与村委同楼待查。",
+      "model_role": "先保留来源中的场所称谓；确定空间范围后评估Space，名称不等于完整三维几何。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O07",
+      "name": "畲族文化广场",
+      "kind": "关联空间候选",
+      "basis": [
+        "44AKWLBL:T05"
+      ],
+      "decision": "保留作者说法：2012建于活动室旁，供唱歌跳舞聚会。",
+      "check": "不能与O08/O09无证合并；没有几何共享界面证据。",
+      "model_role": "先保留来源中的场所称谓；确定空间范围后评估Space，名称不等于完整三维几何。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O08",
+      "name": "村委会前广场",
+      "kind": "场所称谓候选",
+      "basis": [
+        "VQRBWRBF:T09"
+      ],
+      "decision": "2012观察中的舞蹈场所；与文献2015的广场可能有关但未对齐。",
+      "check": "核村委位置、活动室位置及历史照片，不由时间接近判同一。",
+      "model_role": "先保留来源中的场所称谓；确定空间范围后评估Space，名称不等于完整三维几何。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O09",
+      "name": "闲话广场",
+      "kind": "地方场所称谓候选",
+      "basis": [
+        "44AKWLBL:T03"
+      ],
+      "decision": "保留原词及聊天活动，不先标准化为文化广场。",
+      "check": "需原作者定位或本地地图/访谈。",
+      "model_role": "先保留来源中的场所称谓；确定空间范围后评估Space，名称不等于完整三维几何。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O10",
+      "name": "村委两层办公楼",
+      "kind": "关联建筑候选",
+      "basis": [
+        "VQRBWRBF:T06"
+      ],
+      "decision": "办公室、会议室、值班室、文化娱乐室、书屋等用途归此来源对象，不复制成已知平面房间。",
+      "check": "内部空间数量和范围待核，办公室用途不等于独立房间。",
+      "model_role": "对象/部位候选；独立身份与查询需要确认后再定节点、属性或局部记录。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O11",
+      "name": "盘山公路入村牌坊",
+      "kind": "关联标识构筑物候选",
+      "basis": [
+        "44AKWLBL:T06"
+      ],
+      "decision": "保留题字和作者所报设计归属；不并入民居数。",
+      "check": "位置、建设档案、现状待查。",
+      "model_role": "对象/部位候选；独立身份与查询需要确认后再定节点、属性或局部记录。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O12",
+      "name": "村头景观石",
+      "kind": "关联标识物候选",
+      "basis": [
+        "44AKWLBL:T06"
+      ],
+      "decision": "和牌坊分开，均不由名称生成建筑实体。",
+      "check": "图像定位及现场对应。",
+      "model_role": "对象/部位候选；独立身份与查询需要确认后再定节点、属性或局部记录。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O13",
+      "name": "一字型住宅—条状前后院",
+      "kind": "类型模式，不是特定民居",
+      "basis": [
+        "PIW7KR8U:T05",
+        "PIW7KR8U:T07",
+        "M008-F08",
+        "M008-F09",
+        "M008-F10"
+      ],
+      "decision": "保留单栋与组合围院的差别；不把照片内多栋自动视为一个住宅。",
+      "check": "成员、用途、前后方向、院界需逐例判定。",
+      "model_role": "类型/关系模式，不作为真实单栋实例或BOT类。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O14",
+      "name": "山水—鱼池—宅院—水渠—梯田",
+      "kind": "作者描述的水流组织模式",
+      "basis": [
+        "PIW7KR8U:T03",
+        "PIW7KR8U:T05",
+        "PIW7KR8U:T06",
+        "M008-F10"
+      ],
+      "decision": "作为供水/使用关系候选，不是已测水网或所有住户的真实连接。",
+      "check": "水池所属宅院、实际入出水口、流向/季节状态待核。",
+      "model_role": "类型/关系模式，不作为真实单栋实例或BOT类。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O15",
+      "name": "2020论文所述文化广场",
+      "kind": "关联空间称谓候选",
+      "basis": [
+        "DMXMQDP5:T03"
+      ],
+      "decision": "2018田野语境中的民歌及三月三场所；暂与O07并列，不新增已核实空间数。",
+      "check": "与2015文化广场候选核位置/正式名称。",
+      "model_role": "先保留来源中的场所称谓；确定空间范围后评估Space，名称不等于完整三维几何。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    },
+    {
+      "id": "CMS-O16",
+      "name": "省保敕木山畲族民居集合",
+      "kind": "保护登记集合，非单栋",
+      "basis": [
+        "CMS-M001",
+        "CMS-M002",
+        "VQRBWRBF:T05"
+      ],
+      "decision": "保留四幢集合及来源内1号线索，不预造其余三栋；纯名录集合不直接映射BOT Zone。",
+      "check": "保护组成清单、范围图、编号与地址。",
+      "model_role": "保护登记集合记录，不强制空间区域化。",
+      "attributes": "仅采用所列来源支持的原称、部位、用途或描述；尺寸/坐标/現状未核不补值。"
+    }
+  ],
+  "relations": [
+    {
+      "id": "CMS-R01",
+      "from": "CMS-O02",
+      "to_text": "文献称1929史图博与李化民居住事件",
+      "meaning": "该文明确报告此宅为居住地",
+      "basis": [
+        "VQRBWRBF:T05"
+      ],
+      "status": "来源内明示；跨源身份未核"
+    },
+    {
+      "id": "CMS-R02",
+      "from": "CMS-O05",
+      "to_text": "文献称1929史图博与李化民居住事件",
+      "meaning": "该文报告此四合院为居住地",
+      "basis": [
+        "PIW7KR8U:T08"
+      ],
+      "status": "同一事件叙事不单独证明O02=O05"
+    },
+    {
+      "id": "CMS-R03",
+      "from": "CMS-O07",
+      "to": "CMS-O06",
+      "meaning": "位于旁边",
+      "basis": [
+        "44AKWLBL:T05"
+      ],
+      "status": "文字相对位置；不可直接映射BOT adjacentZone"
+    },
+    {
+      "id": "CMS-R04",
+      "from": "CMS-O07",
+      "to_text": "唱歌、跳舞、聚会",
+      "meaning": "作者所述场所用途",
+      "basis": [
+        "44AKWLBL:T05"
+      ],
+      "status": "用途值/活动类别候选；不预造每次活动节点"
+    },
+    {
+      "id": "CMS-R05",
+      "from": "CMS-O08",
+      "to_text": "妇女歌舞队的广场舞观察",
+      "meaning": "作者观察到活动发生于此",
+      "basis": [
+        "VQRBWRBF:T09"
+      ],
+      "status": "有时点的作者观察；不等于所有民歌均在此"
+    },
+    {
+      "id": "CMS-R06",
+      "from": "CMS-O04",
+      "to_text": "门楼横梁上的凤凰纹／前檐梁龙须纹",
+      "meaning": "同宅不同部位的装饰归属",
+      "basis": [
+        "7KCJR9EB:T04",
+        "7KCJR9EB:F06"
+      ],
+      "status": "来源内局部归属，不把类型或称谓等同整栋属性"
+    },
+    {
+      "id": "CMS-R07",
+      "from": "CMS-O15",
+      "to_text": "三月三文化节及民歌演唱",
+      "meaning": "作者报告的活动场所",
+      "basis": [
+        "DMXMQDP5:T03"
+      ],
+      "status": "来源内关联；与其他广场未合并"
+    }
+  ],
+  "issues": [
+    {
+      "id": "CMS-Q01",
+      "question": "蓝村长家、民居1号、蓝文成家、族长四合院、28号、展馆是否同一？",
+      "current": "仅2012同篇蓝村长家=1号有明文，其他跨源暂不合并。",
+      "evidence": [
+        "VQRBWRBF:T05",
+        "PIW7KR8U:T08",
+        "7KCJR9EB:F01",
+        "7KCJR9EB:F06",
+        "CMS-M004",
+        "CMS-M005",
+        "CMS-M031"
+      ],
+      "next": "省保成员清单+维修图纸+门牌/宅主+多角度原图共同对齐。"
+    },
+    {
+      "id": "CMS-Q02",
+      "question": "少有前院与多设前后院如何理解？",
+      "current": "2012 PDF3与2025 PDF2口径有张力；院/天井、样本和时点可能不同，暂并列。",
+      "evidence": [
+        "VQRBWRBF:T04",
+        "PIW7KR8U:T05"
+      ],
+      "next": "按实际照片/平面定义院落范围，再核作者样本；不直接宣布某篇错误。"
+    },
+    {
+      "id": "CMS-Q03",
+      "question": "传统彩带技艺是否消失？",
+      "current": "2012称基本无人编织，2025称有织布印染传承人；技艺对象与资料时点不同，先不裁定。",
+      "evidence": [
+        "VQRBWRBF:T03",
+        "PIW7KR8U:T09",
+        "QWR5IH33:T04"
+      ],
+      "next": "区分织布、印染、彩带编织和具体传承人；不由差异推出恢复过程。"
+    },
+    {
+      "id": "CMS-Q04",
+      "question": "47户、四幢、约50栋是否能互证？",
+      "current": "不同单位/范围，不相加、不互换。",
+      "evidence": [
+        "44AKWLBL:T07",
+        "CMS-M001",
+        "PIW7KR8U:T01"
+      ],
+      "next": "逐栋清单和各统计分母；年份本身不足以作数量变化序列。"
+    },
+    {
+      "id": "CMS-Q05",
+      "question": "各文献中的广场称谓是否指同一地点？",
+      "current": "村委会前广场、文化广场、闲话广场分开登记为称谓候选，不宣称三个独立空间。",
+      "evidence": [
+        "VQRBWRBF:T09",
+        "44AKWLBL:T03",
+        "44AKWLBL:T05",
+        "DMXMQDP5:T03"
+      ],
+      "next": "索取位置图与命名使用语境。"
+    },
+    {
+      "id": "CMS-Q06",
+      "question": "环敕木山论文能提供本村事实吗？",
+      "current": "逐材料判范围；东弄、大张坑、惠明寺、吴布村的事实不转归敕木山村。",
+      "evidence": [
+        "Q3QJSRAK",
+        "3GUCM2SK",
+        "H5BFBT9N",
+        "VBZBMSS9"
+      ],
+      "next": "区域方法可参考，只有原文明确指本村的材料进入本村事实候选。"
+    },
+    {
+      "id": "CMS-Q07",
+      "question": "照片是否对应同一房屋？",
+      "current": "M008-F12与部分旧居照片外观存在比对价值，但未完成图像同源/实体去重。",
+      "evidence": [
+        "M008-F12",
+        "CMS-M015",
+        "CMS-M018",
+        "CMS-M019"
+      ],
+      "next": "对门楼、窗格、台阶、墙缝等稳定部位逐项比对，并核原图来源和拍摄时点。"
+    },
+    {
+      "id": "CMS-Q08",
+      "question": "历史调查记与房谱原件是否已核读？",
+      "current": "本轮只有论文转引和房谱配图，未取得完整原典；Zotero史图博检索只返回后续研究。",
+      "evidence": [
+        "PIW7KR8U:T02",
+        "VQRBWRBF:T01",
+        "44AKWLBL:T01",
+        "7KCJR9EB:T04"
+      ],
+      "next": "寻找1932/1984调查记与房谱完整版本；二手引文保留出处，不冒称直接核验。"
+    },
+    {
+      "id": "CMS-Q09",
+      "question": "103户272人与39户202人等村情能否统一？",
+      "current": "2019/2020描述含两个自然村的范围，2022官方口径另存；不能简单挑年份较新的值覆盖。",
+      "evidence": [
+        "QWR5IH33:T01",
+        "DMXMQDP5:T01",
+        "CMS-M001"
+      ],
+      "next": "核行政村/自然村、调查日和统计分母。"
+    }
+  ],
+  "model_preparation": [
+    {
+      "id": "CMS-K01",
+      "rule": "对象、材料、陈述分开。资料片段可被多个对象复用；裁切图不是新独立来源。",
+      "basis": "BOT-B0.1 B-A08；KG-R0.1 U02/U10；M008全部图文",
+      "status": "沿用工作规则，本轮整理实现；未写数据库"
+    },
+    {
+      "id": "CMS-K02",
+      "rule": "来源不仅支持几何，也支持原称、用途、文化解释和材料身份；每项绑定具体页/图及支持范围。",
+      "basis": "KG-R0.1 U10；44AKWLBL:T05、7KCJR9EB:T03/T04",
+      "status": "沿用并形成真实资料讨论例；正式标签未冻结"
+    },
+    {
+      "id": "CMS-K03",
+      "rule": "文献类型概括不复制给全部实例；分类方案与逐实例归类分开。",
+      "basis": "KG-R0.1 G06/G07；PIW7KR8U:T07、7KCJR9EB:T02",
+      "status": "候选应用方式，未验证分类效果"
+    },
+    {
+      "id": "CMS-K04",
+      "rule": "文字中的旁、前、依山、依水有各自语义；先记录带参照的关系，不升级为几何邻接/包含或净通行。",
+      "basis": "BOT B-R05/B-A08；KG-R0.1 U03/U07；44AKWLBL:T05",
+      "status": "沿用语义边界；真实几何待核"
+    },
+    {
+      "id": "CMS-K05",
+      "rule": "同篇明文可建立来源内名称对应，跨篇身份需额外证据；两个来源叙述同一事件不保证同一房屋。",
+      "basis": "VQRBWRBF:T05、PIW7KR8U:T08、CMS-Q01",
+      "status": "本轮保守身份组织约定，供审核"
+    },
+    {
+      "id": "CMS-K06",
+      "rule": "保存文化背景不等于扩张分析范围。服饰/民歌/信仰仅在明确关联民居、场所或特征时提供解释；区域文化不变成每栋建筑属性。",
+      "basis": "当前context的传统民居对象边界；文化文献本篇范围",
+      "status": "整理取舍，未改大纲、双基准、D02/D07/D08范围"
+    },
+    {
+      "id": "CMS-K07",
+      "rule": "有普通用途值时先归对象；具体一次活动或多来源冲突需独立引用时再评估记录节点，不为未来需求预造节点。",
+      "basis": "KG-R0.1 U02-C/U10；2012广场观察与2015广场用途的区别",
+      "status": "候选表达说明，非Schema"
+    }
+  ],
+  "review": {
+    "frozen_input_sha256": "669babb8ac2a546cb75dc5c272614dba23cd2176ad771c6830903c0b41559cba",
+    "independent_coverage": "独立审核四篇：2025张云都铭、2012何孝辉、2015钟梦迪、2013蓝法勤；核文字全文与指定原页。",
+    "accepted_corrections": [
+      "三类纹样定位补PDF2—3",
+      "补4座保护集合",
+      "补寨墙与台地古道关系",
+      "补前后院用途及借地形围合",
+      "补地方梁/寮塞称谓",
+      "补同工匠跨宅比较"
+    ],
+    "after_review": "上述修改、五篇补充和植物定向候选由主会话核对；不称最终全部数据已独立复核。",
+    "delegation_boundary": "文化/区域子任务已读材料并核图，但未交候选文件；主会话完成这五篇整理。植物子任务交付定向候选，四篇独立审核另有完整结果。"
+  },
+  "courtyard_pilot": {
+    "id": "CMS-CY-01",
+    "version": "0.3",
+    "updated": "2026-11-03",
+    "title": "敕木山民居：形制与院落组织的文献成果",
+    "status": "文献成果提取示例",
+    "purpose": "提取、整理和积累文献已经形成的建筑学成果，以作者的类型和特征归纳为主线，关联原文、图像与案例。",
+    "scope": "本例接续张云、都铭（2025）及何孝辉（2012），聚焦民居形制、院落与外部空间组织。",
+    "evidence": [
+      {
+        "id": "CY-E01",
+        "paper": "PIW7KR8U",
+        "material": "PIW7KR8U:T08",
+        "claim_ids": [
+          "PIW7KR8U:T08:C"
+        ],
+        "pdf_page": 2,
+        "locator": "PDF第2页，§3 蓝姓族长四合院",
+        "quote": "村内地势较低处有一栋汉族风格的四合院建筑，曾是蓝姓族长的居所。",
+        "attribution": "作者报告"
+      },
+      {
+        "id": "CY-E02",
+        "paper": "PIW7KR8U",
+        "material": "M008-F12",
+        "claim_ids": [],
+        "pdf_page": 2,
+        "locator": "PDF第2页，题注“蓝姓族长的四合院民居”",
+        "quote": "蓝姓族长的四合院民居",
+        "attribution": "作者图注"
+      },
+      {
+        "id": "CY-E03",
+        "paper": "PIW7KR8U",
+        "material": "PIW7KR8U:T05",
+        "claim_ids": [
+          "PIW7KR8U:T05:C"
+        ],
+        "pdf_page": 2,
+        "locator": "PDF第2页，§3首个完整段，起句“顺应坡向”",
+        "quote": "顺应坡向，倚山而建的民居多为东西朝向，前后设院，院落狭长，与建筑平行呈条状。",
+        "attribution": "作者报告"
+      },
+      {
+        "id": "CY-E04",
+        "paper": "PIW7KR8U",
+        "material": "PIW7KR8U:T05",
+        "claim_ids": [
+          "PIW7KR8U:T05:C"
+        ],
+        "pdf_page": 2,
+        "locator": "PDF第2页，§3首个完整段，前院句；图片另见PDF第1页M008-F09",
+        "quote": "前院朝东，入院东望视野开阔。由于用地紧张，作为入口的前院也常设饲养牲畜的圈栏",
+        "attribution": "作者报告"
+      },
+      {
+        "id": "CY-E05",
+        "paper": "PIW7KR8U",
+        "material": "PIW7KR8U:T05",
+        "claim_ids": [
+          "PIW7KR8U:T05:C"
+        ],
+        "pdf_page": 2,
+        "locator": "PDF第2页，§3首个完整段，“后院朝西”至岩壁／挡土墙句",
+        "quote": "后院朝西，由于地形陡峭，后院的院墙往往利用岩壁或上层台地的挡土墙，因此空间围合似天井",
+        "attribution": "作者报告"
+      },
+      {
+        "id": "CY-E06",
+        "paper": "PIW7KR8U",
+        "material": "PIW7KR8U:T05",
+        "claim_ids": [
+          "PIW7KR8U:T05:C"
+        ],
+        "pdf_page": 2,
+        "locator": "PDF第2页，§3首个完整段，后院—厨房句",
+        "quote": "后院紧贴着开敞的厨房",
+        "attribution": "作者报告"
+      },
+      {
+        "id": "CY-E07",
+        "paper": "VQRBWRBF",
+        "material": "VQRBWRBF:T04",
+        "claim_ids": [
+          "VQRBWRBF:T04:C"
+        ],
+        "pdf_page": 3,
+        "locator": "PDF第3页／印刷50页，右栏（三）首段",
+        "quote": "在敕木山村，房子都建在陡峭的山坡上，依山因地而建，房子整体分布很不规则，很少有人家房前有院子。",
+        "attribution": "作者报告"
+      },
+      {
+        "id": "CY-E08",
+        "paper": "VQRBWRBF",
+        "material": "VQRBWRBF:T05",
+        "claim_ids": [
+          "VQRBWRBF:T05:C"
+        ],
+        "pdf_page": 4,
+        "locator": "PDF第4页／印刷51页，左栏第2段",
+        "quote": "蓝村长家的这栋房子编号为敕木山畲族民居1号。",
+        "attribution": "作者报告"
+      },
+      {
+        "id": "CY-E09",
+        "paper": "PIW7KR8U",
+        "material": "M008-F09",
+        "claim_ids": [],
+        "pdf_page": 1,
+        "locator": "PDF第1页，题注“独栋一字型民居及条状前院”",
+        "quote": "独栋一字型民居及条状前院",
+        "attribution": "作者图注"
+      },
+      {
+        "id": "CY-E10",
+        "paper": "PIW7KR8U",
+        "material": "M008-F10",
+        "claim_ids": [],
+        "pdf_page": 2,
+        "locator": "PDF第2页，题注“一字型民居条状后院和鱼塘”",
+        "quote": "一字型民居条状后院和鱼塘",
+        "attribution": "作者图注"
+      },
+      {
+        "id": "CY-E11",
+        "paper": "PIW7KR8U",
+        "material": "PIW7KR8U:T07",
+        "claim_ids": [
+          "PIW7KR8U:T07:C"
+        ],
+        "pdf_page": 2,
+        "locator": "PDF第2页，§3第二个完整段，一字型与层数",
+        "quote": "村内传统民居形制简朴，多为一字型的两层楼房",
+        "attribution": "作者归纳",
+        "quote_extra": "房屋的面阔与开间较为随意，大多为三到五开间，三进深。有两座民居的面阔达到八开间。"
+      },
+      {
+        "id": "CY-E12",
+        "paper": "PIW7KR8U",
+        "material": "M008-F08",
+        "claim_ids": [],
+        "pdf_page": 1,
+        "locator": "PDF第1页，题注“组合形成内院的一字型民居”",
+        "quote": "组合形成内院的一字型民居",
+        "attribution": "作者图注"
+      },
+      {
+        "id": "CY-E13",
+        "paper": "VQRBWRBF",
+        "material": "VQRBWRBF:T04",
+        "claim_ids": [
+          "VQRBWRBF:T04:C"
+        ],
+        "pdf_page": 4,
+        "locator": "PDF第4页／印刷51页，左栏第1段，接前页建筑概况",
+        "quote": "房子一般设计为三间、五间或七间，样式是一长排形",
+        "attribution": "作者归纳",
+        "material_page_relation": "continuation"
+      },
+      {
+        "id": "CY-E14",
+        "paper": "PIW7KR8U",
+        "material": "PIW7KR8U:T05",
+        "claim_ids": [
+          "PIW7KR8U:T05:C"
+        ],
+        "pdf_page": 2,
+        "locator": "PDF第2页，§3首个完整段，引水小系统",
+        "quote": "内有竹竿引山水入池，池内蓄水养鱼并供日常生活。水再经宅院流出，汇入小水渠，灌溉梯田，形成“山-鱼池-建筑-水渠-梯田”的小系统",
+        "attribution": "作者归纳"
+      },
+      {
+        "id": "CY-E15",
+        "paper": "PIW7KR8U",
+        "material": "PIW7KR8U:T06",
+        "claim_ids": [
+          "PIW7KR8U:T06:C"
+        ],
+        "pdf_page": 2,
+        "locator": "PDF第2页，§3 水池养鱼用途",
+        "quote": "据村民所述，水池养鱼并非为了食用，而是为鉴定水质，防御危害。",
+        "attribution": "作者转述村民说法"
+      }
+    ],
+    "findings": [
+      {
+        "id": "CY-K01",
+        "title": "一字型两层楼房是文中概括的主要形制",
+        "summary": "张云、都铭概括村内传统民居形制简朴，多为一字型两层楼房；面阔大多三至五开间，三进深，并记有两座面阔八开间的民居。",
+        "evidence": [
+          "CY-E11"
+        ],
+        "view": "forms",
+        "images": [
+          "M008-F09"
+        ],
+        "attribution": "作者归纳",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K02",
+        "title": "四合院作为另一种形制记录",
+        "summary": "张云、都铭记载村内地势较低处有一栋汉族风格的四合院建筑，曾为蓝姓族长居所。",
+        "evidence": [
+          "CY-E01",
+          "CY-E02"
+        ],
+        "view": "forms",
+        "images": [
+          "M008-F12"
+        ],
+        "attribution": "作者归纳",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K03",
+        "title": "一字型民居的独栋与内院组合",
+        "summary": "作者图注分别展示“独栋一字型民居及条状前院”和“组合形成内院的一字型民居”，保存两种图示组织方式。",
+        "evidence": [
+          "CY-E09",
+          "CY-E12"
+        ],
+        "view": "forms",
+        "images": [
+          "M008-F09",
+          "M008-F08"
+        ],
+        "attribution": "作者图注",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K04",
+        "title": "倚山民居前后设置狭长条状院落",
+        "summary": "张云、都铭描述民居顺应坡向、倚山而建，多为东西朝向；前后设院，院落狭长，与建筑平行呈条状。",
+        "evidence": [
+          "CY-E03"
+        ],
+        "view": "courtyard",
+        "images": [
+          "M008-F09",
+          "M008-F10"
+        ],
+        "attribution": "作者归纳",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K05",
+        "title": "前院兼有入口与饲养用途",
+        "summary": "前院朝东，作为入口；作者将常设牲畜圈栏与用地紧张联系起来。",
+        "evidence": [
+          "CY-E04"
+        ],
+        "view": "courtyard",
+        "images": [
+          "M008-F09"
+        ],
+        "attribution": "作者归纳",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K06",
+        "title": "后院利用山地界面形成天井式围合",
+        "summary": "后院朝西，院墙往往利用岩壁或上层台地的挡土墙；作者描述其空间围合似天井、视野闭塞。",
+        "evidence": [
+          "CY-E05"
+        ],
+        "view": "courtyard",
+        "images": [
+          "M008-F10"
+        ],
+        "attribution": "作者归纳",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K07",
+        "title": "后院、开敞厨房与引水入池相联系",
+        "summary": "作者描述后院紧贴开敞的厨房，并记竹竿引山水入池，池水供养鱼及日常生活。",
+        "evidence": [
+          "CY-E06",
+          "CY-E14"
+        ],
+        "view": "water",
+        "images": [
+          "M008-F10"
+        ],
+        "attribution": "作者归纳",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K08",
+        "title": "引水串联鱼池、宅院、水渠与梯田",
+        "summary": "水经宅院流出，汇入小水渠灌溉梯田；作者将其概括为“山—鱼池—建筑—水渠—梯田”的小系统。",
+        "evidence": [
+          "CY-E14"
+        ],
+        "view": "water",
+        "images": [
+          "M008-F10"
+        ],
+        "attribution": "作者归纳",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K09",
+        "title": "养鱼与用水安全的地方说法",
+        "summary": "文中转述村民说法：水池养鱼用于鉴定水质、防御危害，而非为了食用。",
+        "evidence": [
+          "CY-E15"
+        ],
+        "view": "water",
+        "images": [
+          "M008-F10"
+        ],
+        "attribution": "作者转述村民说法",
+        "paper": "PIW7KR8U"
+      },
+      {
+        "id": "CY-K10",
+        "title": "2012文献记录“一长排形”及开间数",
+        "summary": "何孝辉将房屋样式描述为一长排形，一般为三间、五间或七间。",
+        "evidence": [
+          "CY-E13"
+        ],
+        "view": "forms",
+        "images": [],
+        "attribution": "作者归纳",
+        "paper": "VQRBWRBF"
+      },
+      {
+        "id": "CY-K11",
+        "title": "2012文献概括坡地分布与前院情况",
+        "summary": "何孝辉描述敕木山房屋建在陡峭山坡上，依山因地而建，整体分布不规则，并记“很少有人家房前有院子”。",
+        "evidence": [
+          "CY-E07"
+        ],
+        "view": "courtyard",
+        "images": [],
+        "attribution": "作者归纳",
+        "paper": "VQRBWRBF"
+      }
+    ],
+    "nodes": [
+      {
+        "id": "CMS-CY-T01",
+        "name": "四合院",
+        "kind": "单体形制类型",
+        "scope": "张云、都铭（2025）的形制记录",
+        "summary": "文献记载的民居形制之一。",
+        "evidence": [
+          "CY-E01",
+          "CY-E02"
+        ],
+        "fields": [],
+        "images": [
+          "M008-F12"
+        ],
+        "example_refs": [
+          "CMS-O05"
+        ]
+      },
+      {
+        "id": "CMS-CY-T02",
+        "name": "一字型",
+        "kind": "单体形制类型",
+        "scope": "张云、都铭（2025）对村内传统民居的概括",
+        "summary": "文中以一字型两层楼房概括村内传统民居的主要形制。",
+        "evidence": [
+          "CY-E11",
+          "CY-E09",
+          "CY-E12"
+        ],
+        "fields": [
+          {
+            "label": "层数",
+            "value": "多为两层",
+            "evidence": [
+              "CY-E11"
+            ]
+          },
+          {
+            "label": "开间与进深",
+            "value": "文中描述面阔大多三至五开间、三进深，另记两座面阔八开间民居",
+            "evidence": [
+              "CY-E11"
+            ]
+          }
+        ],
+        "images": [
+          "M008-F09",
+          "M008-F08"
+        ],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-T03",
+        "name": "一长排形",
+        "kind": "形制称谓",
+        "scope": "何孝辉（2012）的建筑样式描述",
+        "summary": "何孝辉使用“一长排形”描述房屋样式。",
+        "evidence": [
+          "CY-E13"
+        ],
+        "fields": [
+          {
+            "label": "开间",
+            "value": "一般为三间、五间或七间",
+            "evidence": [
+              "CY-E13"
+            ]
+          }
+        ],
+        "images": [],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-G01",
+        "name": "独栋＋条状前院",
+        "kind": "组织方式",
+        "scope": "张云、都铭（2025）图注",
+        "summary": "独栋一字型民居与条状前院相配合。",
+        "evidence": [
+          "CY-E09"
+        ],
+        "fields": [],
+        "images": [
+          "M008-F09"
+        ],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-G02",
+        "name": "组合形成内院",
+        "kind": "组织方式",
+        "scope": "张云、都铭（2025）图注",
+        "summary": "作者以图注记录一字型民居组合形成内院。",
+        "evidence": [
+          "CY-E12"
+        ],
+        "fields": [],
+        "images": [
+          "M008-F08"
+        ],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-P01",
+        "name": "倚山民居",
+        "kind": "文献概括对象",
+        "scope": "张云、都铭（2025）§3",
+        "summary": "顺应坡向、倚山而建；前后院与建筑共同形成条状的空间组织。",
+        "evidence": [
+          "CY-E03",
+          "CY-E14"
+        ],
+        "fields": [
+          {
+            "label": "朝向",
+            "value": "多为东西朝向",
+            "evidence": [
+              "CY-E03"
+            ]
+          }
+        ],
+        "images": [],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-P02",
+        "name": "前院",
+        "kind": "空间要素",
+        "scope": "张云、都铭（2025）前院特征归纳",
+        "summary": "前院朝东、狭长呈条状，兼有入口与牲畜饲养用途。",
+        "evidence": [
+          "CY-E03",
+          "CY-E04",
+          "CY-E09"
+        ],
+        "fields": [
+          {
+            "label": "形态",
+            "value": "狭长，与建筑平行呈条状",
+            "evidence": [
+              "CY-E03"
+            ]
+          },
+          {
+            "label": "朝向",
+            "value": "朝东",
+            "evidence": [
+              "CY-E04"
+            ]
+          },
+          {
+            "label": "用途",
+            "value": "作为入口，常设牲畜圈栏",
+            "evidence": [
+              "CY-E04"
+            ]
+          }
+        ],
+        "images": [
+          "M008-F09"
+        ],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-P03",
+        "name": "后院",
+        "kind": "空间要素",
+        "scope": "张云、都铭（2025）后院特征归纳",
+        "summary": "后院朝西，借岩壁或上层台地挡土墙围合，紧贴开敞厨房。",
+        "evidence": [
+          "CY-E03",
+          "CY-E05",
+          "CY-E06",
+          "CY-E10"
+        ],
+        "fields": [
+          {
+            "label": "形态",
+            "value": "狭长，与建筑平行呈条状",
+            "evidence": [
+              "CY-E03"
+            ]
+          },
+          {
+            "label": "朝向",
+            "value": "朝西",
+            "evidence": [
+              "CY-E05"
+            ]
+          },
+          {
+            "label": "围合特征",
+            "value": "院墙往往利用岩壁或上层台地挡土墙；空间围合似天井",
+            "evidence": [
+              "CY-E05"
+            ]
+          }
+        ],
+        "images": [
+          "M008-F10"
+        ],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-P04",
+        "name": "厨房",
+        "kind": "空间要素",
+        "scope": "张云、都铭（2025）§3",
+        "summary": "文中描述厨房开敞，后院紧贴厨房。",
+        "evidence": [
+          "CY-E06"
+        ],
+        "fields": [
+          {
+            "label": "空间特点",
+            "value": "开敞",
+            "evidence": [
+              "CY-E06"
+            ]
+          }
+        ],
+        "images": [],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-P05",
+        "name": "岩壁",
+        "kind": "环境要素",
+        "scope": "张云、都铭（2025）后院院墙描述",
+        "summary": "后院院墙利用的山地界面之一；与挡土墙在原文中以“或”并列。",
+        "evidence": [
+          "CY-E05"
+        ],
+        "fields": [],
+        "images": [],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-P06",
+        "name": "上层台地挡土墙",
+        "kind": "环境构筑物",
+        "scope": "张云、都铭（2025）后院院墙描述",
+        "summary": "后院院墙可利用上层台地的挡土墙。",
+        "evidence": [
+          "CY-E05"
+        ],
+        "fields": [],
+        "images": [],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-W01",
+        "name": "山水",
+        "kind": "水源",
+        "scope": "张云、都铭（2025）引水小系统",
+        "summary": "以竹竿引山水入池。",
+        "evidence": [
+          "CY-E14"
+        ],
+        "fields": [],
+        "images": [],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-W02",
+        "name": "水池／鱼池",
+        "kind": "用水设施",
+        "scope": "张云、都铭（2025）引水与生活描述",
+        "summary": "蓄水养鱼并供日常生活；村民所述养鱼用途为鉴定水质、防御危害。",
+        "evidence": [
+          "CY-E14",
+          "CY-E15",
+          "CY-E10"
+        ],
+        "fields": [
+          {
+            "label": "使用",
+            "value": "蓄水、养鱼、日常生活用水",
+            "evidence": [
+              "CY-E14"
+            ]
+          },
+          {
+            "label": "村民所述",
+            "value": "养鱼并非食用，而为鉴定水质、防御危害",
+            "evidence": [
+              "CY-E15"
+            ]
+          }
+        ],
+        "images": [
+          "M008-F10"
+        ],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-W04",
+        "name": "水渠",
+        "kind": "输水设施",
+        "scope": "张云、都铭（2025）引水小系统",
+        "summary": "承接流经宅院的水，并灌溉梯田。",
+        "evidence": [
+          "CY-E14"
+        ],
+        "fields": [],
+        "images": [],
+        "example_refs": []
+      },
+      {
+        "id": "CMS-CY-W05",
+        "name": "梯田",
+        "kind": "生产空间",
+        "scope": "张云、都铭（2025）引水小系统",
+        "summary": "由流经宅院、汇入水渠的水灌溉。",
+        "evidence": [
+          "CY-E14"
+        ],
+        "fields": [],
+        "images": [],
+        "example_refs": []
+      }
+    ],
+    "relations": [
+      {
+        "id": "CMS-CY-R11",
+        "source": "CMS-CY-T02",
+        "target": "CMS-CY-G01",
+        "name": "独栋布置",
+        "summary": "作者图注展示独栋一字型民居及条状前院。",
+        "evidence": [
+          "CY-E09"
+        ],
+        "views": [
+          "forms"
+        ],
+        "alternative_group": null
+      },
+      {
+        "id": "CMS-CY-R12",
+        "source": "CMS-CY-T02",
+        "target": "CMS-CY-G02",
+        "name": "组合布置",
+        "summary": "作者图注展示一字型民居组合形成内院。",
+        "evidence": [
+          "CY-E12"
+        ],
+        "views": [
+          "forms"
+        ],
+        "alternative_group": null
+      },
+      {
+        "id": "CMS-CY-R05",
+        "source": "CMS-CY-P01",
+        "target": "CMS-CY-P02",
+        "name": "前侧条状院",
+        "summary": "前院狭长，与建筑平行。",
+        "evidence": [
+          "CY-E03",
+          "CY-E04"
+        ],
+        "views": [
+          "courtyard"
+        ],
+        "alternative_group": null
+      },
+      {
+        "id": "CMS-CY-R06",
+        "source": "CMS-CY-P01",
+        "target": "CMS-CY-P03",
+        "name": "后侧条状院",
+        "summary": "后院狭长，与建筑平行。",
+        "evidence": [
+          "CY-E03",
+          "CY-E05"
+        ],
+        "views": [
+          "courtyard"
+        ],
+        "alternative_group": null
+      },
+      {
+        "id": "CMS-CY-R07",
+        "source": "CMS-CY-P03",
+        "target": "CMS-CY-P04",
+        "name": "紧贴",
+        "summary": "后院紧贴开敞的厨房。",
+        "evidence": [
+          "CY-E06"
+        ],
+        "views": [
+          "courtyard"
+        ],
+        "alternative_group": null
+      },
+      {
+        "id": "CMS-CY-R08",
+        "source": "CMS-CY-P03",
+        "target": "CMS-CY-P05",
+        "name": "院墙利用（或）",
+        "summary": "后院院墙往往利用岩壁或上层台地挡土墙。",
+        "evidence": [
+          "CY-E05"
+        ],
+        "views": [
+          "courtyard"
+        ],
+        "alternative_group": "CY-ALT01"
+      },
+      {
+        "id": "CMS-CY-R09",
+        "source": "CMS-CY-P03",
+        "target": "CMS-CY-P06",
+        "name": "院墙利用（或）",
+        "summary": "保留作者描述中的另一种院墙利用方式。",
+        "evidence": [
+          "CY-E05"
+        ],
+        "views": [
+          "courtyard"
+        ],
+        "alternative_group": "CY-ALT01"
+      },
+      {
+        "id": "CMS-CY-R13",
+        "source": "CMS-CY-W01",
+        "target": "CMS-CY-W02",
+        "name": "引水入池",
+        "summary": "以竹竿引山水入池。",
+        "evidence": [
+          "CY-E14"
+        ],
+        "views": [
+          "water"
+        ],
+        "alternative_group": null
+      },
+      {
+        "id": "CMS-CY-R14",
+        "source": "CMS-CY-W02",
+        "target": "CMS-CY-P01",
+        "name": "经宅院流出",
+        "summary": "作者归纳的小系统中，池水再经宅院流出。",
+        "evidence": [
+          "CY-E14"
+        ],
+        "views": [
+          "water"
+        ],
+        "alternative_group": null
+      },
+      {
+        "id": "CMS-CY-R15",
+        "source": "CMS-CY-P01",
+        "target": "CMS-CY-W04",
+        "name": "汇入水渠",
+        "summary": "流经宅院的水汇入小水渠。",
+        "evidence": [
+          "CY-E14"
+        ],
+        "views": [
+          "water"
+        ],
+        "alternative_group": null
+      },
+      {
+        "id": "CMS-CY-R16",
+        "source": "CMS-CY-W04",
+        "target": "CMS-CY-W05",
+        "name": "灌溉",
+        "summary": "水渠引水灌溉梯田。",
+        "evidence": [
+          "CY-E14"
+        ],
+        "views": [
+          "water"
+        ],
+        "alternative_group": null
+      }
+    ],
+    "views": [
+      {
+        "id": "forms",
+        "name": "形制与组合",
+        "description": "保存文献中的形制类型、称谓与组合方式。",
+        "initial": "CMS-CY-T01",
+        "nodes": [
+          "CMS-CY-T01",
+          "CMS-CY-T02",
+          "CMS-CY-T03",
+          "CMS-CY-G01",
+          "CMS-CY-G02"
+        ],
+        "positions": {
+          "CMS-CY-T01": [
+            180,
+            110
+          ],
+          "CMS-CY-T02": [
+            560,
+            110
+          ],
+          "CMS-CY-T03": [
+            940,
+            110
+          ],
+          "CMS-CY-G01": [
+            350,
+            370
+          ],
+          "CMS-CY-G02": [
+            770,
+            370
+          ]
+        }
+      },
+      {
+        "id": "courtyard",
+        "name": "前后院组织",
+        "description": "以张云、都铭的院落特征归纳组织关系，另列何孝辉的原文概括。",
+        "initial": "CMS-CY-P02",
+        "nodes": [
+          "CMS-CY-P01",
+          "CMS-CY-P02",
+          "CMS-CY-P03",
+          "CMS-CY-P04",
+          "CMS-CY-P05",
+          "CMS-CY-P06"
+        ],
+        "positions": {
+          "CMS-CY-P02": [
+            160,
+            100
+          ],
+          "CMS-CY-P01": [
+            160,
+            360
+          ],
+          "CMS-CY-P03": [
+            560,
+            360
+          ],
+          "CMS-CY-P04": [
+            980,
+            440
+          ],
+          "CMS-CY-P05": [
+            980,
+            100
+          ],
+          "CMS-CY-P06": [
+            980,
+            270
+          ]
+        }
+      },
+      {
+        "id": "water",
+        "name": "引水与生活",
+        "description": "呈现作者总结的“山—鱼池—建筑—水渠—梯田”小系统。",
+        "initial": "CMS-CY-W02",
+        "nodes": [
+          "CMS-CY-W01",
+          "CMS-CY-W02",
+          "CMS-CY-P01",
+          "CMS-CY-W04",
+          "CMS-CY-W05"
+        ],
+        "positions": {
+          "CMS-CY-W01": [
+            170,
+            110
+          ],
+          "CMS-CY-W02": [
+            560,
+            110
+          ],
+          "CMS-CY-P01": [
+            950,
+            110
+          ],
+          "CMS-CY-W04": [
+            950,
+            370
+          ],
+          "CMS-CY-W05": [
+            560,
+            370
+          ]
+        }
+      }
+    ],
+    "image_notes": [
+      {
+        "material": "M008-F08",
+        "caption": "组合形成内院的一字型民居",
+        "role": "作者图注所述组合方式的图像说明",
+        "findings": [
+          "CY-K03"
+        ],
+        "observations": []
+      },
+      {
+        "material": "M008-F09",
+        "caption": "独栋一字型民居及条状前院",
+        "role": "一字型形制与条状前院的图像说明",
+        "findings": [
+          "CY-K01",
+          "CY-K03",
+          "CY-K04",
+          "CY-K05"
+        ],
+        "observations": []
+      },
+      {
+        "material": "M008-F10",
+        "caption": "一字型民居条状后院和鱼塘",
+        "role": "条状后院与鱼塘的图像说明",
+        "findings": [
+          "CY-K04",
+          "CY-K06",
+          "CY-K07",
+          "CY-K08",
+          "CY-K09"
+        ],
+        "observations": []
+      },
+      {
+        "material": "M008-F12",
+        "caption": "蓝姓族长的四合院民居",
+        "role": "四合院形制与文献例子的配图",
+        "findings": [
+          "CY-K02"
+        ],
+        "observations": [
+          {
+            "text": "照片前景可见院地及面向院地的建筑部分。",
+            "attribution": "阅读者图像说明",
+            "moved_from": [
+              "CMS-CY-C01",
+              "CMS-CY-C02",
+              "CMS-CY-R01",
+              "CMS-CY-R02",
+              "CMS-CY-R03"
+            ]
+          }
+        ]
+      }
+    ],
+    "cases": [
+      {
+        "id": "CMS-O05",
+        "name": "蓝姓族长民居",
+        "summary": "张云、都铭记载其位于村内地势较低处，形制为汉族风格四合院，曾为蓝姓族长居所。",
+        "type_ref": "CMS-CY-T01",
+        "evidence": [
+          "CY-E01",
+          "CY-E02"
+        ],
+        "images": [
+          "M008-F12"
+        ]
+      },
+      {
+        "id": "CMS-O02",
+        "name": "蓝村长家／敕木山畲族民居1号",
+        "summary": "何孝辉在文中将蓝村长家与敕木山畲族民居1号对应。",
+        "type_ref": null,
+        "evidence": [
+          "CY-E08"
+        ],
+        "images": []
+      }
+    ],
+    "reading": {
+      "source_manifest": "院落试例核验.json#source_inputs",
+      "coverage": "接续既有核读。本轮重读张云、都铭全文PDF1—2页和何孝辉建筑部分PDF3—4页，按原文提取与整理成果；新增查看M008-F08，其余三图沿用前轮图像阅读。",
+      "method": "作者成果优先；原文及图注定位；图像说明与阅读者补充分开。"
+    },
+    "organization": {
+      "principles": [
+        "类型可以从名称与出处起步，逐步补充特征和案例。",
+        "作者成果按原文对象范围与称谓保存；不同文章的描述分别保留。",
+        "图像对应到其说明的成果；局部观察放在图片说明中。"
+      ],
+      "provenance_basis": "沿用本研究优化基准U10的来源与定位要求；本例按文献成果组织，不预设BOT实例字段或三维接口。"
+    },
+    "revision": {
+      "previous_version": "0.2",
+      "reason": "用户要求从文献提取成果，不重新审视作者成果；允许类型独立保存，局部观察归入图片说明，撤去无依据的身份连线和重复限制性描述。",
+      "removed_graph_records": [
+        "CMS-CY-C01",
+        "CMS-CY-C02",
+        "CMS-CY-X01",
+        "CMS-CY-R01",
+        "CMS-CY-R02",
+        "CMS-CY-R03",
+        "CMS-CY-R04",
+        "CMS-CY-R10"
+      ],
+      "preserved_case_ids": [
+        "CMS-O05",
+        "CMS-O02"
+      ],
+      "archive": "archive/2026-11-03-院落示例成果提取重组前/README.md"
+    }
+  }
+}

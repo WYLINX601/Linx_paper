@@ -1,0 +1,7 @@
+{
+  "truth_sha256": "ae891389caa9b7468fd00344756a2bc85a1438b35ef37f43d2b26d267a3962b8",
+  "input_sha256": "6de304fed4e0e3a83fe03a12dee83bb2cb15e4487de8acb703461a13d3167aa1",
+  "status": "created_before_inference",
+  "time": "2026-10-24",
+  "scope": "单个合成案例5题，不能估计真实项目性能"
+}

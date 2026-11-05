@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (n:V01)-[r:HAS_SOURCE]->(src) WHERE n.uid IN $externalUids AND n.useState='known' AND all(f IN ['useState','useValues','useScope'] WHERE f IN r.fields) AND r.sourceVersion=src.sourceVersion UNWIND n.useValues AS use RETURN use,collect(DISTINCT n.uid) AS spaceUids,count(DISTINCT n.uid) AS spaceCount ORDER BY use",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-30T20:54:35.612342+08:00"
+}

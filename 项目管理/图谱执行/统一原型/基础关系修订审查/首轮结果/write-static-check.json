@@ -1,0 +1,8 @@
+{
+  "notExecuted": true,
+  "singleCreateSite": true,
+  "noDeleteDropMerge": true,
+  "strictFiveAdditions": true,
+  "nativeValueTypeGuards": 4,
+  "note": "AST/string static checks only; no Cypher server execution or planner validation"
+}

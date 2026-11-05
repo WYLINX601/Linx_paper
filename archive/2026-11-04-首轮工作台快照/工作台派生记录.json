@@ -1,0 +1,68 @@
+{
+  "derived": "项目管理/研究工作台.html",
+  "sources": [
+    {
+      "source": "论文章节/README.md",
+      "sha256": "8e07eebef84a0bdac1b7af55d39f2ea4c15420877cb81c38643f832d989fb89b"
+    },
+    {
+      "source": "论文章节/01-绪论/章节导航.md",
+      "sha256": "eda59f66d7b4f165ad0fc121d0cf4b1ab4720194547bf5ef097ac6eb3729b666"
+    },
+    {
+      "source": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "sha256": "d15f2f3fc2bc5033adb344995ffa907d18a85229490c3798c55199f941da3056"
+    },
+    {
+      "source": "论文章节/03-体系与方法设计/章节导航.md",
+      "sha256": "1437d6adabceef44d040cc0633d2d9f8c1b882a0a943682eba7dea11158aee99"
+    },
+    {
+      "source": "论文章节/04-案例实施与检验/章节导航.md",
+      "sha256": "5216d456dc5e23d022e7c369da6a91ffca7b22afa3c0c177fa4b5c23d7aa819f"
+    },
+    {
+      "source": "论文章节/05-分析比较与讨论/章节导航.md",
+      "sha256": "0ea5ea01d448a809f9750c4468dce5b2501ea0f27e1edc4ca984db27b0c56f15"
+    },
+    {
+      "source": "论文章节/06-结论与展望/章节导航.md",
+      "sha256": "bb4220143a334ac147e98606a94f435519a7a52101a18060f63ab10a97299022"
+    },
+    {
+      "source": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+      "sha256": "29c3bb7499664a0ba99a6d9ea4fb3535f215e32a6e3cc0e304de5cc6ce291319"
+    },
+    {
+      "source": "主题研究/合成试建与规则检验/主题研究.md",
+      "sha256": "014cd0819e7fb3ccf0a41386b3fc1d4a290bdc2b8ff9a01eb94cb6d00728893a"
+    },
+    {
+      "source": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "sha256": "a1cfbaad82db3d7032aef443707c39283505e974fbda1460cf14673e89c00ead"
+    },
+    {
+      "source": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "sha256": "e0c15e23e14483f8e5a49bcfabf959d39b1c8e5ccdfd21c6d7be00d4787f64a5"
+    },
+    {
+      "source": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+      "sha256": "6f84eafb8ea534bcd62bc0d0a7148a8e4a3e9956720b8dfa36a70578826e5cb2"
+    },
+    {
+      "source": "主题研究/研究对象与样本边界/主题研究.md",
+      "sha256": "1634e13e401ca19859ce2469f5a6d4778693d2b2031af0da51698ffa50f68a16"
+    },
+    {
+      "source": "主题研究/类型识别与语义关系表达/主题研究.md",
+      "sha256": "a44f20d8325dfbe08a02346e5e8a5b8b15f189d41c49388c5e8a3c74d31b651f"
+    },
+    {
+      "source": "主题研究/风貌特征筛选与数据记录/主题研究.md",
+      "sha256": "75fc09013a7f9775f4d8d7aa85e90acc8d4e579a3af84eb63ed8c6a1d0ab3260"
+    }
+  ],
+  "status": "updated-topic-expression-direction",
+  "semantic_review": "本次仅同步类型识别主题的用户确认方向；其他依赖指纹保留，不代表全库复核。",
+  "warning": "Source hashes describe the original rendering, not current semantic freshness."
+}

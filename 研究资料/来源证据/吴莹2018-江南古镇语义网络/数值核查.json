@@ -1,0 +1,481 @@
+{
+  "status": "local_arithmetic_audit_not_author_experiment_replication",
+  "source_table": {
+    "label": "表4-2",
+    "printed_pages": [
+      78,
+      79
+    ],
+    "pdf_pages": [
+      87,
+      88
+    ],
+    "author_text_claimed_rows": 34,
+    "observed_data_rows": 35,
+    "ref_min": 0,
+    "ref_max": 34,
+    "transcription_note": "根据原表人工转录；不是原始DepthMap模型、SPSS文件或调查数据；对象标识按原表字母数字转录。"
+  },
+  "table4_2_checks": [
+    {
+      "ref": 0,
+      "MD": 2.41176,
+      "TD": 82.0,
+      "TD_over_MD": 34.00006634159286,
+      "TD_minus_34MD": 0.00015999999999394277,
+      "printed_Integration": 1.93452,
+      "RA_from_printed_formula": 0.08556121212121214,
+      "Integration_times_RA": 0.1655198760727273
+    },
+    {
+      "ref": 1,
+      "MD": 2.38235,
+      "TD": 81.0,
+      "TD_over_MD": 34.00004197536046,
+      "TD_minus_34MD": 9.99999999891088e-05,
+      "printed_Integration": 1.97568,
+      "RA_from_printed_formula": 0.0837787878787879,
+      "Integration_times_RA": 0.16552007563636367
+    },
+    {
+      "ref": 2,
+      "MD": 3.35294,
+      "TD": 114.0,
+      "TD_over_MD": 34.00001192982875,
+      "TD_minus_34MD": 4.0000000012696546e-05,
+      "printed_Integration": 1.16071,
+      "RA_from_printed_formula": 0.14260242424242422,
+      "Integration_times_RA": 0.1655200598424242
+    },
+    {
+      "ref": 3,
+      "MD": 2.38235,
+      "TD": 81.0,
+      "TD_over_MD": 34.00004197536046,
+      "TD_minus_34MD": 9.99999999891088e-05,
+      "printed_Integration": 1.97568,
+      "RA_from_printed_formula": 0.0837787878787879,
+      "Integration_times_RA": 0.16552007563636367
+    },
+    {
+      "ref": 4,
+      "MD": 2.38235,
+      "TD": 81.0,
+      "TD_over_MD": 34.00004197536046,
+      "TD_minus_34MD": 9.99999999891088e-05,
+      "printed_Integration": 1.97568,
+      "RA_from_printed_formula": 0.0837787878787879,
+      "Integration_times_RA": 0.16552007563636367
+    },
+    {
+      "ref": 5,
+      "MD": 2.11765,
+      "TD": 72.0,
+      "TD_over_MD": 33.99995277784337,
+      "TD_minus_34MD": -9.99999999891088e-05,
+      "printed_Integration": 2.44361,
+      "RA_from_printed_formula": 0.06773636363636362,
+      "Integration_times_RA": 0.16552125554545452
+    },
+    {
+      "ref": 6,
+      "MD": 3.02941,
+      "TD": 103.0,
+      "TD_over_MD": 34.00001980583678,
+      "TD_minus_34MD": 6.0000000004833964e-05,
+      "printed_Integration": 1.34576,
+      "RA_from_printed_formula": 0.12299454545454545,
+      "Integration_times_RA": 0.1655211394909091
+    },
+    {
+      "ref": 7,
+      "MD": 4.0,
+      "TD": 136.0,
+      "TD_over_MD": 34.0,
+      "TD_minus_34MD": 0.0,
+      "printed_Integration": 0.910365,
+      "RA_from_printed_formula": 0.18181818181818182,
+      "Integration_times_RA": 0.16552090909090908
+    },
+    {
+      "ref": 8,
+      "MD": 2.17647,
+      "TD": 74.0,
+      "TD_over_MD": 34.00000918919167,
+      "TD_minus_34MD": 1.9999999992137418e-05,
+      "printed_Integration": 2.32143,
+      "RA_from_printed_formula": 0.07130121212121213,
+      "Integration_times_RA": 0.16552077285454544
+    },
+    {
+      "ref": 9,
+      "MD": 2.11765,
+      "TD": 72.0,
+      "TD_over_MD": 33.99995277784337,
+      "TD_minus_34MD": -9.99999999891088e-05,
+      "printed_Integration": 2.44361,
+      "RA_from_printed_formula": 0.06773636363636362,
+      "Integration_times_RA": 0.16552125554545452
+    },
+    {
+      "ref": 10,
+      "MD": 2.79412,
+      "TD": 95.0,
+      "TD_over_MD": 33.999971368445166,
+      "TD_minus_34MD": -7.999999999697138e-05,
+      "printed_Integration": 1.52225,
+      "RA_from_printed_formula": 0.10873454545454544,
+      "Integration_times_RA": 0.16552116181818183
+    },
+    {
+      "ref": 11,
+      "MD": 2.91176,
+      "TD": 99.0,
+      "TD_over_MD": 34.000054949583756,
+      "TD_minus_34MD": 0.00015999999999394277,
+      "printed_Integration": 1.42857,
+      "RA_from_printed_formula": 0.11586424242424243,
+      "Integration_times_RA": 0.1655201808
+    },
+    {
+      "ref": 12,
+      "MD": 2.35294,
+      "TD": 80.0,
+      "TD_over_MD": 34.000017000008505,
+      "TD_minus_34MD": 4.0000000012696546e-05,
+      "printed_Integration": 2.01863,
+      "RA_from_printed_formula": 0.08199636363636363,
+      "Integration_times_RA": 0.1655203195272727
+    },
+    {
+      "ref": 13,
+      "MD": 2.14706,
+      "TD": 73.0,
+      "TD_over_MD": 33.99998136987322,
+      "TD_minus_34MD": -4.0000000012696546e-05,
+      "printed_Integration": 2.38059,
+      "RA_from_printed_formula": 0.06951878787878789,
+      "Integration_times_RA": 0.16549573123636369
+    },
+    {
+      "ref": 14,
+      "MD": 3.11765,
+      "TD": 106.0,
+      "TD_over_MD": 33.99996792455856,
+      "TD_minus_34MD": -9.99999999891088e-05,
+      "printed_Integration": 1.28968,
+      "RA_from_printed_formula": 0.12834242424242423,
+      "Integration_times_RA": 0.16552065769696966
+    },
+    {
+      "ref": 15,
+      "MD": 2.17647,
+      "TD": 74.0,
+      "TD_over_MD": 34.00000918919167,
+      "TD_minus_34MD": 1.9999999992137418e-05,
+      "printed_Integration": 2.32143,
+      "RA_from_printed_formula": 0.07130121212121213,
+      "Integration_times_RA": 0.16552077285454544
+    },
+    {
+      "ref": 16,
+      "MD": 2.17647,
+      "TD": 74.0,
+      "TD_over_MD": 34.00000918919167,
+      "TD_minus_34MD": 1.9999999992137418e-05,
+      "printed_Integration": 2.32143,
+      "RA_from_printed_formula": 0.07130121212121213,
+      "Integration_times_RA": 0.16552077285454544
+    },
+    {
+      "ref": 17,
+      "MD": 3.11765,
+      "TD": 106.0,
+      "TD_over_MD": 33.99996792455856,
+      "TD_minus_34MD": -9.99999999891088e-05,
+      "printed_Integration": 1.28968,
+      "RA_from_printed_formula": 0.12834242424242423,
+      "Integration_times_RA": 0.16552065769696966
+    },
+    {
+      "ref": 18,
+      "MD": 2.14706,
+      "TD": 73.0,
+      "TD_over_MD": 33.99998136987322,
+      "TD_minus_34MD": -4.0000000012696546e-05,
+      "printed_Integration": 2.38059,
+      "RA_from_printed_formula": 0.06951878787878789,
+      "Integration_times_RA": 0.16549573123636369
+    },
+    {
+      "ref": 19,
+      "MD": 2.41176,
+      "TD": 82.0,
+      "TD_over_MD": 34.00006634159286,
+      "TD_minus_34MD": 0.00015999999999394277,
+      "printed_Integration": 1.93452,
+      "RA_from_printed_formula": 0.08556121212121214,
+      "Integration_times_RA": 0.1655198760727273
+    },
+    {
+      "ref": 20,
+      "MD": 2.41176,
+      "TD": 82.0,
+      "TD_over_MD": 34.00006634159286,
+      "TD_minus_34MD": 0.00015999999999394277,
+      "printed_Integration": 1.93452,
+      "RA_from_printed_formula": 0.08556121212121214,
+      "Integration_times_RA": 0.1655198760727273
+    },
+    {
+      "ref": 21,
+      "MD": 2.41176,
+      "TD": 82.0,
+      "TD_over_MD": 34.00006634159286,
+      "TD_minus_34MD": 0.00015999999999394277,
+      "printed_Integration": 1.93452,
+      "RA_from_printed_formula": 0.08556121212121214,
+      "Integration_times_RA": 0.1655198760727273
+    },
+    {
+      "ref": 22,
+      "MD": 2.41176,
+      "TD": 82.0,
+      "TD_over_MD": 34.00006634159286,
+      "TD_minus_34MD": 0.00015999999999394277,
+      "printed_Integration": 1.93452,
+      "RA_from_printed_formula": 0.08556121212121214,
+      "Integration_times_RA": 0.1655198760727273
+    },
+    {
+      "ref": 23,
+      "MD": 2.17647,
+      "TD": 74.0,
+      "TD_over_MD": 34.00000918919167,
+      "TD_minus_34MD": 1.9999999992137418e-05,
+      "printed_Integration": 2.32143,
+      "RA_from_printed_formula": 0.07130121212121213,
+      "Integration_times_RA": 0.16552077285454544
+    },
+    {
+      "ref": 24,
+      "MD": 3.08824,
+      "TD": 105.0,
+      "TD_over_MD": 33.99994819055514,
+      "TD_minus_34MD": -0.00015999999999394277,
+      "printed_Integration": 1.30785,
+      "RA_from_printed_formula": 0.12656,
+      "Integration_times_RA": 0.165521496
+    },
+    {
+      "ref": 25,
+      "MD": 4.05882,
+      "TD": 138.0,
+      "TD_over_MD": 34.0000295652431,
+      "TD_minus_34MD": 0.00012000000000966793,
+      "printed_Integration": 0.892857,
+      "RA_from_printed_formula": 0.1853830303030303,
+      "Integration_times_RA": 0.16552053628727273
+    },
+    {
+      "ref": 26,
+      "MD": 2.20588,
+      "TD": 75.0,
+      "TD_over_MD": 34.00003626670535,
+      "TD_minus_34MD": 7.999999999697138e-05,
+      "printed_Integration": 2.26481,
+      "RA_from_printed_formula": 0.07308363636363636,
+      "Integration_times_RA": 0.1655205504727273
+    },
+    {
+      "ref": 27,
+      "MD": 2.20588,
+      "TD": 75.0,
+      "TD_over_MD": 34.00003626670535,
+      "TD_minus_34MD": 7.999999999697138e-05,
+      "printed_Integration": 2.26481,
+      "RA_from_printed_formula": 0.07308363636363636,
+      "Integration_times_RA": 0.1655205504727273
+    },
+    {
+      "ref": 28,
+      "MD": 3.14706,
+      "TD": 107.0,
+      "TD_over_MD": 33.99998728972437,
+      "TD_minus_34MD": -4.0000000012696546e-05,
+      "printed_Integration": 1.27202,
+      "RA_from_printed_formula": 0.1301248484848485,
+      "Integration_times_RA": 0.16552140976969698
+    },
+    {
+      "ref": 29,
+      "MD": 2.38235,
+      "TD": 81.0,
+      "TD_over_MD": 34.00004197536046,
+      "TD_minus_34MD": 9.99999999891088e-05,
+      "printed_Integration": 1.97568,
+      "RA_from_printed_formula": 0.0837787878787879,
+      "Integration_times_RA": 0.16552007563636367
+    },
+    {
+      "ref": 30,
+      "MD": 2.20588,
+      "TD": 75.0,
+      "TD_over_MD": 34.00003626670535,
+      "TD_minus_34MD": 7.999999999697138e-05,
+      "printed_Integration": 2.26481,
+      "RA_from_printed_formula": 0.07308363636363636,
+      "Integration_times_RA": 0.1655205504727273
+    },
+    {
+      "ref": 31,
+      "MD": 1.85294,
+      "TD": 63.0,
+      "TD_over_MD": 34.000021587315295,
+      "TD_minus_34MD": 3.999999999848569e-05,
+      "printed_Integration": 3.20197,
+      "RA_from_printed_formula": 0.051693333333333334,
+      "Integration_times_RA": 0.16552050253333334
+    },
+    {
+      "ref": 32,
+      "MD": 1.94118,
+      "TD": 66.0,
+      "TD_over_MD": 33.99993818193058,
+      "TD_minus_34MD": -0.00011999999999545707,
+      "printed_Integration": 2.90179,
+      "RA_from_printed_formula": 0.05704121212121212,
+      "Integration_times_RA": 0.16552161892121212
+    },
+    {
+      "ref": 33,
+      "MD": 1.82353,
+      "TD": 62.0,
+      "TD_over_MD": 33.9999890322616,
+      "TD_minus_34MD": -2.0000000006348273e-05,
+      "printed_Integration": 3.31633,
+      "RA_from_printed_formula": 0.049910909090909096,
+      "Integration_times_RA": 0.16552104514545454
+    },
+    {
+      "ref": 34,
+      "MD": 1.73529,
+      "TD": 59.0,
+      "TD_over_MD": 34.000080678157545,
+      "TD_minus_34MD": 0.00014000000000180535,
+      "printed_Integration": 3.71429,
+      "RA_from_printed_formula": 0.044563030303030306,
+      "Integration_times_RA": 0.16552001782424244
+    }
+  ],
+  "summary": {
+    "max_abs_TD_minus_34MD": 0.00015999999999394277,
+    "min_TD_over_MD": 33.99993818193058,
+    "max_TD_over_MD": 34.000080678157545,
+    "Integration_RA_product_min": 0.16549573123636369,
+    "Integration_RA_product_max": 0.16552161892121212
+  },
+  "table4_1": {
+    "printed_page": 76,
+    "pdf_page": 85,
+    "before": {
+      "Integration": "1.3572",
+      "Connectivity": "2.1333",
+      "Control": "1.0000",
+      "MD": "2.4000",
+      "TD": "33.6000"
+    },
+    "after": {
+      "Integration": "0.8454",
+      "Connectivity": "2.0690",
+      "Control": "0.9345",
+      "MD": "4.2401",
+      "TD": "115.1379"
+    },
+    "after_minus_before": {
+      "Integration": "-0.5118",
+      "Connectivity": "-0.0643",
+      "Control": "-0.0655",
+      "MD": "1.8401",
+      "TD": "81.5379"
+    },
+    "TD_mean_over_MD_mean_before": 14.000000000000002,
+    "TD_mean_over_MD_mean_after": 27.154524657437324,
+    "caution": "仅在MD/TD来自同一固定n完整连通图、同一行集合时，均值也应满足TD=(n-1)MD；本轮未获得样本对应与原始模型。"
+  },
+  "formula_ReIi": {
+    "printed_formula": "Imean/(I_after-I_before)",
+    "mean_delta_Integration": "-0.5118",
+    "diagnosis": "原文主要案例Integration后值降低；若Imean为正，所印公式结果为负。不能静默改为绝对值或调换分母。"
+  },
+  "toy_subdivision": {
+    "identity": "reading_authored_counterexample_not_empirical_data",
+    "unchanged_physical_route_assumption": "仅把同一路段增加一个记录点X；每条图边仍按1步计算",
+    "original": {
+      "n": 3,
+      "distance_to_C": 2,
+      "TD": 3,
+      "MD": 1.5,
+      "all_distances": {
+        "A": 0,
+        "B": 1,
+        "C": 2
+      }
+    },
+    "subdivided": {
+      "n": 4,
+      "distance_to_C": 3,
+      "TD": 6,
+      "MD": 2.0,
+      "all_distances": {
+        "A": 0,
+        "X": 1,
+        "B": 2,
+        "C": 3
+      }
+    },
+    "interpretation": "证明未加权图的步数／深度依赖划分粒度；不复现论文实验，也不评价真实街区。"
+  },
+  "toy_control": {
+    "identity": "reading_authored_counterexample_using_paper_control_formula",
+    "undirected_star": {
+      "H": {
+        "degree": 4,
+        "control": 4.0
+      },
+      "L0": {
+        "degree": 1,
+        "control": 0.25
+      },
+      "L1": {
+        "degree": 1,
+        "control": 0.25
+      },
+      "L2": {
+        "degree": 1,
+        "control": 0.25
+      },
+      "L3": {
+        "degree": 1,
+        "control": 0.25
+      }
+    },
+    "interpretation": "反驳连接度越高控制度必越低的普遍命题；不否定特定样本相关性。"
+  },
+  "V01_projection_check": {
+    "identity": "read_only_projection_of_existing_synthetic_JSON_not_new_empirical_evidence",
+    "source_sha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67",
+    "included_relation": "DIRECT_ACCESS_TO; 本例bidirectional=true按无向读取",
+    "direct_space_graph": {
+      "nodes": 6,
+      "edges": 5,
+      "S06_to_S02_distance": 4
+    },
+    "space_interface_incidence_graph": {
+      "nodes": 11,
+      "edges": 10,
+      "S06_to_S02_distance": 8
+    },
+    "interpretation": "同一组合分别按空间跳转和空间-界面交替图计算，步数为4与8；它们不是同一计量单位。未改写JSON或数据库。"
+  }
+}

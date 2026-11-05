@@ -1,0 +1,147 @@
+{
+  "date": "2026-10-22",
+  "status": "论文图表讨论稿",
+  "modelVersion": "0.2",
+  "scope": "由既有模型、案例和演示生成图表；不补造完整平面或建筑事实。",
+  "inputs": [
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/模型定义.json",
+      "sha256": "e5ad37644663fd08eab2856ef541e8d487ce751d0202b0eb6c8d7b44bda87817"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/案例图谱.json",
+      "sha256": "0498fb1c3253e1e0aee9fe4744ed55c7f1fff72ac8763a61f05eea5a954a46fc"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/空间关系演示.json",
+      "sha256": "307a8989efdb42ce0d89359da6f09e743b24e653bdfb6f5beebd99ce3ca27884"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/优化依据.json",
+      "sha256": "eca95ca124a722e1a36c9855a48364d981b044d370a8c7ca4c0ef6ffec73680b"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/优化记录.json",
+      "sha256": "f0b6cf0b966f6df76c86ed6347a9288e36dadf3887b93350280fdb016d68f9b3"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/检查图谱.py",
+      "sha256": "d5abab611d9995532017bff12c889e5729ce3da388f4b23fc2e607282b7260c3"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/迁移记录.json",
+      "sha256": "553e540e61d9f90b3fca37e4948222d3aa6d593be4c24d520bea39d72329314c"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/独立验收.md",
+      "sha256": "16cc740caf6929f4cb3e85a10514d33cece7fde225b52f9d8e32fb19580d587c"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.2/原文抽核记录.md",
+      "sha256": "a73955f51b7867232d1e61b1c84c68b68b858b03e52e559d92861e0d71d0a40f"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF55.png",
+      "sha256": "fbab032f143bf652afcb82e0938c41aafb4e4dc8154fb1ac1311701b2c18f1a0"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/传统民居类型与形态拆解/证据与阅读记录.md",
+      "sha256": "b34c8ff96bff1a05a925bd1127689f170b35f5a36446fb01ecb3a30030bf5f2d"
+    },
+    {
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/outputs/单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF56.png",
+      "sha256": "6101034907b1f108c83271d06b9734dd921f8291768532362134bca734a1e22f"
+    }
+  ],
+  "figures": [
+    {
+      "file": "01-模型构建过程.drawio",
+      "kind": "researcher_workflow_summary",
+      "refs": [
+        "模型定义.json",
+        "优化依据.json",
+        "案例图谱.json",
+        "空间关系演示.json",
+        "独立验收.md"
+      ],
+      "note": "流程整理为研究者表达；虚线后续步骤尚未完成。"
+    },
+    {
+      "file": "02-核心概念关系.drawio",
+      "kind": "schema_projection",
+      "relations": [
+        "has_space",
+        "has_element",
+        "bounds",
+        "interface_of",
+        "realized_by"
+      ],
+      "note": "模型节选，不是完整关系图；旁注补充类内关系。"
+    },
+    {
+      "file": "03-文献实例编码.drawio",
+      "kind": "literature_case",
+      "nodes": [
+        "D_8",
+        "R_8",
+        "T_55"
+      ],
+      "assertions": [
+        "REP_8",
+        "F_8_load_bearing",
+        "F_8_rear_courtyard_form",
+        "F_8_column_bay_form",
+        "F_8_roof_layered"
+      ],
+      "classifications": [
+        "CLASS_8",
+        "PROTO_8"
+      ],
+      "evidence": [
+        "E_Z8",
+        "E_MAP",
+        "E_PROTOTYPE"
+      ],
+      "note": "原页完整嵌入并增加定位框；类型边由CLASS_8投影，属性卡不是实体节点。未画空间或构件的未经证实轮廓。"
+    },
+    {
+      "file": "04-空间关系编码演示.drawio",
+      "kind": "synthetic_demo",
+      "nodes": [
+        "S_HALL",
+        "S_VERANDA",
+        "I_OPEN"
+      ],
+      "assertions": [
+        "USE_V_0",
+        "USE_V_1",
+        "ENC_V",
+        "I_OPEN_HALL",
+        "I_OPEN_OTHER",
+        "SEP_OPEN",
+        "ADJ_HV",
+        "ACCESS_HV",
+        "ACCESS_VH"
+      ],
+      "evidence": [
+        "E_DEMO"
+      ],
+      "basisRefs": [
+        "BOT03",
+        "ISM03"
+      ],
+      "note": "区域色块是无比例图示布局；没有新增尺寸、朝向、墙体或坐标事实。双箭头合并展示两条有向断言。"
+    }
+  ],
+  "checks": {
+    "modelChecks": 157,
+    "semanticGuards": 18,
+    "queries": 10,
+    "allPassed": true
+  },
+  "limits": [
+    "实例编码图3仅为文献记录示例，不能替代完整建筑平面编码。",
+    "实例编码图4为合成演示，不能计入真实样本。",
+    "理论依据沿用既有记录，本轮不声称完成新的全文精读。"
+  ]
+}

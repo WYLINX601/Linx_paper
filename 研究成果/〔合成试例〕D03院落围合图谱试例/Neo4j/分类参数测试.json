@@ -1,0 +1,1098 @@
+{
+  "kind": "actual read-only Cypher parameter tests; no persisted bad examples",
+  "tests": [
+    {
+      "id": "normal-A",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "ENC-3B-1W",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [
+          "ENC-3B-1W"
+        ],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "candidate-assigned",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "normal-B",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "ENC-3B-1W",
+        "courtyard": "D03V01:B-C01",
+        "example": "B",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [
+          "ENC-3B-1W"
+        ],
+        "participants": [
+          "D03V01:B-BN",
+          "D03V01:B-BE",
+          "D03V01:B-W01",
+          "D03V01:B-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "candidate-assigned",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/1/boundary/0",
+          "/examples/1/boundary/1",
+          "/examples/1/boundary/2",
+          "/examples/1/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "normal-C",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "open"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "ENC-2B-1W-1O",
+        "courtyard": "D03V01:C-C01",
+        "example": "C",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [
+          "ENC-2B-1W-1O"
+        ],
+        "participants": [
+          "D03V01:C-BN",
+          "D03V01:C-BE",
+          "D03V01:C-W01",
+          ""
+        ],
+        "patternKey": "building|building|wall|open",
+        "resultStatus": "candidate-assigned",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/2/boundary/0",
+          "/examples/2/boundary/1",
+          "/examples/2/boundary/2",
+          "/examples/2/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "normal-D",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "unknown"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "unknown"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:D-C01",
+        "example": "D",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:D-BN",
+          "D03V01:D-BE",
+          "D03V01:D-W01",
+          ""
+        ],
+        "patternKey": "building|building|wall|unknown",
+        "resultStatus": "unknown",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/3/boundary/0",
+          "/examples/3/boundary/1",
+          "/examples/3/boundary/2",
+          "/examples/3/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "known-unmatched",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "building",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|building|building",
+        "resultStatus": "known-unmatched",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "opposite-buildings-not-K02",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "wall",
+          "building",
+          "open"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|wall|building|open",
+        "resultStatus": "known-unmatched",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "rotation",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "wall",
+          "building",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "ENC-3B-1W",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [
+          "ENC-3B-1W"
+        ],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|wall|building|building",
+        "resultStatus": "candidate-assigned",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "five-sides-outside-rule",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W",
+          "extra"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building",
+          "open"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building|open",
+        "resultStatus": "out-of-scope",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "invalid-evidence-input",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "wrong-side-order",
+      "actual": {
+        "boundaryIds": [
+          "S",
+          "E",
+          "N",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "exclusive-rule-conflict",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [
+          "ENC-3B-1W",
+          "CONFLICT-RULE"
+        ],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "rule-conflict",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "short-kinds",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "invalid-state-enum",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "unkown"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "unknown-kind-known-state",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "unknown"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|unknown",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "known-kind-unknown-state",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "unknown"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "null-kinds",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": null,
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "null-states",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": null,
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "null-ids",
+      "actual": {
+        "boundaryIds": null,
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "string-kinds",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": "building",
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "null-array-element",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          null
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": null,
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "duplicate-ids",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "S"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "missing-shape",
+      "actual": {
+        "boundaryIds": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    },
+    {
+      "id": "empty-ids",
+      "actual": {
+        "boundaryIds": [],
+        "boundaryKinds": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ],
+        "boundaryStates": [
+          "known",
+          "known",
+          "known",
+          "known"
+        ],
+        "cacheConsistent": false,
+        "cachedStatus": "",
+        "cachedType": "",
+        "candidateType": "",
+        "courtyard": "D03V01:A-C01",
+        "example": "A",
+        "geometryVersion": "1.0",
+        "inputModelVersion": "1.0",
+        "matches": [],
+        "participants": [
+          "D03V01:A-BN",
+          "D03V01:A-BE",
+          "D03V01:A-W01",
+          "D03V01:A-BW"
+        ],
+        "patternKey": "building|building|wall|building",
+        "resultStatus": "invalid-input",
+        "ruleVersion": "1.0",
+        "sourceLocators": [
+          "/examples/0/boundary/0",
+          "/examples/0/boundary/1",
+          "/examples/0/boundary/2",
+          "/examples/0/boundary/3"
+        ]
+      },
+      "passed": true
+    }
+  ],
+  "passed": 23
+}

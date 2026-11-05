@@ -1,0 +1,118 @@
+{
+  "date": "2026-10-30",
+  "source": "Mac Paper via mac-paper",
+  "files": [
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "before_sha256": "20cdc47471bf50d4a3867cdad282a260b17074ea06f34858c5ef6b3582e8fcbc",
+      "after_sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "before_sha256": "0309cfb0e86916801644cda31391fd2f2e8d0428803b87960342d56e428fb34b",
+      "after_sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "before_sha256": "1ac588f934dfbe21a05a36b480aa558c6967e4227159d64c997153da2c44727c",
+      "after_sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "before_sha256": "3df08e2b287810368f6e7595a249aaf4387c53ca56bf687c3a907e0324835cc6",
+      "after_sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解表.md",
+      "before_sha256": "d70f9506d891e8130805aa58961bf473416eee2c9037c493c7d6c6118b509b63",
+      "after_sha256": "43c96d6bb91afc12a3c2df3742f7444a7612bfbf84b64574b9abed86b0c99709"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解表.md",
+      "before_sha256": "c3cba6a0dc36cd158f35f464c6b5b681920b459115f5d4c915db33bc9200237b",
+      "after_sha256": "1c188a5277ce29f4a0f30bb789672a00639326d3d30d8dccce510c4fd838c143"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "before_sha256": "57249607463f75141c7f9a67603e1cfe1e1e1dcda8e870113e98675340959551",
+      "after_sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177"
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "before_sha256": "525bcbdac21323ff4e51407131559cea2630f74a20a80e1be91f777371717212",
+      "after_sha256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc"
+    },
+    {
+      "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "before_sha256": "cd1db107850c8869b2eaf778a67d7f014945e13b4705970450334e2e20e98e94",
+      "after_sha256": "cb348a43f7dfc66d7d440d904be1a80c7064895f3ce0c5ef54ecbd27a87639cf"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "before_sha256": "b841735dc9c128aa051c1b45549e9dfebf7264498096f9514831011aa49d34af",
+      "after_sha256": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406"
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "before_sha256": "23c51874a4014a22a7163f6397e9fa5d345e1d1128ae6b8d61d1249a243e2d04",
+      "after_sha256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f"
+    },
+    {
+      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "before_sha256": "385c74e1d5ad9f84edd2272553be4ad1d27b5257a1bf21a07c6b03ed34cec8e5",
+      "after_sha256": "a9bc2c82dae16e3f7b24395ca38815de7c3e7bb5791bbddc1902cab2139af1f4"
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "before_sha256": "43449f7f4a35f71006c557c6fba49f66546890229b896eef3e8a63ca47e667a6",
+      "after_sha256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497"
+    },
+    {
+      "path": "研究成果/README.md",
+      "before_sha256": "0f0e7a66ac829b732c7caf6060cba45aa88b9cda11311f8a185571b0e9b770d7",
+      "after_sha256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "before_sha256": "e20656703c4bd215f2679128e1c4b6e0f2dbd7ddcadc5098d9a6d011f20929ed",
+      "after_sha256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "before_sha256": "5430a613b26cec93e369d7195ba7750f98bac815698491a25f643ab08feeeaef",
+      "after_sha256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "before_sha256": "d6b3a1815d21ff988a208192bd361912933b8eb5f7358dc34787a5056a0f464b",
+      "after_sha256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "before_sha256": "98115a03e1677cfef83d049321b772a4041b05140304a22f1dd1c66a469f3d27",
+      "after_sha256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "before_sha256": "1e96829779164635f5aa5fb122849f1deacb3124aa4c85ec0477a3809efaa087",
+      "after_sha256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解图.smm.md",
+      "before_sha256": "11a905275891483370d09681148633fee63fea21feedf317816b880b9da4244a",
+      "after_sha256": "0d6eae16ad8b9df7dfd9246aa6619464218c4ef7a6d77eae011252b94112973a"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解图.smm.md",
+      "before_sha256": "40c2f77c5a2ca0efb6f6878649b12447bb2dc25c706383d66242fa2d5527b93d",
+      "after_sha256": "4dee12bc852e2f801ef9c3b6a578ff61bd9dc97672ee0e85949dc04d0b9ab7ae"
+    },
+    {
+      "path": "archive/README.md",
+      "before_sha256": "173f02e8a89c0b2faafb8af8b66461d3d0e12e4521b3335c46b43968f3ebdbd6",
+      "after_sha256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13"
+    }
+  ],
+  "zip_members_verified": 22,
+  "database_mutation": false
+}

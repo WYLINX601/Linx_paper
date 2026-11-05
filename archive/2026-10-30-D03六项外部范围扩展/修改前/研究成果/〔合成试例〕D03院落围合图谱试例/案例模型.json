@@ -1,0 +1,654 @@
+{
+  "datasetId": "D03V01",
+  "modelVersion": "1.0",
+  "status": "synthetic-candidate-awaiting-user-review",
+  "authoritativePath": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+  "purpose": "共同表达首轮实现；D03-T01/T02/T03接D06-T01/T03；非真实类型发现",
+  "authorization": "2026-10-30用户同意共同图谱表达及第一个具体任务，结果和思路待用户审核",
+  "scope": {
+    "implemented": [
+      "D03-T01外部院落身份与理论/实体边界区别",
+      "D03-T02逐侧参与与开敞/未知",
+      "D03-T03入口局部定位与宿主、已知院侧",
+      "D06-T01/T03限定输入检查、候选分型与变体比较"
+    ],
+    "notImplemented": [
+      "D03完整六项",
+      "D04立面实例",
+      "D05组团实例",
+      "D02内部构架",
+      "D03完整通行网",
+      "D07时序",
+      "D08感知",
+      "三维几何判断",
+      "真实样本有效性",
+      "BOT/OWL推理"
+    ]
+  },
+  "basis": [
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+      "items": [
+        "B-C01",
+        "B-C03",
+        "B-C05",
+        "B-C06",
+        "B-C07",
+        "B-R02",
+        "B-R04",
+        "B-R09",
+        "B-R12",
+        "B-A07",
+        "B-A08"
+      ]
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "items": [
+        "U02",
+        "U03",
+        "U04",
+        "U10",
+        "U11",
+        "U13",
+        "U14"
+      ]
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "items": [
+        "D03-T01",
+        "D03-T02",
+        "D03-T03"
+      ]
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "items": [
+        "D06-T01",
+        "D06-T03"
+      ]
+    }
+  ],
+  "source": {
+    "id": "EV01",
+    "name": "D03人工合成设定与来源定位",
+    "sourceKind": "synthetic-not-observation",
+    "sourcePath": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+    "sourceVersion": "1.0",
+    "creator": "研究协作过程中的人工试例设计",
+    "supportScope": "仅证明本试例如何设定；不支持真实建筑、类型有效性或独立互证"
+  },
+  "classificationScheme": {
+    "id": "R01",
+    "name": "四侧院落围合构成候选方案",
+    "version": "1.0",
+    "mode": "exclusive-single",
+    "status": "research-candidate-not-approved",
+    "unitOfAnalysis": "one-courtyard",
+    "applicableShape": "rectangular-reference",
+    "sideIds": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "allowRotation": true,
+    "allowReflection": true,
+    "definingFeatures": [
+      "完整且可判定的四侧序列",
+      "每侧的building/wall/open参与类别",
+      "实际参与端点和来源引用一致"
+    ],
+    "auxiliaryFeatures": [
+      "入口中心里程比；不决定围合类",
+      "N/E/S/W绝对方位"
+    ],
+    "rules": [
+      {
+        "code": "ENC-3B-1W",
+        "name": "三侧建筑＋一侧院墙",
+        "pattern": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ]
+      },
+      {
+        "code": "ENC-2B-1W-1O",
+        "name": "相邻两侧建筑＋一侧院墙＋一侧开放",
+        "pattern": [
+          "building",
+          "building",
+          "wall",
+          "open"
+        ]
+      }
+    ],
+    "exclusions": [
+      "非四侧或不符合本例矩形参照范围：out-of-scope",
+      "关键参与情况未知：unknown",
+      "已知但不符规则：known-unmatched",
+      "互斥规则同时满足：rule-conflict",
+      "字段、来源、版本或关系不一致：invalid-input"
+    ],
+    "boundaryPolicy": "按院落侧的主界定对象分粗类；院墙上有门洞仍记wall，入口另记，不计算实体边界长度比例；混合一侧/不规则边界须另审规则",
+    "localTypeNames": [],
+    "origin": "从既有D03/D06候选方法提出的本研究工作规则，不命名为三合院/四合院等地方类型"
+  },
+  "examples": [
+    {
+      "id": "A",
+      "name": "三侧建筑、一侧院墙；入口中心里程比0.50",
+      "unit": {
+        "id": "A-U01",
+        "name": "A例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "A-C01",
+        "name": "A例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "A-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BW",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "A-BN",
+          "name": "A例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "A-BE",
+          "name": "A例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "A-BW",
+          "name": "A例W侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "A-W01",
+        "name": "A例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "A-I01",
+        "name": "A例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "A-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "B",
+      "name": "同一围合构成；入口中心里程比0.25",
+      "unit": {
+        "id": "B-U01",
+        "name": "B例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "B-C01",
+        "name": "B例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "B-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BW",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "B-BN",
+          "name": "B例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "B-BE",
+          "name": "B例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "B-BW",
+          "name": "B例W侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "B-W01",
+        "name": "B例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "B-I01",
+        "name": "B例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 2.0,
+        "endChainageM": 4.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "B-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "C",
+      "name": "相邻两侧建筑、一侧院墙、一侧开放",
+      "unit": {
+        "id": "C-U01",
+        "name": "C例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "C-C01",
+        "name": "C例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "C-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "C-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "C-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "open",
+          "participantId": null,
+          "participantScope": "明确没有连续实体界定；不是缺资料",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "C-BN",
+          "name": "C例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "C-BE",
+          "name": "C例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "C-W01",
+        "name": "C例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "C-I01",
+        "name": "C例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "C-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "D",
+      "name": "西侧参与情况未知；不补造建筑或开放事实",
+      "unit": {
+        "id": "D-U01",
+        "name": "D例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "D-C01",
+        "name": "D例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "D例西侧是理论参照线，不声称已识别实体边界"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "D-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "D-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "D-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "unknown",
+          "kind": "unknown",
+          "participantId": null,
+          "participantScope": "仅有理论参照边，不知参与者",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "D-BN",
+          "name": "D例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "D-BE",
+          "name": "D例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "D-W01",
+        "name": "D例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "D-I01",
+        "name": "D例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "D-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    }
+  ]
+}

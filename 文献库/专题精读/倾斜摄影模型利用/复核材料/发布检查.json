@@ -1,0 +1,97 @@
+{
+  "checked_at": "2026-10-30T12:38:01.919984+08:00",
+  "published_files": 12,
+  "verified_files": [
+    {
+      "target": "研究资料/来源证据/assets/倾斜摄影模型利用/Gao2023.pdf",
+      "sha256": "0030b9dc16db85ea178b0a0beea675956de3bffc69c33276144113085616b374"
+    },
+    {
+      "target": "研究资料/来源证据/assets/倾斜摄影模型利用/Zhang2022-PKU.html",
+      "sha256": "8707506a81220c38c91643fdd9872fd007908e7e791f3ac1ada2c055493a5a2d"
+    },
+    {
+      "target": "研究资料/来源证据/assets/倾斜摄影模型利用/Zhang2022-publisher.html",
+      "sha256": "9d9695624142a79dd65e79bbaa1aa0f89c4d7e342d77969b7bfa31cd990b3809"
+    },
+    {
+      "target": "研究资料/来源证据/assets/倾斜摄影模型利用/CloudCompare-CSF.md",
+      "sha256": "4bba122748517acefa30d84b0e0e0bd41071441d7a8632b12b83f0809caa3c6d"
+    },
+    {
+      "target": "研究资料/来源证据/assets/倾斜摄影模型利用/Revit2021-pointcloud.html",
+      "sha256": "c1553d914926fc8ad0c795ef9f83aa2eff20817b616e4719a06ba25320d35fbf"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/复核材料/抽核输入快照.zip",
+      "sha256": "ef92dd979e8fbdaccb24a2518f048e4ba201f5db0d11c49d7b33c5f316c3e970"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/复核材料/独立抽核记录.md",
+      "sha256": "f339359332c0460f80e79750f7c74ccc5938e9389652d39825ff33ad2be4a733"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/来源索引.json",
+      "sha256": "02f1e5f381dd6966217dde4f587872c369d2d223e9e90ff796c1cbf09120de39"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/模型利用方法比较.smm.md",
+      "sha256": "b1257efcc6916037574570b64a044810cae195c147dbf1575ec9dc3953c1af23"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/证据与阅读记录.md",
+      "sha256": "ca26f64798ef36a5271938c65361a39c3b85709e96bbe6a834feeb7c56e85665"
+    },
+    {
+      "target": "文献库/README.md",
+      "sha256": "ee6fd0208f4dedabab855b5dbc4c2b0138a46e65d322dfaba16f410df6bfe8bc"
+    },
+    {
+      "target": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "sha256": "69c645afbaade7e4653e58cdc0f062942bbafdac0530d6f57b024e1a6e56982a"
+    }
+  ],
+  "native_map_ok": true,
+  "map_nodes": 68,
+  "structure_check": {
+    "chapters": 6,
+    "sections": 37,
+    "subsections": 17,
+    "adoptions": 88,
+    "topics": 8,
+    "roles": 6,
+    "route_nodes": 13,
+    "artifact_packages": 20,
+    "artifact_relations": 59,
+    "out_of_sync": []
+  },
+  "scoped_link_check": "{\"checked\": 8, \"missing\": []}\n",
+  "visual_check": {
+    "title": "🐴 模型利用·证据阅读记录",
+    "rows": 6,
+    "headings": [
+      "阅读入口与边界",
+      "来源身份及实际覆盖",
+      "G：美兰坊——让不同尺度的模型承担不同观察任务",
+      "Z：鸡鸣驿——从可见形态走向功能与使用状态判别",
+      "Q：总督楼——模型需要对象化，再与外部知识关联",
+      "Y：燃灯塔——从点云到图件，再到有条件的专业分析",
+      "L：山东某寺庙——保护用途清单有价值，验证力度须另判",
+      "C：东山镇——通过多种中间数据，把三维资料接入不同分析",
+      "比较时必须保留的差别",
+      "当前研究可以讨论的借鉴点（尚未采用）",
+      "验收与待补"
+    ],
+    "strongLabels": 46,
+    "horizontalOverflow": false,
+    "literalBoldMarkers": false,
+    "correctUniversity": true,
+    "obsoleteUniversity": false,
+    "qualifiedWarningState": true,
+    "tableWidth": 1150,
+    "viewportWidth": 1280,
+    "source_sha256": "ca26f64798ef36a5271938c65361a39c3b85709e96bbe6a834feeb7c56e85665",
+    "pixel_review": "not_completed: screenshot and CDP screenshot timed out; DOM rendering only"
+  },
+  "scope": "新文献材料、公开来源快照与两处导航；非全库健康检查，未改正文/大纲/路径/BOT/案例JSON/Neo4j/Zotero"
+}

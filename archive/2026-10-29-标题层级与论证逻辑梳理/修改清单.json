@@ -1,0 +1,77 @@
+[
+  {
+    "path": "archive/README.md",
+    "before_sha256": "6c74611c0085f7c8ec79e4f031b5d28d9fdf6ccf3768a593e5bbbbbce4cd8a1b",
+    "after_sha256": "7aa22420365a2a205c089ee2fea1e19b34120bc98e5cd54db151f807bf4e3533"
+  },
+  {
+    "path": "context/PROJECT_CONTEXT.md",
+    "before_sha256": "c4cee9fa4a42e9e463738dc63d0542020004754b7b83af642404c258eadc2b91",
+    "after_sha256": "e0bba21fc0177ade73b15ece76cb1829c3718afa94569df59f162b23b014b17b"
+  },
+  {
+    "path": "论文章节/01-绪论/章节导航.md",
+    "before_sha256": "ecb881869dbba34534e46d072c52081f0ad80781ed824a9d88ffbe7c979420dc",
+    "after_sha256": "499bca96f9d57ce661975f659e32745a2d96e0fb93a60ae3e86979ce64224f06"
+  },
+  {
+    "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+    "before_sha256": "31e96d4284c7a359a19a57fde6c2a9e6111831729efcf7b7548705ec95fde7f3",
+    "after_sha256": "d1f1a2214c47f5e0a624ab0465979506a9b2f35c78b0d014837828b693bab0a0"
+  },
+  {
+    "path": "论文章节/03-体系与方法设计/章节导航.md",
+    "before_sha256": "ababf91ada35f00777694efe519cccd8ca70971f0c57caf866e30370b022d700",
+    "after_sha256": "f9d7a3b98216898f94e22a9eebba1a1320aa6d5387465fb204ca6fe6f61142e8"
+  },
+  {
+    "path": "论文章节/04-案例实施与检验/章节导航.md",
+    "before_sha256": "c7210100b40b439f5e0db4567d196b321a4aa4fcd1265e12f1a40d7f3f0ce792",
+    "after_sha256": "478e69cf3b58ddc6d9aa052604413808361a0a35f59a308345fdb0a52266050e"
+  },
+  {
+    "path": "论文章节/05-分析比较与讨论/章节导航.md",
+    "before_sha256": "830d89aa4a5ac92baf8b002108d72c5d2d16d370fc55431f705e9db8623e1ab8",
+    "after_sha256": "d0a468380dcc318959896cfd20425763ce30da74ee7540008dab8ed1a19be1e2"
+  },
+  {
+    "path": "论文章节/06-结论与展望/章节导航.md",
+    "before_sha256": "8bb2585c375dde81f25d47e689bb94e72880ed69b61a7c1409bfe2befa2a9496",
+    "after_sha256": "a220da8223139c4487b9b98804a7d1d39e08d737b0bfb93890cda0ce48dc4ced"
+  },
+  {
+    "path": "论文章节/大纲结构.yaml",
+    "before_sha256": "7317efd2503a01382646e0910aaae312a1b008ae7e8285cb965490a06abdaffc",
+    "after_sha256": "25faaedec543746fde6587b98aa486eefcee45937db3fbe3e4437c12678a5a12"
+  },
+  {
+    "path": "论文章节/现行大纲.md",
+    "before_sha256": "f98c26f38fcdfb5871f8907ffe50befefc7c7f7e956f0f50b21c70335e00f3af",
+    "after_sha256": "f971fdf4fb0dd4dd112498df7e648e85387f34d926c54e1c977539d5212f5fa8"
+  },
+  {
+    "path": "项目管理/健康检查/research_structure.py",
+    "before_sha256": "79a8acb48506e178890aeb9c65554bb496f889defe5ede77db346c86d1deb30d",
+    "after_sha256": "200122e73a123da7f98f2fa421c39f4d3924e481424da043a3902356d6940316"
+  },
+  {
+    "path": "项目管理/动态研究体系.md",
+    "before_sha256": "64b266d0930e838dbe44c0124303c6aa6615f50e95e578f494b124252b86c4b2",
+    "after_sha256": "2c45856d6eaa7146d82e7284b4f89f50c45c628decf5564f559b1efe73e8d02a"
+  },
+  {
+    "path": "项目管理/章节主题映射.md",
+    "before_sha256": "cfad5977befc5a7b99971cac121ad690cc84b9953e372eb54492c52614e1a31d",
+    "after_sha256": "353fdbe9a86d9a9a61f51ea1a507bc78a1573d3b2e91732e59241084d7efd23d"
+  },
+  {
+    "path": "项目管理/章节采用记录.json",
+    "before_sha256": "230306fcd7409b0f3229c514be0dacc1c3bd30b161a9f64921cb3d23dc0a45af",
+    "after_sha256": "d7071c6b859f99898a1cf97dba0c8d817f7f13b411be9c60a313f36af5ec0a9c"
+  },
+  {
+    "path": "项目管理/健康检查/test_outline_subsections.py",
+    "before_sha256": null,
+    "after_sha256": "90e4e77c93c789cfa6c76882e4c3f6d528e793bb6ebaaec9407dcf747a542a80"
+  }
+]

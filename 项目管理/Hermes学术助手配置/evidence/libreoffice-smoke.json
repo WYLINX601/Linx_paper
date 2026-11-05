@@ -1,0 +1,126 @@
+{
+  "runtime_python": "3.12.14",
+  "font_requested": "Noto Sans CJK SC",
+  "font_match": "NotoSansCJK-Regular.ttc: \"Noto Sans CJK SC\" \"Regular\"",
+  "expected_chinese_sample": "畲族传统民居风貌",
+  "runtime_paths": {
+    "ld_library_path_order": [
+      "/home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program",
+      "/home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/x86_64-linux-gnu"
+    ],
+    "bootstrap": "/home/linx/.hermes/profiles/academic/bin/libreoffice-fundamentalrc",
+    "registry_overlay": "/home/linx/.hermes/profiles/academic/bin/libreoffice-registry",
+    "langtag_data": "/home/linx/.hermes/profiles/academic/opt/libreoffice/usr/share/liblangtag",
+    "langtag_adapter": null
+  },
+  "libreoffice_alias_version": {
+    "returncode": 0,
+    "stdout": "LibreOffice 26.2.6.3 620(Build:3)",
+    "stderr": ""
+  },
+  "version": {
+    "returncode": 0,
+    "stdout": "LibreOffice 26.2.6.3 620(Build:3)",
+    "stderr": ""
+  },
+  "pdf_conversions": {
+    "docx": {
+      "input": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/inputs/libreoffice-docx-smoke.docx",
+      "output": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/pdf/docx/libreoffice-docx-smoke.pdf",
+      "returncode": 0,
+      "stdout": "convert /home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/inputs/libreoffice-docx-smoke.docx as a Writer document -> /home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/pdf/docx/libreoffice-docx-smoke.pdf using filter : writer_pdf_Export\n",
+      "stderr_tail": "ffice/usr/lib/libreoffice/program/libmergedlo.so(+0x341df26) [0x7875f041df26]\nW:     25. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(+0x44dd366) [0x7875f14dd366]\nW:     26. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(_ZN14SvpSalInstance12ProcessEventEN16SalUserEventList12SalUserEventE+0x32) [0x7875f19b56a2]\nW:     27. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(_ZN16SalUserEventList18DispatchUserEventsEb+0x14b) [0x7875f173883b]\nW:     28. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(+0x49b5e66) [0x7875f19b5e66]\nW:     29. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(+0x49b635d) [0x7875f19b635d]\nW:     30. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(+0x478cb7e) [0x7875f178cb7e]\nW:     31. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(_ZN11Application7ExecuteEv+0x72) [0x7875f178d5c2]\nW:     32. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(+0x3420a80) [0x7875f0420a80]\nW:     33. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(_Z10ImplSVMainv+0x49) [0x7875f1797f19]\nW:     34. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/libmergedlo.so(soffice_main+0x85) [0x7875f043eb25]\nW:     35. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/soffice.bin(+0x10b6) [0x5eb1544920b6]\nW:     36. /usr/lib/x86_64-linux-gnu/libc.so.6(+0x2a601) [0x7875ecc2a601]\nW:     37. /usr/lib/x86_64-linux-gnu/libc.so.6(__libc_start_main+0x88) [0x7875ecc2a718]\nW:     38. /home/linx/.hermes/profiles/academic/opt/libreoffice/usr/lib/libreoffice/program/soffice.bin(+0x10f5) [0x5eb1544920f5]\n",
+      "stderr_length": 11781,
+      "liblangtag_system_path_warning": true,
+      "exists": true,
+      "size_bytes": 20467,
+      "sha256": "fb5ef4b3296acd695d9f55d8a1d9c0be414b15f94ddbf04967d37b4d4b9c09e1",
+      "pdf_signature": "%PDF-",
+      "preview": {
+        "path": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/previews/docx.png",
+        "exists": true,
+        "returncode": 0,
+        "stderr": "",
+        "page_count": 1,
+        "size_bytes": 21958,
+        "sha256": "c0f4719b95143ad143d9bbbb8c0e53e6ea60fd63489840d4e6e2e437b24e4db2",
+        "png_signature": "89504e470d0a1a0a",
+        "valid_png": true
+      },
+      "pdf_text_check": {
+        "returncode": 0,
+        "contains_expected_chinese": true,
+        "sample": "DOCX 中文字体检查 畲族传统民居风貌：中文页面预览检查。"
+      }
+    },
+    "pptx": {
+      "input": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/inputs/libreoffice-pptx-smoke.pptx",
+      "output": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/pdf/pptx/libreoffice-pptx-smoke.pdf",
+      "returncode": 0,
+      "stdout": "convert /home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/inputs/libreoffice-pptx-smoke.pptx as a Impress document -> /home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/pdf/pptx/libreoffice-pptx-smoke.pdf using filter : impress_pdf_Export\n",
+      "stderr_tail": "",
+      "stderr_length": 0,
+      "liblangtag_system_path_warning": false,
+      "exists": true,
+      "size_bytes": 15993,
+      "sha256": "5572c4ac8e8b3b9bc90d86a72963f506c48c95c75d825deb5f7606631e8b3bbf",
+      "pdf_signature": "%PDF-",
+      "preview": {
+        "path": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/previews/pptx.png",
+        "exists": true,
+        "returncode": 0,
+        "stderr": "",
+        "page_count": 1,
+        "size_bytes": 31133,
+        "sha256": "2bd7b0a03717f1ca1ce4ef3c22036db331b7eb616b0d2b5c27a006a51c9cb5b1",
+        "png_signature": "89504e470d0a1a0a",
+        "valid_png": true
+      },
+      "pdf_text_check": {
+        "returncode": 0,
+        "contains_expected_chinese": true,
+        "sample": "PPTX 中文字体检查 畲族传统民居风貌：中文页面预览检查。"
+      }
+    },
+    "xlsx": {
+      "input": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/inputs/libreoffice-xlsx-smoke.xlsx",
+      "output": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/pdf/xlsx/libreoffice-xlsx-smoke.pdf",
+      "returncode": 0,
+      "stdout": "convert /home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/inputs/libreoffice-xlsx-smoke.xlsx as a Calc document -> /home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/pdf/xlsx/libreoffice-xlsx-smoke.pdf using filter : calc_pdf_Export\n",
+      "stderr_tail": "",
+      "stderr_length": 0,
+      "liblangtag_system_path_warning": false,
+      "exists": true,
+      "size_bytes": 17745,
+      "sha256": "19dfbb47af0d866f304cbdf9b70c2321d51b4193129e409d96c817f028261714",
+      "pdf_signature": "%PDF-",
+      "preview": {
+        "path": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/previews/xlsx.png",
+        "exists": true,
+        "returncode": 0,
+        "stderr": "",
+        "page_count": 1,
+        "size_bytes": 20166,
+        "sha256": "36d77f03f4977233527d6d3e5688b6eb94c37db45f48d9a8bbb621cf2f90c643",
+        "png_signature": "89504e470d0a1a0a",
+        "valid_png": true
+      },
+      "pdf_text_check": {
+        "returncode": 0,
+        "contains_expected_chinese": true,
+        "sample": "畲族传统民居风貌：XLSX 中文预览 2 3 缓存结果 5"
+      }
+    }
+  },
+  "xlsx_formula_cache": {
+    "source": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/inputs/libreoffice-xlsx-smoke.xlsx",
+    "recalculated_file": "/home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/recalculated/libreoffice-xlsx-smoke.xlsx",
+    "returncode": 0,
+    "stdout": "convert /home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/inputs/libreoffice-xlsx-smoke.xlsx as a Calc document -> /home/linx/.hermes/profiles/academic/verification/libreoffice-smoke/recalculated/libreoffice-xlsx-smoke.xlsx using filter : Calc MS Excel 2007 XML\n",
+    "stderr_tail": "",
+    "formula": "=SUM(A2:A3)",
+    "cached_value_data_only": 5,
+    "cache_verified": true
+  },
+  "success": true
+}

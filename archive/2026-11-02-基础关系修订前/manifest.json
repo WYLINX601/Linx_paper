@@ -1,0 +1,170 @@
+{
+  "scope": "pre-2.2 logical and file snapshots; database 2.1 versus Paper 2.0",
+  "paper": [
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "c50ec93ba8cae84f5332cff7614a2a0e7f80168af3d2ed547aeffd292bb0fb16",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/context/PROJECT_CONTEXT.md"
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "7a5b280bca22866487288497685f074b79395c45fd0a7a44f9abc67f0b85dbe0",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/archive/README.md"
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "sha256": "bf49f5b34acd27b3b24c59a80622499d1a9021a4d007dab20e11dfbd4a454c12",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md"
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+      "sha256": "79c153c94a2cbfdbca87d45b93159c700637e47beedbc03e3874dd5479fcb08a",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "d46e14fe5c6da95a09f8a4788c9feaa5cda2d7bd0c892f17342e139f1e14c7b2",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔研究路线〕论文研究路径/研究路径结构.json"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔研究路线〕论文研究路径/研究路径工作图.md"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/审核视图.html",
+      "sha256": "d5625844af6935c3b4ac834feb6e5fa36ecbd84f8af398d84044ed931274207d",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/审核视图.html"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "sha256": "04ff3f093fdeeac949df03dcd6c5bf47da7db93ff8a66ef52e57b043e2524ece",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/README.md"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例浏览.html",
+      "sha256": "cf10ebdb36c4b021c33d9a16321a8c89f88dee5ecb4e7ea99962b77c868db29f",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/案例浏览.html"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+      "sha256": "64f39e938787c1faef7106dd8280f8bb7f8aab617feb6e5c1ddb2c231a59eb60",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+      "sha256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sha256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "7adaa1ef3a3dc3fd38268d4802507eb979007d3137f1e3ca65fba54bbddb0a86",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "3ea9116caa603394a01660efa273b93e267c68ea6646e95ffb937a1abda40a02",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/README.md"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sha256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "d25894ed8104e030926b8fe32f44b519a8526f0c062c9c50938da1f5b06b9e67",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sha256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md"
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "3d63eefdfa22ba8366aeec61911dae2a11870c959ca393d2ab05a9509f108cbc",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/README.md",
+      "sha256": "dd396f69a7d83f96a2d66638e1570715531e39b293b5e0f7506a8d833529a953",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/README.md"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/test_unified.py",
+      "sha256": "3868044fe61f937f713519c67d5e71e8d495939d0b88c4cb9a9664f48e6062e8",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/test_unified.py"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/check.py",
+      "sha256": "a3ff9e6a3c27b2a3e0a861fd2a9a406740346c0a0d8781b269ae25d9d32ac3b7",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/check.py"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/README.md",
+      "sha256": "9ee35c7d778ff14351cf9d2aa83ba46d84235545e640bc340d40b170e6e19209",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/README.md"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/compile_model.py",
+      "sha256": "c746341ff2dcb861fd2d57c6f69635e626ccd686a6c8c3d98b64cd2887727ce8",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/compile_model.py"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "sha256": "a562af0e647b54c7c621a0cc34a3724b08593fa4046074579cdcdf146654458b",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/viewer.template.html"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/run_graph.py",
+      "sha256": "37e3601a43303c95e725de05158e4cfb5f290c07fe478e029f56a0a676e76570",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/run_graph.py"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/queries.py",
+      "sha256": "68636aaa679d0ce0f9278543f13bfb7dd5de9191e7ff32a30d075996e730ea57",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/queries.py"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/build_review.py",
+      "sha256": "6bd74cbbe81b7ed84d82c528118747a9a7bae98d03b4e1c6c927ffac022c9901",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/build_review.py"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/analyze.py",
+      "sha256": "fffa67f39c04fd1fe4acec033173cf867f8aa3fdb0238db2f789bd7eaaf2e8ea",
+      "snapshot": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/analyze.py"
+    }
+  ],
+  "model": {
+    "path": "model-2.1.json",
+    "sha256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a"
+  },
+  "database": {
+    "graph.json": "f091166eae287093ac2ace7165dca5789b02b4148a95f4f5f3b964391013c606",
+    "schema.json": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+    "summary.json": "168147d477381a9495261c397132f6d743fae6d1acfc20e05da6efcf3363e8e5"
+  },
+  "restoreRehearsed": false
+}

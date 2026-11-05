@@ -1,0 +1,112 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram name="当前目标与拟开展路径">
+    <mxGraphModel dx="1520" dy="1520" grid="1" gridSize="10" page="1" pageWidth="1520" pageHeight="1520" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;传统民居风貌语义描述与三维空间关联研究路径&lt;/b&gt;" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=34;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;shape=label;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="50" y="20" width="1420" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="goal" value="以景宁畲族传统民居建筑及其聚居风貌为核心研究对象，构建多尺度语义描述模型，建立风貌对象、特征及关系与三维空间区域之间的关联方法，并通过案例标注、空间查询与风貌比较分析验证其有效性。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="100" width="1270" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="head1" value="对象已聚焦传统民居；下列方法与验证为拟开展（非新章节目录）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=20;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;shape=label;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="210" width="850" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="head2" value="阶段输出与状态" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=20;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;shape=label;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="210" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="s1" value="&lt;b&gt;已有基础 · 两村资料分类与索引已分别交付&lt;/b&gt;&lt;br&gt;敕木山｜东坑镇大张坑自然村（非沙湾镇张坑）&lt;br&gt;本轮明确传统民居对象；来源、时点与缺口继续保留" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="270" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o1" value="已交付：分村资料索引&lt;br&gt;证据链与缺口清单" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="270" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eo1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="s1" target="o1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s2" value="&lt;b&gt;后续拟开展 · 资料分析与实景三维条件核查&lt;/b&gt;&lt;br&gt;倾斜摄影实景模型用于民居及其聚居环境的资料分析&lt;br&gt;村落、文件、照片／位姿／点云／工程／坐标与可用性尚未核验" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="450" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o2" value="拟明确可用资料范围&lt;br&gt;覆盖、质量与限制" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="450" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eo2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="s2" target="o2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="s1" target="s2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s3" value="&lt;b&gt;后续拟开展 · 传统民居的多尺度语义描述模型&lt;/b&gt;&lt;br&gt;村落：聚居环境｜组团：空间组合｜单体：建筑特征&lt;br&gt;按研究作用筛选特征；证据必录，字段与深度经试采修订" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="630" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o3" value="拟形成语义描述模型&lt;br&gt;对象、特征及关系规则" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="630" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eo3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="s3" target="o3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="s2" target="s3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s4" value="&lt;b&gt;后续拟开展 · 三维空间区域关联方法&lt;/b&gt;&lt;br&gt;关联民居风貌对象、特征及关系与三维空间区域&lt;br&gt;以资料分析与试建检验可达程度，再优化模型和关联规则" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="810" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o4" value="拟形成空间关联方法&lt;br&gt;区域对应与修订记录" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="810" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eo4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="s4" target="o4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="s3" target="s4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s5" value="&lt;b&gt;后续拟开展 · 有效性验证&lt;/b&gt;&lt;br&gt;案例标注、空间查询与风貌比较分析&lt;br&gt;检验描述与空间对应的适用性，任务及判据待资料分析确定" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="990" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o5" value="拟形成验证记录&lt;br&gt;有效性证据与局限" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="990" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eo5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="s5" target="o5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="s4" target="s5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="s6" value="&lt;b&gt;后续拟开展 · 结果归纳与边界说明&lt;/b&gt;&lt;br&gt;据实际验证结果总结模型、关联方法与风貌认识&lt;br&gt;报告样本、尺度、资料与解释局限，不预写贡献或效果" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1170" width="850" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="o6" value="拟据实归纳结论&lt;br&gt;适用边界与后续方向" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=23;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#f5f5f5;strokeColor=#666666;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="1160" y="1170" width="300" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="eo6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=1;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="s6" target="o6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="es6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="s5" target="s6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="feedback" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;html=1;endArrow=block;endFill=1;strokeColor=#6c8ebf;strokeWidth=2;exitX=0;exitY=0.5;entryX=0;entryY=0.5;dashed=1;strokeColor=#9673a6;" edge="1" parent="1" source="s5" target="s3">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="120" y="1050" />
+              <mxPoint x="120" y="690" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="feedbacklabel" value="&lt;b&gt;反馈优化&lt;/b&gt;&lt;br&gt;语义模型&lt;br&gt;区域关联&lt;br&gt;证据核查" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=20;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry x="10" y="790" width="150" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="iteration" value="知识图谱仅为知识组织／查询的实现载体；案例标注、空间查询与比较分析承担验证。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=21;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;shape=label;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1320" width="1270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="boundary" value="核心为传统民居，村落提供聚居环境；非住宅按关联需要纳入，不作村落综合评价。&lt;br&gt;两村仅为首批资料案例；样本与字段待检验，旧32项候选和虚构原型不作已验证成果。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;shape=label;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1370" width="1270" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="source" value="依据：2026-10-19方法目标＋2026-10-20对象确认｜仅定位／图文核对｜v0.6正文待整体修订" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=18;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;shape=label;fillColor=none;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry x="190" y="1450" width="1270" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

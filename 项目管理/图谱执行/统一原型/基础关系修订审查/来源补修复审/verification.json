@@ -1,0 +1,120 @@
+{
+  "blocking": false,
+  "interpreter": "/Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python",
+  "dontWriteBytecode": true,
+  "command": [
+    "/Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python",
+    "-B",
+    "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-fix-iwt59djh/review3-output/f03_review.py"
+  ],
+  "completed": true,
+  "manifest": {
+    "count": 38,
+    "sha256": "d618cf094b15cc5a4d6ebc16d37e5dfee960dccb34f876d5928240e9e1040e80",
+    "startEndEqual": true
+  },
+  "priorAttempt": {
+    "exitCode": 1,
+    "stage": "fresh positive historical whole-edge check",
+    "cause": "Overstrict review-script assertion: SRC-B02 current assertionSourceVersion was upgraded from 2.1 to 2.2, while historical sourceVersion remains 1.1",
+    "correction": "Allow only exact assertionSourceVersion upgrade in output review script; frozen sources unchanged"
+  },
+  "delta": {
+    "tools/semantics.py": {
+      "beforeSHA256": "9fa62cf1cb4805324c56e3d0740b740c7be011270b94666ebe618e32c7c3ea33",
+      "afterSHA256": "fffb7acfb2d0acb1121e54f7ac9f097e3770f63270e7fcea274eb6a8f504db60",
+      "beforeMatches": true,
+      "afterMatches": true
+    },
+    "tools/compile_model.py": {
+      "beforeSHA256": "a52fe1b061e97cf88691caa24233b84b48540a505733765c6102f1ddbd908837",
+      "afterSHA256": "52f3a2ac164aa7073b3deebd47f7c91e789b663d3da7a37a8a8757a07db8c7d6",
+      "beforeMatches": true,
+      "afterMatches": true
+    },
+    "test_semantics.py": {
+      "beforeSHA256": "23091c3c5fa6b51ec7c734e36ab3e0834e55338bc583f533b3608379c4db4bdf",
+      "afterSHA256": "1afe21622685177a2da45e3fd8c727f4e633d2fecafcc6a4425bb77a208d96c0",
+      "beforeMatches": true,
+      "afterMatches": true
+    }
+  },
+  "fresh": {
+    "executions": 36,
+    "rejected": 36,
+    "actualLPGExecutions": 12
+  },
+  "reusedPreviousIndependentScript": {
+    "exitCode": 0,
+    "mutations": {
+      "count": 84,
+      "rejected": 84,
+      "accepted": []
+    },
+    "geometryComparisons": 58,
+    "failedChecks": [],
+    "onlyFIXandOUTChanged": true
+  },
+  "positiveChecks": {
+    "normal_compile_payload_equals_frozen": true,
+    "full_analysis_equals_frozen": true,
+    "model_json_roundtrip": true,
+    "payload_json_roundtrip": true,
+    "full_analysis_json_roundtrip": true,
+    "actual_lpg_reversed_full_analysis_equal": true,
+    "EV09_entire_record_preserved_and_version_1_1": true,
+    "historical_EV09_source_relations_preserved_except_current_assertion_version": true,
+    "all_old_evidenceRole_preserved": true,
+    "only_five_new_edges_exact_endpoints_and_type": true,
+    "no_added_nodes": true,
+    "no_forbidden_module_imports": true
+  },
+  "providedTestsExecuted": false,
+  "databaseGUIOrPublicationExecuted": false,
+  "artifactSHA256": {
+    "analysis-roundtrip.json": "0b71fcf17bc8e4ac4de206b94597fb27f1aa9b23654492910447f814d335f852",
+    "counterexample-BOUND-S04-C01-locator-misplaced.json": "58268e8179ab9d008f723bb1ab9d82dfdeaa2f5d51a68764d01b05c30ac8b549",
+    "counterexample-BOUND-S04-C01-locator-missing.json": "8658c3872434d19c4aceabb4a50404a439c54b54bca8e94864c1a128b4ad1c1b",
+    "counterexample-BOUND-S04-C01-sourceUid-misplaced.json": "05867404a65d52811aa88e6f6f7d71a8c13b5afa301d411798996febe21243cf",
+    "counterexample-BOUND-S04-C01-sourceUid-missing.json": "8c7beca4e291ccbcc7fe7ccfdf63d9d6ca6ee79f813f7aff50c2b3fce820b069",
+    "counterexample-BOUND-S04-C01-sourceVersion-misplaced.json": "b299e984126e83c18582626d54d104645fb646ddd0934218e49a54729d9c2edc",
+    "counterexample-BOUND-S04-C01-sourceVersion-missing.json": "a6444699aa5ed9b1583f2d484fbba9d62b8aeb59aae78aab8dfb3763b76a555f",
+    "counterexample-R059-locator-misplaced.json": "bf61b5f68a9cc0f4784d8f795512359856c59ff107c5733066408c2cef9454ff",
+    "counterexample-R059-locator-missing.json": "b48d5e7cb92d551ad18bc84da8f3ba346e32e1257db25fabede2113049ece8de",
+    "counterexample-R059-sourceUid-misplaced.json": "79d25e9cde7d0b1122551bf718d65e01c7bc9a62ec88fe28557adb64bb50635c",
+    "counterexample-R059-sourceUid-missing.json": "a630cb54bd196f04253f58b4d5d9a21cc743f8b5b301cbefce0cedc3b2c265d3",
+    "counterexample-R059-sourceVersion-misplaced.json": "e3bc8b9027a0ac7ec86c298f57346a70ecaadbaa3c162f2dbb148b72b369d899",
+    "counterexample-R059-sourceVersion-missing.json": "3ffe152cbcf0941d8af55e52e5c984fb5ec6b108e284144f38939f409a08efbe",
+    "delta-verification.json": "2130fd89d1f0c3a3372185f3aed78540f3f1db2355d77398feec615cb7bf3767",
+    "f03_review.py": "02c9740c4ad4e8ade94e9bc342572101c10d3314e65bff8844916d369ea97acd",
+    "findings.json": "d3abf7dd1e2cebf0e67ec9925505ad3617b3778059da86094a5c205392c157fe",
+    "fresh-f03-results.json": "816caa97c96255dbf0589c3156845ea58e067f7d67f2bbaf06dae80ce90aee55",
+    "fresh-positive-results.json": "703ed6705c92b9d17caf28bd78c56bcb2dec27dc43a4f0b7a6e624091398f0c2",
+    "geometry-recomputation.json": "0e07bcf444c91cbe824a16d20c3c1e729350da0519fc272b20657c10104a3c77",
+    "manifest-end.json": "a05740ddededb42f56fca8c81b048bb7547984b4ad0b436321cb40e91e7dc785",
+    "manifest-execution-start.json": "a05740ddededb42f56fca8c81b048bb7547984b4ad0b436321cb40e91e7dc785",
+    "manifest-start.json": "9a91a17a9ecd905060ccf470a50cc3d6f39a5450fbde2b3e433c0a7c04f4af90",
+    "model-roundtrip.json": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+    "mutation-probes.json": "31a5cb41d67e16cd6569c66e1d4d14362daa5d028ccde2221b82811fd3d45bbb",
+    "positive-exceptions.json": "90072f0f617b89bce4cb67b513597b5885e2a08999e02ff22587378badc5c2b8",
+    "preservation.json": "d0f059b10df96837bfa8c1549466b8305c8c06235a376672d7bc621a8fba9e50",
+    "reused-execution.json": "9f6ef6485596c2ee4ce8a509ea48102ca60ee3aa9367b068e4b2b9d1364e57df",
+    "reused-stderr.txt": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "reused-stdout.txt": "cf66410bb5f1c9221a4b171a74dfb327071c88e6a7d04f6b506a1b0cb477978b",
+    "reused-verification.json": "570a43e9731b8869e5f1813530d92d0f3fe3ecbbf16d86ca5a621d1a73f23d60",
+    "reused_previous_independent_review.py": "5cb7e19eaee4151afe4bad274f80588c19119455004a88bbff96ed03faff9896",
+    "static-checks.json": "57c56e4c819acdcb5fe45f6a2f89b552cd205b8430cd705c24586c99310d7d54",
+    "summary.md": "19b2222d9644bbb1d8da7c6ef01b134d6fcd08a9097f65d76023b71436c80894"
+  },
+  "limits": [
+    "仅复审残余F03及三文件delta回归；F01/F02/F04先前关闭，本轮不重新宣告其关闭。",
+    "仅主动读取review3-fixed及本轮review3-output产物；首个当前目录manifest.json读取因不存在而失败，实际冻结清单为review3-fixed/manifest.json。未读取父目录其他内容、Paper、数据库、配置/凭据、会话、技能、记忆或日志。",
+    "未联网、未启动子agent、未调用Neo4j/Obsidian；指定解释器加-B，禁止字节码写入。Python运行库及正常依赖只读导入。",
+    "run_graph/build_review仅被复用脚本静态读取，未执行/导入；mcp_client及其connected未导入/调用；build_fix与随附test_semantics未执行。",
+    "84项变异及58项几何比较为复用上一轮独立脚本实跑，不能称为本轮新编独立证明；本轮新编F03反例为36次入口执行。",
+    "未执行数据库事务、实库读回、GUI或发布；本地完整analyze拒绝不等于实库guard已执行。",
+    "delta前镜像仅由所给diff反向重建并核对beforeSHA256；没有访问上一轮目录。模型/payload/analysis的跨轮字节未变由用户提供，本轮验证当前冻结哈希和重新计算相等，非声称持有上一轮原件。",
+    "本轮脚本首次执行在过严的历史整边字节判据处退出1：SRC-B02仅assertionSourceVersion由2.1升级2.2，历史sourceVersion仍1.1。修正输出脚本为仅允许这一精确断言版本差异后重跑；冻结源未改。",
+    "仅限定合成模型及应用规则，不证明完整建筑语义、真实建筑有效性或完整OWL。"
+  ]
+}

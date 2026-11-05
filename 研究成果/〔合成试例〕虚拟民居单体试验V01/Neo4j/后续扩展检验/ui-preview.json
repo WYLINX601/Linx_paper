@@ -1,0 +1,225 @@
+{
+  "views": [
+    {
+      "view": "overview",
+      "evidence": false,
+      "nodes": 15,
+      "relationships": 27,
+      "paths": 54,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "D01",
+      "evidence": false,
+      "nodes": 10,
+      "relationships": 10,
+      "paths": 20,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T01",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 4,
+      "paths": 8,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T02",
+      "evidence": false,
+      "nodes": 10,
+      "relationships": 10,
+      "paths": 20,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T03",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 5,
+      "paths": 10,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T04",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 7,
+      "paths": 14,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T05",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 5,
+      "paths": 10,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T06",
+      "evidence": false,
+      "nodes": 13,
+      "relationships": 25,
+      "paths": 50,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "D04",
+      "evidence": false,
+      "nodes": 8,
+      "relationships": 6,
+      "paths": 12,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "D05",
+      "evidence": false,
+      "nodes": 11,
+      "relationships": 11,
+      "paths": 22,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "D06",
+      "evidence": false,
+      "nodes": 9,
+      "relationships": 10,
+      "paths": 20,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "all",
+      "evidence": false,
+      "nodes": 41,
+      "relationships": 115,
+      "paths": 230,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "overview",
+      "evidence": true,
+      "nodes": 22,
+      "relationships": 63,
+      "paths": 126,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "D01",
+      "evidence": true,
+      "nodes": 17,
+      "relationships": 43,
+      "paths": 86,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T01",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 29,
+      "paths": 58,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T02",
+      "evidence": true,
+      "nodes": 12,
+      "relationships": 26,
+      "paths": 52,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T03",
+      "evidence": true,
+      "nodes": 8,
+      "relationships": 18,
+      "paths": 36,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T04",
+      "evidence": true,
+      "nodes": 8,
+      "relationships": 20,
+      "paths": 40,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T05",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 30,
+      "paths": 60,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "T06",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 25,
+      "paths": 50,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "D04",
+      "evidence": true,
+      "nodes": 14,
+      "relationships": 32,
+      "paths": 64,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "D05",
+      "evidence": true,
+      "nodes": 18,
+      "relationships": 46,
+      "paths": 92,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "D06",
+      "evidence": true,
+      "nodes": 16,
+      "relationships": 41,
+      "paths": 82,
+      "missingRoutes": [],
+      "invalid": false
+    },
+    {
+      "view": "all",
+      "evidence": true,
+      "nodes": 56,
+      "relationships": 285,
+      "paths": 570,
+      "missingRoutes": [],
+      "invalid": false
+    }
+  ],
+  "nodeDetails": 56,
+  "relationshipDetails": 285,
+  "allDetailsCorrect": true,
+  "renderErrors": [],
+  "snapshotStatus": "candidate-local-preview-not-database-readback"
+}

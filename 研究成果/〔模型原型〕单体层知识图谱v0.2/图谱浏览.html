@@ -1,0 +1,1015 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="color-scheme" content="light">
+<title>单体层知识图谱 v0.2 · 讨论稿</title>
+<style>
+:root {
+  --ink:#202b36; --muted:#607080; --line:#d7e0e7; --paper:#fff;
+  --wash:#f4f7f9; --blue:#256a9b; --teal:#267a72; --orange:#b65b20;
+  --purple:#7854a0; --red:#a24545; --gold:#9b741a;
+}
+* { box-sizing:border-box; }
+body { margin:0; color:var(--ink); background:var(--wash); font:15px/1.5 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif; }
+header { padding:16px clamp(14px,3vw,32px) 12px; background:var(--paper); border-bottom:1px solid var(--line); }
+h1 { margin:0; font-size:clamp(20px,3vw,27px); font-weight:700; letter-spacing:.01em; }
+.subhead { margin:5px 0 0; color:var(--muted); font-size:13px; }
+main { max-width:1500px; margin:0 auto; padding:14px clamp(10px,2vw,24px) 28px; }
+.toolbar { display:flex; gap:9px; align-items:center; flex-wrap:wrap; padding:10px; background:var(--paper); border:1px solid var(--line); border-radius:9px; }
+button, select { min-height:38px; padding:7px 11px; border:1px solid #b9c8d3; border-radius:6px; background:#fff; color:var(--ink); font:inherit; }
+button { cursor:pointer; }
+button[aria-pressed="true"] { color:white; background:#295b7b; border-color:#295b7b; }
+button:focus-visible, select:focus-visible, summary:focus-visible { outline:3px solid #82bce0; outline-offset:2px; }
+.control-label { color:var(--muted); font-size:13px; }
+.spacer { flex:1; }
+.statusline { margin:10px 0; padding:9px 12px; background:#eef5f8; border-left:4px solid var(--blue); border-radius:4px; color:#314c5e; }
+.statusline.empty { background:#fff8e9; border-left-color:var(--gold); color:#69521b; }
+.stats { display:flex; flex-wrap:wrap; gap:8px; margin:10px 0; }
+.stat { padding:5px 10px; border:1px solid var(--line); border-radius:999px; background:#fff; color:#425363; font-size:13px; }
+.legend { display:flex; align-items:center; flex-wrap:wrap; gap:7px 14px; padding:8px 2px 11px; color:#465767; font-size:12px; }
+.legend-item { display:inline-flex; align-items:center; gap:6px; }
+.swatch { width:12px; height:12px; border-radius:50%; display:inline-block; border:1px solid #8093a2; }
+.line-swatch { width:23px; border-top:3px solid var(--blue); display:inline-block; }
+.line-swatch.reader { border-top-color:var(--orange); border-top-style:dashed; }
+.workspace { display:grid; grid-template-columns:minmax(0,1fr) minmax(285px,370px); gap:12px; align-items:stretch; }
+.panel { min-width:0; background:var(--paper); border:1px solid var(--line); border-radius:9px; }
+.graph-panel { overflow:hidden; }
+.panel-head { padding:10px 13px; border-bottom:1px solid var(--line); font-weight:650; }
+.panel-head small { color:var(--muted); font-weight:400; }
+.graph-scroll { overflow:auto; }
+svg#graph { width:100%; min-width:960px; height:650px; min-height:650px; display:block; background:linear-gradient(#fff,#fbfdfe); }
+.detail-panel { max-height: min(68vh,700px); overflow:auto; }
+#detail { padding:12px; }
+#detail h2 { font-size:18px; margin:0 0 5px; line-height:1.35; overflow-wrap:anywhere; }
+#detail h3 { font-size:14px; margin:16px 0 6px; }
+#detail p { margin:5px 0; }
+.muted { color:var(--muted); }
+.kv { display:grid; grid-template-columns:100px minmax(0,1fr); gap:4px 8px; margin:8px 0; }
+.kv dt { color:var(--muted); }
+.kv dd { margin:0; overflow-wrap:anywhere; }
+.card { margin:8px 0; padding:9px 10px; border:1px solid var(--line); border-radius:7px; background:#fcfdfe; overflow-wrap:anywhere; }
+.card p { margin:4px 0; }
+.badge { display:inline-block; margin:2px 4px 2px 0; padding:2px 7px; border-radius:999px; background:#edf2f5; color:#344b5d; font-size:12px; }
+.badge.fact { background:#e6f1f8; color:#205f89; }
+.badge.interpretation { background:#e5f3ef; color:#206c62; }
+.badge.reader { background:#fff0df; color:#995019; }
+.badge.status-disputed { background:#fae8e8; color:#963f3f; }
+.badge.status-tentative { background:#fff4dc; color:#86630e; }
+.empty-note { padding:22px 14px; text-align:center; color:var(--muted); }
+.table-panel { margin-top:12px; overflow:hidden; }
+.table-scroll { max-height:68vh; overflow:auto; }
+table { width:100%; border-collapse:collapse; font-size:14px; }
+th, td { padding:8px 9px; border-bottom:1px solid #e5ebef; text-align:left; vertical-align:top; overflow-wrap:anywhere; }
+th { position:sticky; top:0; z-index:1; background:#f2f6f8; font-weight:650; }
+td small { color:var(--muted); }
+details { margin:12px 0; padding:0 12px; background:#fff; border:1px solid var(--line); border-radius:8px; }
+summary { cursor:pointer; padding:11px 0; font-weight:650; }
+details .inside { padding:0 0 12px; }
+.subsection { margin:12px 0 0; }
+.subsection h2 { font-size:16px; margin:0 0 7px; }
+.node { cursor:pointer; }
+.node circle { stroke:#3e5669; stroke-width:1.6; fill:#e7f0f5; }
+.node text { pointer-events:none; font-size:13px; fill:#1e2a33; }
+.node .node-label-bg { fill:#fff; opacity:.88; }
+.node.selected circle { stroke:#102f47; stroke-width:3.5; filter:drop-shadow(0 2px 3px #8aa0af); }
+.node.value circle { fill:#fff7dc; stroke:#9b741a; }
+.node.disputed circle { fill:#fff1f1; stroke:#a24545; stroke-dasharray:4 3; stroke-width:2.4; }
+.node.missing circle { fill:#fff1f1; stroke:#a24545; stroke-dasharray:4 3; }
+.node.record circle { fill:#f1ecf8; stroke:#7854a0; }
+.node.class-Dwelling circle { fill:#dcecf5; }
+.node.class-Space circle { fill:#dff0ed; }
+.node.class-Element circle { fill:#f4ead9; }
+.node.class-Representation circle { fill:#e7f3e2; }
+.node.class-TypeConcept circle,.node.class-TypeScheme circle { fill:#ede5f7; }
+.edge path { fill:none; stroke:#66869a; stroke-width:1.7; marker-end:url(#arrow); }
+.edge.reader path { stroke:var(--orange); stroke-dasharray:6 4; }
+.edge.interpretation path { stroke:var(--teal); }
+.edge.classification:not(.reader):not(.interpretation) path { stroke:var(--purple); }
+.edge.nonaffirmative path { stroke:#9d6e50; stroke-dasharray:4 4; }
+.edge-label { font-size:13px; fill:#233744; text-anchor:middle; dominant-baseline:middle; }
+.edge-label-bg { fill:#fff; stroke:#e2e8ec; opacity:.94; }
+.edge.reader .edge-label-bg { stroke:#edc7a7; }
+.edge.interpretation .edge-label-bg { stroke:#b9ded6; }
+.edge.classification .edge-label-bg { stroke:#d2c4e4; }
+.edge:focus path { stroke-width:3.3; }
+#tablePanel[hidden], #graphWorkspace[hidden] { display:none; }
+@media (max-width:1200px) {
+  .workspace { grid-template-columns:1fr; }
+  .detail-panel { max-height:none; }
+}
+@media (max-width:850px) {
+  .workspace { grid-template-columns:1fr; }
+  .detail-panel { max-height:none; }
+  svg#graph { height:650px; min-height:650px; }
+}
+@media (max-width:520px) {
+  body { font-size:14px; }
+  main { padding-left:8px; padding-right:8px; }
+  .toolbar { gap:6px; }
+  select { max-width:100%; }
+  svg#graph { min-width:960px; height:650px; min-height:650px; }
+  .kv { grid-template-columns:85px minmax(0,1fr); }
+  th,td { padding:7px; }
+}
+
+.statusline.demo-callout { background:#fff0e4; border-left-color:#b65b20; color:#723b16; font-weight:650; }
+#optimizationSection { padding:12px; }
+#optimizationSection h2 { margin:0 0 8px; font-size:18px; }
+#optimizationSection h3 { margin:0 0 6px; font-size:15px; }
+#optimizationSection a, #detail a { color:#145d8a; text-underline-offset:2px; }
+</style>
+</head>
+<body>
+<header>
+  <h1>单体层知识图谱 v0.2 · 讨论稿</h1>
+  <p class="subhead">概念、文献案例与空间演示分开展示；来源、归属、判断状态和明确空缺均按输入记录呈现。空间演示为虚构教学示例，不代表实测。</p>
+</header>
+<main>
+  <div class="toolbar" role="toolbar" aria-label="图谱浏览控件">
+    <button id="conceptTab" type="button" aria-pressed="true">概念关系</button>
+    <button id="caseTab" type="button" aria-pressed="false">文献案例</button>
+    <button id="demoTab" type="button" aria-pressed="false">空间演示</button>
+    <span class="control-label">节点</span>
+    <select id="nodeSelect" aria-label="选择节点"><option value="">全部节点</option></select>
+    <button id="focusButton" type="button" aria-pressed="false">聚焦一跳</button>
+    <span class="spacer"></span>
+    <button id="graphButton" type="button" aria-pressed="true">图谱</button>
+    <button id="tableButton" type="button" aria-pressed="false">关系表</button>
+  </div>
+  <div id="statusline" class="statusline"></div>
+  <div id="stats" class="stats" aria-label="数据统计"></div>
+  <div class="legend" id="legend"></div>
+  <div id="graphWorkspace" class="workspace">
+    <section class="panel graph-panel" aria-label="有向网络图">
+      <div class="panel-head">节点与有向关系 <small id="graphHint">点击节点查看证据和属性</small></div>
+      <div class="graph-scroll"><svg id="graph" viewBox="0 0 1000 650" role="img" aria-label="可交互有向知识图谱"></svg></div>
+    </section>
+    <aside class="panel detail-panel" aria-label="选中节点详情">
+      <div class="panel-head">节点详情</div>
+      <div id="detail"></div>
+    </aside>
+  </div>
+  <section id="tablePanel" class="panel table-panel" hidden>
+    <div class="panel-head">关系与判据文字表 <small>与网络图表达相同的有向关系</small></div>
+    <div class="table-scroll" id="tableContent"></div>
+  </section>
+  <div id="caseSupplements"></div>
+  <section id="optimizationSection" class="panel table-panel"></section>
+</main>
+<script>
+"use strict";
+const DATA = {"model":{"version":"0.2","status":"discussion_draft","created":"2026-10-22","purpose":"\u5728v0.1\u6587\u732e\u6848\u4f8b\u57fa\u7840\u4e0a\u8865\u5145\u7a7a\u95f4\u754c\u9762\u3001\u8bed\u4e49\u8f74\u3001\u6765\u6e90\u4e0e\u67e5\u8be2\u7ea6\u675f\uff1b\u7814\u7a76\u8005\u63d0\u51fa\u7684\u53ef\u68c0\u9a8c\u4f18\u5316\u7a3f\uff0c\u4e0d\u662f\u5df2\u5b8c\u6210\u5b9e\u5730\u9a8c\u8bc1\u7684\u666f\u5b81\u672c\u4f53\u3002","design_authority":"\u7c7b\u3001\u5c5e\u6027\u3001\u5173\u7cfb\u4e0e\u65ad\u8a00\u7ed3\u6784\u5747\u4e3a\u672c\u7814\u7a76\u7684\u5efa\u6a21\u63d0\u6848\uff1bbasisRefs\u8bf4\u660e\u5efa\u7b51\u5b66\u4f9d\u636e\uff0c\u4e0d\u58f0\u79f0\u539f\u6587\u4f5c\u8005\u63d0\u51fa\u8fd9\u4e9b\u56fe\u8c31\u7ed3\u6784\u3002","classes":[{"id":"Dwelling","label":"\u6c11\u5c45\u7814\u7a76\u5355\u5143","definition":"\u672c\u8f6e\u5355\u4f53\u5206\u6790\u7684\u5bf9\u8c61\u8fb9\u754c\u3002\u53ef\u542b\u660e\u786e\u5f52\u5c5e\u7684\u4e3b\u5c4b\u3001\u9644\u5c5e\u4f53\u4e0e\u5ead\u9662\uff1b\u4e0d\u4ee5\u540c\u59d3\u3001\u540c\u4e00\u9662\u843d\u6216\u540c\u4e00\u7167\u7247\u81ea\u52a8\u5408\u5e76\u72ec\u7acb\u4f4f\u5b85\u3002","basisRefs":["NQD9DRI3:E2","26QUPIXE:E3"],"tier":"core"},{"id":"Space","label":"\u7a7a\u95f4\u5355\u5143","definition":"\u6309\u53ef\u8bf4\u660e\u7684\u5efa\u7b51\u610f\u4e49\u3001\u7528\u9014\u3001\u4f4d\u7f6e\u3001\u56f4\u5408\u6216\u5206\u6790\u9700\u8981\u5212\u5b9a\u7684\u7a7a\u95f4\u533a\u57df\uff1b\u8fb9\u754c\u53ef\u4ee5\u662f\u5b9e\u4f53\u754c\u9762\uff0c\u4e5f\u53ef\u4ee5\u662f\u660e\u786e\u8bb0\u5f55\u7684\u8bed\u4e49\u5206\u754c\u3002\u8fde\u7eed\u5f00\u653e\u7684\u5802\u5c4b\u4e0e\u524d\u5eca\u53ef\u4e3a\u4e24\u4e2a\u7a7a\u95f4\uff0c\u4f46\u987b\u8bb0\u5f55\u5206\u754c\u4f9d\u636e\u3002\u7a7a\u95f4\u533a\u57df\u4e0d\u7b49\u4e8e\u5899\u3001\u95e8\u7b49\u5b9e\u4f53\u6784\u4ef6\u3002","basisRefs":["NQD9DRI3:E7","NQD9DRI3:E11","92HEGM9S:E3","BOT01","ISM01","ISM02","ISM03"],"tier":"core","changeRefs":["O01"]},{"id":"Element","label":"\u5efa\u7b51\u5b9e\u4f53\u90e8\u5206","definition":"\u53ef\u72ec\u7acb\u6307\u8ba4\u7684\u4f53\u91cf\u3001\u6784\u9020\u7cfb\u7edf\u3001\u6784\u67b6\u6216\u6784\u4ef6\uff1b\u7528elementLevel\u533a\u5206\u4f53\u91cf/\u7cfb\u7edf/\u6784\u67b6/\u6784\u4ef6\uff0c\u6309\u8bc1\u636e\u9700\u8981\u7ec6\u5316\u3002","basisRefs":["26QUPIXE:E4","83W7CJW2:E3","NQD9DRI3:E14"],"tier":"core"},{"id":"Representation","label":"\u56fe\u7eb8\u6216\u8c03\u67e5\u8bb0\u5f55","definition":"\u6587\u732e\u4e2d\u7684\u5e73\u9762\u3001\u5256\u9762\u4fa7\u6837\u3001\u7167\u7247\u6216\u8868\u683c\u8bb0\u5f55\u3002\u5b83\u662f\u5efa\u7b51\u7684\u8868\u8ff0\uff0c\u4e0d\u662f\u5efa\u7b51\u672c\u8eab\uff1b\u65e0\u6cd5\u786e\u8ba4\u5efa\u7b51\u5bf9\u5e94\u65f6\u4ecd\u53ef\u8bb0\u5f55\u8868\u5185\u7279\u5f81\u3002","basisRefs":["83W7CJW2:E2","ZWDJJE99:E5"],"tier":"core"},{"id":"Place","label":"\u5730\u70b9\u6216\u5916\u90e8\u7a7a\u95f4","definition":"\u6751\u843d\u3001\u5730\u5757\u3001\u9053\u8def\u7b49\u5916\u90e8\u63a5\u53e3\uff0c\u4ec5\u4fdd\u5b58\u5b9a\u4f4d\u548c\u89e3\u91ca\u5355\u4f53\u6240\u9700\u5173\u7cfb\u3002","basisRefs":["V5RJB5WJ:E1","6TEACH2F:E2"],"tier":"interface"},{"id":"TypeScheme","label":"\u5206\u7c7b\u4f53\u7cfb","definition":"\u5e26\u6765\u6e90\u3001\u7814\u7a76\u533a\u57df\u3001\u5206\u7c7b\u7ef4\u5ea6\u4e0e\u7248\u672c\u7684\u4e00\u5957\u5224\u636e\uff1b\u4e0d\u540c\u6587\u732e\u4e2d\u7684\u540c\u540d\u7c7b\u578b\u4e0d\u9ed8\u8ba4\u540c\u4e49\u3002","basisRefs":["AR5L935U:E5","NQD9DRI3:E3","83W7CJW2:E4"],"tier":"core"},{"id":"TypeConcept","label":"\u7c7b\u578b\u6982\u5ff5","definition":"\u67d0\u4e00\u4f53\u7cfb\u5185\u7684\u7c7b\u522b\u6216\u4f5c\u8005\u63a8\u8fa8\u539f\u578b\uff1b\u6807\u660e\u666e\u901a\u7c7b\u522b/\u539f\u578b\uff0c\u4e0d\u628a\u539f\u578b\u89c6\u4e3a\u5386\u53f2\u4e0a\u5b9e\u5b58\u7684\u6bcd\u4f53\u5efa\u7b51\u3002","basisRefs":["26QUPIXE:E3","83W7CJW2:E4"],"tier":"core"},{"id":"ChangeEvent","label":"\u53d8\u5316\u4e8b\u4ef6","definition":"\u6709\u65f6\u95f4\u6216\u524d\u540e\u72b6\u6001\u8bc1\u636e\u652f\u6301\u7684\u52a0\u5efa\u3001\u51cf\u5efa\u3001\u7528\u9014\u6539\u53d8\u7b49\u4e8b\u4ef6\uff1b\u7c7b\u578b\u56fe\u7684\u53d8\u5f62\u64cd\u4f5c\u4e0d\u80fd\u76f4\u63a5\u751f\u6210\u5386\u53f2\u4e8b\u4ef6\u3002","basisRefs":["92HEGM9S:E6","V5RJB5WJ:E2"],"tier":"extension"},{"id":"GeometryRegion","label":"\u4e09\u7ef4\u6216\u4e8c\u7ef4\u533a\u57df\u951a\u70b9","definition":"\u7ed1\u5b9a\u6a21\u578b/\u56fe\u7eb8\u7684\u6587\u4ef6\u7248\u672c\u3001\u5750\u6807\u7cfb\u4e0e\u533a\u57df\u6807\u8bc6\uff1b\u53ea\u9884\u7559\u63a5\u53e3\uff0c\u672c\u8f6e\u65e0\u771f\u5b9e\u4e09\u7ef4\u6570\u636e\u5173\u8054\u3002","basisRefs":["BOT04","H29"],"tier":"extension","changeRefs":["O09"]},{"id":"Interface","label":"\u7a7a\u95f4\u6216\u6784\u4ef6\u754c\u9762","definition":"\u6307\u5b9a\u7a7a\u95f4/\u6784\u4ef6\u5728\u81f3\u5c11\u4e00\u65b9\u8fb9\u754c\u4e0a\u7684\u5173\u8054\u90e8\u4f4d\uff0c\u7528\u4e8e\u63cf\u8ff0\u5206\u754c\u3001\u63a5\u89e6\u6216\u8fde\u63a5\u3002\u901a\u884c\u8fde\u63a5\u53e3\u662f\u672c\u5730\u754c\u9762\u7684\u4e00\u79cd\u7528\u9014\uff1b\u754c\u9762\u4e0e\u95e8\u5899\u5b9e\u4f53\u5206\u5f00\u3002","basisRefs":["BOT01","BOT03","ISM03","ISM04"],"changeRefs":["O02"],"tier":"core"},{"id":"AnalysisRun","label":"\u5206\u6790\u8fd0\u884c\u8bb0\u5f55","definition":"\u4e00\u6b21\u7c7b\u578b\u6bd4\u8f83\u3001\u76f8\u4f3c\u6027\u6216\u5176\u4ed6\u6d3e\u751f\u8ba1\u7b97\u7684\u8f93\u5165\u8303\u56f4\u3001\u65b9\u6cd5\u3001\u53c2\u6570\u3001\u7248\u672c\u4e0e\u7ed3\u679c\u8bb0\u5f55\uff1b\u4e0d\u662f\u539f\u59cb\u5efa\u7b51\u4e8b\u5b9e\u6216\u5efa\u7b51\u7c7b\u578b\u3002","basisRefs":["W11","W26","W31"],"changeRefs":["O08"],"tier":"extension"}],"features":[{"id":"record_code","label":"\u539f\u6587\u7f16\u53f7","domain":["Representation"],"datatype":"string","definition":"\u53ea\u5728\u6765\u6e90\u53ca\u7f16\u53f7\u4f53\u7cfb\u5185\u552f\u4e00\u3002","basisRefs":["83W7CJW2:E2"],"unit":null,"tier":"core"},{"id":"plan_form","label":"\u5e73\u9762\u5f62\u6001","domain":["Dwelling","Space","Representation"],"datatype":"string","definition":"\u4fdd\u5b58\u539f\u8bcd\u4e0e\u89c2\u5bdf\u8303\u56f4\uff1b\u51f9\u5f62/U\u5f62/\u4e09\u5408\u9662\u4e0d\u81ea\u52a8\u7b49\u540c\u3002","basisRefs":["AR5L935U:E5","P2KHZ7AI:E2","H04","H09","ISM01"],"unit":null,"tier":"core","changeRefs":["O04"]},{"id":"enclosure_pattern","label":"\u56f4\u5408\u6784\u6210","domain":["Dwelling","Space","Representation"],"datatype":"string","definition":"\u56f4\u5408\u65b9\u5411\u53ca\u6784\u6210\u623f\u5c4b/\u754c\u9762\uff1b\u6709\u539f\u56fe\u65f6\u518d\u4f5c\u5173\u7cfb\u62c6\u89e3\u3002","basisRefs":["NQD9DRI3:E6","YTSWPLNA:E3","H04","H09","ISM01"],"unit":null,"tier":"core","changeRefs":["O04"]},{"id":"bay_count","label":"\u5f00\u95f4\u6570","domain":["Dwelling","Element","Representation"],"datatype":"integer","definition":"\u5fc5\u987b\u6ce8\u660e\u54ea\u5ea7\u623f\u5c4b\u3001\u54ea\u4e00\u7acb\u9762\u53ca\u8ba1\u6570\u65b9\u6cd5\uff1b\u4e0d\u6df7\u540c\u7ed3\u6784\u7b52\u6570\u3002","basisRefs":["26QUPIXE:E3"],"unit":null,"tier":"core"},{"id":"jin_count","label":"\u8fdb\u6570","domain":["Dwelling","Representation"],"datatype":"integer","definition":"\u4fdd\u7559\u539f\u6587\u843d/\u8fdb\u7684\u8ba1\u6570\u8fb9\u754c\uff0c\u4e0d\u76f4\u63a5\u8de8\u5730\u533a\u6362\u7b97\u3002","basisRefs":["4ZB238BG:E4"],"unit":null,"tier":"core"},{"id":"storey_count","label":"\u5c42\u6570","domain":["Dwelling","Element","Representation"],"datatype":"number","definition":"\u987b\u8bf4\u660e\u9601\u697c/\u534a\u5c42\u53e3\u5f84\u53ca\u5bf9\u8c61\u8303\u56f4\u3002","basisRefs":["YTSWPLNA:E6"],"unit":null,"tier":"core"},{"id":"space_use","label":"\u7a7a\u95f4\u7528\u9014","domain":["Space","Representation"],"datatype":"string","definition":"\u7528\u9014\u4e0e\u5f62\u6001\u5206\u5f00\u8bb0\u5f55\uff0c\u5141\u8bb8\u540c\u4e00\u7a7a\u95f4\u591a\u7528\u9014\u53ca\u4e0d\u540c\u65f6\u95f4\u7528\u9014\u3002","basisRefs":["92HEGM9S:E3","H04","H09","ISM01"],"unit":null,"tier":"core","changeRefs":["O04"],"multiValued":true},{"id":"local_space_name","label":"\u5730\u65b9\u7a7a\u95f4\u540d\u79f0","domain":["Space","Representation"],"datatype":"string","definition":"\u4fdd\u7559\u5802\u5c4b/\u540e\u5802\u7b49\u539f\u8bcd\uff1b\u6807\u51c6\u5316\u6620\u5c04\u53e6\u4f5c\u5224\u65ad\u3002","basisRefs":["P2KHZ7AI:E4","H04","H09","ISM01"],"unit":null,"tier":"core","changeRefs":["O04"],"normalizationRule":"\u4fdd\u7559\u539f\u8bcd\uff1b\u53ef\u53e6\u6302normalizedTerm\uff0c\u672f\u8bed\u5bf9\u5e94\u987b\u6807\u5173\u7cfb\u3001\u4f9d\u636e\u4e0e\u72b6\u6001\uff0c\u4e0d\u56e0\u540c\u540d\u5408\u5e76\u5b9e\u4f8b\u3002"},{"id":"axis_symmetry","label":"\u8f74\u7ebf\u4e0e\u5bf9\u79f0\u7279\u5f81","domain":["Dwelling","Space","Representation"],"datatype":"string","definition":"\u6ce8\u660e\u5e73\u9762\u3001\u7acb\u9762\u6216\u7ec4\u5408\u5c42\u7ea7\uff1b\u6ca1\u6709\u89c2\u5bdf\u8bc1\u636e\u4e0d\u586b\u5bf9\u79f0\u3002","basisRefs":["T3F2ERJG:E4","26QUPIXE:E4"],"unit":null,"tier":"core"},{"id":"roof_form","label":"\u5c4b\u9876\u5f62\u5f0f","domain":["Element","Representation"],"datatype":"string","definition":"\u5355\u72ec\u5c4b\u9762\u6216\u6574\u4f53\u5c4b\u9762\u7cfb\u7edf\u7684\u5f62\u6001\u3002","basisRefs":["26QUPIXE:E4","AR5L935U:E4"],"unit":null,"tier":"core"},{"id":"skyline_form","label":"\u5929\u9645\u7ebf\u5f62\u6001","domain":["Element","Representation"],"datatype":"string","definition":"\u89c6\u5411\u4e0e\u53d6\u6837\u754c\u9762\u5fc5\u987b\u660e\u786e\uff1b\u7528\u6765\u6e90\u5185\u8bcd\u6c47\u3002","basisRefs":["NQD9DRI3:E18"],"unit":null,"tier":"core"},{"id":"facade_composition","label":"\u7acb\u9762\u6784\u6210","domain":["Element","Representation"],"datatype":"string","definition":"\u533a\u5206\u5c4b\u9876\u3001\u5899\u8eab\u3001\u53f0\u57fa\u53ca\u95e8\u7a97\u7b49\u6784\u6210\uff1b\u4e0d\u81ea\u52a8\u8981\u6c42\u6bcf\u9879\u5efa\u8282\u70b9\u3002","basisRefs":["26QUPIXE:E4"],"unit":null,"tier":"core"},{"id":"material","label":"\u6750\u6599","domain":["Element","Representation"],"datatype":"string","definition":"\u5fc5\u987b\u9650\u5b9a\u81f3\u53ef\u786e\u8ba4\u7684\u90e8\u4f4d\uff0c\u5c40\u90e8\u6750\u6599\u4e0d\u8d4b\u7ed9\u5168\u680b\u3002","basisRefs":["AR5L935U:E4","92HEGM9S:E6"],"unit":null,"tier":"core"},{"id":"construction_form","label":"\u6784\u67b6\u5f62\u5f0f","domain":["Element","Representation"],"datatype":"string","definition":"\u7a7f\u6597\u3001\u62ac\u6881\u53ca\u6df7\u5408/\u53d8\u4f53\u7b49\u4fdd\u6301\u6765\u6e90\u5224\u636e\u3002","basisRefs":["NQD9DRI3:E14","NQD9DRI3:E15"],"unit":null,"tier":"core"},{"id":"load_bearing","label":"\u662f\u5426\u627f\u91cd","domain":["Element","Representation"],"datatype":"boolean","definition":"\u8bb0\u5f55\u67d0\u5899/\u6784\u4ef6\u627f\u62c5\u4f55\u5904\u8377\u8f7d\u7684\u8303\u56f4\uff1bfalse\u5fc5\u987b\u6709\u5426\u5b9a\u8bc1\u636e\u3002","basisRefs":["83W7CJW2:E2"],"unit":null,"tier":"core"},{"id":"column_bay_form","label":"\u67f1\u7b52\u7ec4\u5408","domain":["Element","Representation"],"datatype":"string","definition":"\u5982\u4e94\u67f1\u56db\u7b52\uff0c\u5c5e\u4e8e\u6307\u5b9a\u4fa7\u6837/\u6784\u67b6\u8bb0\u5f55\uff0c\u4e0d\u80fd\u89c6\u4f5c\u6574\u680b\u67f1\u6570\u3002","basisRefs":["83W7CJW2:E3"],"unit":null,"tier":"core"},{"id":"rear_courtyard_form","label":"\u540e\u53a8\u5929\u4e95\u5f62\u6001","domain":["Space","Representation"],"datatype":"string","definition":"\u4fdd\u7559\u4e00\u5b57/\u66f2\u5c3a/\u51f9\u7b49\u539f\u6587\u5206\u7c7b\uff0c\u6ce8\u660e\u540e\u53a8\u5929\u4e95\u800c\u975e\u5168\u680b\u5e73\u9762\u3002","basisRefs":["83W7CJW2:E2"],"unit":null,"tier":"core"},{"id":"roof_layered","label":"\u5c4b\u9762\u662f\u5426\u5206\u5c42","domain":["Element","Representation"],"datatype":"boolean","definition":"\u53ea\u4f5c\u7528\u4e8e\u6307\u5b9a\u4fa7\u6837\u6216\u5c4b\u9762\u7cfb\u7edf\u3002","basisRefs":["83W7CJW2:E2"],"unit":null,"tier":"core"},{"id":"width","label":"\u9762\u5bbd","domain":["Dwelling","Space","Element","Representation"],"datatype":"number","definition":"\u5fc5\u987b\u6709\u5355\u4f4d\u3001\u6d4b\u91cf\u5bf9\u8c61\u3001\u8fb9\u754c/\u8f74\u7ebf\u53e3\u5f84\u3001\u6d4b\u91cf\u6216\u8bfb\u56fe\u65b9\u6cd5\uff1b\u7981\u6b62\u4ece\u672a\u6807\u5c3a\u5bf8\u7684\u56fe\u6309\u89c6\u89c9\u4f30\u6570\u3002","basisRefs":["4ZB238BG:E8","NQD9DRI3:E16"],"unit":"m","tier":"core"},{"id":"depth","label":"\u8fdb\u6df1","domain":["Dwelling","Space","Element","Representation"],"datatype":"number","definition":"\u5fc5\u987b\u6709\u5355\u4f4d\u3001\u6d4b\u91cf\u5bf9\u8c61\u3001\u8fb9\u754c/\u8f74\u7ebf\u53e3\u5f84\u3001\u6d4b\u91cf\u6216\u8bfb\u56fe\u65b9\u6cd5\uff1b\u7981\u6b62\u4ece\u672a\u6807\u5c3a\u5bf8\u7684\u56fe\u6309\u89c6\u89c9\u4f30\u6570\u3002","basisRefs":["4ZB238BG:E8","NQD9DRI3:E16"],"unit":"m","tier":"core"},{"id":"height","label":"\u9ad8\u5ea6","domain":["Dwelling","Space","Element","Representation"],"datatype":"number","definition":"\u5fc5\u987b\u6709\u5355\u4f4d\u3001\u6d4b\u91cf\u5bf9\u8c61\u3001\u8fb9\u754c/\u8f74\u7ebf\u53e3\u5f84\u3001\u6d4b\u91cf\u6216\u8bfb\u56fe\u65b9\u6cd5\uff1b\u7981\u6b62\u4ece\u672a\u6807\u5c3a\u5bf8\u7684\u56fe\u6309\u89c6\u89c9\u4f30\u6570\u3002","basisRefs":["4ZB238BG:E8","NQD9DRI3:E16"],"unit":"m","tier":"core"},{"id":"area","label":"\u9762\u79ef","domain":["Dwelling","Space","Element","Representation"],"datatype":"number","definition":"\u5fc5\u987b\u6709\u5355\u4f4d\u3001\u6d4b\u91cf\u5bf9\u8c61\u3001\u8fb9\u754c/\u8f74\u7ebf\u53e3\u5f84\u3001\u6d4b\u91cf\u6216\u8bfb\u56fe\u65b9\u6cd5\uff1b\u7981\u6b62\u4ece\u672a\u6807\u5c3a\u5bf8\u7684\u56fe\u6309\u89c6\u89c9\u4f30\u6570\u3002","basisRefs":["4ZB238BG:E8","NQD9DRI3:E16"],"unit":"m\u00b2","tier":"core"},{"id":"decorative_motif","label":"\u88c5\u9970\u9898\u6750","domain":["Element","Representation"],"datatype":"string","definition":"\u53ea\u5bf9\u53ef\u8fa8\u8bc6\u7684\u88c5\u9970\u90e8\u4f4d\u8bb0\u5f55\uff0c\u6587\u5316\u5bd3\u610f\u9700\u53e6\u5217\u89e3\u91ca\u8bc1\u636e\u3002","basisRefs":["26QUPIXE:E4"],"unit":null,"tier":"extension"},{"id":"space_division_basis","label":"\u7a7a\u95f4\u5212\u5206\u4f9d\u636e","domain":["Space"],"datatype":"string","definition":"\u8bf4\u660e\u6309\u4f55\u79cd\u5efa\u7b51\u8bed\u4e49\u3001\u6784\u9020\u754c\u7ebf\u3001\u7528\u9014\u6216\u5206\u6790\u76ee\u7684\u5212\u5206\uff0c\u5e76\u5b9a\u4f4d\u5206\u754c\uff1b\u4e0d\u80fd\u4ec5\u51ed\u540d\u79f0\u63a8\u65ad\u73b0\u573a\u8fb9\u754c\u3002","basisRefs":["ISM01","ISM03"],"changeRefs":["O01"],"unit":null,"tier":"core"},{"id":"enclosure_degree","label":"\u7a7a\u95f4\u56f4\u5408\u7a0b\u5ea6","domain":["Space","Representation"],"datatype":"string","definition":"\u63cf\u8ff0\u8be5\u7a7a\u95f4\u6574\u4f53\u56f4\u5408\u7a0b\u5ea6\uff0c\u4e0e\u8fde\u63a5\u754c\u9762\u662f\u5426\u6709\u9694\u65ad\u5206\u522b\u8bb0\u5f55\u3002","basisRefs":["ISM01","ISM02"],"changeRefs":["O04"],"unit":null,"tier":"core","allowedValues":["enclosed","semi_open","open"]},{"id":"floor_level","label":"\u697c\u5c42\u6216\u6807\u9ad8\u5c42\u4f4d","domain":["Space","Interface","Representation"],"datatype":"string","definition":"\u4fdd\u7559\u6765\u6e90\u5c42\u4f4d\u53ca\u5176\u8ba1\u6570\u57fa\u51c6\uff1b\u9601\u697c/\u5939\u5c42\u4e0d\u81ea\u52a8\u6309\u6574\u6570\u697c\u5c42\u6362\u7b97\u3002","basisRefs":["ISM01","ISM03"],"changeRefs":["O04"],"unit":null,"tier":"core"},{"id":"interface_kind","label":"\u754c\u9762\u6027\u8d28","domain":["Interface"],"datatype":"string","definition":"\u672c\u7814\u7a76\u6309\u7814\u7a76\u95ee\u9898\u5236\u5b9a\u7684\u53d7\u63a7\u503c\uff1bopen_boundary\u53ef\u501f\u9274PseudoOpening\uff0c\u975e\u5916\u90e8\u672c\u4f53\u81ea\u52a8\u7b49\u4ef7\u3002","basisRefs":["BOT03","ISM03"],"changeRefs":["O02"],"unit":null,"tier":"core","allowedValues":["open_boundary","door_opening","window_opening","solid_boundary","other"]},{"id":"physical_separation","label":"\u754c\u9762\u5b9e\u4f53\u5206\u9694","domain":["Interface"],"datatype":"string","definition":"\u53ea\u63cf\u8ff0\u8fd9\u4e2a\u754c\u9762\u5904\u5b9e\u4f53\u5206\u9694\u7a0b\u5ea6\uff1bnone\u4e0d\u4ee3\u8868\u4e24\u4fa7\u7a7a\u95f4\u76f8\u540c\uff0c\u4e5f\u4e0d\u81ea\u52a8\u63a8\u51fa\u53ef\u901a\u884c\u3002","basisRefs":["BOT03","ISM03"],"changeRefs":["O03"],"unit":null,"tier":"core","allowedValues":["none","partial","full"]},{"id":"opening_state","label":"\u5f00\u53e3\u72b6\u6001","domain":["Interface"],"datatype":"string","definition":"\u53ea\u5728\u5f00\u53e3\u9002\u7528\u65f6\u8bb0\u5f55\uff0c\u987b\u9650\u5b9a\u65f6\u70b9\uff1b\u672a\u8bb0\u5f55\u4e0d\u89c6\u4e3aopen\u3002","basisRefs":["ISM03"],"changeRefs":["O03"],"unit":null,"tier":"core","allowedValues":["open","closed","blocked"]},{"id":"passage_allowed","label":"\u6307\u5b9a\u60c5\u5883\u5141\u8bb8\u901a\u884c","domain":["Interface"],"datatype":"boolean","definition":"\u660e\u786e\u7684\u901a\u884c\u6216\u4e0d\u901a\u884c\u5224\u65ad\uff1b\u5fc5\u987b\u6709accessContext\u548c\u8bc1\u636e\u3002false\u4e0d\u662f\u7f3a\u5931\u503c\u3002\u5b83\u4e0e\u76f8\u90bb/\u6709\u65e0\u5b9e\u4f53\u9694\u65ad\u5206\u5f00\u3002","basisRefs":["BOT03","ISM03"],"changeRefs":["O03"],"unit":null,"tier":"core"}],"relations":[{"id":"has_space","label":"\u5305\u542b\u7a7a\u95f4","domain":["Dwelling","Space"],"range":["Space"],"definition":"\u5206\u6790\u8fb9\u754c\u5185\u7684\u7a7a\u95f4\u5305\u542b\uff1b\u540c\u4e00\u7a7a\u95f4\u53ef\u4ee5\u8de8\u8d8a\u591a\u4e2a\u7269\u7406\u6784\u4ef6\u3002","basisRefs":["NQD9DRI3:E7","92HEGM9S:E3"],"acyclic":true},{"id":"has_element","label":"\u5305\u542b\u5b9e\u4f53\u90e8\u5206","domain":["Dwelling","Element"],"range":["Element"],"definition":"\u7269\u7406\u7ec4\u6210\u5173\u7cfb\uff1b\u4e0d\u80fd\u5c06\u5929\u4e95\u7a7a\u8154\u4f5c\u4e3a\u6728\u6784\u4ef6\u3002","basisRefs":["T3F2ERJG:E5","26QUPIXE:E4"],"acyclic":true},{"id":"bounds","label":"\u56f4\u5408\u6216\u754c\u5b9a","domain":["Element"],"range":["Space"],"definition":"\u67d0\u5899\u9762\u3001\u5c4b\u9762\u6216\u6784\u67b6\u4e0e\u7a7a\u95f4\u8fb9\u754c\u7684\u5173\u7cfb\u3002","basisRefs":["83W7CJW2:E3"]},{"id":"adjacent_to","label":"\u7a7a\u95f4\u90bb\u63a5","domain":["Space"],"range":["Space"],"definition":"\u4e24\u4e2a\u7a7a\u95f4\u5171\u4eab\u90e8\u5206\u8fb9\u754c\uff1b\u4ec5\u7a7a\u95f4\u9760\u8fd1\u4e0d\u8db3\u4ee5\u65ad\u8a00\u672c\u5173\u7cfb\u3002\u5bf9\u79f0\uff0c\u4e0d\u5177\u4f20\u9012\u6027\uff0c\u4e0d\u80fd\u63a8\u51fa\u901a\u884c\u3002","basisRefs":["NQD9DRI3:E11","BOT02"],"symmetric":true,"transitive":false,"changeRefs":["O03"]},{"id":"direct_access_to","label":"\u53ef\u76f4\u63a5\u901a\u884c\u81f3","domain":["Space"],"range":["Space"],"definition":"\u5728\u6307\u5b9a\u65f6\u95f4\u3001\u4f7f\u7528\u8005\u53ca\u901a\u884c\u60c5\u5883\u4e0b\uff0c\u53ef\u7ecfvia\u6307\u5411\u7684\u540c\u4e00\u754c\u9762\u4ece\u8d77\u70b9\u76f4\u63a5\u5230\u8fbe\u7ec8\u70b9\u3002\u65b9\u5411\u9010\u6761\u8bb0\u5f55\uff1b\u591a\u8df3\u53ef\u8fbe\u53e6\u884c\u8ba1\u7b97\uff0c\u4e0d\u80fd\u5199\u4f5c\u76f4\u63a5\u901a\u884c\u3002","basisRefs":["NQD9DRI3:E11","BOT03","ISM03"],"requiredQualifiers":["via","accessContext"],"symmetric":false,"transitive":false,"changeRefs":["O03"]},{"id":"supports","label":"\u652f\u627f","domain":["Element"],"range":["Element"],"definition":"\u65b9\u5411\u4ece\u627f\u6258\u6784\u4ef6\u6307\u5411\u88ab\u627f\u6258\u6784\u4ef6\uff1b\u63a5\u89e6\u4e0d\u80fd\u81ea\u52a8\u63a8\u65ad\u652f\u627f\u3002","basisRefs":["NQD9DRI3:E14"]},{"id":"represented_by","label":"\u7531\u56fe\u7eb8\u6216\u8bb0\u5f55\u8868\u8ff0","domain":["Dwelling","Space","Element"],"range":["Representation"],"definition":"\u539f\u6587\u8eab\u4efd\u5bf9\u5e94\u660e\u786e\u65f6\u5efa\u7acb\uff0c\u4e0d\u4ee5\u7f16\u53f7\u76f8\u540c\u81ea\u52a8\u8de8\u6587\u732e\u94fe\u63a5\u3002","basisRefs":["83W7CJW2:E2","ZWDJJE99:E5"]},{"id":"located_in","label":"\u4f4d\u4e8e","domain":["Dwelling"],"range":["Place"],"definition":"\u5efa\u7b51\u5b9a\u4f4d\u5230\u539f\u6587\u660e\u786e\u5730\u70b9\uff1b\u672c\u8f6e\u4e0d\u8865\u9020\u5750\u6807\u3002","basisRefs":["ZWDJJE99:E2"]},{"id":"record_about_place","label":"\u8bb0\u5f55\u6d89\u53ca\u5730\u70b9","domain":["Representation"],"range":["Place"],"definition":"\u53ea\u6709\u8bb0\u5f55\u800c\u7f3a\u4e4f\u5efa\u7b51\u8eab\u4efd\u65f6\uff0c\u4fdd\u7559\u8be5\u8bb0\u5f55\u7684\u8c03\u67e5\u5730\u70b9\u3002","basisRefs":["83W7CJW2:E2"]},{"id":"has_type","label":"\u88ab\u5224\u4e3a\u7c7b\u578b","domain":["Dwelling","Space","Element","Representation"],"range":["TypeConcept"],"definition":"\u5fc5\u987b\u901a\u8fc7\u5e26\u5224\u636e/\u8bc1\u636e\u7684classification\u8bb0\u5f55\u4ea7\u751f\uff0c\u4e0d\u80fd\u65e0\u6761\u4ef6\u5199\u88f8\u8fb9\u3002","basisRefs":["NQD9DRI3:E3","83W7CJW2:E4"]},{"id":"in_scheme","label":"\u5c5e\u4e8e\u5206\u7c7b\u4f53\u7cfb","domain":["TypeConcept"],"range":["TypeScheme"],"definition":"\u7c7b\u578b\u6982\u5ff5\u7684\u547d\u540d\u7a7a\u95f4\uff0c\u4e0d\u8868\u793a\u5efa\u7b51\u5b9e\u4f53\u4ece\u5c5e\u3002","basisRefs":["83W7CJW2:E4"]},{"id":"variant_of","label":"\u662f\u67d0\u539f\u578b\u7684\u5f62\u6001\u53d8\u4f53","domain":["TypeConcept"],"range":["TypeConcept"],"definition":"\u4f5c\u8005\u9610\u91ca\u6216\u8bfb\u8005\u5efa\u6a21\u5224\u65ad\uff0c\u4fdd\u7559\u64cd\u4f5c\u89c4\u5219\u4e0e\u5f52\u5c5e\uff1b\u4e0d\u63a8\u51fa\u771f\u5b9e\u4f20\u64ad\u94fe\u6216\u5e74\u4ee3\u987a\u5e8f\u3002","basisRefs":["YTSWPLNA:E3","83W7CJW2:E4"]},{"id":"affects","label":"\u6539\u53d8\u5bf9\u8c61","domain":["ChangeEvent"],"range":["Dwelling","Space","Element"],"definition":"\u5b9e\u9645\u4e8b\u4ef6\u5bf9\u5bf9\u8c61\u7684\u4f5c\u7528\uff0c\u9700\u65f6\u95f4\u548c\u524d\u540e\u72b6\u6001\u8bc1\u636e\u3002","basisRefs":["92HEGM9S:E6"],"tier":"extension"},{"id":"anchored_to","label":"\u5173\u8054\u51e0\u4f55\u533a\u57df","domain":["Dwelling","Space","Element","Interface"],"range":["GeometryRegion"],"definition":"\u5bf9\u5e94\u5bf9\u8c61\u4e0e\u6a21\u578b\u4e2d\u7684\u533a\u57df\uff1b\u5fc5\u987b\u6709\u7248\u672c\u3001\u5750\u6807\u7cfb\u3001\u533a\u57dfID\u3002","basisRefs":["BOT04","H29"],"tier":"extension","changeRefs":["O09"]},{"id":"interface_of","label":"\u754c\u9762\u5173\u8054\u5bf9\u8c61","domain":["Interface"],"range":["Space","Element"],"definition":"\u5c06\u754c\u9762\u94fe\u63a5\u81f3\u5177\u4f53\u53c2\u4e0e\u5bf9\u8c61\uff1b\u901a\u884c\u754c\u9762\u5728\u672c\u8f6e\u6700\u5c0f\u6a21\u578b\u4e2d\u987b\u6709\u4e24\u4e2a\u4e0d\u540cSpace\u7aef\u70b9\uff0c\u5176\u4ed6\u754c\u9762\u4e0d\u5f3a\u5236\u5957\u7528\u3002","basisRefs":["BOT03","ISM04"],"changeRefs":["O02"]},{"id":"realized_by","label":"\u754c\u9762\u6d89\u53ca\u5b9e\u4f53","domain":["Interface"],"range":["Element"],"definition":"\u53ef\u9009\u5173\u7cfb\uff0c\u8bb0\u5f55\u95e8\u6247\u3001\u5899\u4f53\u7b49\u4e0e\u754c\u9762\u5bf9\u5e94\u7684\u5b9e\u4f53\uff1b\u5f00\u653e\u5206\u754c\u53ef\u6ca1\u6709\u5b9e\u73b0\u6784\u4ef6\uff0c\u4e0d\u8865\u9020\u95e8\u5b9e\u4f53\u3002","basisRefs":["BOT01","BOT03","ISM03"],"changeRefs":["O02"]},{"id":"intersects_space","label":"\u7a7a\u95f4\u8303\u56f4\u76f8\u4ea4","domain":["Space"],"range":["Space"],"definition":"\u4e24\u4e2a\u5df2\u754c\u5b9a\u7a7a\u95f4\u7684\u4e09\u7ef4\u8303\u56f4\u90e8\u5206\u5171\u4eab\uff1b\u987b\u8bf4\u660e\u5212\u5206\u4f53\u7cfb\u4e0e\u51e0\u4f55\u4f9d\u636e\uff0c\u4e0d\u7b49\u540c\u76f8\u90bb\u6216\u901a\u884c\u3002","basisRefs":["BOT02"],"changeRefs":["O03"],"symmetric":true,"transitive":false},{"id":"similar_to","label":"\u5206\u6790\u5224\u4e3a\u76f8\u4f3c","domain":["Dwelling","Space","Element","Representation"],"range":["Dwelling","Space","Element","Representation"],"definition":"\u4f9d\u636e\u6307\u5b9aanalysisRun\u5f62\u6210\u7684\u6d3e\u751f\u6bd4\u8f83\uff1b\u4e0d\u662f\u5730\u7406\u63a5\u8fd1\u3001\u7a7a\u95f4\u90bb\u63a5\u6216\u6587\u5316\u56e0\u679c\u3002\u662f\u5426\u6709\u5411\u7531\u8ba1\u7b97\u65b9\u6cd5\u660e\u786e\u3002","basisRefs":["W26","W31"],"changeRefs":["O08"],"requiredQualifiers":["analysisRun","resultId"]}],"assertionContract":{"required":["id","subject","predicate","evidence","attribution","temporalScope","status"],"exactlyOne":["object","value"],"attribution":["author_report","reader_diagram_observation","reader_modeling_inference","author_interpretation","synthetic_assumption"],"status":["documented","tentative","disputed","demonstration"],"temporalScope":"\u539f\u6587\u6240\u8ff0/\u56fe\u793a\u65f6\u70b9\uff1b\u65e5\u671f\u672a\u77e5\u987b\u660e\u786e\uff0c\u4e0d\u4ee5\u8bba\u6587\u51fa\u7248\u5e74\u6216\u5f55\u5165\u65e5\u671f\u66ff\u4ee3\u6d4b\u7ed8\u5e74\u3002","evidence":"\u81f3\u5c11\u4e00\u6761Evidence ID\u3002\u8bc1\u636e\u5305\u542bZotero key\u3001PDF\u9875\u5e8f\u3001\u5370\u5237\u9875\u53ca\u56fe\u8868/\u884c\u5b9a\u4f4d\u3002","numericRules":"\u6570\u503c\u91cf\u987b\u6709\u5355\u4f4d\u3001\u5bf9\u8c61\u8fb9\u754c\u3001\u6d4b\u91cf/\u8ba1\u7b97\u65b9\u6cd5\uff1b\u8ba1\u6570\u4ecd\u9700\u8303\u56f4\u3002","conflictRule":"\u76f8\u4e92\u77db\u76fe\u7684\u65ad\u8a00\u5e76\u5b58\u5e76\u6807\u8bb0disputed\uff1b\u4e0d\u53d6\u5e73\u5747\u3001\u4e0d\u8986\u76d6\u3001\u4e0d\u6309\u5e74\u4efd\u81ea\u52a8\u62e9\u65b0\u3002","unknownRule":"\u672a\u8bb0\u8f7d\u4e0d\u751f\u6210\u5047\u503c\uff1b\u53e6\u5728gaps\u4e2d\u5217unknown/not_observed/not_applicable\uff0cfalse\u9700\u660e\u786e\u5426\u5b9a\u8bc1\u636e\u3002","contextRules":{"datasetKind":"\u6570\u636e\u96c6\u5fc5\u987b\u663e\u5f0f\u6807\u6ce8literature_case/field_observation/synthetic_demo\uff1b\u6f14\u793a\u4e0d\u80fd\u8fdb\u5165\u7814\u7a76\u7edf\u8ba1\u3002","methodVsFact":"\u4f18\u5316\u4f9d\u636e\u53ea\u652f\u6301\u6a21\u578b\u9009\u62e9\uff1b\u5efa\u7b51\u4e8b\u5b9e\u5f15\u7528\u5bf9\u5e94\u6570\u636e\u96c6\u7684Evidence\uff0c\u4e0d\u7528\u65b9\u6cd5\u8bba\u6587\u586b\u5145\u5efa\u7b51\u89c2\u6d4b\u3002","newFacts":"\u65b0\u4e8b\u5b9e\u987b\u4fdd\u7559recordedAt\u3001observer\u6216\u5224\u65ad\u8005\u3001temporalScope\u3001method\u3001\u5bf9\u8c61\u8303\u56f4\u53ca\u8bc1\u636e\uff1b\u65e7\u6848\u4f8b\u4e0d\u56de\u586b\u672a\u77e5\u89c2\u5bdf\u65e5\u671f\u3002","sourceDate":"\u51fa\u7248\u3001\u89c2\u6d4b\u3001\u5f55\u5165\u4e09\u4e2a\u65e5\u671f\u5206\u522b\u8bb0\u5f55\uff1b\u672a\u77e5\u89c2\u5bdf\u65e5\u671f\u5141\u8bb8\u663e\u5f0funknown\u3002","interpretation":"\u6587\u5316\u89e3\u91ca\u6807author_interpretation\u6216reader_modeling_inference\u5e76\u7ed9\u8bc1\u636e\uff1b\u5f62\u6001\u5171\u73b0\u4e0d\u80fd\u81ea\u52a8\u5347\u7ea7\u4e3a\u56e0\u679c\u3002","synthetic":"synthetic_assumption\u4e0edemonstration\u53ea\u5141\u8bb8synthetic_demo\u6570\u636e\u96c6\u3002"},"newRecordRequired":["recordedAt","observer","method","scope"],"legacyPolicy":"\u53ea\u8c41\u514d\u4e0ev0.1\u9010\u5b57\u6bb5\u4e00\u81f4\u7684\u65e7\u65ad\u8a00\u5f55\u5165\u5143\u6570\u636e\uff1b\u4e0d\u80fd\u51edmigration\u6807\u5fd7\u8c41\u514d\u65b0\u589e\u6216\u4fee\u6539\u8bb0\u5f55\u3002"},"classificationContract":{"required":["id","subject","type","scheme","decision","criteriaResults","evidence","attribution","temporalScope"],"decision":["author_assigned","criteria_match","criteria_not_match","insufficient_evidence"],"projection":"\u53ea\u6709author_assigned\u6216criteria_match\u53ef\u751f\u6210\u5e26\u5224\u65ad\u6807\u8bc6\u7684has_type\u8fb9\uff1bcriteria_match\u4e0d\u7b49\u4e8e\u5386\u53f2\u539f\u578b\u8eab\u4efd\u3002","criteriaResult":["satisfied","not_satisfied","unknown"],"rule":"\u663e\u5f0f\u8bb0\u5f55\u5224\u636e\u548c\u8f93\u5165\u65ad\u8a00\uff1b\u8d44\u6599\u4e0d\u8db3\u4e0d\u53ef\u9ed8\u8ba4\u5224\u5b9a\uff1b\u5141\u8bb8\u540c\u5bf9\u8c61\u5728\u4e0d\u540c\u7ef4\u5ea6/\u4f53\u7cfb\u4e0b\u62e5\u6709\u591a\u4e2a\u7c7b\u578b\u3002"},"scopeRules":["\u6e90\u5185\u7f16\u53f7\u662f\u5c40\u90e8\u6807\u8bc6\uff1b\u8de8\u6587\u732e\u5b9e\u4f53\u5408\u5e76\u987b\u6709\u989d\u5916\u5bf9\u5e94\u8bc1\u636e\u3002","\u5355\u4f53\u7814\u7a76\u8fb9\u754c\u7531\u72ec\u7acb\u4f4f\u5b85\u3001\u4e3b\u9644\u5c4b\u3001\u5171\u9662\u7b49\u5b9e\u9645\u60c5\u51b5\u51b3\u5b9a\uff1b\u9ed8\u8ba4\u4e0d\u628a\u540c\u4e00\u9662\u843d\u5168\u90e8\u5efa\u7b51\u5408\u6210\u4e00\u680b\u3002","Representation\u4e0a\u7684\u8868\u5217\u7279\u5f81\u4e0d\u80fd\u81ea\u52a8\u4f20\u64ad\u5230Dwelling\u6216\u6240\u6709Element\u3002","\u901a\u884c\u5173\u7cfb\u4e0d\u7b49\u540c\u90bb\u63a5\uff0c\u652f\u627f\u4e0d\u7b49\u540c\u63a5\u89e6\uff0c\u7c7b\u578b\u4e0d\u7b49\u540c\u5177\u4f53\u623f\u5c4b\u3002","\u539f\u578b\u5339\u914d\u4e0d\u8bc1\u660e\u5e74\u4ee3\u5148\u540e\u3001\u4f20\u64ad\u6e90\u6d41\u3001\u6c11\u65cf\u4e13\u5c5e\u6027\u6216\u53bf\u57df\u4ee3\u8868\u6027\u3002","\u5386\u65f6\u4e8b\u4ef6\u548c\u4e09\u7ef4\u63a5\u53e3\u4ec5\u4e3a\u6269\u5c55\uff1b\u65e0\u8bc1\u636e\u65f6\u4fdd\u6301\u7a7a\u7f3a\u3002","\u65b9\u6cd5\u4f9d\u636e\u3001\u6587\u732e\u4e8b\u5b9e\u3001\u73b0\u573a\u89c2\u5bdf\u53ca\u5408\u6210\u6f14\u793a\u5206\u5f00\u4fdd\u5b58\u3002","\u76f8\u90bb\u53ea\u6307\u5171\u4eab\u8fb9\u754c\uff1b\u7d27\u90bb\u8ddd\u79bb\u53e6\u4f5c\u6d4b\u91cf\uff0c\u4e0d\u80fd\u6df7\u7528\u3002","\u65b0\u901a\u884c\u8fb9\u5fc5\u987b\u6709\u754c\u9762\u3001\u65b9\u5411\u3001\u60c5\u5883\u4e0e\u8bc1\u636e\uff1b\u5f00\u653e\u8fb9\u754c\u4e0d\u80fd\u81ea\u52a8\u63a8\u51fa\u901a\u884c\u3002","\u62d3\u6251\u5173\u7cfb\u3001\u5206\u6790\u76f8\u4f3c\u548c\u6587\u5316\u89e3\u91ca\u662f\u4e0d\u540c\u8bed\u4e49\uff0c\u4e0d\u76f8\u4e92\u81ea\u52a8\u63a8\u5bfc\u3002"],"previousVersion":"0.1","updated":"2026-10-22","spaceIdentityContract":{"requiredForNewSpace":["divisionScheme","boundaryBasis","boundaryStatus"],"boundaryStatus":["documented","proposed","unknown"],"rule":"\u7a7a\u95f4ID\u9650\u5b9a\u5efa\u7b51\u7814\u7a76\u5355\u5143\u53ca\u5212\u5206\u4f53\u7cfb\uff1b\u540c\u540d\u4e0d\u540c\u7a7a\u95f4\u4e0d\u5408\u5e76\uff0c\u8fde\u7eed\u7a7a\u95f4\u53ef\u4ee5\u6309\u6709\u8bc1\u636e\u7684\u8bed\u4e49\u5206\u754c\u7ec6\u5206\u3002","legacyPolicy":"v0.1\u5019\u9009\u7a7a\u95f4\u4fdd\u7559unknown\u8fb9\u754c\uff1b\u4e0d\u8865\u9020\u5750\u6807\u6216\u623f\u95f4\u7f51\u7edc\u3002"},"interfaceContract":{"passageEndpoints":2,"endpointRelation":"interface_of","separationFeature":"physical_separation","rule":"direct_access_to\u7684via\u987b\u4e3aInterface\uff0c\u4e14\u540c\u4e00via\u8fde\u63a5\u8d77\u7ec8\u4e24\u4e2aSpace\uff1b\u901a\u884c\u987b\u6709\u72ec\u7acb\u8bc1\u636e\u4e0e\u60c5\u5883\uff0c\u4e0d\u4eceopen_boundary/none/adjacent_to\u81ea\u52a8\u751f\u6210\u3002","accessContextRequired":["scenario","agent","mode"],"basisRefs":["BOT03","ISM03"],"changeRefs":["O02","O03"]},"vocabularyContract":{"fields":["id","preferredLabel","dimension","sourceTerms","mappingRelation","status","basisRefs"],"mappingRelation":["exact_in_scheme","close","unresolved"],"rule":"\u8bcd\u4e49\u5bf9\u9f50\u4e0e\u5b9e\u4f8b\u8eab\u4efd\u5bf9\u9f50\u5206\u5f00\u3002Hall\u4e0d\u81ea\u52a8\u7ffb\u8bd1\u6210\u5802\u5c4b\uff0c\u524d\u5eca\u53ef\u540c\u65f6\u662f\u5730\u65b9\u540d\u79f0\u3001\u534a\u5f00\u653e\u5f62\u6001\u548c\u4ea4\u901a/\u505c\u7559\u7528\u9014\u3002","basisRefs":["H04","H09","F22","ISM01"],"changeRefs":["O05"]},"vocabulary":[{"id":"TERM_TANGWU","preferredLabel":"\u5802\u5c4b","dimension":"architectural_name","sourceTerms":[{"label":"\u5802\u5c4b","source":"S_H","scope":"\u5fbd\u5dde\u8bba\u6587\u56fe3\u7528\u8bed\uff1b\u4e0d\u5ba3\u79f0\u666f\u5b81\u540c\u540d\u5b8c\u5168\u7b49\u4e49"}],"mappingRelation":"exact_in_scheme","status":"source_term","basisRefs":["H10"]},{"id":"TERM_SEMI_OPEN","preferredLabel":"\u534a\u5f00\u653e\u7a7a\u95f4","dimension":"enclosure_degree","sourceTerms":[{"label":"Semi-Enclosed/Semi-Open Space","source":"S_ISM","scope":"\u672c\u8f6e\u7b80\u5316\u56f4\u5408\u8f74\uff1b\u4e0e\u539f\u6587\u5206\u7c7b\u4e3a\u90e8\u5206\u5bf9\u5e94"}],"mappingRelation":"close","status":"reader_proposed","basisRefs":["ISM01","ISM02"]}],"entityAlignmentContract":{"fields":["leftObject","rightObject","identityEvidence","decision","reviewer","recordedAt"],"decision":["same_entity","different_entity","unresolved"],"rule":"\u522b\u540d\u6620\u5c04\u4e0d\u7b49\u4e8e\u540c\u4e00\u5efa\u7b51\uff1b\u6e90\u5185\u7f16\u53f7\u53ea\u6709\u5728\u6765\u6e90+\u7f16\u53f7\u4f53\u7cfb\u4e2d\u552f\u4e00\uff0c\u672a\u6838\u9a8c\u4e0d\u5408\u5e76\u3002","basisRefs":["F22","M60"],"changeRefs":["O05"]},"storageMapping":[{"semantic":"\u6982\u5ff5\u7c7b","storage":"\u6a21\u578bclasses\uff1b\u5b9e\u4f8b\u7684class\u5f15\u7528\u5176ID","rule":"\u7c7b\u4e0d\u662f\u5177\u4f53\u623f\u5c4b\u3002"},{"semantic":"\u5b9e\u4f8b","storage":"nodes\uff1b\u7a33\u5b9aid\u53ca\u6765\u6e90\u5185\u6807\u8bc6","rule":"\u540d\u5b57\u4e0d\u4f5c\u4e3a\u8de8\u6765\u6e90\u552f\u4e00\u952e\u3002"},{"semantic":"\u7ec4\u6210/\u90bb\u63a5/\u901a\u884c\u7b49\u5bf9\u8c61\u5173\u7cfb","storage":"assertions.object\u53capredicate","rule":"\u5173\u7cfb\u65b9\u5411\u3001domain/range\u4e0e\u9650\u5b9a\u6761\u4ef6\u7531\u5b57\u5178\u7ea6\u675f\u3002"},{"semantic":"\u5c5e\u6027\u503c","storage":"assertions.value","rule":"\u4fdd\u7559\u8bc1\u636e/\u65f6\u70b9/\u8303\u56f4\uff1b\u6d4f\u89c8\u5668\u503c\u8282\u70b9\u53ea\u662f\u6295\u5f71\uff0c\u4e0d\u81ea\u52a8\u589e\u52a0\u5efa\u7b51\u5b9e\u4f53\u3002"},{"semantic":"\u7c7b\u578b\u5224\u5b9a","storage":"classifications","rule":"\u53ea\u6709\u80af\u5b9a\u7ed3\u679c\u6295\u5f71has_type\uff1b\u5224\u636e\u4e0d\u5339\u914d\u4e0d\u5f97\u753b\u6210\u5f52\u5c5e\u3002"},{"semantic":"\u7c7b\u578b\u4f53\u7cfb\u5185\u4e0a\u4f4d\u5173\u7cfb","storage":"TypeConcept\u53ef\u9009broaderType","rule":"\u9650\u5b9a\u540c\u4e00scheme\u4e14\u65e0\u73af\uff1b\u4e0d\u7b49\u540c\u90e8\u4ef6\u7ec4\u6210\uff0c\u4e0d\u7167\u642ca/o\u4e3a\u6570\u636e\u5c5e\u6027\u3002"}],"analysisRunContract":{"required":["id","method","methodVersion","inputDataset","inputVersion","inputAssertionIds","dimensions","parameters","missingPolicy","outputKind","results","executedAt"],"rule":"\u8bb0\u5f55\u5168\u90e8\u9009\u7528\u7ef4\u5ea6\u3001\u5ea6\u91cf/\u7b97\u6cd5\u3001\u9608\u503c\u6216\u660e\u786e\u4e0d\u9002\u7528\u3001\u8f93\u5165\u7f3a\u5931\u5904\u7406\uff1b\u5206\u6790\u7ed3\u679c\u5173\u8054\u539f\u5bf9\u8c61\u548c\u8fd0\u884c\uff0c\u4e0d\u8986\u76d6\u89c2\u6d4b\u65ad\u8a00\u3002\u5f53\u524d\u53ea\u63d0\u4f9b\u7ed3\u6784\uff0c\u672a\u6267\u884c\u76f8\u4f3c\u5ea6\u6216\u805a\u7c7b\u3002","basisRefs":["W11","W26","W31"],"changeRefs":["O08"],"valueRules":{"nonempty":"\u6240\u6709\u5fc5\u586b\u503c\u975e\u7a7a\uff1binputAssertionIds\u4e3a\u975e\u7a7a\u4e14\u53ef\u89e3\u6790ID\u5217\u8868\uff1bdimensions\u4e3a\u975e\u7a7a\u5b57\u7b26\u4e32\u5217\u8868","parameters":"\u975e\u7a7a\u5b57\u5178\uff1b\u65e0\u9700\u53c2\u6570\u65f6\u663e\u5f0f\u586b\u5199not_applicable\u53ca\u7406\u7531","results":"\u975e\u7a7a\u8bb0\u5f55\u5217\u8868\uff0c\u6bcf\u9879\u662f\u5e26\u552f\u4e00id\u548ckind\u7684\u975e\u7a7a\u5bf9\u8c61\uff1bsimilarity\u9879\u9700subject/object/decision\uff1bempty_result\u9879\u9700scope/reason\uff1b\u5176\u4ed6\u9879\u9700summary\u3002","executedAt":"ISO YYYY-MM-DD","limits":"\u9a8c\u8bc1\u53ef\u590d\u7b97\u6240\u9700\u8bb0\u5f55\uff0c\u4e0d\u4ee3\u66ff\u8ba1\u7b97\u65b9\u6cd5\u6709\u6548\u6027\u68c0\u9a8c\u3002"},"resultProjection":"similar_to\u5fc5\u987b\u4ee5analysisRun+resultId\u6307\u5411\u540c\u8d77\u7ec8\u70b9\u4e14decision=similar\u7684similarity\u7ed3\u679c\uff1bnot_similar/unknown/empty_result\u4e0d\u5f97\u6295\u5f71\u80af\u5b9a\u76f8\u4f3c\u8fb9\u3002\u7ed3\u6784\u9a8c\u8bc1\u4e0d\u4ee3\u8868\u5df2\u7ecf\u72ec\u7acb\u590d\u7b97\u7b97\u6cd5\u3002"},"geometryContract":{"required":["assetUri","assetVersion","assetSha256","coordinateSystem","lengthUnit","selectorType","selector","mappingMethod","mappingStatus","coverage"],"selectorType":["mesh_object","face_set","bbox","polygon","point_set","image_region"],"mappingStatus":["proposed","verified"],"rule":"\u540c\u4e00\u5bf9\u8c61\u53ef\u5173\u8054\u591a\u4e2a\u65f6\u70b9/\u7248\u672c\u533a\u57df\uff1b\u5171\u4eab\u6a21\u578b\u6587\u4ef6\u4e0d\u7b49\u4e8e\u540c\u4e00\u8bed\u4e49\u5bf9\u8c61\u3002\u5c40\u90e8\u5750\u6807\u53ef\u7528\u4f46\u987b\u6709\u57fa\u51c6\u8bf4\u660e\u3002\u7a7a\u95f4\u5185\u90e8\u4e0d\u53ef\u89c1\u65f6\u4fdd\u7559\u7f3a\u5931\u3002","basisRefs":["BOT04","H29"],"changeRefs":["O09"],"valueRules":{"assetSha256":"64\u4f4d\u5341\u516d\u8fdb\u5236\u5b57\u7b26\u4e32\uff1b\u4ec5\u683c\u5f0f\u6838\u9a8c\u4e0d\u4ee3\u8868\u5b9e\u9645\u8d44\u4ea7\u8bfb\u53d6","textFields":["assetUri","assetVersion","coordinateSystem","lengthUnit","mappingMethod","coverage"],"nonempty":"\u6240\u6709\u5fc5\u586b\u503c\u4e0d\u5f97null/\u7a7a\u5b57\u7b26\u4e32/\u7a7a\u5bb9\u5668","bbox":"[minX,minY,maxX,maxY]\u6216[minX,minY,minZ,maxX,maxY,maxZ]\uff0cmin\u003cmax","face_set":"\u975e\u7a7a\u3001\u975e\u8d1f\u6574\u6570\u5217\u8868","limits":"\u9a8c\u8bc1\u8bb0\u5f55\u7ed3\u6784\u4e0e\u90e8\u5206\u9009\u62e9\u5668\u683c\u5f0f\uff0c\u4e0d\u9a8c\u8bc1\u533a\u57df\u7684\u5efa\u7b51\u5b66\u5bf9\u5e94\u6216\u5b9e\u9645\u51e0\u4f55\u8986\u76d6\u3002"}},"externalAlignment":[{"local":"Space","external":"bot:Space","status":"candidate_specialization","reason":"\u672c\u5730\u7a7a\u95f4\u6709\u8bed\u4e49\u5206\u754c\uff1b\u5bfc\u51fa\u524d\u6838\u9a8c\u7ef4\u5ea6\u4e0e\u533a\u57df\u8fb9\u754c\u3002"},{"local":"Interface","external":"bot:Interface","status":"candidate_specialization","reason":"\u672c\u5730\u754c\u9762\u7ee7\u627f\u5176\u601d\u8def\uff0c\u5c1a\u672a\u6267\u884cOWL\u5bf9\u9f50\u9a8c\u8bc1\u3002"},{"local":"interface_kind=open_boundary","external":"SemanticOpening/PseudoOpening","status":"partial_correspondence","reason":"\u672c\u5730\u5f00\u653e\u5206\u754c\u4e0e\u865a\u62df\u5f00\u53e3\u7528\u9014\u90e8\u5206\u5bf9\u5e94\uff1b\u4e0d\u5ba3\u544aowl:equivalentClass\u3002"},{"local":"Dwelling","external":"bot:Building","status":"not_direct_equivalence","reason":"\u672c\u5730\u7814\u7a76\u5355\u5143\u53ef\u80fd\u5305\u542b\u4e3b\u5c4b\u3001\u9644\u5c5e\u4f53\u4e0e\u5ead\u9662\u3002"},{"local":"has_element","external":"bot:hasElement","status":"not_direct_equivalence","reason":"\u672c\u5730\u7269\u7406\u7ec4\u6210\u4e0eBOT\u6cdb\u5173\u8054\u8303\u56f4\u4e0d\u540c\uff0c\u4e0d\u80fd\u6309\u540d\u5b57\u76f4\u63a5\u66ff\u6362\u3002"}]},"literatureCase":{"version":"0.2","status":"discussion_draft","created":"2026-10-22","scope":"2\u6761\u6e90\u5185\u6c11\u5c45/\u4fa7\u6837\u8bb0\u5f55\uff1b\u6784\u9020\u7c7b\u578b\u8bd5\u8868\u8fbe\uff0c\u975e\u5b8c\u6574\u5355\u4f53\u7a7a\u95f4\u56fe\u8c31\u62162026\u73b0\u72b6\u6837\u672c","nodes":[{"id":"ZHOUHU","label":"\u5468\u6e56\u6751","class":"Place","note":"\u4ec5\u4f5c\u6e90\u5185\u5730\u70b9\u63a5\u53e3\uff1b\u4e0d\u63a8\u7b97\u4f4f\u5b85\u603b\u91cf\u3002"},{"id":"SC_COLUMN","label":"\u5b66\u4f4d\u8bba\u6587\u88683.7\u67f1\u7b52\u7ef4\u5ea6","class":"TypeScheme","note":"\u7531\u8868\u5217\u7c7b\u522b\u91cd\u5efa\u7684\u7ef4\u5ea6\u4f53\u7cfb\uff1b\u4e0d\u662f\u4f5c\u8005\u53d1\u5e03\u7684\u672c\u4f53\u3002","source":"S_THESIS"},{"id":"SC_PROTO","label":"2023\u8bba\u6587\u4fa7\u6837\u539f\u578b\u56db\u9879\u6761\u4ef6","class":"TypeScheme","note":"\u5c06\u4f5c\u8005\u6587\u5b57\u7ec4\u5408\u64cd\u4f5c\u5316\u4e3a\u56db\u9879\u76f8\u7b49\u5224\u636e\uff0c\u5c5e\u4e8e\u8bfb\u8005\u8bd5\u5224\u65b9\u6848\uff1b\u672a\u505a\u8de8\u6765\u6e90\u5b8c\u6574\u6d4b\u7ed8\u53e3\u5f84\u9a8c\u8bc1\u3002","source":"S_ARTICLE"},{"id":"T_55","label":"\u4e94\u67f1\u4e94\u7b52","class":"TypeConcept","scheme":"SC_COLUMN","dimension":"column_bay_form","role":"category","criteria":[{"id":"T_55_C1","feature":"column_bay_form","operator":"equals","expected":"\u4e94\u67f1\u4e94\u7b52"}],"evidence":["E_Z8"]},{"id":"T_56","label":"\u4e94\u67f1\u516d\u7b52","class":"TypeConcept","scheme":"SC_COLUMN","dimension":"column_bay_form","role":"category","criteria":[{"id":"T_56_C1","feature":"column_bay_form","operator":"equals","expected":"\u4e94\u67f1\u516d\u7b52"}],"evidence":["E_Z1"]},{"id":"T_PROTO","label":"\u4f5c\u8005\u63a8\u8fa8\u7684\u4fa7\u6837\u539f\u578b","class":"TypeConcept","scheme":"SC_PROTO","dimension":"four_feature_combination","role":"prototype","criteria":[{"id":"P_WALL","feature":"load_bearing","operator":"equals","expected":false},{"id":"P_COURT","feature":"rear_courtyard_form","operator":"equals","expected":"\u4e00\u5b57\u5f62"},{"id":"P_COLUMN","feature":"column_bay_form","operator":"equals","expected":"\u4e94\u67f1\u56db\u7b52"},{"id":"P_ROOF","feature":"roof_layered","operator":"equals","expected":false}],"evidence":["E_PROTOTYPE"],"note":"\u6bd4\u8f83\u53ea\u9488\u5bf9\u56db\u9879\u8868\u5217\u6761\u4ef6\uff1b\u4e0d\u662f\u5386\u53f2\u5b9e\u4f53\u6216\u5f53\u524d\u6700\u5e38\u89c1\u7c7b\u578b\u3002"},{"id":"D_8","label":"\u5468\u6e568\u53f7\uff08\u6587\u732e\u5bf9\u8c61\uff09","class":"Dwelling","identityStatus":"source_local_only","note":"\u8eab\u4efd\u4ec5\u5728ZWDJJE99\u88683.7\u53ca\u7eed\u9875\u7f16\u53f7\u56fe\u5185\u6210\u7acb\uff1b\u72ec\u7acb\u4f4f\u5b85/\u5171\u9662\u8fb9\u754c\u3001\u6237\u4e3b\u3001\u5730\u5740\u4e0e2026\u73b0\u72b6\u672a\u6838\u5b9e\u3002\u4e0d\u80fd\u4e0e\u5176\u4ed6\u6587\u732e\u540c\u53f7\u81ea\u52a8\u5408\u5e76\u3002"},{"id":"R_8","label":"\u88683.7\u7b2c8\u53f7\u4fa7\u6837\u8bb0\u5f55","class":"Representation","identityStatus":"source_local_only","source":"S_THESIS","note":"\u56db\u9879\u503c\u63cf\u8ff0\u6b64\u4fa7\u6837\u8bb0\u5f55\uff1b\u67f1\u7b52\u6570\u4e0d\u662f\u5168\u680b\u67f1\u6570\u3002"},{"id":"C_8","label":"8\u53f7\u540e\u53a8\u5929\u4e95\uff08\u5019\u9009\u7a7a\u95f4\uff09","class":"Space","identityStatus":"reader_decomposition","note":"\u7531\u8868\u5217\u5929\u4e95\u5b57\u6bb5\u62c6\u51fa\u7684\u5019\u9009\u7a7a\u95f4\u5bf9\u8c61\uff1b\u6ca1\u6709\u5b8c\u6574\u5e73\u9762\u3001\u9762\u79ef\u6216\u901a\u884c\u5173\u7cfb\u3002"},{"id":"W_8","label":"8\u53f7\u540e\u9662\u9662\u5899\uff08\u5019\u9009\u90e8\u4f4d\uff09","class":"Element","identityStatus":"reader_decomposition","elementLevel":"component","note":"\u7531\u8868\u5217\u9662\u5899\u5b57\u6bb5\u62c6\u51fa\u7684\u5019\u9009\u5b9e\u4f53\u90e8\u5206\uff1b\u4f4d\u7f6e\u3001\u8303\u56f4\u3001\u5206\u6bb5\u6570\u91cf\u5c1a\u65e0\u5b9e\u6d4b\u6838\u5bf9\u3002"},{"id":"D_1","label":"\u5468\u6e561\u53f7\uff08\u6587\u732e\u5bf9\u8c61\uff09","class":"Dwelling","identityStatus":"source_local_only","note":"\u8eab\u4efd\u4ec5\u5728ZWDJJE99\u88683.7\u53ca\u7eed\u9875\u7f16\u53f7\u56fe\u5185\u6210\u7acb\uff1b\u72ec\u7acb\u4f4f\u5b85/\u5171\u9662\u8fb9\u754c\u3001\u6237\u4e3b\u3001\u5730\u5740\u4e0e2026\u73b0\u72b6\u672a\u6838\u5b9e\u3002\u4e0d\u80fd\u4e0e\u5176\u4ed6\u6587\u732e\u540c\u53f7\u81ea\u52a8\u5408\u5e76\u3002"},{"id":"R_1","label":"\u88683.7\u7b2c1\u53f7\u4fa7\u6837\u8bb0\u5f55","class":"Representation","identityStatus":"source_local_only","source":"S_THESIS","note":"\u56db\u9879\u503c\u63cf\u8ff0\u6b64\u4fa7\u6837\u8bb0\u5f55\uff1b\u67f1\u7b52\u6570\u4e0d\u662f\u5168\u680b\u67f1\u6570\u3002"},{"id":"C_1","label":"1\u53f7\u540e\u53a8\u5929\u4e95\uff08\u5019\u9009\u7a7a\u95f4\uff09","class":"Space","identityStatus":"reader_decomposition","note":"\u7531\u8868\u5217\u5929\u4e95\u5b57\u6bb5\u62c6\u51fa\u7684\u5019\u9009\u7a7a\u95f4\u5bf9\u8c61\uff1b\u6ca1\u6709\u5b8c\u6574\u5e73\u9762\u3001\u9762\u79ef\u6216\u901a\u884c\u5173\u7cfb\u3002"},{"id":"W_1","label":"1\u53f7\u540e\u9662\u9662\u5899\uff08\u5019\u9009\u90e8\u4f4d\uff09","class":"Element","identityStatus":"reader_decomposition","elementLevel":"component","note":"\u7531\u8868\u5217\u9662\u5899\u5b57\u6bb5\u62c6\u51fa\u7684\u5019\u9009\u5b9e\u4f53\u90e8\u5206\uff1b\u4f4d\u7f6e\u3001\u8303\u56f4\u3001\u5206\u6bb5\u6570\u91cf\u5c1a\u65e0\u5b9e\u6d4b\u6838\u5bf9\u3002"}],"sources":[{"id":"S_THESIS","title":"\u666f\u5b81\u7572\u65cf\u4f20\u7edf\u6c11\u5c45\u8425\u9020\u6280\u827a\u7814\u7a76","author":"\u8d75\u6f47\u8bfa","year":2022,"zoteroKey":"ZWDJJE99","attachmentKey":"52VRHDAG","path":"/Users/wangyuelin/Zotero/storage/52VRHDAG/\u8d75\u6f47\u8bfa - 2023 - \u666f\u5b81\u7572\u65cf\u4f20\u7edf\u6c11\u5c45\u8425\u9020\u6280\u827a\u7814\u7a76.pdf"},{"id":"S_ARTICLE","title":"\u6d59\u897f\u5357\u666f\u5b81\u7572\u65cf\u6c11\u5c45\u6728\u6784\u4fa7\u6837\u7814\u7a76","author":"\u8d75\u6f47\u8bfa\u3001\u4f5f\u58eb\u67a2\u3001\u4f55\u793c\u5e73","year":2023,"zoteroKey":"83W7CJW2","attachmentKey":"M2XVALGA","path":"/Users/wangyuelin/Zotero/storage/M2XVALGA/\u8d75\u6f47\u8bfa \u7b49 - 2023 - \u6d59\u897f\u5357\u666f\u5b81\u7572\u65cf\u6c11\u5c45\u6728\u6784\u4fa7\u6837\u7814\u7a76.pdf"}],"evidence":[{"id":"E_Z8","source":"S_THESIS","pdfPages":[55],"printedPages":[44],"locator":"\u88683.7\u300c\u666f\u5b81\u5468\u6e56\u6751\u4fa7\u6837\u5206\u578b\u89c4\u5f8b\u7edf\u8ba1\u300d\uff0c\u6c11\u5c45\u6807\u53f78\u884c","summary":"\u9662\u5899\u4e0d\u627f\u91cd\uff1b\u540e\u53a8\u201c\u4e00\u201d\u5b57\u5f62\u5929\u4e95\uff1b\u4e94\u67f1\u4e94\u7b52\uff1b\u5c4b\u9762\u662f\u5426\u5206\u5c42\uff1a\u5426\u3002","attribution":"author_report","visualChecked":true,"image":"../\u5355\u4f53\u5c42\u77e5\u8bc6\u56fe\u8c31v0.1/\u8bc1\u636e\u56fe\u9875/ZWDJJE99-PDF55.png"},{"id":"E_Z1","source":"S_THESIS","pdfPages":[55],"printedPages":[44],"locator":"\u88683.7\u300c\u666f\u5b81\u5468\u6e56\u6751\u4fa7\u6837\u5206\u578b\u89c4\u5f8b\u7edf\u8ba1\u300d\uff0c\u6c11\u5c45\u6807\u53f71\u884c","summary":"\u9662\u5899\u627f\u91cd\uff1b\u540e\u53a8\u65b9\u5f62\u5929\u4e95\uff1b\u4e94\u67f1\u516d\u7b52\uff1b\u5c4b\u9762\u662f\u5426\u5206\u5c42\uff1a\u662f\u3002","attribution":"author_report","visualChecked":true,"image":"../\u5355\u4f53\u5c42\u77e5\u8bc6\u56fe\u8c31v0.1/\u8bc1\u636e\u56fe\u9875/ZWDJJE99-PDF55.png"},{"id":"E_MAP","source":"S_THESIS","pdfPages":[56],"printedPages":[45],"locator":"\u88683.7\u7eed\u9875\u4e2d\u7684\u5468\u6e56\u7f16\u53f7\u5e95\u56fe","summary":"\u5e95\u56fe\u5305\u542b1\u548c8\u7b49\u7f16\u53f7\uff1b\u4f5c\u4e3a\u540c\u7bc7\u6e90\u5185\u5b9a\u4f4d\uff0c\u4e0d\u63d0\u4f9b\u672c\u8f6e\u53ef\u7528\u5750\u6807\u62162026\u73b0\u72b6\u3002","attribution":"author_report","visualChecked":true,"image":"../\u5355\u4f53\u5c42\u77e5\u8bc6\u56fe\u8c31v0.1/\u8bc1\u636e\u56fe\u9875/ZWDJJE99-PDF56.png"},{"id":"E_PROTOTYPE","source":"S_ARTICLE","pdfPages":[5],"printedPages":[14],"locator":"\u00a73.3\u5ef6\u7eed\u6bb5\uff0c\u5de6\u4e0b\u539f\u578b\u7ed3\u8bba\uff08\u56fe11\u7684\u6587\u5b57\u603b\u7ed3\uff09","summary":"\u4f5c\u8005\u63a8\u8fa8\u7684\u4fa7\u6837\u539f\u578b\u7ec4\u5408\u4e3a\u9662\u5899\u4e0d\u627f\u91cd\u3001\u4e94\u67f1\u56db\u7b52\u3001\u540e\u53a8\u201c\u4e00\u201d\u5b57\u5f62\u5929\u4e95\u3001\u5c4b\u9762\u4e0d\u5206\u5c42\u3002","attribution":"author_report","visualChecked":true,"image":"../\u5355\u4f53\u5c42\u77e5\u8bc6\u56fe\u8c31v0.1/\u8bc1\u636e\u56fe\u9875/83W7CJW2-PDF5.png"},{"id":"E_COMMON","source":"S_THESIS","pdfPages":[63],"printedPages":[52],"locator":"\u00a73.4.3\uff081\uff09\u5b9e\u6d4b\u6570\u636e\uff0c\u5468\u6e56\u5e38\u89c1\u4fa7\u6837\u6982\u62ec","summary":"\u539f\u6587\u5c06\u4e94\u67f1\u516d\u7b52\u3001\u9662\u5899\u627f\u91cd\u3001\u5c4b\u67b6\u4e0d\u5206\u5c42\u3001\u540e\u53a8\u65b9\u5f62\u5929\u4e95\u6982\u62ec\u4e3a\u5468\u6e56\u5e38\u89c1\u578b\uff0c\u5e76\u6307\u5411\u88683.7\u76841\u30012\u30013\u30014\u53f7\uff1b\u4e0e\u8868\u4e2d1\u20143\u53f7\u5c4b\u9762\u5206\u5c42=\u662f\uff0c\u4ee5\u53ca4\u53f7\u5176\u4ed6\u5b57\u6bb5\u4e0d\u4e00\u81f4\u3002\u4fdd\u7559\u5c4b\u67b6/\u5c4b\u9762\u63aa\u8f9e\u5dee\u5f02\uff0c\u4e0d\u88c1\u51b3\u54ea\u5904\u7b14\u8bef\u3002","attribution":"author_report","visualChecked":true,"image":"../\u5355\u4f53\u5c42\u77e5\u8bc6\u56fe\u8c31v0.1/\u8bc1\u636e\u56fe\u9875/ZWDJJE99-PDF63.png"}],"assertions":[{"id":"IN_T_55","subject":"T_55","predicate":"in_scheme","evidence":["E_Z8","E_Z1"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u6765\u6e90\u5185\u7c7b\u522b\u7ec4\u7ec7","note":"","object":"SC_COLUMN"},{"id":"IN_T_56","subject":"T_56","predicate":"in_scheme","evidence":["E_Z8","E_Z1"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u6765\u6e90\u5185\u7c7b\u522b\u7ec4\u7ec7","note":"","object":"SC_COLUMN"},{"id":"IN_PROTO","subject":"T_PROTO","predicate":"in_scheme","evidence":["E_PROTOTYPE"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u4f5c\u8005\u7ed3\u8bba\u7684\u8bfb\u8005\u64cd\u4f5c\u5316","note":"","object":"SC_PROTO"},{"id":"LOC_8","subject":"D_8","predicate":"located_in","evidence":["E_Z8","E_MAP"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u6765\u6e90\u5185\u5730\u70b9","note":"","object":"ZHOUHU"},{"id":"REP_8","subject":"D_8","predicate":"represented_by","evidence":["E_Z8","E_MAP"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u8868\u4e2d\u6c11\u5c45\u7f16\u53f7\u4e0e\u540c\u9875\u7eed\u56fe\u7684\u5bf9\u5e94\uff1b\u4e0d\u4ee3\u8868\u5168\u680b\u4fe1\u606f\u5b8c\u6574","note":"","object":"R_8"},{"id":"PLACE_8","subject":"R_8","predicate":"record_about_place","evidence":["E_Z8"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u8868\u9898\u4e0e\u8bb0\u5f55\u5f52\u5c5e","note":"","object":"ZHOUHU"},{"id":"CODE_8","subject":"R_8","predicate":"record_code","evidence":["E_Z8"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"ZWDJJE99\u88683.7\u5468\u6e56\u7f16\u53f7","note":"","value":"8"},{"id":"F_8_load_bearing","subject":"R_8","predicate":"load_bearing","evidence":["E_Z8"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u540e\u9662\u9662\u5899\u6027\u8d28","note":"","value":false},{"id":"F_8_rear_courtyard_form","subject":"R_8","predicate":"rear_courtyard_form","evidence":["E_Z8"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u540e\u53a8\u5929\u4e95\u5f62\u5f0f","note":"\u539f\u8bcd\u4fdd\u7559\u5728\u8bc1\u636e\u6458\u8981\uff1b\u4e00\u5b57/\u65b9\u5f62\u4e3a\u8f7b\u91cf\u89c4\u8303\u5316\uff0c\u4e0d\u4e0e\u6574\u680b\u5e73\u9762\u5f62\u6001\u6df7\u540c\u3002","value":"\u4e00\u5b57\u5f62"},{"id":"F_8_column_bay_form","subject":"R_8","predicate":"column_bay_form","evidence":["E_Z8"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u8868\u5217\u4fa7\u6837\u67f1\u7b52\u5f62\u5f0f","note":"","value":"\u4e94\u67f1\u4e94\u7b52"},{"id":"F_8_roof_layered","subject":"R_8","predicate":"roof_layered","evidence":["E_Z8"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u8868\u5217\u4fa7\u6837\u5c4b\u9762\u662f\u5426\u5206\u5c42","note":"","value":false},{"id":"SPACE_8","subject":"D_8","predicate":"has_space","evidence":["E_Z8"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"tentative","scope":"\u5019\u9009\u62c6\u5206\uff0c\u4ec5\u8868\u8fbe\u8868\u5217\u540e\u53a8\u5929\u4e95\u5b58\u5728","note":"","object":"C_8","derivedFrom":["F_8_rear_courtyard_form"]},{"id":"WALL_8","subject":"D_8","predicate":"has_element","evidence":["E_Z8"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"tentative","scope":"\u5019\u9009\u62c6\u5206\uff0c\u4ec5\u8868\u8fbe\u8868\u5217\u540e\u9662\u9662\u5899\u5b58\u5728","note":"","object":"W_8","derivedFrom":["F_8_load_bearing"]},{"id":"CREP_8","subject":"C_8","predicate":"represented_by","evidence":["E_Z8"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"tentative","scope":"\u53ea\u5bf9\u5e94\u540e\u53a8\u5929\u4e95\u5217\uff0c\u4e0d\u7ee7\u627f\u6574\u6761\u4fa7\u6837\u5168\u90e8\u7279\u5f81","note":"","object":"R_8","derivedFrom":["F_8_rear_courtyard_form"]},{"id":"WREP_8","subject":"W_8","predicate":"represented_by","evidence":["E_Z8"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"tentative","scope":"\u53ea\u5bf9\u5e94\u540e\u9662\u9662\u5899\u6027\u8d28\u5217\uff0c\u4e0d\u7ee7\u627f\u6574\u6761\u4fa7\u6837\u5168\u90e8\u7279\u5f81","note":"","object":"R_8","derivedFrom":["F_8_load_bearing"]},{"id":"LOC_1","subject":"D_1","predicate":"located_in","evidence":["E_Z1","E_MAP"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u6765\u6e90\u5185\u5730\u70b9","note":"","object":"ZHOUHU"},{"id":"REP_1","subject":"D_1","predicate":"represented_by","evidence":["E_Z1","E_MAP"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u8868\u4e2d\u6c11\u5c45\u7f16\u53f7\u4e0e\u540c\u9875\u7eed\u56fe\u7684\u5bf9\u5e94\uff1b\u4e0d\u4ee3\u8868\u5168\u680b\u4fe1\u606f\u5b8c\u6574","note":"","object":"R_1"},{"id":"PLACE_1","subject":"R_1","predicate":"record_about_place","evidence":["E_Z1"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u8868\u9898\u4e0e\u8bb0\u5f55\u5f52\u5c5e","note":"","object":"ZHOUHU"},{"id":"CODE_1","subject":"R_1","predicate":"record_code","evidence":["E_Z1"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"ZWDJJE99\u88683.7\u5468\u6e56\u7f16\u53f7","note":"","value":"1"},{"id":"F_1_load_bearing","subject":"R_1","predicate":"load_bearing","evidence":["E_Z1"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u540e\u9662\u9662\u5899\u6027\u8d28","note":"","value":true},{"id":"F_1_rear_courtyard_form","subject":"R_1","predicate":"rear_courtyard_form","evidence":["E_Z1"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u540e\u53a8\u5929\u4e95\u5f62\u5f0f","note":"\u539f\u8bcd\u4fdd\u7559\u5728\u8bc1\u636e\u6458\u8981\uff1b\u4e00\u5b57/\u65b9\u5f62\u4e3a\u8f7b\u91cf\u89c4\u8303\u5316\uff0c\u4e0d\u4e0e\u6574\u680b\u5e73\u9762\u5f62\u6001\u6df7\u540c\u3002","value":"\u65b9\u5f62"},{"id":"F_1_column_bay_form","subject":"R_1","predicate":"column_bay_form","evidence":["E_Z1"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"documented","scope":"\u8868\u5217\u4fa7\u6837\u67f1\u7b52\u5f62\u5f0f","note":"","value":"\u4e94\u67f1\u516d\u7b52"},{"id":"F_1_roof_layered","subject":"R_1","predicate":"roof_layered","evidence":["E_Z1"],"attribution":"author_report","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"disputed","scope":"\u8868\u5217\u4fa7\u6837\u5c4b\u9762\u662f\u5426\u5206\u5c42","note":"\u88683.7\u5355\u5143\u683c\u660e\u786e\u4e3a\u201c\u662f\u201d\uff1b\u00a73.4.3\u5c061\u20144\u53f7\u5f52\u5165\u201c\u5c4b\u67b6\u4e0d\u5206\u5c42\u201d\u7684\u5e38\u89c1\u578b\uff0c\u5b58\u5728\u5f85\u6838\u7684\u4e00\u81f4\u6027\u95ee\u9898\u3002\u4e24\u5904\u539f\u8bcd\u4e0d\u540c\uff0c\u672c\u8f6e\u4e0d\u88c1\u51b3\uff1b\u8868\u503c\u4fdd\u7559\u4f46\u4e0d\u4f5c\u4e3a\u786e\u5b9a\u7684\u539f\u578b\u5224\u636e\u3002","value":true,"conflictingEvidence":["E_COMMON"]},{"id":"SPACE_1","subject":"D_1","predicate":"has_space","evidence":["E_Z1"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"tentative","scope":"\u5019\u9009\u62c6\u5206\uff0c\u4ec5\u8868\u8fbe\u8868\u5217\u540e\u53a8\u5929\u4e95\u5b58\u5728","note":"","object":"C_1","derivedFrom":["F_1_rear_courtyard_form"]},{"id":"WALL_1","subject":"D_1","predicate":"has_element","evidence":["E_Z1"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"tentative","scope":"\u5019\u9009\u62c6\u5206\uff0c\u4ec5\u8868\u8fbe\u8868\u5217\u540e\u9662\u9662\u5899\u5b58\u5728","note":"","object":"W_1","derivedFrom":["F_1_load_bearing"]},{"id":"CREP_1","subject":"C_1","predicate":"represented_by","evidence":["E_Z1"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"tentative","scope":"\u53ea\u5bf9\u5e94\u540e\u53a8\u5929\u4e95\u5217\uff0c\u4e0d\u7ee7\u627f\u6574\u6761\u4fa7\u6837\u5168\u90e8\u7279\u5f81","note":"","object":"R_1","derivedFrom":["F_1_rear_courtyard_form"]},{"id":"WREP_1","subject":"W_1","predicate":"represented_by","evidence":["E_Z1"],"attribution":"reader_modeling_inference","temporalScope":"\u6587\u732e\u8c03\u67e5/\u8868\u8ff0\u65f6\u70b9\uff1b\u5355\u680b\u89c2\u6d4b\u65e5\u671f\u672a\u660e\u786e\uff0c\u4e0d\u80fd\u7b49\u540c\u51fa\u7248\u5e74\u62162026\u5e74","status":"tentative","scope":"\u53ea\u5bf9\u5e94\u540e\u9662\u9662\u5899\u6027\u8d28\u5217\uff0c\u4e0d\u7ee7\u627f\u6574\u6761\u4fa7\u6837\u5168\u90e8\u7279\u5f81","note":"","object":"R_1","derivedFrom":["F_1_load_bearing"]}],"classifications":[{"id":"CLASS_8","subject":"R_8","type":"T_55","scheme":"SC_COLUMN","decision":"criteria_match","criteriaResults":[{"criterion":"T_55_C1","feature":"column_bay_form","expected":"\u4e94\u67f1\u4e94\u7b52","actual":"\u4e94\u67f1\u4e94\u7b52","assertion":"F_8_column_bay_form","result":"satisfied","reason":""}],"evidence":["E_Z8"],"attribution":"reader_modeling_inference","temporalScope":"\u4ec5\u6bd4\u8f83\u6587\u732e\u8868\u8ff0\uff0c\u672a\u77e5\u5355\u680b\u8c03\u67e5\u65e5\u671f\uff1b\u4e0d\u4f5c\u6f14\u53d8\u5224\u65ad","note":"\u540c\u4e00\u5b66\u4f4d\u8bba\u6587\u8868\u5217\u67f1\u7b52\u7c7b\u522b\u7684\u76f8\u7b49\u5339\u914d\u3002"},{"id":"PROTO_8","subject":"R_8","type":"T_PROTO","scheme":"SC_PROTO","decision":"criteria_not_match","criteriaResults":[{"criterion":"P_WALL","feature":"load_bearing","expected":false,"actual":false,"assertion":"F_8_load_bearing","result":"satisfied","reason":""},{"criterion":"P_COURT","feature":"rear_courtyard_form","expected":"\u4e00\u5b57\u5f62","actual":"\u4e00\u5b57\u5f62","assertion":"F_8_rear_courtyard_form","result":"satisfied","reason":""},{"criterion":"P_COLUMN","feature":"column_bay_form","expected":"\u4e94\u67f1\u56db\u7b52","actual":"\u4e94\u67f1\u4e94\u7b52","assertion":"F_8_column_bay_form","result":"not_satisfied","reason":""},{"criterion":"P_ROOF","feature":"roof_layered","expected":false,"actual":false,"assertion":"F_8_roof_layered","result":"satisfied","reason":""}],"evidence":["E_PROTOTYPE","E_Z8"],"attribution":"reader_modeling_inference","temporalScope":"\u4ec5\u6bd4\u8f83\u6587\u732e\u8868\u8ff0\uff0c\u672a\u77e5\u5355\u680b\u8c03\u67e5\u65e5\u671f\uff1b\u4e0d\u4f5c\u6f14\u53d8\u5224\u65ad","note":"\u8de8\u6765\u6e90\u56db\u9879\u7ec4\u5408\u8bd5\u5224\uff1b\u540c\u8bcd\u540c\u8303\u56f4\u53ea\u662f\u672c\u8f6e\u6bd4\u8f83\u5047\u8bbe\u3002\u672a\u8bc1\u660e\u5386\u53f2\u539f\u578b\u3001\u4f20\u627f\u5173\u7cfb\u6216\u7c7b\u578b\u5168\u8c8c\u3002"},{"id":"CLASS_1","subject":"R_1","type":"T_56","scheme":"SC_COLUMN","decision":"criteria_match","criteriaResults":[{"criterion":"T_56_C1","feature":"column_bay_form","expected":"\u4e94\u67f1\u516d\u7b52","actual":"\u4e94\u67f1\u516d\u7b52","assertion":"F_1_column_bay_form","result":"satisfied","reason":""}],"evidence":["E_Z1"],"attribution":"reader_modeling_inference","temporalScope":"\u4ec5\u6bd4\u8f83\u6587\u732e\u8868\u8ff0\uff0c\u672a\u77e5\u5355\u680b\u8c03\u67e5\u65e5\u671f\uff1b\u4e0d\u4f5c\u6f14\u53d8\u5224\u65ad","note":"\u540c\u4e00\u5b66\u4f4d\u8bba\u6587\u8868\u5217\u67f1\u7b52\u7c7b\u522b\u7684\u76f8\u7b49\u5339\u914d\u3002"},{"id":"PROTO_1","subject":"R_1","type":"T_PROTO","scheme":"SC_PROTO","decision":"criteria_not_match","criteriaResults":[{"criterion":"P_WALL","feature":"load_bearing","expected":false,"actual":true,"assertion":"F_1_load_bearing","result":"not_satisfied","reason":""},{"criterion":"P_COURT","feature":"rear_courtyard_form","expected":"\u4e00\u5b57\u5f62","actual":"\u65b9\u5f62","assertion":"F_1_rear_courtyard_form","result":"not_satisfied","reason":""},{"criterion":"P_COLUMN","feature":"column_bay_form","expected":"\u4e94\u67f1\u56db\u7b52","actual":"\u4e94\u67f1\u516d\u7b52","assertion":"F_1_column_bay_form","result":"not_satisfied","reason":""},{"criterion":"P_ROOF","feature":"roof_layered","expected":false,"actual":true,"assertion":"F_1_roof_layered","result":"unknown","reason":"\u539f\u6587\u8868/\u6587\u6982\u62ec\u4e0d\u4e00\u81f4\uff0c\u8868\u503c\u4fdd\u7559\u4f46\u6682\u4e0d\u7528\u4e8e\u786e\u5b9a\u5224\u5b9a"}],"evidence":["E_PROTOTYPE","E_Z1"],"attribution":"reader_modeling_inference","temporalScope":"\u4ec5\u6bd4\u8f83\u6587\u732e\u8868\u8ff0\uff0c\u672a\u77e5\u5355\u680b\u8c03\u67e5\u65e5\u671f\uff1b\u4e0d\u4f5c\u6f14\u53d8\u5224\u65ad","note":"\u8de8\u6765\u6e90\u56db\u9879\u7ec4\u5408\u8bd5\u5224\uff1b\u540c\u8bcd\u540c\u8303\u56f4\u53ea\u662f\u672c\u8f6e\u6bd4\u8f83\u5047\u8bbe\u3002\u672a\u8bc1\u660e\u5386\u53f2\u539f\u578b\u3001\u4f20\u627f\u5173\u7cfb\u6216\u7c7b\u578b\u5168\u8c8c\u3002"}],"gaps":[{"subject":"D_8","field":"plan_form","status":"unknown","reason":"\u672a\u786e\u8ba4\u672c\u53f7\u5b8c\u6574\u5e73\u9762\uff1b\u8bba\u6587\u901a\u7528\u9662\u843d\u793a\u610f\u4e0d\u80fd\u79fb\u690d\u7ed9\u6b64\u53f7"},{"subject":"D_8","field":"direct_access_to","status":"unknown","reason":"\u6ca1\u6709\u4e0e\u672c\u53f7\u8eab\u4efd\u5bf9\u5e94\u7684\u95e8\u6d1e/\u52a8\u7ebf\u56fe"},{"subject":"D_8","field":"supports","status":"unknown","reason":"\u53ea\u6709\u9662\u5899\u662f\u5426\u627f\u91cd\u5217\uff0c\u672a\u786e\u8ba4\u5177\u4f53\u652f\u627f\u6784\u4ef6\u5bf9"},{"subject":"D_8","field":"area","status":"unknown","reason":"\u6ca1\u6709\u8be5\u5bf9\u8c61\u7ecf\u6838\u5bf9\u7684\u9762\u79ef\u4e0e\u6d4b\u91cf\u8fb9\u754c"},{"subject":"D_8","field":"ChangeEvent","status":"unknown","reason":"\u6ca1\u6709\u540c\u680b\u524d\u540e\u72b6\u6001\u548c\u53ef\u9760\u65e5\u671f"},{"subject":"D_8","field":"anchored_to","status":"unknown","reason":"\u6ca1\u6709\u672c\u53f7\u5bf9\u5e94\u7684\u4e09\u7ef4\u6a21\u578b\u3001\u5750\u6807\u7cfb\u3001\u533a\u57df\u6807\u8bc6"},{"subject":"D_8","field":"current_status","status":"unknown","reason":"\u6587\u732e\u8bb0\u5f55\u4e0d\u8bc1\u660e2026\u5e74\u73b0\u72b6"},{"subject":"D_8","field":"Dwelling_boundary","status":"unknown","reason":"\u662f\u5426\u72ec\u7acb\u4f4f\u5b85\u3001\u5171\u9662\u4e0e\u9644\u5c5e\u4f53\u8303\u56f4\u5f85\u5b9e\u5730\u6838\u5bf9"},{"subject":"D_1","field":"plan_form","status":"unknown","reason":"\u672a\u786e\u8ba4\u672c\u53f7\u5b8c\u6574\u5e73\u9762\uff1b\u8bba\u6587\u901a\u7528\u9662\u843d\u793a\u610f\u4e0d\u80fd\u79fb\u690d\u7ed9\u6b64\u53f7"},{"subject":"D_1","field":"direct_access_to","status":"unknown","reason":"\u6ca1\u6709\u4e0e\u672c\u53f7\u8eab\u4efd\u5bf9\u5e94\u7684\u95e8\u6d1e/\u52a8\u7ebf\u56fe"},{"subject":"D_1","field":"supports","status":"unknown","reason":"\u53ea\u6709\u9662\u5899\u662f\u5426\u627f\u91cd\u5217\uff0c\u672a\u786e\u8ba4\u5177\u4f53\u652f\u627f\u6784\u4ef6\u5bf9"},{"subject":"D_1","field":"area","status":"unknown","reason":"\u6ca1\u6709\u8be5\u5bf9\u8c61\u7ecf\u6838\u5bf9\u7684\u9762\u79ef\u4e0e\u6d4b\u91cf\u8fb9\u754c"},{"subject":"D_1","field":"ChangeEvent","status":"unknown","reason":"\u6ca1\u6709\u540c\u680b\u524d\u540e\u72b6\u6001\u548c\u53ef\u9760\u65e5\u671f"},{"subject":"D_1","field":"anchored_to","status":"unknown","reason":"\u6ca1\u6709\u672c\u53f7\u5bf9\u5e94\u7684\u4e09\u7ef4\u6a21\u578b\u3001\u5750\u6807\u7cfb\u3001\u533a\u57df\u6807\u8bc6"},{"subject":"D_1","field":"current_status","status":"unknown","reason":"\u6587\u732e\u8bb0\u5f55\u4e0d\u8bc1\u660e2026\u5e74\u73b0\u72b6"},{"subject":"D_1","field":"Dwelling_boundary","status":"unknown","reason":"\u662f\u5426\u72ec\u7acb\u4f4f\u5b85\u3001\u5171\u9662\u4e0e\u9644\u5c5e\u4f53\u8303\u56f4\u5f85\u5b9e\u5730\u6838\u5bf9"}],"conflicts":[{"id":"CONFLICT_1","subject":"R_1","predicate":"roof_layered","assertion":"F_1_roof_layered","evidence":["E_Z1","E_COMMON"],"status":"unresolved","handling":"\u4fdd\u7559\u8868\u503c\u4e3a\u6765\u6e90\u62a5\u544a\uff1b\u5224\u636e\u8bc4\u4ef7\u7f6eunknown\uff1b\u4e0d\u628a\u5e38\u89c1\u578b\u6587\u5b57\u76f4\u63a5\u8f6c\u6210\u53e6\u4e00\u6761\u5df2\u786e\u8ba4\u5355\u4f53\u5426\u5b9a\u503c\u3002"}],"limits":["\u5019\u9009\u7a7a\u95f4/\u90e8\u4f4d\u62c6\u5206\u662f\u8bfb\u8005\u5efa\u6a21\u63a8\u65ad\uff0c\u663e\u793a\u4e3atentative\uff0c\u4e0d\u58f0\u79f0\u539f\u6587\u9010\u4e2a\u547d\u540d\u3002","\u8d44\u6599\u4ec5\u591f\u56db\u9879\u6784\u9020\u7279\u5f81\u548c\u6709\u9650\u8eab\u4efd\u5b9a\u4f4d\uff1b\u901a\u884c\u3001\u652f\u627f\u3001\u5c3a\u5bf8\u3001\u5e74\u4ee3\u548c\u4e09\u7ef4\u5173\u7cfb\u672a\u5b9e\u4f8b\u5316\u3002","\u88683.7\u6c11\u5c45\u7f16\u53f7\u4e0e\u672c\u7bc7\u5730\u56fe\u5339\u914d\uff0c\u4e0d\u7b49\u4e8e\u8de8\u6587\u732e\u6216\u5f53\u524d\u5b9e\u5730\u552f\u4e00\u6807\u8bc6\u3002","1\u53f7\u5c4b\u9762\u8868\u503c\u4e0e\u5e38\u89c1\u578b\u6982\u62ec\u5b58\u5728\u5f85\u6838\u4e0d\u4e00\u81f4\uff0c\u5206\u7c7b\u4e0d\u5f3a\u884c\u91c7\u7528\u8be5\u9879\u3002"],"datasetKind":"literature_case","migration":{"from":"../\u5355\u4f53\u5c42\u77e5\u8bc6\u56fe\u8c31v0.1/\u6848\u4f8b\u56fe\u8c31.json","sourceSha256":"3efea4bddad187cbf4aa6a44949ab7e887955b4157709fd1b498a17bce8fa454","rule":"\u5168\u90e814\u8282\u70b9\u300127\u65ad\u8a00\u30014\u6b21\u5206\u7c7b\u30015\u9879\u8bc1\u636e\u7684\u4e8b\u5b9e\u5185\u5bb9\u4fdd\u7559\uff1b\u53ea\u8865\u6570\u636e\u96c6\u8eab\u4efd\u4e0e\u7ef4\u62a4\u8def\u5f84\uff0c\u672a\u589e\u52a0\u73b0\u573a\u4e8b\u5b9e\u3002"}},"demo":{"version":"0.2","datasetKind":"synthetic_demo","status":"demonstration_only","created":"2026-10-22","scope":"\u5802\u5c4b\u2014\u524d\u5eca\u2014\u5367\u5ba4\u7684\u865a\u6784\u6559\u5b66\u793a\u4f8b\uff1b\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u8bed\u4e49\uff0c\u4e0d\u5bf9\u5e94\u4efb\u4f55\u5b9e\u9645\u4f4f\u5b85\u3001\u8c03\u67e5\u6837\u672c\u6216\u8bba\u6587\u539f\u6848\u4f8b\u3002","nodes":[{"id":"D_DEMO","label":"\u6f14\u793a\u6c11\u5c45\uff08\u865a\u6784\uff09","class":"Dwelling","identityStatus":"synthetic","note":"\u865a\u6784\u6f14\u793a\uff0c\u4e0d\u8ba1\u5165\u5b9e\u9645\u6837\u672c\u3002"},{"id":"S_HALL","label":"\u5802\u5c4b\uff08\u6f14\u793a\uff09","class":"Space","identityStatus":"synthetic","note":"\u865a\u6784\u6f14\u793a\uff0c\u4e0d\u8ba1\u5165\u5b9e\u9645\u6837\u672c\u3002","divisionScheme":"DEMO_SEMANTIC_REGIONS","boundaryBasis":"\u573a\u666f\u4e2d\u6309\u5802\u5c4b\u3001\u524d\u5eca\u3001\u5367\u5ba4\u7684\u5efa\u7b51\u610f\u4e49\u5b9a\u4e49\u8fb9\u754c\uff1b\u65e0\u6d4b\u91cf\u5750\u6807\u3002","boundaryStatus":"proposed"},{"id":"S_VERANDA","label":"\u524d\u5eca\uff08\u6f14\u793a\uff09","class":"Space","identityStatus":"synthetic","note":"\u865a\u6784\u6f14\u793a\uff0c\u4e0d\u8ba1\u5165\u5b9e\u9645\u6837\u672c\u3002","divisionScheme":"DEMO_SEMANTIC_REGIONS","boundaryBasis":"\u573a\u666f\u4e2d\u6309\u5802\u5c4b\u3001\u524d\u5eca\u3001\u5367\u5ba4\u7684\u5efa\u7b51\u610f\u4e49\u5b9a\u4e49\u8fb9\u754c\uff1b\u65e0\u6d4b\u91cf\u5750\u6807\u3002","boundaryStatus":"proposed"},{"id":"S_BED","label":"\u5367\u5ba4\uff08\u6f14\u793a\uff09","class":"Space","identityStatus":"synthetic","note":"\u865a\u6784\u6f14\u793a\uff0c\u4e0d\u8ba1\u5165\u5b9e\u9645\u6837\u672c\u3002","divisionScheme":"DEMO_SEMANTIC_REGIONS","boundaryBasis":"\u573a\u666f\u4e2d\u6309\u5802\u5c4b\u3001\u524d\u5eca\u3001\u5367\u5ba4\u7684\u5efa\u7b51\u610f\u4e49\u5b9a\u4e49\u8fb9\u754c\uff1b\u65e0\u6d4b\u91cf\u5750\u6807\u3002","boundaryStatus":"proposed"},{"id":"I_OPEN","label":"\u5802\u5c4b\u2014\u524d\u5eca\u5f00\u653e\u5206\u754c","class":"Interface","identityStatus":"synthetic","note":"\u865a\u6784\u6f14\u793a\uff0c\u4e0d\u8ba1\u5165\u5b9e\u9645\u6837\u672c\u3002"},{"id":"I_WALL","label":"\u5802\u5c4b\u2014\u5367\u5ba4\u9694\u5899\u754c\u9762","class":"Interface","identityStatus":"synthetic","note":"\u865a\u6784\u6f14\u793a\uff0c\u4e0d\u8ba1\u5165\u5b9e\u9645\u6837\u672c\u3002"},{"id":"E_WALL","label":"\u65e0\u5f00\u53e3\u5899\u4f53\uff08\u6f14\u793a\uff09","class":"Element","identityStatus":"synthetic","note":"\u865a\u6784\u6f14\u793a\uff0c\u4e0d\u8ba1\u5165\u5b9e\u9645\u6837\u672c\u3002"}],"assertions":[{"id":"HAS_S_HALL","subject":"D_DEMO","predicate":"has_space","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_HALL"},{"id":"HAS_S_VERANDA","subject":"D_DEMO","predicate":"has_space","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_VERANDA"},{"id":"HAS_S_BED","subject":"D_DEMO","predicate":"has_space","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_BED"},{"id":"NAME_S_HALL","subject":"S_HALL","predicate":"local_space_name","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"\u5802\u5c4b"},{"id":"BASIS_S_HALL","subject":"S_HALL","predicate":"space_division_basis","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"\u6309\u573a\u666f\u4e2d\u7684\u5efa\u7b51\u610f\u4e49\u5212\u5206\uff1b\u8fde\u7eed\u5f00\u653e\u4e0d\u53d6\u6d88\u7a7a\u95f4\u8eab\u4efd\u3002"},{"id":"NAME_S_VERANDA","subject":"S_VERANDA","predicate":"local_space_name","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"\u524d\u5eca"},{"id":"BASIS_S_VERANDA","subject":"S_VERANDA","predicate":"space_division_basis","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"\u6309\u573a\u666f\u4e2d\u7684\u5efa\u7b51\u610f\u4e49\u5212\u5206\uff1b\u8fde\u7eed\u5f00\u653e\u4e0d\u53d6\u6d88\u7a7a\u95f4\u8eab\u4efd\u3002"},{"id":"NAME_S_BED","subject":"S_BED","predicate":"local_space_name","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"\u5367\u5ba4"},{"id":"BASIS_S_BED","subject":"S_BED","predicate":"space_division_basis","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"\u6309\u573a\u666f\u4e2d\u7684\u5efa\u7b51\u610f\u4e49\u5212\u5206\uff1b\u8fde\u7eed\u5f00\u653e\u4e0d\u53d6\u6d88\u7a7a\u95f4\u8eab\u4efd\u3002"},{"id":"USE_V_0","subject":"S_VERANDA","predicate":"space_use","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"\u4ea4\u901a"},{"id":"USE_V_1","subject":"S_VERANDA","predicate":"space_use","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"\u505c\u7559"},{"id":"ENC_V","subject":"S_VERANDA","predicate":"enclosure_degree","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","normalizedTerm":"TERM_SEMI_OPEN","value":"semi_open"},{"id":"I_OPEN_HALL","subject":"I_OPEN","predicate":"interface_of","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_HALL"},{"id":"I_OPEN_OTHER","subject":"I_OPEN","predicate":"interface_of","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_VERANDA"},{"id":"I_WALL_HALL","subject":"I_WALL","predicate":"interface_of","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_HALL"},{"id":"I_WALL_OTHER","subject":"I_WALL","predicate":"interface_of","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_BED"},{"id":"KIND_OPEN","subject":"I_OPEN","predicate":"interface_kind","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"open_boundary"},{"id":"KIND_WALL","subject":"I_WALL","predicate":"interface_kind","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"solid_boundary"},{"id":"SEP_OPEN","subject":"I_OPEN","predicate":"physical_separation","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"none"},{"id":"SEP_WALL","subject":"I_WALL","predicate":"physical_separation","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"full"},{"id":"STATE_OPEN","subject":"I_OPEN","predicate":"opening_state","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","value":"open"},{"id":"PASS_OPEN","subject":"I_OPEN","predicate":"passage_allowed","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","accessContext":{"scenario":"\u6559\u5b66\u793a\u4f8b\u4e2d\u7684\u6b63\u5e38\u4f7f\u7528\u65f6\u6bb5","agent":"\u53ef\u72ec\u7acb\u884c\u8d70\u7684\u6210\u4eba","mode":"\u666e\u901a\u6b65\u884c"},"value":true},{"id":"PASS_WALL","subject":"I_WALL","predicate":"passage_allowed","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","accessContext":{"scenario":"\u6559\u5b66\u793a\u4f8b\u4e2d\u7684\u6b63\u5e38\u4f7f\u7528\u65f6\u6bb5","agent":"\u53ef\u72ec\u7acb\u884c\u8d70\u7684\u6210\u4eba","mode":"\u666e\u901a\u6b65\u884c"},"value":false},{"id":"WALL_REALIZED","subject":"I_WALL","predicate":"realized_by","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"E_WALL"},{"id":"ADJ_HV","subject":"S_HALL","predicate":"adjacent_to","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_VERANDA"},{"id":"ADJ_HB","subject":"S_HALL","predicate":"adjacent_to","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","object":"S_BED"},{"id":"ACCESS_HV","subject":"S_HALL","predicate":"direct_access_to","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","via":"I_OPEN","accessContext":{"scenario":"\u6559\u5b66\u793a\u4f8b\u4e2d\u7684\u6b63\u5e38\u4f7f\u7528\u65f6\u6bb5","agent":"\u53ef\u72ec\u7acb\u884c\u8d70\u7684\u6210\u4eba","mode":"\u666e\u901a\u6b65\u884c"},"object":"S_VERANDA"},{"id":"ACCESS_VH","subject":"S_VERANDA","predicate":"direct_access_to","evidence":["E_DEMO"],"attribution":"synthetic_assumption","temporalScope":"\u865a\u6784\u573a\u666f\u540c\u4e00\u8bbe\u5b9a\u65f6\u70b9\uff1b\u65e0\u5b9e\u9645\u89c2\u6d4b\u65e5\u671f","status":"demonstration","scope":"\u6559\u5b66\u793a\u4f8b","method":"\u4eba\u5de5\u8bbe\u5b9a\uff0c\u7528\u4e8e\u68c0\u67e5\u8868\u8fbe\u89c4\u5219","recordedAt":"2026-10-22","observer":"\u672c\u8f6e\u5efa\u6a21\u8005","via":"I_OPEN","accessContext":{"scenario":"\u6559\u5b66\u793a\u4f8b\u4e2d\u7684\u6b63\u5e38\u4f7f\u7528\u65f6\u6bb5","agent":"\u53ef\u72ec\u7acb\u884c\u8d70\u7684\u6210\u4eba","mode":"\u666e\u901a\u6b65\u884c"},"object":"S_HALL"}],"classifications":[],"gaps":[{"subject":"D_DEMO","predicate":"anchored_to","status":"unknown","note":"\u6ca1\u6709\u4e09\u7ef4\u8d44\u4ea7\uff0c\u4ec5\u6f14\u793a\u7a7a\u95f4\u8bed\u4e49\u3002"},{"subject":"S_BED","predicate":"other_access_routes","status":"unknown","note":"\u672a\u8bbe\u5b9a\u5367\u5ba4\u5176\u4ed6\u5f00\u53e3\u6216\u7ed5\u884c\u8def\u7ebf\uff0c\u4e0d\u7531\u672c\u4f8b\u63a8\u65ad\u5367\u5ba4\u5b8c\u5168\u4e0d\u53ef\u8fbe\u3002"}],"conflicts":[],"limits":["\u793a\u4f8b\u4ec5\u6d4b\u8bd5\u7ed3\u6784\u548c\u67e5\u8be2\u884c\u4e3a\uff0c\u4e0d\u8bc1\u660e\u5b9e\u5730\u8fb9\u754c\u5408\u7406\u6216\u65b9\u6cd5\u6709\u6548\u3002","\u6ca1\u6709\u771f\u5b9e\u5c3a\u5bf8\u3001\u5750\u6807\u3001\u4e09\u7ef4\u6a21\u578b\u3001\u6587\u5316\u4e8b\u5b9e\u6216\u623f\u95f4\u5168\u7f51\u7edc\u3002"],"sources":[{"id":"S_DEMO","title":"\u7814\u7a76\u8005\u6784\u9020\u7684\u5802\u5c4b\u2014\u524d\u5eca\u6559\u5b66\u793a\u4f8b","sourceKind":"synthetic_scenario","author":"\u672c\u8f6e\u5efa\u6a21\u8005","year":2026,"note":"\u627f\u63a5\u7528\u6237\u63d0\u51fa\u7684\u8fde\u7eed\u7a7a\u95f4\u8ba8\u8bba\uff1b\u524d\u5eca\u4e0e\u5367\u5ba4\u7684\u9694\u5899\u5bf9\u7167\u4e3a\u672c\u8f6e\u65b0\u589e\u5047\u8bbe\u3002"}],"evidence":[{"id":"E_DEMO","source":"S_DEMO","pdfPages":[],"printedPages":[],"locator":"\u672c\u6587\u4ef6scenarioDefinition","summary":"\u4e3a\u6f14\u793a\u660e\u786e\u8bbe\u5b9a\uff1a\u5802\u5c4b\u4e0e\u524d\u5eca\u5206\u4e3a\u4e24\u4e2a\u7a7a\u95f4\uff0c\u5171\u4eab\u5f00\u653e\u5206\u754c\u3001\u65e0\u5b9e\u4f53\u9694\u65ad\uff1b\u6b63\u5e38\u6b65\u884c\u53cc\u5411\u901a\u884c\u3002\u5802\u5c4b\u4e0e\u5367\u5ba4\u5728\u53e6\u4e00\u754c\u9762\u76f8\u90bb\uff0c\u8be5\u754c\u9762\u4e3a\u65e0\u5f00\u53e3\u5b9e\u4f53\u5899\uff0c\u4e0d\u5141\u8bb8\u7a7f\u8d8a\u8be5\u754c\u9762\u3002\u5176\u4ed6\u8def\u5f84\u548c\u5c3a\u5bf8\u672a\u8bbe\u5b9a\u3002","attribution":"synthetic_assumption","visualChecked":false}],"scenarioDefinition":"E_DEMO\u4ec5\u652f\u6301\u5408\u6210\u793a\u4f8b\u5185\u90e8\u8bbe\u5b9a\uff0c\u4e0d\u662f\u5efa\u7b51\u8c03\u67e5\u8bc1\u636e\u3002"},"optimizationLog":{"version":"0.2","date":"2026-10-22","authority":"\u7528\u6237\u6388\u6743\u4f18\u5316\u5e76\u8981\u6c42\u6807\u6ce8\u4f9d\u636e\u548c\u4e8b\u5b9e\u8bb0\u5f55\uff1b\u6240\u6709\u672c\u5730\u5b57\u6bb5/\u7ea6\u675f\u662f\u672c\u7814\u7a76\u8bbe\u8ba1\uff0c\u4e0d\u5192\u5145\u516d\u7bc7\u5171\u540c\u63d0\u51fa\u7684\u672c\u4f53\u3002","changes":[{"id":"O01","title":"\u7a7a\u95f4\u5212\u5206\u53ef\u4ee5\u4f9d\u636e\u5efa\u7b51\u610f\u4e49","before":"Space\u5b9a\u4e49\u504f\u6982\u62ec\uff0c\u672a\u663e\u5f0f\u8bb0\u5f55\u8fde\u7eed\u7a7a\u95f4\u7684\u5206\u754c\u4f9d\u636e\u3002","after":"\u8865\u5145\u8bed\u4e49\u5206\u754c\u4e0e\u65b0\u7a7a\u95f4\u7684\u5212\u5206\u4f53\u7cfb\u3001\u4f9d\u636e\u3001\u72b6\u6001\uff1b\u5802\u5c4b\u548c\u524d\u5eca\u53ef\u4ee5\u4fdd\u6301\u4e24\u4e2a\u8282\u70b9\u3002","basisRefs":["ISM01","ISM02","ISM03","BOT01"],"rationale":"\u628a\u7528\u6237\u5df2\u786e\u8ba4\u7684\u7a7a\u95f4\u7406\u89e3\u8f6c\u6210\u53ef\u68c0\u67e5\u89c4\u5219\u3002","implementation":"Space\u5b9a\u4e49\u3001spaceIdentityContract\u3001space_division_basis\uff1b\u6f14\u793aS_HALL/S_VERANDA","status":"\u6a21\u578b\u4e0e\u5408\u6210\u793a\u4f8b\u5df2\u5b9e\u73b0","validationBoundary":"\u771f\u5b9e\u6c11\u5c45\u5982\u4f55\u5212\u5206\u4ecd\u9700\u5e73\u9762\u3001\u73b0\u573a\u53ca\u5efa\u7b51\u5b66\u5224\u65ad\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O02","title":"\u589e\u52a0\u53ef\u63cf\u8ff0\u7684\u7a7a\u95f4\u754c\u9762","before":"\u53ea\u6709\u7a7a\u95f4\u2014\u7a7a\u95f4\u8fb9\uff0c\u96be\u4ee5\u8bb0\u5f55\u67d0\u4e00\u4e2a\u8fde\u63a5\u4f4d\u7f6e\u7684\u6027\u8d28\u3002","after":"\u65b0\u589eInterface\u548cinterface_of\u3001realized_by\uff1b\u5f00\u53e3\u4e0e\u5899\u95e8\u5b9e\u4f53\u5206\u5f00\u3002","basisRefs":["BOT01","BOT03","ISM03","ISM04"],"rationale":"\u754c\u9762\u627f\u8f7d\u5206\u9694\u3001\u5f00\u53e3\u4e0e\u8fde\u63a5\u60c5\u51b5\uff0c\u5141\u8bb8\u65e0\u5b9e\u4f53\u95e8\u6846\u7684\u5206\u754c\u3002","implementation":"Interface\u53ca\u4e24\u79cd\u6f14\u793a\u754c\u9762","status":"\u6a21\u578b\u4e0e\u5408\u6210\u793a\u4f8b\u5df2\u5b9e\u73b0","validationBoundary":"PseudoOpening\u4e0eInterface\u4e3a\u672c\u7814\u7a76\u90e8\u5206\u5bf9\u5e94\uff0c\u672a\u5ba3\u544a\u5916\u90e8\u6807\u51c6\u7b49\u4ef7\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O03","title":"\u90bb\u63a5\u3001\u901a\u884c\u3001\u76f8\u4ea4\u4e0e\u5206\u9694\u5206\u522b\u8868\u8fbe","before":"adjacent_to\u5305\u542b\u201c\u5171\u4eab\u6216\u7d27\u90bb\u201d\u4e24\u79cd\u542b\u4e49\uff1b\u901a\u884c\u8fb9\u7f3a\u5c11\u754c\u9762\u4e0e\u60c5\u5883\u3002","after":"\u90bb\u63a5\u6536\u7d27\u4e3a\u5171\u4eab\u8fb9\u754c\uff1b\u901a\u884c\u5fc5\u5e26via\u53ca\u60c5\u5883\uff1b\u65b0\u589e\u76f8\u4ea4\u3001\u754c\u9762\u5206\u9694\u4e0e\u5f00\u53e3\u72b6\u6001\u3002","basisRefs":["BOT02","BOT03","ISM03"],"rationale":"\u9632\u6b62\u9760\u8fd1\u5373\u90bb\u63a5\u3001\u90bb\u63a5\u5373\u901a\u884c\u3001\u65e0\u9694\u65ad\u5373\u968f\u65f6\u53ef\u901a\u8fc7\u3002","implementation":"4\u9879\u754c\u9762\u7279\u5f81\u3001intersects_space\u3001direct_access_to\u9650\u5b9a\uff1b\u8d1f\u4f8b\u68c0\u67e5","status":"\u6a21\u578b\u4e0e\u67e5\u8be2\u89c4\u5219\u5df2\u5b9e\u73b0","validationBoundary":"\u76f8\u4ea4\u5173\u7cfb\u5c1a\u65e0\u771f\u5b9e\u5b9e\u4f8b\uff1b\u65b9\u5411\u3001\u5bb9\u5dee\u548c\u65f6\u70b9\u987b\u5b9e\u9645\u91c7\u96c6\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O04","title":"\u540d\u79f0\u3001\u7528\u9014\u3001\u56f4\u5408\u4e0e\u5f62\u6001\u5206\u8f74","before":"\u5df2\u6709\u540d\u79f0/\u7528\u9014/\u5f62\u6001\uff0c\u4f46\u56f4\u5408\u7a0b\u5ea6\u548c\u591a\u503c\u7ea6\u675f\u4e0d\u660e\u786e\u3002","after":"\u4fdd\u7559\u539f\u8bcd\uff0c\u8865\u56f4\u5408\u7a0b\u5ea6\u3001\u5c42\u4f4d\uff1b\u7528\u9014\u660e\u786e\u5141\u8bb8\u591a\u503c\uff0c\u4e0d\u5f3a\u5236\u552f\u4e00\u603b\u7c7b\u578b\u3002","basisRefs":["H04","H09","H10","ISM01","ISM02"],"rationale":"\u524d\u5eca\u53ef\u540c\u65f6\u662f\u540d\u79f0\u3001\u534a\u5f00\u653e\u7a7a\u95f4\u53ca\u4ea4\u901a/\u505c\u7559\u573a\u6240\u3002","implementation":"features\u4e0e\u793a\u4f8b\u4e24\u4e2aspace_use\u65ad\u8a00","status":"\u5b57\u6bb5\u4e0e\u5408\u6210\u793a\u4f8b\u5df2\u5b9e\u73b0","validationBoundary":"\u4e0d\u628a\u5fbd\u5dde\u7c7b\u522b\u76f4\u63a5\u8ba4\u4f5c\u666f\u5b81\u5730\u65b9\u5206\u7c7b\uff0c\u4e5f\u4e0d\u628aHall\u8bd1\u4f5c\u5802\u5c4b\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O05","title":"\u672f\u8bed\u5bf9\u9f50\u4e0e\u5b9e\u4f53\u53bb\u91cd\u5206\u5f00","before":"\u4ec5\u4ee5\u6587\u5b57\u8bf4\u660e\u4fdd\u7559\u539f\u8bcd\u4e0e\u6e90\u5185\u8eab\u4efd\uff0c\u7f3a\u5c11\u7ed3\u6784\u5316\u5bf9\u5e94\u89c4\u5219\u3002","after":"\u589e\u52a0\u8bcd\u8868\u4e0e\u6620\u5c04\u72b6\u6001\u3001\u5b9e\u4f53\u8eab\u4efd\u6838\u5bf9\u5951\u7ea6\uff1b\u76f8\u8fd1\u8bcd\u4e0d\u81ea\u52a8\u5408\u5e76\u5efa\u7b51\u3002","basisRefs":["H04","F22","M60"],"rationale":"\u4fbf\u4e8e\u8de8\u6587\u732e\u6bd4\u8f83\uff0c\u540c\u65f6\u4fdd\u7559\u4e0d\u540c\u5730\u57df\u3001\u6587\u732e\u7684\u7528\u8bcd\u5dee\u5f02\u3002","implementation":"vocabulary\u4e24\u6761\u6765\u6e90\u7528\u8bed\uff1bentityAlignmentContract","status":"\u5c0f\u8bcd\u8868\u4e0e\u6838\u5bf9\u7ed3\u6784\u5df2\u5b9e\u73b0","validationBoundary":"\u672a\u5f00\u5c55\u5168\u5e93\u8bcd\u6c47\u5f52\u5e76\u6216\u8de8\u6587\u732e\u5efa\u7b51\u53bb\u91cd\uff1bHall\u4e0e\u5802\u5c4b\u7981\u6b62\u81ea\u52a8\u7b49\u540c\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O06","title":"\u660e\u786e\u6982\u5ff5\u3001\u5b9e\u4f8b\u3001\u7ec4\u6210\u548c\u5c5e\u6027\u7684\u843d\u4f4d","before":"\u5df2\u6709\u7c7b\u578b\u548c\u5224\u65ad\u5206\u79bb\uff0c\u4f46\u7f3a\u5c11\u5b8c\u6574\u5b58\u50a8\u6620\u5c04\u8bf4\u660e\u3002","after":"\u663e\u5f0f\u5217\u51faclasses\u3001nodes\u3001object/value\u65ad\u8a00\u3001classification\u53ca\u4f53\u7cfb\u5185broaderType\u7684\u4e0d\u540c\u804c\u8d23\u3002","basisRefs":["H05","H06","H07","F06","F21","F25","M17"],"rationale":"\u907f\u514d\u628a\u201c\u67d0\u79cd\u7a7a\u95f4\u201d\u201c\u67d0\u4e2a\u623f\u95f4\u201d\u201c\u623f\u95f4\u7684\u7ec4\u6210\u201d\u6df7\u4e3a\u4e00\u6761\u5c42\u7ea7\u5173\u7cfb\u3002","implementation":"storageMapping\u4e0e\u5173\u7cfb\u57df\u68c0\u67e5","status":"\u89c4\u5219\u4e0e\u73b0\u6709\u6848\u4f8b\u68c0\u67e5\u5df2\u5b9e\u73b0","validationBoundary":"a/o\u662f\u8be5\u6587\u7684\u5206\u7c7b\u5173\u7cfb\uff0c\u4e0d\u80fd\u76f4\u63a5\u7167\u642c\u6210OWL\u6570\u636e\u5c5e\u6027\uff1b\u672a\u90e8\u7f72Neo4j/OWL\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O07","title":"\u5c06\u4f18\u5316\u4f9d\u636e\u4e0e\u5efa\u7b51\u4e8b\u5b9e\u5206\u522b\u8ffd\u6eaf","before":"v0.1\u65ad\u8a00\u5df2\u6709\u9875\u7801\u3001\u5f52\u5c5e\u3001\u65f6\u70b9\u4e0e\u51b2\u7a81\uff1b\u6a21\u578b\u4f18\u5316\u8fc7\u7a0b\u672a\u72ec\u7acb\u7559\u8d26\u3002","after":"\u6bcf\u9879\u4f18\u5316\u94fe\u63a5\u6587\u732e\u8bc1\u636e\u3001\u524d\u540e\u5dee\u5f02\u4e0e\u5b9e\u73b0\u4f4d\u7f6e\uff1b\u6570\u636e\u96c6\u533a\u5206\u6587\u732e\u6848\u4f8b\u548c\u5408\u6210\u6f14\u793a\uff0c\u4fdd\u7559\u65e7\u51b2\u7a81\u3002","basisRefs":["F22","M60","BOT03"],"rationale":"\u4e0d\u628a\u65b9\u6cd5\u8bba\u6587\u4f5c\u4e3a\u67d0\u5ea7\u6c11\u5c45\u7a7a\u95f4\u4e8b\u5b9e\u7684\u8bc1\u660e\uff1b\u65b0\u589e\u4e8b\u5b9e\u987b\u6709\u6765\u6e90\u3001\u53d6\u5f97\u65b9\u6cd5\u4e0e\u65f6\u70b9\u3002","implementation":"\u4f18\u5316\u4f9d\u636e.json\u3001\u4f18\u5316\u8bb0\u5f55.json\u3001\u8fc1\u79fb\u6838\u5bf9\uff1bassertionContract.contextRules","status":"\u8bb0\u5f55\u4e0e\u9694\u79bb\u5df2\u5b9e\u73b0","validationBoundary":"\u672c\u9879\u8be6\u7ec6\u8ffd\u6eaf\u7ed3\u6784\u662f\u7814\u7a76\u8005\u65b0\u589e\u89c4\u5219\uff1b\u8bba\u6587\u672a\u63d0\u4f9b\u540c\u6837\u5b8c\u6574\u7684\u8ffd\u6eaf\u65b9\u6848\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O08","title":"\u5206\u6790\u76f8\u4f3c\u4f5c\u4e3a\u6709\u8f93\u5165\u7684\u6d3e\u751f\u7ed3\u679c","before":"\u5df2\u6709\u7c7b\u578b\u5224\u65ad\uff0c\u6ca1\u6709\u76f8\u4f3c\u8ba1\u7b97\u7684\u6765\u6e90\u7ed3\u6784\u3002","after":"\u65b0\u589eAnalysisRun\u4e0esimilar_to\u9650\u5b9a\uff1b\u8bb0\u5f55\u8f93\u5165\u3001\u7ef4\u5ea6\u3001\u65b9\u6cd5\u7248\u672c\u3001\u53c2\u6570\u548c\u7f3a\u5931\u5904\u7406\u3002","basisRefs":["W11","W26","W31"],"rationale":"\u533a\u5206\u5206\u6790\u76f8\u4f3c\u4e0e\u7a7a\u95f4\u90bb\u63a5\u3001\u6587\u5316\u6210\u56e0\uff0c\u652f\u6301\u540e\u7eed\u53ef\u590d\u7b97\u6bd4\u8f83\u3002","implementation":"AnalysisRun\u3001analysisRunContract\u3001similar_to","status":"\u4ec5\u7ed3\u6784\u4e0e\u7ea6\u675f\u5df2\u5b9e\u73b0","validationBoundary":"\u672a\u8ba1\u7b97\u76f8\u4f3c\u5ea6\u6216\u805a\u7c7b\uff1b\u4e0d\u8fc1\u79fb\u6751\u843d\u7814\u7a76\u768415\u8fd1\u90bb\u548c30%/70%\u9608\u503c\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O09","title":"\u7ec6\u5316\u4e09\u7ef4\u533a\u57df\u5173\u8054\u8bb0\u5f55","before":"GeometryRegion\u53ea\u6709\u7248\u672c/\u5750\u6807/\u533a\u57dfID\u7684\u6982\u62ec\u63a5\u53e3\u3002","after":"\u8865\u8d44\u4ea7\u4f4d\u7f6e\u3001\u7248\u672c/\u54c8\u5e0c\u3001\u5750\u6807\u7cfb/\u5355\u4f4d\u3001\u533a\u57df\u9009\u62e9\u5668\u3001\u5bf9\u5e94\u65b9\u6cd5\u3001\u72b6\u6001\u548c\u8986\u76d6\u8303\u56f4\uff1b\u754c\u9762\u4e5f\u53ef\u5173\u8054\u3002","basisRefs":["BOT04","H29"],"rationale":"\u5c06\u8bed\u4e49\u5bf9\u8c61\u4e0e\u51e0\u4f55\u6587\u4ef6\u7684\u5173\u7cfb\u53d8\u6210\u53ef\u6838\u5bf9\u8bb0\u5f55\u3002","implementation":"geometryContract\u3001anchored_to\u6269\u5c55","status":"\u4ec5\u63a5\u53e3\u4e0e\u7ea6\u675f\u5df2\u5b9e\u73b0","validationBoundary":"\u6ca1\u6709\u52a0\u8f7d\u771f\u5b9e\u4e09\u7ef4\u8d44\u4ea7\uff1b\u5b8c\u6574\u533a\u57df\u5173\u8054\u662f\u672c\u7814\u7a76\u8bbe\u8ba1\uff0c\u672a\u88ab\u516d\u7bc7\u76f4\u63a5\u9a8c\u8bc1\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"},{"id":"O10","title":"\u7528\u53ef\u6838\u5bf9\u7684\u95ee\u9898\u68c0\u9a8c\u6a21\u578b","before":"v0.1\u5df2\u6709\u6784\u9020\u7c7b\u578b\u4e0e\u6765\u6e90\u67e5\u8be2\uff0c\u7a7a\u95f4\u67e5\u8be2\u56e0\u65e0\u8d44\u6599\u800c\u4e3a\u7a7a\u3002","after":"\u589e\u52a0\u72ec\u7acb\u7a7a\u95f4\u793a\u4f8b\u53ca\u67e5\u8be2\uff1a\u5f00\u653e\u5206\u754c\u3001\u76f8\u90bb\u4f46\u4e0d\u80fd\u7a7f\u8d8a\u3001\u591a\u7528\u9014\u3001\u6765\u6e90\u56de\u6eaf\u3001\u65e0\u6570\u636e\u62d2\u7edd\u63a8\u65ad\u3002","basisRefs":["M31","M57","M64","BOT03","ISM03"],"rationale":"\u8ba9\u6bcf\u9879\u7ed3\u6784\u6539\u52a8\u5bf9\u5e94\u5b9e\u9645\u53ef\u68c0\u67e5\u7684\u56de\u7b54\uff0c\u5e76\u4fdd\u7559\u8d44\u6599\u4e0d\u8db3\u72b6\u6001\u3002","implementation":"\u68c0\u67e5\u56fe\u8c31.py\u3001\u9a8c\u8bc1\u7ed3\u679c.json\u3001\u67e5\u8be2\u4e0e\u9a8c\u6536.md\u3001\u6d4f\u89c8\u56fe","status":"\u67e5\u8be2\u4e0e\u9632\u9519\u68c0\u9a8c\u5b9e\u73b0\u540e\u8bb0\u5f55\u5b9e\u9645\u7ed3\u679c","validationBoundary":"\u5408\u6210\u67e5\u8be2\u4e0d\u7b49\u4e8e\u771f\u5b9e\u6837\u672c\u6709\u6548\u6027\u3001\u7aef\u5230\u7aef\u95ee\u7b54\u8bc4\u4f30\u6216\u7528\u6237\u7814\u7a76\u3002","attribution":"reader_cross_paper_modeling","recordedAt":"2026-10-22"}]},"optimizationBasis":{"version":"0.2","recordedAt":"2026-10-22","scope":"6\u7bc7\u76f4\u63a5\u65b9\u6cd5\u53c2\u8003\uff1b\u4e0d\u628aREADME\u4e2d24\u7bc7\u62c6\u89e3\u5168\u90e8\u58f0\u79f0\u4e3a\u672c\u8f6e\u91cd\u65b0\u5168\u6587\u9605\u8bfb\u6216\u540c\u7b49\u65b9\u6cd5\u4f9d\u636e\u3002","sources":[{"id":"S_H","title":"\u5730\u57df\u6027\u6c11\u5c45\u98ce\u8c8c\u8981\u7d20\u8bed\u4e49\u4f53\u7cfb\u6784\u7b51\u65b9\u6cd5\u53ca\u7279\u5f81\u89e3\u6790\u2014\u2014\u4ee5\u5fbd\u5dde\u5730\u533a\u4e3a\u4f8b","author":"\u6c6a\u5f3a\u3001\u674e\u65e9\u3001\u9ad8\u7fd4\u3001\u53f6\u8302\u76db","year":2019,"zoteroKey":"DMFXW3FX","attachmentKey":"9TUEWX22","path":"/Users/wangyuelin/Zotero/storage/9TUEWX22/\u6c6a\u5f3a \u7b49 - 2019 - \u5730\u57df\u6027\u6c11\u5c45\u98ce\u8c8c\u8981\u7d20\u8bed\u4e49\u4f53\u7cfb\u6784\u7b51\u65b9\u6cd5\u53ca\u7279\u5f81\u89e3\u6790\u2014\u2014\u4ee5\u5fbd\u5dde\u5730\u533a\u4e3a\u4f8b.pdf","sha256":"9641e584e113a7a7bb18489a380f4626f82037987dd2d0d24f9ae4eea975b8a6","sourceKind":"method_literature","readingScopeThisRound":"\u590d\u75282026-10-22\u5df2\u6709\u7cbe\u8bfb\u8bc1\u636e\uff1b\u5173\u952e\u9875\u62bd\u6838\u8303\u56f4\u53e6\u89c1\u6838\u9a8c\u8bb0\u5f55\uff0c\u4e0d\u58f0\u79f0\u672c\u8f6e\u91cd\u65b0\u901a\u8bfb\u3002","previousEvidenceFile":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json","previousEvidenceSha256":"f1d0698750666167b9982f319f5f1f609048c88e5a1b5bcc03a21ab8afeb61c4"},{"id":"S_F","title":"\u57fa\u4e8e\u672c\u4f53\u8bba\u7684\u4f20\u7edf\u6751\u843d\u6587\u5316\u77e5\u8bc6\u56fe\u8c31\u751f\u6210\u53ca\u5176\u5e94\u7528\u2014\u2014\u4ee5\u5b89\u5fbd\u7701\u7ee9\u6eaa\u53bf\u4f0f\u5cad\u6751\u4e3a\u4f8b","author":"\u9648\u6653\u534e\u3001\u5510\u6587\u9f99\u3001\u9c8d\u9999\u7389","year":2026,"zoteroKey":"5BG4898K","attachmentKey":"6WCL46HB","path":"/Users/wangyuelin/Zotero/storage/6WCL46HB/\u9648\u6653\u534e \u7b49 - 2026 - \u57fa\u4e8e\u672c\u4f53\u8bba\u7684\u4f20\u7edf\u6751\u843d\u6587\u5316\u77e5\u8bc6\u56fe\u8c31\u751f\u6210\u53ca\u5176\u5e94\u7528\u2014\u2014\u4ee5\u5b89\u5fbd\u7701\u7ee9\u6eaa\u53bf\u4f0f\u5cad\u6751\u4e3a\u4f8b.pdf","sha256":"e3f2dfdfe3b3415dd05678afd6d65871c947ec4da03e01fc3e4e5a07907e083e","sourceKind":"method_literature","readingScopeThisRound":"\u590d\u75282026-10-22\u5df2\u6709\u7cbe\u8bfb\u8bc1\u636e\uff1b\u5173\u952e\u9875\u62bd\u6838\u8303\u56f4\u53e6\u89c1\u6838\u9a8c\u8bb0\u5f55\uff0c\u4e0d\u58f0\u79f0\u672c\u8f6e\u91cd\u65b0\u901a\u8bfb\u3002","previousEvidenceFile":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json","previousEvidenceSha256":"f1d0698750666167b9982f319f5f1f609048c88e5a1b5bcc03a21ab8afeb61c4"},{"id":"S_W","title":"\u4e2d\u56fd\u4f20\u7edf\u6751\u843d\u7279\u5f81\u7684\u89e3\u8bfb\u4e0e\u96c6\u7fa4\u8bc6\u522b\u2014\u2014\u57fa\u4e8e\u805a\u7c7b\u548c\u77e5\u8bc6\u56fe\u8c31\u7684\u8ba4\u77e5\u4e0e\u5229\u7528\u65b9\u6cd5","author":["\u738b\u7b11","\u6731\u96ea\u878d","\u5510\u8283"],"year":2025,"zoteroKey":"95UFJBNQ","attachmentKey":"NWZLFV5V","path":"/Users/wangyuelin/Zotero/storage/NWZLFV5V/\u738b\u7b11 \u7b49 - 2025 - \u4e2d\u56fd\u4f20\u7edf\u6751\u843d\u7279\u5f81\u7684\u89e3\u8bfb\u4e0e\u96c6\u7fa4\u8bc6\u522b\u2014\u2014\u57fa\u4e8e\u805a\u7c7b\u548c\u77e5\u8bc6\u56fe\u8c31\u7684\u8ba4\u77e5\u4e0e\u5229\u7528\u65b9\u6cd5.pdf","sha256":"9466364756157bb631427f7f1cc429cb7091697b541fd02a99a51de771466c13","sourceKind":"method_literature","readingScopeThisRound":"\u590d\u75282026-10-22\u5df2\u6709\u7cbe\u8bfb\u8bc1\u636e\uff1b\u5173\u952e\u9875\u62bd\u6838\u8303\u56f4\u53e6\u89c1\u6838\u9a8c\u8bb0\u5f55\uff0c\u4e0d\u58f0\u79f0\u672c\u8f6e\u91cd\u65b0\u901a\u8bfb\u3002","previousEvidenceFile":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json","previousEvidenceSha256":"f1d0698750666167b9982f319f5f1f609048c88e5a1b5bcc03a21ab8afeb61c4"},{"id":"S_M","title":"\u4f20\u7edf\u6751\u843d\u95ee\u7b54\u7cfb\u7edf\u667a\u80fd\u95ee\u53e5\u8bc6\u522b\u65b9\u6cd5\u7814\u7a76","author":"\u7a46\u6f47\u83b9","year":2023,"zoteroKey":"MITZPS7U","attachmentKey":"PSNPDJVV","path":"/Users/wangyuelin/Zotero/storage/PSNPDJVV/\u7a46\u6f47\u83b9 - \u4f20\u7edf\u6751\u843d\u95ee\u7b54\u7cfb\u7edf\u667a\u80fd\u95ee\u53e5\u8bc6\u522b\u65b9\u6cd5\u7814\u7a76.pdf","sha256":"e6292c0aee60ace65153d85636dbc2040b7d54857f0b8c76fa8cf256c98284d6","sourceKind":"method_literature","readingScopeThisRound":"\u590d\u75282026-10-22\u5df2\u6709\u7cbe\u8bfb\u8bc1\u636e\uff1b\u5173\u952e\u9875\u62bd\u6838\u8303\u56f4\u53e6\u89c1\u6838\u9a8c\u8bb0\u5f55\uff0c\u4e0d\u58f0\u79f0\u672c\u8f6e\u91cd\u65b0\u901a\u8bfb\u3002","previousEvidenceFile":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json","previousEvidenceSha256":"f1d0698750666167b9982f319f5f1f609048c88e5a1b5bcc03a21ab8afeb61c4"},{"id":"S_BOT","title":"BOT: The building topology ontology of the W3C linked building data group","author":"Mads Holten Rasmussen; Maxime Lefran\u00e7ois; Georg Ferdinand Schneider; Pieter Pauwels","year":2021,"zoteroKey":"PNZ3865Z","attachmentKey":"6XP3U4GG","path":"/Users/wangyuelin/Zotero/storage/6XP3U4GG/Rasmussen et al - 2021 - BOT Building Topology Ontology.pdf","sha256":"b858353daf53c95102e45609d638f5e90039cabaa2bee7520f2b929d649b634d","doi":"10.3233/SW-200385","sourceKind":"method_literature","readingScopeThisRound":"\u524d\u8f6e\u5b9a\u5411\u9605\u8bfb\u6a21\u578b\u5b9a\u4e49\u3001\u6269\u5c55\u4e0e\u8ba8\u8bba\uff1b\u672c\u8f6e\u7ecfZotero MCP\u91cd\u8bfbPDF8\u201310\uff08\u5370\u5237149\u2013151\uff09\u3002"},{"id":"S_ISM","title":"Development of an Indoor Space Semantic Model and Its Implementation as an IndoorGML Extension","author":"Nishith Maheshwari; Srishti Srivastava; Krishnan Sundara Rajan","year":2019,"zoteroKey":"9WWMSBC5","attachmentKey":"5X32QFZG","path":"/Users/wangyuelin/Zotero/storage/5X32QFZG/Maheshwari et al - 2019 - Indoor Space Semantic Model.pdf","sha256":"6cfd362af7350f8fae3d3b0d1fd8d6ce54b8e8261d31a3ecfa1ea73d06168c98","doi":"10.3390/ijgi8080333","sourceKind":"method_literature","readingScopeThisRound":"\u524d\u8f6e\u6b63\u6587\u9605\u8bfb\u53ca\u6a21\u578b\u56fe\u6838\u5bf9\uff1b\u672c\u8f6e\u7ecfZotero MCP\u91cd\u8bfbPDF7\u30019\u201310\u300114\u201315\u3002"}],"evidence":[{"id":"H04","source":"S_H","pdfPages":[1],"printedPages":[94],"locator":"\u7814\u7a76\u64cd\u4f5c","claim":"\u5c06\u7a7a\u95f4\u3001\u56fe\u6848\u3001\u6837\u5f0f\u7b49\u5f62\u5f0f\u8f6c\u4e3a\u4e13\u4e1a\u63cf\u8ff0\u8bed\u6c47\uff0c\u518d\u68b3\u7406\u6982\u5ff5\u95f4\u903b\u8f91\u5173\u7cfb\uff1b\u6b63\u6587\u7b2c2\u9875\u8865\u5145\u5148\u63d0\u53d6\u6784\u6210\u3001\u5f62\u5f0f\u3001\u7c7b\u578b\u3001\u7ec4\u5408\u3001\u6750\u8d28\u3001\u8272\u5f69\u5e76\u5236\u4f5c\u5bf9\u5e94\u56fe\u793a\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u6b63\u6587\u53ca\u76f8\u5e94\u539f\u9875\u6838\u5bf9","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/9TUEWX22?page=1","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#H04"},{"id":"H05","source":"S_H","pdfPages":[1],"printedPages":[94],"locator":"is-a","claim":"is-a\u6307\u5b50\u4f53\u662f\u6bcd\u4f53\u7684\u4e00\u79cd\u5177\u4f53\u5f62\u5f0f\uff0c\u7528\u4e8e\u57fa\u672c\u6982\u5ff5\u9636\u5c42\u5316\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6e\u5b50agent\u56de\u539fPDF\u6307\u5b9a\u9875\u62bd\u6838\uff0c\u5173\u952e\u56fe\u6587\u76ee\u89c6\u6838\u5bf9\uff1b\u89c1\u539f\u6587\u62bd\u6838\u8bb0\u5f55.md\uff08\u975e24\u7bc7\u91cd\u65b0\u901a\u8bfb\uff09","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/9TUEWX22?page=1","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#H05"},{"id":"H06","source":"S_H","pdfPages":[1],"printedPages":[94],"locator":"p/o","claim":"p/o\u5373part of\uff0c\u6307\u5b50\u4f53\u662f\u6bcd\u4f53\u7684\u4e00\u90e8\u5206\uff1b\u4e0d\u80fd\u4e0e\u7c7b\u578b\u7ee7\u627f\u6df7\u540c\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6e\u5b50agent\u56de\u539fPDF\u6307\u5b9a\u9875\u62bd\u6838\uff0c\u5173\u952e\u56fe\u6587\u76ee\u89c6\u6838\u5bf9\uff1b\u89c1\u539f\u6587\u62bd\u6838\u8bb0\u5f55.md\uff08\u975e24\u7bc7\u91cd\u65b0\u901a\u8bfb\uff09","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/9TUEWX22?page=1","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#H06"},{"id":"H07","source":"S_H","pdfPages":[1],"printedPages":[94],"locator":"a/o","claim":"a/o\u5373attribute of\uff0c\u6307\u6309\u67d0\u5c5e\u6027\u4ece\u6bcd\u4f53\u5206\u7c7b\u5f97\u5230\u4e00\u7c7b\u5b50\u4f53\u3002\u5b83\u5728\u672c\u6587\u662f\u5206\u7c7b\u5173\u7cfb\uff0c\u4e0d\u5e94\u76f4\u63a5\u8ba4\u4f5cOWL\u7684\u6570\u636e\u5c5e\u6027\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6e\u5b50agent\u56de\u539fPDF\u6307\u5b9a\u9875\u62bd\u6838\uff0c\u5173\u952e\u56fe\u6587\u76ee\u89c6\u6838\u5bf9\uff1b\u89c1\u539f\u6587\u62bd\u6838\u8bb0\u5f55.md\uff08\u975e24\u7bc7\u91cd\u65b0\u901a\u8bfb\uff09","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/9TUEWX22?page=1","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#H07"},{"id":"H09","source":"S_H","pdfPages":[2],"printedPages":[95],"locator":"\u88681\u2192\u56fe3","claim":"\u5148\u4ece\u7a7a\u95f4\u7c7b\u578b\u3001\u5e73\u9762\u7c7b\u578b\u3001\u7ec4\u5408\u5f62\u5f0f\u3001\u5e03\u5c40\u65b9\u5f0f\u3001\u5e73\u9762\u5f62\u72b65\u65b9\u9762\u53d6\u8981\u7d20\uff0c\u518d\u6309\u7c7b\u578b/\u5f62\u5f0f\u4e24\u4e2a\u8bed\u4e49\u7ef4\u5ea6\u91cd\u7ec4\u3002\u662f\u89c2\u5bdf\u7ef4\u5ea6\u5230\u8868\u8fbe\u7ed3\u6784\u7684\u8f6c\u6362\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u6b63\u6587\u53ca\u76f8\u5e94\u539f\u9875\u6838\u5bf9","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/9TUEWX22?page=2","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#H09"},{"id":"H10","source":"S_H","pdfPages":[2],"printedPages":[95],"locator":"\u56fe3\u7a7a\u95f4\u7c7b\u578b","claim":"\u56fe3\u4e3b\u4f53\u7a7a\u95f4\u542b\u5165\u53e3\u3001\u5802\u5c4b\u3001\u53a2\u623f\u3001\u5929\u4e95\uff1b\u9644\u5c5e\u7a7a\u95f4\u542b\u6742\u7269\u95f4\u3001\u53a8\u623f\u3001\u536b\u751f\u95f4\u3001\u9662\u843d\uff1b\u4ea4\u901a\u7a7a\u95f4\u542b\u8fc7\u9053\u548c\u697c\u68af\u3002\u6b63\u6587\u968f\u540e\u5374\u79f0\u4e3b\u4f53\u7a7a\u95f4\u4e2d\u7684\u5929\u4e95\u548c\u5b85\u9662\u53d8\u5316\u6700\u591a\uff0c\u9662\u843d\u5f52\u5c5e\u5b58\u5728\u8868\u8ff0\u5dee\u5f02\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u6b63\u6587\u53ca\u76f8\u5e94\u539f\u9875\u6838\u5bf9","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/9TUEWX22?page=2","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#H10"},{"id":"H14","source":"S_H","pdfPages":[2],"printedPages":[95],"locator":"\u7a7a\u95f4\u5173\u7cfb\u89e3\u91ca","claim":"\u6d41\u7ebf\u5173\u7cfb\u548c\u4f4d\u5e8f\u4e3b\u6b21\u5e76\u5b58\uff1b\u4f5c\u8005\u4ee5\u5b97\u65cf\u3001\u4eb2\u5c5e\u3001\u5730\u5f62\u3001\u98ce\u4fd7\u89e3\u91ca\u5355\u5143\u7ec4\u5408\u4e0e\u6709\u673a\u751f\u957f\u3002\u6ca1\u6709\u56e0\u679c\u8bc6\u522b\u6216\u7ec4\u5408\u53d1\u751f\u9891\u7387\u3002","attribution":"\u4f5c\u8005\u89e3\u91ca","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u6b63\u6587\u53ca\u76f8\u5e94\u539f\u9875\u6838\u5bf9","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/9TUEWX22?page=2","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#H14"},{"id":"H29","source":"S_H","pdfPages":[4],"printedPages":[97],"locator":"\u6a21\u578b\u6570\u636e\u5e93\u5c55\u671b","claim":"\u7b2c5\u5c0f\u8282\u660e\u786e\u662f\u7814\u7a76\u5c55\u671b\uff1a\u5bfc\u51fa\u8bed\u4e49\u7f16\u7801\u2192\u5236\u4f5c\u8981\u7d20\u6a21\u578b\u2192\u7f16\u7a0b\u9644\u52a0\u56fe\u5f62\u4fe1\u606f\u2192\u7f16\u7801\u4e0e\u6a21\u578b\u53e0\u52a0\u2192\u6a21\u578b\u6570\u636e\u5e93\u2192\u590d\u5efa/\u81ea\u751f\u6210\u8bbe\u8ba1\u3002\u56fe9\u5c55\u793a\u7f16\u7801\u548c\u4fe1\u606f\u53e0\u52a0\u793a\u610f\uff0c\u672a\u62a5\u544a\u5b9e\u6d4b\u4e09\u7ef4\u533a\u57df\u7ed1\u5b9a\u53ca\u9a8c\u8bc1\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u6b63\u6587\u53ca\u76f8\u5e94\u539f\u9875\u6838\u5bf9","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/9TUEWX22?page=4","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#H29"},{"id":"F06","source":"S_F","pdfPages":[3],"printedPages":[65],"locator":"\u4e09\u6838\u5fc3\u4e0e\u516d\u7ef4\u5ea6","claim":"\u6587\u5b57\u786e\u5b9a\u6751\u843d\u9009\u5740\u548c\u683c\u5c40\u3001\u4f20\u7edf\u5efa\u7b51\u3001\u975e\u7269\u8d28\u6587\u5316\u9057\u4ea7\u4e09\u6838\u5fc3\u7c7b\uff1b\u5c06\u7c7b\u578b\u3001\u65f6\u95f4\u3001\u5730\u70b9\u3001\u4eba\u7269\u3001\u4e8b\u4ef6\u3001\u6d3b\u52a8\u5206\u522b\u79f0\u5176\u5b50\u7c7b\u3002\u5176\u8bed\u4e49\u66f4\u50cf\u63cf\u8ff0\u7ef4\u5ea6\uff0c\u4e0d\u80fd\u4e0d\u52a0\u5ba1\u67e5\u4f5c\u4e3a\u540c\u4e00\u79cd\u7ee7\u627f\u6811\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u6b63\u6587\u53ca\u76f8\u5e94\u539f\u9875\u6838\u5bf9","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/6WCL46HB?page=3","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#F06"},{"id":"F21","source":"S_F","pdfPages":[4],"printedPages":[66],"locator":"\u56db\u9879\u624b\u52a8\u6620\u5c04","claim":"\u672c\u4f53\u7c7b\u2192Neo4j\u6807\u7b7e\uff1b\u5b9e\u4f8b\u2192\u8282\u70b9\uff1b\u5bf9\u8c61\u5c5e\u6027\u2192\u5173\u7cfb\uff1b\u6570\u636e\u5c5e\u6027\u2192\u8282\u70b9\u5c5e\u6027\u3002\u660e\u786e\u4e3a\u624b\u52a8\u6620\u5c04\uff0c\u672a\u62a5\u544a\u81ea\u52a8\u8f6c\u6362\u5de5\u5177\u548c\u53c2\u6570\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6e\u5b50agent\u56de\u539fPDF\u6307\u5b9a\u9875\u62bd\u6838\uff0c\u5173\u952e\u56fe\u6587\u76ee\u89c6\u6838\u5bf9\uff1b\u89c1\u539f\u6587\u62bd\u6838\u8bb0\u5f55.md\uff08\u975e24\u7bc7\u91cd\u65b0\u901a\u8bfb\uff09","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/6WCL46HB?page=4","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#F21"},{"id":"F22","source":"S_F","pdfPages":[4],"printedPages":[66],"locator":"\u62bd\u53d6\u4e0e\u878d\u5408","claim":"\u4f5c\u8005\u62a5\u544a\u4ee5\u672c\u4f53\u9650\u5b9a\u62bd\u53d6\u7684\u7c7b\u578b\u548c\u5c5e\u6027\u8303\u56f4\uff0c\u4ee5\u4f0f\u5cad\u6751/\u7eb9\u5ddd\u6751\u4e3a\u540d\u79f0\u51b2\u7a81\u4e3e\u4f8b\uff0c\u901a\u8fc7\u8bcd\u6c47\u6620\u5c04\u7edf\u4e00\u672f\u8bed\uff0c\u5e76\u79f0\u672c\u4f53\u63a8\u7406\u68c0\u6d4b\u89e3\u51b3\u51b2\u7a81\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6e\u5b50agent\u56de\u539fPDF\u6307\u5b9a\u9875\u62bd\u6838\uff0c\u5173\u952e\u56fe\u6587\u76ee\u89c6\u6838\u5bf9\uff1b\u89c1\u539f\u6587\u62bd\u6838\u8bb0\u5f55.md\uff08\u975e24\u7bc7\u91cd\u65b0\u901a\u8bfb\uff09","uncertainty":"\u6307\u5b9a\u9875\u672a\u7ed9\u8eab\u4efd\u5224\u5b9a\u89c4\u5219\u3001\u51b2\u7a81\u7b56\u7565\u53ca\u9a8c\u8bc1\uff1b\u8bcd\u6c47\u6620\u5c04\u7684\u62a5\u544a\u672c\u8eab\u4e0d\u80fd\u8bc1\u660e\u4e24\u4e2a\u540d\u79f0\u6307\u5411\u540c\u4e00\u5b9e\u4f53\u3002\u539f\u6709\u7cbe\u8bfb\u8bb0\u5f55\u7684\u201c\u522b\u540d\u201d\u5e94\u7406\u89e3\u4e3a\u4f5c\u8005\u672f\u8bed\u878d\u5408\u4f8b\uff0c\u4e0d\u4f5c\u4e3a\u72ec\u7acb\u8eab\u4efd\u6838\u9a8c\u3002","sourceLink":"zotero://open-pdf/library/items/6WCL46HB?page=4","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#F22"},{"id":"F25","source":"S_F","pdfPages":[5],"printedPages":[67],"locator":"\u56fe4\u5c5e\u6027\u8282\u70b9\u5316","claim":"\u56fe4\u90e8\u5206\u503c\u5982\u4e09\u5341\u516d\u53e3\u53e4\u4e95\u3001\u5357\u5317\u5411\u5206\u5e03\u4ee5\u8282\u70b9\u5448\u73b0\uff1b\u4e0d\u80fd\u636e\u6982\u62ec\u6620\u5c04\u65ad\u8a00\u6240\u6709\u6570\u636e\u5c5e\u6027\u5747\u843d\u4e3a\u8282\u70b9\u5c5e\u6027\u3002\u4ec5\u89c1\u622a\u56fe\uff0c\u5e95\u5c42\u5b58\u50a8\u9700\u539f\u59cb\u5bfc\u51fa\u6838\u67e5\u3002","attribution":"\u9605\u8bfb\u8005\u6838\u67e5","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u6b63\u6587\u53ca\u76f8\u5e94\u539f\u9875\u6838\u5bf9","uncertainty":"","sourceLink":"zotero://open-pdf/library/items/6WCL46HB?page=5","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#F25"},{"id":"W11","source":"S_W","pdfPages":[2],"printedPages":[83],"locator":"2.2\uff1b\u56fe1","claim":"\u65b9\u6cd5\u56fe\u4e0e\u65b9\u6cd5\u6bb5\u843d\u672a\u62a5\u544a\u9884\u8bad\u7ec3\u6a21\u578b\u540d\u79f0\u3001\u7279\u5f81\u7ef4\u6570\u3001\u5404\u6307\u6807\u7f16\u7801\u8868\u3001\u6807\u51c6\u5316\u7b97\u6cd5\u3001\u964d\u7ef4\u7b97\u6cd5\u3001\u805a\u7c7b\u7b97\u6cd5\u540d\u79f0\u3001\u805a\u7c7b\u8d85\u53c2\u6570\u6216\u9009\u53d6\u7c07\u6570\u7684\u51c6\u5219\uff1b\u6b63\u6587\u660e\u786e\u7ed9\u51fa\u7684\u8ba1\u7b97\u539f\u5219\u4e3b\u8981\u4e3a\u6b27\u6c0f\u8ddd\u79bb\u4e0e\u62a5\u544a\u540e\u7684\u7c07\u6570\u3002","attribution":"\u9605\u8bfb\u8005\u6838\u67e5\uff08\u672c\u8f6e\u5168\u6587/\u56fe\u8868\u8303\u56f4\u5185\u672a\u62a5\u544a\uff09","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u5168\u6587\u6b63\u6587\u6838\u8bfb\uff1b\u56fe1\u20138\u56fe\u9875\u6838\u9a8c","uncertainty":"\u7ed3\u8bba\u9650\u4e8e\u8be58\u9875\u8bba\u6587\u6240\u5448\u73b0\u7684\u65b9\u6cd5\u4e0e\u56fe\u8868\u3002","sourceLink":"zotero://open-pdf/library/items/NWZLFV5V?page=2","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#W11"},{"id":"W26","source":"S_W","pdfPages":[6],"printedPages":[87],"locator":"4.1\uff1b\u56fe9b","claim":"\u76f8\u4f3c\u6027\u5173\u7cfb\u6309\u7efc\u5408\u5c5e\u6027\u7279\u5f81\u5411\u91cf\u7684\u6b27\u6c0f\u8ddd\u79bb\u8ba1\u7b97\uff0c\u53d6\u6700\u8fd115\u4e2a\u6751\u843d\u4f5c\u4e3a\u76f8\u4f3c\u6027\u6751\u843d\u7fa4\uff1b\u4f7f\u752830%\u548c70%\u9608\u503c\u5212\u5206\u5f3a\u76f8\u4f3c\u3001\u4e2d\u76f8\u4f3c\u3001\u5f31\u76f8\u4f3c\u5173\u7cfb\uff1b\u5c5e\u6027\u7c7b\u522b\u76f8\u540c\u6216\u6570\u503c\u76f8\u8fd1\u4e5f\u4f5c\u4e3a\u76f8\u4f3c\u6027\u68c0\u7d22\u89c4\u5219\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6e\u5b50agent\u56de\u539fPDF\u6307\u5b9a\u9875\u62bd\u6838\uff0c\u5173\u952e\u56fe\u6587\u76ee\u89c6\u6838\u5bf9\uff1b\u89c1\u539f\u6587\u62bd\u6838\u8bb0\u5f55.md\uff08\u975e24\u7bc7\u91cd\u65b0\u901a\u8bfb\uff09","uncertainty":"30%/70%\u57fa\u4e8e\u4f55\u79cd\u5f52\u4e00\u5316\u5206\u503c\u3001\u9608\u503c\u65b9\u5411/\u8ddd\u79bb\u533a\u95f4\u53ca\u8fb9\u662f\u5426\u6709\u5411\u5747\u672a\u8bf4\u660e\uff1b\u4e0d\u53ef\u64c5\u81ea\u79f0\u4e3a\u5206\u4f4d\u6570\u6216\u6982\u7387\u3002","sourceLink":"zotero://open-pdf/library/items/NWZLFV5V?page=6","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#W26"},{"id":"W31","source":"S_W","pdfPages":[7],"printedPages":[88],"locator":"4.2.2\uff081\uff09","claim":"\u4f5c\u8005\u4e3e\u51fa\u4e0d\u4e00\u81f4\u6848\u4f8b\uff1a\u78e1\u5934\u6751\u5728\u89c4\u5212\u4e2d\u5c5e\u201c\u5cad\u5357\u2014\u5c71\u5730\u79bb\u6563\u201d\uff0c\u4f46\u4e91\u5ddd\u6eaa\u7a7f\u6751\u800c\u8fc7\u3001\u8f6e\u5ed3\u90e8\u5206\u5448\u56e2\u5757\u72b6\uff0c\u56e0\u6b64\u672c\u7814\u7a76\u5224\u4e3a\u201c\u4e2d\u89c4\u6a21\u4e34\u6cb3\u5757\u72b6\u201d\uff1b\u51af\u6751\u3001\u77f3\u5bb6\u6751\u5728\u89c4\u5212\u4e2d\u5c5e\u201c\u5cad\u5317\u2014\u7c07\u7fa4\u96c6\u805a\u201d\uff0c\u4f46\u6751\u843d\u89c4\u6a21\u8f83\u5c0f\u3001\u8f6e\u5ed3\u66f4\u4f3c\u70b9\u72b6/\u7247\u72b6\uff0c\u56e0\u6b64\u88ab\u5f52\u4e3a\u201c\u5c0f\u89c4\u6a21\u70b9\u72b6\u7247\u72b6\u201d\u3002","attribution":"\u4f5c\u8005\u89e3\u91ca","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u6b63\u6587\u6838\u8bfb\uff1b\u4e0e\u56fe12\u6751\u540d\u548c\u7c7b\u522b\u56fe\u793a\u6838\u9a8c","uncertainty":"\u4f5c\u8005\u5c06\u5dee\u5f02\u5f52\u56e0\u4e8e\u5206\u6790\u89c6\u89d2/\u5c3a\u5ea6\u4e0d\u540c\uff1b\u6ca1\u6709\u72ec\u7acb\u5730\u9762\u6d4b\u91cf\u6765\u88c1\u51b3\u54ea\u4e00\u5206\u7c7b\u66f4\u6b63\u786e\u3002","sourceLink":"zotero://open-pdf/library/items/NWZLFV5V?page=7","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#W31"},{"id":"M17","source":"S_M","pdfPages":[23],"printedPages":[17],"locator":"3.2-3.4 schema\u5bf9\u7167","claim":"\u672c\u4f53/\u88681\u542b\u4f20\u7edf\u5efa\u7b51\u7b49\u6982\u5ff5\uff0cNeo4j\u6807\u7b7e\u6709node\u3001relic1\u7b49\uff1b\u6b63\u6587\u672a\u63d0\u4f9b\u6982\u5ff5\u7c7b\u81f3\u6700\u7ec8\u6807\u7b7e\u7684\u5b8c\u6574\u6620\u5c04\u3002","attribution":"\u9605\u8bfb\u8005\u91cd\u5efa","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u8de8\u8868\u4e0e\u56fe\u50cf\u6838\u5bf9","uncertainty":"\u4e0d\u636e\u6b64\u65ad\u8a00\u4ee3\u7801\u4e2d\u4e0d\u5b58\u5728\u6620\u5c04\u3002","sourceLink":"zotero://open-pdf/library/items/PSNPDJVV?page=23","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#M17"},{"id":"M31","source":"S_M","pdfPages":[36],"printedPages":[30],"locator":"4.3\u6a21\u677f","claim":"\u4f5c\u8005\u79f0\u4ece\u4e92\u8054\u7f51\u95ee\u5377\u6536\u96c6200\u6761\u7528\u6237\u95ee\u53e5\u5e76\u5f52\u7eb3\u610f\u56fe\u3001\u8bbe\u8ba115\u79cd\u6a21\u677f\uff1b200\u662f\u95ee\u53e5\u6570\uff0c\u6b63\u6587\u672a\u79f0200\u540d\u53d7\u8bbf\u8005\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u539f\u9875\u56fe\u50cf\u6838\u9a8c","uncertainty":"\u672a\u62a5\u95ee\u5377\u3001\u53d7\u8bbf\u8005\u6784\u6210\u6216\u53bb\u91cd\u89c4\u5219\u3002","sourceLink":"zotero://open-pdf/library/items/PSNPDJVV?page=36","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#M31"},{"id":"M57","source":"S_M","pdfPages":[42],"printedPages":[36],"locator":"5.2\u7cfb\u7edf\u5b9e\u73b0\u3001\u56fe21","claim":"\u4f5c\u8005\u63cf\u8ff0NER\u53ca\u6a21\u677f\u5339\u914d\u540e\u5c06\u5b9e\u4f53\u586b\u5165Cypher\uff0c\u67e5\u8be2Neo4j\u5e76\u8fd4\u8fd8\u524d\u7aef\uff1b\u56fe21\u4e3a\u95ee\u7b54\u754c\u9762\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6e\u5b50agent\u56de\u539fPDF\u6307\u5b9a\u9875\u62bd\u6838\uff0c\u5173\u952e\u56fe\u6587\u76ee\u89c6\u6838\u5bf9\uff1b\u89c1\u539f\u6587\u62bd\u6838\u8bb0\u5f55.md\uff08\u975e24\u7bc7\u91cd\u65b0\u901a\u8bfb\uff09","uncertainty":"\u754c\u9762\u548c\u4e24\u6761\u67e5\u8be2\u4e0d\u662f\u7aef\u5230\u7aef\u6027\u80fd\u6d4b\u8bd5\u3002","sourceLink":"zotero://open-pdf/library/items/PSNPDJVV?page=42","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#M57"},{"id":"M60","source":"S_M","pdfPages":[12],"printedPages":[6],"locator":"\u7b2c2\u7ae0\u4e0e\u7b2c3\u7ae0\u5bf9\u8bfb","claim":"\u7b2c2\u7ae0\u6cdb\u8ff0\u878d\u5408\u53ef\u6d88\u6b67\uff1b\u7b2c3\u7ae0\u5df2\u8bfb\u5b9e\u73b0\u672a\u62a5\u544a\u7a33\u5b9aID\u751f\u6210\u3001\u522b\u540d\u3001\u540c\u540d\u6d88\u6b67\u3001\u8de8\u6765\u6e90\u53bb\u91cd/\u51b2\u7a81\u89c4\u5219\u3002","attribution":"\u9605\u8bfb\u8005\u91cd\u5efa","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u7ae0\u8282\u5bf9\u8bfb","uncertainty":"\u9650\u8bba\u6587\u6b63\u6587\u62a5\u544a\u8303\u56f4\uff0c\u4e0d\u65ad\u8a00\u4ee3\u7801\u6ca1\u6709\u5b9e\u73b0\u3002","sourceLink":"zotero://open-pdf/library/items/PSNPDJVV?page=12","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#M60"},{"id":"M64","source":"S_M","pdfPages":[40],"printedPages":[34],"locator":"\u7b2c4.3\u8282\u53ca\u7b2c5\u7ae0\u8bc4\u4f30","claim":"\u672a\u89c1\u6a21\u677f\u5339\u914d\u51c6\u786e\u7387\u3001\u95ee\u7b54\u7aef\u5230\u7aef\u51c6\u786e\u7387\u3001\u8986\u76d6\u7387\u3001\u62d2\u7b54\u7387\u6216\u7528\u6237\u8bc4\u4f30\u3002","attribution":"\u9605\u8bfb\u8005\u91cd\u5efa","verification":"\u6cbf\u7528\u65e2\u6709\u7cbe\u8bfb\u8bb0\u5f55\uff1a\u7b2c4.3\u8282\u4e0e\u7b2c5\u7ae0\u6838\u8bfb","uncertainty":"\u4e0d\u6392\u9664\u8bba\u6587\u5916\u65e5\u5fd7\u6216\u672a\u63d0\u4ea4\u6750\u6599\u6709\u6570\u636e\u3002","sourceLink":"zotero://open-pdf/library/items/PSNPDJVV?page=40","recordOrigin":"研究资料/来源证据/2026-10-22-\u56db\u7bc7\u77e5\u8bc6\u56fe\u8c31\u8bba\u6587\u7cbe\u8bfb\u8bc1\u636e.json#M64"},{"id":"BOT01","source":"S_BOT","pdfPages":[8],"printedPages":[149],"locator":"\u00a73.2\u3001\u56fe2","claim":"BOT\u533a\u5206Zone\u3001Element\u3001Interface\uff1b\u4e09\u7c7b\u5f7c\u6b64\u4e0d\u76f8\u4ea4\u3002Zone\u542bSite\u3001Building\u3001Storey\u3001Space\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6eZotero MCP\u6b63\u6587\u5b9a\u5411\u6838\u8bfb\uff1b\u6838\u5fc3\u6a21\u578b\u56fe\u6cbf\u7528\u524d\u8f6e\u539f\u9875\u6838\u770b","uncertainty":"\u8bba\u6587\u63cf\u8ff0BOT v0.3.1\uff1b\u6211\u4eec\u7684Dwelling\u53ef\u80fd\u662f\u591a\u4f53\u7814\u7a76\u5355\u5143\uff0c\u4e0d\u53ef\u76f4\u63a5\u7b49\u540cbot:Building\u3002","sourceLink":"zotero://open-pdf/library/items/6XP3U4GG?page=8"},{"id":"BOT02","source":"S_BOT","pdfPages":[9],"printedPages":[150],"locator":"\u00a73.3","claim":"containsZone\u8868\u793a\u5305\u542b\u4e14\u5177\u4f20\u9012\u6027\uff1badjacentZone\u8868\u793a\u5171\u4eab\u90e8\u5206\u8fb9\u754c\u4e14\u5bf9\u79f0\uff1bintersectsZone\u8868\u793a\u4e09\u7ef4\u7a7a\u95f4\u8303\u56f4\u90e8\u5206\u5171\u4eab\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6eZotero MCP\u6b63\u6587\u5b9a\u5411\u6838\u8bfb\uff1b\u6838\u5fc3\u6a21\u578b\u56fe\u6cbf\u7528\u524d\u8f6e\u539f\u9875\u6838\u770b","uncertainty":"\u4e0d\u4ece\u90bb\u63a5\u63a8\u5bfc\u901a\u884c\uff1b\u4e0d\u628a\u6240\u6709\u672c\u5730\u5173\u7cfb\u76f4\u63a5\u5ba3\u544a\u4e3aBOT\u7b49\u4ef7\u5c5e\u6027\u3002","sourceLink":"zotero://open-pdf/library/items/6XP3U4GG?page=9"},{"id":"BOT03","source":"S_BOT","pdfPages":[10],"printedPages":[151],"locator":"\u00a73.5","claim":"Interface\u7528\u4e8e\u7ec6\u8ff0\u7a7a\u95f4\u3001\u6784\u4ef6\u53ca\u4e8c\u8005\u4e4b\u95f4\u7684\u5173\u7cfb\uff0c\u53ef\u9644\u52a0\u7a7a\u95f4\u4e4b\u95f4\u901a\u884c\u7c7b\u578b\u4e0e\u9650\u5236\uff1binterfaceOf\u5173\u8054\u76f8\u5e94\u5bf9\u8c61\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6eZotero MCP\u6b63\u6587\u5b9a\u5411\u6838\u8bfb\uff1b\u6838\u5fc3\u6a21\u578b\u56fe\u6cbf\u7528\u524d\u8f6e\u539f\u9875\u6838\u770b","uncertainty":"Interface\u4e0d\u9650\u4e8e\u901a\u884c\u5f00\u53e3\uff0c\u4e5f\u4e0d\u7b49\u4e8e\u5899\u6216\u95e8\u5b9e\u4f53\u3002","sourceLink":"zotero://open-pdf/library/items/6XP3U4GG?page=10"},{"id":"BOT04","source":"S_BOT","pdfPages":[10],"printedPages":[151],"locator":"\u00a73.6\u8d77\u59cb","claim":"BOT\u63d0\u4f9b\u5c06Zone\u6216Element\u94fe\u63a5\u5230\u4e09\u7ef4\u6a21\u578b\u7684\u624b\u6bb5\uff1b\u5177\u4f53\u6a21\u578b\u7f16\u7801\u4e0d\u5c5e\u4e8eBOT\u8303\u56f4\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6eZotero MCP\u6b63\u6587\u5b9a\u5411\u6838\u8bfb\uff1b\u6838\u5fc3\u6a21\u578b\u56fe\u6cbf\u7528\u524d\u8f6e\u539f\u9875\u6838\u770b","uncertainty":"\u6a21\u578b\u7248\u672c\u3001\u5750\u6807\u7cfb\u3001\u533a\u57df\u9009\u62e9\u5668\u548c\u5bf9\u5e94\u8bef\u5dee\u662f\u672c\u7814\u7a76\u589e\u52a0\u7684\u8bb0\u5f55\u89c4\u5219\uff0c\u4e0d\u662f\u8bba\u6587\u5df2\u9a8c\u8bc1\u7684\u5b8c\u6574\u4e09\u7ef4\u533a\u57df\u65b9\u6848\u3002","sourceLink":"zotero://open-pdf/library/items/6XP3U4GG?page=10"},{"id":"ISM01","source":"S_ISM","pdfPages":[7],"printedPages":[7],"locator":"\u00a72.2.1\u20132.2.2\u3001\u56fe3","claim":"\u533a\u5206\u5f62\u6001\u4e0e\u8fde\u63a5\u63cf\u8ff0\u53ca\u8bed\u4e49\u63cf\u8ff0\uff1a\u524d\u8005\u5305\u62ec\u56f4\u5408\u3001\u5f62\u72b6\u3001\u5c3a\u5bf8\u3001\u5f00\u53e3\uff0c\u540e\u8005\u5305\u62ec\u7528\u9014\u3001\u697c\u5c42\u3001\u5efa\u7b51\u6807\u7b7e\uff1b\u53ef\u6309\u5e94\u7528\u6269\u5c55\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6eZotero MCP\u6b63\u6587\u5b9a\u5411\u6838\u8bfb\uff1b\u6838\u5fc3\u6a21\u578b\u56fe\u6cbf\u7528\u524d\u8f6e\u539f\u9875\u6838\u770b","uncertainty":"\u4e0d\u80fd\u5c06\u7a7a\u95f4\u540d\u79f0\u3001\u7528\u9014\u548c\u56f4\u5408\u7a0b\u5ea6\u538b\u6210\u4e92\u65a5\u5355\u4e00\u5206\u7c7b\u3002","sourceLink":"zotero://open-pdf/library/items/5X32QFZG?page=7"},{"id":"ISM02","source":"S_ISM","pdfPages":[9,10],"printedPages":[9,10],"locator":"\u00a73.1.2","claim":"\u534a\u5f00\u653e/\u534a\u56f4\u5408\u7a7a\u95f4\u53ef\u542b\u5929\u4e95\u3001\u9633\u53f0\u3001\u524d\u5eca\u7b49\uff0c\u4e0d\u8981\u6c42\u6240\u6709\u65b9\u5411\u5b8c\u5168\u56f4\u5408\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6eZotero MCP\u6b63\u6587\u5b9a\u5411\u6838\u8bfb\uff1b\u6838\u5fc3\u6a21\u578b\u56fe\u6cbf\u7528\u524d\u8f6e\u539f\u9875\u6838\u770b","uncertainty":"\u539f\u6587\u7684\u5bb9\u91cf\u3001\u963b\u6297\u7b49\u670d\u52a1\u4e8e\u758f\u6563\u573a\u666f\uff0c\u672c\u8f6e\u4e0d\u7167\u642c\u4e3a\u98ce\u8c8c\u6838\u5fc3\u5b57\u6bb5\u3002","sourceLink":"zotero://open-pdf/library/items/5X32QFZG?page=9"},{"id":"ISM03","source":"S_ISM","pdfPages":[10],"printedPages":[10],"locator":"\u00a73.2.1","claim":"Pseudo opening\u6ca1\u6709\u5b9e\u4f53\u6846\u67b6\uff0c\u53ef\u4ee5\u662f\u5899\u4e0a\u7f3a\u53e3\uff0c\u4e5f\u53ef\u4ee5\u4ea7\u751f\u4e8e\u7a7a\u95f4\u7ec6\u5206\uff1b\u5f00\u53e3\u8bb0\u5f55\u8fde\u63a5\u7a7a\u95f4\u3001\u72b6\u6001\u53ca\u53ef\u8fbe\u9650\u5236\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6eZotero MCP\u6b63\u6587\u5b9a\u5411\u6838\u8bfb\uff1b\u6838\u5fc3\u6a21\u578b\u56fe\u6cbf\u7528\u524d\u8f6e\u539f\u9875\u6838\u770b","uncertainty":"\u65e0\u95e8\u6846\u4e0d\u81ea\u52a8\u8bc1\u660e\u4efb\u4f55\u4eba\u6216\u4efb\u4f55\u65f6\u70b9\u53ef\u901a\u884c\uff1b\u5802\u5c4b\u2014\u524d\u5eca\u662f\u672c\u7814\u7a76\u7684\u8fc1\u79fb\u793a\u4f8b\u3002","sourceLink":"zotero://open-pdf/library/items/5X32QFZG?page=10"},{"id":"ISM04","source":"S_ISM","pdfPages":[14,15],"printedPages":[14,15],"locator":"\u56fe9\u201410\u3001\u00a75","claim":"SemanticSpace\u5bf9\u5e94\u7a7a\u95f4\u5355\u5143\uff0cSemanticOpening\u5bf9\u5e94\u8fb9\u754c\u5e76\u652f\u6301\u8fde\u63a5\u5173\u7cfb\uff1b\u8bba\u6587\u4ecd\u9700\u5b8c\u6574\u6848\u4f8b\u9a8c\u8bc1\u53ca\u540e\u7eed\u5b98\u65b9\u91c7\u7eb3\u8ba8\u8bba\u3002","attribution":"\u4f5c\u8005\u62a5\u544a","verification":"\u672c\u8f6eZotero MCP\u6b63\u6587\u5b9a\u5411\u6838\u8bfb\uff1b\u6838\u5fc3\u6a21\u578b\u56fe\u6cbf\u7528\u524d\u8f6e\u539f\u9875\u6838\u770b","uncertainty":"\u8fd9\u662fIndoorGML\u6269\u5c55\u63d0\u6848\uff0c\u4e0d\u662f\u5df2\u6b63\u5f0f\u91c7\u7eb3\u6807\u51c6\uff1bPseudoOpening\u4e0e\u672c\u5730Interface\u7684\u6620\u5c04\u7531\u7814\u7a76\u8005\u63d0\u51fa\u3002","sourceLink":"zotero://open-pdf/library/items/5X32QFZG?page=14"}],"separationRule":"\u65b9\u6cd5\u6587\u732e\u652f\u6301\u5efa\u6a21\u9009\u62e9\uff0c\u4e0d\u80fd\u5145\u5f53\u67d0\u5ea7\u666f\u5b81\u6c11\u5c45\u7684\u5b9e\u6d4b\u4e8b\u5b9e\u8bc1\u636e\u3002","verificationRecord":"\u539f\u6587\u62bd\u6838\u8bb0\u5f55.md"}};
+const $ = (id) => document.getElementById(id);
+const CLASS_LABELS = Object.fromEntries((DATA.model.classes || []).map(x => [x.id, x.label || x.id]));
+const RELATIONS = Object.fromEntries((DATA.model.relations || []).map(x => [x.id, x]));
+const FEATURES = Object.fromEntries((DATA.model.features || []).map(x => [x.id, x]));
+const ATTR = {
+  author_report: {label:"作者报告 / 文献记载", cls:"fact"}, "作者报告": {label:"作者报告 / 文献记载", cls:"fact"},
+  author_interpretation: {label:"作者解释", cls:"interpretation"}, "作者解释": {label:"作者解释", cls:"interpretation"},
+  reader_diagram_observation: {label:"读者读图观察", cls:"reader"},
+  reader_modeling_inference: {label:"读者建模推断", cls:"reader"},
+  "读者建模推断": {label:"读者建模推断", cls:"reader"}, "阅读者重建": {label:"读者重建", cls:"reader"},
+  "阅读者核查": {label:"读者核查", cls:"reader"}, "读者跨论文建模": {label:"读者跨论文建模", cls:"reader"},
+  reader_cross_paper_modeling: {label:"读者跨论文建模", cls:"reader"},
+  synthetic_assumption: {label:"虚构设定", cls:"reader"},
+  fictional_setting: {label:"虚构教学设定", cls:"reader"},
+  synthetic_setting: {label:"虚构教学设定", cls:"reader"},
+  synthetic_demo: {label:"虚构教学设定", cls:"reader"},
+  fictional_demo: {label:"虚构教学设定", cls:"reader"},
+  model_authoring: {label:"模型设定", cls:"interpretation"},
+  model_definition: {label:"模型定义", cls:"interpretation"}
+};
+const STATUS = {documented:"有记录", tentative:"暂定", disputed:"有争议"};
+const DECISION = {
+  author_assigned:"作者归类", criteria_match:"读者判据匹配",
+  criteria_not_match:"读者判据未匹配（判断）", insufficient_evidence:"证据不足（判断）"
+};
+const RESULT = {satisfied:"满足", not_satisfied:"不满足", unknown:"未知"};
+let CASE = DATA.literatureCase || DATA.case || {};
+const DEMO_CASE = DATA.demo || {};
+const OPT_LOG = DATA.optimizationLog || {};
+const OPT_BASIS = DATA.optimizationBasis || {};
+let activeTab = "concept";
+let activeView = "graph";
+let selectedId = "Dwelling";
+let focusOneHop = true;
+let currentNodes = [];
+let currentEdges = [];
+let caseMaps = null;
+
+const FIELD_LABELS = {
+  endpoint:"端点", endpoints:"端点", from:"起点空间", to:"终点空间", interval:"空间间隔",
+  openingNature:"开口性质", opening_nature:"开口性质", opening:"开口", via:"关联关系",
+  endpointA:"端点 A", endpointB:"端点 B", startSpace:"起点空间", endSpace:"终点空间",
+  datasetKind:"数据类型", identityStatus:"身份状态", temporalScope:"时点范围",
+  scenario:"情境", agent:"使用者", mode:"通行方式"
+};
+const STATUS_LABELS = {documented:"有记录", tentative:"暂定", disputed:"有争议", conflicting:"有冲突", conflict:"有冲突", candidate:"候选", demonstration:"演示设定", unresolved:"未裁决", resolved:"已处理", unknown:"未知", not_observed:"未观测", not_applicable:"不适用"};
+const ENUM_LABELS = {
+  enclosure_degree:{enclosed:"围合",semi_open:"半开放",open:"开放"},
+  interface_kind:{open_boundary:"开放分界",door_opening:"门洞",window_opening:"窗洞",solid_boundary:"实体隔墙界面",other:"其他界面"},
+  physical_separation:{none:"无实体隔断",partial:"部分实体分隔",full:"完全实体分隔"},
+  opening_state:{open:"开放",closed:"关闭",blocked:"阻塞"}
+};
+const VOCABULARY = Object.fromEntries(((DATA.model||{}).vocabulary||[]).map(x=>[x.id,x]));
+function humanField(key) { return FIELD_LABELS[key] || key; }
+function textValue(value) {
+  if (value === null || value === undefined || value === "") return "未记录";
+  if (typeof value === "boolean") return value ? "是" : "否";
+  if (Array.isArray(value)) return value.length ? value.map(textValue).join("、") : "未记录";
+  if (typeof value === "object") return JSON.stringify(value);
+  return String(value);
+}
+function displayValue(predicate,value) {
+  if(typeof value==="boolean") return value?"是":"否";
+  if(Array.isArray(value)) return value.map(x=>displayValue(predicate,x)).join("、");
+  const vocabulary=ENUM_LABELS[predicate]||{};
+  return Object.prototype.hasOwnProperty.call(vocabulary,String(value))?vocabulary[String(value)]:textValue(value);
+}
+function labelForClass(id) { return CLASS_LABELS[id] || id || "未注明类型"; }
+function predicateLabel(id) {
+  const item = RELATIONS[id] || FEATURES[id];
+  return item ? item.label : (id || "未命名关系");
+}
+function attribution(value) {
+  if(ATTR[value]) return ATTR[value];
+  const raw=String(value||"归属未注明");
+  if(raw.includes("作者报告")) return {label:raw,cls:"fact"};
+  if(raw.includes("作者解释")) return {label:raw,cls:"interpretation"};
+  if(raw.includes("阅读者")||raw.includes("读者")) return {label:raw,cls:"reader"};
+  return {label:raw,cls:""};
+}
+function evidenceIds(value) { return Array.isArray(value) ? value : (value ? [value] : []); }
+function add(parent, tag, text, className) {
+  const node = document.createElement(tag);
+  if (text !== undefined && text !== null) node.textContent = String(text);
+  if (className) node.className = className;
+  parent.appendChild(node);
+  return node;
+}
+function badge(parent, label, className) {
+  return add(parent, "span", label, "badge" + (className ? " " + className : ""));
+}
+function makePill(parent, label, value) {
+  const span = add(parent, "span", "", "stat");
+  span.textContent = label + " " + value;
+}
+function link(parent, label, href) {
+  if (!href || typeof href !== "string") return add(parent,"span",label);
+  let trimmed=href.trim();
+  if(trimmed.startsWith("/"))trimmed="file://"+encodeURI(trimmed);
+  else if(/^[A-Za-z]:[\\/]/.test(trimmed))trimmed="file:///"+encodeURI(trimmed.replace(/\\/g,"/"));
+  const safe=/^(https?:|file:|zotero:|obsidian:)/i.test(trimmed) || (!/^[a-z][a-z0-9+.-]*:/i.test(trimmed) && !trimmed.startsWith("//"));
+  if(!safe) return add(parent,"span",label);
+  const a=add(parent,"a",label); a.href=trimmed; a.rel="noopener noreferrer"; a.target="_blank"; return a;
+}
+function basisEvidenceMap() { return new Map(((OPT_BASIS.evidence)||[]).map(e=>[String(e.id),e])); }
+function basisSourceMap() { return new Map(((OPT_BASIS.sources)||[]).map(x=>[String(x.id),x])); }
+function renderChangeRefs(parent, refs) {
+  const values=evidenceIds(refs);
+  if(!values.length)return;
+  const row=add(parent,"p","变更记录：");
+  values.forEach((raw,index)=>{
+    const id=String(raw && typeof raw==="object"?(raw.id||raw.change||raw.ref||JSON.stringify(raw)):raw);
+    if(index) row.appendChild(document.createTextNode("、"));
+    const a=add(row,"a",id); a.href="#change-"+id;
+  });
+}
+function renderBasisRefs(parent, refs) {
+  const values=evidenceIds(refs);
+  if(!values.length){add(parent,"p","未记录依据引用。","muted");return;}
+  const evidences=basisEvidenceMap(), sources=basisSourceMap();
+  for(const raw of values){
+    const ref=raw && typeof raw==="object" ? (raw.id || raw.evidence || raw.source || raw.ref || JSON.stringify(raw)) : raw;
+    const key=String(ref), ev=evidences.get(key), source=sources.get(key);
+    if(ev){
+      const card=add(parent,"div","","card");
+      add(card,"strong",ev.id || key);
+      const src=sources.get(String(ev.source));
+      if(src) add(card,"p",src.title || src.id);
+      if(ev.claim) add(card,"p",ev.claim);
+      const dl=add(card,"dl","","kv");
+      for(const [label,value] of [["PDF页序",ev.pdfPages],["印刷页码",ev.printedPages],["位置",ev.locator],["归属",ev.attribution?attribution(ev.attribution).label:null],["核验",ev.verification]]){
+        if(value!==undefined && value!==null && value!==""){add(dl,"dt",label);add(dl,"dd",textValue(value));}
+      }
+      const href=ev.sourceLink || (src && (src.sourceLink || src.url));
+      if(href) link(card,"打开依据来源",href);
+      else if(src && src.path) link(card,"打开来源文件",src.path);
+    } else if(source){
+      const card=add(parent,"div","","card");
+      add(card,"strong",source.title || source.id || key);
+      if(source.sourceLink || source.url) link(card,"打开来源",source.sourceLink || source.url);
+      else if(source.path) link(card,"打开来源文件",source.path);
+    } else {
+      const card=add(parent,"div","","card");
+      add(card,"strong",key);
+      add(card,"p","此编号沿用旧依据记录。","muted");
+      link(card,"打开旧版证据与阅读记录","../传统民居类型与形态拆解/证据与阅读记录.md");
+      link(card,"打开 v0.1 模型定义","../单体层知识图谱v0.1/模型定义.json");
+    }
+  }
+}
+function buildConcept() {
+  const nodes = (DATA.model.classes || []).map(c => ({
+    id:c.id, label:c.label || c.id, class:c.id, note:c.definition || "",
+    kind:"concept", tier:c.tier || "core", source:c
+  }));
+  const edges = [];
+  for (const r of (DATA.model.relations || [])) {
+    for (const source of (r.domain || [])) for (const target of (r.range || [])) {
+      edges.push({
+        id:"concept:" + r.id + ":" + source + ":" + target,
+        source, target, predicate:r.id, label:r.label || r.id,
+        definition:r.definition || "", attribution:"model_definition",
+        kind:"concept", record:r
+      });
+    }
+  }
+  return {nodes, edges};
+}
+function buildCase() {
+  const nodes = (CASE.nodes || []).map(n => ({...n, kind:"case", source:n}));
+  const nodeIds = new Set(nodes.map(n => String(n.id)));
+  const extra = new Map();
+  const edges = [];
+  const ensureTarget = (raw, assertionId, isValue, status, predicate) => {
+    if (isValue) {
+      const id = "@value:" + assertionId;
+      const disputed = status === "disputed";
+      const node = {id, label:displayValue(predicate,raw) + (disputed ? " · 有争议" : ""), class:"Value", kind:"value", value:raw, predicate, status, note:disputed ? "原文值保留；存在冲突证据，未确认为定值。" : ""};
+      extra.set(id, node); return id;
+    }
+    const id = String(raw);
+    if (nodeIds.has(id)) return id;
+    if (!extra.has(id)) extra.set(id, {
+      id, label:"未建节点 · " + id, class:"Missing", kind:"missing",
+      note:"该断言引用的目标节点未出现在 nodes 中。"
+    });
+    return id;
+  };
+  for (const a of (CASE.assertions || [])) {
+    const hasObject = Object.prototype.hasOwnProperty.call(a, "object");
+    const target = hasObject ? ensureTarget(a.object, a.id, false) : ensureTarget(a.value, a.id, true, a.status, a.predicate);
+    const subject = nodeIds.has(String(a.subject)) ? String(a.subject) : ensureTarget(a.subject, a.id + ":subject", false);
+    edges.push({
+      id:"assertion:" + a.id, source:subject, target,
+      predicate:a.predicate || "", label:predicateLabel(a.predicate),
+      attribution:a.attribution, status:a.status, evidence:a.evidence || [],
+      temporalScope:a.temporalScope, kind:"assertion", record:a,
+      value:!hasObject ? a.value : undefined, conflictingEvidence:a.conflictingEvidence || []
+    });
+  }
+  for (const c of (CASE.classifications || [])) {
+    const decision = c.decision || "insufficient_evidence";
+    const target = ensureTarget(c.type, c.id, false);
+    const subject = nodeIds.has(String(c.subject)) ? String(c.subject) : ensureTarget(c.subject, c.id + ":subject", false);
+    const label = DECISION[decision] || decision;
+    edges.push({
+      id:"classification:" + c.id, source:subject, target,
+      predicate:(decision === "author_assigned" || decision === "criteria_match") ? "has_type" : "classification_result",
+      label, attribution:c.attribution, status:c.status,
+      evidence:c.evidence || [], temporalScope:c.temporalScope,
+      kind:"classification", record:c, decision
+    });
+  }
+  return {nodes:[...nodes, ...extra.values()], edges};
+}
+function visibleGraph() {
+  if (activeTab === "concept") return buildConcept();
+  return buildCase();
+}
+function nodeName(node) { return node ? (node.label || node.id) : "未建节点"; }
+function nodeById(id) { return currentNodes.find(n => String(n.id) === String(id)); }
+function relatedEdges(id) {
+  return currentEdges.filter(e => String(e.source) === String(id) || String(e.target) === String(id));
+}
+function visibleSelection() {
+  let nodes = currentNodes.slice();
+  let edges = currentEdges.slice();
+  if (selectedId && focusOneHop) {
+    edges = edges.filter(e => String(e.source) === selectedId || String(e.target) === selectedId);
+    const ids = new Set([selectedId]);
+    edges.forEach(e => { ids.add(String(e.source)); ids.add(String(e.target)); });
+    nodes = nodes.filter(n => ids.has(String(n.id)));
+  }
+  return {nodes, edges};
+}
+function refresh() {
+  const graph = visibleGraph();
+  currentNodes = graph.nodes;
+  currentEdges = graph.edges;
+  const exists = selectedId && currentNodes.some(n => String(n.id) === selectedId);
+  if (selectedId && !exists) selectedId = "";
+  fillNodeSelect();
+  updateToolbar();
+  renderStats();
+  renderLegend();
+  const subset = visibleSelection();
+  if (activeView === "graph") {
+    $("graphWorkspace").hidden = false;
+    $("tablePanel").hidden = true;
+    renderGraph(subset.nodes, subset.edges);
+  } else {
+    $("graphWorkspace").hidden = true;
+    $("tablePanel").hidden = false;
+    renderTable(subset.nodes, subset.edges);
+  }
+  renderDetail();
+  renderSupplements();
+  renderOptimizations();
+  renderStatus();
+}
+function fillNodeSelect() {
+  const select = $("nodeSelect");
+  select.replaceChildren();
+  select.add(new Option("全部节点", ""));
+  const sorted = currentNodes.slice().sort((a,b) => nodeName(a).localeCompare(nodeName(b), "zh-CN"));
+  for (const n of sorted) select.add(new Option(nodeName(n) + " · " + labelForClass(n.class), String(n.id)));
+  select.value = selectedId;
+}
+function updateToolbar() {
+  $("conceptTab").setAttribute("aria-pressed", String(activeTab === "concept"));
+  $("caseTab").setAttribute("aria-pressed", String(activeTab === "case"));
+  $("demoTab").setAttribute("aria-pressed", String(activeTab === "demo"));
+  $("graphButton").setAttribute("aria-pressed", String(activeView === "graph"));
+  $("tableButton").setAttribute("aria-pressed", String(activeView === "table"));
+  $("focusButton").setAttribute("aria-pressed", String(focusOneHop));
+  $("focusButton").textContent = focusOneHop ? "显示全部" : "聚焦一跳";
+  $("graphHint").textContent = selectedId ? (focusOneHop ? "仅显示选中节点及一跳关系" : "点击节点查看证据和属性") : "点击节点查看证据和属性";
+}
+function renderStatus() {
+  const el = $("statusline");
+  if (activeTab === "concept") {
+    el.className = "statusline";
+    el.textContent = "概念关系来自模型定义；关系边按定义的 domain → range 展示。点击类、关系或特征可查看依据引用。";
+    return;
+  }
+  const hasData = (CASE.nodes || []).length > 0 || (CASE.assertions || []).length > 0 || (CASE.classifications || []).length > 0;
+  if (activeTab === "demo") {
+    el.className = "statusline demo-callout";
+    el.textContent = "虚构教学示例｜空间关系演示数据，不是实测资料，不并入文献案例或真实统计。只展示明确记录的关系，不从 Interface 推导通行。";
+    return;
+  }
+  el.className = "statusline" + (hasData ? "" : " empty");
+  el.textContent = hasData
+    ? "文献案例内容按输入 JSON 展示。争议值与冲突证据并列保留，不作为确定结论；未匹配或证据不足只显示判断连线，不投影为 has_type。"
+    : "案例图谱.json 当前为空或尚未提供；案例网络保持空白，未补造案例节点。";
+}
+function renderStats() {
+  const el = $("stats"); el.replaceChildren();
+  if (activeTab === "concept") {
+    makePill(el, "概念", (DATA.model.classes || []).length);
+    makePill(el, "关系定义", (DATA.model.relations || []).length);
+    makePill(el, "特征定义", (DATA.model.features || []).length);
+  } else if (activeTab === "demo") {
+    makePill(el, "演示节点", (CASE.nodes || []).length);
+    makePill(el, "演示关系", (CASE.assertions || []).length);
+    makePill(el, "演示证据", (CASE.evidence || []).length);
+    makePill(el, "演示空缺", (CASE.gaps || []).length);
+  } else {
+    makePill(el, "案例节点", (CASE.nodes || []).length);
+    makePill(el, "断言", (CASE.assertions || []).length);
+    makePill(el, "分类判断", (CASE.classifications || []).length);
+    makePill(el, "证据", (CASE.evidence || []).length);
+    makePill(el, "明确空缺", (CASE.gaps || []).length);
+  }
+}
+function renderLegend() {
+  const el = $("legend"); el.replaceChildren();
+  const addItem = (label, style, line=false) => {
+    const item = add(el, "span", "", "legend-item");
+    const sw = add(item, "span", "", line ? "line-swatch " + style : "swatch");
+    if (!line) {
+      const colors = {Dwelling:"#dcecf5",Space:"#dff0ed",Element:"#f4ead9",Representation:"#e7f3e2",TypeConcept:"#ede5f7",TypeScheme:"#ede5f7",Interface:"#ffe7c9",AnalysisRun:"#eadcf7"};
+      sw.style.background = colors[style] || "#e7f0f5";
+    } else if (style === "reader") sw.classList.add("reader");
+    add(item, "span", label);
+  };
+  if (activeTab === "concept") {
+    for (const c of (DATA.model.classes || [])) addItem(c.label || c.id, c.id);
+    addItem("类型定义之间的有向关系", "literature", true);
+  } else {
+    addItem("文献记载", "literature", true);
+    addItem("作者解释", "interpretation", true);
+    addItem("读者观察 / 推断", "reader", true);
+    addItem("属性值", "Value");
+    addItem("未建目标节点", "Missing");
+  }
+}
+function svgEl(tag, attrs={}) {
+  const el = document.createElementNS("http://www.w3.org/2000/svg", tag);
+  for (const [k,v] of Object.entries(attrs)) el.setAttribute(k, String(v));
+  return el;
+}
+function nodeRadius(n) { return n.kind === "value" ? 23 : (n.kind === "record" ? 25 : 27); }
+function layout(nodes, edges) {
+  const W=1000, H=650, cx=W/2, cy=H/2;
+  const n=nodes.length;
+  const pos=new Map();
+  if (!n) return pos;
+  const angleStep=Math.PI*(3-Math.sqrt(5));
+  const ring=Math.min(W,H)*0.36;
+  nodes.forEach((node,i) => {
+    const angle=i*angleStep;
+    const radius=ring*Math.sqrt((i+1)/n);
+    pos.set(String(node.id), {x:cx+Math.cos(angle)*radius, y:cy+Math.sin(angle)*radius});
+  });
+  if (n < 2) { const p=pos.get(String(nodes[0].id)); p.x=cx; p.y=cy; return pos; }
+  const area=(W-100)*(H-100), k=Math.sqrt(area/n);
+  let temp=52;
+  for (let it=0; it<90; it++) {
+    const disp=new Map(nodes.map(node => [String(node.id), {x:0,y:0}]));
+    for (let i=0;i<n;i++) for(let j=i+1;j<n;j++) {
+      const a=pos.get(String(nodes[i].id)), b=pos.get(String(nodes[j].id));
+      let dx=a.x-b.x, dy=a.y-b.y, d=Math.hypot(dx,dy)||0.01;
+      const f=(k*k)/d, fx=dx/d*f, fy=dy/d*f;
+      disp.get(String(nodes[i].id)).x+=fx; disp.get(String(nodes[i].id)).y+=fy;
+      disp.get(String(nodes[j].id)).x-=fx; disp.get(String(nodes[j].id)).y-=fy;
+    }
+    for (const e of edges) {
+      const a=pos.get(String(e.source)), b=pos.get(String(e.target));
+      if (!a || !b || a===b) continue;
+      let dx=a.x-b.x, dy=a.y-b.y, d=Math.hypot(dx,dy)||0.01;
+      const f=(d*d)/k, fx=dx/d*f, fy=dy/d*f;
+      disp.get(String(e.source)).x-=fx; disp.get(String(e.source)).y-=fy;
+      disp.get(String(e.target)).x+=fx; disp.get(String(e.target)).y+=fy;
+    }
+    for (const node of nodes) {
+      const id=String(node.id), p=pos.get(id), d=disp.get(id);
+      d.x+=(cx-p.x)*0.018; d.y+=(cy-p.y)*0.018;
+      const mag=Math.hypot(d.x,d.y)||1;
+      p.x=Math.max(88,Math.min(W-88,p.x+d.x/mag*Math.min(mag,temp)));
+      p.y=Math.max(74,Math.min(H-74,p.y+d.y/mag*Math.min(mag,temp)));
+    }
+    temp*=0.94;
+  }
+  return pos;
+}
+function attributionClass(value) {
+  if (["reader_diagram_observation","reader_modeling_inference","reader_cross_paper_modeling","synthetic_assumption"].includes(value) || String(value).includes("读者") || String(value).includes("阅读者")) return "reader";
+  if (value === "author_interpretation" || String(value).includes("作者解释")) return "interpretation";
+  return "";
+}
+function edgeClass(e) {
+  const classes=["edge"];
+  const a=attributionClass(e.attribution);
+  if (a) classes.push(a);
+  if (e.kind === "classification") classes.push("classification");
+  if (e.kind === "classification" && e.decision !== "author_assigned" && e.decision !== "criteria_match") classes.push("nonaffirmative");
+  return classes.join(" ");
+}
+function renderGraph(nodes, edges) {
+  const svg=$("graph"); svg.replaceChildren();
+  const defs=svgEl("defs");
+  const marker=svgEl("marker",{id:"arrow",viewBox:"0 0 10 10",refX:"8.5",refY:"5",markerWidth:"6",markerHeight:"6",orient:"auto-start-reverse"});
+  marker.appendChild(svgEl("path",{d:"M 0 0 L 10 5 L 0 10 z",fill:"#536e80"}));
+  defs.appendChild(marker); svg.appendChild(defs);
+  if (!nodes.length) {
+    const t=svgEl("text",{x:500,y:325,"text-anchor":"middle",fill:"#687987","font-size":16});
+    t.textContent=activeTab === "demo" ? "暂无演示节点或关系" : (activeTab === "case" ? "暂无案例节点或关系" : "模型中没有概念节点");
+    svg.appendChild(t); return;
+  }
+  const positions=layout(nodes,edges);
+  const seenPair=new Map();
+  for (const e of edges) {
+    const s=positions.get(String(e.source)), t=positions.get(String(e.target));
+    if (!s || !t) continue;
+    const pair=[String(e.source),String(e.target)].sort().join("||");
+    const offset=seenPair.get(pair)||0; seenPair.set(pair,offset+1);
+    const dx=t.x-s.x, dy=t.y-s.y, dist=Math.hypot(dx,dy)||1;
+    const rs=nodeRadius(nodeById(e.source)||{}), rt=nodeRadius(nodeById(e.target)||{});
+    const sx=s.x+dx/dist*rs, sy=s.y+dy/dist*rs;
+    const ex=t.x-dx/dist*(rt+5), ey=t.y-dy/dist*(rt+5);
+    const nx=-dy/dist, ny=dx/dist, curve=(offset%2 ? 1 : -1)*(9+Math.floor(offset/2)*9);
+    const qx=(sx+ex)/2+nx*curve, qy=(sy+ey)/2+ny*curve;
+    const g=svgEl("g",{class:edgeClass(e),tabindex:"0",role:"group"});
+    const path=svgEl("path",{d:"M "+sx+" "+sy+" Q "+qx+" "+qy+" "+ex+" "+ey});
+    const title=svgEl("title");
+    title.textContent=(e.label||predicateLabel(e.predicate))+" · "+attribution(e.attribution).label+" · 证据 "+evidenceIds(e.evidence).join("、");
+    g.appendChild(title); g.appendChild(path);
+    const label=e.label || predicateLabel(e.predicate);
+    const short=label.length>23 ? label.slice(0,22)+"…" : label;
+    const tx=(sx+2*qx+ex)/4, ty=(sy+2*qy+ey)/4-4;
+    const width=Math.min(280,Math.max(64,short.length*14+14));
+    g.appendChild(svgEl("rect",{x:tx-width/2,y:ty-10,width,height:20,rx:4,class:"edge-label-bg"}));
+    const text=svgEl("text",{x:tx,y:ty,class:"edge-label"}); text.textContent=short; g.appendChild(text);
+    svg.appendChild(g);
+  }
+  for (const n of nodes) {
+    const p=positions.get(String(n.id)); if (!p) continue;
+    const classes=["node"];
+    if (n.status==="disputed") classes.push("disputed");
+    if (String(n.id)===selectedId) classes.push("selected");
+    if (n.kind==="value") classes.push("value");
+    if (n.kind==="missing") classes.push("missing");
+    if (n.kind==="record") classes.push("record");
+    if (n.class) classes.push("class-"+String(n.class).replace(/[^A-Za-z0-9_-]/g,""));
+    const g=svgEl("g",{class:classes.join(" "),transform:"translate("+p.x+" "+p.y+")",tabindex:"0",role:"button","aria-label":nodeName(n)});
+    const title=svgEl("title"); title.textContent=nodeName(n)+" · "+labelForClass(n.class); g.appendChild(title);
+    g.appendChild(svgEl("circle",{r:nodeRadius(n)}));
+    const label=nodeName(n), lines=[];
+    for(let i=0;i<label.length;i+=9) lines.push(label.slice(i,i+9));
+    const shown=lines.slice(0,3);
+    const widest=Math.max(...shown.map(s=>s.length),2);
+    const bg=svgEl("rect",{x:-widest*6.5-6,y:-shown.length*8-3,width:widest*13+12,height:shown.length*16+6,rx:3,class:"node-label-bg"});
+    g.appendChild(bg);
+    const text=svgEl("text",{x:0,y:-(shown.length-1)*8+4,"text-anchor":"middle"});
+    shown.forEach((line,i)=>{const tspan=svgEl("tspan",{x:0,dy:i===0?0:16}); tspan.textContent=line; text.appendChild(tspan);});
+    g.appendChild(text);
+    g.addEventListener("click",()=>{selectedId=String(n.id); fillNodeSelect(); refresh();});
+    g.addEventListener("keydown",ev=>{if(ev.key==="Enter"||ev.key===" "){ev.preventDefault();selectedId=String(n.id);fillNodeSelect();refresh();}});
+    svg.appendChild(g);
+  }
+}
+function sourceMap() { return new Map((CASE.sources || []).map(s => [String(s.id),s])); }
+function evidenceMap() { return new Map((CASE.evidence || []).map(e => [String(e.id),e])); }
+function pageText(value) { return value === undefined || value === null || value === "" ? "未记录" : textValue(value); }
+function referenceText(value) {
+  if(Array.isArray(value)) return value.map(referenceText).join("、");
+  if(value && typeof value==="object") return Object.fromEntries(Object.entries(value).map(([k,v])=>[humanField(k),referenceText(v)]));
+  const node=nodeById(value);
+  return node ? nodeName(node)+"（"+String(value)+"）" : textValue(value);
+}
+function accessContextText(value) {
+  if(value===null || value===undefined || value==="") return "情境未记录";
+  if(typeof value!=="object" || Array.isArray(value)) return textValue(value);
+  return Object.entries(value).map(([key,item])=>humanField(key)+"："+textValue(item)).join("；");
+}
+function renderEvidence(parent, ids) {
+  const eMap=evidenceMap(), sMap=sourceMap();
+  if (!ids.length) { add(parent,"p","未关联证据记录。","muted"); return; }
+  for (const rawId of ids) {
+    const id=String(rawId), ev=eMap.get(id);
+    if (!ev) { add(parent,"p","证据记录缺失："+id,"muted"); continue; }
+    const card=add(parent,"div","","card");
+    add(card,"strong",ev.id || id);
+    const src=sMap.get(String(ev.source));
+    add(card,"p",src ? (src.title || src.id) : ("来源记录缺失："+textValue(ev.source)));
+    const dl=add(card,"dl","","kv");
+    const fields=[
+      ["PDF页序",pageText(ev.pdfPages)],["印刷页码",pageText(ev.printedPages)],
+      ["图表/位置",pageText(ev.locator)],["证据内容",pageText(ev.summary || ev.claim)],
+      ["证据归属",attribution(ev.attribution).label], ["核验状态",pageText(ev.verification)]
+    ];
+    if (src) {
+      fields.push(["Zotero Key",pageText(src.zoteroKey)]);
+      fields.push(["附件 Key",pageText(src.attachmentKey)]);
+      fields.push(["本地路径",pageText(src.path)]);
+    }
+    for(const [k,v] of fields){add(dl,"dt",k);add(dl,"dd",v);}
+    const href=ev.sourceLink || (src && (src.sourceLink || src.url));
+    if(href) link(card,"打开来源",href);
+    if(src && src.zoteroKey) link(card,"打开 Zotero 条目","zotero://select/library/items/"+encodeURIComponent(String(src.zoteroKey)));
+    const pdfPages=Array.isArray(ev.pdfPages)?ev.pdfPages:(ev.pdfPages===undefined||ev.pdfPages===null?[]:[ev.pdfPages]);
+    const page=pdfPages.length?pdfPages[0]:null;
+    if(src && src.attachmentKey && page!==null && page!=="")
+      link(card,"在 Zotero 打开 PDF 第 "+textValue(page)+" 页","zotero://open-pdf/library/items/"+encodeURIComponent(String(src.attachmentKey))+"?page="+encodeURIComponent(String(page)));
+    if(ev.image) link(card,"查看证据图片",ev.image);
+  }
+}
+function assertionCard(parent,a,relatedTo) {
+  const card=add(parent,"div","","card");
+  const fact=attribution(a.attribution);
+  add(card,"strong",predicateLabel(a.predicate));
+  if(a.id)add(card,"small","断言 ID："+a.id,"muted");
+  badge(card,fact.label,fact.cls);
+  if (a.status) badge(card,STATUS_LABELS[a.status]||STATUS[a.status]||a.status,a.status==="disputed"?"status-disputed":(a.status==="tentative"?"status-tentative":""));
+  const subject=nodeById(a.subject);
+  const isSubject=String(a.subject)===String(relatedTo);
+  const hasObject=Object.prototype.hasOwnProperty.call(a,"object");
+  const target=hasObject ? textValue(a.object) : displayValue(a.predicate,a.value);
+  const targetNode=hasObject ? nodeById(a.object) : null;
+  const uncertainty=a.status==="disputed"?"（原文表值，存在冲突；未确认为定值）":"";
+  add(card,"p",(isSubject?"→ ":"← ")+(subject?nodeName(subject):textValue(a.subject))+" · "+predicateLabel(a.predicate)+" · "+(targetNode?nodeName(targetNode):target)+uncertainty);
+  if (a.scope !== undefined) add(card,"p","范围："+textValue(a.scope));
+  if (a.via !== undefined) add(card,"p","via 界面："+referenceText(a.via));
+  if (a.accessContext !== undefined) add(card,"p","通行情境："+accessContextText(a.accessContext));
+  if (a.method !== undefined) add(card,"p","记录方法："+textValue(a.method));
+  if (a.observer !== undefined) add(card,"p","记录者："+textValue(a.observer));
+  if (a.recordedAt !== undefined) add(card,"p","录入日期："+textValue(a.recordedAt));
+  if (a.normalizedTerm && VOCABULARY[a.normalizedTerm]) {
+    const term=VOCABULARY[a.normalizedTerm];
+    add(card,"p","术语对齐："+(term.preferredLabel||term.id)+"（"+textValue(term.status)+"；"+textValue(term.mappingRelation)+"）");
+  }
+  add(card,"p","时点："+pageText(a.temporalScope));
+  if (a.note) add(card,"p","备注："+textValue(a.note));
+  add(card,"h3","原始证据");
+  renderEvidence(card,evidenceIds(a.evidence));
+  if(evidenceIds(a.conflictingEvidence).length){
+    add(card,"h3","冲突证据（并列保留，不作裁决）");
+    renderEvidence(card,evidenceIds(a.conflictingEvidence));
+  }
+}
+function classificationCard(parent,c) {
+  const card=add(parent,"div","","card");
+  add(card,"strong","分类判断");
+  const fact=attribution(c.attribution); badge(card,fact.label,fact.cls);
+  badge(card,DECISION[c.decision]||c.decision||"判断未注明",
+    c.decision==="insufficient_evidence"?"status-tentative":"");
+  if(c.status)badge(card,"状态："+(STATUS_LABELS[c.status]||STATUS[c.status]||c.status),c.status==="disputed"?"status-disputed":"");
+  add(card,"p","分类体系："+textValue(c.scheme));
+  const type=nodeById(c.type);
+  add(card,"p","判断指向："+(type?nodeName(type):textValue(c.type)));
+  add(card,"p","时点："+pageText(c.temporalScope));
+  if(c.note)add(card,"p","备注："+textValue(c.note));
+  if(Array.isArray(c.criteriaResults)&&c.criteriaResults.length){
+    add(card,"h3","判据结果");
+    const table=add(card,"table");
+    const thead=add(table,"thead"), tr=add(thead,"tr");
+    ["判据","特征","预期","实际记录","输入断言","结果","说明"].forEach(x=>add(tr,"th",x));
+    const tbody=add(table,"tbody");
+    for(const cr of c.criteriaResults){
+      const row=add(tbody,"tr");
+      add(row,"td",textValue(cr.criterion));
+      const feature=FEATURES[cr.feature];
+      add(row,"td",feature?(feature.label||feature.id)+" · "+feature.id:pageText(cr.feature));
+      const pretty=v=>typeof v==="boolean"?(v?"是":"否"):textValue(v);
+      add(row,"td",displayValue(cr.feature,cr.expected));
+      const actualCell=add(row,"td",displayValue(cr.feature,cr.actual));
+      const assertion=(CASE.assertions||[]).find(a=>String(a.id)===String(cr.assertion));
+      if(assertion && assertion.status==="disputed") badge(actualCell,"值有争议","status-disputed");
+      const assertedValue=assertion ? (Object.prototype.hasOwnProperty.call(assertion,"value")?assertion.value:assertion.object) : cr.assertion;
+      const assertedNode=assertion && Object.prototype.hasOwnProperty.call(assertion,"object") ? nodeById(assertion.object) : null;
+      add(row,"td",assertion ? predicateLabel(assertion.predicate)+"："+(assertedNode?nodeName(assertedNode):displayValue(assertion.predicate,assertedValue)) : pageText(cr.assertion));
+      add(row,"td",RESULT[cr.result]||cr.result||"未记录");
+      add(row,"td",pageText(cr.reason));
+    }
+  }
+  add(card,"h3","判断证据");
+  renderEvidence(card,evidenceIds(c.evidence));
+}
+function renderDetail() {
+  const box=$("detail"); box.replaceChildren();
+  if (!selectedId) {
+    add(box,"p","选择图中的一个节点，查看它的关系、属性断言、证据页码和判断归属。","muted");
+    if (activeTab==="concept") {
+      add(box,"h3","如何读图");
+      add(box,"p","圆点代表模型中的类；箭头从允许的起点类别指向目标类别。选中类可查看其定义、适用特征和出入关系。");
+    }
+    return;
+  }
+  const n=nodeById(selectedId);
+  if (!n) { add(box,"p","当前节点未找到。","muted"); return; }
+  add(box,"h2",nodeName(n));
+  badge(box,labelForClass(n.class));
+  if(n.identityStatus) badge(box,"身份状态："+(n.identityStatus==="synthetic"?"虚构示例":textValue(n.identityStatus)));
+  if(n.datasetKind) badge(box,n.datasetKind==="synthetic_demo"?"虚构教学示例":textValue(n.datasetKind),n.datasetKind==="synthetic_demo"?"reader":"");
+  if(n.tier) badge(box,n.tier==="extension"?"扩展":"核心");
+  if(n.note) add(box,"p",textValue(n.note));
+  if(n.kind==="value") add(box,"p",displayValue(n.predicate,n.value));
+  const excluded=new Set(["id","label","class","kind","source","note","identityStatus","tier","value","predicate"]);
+  const extras=Object.entries(n).filter(([key])=>!excluded.has(key));
+  if(extras.length){
+    add(box,"h3","节点属性");
+    const dl=add(box,"dl","","kv");
+    for(const [k,v] of extras){add(dl,"dt",humanField(k));add(dl,"dd",textValue(v));}
+  }
+  if(activeTab==="concept"){
+    const classRecord=(DATA.model.classes||[]).find(c=>String(c.id)===String(n.id));
+    if(classRecord && evidenceIds(classRecord.basisRefs).length){
+      add(box,"h3","模型依据"); renderBasisRefs(box,classRecord.basisRefs);
+    }
+    if(classRecord)renderChangeRefs(box,classRecord.changeRefs);
+    const features=(DATA.model.features||[]).filter(f=>(f.domain||[]).includes(n.id));
+    if(features.length){
+      add(box,"h3","适用特征");
+      for(const f of features){
+        const card=add(box,"div","","card");
+        add(card,"strong",f.label||f.id);
+        add(card,"p",f.id+" · "+(f.datatype||"类型未注明")+(f.unit?" · 单位 "+f.unit:""));
+        add(card,"p",f.definition||"");
+        if(Array.isArray(f.allowedValues)&&f.allowedValues.length)add(card,"p","可用值："+f.allowedValues.map(v=>displayValue(f.id,v)).join("、"));
+        renderChangeRefs(card,f.changeRefs);
+        if(evidenceIds(f.basisRefs).length){add(card,"h3","依据");renderBasisRefs(card,f.basisRefs);}
+      }
+    }
+    const rels=relatedEdges(selectedId);
+    if(rels.length){
+      add(box,"h3","一跳关系");
+      for(const e of rels){
+        const other=String(e.source)===selectedId?nodeById(e.target):nodeById(e.source);
+        const card=add(box,"div","","card");
+        add(card,"strong",(String(e.source)===selectedId?"→ ":"← ")+(other?nodeName(other):e.target)+" · "+e.label);
+        if(e.definition)add(card,"p",e.definition);
+        if(e.record){renderChangeRefs(card,e.record.changeRefs);}
+        if(e.record && evidenceIds(e.record.basisRefs).length){add(card,"h3","关系依据");renderBasisRefs(card,e.record.basisRefs);}
+      }
+    }
+    return;
+  }
+  if(activeTab==="demo" && (String(n.class).toLowerCase()==="interface" || /interface/i.test(String(n.id)))){
+    const ownAssertions=(CASE.assertions||[]).filter(a=>String(a.subject)===String(n.id));
+    add(box,"h3","空间界面记录");
+    const endpoints=ownAssertions.filter(a=>a.predicate==="interface_of");
+    add(box,"h3","端点");
+    if(endpoints.length){
+      for(const a of endpoints){
+        const target=nodeById(a.object);
+        add(box,"p",target?nodeName(target)+"（"+target.id+"）":textValue(a.object));
+      }
+    } else add(box,"p","未记录界面端点。","muted");
+    const separation=ownAssertions.filter(a=>a.predicate==="physical_separation");
+    add(box,"h3","间隔 / 实体分隔");
+    if(separation.length){for(const a of separation)add(box,"p",displayValue(a.predicate,a.value));}
+    else add(box,"p","未记录。","muted");
+    const kinds=ownAssertions.filter(a=>a.predicate==="interface_kind" || a.predicate==="opening_state");
+    add(box,"h3","开口性质");
+    if(kinds.length){for(const a of kinds)add(box,"p",predicateLabel(a.predicate)+"："+displayValue(a.predicate,a.value));}
+    else add(box,"p","未记录。","muted");
+    const passage=ownAssertions.filter(a=>a.predicate==="passage_allowed");
+    if(passage.length){
+      add(box,"h3","指定情境下的通行判断");
+      for(const a of passage)add(box,"p",displayValue(a.predicate,a.value)+" · "+accessContextText(a.accessContext));
+    }
+    const viaEdges=(CASE.assertions||[]).filter(a=>a.predicate==="direct_access_to" && String(a.via)===String(n.id));
+    add(box,"h3","via 所关联的直接通行关系");
+    if(viaEdges.length){for(const a of viaEdges)assertionCard(box,a,n.id);}
+    else add(box,"p","没有输入断言通过 via 引用此界面；不推导空间通行。","muted");
+  }
+  const assertionRecords=(CASE.assertions||[]).filter(a=>String(a.subject)===selectedId ||
+    (Object.prototype.hasOwnProperty.call(a,"object") && String(a.object)===selectedId));
+  if(assertionRecords.length){
+    add(box,"h3","相关关系与属性");
+    for(const a of assertionRecords) assertionCard(box,a,selectedId);
+  }
+  const classRecords=(CASE.classifications||[]).filter(c=>String(c.subject)===selectedId || String(c.type)===selectedId);
+  if(classRecords.length){
+    add(box,"h3","相关类型判断");
+    for(const c of classRecords) classificationCard(box,c);
+  }
+  if(n.kind==="value" || n.kind==="missing"){
+    const edge=currentEdges.find(e=>String(e.target)===selectedId);
+    if(edge && edge.record && !assertionRecords.some(a=>String(a.id)===String(edge.record.id))){
+      if(edge.kind==="assertion") assertionCard(box,edge.record,edge.source);
+      else if(edge.kind==="classification") classificationCard(box,edge.record);
+    }
+  }
+  if(!assertionRecords.length&&!classRecords.length&&n.kind!=="value"&&n.kind!=="missing")
+    add(box,"p","暂无关联断言或分类判断记录。","muted");
+}
+function pageSummary(ids) {
+  const eMap=evidenceMap();
+  return evidenceIds(ids).map(id=>{
+    const e=eMap.get(String(id));
+    return e ? (textValue(e.pdfPages)+"页"+(e.printedPages?" / "+textValue(e.printedPages):"")) : ("证据缺失："+id);
+  }).join("；") || "未关联证据";
+}
+function renderTable(nodes, edges) {
+  const box=$("tableContent"); box.replaceChildren();
+  if(activeTab==="concept"){
+    const relationTable=add(box,"table");
+    const h=add(add(relationTable,"thead"),"tr");
+    ["起点类别","有向关系","终点类别","含义"].forEach(x=>add(h,"th",x));
+    const body=add(relationTable,"tbody");
+    const nodeMap=new Map(nodes.map(n=>[String(n.id),n]));
+    for(const e of edges){
+      const row=add(body,"tr");
+      add(row,"td",nodeName(nodeMap.get(String(e.source)))+" ("+labelForClass(e.source)+")");
+      add(row,"td",(nodeName(nodeMap.get(String(e.source)))+" → "+e.label+" → "+nodeName(nodeMap.get(String(e.target)))));
+      add(row,"td",nodeName(nodeMap.get(String(e.target)))+" ("+labelForClass(e.target)+")");
+      add(row,"td",e.definition);
+    }
+    const features=(DATA.model.features||[]).filter(f=>!selectedId||(f.domain||[]).includes(selectedId));
+    const title=add(box,"h3","特征定义");
+    title.className="subsection";
+    const ft=add(box,"table"), fh=add(add(ft,"thead"),"tr");
+    ["特征","适用类别","数据类型 / 单位","定义"].forEach(x=>add(fh,"th",x));
+    const fb=add(ft,"tbody");
+    for(const f of features){
+      const row=add(fb,"tr");
+      add(row,"td",(f.label||f.id)+" · "+f.id);
+      add(row,"td",(f.domain||[]).map(labelForClass).join("、"));
+      add(row,"td",(f.datatype||"未注明")+(f.unit?" / "+f.unit:""));
+      add(row,"td",f.definition||"");
+    }
+    return;
+  }
+  if(!edges.length){
+    add(box,"p","当前筛选下没有有向关系。","empty-note");
+  } else {
+    const table=add(box,"table"), head=add(add(table,"thead"),"tr");
+    ["起点","有向关系","终点 / 属性值","判断归属","状态 / 时点","证据与页码"].forEach(x=>add(head,"th",x));
+    const body=add(table,"tbody"), nodeMap=new Map(nodes.map(n=>[String(n.id),n]));
+    for(const e of edges){
+      const row=add(body,"tr");
+      const s=nodeMap.get(String(e.source)),t=nodeMap.get(String(e.target));
+      add(row,"td",s?nodeName(s):String(e.source));
+      add(row,"td",(e.kind==="classification"?"类型判断 · ":"")+e.label);
+      add(row,"td",t?nodeName(t):String(e.target));
+      add(row,"td",attribution(e.attribution).label);
+      add(row,"td",(STATUS_LABELS[e.status]||STATUS[e.status]||e.status||"未注明")+" / "+pageText(e.temporalScope));
+      let evidenceText=pageSummary(e.evidence);
+      if(e.conflictingEvidence && e.conflictingEvidence.length)evidenceText+="；冲突证据："+pageSummary(e.conflictingEvidence);
+      add(row,"td",evidenceText);
+    }
+  }
+  const claims=(CASE.assertions||[]).filter(a=>!selectedId||String(a.subject)===selectedId||String(a.object)===selectedId||(!Object.prototype.hasOwnProperty.call(a,"object")&&"@value:"+a.id===selectedId));
+  if(claims.length){
+    const title=add(box,"h3","断言明细");
+    title.className="subsection";
+    const table=add(box,"table"), head=add(add(table,"thead"),"tr");
+    ["对象","特征 / 关系","值或目标","归属","状态","备注","证据定位"].forEach(x=>add(head,"th",x));
+    const body=add(table,"tbody");
+    for(const a of claims){
+      const row=add(body,"tr"), s=nodeMapGet(CASE.nodes,a.subject);
+      add(row,"td",s?nodeName(s):textValue(a.subject));
+      add(row,"td",predicateLabel(a.predicate));
+      const isDisputed=a.status==="disputed";
+      add(row,"td",(Object.prototype.hasOwnProperty.call(a,"value")?displayValue(a.predicate,a.value):textValue(a.object))+(isDisputed?"（原文值；有争议）":""));
+      add(row,"td",attribution(a.attribution).label);
+      add(row,"td",STATUS_LABELS[a.status]||STATUS[a.status]||a.status||"未注明");
+      add(row,"td",pageText(a.note));
+      let evidenceText=pageSummary(a.evidence);
+      if(evidenceIds(a.conflictingEvidence).length)evidenceText+="；冲突证据："+pageSummary(a.conflictingEvidence);
+      add(row,"td",evidenceText);
+    }
+  }
+}
+function nodeMapGet(nodes,id){return (nodes||[]).find(n=>String(n.id)===String(id));}
+function renderSupplements() {
+  const box=$("caseSupplements"); box.replaceChildren();
+  if(activeTab==="concept") return;
+  const sources=CASE.sources||[], gaps=CASE.gaps||[];
+  const details=add(box,"details");
+  add(details,"summary",(activeTab==="demo"?"演示数据来源与明确空缺":"案例来源与明确空缺")+" · "+sources.length+" 个来源 · "+gaps.length+" 条空缺");
+  const inside=add(details,"div","","inside");
+  const srcSection=add(inside,"section","","subsection");
+  add(srcSection,"h2",activeTab==="demo"?"演示来源记录":"文献来源");
+  if(!sources.length) add(srcSection,"p","暂无来源记录；不推测文献条目。","muted");
+  else {
+    const table=add(srcSection,"table"),head=add(add(table,"thead"),"tr");
+    ["来源 ID","文献","Zotero Key","附件 Key","本地路径"].forEach(x=>add(head,"th",x));
+    const body=add(table,"tbody");
+    for(const s of sources){
+      const row=add(body,"tr");
+      add(row,"td",textValue(s.id));add(row,"td",textValue(s.title));
+      add(row,"td",pageText(s.zoteroKey));add(row,"td",pageText(s.attachmentKey));add(row,"td",pageText(s.path));
+    }
+  }
+  const conflicts=CASE.conflicts||[];
+  if(conflicts.length){
+    const conflictSection=add(inside,"section","","subsection");
+    add(conflictSection,"h2","冲突记录 · "+conflicts.length+" 项");
+    for(const conflict of conflicts){
+      const card=add(conflictSection,"div","","card");
+      add(card,"strong",conflict.id||"冲突未编号");
+      const subject=nodeById(conflict.subject);
+      add(card,"p","对象："+(subject?nodeName(subject):pageText(conflict.subject))+" · "+predicateLabel(conflict.predicate));
+      if(conflict.status)badge(card,"状态："+(STATUS_LABELS[conflict.status]||textValue(conflict.status)),conflict.status==="unresolved"?"status-disputed":"");
+      if(conflict.handling)add(card,"p","处理："+textValue(conflict.handling));
+      if(conflict.assertion)add(card,"p","关联断言："+textValue(conflict.assertion));
+      add(card,"h3","冲突证据");renderEvidence(card,evidenceIds(conflict.evidence));
+    }
+  }
+  const gapSection=add(inside,"section","","subsection");
+  add(gapSection,"h2","明确空缺");
+  if(!gaps.length) add(gapSection,"p","没有录入空缺记录。","muted");
+  else {
+    const table=add(gapSection,"table"),head=add(add(table,"thead"),"tr");
+    ["对象","字段","状态","原因"].forEach(x=>add(head,"th",x));
+    const body=add(table,"tbody");
+    for(const g of gaps){
+      const row=add(body,"tr");
+      const n=nodeById(g.subject);
+      add(row,"td",n?nodeName(n):pageText(g.subject));
+      add(row,"td",pageText(g.field));add(row,"td",STATUS_LABELS[g.status]||pageText(g.status));add(row,"td",pageText(g.reason||g.note));
+    }
+  }
+}
+function setDataset(view){
+  activeTab=view;
+  CASE=view==="demo"?DEMO_CASE:(view==="case"?(DATA.literatureCase||DATA.case||{}):{});
+  selectedId=view==="concept"?"Dwelling":(view==="demo"?String(((DEMO_CASE.nodes||[]).find(n=>String(n.class).toLowerCase()==="interface")||{}).id||((DEMO_CASE.nodes||[]).find(n=>/interface/i.test(String(n.id)))||{}).id||""):"R_8");
+  focusOneHop=true; refresh();
+}
+function renderOptimizations(){
+  const box=$("optimizationSection"); box.replaceChildren();
+  const changes=OPT_LOG.changes||[];
+  const title=add(box,"h2","优化记录 · "+changes.length+" 项");
+  if(!changes.length){add(box,"p","暂无优化记录。","muted");return;}
+  for(const change of changes){
+    const card=add(box,"div","","card");
+    if(change.id)card.id="change-"+change.id;
+    add(card,"h3",(change.id?change.id+" · ":"")+(change.title||"未命名变更"));
+    if(change.status)badge(card,"状态："+textValue(change.status));
+    for(const [label,key] of [["变更前","before"],["变更后","after"],["依据说明","rationale"],["实现","implementation"],["验证边界","validationBoundary"]]){
+      if(change[key]!==undefined && change[key]!==null && change[key]!==""){
+        add(card,"p",label+"："+textValue(change[key]));
+      }
+    }
+    if(evidenceIds(change.basisRefs).length){add(card,"h3","依据引用");renderBasisRefs(card,change.basisRefs);}
+  }
+}
+$("conceptTab").addEventListener("click",()=>setDataset("concept"));
+$("caseTab").addEventListener("click",()=>setDataset("case"));
+$("demoTab").addEventListener("click",()=>setDataset("demo"));
+$("graphButton").addEventListener("click",()=>{activeView="graph";refresh();});
+$("tableButton").addEventListener("click",()=>{activeView="table";refresh();});
+$("focusButton").addEventListener("click",()=>{focusOneHop=!focusOneHop;refresh();});
+$("nodeSelect").addEventListener("change",ev=>{selectedId=ev.target.value;refresh();});
+refresh();
+</script>
+</body>
+</html>

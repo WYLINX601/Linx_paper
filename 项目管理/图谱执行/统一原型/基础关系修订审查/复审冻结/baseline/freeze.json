@@ -1,0 +1,15 @@
+{
+  "paper": {
+    "sha256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+    "exists": true
+  },
+  "committedModelSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+  "database": {
+    "nodes": 56,
+    "relationships": 285,
+    "fingerprint": "3738fdc69533c91ab43f2db0aa116eb625516d14e2be3ba6faae024821df2142",
+    "kind": "logical snapshot, not binary dump; restore not rehearsed"
+  },
+  "scope": "implementation baseline; immutable audit remains separate",
+  "paperAndDatabaseDifferentBeforeUpdate": true
+}

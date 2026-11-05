@@ -1,0 +1,14 @@
+{
+  "removed_install_generations": [
+    "/Users/wangyuelin/.hermes/installs/3c0f8a0a9bc9ae0b/environments/ff6138e67f61466c92f67a6b9fb1e9bb"
+  ],
+  "method": "Hermes collect_generations, default age and lease protection",
+  "workspace_cleanup": "deferred: archive is dataless and read could not complete; original workspace retained",
+  "removed_install_KiB": 353216,
+  "retained_install_generations": [
+    "31aae4d561a0453685088f62a77ea387",
+    "8bd831c741674f5588f56f9563757454",
+    "a22655306d614a548d7b6ae1ee99b2c0"
+  ],
+  "conversation_database_untouched": true
+}

@@ -1,0 +1,7 @@
+{
+  "actualPayloadAccepted": true,
+  "outsideUidRejected": true,
+  "boolVersusIntDistinct": true,
+  "integerVersusFloatDistinct": true,
+  "databaseAccess": "none; memory-only regression checks"
+}

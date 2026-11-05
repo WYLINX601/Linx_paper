@@ -1,0 +1,225 @@
+{
+  "meta": {
+    "schema_version": "0.1",
+    "title": "建筑风貌知识图谱基础框架",
+    "mode": "research",
+    "description": "空白录入模板。对象、记录、来源和分析均未填写；候选字段与类型需通过试采修订。",
+    "created": "2026-10-08"
+  },
+  "places": [],
+  "buildings": [],
+  "components": [],
+  "feature_definitions": [
+    {
+      "id": "roof_form",
+      "label": "屋顶形式",
+      "applicable_to": [
+        "roof"
+      ],
+      "value_kind": "type",
+      "unit": null,
+      "definition": "依据主屋面数量、坡向与屋脊组织判读；观察不足时保留未知。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "roof_pitch",
+      "label": "屋面坡度",
+      "applicable_to": [
+        "roof"
+      ],
+      "value_kind": "number",
+      "unit": "°",
+      "definition": "指定一个屋面的测量剖面，记录高差、水平投影、端点及几何质量。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "eaves_depth",
+      "label": "出檐深度",
+      "applicable_to": [
+        "roof"
+      ],
+      "value_kind": "number",
+      "unit": "m",
+      "definition": "明确墙面基准与檐口投影端点，记录所用模型版本。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "gable_form",
+      "label": "山墙形式",
+      "applicable_to": [
+        "gable"
+      ],
+      "value_kind": "type",
+      "unit": null,
+      "definition": "记录可见轮廓及其与屋顶的对应关系，不据外观推断隐蔽构造。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "storeys",
+      "label": "可见层数",
+      "applicable_to": [
+        "building"
+      ],
+      "value_kind": "number",
+      "unit": "层",
+      "definition": "结合立面和现场证据计数，不由门窗排列推定内部层数。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "window_form",
+      "label": "窗形式",
+      "applicable_to": [
+        "window"
+      ],
+      "value_kind": "type",
+      "unit": null,
+      "definition": "按轮廓、分格和开启构成判读；材料另设字段。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "window_width",
+      "label": "窗宽",
+      "applicable_to": [
+        "window"
+      ],
+      "value_kind": "number",
+      "unit": "m",
+      "definition": "说明量取窗洞还是窗框外缘，并保存端点。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "window_height",
+      "label": "窗高",
+      "applicable_to": [
+        "window"
+      ],
+      "value_kind": "number",
+      "unit": "m",
+      "definition": "与窗宽使用相同边界定义，保存端点。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "surface_material",
+      "label": "可见表面材料",
+      "applicable_to": [
+        "roof",
+        "gable",
+        "wall",
+        "door",
+        "window"
+      ],
+      "value_kind": "text",
+      "unit": null,
+      "definition": "只描述观察到的表面；承重结构与历史原材需另有证据。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "surface_color",
+      "label": "当前表面色彩",
+      "applicable_to": [
+        "roof",
+        "gable",
+        "wall",
+        "door",
+        "window",
+        "decoration"
+      ],
+      "value_kind": "text",
+      "unit": null,
+      "definition": "注明拍摄、纹理处理与标定条件；首版不把显示色当历史原色。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "decoration",
+      "label": "装饰形式",
+      "applicable_to": [
+        "gable",
+        "door",
+        "window",
+        "decoration"
+      ],
+      "value_kind": "text",
+      "unit": null,
+      "definition": "记录具体部位、轮廓和组合，文化寓意另以解释记录保存。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "visible_construction",
+      "label": "可见构造",
+      "applicable_to": [
+        "gable",
+        "wall",
+        "door",
+        "window"
+      ],
+      "value_kind": "text",
+      "unit": null,
+      "definition": "记录可见连接与分段，未见部分不得外推。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "arrangement",
+      "label": "构件排列与组合",
+      "applicable_to": [
+        "building",
+        "gable",
+        "wall"
+      ],
+      "value_kind": "text",
+      "unit": null,
+      "definition": "说明所对照的构件实例、方位与排列；组合规律须跨建筑分析。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    }
+  ],
+  "type_definitions": [
+    {
+      "id": "TYPE_ROOF_DUAL",
+      "label": "双坡屋顶",
+      "scope": "roof",
+      "criterion": "示例规则：两个主要坡面沿屋脊相接；附属屋面单独记录。须由多视角核验。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "TYPE_ROOF_HIP",
+      "label": "四坡屋顶",
+      "scope": "roof",
+      "criterion": "示例规则：建筑四侧主要屋面共同围合；主屋面与附属坡面区分。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "TYPE_WINDOW_RECT",
+      "label": "矩形窗",
+      "scope": "window",
+      "criterion": "示例规则：窗洞外轮廓为矩形；窗框材质与内部分格另行记录。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    },
+    {
+      "id": "TYPE_GABLE_LINEAR",
+      "label": "直线轮廓山墙",
+      "scope": "gable",
+      "criterion": "示例规则：可见顶部轮廓由直线段构成；仅为演示分类名称，须按对象研究修订。",
+      "version": "candidate-0.1",
+      "status": "candidate"
+    }
+  ],
+  "sources": [],
+  "records": [],
+  "relations": [],
+  "analyses": []
+}

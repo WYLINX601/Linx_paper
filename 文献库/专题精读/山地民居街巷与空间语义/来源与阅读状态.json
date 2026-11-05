@@ -1,0 +1,77 @@
+{
+  "collection_key": "ENBCUWKN",
+  "items": [
+    {
+      "id": "jia2021",
+      "title_short": "Jia等2021｜三维形态",
+      "zotero_key": "HK44HTAM",
+      "attachment_key": "2YSFURPE",
+      "note_key": "T4QZQL74",
+      "read_scope": "PDF2—15正文；核看2/4/7/9/10/13；主会话复核7",
+      "attachment_sha256": "ffec0fd76ca1279a401cede9dbef751d28b53c873e01581107400b99f50b08cd",
+      "review_memo_sha256": "62ad884f3003bb47779ac997434d235bd046e526b06894c6f3063a04cbf32d0d"
+    },
+    {
+      "id": "zhu2023",
+      "title_short": "Zhu与Liu2023｜浙西南街巷",
+      "zotero_key": "SGSMN4QJ",
+      "attachment_key": "WA69359R",
+      "note_key": "343WPEZP",
+      "read_scope": "PDF1—20正文；核看5/8/9/11/15/19；主会话复核5",
+      "attachment_sha256": "a1ccf59c77f582cd57980a34ee0c7f5c1f8bafe92533f5f84ad1cb80c87586ca",
+      "review_memo_sha256": "a4d1b8052e2196d953ea0b560b3c0d59dcadac10c24dbe630d5136443babe4bd"
+    },
+    {
+      "id": "peng2023",
+      "title_short": "Peng等2023｜功能与网络",
+      "zotero_key": "24T9ZHT6",
+      "attachment_key": "LI3RSPAL",
+      "note_key": "BXV27BX8",
+      "read_scope": "PDF1—23正文；核看11；主会话复核8",
+      "attachment_sha256": "41842913c42c6b1e99f28171ba111ce3cb85561d52e3777897e26403a64c82ea",
+      "review_memo_sha256": "898af7bd82855d36a2192033990aa97d1ca00b83ba5fbbaa5328ccbcc72f6d5b"
+    },
+    {
+      "id": "zhao2026",
+      "title_short": "Zhao等2026｜地形与形态",
+      "zotero_key": "QF5SKGIP",
+      "attachment_key": "2393N4LC",
+      "note_key": "A9VBCISA",
+      "read_scope": "PDF1—23正文；核看12/20；主会话复核10",
+      "attachment_sha256": "ca78f6cd7226f632442a7e8ad54a60683b2f2b3b9eac4c2d7efec47dd8ef2bd1",
+      "review_memo_sha256": "14f52d4d1a35b886a2f198a368244bf3b613cea9b8b4c15fa47181477706a50b"
+    },
+    {
+      "id": "lu2024",
+      "title_short": "卢慧佳与胡最2024｜景观本体",
+      "zotero_key": "KACJWK3D",
+      "attachment_key": "TUF8669T",
+      "note_key": "F85PFMXU",
+      "read_scope": "出版者HTML§1—4.2文字及表1—5；未目视原图；RTF非原版PDF",
+      "attachment_sha256": "960e60a7e7ca42676b3c5573fef7df5e470d6d065f0dc3f3681518e561b92d5a",
+      "review_memo_sha256": "48d28a555bc7e13b4949563150e940b1dbf4108b4afd425f60b00d4e062570ac"
+    },
+    {
+      "id": "dai2020",
+      "title_short": "戴晓玲等2020｜深层结构",
+      "zotero_key": "PF9X5MTE",
+      "attachment_key": null,
+      "note_key": "395IDCWC",
+      "read_scope": "仅出版者题录与中英文摘要；全文接口明确无全文",
+      "review_memo_sha256": "8da9f9c7d4eb75882e0bdf38bb84158685194502555aea1e08c8f14dcc21d275"
+    },
+    {
+      "id": "hao2019",
+      "title_short": "郝晶等2019｜社会语义",
+      "zotero_key": "5TB7J8QH",
+      "attachment_key": null,
+      "note_key": "GWW8TSQY",
+      "read_scope": "仅出版者检索摘要和题录；全文503；未核页121—123/表1",
+      "review_memo_sha256": "d28932542d2aeb522affaa1546aafe1eca925dada9a915acd43161d3047cdabb"
+    }
+  ],
+  "count": 7,
+  "source_primary": "Zotero attachments; HTML archived RTF explicitly not PDF",
+  "semantic_index": "unavailable; not installed",
+  "scope": "No model or database mutation"
+}

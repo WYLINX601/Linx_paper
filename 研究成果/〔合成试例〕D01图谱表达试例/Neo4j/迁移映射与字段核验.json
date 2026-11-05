@@ -1,0 +1,410 @@
+{
+  "generatedAtUtc": "2026-10-29T06:06:42.720244+00:00",
+  "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+  "oldNodes": 14,
+  "newNodes": 11,
+  "oldRelationships": 23,
+  "newRelationships": 18,
+  "attributeMappings": [
+    {
+      "from": "M01.unit",
+      "to": "B01.unit",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.scenario",
+      "to": "B01.scenario",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.recordVersion",
+      "to": "B01.geometryVersion",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.activeForDemo",
+      "to": "B01.geometryActive",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.boundaryBasis",
+      "to": "B01.measurementBoundaryBasis",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.heightBasis",
+      "to": "B01.heightBasis",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.precisionMeaning",
+      "to": "B01.precisionMeaning",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.analysisItems",
+      "to": "B01.analysisItems",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.widthM",
+      "to": "B01.widthM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.depthM",
+      "to": "B01.depthM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.groundZM",
+      "to": "B01.groundZM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.eaveZM",
+      "to": "B01.eaveZM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.ridgeZM",
+      "to": "B01.ridgeZM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.widthDirection",
+      "to": "B01.widthDirection",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.depthDirection",
+      "to": "B01.depthDirection",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.footprintXY",
+      "to": "B01.footprintXY",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.footprintShape",
+      "to": "B01.footprintShape",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.groundPointXYZ",
+      "to": "B01.groundPointXYZ",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.eavePointXYZ",
+      "to": "B01.eavePointXYZ",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M01.ridgePointXYZ",
+      "to": "B01.ridgePointXYZ",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.unit",
+      "to": "B02.unit",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.scenario",
+      "to": "B02.scenario",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.recordVersion",
+      "to": "B02.geometryVersion",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.activeForDemo",
+      "to": "B02.geometryActive",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.boundaryBasis",
+      "to": "B02.measurementBoundaryBasis",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.heightBasis",
+      "to": "B02.heightBasis",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.precisionMeaning",
+      "to": "B02.precisionMeaning",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.analysisItems",
+      "to": "B02.analysisItems",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.widthM",
+      "to": "B02.widthM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.depthM",
+      "to": "B02.depthM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.groundZM",
+      "to": "B02.groundZM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.eaveZM",
+      "to": "B02.eaveZM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.ridgeZM",
+      "to": "B02.ridgeZM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.widthDirection",
+      "to": "B02.widthDirection",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.depthDirection",
+      "to": "B02.depthDirection",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.footprintXY",
+      "to": "B02.footprintXY",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.footprintShape",
+      "to": "B02.footprintShape",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.groundPointXYZ",
+      "to": "B02.groundPointXYZ",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.eavePointXYZ",
+      "to": "B02.eavePointXYZ",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M02.ridgePointXYZ",
+      "to": "B02.ridgePointXYZ",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.unit",
+      "to": "S01.unit",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.scenario",
+      "to": "S01.scenario",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.recordVersion",
+      "to": "S01.geometryVersion",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.activeForDemo",
+      "to": "S01.geometryActive",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.analysisItems",
+      "to": "S01.analysisItems",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.widthM",
+      "to": "S01.widthM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.depthM",
+      "to": "S01.depthM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.groundZM",
+      "to": "S01.groundZM",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.widthDirection",
+      "to": "S01.widthDirection",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.depthDirection",
+      "to": "S01.depthDirection",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.footprintXY",
+      "to": "S01.footprintXY",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.footprintShape",
+      "to": "S01.footprintShape",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.boundaryBasis",
+      "to": "S01.measurementBoundaryBasis",
+      "valuePreserved": true,
+      "typePreserved": true
+    },
+    {
+      "from": "M03.coverage",
+      "to": "S01.coverage",
+      "valuePreserved": true,
+      "typePreserved": true
+    }
+  ],
+  "preservedAttributeCount": 54,
+  "retiredNodeMetadata": {
+    "M01": {
+      "uid": "D01V01:M01",
+      "id": "M01",
+      "name": "主屋尺寸与正立面高度记录 v1",
+      "datasetId": "D01V01",
+      "caseId": "D01V01",
+      "dataMode": "synthetic",
+      "recordStatus": "synthetic_assignment",
+      "sourceKind": "synthetic_assignment",
+      "sourceLocator": "本文件对应MeasurementSet节点，人工设定",
+      "targetId": "B01"
+    },
+    "M02": {
+      "uid": "D01V01:M02",
+      "id": "M02",
+      "name": "侧房尺寸与朝院立面高度记录 v1",
+      "datasetId": "D01V01",
+      "caseId": "D01V01",
+      "dataMode": "synthetic",
+      "recordStatus": "synthetic_assignment",
+      "sourceKind": "synthetic_assignment",
+      "sourceLocator": "本文件对应MeasurementSet节点，人工设定",
+      "targetId": "B02"
+    },
+    "M03": {
+      "uid": "D01V01:M03",
+      "id": "M03",
+      "name": "院落地面范围记录 v1（部分需求）",
+      "datasetId": "D01V01",
+      "caseId": "D01V01",
+      "dataMode": "synthetic",
+      "recordStatus": "synthetic_assignment",
+      "targetId": "S01",
+      "sourceKind": "synthetic_assignment",
+      "sourceLocator": "本文件M03人工设定"
+    }
+  },
+  "retiredMetadataPolicy": "节点身份与展示名退役；targetId由迁移映射承接；来源身份由EV01和来源边保留，旧sourceLocator由精确JSON Pointer替代；其余公共身份字段与对象一致。原始全文在修改前快照。",
+  "sourceLocatorChecks": [
+    {
+      "uid": "D01V01:E011",
+      "pointer": "/nodes/2/properties",
+      "fieldCount": 20,
+      "resolvedObject": "D01V01:B01",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E014",
+      "pointer": "/nodes/3/properties",
+      "fieldCount": 20,
+      "resolvedObject": "D01V01:B02",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E017",
+      "pointer": "/nodes/4/properties",
+      "fieldCount": 14,
+      "resolvedObject": "D01V01:S01",
+      "passed": true
+    }
+  ],
+  "allPassed": true,
+  "removedNodeIds": [
+    "M01",
+    "M02",
+    "M03"
+  ],
+  "removedRelationshipIds": [
+    "E009",
+    "E012",
+    "E015",
+    "E021",
+    "E022"
+  ]
+}

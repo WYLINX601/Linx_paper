@@ -1,0 +1,70 @@
+{
+  "tests": [
+    {
+      "id": "duplicate-node",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    },
+    {
+      "id": "duplicate-edge",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    },
+    {
+      "id": "missing-endpoint",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    },
+    {
+      "id": "wrong-namespace",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    },
+    {
+      "id": "missing-required-label",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    },
+    {
+      "id": "wrong-model-hash",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    },
+    {
+      "id": "param-namespace",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    },
+    {
+      "id": "extra-label",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    },
+    {
+      "id": "extra-reltype",
+      "localGuardRejected": true,
+      "returned": [],
+      "newNamespaceNodes": 0,
+      "passed": true
+    }
+  ],
+  "fingerprintBefore": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+  "fingerprintAfter": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+  "unchanged": true
+}

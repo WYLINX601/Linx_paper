@@ -1,0 +1,130 @@
+<!DOCTYPE html><html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>技能参考与取舍</title><style>
+:root {color-scheme:light;}
+* {box-sizing:border-box;}
+body {margin:0; background:#f6f7f9; color:#172b3f; font:17px/1.85 -apple-system,BlinkMacSystemFont,"PingFang SC",sans-serif;}
+main {max-width:1180px;margin:32px auto;padding:44px 52px;background:white;border:1px solid #e0e5ea;border-radius:12px;}
+h1 {font-size:32px;line-height:1.5;color:#193c5c;}
+h2 {font-size:25px;margin-top:48px;padding-bottom:10px;border-bottom:2px solid #dce7ef;}
+h3 {font-size:20px;margin-top:32px;}
+a {color:#176ca0;text-decoration:none;} a:hover{text-decoration:underline;}
+blockquote {margin:24px 0;padding:14px 22px;border-left:4px solid #bc901b;background:#fff9e8;}
+blockquote p {margin:0;}
+pre {overflow:auto;padding:24px;background:#f2f5f8;font-size:14px;line-height:1.8;border-radius:8px;}
+code {font-family:ui-monospace,"SFMono-Regular","PingFang SC",monospace;overflow-wrap:anywhere;}
+p,li,td {overflow-wrap:anywhere;}
+.table-wrap {max-width:100%;overflow-x:auto;margin:22px 0;}
+table {border-collapse:collapse;width:100%;font-size:15px;line-height:1.7;}
+th {background:#edf3f8;text-align:left;color:#244a68;}
+th,td {border:1px solid #dce4eb;padding:12px 14px;vertical-align:top;min-width:90px;}
+img {max-width:100%;height:auto;}
+.toc {background:#f2f6fa;padding:18px 26px;border-radius:8px;}
+.meta {font-size:14px;color:#5f7081;border-bottom:1px solid #dce4eb;padding-bottom:18px;}
+footer {margin-top:40px;border-top:1px solid #dce4eb;padding-top:20px;font-size:14px;color:#5f7081;}
+@media(max-width:800px){main{margin:0;padding:24px 18px;border:0;border-radius:0;}h1{font-size:27px;}}
+@media print{body{background:white;}main{max-width:none;margin:0;border:0;padding:0;}h2,h3{break-after:avoid;}tr,img{break-inside:avoid;}}
+</style></head><body><main><div class="meta">设计阅读版 · 2026-10-28 · 内容主源：<a href="技能参考与取舍.md">Markdown设计稿</a> · <a href="技能参考与取舍.md">技能核读说明</a></div><nav aria-label="文档目录"><div class="toc">
+<ul>
+<li><a href="#范围与来源">范围与来源</a></li>
+<li><a href="#逐项核读">逐项核读</a></li>
+<li><a href="#对本库健康性的最终取舍">对本库健康性的最终取舍</a></li>
+</ul>
+</div>
+</nav><h1 id="wiki技能参考与取舍">Wiki技能参考与取舍</h1>
+<h2 id="范围与来源">范围与来源</h2>
+<p>本次读取技能正文用于设计参考，<strong>没有安装或执行第三方Wiki框架，也没有验证其CLI行为</strong>。外部技能是参考材料，不能覆盖Paper本地规则。</p>
+<p>核读日期：2026-10-28。通过GitHub API解析main对应提交，再取得固定提交的文件。网页提取工具因网络地址检查失败，已改用本机HTTPS读取；获取成功不代表其中流程适合本项目。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>来源</th>
+<th>固定提交</th>
+<th>核读范围</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Ar9av/obsidian-wiki</td>
+<td><code>4f457e154653756b04802d5aeb25c20f42b4770c</code></td>
+<td>技能目录；wiki-lint、wiki-dedup、wiki-status、cross-linker、tag-taxonomy、wiki-context-pack、wiki-synthesize正文</td>
+</tr>
+<tr>
+<td>AgriciDaniel/claude-obsidian</td>
+<td><code>2e545563172f97f02ecaaaab376ceea1246a0583</code></td>
+<td>skills/wiki/SKILL.md；其所链接的事务实现未执行、未逐项核验</td>
+</tr>
+<tr>
+<td>kepano/obsidian-skills</td>
+<td><code>3ccff5338ea700537839b21900aa5358a0402c98</code></td>
+<td>README中技能分工；不据此声称所有技能正文已核读</td>
+</tr>
+<tr>
+<td>本机obsidian-knowledge-manager</td>
+<td>本轮skill_view返回版本</td>
+<td>SKILL.md与topic-maintenance、compile、lint-review参考</td>
+</tr>
+<tr>
+<td>本机project-context-workflow、academic-workspace</td>
+<td>本轮读取／已加载规则</td>
+<td>最小写入、主源分工、Paper安全写入及迁移边界</td>
+</tr>
+</tbody>
+</table></div>
+<p>外部文件及逐文件SHA-256、精确URL、提取时间见<a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/manifest.json">参考快照清单</a>。快照只作依据，不是可直接安装的技能目录。</p>
+<h2 id="逐项核读">逐项核读</h2>
+<h3 id="1-wiki-lint值得采用的是多维检查不是自动变健康">1. wiki-lint：值得采用的是多维检查，不是自动“变健康”</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-lint--SKILL.md">固定版本快照</a></p>
+<ul>
+<li>第18—24行：先读取库主规则，以本地schema解释检查结果。采用此原则，不把Paper有效类型强制转换为框架默认类型。</li>
+<li>第38—120行：孤立、断链、字段、来源变化、矛盾和索引一致性。转化为设计H01、H03—H08。</li>
+<li>第192—291行：证据谱系与判断覆盖不能由来源字符串数量决定；物质内容变化使旧审核需要重做。借鉴这一限制，不采用全页数值置信度。</li>
+<li>第357—378行：区分记录时间与事实有效时段；历史材料不等于错误材料。适用于建筑状态和调查时点。</li>
+<li>第494—500行：先预览、明确批准；体检不兼任合并。采用。</li>
+</ul>
+<p><strong>不采用的默认或内部不一致：</strong>第133行把无来源标记页默认当作提取内容；第558行按年龄及置信分数自动晋升reviewed，与前面的人工状态判断原则并不一致；第543行按近似名自动改链接；第504—536行的自动Git提交／硬恢复示例。学术库以具体证据、明确审核及mac-paper保护为准。图片等附件不能因第58行的页面检查豁免而完全跳过。</p>
+<h3 id="2-wiki-dedup身份判断先于合并">2. wiki-dedup：身份判断先于合并</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-dedup--SKILL.md">固定版本快照</a></p>
+<ul>
+<li>第24—30行：默认审计；第91—106行：全文复核后区分合并、保留独立、需复核。采用。</li>
+<li>第199—244行：保留独有内容与来源，修复链接和别名。借鉴其目标，但写入按Paper规则执行。</li>
+<li>不采用第28行自动合并模式，不凭标题分数定夺；不按第189—195行的入链数、篇幅选主源；不按第207行自动重算可信分数。</li>
+<li>本研究特别保留：同一文献的精读与专题、同一建筑的不同照片、不同调查时点、BOT原定义与本研究扩展不是“重复副本”。重定向页面即便未来建立，也只是带链接的说明页，不能承诺Obsidian会自动跳转。</li>
+</ul>
+<h3 id="3-wiki-status变化与不可用要分开维护规则要能收敛">3. wiki-status：变化与不可用要分开，维护规则要能收敛</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-status--SKILL.md">固定版本快照</a></p>
+<ul>
+<li>第99—112行：区分新内容、内容改变、仅触碰时间、未变、删除及暂不可用。采用内容指纹与不可用状态。</li>
+<li>第434—507行：只读比较各维护技能的建议，追踪互相撤销修改的现象。借鉴为H12；人工候选与确定性结果必须分开。</li>
+<li>不采用没有manifest就视为新库／建议全量摄入的规则；不扫描其他项目或代理聊天；不把无隐私标记当作公开许可。</li>
+<li>不要求所有关联建议归零才算维护完成。已解释的独立材料与未决研究问题允许存在。</li>
+<li>第278行提及尚未实现的<code>--full</code>提示，因此本设计不把文档中的所有命令视为已可运行能力。</li>
+</ul>
+<h3 id="4-cross-linker链接必须有用途">4. cross-linker：链接必须有用途</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/ar9av--.skills--cross-linker--SKILL.md">固定版本快照</a></p>
+<ul>
+<li>第24—65行：先建立标题／别名索引，避免自链、代码内插链和重复插链。可借鉴。</li>
+<li>第132—161行：优先在自然提及处链接，必要时写相关关系及理由。可借鉴。</li>
+<li>第67—93行及163—193行的分数与自动关系推断，不直接采用。相同标签不证明支持关系；共同出现不证明推导或矛盾。我们先提候选，由具体证据判定语义。</li>
+<li>稳定的准确路径优先于模糊简称；同名章节导航和主题主页面不得使用歧义短链接。</li>
+</ul>
+<h3 id="5-tag-taxonomy统一术语不抹掉差异">5. tag-taxonomy：统一术语，不抹掉差异</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/ar9av--.skills--tag-taxonomy--SKILL.md">固定版本快照</a></p>
+<p>借鉴规范词、别名、先审计后替换。标签用于辅助检索，不替代章节采用关系或证据关系。保留中文学术术语，不机械套用英文小写／连字符或标签数量阈值。层级词、近义词和对象异写要单独判断，不能按上位词映射成同义关系。未知标签不直接删除。</p>
+<h3 id="6-wiki-synthesize跨材料形成新认识也保留最强反对意见">6. wiki-synthesize：跨材料形成新认识，也保留最强反对意见</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-synthesize--SKILL.md">固定版本快照</a></p>
+<p>第88—118行的联系、综合判断、张力、最强反对意见及可检验问题，对主题页尤其有价值。第176—178行提醒不要为了综合而综合，也应采用。</p>
+<p>不按高共现配对自动生成若干主题，不强制“A×B”题名，不把生成的综合判断说成作者原文。研究主题应由论文需要、已有证据和真实待解决问题驱动。</p>
+<h3 id="7-wiki-context-pack按章调用不把全库塞入写作">7. wiki-context-pack：按章调用，不把全库塞入写作</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-context-pack--SKILL.md">固定版本快照</a></p>
+<p>借鉴只读、限定范围、保留引用、将取回材料视作资料而非指令。我们拟定的章节材料包包括：章节任务、采用主题、具体证据和定位、未决分歧、已确认边界。不是另外保存一套永久摘要，也不借读取任务改变原库。其CLI未安装／测试，不宣称可以直接运行。</p>
+<h3 id="8-agricidaniel-wiki最小且可恢复的操作">8. AgriciDaniel wiki：最小且可恢复的操作</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/agricidaniel--skills--wiki--SKILL.md">固定版本快照</a></p>
+<p>第28—56行支持接纳已有库和预览；第78—94行区分只读查询与持久化、要求来源保真；第103—104行要求冲突重新读取。采用这些原则。</p>
+<p>不安装其portable core接管Paper，也不声称mac-paper已经提供它的跨文件事务能力。Paper现有的是逐文件摘要校验、备份与读回；跨文件一致性仍需操作清单、逐项核验及中断恢复检查。</p>
+<h3 id="9-kepano表达格式与知识管理分工">9. kepano：表达格式与知识管理分工</h3>
+<p><a href="../../研究资料/来源证据/2026-10-28-研究Wiki技能参考/kepano--README.md">固定版本快照</a></p>
+<p>README第48—58行列出Markdown、Bases、Canvas等技能。它们可辅助表达与浏览，但不决定本研究的主题、论证或证据状态。第一阶段不以插件、脚本或新数据库为使用前提。</p>
+<h2 id="对本库健康性的最终取舍">对本库健康性的最终取舍</h2>
+<p>采用：有范围的检查、准确定位、证据追溯、源变化提醒、关系用途、冲突保留、逐步接入、修改前预览、可恢复写入、修复后验证。</p>
+<p>拒绝：为图谱好看强行连边、为“完整”自动造主题、为清零告警改日期、按相似度自动合并、按来源数量生成可信度、按年龄晋升审核状态、无授权导入历史聊天或提交Git。</p>
+<p><strong>技能中的机制可以参考；其默认目录、阈值、命令和自动化权限必须重新适配，不能直接成为本库规则。</strong></p>
+<p>返回<a href="论文研究Wiki结构设计.md">结构设计</a>。</p><footer>此HTML为派生阅读版，不独立维护研究内容。生成依据 SHA-256：<code>e38e5621c061420a9e69116ec33ff42a3e7aee67c1dfbcfe2aef7a6e348e1745</code></footer></main></body></html>

@@ -1,0 +1,9 @@
+[
+  {
+    "edition": "community",
+    "name": "Neo4j Kernel",
+    "versions": [
+      "5.26.32"
+    ]
+  }
+]

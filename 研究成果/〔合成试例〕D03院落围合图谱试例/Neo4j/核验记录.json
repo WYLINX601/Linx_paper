@@ -1,0 +1,41 @@
+{
+  "status": "verified-external-synthetic-six-items-new-details-awaiting-review",
+  "at": "2026-10-30T15:28:58.668256+08:00",
+  "modelSHA256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+  "exactNodes": 42,
+  "exactRelationships": 111,
+  "nativeTypes": "verified",
+  "preservedNodes": 54,
+  "preservedRelationships": 209,
+  "preservedFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+  "originalPreservedFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+  "constraintsIndexesUnchanged": true,
+  "queries": {
+    "Q01": 4,
+    "Q02": 16,
+    "Q03": 4,
+    "Q04": 39,
+    "Q05": 4,
+    "Q06": 1,
+    "Q07": 1,
+    "Q08": 9,
+    "Q09": 4,
+    "Q10": 2,
+    "Q11": 4,
+    "Q12": 5,
+    "Q13": 7,
+    "Q14": 4,
+    "Q15": 1
+  },
+  "analysisItems": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06"
+  ],
+  "firstExampleReview": "approved",
+  "extensionReview": "pending",
+  "empiricalValidity": "not-validated"
+}

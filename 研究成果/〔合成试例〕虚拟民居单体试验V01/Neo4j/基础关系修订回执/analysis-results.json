@@ -1,0 +1,6598 @@
+{
+  "version": "V01-unified-2.2",
+  "sourceModelSha256": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+  "evidenceStatus": "synthetic-only",
+  "D01": {
+    "dimensions": [
+      {
+        "uid": "V01:B01",
+        "name": "V01虚拟主屋",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 9.6,
+        "depthM": 7.2,
+        "basis": "主屋既有轴网矩形9.6×7.2m；非主体外墙外边线，不含挑檐",
+        "groundZM": 0,
+        "widthDepthRatio": 1.3333333333333333,
+        "eaveElevationM": 3.2666666666666666,
+        "ownEaveHeightM": 3.2666666666666666,
+        "ownRidgeHeightM": 5.6,
+        "ownEaveHeightWidthRatio": 0.3402777777777778
+      },
+      {
+        "uid": "V01:B02",
+        "name": "统一原型侧房（沿用D01侧房设定）",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 6,
+        "depthM": 4,
+        "basis": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+        "groundZM": 3,
+        "widthDepthRatio": 1.5,
+        "eaveElevationM": 7,
+        "ownEaveHeightM": 4,
+        "ownRidgeHeightM": 5,
+        "ownEaveHeightWidthRatio": 0.6666666666666666
+      },
+      {
+        "uid": "V01:S01",
+        "name": "堂屋",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 2.9600000000000004,
+        "depthM": 5.58,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 0.5304659498207887
+      },
+      {
+        "uid": "V01:S02",
+        "name": "西室",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 2.96,
+        "depthM": 5.46,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 0.5421245421245421
+      },
+      {
+        "uid": "V01:S03",
+        "name": "东室",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 2.960000000000001,
+        "depthM": 5.46,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 0.5421245421245423
+      },
+      {
+        "uid": "V01:S04",
+        "name": "前廊",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 9.6,
+        "depthM": 1.5,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 6.3999999999999995
+      },
+      {
+        "uid": "V01:S05",
+        "name": "前院",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 9.360000000000001,
+        "depthM": 4.68,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 2.0000000000000004
+      },
+      {
+        "uid": "V01:S06",
+        "name": "南侧外部参照区",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 2,
+        "depthM": 1.38,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 1.4492753623188408
+      }
+    ],
+    "comparison": {
+      "uid": "V01:CMP01",
+      "status": "computed-synthetic",
+      "issues": [],
+      "subject": "V01:B02",
+      "reference": "V01:B01",
+      "valueM": 3.7333333333333334,
+      "meaning": "侧房减主屋的共同基准檐口高程差；不是自身檐高之差",
+      "cacheAgreement": true
+    }
+  },
+  "D03": {
+    "T01": [
+      {
+        "uid": "V01:S04",
+        "name": "前廊",
+        "geometryVersion": "V01-unified-2.2",
+        "groundZM": 0,
+        "coverState": "covered-open-sided",
+        "rangeBasis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "useState": "known",
+        "threeDimensionalBoundaryState": "not-fully-declared"
+      },
+      {
+        "uid": "V01:S05",
+        "name": "前院",
+        "geometryVersion": "V01-unified-2.2",
+        "groundZM": 0,
+        "coverState": "uncovered",
+        "rangeBasis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "useState": "known",
+        "threeDimensionalBoundaryState": "not-fully-declared"
+      },
+      {
+        "uid": "V01:S06",
+        "name": "南侧外部参照区",
+        "geometryVersion": "V01-unified-2.2",
+        "groundZM": 0,
+        "coverState": "uncovered",
+        "rangeBasis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "useState": "known",
+        "threeDimensionalBoundaryState": "not-fully-declared"
+      }
+    ],
+    "T02": {
+      "uid": "V01:S05",
+      "analysisSliceZM": 1,
+      "perimeterM": 28.080000000000002,
+      "netSolidBoundaryM": 17.720000000000002,
+      "netSolidRatio": 0.6310541310541311,
+      "classifiedState": "out-of-scope-for-legacy-four-side-rule",
+      "boundaryCoverage": 1.0,
+      "segments": [
+        {
+          "id": "N",
+          "lengthM": 9.360000000000001,
+          "solidIntervalsM": [
+            [
+              0.0,
+              0.020000000000000004
+            ],
+            [
+              2.94,
+              3.22
+            ],
+            [
+              6.140000000000001,
+              6.42
+            ],
+            [
+              9.34,
+              9.360000000000001
+            ]
+          ],
+          "solidLengthM": 0.600000000000001,
+          "coverState": "covered-open-sided",
+          "participants": [
+            {
+              "uid": "V01:C01",
+              "name": "前廊柱1",
+              "relationshipUid": "V01:BOUND-S05-C01",
+              "role": "column-section",
+              "intervalsM": [
+                [
+                  0,
+                  0.020000000000000004
+                ]
+              ],
+              "contributionM": 0.020000000000000004
+            },
+            {
+              "uid": "V01:C02",
+              "name": "前廊柱2",
+              "relationshipUid": "V01:BOUND-S05-C02",
+              "role": "column-section",
+              "intervalsM": [
+                [
+                  2.94,
+                  3.22
+                ]
+              ],
+              "contributionM": 0.28000000000000025
+            },
+            {
+              "uid": "V01:C03",
+              "name": "前廊柱3",
+              "relationshipUid": "V01:BOUND-S05-C03",
+              "role": "column-section",
+              "intervalsM": [
+                [
+                  6.140000000000001,
+                  6.42
+                ]
+              ],
+              "contributionM": 0.27999999999999936
+            },
+            {
+              "uid": "V01:C04",
+              "name": "前廊柱4",
+              "relationshipUid": "V01:BOUND-S05-C04",
+              "role": "column-section",
+              "intervalsM": [
+                [
+                  9.34,
+                  9.360000000000001
+                ]
+              ],
+              "contributionM": 0.02000000000000135
+            },
+            {
+              "uid": "V01:S04",
+              "name": "前廊",
+              "relationshipUid": "V01:BOUND-S05-S04",
+              "role": "covered-open-transition",
+              "intervalsM": [],
+              "contributionM": 0
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "lengthM": 4.68,
+          "solidIntervalsM": [
+            [
+              0.0,
+              4.68
+            ]
+          ],
+          "solidLengthM": 4.68,
+          "coverState": "uncovered",
+          "participants": [
+            {
+              "uid": "V01:W09",
+              "name": "前院东墙",
+              "relationshipUid": "V01:R075",
+              "role": "wall-boundary",
+              "intervalsM": [
+                [
+                  0,
+                  4.68
+                ]
+              ],
+              "contributionM": 4.68
+            }
+          ]
+        },
+        {
+          "id": "S",
+          "lengthM": 9.360000000000001,
+          "solidIntervalsM": [
+            [
+              0.0,
+              3.880000000000001
+            ],
+            [
+              5.4799999999999995,
+              9.360000000000001
+            ]
+          ],
+          "solidLengthM": 7.7600000000000025,
+          "coverState": "uncovered",
+          "participants": [
+            {
+              "uid": "V01:W10",
+              "name": "前院南墙",
+              "relationshipUid": "V01:R076",
+              "role": "wall-boundary",
+              "intervalsM": [
+                [
+                  0,
+                  3.880000000000001
+                ],
+                [
+                  5.4799999999999995,
+                  9.360000000000001
+                ]
+              ],
+              "contributionM": 7.7600000000000025
+            }
+          ]
+        },
+        {
+          "id": "W",
+          "lengthM": 4.68,
+          "solidIntervalsM": [
+            [
+              0.0,
+              4.68
+            ]
+          ],
+          "solidLengthM": 4.68,
+          "coverState": "uncovered",
+          "participants": [
+            {
+              "uid": "V01:W08",
+              "name": "前院西墙",
+              "relationshipUid": "V01:R074",
+              "role": "wall-boundary",
+              "intervalsM": [
+                [
+                  0,
+                  4.68
+                ]
+              ],
+              "contributionM": 4.68
+            }
+          ]
+        }
+      ],
+      "meaning": "z=1m切片与内院分析边界；墙扣院门，柱计局部截面，有盖不计连续实体；不是三维围合度或建筑类型已验证"
+    },
+    "T03": [
+      {
+        "uid": "V01:I04",
+        "name": "前廊—前院开放分界",
+        "widthM": 9.32,
+        "widthMeaning": "既有分界跨度，柱列占用不扣成连续净宽",
+        "relativePosition": 0.5,
+        "referenceMode": "same-line-local-subsegment",
+        "startChainageM": 0.02,
+        "endChainageM": 9.34,
+        "referenceLengthM": 9.36,
+        "referenceCenterXY": [
+          4.800000000000001,
+          0
+        ],
+        "sideBoundaryMappings": [
+          {
+            "absoluteOffsetM": 0.0,
+            "basis": "同线局部",
+            "offsetYM": 0.0,
+            "role": "side-a",
+            "segmentXY": [
+              [
+                0.14,
+                0.0
+              ],
+              [
+                9.46,
+                0.0
+              ]
+            ],
+            "spaceUid": "V01:S04"
+          },
+          {
+            "absoluteOffsetM": 0.0,
+            "basis": "同线局部",
+            "offsetYM": 0.0,
+            "role": "side-b",
+            "segmentXY": [
+              [
+                0.14,
+                0.0
+              ],
+              [
+                9.46,
+                0.0
+              ]
+            ],
+            "spaceUid": "V01:S05"
+          }
+        ],
+        "participation": [
+          {
+            "target": "V01:S04",
+            "role": "side-a",
+            "relationshipUid": "V01:R039"
+          },
+          {
+            "target": "V01:S05",
+            "role": "side-b",
+            "relationshipUid": "V01:R040"
+          }
+        ],
+        "clearanceState": "not-geometrically-validated"
+      },
+      {
+        "uid": "V01:I05",
+        "name": "院门界面",
+        "widthM": 1.6,
+        "widthMeaning": "旧开口分析跨度，不等于当前成人净通行宽度验证",
+        "relativePosition": 0.5000000000000001,
+        "referenceMode": "host-axis-to-space-boundary-projection",
+        "startChainageM": 4,
+        "endChainageM": 5.6,
+        "referenceLengthM": 9.6,
+        "referenceCenterXY": [
+          4.800000000000001,
+          -4.8
+        ],
+        "sideBoundaryMappings": [
+          {
+            "absoluteOffsetM": 0.1200000000000001,
+            "basis": "宿主轴向该空间分析边界的明确平行映射；非原几何重合",
+            "offsetYM": 0.1200000000000001,
+            "role": "side-a",
+            "segmentXY": [
+              [
+                4.0,
+                -4.68
+              ],
+              [
+                5.6,
+                -4.68
+              ]
+            ],
+            "spaceUid": "V01:S05"
+          },
+          {
+            "absoluteOffsetM": 0.1200000000000001,
+            "basis": "宿主轴向该空间分析边界的明确平行映射；非原几何重合",
+            "offsetYM": -0.1200000000000001,
+            "role": "side-b",
+            "segmentXY": [
+              [
+                4.0,
+                -4.92
+              ],
+              [
+                5.6,
+                -4.92
+              ]
+            ],
+            "spaceUid": "V01:S06"
+          }
+        ],
+        "participation": [
+          {
+            "target": "V01:S05",
+            "role": "side-a",
+            "relationshipUid": "V01:R042"
+          },
+          {
+            "target": "V01:S06",
+            "role": "side-b",
+            "relationshipUid": "V01:R043"
+          },
+          {
+            "target": "V01:W10",
+            "role": "opening-host",
+            "relationshipUid": "V01:R044"
+          }
+        ],
+        "clearanceState": "not-geometrically-validated"
+      }
+    ],
+    "T04": {
+      "contextId": "V01-walk-baseline",
+      "actor": "正常成人步行（旧合成情境断言）",
+      "snapshot": "V01-synthetic-T0",
+      "relationships": [
+        "V01:R041",
+        "V01:R045"
+      ],
+      "paths": [
+        {
+          "from": "V01:S06",
+          "to": "V01:S04",
+          "status": "known-subgraph-path",
+          "path": {
+            "nodes": [
+              "V01:S06",
+              "V01:S05",
+              "V01:S04"
+            ],
+            "via": [
+              "V01:I05",
+              "V01:I04"
+            ],
+            "relationships": [
+              "V01:R045",
+              "V01:R041"
+            ],
+            "crossings": 2
+          }
+        },
+        {
+          "from": "V01:S04",
+          "to": "V01:S06",
+          "status": "known-subgraph-path",
+          "path": {
+            "nodes": [
+              "V01:S04",
+              "V01:S05",
+              "V01:S06"
+            ],
+            "via": [
+              "V01:I04",
+              "V01:I05"
+            ],
+            "relationships": [
+              "V01:R041",
+              "V01:R045"
+            ],
+            "crossings": 2
+          }
+        }
+      ],
+      "meaning": "最少跨界数仅在已知外部子图内；bidirectional旧断言显式双向处理；不证明净空、真实可达、步行距离或全宅最短路"
+    },
+    "T05": {
+      "scopeId": "V01-G0-local-window",
+      "levelZM": 0,
+      "scopePolygonXY": [
+        0,
+        -4.8,
+        9.6,
+        -4.8,
+        9.6,
+        7.2,
+        0,
+        7.2,
+        0,
+        -4.8
+      ],
+      "scopeAreaM2": 115.19999999999999,
+      "scopeBasis": "指定0m层局部分析窗：按主屋轴网与前院墙轴外围矩形声明，非净使用面积、用地面积或全宅比例",
+      "includedSpaces": [
+        "V01:S04",
+        "V01:S05"
+      ],
+      "excludedSpaces": [
+        "V01:S06"
+      ],
+      "excludedBuildings": [
+        "V01:B02"
+      ],
+      "areas": [
+        {
+          "uid": "V01:S04",
+          "areaM2": 14.399999999999999,
+          "ratioToLocalWindow": 0.125
+        },
+        {
+          "uid": "V01:S05",
+          "areaM2": 43.8048,
+          "ratioToLocalWindow": 0.38025000000000003
+        }
+      ],
+      "spaceUnionAreaM2": 58.20479999999999,
+      "unionRatioToLocalWindow": 0.50525,
+      "overlapDeductedM2": 0.0,
+      "deductionPolicy": "按空间既有声明矩形，不扣柱；不与包含廊的建筑投影求和。围合长度另在z=1m切片计算，分母不是净使用面积",
+      "wholeDwellingRatio": null,
+      "wholeDwellingState": "not-established-overall-boundary-incomplete",
+      "position": {
+        "subject": "V01:S04",
+        "reference": "V01:S05",
+        "deltaXM": 0,
+        "deltaYM": 3.09,
+        "alongAxisM": 3.09,
+        "meaning": "廊相对前院中心，不是双院序列"
+      }
+    },
+    "T06": {
+      "scope": [
+        "V01:S04",
+        "V01:S05",
+        "V01:S06"
+      ],
+      "byUse": [
+        {
+          "use": "交通与停留",
+          "spaceUids": [
+            "V01:S04"
+          ],
+          "spaceCount": 1
+        },
+        {
+          "use": "出入参照",
+          "spaceUids": [
+            "V01:S06"
+          ],
+          "spaceCount": 1
+        },
+        {
+          "use": "户外生活",
+          "spaceUids": [
+            "V01:S05"
+          ],
+          "spaceCount": 1
+        }
+      ],
+      "knownSpaceCount": 3,
+      "unknownOrUnsupported": [],
+      "assignmentCount": 3,
+      "meaning": "沿用各空间自己的合成用途；同一用途内按空间UID去重，不由E例或形态新增用途，不升级为全宅用途统计"
+    }
+  },
+  "identityReuse": {
+    "mainBuilding": "V01:B01",
+    "hall": "V01:S01",
+    "courtyard": "V01:S05",
+    "veranda": "V01:S04",
+    "gate": "V01:I05",
+    "legacyDuplicateNodes": [],
+    "courtyardUsedBy": [
+      "D01尺寸",
+      "D03-T01",
+      "D03-T02",
+      "D03-T03",
+      "D03-T04",
+      "D03-T05",
+      "D03-T06"
+    ],
+    "noMeasurementRecordNodes": true,
+    "extendedObjects": [
+      "V01:B01",
+      "V01:B02",
+      "V01:S05",
+      "V01:W03",
+      "V01:W10",
+      "V01:I05",
+      "V01:I08",
+      "V01:I09",
+      "V01:I10"
+    ],
+    "newDistinctObjects": [
+      "V01:B03",
+      "V01:CG01",
+      "V01:ST01",
+      "V01:TP01"
+    ]
+  },
+  "D04": {
+    "T01": [
+      {
+        "regionId": "D04-W03-N",
+        "hostId": "W03",
+        "ownerId": "B01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/223",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/273",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "widthM": 9.6,
+        "heightM": 3.6,
+        "grossAreaM2": 34.56,
+        "heightWidthRatio": 0.375,
+        "widthHeightRatio": 2.6666666666666665,
+        "outlineUZ": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            9.6,
+            0.0
+          ],
+          [
+            9.6,
+            3.6
+          ],
+          [
+            0.0,
+            3.6
+          ]
+        ],
+        "projection": {
+          "axisOriginXYZ": [
+            0.0,
+            7.2,
+            0.0
+          ],
+          "exteriorOriginXYZ": [
+            0.0,
+            7.32,
+            0.0
+          ],
+          "heightBasis": "geometry.topProfile逐点墙顶投影；不是RF01檐口",
+          "mode": "orthographic-axis-to-parallel-exterior",
+          "offsetBasis": "墙轴平行偏移半墙厚；当前0.24/2=0.12m，非轴线即实体外表面",
+          "offsetM": 0.12,
+          "outwardNormalXYZ": [
+            0.0,
+            1.0,
+            0.0
+          ],
+          "uAxisXYZ": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "geometryClass": "rectangular-profile",
+        "scopeBasis": "仅本墙完整轴长在指定外侧的正投影；不代表全部建筑立面"
+      },
+      {
+        "regionId": "D04-W10-S",
+        "hostId": "W10",
+        "ownerId": "U01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/230",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/274",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "widthM": 9.6,
+        "heightM": 1.6,
+        "grossAreaM2": 15.36,
+        "heightWidthRatio": 0.16666666666666669,
+        "widthHeightRatio": 5.999999999999999,
+        "outlineUZ": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            9.6,
+            0.0
+          ],
+          [
+            9.6,
+            1.6
+          ],
+          [
+            0.0,
+            1.6
+          ]
+        ],
+        "projection": {
+          "axisOriginXYZ": [
+            0.0,
+            -4.8,
+            0.0
+          ],
+          "exteriorOriginXYZ": [
+            0.0,
+            -4.92,
+            0.0
+          ],
+          "heightBasis": "geometry.topProfile逐点墙顶投影；不是RF01檐口",
+          "mode": "orthographic-axis-to-parallel-exterior",
+          "offsetBasis": "墙轴平行偏移半墙厚；当前0.24/2=0.12m，非轴线即实体外表面",
+          "offsetM": 0.12,
+          "outwardNormalXYZ": [
+            0.0,
+            -1.0,
+            0.0
+          ],
+          "uAxisXYZ": [
+            1.0,
+            0.0,
+            0.0
+          ]
+        },
+        "geometryClass": "rectangular-profile",
+        "scopeBasis": "仅本墙完整轴长在指定外侧的正投影；不代表全部建筑立面"
+      }
+    ],
+    "T02": [
+      {
+        "regionId": "D04-W03-N",
+        "hostId": "W03",
+        "ownerId": "B01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/223",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/273",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "openingCount": 3,
+        "openings": [
+          {
+            "interfaceId": "I08",
+            "interfaceUid": "V01:I08",
+            "boundsUZ": [
+              1.0,
+              1.0,
+              2.2,
+              2.0
+            ],
+            "centerUZ": [
+              1.6000000000000003,
+              1.4999999999999998
+            ],
+            "relativeCenterUZ": [
+              0.1666666666666667,
+              0.4166666666666666
+            ],
+            "marginsM": {
+              "left": 1.0,
+              "right": 7.3999999999999995,
+              "bottom": 1.0,
+              "top": 1.6
+            },
+            "areaM2": 1.2000000000000002
+          },
+          {
+            "interfaceId": "I09",
+            "interfaceUid": "V01:I09",
+            "boundsUZ": [
+              4.2,
+              1.0,
+              5.4,
+              2.0
+            ],
+            "centerUZ": [
+              4.8,
+              1.4999999999999998
+            ],
+            "relativeCenterUZ": [
+              0.5,
+              0.4166666666666666
+            ],
+            "marginsM": {
+              "left": 4.2,
+              "right": 4.199999999999999,
+              "bottom": 1.0,
+              "top": 1.6
+            },
+            "areaM2": 1.2000000000000002
+          },
+          {
+            "interfaceId": "I10",
+            "interfaceUid": "V01:I10",
+            "boundsUZ": [
+              7.4,
+              1.0,
+              8.6,
+              2.0
+            ],
+            "centerUZ": [
+              8.0,
+              1.5
+            ],
+            "relativeCenterUZ": [
+              0.8333333333333334,
+              0.41666666666666663
+            ],
+            "marginsM": {
+              "left": 7.4,
+              "right": 1.0,
+              "bottom": 1.0,
+              "top": 1.6
+            },
+            "areaM2": 1.1999999999999993
+          }
+        ],
+        "spatialSequence": [
+          "I08",
+          "I09",
+          "I10"
+        ],
+        "adjacentPairs": [
+          {
+            "leftId": "I08",
+            "rightId": "I09",
+            "centerDistanceM": 3.1999999999999993,
+            "horizontalCenterDistanceM": 3.1999999999999993,
+            "netEdgeGapM": 2.0
+          },
+          {
+            "leftId": "I09",
+            "rightId": "I10",
+            "centerDistanceM": 3.2,
+            "horizontalCenterDistanceM": 3.2,
+            "netEdgeGapM": 2.0
+          }
+        ],
+        "openingUnionAreaM2": 3.5999999999999996,
+        "netDomainAreaM2": 30.959999999999997,
+        "projectedOpeningAreaRatio": 0.10416666666666664,
+        "denominator": "指定合成墙面毛正投影面积；非通风率/通行率",
+        "equalSpacingResidualsM": [
+          -4.440892098500626e-16,
+          4.440892098500626e-16
+        ],
+        "equalSpacingState": "continuous-only",
+        "symmetryResiduals": [
+          {
+            "firstId": "I08",
+            "secondId": "I10",
+            "horizontalReflectionResidualM": 0.0,
+            "verticalAlignmentResidualM": -2.220446049250313e-16,
+            "widthResidualM": 8.881784197001252e-16,
+            "heightResidualM": 0.0
+          },
+          {
+            "firstId": "I09",
+            "secondId": "I09",
+            "horizontalReflectionResidualM": 0.0,
+            "verticalAlignmentResidualM": 0.0,
+            "widthResidualM": 0.0,
+            "heightResidualM": 0.0
+          }
+        ],
+        "classification": "not-graded-unreviewed-tolerance"
+      },
+      {
+        "regionId": "D04-W10-S",
+        "hostId": "W10",
+        "ownerId": "U01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/230",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/274",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "openingCount": 1,
+        "openings": [
+          {
+            "interfaceId": "I05",
+            "interfaceUid": "V01:I05",
+            "boundsUZ": [
+              4.0,
+              0.0,
+              5.6,
+              1.6
+            ],
+            "centerUZ": [
+              4.8,
+              0.7999999999999999
+            ],
+            "relativeCenterUZ": [
+              0.5,
+              0.49999999999999994
+            ],
+            "marginsM": {
+              "left": 4.0,
+              "right": 4.0,
+              "bottom": 0.0,
+              "top": 0.0
+            },
+            "areaM2": 2.5599999999999996
+          }
+        ],
+        "spatialSequence": [
+          "I05"
+        ],
+        "adjacentPairs": [],
+        "openingUnionAreaM2": 2.5599999999999996,
+        "netDomainAreaM2": 12.8,
+        "projectedOpeningAreaRatio": 0.16666666666666666,
+        "denominator": "指定合成墙面毛正投影面积；非通风率/通行率",
+        "equalSpacingResidualsM": [],
+        "equalSpacingState": "insufficient-pairs",
+        "symmetryResiduals": [
+          {
+            "firstId": "I05",
+            "secondId": "I05",
+            "horizontalReflectionResidualM": 0.0,
+            "verticalAlignmentResidualM": 0.0,
+            "widthResidualM": 0.0,
+            "heightResidualM": 0.0
+          }
+        ],
+        "classification": "not-graded-unreviewed-tolerance"
+      }
+    ],
+    "T03": [
+      {
+        "regionId": "D04-W03-N",
+        "hostId": "W03",
+        "ownerId": "B01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/223",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/273",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "layer": "surface",
+        "areaMode": "same-orthographic-projection-minus-opening-union",
+        "netDomainAreaM2": 30.959999999999997,
+        "knownAreaM2": 30.959999999999997,
+        "unknownAreaM2": 0.0,
+        "uncoveredAreaM2": 0.0,
+        "unresolvedParts": [],
+        "zeroNetSurfaceRegions": [],
+        "materialAreasM2": {
+          "灰泥": 30.959999999999997
+        },
+        "knownDomainShares": {
+          "灰泥": 1.0
+        },
+        "knownDomainDenominatorM2": 30.959999999999997,
+        "knownCoverage": 1.0,
+        "wholeDomainShares": {
+          "灰泥": 1.0
+        },
+        "wholeDomainSharesState": "enabled",
+        "state": "known",
+        "materialBoundary": "仅表层；unknown包含未分配mixed与未登记面域；不推芯材，不否定含灰泥标签"
+      },
+      {
+        "regionId": "D04-W10-S",
+        "hostId": "W10",
+        "ownerId": "U01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/230",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/274",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "layer": "surface",
+        "areaMode": "same-orthographic-projection-minus-opening-union",
+        "netDomainAreaM2": 12.8,
+        "knownAreaM2": 6.4,
+        "unknownAreaM2": 6.4,
+        "uncoveredAreaM2": 0.0,
+        "unresolvedParts": [
+          {
+            "regionId": "D04-W10-S-surface-2",
+            "state": "unknown",
+            "areaM2": 6.4
+          }
+        ],
+        "zeroNetSurfaceRegions": [],
+        "materialAreasM2": {
+          "灰泥": 6.4
+        },
+        "knownDomainShares": {
+          "灰泥": 1.0
+        },
+        "knownDomainDenominatorM2": 6.4,
+        "knownCoverage": 0.5,
+        "wholeDomainShares": null,
+        "wholeDomainSharesState": "prohibited-unknown-area",
+        "state": "unknown",
+        "materialBoundary": "仅表层；unknown包含未分配mixed与未登记面域；不推芯材，不否定含灰泥标签"
+      }
+    ],
+    "T04": [
+      {
+        "regionId": "D04-W03-N",
+        "hostId": "W03",
+        "ownerId": "B01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/223",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/273",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "state": "conditional-not-enabled",
+        "reason": "没有校准/影像依据；不虚构RGB或花纹"
+      },
+      {
+        "regionId": "D04-W10-S",
+        "hostId": "W10",
+        "ownerId": "U01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/230",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/274",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "state": "conditional-not-enabled",
+        "reason": "没有校准/影像依据；不虚构RGB或花纹"
+      }
+    ],
+    "T05": [
+      {
+        "regionId": "D04-W03-N",
+        "hostId": "W03",
+        "ownerId": "B01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/223",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/273",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "state": "unknown",
+        "reason": "细部证据缺失不等于无装饰"
+      },
+      {
+        "regionId": "D04-W10-S",
+        "hostId": "W10",
+        "ownerId": "U01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/230",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/274",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "state": "unknown",
+        "reason": "细部证据缺失不等于无装饰"
+      }
+    ],
+    "T06": [
+      {
+        "regionId": "D04-W03-N",
+        "hostId": "W03",
+        "ownerId": "B01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/223",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W03",
+              "properties": {
+                "assertionLocator": "/relationships/273",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/9/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W03",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "countUnit": "owner-host-region-scenario",
+        "observationCount": 1,
+        "combination": {
+          "profile": "rectangular-profile",
+          "openingStructure": "multiple-openings",
+          "openingIds": [
+            "I08",
+            "I09",
+            "I10"
+          ],
+          "surfaceState": "known",
+          "materials": [
+            "灰泥"
+          ],
+          "color": "conditional-not-enabled",
+          "decoration": "unknown"
+        },
+        "aggregation": "local-only; B01主屋与U01院墙不合并为同栋频数",
+        "interpretation": "分部位当前合成组合；不作年代/文化解释；同ID多照片不增计数"
+      },
+      {
+        "regionId": "D04-W10-S",
+        "hostId": "W10",
+        "ownerId": "U01",
+        "geometryVersion": "V01-unified-2.2",
+        "scenario": "V01-T0",
+        "candidateRuleVersion": "D04-candidate-0.1",
+        "status": "synthetic-derived",
+        "coordinateFrame": "V01-local-XYZ",
+        "sourceContext": {
+          "evidence": [
+            "EV01"
+          ],
+          "sourceId": "EV01",
+          "sourceProperties": {
+            "analysisItems": [],
+            "caseId": "V01",
+            "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+            "evidenceKind": "synthetic_spec",
+            "geometryVersion": "V01-unified-2.2",
+            "isRealWorldEvidence": false,
+            "locator": "EV01",
+            "observationDate": "not_applicable",
+            "origin": "本次合成案例生成",
+            "recordStatus": "synthetic_assignment",
+            "sourceKind": "synthetic_assignment",
+            "sourcePath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+            "sourceVersion": "V01-unified-2.2",
+            "supportScope": "原V01合成参数及本次明确登记的原型整理设定；属性级支持由HAS_SOURCE限定，非实证"
+          },
+          "existingHostSourceLinks": [
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/230",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic-assignment-or-geometry-derivation",
+                "fields": [
+                  "analysisItems",
+                  "axisAzimuthDeg",
+                  "caseId",
+                  "geometryVersion",
+                  "heightBasis",
+                  "lengthM",
+                  "maxHeightM",
+                  "recordStatus",
+                  "referenceHeightM",
+                  "thicknessM"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "scope": "仅支持列出属性；派生来源见propertyOrigins，合成资料非实证",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            },
+            {
+              "evidence": [
+                "EV01"
+              ],
+              "id": "X-SRC-W10",
+              "properties": {
+                "assertionLocator": "/relationships/274",
+                "assertionSourceUid": "V01:EV01",
+                "assertionSourceVersion": "V01-unified-2.2",
+                "evidenceRole": "synthetic_assignment",
+                "fields": [
+                  "analysisItems",
+                  "facadeRecords"
+                ],
+                "locator": "/nodes/16/properties",
+                "locatorKind": "json_pointer",
+                "reviewStatus": "candidate-awaiting-user-review",
+                "scope": "本轮新增或更新字段，不为整对象全部属性背书",
+                "sourceUid": "V01:EV01",
+                "sourceVersion": "V01-unified-2.2"
+              },
+              "source": "W10",
+              "status": "synthetic_assignment",
+              "target": "EV01",
+              "type": "HAS_SOURCE"
+            }
+          ],
+          "newFieldSourcePublication": "explicit-facadeRecords-link-present; full source validation belongs to unified compiler"
+        },
+        "countUnit": "owner-host-region-scenario",
+        "observationCount": 1,
+        "combination": {
+          "profile": "rectangular-profile",
+          "openingStructure": "single-opening",
+          "openingIds": [
+            "I05"
+          ],
+          "surfaceState": "unknown",
+          "materials": [
+            "灰泥"
+          ],
+          "color": "conditional-not-enabled",
+          "decoration": "unknown"
+        },
+        "aggregation": "local-only; B01主屋与U01院墙不合并为同栋频数",
+        "interpretation": "分部位当前合成组合；不作年代/文化解释；同ID多照片不增计数"
+      }
+    ]
+  },
+  "D05": {
+    "T01": {
+      "status": "synthetic",
+      "boundary": {
+        "kind": "analysis_window_2d",
+        "max": [
+          15,
+          8
+        ],
+        "min": [
+          -1,
+          -13
+        ]
+      },
+      "boundaryVersion": "V01-unified-2.2",
+      "unit": "m",
+      "coordinateFrame": "V01-local-XYZ",
+      "datumId": "DATUM01",
+      "coverage": "仅声明二维窗口内三栋选定建筑；非完整三维组团，非地方组团分类；三栋不等于三个独立宅院",
+      "members": [
+        {
+          "id": "B01",
+          "assertionLocator": "/relationships/261",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "boundaryVersion": "V01-unified-2.2",
+          "ordinal": 1,
+          "role": "same-U01-main",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.2",
+          "boundaryState": "inside"
+        },
+        {
+          "id": "B02",
+          "assertionLocator": "/relationships/262",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "boundaryVersion": "V01-unified-2.2",
+          "ordinal": 2,
+          "role": "same-U01-annex",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.2",
+          "boundaryState": "inside"
+        },
+        {
+          "id": "B03",
+          "assertionLocator": "/relationships/263",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "boundaryVersion": "V01-unified-2.2",
+          "ordinal": 3,
+          "role": "neighbor-dwelling",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.2",
+          "boundaryState": "inside"
+        }
+      ],
+      "buildingCount": 3,
+      "independentDwellingCount": "not-established",
+      "sameDwelling": [
+        "B01",
+        "B02"
+      ]
+    },
+    "T02": {
+      "pairs": [
+        {
+          "pair": [
+            "B01",
+            "B02"
+          ],
+          "buildingClearance": {
+            "status": "refused",
+            "reason": "axis vs outer boundary incomparable; reference boxes are not physical solids"
+          },
+          "referenceBoxDistance2DM": 0.40000000000000036,
+          "distanceMeaning": "简化外包参照盒二维距离，不是建筑净距或实体接触",
+          "centerDisplacementXYM": [
+            7.2,
+            -6.6
+          ],
+          "displacementReference": "declared footprint centroid; east/north",
+          "widthAxisAngleDeg": 90,
+          "directionMeaning": "无向宽度轴，非正立面朝向",
+          "groundDifferenceM": 3,
+          "eaveDifferenceM": 3.7333333333333334,
+          "ridgeDifferenceM": 2.4000000000000004,
+          "heightReference": "second minus first; DATUM01 common elevation"
+        },
+        {
+          "pair": [
+            "B01",
+            "B03"
+          ],
+          "buildingClearance": {
+            "status": "refused",
+            "reason": "axis vs outer boundary incomparable; reference boxes are not physical solids"
+          },
+          "referenceBoxDistance2DM": 8.8,
+          "distanceMeaning": "简化外包参照盒二维距离，不是建筑净距或实体接触",
+          "centerDisplacementXYM": [
+            0.0,
+            -13.999999999999998
+          ],
+          "displacementReference": "declared footprint centroid; east/north",
+          "widthAxisAngleDeg": 0,
+          "directionMeaning": "无向宽度轴，非正立面朝向",
+          "groundDifferenceM": 0,
+          "eaveDifferenceM": -0.2666666666666666,
+          "ridgeDifferenceM": -0.7999999999999998,
+          "heightReference": "second minus first; DATUM01 common elevation"
+        }
+      ]
+    },
+    "T03": {
+      "status": "synthetic-straight-only",
+      "centerline": [
+        [
+          0,
+          -6.8
+        ],
+        [
+          9.6,
+          -6.8
+        ]
+      ],
+      "chainageM": [
+        0,
+        9.6
+      ],
+      "sides": {
+        "left": {
+          "participant": "W10",
+          "role": "wall-side",
+          "ranges": {
+            "entity": [
+              [
+                0,
+                4
+              ],
+              [
+                5.6,
+                9.6
+              ]
+            ],
+            "opening": [
+              [
+                4,
+                5.6
+              ]
+            ],
+            "unknown": []
+          },
+          "knownEntityLengthM": 8.0,
+          "knownEntityProportion": 0.8333333333333334,
+          "completeEntityProportion": 0.8333333333333334,
+          "boundaryYM": -4.92,
+          "sectionVerticalRangeZM": [
+            0,
+            1.6
+          ],
+          "heightAbovePavementM": 1.6,
+          "heightMeaning": "W10恒高实体表面"
+        },
+        "right": {
+          "participant": "B03",
+          "role": "building-side",
+          "ranges": {
+            "entity": [
+              [
+                0,
+                9.6
+              ]
+            ],
+            "opening": [],
+            "unknown": []
+          },
+          "knownEntityLengthM": 9.6,
+          "knownEntityProportion": 1.0,
+          "completeEntityProportion": 1.0,
+          "boundaryYM": -8.8,
+          "sectionVerticalRangeZM": [
+            0,
+            3
+          ],
+          "heightAbovePavementM": 3,
+          "heightMeaning": "仅邻宅北侧至檐断面，不是另造墙；不使用屋脊"
+        }
+      },
+      "analysisSectionZM": 1.0,
+      "pavementWidthM": 3.880000000000001,
+      "boundarySeparationM": 3.880000000000001,
+      "widthScope": "路面宽与边界间距单独定义；数值在此合成设置相同，不是通行净宽或无障碍验证",
+      "pavementSource": "synthetic_assignment"
+    },
+    "T04": {
+      "status": "synthetic-ground-only",
+      "reason": "independent synthetic ground assignment",
+      "thresholdToSamePointPavement": {
+        "status": "unknown",
+        "pointXY": [
+          4.8,
+          -4.8
+        ],
+        "differenceM": null,
+        "reason": "I05轴线点不在路面范围或路面来源不可用；不投影替代同点"
+      },
+      "horizontalDistanceM": 3.8209946349085597,
+      "elevationDifferenceM": 3,
+      "slopeRatio": 0.7851358838853206,
+      "pointsXYZ": [
+        [
+          9.6,
+          -6.8,
+          0
+        ],
+        [
+          10,
+          -3,
+          3
+        ]
+      ],
+      "datumId": "DATUM01",
+      "B02ReferencePointDifferenceM": 0
+    },
+    "T05": {
+      "mode": "center-X-projection",
+      "order": "center-X-ascending-ties",
+      "sequence": [
+        {
+          "id": "B01",
+          "centerXM": 4.8,
+          "groundZM": 0,
+          "eaveZM": 3.2666666666666666,
+          "ridgeZM": 5.6,
+          "tieIds": [
+            "B01",
+            "B03"
+          ]
+        },
+        {
+          "id": "B03",
+          "centerXM": 4.8,
+          "groundZM": 0,
+          "eaveZM": 3,
+          "ridgeZM": 4.8,
+          "tieIds": [
+            "B01",
+            "B03"
+          ]
+        },
+        {
+          "id": "B02",
+          "centerXM": 12.0,
+          "groundZM": 3,
+          "eaveZM": 7,
+          "ridgeZM": 8,
+          "tieIds": [
+            "B02"
+          ]
+        }
+      ],
+      "interpretation": "沿X中心投影排序，同中心X并列；共同基准标高，不是自身檐高、剖切或视点可见轮廓"
+    },
+    "T06": {
+      "status": "present-synthetic-spatial-relations-only",
+      "relations": [
+        {
+          "type": "REFERENCES_GROUND",
+          "source": "B02",
+          "target": "TP01",
+          "properties": {
+            "assertionLocator": "/relationships/270",
+            "assertionSourceUid": "V01:EV01",
+            "assertionSourceVersion": "V01-unified-2.2",
+            "geometryVersion": "V01-unified-2.2",
+            "objectPointField": "groundPointXYZ",
+            "pointIndex": 1,
+            "sourceUid": "V01:EV01",
+            "sourceVersion": "V01-unified-2.2"
+          }
+        },
+        {
+          "type": "STREET_BOUNDARY_PARTICIPANT",
+          "source": "ST01",
+          "target": "W10",
+          "properties": {
+            "assertionLocator": "/relationships/268",
+            "assertionSourceUid": "V01:EV01",
+            "assertionSourceVersion": "V01-unified-2.2",
+            "geometryVersion": "V01-unified-2.2",
+            "role": "wall-side",
+            "side": "left",
+            "sourceUid": "V01:EV01",
+            "sourceVersion": "V01-unified-2.2"
+          }
+        },
+        {
+          "type": "STREET_BOUNDARY_PARTICIPANT",
+          "source": "ST01",
+          "target": "B03",
+          "properties": {
+            "assertionLocator": "/relationships/269",
+            "assertionSourceUid": "V01:EV01",
+            "assertionSourceVersion": "V01-unified-2.2",
+            "geometryVersion": "V01-unified-2.2",
+            "role": "building-side",
+            "side": "right",
+            "sourceUid": "V01:EV01",
+            "sourceVersion": "V01-unified-2.2"
+          }
+        }
+      ],
+      "reusedObjects": [
+        "U01",
+        "B01",
+        "B02",
+        "W10",
+        "S05",
+        "S06",
+        "I05"
+      ],
+      "waterbody": "not-declared",
+      "mountain": "not-declared",
+      "historicalCause": "not-analyzed-D07-suspended",
+      "culturalCause": "not-supported",
+      "directAccess": "not-inferred",
+      "adaptationMotive": "not-inferred"
+    }
+  },
+  "D06": {
+    "T01": {
+      "status": "derived-synthetic-matrices",
+      "buildingElevationMatrix": [
+        {
+          "objectId": "B01",
+          "statisticalUnit": "building",
+          "ownerIds": [
+            "U01"
+          ],
+          "independence": "同U01的B01/B02不作为独立宅院；B03邻宅身份为人工指定",
+          "fields": {
+            "groundZM": 0,
+            "eaveZM": 3.2666666666666666,
+            "ridgeZM": 5.6
+          },
+          "commonDatum": "DATUM01",
+          "scenario": "V01-T0",
+          "sourceRefs": [
+            {
+              "relationshipId": "SRC-B01",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems",
+                "axisDepthM",
+                "axisFootprintAreaM2",
+                "axisWidthM",
+                "caseId",
+                "coordinateFrame",
+                "depthDirection",
+                "depthM",
+                "eavePointXYZ",
+                "eaveZM",
+                "facingAzimuthDeg",
+                "footprintShape",
+                "footprintXY",
+                "geometryActive",
+                "geometryVersion",
+                "groundPointXYZ",
+                "groundZM",
+                "heightBasis",
+                "measurementBoundaryBasis",
+                "precisionMeaning",
+                "recordStatus",
+                "ridgeHeightM",
+                "ridgePointXYZ",
+                "ridgeZM",
+                "role",
+                "scenario",
+                "storeys",
+                "unit",
+                "wallSupportHeightM",
+                "widthDirection",
+                "widthM"
+              ],
+              "locator": "/nodes/0/properties",
+              "sourceVersion": "V01-unified-2.2"
+            },
+            {
+              "relationshipId": "X-SRC-B01",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems"
+              ],
+              "locator": "/nodes/0/properties",
+              "sourceVersion": "V01-unified-2.2"
+            }
+          ],
+          "excludedComparisons": [
+            "不同axis/outer口径的建筑净距",
+            "三维实体接触",
+            "无汇总规则的整栋立面类型"
+          ],
+          "internalFrame": "excluded-from-current-analysis"
+        },
+        {
+          "objectId": "B02",
+          "statisticalUnit": "building",
+          "ownerIds": [
+            "U01"
+          ],
+          "independence": "同U01的B01/B02不作为独立宅院；B03邻宅身份为人工指定",
+          "fields": {
+            "groundZM": 3,
+            "eaveZM": 7,
+            "ridgeZM": 8
+          },
+          "commonDatum": "DATUM01",
+          "scenario": "V01-T0",
+          "sourceRefs": [
+            {
+              "relationshipId": "SRC-B02",
+              "sourceId": "EV09",
+              "fields": [
+                "depthDirection",
+                "depthM",
+                "eavePointXYZ",
+                "eaveZM",
+                "footprintShape",
+                "footprintXY",
+                "geometryActive",
+                "groundPointXYZ",
+                "groundZM",
+                "heightBasis",
+                "identityBasis",
+                "measurementBoundaryBasis",
+                "precisionMeaning",
+                "ridgePointXYZ",
+                "ridgeZM",
+                "role",
+                "unit",
+                "widthDirection",
+                "widthM"
+              ],
+              "locator": "/nodes/3/properties",
+              "sourceVersion": "1.1"
+            },
+            {
+              "relationshipId": "SRC-B02-REG",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems",
+                "botClassIri",
+                "caseId",
+                "coordinateFrame",
+                "d03GroundEligibility",
+                "geometryVersion",
+                "legacyUid",
+                "recordStatus",
+                "registrationBasis",
+                "researchScopeStatus",
+                "scenario"
+              ],
+              "locator": "/nodes/42/properties",
+              "sourceVersion": "V01-unified-2.2"
+            },
+            {
+              "relationshipId": "X-SRC-B02",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems"
+              ],
+              "locator": "/nodes/42/properties",
+              "sourceVersion": "V01-unified-2.2"
+            }
+          ],
+          "excludedComparisons": [
+            "不同axis/outer口径的建筑净距",
+            "三维实体接触",
+            "无汇总规则的整栋立面类型"
+          ],
+          "internalFrame": "excluded-from-current-analysis"
+        },
+        {
+          "objectId": "B03",
+          "statisticalUnit": "building",
+          "ownerIds": [],
+          "independence": "同U01的B01/B02不作为独立宅院；B03邻宅身份为人工指定",
+          "fields": {
+            "groundZM": 0,
+            "eaveZM": 3,
+            "ridgeZM": 4.8
+          },
+          "commonDatum": "DATUM01",
+          "scenario": "V01-T0",
+          "sourceRefs": [
+            {
+              "relationshipId": "X-SRC-B03",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems",
+                "caseId",
+                "coordinateFrame",
+                "depthDirection",
+                "depthM",
+                "eavePointXYZ",
+                "eaveZM",
+                "footprintShape",
+                "footprintXY",
+                "geometryActive",
+                "geometrySourceLocator",
+                "geometrySourceVersion",
+                "geometryVersion",
+                "groundPointXYZ",
+                "groundZM",
+                "heightBasis",
+                "identityBasis",
+                "measurementBoundaryBasis",
+                "precisionMeaning",
+                "recordStatus",
+                "ridgePointXYZ",
+                "ridgeZM",
+                "role",
+                "scenario",
+                "unit",
+                "widthDirection",
+                "widthM"
+              ],
+              "locator": "/nodes/51/properties",
+              "sourceVersion": "V01-unified-2.2"
+            }
+          ],
+          "excludedComparisons": [
+            "不同axis/outer口径的建筑净距",
+            "三维实体接触",
+            "无汇总规则的整栋立面类型"
+          ],
+          "internalFrame": "excluded-from-current-analysis"
+        }
+      ],
+      "localFacadeMatrix": [
+        {
+          "unitId": "D04-W03-N",
+          "hostId": "W03",
+          "ownerId": "B01",
+          "statisticalUnit": "declared-exterior-wall-projection",
+          "fields": {
+            "openingCount": 3,
+            "completeMaterialCount": 1
+          },
+          "continuous": {
+            "projectedOpeningAreaRatio": 0.10416666666666664,
+            "knownCoverage": 1.0
+          },
+          "materialState": "known",
+          "color": "conditional-not-enabled",
+          "decoration": "unknown",
+          "sourceRefs": [
+            {
+              "relationshipId": "SRC-W03",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems",
+                "axisAzimuthDeg",
+                "caseId",
+                "geometryVersion",
+                "heightBasis",
+                "lengthM",
+                "maxHeightM",
+                "recordStatus",
+                "referenceHeightM",
+                "thicknessM"
+              ],
+              "locator": "/nodes/9/properties",
+              "sourceVersion": "V01-unified-2.2"
+            },
+            {
+              "relationshipId": "X-SRC-W03",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems",
+                "facadeRecords"
+              ],
+              "locator": "/nodes/9/properties",
+              "sourceVersion": "V01-unified-2.2"
+            }
+          ],
+          "locator": "/nodes/9/properties/facadeRecords",
+          "buildingAggregation": "not-defined"
+        },
+        {
+          "unitId": "D04-W10-S",
+          "hostId": "W10",
+          "ownerId": "U01",
+          "statisticalUnit": "declared-exterior-wall-projection",
+          "fields": {
+            "openingCount": 1,
+            "completeMaterialCount": null
+          },
+          "continuous": {
+            "projectedOpeningAreaRatio": 0.16666666666666666,
+            "knownCoverage": 0.5
+          },
+          "materialState": "unknown",
+          "color": "conditional-not-enabled",
+          "decoration": "unknown",
+          "sourceRefs": [
+            {
+              "relationshipId": "SRC-W10",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems",
+                "axisAzimuthDeg",
+                "caseId",
+                "geometryVersion",
+                "heightBasis",
+                "lengthM",
+                "maxHeightM",
+                "recordStatus",
+                "referenceHeightM",
+                "thicknessM"
+              ],
+              "locator": "/nodes/16/properties",
+              "sourceVersion": "V01-unified-2.2"
+            },
+            {
+              "relationshipId": "X-SRC-W10",
+              "sourceId": "EV01",
+              "fields": [
+                "analysisItems",
+                "facadeRecords"
+              ],
+              "locator": "/nodes/16/properties",
+              "sourceVersion": "V01-unified-2.2"
+            }
+          ],
+          "locator": "/nodes/16/properties/facadeRecords",
+          "buildingAggregation": "not-defined"
+        }
+      ],
+      "missingPolicy": "无、未知、不适用和体系排除分开；无补值；混口径字段不进入同一比较",
+      "sourceIndependence": "共同EV01来源，不是独立互证"
+    },
+    "T02": {
+      "status": "synthetic-counting-demonstration-not-empirical-frequency",
+      "localDistributions": [
+        {
+          "schemeId": "opening-cardinality",
+          "countUnit": "local-wall-projection-record",
+          "declaredUnitIds": [
+            "D04-W03-N",
+            "D04-W10-S"
+          ],
+          "validUnitIds": [
+            "D04-W03-N",
+            "D04-W10-S"
+          ],
+          "excluded": [],
+          "counts": [
+            {
+              "code": "multiple-openings-local",
+              "unitIds": [
+                "D04-W03-N"
+              ],
+              "count": 1,
+              "shareInValidSyntheticRecords": 0.5
+            },
+            {
+              "code": "single-opening-local",
+              "unitIds": [
+                "D04-W10-S"
+              ],
+              "count": 1,
+              "shareInValidSyntheticRecords": 0.5
+            }
+          ]
+        },
+        {
+          "schemeId": "complete-surface-material",
+          "countUnit": "local-wall-projection-record",
+          "declaredUnitIds": [
+            "D04-W03-N",
+            "D04-W10-S"
+          ],
+          "validUnitIds": [
+            "D04-W03-N"
+          ],
+          "excluded": [
+            {
+              "unitId": "D04-W10-S",
+              "state": "unknown"
+            }
+          ],
+          "counts": [
+            {
+              "code": "single-material-complete-domain",
+              "unitIds": [
+                "D04-W03-N"
+              ],
+              "count": 1,
+              "shareInValidSyntheticRecords": 1.0
+            }
+          ]
+        }
+      ],
+      "jointValidUnitIds": [
+        "D04-W03-N"
+      ],
+      "jointValidCount": 1,
+      "localPairs": [
+        {
+          "pairId": "D06-P01",
+          "facadeUnitId": "D04-W10-S",
+          "facadeOwnerId": "U01",
+          "courtyardId": "S05",
+          "viaInterfaceId": "I05",
+          "supportingRelationshipIds": [
+            "R042",
+            "R044"
+          ],
+          "facadeMaterialState": "unknown",
+          "courtyardCoverState": "uncovered",
+          "combinationState": "partial-unknown",
+          "meaning": "同一院门分别定位院墙外侧局部和前院边界；不配对主屋北墙与前院",
+          "buildingFrequency": null,
+          "noCartesianProduct": true
+        }
+      ],
+      "wholeBuildingCombinationFrequency": null,
+      "meaning": "仅展示显式局部记录与配对的计数机制；不发布景宁或整栋组合频数"
+    },
+    "T03": {
+      "status": "candidate-rule-demonstration",
+      "schemes": [
+        {
+          "auxiliary": [
+            "projectedOpeningAreaRatio",
+            "equalSpacingResidualsM"
+          ],
+          "defining": [
+            "openingCount"
+          ],
+          "id": "opening-cardinality",
+          "meaning": "洞口数量结构的描述性候选，不是地域立面型；连续残差不设等级阈值",
+          "mode": "exclusive",
+          "rules": [
+            {
+              "code": "single-opening-local",
+              "when": {
+                "openingCount": {
+                  "eq": 1
+                }
+              }
+            },
+            {
+              "code": "multiple-openings-local",
+              "when": {
+                "openingCount": {
+                  "ge": 2
+                }
+              }
+            }
+          ],
+          "unit": "declared-exterior-wall-projection",
+          "version": "D06-local-candidate-0.1"
+        },
+        {
+          "auxiliary": [
+            "knownCoverage"
+          ],
+          "defining": [
+            "completeMaterialCount"
+          ],
+          "id": "complete-surface-material",
+          "meaning": "净域内完整已知的表层配置；关键未知不归混合或其他型，不推芯材",
+          "mode": "exclusive",
+          "rules": [
+            {
+              "code": "single-material-complete-domain",
+              "when": {
+                "completeMaterialCount": {
+                  "eq": 1
+                }
+              }
+            },
+            {
+              "code": "multiple-materials-complete-domain",
+              "when": {
+                "completeMaterialCount": {
+                  "ge": 2
+                }
+              }
+            }
+          ],
+          "unit": "declared-exterior-wall-projection",
+          "version": "D06-local-candidate-0.1"
+        }
+      ],
+      "allocations": [
+        {
+          "unitId": "D04-W03-N",
+          "schemeId": "opening-cardinality",
+          "ruleVersion": "D06-local-candidate-0.1",
+          "inputVersion": "V01-unified-2.2",
+          "state": "candidate-assigned",
+          "matches": [
+            "multiple-openings-local"
+          ],
+          "reason": "本研究候选几何结构规则；不是经样本支持的建筑类型",
+          "inputFields": {
+            "openingCount": 3
+          },
+          "locator": "/nodes/9/properties/facadeRecords"
+        },
+        {
+          "unitId": "D04-W03-N",
+          "schemeId": "complete-surface-material",
+          "ruleVersion": "D06-local-candidate-0.1",
+          "inputVersion": "V01-unified-2.2",
+          "state": "candidate-assigned",
+          "matches": [
+            "single-material-complete-domain"
+          ],
+          "reason": "本研究候选几何结构规则；不是经样本支持的建筑类型",
+          "inputFields": {
+            "completeMaterialCount": 1
+          },
+          "locator": "/nodes/9/properties/facadeRecords"
+        },
+        {
+          "unitId": "D04-W10-S",
+          "schemeId": "opening-cardinality",
+          "ruleVersion": "D06-local-candidate-0.1",
+          "inputVersion": "V01-unified-2.2",
+          "state": "candidate-assigned",
+          "matches": [
+            "single-opening-local"
+          ],
+          "reason": "本研究候选几何结构规则；不是经样本支持的建筑类型",
+          "inputFields": {
+            "openingCount": 1
+          },
+          "locator": "/nodes/16/properties/facadeRecords"
+        },
+        {
+          "unitId": "D04-W10-S",
+          "schemeId": "complete-surface-material",
+          "ruleVersion": "D06-local-candidate-0.1",
+          "inputVersion": "V01-unified-2.2",
+          "state": "unknown",
+          "matches": [],
+          "reason": "关键定义性输入未知；不补值",
+          "inputFields": {
+            "completeMaterialCount": null
+          },
+          "locator": "/nodes/16/properties/facadeRecords"
+        }
+      ],
+      "sensitivityStatus": "限定反例在执行测试中；未做真实样本稳定性或记录者一致性检验",
+      "noNewTypeEntities": true
+    },
+    "T04": {
+      "status": "not-estimable",
+      "collectionId": "CG01",
+      "sameDwellingClusters": [
+        {
+          "cluster": "U01",
+          "members": [
+            "B01",
+            "B02"
+          ]
+        },
+        {
+          "cluster": "standalone:B03",
+          "members": [
+            "B03"
+          ]
+        }
+      ],
+      "reason": "仅一个人工选择的建筑组，无真实跨村／组团／地形分组及独立样本；不做显著性检验或时期演变"
+    },
+    "T05": {
+      "status": "descriptive-synthetic-only",
+      "observations": [
+        {
+          "id": "D06-O01",
+          "statement": "同一院门关联院墙局部与前院，可以明确配对，但不能代表全部建筑立面。",
+          "objects": [
+            "W10",
+            "I05",
+            "S05"
+          ],
+          "source": "EV01"
+        },
+        {
+          "id": "D06-O02",
+          "statement": "共同基准檐口高差、自身檐高与街边界高度是不同量，不能互相替代。",
+          "objects": [
+            "B01",
+            "B02",
+            "W10",
+            "B03"
+          ],
+          "source": "EV01"
+        }
+      ],
+      "candidateExplanations": [
+        {
+          "statement": "真实样本中若高度与地形对应，需检验取样、地坪口径与用途等竞争解释。",
+          "status": "untested-hypothesis-not-a-fact",
+          "independentEvidence": "absent"
+        }
+      ],
+      "unsupported": [
+        "历史成因",
+        "文化因果",
+        "民族专属性",
+        "地形适应动机",
+        "方法优越性"
+      ],
+      "boundary": "几何与材料均为人工赋值；不以图边或同源设定证成因果。"
+    }
+  },
+  "basicRelations": {
+    "ruleVersion": "V01-local-boundary-coverage-v1",
+    "modelVersion": "V01-unified-2.2",
+    "scope": "synthetic-planar-and-application-rules-only",
+    "localizedBoundaries": [
+      {
+        "spaceUid": "V01:S01",
+        "boundaryBasis": "既有房间分析矩形，主体采用内侧净边界；S01南侧为开放理论分界。保持原几何，不声明完整净三维体。",
+        "analysisSliceZM": 1,
+        "segments": [
+          {
+            "id": "N",
+            "lengthM": 2.9600000000000004,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.8800000000000003
+              ],
+              [
+                2.0800000000000005,
+                2.9600000000000004
+              ]
+            ],
+            "registeredSolidLengthM": 1.7600000000000002,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W03",
+                "relationshipUid": "V01:R059",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    3.32,
+                    7.08
+                  ],
+                  [
+                    6.28,
+                    7.08
+                  ]
+                ],
+                "referenceLengthM": 2.9600000000000004,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.8800000000000003
+                  ],
+                  [
+                    2.0800000000000005,
+                    2.9600000000000004
+                  ]
+                ],
+                "netLengthM": 1.7600000000000002,
+                "deductedOpeningIds": [
+                  "I09"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.2000000000000002,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "E",
+            "lengthM": 5.58,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                3.5800000000000005
+              ],
+              [
+                4.58,
+                5.58
+              ]
+            ],
+            "registeredSolidLengthM": 4.58,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W05",
+                "relationshipUid": "V01:R061",
+                "boundaryId": "E",
+                "referencePolylineXY": [
+                  [
+                    6.28,
+                    7.08
+                  ],
+                  [
+                    6.28,
+                    1.5
+                  ]
+                ],
+                "referenceLengthM": 5.58,
+                "intervalsM": [
+                  [
+                    0.0,
+                    3.5800000000000005
+                  ],
+                  [
+                    4.58,
+                    5.58
+                  ]
+                ],
+                "netLengthM": 4.58,
+                "deductedOpeningIds": [
+                  "I03"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "S",
+            "lengthM": 2.9600000000000004,
+            "registeredSolidIntervalsM": [],
+            "registeredSolidLengthM": 0,
+            "overlapDeductedM": 0.0,
+            "participants": [],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 2.9600000000000004,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "W",
+            "lengthM": 5.58,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                1.0
+              ],
+              [
+                2.0,
+                5.58
+              ]
+            ],
+            "registeredSolidLengthM": 4.58,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W04",
+                "relationshipUid": "V01:R060",
+                "boundaryId": "W",
+                "referencePolylineXY": [
+                  [
+                    3.32,
+                    1.5
+                  ],
+                  [
+                    3.32,
+                    7.08
+                  ]
+                ],
+                "referenceLengthM": 5.58,
+                "intervalsM": [
+                  [
+                    0.0,
+                    1.0
+                  ],
+                  [
+                    2.0,
+                    5.58
+                  ]
+                ],
+                "netLengthM": 4.58,
+                "deductedOpeningIds": [
+                  "I02"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          }
+        ],
+        "perimeterM": 17.080000000000002,
+        "registeredSolidLengthM": 10.92,
+        "candidateState": "none-in-declared-inputs",
+        "notThreeDimensionalEnclosure": true
+      },
+      {
+        "spaceUid": "V01:S02",
+        "boundaryBasis": "既有房间分析矩形，主体采用内侧净边界；S01南侧为开放理论分界。保持原几何，不声明完整净三维体。",
+        "analysisSliceZM": 1,
+        "segments": [
+          {
+            "id": "N",
+            "lengthM": 2.96,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.88
+              ],
+              [
+                2.08,
+                2.96
+              ]
+            ],
+            "registeredSolidLengthM": 1.7599999999999998,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W03",
+                "relationshipUid": "V01:R063",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.12,
+                    7.08
+                  ],
+                  [
+                    3.08,
+                    7.08
+                  ]
+                ],
+                "referenceLengthM": 2.96,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.88
+                  ],
+                  [
+                    2.08,
+                    2.96
+                  ]
+                ],
+                "netLengthM": 1.7599999999999998,
+                "deductedOpeningIds": [
+                  "I08"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.2000000000000002,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "E",
+            "lengthM": 5.46,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                3.5800000000000005
+              ],
+              [
+                4.580000000000001,
+                5.46
+              ]
+            ],
+            "registeredSolidLengthM": 4.459999999999999,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W04",
+                "relationshipUid": "V01:R064",
+                "boundaryId": "E",
+                "referencePolylineXY": [
+                  [
+                    3.08,
+                    7.08
+                  ],
+                  [
+                    3.08,
+                    1.62
+                  ]
+                ],
+                "referenceLengthM": 5.46,
+                "intervalsM": [
+                  [
+                    0.0,
+                    3.5800000000000005
+                  ],
+                  [
+                    4.580000000000001,
+                    5.46
+                  ]
+                ],
+                "netLengthM": 4.459999999999999,
+                "deductedOpeningIds": [
+                  "I02"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.0000000000000009,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "S",
+            "lengthM": 2.96,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.8799999999999999
+              ],
+              [
+                2.08,
+                2.96
+              ]
+            ],
+            "registeredSolidLengthM": 1.7599999999999998,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W06",
+                "relationshipUid": "V01:R065",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    3.08,
+                    1.62
+                  ],
+                  [
+                    0.12,
+                    1.62
+                  ]
+                ],
+                "referenceLengthM": 2.96,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.8799999999999999
+                  ],
+                  [
+                    2.08,
+                    2.96
+                  ]
+                ],
+                "netLengthM": 1.7599999999999998,
+                "deductedOpeningIds": [
+                  "I06"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.2000000000000002,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "W",
+            "lengthM": 5.46,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                5.46
+              ]
+            ],
+            "registeredSolidLengthM": 5.46,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W01",
+                "relationshipUid": "V01:R062",
+                "boundaryId": "W",
+                "referencePolylineXY": [
+                  [
+                    0.12,
+                    1.62
+                  ],
+                  [
+                    0.12,
+                    7.08
+                  ]
+                ],
+                "referenceLengthM": 5.46,
+                "intervalsM": [
+                  [
+                    0.0,
+                    5.46
+                  ]
+                ],
+                "netLengthM": 5.46,
+                "deductedOpeningIds": []
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 0.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          }
+        ],
+        "perimeterM": 16.84,
+        "registeredSolidLengthM": 13.439999999999998,
+        "candidateState": "none-in-declared-inputs",
+        "notThreeDimensionalEnclosure": true
+      },
+      {
+        "spaceUid": "V01:S03",
+        "boundaryBasis": "既有房间分析矩形，主体采用内侧净边界；S01南侧为开放理论分界。保持原几何，不声明完整净三维体。",
+        "analysisSliceZM": 1,
+        "segments": [
+          {
+            "id": "N",
+            "lengthM": 2.960000000000001,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.8800000000000008
+              ],
+              [
+                2.08,
+                2.960000000000001
+              ]
+            ],
+            "registeredSolidLengthM": 1.7600000000000016,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W03",
+                "relationshipUid": "V01:R067",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    6.52,
+                    7.08
+                  ],
+                  [
+                    9.48,
+                    7.08
+                  ]
+                ],
+                "referenceLengthM": 2.960000000000001,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.8800000000000008
+                  ],
+                  [
+                    2.08,
+                    2.960000000000001
+                  ]
+                ],
+                "netLengthM": 1.7600000000000016,
+                "deductedOpeningIds": [
+                  "I10"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.1999999999999993,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "E",
+            "lengthM": 5.46,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                5.46
+              ]
+            ],
+            "registeredSolidLengthM": 5.46,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W02",
+                "relationshipUid": "V01:R066",
+                "boundaryId": "E",
+                "referencePolylineXY": [
+                  [
+                    9.48,
+                    7.08
+                  ],
+                  [
+                    9.48,
+                    1.62
+                  ]
+                ],
+                "referenceLengthM": 5.46,
+                "intervalsM": [
+                  [
+                    0.0,
+                    5.46
+                  ]
+                ],
+                "netLengthM": 5.46,
+                "deductedOpeningIds": []
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 0.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "S",
+            "lengthM": 2.960000000000001,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.8800000000000008
+              ],
+              [
+                2.08,
+                2.960000000000001
+              ]
+            ],
+            "registeredSolidLengthM": 1.7600000000000016,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W07",
+                "relationshipUid": "V01:R069",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    9.48,
+                    1.62
+                  ],
+                  [
+                    6.52,
+                    1.62
+                  ]
+                ],
+                "referenceLengthM": 2.960000000000001,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.8800000000000008
+                  ],
+                  [
+                    2.08,
+                    2.960000000000001
+                  ]
+                ],
+                "netLengthM": 1.7600000000000016,
+                "deductedOpeningIds": [
+                  "I07"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.1999999999999993,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "W",
+            "lengthM": 5.46,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.8799999999999999
+              ],
+              [
+                1.88,
+                5.46
+              ]
+            ],
+            "registeredSolidLengthM": 4.46,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W05",
+                "relationshipUid": "V01:R068",
+                "boundaryId": "W",
+                "referencePolylineXY": [
+                  [
+                    6.52,
+                    1.62
+                  ],
+                  [
+                    6.52,
+                    7.08
+                  ]
+                ],
+                "referenceLengthM": 5.46,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.8799999999999999
+                  ],
+                  [
+                    1.88,
+                    5.46
+                  ]
+                ],
+                "netLengthM": 4.46,
+                "deductedOpeningIds": [
+                  "I03"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          }
+        ],
+        "perimeterM": 16.840000000000003,
+        "registeredSolidLengthM": 13.440000000000003,
+        "candidateState": "none-in-declared-inputs",
+        "notThreeDimensionalEnclosure": true
+      },
+      {
+        "spaceUid": "V01:S04",
+        "boundaryBasis": "前廊既有轴线/分界分析矩形，非统一净空间；墙端转角仅作几何候选，不新增持久边。",
+        "analysisSliceZM": 1,
+        "segments": [
+          {
+            "id": "N",
+            "lengthM": 9.6,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                1.0
+              ],
+              [
+                2.2,
+                3.1999999999999997
+              ],
+              [
+                6.3999999999999995,
+                7.400000000000001
+              ],
+              [
+                8.6,
+                9.6
+              ]
+            ],
+            "registeredSolidLengthM": 4.000000000000002,
+            "overlapDeductedM": 0.2400000000000002,
+            "participants": [
+              {
+                "uid": "V01:W01",
+                "relationshipUid": "V01:R070",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.0,
+                    1.5
+                  ],
+                  [
+                    9.6,
+                    1.5
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.11999999999999998
+                  ]
+                ],
+                "netLengthM": 0.11999999999999998,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:W02",
+                "relationshipUid": "V01:R071",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.0,
+                    1.5
+                  ],
+                  [
+                    9.6,
+                    1.5
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    9.479999999999999,
+                    9.6
+                  ]
+                ],
+                "netLengthM": 0.120000000000001,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:W06",
+                "relationshipUid": "V01:R072",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.0,
+                    1.5
+                  ],
+                  [
+                    9.6,
+                    1.5
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    0.0,
+                    1.0
+                  ],
+                  [
+                    2.2,
+                    3.1999999999999997
+                  ]
+                ],
+                "netLengthM": 1.9999999999999996,
+                "deductedOpeningIds": [
+                  "I06"
+                ]
+              },
+              {
+                "uid": "V01:W07",
+                "relationshipUid": "V01:R073",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.0,
+                    1.5
+                  ],
+                  [
+                    9.6,
+                    1.5
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    6.3999999999999995,
+                    7.400000000000001
+                  ],
+                  [
+                    8.6,
+                    9.6
+                  ]
+                ],
+                "netLengthM": 2.0000000000000018,
+                "deductedOpeningIds": [
+                  "I07"
+                ]
+              }
+            ],
+            "geometryCandidates": [
+              {
+                "uid": "V01:W04",
+                "intervalsM": [
+                  [
+                    3.0799999999999996,
+                    3.32
+                  ]
+                ],
+                "decision": "geometry-only-candidate-not-persisted",
+                "basis": "finite section crosses analysis boundary; no independent semantic assertion"
+              },
+              {
+                "uid": "V01:W05",
+                "intervalsM": [
+                  [
+                    6.28,
+                    6.519999999999999
+                  ]
+                ],
+                "decision": "geometry-only-candidate-not-persisted",
+                "basis": "finite section crosses analysis boundary; no independent semantic assertion"
+              }
+            ],
+            "additionalCandidateIntervalsM": [
+              [
+                3.1999999999999997,
+                3.32
+              ],
+              [
+                6.28,
+                6.3999999999999995
+              ]
+            ],
+            "unassignedLengthM": 5.599999999999998,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "E",
+            "lengthM": 1.5,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                1.5
+              ]
+            ],
+            "registeredSolidLengthM": 1.5,
+            "overlapDeductedM": 0.1200000000000001,
+            "participants": [
+              {
+                "uid": "V01:W02",
+                "relationshipUid": "V01:R071",
+                "boundaryId": "E",
+                "referencePolylineXY": [
+                  [
+                    9.6,
+                    1.5
+                  ],
+                  [
+                    9.6,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 1.5,
+                "intervalsM": [
+                  [
+                    0.0,
+                    1.5
+                  ]
+                ],
+                "netLengthM": 1.5,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:W07",
+                "relationshipUid": "V01:R073",
+                "boundaryId": "E",
+                "referencePolylineXY": [
+                  [
+                    9.6,
+                    1.5
+                  ],
+                  [
+                    9.6,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 1.5,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.1200000000000001
+                  ]
+                ],
+                "netLengthM": 0.1200000000000001,
+                "deductedOpeningIds": []
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 0.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "S",
+            "lengthM": 9.6,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.14
+              ],
+              [
+                3.059999999999999,
+                3.3399999999999994
+              ],
+              [
+                6.26,
+                6.539999999999999
+              ],
+              [
+                9.459999999999999,
+                9.6
+              ]
+            ],
+            "registeredSolidLengthM": 0.8400000000000002,
+            "overlapDeductedM": 0.2400000000000001,
+            "participants": [
+              {
+                "uid": "V01:W01",
+                "relationshipUid": "V01:R070",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    9.6,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    9.479999999999999,
+                    9.6
+                  ]
+                ],
+                "netLengthM": 0.120000000000001,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:W02",
+                "relationshipUid": "V01:R071",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    9.6,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.1199999999999992
+                  ]
+                ],
+                "netLengthM": 0.1199999999999992,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:C01",
+                "relationshipUid": "V01:BOUND-S04-C01",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    9.6,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    9.459999999999999,
+                    9.6
+                  ]
+                ],
+                "netLengthM": 0.14000000000000057,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:C02",
+                "relationshipUid": "V01:BOUND-S04-C02",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    9.6,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    6.26,
+                    6.539999999999999
+                  ]
+                ],
+                "netLengthM": 0.27999999999999936,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:C03",
+                "relationshipUid": "V01:BOUND-S04-C03",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    9.6,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    3.059999999999999,
+                    3.3399999999999994
+                  ]
+                ],
+                "netLengthM": 0.28000000000000025,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:C04",
+                "relationshipUid": "V01:BOUND-S04-C04",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    9.6,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.6,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.14
+                  ]
+                ],
+                "netLengthM": 0.14,
+                "deductedOpeningIds": []
+              }
+            ],
+            "geometryCandidates": [
+              {
+                "uid": "V01:W08",
+                "intervalsM": [
+                  [
+                    9.479999999999999,
+                    9.6
+                  ]
+                ],
+                "decision": "geometry-only-candidate-not-persisted",
+                "basis": "finite section crosses analysis boundary; no independent semantic assertion"
+              },
+              {
+                "uid": "V01:W09",
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.1199999999999992
+                  ]
+                ],
+                "decision": "geometry-only-candidate-not-persisted",
+                "basis": "finite section crosses analysis boundary; no independent semantic assertion"
+              }
+            ],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 8.76,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "W",
+            "lengthM": 1.5,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                1.5
+              ]
+            ],
+            "registeredSolidLengthM": 1.5,
+            "overlapDeductedM": 0.1200000000000001,
+            "participants": [
+              {
+                "uid": "V01:W01",
+                "relationshipUid": "V01:R070",
+                "boundaryId": "W",
+                "referencePolylineXY": [
+                  [
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    1.5
+                  ]
+                ],
+                "referenceLengthM": 1.5,
+                "intervalsM": [
+                  [
+                    0.0,
+                    1.5
+                  ]
+                ],
+                "netLengthM": 1.5,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:W06",
+                "relationshipUid": "V01:R072",
+                "boundaryId": "W",
+                "referencePolylineXY": [
+                  [
+                    0.0,
+                    0.0
+                  ],
+                  [
+                    0.0,
+                    1.5
+                  ]
+                ],
+                "referenceLengthM": 1.5,
+                "intervalsM": [
+                  [
+                    1.38,
+                    1.5
+                  ]
+                ],
+                "netLengthM": 0.1200000000000001,
+                "deductedOpeningIds": []
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 0.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          }
+        ],
+        "perimeterM": 22.2,
+        "registeredSolidLengthM": 7.840000000000002,
+        "candidateState": "resolved-as-unasserted-geometric-candidates",
+        "notThreeDimensionalEnclosure": true
+      },
+      {
+        "spaceUid": "V01:S05",
+        "boundaryBasis": "院内墙面及北侧开放分界构成的既有分析矩形；边段属性，不另建节点。",
+        "analysisSliceZM": 1,
+        "segments": [
+          {
+            "id": "N",
+            "lengthM": 9.360000000000001,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.020000000000000004
+              ],
+              [
+                2.94,
+                3.22
+              ],
+              [
+                6.140000000000001,
+                6.42
+              ],
+              [
+                9.34,
+                9.360000000000001
+              ]
+            ],
+            "registeredSolidLengthM": 0.600000000000001,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:S04",
+                "relationshipUid": "V01:BOUND-S05-S04",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.12,
+                    0.0
+                  ],
+                  [
+                    9.48,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.360000000000001,
+                "intervalsM": [],
+                "netLengthM": 0,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:C01",
+                "relationshipUid": "V01:BOUND-S05-C01",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.12,
+                    0.0
+                  ],
+                  [
+                    9.48,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.360000000000001,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.020000000000000004
+                  ]
+                ],
+                "netLengthM": 0.020000000000000004,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:C02",
+                "relationshipUid": "V01:BOUND-S05-C02",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.12,
+                    0.0
+                  ],
+                  [
+                    9.48,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.360000000000001,
+                "intervalsM": [
+                  [
+                    2.94,
+                    3.22
+                  ]
+                ],
+                "netLengthM": 0.28000000000000025,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:C03",
+                "relationshipUid": "V01:BOUND-S05-C03",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.12,
+                    0.0
+                  ],
+                  [
+                    9.48,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.360000000000001,
+                "intervalsM": [
+                  [
+                    6.140000000000001,
+                    6.42
+                  ]
+                ],
+                "netLengthM": 0.27999999999999936,
+                "deductedOpeningIds": []
+              },
+              {
+                "uid": "V01:C04",
+                "relationshipUid": "V01:BOUND-S05-C04",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    0.12,
+                    0.0
+                  ],
+                  [
+                    9.48,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 9.360000000000001,
+                "intervalsM": [
+                  [
+                    9.34,
+                    9.360000000000001
+                  ]
+                ],
+                "netLengthM": 0.02000000000000135,
+                "deductedOpeningIds": []
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 8.76,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "E",
+            "lengthM": 4.68,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                4.68
+              ]
+            ],
+            "registeredSolidLengthM": 4.68,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W09",
+                "relationshipUid": "V01:R075",
+                "boundaryId": "E",
+                "referencePolylineXY": [
+                  [
+                    9.48,
+                    0.0
+                  ],
+                  [
+                    9.48,
+                    -4.68
+                  ]
+                ],
+                "referenceLengthM": 4.68,
+                "intervalsM": [
+                  [
+                    0.0,
+                    4.68
+                  ]
+                ],
+                "netLengthM": 4.68,
+                "deductedOpeningIds": []
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 0.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "S",
+            "lengthM": 9.360000000000001,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                3.880000000000001
+              ],
+              [
+                5.4799999999999995,
+                9.360000000000001
+              ]
+            ],
+            "registeredSolidLengthM": 7.7600000000000025,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W10",
+                "relationshipUid": "V01:R076",
+                "boundaryId": "S",
+                "referencePolylineXY": [
+                  [
+                    9.48,
+                    -4.68
+                  ],
+                  [
+                    0.12,
+                    -4.68
+                  ]
+                ],
+                "referenceLengthM": 9.360000000000001,
+                "intervalsM": [
+                  [
+                    0.0,
+                    3.880000000000001
+                  ],
+                  [
+                    5.4799999999999995,
+                    9.360000000000001
+                  ]
+                ],
+                "netLengthM": 7.7600000000000025,
+                "deductedOpeningIds": [
+                  "I05"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.5999999999999988,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "W",
+            "lengthM": 4.68,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                4.68
+              ]
+            ],
+            "registeredSolidLengthM": 4.68,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W08",
+                "relationshipUid": "V01:R074",
+                "boundaryId": "W",
+                "referencePolylineXY": [
+                  [
+                    0.12,
+                    -4.68
+                  ],
+                  [
+                    0.12,
+                    0.0
+                  ]
+                ],
+                "referenceLengthM": 4.68,
+                "intervalsM": [
+                  [
+                    0.0,
+                    4.68
+                  ]
+                ],
+                "netLengthM": 4.68,
+                "deductedOpeningIds": []
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 0.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          }
+        ],
+        "perimeterM": 28.080000000000002,
+        "registeredSolidLengthM": 17.720000000000002,
+        "candidateState": "none-in-declared-inputs",
+        "notThreeDimensionalEnclosure": true
+      },
+      {
+        "spaceUid": "V01:S06",
+        "boundaryBasis": "院门外出入分析裁切矩形；北界对应W10外表面，其余边为理论裁切线，不因无墙称未知或自动形成围合。",
+        "analysisSliceZM": 1,
+        "segments": [
+          {
+            "id": "N",
+            "lengthM": 2.0,
+            "registeredSolidIntervalsM": [
+              [
+                0.0,
+                0.20000000000000018
+              ],
+              [
+                1.7999999999999998,
+                2.0
+              ]
+            ],
+            "registeredSolidLengthM": 0.40000000000000036,
+            "overlapDeductedM": 0.0,
+            "participants": [
+              {
+                "uid": "V01:W10",
+                "relationshipUid": "V01:BOUND-S06-W10",
+                "boundaryId": "N",
+                "referencePolylineXY": [
+                  [
+                    3.8,
+                    -4.92
+                  ],
+                  [
+                    5.8,
+                    -4.92
+                  ]
+                ],
+                "referenceLengthM": 2.0,
+                "intervalsM": [
+                  [
+                    0.0,
+                    0.20000000000000018
+                  ],
+                  [
+                    1.7999999999999998,
+                    2.0
+                  ]
+                ],
+                "netLengthM": 0.40000000000000036,
+                "deductedOpeningIds": [
+                  "I05"
+                ]
+              }
+            ],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.5999999999999996,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "E",
+            "lengthM": 1.38,
+            "registeredSolidIntervalsM": [],
+            "registeredSolidLengthM": 0,
+            "overlapDeductedM": 0.0,
+            "participants": [],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.38,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "S",
+            "lengthM": 2.0,
+            "registeredSolidIntervalsM": [],
+            "registeredSolidLengthM": 0,
+            "overlapDeductedM": 0.0,
+            "participants": [],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 2.0,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          },
+          {
+            "id": "W",
+            "lengthM": 1.38,
+            "registeredSolidIntervalsM": [],
+            "registeredSolidLengthM": 0,
+            "overlapDeductedM": 0.0,
+            "participants": [],
+            "geometryCandidates": [],
+            "additionalCandidateIntervalsM": [],
+            "unassignedLengthM": 1.38,
+            "unassignedMeaning": "未被已登记实体占用，不自动等于开放；候选、理论裁切线及未知保持区分"
+          }
+        ],
+        "perimeterM": 6.76,
+        "registeredSolidLengthM": 0.40000000000000036,
+        "candidateState": "none-in-declared-inputs",
+        "notThreeDimensionalEnclosure": true
+      }
+    ],
+    "roofCoverage": [
+      {
+        "spaceUid": "V01:S01",
+        "providerUid": "V01:RF01",
+        "spaceAreaM2": 16.516800000000003,
+        "coveredAreaM2": 16.516800000000003,
+        "coverageRatio": 1.0,
+        "state": "full-projection",
+        "intersectionGeoJSON": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                3.32,
+                1.5
+              ],
+              [
+                3.32,
+                7.08
+              ],
+              [
+                6.28,
+                7.08
+              ],
+              [
+                6.28,
+                1.5
+              ],
+              [
+                3.32,
+                1.5
+              ]
+            ]
+          ]
+        },
+        "overallCoverType": "enclosed-covered-space",
+        "ruleVersion": "V01-local-boundary-coverage-v1",
+        "geometryVersion": "V01-unified-2.2",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "sourceLocators": [
+          "/nodes/1/geometry",
+          "/nodes/21/geometry"
+        ],
+        "scope": "指定RF01的XY投影；不是所有顶盖清单、三维包含、防雨或净空验证"
+      },
+      {
+        "spaceUid": "V01:S02",
+        "providerUid": "V01:RF01",
+        "spaceAreaM2": 16.1616,
+        "coveredAreaM2": 16.1616,
+        "coverageRatio": 1.0,
+        "state": "full-projection",
+        "intersectionGeoJSON": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                0.12,
+                1.62
+              ],
+              [
+                0.12,
+                7.08
+              ],
+              [
+                3.08,
+                7.08
+              ],
+              [
+                3.08,
+                1.62
+              ],
+              [
+                0.12,
+                1.62
+              ]
+            ]
+          ]
+        },
+        "overallCoverType": "enclosed-covered-space",
+        "ruleVersion": "V01-local-boundary-coverage-v1",
+        "geometryVersion": "V01-unified-2.2",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "sourceLocators": [
+          "/nodes/2/geometry",
+          "/nodes/21/geometry"
+        ],
+        "scope": "指定RF01的XY投影；不是所有顶盖清单、三维包含、防雨或净空验证"
+      },
+      {
+        "spaceUid": "V01:S03",
+        "providerUid": "V01:RF01",
+        "spaceAreaM2": 16.161600000000004,
+        "coveredAreaM2": 16.161600000000004,
+        "coverageRatio": 1.0,
+        "state": "full-projection",
+        "intersectionGeoJSON": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                6.52,
+                1.62
+              ],
+              [
+                6.52,
+                7.08
+              ],
+              [
+                9.48,
+                7.08
+              ],
+              [
+                9.48,
+                1.62
+              ],
+              [
+                6.52,
+                1.62
+              ]
+            ]
+          ]
+        },
+        "overallCoverType": "enclosed-covered-space",
+        "ruleVersion": "V01-local-boundary-coverage-v1",
+        "geometryVersion": "V01-unified-2.2",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "sourceLocators": [
+          "/nodes/3/geometry",
+          "/nodes/21/geometry"
+        ],
+        "scope": "指定RF01的XY投影；不是所有顶盖清单、三维包含、防雨或净空验证"
+      },
+      {
+        "spaceUid": "V01:S04",
+        "providerUid": "V01:RF01",
+        "spaceAreaM2": 14.399999999999999,
+        "coveredAreaM2": 14.399999999999999,
+        "coverageRatio": 1.0,
+        "state": "full-projection",
+        "intersectionGeoJSON": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                0.0,
+                0.0
+              ],
+              [
+                0.0,
+                1.5
+              ],
+              [
+                9.6,
+                1.5
+              ],
+              [
+                9.6,
+                0.0
+              ],
+              [
+                0.0,
+                0.0
+              ]
+            ]
+          ]
+        },
+        "overallCoverType": "covered-open-sided-space",
+        "ruleVersion": "V01-local-boundary-coverage-v1",
+        "geometryVersion": "V01-unified-2.2",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "sourceLocators": [
+          "/nodes/4/geometry",
+          "/nodes/21/geometry"
+        ],
+        "scope": "指定RF01的XY投影；不是所有顶盖清单、三维包含、防雨或净空验证"
+      },
+      {
+        "spaceUid": "V01:S05",
+        "providerUid": "V01:RF01",
+        "spaceAreaM2": 43.8048,
+        "coveredAreaM2": 5.6160000000000005,
+        "coverageRatio": 0.12820512820512822,
+        "state": "partial-projection",
+        "intersectionGeoJSON": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                0.12,
+                0.0
+              ],
+              [
+                9.48,
+                0.0
+              ],
+              [
+                9.48,
+                -0.6
+              ],
+              [
+                0.12,
+                -0.6
+              ],
+              [
+                0.12,
+                0.0
+              ]
+            ]
+          ]
+        },
+        "overallCoverType": "open-air-space-character",
+        "ruleVersion": "V01-local-boundary-coverage-v1",
+        "geometryVersion": "V01-unified-2.2",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "sourceLocators": [
+          "/nodes/5/geometry",
+          "/nodes/21/geometry"
+        ],
+        "scope": "指定RF01的XY投影；不是所有顶盖清单、三维包含、防雨或净空验证"
+      },
+      {
+        "spaceUid": "V01:S06",
+        "providerUid": "V01:RF01",
+        "spaceAreaM2": 2.76,
+        "coveredAreaM2": 0.0,
+        "coverageRatio": 0.0,
+        "state": "none-from-this-provider",
+        "intersectionGeoJSON": {
+          "type": "Polygon",
+          "coordinates": []
+        },
+        "overallCoverType": "open-air-space-character",
+        "ruleVersion": "V01-local-boundary-coverage-v1",
+        "geometryVersion": "V01-unified-2.2",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "sourceLocators": [
+          "/nodes/6/geometry",
+          "/nodes/21/geometry"
+        ],
+        "scope": "指定RF01的XY投影；不是所有顶盖清单、三维包含、防雨或净空验证"
+      }
+    ],
+    "interfaceOccupation": {
+      "interfaceUid": "V01:I04",
+      "sourcePath": [
+        "INTERFACE_OF(side-a/side-b)",
+        "BOUNDARY_PARTICIPANT(column-section)"
+      ],
+      "participants": [
+        {
+          "uid": "V01:C01",
+          "intervalsM": [],
+          "role": "endpoint-limit-no-positive-occupation",
+          "viaRelationships": [
+            "V01:BOUND-S04-C01",
+            "V01:BOUND-S05-C01"
+          ]
+        },
+        {
+          "uid": "V01:C02",
+          "intervalsM": [
+            [
+              2.92,
+              3.2
+            ]
+          ],
+          "role": "positive-column-occupation",
+          "viaRelationships": [
+            "V01:BOUND-S04-C02",
+            "V01:BOUND-S05-C02"
+          ]
+        },
+        {
+          "uid": "V01:C03",
+          "intervalsM": [
+            [
+              6.120000000000001,
+              6.4
+            ]
+          ],
+          "role": "positive-column-occupation",
+          "viaRelationships": [
+            "V01:BOUND-S04-C03",
+            "V01:BOUND-S05-C03"
+          ]
+        },
+        {
+          "uid": "V01:C04",
+          "intervalsM": [],
+          "role": "endpoint-limit-no-positive-occupation",
+          "viaRelationships": [
+            "V01:BOUND-S04-C04",
+            "V01:BOUND-S05-C04"
+          ]
+        }
+      ],
+      "referencePolylineXY": [
+        [
+          0.14,
+          0.0
+        ],
+        [
+          9.46,
+          0.0
+        ]
+      ],
+      "spanM": 9.32,
+      "analysisSliceZM": 1.0,
+      "occupiedIntervalsM": [
+        [
+          2.92,
+          3.2
+        ],
+        [
+          6.120000000000001,
+          6.4
+        ]
+      ],
+      "planOpenIntervalsM": [
+        [
+          0.0,
+          2.92
+        ],
+        [
+          3.2,
+          6.120000000000001
+        ],
+        [
+          6.4,
+          9.32
+        ]
+      ],
+      "planOpenSegmentsXY": [
+        [
+          [
+            0.14,
+            0.0
+          ],
+          [
+            3.06,
+            0.0
+          ]
+        ],
+        [
+          [
+            3.3400000000000003,
+            0.0
+          ],
+          [
+            6.260000000000001,
+            0.0
+          ]
+        ],
+        [
+          [
+            6.54,
+            0.0
+          ],
+          [
+            9.46,
+            0.0
+          ]
+        ]
+      ],
+      "planOpenLengthsM": [
+        2.92,
+        2.920000000000001,
+        2.92
+      ],
+      "clearanceValidated": false,
+      "passageConclusion": "not-established",
+      "geometryVersion": "V01-unified-2.2",
+      "ruleVersion": "V01-local-boundary-coverage-v1",
+      "sourceUid": "V01:EV01",
+      "meaning": "只扣现有柱的平面开敞段；不得当作已验证的连续净宽或三条通道"
+    },
+    "streetReference": {
+      "spaceUid": "V01:S06",
+      "referenceUid": "V01:ST01",
+      "intersectionAreaM2": 2.76,
+      "spaceAreaM2": 2.76,
+      "fullyWithinPlanProjection": true,
+      "sameDeclaredLevel": true,
+      "spaceGroundZM": 0,
+      "streetSurfaceZM": 0,
+      "geometryVersion": "V01-unified-2.2",
+      "sourceUid": "V01:EV01",
+      "ruleVersion": "V01-local-boundary-coverage-v1",
+      "semanticRelationPersisted": false,
+      "passageConclusion": "not-established",
+      "meaning": "平面范围与声明层位对应；不合并身份、不推出BOT包含或通行"
+    },
+    "objectCoverage": [
+      {
+        "uid": "V01:B01",
+        "name": "V01虚拟主屋",
+        "class": "Building",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "建筑身份、几何与比较参照"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [],
+        "relationshipIds": [
+          "CMP01-subtrahend",
+          "D04-FACADE-W03",
+          "D05-MEM-B01",
+          "DATUM-B01",
+          "R001",
+          "R002",
+          "R003",
+          "R004",
+          "R005",
+          "R006",
+          "R007",
+          "R008",
+          "R009",
+          "R010",
+          "R011",
+          "R012",
+          "R016",
+          "R017",
+          "R018",
+          "R019",
+          "R020",
+          "R077",
+          "R078",
+          "R079",
+          "R080",
+          "R081",
+          "R082",
+          "R083",
+          "R084",
+          "SRC-B01",
+          "U-HAS-B01",
+          "X-SRC-B01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:B02",
+        "name": "统一原型侧房（沿用D01侧房设定）",
+        "class": "Building",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "建筑身份、几何与比较参照"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [],
+        "relationshipIds": [
+          "CMP01-minuend",
+          "D05-GROUND",
+          "D05-MEM-B02",
+          "DATUM-B02",
+          "SRC-B02",
+          "SRC-B02-REG",
+          "U-HAS-B02",
+          "X-SRC-B02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:B03",
+        "name": "人工邻宅（不同物理身份，非实测）",
+        "class": "Building",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "建筑身份、几何与比较参照"
+        ],
+        "optional": [],
+        "notApplicable": [
+          "归U01"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "D05-DATUM-B03",
+          "D05-MEM-B03",
+          "D05-RIGHT",
+          "X-SRC-B03"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:C01",
+        "name": "前廊柱1",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "BOUND-S04-C01",
+          "BOUND-S05-C01",
+          "R016",
+          "R021",
+          "R123",
+          "R124",
+          "R125",
+          "SRC-C01",
+          "WC-W01-C01",
+          "WC-W08-C01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:C02",
+        "name": "前廊柱2",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "BOUND-S04-C02",
+          "BOUND-S05-C02",
+          "R017",
+          "R022",
+          "R126",
+          "R127",
+          "R128",
+          "SRC-C02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:C03",
+        "name": "前廊柱3",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "BOUND-S04-C03",
+          "BOUND-S05-C03",
+          "R018",
+          "R023",
+          "R129",
+          "R130",
+          "R131",
+          "SRC-C03"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:C04",
+        "name": "前廊柱4",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "BOUND-S04-C04",
+          "BOUND-S05-C04",
+          "R019",
+          "R024",
+          "R132",
+          "R133",
+          "R134",
+          "SRC-C04",
+          "WC-W02-C04",
+          "WC-W09-C04"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:CG01",
+        "name": "当前合成建筑组二维分析集合",
+        "class": "AnalysisCollection",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "D05-DATUM-CG01",
+          "D05-MEM-B01",
+          "D05-MEM-B02",
+          "D05-MEM-B03",
+          "X-SRC-CG01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:CMP01",
+        "name": "檐口高差：侧房减主屋（统一原型重算）",
+        "class": "ComparisonResult",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "CMP01-RULE",
+          "CMP01-minuend",
+          "CMP01-subtrahend",
+          "SRC-CMP01",
+          "U-HAS-CMP01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:D03-R01",
+        "name": "统一原型外部空间分析规则",
+        "class": "AnalysisRule",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "SRC-D03-R01",
+          "U-USES-D03"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:DATUM01",
+        "name": "统一原型局部坐标与高程基准",
+        "class": "ReferenceDatum",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "D05-DATUM-B03",
+          "D05-DATUM-CG01",
+          "D05-DATUM-ST01",
+          "D05-DATUM-TP01",
+          "DATUM-B01",
+          "DATUM-B02",
+          "DATUM-S01",
+          "DATUM-S02",
+          "DATUM-S03",
+          "DATUM-S04",
+          "DATUM-S05",
+          "DATUM-S06",
+          "SRC-DATUM01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:DIM-R01",
+        "name": "自身檐口相对高度规则",
+        "class": "AnalysisRule",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "DECLARE-DIM-R01",
+          "SRC-DIM-R01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:DIM-R02",
+        "name": "水平比例与高宽比规则",
+        "class": "AnalysisRule",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "DECLARE-DIM-R02",
+          "SRC-DIM-R02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:DIM-R03",
+        "name": "共同基准檐口高差规则",
+        "class": "AnalysisRule",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "CMP01-RULE",
+          "DECLARE-DIM-R03",
+          "SRC-DIM-R03"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV01",
+        "name": "示例素材",
+        "class": "Evidence",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "R077",
+          "R085",
+          "R087",
+          "R089",
+          "R091",
+          "R093",
+          "R095",
+          "R097",
+          "R100",
+          "R103",
+          "R107",
+          "R109",
+          "R111",
+          "R114",
+          "R117",
+          "R119",
+          "R121",
+          "R123",
+          "R126",
+          "R129",
+          "R132",
+          "R135",
+          "R142",
+          "R144",
+          "R146",
+          "R148",
+          "R150",
+          "R152",
+          "R155",
+          "R158",
+          "R161",
+          "R164",
+          "RS-DOC-EV01-RS01",
+          "RS-DOC-EV01-RS02",
+          "SRC-B01",
+          "SRC-B02-REG",
+          "SRC-C01",
+          "SRC-C02",
+          "SRC-C03",
+          "SRC-C04",
+          "SRC-CMP01",
+          "SRC-D03-R01",
+          "SRC-DATUM01",
+          "SRC-DIM-R01",
+          "SRC-DIM-R02",
+          "SRC-DIM-R03",
+          "SRC-I01",
+          "SRC-I02",
+          "SRC-I03",
+          "SRC-I04",
+          "SRC-I05",
+          "SRC-I06",
+          "SRC-I07",
+          "SRC-I08",
+          "SRC-I09",
+          "SRC-I10",
+          "SRC-RF01",
+          "SRC-RS01",
+          "SRC-RS02",
+          "SRC-S01",
+          "SRC-S02",
+          "SRC-S03",
+          "SRC-S04",
+          "SRC-S05",
+          "SRC-S06",
+          "SRC-U01",
+          "SRC-W01",
+          "SRC-W02",
+          "SRC-W03",
+          "SRC-W04",
+          "SRC-W05",
+          "SRC-W06",
+          "SRC-W07",
+          "SRC-W08",
+          "SRC-W09",
+          "SRC-W10",
+          "X-SRC-B01",
+          "X-SRC-B02",
+          "X-SRC-B03",
+          "X-SRC-CG01",
+          "X-SRC-I05",
+          "X-SRC-I08",
+          "X-SRC-I09",
+          "X-SRC-I10",
+          "X-SRC-S05",
+          "X-SRC-ST01",
+          "X-SRC-TP01",
+          "X-SRC-U01",
+          "X-SRC-W03",
+          "X-SRC-W10"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV02",
+        "name": "合成平面布局与尺寸图",
+        "class": "Evidence",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "R078",
+          "R086",
+          "R088",
+          "R090",
+          "R092",
+          "R094",
+          "R096",
+          "R098",
+          "R101",
+          "R104",
+          "R108",
+          "R110",
+          "R112",
+          "R115",
+          "R118",
+          "R120",
+          "R122",
+          "R124",
+          "R127",
+          "R130",
+          "R133",
+          "R143",
+          "R145",
+          "R147",
+          "R149",
+          "R151",
+          "R153",
+          "R156",
+          "R159",
+          "R162",
+          "R165"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV03",
+        "name": "合成南立面",
+        "class": "Evidence",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "R079",
+          "R113",
+          "R116",
+          "R125",
+          "R128",
+          "R131",
+          "R134",
+          "R136",
+          "R154",
+          "R157"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV04",
+        "name": "合成北立面",
+        "class": "Evidence",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "R080",
+          "R105",
+          "R137",
+          "R160",
+          "R163",
+          "R166"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV05",
+        "name": "合成东立面",
+        "class": "Evidence",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "R081",
+          "R102",
+          "R138"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV06",
+        "name": "合成西立面",
+        "class": "Evidence",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "R082",
+          "R099",
+          "R139"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV07",
+        "name": "合成A—A剖面",
+        "class": "Evidence",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "R083",
+          "R106",
+          "R140",
+          "RS-DOC-EV07-RS01",
+          "RS-DOC-EV07-RS02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV08",
+        "name": "合成屋顶投影图",
+        "class": "Evidence",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "R084",
+          "R141",
+          "RS-DOC-EV08-RS01",
+          "RS-DOC-EV08-RS02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:EV09",
+        "name": "旧D01侧房参数与迁移来源",
+        "class": "Source",
+        "mandatory": [
+          "来源元数据（定位、版本或生成版本、非实证身份）"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "SRC-B02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I01",
+        "name": "堂屋—前廊开放分界",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [
+          "墙宿主（开放分界）"
+        ],
+        "unknown": [
+          "真实净空与通行"
+        ],
+        "relationshipIds": [
+          "R028",
+          "R029",
+          "R142",
+          "R143",
+          "SRC-I01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I02",
+        "name": "西室门洞界面",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [
+          "真实净空与通行"
+        ],
+        "relationshipIds": [
+          "R031",
+          "R032",
+          "R033",
+          "R144",
+          "R145",
+          "SRC-I02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I03",
+        "name": "东室门洞界面",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [
+          "真实净空与通行"
+        ],
+        "relationshipIds": [
+          "R035",
+          "R036",
+          "R037",
+          "R146",
+          "R147",
+          "SRC-I03"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I04",
+        "name": "前廊—前院开放分界",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [
+          "墙宿主（开放分界）"
+        ],
+        "unknown": [
+          "真实净空与通行"
+        ],
+        "relationshipIds": [
+          "R039",
+          "R040",
+          "R148",
+          "R149",
+          "SRC-I04"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I05",
+        "name": "院门界面",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [
+          "真实净空与通行"
+        ],
+        "relationshipIds": [
+          "R042",
+          "R043",
+          "R044",
+          "R150",
+          "R151",
+          "SRC-I05",
+          "X-SRC-I05"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I06",
+        "name": "西室临廊窗界面",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [
+          "真实净空与通行"
+        ],
+        "relationshipIds": [
+          "R046",
+          "R047",
+          "R048",
+          "R152",
+          "R153",
+          "R154",
+          "SRC-I06"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I07",
+        "name": "东室临廊窗界面",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [
+          "真实净空与通行"
+        ],
+        "relationshipIds": [
+          "R049",
+          "R050",
+          "R051",
+          "R155",
+          "R156",
+          "R157",
+          "SRC-I07"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I08",
+        "name": "西室北窗",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [
+          "真实净空与通行",
+          "未实例化外侧空间"
+        ],
+        "relationshipIds": [
+          "R052",
+          "R053",
+          "R158",
+          "R159",
+          "R160",
+          "SRC-I08",
+          "X-SRC-I08"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I09",
+        "name": "堂屋北窗",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [
+          "真实净空与通行",
+          "未实例化外侧空间"
+        ],
+        "relationshipIds": [
+          "R054",
+          "R055",
+          "R161",
+          "R162",
+          "R163",
+          "SRC-I09",
+          "X-SRC-I09"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:I10",
+        "name": "东室北窗",
+        "class": "Interface",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "已知参与角色及局部几何"
+        ],
+        "optional": [],
+        "notApplicable": [],
+        "unknown": [
+          "真实净空与通行",
+          "未实例化外侧空间"
+        ],
+        "relationshipIds": [
+          "R056",
+          "R057",
+          "R164",
+          "R165",
+          "R166",
+          "SRC-I10",
+          "X-SRC-I10"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:RF01",
+        "name": "主屋双坡屋顶系统",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R020",
+          "R021",
+          "R022",
+          "R023",
+          "R024",
+          "R025",
+          "R026",
+          "R027",
+          "R135",
+          "R136",
+          "R137",
+          "R138",
+          "R139",
+          "R140",
+          "R141",
+          "RS-PART-RS01",
+          "RS-PART-RS02",
+          "SRC-RF01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:RS01",
+        "name": "主屋南坡面",
+        "class": "GeometryRepresentation",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "几何版本及所属屋顶"
+        ],
+        "optional": [],
+        "notApplicable": [
+          "实体成员/结构支承"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "RS-DOC-EV01-RS01",
+          "RS-DOC-EV07-RS01",
+          "RS-DOC-EV08-RS01",
+          "RS-PART-RS01",
+          "RS-RS01-RS02",
+          "SRC-RS01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:RS02",
+        "name": "主屋北坡面",
+        "class": "GeometryRepresentation",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "几何版本及所属屋顶"
+        ],
+        "optional": [],
+        "notApplicable": [
+          "实体成员/结构支承"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "RS-DOC-EV01-RS02",
+          "RS-DOC-EV07-RS02",
+          "RS-DOC-EV08-RS02",
+          "RS-PART-RS02",
+          "RS-RS01-RS02",
+          "SRC-RS02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:S01",
+        "name": "堂屋",
+        "class": "Space",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "自身边界口径及局部参与",
+          "指定屋顶投影查询"
+        ],
+        "optional": [
+          "有据的跨模块参照"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "完整三维边界及未登记顶盖"
+        ],
+        "relationshipIds": [
+          "DATUM-S01",
+          "R001",
+          "R028",
+          "R030",
+          "R032",
+          "R034",
+          "R035",
+          "R038",
+          "R054",
+          "R059",
+          "R060",
+          "R061",
+          "R085",
+          "R086",
+          "SRC-S01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:S02",
+        "name": "西室",
+        "class": "Space",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "自身边界口径及局部参与",
+          "指定屋顶投影查询"
+        ],
+        "optional": [
+          "有据的跨模块参照"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "完整三维边界及未登记顶盖"
+        ],
+        "relationshipIds": [
+          "DATUM-S02",
+          "R002",
+          "R031",
+          "R034",
+          "R046",
+          "R052",
+          "R058",
+          "R062",
+          "R063",
+          "R064",
+          "R065",
+          "R087",
+          "R088",
+          "SRC-S02"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:S03",
+        "name": "东室",
+        "class": "Space",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "自身边界口径及局部参与",
+          "指定屋顶投影查询"
+        ],
+        "optional": [
+          "有据的跨模块参照"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "完整三维边界及未登记顶盖"
+        ],
+        "relationshipIds": [
+          "DATUM-S03",
+          "R003",
+          "R036",
+          "R038",
+          "R049",
+          "R056",
+          "R058",
+          "R066",
+          "R067",
+          "R068",
+          "R069",
+          "R089",
+          "R090",
+          "SRC-S03"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:S04",
+        "name": "前廊",
+        "class": "Space",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "自身边界口径及局部参与",
+          "指定屋顶投影查询"
+        ],
+        "optional": [
+          "有据的跨模块参照"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "完整三维边界及未登记顶盖"
+        ],
+        "relationshipIds": [
+          "BOUND-S04-C01",
+          "BOUND-S04-C02",
+          "BOUND-S04-C03",
+          "BOUND-S04-C04",
+          "BOUND-S05-S04",
+          "DATUM-S04",
+          "POS-S04-S05",
+          "R004",
+          "R029",
+          "R030",
+          "R039",
+          "R041",
+          "R047",
+          "R050",
+          "R070",
+          "R071",
+          "R072",
+          "R073",
+          "R091",
+          "R092",
+          "SRC-S04"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:S05",
+        "name": "前院",
+        "class": "Space",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "自身边界口径及局部参与",
+          "指定屋顶投影查询"
+        ],
+        "optional": [
+          "有据的跨模块参照"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "完整三维边界及未登记顶盖"
+        ],
+        "relationshipIds": [
+          "BOUND-S05-C01",
+          "BOUND-S05-C02",
+          "BOUND-S05-C03",
+          "BOUND-S05-C04",
+          "BOUND-S05-S04",
+          "DATUM-S05",
+          "POS-S04-S05",
+          "R005",
+          "R040",
+          "R041",
+          "R042",
+          "R045",
+          "R074",
+          "R075",
+          "R076",
+          "R093",
+          "R094",
+          "SRC-S05",
+          "U-HAS-S05",
+          "X-SRC-S05"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:S06",
+        "name": "南侧外部参照区",
+        "class": "Space",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "自身边界口径及局部参与",
+          "指定屋顶投影查询"
+        ],
+        "optional": [
+          "有据的跨模块参照"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "完整三维边界及未登记顶盖"
+        ],
+        "relationshipIds": [
+          "BOUND-S06-W10",
+          "DATUM-S06",
+          "R043",
+          "R045",
+          "R095",
+          "R096",
+          "SRC-S06"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:ST01",
+        "name": "代表性完整直线合成街段",
+        "class": "SpatialReference",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "D05-DATUM-ST01",
+          "D05-LEFT",
+          "D05-RIGHT",
+          "X-SRC-ST01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:TP01",
+        "name": "人工地面样点剖面（非屋顶）",
+        "class": "GeometryRepresentation",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "地面参照及几何版本"
+        ],
+        "optional": [],
+        "notApplicable": [
+          "实体成员/结构支承"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "D05-DATUM-TP01",
+          "D05-GROUND",
+          "X-SRC-TP01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:U01",
+        "name": "统一原型宅院整体",
+        "class": "Zone",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本"
+        ],
+        "optional": [
+          "按自身证据/分析/参照角色查询"
+        ],
+        "notApplicable": [
+          "统一强制建筑边数"
+        ],
+        "unknown": [],
+        "relationshipIds": [
+          "D04-FACADE-W10",
+          "DECLARE-DIM-R01",
+          "DECLARE-DIM-R02",
+          "DECLARE-DIM-R03",
+          "R013",
+          "R014",
+          "R015",
+          "SRC-U01",
+          "U-HAS-B01",
+          "U-HAS-B02",
+          "U-HAS-CMP01",
+          "U-HAS-S05",
+          "U-USES-D03",
+          "X-SRC-U01"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W01",
+        "name": "西侧外墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R006",
+          "R025",
+          "R062",
+          "R070",
+          "R097",
+          "R098",
+          "R099",
+          "SRC-W01",
+          "WC-W01-C01",
+          "WJ-W01-W03",
+          "WJ-W01-W06",
+          "WJ-W01-W08"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W02",
+        "name": "东侧外墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R007",
+          "R026",
+          "R066",
+          "R071",
+          "R100",
+          "R101",
+          "R102",
+          "SRC-W02",
+          "WC-W02-C04",
+          "WJ-W02-W03",
+          "WJ-W02-W07",
+          "WJ-W02-W09"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W03",
+        "name": "北侧外墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "D04-FACADE-W03",
+          "R008",
+          "R027",
+          "R053",
+          "R055",
+          "R057",
+          "R059",
+          "R063",
+          "R067",
+          "R103",
+          "R104",
+          "R105",
+          "R106",
+          "SRC-W03",
+          "WJ-W01-W03",
+          "WJ-W02-W03",
+          "WJ-W03-W04",
+          "WJ-W03-W05",
+          "X-SRC-W03"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W04",
+        "name": "西室与堂屋分隔墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R009",
+          "R033",
+          "R060",
+          "R064",
+          "R107",
+          "R108",
+          "SRC-W04",
+          "WJ-W03-W04",
+          "WJ-W04-W06"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W05",
+        "name": "东室与堂屋分隔墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R010",
+          "R037",
+          "R061",
+          "R068",
+          "R109",
+          "R110",
+          "SRC-W05",
+          "WJ-W03-W05",
+          "WJ-W05-W07"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W06",
+        "name": "西室前墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R011",
+          "R048",
+          "R065",
+          "R072",
+          "R111",
+          "R112",
+          "R113",
+          "SRC-W06",
+          "WJ-W01-W06",
+          "WJ-W04-W06"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W07",
+        "name": "东室前墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R012",
+          "R051",
+          "R069",
+          "R073",
+          "R114",
+          "R115",
+          "R116",
+          "SRC-W07",
+          "WJ-W02-W07",
+          "WJ-W05-W07"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W08",
+        "name": "前院西墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R013",
+          "R074",
+          "R117",
+          "R118",
+          "SRC-W08",
+          "WC-W08-C01",
+          "WJ-W01-W08",
+          "WJ-W08-W10"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W09",
+        "name": "前院东墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "R014",
+          "R075",
+          "R119",
+          "R120",
+          "SRC-W09",
+          "WC-W09-C04",
+          "WJ-W02-W09",
+          "WJ-W09-W10"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:W10",
+        "name": "前院南墙",
+        "class": "Element",
+        "mandatory": [
+          "声明属性的来源字段覆盖、定位与版本",
+          "唯一组织归属"
+        ],
+        "optional": [
+          "仅对已声明空间检查局部边界"
+        ],
+        "notApplicable": [],
+        "unknown": [
+          "真实接触、受力与净空未验证"
+        ],
+        "relationshipIds": [
+          "BOUND-S06-W10",
+          "D04-FACADE-W10",
+          "D05-LEFT",
+          "R015",
+          "R044",
+          "R076",
+          "R121",
+          "R122",
+          "SRC-W10",
+          "WJ-W08-W10",
+          "WJ-W09-W10",
+          "X-SRC-W10"
+        ],
+        "acceptance": "declared-application-obligations-passed-not-completeness-proof"
+      },
+      {
+        "uid": "V01:SOURCE",
+        "name": "来源快照元数据",
+        "class": "DatasetSnapshot",
+        "mandatory": [
+          "原始模型SHA与逐属性读回一致"
+        ],
+        "optional": [],
+        "notApplicable": [
+          "建筑边界/归属/通行"
+        ],
+        "unknown": [],
+        "relationshipIds": [],
+        "acceptance": "snapshot-metadata-not-building-object"
+      }
+    ],
+    "semanticCompleteness": "not-proved",
+    "empiricalValidity": "not-validated"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "ready": true,
+  "errors": [],
+  "nodes": 13,
+  "edges": 29,
+  "errorIcons": 0,
+  "expectedNodes": 13,
+  "expectedEdges": 29,
+  "sourceSHA256": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8"
+}

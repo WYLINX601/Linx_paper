@@ -1,0 +1,20 @@
+{
+  "tools/semantics.py": {
+    "beforeSHA256": "9fa62cf1cb4805324c56e3d0740b740c7be011270b94666ebe618e32c7c3ea33",
+    "afterSHA256": "fffb7acfb2d0acb1121e54f7ac9f097e3770f63270e7fcea274eb6a8f504db60",
+    "beforeMatches": true,
+    "afterMatches": true
+  },
+  "tools/compile_model.py": {
+    "beforeSHA256": "a52fe1b061e97cf88691caa24233b84b48540a505733765c6102f1ddbd908837",
+    "afterSHA256": "52f3a2ac164aa7073b3deebd47f7c91e789b663d3da7a37a8a8757a07db8c7d6",
+    "beforeMatches": true,
+    "afterMatches": true
+  },
+  "test_semantics.py": {
+    "beforeSHA256": "23091c3c5fa6b51ec7c734e36ab3e0834e55338bc583f533b3608379c4db4bdf",
+    "afterSHA256": "1afe21622685177a2da45e3fd8c727f4e633d2fecafcc6a4425bb77a208d96c0",
+    "beforeMatches": true,
+    "afterMatches": true
+  }
+}

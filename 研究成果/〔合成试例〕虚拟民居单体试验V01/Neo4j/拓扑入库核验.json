@@ -1,0 +1,1224 @@
+{
+  "status": "verified",
+  "verifiedAt": "2026-10-26T06:35:09.357897+00:00",
+  "sourceModelSha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67",
+  "nodeCount": 43,
+  "domainAndEvidenceNodes": 42,
+  "sourceSnapshotNodes": 1,
+  "relationshipCount": 191,
+  "comparison": "Every node label/property value and relationship type/endpoint/property value matches canonical projection; numeric database types separately checked. MCP integral-float JSON display normalization is allowed, not byte-hash equality.",
+  "queries": [
+    {
+      "name": "拓扑关系分布",
+      "query": "MATCH (a:V01)-[r]->(b:V01) WHERE type(r) IN ['AXIS_JOINS','ENVELOPE_INTERSECTS','SHARES_BOUNDARY'] RETURN type(r) AS relationType,count(*) AS count ORDER BY relationType",
+      "result": [
+        {
+          "count": 12,
+          "relationType": "AXIS_JOINS"
+        },
+        {
+          "count": 4,
+          "relationType": "ENVELOPE_INTERSECTS"
+        },
+        {
+          "count": 1,
+          "relationType": "SHARES_BOUNDARY"
+        }
+      ]
+    },
+    {
+      "name": "前院南墙交接",
+      "query": "MATCH (w:V01:Wall {id:'W10'})-[r:AXIS_JOINS]-(b:V01:Wall) RETURN b.id AS wall,r.junctionXY AS intersection,startNode(r).id AS storedSource,r.atSource AS atStoredSource,endNode(r).id AS storedTarget,r.atTarget AS atStoredTarget ORDER BY wall",
+      "result": [
+        {
+          "atStoredSource": "ATSTART",
+          "atStoredTarget": "ATSTART",
+          "intersection": [
+            0,
+            -4.8
+          ],
+          "storedSource": "W08",
+          "storedTarget": "W10",
+          "wall": "W08"
+        },
+        {
+          "atStoredSource": "ATSTART",
+          "atStoredTarget": "ATEND",
+          "intersection": [
+            9.6,
+            -4.8
+          ],
+          "storedSource": "W09",
+          "storedTarget": "W10",
+          "wall": "W09"
+        }
+      ]
+    },
+    {
+      "name": "墙柱包络及未知构造",
+      "query": "MATCH (w:V01:Wall)-[r:ENVELOPE_INTERSECTS]->(c:V01:Column) RETURN w.id AS wall,c.id AS column,r.intersectionKind AS geometryResult,r.atWall AS wallPosition,r.commonZ AS commonZ,r.recordStatus AS status ORDER BY wall,column",
+      "result": [
+        {
+          "column": "C01",
+          "commonZ": [
+            0,
+            3.6
+          ],
+          "geometryResult": "interior_overlap",
+          "status": "synthetic_geometry_derived",
+          "wall": "W01",
+          "wallPosition": "ATSTART"
+        },
+        {
+          "column": "C04",
+          "commonZ": [
+            0,
+            3.6
+          ],
+          "geometryResult": "interior_overlap",
+          "status": "synthetic_geometry_derived",
+          "wall": "W02",
+          "wallPosition": "ATSTART"
+        },
+        {
+          "column": "C01",
+          "commonZ": [
+            0,
+            1.6
+          ],
+          "geometryResult": "interior_overlap",
+          "status": "synthetic_geometry_derived",
+          "wall": "W08",
+          "wallPosition": "ATEND"
+        },
+        {
+          "column": "C04",
+          "commonZ": [
+            0,
+            1.6
+          ],
+          "geometryResult": "interior_overlap",
+          "status": "synthetic_geometry_derived",
+          "wall": "W09",
+          "wallPosition": "ATEND"
+        }
+      ]
+    },
+    {
+      "name": "坡面共边与长度",
+      "query": "MATCH (a:V01:RoofSurface)-[r:SHARES_BOUNDARY]->(b:V01:RoofSurface) RETURN a.id AS source,b.id AS target,r.boundaryRole AS role,point.distance(point({x:r.boundaryStart[0],y:r.boundaryStart[1],z:r.boundaryStart[2]}),point({x:r.boundaryEnd[0],y:r.boundaryEnd[1],z:r.boundaryEnd[2]})) AS lengthM",
+      "result": [
+        {
+          "lengthM": 10.799999999999999,
+          "role": "ridge",
+          "source": "RS01",
+          "target": "RS02"
+        }
+      ]
+    },
+    {
+      "name": "坡面归属与面积",
+      "query": "MATCH (s:V01:RoofSurface)-[:PART_OF]->(r:V01:Roof) RETURN r.id AS roof,count(s) AS surfaces,sum(s.areaM2) AS areaM2",
+      "result": [
+        {
+          "areaM2": 103.77995182114894,
+          "roof": "RF01",
+          "surfaces": 2
+        }
+      ]
+    },
+    {
+      "name": "通行链保留",
+      "query": "MATCH p=shortestPath((a:V01:Space {id:'S06'})-[:DIRECT_ACCESS_TO*1..6]-(b:V01:Space {id:'S03'})) WHERE all(r IN relationships(p) WHERE r.bidirectional=true) RETURN [n IN nodes(p)|n.id] AS spaces,length(p) AS steps",
+      "result": [
+        {
+          "spaces": [
+            "S06",
+            "S05",
+            "S04",
+            "S01",
+            "S03"
+          ],
+          "steps": 4
+        }
+      ]
+    },
+    {
+      "name": "几何边来源规则",
+      "query": "MATCH (:V01)-[r]->(:V01) WHERE type(r) IN ['AXIS_JOINS','ENVELOPE_INTERSECTS','SHARES_BOUNDARY'] RETURN count(r) AS total,sum(CASE WHEN r.ruleId IS NOT NULL AND 'EV01' IN r.evidenceIds AND r.recordStatus='synthetic_geometry_derived' THEN 1 ELSE 0 END) AS traced",
+      "result": [
+        {
+          "total": 17,
+          "traced": 17
+        }
+      ]
+    },
+    {
+      "name": "新增坡面无材料继承",
+      "query": "MATCH (n:V01:RoofSurface) RETURN n.id AS id,[l IN labels(n) WHERE l STARTS WITH '材质_'] AS materialLabels ORDER BY id",
+      "result": [
+        {
+          "id": "RS01",
+          "materialLabels": []
+        },
+        {
+          "id": "RS02",
+          "materialLabels": []
+        }
+      ]
+    }
+  ],
+  "numericTypeChecks": [
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "storeys",
+      "uid": "V01:B01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "axisWidthM",
+      "uid": "V01:B01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "axisDepthM",
+      "uid": "V01:B01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "axisFootprintAreaM2",
+      "uid": "V01:B01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "facingAzimuthDeg",
+      "uid": "V01:B01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "wallSupportHeightM",
+      "uid": "V01:B01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "ridgeHeightM",
+      "uid": "V01:B01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "floorZ",
+      "uid": "V01:S01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "areaM2",
+      "uid": "V01:S01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:S01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:S01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerY",
+      "uid": "V01:S01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:S01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "floorZ",
+      "uid": "V01:S02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "areaM2",
+      "uid": "V01:S02"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:S02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:S02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerY",
+      "uid": "V01:S02"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:S02"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "floorZ",
+      "uid": "V01:S03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "areaM2",
+      "uid": "V01:S03"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:S03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:S03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerY",
+      "uid": "V01:S03"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:S03"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "floorZ",
+      "uid": "V01:S04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "areaM2",
+      "uid": "V01:S04"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:S04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:S04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerY",
+      "uid": "V01:S04"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:S04"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "floorZ",
+      "uid": "V01:S05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "areaM2",
+      "uid": "V01:S05"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:S05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:S05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerY",
+      "uid": "V01:S05"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:S05"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "floorZ",
+      "uid": "V01:S06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "areaM2",
+      "uid": "V01:S06"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:S06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:S06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerY",
+      "uid": "V01:S06"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:S06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W02"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W03"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W04"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W05"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W06"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W07"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W07"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W07"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W07"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W07"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W08"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W08"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W08"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W08"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W08"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W09"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W09"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W09"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W09"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W09"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "lengthM",
+      "uid": "V01:W10"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "thicknessM",
+      "uid": "V01:W10"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "referenceHeightM",
+      "uid": "V01:W10"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAzimuthDeg",
+      "uid": "V01:W10"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "maxHeightM",
+      "uid": "V01:W10"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "diameterM",
+      "uid": "V01:C01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "heightM",
+      "uid": "V01:C01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerX",
+      "uid": "V01:C01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerY",
+      "uid": "V01:C01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:C01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "diameterM",
+      "uid": "V01:C02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "heightM",
+      "uid": "V01:C02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:C02"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerY",
+      "uid": "V01:C02"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:C02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "diameterM",
+      "uid": "V01:C03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "heightM",
+      "uid": "V01:C03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:C03"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerY",
+      "uid": "V01:C03"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:C03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "diameterM",
+      "uid": "V01:C04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "heightM",
+      "uid": "V01:C04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "centerX",
+      "uid": "V01:C04"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerY",
+      "uid": "V01:C04"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "centerZ",
+      "uid": "V01:C04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "slopeDeg",
+      "uid": "V01:RF01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "eaveHeightM",
+      "uid": "V01:RF01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "ridgeHeightM",
+      "uid": "V01:RF01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "overhangM",
+      "uid": "V01:RF01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "ridgeAzimuthDeg",
+      "uid": "V01:RF01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "sillZ",
+      "uid": "V01:I01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I02"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "sillZ",
+      "uid": "V01:I02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I03"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "sillZ",
+      "uid": "V01:I03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I03"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I04"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "sillZ",
+      "uid": "V01:I04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I04"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I05"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "sillZ",
+      "uid": "V01:I05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I05"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "sillZ",
+      "uid": "V01:I06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I06"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I07"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "sillZ",
+      "uid": "V01:I07"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I07"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I08"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "sillZ",
+      "uid": "V01:I08"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I08"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I09"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "sillZ",
+      "uid": "V01:I09"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I09"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "widthM",
+      "uid": "V01:I10"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "sillZ",
+      "uid": "V01:I10"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "headZ",
+      "uid": "V01:I10"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "areaM2",
+      "uid": "V01:RS01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "slopeDeg",
+      "uid": "V01:RS01"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "slopeAzimuthDeg",
+      "uid": "V01:RS01"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "areaM2",
+      "uid": "V01:RS02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "slopeDeg",
+      "uid": "V01:RS02"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "slopeAzimuthDeg",
+      "uid": "V01:RS02"
+    },
+    {
+      "actualType": "FLOAT NOT NULL",
+      "expectedType": "FLOAT",
+      "key": "distanceM",
+      "uid": "V01:R058"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "azimuthDeg",
+      "uid": "V01:R058"
+    },
+    {
+      "actualType": "INTEGER NOT NULL",
+      "expectedType": "INTEGER",
+      "key": "axisAngleDeg",
+      "uid": "V01:R058"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W01-W03"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W01-W06"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W01-W08"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W02-W03"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W02-W07"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W02-W09"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W03-W04"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W03-W05"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W04-W06"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W05-W07"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W08-W10"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "junctionXY",
+      "uid": "V01:WJ-W09-W10"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "commonZ",
+      "uid": "V01:WC-W01-C01"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "commonZ",
+      "uid": "V01:WC-W02-C04"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "commonZ",
+      "uid": "V01:WC-W08-C01"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "commonZ",
+      "uid": "V01:WC-W09-C04"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "boundaryStart",
+      "uid": "V01:RS-RS01-RS02"
+    },
+    {
+      "actualType": "LIST<FLOAT NOT NULL> NOT NULL",
+      "expectedType": "LIST<FLOAT",
+      "key": "boundaryEnd",
+      "uid": "V01:RS-RS01-RS02"
+    }
+  ],
+  "scope": "synthetic case and scoped geometry; not field, structural, Browser favorite or concurrency stress validation"
+}

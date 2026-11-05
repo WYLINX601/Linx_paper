@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (i:V01 {uid:'V01:I05'})-[h:INTERFACE_OF {role:'opening-host'}]->(w:V01 {uid:'V01:W10'}),(i)-[s:INTERFACE_OF {role:'side-a'}]->(c:V01 {uid:'V01:S05'}),(o:V01)-[f:FACADE_PARTICIPANT]->(w) RETURN i.uid AS via,w.uid AS host,c.uid AS courtyard,o.uid AS owner,f.regionId AS localRegion,h.uid AS hostRelationship,s.uid AS courtyardRelationship",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.863586+08:00"
+}

@@ -1,0 +1,10 @@
+{
+  "artifact_role": "transferred_copy",
+  "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+  "source_path": "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+  "sha256": "a562af0e647b54c7c621a0cc34a3724b08593fa4046074579cdcdf146654458b",
+  "size_bytes": 32708,
+  "source_modified_at_utc": "2026-10-30T13:15:27Z",
+  "downloaded_at_utc": "2026-10-30T23:06:26Z",
+  "local_copy_path": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/originals/tools/viewer.template.html"
+}

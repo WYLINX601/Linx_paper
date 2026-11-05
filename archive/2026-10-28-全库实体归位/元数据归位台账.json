@@ -1,0 +1,52 @@
+[
+  {
+    "source": "论文研究/_管理/健康检查/__pycache__/wiki_health.cpython-314.pyc",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/论文研究/_管理/健康检查/__pycache__/wiki_health.cpython-314.pyc",
+    "sha256": "0d59eeb04fd41bc26b3d5f1626250ed801a8521995063a11b2222c2a35102a66"
+  },
+  {
+    "source": "outputs/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/outputs/.DS_Store",
+    "sha256": "3be532519800e4dfd25d03c3058ffc21838fbcea2b6787cc29c73ad134cc5a12"
+  },
+  {
+    "source": "outputs/单体层实体属性关系候选模型v0.1/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/outputs/单体层实体属性关系候选模型v0.1/.DS_Store",
+    "sha256": "5e9096fb476938805d51f88db93621c3fe90516bfd945b060126b71d6a23169f"
+  },
+  {
+    "source": "outputs/思维导图/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/outputs/思维导图/.DS_Store",
+    "sha256": "553e3d7fb169e48474cd64649706f826d770459ee401b8ca7f535605b51f2c27"
+  },
+  {
+    "source": "01_sources/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/01_sources/.DS_Store",
+    "sha256": "691a477d310c9013e50a80737010b7a090a528b16ae3f15a35b481f8378edd88"
+  },
+  {
+    "source": "01_sources/assets/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/01_sources/assets/.DS_Store",
+    "sha256": "6df32abc07f4e70dd65077086a7e7ee4ecacabd0ac6d76ab34b19e1df929aa34"
+  },
+  {
+    "source": "Users/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/Users/.DS_Store",
+    "sha256": "9331b85ed996e45f47c6b88bfa7274ac8b766691af3636da0a892a8ae4384d3c"
+  },
+  {
+    "source": "Users/wangyuelin/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/Users/wangyuelin/.DS_Store",
+    "sha256": "73e6814730dd835727ccdf14611d6c633194ae603ada9e6d5fea4b833d13403d"
+  },
+  {
+    "source": "Users/wangyuelin/Zotero/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/Users/wangyuelin/Zotero/.DS_Store",
+    "sha256": "4b3b1bc47d150a2d9165eda2d9c0c246ffaa2b9c96f312bedb2f5db05a0e8bf7"
+  },
+  {
+    "source": "Users/wangyuelin/Zotero/storage/.DS_Store",
+    "destination": "archive/2026-10-28-全库实体归位/目录残留元数据/Users/wangyuelin/Zotero/storage/.DS_Store",
+    "sha256": "c64dc5b17d01c7b2fce6e76d36ee20c0e65521b19d59c2200ca8ad2bff0e63a0"
+  }
+]

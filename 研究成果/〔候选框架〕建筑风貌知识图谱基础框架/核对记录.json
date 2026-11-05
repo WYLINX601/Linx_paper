@@ -1,0 +1,190 @@
+{
+  "checked_at": "2026-10-08",
+  "scope": "本地离线展示与结构校验；不证明量测精度、建筑学分类或研究结论。",
+  "core": {
+    "checked_at": "2026-10-08",
+    "checks": 15,
+    "items": [
+      "演示与空白研究模板均可加载",
+      "每条生成关系均指向现存编号",
+      "未观察的坡度保留为空且不显示为0",
+      "两条分歧判读均保留",
+      "同一建筑多个构件取值不会只留首项",
+      "合法的零值和未知值分别处理",
+      "确认不存在须有检查依据",
+      "重复编号与失联对象被拒绝",
+      "构件尺度和单位被检查",
+      "缺少必需字段与无证据取值被拒绝",
+      "破损证据和错误字段定义返回错误而不崩溃",
+      "状态值不接受原型属性名",
+      "研究数据不能使用演示标记",
+      "研究数据缺失日期及文件列为待补",
+      "修订记录须保留有效旧记录和理由"
+    ]
+  },
+  "browser": {
+    "checked_at": "2026-10-08",
+    "browser": "Chrome headless, local file",
+    "checks": 14,
+    "items": [
+      "本地离线加载与演示标记",
+      "框架定义可查看",
+      "方向键切换视图与焦点",
+      "建筑—屋顶—取值—来源可核查",
+      "未观察与两条分歧记录在比较中保留",
+      "空白研究模板不继承演示详情",
+      "扩展字段与建筑本身的记录可查看",
+      "空间关系方向与依据独立显示",
+      "分析范围与引用可展开",
+      "导入内容作为文字显示且危险地址不生成链接",
+      "错误导入不覆盖已加载数据",
+      "导出内容与已加载数据一致",
+      "三个视图在320—1440px宽度下没有整页横向溢出",
+      "无页面脚本异常且无外部网络请求"
+    ],
+    "layout": [
+      {
+        "width": 1440,
+        "view": "overview",
+        "page": 1440,
+        "viewport": 1440
+      },
+      {
+        "width": 1440,
+        "view": "instance",
+        "page": 1440,
+        "viewport": 1440
+      },
+      {
+        "width": 1440,
+        "view": "compare",
+        "page": 1440,
+        "viewport": 1440
+      },
+      {
+        "width": 1024,
+        "view": "overview",
+        "page": 1024,
+        "viewport": 1024
+      },
+      {
+        "width": 1024,
+        "view": "instance",
+        "page": 1024,
+        "viewport": 1024
+      },
+      {
+        "width": 1024,
+        "view": "compare",
+        "page": 1024,
+        "viewport": 1024
+      },
+      {
+        "width": 768,
+        "view": "overview",
+        "page": 768,
+        "viewport": 768
+      },
+      {
+        "width": 768,
+        "view": "instance",
+        "page": 768,
+        "viewport": 768
+      },
+      {
+        "width": 768,
+        "view": "compare",
+        "page": 768,
+        "viewport": 768
+      },
+      {
+        "width": 390,
+        "view": "overview",
+        "page": 390,
+        "viewport": 390
+      },
+      {
+        "width": 390,
+        "view": "instance",
+        "page": 390,
+        "viewport": 390
+      },
+      {
+        "width": 390,
+        "view": "compare",
+        "page": 390,
+        "viewport": 390
+      },
+      {
+        "width": 320,
+        "view": "overview",
+        "page": 320,
+        "viewport": 320
+      },
+      {
+        "width": 320,
+        "view": "instance",
+        "page": 320,
+        "viewport": 320
+      },
+      {
+        "width": 320,
+        "view": "compare",
+        "page": 320,
+        "viewport": 320
+      }
+    ]
+  },
+  "visual_review": [
+    "框架总览",
+    "实例关系与记录详情",
+    "390像素宽实例显示",
+    "类型比较与两条分歧记录"
+  ],
+  "files": {
+    "schema.json": {
+      "bytes": 11436,
+      "sha256": "9f5f51f4246742a920d472147e50797ab9ff6597451614945cfe8926db035462"
+    },
+    "demo-data.json": {
+      "bytes": 28220,
+      "sha256": "df6a7f94271befb72ebcfd74b9af9964f96a7d7da0ef33de3178d3acb655976e"
+    },
+    "录入模板.json": {
+      "bytes": 6184,
+      "sha256": "6261d340909cb340915ed55a45224f3248ee36be015287116396fc87e0fe8255"
+    },
+    "demo-data.js": {
+      "bytes": 39710,
+      "sha256": "cfa3bf3c4bee47bc282086dcdcb51e7491b29478d224b4b4c6989c4a82979086"
+    },
+    "graph-core.js": {
+      "bytes": 10794,
+      "sha256": "f1c03460175f6cc65053ad4ae14fb982343f88e8ebbf097d27dd80736d638a09"
+    },
+    "index.html": {
+      "bytes": 7294,
+      "sha256": "e914025770fb54cecadffd56e0dc52964a7b27e0e7bf2b3df793e3289f211103"
+    },
+    "styles.css": {
+      "bytes": 17155,
+      "sha256": "b344ea41bb5d913bea3ab2c5d8345bb10f43079de0e690672abfff285c13507b"
+    },
+    "app.js": {
+      "bytes": 45409,
+      "sha256": "a5f036aae110551919b57cd067f7bef85e38941a26abedff4955b8be548b63b6"
+    },
+    "展示预览.png": {
+      "bytes": 219459,
+      "sha256": "38d8206bc0dfdb143b9924717f448d4208a57e7f8dfb91b580b0ff860a285d14"
+    },
+    "实例关系预览.png": {
+      "bytes": 229779,
+      "sha256": "a2a238d49f0626d70f8d1c869af36d5bba5b3838f4fd8d8c3b1c7baa3dbbf9b9"
+    },
+    "类型比较预览.png": {
+      "bytes": 347607,
+      "sha256": "1ce4e56d6667f2e55b955ce9e021ce2203e0732e04277361fec7464ea9bf5004"
+    }
+  }
+}

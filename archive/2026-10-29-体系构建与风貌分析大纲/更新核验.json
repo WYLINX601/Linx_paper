@@ -1,0 +1,157 @@
+{
+  "verified_at": "2026-10-29T07:33:09.199396+00:00",
+  "scope": "已批准的大纲、context、研究路径及派生视图更新；非论文实证验收",
+  "stats": {
+    "chapters": 6,
+    "sections": 37,
+    "adoptions": 87,
+    "topics": 8,
+    "roles": 6,
+    "route_nodes": 9,
+    "artifact_packages": 20,
+    "artifact_relations": 59
+  },
+  "published_existing_files": [
+    {
+      "path": "论文章节/大纲结构.yaml",
+      "sha256": "894c69e50b6eb2ec6a91b6683b4ed7a1f2d378d85fd712242850e61d13491da4"
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "b685aec9ea2a49dc5f9afe74b035981ab377df19c19b2b6e732f20952ac2766d"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "ed895b3ee3a58d5edaa22560c6e3ae7b56c44e7da0f3973a0c196afc372798d6"
+    },
+    {
+      "path": "项目管理/学术大纲与角色命名修订说明.md",
+      "sha256": "c5784e4b2562d277157667e008e6de9006667782c95d0d8ea64e33246c7383b5"
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "66c243ca13853fa97e6a53268facb44feac82086968286483160c7eac909ed7d"
+    },
+    {
+      "path": "项目管理/章节采用记录.json",
+      "sha256": "8ee280929d75cfd9a2b744a03436d91d4f6311af285ce632612ed65fc61c09d1"
+    },
+    {
+      "path": "项目管理/章节主题映射.md",
+      "sha256": "983276587ec82600ee10deb01953acba67740c3b21cd658d411eff1ae2b11aa4"
+    },
+    {
+      "path": "论文章节/01-绪论/章节导航.md",
+      "sha256": "ecb881869dbba34534e46d072c52081f0ad80781ed824a9d88ffbe7c979420dc"
+    },
+    {
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "sha256": "d3d87c3f94a05dda8a690eedd3211fe8bf7db5310e662752c204c808b0c93425"
+    },
+    {
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "sha256": "ababf91ada35f00777694efe519cccd8ca70971f0c57caf866e30370b022d700"
+    },
+    {
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "sha256": "c7210100b40b439f5e0db4567d196b321a4aa4fcd1265e12f1a40d7f3f0ce792"
+    },
+    {
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "sha256": "830d89aa4a5ac92baf8b002108d72c5d2d16d370fc55431f705e9db8623e1ab8"
+    },
+    {
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "sha256": "8bb2585c375dde81f25d47e689bb94e72880ed69b61a7c1409bfe2befa2a9496"
+    },
+    {
+      "path": "论文章节/现行大纲.md",
+      "sha256": "26100414762ae1872f50eb03adb74b20e70066503c4f4d7bcdd03e53cb312ba2"
+    },
+    {
+      "path": "论文章节/README.md",
+      "sha256": "d4f9773ef4f65ebbd80fae7b026c6627b8e26ad32a271fd22c517189d68cfc57"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "25bd5a3af7bf5d6ac63526bdadeac8005cfc31b95118f423324f6f3dbcee9da9"
+    }
+  ],
+  "new_archive_files": [
+    "archive/2026-10-29-体系构建与风貌分析大纲/修改前主源与视图.zip",
+    "archive/2026-10-29-体系构建与风貌分析大纲/修改前清单.json",
+    "archive/2026-10-29-体系构建与风貌分析大纲/README.md"
+  ],
+  "checks": {
+    "scope": "本轮修改的在用Markdown及其链接/锚点；不等于全库健康验收",
+    "before": {
+      "checked_links": 373,
+      "issues": []
+    },
+    "after": {
+      "checked_links": 406,
+      "issues": []
+    },
+    "new_issues": [],
+    "all_original_section_entry_anchors_preserved": true,
+    "adoption_equality": true,
+    "generation_idempotent": true,
+    "stats": {
+      "chapters": 6,
+      "sections": 37,
+      "adoptions": 87,
+      "topics": 8,
+      "roles": 6,
+      "route_nodes": 9,
+      "artifact_packages": 20,
+      "artifact_relations": 59
+    },
+    "archive_members_verified": 16
+  },
+  "rendering": {
+    "method": "本机浏览器中的Markdown与Mermaid校样；非Obsidian原生逐页像素验收",
+    "documents": 9,
+    "mermaid_diagrams": 8,
+    "errors": [],
+    "horizontal_overflow": false,
+    "visual_spot_checks": [
+      "现行大纲",
+      "研究路径工作图",
+      "第三章导航"
+    ]
+  },
+  "source_views_sync": {
+    "command": "research_structure.py --check",
+    "out_of_sync": []
+  },
+  "protected_body": {
+    "path": "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md",
+    "sha256": "b68cc0ab3a136a9d154a29cc5478aa1ca9b221768145aeebdfd75f3b93522f09",
+    "unchanged": true
+  },
+  "independent_review": {
+    "model_confirmed": "gpt-6.1-sol",
+    "reasoning_requested": "medium",
+    "reasoning_effective_independently_confirmed": false,
+    "result": "未发现阻塞问题；主会话采纳定义来源及三维资料范围的细化建议",
+    "scope": "拟发布小节、任务及完成判据；不代表全文或实证审查"
+  },
+  "full_vault_health": {
+    "completed": false,
+    "reason": "受时限影响未产出全库报告，停止长时扫描；改用既有检查器的解析和链接解析功能完成本轮修改范围内的前后对照",
+    "dependency_baseline_refreshed": false
+  },
+  "not_modified": [
+    "v0.6正文",
+    "原始文献和研究证据",
+    "双基准及案例JSON",
+    "Neo4j数据库",
+    "历史draw.io与PNG",
+    "主题和成果包角色/元数据"
+  ],
+  "limitations": [
+    "小节为依据已批准章级分工细化的工作安排，不是定稿正文",
+    "尚未核定样本、三维资料质量或真实分析结果",
+    "未对全库历史链接或未声明依赖作完整验收"
+  ]
+}

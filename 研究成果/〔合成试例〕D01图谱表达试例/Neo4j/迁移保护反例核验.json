@@ -1,0 +1,44 @@
+{
+  "executedAtUtc": "2026-10-29T06:06:47.209508+00:00",
+  "count": 6,
+  "allPassed": true,
+  "tests": [
+    {
+      "test": "missing_endpoint",
+      "actualReturnedRows": [],
+      "fullGraphUnchanged": true,
+      "fingerprint": "7e2e1149a09f6c6875650afc7a61e23719ea2b41818ac6f5dc23743e3b5b9938"
+    },
+    {
+      "test": "duplicate_node_uid",
+      "actualReturnedRows": [],
+      "fullGraphUnchanged": true,
+      "fingerprint": "7e2e1149a09f6c6875650afc7a61e23719ea2b41818ac6f5dc23743e3b5b9938"
+    },
+    {
+      "test": "foreign_dataset",
+      "actualReturnedRows": [],
+      "fullGraphUnchanged": true,
+      "fingerprint": "7e2e1149a09f6c6875650afc7a61e23719ea2b41818ac6f5dc23743e3b5b9938"
+    },
+    {
+      "test": "missing_required_label",
+      "actualReturnedRows": [],
+      "fullGraphUnchanged": true,
+      "fingerprint": "7e2e1149a09f6c6875650afc7a61e23719ea2b41818ac6f5dc23743e3b5b9938"
+    },
+    {
+      "test": "duplicate_relationship_uid",
+      "actualReturnedRows": [],
+      "fullGraphUnchanged": true,
+      "fingerprint": "7e2e1149a09f6c6875650afc7a61e23719ea2b41818ac6f5dc23743e3b5b9938"
+    },
+    {
+      "test": "stale_expected_graph",
+      "actualReturnedRows": [],
+      "fullGraphUnchanged": true,
+      "fingerprint": "7e2e1149a09f6c6875650afc7a61e23719ea2b41818ac6f5dc23743e3b5b9938"
+    }
+  ],
+  "scope": "在旧图上真实执行保护拒绝测试；全部返回零行，完整图指纹不变，没有持久化错误数据。"
+}

@@ -1,0 +1,1222 @@
+{
+  "expected_count": 23,
+  "card_count": 23,
+  "missing": [],
+  "errors": [],
+  "cards": [
+    {
+      "order": 1,
+      "title": "文化生态视域下畲族文化传承实践探析——以福建省宁德市为例",
+      "item_type": "journalArticle",
+      "key": "FZKMT53U",
+      "zotero_date": "2026-04-07",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:FZKMT53U",
+      "zotero_key": "FZKMT53U",
+      "authors": [
+        "王舒泓",
+        "胡永圣",
+        "谢永淇"
+      ],
+      "year": 2026,
+      "venue": "台湾农业探索",
+      "doi": null,
+      "publication_type": "网络首发期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/FZKMT53U",
+        "/Users/wangyuelin/Zotero/storage/SHSQM3MX/王舒泓 等 - 2026 - 文化生态视域下畲族文化传承实践探析——以福建省宁德市为例.pdf"
+      ],
+      "contribution_primary": "框架模型型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "文献分析",
+        "田野调查",
+        "深度访谈",
+        "案例分析"
+      ],
+      "topics": [
+        "畲族文化",
+        "宁德",
+        "文化生态",
+        "活态传承",
+        "文化主体性"
+      ],
+      "reading_status": "精读",
+      "read_scope": "Zotero MCP附件文本通读：PDF第1—10页，含网络首发说明、正文印刷1—9页及参考文献；PDF第5页原页核对关键数字。未逐条核验被引文献及政策现行状态。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12读取）",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "畲族",
+        "文化生态",
+        "宁德"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2026-王舒泓-文化生态与宁德畲族文化传承.md",
+      "filename": "2026-王舒泓-文化生态与宁德畲族文化传承.md"
+    },
+    {
+      "order": 2,
+      "title": "畲族传统建筑视角下的景宁县人民医院建筑设计研究",
+      "item_type": "journalArticle",
+      "key": "VA5UTB9Y",
+      "zotero_date": "2026",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "doi:10.19892/j.cnki.csjz.2026.06.42",
+      "zotero_key": "VA5UTB9Y",
+      "authors": [
+        "杨波"
+      ],
+      "year": 2026,
+      "venue": "城市建筑，23(6)：169—172",
+      "doi": "10.19892/j.cnki.csjz.2026.06.42",
+      "publication_type": "期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/VA5UTB9Y",
+        "/Users/wangyuelin/Zotero/storage/BDU58958/杨波 - 2026 - 畲族传统建筑视角下的景宁县人民医院建筑设计研究.pdf"
+      ],
+      "contribution_primary": null,
+      "contribution_secondary": [],
+      "classification_status": "待定",
+      "methods": [
+        "案例实践分析",
+        "文献分析",
+        "实地调研（摘要所述）"
+      ],
+      "topics": [
+        "景宁",
+        "现代医院建筑",
+        "传统元素转译",
+        "地域性",
+        "畲族文化"
+      ],
+      "reading_status": "精读",
+      "read_scope": "Zotero MCP全文通读，PDF第1—4页／印刷169—172页；PDF第3页图2—5及材料描述原页核对，未全面逐图检查。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12读取）",
+      "reference_value": "潜在参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "现代建筑",
+        "元素转译"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2026-杨波-景宁县人民医院传统元素转译.md",
+      "filename": "2026-杨波-景宁县人民医院传统元素转译.md"
+    },
+    {
+      "order": 3,
+      "title": "乡村振兴背景下畲族文旅融合发展路径研究——以东源县新港镇双田村为例",
+      "item_type": "journalArticle",
+      "key": "5ADYPAF3",
+      "zotero_date": "2026",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "doi:10.20264/j.cnki.rse.2026.06.008",
+      "zotero_key": "5ADYPAF3",
+      "authors": [
+        "陈丹丹"
+      ],
+      "year": 2026,
+      "venue": "农村科学实验，(6)：19—21",
+      "doi": "10.20264/j.cnki.rse.2026.06.008",
+      "publication_type": "期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/5ADYPAF3",
+        "/Users/wangyuelin/Zotero/storage/KJEAAQVI/陈丹丹 - 2026 - 乡村振兴背景下畲族文旅融合发展路径研究——以东源县新港镇双田村为例.pdf"
+      ],
+      "contribution_primary": "框架模型型",
+      "contribution_secondary": [],
+      "classification_status": "暂定",
+      "methods": [
+        "案例分析",
+        "文献分析"
+      ],
+      "topics": [
+        "畲族",
+        "双田村",
+        "文旅融合",
+        "乡村振兴",
+        "人才培养"
+      ],
+      "reading_status": "精读",
+      "read_scope": "Zotero MCP全文通读，PDF第1—3页／印刷19—21页，含全部正文及参考文献。无图表；未直接核验转引政策及地方调查数据。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12读取）",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "畲族",
+        "文旅融合",
+        "双田村"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2026-陈丹丹-双田村畲族文旅融合路径.md",
+      "filename": "2026-陈丹丹-双田村畲族文旅融合路径.md"
+    },
+    {
+      "order": 4,
+      "title": "营造对立并蓄的阈限体验：峩山畲族馆的设计理念分析",
+      "item_type": "journalArticle",
+      "key": "XTFALTFH",
+      "zotero_date": "2026",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "doi:10.16272/j.cnki.cn11-1392/j.2026.03.024",
+      "zotero_key": "XTFALTFH",
+      "authors": [
+        "汤喜燕"
+      ],
+      "year": 2026,
+      "venue": "装饰，(3)：139—141",
+      "doi": "10.16272/j.cnki.cn11-1392/j.2026.03.024",
+      "publication_type": "期刊论文（院校风采栏目）",
+      "source_locations": [
+        "zotero://select/library/items/XTFALTFH",
+        "/Users/wangyuelin/Zotero/storage/5UKV3ILI/汤喜燕 - 2026 - 营造对立并蓄的阈限体验：峩山畲族馆的设计理念分析.pdf"
+      ],
+      "contribution_primary": "理论概念型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "案例分析",
+        "访谈",
+        "参观过程分析",
+        "理论阐释"
+      ],
+      "topics": [
+        "峩山畲族馆",
+        "乡村博物馆",
+        "阈限",
+        "参观体验",
+        "对立并蓄"
+      ],
+      "reading_status": "精读",
+      "read_scope": "Zotero MCP全文通读，PDF第1—3页／印刷139—141页；PDF第3页图4—6原页查看，图6细小文字未全部辨读。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12读取）",
+      "reference_value": "潜在参考",
+      "tags": [
+        "paper-reading",
+        "畲族",
+        "博物馆",
+        "阈限体验"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2026-汤喜燕-峩山畲族馆阈限体验.md",
+      "filename": "2026-汤喜燕-峩山畲族馆阈限体验.md"
+    },
+    {
+      "order": 5,
+      "title": "旅游语境下浙江柳城畲族镇文化变迁探析",
+      "item_type": "newspaperArticle",
+      "key": "SMUB4I7F",
+      "zotero_date": "2025-08-29",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "doi:10.44530/n.cnki.ndhms.2025.000255",
+      "zotero_key": "SMUB4I7F",
+      "authors": [
+        "张建宏",
+        "钱佳怡"
+      ],
+      "year": 2025,
+      "venue": "大河美术报，2025-08-29，第014版（学术理论）",
+      "doi": "10.44530/n.cnki.ndhms.2025.000255",
+      "publication_type": "报纸文章（学术理论版）",
+      "source_locations": [
+        "zotero://select/library/items/SMUB4I7F",
+        "/Users/wangyuelin/Zotero/storage/N3J3SA3K/张建宏和钱佳怡 - 2025 - 旅游语境下浙江柳城畲族镇文化变迁探析.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "暂定",
+      "methods": [
+        "案例描述",
+        "文化变迁分析"
+      ],
+      "topics": [
+        "柳城畲族镇",
+        "乡村旅游",
+        "文化变迁",
+        "非物质文化遗产",
+        "民宿改造"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通过Zotero MCP取得单页附件及乱码全文后，用macOS原生PDF预览视觉通读PDF第1页／报纸第014版全部正文；未核验转引政策或另做地方调查。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12读取）",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "畲族",
+        "柳城",
+        "文化变迁"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2025-张建宏-柳城畲族镇文化变迁.md",
+      "filename": "2025-张建宏-柳城畲族镇文化变迁.md"
+    },
+    {
+      "order": 6,
+      "title": "基于微更新理论的畲族传统民居设计实践——以浙江泰顺竹里畲族自治乡竹里村民居为例",
+      "item_type": "journalArticle",
+      "key": "2W4EEPYU",
+      "zotero_date": "2024",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:2W4EEPYU",
+      "zotero_key": "2W4EEPYU",
+      "authors": [
+        "王曦昊",
+        "冯慧超"
+      ],
+      "year": 2024,
+      "venue": "包装与设计，(1)：120—121（Zotero书目，待原页核验）",
+      "doi": null,
+      "publication_type": "期刊论文（Zotero条目类型）",
+      "source_locations": [
+        "zotero://select/library/items/2W4EEPYU",
+        "https://kns.cnki.net/KCMS/detail/detail.aspx?dbcode=CJFN&dbname=CJFDLASN2024&filename=BZSY202401013"
+      ],
+      "contribution_primary": null,
+      "contribution_secondary": [],
+      "classification_status": "待定",
+      "methods": [],
+      "topics": [
+        "泰顺竹里",
+        "畲族传统民居",
+        "微更新",
+        "婚庆文化展示",
+        "设计实践"
+      ],
+      "reading_status": "初读",
+      "read_scope": "只读Zotero MCP元数据及摘要；fulltext与attachment_path均确认没有附件。尝试公开原文入口未取得全文；未读印刷120—121页。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12读取）",
+      "reference_value": "潜在参考",
+      "tags": [
+        "paper-reading",
+        "畲族",
+        "微更新",
+        "待全文"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2024-王曦昊-竹里畲族民居微更新.md",
+      "filename": "2024-王曦昊-竹里畲族民居微更新.md"
+    },
+    {
+      "order": 7,
+      "title": "景宁畲族自治县 凤凰飞舞的浙江秘境",
+      "item_type": "journalArticle",
+      "key": "I3VDTFJC",
+      "zotero_date": "2023",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:I3VDTFJC",
+      "zotero_key": "I3VDTFJC",
+      "authors": [
+        "鲁晓敏"
+      ],
+      "photo_credits": [
+        "浙江省景宁畲族自治县英川镇政府供图",
+        "FXL尧沐木",
+        "长城",
+        "徐丽冰"
+      ],
+      "year": 2023,
+      "venue": "环球人文地理，(15)：56—65",
+      "doi": null,
+      "publication_type": "人文地理杂志图文报道（地理发现栏目）",
+      "source_locations": [
+        "zotero://select/library/items/I3VDTFJC",
+        "/Users/wangyuelin/Zotero/storage/XHKCHWL3/鲁晓敏 等 - 2023 - 景宁畲族自治县 凤凰飞舞的浙江秘境.pdf"
+      ],
+      "contribution_primary": "综述整合型",
+      "contribution_secondary": [],
+      "classification_status": "暂定",
+      "methods": [
+        "文献引述",
+        "田野采访报道",
+        "图文叙述"
+      ],
+      "topics": [
+        "景宁畲族",
+        "凤凰装",
+        "凤冠",
+        "彩带",
+        "文化认同",
+        "民俗"
+      ],
+      "reading_status": "精读",
+      "read_scope": "Zotero MCP全文通读，PDF第1—10页／印刷56—65页的正文和图注；PDF第1页署名与第6页图注原页核对，未全面逐幅核验摄影对象。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12读取）",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "服饰",
+        "图文报道"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2023-鲁晓敏-景宁凤凰服饰与文化.md",
+      "filename": "2023-鲁晓敏-景宁凤凰服饰与文化.md"
+    },
+    {
+      "order": 8,
+      "title": "景宁畲族传统民居营造技艺研究",
+      "item_type": "thesis",
+      "key": "ZWDJJE99",
+      "zotero_date": "2023-01-16",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:ZWDJJE99",
+      "authors": [
+        "赵潇诺"
+      ],
+      "year": 2022,
+      "venue": "浙江农林大学",
+      "doi": "10.27756/d.cnki.gzjlx.2022.000136",
+      "publication_type": "全日制硕士学术学位论文",
+      "source_locations": [
+        "zotero://select/library/items/ZWDJJE99",
+        "/Users/wangyuelin/Zotero/storage/52VRHDAG/赵潇诺 - 2023 - 景宁畲族传统民居营造技艺研究.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "田野调查",
+        "深度访谈",
+        "实测与建筑测绘",
+        "类型学归纳",
+        "比较研究",
+        "匠师手稿分析"
+      ],
+      "topics": [
+        "景宁畲族传统民居",
+        "乡土建筑营造技艺",
+        "木构侧样",
+        "跨区域营造体系比较"
+      ],
+      "reading_status": "精读",
+      "read_scope": "历史阅读记录（2026-10-11）：曾读附录A—E，印刷页102—107（PDF第113—118页），并形成下方候选调查表／访谈问题的旧研究用途判断；该范围和判断本轮未重读、未独立复核，作为历史记录保留。本轮（2026-10-12）独立精读正文印刷页1—97（PDF第12—108页），含第1—6章及结论；核读封面、摘要和目录。参考文献（PDF第109—112页）及其余附属页（PDF第119—121页）本轮未读。本地pdfplumber逐页提取；Zotero页码接口对附件报解析错误；关键表图另作原页视觉核对。",
+      "created": "2026-10-11",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12读取）",
+      "reference_value": "核心参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "营造技艺",
+        "传统民居",
+        "木构侧样"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2022-赵潇诺-景宁畲族传统民居营造技艺.md",
+      "filename": "2022-赵潇诺-景宁畲族传统民居营造技艺.md"
+    },
+    {
+      "order": 9,
+      "title": "浙江景宁传统畲族民居及其保护与更新——以大张坑村为中心",
+      "item_type": "thesis",
+      "key": "ETTYATRB",
+      "zotero_date": "2016-01-16",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:ETTYATRB",
+      "authors": [
+        "王文辉"
+      ],
+      "year": 2015,
+      "venue": "浙江师范大学",
+      "doi": null,
+      "publication_type": "硕士学位论文（封面标注：法学硕士；专业：民俗学）",
+      "source_locations": [
+        "zotero://select/library/items/ETTYATRB",
+        "zotero://open-pdf/library/items/QSHMJCA4",
+        "/Users/wangyuelin/Zotero/storage/QSHMJCA4/王文辉 - 2016 - 浙江景宁传统畲族民居及其保护与更新 ——以大张坑村为中心.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "文献研究",
+        "田野调查",
+        "观察法",
+        "访谈法",
+        "口述史",
+        "影像记录",
+        "地方文献与实物资料搜集",
+        "案例分析"
+      ],
+      "topics": [
+        "景宁畲族传统民居",
+        "大张坑村",
+        "居住文化",
+        "传统村落保护与更新",
+        "聚落布局",
+        "建筑空间"
+      ],
+      "reading_status": "精读",
+      "read_scope": "本轮已通读主体印刷页1—43（PDF第9—51页），含绪论、调查村落与建筑类型、空间特征、居住文化、保护更新及结语；视觉核读封面、摘要、目录及主体各原页。PDF为扫描件，Zotero文本页读取报错，故使用本地PDF逐页渲染阅读。参考文献、攻读学位期间成果、致谢及声明未读。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12读取）",
+      "reference_value": "核心参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "传统民居",
+        "大张坑村",
+        "聚落保护",
+        "居住文化"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2015-王文辉-大张坑畲族民居及其保护更新.md",
+      "filename": "2015-王文辉-大张坑畲族民居及其保护更新.md"
+    },
+    {
+      "order": 10,
+      "title": "人与自然的完美演绎——记景宁畲族住宅建筑的特色",
+      "item_type": "journalArticle",
+      "key": "EUX6U8YJ",
+      "zotero_date": "2006",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:EUX6U8YJ",
+      "authors": [
+        "汪梅"
+      ],
+      "year": 2006,
+      "venue": "浙江工艺美术",
+      "volume": "32",
+      "issue": "2",
+      "pages": "70-74",
+      "doi": null,
+      "publication_type": "期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/EUX6U8YJ",
+        "zotero://open-pdf/library/items/SIDW8R86",
+        "/Users/wangyuelin/Zotero/storage/SIDW8R86/汪梅 - 2006 - 人与自然的完美演绎——记景宁畲族住宅建筑的特色.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "田野调查（文中提及调查，未详述操作方法）"
+      ],
+      "topics": [
+        "景宁畲族住宅建筑",
+        "山地院落",
+        "泥间",
+        "排屋",
+        "建筑与自然环境"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读全文主体：期刊印刷页70—74（PDF第1—5页），含文末结语；未报告抽样、调查时间及单独方法章节。原文为扫描PDF，本地逐页视觉核读，核对图一至图六、平剖面及构造照片。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12读取）",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "住宅建筑",
+        "山地院落",
+        "排屋"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2006-汪梅-景宁畲族住宅建筑特色.md",
+      "filename": "2006-汪梅-景宁畲族住宅建筑特色.md"
+    },
+    {
+      "order": 11,
+      "title": "浅谈景宁畲族景观建筑的保护和开发",
+      "item_type": "journalArticle",
+      "key": "VCIM9KVW",
+      "zotero_date": "2021",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:VCIM9KVW",
+      "authors": [
+        "杨映靖",
+        "戴莹"
+      ],
+      "year": 2021,
+      "venue": "工业设计",
+      "issue": "9",
+      "pages": "151-152",
+      "doi": null,
+      "publication_type": "期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/VCIM9KVW",
+        "zotero://open-pdf/library/items/QKREZHS7",
+        "/Users/wangyuelin/Zotero/storage/QKREZHS7/杨映靖和戴莹 - 2021 - 浅谈景宁畲族景观建筑的保护和开发.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [],
+      "topics": [
+        "景宁畲族",
+        "传统景观建筑",
+        "住宅与宗祠",
+        "廊桥",
+        "木雕装饰",
+        "建筑保护和开发"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读全文：期刊印刷页151—152（PDF第1—2页），含结语与参考文献；视觉核读两页原版。正文未说明调查方法、样本量及调查时间，方法字段不补猜。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12读取）",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "传统建筑",
+        "建筑保护",
+        "文旅开发"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2021-杨映靖-畲族景观建筑保护开发.md",
+      "filename": "2021-杨映靖-畲族景观建筑保护开发.md"
+    },
+    {
+      "order": 12,
+      "title": "聚落“双修”视角下景宁畲族传统村落公共文化空间重构研究",
+      "item_type": "thesis",
+      "key": "3IJX2PUQ",
+      "zotero_date": "2025-08-16",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:3IJX2PUQ",
+      "authors": [
+        "柴一涵"
+      ],
+      "year": 2024,
+      "venue": "浙江工商大学",
+      "doi": "10.27462/d.cnki.ghzhc.2024.000789",
+      "publication_type": "硕士学位论文",
+      "source_locations": [
+        "zotero://select/library/items/3IJX2PUQ",
+        "zotero://open-pdf/library/items/BQJ5582I",
+        "/Users/wangyuelin/Zotero/storage/BQJ5582I/柴一涵 - 2025 - 聚落“双修”视角下景宁畲族传统村落公共文化空间重构研究.pdf"
+      ],
+      "contribution_primary": "框架模型型",
+      "contribution_secondary": [
+        "实证发现型"
+      ],
+      "classification_status": "已核对",
+      "methods": [
+        "文献研究",
+        "田野调查",
+        "ArcGIS空间分析",
+        "线上与线下问卷",
+        "访谈",
+        "描述性统计"
+      ],
+      "topics": [
+        "景宁畲族传统村落",
+        "公共文化空间",
+        "聚落双修",
+        "空间修补",
+        "文脉修复",
+        "桃源村更新设计"
+      ],
+      "reading_status": "精读",
+      "read_scope": "封面、摘要、目录及图表目录已核对；通读主体印刷页1—145（PDF第15—159页，含结论）及附录问卷印刷页153—157（PDF第167—171页）。参考文献印刷页146—152（PDF第160—166页）未读；当前附件止于问卷，不额外声称存在未读学术成果、致谢或声明页。Zotero全文接口返回截断内容，read_pdf_pages报invalid file trailer；使用本地附件pypdf逐页提取补读。对封面、表3.1、表5.2、图5.20—5.23等关键页作原页视觉核验；主会话补核表4.5和图4.21原页。图表并未全部逐幅视觉检查。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12读取）",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "传统村落",
+        "公共文化空间",
+        "乡村更新",
+        "聚落双修"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2024-柴一涵-畲族传统村落公共文化空间重构.md",
+      "filename": "2024-柴一涵-畲族传统村落公共文化空间重构.md"
+    },
+    {
+      "order": 13,
+      "title": "浙西南景宁畲族民居木构侧样研究",
+      "item_type": "journalArticle",
+      "key": "83W7CJW2",
+      "zotero_date": "2023",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:83W7CJW2",
+      "authors": [
+        "赵潇诺",
+        "佟士枢",
+        "何礼平"
+      ],
+      "year": 2023,
+      "venue": "古建园林技术，第5期，10–15页",
+      "doi": null,
+      "publication_type": "期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/83W7CJW2",
+        "/Users/wangyuelin/Zotero/storage/M2XVALGA/赵潇诺 等 - 2023 - 浙西南景宁畲族民居木构侧样研究.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "田野调查与民居测绘",
+        "建筑类型学比较",
+        "匠师访谈及手绘图解读",
+        "民间营造典籍对读",
+        "跨地域形式比较"
+      ],
+      "topics": [
+        "景宁畲族传统民居",
+        "木构侧样",
+        "营造技艺",
+        "侧样原型与衍化"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读PDF第1–6页（印刷页10–15），包括正文、图1–13、表1、注释和参考文献；PDF第2页表1及第4–5页关键图示已视觉核对。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12实际核读）；五章结构，以村落—组团—单体为多尺度观察，并以知识图谱支持建筑学分析。",
+      "reference_value": "核心参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "木构侧样",
+        "传统民居"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2023-赵潇诺-景宁畲族木构侧样.md",
+      "filename": "2023-赵潇诺-景宁畲族木构侧样.md"
+    },
+    {
+      "order": 14,
+      "title": "基于民族特性的新畲寮风格民居设计研究——以景宁东弄村为例",
+      "item_type": "thesis",
+      "key": "AAPV5P6L",
+      "zotero_date": "2023-02-16",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:AAPV5P6L",
+      "authors": [
+        "吴钰"
+      ],
+      "year": 2022,
+      "venue": "杭州师范大学美术学院，艺术硕士（艺术设计）",
+      "doi": "10.27076/d.cnki.ghzsc.2022.000367",
+      "publication_type": "全日制专业学位硕士学位论文",
+      "source_locations": [
+        "zotero://select/library/items/AAPV5P6L",
+        "/Users/wangyuelin/Zotero/storage/4DR4PDQC/吴钰 - 2023 - 基于民族特性的新畲寮风格民居设计研究 ——以景宁东弄村为例.pdf"
+      ],
+      "contribution_primary": "框架模型型",
+      "contribution_secondary": [
+        "实证发现型"
+      ],
+      "classification_status": "已核对",
+      "methods": [
+        "文献调查",
+        "多村田野走访、访谈与摄影记录",
+        "传统民居与更新案例比较",
+        "设计要素提炼及方案设计"
+      ],
+      "topics": [
+        "景宁畲族传统民居",
+        "新畲寮风格",
+        "传统民居更新设计",
+        "居住空间与文化符号"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读PDF全部102页：封面、中英文摘要、目录、主体第1–84印刷页、参考文献与致谢；原页视觉核对封面、调查表、色彩表、东弄村52栋建筑质量分类及两项设计的总平面、平剖面、功能分区、立面图。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12实际核读）；多尺度建筑风貌特征提取，知识图谱支持建筑学分析。",
+      "reference_value": "潜在参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "传统民居",
+        "更新设计",
+        "新畲寮风格"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2022-吴钰-新畲寮风格民居设计.md",
+      "filename": "2022-吴钰-新畲寮风格民居设计.md"
+    },
+    {
+      "order": 15,
+      "title": "浙江景宁畲族传统建筑文化研究",
+      "item_type": "journalArticle",
+      "key": "5WC9FHTZ",
+      "zotero_date": "2017",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:5WC9FHTZ",
+      "authors": [
+        "潘钊"
+      ],
+      "year": 2017,
+      "venue": "设计艺术（山东工艺美术学院学报），2017年第1期，51–54页",
+      "doi": null,
+      "publication_type": "期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/5WC9FHTZ",
+        "/Users/wangyuelin/Zotero/storage/E9UPS2W9/潘钊 - 2017 - 浙江景宁畲族传统建筑文化研究.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "作者报告的实地考察与调研走访",
+        "建筑类型及构造特征描述",
+        "居住习俗与装饰要素整理"
+      ],
+      "topics": [
+        "景宁畲族传统建筑",
+        "传统民居类型",
+        "居住文化",
+        "建筑装饰与雕饰"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读PDF全部4页（印刷页51–54），包括摘要、正文、图1–4和参考文献；四张图均已视觉核对。附件首面未显示题名，题名据Zotero条目，作者、刊期及页码由附件版面核对。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12实际核读）；多尺度建筑风貌特征提取，知识图谱支持建筑学分析。",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "传统建筑",
+        "居住文化",
+        "建筑装饰"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2017-潘钊-景宁畲族传统建筑文化.md",
+      "filename": "2017-潘钊-景宁畲族传统建筑文化.md"
+    },
+    {
+      "order": 16,
+      "title": "景宁畲族传统村落的保护与发展研究",
+      "item_type": "thesis",
+      "key": "6NQGHZQC",
+      "zotero_date": "2015-11-16",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:6NQGHZQC",
+      "authors": [
+        "潘钊"
+      ],
+      "year": 2015,
+      "venue": "山东建筑大学，设计学硕士学位论文",
+      "doi": null,
+      "publication_type": "硕士学位论文",
+      "source_locations": [
+        "zotero://select/library/items/6NQGHZQC",
+        "/Users/wangyuelin/Zotero/storage/GS83ZCEY/潘钊 - 2015 - 景宁畲族传统村落的保护与发展研究.pdf"
+      ],
+      "contribution_primary": "框架模型型",
+      "contribution_secondary": [
+        "实证发现型"
+      ],
+      "classification_status": "已核对",
+      "methods": [
+        "文献研究与既有保护发展案例比较",
+        "田野走访、实地考察与照片/录音记录（作者自述）",
+        "传统建筑测绘",
+        "惠明寺村旅游试点规划设计",
+        "景宁村落保护与旅游发展模式归纳"
+      ],
+      "topics": [
+        "景宁畲族传统村落",
+        "村落保护与发展",
+        "渐进式旅游开发模式",
+        "惠明寺村试点规划",
+        "传统建筑与村落风貌"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读PDF全部69页：封面、摘要、目录、正文五章（印刷页1–59）、参考文献、后记及科研情况（印刷页60–61）。PDF第58–65页（印刷页50–57）的惠明寺村区位与规划图、户数/人数和停车位/道路数据已渲染并视觉核对；封面作者、导师和提交日期已视觉核对。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12实际核读）；五章结构，以村落整体—建筑组团—建筑单体为观察尺度，知识图谱组织特征、对象及证据并支持建筑学分析；调查和分析结论仍待实证。",
+      "reference_value": "潜在参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "传统村落",
+        "保护与发展",
+        "惠明寺村"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2015-潘钊-景宁传统村落保护发展.md",
+      "filename": "2015-潘钊-景宁传统村落保护发展.md"
+    },
+    {
+      "order": 17,
+      "title": "浙江省景宁县东弄村畲族民居初探",
+      "item_type": "thesis",
+      "key": "BUUUUWRW",
+      "zotero_date": "2015-04-16",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:BUUUUWRW",
+      "authors": [
+        "赵圣洁"
+      ],
+      "year": 2013,
+      "venue": "南京工业大学，建筑设计及其理论硕士学位论文",
+      "doi": null,
+      "publication_type": "硕士学位论文",
+      "source_locations": [
+        "zotero://select/library/items/BUUUUWRW",
+        "/Users/wangyuelin/Zotero/storage/DBVNTMI4/赵圣洁 - 2015 - 浙江省景宁县东弄村畲族民居初探.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "文献研究与浙西南畲族民居的区域比较",
+        "东弄村田野调查、摄影、访谈与聚落现状描述",
+        "蓝坤宝寮建筑测绘及平、立、剖面分析",
+        "单体建筑的空间功能、结构、材料与装饰个案分析"
+      ],
+      "topics": [
+        "景宁畲族传统民居",
+        "东弄村聚落空间",
+        "蓝坤宝寮测绘",
+        "畲族民居营造与装饰",
+        "传统民居遗产保护与更新"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读PDF全部126页的可提取文本，覆盖摘要、目录、正文六章、结论、参考文献、附录文字与致谢。正文印刷页1–74；另含附录印刷页79–107及后附资料。封面、印刷页44–45建筑调查样本与质量统计、印刷页48–49蓝坤宝寮面积及测绘平面、印刷页55与57结构图、印刷页79–82调研报告以渲染原页视觉核对。图纸型附录未逐幅视觉核读。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5（2026-10-12实际核读）：五章结构，以村落整体—建筑组团—建筑单体为观察尺度，提取可比较风貌特征并构建可追溯图谱，利用图谱支持建筑学分析；样本、分类与结论均仍待调查和证据验证。",
+      "reference_value": "核心参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "东弄村",
+        "传统民居",
+        "建筑测绘"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2013-赵圣洁-东弄村畲族民居初探.md",
+      "filename": "2013-赵圣洁-东弄村畲族民居初探.md"
+    },
+    {
+      "order": 18,
+      "title": "浙江景宁畲族传统民居卷草凤凰纹装饰研究",
+      "item_type": "journalArticle",
+      "key": "7KCJR9EB",
+      "zotero_date": "2013",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:7KCJR9EB",
+      "authors": [
+        "蓝法勤"
+      ],
+      "year": 2013,
+      "venue": "设计艺术研究, 3(1), 94-99",
+      "doi": "10.3963/j.issn.2095-0705.2013.01.021",
+      "publication_type": "期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/7KCJR9EB",
+        "/Users/wangyuelin/Zotero/storage/PIHCARAE/蓝法勤 - 2013 - 浙江景宁畲族传统民居卷草凤凰纹装饰研究.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "田野调查",
+        "访谈",
+        "装饰形态分析",
+        "畲汉民居案例比较",
+        "文献与民俗材料分析"
+      ],
+      "topics": [
+        "景宁畲族传统民居",
+        "卷草凤凰纹",
+        "木雕装饰",
+        "凤凰崇拜",
+        "象征与族群认同"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读期刊论文正文、图注、注释与参考文献：印刷页94—99（PDF第1—6页）。Zotero全文提取文本覆盖文章正文；分页工具因invalid file trailer报错。因Poppler中文字体映射缺失，改用macOS Quick Look逐页生成原PDF临时预览，视觉核对正文、图1—图8、印刷页94—99页码和图注；PDF第6页与相邻文章跨页内容并列，已按本文标题与续页标识区分并排除相邻文章。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12实际读取；五章结构，村落—组团—单体多尺度，图谱支持建筑学分析）",
+      "reference_value": "核心参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "传统民居",
+        "建筑装饰",
+        "卷草凤凰纹"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2013-蓝法勤-卷草凤凰纹装饰研究.md",
+      "filename": "2013-蓝法勤-卷草凤凰纹装饰研究.md"
+    },
+    {
+      "order": 19,
+      "title": "浙南地区民族特色城市风貌规划研究——以浙江景宁畲族自治县为例",
+      "item_type": "conferencePaper",
+      "key": "84LBLY2H",
+      "zotero_date": "2010-12-10",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:84LBLY2H",
+      "authors": [
+        "朱宇恒"
+      ],
+      "year": null,
+      "venue": "《营造》第五辑——第五届中国建筑史学国际研讨会会议论文集（上）",
+      "doi": null,
+      "publication_type": "会议论文（Zotero条目类型：conferencePaper；本文仅见会议论文集中的一页摘要）",
+      "source_locations": [
+        "zotero://select/library/items/84LBLY2H",
+        "/Users/wangyuelin/Zotero/storage/BVKVNJ4R/朱宇恒 - 2010 - 浙南地区民族特色城市风貌规划研究——以浙江景宁畲族自治县为例.pdf"
+      ],
+      "contribution_primary": null,
+      "contribution_secondary": [],
+      "classification_status": "待定",
+      "methods": [],
+      "topics": [
+        "浙南城市风貌",
+        "景宁畲族自治县",
+        "民族地区城市规划"
+      ],
+      "reading_status": "初读",
+      "read_scope": "仅核读Zotero全文与唯一附件页：印刷页303、PDF第1页，为题名页兼摘要页；无正文、方法细节、分析过程、结果或结论全文。已视觉检查附件页。Zotero元数据列会议日期2010-12-10，但当前一页原文未标发表年份，故年份待核。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12实际读取）",
+      "reference_value": "待判断",
+      "tags": [
+        "paper-reading",
+        "浙南",
+        "城市风貌",
+        "景宁"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/朱宇恒-民族特色城市风貌规划.md",
+      "filename": "朱宇恒-民族特色城市风貌规划.md"
+    },
+    {
+      "order": 20,
+      "title": "山城空间营造探讨——以浙江省景宁畲族自治县为例",
+      "item_type": "journalArticle",
+      "key": "U7EKYEJZ",
+      "zotero_date": "2010",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:U7EKYEJZ",
+      "authors": [
+        "柳晓杰",
+        "楼铱"
+      ],
+      "year": 2010,
+      "venue": "浙江建筑, 27(10), 1-4",
+      "doi": "10.15874/j.cnki.cn33-1102/tu.2010.10.006",
+      "publication_type": "期刊论文",
+      "source_locations": [
+        "zotero://select/library/items/U7EKYEJZ",
+        "/Users/wangyuelin/Zotero/storage/7UPMFF46/柳晓杰和楼铱 - 2010 - 山城空间营造探讨——以浙江省景宁畲族自治县为例.pdf"
+      ],
+      "contribution_primary": "框架模型型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "景观生态学分析",
+        "基质—廊道—斑块分析",
+        "城市景观规划与设计",
+        "视线廊道分析"
+      ],
+      "topics": [
+        "景宁县城",
+        "山水城市",
+        "生态廊道",
+        "城市景观规划",
+        "城市天际线"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读论文正文、图1—图2、结语与参考文献：原文主文刊载页1—4（PDF第1—4页）；结语和参考文献续排于期刊页8（PDF第5页），亦已核读。PDF第5页同时含相邻论文内容，已按“上接第4页”标识仅提取本论文续文。MCP全文含本文及续排文本；MCP分页工具报invalid file trailer，使用确认附件的本地PDF提取并视觉核对图1（PDF第2页）与图2（PDF第4页）。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12实际读取；五章、多尺度、知识图谱支持建筑学分析）",
+      "reference_value": "背景引用",
+      "tags": [
+        "paper-reading",
+        "景宁",
+        "城市景观",
+        "山水格局",
+        "规划控制"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2010-柳晓杰-山城空间营造探讨.md",
+      "filename": "2010-柳晓杰-山城空间营造探讨.md"
+    },
+    {
+      "order": 21,
+      "title": "浙江景宁畲族自治县畲族民居特色探析",
+      "item_type": "conferencePaper",
+      "key": "VRWLBN8X",
+      "zotero_date": "2009-07-27",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:VRWLBN8X",
+      "authors": [
+        "牛建农",
+        "葛联娟",
+        "何燕丽"
+      ],
+      "year": null,
+      "venue": "族群·聚落·民族建筑——国际人类学与民族学联合会第十六届世界大会专题会议论文集",
+      "doi": null,
+      "publication_type": "会议论文",
+      "source_locations": [
+        "zotero://select/library/items/VRWLBN8X",
+        "/Users/wangyuelin/Zotero/storage/QCWFQQ3A/牛建农 等 - 2009 - 浙江景宁畲族自治县畲族民居特色探析.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "短期田野调查",
+        "建筑空间与构造观察",
+        "案例比较",
+        "县志与文献分析"
+      ],
+      "topics": [
+        "景宁畲族民居",
+        "干栏文化",
+        "木构架",
+        "畲汉民居比较",
+        "廊桥"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读全文六页（印刷页57—62，PDF第1—6页），包括正文、图1—图5及参考文献；MCP全文提取文本完整覆盖文章，另用本地PDF核对印刷页码并视觉检查各页图像和关键数字。正文说明作者于2008年初短期赴景宁考察；该资料时点不代表2026现状。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12实际读取；五章、多尺度、知识图谱支持建筑学分析）",
+      "reference_value": "核心参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "传统民居",
+        "干栏",
+        "畲汉文化互动"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/牛建农-景宁畲族民居特色探析.md",
+      "filename": "牛建农-景宁畲族民居特色探析.md"
+    },
+    {
+      "order": 22,
+      "title": "浙江景宁畲族自治县县城建筑有机更新研究",
+      "item_type": "thesis",
+      "key": "VSES7L3M",
+      "zotero_date": "2012-06-16",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:VSES7L3M",
+      "authors": [
+        "朱凌"
+      ],
+      "year": 2012,
+      "venue": "浙江大学硕士学位论文（建筑设计及其理论）",
+      "publication_type": "硕士学位论文",
+      "source_locations": [
+        "zotero://select/library/items/VSES7L3M",
+        "/Users/wangyuelin/Zotero/storage/BPBDYMEF/朱凌 - 2012 - 浙江景宁畲族自治县县城建筑有机更新研究.pdf"
+      ],
+      "doi": null,
+      "contribution_primary": "方法路径型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "浙南与闽东畲族聚居地田野调查",
+        "县城环境、建筑形态与材料色彩分析",
+        "地域文化元素的抽取、转译与建筑更新设计",
+        "鹤溪中路—建设路—府前路段案例设计与实施记录"
+      ],
+      "topics": [
+        "景宁县城建筑更新",
+        "畲族文化元素转译",
+        "建筑空间与环境",
+        "建筑形式与细部",
+        "乡土材料与城市色彩"
+      ],
+      "reading_status": "精读",
+      "read_scope": "通读论文正文七章与结语：印刷页1—107（PDF第10—116页），包括县城背景、畲族文化与民居材料、三类更新策略、案例设计与工程反思；核读封面题名、作者、导师和提交日期。Zotero全文显示截断，本地确认附件后以pypdf分段读取主体；MCP分页工具报invalid file trailer。PDF第65—66页提取为空，已用原页图核对；另视觉复核PDF第1、65—67、70、72—73、78—80、104、108—110、113—114页中的封面、方案图、构造图、色谱、案例前后照片及图书馆方案比较。印刷页与PDF页码不同，卡内分别标明。未把附件名中的年份作为出版年依据。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12实际读取；五章；村落整体—建筑组团—建筑单体多尺度；知识图谱支持建筑学分析）",
+      "reference_value": "潜在参考",
+      "tags": [
+        "paper-reading",
+        "景宁",
+        "畲族文化",
+        "建筑更新",
+        "城市风貌"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2012-朱凌-县城建筑有机更新.md",
+      "filename": "2012-朱凌-县城建筑有机更新.md"
+    },
+    {
+      "order": 23,
+      "title": "国家历史文化名城研究中心历史街区调研——浙江景宁东弄畲族村",
+      "item_type": "journalArticle",
+      "key": "PIMB8MAY",
+      "zotero_date": "2008",
+      "type": "paper-reading",
+      "schema_version": "1.0-trial",
+      "paper_id": "zotero:PIMB8MAY",
+      "authors": [
+        "汪梅"
+      ],
+      "column_host": "阮仪三",
+      "zotero_creators": [
+        "阮仪三"
+      ],
+      "authors_source": "原页图文署名，正式引用作者待期刊目录核验",
+      "year": 2008,
+      "venue": "城市规划, 2008(5), 97-98",
+      "doi": null,
+      "publication_type": "期刊调查报告/短文",
+      "source_locations": [
+        "zotero://select/library/items/PIMB8MAY",
+        "/Users/wangyuelin/Zotero/storage/YVPUXG82/阮仪三 - 2008 - 国家历史文化名城研究中心历史街区调研——浙江景宁东弄畲族村.pdf"
+      ],
+      "contribution_primary": "实证发现型",
+      "contribution_secondary": [],
+      "classification_status": "已核对",
+      "methods": [
+        "单村田野调查式描述",
+        "聚落空间与民居形制观察",
+        "建筑及村落照片记录"
+      ],
+      "topics": [
+        "景宁东弄畲族村",
+        "山地聚落格局",
+        "畲族民居空间与构造",
+        "村落保护与旅游"
+      ],
+      "reading_status": "精读",
+      "read_scope": "核读原刊印刷页97—98（本地PDF第1—2页）可见的全部图文。Zotero MCP元数据与附件路径已读取；MCP全文只返回截短摘要并提示未找到合适附件，PDF outline因缺PyMuPDF失败，分页工具因invalid file trailer失败。本地确认附件为2页扫描件，pypdf提取不到文字，遂用macOS Quick Look逐页生成原页临时预览，视觉核对村落地图、照片、全部可见正文及页码范围。第98页底部最后一句在“住宅楼梯则设于左右”处被扫描版截断；后续文字无法核读，未补写。",
+      "created": "2026-10-12",
+      "updated": "2026-10-12",
+      "research_context": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md（2026-10-12实际读取；五章、多尺度、知识图谱支持建筑学分析；计划内容不作为已完成结果）",
+      "reference_value": "核心参考",
+      "tags": [
+        "paper-reading",
+        "景宁畲族",
+        "东弄村",
+        "传统民居",
+        "历史调查"
+      ],
+      "path": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/2008-阮仪三-东弄畲族村调研.md",
+      "filename": "2008-阮仪三-东弄畲族村调研.md"
+    }
+  ]
+}

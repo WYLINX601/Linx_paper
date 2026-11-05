@@ -1,0 +1,70 @@
+{
+  "role": "pre-change-archive",
+  "scope": "本轮实际覆盖的主源与派生视图，不是全库或数据库备份",
+  "files": [
+    {
+      "path": "论文章节/大纲结构.yaml",
+      "sha256": "2666f114ac7f8340addd605f9a2a48d6524a52fe29d6961b1f3edbe03b65b754"
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "71ee73b37621c37f330e83e0390273c07ad8d5bf5e5030a54079745aa1e0cccb"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "2e046ae14d4cc73df22eaaf4114c61d88c83fad546f50c6f2dc40a07511e7726"
+    },
+    {
+      "path": "项目管理/学术大纲与角色命名修订说明.md",
+      "sha256": "aca1ddce57e95b79458a3e0e230a666d08b4b91071e830ad90c263aa403574e7"
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "4cdfff2811d892fb16821f9fccdab8e02989951239807ef5ed099bf28d4152ef"
+    },
+    {
+      "path": "项目管理/章节采用记录.json",
+      "sha256": "e534a45676d98aa0338168075c32cc6a3a6c8574455eb82c402fc19169ff1abc"
+    },
+    {
+      "path": "项目管理/章节主题映射.md",
+      "sha256": "bd42d019346d484a9b326e7a172d2c81a22d721a106e5db35cb32c7579ed7de3"
+    },
+    {
+      "path": "论文章节/01-绪论/章节导航.md",
+      "sha256": "d7624a633fbdfaf6517a063abbf3e4891510ab59254f50d571c4313c9f8cd6fa"
+    },
+    {
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "sha256": "6656b2e8956b16b2e780344e2d0e59750483de935daca5e301ae186bfb08f243"
+    },
+    {
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "sha256": "61a53b6410189450b11b73311470ea0b14008c06226254cd7f207e047634822a"
+    },
+    {
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "sha256": "2889a79267ef19a5e3ab59de6914fadfe6afd7a0dda087e5ac71941a1dea76bf"
+    },
+    {
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "sha256": "d14f3c7889aa740cb85bfa7e1afa4d39f3ff5d1a0b461c4e0f2712c18c762984"
+    },
+    {
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "sha256": "38a18364534c31f90dacece1ca450fb93d82888c1443d3b67f88289dde2682ca"
+    },
+    {
+      "path": "论文章节/现行大纲.md",
+      "sha256": "fbb43fbae89e69ecada082db6815c4b898c722299cb433c42ccb4dc36566371f"
+    },
+    {
+      "path": "论文章节/README.md",
+      "sha256": "dbf8653eeed2ea5d956c735245f83ff52f2cc934a2892778efc6df294ffeae85"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "eb55fb7fc4db9cefc6102c75946f9fefc60d75dd95bd832245c4175b79e5f3c2"
+    }
+  ]
+}

@@ -1,0 +1,658 @@
+[
+  {
+    "name": "C01_member_to_source_EV09",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing/ambiguous member organisation C01"
+  },
+  {
+    "name": "C01_member_to_source_EV09",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing/ambiguous member organisation C01"
+  },
+  {
+    "name": "C01_member_to_wrong_building_B02",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing/ambiguous member organisation C01"
+  },
+  {
+    "name": "C01_member_to_wrong_building_B02",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing/ambiguous member organisation C01"
+  },
+  {
+    "name": "I01_duplicate_side_a",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Interface side roles/endpoints I01"
+  },
+  {
+    "name": "I01_duplicate_side_a",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Interface side roles/endpoints I01"
+  },
+  {
+    "name": "I01_nonspace_wall_side",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Interface side roles/endpoints I01"
+  },
+  {
+    "name": "I01_nonspace_wall_side",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Interface side roles/endpoints I01"
+  },
+  {
+    "name": "I01_nonspace_source_side",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Interface side roles/endpoints I01"
+  },
+  {
+    "name": "I01_nonspace_source_side",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Interface side roles/endpoints I01"
+  },
+  {
+    "name": "I02_nonwall_column_host",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Interface host endpoint I02"
+  },
+  {
+    "name": "I02_nonwall_column_host",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local boundary cache differs from actual geometry"
+  },
+  {
+    "name": "I02_nonwall_space_host",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Interface host endpoint I02"
+  },
+  {
+    "name": "I02_nonwall_space_host",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local boundary cache differs from actual geometry"
+  },
+  {
+    "name": "SRC_C01_empty_fields",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Empty/invalid source fields SRC-C01"
+  },
+  {
+    "name": "SRC_C01_empty_fields",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Empty/invalid source fields SRC-C01"
+  },
+  {
+    "name": "SRC_C01_missing_fields",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "KeyError",
+    "message": "'fields'"
+  },
+  {
+    "name": "SRC_C01_missing_fields",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Empty/invalid source fields SRC-C01"
+  },
+  {
+    "name": "SRC_C01_wrong_source_version",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Source version mismatch"
+  },
+  {
+    "name": "SRC_C01_wrong_source_version",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Application source identity/version SRC-C01"
+  },
+  {
+    "name": "SRC_C01_wrong_source_uid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Property source identity mismatch"
+  },
+  {
+    "name": "SRC_C01_wrong_source_uid",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Application source identity/version SRC-C01"
+  },
+  {
+    "name": "SRC_C01_wrong_locator",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Application source locator SRC-C01"
+  },
+  {
+    "name": "SRC_C01_wrong_locator",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Application source locator SRC-C01"
+  },
+  {
+    "name": "SRC_C01_wrong_locator_kind",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Application source locator SRC-C01"
+  },
+  {
+    "name": "SRC_C01_wrong_locator_kind",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Application source locator SRC-C01"
+  },
+  {
+    "name": "SRC_C01_missing_diameter_support",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing application field support C01"
+  },
+  {
+    "name": "SRC_C01_missing_diameter_support",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing application field support C01"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_assertionSourceUid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_assertionSourceUid",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance BOUND-S04-C01"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_assertionSourceVersion",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_assertionSourceVersion",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance BOUND-S04-C01"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_assertionLocator",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance BOUND-S04-C01"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_assertionLocator",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance BOUND-S04-C01"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_sourceUid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_sourceUid",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_sourceVersion",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_sourceVersion",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_locator",
+    "mode": "canonical",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "valid"
+  },
+  {
+    "name": "BOUND-S04-C01_wrong_locator",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_assertionSourceUid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_assertionSourceUid",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance BOUND-S04-C01"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_assertionSourceVersion",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_assertionSourceVersion",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance BOUND-S04-C01"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_assertionLocator",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_assertionLocator",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance BOUND-S04-C01"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_sourceUid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "KeyError",
+    "message": "'sourceUid'"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_sourceUid",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_sourceVersion",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "KeyError",
+    "message": "'sourceVersion'"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_sourceVersion",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_locator",
+    "mode": "canonical",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "valid"
+  },
+  {
+    "name": "BOUND-S04-C01_missing_locator",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "R059_wrong_assertionSourceUid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "R059_wrong_assertionSourceUid",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance R059"
+  },
+  {
+    "name": "R059_wrong_assertionSourceVersion",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "R059_wrong_assertionSourceVersion",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance R059"
+  },
+  {
+    "name": "R059_wrong_assertionLocator",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance R059"
+  },
+  {
+    "name": "R059_wrong_assertionLocator",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance R059"
+  },
+  {
+    "name": "R059_wrong_sourceUid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "name": "R059_wrong_sourceUid",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "R059_wrong_sourceVersion",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "name": "R059_wrong_sourceVersion",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "R059_wrong_locator",
+    "mode": "canonical",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "valid"
+  },
+  {
+    "name": "R059_wrong_locator",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "R059_missing_assertionSourceUid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "R059_missing_assertionSourceUid",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance R059"
+  },
+  {
+    "name": "R059_missing_assertionSourceVersion",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "R059_missing_assertionSourceVersion",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance R059"
+  },
+  {
+    "name": "R059_missing_assertionLocator",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "R059_missing_assertionLocator",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local relationship provenance R059"
+  },
+  {
+    "name": "R059_missing_sourceUid",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "KeyError",
+    "message": "'sourceUid'"
+  },
+  {
+    "name": "R059_missing_sourceUid",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "R059_missing_sourceVersion",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "KeyError",
+    "message": "'sourceVersion'"
+  },
+  {
+    "name": "R059_missing_sourceVersion",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "R059_missing_locator",
+    "mode": "canonical",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "valid"
+  },
+  {
+    "name": "R059_missing_locator",
+    "mode": "actualLPG",
+    "rejected": false,
+    "rawModelUnchanged": true,
+    "returned": "full analysis with passed application labels"
+  },
+  {
+    "name": "EV01_wrong_source_version",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Relationship assertion provenance"
+  },
+  {
+    "name": "EV01_wrong_source_version",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Unsupported extension field B01.analysisItems"
+  },
+  {
+    "name": "C01_missing_diameter",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Source covers nonexistent property"
+  },
+  {
+    "name": "C01_missing_diameter",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing application source field C01"
+  },
+  {
+    "name": "S04_missing_boundaryBasis",
+    "mode": "canonical",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Source covers nonexistent property"
+  },
+  {
+    "name": "S04_missing_boundaryBasis",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing application source field S04"
+  },
+  {
+    "name": "C01_missing_geometry",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Missing actual geometry C01"
+  },
+  {
+    "name": "BOUND_S04_C01_changed_cache",
+    "mode": "actualLPG",
+    "rejected": true,
+    "rawModelUnchanged": true,
+    "exceptionType": "ValueError",
+    "message": "Local boundary cache differs from actual geometry"
+  }
+]

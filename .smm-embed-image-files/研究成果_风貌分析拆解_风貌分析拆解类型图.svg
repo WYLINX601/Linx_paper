@@ -1,0 +1,184 @@
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:svgjs="http://svgjs.dev/svgjs" width="1237" height="532" style="background-color: rgb(255, 255, 255);"><title></title><g class="smm-container" transform="matrix(1,0,0,1,-542.43359375,-174.8515625)"><g class="smm-line-container"><path d="M 990.43359375,440.8515625L 1052.83359375,440.8515625L 1052.83359375,206.8515625Q 1052.83359375,201.8515625 1057.83359375,201.8515625L 1094.43359375,201.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 990.43359375,440.8515625L 1052.83359375,440.8515625L 1052.83359375,367.8515625Q 1052.83359375,362.8515625 1057.83359375,362.8515625L 1094.43359375,362.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 990.43359375,440.8515625L 1052.83359375,440.8515625L 1052.83359375,518.8515625Q 1052.83359375,523.8515625 1057.83359375,523.8515625L 1094.43359375,523.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 990.43359375,440.8515625L 1052.83359375,440.8515625L 1052.83359375,596.8515625Q 1052.83359375,601.8515625 1057.83359375,601.8515625L 1094.43359375,601.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 990.43359375,440.8515625L 1052.83359375,440.8515625L 1052.83359375,674.8515625Q 1052.83359375,679.8515625 1057.83359375,679.8515625L 1094.43359375,679.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 1338.43359375,362.8515625L 1370.83359375,362.8515625L 1370.83359375,282.8515625Q 1370.83359375,277.8515625 1375.83359375,277.8515625L 1392.43359375,277.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 1338.43359375,362.8515625L 1370.83359375,362.8515625L 1370.83359375,316.8515625Q 1370.83359375,311.8515625 1375.83359375,311.8515625L 1392.43359375,311.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 1338.43359375,362.8515625L 1370.83359375,362.8515625L 1370.83359375,350.8515625Q 1370.83359375,345.8515625 1375.83359375,345.8515625L 1392.43359375,345.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 1338.43359375,362.8515625L 1370.83359375,362.8515625L 1370.83359375,374.8515625Q 1370.83359375,379.8515625 1375.83359375,379.8515625L 1392.43359375,379.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 1338.43359375,362.8515625L 1370.83359375,362.8515625L 1370.83359375,408.8515625Q 1370.83359375,413.8515625 1375.83359375,413.8515625L 1392.43359375,413.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path><path d="M 1338.43359375,362.8515625L 1370.83359375,362.8515625L 1370.83359375,442.8515625Q 1370.83359375,447.8515625 1375.83359375,447.8515625L 1392.43359375,447.8515625" stroke-dasharray="none" stroke-width="2" stroke="#333333" fill="none"></path></g><g class="smm-outer-frame-container"></g><g class="smm-node-container"><g class="smm-node" transform="matrix(1,0,0,1,551.43359375,420.3515625)" style="cursor: default;"><path d="
+      M5,0
+      L432,0
+      C432,0 437,0 437,5
+      L437,34
+      C437,34 437,39 432,39
+      L5,39
+      C5,39 0,39 0,34
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#ffd613" stroke-dasharray="none" stroke-width="2" stroke="#1f2021"></path><g transform="matrix(1,0,0,1,16,6)"><g data-width="363" data-height="29" data-offsetx="0"><foreignObject width="363" height="29" x="0" y="0" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 24px; font-weight: bold; font-style: normal; text-decoration: none; color: rgb(45, 43, 35); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>风貌分析拆解类型图
+D01首轮审核</p></div><style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+  </style></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="365" y="4.5"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#2d2b23"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg><svg cursor="pointer" class="smm-node-note" width="20" height="20" x="387" y="4.5"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#2d2b23"><path d="M152.768 985.984 152.768 49.856l434.56 0 66.816 0 234.048 267.392 0 66.816 0 601.92L152.768 985.984 152.768 985.984zM654.144 193.088l0 124.16 108.736 0L654.144 193.088 654.144 193.088zM821.312 384.064l-167.168 0L587.328 384.064 587.328 317.312 587.328 116.736 219.584 116.736 219.584 919.04l601.728 0L821.312 384.064 821.312 384.064zM386.688 517.888 319.808 517.888 319.808 450.944l66.816 0L386.624 517.888 386.688 517.888zM386.688 651.584 319.808 651.584 319.808 584.704l66.816 0L386.624 651.584 386.688 651.584zM386.688 785.344 319.808 785.344l0-66.88 66.816 0L386.624 785.344 386.688 785.344zM721.024 517.888 453.632 517.888 453.632 450.944l267.392 0L721.024 517.888 721.024 517.888zM654.144 651.584 453.632 651.584 453.632 584.704l200.512 0L654.144 651.584 654.144 651.584zM620.672 785.344l-167.04 0 0-66.88 167.04 0L620.672 785.344 620.672 785.344z"></path></svg></svg></g><rect width="443" height="45" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1094.43359375,184.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L152,0
+      C152,0 157,0 157,5
+      L157,27
+      C157,27 157,32 152,32
+      L5,32
+      C5,32 0,32 0,27
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#d1ebf8" stroke-dasharray="none" stroke-width="2" stroke="#333333"></path><rect fill="transparent" width="20" height="34" x="159" y="0"></rect><g transform="matrix(1,0,0,1,16,6)"><g data-width="127" data-height="22" data-offsetx="0"><foreignObject width="127" height="22" x="0" y="0" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(113, 123, 128); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>审核说明与范围</p></div></foreignObject></g></g><rect width="163" height="38" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,159,17)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">5</tspan></text></g></g><g class="smm-node" transform="matrix(1,0,0,1,1094.43359375,345.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L237,0
+      C237,0 242,0 242,5
+      L242,27
+      C242,27 242,32 237,32
+      L5,32
+      C5,32 0,32 0,27
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#d1ebf8" stroke-dasharray="none" stroke-width="2" stroke="#333333"></path><rect fill="transparent" width="20" height="34" x="244" y="0"></rect><g transform="matrix(1,0,0,1,16,6)"><g data-width="212" data-height="22" data-offsetx="0"><foreignObject width="212" height="22" x="0" y="0" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(113, 123, 128); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>D01｜体量构成与整体形态</p></div></foreignObject></g></g><rect width="248" height="38" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1392.43359375,262.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L308,0
+      C308,0 313,0 313,5
+      L313,25
+      C313,25 313,30 308,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="transparent" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><rect fill="transparent" width="20" height="30" x="313" y="0"></rect><g transform="matrix(1,0,0,1,15,5)"><g data-width="239" data-height="17" data-offsetx="0"><foreignObject width="239" height="17" x="0" y="1.5" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(51, 51, 51); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>D01-T01｜水平尺度与比例（待审核）</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="241" y="0"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T01 水平尺度与比例]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T01 水平尺度与比例" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg><svg cursor="pointer" class="smm-node-note" width="20" height="20" x="263" y="0"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M152.768 985.984 152.768 49.856l434.56 0 66.816 0 234.048 267.392 0 66.816 0 601.92L152.768 985.984 152.768 985.984zM654.144 193.088l0 124.16 108.736 0L654.144 193.088 654.144 193.088zM821.312 384.064l-167.168 0L587.328 384.064 587.328 317.312 587.328 116.736 219.584 116.736 219.584 919.04l601.728 0L821.312 384.064 821.312 384.064zM386.688 517.888 319.808 517.888 319.808 450.944l66.816 0L386.624 517.888 386.688 517.888zM386.688 651.584 319.808 651.584 319.808 584.704l66.816 0L386.624 651.584 386.688 651.584zM386.688 785.344 319.808 785.344l0-66.88 66.816 0L386.624 785.344 386.688 785.344zM721.024 517.888 453.632 517.888 453.632 450.944l267.392 0L721.024 517.888 721.024 517.888zM654.144 651.584 453.632 651.584 453.632 584.704l200.512 0L654.144 651.584 654.144 651.584zM620.672 785.344l-167.04 0 0-66.88 167.04 0L620.672 785.344 620.672 785.344z"></path></svg></svg></g><rect width="317" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,313,15)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">14</tspan></text></g></g><g class="smm-node" transform="matrix(1,0,0,1,1392.43359375,296.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L310,0
+      C310,0 315,0 315,5
+      L315,25
+      C315,25 315,30 310,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="transparent" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><rect fill="transparent" width="20" height="30" x="315" y="0"></rect><g transform="matrix(1,0,0,1,15,5)"><g data-width="241" data-height="17" data-offsetx="0"><foreignObject width="241" height="17" x="0" y="1.5" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(51, 51, 51); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>D01-T02｜竖向尺度与比例（待审核）</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="243" y="0"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T02 竖向尺度与比例]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T02 竖向尺度与比例" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg><svg cursor="pointer" class="smm-node-note" width="20" height="20" x="265" y="0"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M152.768 985.984 152.768 49.856l434.56 0 66.816 0 234.048 267.392 0 66.816 0 601.92L152.768 985.984 152.768 985.984zM654.144 193.088l0 124.16 108.736 0L654.144 193.088 654.144 193.088zM821.312 384.064l-167.168 0L587.328 384.064 587.328 317.312 587.328 116.736 219.584 116.736 219.584 919.04l601.728 0L821.312 384.064 821.312 384.064zM386.688 517.888 319.808 517.888 319.808 450.944l66.816 0L386.624 517.888 386.688 517.888zM386.688 651.584 319.808 651.584 319.808 584.704l66.816 0L386.624 651.584 386.688 651.584zM386.688 785.344 319.808 785.344l0-66.88 66.816 0L386.624 785.344 386.688 785.344zM721.024 517.888 453.632 517.888 453.632 450.944l267.392 0L721.024 517.888 721.024 517.888zM654.144 651.584 453.632 651.584 453.632 584.704l200.512 0L654.144 651.584 654.144 651.584zM620.672 785.344l-167.04 0 0-66.88 167.04 0L620.672 785.344 620.672 785.344z"></path></svg></svg></g><rect width="319" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,315,15)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">14</tspan></text></g></g><g class="smm-node" transform="matrix(1,0,0,1,1392.43359375,330.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L352,0
+      C352,0 357,0 357,5
+      L357,25
+      C357,25 357,30 352,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="transparent" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><rect fill="transparent" width="20" height="30" x="357" y="0"></rect><g transform="matrix(1,0,0,1,15,5)"><g data-width="283" data-height="17" data-offsetx="0"><foreignObject width="283" height="17" x="0" y="1.5" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(51, 51, 51); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>D01-T03｜屋顶对整体体量的贡献（待审核）</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="285" y="0"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T03 屋顶对整体体量的贡献]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T03 屋顶对整体体量的贡献" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg><svg cursor="pointer" class="smm-node-note" width="20" height="20" x="307" y="0"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M152.768 985.984 152.768 49.856l434.56 0 66.816 0 234.048 267.392 0 66.816 0 601.92L152.768 985.984 152.768 985.984zM654.144 193.088l0 124.16 108.736 0L654.144 193.088 654.144 193.088zM821.312 384.064l-167.168 0L587.328 384.064 587.328 317.312 587.328 116.736 219.584 116.736 219.584 919.04l601.728 0L821.312 384.064 821.312 384.064zM386.688 517.888 319.808 517.888 319.808 450.944l66.816 0L386.624 517.888 386.688 517.888zM386.688 651.584 319.808 651.584 319.808 584.704l66.816 0L386.624 651.584 386.688 651.584zM386.688 785.344 319.808 785.344l0-66.88 66.816 0L386.624 785.344 386.688 785.344zM721.024 517.888 453.632 517.888 453.632 450.944l267.392 0L721.024 517.888 721.024 517.888zM654.144 651.584 453.632 651.584 453.632 584.704l200.512 0L654.144 651.584 654.144 651.584zM620.672 785.344l-167.04 0 0-66.88 167.04 0L620.672 785.344 620.672 785.344z"></path></svg></svg></g><rect width="361" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,357,15)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">13</tspan></text></g></g><g class="smm-node" transform="matrix(1,0,0,1,1392.43359375,364.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L296,0
+      C296,0 301,0 301,5
+      L301,25
+      C301,25 301,30 296,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="transparent" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><rect fill="transparent" width="20" height="30" x="301" y="0"></rect><g transform="matrix(1,0,0,1,15,5)"><g data-width="227" data-height="17" data-offsetx="0"><foreignObject width="227" height="17" x="0" y="1.5" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(51, 51, 51); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>D01-T04｜局部轮廓变化（待审核）</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="229" y="0"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T04 局部轮廓变化]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T04 局部轮廓变化" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg><svg cursor="pointer" class="smm-node-note" width="20" height="20" x="251" y="0"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M152.768 985.984 152.768 49.856l434.56 0 66.816 0 234.048 267.392 0 66.816 0 601.92L152.768 985.984 152.768 985.984zM654.144 193.088l0 124.16 108.736 0L654.144 193.088 654.144 193.088zM821.312 384.064l-167.168 0L587.328 384.064 587.328 317.312 587.328 116.736 219.584 116.736 219.584 919.04l601.728 0L821.312 384.064 821.312 384.064zM386.688 517.888 319.808 517.888 319.808 450.944l66.816 0L386.624 517.888 386.688 517.888zM386.688 651.584 319.808 651.584 319.808 584.704l66.816 0L386.624 651.584 386.688 651.584zM386.688 785.344 319.808 785.344l0-66.88 66.816 0L386.624 785.344 386.688 785.344zM721.024 517.888 453.632 517.888 453.632 450.944l267.392 0L721.024 517.888 721.024 517.888zM654.144 651.584 453.632 651.584 453.632 584.704l200.512 0L654.144 651.584 654.144 651.584zM620.672 785.344l-167.04 0 0-66.88 167.04 0L620.672 785.344 620.672 785.344z"></path></svg></svg></g><rect width="305" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,301,15)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">13</tspan></text></g></g><g class="smm-node" transform="matrix(1,0,0,1,1392.43359375,398.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L310,0
+      C310,0 315,0 315,5
+      L315,25
+      C315,25 315,30 310,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="transparent" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><rect fill="transparent" width="20" height="30" x="315" y="0"></rect><g transform="matrix(1,0,0,1,15,5)"><g data-width="241" data-height="17" data-offsetx="0"><foreignObject width="241" height="17" x="0" y="1.5" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(51, 51, 51); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>D01-T05｜单体间体量组合（待审核）</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="243" y="0"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T05 单体间体量组合]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T05 单体间体量组合" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg><svg cursor="pointer" class="smm-node-note" width="20" height="20" x="265" y="0"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M152.768 985.984 152.768 49.856l434.56 0 66.816 0 234.048 267.392 0 66.816 0 601.92L152.768 985.984 152.768 985.984zM654.144 193.088l0 124.16 108.736 0L654.144 193.088 654.144 193.088zM821.312 384.064l-167.168 0L587.328 384.064 587.328 317.312 587.328 116.736 219.584 116.736 219.584 919.04l601.728 0L821.312 384.064 821.312 384.064zM386.688 517.888 319.808 517.888 319.808 450.944l66.816 0L386.624 517.888 386.688 517.888zM386.688 651.584 319.808 651.584 319.808 584.704l66.816 0L386.624 651.584 386.688 651.584zM386.688 785.344 319.808 785.344l0-66.88 66.816 0L386.624 785.344 386.688 785.344zM721.024 517.888 453.632 517.888 453.632 450.944l267.392 0L721.024 517.888 721.024 517.888zM654.144 651.584 453.632 651.584 453.632 584.704l200.512 0L654.144 651.584 654.144 651.584zM620.672 785.344l-167.04 0 0-66.88 167.04 0L620.672 785.344 620.672 785.344z"></path></svg></svg></g><rect width="319" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,315,15)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">13</tspan></text></g></g><g class="smm-node" transform="matrix(1,0,0,1,1392.43359375,432.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L352,0
+      C352,0 357,0 357,5
+      L357,25
+      C357,25 357,30 352,30
+      L5,30
+      C5,30 0,30 0,25
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,0,0)" fill="transparent" stroke-dasharray="none" stroke-width="0" stroke="transparent"></path><rect fill="transparent" width="20" height="30" x="357" y="0"></rect><g transform="matrix(1,0,0,1,15,5)"><g data-width="283" data-height="17" data-offsetx="0"><foreignObject width="283" height="17" x="0" y="1.5" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 14px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(51, 51, 51); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>D01-T06｜建筑与院落的整体关系（待审核）</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="285" y="0"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T06 建筑与院落的整体关系]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T06 建筑与院落的整体关系" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg><svg cursor="pointer" class="smm-node-note" width="20" height="20" x="307" y="0"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#333333"><path d="M152.768 985.984 152.768 49.856l434.56 0 66.816 0 234.048 267.392 0 66.816 0 601.92L152.768 985.984 152.768 985.984zM654.144 193.088l0 124.16 108.736 0L654.144 193.088 654.144 193.088zM821.312 384.064l-167.168 0L587.328 384.064 587.328 317.312 587.328 116.736 219.584 116.736 219.584 919.04l601.728 0L821.312 384.064 821.312 384.064zM386.688 517.888 319.808 517.888 319.808 450.944l66.816 0L386.624 517.888 386.688 517.888zM386.688 651.584 319.808 651.584 319.808 584.704l66.816 0L386.624 651.584 386.688 651.584zM386.688 785.344 319.808 785.344l0-66.88 66.816 0L386.624 785.344 386.688 785.344zM721.024 517.888 453.632 517.888 453.632 450.944l267.392 0L721.024 517.888 721.024 517.888zM654.144 651.584 453.632 651.584 453.632 584.704l200.512 0L654.144 651.584 654.144 651.584zM620.672 785.344l-167.04 0 0-66.88 167.04 0L620.672 785.344 620.672 785.344z"></path></svg></svg></g><rect width="361" height="34" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,357,15)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">14</tspan></text></g></g><g class="smm-node" transform="matrix(1,0,0,1,1094.43359375,506.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L228,0
+      C228,0 233,0 233,5
+      L233,27
+      C233,27 233,32 228,32
+      L5,32
+      C5,32 0,32 0,27
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#d1ebf8" stroke-dasharray="none" stroke-width="2" stroke="#333333"></path><rect fill="transparent" width="20" height="34" x="235" y="0"></rect><g transform="matrix(1,0,0,1,16,6)"><g data-width="181" data-height="22" data-offsetx="0"><foreignObject width="181" height="22" x="0" y="0" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(113, 123, 128); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>共用口径与条件性需求</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="183" y="1"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#共用记录口径]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#共用记录口径" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#717b80"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg></g><rect width="239" height="38" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,235,17)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">8</tspan></text></g></g><g class="smm-node" transform="matrix(1,0,0,1,1094.43359375,584.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L367,0
+      C367,0 372,0 372,5
+      L372,27
+      C372,27 372,32 367,32
+      L5,32
+      C5,32 0,32 0,27
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#d1ebf8" stroke-dasharray="none" stroke-width="2" stroke="#333333"></path><g transform="matrix(1,0,0,1,16,6)"><g data-width="298" data-height="22" data-offsetx="0"><foreignObject width="298" height="22" x="0" y="0" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(113, 123, 128); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>示意反例｜自身高度 ≠ 共同基准高差</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="300" y="1"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#口径核对示例：自身高度不等于组合高差]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#口径核对示例：自身高度不等于组合高差" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#717b80"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg><svg cursor="pointer" class="smm-node-note" width="20" height="20" x="322" y="1"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#717b80"><path d="M152.768 985.984 152.768 49.856l434.56 0 66.816 0 234.048 267.392 0 66.816 0 601.92L152.768 985.984 152.768 985.984zM654.144 193.088l0 124.16 108.736 0L654.144 193.088 654.144 193.088zM821.312 384.064l-167.168 0L587.328 384.064 587.328 317.312 587.328 116.736 219.584 116.736 219.584 919.04l601.728 0L821.312 384.064 821.312 384.064zM386.688 517.888 319.808 517.888 319.808 450.944l66.816 0L386.624 517.888 386.688 517.888zM386.688 651.584 319.808 651.584 319.808 584.704l66.816 0L386.624 651.584 386.688 651.584zM386.688 785.344 319.808 785.344l0-66.88 66.816 0L386.624 785.344 386.688 785.344zM721.024 517.888 453.632 517.888 453.632 450.944l267.392 0L721.024 517.888 721.024 517.888zM654.144 651.584 453.632 651.584 453.632 584.704l200.512 0L654.144 651.584 654.144 651.584zM620.672 785.344l-167.04 0 0-66.88 167.04 0L620.672 785.344 620.672 785.344z"></path></svg></svg></g><rect width="378" height="38" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect></g><g class="smm-node" transform="matrix(1,0,0,1,1094.43359375,662.8515625)" style="cursor: default;"><path d="
+      M5,0
+      L174,0
+      C174,0 179,0 179,5
+      L179,27
+      C179,27 179,32 174,32
+      L5,32
+      C5,32 0,32 0,27
+      L0,5
+      C0,5 0,0 5,0
+      Z
+    " class="smm-node-shape" transform="matrix(1,0,0,1,1,1)" fill="#d1ebf8" stroke-dasharray="none" stroke-width="2" stroke="#333333"></path><rect fill="transparent" width="20" height="34" x="181" y="0"></rect><g transform="matrix(1,0,0,1,16,6)"><g data-width="127" data-height="22" data-offsetx="0"><foreignObject width="127" height="22" x="0" y="0" style="line-height: 1.2; font-family: 微软雅黑, &quot;Microsoft YaHei&quot;; font-size: 18px; font-weight: normal; font-style: normal; text-decoration: none; color: rgb(113, 123, 128); text-align: left;"><div class="smm-richtext-node-wrap" xmlns="http://www.w3.org/1999/xhtml" style="max-width: 500px;"><p>来源与证据边界</p></div></foreignObject></g><svg width="20" height="20" class="smm-node-hyperlink" x="129" y="1"><title>[[研究成果/风貌分析拆解/风貌分析拆解类型表.md#来源、出处与支持范围]]</title><a xlink:href="研究成果/风貌分析拆解/风貌分析拆解类型表.md#来源、出处与支持范围" target="_blank"><rect width="20" height="20" fill="transparent"></rect><svg viewBox="0 0 1024 1024" width="20" height="20" fill="#717b80"><path d="M556.8 601.6h201.6v89.6H556.8z"></path><path d="M870.4 870.4H153.6c-37.1 0-67.2-30.1-67.2-67.2V220.8c0-37.1 30.1-67.2 67.2-67.2h173.9c10.4 0 20.8 2.4 30 7.1l165 82.5h347.8c37.1 0 67.2 30.1 67.2 67.2v492.8c0.1 37.1-30 67.2-67.1 67.2zM176 780.8h672v-448H517.3c-10.4 0-20.8-2.4-30-7.1l-165-82.5H176v537.6z"></path></svg></a></svg></g><rect width="185" height="38" x="-2" y="-2" class="smm-hover-node" rx="5" ry="5" fill="none" stroke="#5ec8f8"></rect><g class="smm-expand-btn" transform="matrix(1,0,0,1,181,17)"><circle r="10" cx="10" cy="0" fill="#ffffff" stroke="#333333"></circle><text class="smm-expand-btn-text" text-anchor="middle" dominant-baseline="middle" x="10" y="2" fill="#808080" font-size="13px" svgjs:data="{&quot;leading&quot;:&quot;1.3&quot;}"><tspan dy="0" x="10" svgjs:data="{&quot;newLined&quot;:true}">6</tspan></text></g></g></g><g class="smm-associative-line-container"></g><g class="smm-other-container"></g><g class="smm-chat-dialog-container"></g></g><style>
+  /* 鼠标hover和激活时渲染的矩形 */
+  .smm-hover-node{
+    display: none;
+    opacity: 0.6;
+    stroke-width: 1;
+  }
+
+  .smm-node:not(.smm-node-dragging):hover .smm-hover-node{
+    display: block;
+  }
+
+  .smm-node.active .smm-hover-node, .smm-node-highlight .smm-hover-node{
+    display: block;
+    opacity: 1;
+    stroke-width: 2;
+  }
+
+  .smm-text-node-wrap, .smm-expand-btn-text {
+    user-select: none;
+  }
+
+  .smm-desctext-node-wrap {
+    word-break: break-all;
+    user-select: none;
+  }
+
+      .smm-richtext-node-wrap {
+        word-break: break-all;
+        user-select: none;
+      }
+
+      .ql-editor .ql-align-left, 
+      .smm-richtext-node-wrap .ql-align-left {
+        text-align: left;
+      }
+
+      .smm-richtext-node-wrap .ql-align-right {
+        text-align: right;
+      }
+
+      .smm-richtext-node-wrap .ql-align-center {
+        text-align: center;
+      }
+      </style></svg>

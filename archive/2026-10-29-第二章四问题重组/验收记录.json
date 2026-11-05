@@ -1,0 +1,394 @@
+{
+  "date": "2026-10-29",
+  "status": "scoped-publication-verified-not-research-validation",
+  "chapter2_sections": [
+    "传统民居风貌的概念与研究内涵",
+    "传统民居风貌分析的理论与方法",
+    "知识图谱的概念与建模基础",
+    "风貌分析与知识图谱的结合及研究框架",
+    "本章小结：理论依据与研究框架"
+  ],
+  "verified_publication_files": [
+    {
+      "path": "archive/2026-10-29-第二章四问题重组/README.md",
+      "expected_sha256": null,
+      "after_sha256": "ef65ec58609dc833f5ef5a365cfdbdbc07d0445c1952887d99e43a15b99ed8fd"
+    },
+    {
+      "path": "archive/2026-10-29-第二章四问题重组/修改前主源与视图.zip",
+      "expected_sha256": null,
+      "after_sha256": "46aa650d00031a5e6c217edda292eb85935deecd3d1e28f92ec92f6ceb49c6a0"
+    },
+    {
+      "path": "archive/2026-10-29-第二章四问题重组/修改清单.json",
+      "expected_sha256": null,
+      "after_sha256": "bee4bbe1e84f64165ae4eeda4e117136cc0474ddc192f7725b764194b23bb5c4"
+    },
+    {
+      "path": "archive/README.md",
+      "expected_sha256": "66c243ca13853fa97e6a53268facb44feac82086968286483160c7eac909ed7d",
+      "after_sha256": "84c3125b20cf949904107331e654cc5deaf614d25626a4608408ce23b54147f4"
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "expected_sha256": "b685aec9ea2a49dc5f9afe74b035981ab377df19c19b2b6e732f20952ac2766d",
+      "after_sha256": "c4cee9fa4a42e9e463738dc63d0542020004754b7b83af642404c258eadc2b91"
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "expected_sha256": "d35c17d6d6591441151d2a6541bae4972f8cd901ea070e30d24a6a3a2b8b9c40",
+      "after_sha256": "57276d266f416dd8586655e0b7f8196fdd05cbb6a978f504e91e43c2389ccf3e"
+    },
+    {
+      "path": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口/〔理论与文献依据〕畲族民居研究现状与研究缺口.md",
+      "expected_sha256": "52019aae71a2d86bf0b382a086fd440e2e5be97a70e051b5ec2110c6f183c1c3",
+      "after_sha256": "205c34fe46b011dd53c5ee836e9d1aef6c7cc27425a8a5077670cca225d65ad6"
+    },
+    {
+      "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "expected_sha256": "72771b14a1e937170a52e36b23963ed1b02ac2983a368a52072b5762b56de154",
+      "after_sha256": "fcbb31b0696c7ba71c8c918dcbf039b30df00f0d00116cfdf7162fd477072f4e"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "expected_sha256": "25bd5a3af7bf5d6ac63526bdadeac8005cfc31b95118f423324f6f3dbcee9da9",
+      "after_sha256": "e20656703c4bd215f2679128e1c4b6e0f2dbd7ddcadc5098d9a6d011f20929ed"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "expected_sha256": "ed895b3ee3a58d5edaa22560c6e3ae7b56c44e7da0f3973a0c196afc372798d6",
+      "after_sha256": "b841735dc9c128aa051c1b45549e9dfebf7264498096f9514831011aa49d34af"
+    },
+    {
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "expected_sha256": "72af57a218e528d154705ce92acf7e52c25f67d441003cf6b3e6703525ee620e",
+      "after_sha256": "31e96d4284c7a359a19a57fde6c2a9e6111831729efcf7b7548705ec95fde7f3"
+    },
+    {
+      "path": "论文章节/大纲结构.yaml",
+      "expected_sha256": "894c69e50b6eb2ec6a91b6683b4ed7a1f2d378d85fd712242850e61d13491da4",
+      "after_sha256": "7317efd2503a01382646e0910aaae312a1b008ae7e8285cb965490a06abdaffc"
+    },
+    {
+      "path": "论文章节/现行大纲.md",
+      "expected_sha256": "26100414762ae1872f50eb03adb74b20e70066503c4f4d7bcdd03e53cb312ba2",
+      "after_sha256": "f98c26f38fcdfb5871f8907ffe50befefc7c7f7e956f0f50b21c70335e00f3af"
+    },
+    {
+      "path": "项目管理/章节主题映射.md",
+      "expected_sha256": "983276587ec82600ee10deb01953acba67740c3b21cd658d411eff1ae2b11aa4",
+      "after_sha256": "cfad5977befc5a7b99971cac121ad690cc84b9953e372eb54492c52614e1a31d"
+    },
+    {
+      "path": "项目管理/章节采用记录.json",
+      "expected_sha256": "8ee280929d75cfd9a2b744a03436d91d4f6311af285ce632612ed65fc61c09d1",
+      "after_sha256": "230306fcd7409b0f3229c514be0dacc1c3bd30b161a9f64921cb3d23dc0a45af"
+    }
+  ],
+  "generator": {
+    "chapters": 6,
+    "sections": 37,
+    "adoptions": 88,
+    "topics": 8,
+    "roles": 6,
+    "route_nodes": 13,
+    "artifact_packages": 20,
+    "artifact_relations": 59,
+    "out_of_sync": []
+  },
+  "protected_source_hashes": {
+    "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md": "b68cc0ab3a136a9d154a29cc5478aa1ca9b221768145aeebdfd75f3b93522f09",
+    "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md": "ff356ab34e1d844c466156e48ea36b4f8eb9e7ee8a6dec21898707318ea22169",
+    "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731"
+  },
+  "other_chapters_outline_tasks_unchanged": true,
+  "scoped_link_check": {
+    "scope": "exact changed Markdown and target anchors, not whole-vault health",
+    "documents": 10,
+    "before_links": 346,
+    "after_links": 379,
+    "pre_existing_issues": [
+      [
+        "archive/README.md",
+        "../01_sources/2026-10-13-研究背景新增依据核查.md",
+        "missing"
+      ],
+      [
+        "archive/README.md",
+        "../outputs/虚拟民居单体试验V01/Neo4j/README.md",
+        "missing"
+      ],
+      [
+        "archive/README.md",
+        "三维建模技术方案调研汇总与后续技术路线",
+        "ambiguous"
+      ],
+      [
+        "archive/README.md",
+        "研究对象候选汇总-导师浏览版",
+        "ambiguous"
+      ],
+      [
+        "archive/README.md",
+        "论文写作与证据说明",
+        "ambiguous"
+      ],
+      [
+        "archive/README.md",
+        "论文研究/_管理/改造报告.md",
+        "missing"
+      ]
+    ],
+    "after_issues": [
+      [
+        "archive/README.md",
+        "../01_sources/2026-10-13-研究背景新增依据核查.md",
+        "missing"
+      ],
+      [
+        "archive/README.md",
+        "../outputs/虚拟民居单体试验V01/Neo4j/README.md",
+        "missing"
+      ],
+      [
+        "archive/README.md",
+        "三维建模技术方案调研汇总与后续技术路线",
+        "ambiguous"
+      ],
+      [
+        "archive/README.md",
+        "研究对象候选汇总-导师浏览版",
+        "ambiguous"
+      ],
+      [
+        "archive/README.md",
+        "论文写作与证据说明",
+        "ambiguous"
+      ],
+      [
+        "archive/README.md",
+        "论文研究/_管理/改造报告.md",
+        "missing"
+      ]
+    ],
+    "new_issues": [],
+    "stable_anchors_preserved": true,
+    "other_chapter_tasks_unchanged": true,
+    "generator": {
+      "chapters": 6,
+      "sections": 37,
+      "adoptions": 88,
+      "topics": 8,
+      "roles": 6,
+      "route_nodes": 13,
+      "artifact_packages": 20,
+      "artifact_relations": 59
+    },
+    "snapshot_members_verified": 12
+  },
+  "browser_preview": {
+    "pages": 15,
+    "mermaid_diagrams": 8,
+    "results": [
+      {
+        "ready": true,
+        "title": "历史资料归档",
+        "characters": 2577,
+        "mermaid": 0,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "archive/README.md",
+        "file": "page-0.html",
+        "mermaid_expected": 0
+      },
+      {
+        "ready": true,
+        "title": "景宁畲族建筑研究项目上下文",
+        "characters": 13200,
+        "mermaid": 0,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "context/PROJECT_CONTEXT.md",
+        "file": "page-1.html",
+        "mermaid_expected": 0
+      },
+      {
+        "ready": true,
+        "title": "多尺度语义模型与建模依据",
+        "characters": 3356,
+        "mermaid": 0,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+        "file": "page-2.html",
+        "mermaid_expected": 0
+      },
+      {
+        "ready": true,
+        "title": "畲族民居研究现状与研究缺口",
+        "characters": 2640,
+        "mermaid": 0,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口/〔理论与文献依据〕畲族民居研究现状与研究缺口.md",
+        "file": "page-3.html",
+        "mermaid_expected": 0
+      },
+      {
+        "ready": true,
+        "title": "类型识别与语义关系表达",
+        "characters": 2875,
+        "mermaid": 0,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+        "file": "page-4.html",
+        "mermaid_expected": 0
+      },
+      {
+        "ready": true,
+        "title": "研究路径工作图",
+        "characters": 1843,
+        "mermaid": 1,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+        "file": "page-5.html",
+        "mermaid_expected": 1,
+        "errorDiagram": false,
+        "nodeCount": 13
+      },
+      {
+        "ready": true,
+        "title": "第2章 理论基础与研究框架",
+        "characters": 3942,
+        "mermaid": 1,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+        "file": "page-6.html",
+        "mermaid_expected": 1
+      },
+      {
+        "ready": true,
+        "title": "现行工作大纲",
+        "characters": 4941,
+        "mermaid": 1,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "论文章节/现行大纲.md",
+        "file": "page-7.html",
+        "mermaid_expected": 1
+      },
+      {
+        "ready": true,
+        "title": "章节—主题反向入口",
+        "characters": 5125,
+        "mermaid": 0,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "项目管理/章节主题映射.md",
+        "file": "page-8.html",
+        "mermaid_expected": 0
+      },
+      {
+        "ready": true,
+        "title": "第二章四问题重组前快照",
+        "characters": 769,
+        "mermaid": 0,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "archive/2026-10-29-第二章四问题重组/README.md",
+        "file": "page-9.html",
+        "mermaid_expected": 0
+      },
+      {
+        "ready": true,
+        "title": "第1章 绪论",
+        "characters": 2485,
+        "mermaid": 1,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "论文章节/01-绪论/章节导航.md",
+        "file": "page-10.html",
+        "mermaid_expected": 1
+      },
+      {
+        "ready": true,
+        "title": "第3章 传统民居多尺度风貌特征体系与知识图谱模型构建",
+        "characters": 3710,
+        "mermaid": 1,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "论文章节/03-体系与方法设计/章节导航.md",
+        "file": "page-11.html",
+        "mermaid_expected": 1
+      },
+      {
+        "ready": true,
+        "title": "第4章 景宁畲族传统民居风貌知识图谱构建",
+        "characters": 4017,
+        "mermaid": 1,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "论文章节/04-案例实施与检验/章节导航.md",
+        "file": "page-12.html",
+        "mermaid_expected": 1
+      },
+      {
+        "ready": true,
+        "title": "第5章 基于知识图谱的景宁畲族传统民居风貌特征分析",
+        "characters": 3223,
+        "mermaid": 1,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "论文章节/05-分析比较与讨论/章节导航.md",
+        "file": "page-13.html",
+        "mermaid_expected": 1
+      },
+      {
+        "ready": true,
+        "title": "第6章 结论与展望",
+        "characters": 1388,
+        "mermaid": 1,
+        "errors": [],
+        "horizontalOverflow": false,
+        "badTableRows": [],
+        "path": "论文章节/06-结论与展望/章节导航.md",
+        "file": "page-14.html",
+        "mermaid_expected": 1
+      }
+    ],
+    "scope": "Browser Markdown/Mermaid preview; not native Obsidian acceptance"
+  },
+  "review": {
+    "settings": {
+      "requested_model": "gpt-6.1-sol",
+      "requested_reasoning": "medium",
+      "reported_models": [
+        "gpt-6.1-sol"
+      ],
+      "reasoning_confirmation": "CLI flag explicit; stream init does not report effective reasoning effort",
+      "session_id": "local-39f3d5756dffb9e99439401aa5161df8944b95a3ed634e8694cfb3803edeacd9",
+      "exit_code": 0
+    },
+    "findings": "结论：应修改。四问已覆盖，既有积累与待补论证总体区分清楚；未将吴莹理论、BOT或合成试建升级为已选理论或真实验证。主要问题如下：\n\n1. 研究路径将三维关联设成实例图谱的必经条件，与正文的条件性定位不符。\nJSON中“spatial→case”为dependency，case标题又将“实例图谱与三维关联”捆绑，使三维资料不足时，真实实例图谱似乎也不能成立；正文却要求分别论证图谱必要性与三维用途。\n建议：case改为“构建景宁畲族民居实例图谱”；三维关联标为资料与用途满足时展开的条件分支，保留模型、真实样本到实例图谱的直接依赖。第五章也应区分图谱证据与三维关联证据，不把后者设为全部分析的前提。\n\n2. 新章名与正文入口仍指向旧章，尚不能作为已对齐的发布结构。\nchapter-2标题为“理论基础与研究框架”，body_source却指向“第二章 景宁畲族传统民居研究对象与多尺度资料基础”；新四节又明确“无对应的新正文”。目录方案与正文入口因此处于不同版本。\n建议：保留旧入口，但明确标注“旧正文参考，尚未按新大纲改写”，不要让body_source承担当前正文已对应的含义；本轮无需补写正文。目录路径本身保留旧名称不必强制改动，关键是入口职责准确。\n\n3. 一处来源题名字面可疑，不能直接作为可靠书目信息发布。\n“陈锦棠、姚圣、田银生《形态类型学理论以及本土化的探明》（2017）”中的“探明”疑似误录；现有候选文本不足以确定正确题名，也不足以判定来源不存在。\n建议：该处暂写为“陈锦棠等形态类型学相关文章，条目V5RJB5WJ，题名待核”，或暂不展开题名；之后依据原始题名页核对，不凭语感改成另一个标题。该文已有直接阅读与原典尚未全部核读的区分可保留。\n",
+    "disposition": "# 独立审阅处置\n\n- 审阅实际返回3项。使用gpt-6.1-sol，CLI显式请求reasoning medium；流事件确认模型，未独立报告有效reasoning。审阅报告已保存review.md。\n- 采纳：将实例图谱与实例三维区域关联在工作图中分开。后者仍为研究目标，但只在可核验资料范围内实施，不再把全部实例事实构建绑定到三维资料已可用。对分析的输入边注明仅针对依赖三维关联的任务。\n- 采纳并补强：第二章结构状态明确写明“下方正文入口仅供旧稿参考，尚未按本章新大纲改写”。既有生成页面本已提示正文未自动改写，仍保留原稿入口，不伪造新正文。\n- 核查后不凭语感改写题名：《形态类型学理论以及本土化的探明》是原有阅读记录的精确题名。2026-10-29 Zotero元数据V5RJB5WJ返回相同作者、题名、2017年及《国际城市规划》32(2):57–64，DOI 10.22217/UPI.2014.109。此处只确认当前题录与阅读记录一致，未重新核读原PDF题名页或全文；保留原字面与条目入口，不宣称完成外部独立书目核验。\n\n本记录是维护审阅，不是论文同行评审或研究效度验证。\n"
+  },
+  "research_boundary": "No new empirical results or full-paper rereading; original PDFs, literature records, baseline models, case JSON and Neo4j not edited by this task. No full-vault health-pass claim.",
+  "recovery": "修改前主源与视图.zip contains the 12 overwritten pre-update documents; per-member original hashes verified; restoration not exercised."
+}

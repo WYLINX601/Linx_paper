@@ -1,0 +1,201 @@
+{
+  "date": "2026-10-20",
+  "parent_item_key": "M2YJ4CAL",
+  "attachment_key": "URWHILLI",
+  "note_key": "C22UVWAN",
+  "note_title": "第二章《基础研究》｜内容拆解与37条引文追溯（2026-10-20）",
+  "local_note": "文献库/夏雷-2020-东北严寒地区村落风貌数据库-第二章引文拆解.md",
+  "scope": {
+    "printed_pages": [
+      24,
+      53
+    ],
+    "pdf_pages": [
+      41,
+      70
+    ],
+    "numbered_reference_count": 37,
+    "reference_numbers": [
+      80,
+      96,
+      97,
+      98,
+      99,
+      100,
+      101,
+      102,
+      103,
+      104,
+      105,
+      106,
+      107,
+      108,
+      109,
+      110,
+      111,
+      112,
+      113,
+      114,
+      115,
+      116,
+      117,
+      118,
+      119,
+      120,
+      121,
+      122,
+      123,
+      124,
+      125,
+      126,
+      127,
+      128,
+      129,
+      130,
+      131
+    ]
+  },
+  "verification": {
+    "all_37_titles_in_note_readback": true,
+    "note_end_in_readback": true,
+    "new_annotations": 20,
+    "original_annotations_retained": 5,
+    "all_created_annotation_keys_and_page_indexes_verified": true
+  },
+  "created_annotations": [
+    {
+      "reference_number": 96,
+      "type": "reference",
+      "key": "4HDVGMNZ",
+      "pdf_page": 41
+    },
+    {
+      "reference_number": 99,
+      "type": "reference",
+      "key": "2IT2B552",
+      "pdf_page": 42
+    },
+    {
+      "reference_number": 100,
+      "type": "reference",
+      "key": "39TLN6QH",
+      "pdf_page": 43
+    },
+    {
+      "reference_number": 101,
+      "type": "reference",
+      "key": "LFIMRE2A",
+      "pdf_page": 44
+    },
+    {
+      "reference_number": 102,
+      "type": "reference",
+      "key": "JH2DD4WJ",
+      "pdf_page": 44
+    },
+    {
+      "reference_number": 103,
+      "type": "reference",
+      "key": "AI92GK94",
+      "pdf_page": 45
+    },
+    {
+      "reference_number": 104,
+      "type": "reference",
+      "key": "XM6WKZYK",
+      "pdf_page": 46
+    },
+    {
+      "reference_number": 105,
+      "type": "reference",
+      "key": "KKXWZKQL",
+      "pdf_page": 47
+    },
+    {
+      "reference_number": 106,
+      "type": "reference",
+      "key": "N9MAUVH8",
+      "pdf_page": 49
+    },
+    {
+      "reference_number": 112,
+      "type": "reference",
+      "key": "FH5IS8LE",
+      "pdf_page": 53
+    },
+    {
+      "reference_number": 80,
+      "type": "reference",
+      "key": "FQU7WY4S",
+      "pdf_page": 60
+    },
+    {
+      "reference_number": 117,
+      "type": "reference",
+      "key": "3CI9NSTU",
+      "pdf_page": 59
+    },
+    {
+      "reference_number": 119,
+      "type": "reference",
+      "key": "JCP4DPMN",
+      "pdf_page": 59
+    },
+    {
+      "reference_number": 122,
+      "type": "reference",
+      "key": "KIIW6CLL",
+      "pdf_page": 65
+    },
+    {
+      "reference_number": 128,
+      "type": "reference",
+      "key": "4AXT796K",
+      "pdf_page": 67
+    },
+    {
+      "reference_number": 129,
+      "type": "reference",
+      "key": "VKF7Y65X",
+      "pdf_page": 69
+    },
+    {
+      "reference_number": 130,
+      "type": "reference",
+      "key": "HD2BV2DX",
+      "pdf_page": 69
+    },
+    {
+      "reference_number": null,
+      "type": "concept",
+      "key": "ZE2SXNMP",
+      "pdf_page": 50
+    },
+    {
+      "reference_number": null,
+      "type": "concept",
+      "key": "ZLD7UY4A",
+      "pdf_page": 60
+    },
+    {
+      "reference_number": null,
+      "type": "concept",
+      "key": "FT4PSJLU",
+      "pdf_page": 66
+    }
+  ],
+  "preserved_existing_annotation_keys": [
+    "SZU9V3HZ",
+    "SH9VXQDI",
+    "9W9BET7M",
+    "NY32X8SS",
+    "2AHJMMQH"
+  ],
+  "limitations": [
+    "No cited work was read in full in this pass. External abstracts, publisher records, and located PDF entry points are distinguished in the note.",
+    "PDF cover date is 2019-12; Zotero date remains 2020-12-16. Metadata was not changed.",
+    "Official record for reference 130 has an author-order discrepancy; unresolved pending original issue PDF.",
+    "No cloud sync verification; writes and read-back are to the running local Zotero."
+  ],
+  "supporting_environment_change": "Installed PyMuPDF 1.26.7 into the existing Zotero MCP runtime to enable annotations; original PDF was not rewritten."
+}

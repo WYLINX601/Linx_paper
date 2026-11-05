@@ -1,0 +1,45 @@
+{
+  "title": "Neo4j verifier local simulation report",
+  "networkAccess": false,
+  "generatedAt": "2026-10-22T12:27:44.255755+00:00",
+  "fixtureNodes": 94,
+  "fixtureRelationshipCount": 216,
+  "cases": [
+    {
+      "case": "correct fixture",
+      "result": "passed",
+      "detail": {
+        "mode": "verify",
+        "status": "passed",
+        "namespaceNodes": 94,
+        "expectedNamespaceNodes": 94,
+        "propertyNodesVerified": 94,
+        "projectedPropertyValuesVerified": 1305,
+        "labelNodesVerified": 94,
+        "labelsVerified": 298,
+        "expectedLabels": 298,
+        "namespaceRelationships": 216,
+        "expectedNamespaceRelationships": 216,
+        "rawJsonRoundTrip": true,
+        "snapshotHashes": "matched",
+        "verifiedAt": "2026-10-22T12:27:44.250057+00:00",
+        "note": "Database read verification completed. Import runtime is evidenced only if this follows a successful import."
+      }
+    },
+    {
+      "case": "rawJson unchanged but projected value changed",
+      "result": "rejected_as_expected",
+      "detail": "Neo4j node projection mismatch: properties=1, labels=0; first UID: kgv02:literature:assertion:CODE_8"
+    },
+    {
+      "case": "Demo label removed from S_HALL",
+      "result": "rejected_as_expected",
+      "detail": "Neo4j node projection mismatch: properties=0, labels=1; first UID: kgv02:demo:entity:S_HALL"
+    },
+    {
+      "case": "duplicate relationship row",
+      "result": "rejected_as_expected",
+      "detail": "Neo4j relationship multiset differs (missing=0, unexpected=1)"
+    }
+  ]
+}

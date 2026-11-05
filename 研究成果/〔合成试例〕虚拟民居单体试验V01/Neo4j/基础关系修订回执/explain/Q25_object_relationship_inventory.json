@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (n:V01) OPTIONAL MATCH (n)-[r]-(p) RETURN n.uid AS uid,labels(n) AS labels,collect(DISTINCT {uid:r.uid,type:type(r),other:p.uid}) AS incident ORDER BY uid",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.921238+08:00"
+}

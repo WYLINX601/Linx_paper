@@ -1,0 +1,58 @@
+[
+  {
+    "mode": "actualLPG",
+    "relation": "BOUND-S04-C01",
+    "field": "sourceUid",
+    "badValue": "V01:EV09",
+    "analyzeAccepted": true,
+    "fullAnalysisUnchanged": true,
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValueSeenByValidator": "V01:EV09",
+    "assertionFieldsStillCorrect": {
+      "assertionSourceUid": "V01:EV01",
+      "assertionSourceVersion": "V01-unified-2.2",
+      "assertionLocator": "/relationships/285"
+    }
+  },
+  {
+    "mode": "actualLPG",
+    "relation": "BOUND-S04-C01",
+    "field": "sourceVersion",
+    "badValue": "1.1",
+    "analyzeAccepted": true,
+    "fullAnalysisUnchanged": true,
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValueSeenByValidator": "1.1",
+    "assertionFieldsStillCorrect": {
+      "assertionSourceUid": "V01:EV01",
+      "assertionSourceVersion": "V01-unified-2.2",
+      "assertionLocator": "/relationships/285"
+    }
+  },
+  {
+    "mode": "actualLPG",
+    "relation": "BOUND-S04-C01",
+    "field": "locator",
+    "badValue": "/relationships/0",
+    "analyzeAccepted": true,
+    "fullAnalysisUnchanged": true,
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValueSeenByValidator": "/relationships/0",
+    "assertionFieldsStillCorrect": {
+      "assertionSourceUid": "V01:EV01",
+      "assertionSourceVersion": "V01-unified-2.2",
+      "assertionLocator": "/relationships/285"
+    }
+  },
+  {
+    "mode": "canonical-new-compile",
+    "field": "locator",
+    "value": "/relationships/0",
+    "assertionLocator": "/relationships/285",
+    "validateAccepted": true,
+    "compileAccepted": true,
+    "analyzeAccepted": true,
+    "basicRelationsUnchanged": true,
+    "sourceModelSha256": "c5ce0552f5288e17c1bd81515b59674fe92f887f8dcc6af96468a2a6d8d64da4"
+  }
+]

@@ -1,0 +1,161 @@
+{
+  "preservation": {
+    "workspace_entries": 20067,
+    "workspace_files": 18162,
+    "source_bytes": 7146718770,
+    "archive_bytes": 6365107191,
+    "archive_sha256": "2dfdeab36eae32e89c1f38db3a346b84fbc8de289c3c8f54849472fe8655014d",
+    "all_archived_content_hashes_match": true,
+    "source_unchanged_during_archive": true,
+    "history": {
+      "sessions": 19,
+      "messages": 2434
+    },
+    "original_source_retained": true,
+    "status": "preserved-not-switched"
+  },
+  "switch": {
+    "status": "switched",
+    "profile": "academic",
+    "new_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper",
+    "session_count": 19,
+    "messages": 2434,
+    "changed_sessions": [
+      {
+        "id": "20261026_221913_748fc2",
+        "before_cwd": null,
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "20261026_224035_d02db6",
+        "before_cwd": null,
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "20261027_143722_189bfe",
+        "before_cwd": null,
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "20261027_152248_69ae67",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "20261027_152820_5f394f",
+        "before_cwd": null,
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "20261027_161203_aa4701",
+        "before_cwd": null,
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "20261028_194921_4e6e41a6",
+        "before_cwd": null,
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-0b8ea77365ab9d2c922dd1485c7a6629d8ef31225883ef810c4e8ffd9867cb29",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-1c3d6103ac53aa6f0604c089e69d6b9a6fab3629da8c5768149adf6dbb1b62f3",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-2a8488214a8014561194b4b2bafe5e8b41457ab3b41058d4c9791eaa163de3e9",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace/d01-direct-20261029",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-478cd089f13c153fcb1ab39528ebb8f1591f76ec27ddea3f12e9ddce1397d714",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-55e01a2d81417d9f9aa362a8db3347679f9a4bf7e3a11078df62ea04538af682",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-57b50376e629257273b37bb732273fd0696c3c696481b1ba84b951c15c0b9f3e",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-70653ac225b0f8224123ad060c52c8341e6685598d409813f3a0561e97ea7fd0",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-7432aed0221d23dbdf5a91396f85f78686e7fe20007d33797a6e7f48e7a73ae4",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-7cf0757c42ae3b7debdf49acd093fbd432dc54e64c7e8feb488185aecd2c719d",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-938cbd22fdbcf7c8388c3d93b4740a2e888f5ae673b0302a7846bd9b0fb832fe",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace/d01-direct-20261029",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-9a3e40a96a553f69b146b408702318daf65d66fdb4c8c76dcd339bdc87a55915",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      },
+      {
+        "id": "local-ebf7d7313ac23136def834c2bcaad998d6f8efbe37965d20d481d1a24e80fe7e",
+        "before_cwd": "/Users/wangyuelin/.hermes/profiles/academic/workspace",
+        "after_cwd": "/Users/wangyuelin/Desktop/Obsidian/Paper"
+      }
+    ],
+    "message_rows_identical": true,
+    "system_prompts_identical": true,
+    "all_non_cwd_session_fields_identical": true,
+    "sqlite_integrity": "ok",
+    "config_before_sha256": "d69046e290a91a4fd762eeb28b3a2c75c7618a8aa98983033b42d8ff0af00f6d",
+    "config_after_sha256": "ff3443db8222d66053bedcaaf4f9d5494d3baf8488fef4ebaf3b7bcde9f81f0e",
+    "live_history_database_retained": "/Users/wangyuelin/.hermes/profiles/academic/state.db"
+  },
+  "ui": {
+    "status": "passed",
+    "profile": "local/academic",
+    "backend": "ready",
+    "sidebar_project": "Paper",
+    "visible_session_count": 14,
+    "total_database_sessions": 19,
+    "hidden_or_non_sidebar_sessions_preserved": true,
+    "outline_conversation_opened": true,
+    "knowledge_graph_conversation_opened": true,
+    "existing_D01_html_preview_opened": true,
+    "default_workspace_setting_verified": "/Users/wangyuelin/Desktop/Obsidian/Paper",
+    "current_outline_workspace_indicator": "Paper",
+    "current_outline_workspace_path": "~/Desktop/Obsidian/Paper",
+    "cached_live_outline_session_moved_via_Hermes_UI": true,
+    "messages_unchanged_after_UI": true,
+    "system_prompts_unchanged_after_UI": true,
+    "counts": {
+      "sessions": 19,
+      "messages": 2434
+    },
+    "all_persisted_session_cwds": "/Users/wangyuelin/Desktop/Obsidian/Paper",
+    "user_draft_in_knowledge_graph_chat_untouched": true
+  },
+  "validation": {
+    "configuration_yaml_parses": true,
+    "terminal_and_mcp_cwds_match_Paper": true,
+    "changed_document_links_resolve": true,
+    "private_history_backup_excluded_from_git": true,
+    "large_workspace_archive_excluded_from_git": true,
+    "vault_wide_health_scan": "Started read-only; stopped after prolonged file read outside migration scope. No whole-vault health verdict issued.",
+    "scope": "Archive content, history integrity, cwd routing, UI and changed-document links."
+  }
+}

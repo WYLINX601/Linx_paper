@@ -1,0 +1,29 @@
+[
+  {
+    "module": "d04",
+    "beforeNodes": 130,
+    "afterNodes": 136,
+    "preservedUIDs": 130,
+    "sha256": "9b1d98bb4b57c86a3790ca8a6bfc687564c7c47b9718f63a23a96e0217b38e70",
+    "pluginCompatibility": true,
+    "visualLayout": "not-pixel-verified"
+  },
+  {
+    "module": "d05",
+    "beforeNodes": 129,
+    "afterNodes": 135,
+    "preservedUIDs": 129,
+    "sha256": "d0af804a0246b9d7b681a9a5a1e11718f3a455e2daa216f3dc1b82da8839e931",
+    "pluginCompatibility": true,
+    "visualLayout": "not-pixel-verified"
+  },
+  {
+    "module": "d06",
+    "beforeNodes": 138,
+    "afterNodes": 143,
+    "preservedUIDs": 138,
+    "sha256": "9de451efdd70c6b505dcd34211ef2429aeca625a836876ec5ee4fa8d581d1592",
+    "pluginCompatibility": true,
+    "visualLayout": "not-pixel-verified"
+  }
+]

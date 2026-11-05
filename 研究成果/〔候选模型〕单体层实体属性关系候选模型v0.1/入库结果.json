@@ -1,0 +1,76 @@
+{
+  "mode": "apply",
+  "namespace": "kgmodel:single:v01:",
+  "sourceHash": "0bb011ccc3e7f06f19473ec6da0028c12c6f9d4a3997f0a85a8758be56736009",
+  "expectedNodes": 546,
+  "expectedEdges": 3497,
+  "protectedBeforeHash": "04300e00d8a1f4482cccf569dae5d110391aa950eadcc6063479da9f0544e71c",
+  "protectedNodeCount": 94,
+  "protectedEdgeCount": 216,
+  "constraints": [
+    {
+      "labelsOrTypes": [
+        "KGItem"
+      ],
+      "properties": [
+        "uid"
+      ],
+      "type": "UNIQUENESS"
+    }
+  ],
+  "indexes": [
+    {
+      "state": "ONLINE",
+      "populationPercent": 100.0
+    },
+    {
+      "state": "ONLINE",
+      "populationPercent": 100.0
+    },
+    {
+      "state": "ONLINE",
+      "populationPercent": 100.0
+    }
+  ],
+  "statementCounts": [
+    1,
+    15,
+    15,
+    75,
+    28,
+    8,
+    12,
+    100,
+    164,
+    121,
+    7,
+    153,
+    515,
+    100,
+    604,
+    78,
+    374,
+    280,
+    312,
+    130,
+    169,
+    60,
+    41,
+    15,
+    144,
+    41,
+    126,
+    106,
+    121,
+    121,
+    7
+  ],
+  "operation": "one_atomic_transaction",
+  "candidateMatchesPayload": true,
+  "protectedUnchanged": true,
+  "actualNodes": 546,
+  "actualEdges": 3497,
+  "protectedAfterHash": "04300e00d8a1f4482cccf569dae5d110391aa950eadcc6063479da9f0544e71c",
+  "comparison": "canonical JSON, preserving boolean and numeric types",
+  "status": "passed"
+}

@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "compiled_payload_equals_frozen": true,
+    "full_analysis_disk_json_roundtrip_equal": true,
+    "current_analysis_equals_recomputed": true,
+    "roof_geojson_native_roundtrip": true,
+    "analysis_strict_json_native": true,
+    "model_node_order_identity_unchanged": true,
+    "all_original_geometry_unchanged": true,
+    "all_old_relation_ids_retained": true,
+    "old_relation_endpoints_types_and_metadata_unchanged": true,
+    "old_evidence_roles_exactly_preserved": true,
+    "only_five_authorized_boundary_edges": true,
+    "no_unauthorized_old_record_deltas": true,
+    "EV09_entire_node_unchanged": true,
+    "all_actual_mutations_keep_rawModel_unchanged": true,
+    "required_named_F03_counterexamples_rejected": true,
+    "all_provenance_and_endpoint_counterexamples_rejected": true,
+    "all_24_sides_and_local_participants_independent_geometry_match": true,
+    "independent_roof_area_S01": true,
+    "independent_roof_area_S02": true,
+    "independent_roof_area_S03": true,
+    "independent_roof_area_S04": true,
+    "independent_roof_area_S05": true,
+    "independent_roof_area_S06": true,
+    "requested_numeric_values": true,
+    "I04_independent_gaps_equal_report": true,
+    "street_independent_equals_report": true,
+    "I01_I04_no_hosts": true,
+    "I08_to_I10_single_known_side": true,
+    "56_object_acceptance_not_completeness": true,
+    "full_analysis_order_independent": true,
+    "static_run_graph_protection_predicates": true,
+    "no_prohibited_module_imported": true
+  },
+  "failedChecks": [],
+  "mutations": {
+    "count": 84,
+    "rejected": 84,
+    "accepted": []
+  },
+  "provided_tests_executed": false
+}

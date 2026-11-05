@@ -1,0 +1,541 @@
+{
+  "screening_date": "2026-10-06",
+  "status": "candidate-dedup-not-final",
+  "groups": [
+    {
+      "id": "D001",
+      "name": "东弄村传统民居与建筑调查范围",
+      "place": "东弄村（含不同论文行政/自然村口径）",
+      "level": "地点/样本组，不是单体",
+      "ids": [
+        "E134",
+        "E135",
+        "E170",
+        "E171",
+        "E172",
+        "E195",
+        "E278",
+        "E287"
+      ],
+      "basis": "地点名称一致，均描述东弄村或东弄古村；统计范围和调查对象不同。",
+      "conf": "B",
+      "conflict": "AAP的107/73/16、BUUU的1-52编号、VSES的整体描述、3IJ的古村范围不能相加；E195的52项与AAP的52座质量样本是否同一批未确认。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E134",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 79,
+          "printed_page": 65,
+          "building": "东弄古村（本文简称东弄村）"
+        },
+        {
+          "record_id": "E135",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 79,
+          "printed_page": 65,
+          "building": "传统民居（整体描述，未列栋数）"
+        },
+        {
+          "record_id": "E170",
+          "literature_id": "L14",
+          "source_key": "AAPV5P6L",
+          "pdf_page": 25,
+          "printed_page": 10,
+          "building": "东弄老村民居（村级总量）"
+        },
+        {
+          "record_id": "E171",
+          "literature_id": "L14",
+          "source_key": "AAPV5P6L",
+          "pdf_page": 25,
+          "printed_page": 10,
+          "building": "传统民居（村级分类）"
+        },
+        {
+          "record_id": "E172",
+          "literature_id": "L14",
+          "source_key": "AAPV5P6L",
+          "pdf_page": 25,
+          "printed_page": 10,
+          "building": "空置传统民居（村级分类）"
+        },
+        {
+          "record_id": "E195",
+          "literature_id": "L17",
+          "source_key": "BUUUUWRW",
+          "pdf_page": 115,
+          "printed_page": 99,
+          "building": "附录5图表编号建筑1–52"
+        },
+        {
+          "record_id": "E278",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 35,
+          "printed_page": 26,
+          "building": null
+        },
+        {
+          "record_id": "E287",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 35,
+          "printed_page": 26,
+          "building": "畲族民居（无单体清单）"
+        }
+      ],
+      "source_images": [
+        "AAPV5P6L-pdf025",
+        "BUUUUWRW-pdf115",
+        "VSES7L3M-pdf035"
+      ]
+    },
+    {
+      "id": "D002",
+      "name": "蓝氏宗祠（东弄）",
+      "place": "景宁县鹤溪街道东弄村/东弄古村",
+      "level": "建筑/建筑群候选同一对象",
+      "ids": [
+        "E136",
+        "E160",
+        "E161",
+        "E285"
+      ],
+      "basis": "三篇记录均明确写“蓝氏宗祠”，地点均为东弄村；3IJ细分为主楼及左右附楼，VSES记录状态。",
+      "conf": "A",
+      "conflict": "3IJ将其作为三幢宗祠及附属文化建筑群；VSES仅称蓝氏宗祠，需现场确认现存构成和后期改造。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E136",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 81,
+          "printed_page": 67,
+          "building": "蓝氏宗祠建筑群（蓝氏宗祠、耕读文化馆、功德舞馆）"
+        },
+        {
+          "record_id": "E160",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 81,
+          "printed_page": 67,
+          "building": "蓝氏宗祠建筑群"
+        },
+        {
+          "record_id": "E161",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 81,
+          "printed_page": 67,
+          "building": "蓝氏宗祠主楼"
+        },
+        {
+          "record_id": "E285",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 35,
+          "printed_page": 26,
+          "building": "蓝氏宗祠"
+        }
+      ],
+      "source_images": [
+        "VSES7L3M-pdf035"
+      ]
+    },
+    {
+      "id": "D003",
+      "name": "汤三公庙（地头庙）",
+      "place": "景宁县鹤溪街道东弄村",
+      "level": "建筑候选同一对象",
+      "ids": [
+        "E137",
+        "E286",
+        "E301"
+      ],
+      "basis": "名称与地点一致；E137/E286均有图3.15，时间与维护信息互补。",
+      "conf": "A",
+      "conflict": "E301是维护户数，不是建筑记录；3IJ称1853年始建，VSES状态描述为文献时点记录。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E137",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 82,
+          "printed_page": 68,
+          "building": "汤三公庙（地头庙）"
+        },
+        {
+          "record_id": "E286",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 35,
+          "printed_page": 26,
+          "building": "汤三公庙"
+        },
+        {
+          "record_id": "E301",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 35,
+          "printed_page": 26,
+          "building": "日常维护汤三公庙的东弄村民户数"
+        }
+      ],
+      "source_images": [
+        "VSES7L3M-pdf035"
+      ]
+    },
+    {
+      "id": "D004",
+      "name": "桃源村保存较好的清代建筑（未具名单体）",
+      "place": "东坑镇桃源村",
+      "level": "村域建筑集合，不是单体",
+      "ids": [
+        "E048",
+        "E149"
+      ],
+      "basis": "同村、同类、均记清代建筑10幢/10处；很可能是同一统计线索。",
+      "conf": "B",
+      "conflict": "未提供逐栋名称或编号，不能证明两篇论文指同一批单体，也不能拆成10个实体。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E048",
+          "literature_id": "L08",
+          "source_key": "ZWDJJE99",
+          "pdf_page": 113,
+          "printed_page": 102,
+          "building": "清代建筑（未具名）"
+        },
+        {
+          "record_id": "E149",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 122,
+          "printed_page": 108,
+          "building": "桃源村保存较好的清代建筑（未列单体名录）"
+        }
+      ],
+      "source_images": [
+        "3IJX2PUQ-pdf122",
+        "ZWDJJE99-pdf113"
+      ]
+    },
+    {
+      "id": "D005",
+      "name": "周湖村建筑与侧样样本",
+      "place": "景宁县周湖村/周湖自然村",
+      "level": "村落/样本组，不是单体",
+      "ids": [
+        "E017",
+        "E119",
+        "E129",
+        "E279",
+        "E293"
+      ],
+      "basis": "地点一致或高度接近；多篇论文均以周湖为调查点。",
+      "conf": "B",
+      "conflict": "E017是15个侧样编号，E293是8号民居，均没有跨文献编号对应证明；不能合并为同一栋。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E017",
+          "literature_id": "L08",
+          "source_key": "ZWDJJE99",
+          "pdf_page": 55,
+          "printed_page": 44,
+          "building": "侧样分型统计表中的民居编号记录"
+        },
+        {
+          "record_id": "E119",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 40,
+          "printed_page": 26,
+          "building": null
+        },
+        {
+          "record_id": "E129",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 74,
+          "printed_page": 60,
+          "building": "周湖村聚落（全村概况）"
+        },
+        {
+          "record_id": "E279",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 35,
+          "printed_page": 26,
+          "building": null
+        },
+        {
+          "record_id": "E293",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 40,
+          "printed_page": 31,
+          "building": "周湖村8号民居建筑（作者自绘典型住宅）"
+        }
+      ],
+      "source_images": [
+        "3IJX2PUQ-pdf040",
+        "VSES7L3M-pdf035",
+        "VSES7L3M-pdf040",
+        "ZWDJJE99-pdf055"
+      ]
+    },
+    {
+      "id": "D006",
+      "name": "蓝坤宝寮（蓝坤宝家族住宅）",
+      "place": "景宁县东弄村",
+      "level": "单体住宅",
+      "ids": [
+        "E196",
+        "E197"
+      ],
+      "basis": "同一论文同一附录的重复记录，名称、访谈地点和对象一致。",
+      "conf": "A",
+      "conflict": "两条记录是同一住宅的重复字段，应在实体表中合并，保留两条原文证据；调查时称无人居住、放杂物。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E196",
+          "literature_id": "L17",
+          "source_key": "BUUUUWRW",
+          "pdf_page": 101,
+          "printed_page": 85,
+          "building": "蓝坤宝寮（蓝坤宝家族住宅）"
+        },
+        {
+          "record_id": "E197",
+          "literature_id": "L17",
+          "source_key": "BUUUUWRW",
+          "pdf_page": 101,
+          "printed_page": 85,
+          "building": "蓝坤宝寮（蓝坤宝家族住宅）"
+        }
+      ],
+      "source_images": [
+        "BUUUUWRW-pdf101"
+      ]
+    },
+    {
+      "id": "D007",
+      "name": "大张坑村建筑遗存范围",
+      "place": "东坑镇大张坑自然村/大张坑村",
+      "level": "村落/对象组，不是单体",
+      "ids": [
+        "E103",
+        "E104",
+        "E124",
+        "E181",
+        "E280",
+        "E289"
+      ],
+      "basis": "地点一致；论文分别提供37幢民居、1幢钢筋混凝土结构、村落名单、院墙、雷氏祠堂。",
+      "conf": "B",
+      "conflict": "E103/E104是村级统计；E181是无名院墙，E289是雷氏祠堂；不能把37幢减1直接当传统民居数。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E103",
+          "literature_id": "L09",
+          "source_key": "ETTYATRB",
+          "pdf_page": 20,
+          "printed_page": 12,
+          "building": "民居总体（未逐栋编号）"
+        },
+        {
+          "record_id": "E104",
+          "literature_id": "L09",
+          "source_key": "ETTYATRB",
+          "pdf_page": 20,
+          "printed_page": 12,
+          "building": "钢筋水泥结构民居（未逐栋编号）"
+        },
+        {
+          "record_id": "E124",
+          "literature_id": "L12",
+          "source_key": "3IJX2PUQ",
+          "pdf_page": 41,
+          "printed_page": 27,
+          "building": null
+        },
+        {
+          "record_id": "E181",
+          "literature_id": "L14",
+          "source_key": "AAPV5P6L",
+          "pdf_page": 72,
+          "printed_page": 57,
+          "building": "一栋民居的石块堆砌院墙（未具名）"
+        },
+        {
+          "record_id": "E280",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 35,
+          "printed_page": 26,
+          "building": null
+        },
+        {
+          "record_id": "E289",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 37,
+          "printed_page": 28,
+          "building": "雷氏祠堂"
+        }
+      ],
+      "source_images": [
+        "3IJX2PUQ-pdf041",
+        "ETTYATRB-pdf020",
+        "VSES7L3M-pdf035",
+        "VSES7L3M-pdf037"
+      ]
+    },
+    {
+      "id": "D008",
+      "name": "潘家大院",
+      "place": "鹤溪街道鹤溪村 / 鹤溪镇（原文两种写法）",
+      "level": "建筑候选同一对象",
+      "ids": [
+        "E054",
+        "E270"
+      ],
+      "basis": "建筑名称一致，地点均在鹤溪镇域。",
+      "conf": "B",
+      "conflict": "一个记录为鹤溪街道鹤溪村，一个记录只写鹤溪镇；尚缺照片、定位或宅名细节证明同一院落。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E054",
+          "literature_id": "L08",
+          "source_key": "ZWDJJE99",
+          "pdf_page": 113,
+          "printed_page": 102,
+          "building": "潘家大院"
+        },
+        {
+          "record_id": "E270",
+          "literature_id": "L21",
+          "source_key": "VRWLBN8X",
+          "pdf_page": 5,
+          "printed_page": 61,
+          "building": "潘家大院"
+        }
+      ],
+      "source_images": [
+        "VRWLBN8X-pdf005",
+        "ZWDJJE99-pdf113"
+      ]
+    },
+    {
+      "id": "D009",
+      "name": "雷世儒雷氏大宅",
+      "place": "霞浦县半月里村（外地比较案例）",
+      "level": "单体住宅比较案例",
+      "ids": [
+        "E291"
+      ],
+      "basis": "名称和地点明确。",
+      "conf": "A",
+      "conflict": "不属于景宁县主样本；不得与景宁雷氏祠堂或其他雷姓住宅合并。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E291",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 38,
+          "printed_page": 29,
+          "building": "雷世儒雷氏大宅"
+        }
+      ],
+      "source_images": [
+        "VSES7L3M-pdf038"
+      ]
+    },
+    {
+      "id": "D010",
+      "name": "雷氏祠堂（大张坑）",
+      "place": "景宁县大张坑村",
+      "level": "单体祠堂",
+      "ids": [
+        "E289"
+      ],
+      "basis": "名称、地点和图3.16明确。",
+      "conf": "A",
+      "conflict": "与遂昌县大田村雷氏宗祠（E261）同姓同类但地点不同，明确不合并。",
+      "status": "待2026核实",
+      "source_records": [
+        {
+          "record_id": "E289",
+          "literature_id": "L22",
+          "source_key": "VSES7L3M",
+          "pdf_page": 37,
+          "printed_page": 28,
+          "building": "雷氏祠堂"
+        }
+      ],
+      "source_images": [
+        "VSES7L3M-pdf037"
+      ]
+    },
+    {
+      "id": "D011",
+      "name": "东弄村1—52号编号建筑与52座大体量建筑样本",
+      "place": "东弄村",
+      "level": "样本集合对应候选",
+      "ids": [
+        "E174",
+        "E195"
+      ],
+      "basis": "两篇文献都出现“52”，地点一致。",
+      "conf": "C",
+      "conflict": "AAP表6-1没有逐栋身份清单，BUUU附录有编号分布图和逐项照片/状态表；目前只能标为待比对，不能相加或视为同批。",
+      "status": "待核实",
+      "source_records": [
+        {
+          "record_id": "E174",
+          "literature_id": "L14",
+          "source_key": "AAPV5P6L",
+          "pdf_page": 83,
+          "printed_page": 68,
+          "building": "较大体量建筑样本（未公开身份清单）"
+        },
+        {
+          "record_id": "E195",
+          "literature_id": "L17",
+          "source_key": "BUUUUWRW",
+          "pdf_page": 115,
+          "printed_page": 99,
+          "building": "附录5图表编号建筑1–52"
+        }
+      ],
+      "source_images": [
+        "AAPV5P6L-pdf083",
+        "BUUUUWRW-pdf115"
+      ]
+    },
+    {
+      "id": "D012",
+      "name": "同名但异地老宅/宗祠条目",
+      "place": "景宁县多村",
+      "level": "非合并提示组",
+      "ids": [],
+      "basis": "附录A中刘宅、陈家老宅、毛家老宅、陈氏宗祠等名称在不同村重复出现。",
+      "conf": "C",
+      "conflict": "地点不同，不能按名称合并；需以村名、历史建筑名录或定位核对。",
+      "status": "待核实",
+      "source_records": [],
+      "source_images": []
+    }
+  ]
+}

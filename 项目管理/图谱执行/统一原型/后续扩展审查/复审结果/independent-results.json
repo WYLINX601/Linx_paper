@@ -1,0 +1,944 @@
+{
+  "countMeaning": "Each result is one named independent scenario (may contain multiple assertions). Expected rejection is a pass. Not a count of assertions, database executions, or real samples. Bundled suite is counted separately.",
+  "scenarioCount": 85,
+  "passed": 85,
+  "failed": 0,
+  "loadedProjectModules": {
+    "compile_model": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/compile_model.py",
+    "analyze": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/analyze.py",
+    "projection": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/projection.py",
+    "d04": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/d04.py",
+    "d05": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/d05.py",
+    "d06": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/d06.py"
+  },
+  "pureVerifierExtraction": [
+    "binding",
+    "native_type",
+    "preserve_original_geometry",
+    "verify_exact"
+  ],
+  "results": [
+    {
+      "id": "baseline_recompile_analyze_counts_sha",
+      "passed": true,
+      "detail": {
+        "payloadEqualsFrozen": true,
+        "analysisEqualsFrozen": true,
+        "modelObjects": 55,
+        "projectedNodesIncludingSOURCE": 56,
+        "projectedNonNewNodesIncludingSOURCE": 52,
+        "relationships": 285,
+        "BuildingObjects": 3,
+        "D06Tasks": [
+          "T01",
+          "T02",
+          "T03",
+          "T04",
+          "T05"
+        ]
+      }
+    },
+    {
+      "id": "F01_old_counterexample_compiled",
+      "passed": true,
+      "detail": {
+        "path": "compile-then-analyze",
+        "lastRegionState": "known",
+        "materialAreasM2": {
+          "灰泥": 30.959999999999997
+        },
+        "unknownAreaM2": 0.0,
+        "combinationMaterials": [
+          "灰泥"
+        ],
+        "diagnostics": [
+          {
+            "regionId": "independent-region-4",
+            "state": "known",
+            "areaM2": 0.0
+          }
+        ],
+        "completeMaterialCount": 1,
+        "classification": [
+          "single-material-complete-domain"
+        ]
+      }
+    },
+    {
+      "id": "F01_old_counterexample_LPG",
+      "passed": true,
+      "detail": {
+        "path": "actual-LPG-unchanged-rawModel",
+        "lastRegionState": "known",
+        "materialAreasM2": {
+          "灰泥": 30.959999999999997
+        },
+        "unknownAreaM2": 0.0,
+        "combinationMaterials": [
+          "灰泥"
+        ],
+        "diagnostics": [
+          {
+            "regionId": "independent-region-4",
+            "state": "known",
+            "areaM2": 0.0
+          }
+        ],
+        "completeMaterialCount": 1,
+        "classification": [
+          "single-material-complete-domain"
+        ]
+      }
+    },
+    {
+      "id": "F01_true_two_positive_materials_compiled",
+      "passed": true,
+      "detail": {
+        "path": "compile-then-analyze",
+        "lastRegionState": "known",
+        "materialAreasM2": {
+          "灰泥": 21.360000000000003,
+          "砖": 9.6
+        },
+        "unknownAreaM2": 0.0,
+        "combinationMaterials": [
+          "灰泥",
+          "砖"
+        ],
+        "diagnostics": [
+          {
+            "regionId": "independent-region-4",
+            "state": "known",
+            "areaM2": 0.0
+          }
+        ],
+        "completeMaterialCount": 2,
+        "classification": [
+          "multiple-materials-complete-domain"
+        ]
+      }
+    },
+    {
+      "id": "F01_true_two_positive_materials_LPG",
+      "passed": true,
+      "detail": {
+        "path": "actual-LPG-unchanged-rawModel",
+        "lastRegionState": "known",
+        "materialAreasM2": {
+          "灰泥": 21.360000000000003,
+          "砖": 9.6
+        },
+        "unknownAreaM2": 0.0,
+        "combinationMaterials": [
+          "灰泥",
+          "砖"
+        ],
+        "diagnostics": [
+          {
+            "regionId": "independent-region-4",
+            "state": "known",
+            "areaM2": 0.0
+          }
+        ],
+        "completeMaterialCount": 2,
+        "classification": [
+          "multiple-materials-complete-domain"
+        ]
+      }
+    },
+    {
+      "id": "F01_zero_unknown_compiled",
+      "passed": true,
+      "detail": {
+        "path": "compile-then-analyze",
+        "lastRegionState": "unknown",
+        "materialAreasM2": {
+          "灰泥": 30.959999999999997
+        },
+        "unknownAreaM2": 0.0,
+        "combinationMaterials": [
+          "灰泥"
+        ],
+        "diagnostics": [
+          {
+            "regionId": "independent-region-4",
+            "state": "unknown",
+            "areaM2": 0.0
+          }
+        ],
+        "completeMaterialCount": 1,
+        "classification": [
+          "single-material-complete-domain"
+        ]
+      }
+    },
+    {
+      "id": "F01_zero_unknown_LPG",
+      "passed": true,
+      "detail": {
+        "path": "actual-LPG-unchanged-rawModel",
+        "lastRegionState": "unknown",
+        "materialAreasM2": {
+          "灰泥": 30.959999999999997
+        },
+        "unknownAreaM2": 0.0,
+        "combinationMaterials": [
+          "灰泥"
+        ],
+        "diagnostics": [
+          {
+            "regionId": "independent-region-4",
+            "state": "unknown",
+            "areaM2": 0.0
+          }
+        ],
+        "completeMaterialCount": 1,
+        "classification": [
+          "single-material-complete-domain"
+        ]
+      }
+    },
+    {
+      "id": "F01_zero_mixed_compiled",
+      "passed": true,
+      "detail": {
+        "path": "compile-then-analyze",
+        "lastRegionState": "mixed",
+        "materialAreasM2": {
+          "灰泥": 30.959999999999997
+        },
+        "unknownAreaM2": 0.0,
+        "combinationMaterials": [
+          "灰泥"
+        ],
+        "diagnostics": [
+          {
+            "regionId": "independent-region-4",
+            "state": "mixed",
+            "areaM2": 0.0
+          }
+        ],
+        "completeMaterialCount": 1,
+        "classification": [
+          "single-material-complete-domain"
+        ]
+      }
+    },
+    {
+      "id": "F01_zero_mixed_LPG",
+      "passed": true,
+      "detail": {
+        "path": "actual-LPG-unchanged-rawModel",
+        "lastRegionState": "mixed",
+        "materialAreasM2": {
+          "灰泥": 30.959999999999997
+        },
+        "unknownAreaM2": 0.0,
+        "combinationMaterials": [
+          "灰泥"
+        ],
+        "diagnostics": [
+          {
+            "regionId": "independent-region-4",
+            "state": "mixed",
+            "areaM2": 0.0
+          }
+        ],
+        "completeMaterialCount": 1,
+        "classification": [
+          "single-material-complete-domain"
+        ]
+      }
+    },
+    {
+      "id": "F01_positive_unknown_remains_unknown",
+      "passed": true,
+      "detail": {
+        "unknownAreaM2": 30.959999999999997,
+        "completeMaterialCount": null,
+        "jointValidCount": 0
+      }
+    },
+    {
+      "id": "F02_missing_actual_C01",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Missing actual geometry C01"
+      }
+    },
+    {
+      "id": "F02_changed_actual_C01_stale_cache_stops",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Boundary cache differs from source geometry"
+      }
+    },
+    {
+      "id": "F02_changed_actual_C01_current_cache_recomputes",
+      "passed": true,
+      "detail": {
+        "actualRadius": 1.0,
+        "contributionM": 0.88,
+        "netSolidBoundaryM": 18.580000000000002,
+        "netSolidRatio": 0.6616809116809117,
+        "rawModelUnchanged": true
+      }
+    },
+    {
+      "id": "F03_extra-pair_projection",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unexpected readback relationship set"
+      }
+    },
+    {
+      "id": "F03_extra-pair_analysis",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unexpected readback relationship set"
+      }
+    },
+    {
+      "id": "F03_duplicate-edge_projection",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Duplicate readback identity"
+      }
+    },
+    {
+      "id": "F03_duplicate-edge_analysis",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Duplicate readback identity"
+      }
+    },
+    {
+      "id": "F03_missing-edge_projection",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unexpected readback relationship set"
+      }
+    },
+    {
+      "id": "F03_missing-edge_analysis",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unexpected readback relationship set"
+      }
+    },
+    {
+      "id": "F03_extra-node_projection",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unexpected readback object set"
+      }
+    },
+    {
+      "id": "F03_extra-node_analysis",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unexpected readback object set"
+      }
+    },
+    {
+      "id": "F03_duplicate-node_projection",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Duplicate readback identity"
+      }
+    },
+    {
+      "id": "F03_duplicate-node_analysis",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Duplicate readback identity"
+      }
+    },
+    {
+      "id": "F03_missing-node_projection",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unexpected readback object set"
+      }
+    },
+    {
+      "id": "F03_missing-node_analysis",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unexpected readback object set"
+      }
+    },
+    {
+      "id": "F03_edge-caseId_projection",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Readback relationship identity"
+      }
+    },
+    {
+      "id": "F03_edge-caseId_analysis",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Readback relationship identity"
+      }
+    },
+    {
+      "id": "F03_node-datasetId_projection",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Readback object identity"
+      }
+    },
+    {
+      "id": "F03_node-datasetId_analysis",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Readback object identity"
+      }
+    },
+    {
+      "id": "F03_actual_status_evidence_and_no_fallback",
+      "passed": true,
+      "detail": {
+        "relationshipStatusEvidenceFromActual": true,
+        "nodeEvidenceFromActual": true,
+        "missingRelationshipMetadataNoFallback": true
+      }
+    },
+    {
+      "id": "F04_B03_positive_self_pointer_version",
+      "passed": true,
+      "detail": {
+        "id": "B03",
+        "locator": "/nodes/51/geometry",
+        "version": "V01-unified-2.1",
+        "resolvedSelfGeometry": true
+      }
+    },
+    {
+      "id": "F04_B03_wrong-locator_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer B03"
+      }
+    },
+    {
+      "id": "F04_B03_wrong-locator_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer B03"
+      }
+    },
+    {
+      "id": "F04_B03_stale-version_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version B03"
+      }
+    },
+    {
+      "id": "F04_B03_stale-version_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version B03"
+      }
+    },
+    {
+      "id": "F04_B03_missing-locator_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Source covers nonexistent property"
+      }
+    },
+    {
+      "id": "F04_B03_missing-locator_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer B03"
+      }
+    },
+    {
+      "id": "F04_B03_missing-version_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Source covers nonexistent property"
+      }
+    },
+    {
+      "id": "F04_B03_missing-version_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version B03"
+      }
+    },
+    {
+      "id": "F04_CG01_positive_self_pointer_version",
+      "passed": true,
+      "detail": {
+        "id": "CG01",
+        "locator": "/nodes/52/geometry",
+        "version": "V01-unified-2.1",
+        "resolvedSelfGeometry": true
+      }
+    },
+    {
+      "id": "F04_CG01_wrong-locator_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer CG01"
+      }
+    },
+    {
+      "id": "F04_CG01_wrong-locator_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer CG01"
+      }
+    },
+    {
+      "id": "F04_CG01_stale-version_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version CG01"
+      }
+    },
+    {
+      "id": "F04_CG01_stale-version_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version CG01"
+      }
+    },
+    {
+      "id": "F04_CG01_missing-locator_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Source covers nonexistent property"
+      }
+    },
+    {
+      "id": "F04_CG01_missing-locator_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer CG01"
+      }
+    },
+    {
+      "id": "F04_CG01_missing-version_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Source covers nonexistent property"
+      }
+    },
+    {
+      "id": "F04_CG01_missing-version_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version CG01"
+      }
+    },
+    {
+      "id": "F04_ST01_positive_self_pointer_version",
+      "passed": true,
+      "detail": {
+        "id": "ST01",
+        "locator": "/nodes/53/geometry",
+        "version": "V01-unified-2.1",
+        "resolvedSelfGeometry": true
+      }
+    },
+    {
+      "id": "F04_ST01_wrong-locator_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer ST01"
+      }
+    },
+    {
+      "id": "F04_ST01_wrong-locator_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer ST01"
+      }
+    },
+    {
+      "id": "F04_ST01_stale-version_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version ST01"
+      }
+    },
+    {
+      "id": "F04_ST01_stale-version_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version ST01"
+      }
+    },
+    {
+      "id": "F04_ST01_missing-locator_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Source covers nonexistent property"
+      }
+    },
+    {
+      "id": "F04_ST01_missing-locator_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer ST01"
+      }
+    },
+    {
+      "id": "F04_ST01_missing-version_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Source covers nonexistent property"
+      }
+    },
+    {
+      "id": "F04_ST01_missing-version_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version ST01"
+      }
+    },
+    {
+      "id": "F04_TP01_positive_self_pointer_version",
+      "passed": true,
+      "detail": {
+        "id": "TP01",
+        "locator": "/nodes/54/geometry",
+        "version": "V01-unified-2.1",
+        "resolvedSelfGeometry": true
+      }
+    },
+    {
+      "id": "F04_TP01_wrong-locator_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer TP01"
+      }
+    },
+    {
+      "id": "F04_TP01_wrong-locator_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer TP01"
+      }
+    },
+    {
+      "id": "F04_TP01_stale-version_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version TP01"
+      }
+    },
+    {
+      "id": "F04_TP01_stale-version_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version TP01"
+      }
+    },
+    {
+      "id": "F04_TP01_missing-locator_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Source covers nonexistent property"
+      }
+    },
+    {
+      "id": "F04_TP01_missing-locator_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source pointer TP01"
+      }
+    },
+    {
+      "id": "F04_TP01_missing-version_compiler",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Source covers nonexistent property"
+      }
+    },
+    {
+      "id": "F04_TP01_missing-version_LPG",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Invalid new-object geometry source version TP01"
+      }
+    },
+    {
+      "id": "actual_W10_two_materials_from_LPG",
+      "passed": true,
+      "detail": {
+        "materialAreasM2": {
+          "灰泥": 6.4,
+          "砖": 6.4
+        },
+        "completeMaterialCount": 2,
+        "rawModelUnchanged": true
+      }
+    },
+    {
+      "id": "missing_actual_facade_stops",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Missing extension field W03.facadeRecords"
+      }
+    },
+    {
+      "id": "stale_actual_facade_source_stops",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Unsupported extension field W03.facadeRecords"
+      }
+    },
+    {
+      "id": "actual_facade_edge_recordStatus_not_snapshot",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "participant source boundary"
+      }
+    },
+    {
+      "id": "actual_facade_edge_evidenceIds_not_snapshot",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "participant source boundary"
+      }
+    },
+    {
+      "id": "postwrite_exact_positive",
+      "passed": true,
+      "detail": {
+        "verified": true
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_property",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Properties differ V01:B01"
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_native-equal-value",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Native type differs V01:B02.eaveZM: INTEGER NOT NULL vs FLOAT NOT NULL"
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_extra-edge",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Identity mismatch relationships"
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_duplicate-edge",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Identity mismatch relationships"
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_extra-node",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Identity mismatch nodes"
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_endpoint",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Relationship differs V01:R001"
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_type",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Relationship differs V01:R001"
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_label",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Labels differ V01:B01"
+      }
+    },
+    {
+      "id": "postwrite_exact_reject_missing-edge",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Identity mismatch relationships"
+      }
+    },
+    {
+      "id": "prewrite_binding_isolated_full_payload",
+      "passed": true,
+      "detail": {
+        "isolatedFrozenPayload": true,
+        "nodes": 56,
+        "relationships": 285
+      }
+    },
+    {
+      "id": "geometry_preservation_positive",
+      "passed": true,
+      "detail": {
+        "verified": true
+      }
+    },
+    {
+      "id": "geometry_preservation_reject_changed_C01",
+      "passed": true,
+      "detail": {
+        "rejected": true,
+        "exception": "ValueError",
+        "message": "Original geometry changed C01"
+      }
+    },
+    {
+      "id": "fixed_prototype_independent_numeric_controls",
+      "passed": true,
+      "detail": {
+        "independentRectangleAndOpeningArea": true,
+        "streetWidthAndEntityRatio": true,
+        "groundSlope": true,
+        "unsupportedSamePointRemainsUnknown": true
+      }
+    }
+  ]
+}

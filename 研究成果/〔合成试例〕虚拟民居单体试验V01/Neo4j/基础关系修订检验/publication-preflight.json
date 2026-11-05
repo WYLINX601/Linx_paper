@@ -1,0 +1,3234 @@
+{
+  "targets": 538,
+  "conflicts": [],
+  "checks": [
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/README.md",
+      "candidateSHA256": "22aa2421286539d2be2b9e3bfc4b3442e2c389a5ad805d1293467059ce6e2bf2",
+      "currentSHA256": "22aa2421286539d2be2b9e3bfc4b3442e2c389a5ad805d1293467059ce6e2bf2",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/manifest.json",
+      "candidateSHA256": "da19809f41700f415660927642c41845d9b6d223381462bbfcaae3777c04c6ba",
+      "currentSHA256": "da19809f41700f415660927642c41845d9b6d223381462bbfcaae3777c04c6ba",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/archive/README.md",
+      "candidateSHA256": "7a5b280bca22866487288497685f074b79395c45fd0a7a44f9abc67f0b85dbe0",
+      "currentSHA256": "7a5b280bca22866487288497685f074b79395c45fd0a7a44f9abc67f0b85dbe0",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/context/PROJECT_CONTEXT.md",
+      "candidateSHA256": "c50ec93ba8cae84f5332cff7614a2a0e7f80168af3d2ed547aeffd292bb0fb16",
+      "currentSHA256": "c50ec93ba8cae84f5332cff7614a2a0e7f80168af3d2ed547aeffd292bb0fb16",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "candidateSHA256": "7adaa1ef3a3dc3fd38268d4802507eb979007d3137f1e3ca65fba54bbddb0a86",
+      "currentSHA256": "7adaa1ef3a3dc3fd38268d4802507eb979007d3137f1e3ca65fba54bbddb0a86",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "candidateSHA256": "d25894ed8104e030926b8fe32f44b519a8526f0c062c9c50938da1f5b06b9e67",
+      "currentSHA256": "d25894ed8104e030926b8fe32f44b519a8526f0c062c9c50938da1f5b06b9e67",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "candidateSHA256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "currentSHA256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "candidateSHA256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "currentSHA256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "candidateSHA256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "currentSHA256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "candidateSHA256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "currentSHA256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "candidateSHA256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "currentSHA256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "candidateSHA256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "currentSHA256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "candidateSHA256": "3ea9116caa603394a01660efa273b93e267c68ea6646e95ffb937a1abda40a02",
+      "currentSHA256": "3ea9116caa603394a01660efa273b93e267c68ea6646e95ffb937a1abda40a02",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/README.md",
+      "candidateSHA256": "dd396f69a7d83f96a2d66638e1570715531e39b293b5e0f7506a8d833529a953",
+      "currentSHA256": "dd396f69a7d83f96a2d66638e1570715531e39b293b5e0f7506a8d833529a953",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "candidateSHA256": "04ff3f093fdeeac949df03dcd6c5bf47da7db93ff8a66ef52e57b043e2524ece",
+      "currentSHA256": "04ff3f093fdeeac949df03dcd6c5bf47da7db93ff8a66ef52e57b043e2524ece",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/审核视图.html",
+      "candidateSHA256": "d5625844af6935c3b4ac834feb6e5fa36ecbd84f8af398d84044ed931274207d",
+      "currentSHA256": "d5625844af6935c3b4ac834feb6e5fa36ecbd84f8af398d84044ed931274207d",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+      "candidateSHA256": "64f39e938787c1faef7106dd8280f8bb7f8aab617feb6e5c1ddb2c231a59eb60",
+      "currentSHA256": "64f39e938787c1faef7106dd8280f8bb7f8aab617feb6e5c1ddb2c231a59eb60",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+      "candidateSHA256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+      "currentSHA256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔合成试例〕虚拟民居单体试验V01/案例浏览.html",
+      "candidateSHA256": "cf10ebdb36c4b021c33d9a16321a8c89f88dee5ecb4e7ea99962b77c868db29f",
+      "currentSHA256": "cf10ebdb36c4b021c33d9a16321a8c89f88dee5ecb4e7ea99962b77c868db29f",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "candidateSHA256": "3d63eefdfa22ba8366aeec61911dae2a11870c959ca393d2ab05a9509f108cbc",
+      "currentSHA256": "3d63eefdfa22ba8366aeec61911dae2a11870c959ca393d2ab05a9509f108cbc",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "candidateSHA256": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8",
+      "currentSHA256": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "candidateSHA256": "d46e14fe5c6da95a09f8a4788c9feaa5cda2d7bd0c892f17342e139f1e14c7b2",
+      "currentSHA256": "d46e14fe5c6da95a09f8a4788c9feaa5cda2d7bd0c892f17342e139f1e14c7b2",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+      "candidateSHA256": "79c153c94a2cbfdbca87d45b93159c700637e47beedbc03e3874dd5479fcb08a",
+      "currentSHA256": "79c153c94a2cbfdbca87d45b93159c700637e47beedbc03e3874dd5479fcb08a",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "candidateSHA256": "bf49f5b34acd27b3b24c59a80622499d1a9021a4d007dab20e11dfbd4a454c12",
+      "currentSHA256": "bf49f5b34acd27b3b24c59a80622499d1a9021a4d007dab20e11dfbd4a454c12",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/README.md",
+      "candidateSHA256": "9ee35c7d778ff14351cf9d2aa83ba46d84235545e640bc340d40b170e6e19209",
+      "currentSHA256": "9ee35c7d778ff14351cf9d2aa83ba46d84235545e640bc340d40b170e6e19209",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/check.py",
+      "candidateSHA256": "a3ff9e6a3c27b2a3e0a861fd2a9a406740346c0a0d8781b269ae25d9d32ac3b7",
+      "currentSHA256": "a3ff9e6a3c27b2a3e0a861fd2a9a406740346c0a0d8781b269ae25d9d32ac3b7",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/test_unified.py",
+      "candidateSHA256": "3868044fe61f937f713519c67d5e71e8d495939d0b88c4cb9a9664f48e6062e8",
+      "currentSHA256": "3868044fe61f937f713519c67d5e71e8d495939d0b88c4cb9a9664f48e6062e8",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/analyze.py",
+      "candidateSHA256": "fffa67f39c04fd1fe4acec033173cf867f8aa3fdb0238db2f789bd7eaaf2e8ea",
+      "currentSHA256": "fffa67f39c04fd1fe4acec033173cf867f8aa3fdb0238db2f789bd7eaaf2e8ea",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/build_review.py",
+      "candidateSHA256": "6bd74cbbe81b7ed84d82c528118747a9a7bae98d03b4e1c6c927ffac022c9901",
+      "currentSHA256": "6bd74cbbe81b7ed84d82c528118747a9a7bae98d03b4e1c6c927ffac022c9901",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/compile_model.py",
+      "candidateSHA256": "c746341ff2dcb861fd2d57c6f69635e626ccd686a6c8c3d98b64cd2887727ce8",
+      "currentSHA256": "c746341ff2dcb861fd2d57c6f69635e626ccd686a6c8c3d98b64cd2887727ce8",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/queries.py",
+      "candidateSHA256": "68636aaa679d0ce0f9278543f13bfb7dd5de9191e7ff32a30d075996e730ea57",
+      "currentSHA256": "68636aaa679d0ce0f9278543f13bfb7dd5de9191e7ff32a30d075996e730ea57",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/run_graph.py",
+      "candidateSHA256": "37e3601a43303c95e725de05158e4cfb5f290c07fe478e029f56a0a676e76570",
+      "currentSHA256": "37e3601a43303c95e725de05158e4cfb5f290c07fe478e029f56a0a676e76570",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/Paper原件/项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "candidateSHA256": "a562af0e647b54c7c621a0cc34a3724b08593fa4046074579cdcdf146654458b",
+      "currentSHA256": "a562af0e647b54c7c621a0cc34a3724b08593fa4046074579cdcdf146654458b",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/README.md",
+      "candidateSHA256": "de274114ac66b28cd319f6449eb34d7f1767e6b8a064bcfdec758da2f2ce4afd",
+      "currentSHA256": "de274114ac66b28cd319f6449eb34d7f1767e6b8a064bcfdec758da2f2ce4afd",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/database/graph.json",
+      "candidateSHA256": "f091166eae287093ac2ace7165dca5789b02b4148a95f4f5f3b964391013c606",
+      "currentSHA256": "f091166eae287093ac2ace7165dca5789b02b4148a95f4f5f3b964391013c606",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/database/schema.json",
+      "candidateSHA256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "currentSHA256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/database/summary.json",
+      "candidateSHA256": "168147d477381a9495261c397132f6d743fae6d1acfc20e05da6efcf3363e8e5",
+      "currentSHA256": "168147d477381a9495261c397132f6d743fae6d1acfc20e05da6efcf3363e8e5",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/manifest.json",
+      "candidateSHA256": "4145d657165b70074ef159b706022759a6d1bb904a6a8b666f28214fe4a30853",
+      "currentSHA256": "4145d657165b70074ef159b706022759a6d1bb904a6a8b666f28214fe4a30853",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/2026-11-02-基础关系修订前/model-2.1.json",
+      "candidateSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+      "currentSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+      "action": "already-matches"
+    },
+    {
+      "path": "archive/README.md",
+      "candidateSHA256": "4bdec72788f9eed3cceef1b6d46be22ff4fcc9660de323ec67c374db3bb92250",
+      "currentSHA256": "7a5b280bca22866487288497685f074b79395c45fd0a7a44f9abc67f0b85dbe0",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "candidateSHA256": "8e29ff7308528fc19bbe045ce5aec7dd7c6c093fef885599624f1d399320ac41",
+      "currentSHA256": "c50ec93ba8cae84f5332cff7614a2a0e7f80168af3d2ed547aeffd292bb0fb16",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "candidateSHA256": "ff7ca309b49b93c7974b828823ab82d16d2264619b1aeddffedc0066dcb4ec48",
+      "currentSHA256": "7adaa1ef3a3dc3fd38268d4802507eb979007d3137f1e3ca65fba54bbddb0a86",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "candidateSHA256": "b939414108d68a96e7e7432878c9a021db4ea68957192dab5caaea937150a81b",
+      "currentSHA256": "d25894ed8104e030926b8fe32f44b519a8526f0c062c9c50938da1f5b06b9e67",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "candidateSHA256": "6d3380d45cbcbef2ec26c6c4fbd20de87fd7f59e87e869fc7b997180aa59f1ed",
+      "currentSHA256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "candidateSHA256": "4f2170635019e568a8167294dc5c4185a00b73728cdad46b42bbc9edfa9e0bef",
+      "currentSHA256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "candidateSHA256": "8c8fa802dcc5b2e79dedd8cf935f3026d674e23daaebf108abd6fd98fc4e8a15",
+      "currentSHA256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "candidateSHA256": "bc1fab2bc8de8225d8f1322fabb80107cc427e08ee86a062ccc5446b948f20fb",
+      "currentSHA256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "candidateSHA256": "6476e30b1da4080119705970614eb05ebd25fab3141fd9405dc314b8a62bcddb",
+      "currentSHA256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "candidateSHA256": "8a34203da8d436089836d396b8faae62bdf6b489eb073b755a5eeef78979e3cc",
+      "currentSHA256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "candidateSHA256": "c1dd190efd4e97ecd820ad4cd558a88c170c77727f8104f69c3446a2d274d72d",
+      "currentSHA256": "3ea9116caa603394a01660efa273b93e267c68ea6646e95ffb937a1abda40a02",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "candidateSHA256": "4bca6dfe73fac7de8df5f623a05898240b85f2f678016e39698ba9d052522a53",
+      "currentSHA256": "4bca6dfe73fac7de8df5f623a05898240b85f2f678016e39698ba9d052522a53",
+      "action": "already-matches"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/README.md",
+      "candidateSHA256": "11cf702d179da5e3d6f0132fef1720e43dca3b0c564ebefb68e512ab68fa903a",
+      "currentSHA256": "dd396f69a7d83f96a2d66638e1570715531e39b293b5e0f7506a8d833529a953",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/V01-readback.json",
+      "candidateSHA256": "f091166eae287093ac2ace7165dca5789b02b4148a95f4f5f3b964391013c606",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/after/graph.json",
+      "candidateSHA256": "f091166eae287093ac2ace7165dca5789b02b4148a95f4f5f3b964391013c606",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/after/raw.json",
+      "candidateSHA256": "cb868a598ce5d029d63dd9cc0c3c2952c54e857a13a983b9449f6246ff264f04",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/after/schema.json",
+      "candidateSHA256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/after/summary.json",
+      "candidateSHA256": "168147d477381a9495261c397132f6d743fae6d1acfc20e05da6efcf3363e8e5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/analysis-results.json",
+      "candidateSHA256": "dae6430ba88a1f67c85ac4cf13b73fb2fce443796adedfffa44ee2041a258e24",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/execution-stage.json",
+      "candidateSHA256": "821c94c6e4e2e506f596333f28e1707d09f8a7d18c1825a372acee2962255ee6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q01_identity.json",
+      "candidateSHA256": "dab5c05dc8710056654e13d6086cef3b6be028e0ad44a7b181491960539b8bd4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q02_dimensions.json",
+      "candidateSHA256": "91e0ce4f1d3e041eeaf42918e89ca560455bfa7523b32979eb57305743185c31",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q03_comparison.json",
+      "candidateSHA256": "da285b75667b274e79fa6b165d1e38cea03f354bb5847bf5aae0188616f804b9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q04_boundary.json",
+      "candidateSHA256": "1e9400f3fd19c29020026af8a7948ba181259f764c0168162ea54ca07416565b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q05_interfaces.json",
+      "candidateSHA256": "ed75b702265f6660d584d0154d3a28a418a0c27321f5ac9ab22dabf0608aaeae",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q06_outward_path.json",
+      "candidateSHA256": "7f3e9b042ac3108c57923a85a1b100a6497f32676d51753778087b1eb745cfe7",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q07_return_path.json",
+      "candidateSHA256": "affbfae19ec0f2f9ec96c56658d81b375f75555af4f4af3b49c9df22d914f81d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q08_local_area_inputs.json",
+      "candidateSHA256": "09dba151cb2a415f7119f12e34cfeb65e455ab0a9e2696066e46dc3bbab4596b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q09_uses.json",
+      "candidateSHA256": "f045028b689292a7313b59dde9e756c10a49016ac64dbf38b3a6e50468e9e6a3",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q10_sources.json",
+      "candidateSHA256": "5d01ab78bb9b50873dfae6ce64e418d660516659468b3588d9ed8a3ddb862922",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q11_roles_and_scope.json",
+      "candidateSHA256": "60c5c974b26945cb8f366390de846ee5c07558cb72dd1f469bc3f6d2fee17656",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q12_no_duplicates.json",
+      "candidateSHA256": "b57d259859d6fdd474c49dd0ca6daa19862247cd79e63b3c08243a8fb05d3c68",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q13_legacy_topology.json",
+      "candidateSHA256": "b390eb06776116e4f1039ecaca904ff315a4b90e951a727d92a19d3410cb20ae",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q14_facade_records.json",
+      "candidateSHA256": "f9eb934d17f5310073ed271337070a04ec8c4ff936782a207052b763f122cb0a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q15_facade_openings.json",
+      "candidateSHA256": "364d7049f594a65a70d92a4ce0ed239c471a7907002f8c3b88680bc997712955",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q16_collection.json",
+      "candidateSHA256": "e6684e2b56ad4e37571ccedff1e7e23a149bcf759fa20697e1f9156db9a92087",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q17_street_sides.json",
+      "candidateSHA256": "57bf661e02f726b7ac951b4bf30d91ecc4a1d118038a0f5377865fb538b906a8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q18_ground_reference.json",
+      "candidateSHA256": "b9183e0a6a71b12e06e11451385007201b8eb647b3cae2f206ce8ab45e97455f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q19_explicit_local_pair.json",
+      "candidateSHA256": "8705d2c53f7dbf6a959590776fe4f6aa0441f13d5ab2ced9f32bc14be0f4feb9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/Q20_extension_sources.json",
+      "candidateSHA256": "33279ebde650a5d053920e1a19a3902baf4b3c1e840eaf367d557b4643ce8520",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/explain/replace.json",
+      "candidateSHA256": "13a1713673d67ea60973b6fc15f65c497e884faabf7380669ba560613737e2b4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/mcp-tools.json",
+      "candidateSHA256": "c20349f81fee13f1573f5009d6b4f1784f4817280ae3e52a8b62dde89859195f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/positive-guard.json",
+      "candidateSHA256": "b6c06972df7bde6e4939d621357738847156f1ac9ce819641d482b204513eb69",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/preflight.json",
+      "candidateSHA256": "0eb1a3b7afeb4200a8fff1e0cc79cb40a031ae67bb8d9cf18de7fce16e6536a3",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q01_identity.json",
+      "candidateSHA256": "a9740e62f73c6c4d2279f6e612ff58fb2bbb494cd8b5227b05a9253b5cbbffbe",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q02_dimensions.json",
+      "candidateSHA256": "941202a18594c23f42a7c57fe4f192931357d62a9c70b606828e203dd859ea23",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q03_comparison.json",
+      "candidateSHA256": "1eaa15326fa1f9742b32b2f16ad8b6f724e11255aba72e9ce2c0d575829edbd5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q04_boundary.json",
+      "candidateSHA256": "040b731ce6faeff5351475c456fa57658211a41416805fb03bb0461f4297e268",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q05_interfaces.json",
+      "candidateSHA256": "6a594c085146d59b78ab10b3aa779e9c075f44705ab6219c08c3ee1f9d15ce63",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q06_outward_path.json",
+      "candidateSHA256": "205da3a772981ecf41e53379c2cb0b718d40906e2eb6b196eca1545450fa40e6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q07_return_path.json",
+      "candidateSHA256": "4d1a4d55a05a9c3455f92be1787c74200f33048901aca0e31d898f552ef232f0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q08_local_area_inputs.json",
+      "candidateSHA256": "9be7a624c7af925c159265ee1347bf1cd997ea1bedbb105bada450a56f0bd3d8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q09_uses.json",
+      "candidateSHA256": "e8d6ace4c69793f809c843cfc0d4d15a38f144f4c6c8e8bc8d1518cdec45dbdb",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q10_sources.json",
+      "candidateSHA256": "e463da2e7b7cadc8d3c8338f5841e5ff942fa81dc32a45e8635230d09103227d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q11_roles_and_scope.json",
+      "candidateSHA256": "1a29dbaeeb7aebe81051e8240ab853e2cf74341355155b40e27d7e6279f9712d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q12_no_duplicates.json",
+      "candidateSHA256": "6913ce6c4dfc2cda1eba11a21e84578646676675fe3ef3791b2fefb76bccf641",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q13_legacy_topology.json",
+      "candidateSHA256": "cdfa40934a82ba1b965c31ef0b103b6342267033ac10c97c38fc1b819a1b0f8b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q14_facade_records.json",
+      "candidateSHA256": "d746ee449e36ac154a2c14fd33ed901dfefe2607c4715601be1e15a32a3988d8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q15_facade_openings.json",
+      "candidateSHA256": "e06b9094495a9ffeb67cdd1b573d82f01b28961b3759db8e9adb7bc85f3bccee",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q16_collection.json",
+      "candidateSHA256": "5c1695a53472feb8cd2fe8af944e40d7fd051bde10a5fb9f8e61dae6cd914ac0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q17_street_sides.json",
+      "candidateSHA256": "e80cd2b6ebbc78dbbc42f7f562ad32d8e13de72cb0c5a553e9df21307471e3ed",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q18_ground_reference.json",
+      "candidateSHA256": "180f369aa01fa301fa3b727b625b329188c2cb6bd362f4c0da38c5f65b0ed2ea",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q19_explicit_local_pair.json",
+      "candidateSHA256": "eeb8ffe2c9b5b7116fef74df328298698ae6169bfabee465d47d886faa629196",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/queries/Q20_extension_sources.json",
+      "candidateSHA256": "26a3e39d2ac8af0357c2fe63c716fee1f9a52c3e48eff7305fd4d14d506f3f59",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/query-results.json",
+      "candidateSHA256": "971c803cc8b6f822e4b544aa515a44a6aaad57a94e55b99a447178cf1ade781d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejection-tests.json",
+      "candidateSHA256": "d705d9f156bccec6f45fad7f8d55fc0c6d9fb0b555d5f4801bcc9ff41d89fa91",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/changed-property.json",
+      "candidateSHA256": "025eab72224e1ce2b0dd9b7476d8ee2f521437ee832c282df34785d3f4ecc519",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/changed-source-document.json",
+      "candidateSHA256": "047a4d7fc3551f5466c89cc7447190938b3326929b0385f7192f6d652f6fd042",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/duplicate-node.json",
+      "candidateSHA256": "985f516cbf1cf2ae537d49782e5c37a32f05c23d4ef7dfe46ea41500e76a6062",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/duplicate-old-identity.json",
+      "candidateSHA256": "e4ca4b78dcac2ed7e9a3e75fe9968b41bae631df04fc58829467f1602a39bc37",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/equal-value-wrong-native-type.json",
+      "candidateSHA256": "fe30eaf8ae06fc9379b6d4b8f60344fb59b1bcdfc67247874f694e639a0e8f84",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/missing-actor.json",
+      "candidateSHA256": "1e7beb08012c93eaa3bff6507aa14948e24ec54e95222fdc008ee2a883a3cf78",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/missing-endpoint.json",
+      "candidateSHA256": "5d29e62d0821ae68698cd1d317a93df8117d15d41ea10b4f85dbc4cfc1abb146",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/null-uid.json",
+      "candidateSHA256": "2e1f9a795d43d6f908036a2fa04aba6b98c07594e7bc5bbc1401bc0e3004cf2e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/stale-old-edge.json",
+      "candidateSHA256": "9aad043663df69b6ff8a050b7daea401a113c182a6dcbec2bc3170cc368d1545",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/stale-old-node.json",
+      "candidateSHA256": "e1fbabf26e5d7c53337f596088f6e024ab9f9ea4349d9eb0f35d0a2c3f900d30",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/wrong-boundary-slice.json",
+      "candidateSHA256": "b44c09c59165a29f65caef70865fcf2ae7bc37b611c03b1a8f72b2ad48209b32",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/wrong-label.json",
+      "candidateSHA256": "0e8f8c4c80f1686b459a6f02975ca11a4c12fe15b1225ac7872f7be8b4b24211",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/wrong-namespace.json",
+      "candidateSHA256": "7626d565b0ff1f05700b5d2f5be50ddbee0d2f54f99ae0ea9ecc05884525be5d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/wrong-native-type.json",
+      "candidateSHA256": "7d2c47ec00bb0bd16bf9850dcb6eac5b0def1ac62ad0c9a6e7dc26c516f04a19",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/wrong-source.json",
+      "candidateSHA256": "6ccfe996482b9abc8868b7d1661384be0baecd9e857dc29e5cd7038a33ed7ff2",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/rejections/wrong-type.json",
+      "candidateSHA256": "37779f0882780bdc13ebac33ceb7c0204a2a69219eafca744fc5f258e8800286",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/verification.json",
+      "candidateSHA256": "dc0642581a955df6ef8a7bec8c8e3a4be56dc3cdb5e7fb651e01a4413a0fe9e8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展回执/write-return.json",
+      "candidateSHA256": "371f636e87702612aac4a9ff45e438a5877b66f28fca58d4426d65c11b431262",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展审核查询.cypher",
+      "candidateSHA256": "4e79af44912e2b8defb2f373410a1ba01d0bde148b076a1f7a13659cf9f80190",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展映射.json",
+      "candidateSHA256": "5086ebe952763d5519196ccb891b73b519c4eaedd722872229ab04c31d869d55",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展查询参数.json",
+      "candidateSHA256": "94c3151885468300bbf07049b839c8a2d6dab5dc569296ec35820f261d876cf4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/D04.log",
+      "candidateSHA256": "459ee497d7e94a6a8e37dfb16d1b81ff6a0e4cfb68c5d7e259bb898353aa9d8a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/D05.log",
+      "candidateSHA256": "62752d3a1b0b00aa54746c0253b39aa543a7011920a64cbf079427facfa98c1f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/all-tests.json",
+      "candidateSHA256": "c7cde8b76b19caa2ac60fa53141b4309d4ba27fc7f540bed0c1536ce0a986f0b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/baseline-analysis.json",
+      "candidateSHA256": "a365326d3ef39e921fcd022cf67a2f8a32dfb7b107c295bf1e92f07071be949e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/baseline-exact.json",
+      "candidateSHA256": "c0f6a51a29e7e04f524bf7d603db6b6e231583d32fdcc7fe3a4df37b908e5e04",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/doc-render-links.json",
+      "candidateSHA256": "449fccc9db0eab58c49b859be7cdfdb748a0b43da7134ae294201d4bd82421cb",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/dynamic-generation.json",
+      "candidateSHA256": "1bcfcdf57eb20552256d579432a4c37432b52c0c9e3d502e44d3a75d9ab4790f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/extensions.json",
+      "candidateSHA256": "0979fc424c82eced08c48acd2fa887a841b65a2c1549db290a49014c137decab",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/extensions.log",
+      "candidateSHA256": "d3d7d5eada84680ae124cb640407fde07a61432f554e95b962e8de7f06207693",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/legacy-fixtures.json",
+      "candidateSHA256": "e1974ae9c5fd7627443553a20f3c6d2425b4b1c50b84135d6550c61441f4730f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/legacy-regression-final.json",
+      "candidateSHA256": "f11777baaecfe7abeb650daba825abb483706fa90f0236f8d20be45760ebe13d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/legacy.log",
+      "candidateSHA256": "9e066241c880deb2389f3b107c6121027c40663716fa7f53f4b1d289d1ae3d10",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/maps.json",
+      "candidateSHA256": "b03288edcd4291a8502359eb04c888f6fea55a6c83a7325f140cf140202ec36d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/precommit-guard.json",
+      "candidateSHA256": "818327ae48ffa7f18f40921f95a3205ef9b83a2eafa9aa2b23c59ac56db2928a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/results.json",
+      "candidateSHA256": "6c62e14178441ed59154ad656c89c301b9318bc3726d5ace6d6eb02ec9c4ab3c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/review-fixes.log",
+      "candidateSHA256": "477d2e1f94506e2e8bfd87a54a840893387a3770fe53e69b1d3798810f8aa81a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/review-to-published-delta.json",
+      "candidateSHA256": "0061a93771be753d5eba6a50fa37ab8a5d53554dafaa27cf7a7163d96bffda0a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/ui-final.json",
+      "candidateSHA256": "d5a96de6c1fddb9cedd45139012ef7571c5803369fa07475edf018175c74516d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/ui-preview.json",
+      "candidateSHA256": "5e364ed5c5803d52e95427d9ecfcf776c932030071c9de00a1dd6885368ca00f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/ui-routing-preview.json",
+      "candidateSHA256": "38569e3c89a50c88bb3aa1a7db030f4b8c060118ee0c02da297391a5d19d9fcf",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/unified.log",
+      "candidateSHA256": "d3f146c615a9aa1ee0a5470145fb1e30d4219e9529b1d6270df4a99e34c59adb",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/后续扩展检验/viewer-build.json",
+      "candidateSHA256": "2aa2d56ad8a875071d97c2bbc18304fc2f1d21d4fb6ff46fd1fe9ec058e00b1e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/V01-readback.json",
+      "candidateSHA256": "00fede429f652926e79b93afcd26a4cc951e808d75e9331bcbfb02d19aab0a2f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/after/graph.json",
+      "candidateSHA256": "00fede429f652926e79b93afcd26a4cc951e808d75e9331bcbfb02d19aab0a2f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/after/raw.json",
+      "candidateSHA256": "a2f3d027849106bc4505bc26549aee99005532adcf71826de1b25d6b859df139",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/after/schema.json",
+      "candidateSHA256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/after/summary.json",
+      "candidateSHA256": "409c0ef6ccd5e8765f1020a951e6ae00328a6945649a85dcca30e348ab1d1bc1",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/analysis-results.json",
+      "candidateSHA256": "4064598b495e261c162f1b98a94a54991406f8e70d0a6a4332b181db6b0e93aa",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/execution-stage.json",
+      "candidateSHA256": "f7fa16d8af43c5a1659a1f84e45a40cef074e2c3e131dd4cf414a712b767e3b3",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q01_identity.json",
+      "candidateSHA256": "5ed2270f4d6cb3c6903719690f4e67b6a32c2b4719382296bbe31224b6cf5a2b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q02_dimensions.json",
+      "candidateSHA256": "75ecc7c460f0f44cb3cdb6b2797d1ed87629827622f5c998c1a077b054188fbe",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q03_comparison.json",
+      "candidateSHA256": "70a4e330fd8e42f41e33410a5e0d4c49bd51a117dfe15f43ab91c186919530fd",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q04_boundary.json",
+      "candidateSHA256": "309efaefd8367676f8ece1a52f05173accef2f6faa11037c9cfa8a1dbdfa5271",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q05_interfaces.json",
+      "candidateSHA256": "49564be193fd708b43febb1f01be7d584ff50875f00abeb5ace66201bc7872b8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q06_outward_path.json",
+      "candidateSHA256": "7c37220797444799c484d4307f5c76432df62a0986e24a2c075d945cc714b582",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q07_return_path.json",
+      "candidateSHA256": "9ea97a47239c7791befa94f7540b773ff8b4e769329ea6e97f293ca9b9253d00",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q08_local_area_inputs.json",
+      "candidateSHA256": "dfcdba8f9ea726ce578e693e3c62c63b3c0679fc357d042f962edd351dfbd304",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q09_uses.json",
+      "candidateSHA256": "f3a66709c59611d309020f804a523fae62483019e96d5943240813bdf785d778",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q10_sources.json",
+      "candidateSHA256": "c5fa3496f94703840eb7dc06d53ef142ecb5da03741f86d712af6da0f57c7b26",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q11_roles_and_scope.json",
+      "candidateSHA256": "5c5a10bb7ad3774062fbd12745f501b9cd56ddf4dcfe9e6421312b307fbbac92",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q12_no_duplicates.json",
+      "candidateSHA256": "3dd00a9bd40e30ad3bc67d89176d4061960758835d953f116c8d31d7b3a8f3ef",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q13_legacy_topology.json",
+      "candidateSHA256": "feca2a5a20d1d7e94af92cbeee673676d1ce7a78538cf727185a3a35f5edc835",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q14_facade_records.json",
+      "candidateSHA256": "6b785b4833d32b5edded44f20ff09bf6467a5f17945fdc8fa31765701c5ea94e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q15_facade_openings.json",
+      "candidateSHA256": "a7191e67837865a1ef5e4c55d45d6e9c428d06f1025acc23d0e622540b1ea08e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q16_collection.json",
+      "candidateSHA256": "aadef2b835fe8f9d43007fc2b7ed95c40137d280058a777919c97fb5386c10d0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q17_street_sides.json",
+      "candidateSHA256": "0a7af44bbe4a8c5b94a689bab9a25deb5d837e391901072c447982904756e9f1",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q18_ground_reference.json",
+      "candidateSHA256": "c83d402f8b74273744497a77699472c009dbb78c61aa449a7b94a14dc4eaae82",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q19_explicit_local_pair.json",
+      "candidateSHA256": "ceb190af9416b16bb50a20fae9f812a5b6a92210b0a96252464e46df950f028c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q20_extension_sources.json",
+      "candidateSHA256": "7bf88f832ff17aac212d7ef809b2e71fbf23b02e25b83d526773d608263a1e02",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q21_local_boundaries.json",
+      "candidateSHA256": "b4021bc2e30fa3a6335c53fda73813fb53a7763e962e050b5c62df9b8f3e73ef",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q22_roof_projection_inputs.json",
+      "candidateSHA256": "a9e86b303a54c246c378e084dccbfa95bdc8047d30306ebf5aa3e0d7ddcd0598",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q23_open_interface_columns.json",
+      "candidateSHA256": "e95df9e62e7a3598fbcbd2bfb43fda118842e385ddf0983558c893fcc8f123ac",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q24_street_reference_inputs.json",
+      "candidateSHA256": "3c6c5e638865913fc34dcbca235243fa3668f56d4e9dbb0bdfe3645e7ef13c45",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q25_object_relationship_inventory.json",
+      "candidateSHA256": "8d2ab2f8bcbf3558db4d1d240db5ec3db0a3509f38d6ea15a6448a7a664f67f7",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/Q26_interface_completeness.json",
+      "candidateSHA256": "86e0b0226f0f6302e63cd2f1e72ea8d779ad21cdcca1d7bf30bba2f2f5fd4f46",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/explain/replace.json",
+      "candidateSHA256": "016f9512d104e14e3437ce3023145019d01ae048662dab7075d5c722d0234416",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/mcp-tools.json",
+      "candidateSHA256": "c20349f81fee13f1573f5009d6b4f1784f4817280ae3e52a8b62dde89859195f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/positive-guard.json",
+      "candidateSHA256": "11a98cf5bf21918c0bb1118988f2b878a4f823241f6549ea40034d0ce9e95036",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/preflight.json",
+      "candidateSHA256": "3c7d0c842b0ef2c03a02367eb00263cf52b39e785a8fe70aace7a25a327c211a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q01_identity.json",
+      "candidateSHA256": "801466201768f2a849da05df2f00aefe023177685b006761cccf8885dc7e9543",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q02_dimensions.json",
+      "candidateSHA256": "155c63158dca694f24b1d600c0f8a5649f57e3a7e2ba31d3bde7acc55e117cd5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q03_comparison.json",
+      "candidateSHA256": "00b2de0a13b60bd96d1f448278b39f79bd5b50fe1378441b685f5406eaca322a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q04_boundary.json",
+      "candidateSHA256": "9b169386178bd594106b7c0d7bccd8a7aef92d3a45d7f7bc0a1edc2eccee7ac7",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q05_interfaces.json",
+      "candidateSHA256": "902f735338918e952686c9c47b071a46aedaf69ce18c35b278658c681d108dbe",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q06_outward_path.json",
+      "candidateSHA256": "2174d19918d94a593791c3bb054432f25a25034bc22b7bc2a374dd715eb0306d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q07_return_path.json",
+      "candidateSHA256": "0afa634678927c1555f9c3f341b23904293205ada154e02067366a3c94e5192d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q08_local_area_inputs.json",
+      "candidateSHA256": "4b8a51d4d052c19267b68a5b86d7489f9224238bfa09607724955b2cda770690",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q09_uses.json",
+      "candidateSHA256": "db2383662a7714518464a66c128b403a98c25404e1ae88b6dad0d80aa8252aa1",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q10_sources.json",
+      "candidateSHA256": "6821db175e5b082209634ffea083af1c784bd1269bb6223898e678b75c9fa35d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q11_roles_and_scope.json",
+      "candidateSHA256": "0580dccd32002229c68d4f2281f6c7c382d17bd4d49287f11cb882764fe97f1b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q12_no_duplicates.json",
+      "candidateSHA256": "6699e76e31a476edb2cc0d6c41281a72d7dd8ea5a26320c004b0049a72983766",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q13_legacy_topology.json",
+      "candidateSHA256": "9278e2c9227bbca9ebc34638b52881d531ed58e5202ca43b84fcf6c3626a6259",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q14_facade_records.json",
+      "candidateSHA256": "b75bb2ec3af455adfeead31a1cf95ec828936054185c184487d8b663f3439761",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q15_facade_openings.json",
+      "candidateSHA256": "64c5b53cf8e9ed7623a48347240f3c76d19d9fa30a8cd1ced7600d2950022d72",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q16_collection.json",
+      "candidateSHA256": "51bb457f44ded5d05f50a2fa2c90702506aca3eb69d5fab5b3b4edc56109b871",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q17_street_sides.json",
+      "candidateSHA256": "f57c91f0205728b09f6463a30dc3d6b63a35672d59d160c4d196e7bcc239cc26",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q18_ground_reference.json",
+      "candidateSHA256": "89938d449dedb4754b67088d2f290eede4918c65abcef3b45ca8cb79978c8f9d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q19_explicit_local_pair.json",
+      "candidateSHA256": "9a18a95c39075148d1f6a24819dfea57eda728ab528eb1cddd6fb87fcfd2896a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q20_extension_sources.json",
+      "candidateSHA256": "1eed06d38d0cc482d24a912e9dd2a0f8ac0b5234d828af58bced462e2731e261",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q21_local_boundaries.json",
+      "candidateSHA256": "739a3b05cb1cf11d3b1bf238c1d268ac607376fa78e2cc193a4ebd0b1cd15995",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q22_roof_projection_inputs.json",
+      "candidateSHA256": "c07d03f85e5e08e70b20f919a092f77b5a8dbdb6f6657c36c4f436bfa693948d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q23_open_interface_columns.json",
+      "candidateSHA256": "3e31d2a81ebdedea6f170453b1c84448ddaef7af2803e7c3f2ed5fb856c471d0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q24_street_reference_inputs.json",
+      "candidateSHA256": "8252dab470bee664b40d38acff291028b8d9573bba20333015c0d6bb37a960e0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q25_object_relationship_inventory.json",
+      "candidateSHA256": "3d127f4879dbf2225dfcdebb846b06a9534704acf387990f33ec4e26a178e913",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/queries/Q26_interface_completeness.json",
+      "candidateSHA256": "948957fec9ac27c9f90e0ba497aca4e8f8ef9b12f3b1a43322c6bc5b86c287d1",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/query-results.json",
+      "candidateSHA256": "910e96c3b7aadfe97c7fe844f59266258531081b8ae5ed96cfe1874b39102c1c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejection-tests.json",
+      "candidateSHA256": "d705d9f156bccec6f45fad7f8d55fc0c6d9fb0b555d5f4801bcc9ff41d89fa91",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/changed-property.json",
+      "candidateSHA256": "8f79147f444c040d70673bc9cc8f9dffa05d1ee3129369f78bebfc3ef53fe5c9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/changed-source-document.json",
+      "candidateSHA256": "1e4556a1e06e126eb02d78f132980365b7aad41d45a182714a9372390d2041fd",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/duplicate-node.json",
+      "candidateSHA256": "99d235dc58c4ca028b8fb2a1b0adc2f2ef7fd2899fa657ed83476052cc62a270",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/duplicate-old-identity.json",
+      "candidateSHA256": "dd3e2fda9db368965df8ef86232f0ba4bc148b0b60e92d684020bddbd3ce8551",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/equal-value-wrong-native-type.json",
+      "candidateSHA256": "990084f21568a06e6a997da4b68bf2c5fa8eae3d9377d8754793ba4aa0210f61",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/missing-actor.json",
+      "candidateSHA256": "e638e19f2581f55380dcc7ecb522c052504473927f5867405c58b90f6b30f0bb",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/missing-endpoint.json",
+      "candidateSHA256": "2c3afcbe66339fb67bf1ab7f2d14bf00ef49a73a11bf3c26dc687516f922f972",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/null-uid.json",
+      "candidateSHA256": "1bda6effa67f409c383f2839b6b3535916079c7defd4f165999d4c6dd8073ce9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/stale-old-edge.json",
+      "candidateSHA256": "edc1426a91634c1b65c5aa3f4ac03786a4b78cbc4be7e722c10b78acb2878e45",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/stale-old-node.json",
+      "candidateSHA256": "59d51db4fffea28f9be6f011891929341cd747acc52d9ae519466011c2540f6b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/wrong-boundary-slice.json",
+      "candidateSHA256": "531237587daaaca4e407786e30342399a91a9806c364c102f0fcf92d357f0fd2",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/wrong-label.json",
+      "candidateSHA256": "5d67a32cf34f77fa20900d0180af50958f4d0ef4eb8152d860b0dd3129f07e98",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/wrong-namespace.json",
+      "candidateSHA256": "54dc73cc19b1b7ac01732e4075167d08ead9c74e0c63c7f6b1c506b8cd1c8a12",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/wrong-native-type.json",
+      "candidateSHA256": "19a77d5d2e62d5d79e463c1323131051e34766646b992a3384b3d23710c4a253",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/wrong-source.json",
+      "candidateSHA256": "5f82436b53da93e69f900ab28f115f4fe5cc88826c989910e5c4f75425a169a0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/rejections/wrong-type.json",
+      "candidateSHA256": "18ea7dfd37048c3d5f5b659ca8fae575f02c62c0f54fa4040ea7d7c84e2da80f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/verification.json",
+      "candidateSHA256": "8bd3c0201a20a7891e5f5e6e96c91468a28644a7be480adc6a508b8cea547623",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订回执/write-return.json",
+      "candidateSHA256": "019c7a8789071f784de92d9182630b776dc68abe78d3722764499f55ade98679",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订审核查询.cypher",
+      "candidateSHA256": "c73fb73b4b900b1293acc138d0a9167511a779e6eba45d9ae6e04490b6b5361b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订映射.json",
+      "candidateSHA256": "374e82df880ffb06375b55eacc4ecdf14efaf46e80c6c7f01fc1cca067291a50",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订查询参数.json",
+      "candidateSHA256": "5a384a14e7231fdad628fcf36c62597ffc9855e5c2441f851c53b0bdfcf9da9e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/D04.log",
+      "candidateSHA256": "775a836cb5c40dd8a358a741b88cb6eb4854d6e4d39799485ace92668d3402b6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/D05.log",
+      "candidateSHA256": "c714d6bc56bd894ec6fda23b265e58beface4c0d3048f4e123d00a9a263002fd",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/all-tests.json",
+      "candidateSHA256": "7c08ca4c8e88b87c2ee96266b1afa055e33c81fb52110214bc094cae1467a4fb",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/baseline-analysis.json",
+      "candidateSHA256": "a365326d3ef39e921fcd022cf67a2f8a32dfb7b107c295bf1e92f07071be949e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/basic-relations.log",
+      "candidateSHA256": "87090a0d8f703f127b94deb43e5d035889c2b16da702948bb87906274b79dda1",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/clean-candidate-database.json",
+      "candidateSHA256": "e18c27a7ce41222587734f9c4e638337d20cafb0efb62b0a832355dc05100718",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/clean-candidate-offline.json",
+      "candidateSHA256": "ba3bf43b458f975a2c781fd83bf3b78ebd34dc0331432049e448878340c918d2",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/doc-render-links.json",
+      "candidateSHA256": "a50a32de7d6f4c531c201bf264857182c3983e558f5b030d608fd6d751415dc8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/dynamic-generation.json",
+      "candidateSHA256": "505e74fdec20f3c3801a266dfdffedf080d323db7832e904b65e08890551006d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/extensions.log",
+      "candidateSHA256": "dddfe058037962329df3e1b4de95748685e233ddab5c199c3f1ab02392fcffb0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/legacy-fixtures.json",
+      "candidateSHA256": "e1974ae9c5fd7627443553a20f3c6d2425b4b1c50b84135d6550c61441f4730f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/legacy-regression-final.json",
+      "candidateSHA256": "f11777baaecfe7abeb650daba825abb483706fa90f0236f8d20be45760ebe13d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/legacy.log",
+      "candidateSHA256": "9e066241c880deb2389f3b107c6121027c40663716fa7f53f4b1d289d1ae3d10",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/maps-fix.json",
+      "candidateSHA256": "7841ca0119e19484f6b69f201160936c9ce4e05830372c9d23f0b6cf80583410",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/preexisting-generator-blockers.json",
+      "candidateSHA256": "eaa84f1d0d2efde6993703017b3500c5716b7fcc2e7bf085b8415e8d3f093a6a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/results.json",
+      "candidateSHA256": "6c62e14178441ed59154ad656c89c301b9318bc3726d5ace6d6eb02ec9c4ab3c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/review-acceptance.json",
+      "candidateSHA256": "787bd1ef3d9f27dcdfd00da92eee43e2b4298f981de8c6f0d8966d0aafab56f3",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/review-fixes.log",
+      "candidateSHA256": "67d37d4497b0aa16a8197f21ec85dc527d0978a569b3a55ff25fc5a3984c044a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/reviewed-to-published-delta.json",
+      "candidateSHA256": "3c7c7bf83ff38c8e1885d852ace4e05f08dc247d482af3432edacaf52443c705",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/ui-preview-final.json",
+      "candidateSHA256": "0b295ef73539bfca515ad058e279e49f66d2f7ed934d4056c27b5a6735b1d4b2",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/ui-readback.json",
+      "candidateSHA256": "6e758734c5e36fa0c9f76e514e814c71d557b11aa0c11de4de4db33ee912cb95",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/ui-routing.json",
+      "candidateSHA256": "3203eb4dd72460b2d9f50713fb29a6df4bbea6d07f38c66390aee1e8c064a235",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/unified-preview.log",
+      "candidateSHA256": "53d25bc326991dbda4142a0e295a054fb434125d1a6fc0306a0d2d9ed9aef3aa",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/unified.log",
+      "candidateSHA256": "d3aa3cb13ce35dc58ebf67b118b33ebd1b634d76a772fda39a44f49ea12f303b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订检验/viewer-build.json",
+      "candidateSHA256": "0f9986ee88d9a3aa245b979254114a39156035727850a6966b00860167f3c295",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订验收.md",
+      "candidateSHA256": "26df19c6edebcfa882e2bb40a9056fc2c2497d6cdc933bda51993fdbda8dac56",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "candidateSHA256": "effd55f5905fc494e81d3349e7cd2dc15ad0999a9291f273c275c3926c3c499f",
+      "currentSHA256": "04ff3f093fdeeac949df03dcd6c5bf47da7db93ff8a66ef52e57b043e2524ece",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/审核视图.html",
+      "candidateSHA256": "cadd36f352036ba1156888d1c2419c459259f4836dd6f397b1a87575b76c5ae5",
+      "currentSHA256": "d5625844af6935c3b4ac834feb6e5fa36ecbd84f8af398d84044ed931274207d",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+      "candidateSHA256": "bb1fb8b3c79dc8fd5aeecef39353b0623c7c0a91ccf48c647f8821ee3230a800",
+      "currentSHA256": "64f39e938787c1faef7106dd8280f8bb7f8aab617feb6e5c1ddb2c231a59eb60",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+      "candidateSHA256": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+      "currentSHA256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例浏览.html",
+      "candidateSHA256": "e54ea2aed3812c091d5a68e51231234c16b962fdfe1f0e950b978b447e2a2f98",
+      "currentSHA256": "cf10ebdb36c4b021c33d9a16321a8c89f88dee5ecb4e7ea99962b77c868db29f",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "candidateSHA256": "3a448bc2f41965b2cc9f0ee751a8d037fb75dfd53c42ea0c98ba8ff56f1b68ff",
+      "currentSHA256": "3d63eefdfa22ba8366aeec61911dae2a11870c959ca393d2ab05a9509f108cbc",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "candidateSHA256": "4839e11539155428e19da13cc910aaeaf801d886298f263090d0640c26a36616",
+      "currentSHA256": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "candidateSHA256": "e502d267710544965c720d194a3153cfe86911e918c0e0333e7eafc3d2cf6aed",
+      "currentSHA256": "d46e14fe5c6da95a09f8a4788c9feaa5cda2d7bd0c892f17342e139f1e14c7b2",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+      "candidateSHA256": "16254b0302d5061b604584f7a477c0c100005763b00ad94c471cf68053d72a60",
+      "currentSHA256": "79c153c94a2cbfdbca87d45b93159c700637e47beedbc03e3874dd5479fcb08a",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "candidateSHA256": "5d5e84aefe682430a7a34cdf483f6f56154e79042f1866c015980bfe334ff929",
+      "currentSHA256": "bf49f5b34acd27b3b24c59a80622499d1a9021a4d007dab20e11dfbd4a454c12",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/README.md",
+      "candidateSHA256": "8a7e95244d8d2ec5bd1bf3ac12d82ea1da2eb38bd972f8f899ca0d46d7b401d2",
+      "currentSHA256": "9ee35c7d778ff14351cf9d2aa83ba46d84235545e640bc340d40b170e6e19209",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/check.py",
+      "candidateSHA256": "f2acd9380d6a122d5e7232d9100ba2704dd2ead0c32677d50f13a149ee052ba6",
+      "currentSHA256": "a3ff9e6a3c27b2a3e0a861fd2a9a406740346c0a0d8781b269ae25d9d32ac3b7",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/run_tests.py",
+      "candidateSHA256": "854f1c87fb04e6b88a1a5517996c10f3550ca89892fb905c2e54198c6bb9fc94",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/test_extensions.py",
+      "candidateSHA256": "a3e891334d30a2b1781a449805c6fc24a73212b819e8063358af2db44818a23e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/test_legacy.py",
+      "candidateSHA256": "e1c353fab2b151ab8636803527ab7ceee7f0014fde4f2a7da65fb6985b51d5a7",
+      "currentSHA256": "e1c353fab2b151ab8636803527ab7ceee7f0014fde4f2a7da65fb6985b51d5a7",
+      "action": "already-matches"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/test_review_fixes.py",
+      "candidateSHA256": "d27a0be70c678a852b3b670ce43265858b5addf13aca2d408963f972d042b856",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/test_semantics.py",
+      "candidateSHA256": "1afe21622685177a2da45e3fd8c727f4e633d2fecafcc6a4425bb77a208d96c0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/test_unified.py",
+      "candidateSHA256": "42c77e2da0bede98f5f68c0574e0a6d1f0de06625b5686a7904dd14f351ec07c",
+      "currentSHA256": "3868044fe61f937f713519c67d5e71e8d495939d0b88c4cb9a9664f48e6062e8",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/analyze.py",
+      "candidateSHA256": "9a460c58b604bde2191497e0fab82a8420be31c6495bda6062dedc37dccf2003",
+      "currentSHA256": "fffa67f39c04fd1fe4acec033173cf867f8aa3fdb0238db2f789bd7eaaf2e8ea",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/basic-ui.js",
+      "candidateSHA256": "e1b386b6faebdbc0dbc3ddf013eff512bd697527df480d6eae4b246af26d47d6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/build_review.py",
+      "candidateSHA256": "26ffbdc9a62b7b57ac3236b995c4ad9e5d554a46f472620c7d4ff3adb309177f",
+      "currentSHA256": "6bd74cbbe81b7ed84d82c528118747a9a7bae98d03b4e1c6c927ffac022c9901",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/compile_model.py",
+      "candidateSHA256": "52f3a2ac164aa7073b3deebd47f7c91e789b663d3da7a37a8a8757a07db8c7d6",
+      "currentSHA256": "c746341ff2dcb861fd2d57c6f69635e626ccd686a6c8c3d98b64cd2887727ce8",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/d04.py",
+      "candidateSHA256": "7cfc69abf2ca839fc86c17c0032f812f2ce064cbe32ec6170e833c477eab6b2d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/d05.py",
+      "candidateSHA256": "5bc8093a78f5770315988367f328c7ada9418068158419afcd6ee12214e45ad4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/d06.py",
+      "candidateSHA256": "b1b5ad3a51fa7dd39a9653d148baa695cd1ba45f367caa1bcb581bcec2173005",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/extension-ui.js",
+      "candidateSHA256": "1924e8bf828ac3454d5342f947ced963857ef64475be1de650c2c784e59ec6ba",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/mcp_client.py",
+      "candidateSHA256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "currentSHA256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "action": "already-matches"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/projection.py",
+      "candidateSHA256": "8eaf84a4e76ca7248ca5c2ad009d9904c7c54f9d014ae9871de2cdb7ed576862",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/queries.py",
+      "candidateSHA256": "b15081f65a4559a0cd9682097c883aeff10bc1119384f4f33728064c5317e0fc",
+      "currentSHA256": "68636aaa679d0ce0f9278543f13bfb7dd5de9191e7ff32a30d075996e730ea57",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/run_graph.py",
+      "candidateSHA256": "61a271ab91e798857db818cae00323d202712454b10717e544645c5dede6a559",
+      "currentSHA256": "37e3601a43303c95e725de05158e4cfb5f290c07fe478e029f56a0a676e76570",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/semantics.py",
+      "candidateSHA256": "fffb7acfb2d0acb1121e54f7ac9f097e3770f63270e7fcea274eb6a8f504db60",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "candidateSHA256": "aff376f6207c833634e6e85b076a34516b75fa5f6b09c8ea940966acd726188f",
+      "currentSHA256": "a562af0e647b54c7c621a0cc34a3724b08593fa4046074579cdcdf146654458b",
+      "action": "guarded-replace"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/workers/d04/test_d04.py",
+      "candidateSHA256": "821fce665f2959f106a5750fe6ebcf39f0d20b06381e56eaf8d1f39dfbf608de",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/workers/d05/test_d05.py",
+      "candidateSHA256": "b911bb4b1452bea0bf5af918925000f6f04f6b8c2cfeff2bd41f592c78e1bba7",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/candidate/analysis.json",
+      "candidateSHA256": "c5f61fcef0189623c95cd5c433b3091693b7fe68abbdac1f6b6d25047fa02123",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/candidate/extension-map.json",
+      "candidateSHA256": "5086ebe952763d5519196ccb891b73b519c4eaedd722872229ab04c31d869d55",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/candidate/model.json",
+      "candidateSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/candidate/payload.json",
+      "candidateSHA256": "4b08f028c9027bbf189a7295f79f509b0a60de26e0c9a414713cd919a35fa4c7",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/manifest.json",
+      "candidateSHA256": "1c3addbe116537b9eb025ce4923a65b747cdf5f325c1482e300c48e3c7ce031c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/previous-findings.json",
+      "candidateSHA256": "a3e7640f6a4a235f8aff1328b1e286b26aedc2df81686a355b7df3e2939c1511",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/test_review_fixes.py",
+      "candidateSHA256": "d27a0be70c678a852b3b670ce43265858b5addf13aca2d408963f972d042b856",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/analyze.py",
+      "candidateSHA256": "16cf37e2fc808433273bbd85257d6198965679e1ff355c72c74a2a726214aa73",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/analyze.py.provenance.json",
+      "candidateSHA256": "ba6ed7fea42b3a0a552a0a9631a8d4790a7e06f02f2819b5a7c2c3994310143f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/build_review.py",
+      "candidateSHA256": "47929a7b9aed976a9f56b8fd0ca02dc699701b01de6a35a6bb2b031791b5c749",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/build_review.py.provenance.json",
+      "candidateSHA256": "359ea26f59aea4321065a1f38a1c0cd9fe01bd2f5eb911110b24e813cdefb1ca",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/compile_model.py",
+      "candidateSHA256": "ff77c2a83320d7729c3d2ab5cf4e4b54ed67bb75d1ddd17f4244bd9d14d15931",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/compile_model.py.provenance.json",
+      "candidateSHA256": "1bfd2d53ff670f4a09b394e72b4478b763cbe20a3508ab1153e4e70b5a52ca21",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/d04.py",
+      "candidateSHA256": "7cfc69abf2ca839fc86c17c0032f812f2ce064cbe32ec6170e833c477eab6b2d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/d05.py",
+      "candidateSHA256": "5bc8093a78f5770315988367f328c7ada9418068158419afcd6ee12214e45ad4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/d06.py",
+      "candidateSHA256": "b1b5ad3a51fa7dd39a9653d148baa695cd1ba45f367caa1bcb581bcec2173005",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/extension-ui.js",
+      "candidateSHA256": "1924e8bf828ac3454d5342f947ced963857ef64475be1de650c2c784e59ec6ba",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/mcp_client.py",
+      "candidateSHA256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/mcp_client.py.provenance.json",
+      "candidateSHA256": "79066c830ddd4f1b23807d9a894988ac3bf4d9ff3daf11adf2dfd9a12148ce76",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/projection.py",
+      "candidateSHA256": "8eaf84a4e76ca7248ca5c2ad009d9904c7c54f9d014ae9871de2cdb7ed576862",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/queries.py",
+      "candidateSHA256": "ea88afee3121fe1152d120413c849e6ef583077a156473824ca734088219e14a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/queries.py.provenance.json",
+      "candidateSHA256": "35271147466e134e5be105357d2db88ce597c8c1c529247bc63b5c699441a99c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/run_graph.py",
+      "candidateSHA256": "ca277c40c5290c17c23f814e08fae7573f57343de0bc3c07f343dbb9ee85ea1b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/run_graph.py.provenance.json",
+      "candidateSHA256": "3eeceeb2d292da84774fa52dd521293040893994446945d2a948c56b5dd608b5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/viewer.base.html",
+      "candidateSHA256": "7f2f98bfc9cab7a5b27c6645334c8224bc5e82730027d3359954aac352b68221",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/viewer.base.html.provenance.json",
+      "candidateSHA256": "31a739446826b05bdc69119e9f66db5e7fa9467b7619dfc0d6f2d765eab5b35b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/viewer.template.html",
+      "candidateSHA256": "ce4398d87306a7b55c7829a08b3e2ba8176024aa435b50c5110b65782b98239e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审冻结/tools/viewer.template.html.provenance.json",
+      "candidateSHA256": "8cfe0339bee3de04a2dace682d3b2ba5b928e3433723498c239dc578e5d3a4b9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/bundled-tests.log",
+      "candidateSHA256": "6dcdfeb27e1e1899a4ed9bbbbbdf349a46f85b025d7408a064b3a5c77daab109",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/finalize_review.py",
+      "candidateSHA256": "f0c30af2ab50064a7755d963240524b907da5123d83f6bd733783378303a2f13",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/findings.json",
+      "candidateSHA256": "b143bca9db95e07c8c40d9134d4b34fcaebe8e0ca87d8e93ae2501298150f02d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/findings.md",
+      "candidateSHA256": "98a8ec83af7c0610f279389a1d9961ae748d4ca71c4071987586bd9df0889109",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/hash-after.json",
+      "candidateSHA256": "7e617ad9b5b128f544a63f1d1f6c58f39975f81634e2d9aee7b4016ea014e514",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/hash-before.json",
+      "candidateSHA256": "6bfde309852d329587a6aac231e0d3aade47085e3d58115c07c73c01cc1ad4ce",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/independent-results.json",
+      "candidateSHA256": "6e797e889c7a5177f62eb6db3823e5ea3497d34e6f4f9432338295035ecc8ddb",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/independent-tests.log",
+      "candidateSHA256": "3c93086465fece7ec7a6f7045fd91f9eaa5a59796b39be059109b87e0cc0e841",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/independent_review.py",
+      "candidateSHA256": "72d66ed4eeb89b5a36b2566d36de2a4d58a88103006a46391c810b731d3d1fb7",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/复审结果/mutated-model.json",
+      "candidateSHA256": "8e0257edf9e3171323fb9d70a8991b78e995b4d425f75494e134c878bf716a38",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/candidate/analysis.json",
+      "candidateSHA256": "f54fd7280db8410f5ec93dc495a16759b5a8f7ec268bb974f1fb17f73004abd3",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/candidate/extension-map.json",
+      "candidateSHA256": "5086ebe952763d5519196ccb891b73b519c4eaedd722872229ab04c31d869d55",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/candidate/model.json",
+      "candidateSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/candidate/payload.json",
+      "candidateSHA256": "4b08f028c9027bbf189a7295f79f509b0a60de26e0c9a414713cd919a35fa4c7",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/manifest.json",
+      "candidateSHA256": "c882d2d04ae73e05946020c22c7594f40edf7483147557bfd5e7c0c8f8ebf58d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/originals/bot.md",
+      "candidateSHA256": "ff356ab34e1d844c466156e48ea36b4f8eb9e7ee8a6dec21898707318ea22169",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/originals/d04.md",
+      "candidateSHA256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/originals/d05.md",
+      "candidateSHA256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/originals/d06.md",
+      "candidateSHA256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/originals/model.json",
+      "candidateSHA256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/originals/optimization.md",
+      "candidateSHA256": "3d63eefdfa22ba8366aeec61911dae2a11870c959ca393d2ab05a9509f108cbc",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/analyze.py",
+      "candidateSHA256": "ce8ddecca0a023f69f5e888c9364c9786168e2677075b8858a52108518dfd49c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/analyze.py.provenance.json",
+      "candidateSHA256": "ba6ed7fea42b3a0a552a0a9631a8d4790a7e06f02f2819b5a7c2c3994310143f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/build_review.py",
+      "candidateSHA256": "47929a7b9aed976a9f56b8fd0ca02dc699701b01de6a35a6bb2b031791b5c749",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/build_review.py.provenance.json",
+      "candidateSHA256": "359ea26f59aea4321065a1f38a1c0cd9fe01bd2f5eb911110b24e813cdefb1ca",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/compile_model.py",
+      "candidateSHA256": "ff77c2a83320d7729c3d2ab5cf4e4b54ed67bb75d1ddd17f4244bd9d14d15931",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/compile_model.py.provenance.json",
+      "candidateSHA256": "1bfd2d53ff670f4a09b394e72b4478b763cbe20a3508ab1153e4e70b5a52ca21",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/d04.py",
+      "candidateSHA256": "d3eb530b5568a23042141be20bd5da2200281f9a17a8a1fcfa0fb60d3aac7ce9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/d05.py",
+      "candidateSHA256": "5bc8093a78f5770315988367f328c7ada9418068158419afcd6ee12214e45ad4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/d06.py",
+      "candidateSHA256": "53cf8a75e8588a393206d2760e9b5f5c6a76d6a32d4845bb36ae3de8613e43c5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/extension-ui.js",
+      "candidateSHA256": "0545f298cc9165f6e3a16354692664b313f69cf7ebd16cbf4da093d8b5caae09",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/mcp_client.py",
+      "candidateSHA256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/mcp_client.py.provenance.json",
+      "candidateSHA256": "79066c830ddd4f1b23807d9a894988ac3bf4d9ff3daf11adf2dfd9a12148ce76",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/projection.py",
+      "candidateSHA256": "46ad3c78814ae95e3d1d99638c1281ae41fb18c25c327b2ac12012e13929a5ad",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/queries.py",
+      "candidateSHA256": "ea88afee3121fe1152d120413c849e6ef583077a156473824ca734088219e14a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/queries.py.provenance.json",
+      "candidateSHA256": "35271147466e134e5be105357d2db88ce597c8c1c529247bc63b5c699441a99c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/run_graph.py",
+      "candidateSHA256": "ca277c40c5290c17c23f814e08fae7573f57343de0bc3c07f343dbb9ee85ea1b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/run_graph.py.provenance.json",
+      "candidateSHA256": "3eeceeb2d292da84774fa52dd521293040893994446945d2a948c56b5dd608b5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/viewer.base.html",
+      "candidateSHA256": "7f2f98bfc9cab7a5b27c6645334c8224bc5e82730027d3359954aac352b68221",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/viewer.base.html.provenance.json",
+      "candidateSHA256": "31a739446826b05bdc69119e9f66db5e7fa9467b7619dfc0d6f2d765eab5b35b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/viewer.template.html",
+      "candidateSHA256": "ce4398d87306a7b55c7829a08b3e2ba8176024aa435b50c5110b65782b98239e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮冻结/tools/viewer.template.html.provenance.json",
+      "candidateSHA256": "8cfe0339bee3de04a2dace682d3b2ba5b928e3433723498c239dc578e5d3a4b9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮结果/findings.json",
+      "candidateSHA256": "a3e7640f6a4a235f8aff1328b1e286b26aedc2df81686a355b7df3e2939c1511",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮结果/findings.md",
+      "candidateSHA256": "dd45ee74ebfb6035bdfa570f42c284e6caf42c2288a2c71f88372b6ce0331849",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮结果/reproduce.py",
+      "candidateSHA256": "abd33e4c8ca24764a852c6ba5039b8438493ed9740abeba4df76fcdcb199d66f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/后续扩展审查/首轮结果/test-results.json",
+      "candidateSHA256": "c1285ca7765f5352f1e044b3ab32285a1933b1f559b6073e1570a61c6b7e6219",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/baseline/freeze.json",
+      "candidateSHA256": "854e23ff6f6c840f8551325dea4b7c8e708650355e56fa7849d5af7b9c60bdf6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/baseline/model-2.1.json",
+      "candidateSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/baseline/审核意见.md",
+      "candidateSHA256": "a82243b1e9f7d03cca4f468c5a00f2658c98b4f09d9ca23e6b4c3541f650885e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/build_fix.py",
+      "candidateSHA256": "e95f5fe3eaf013569edd4fe7090cd0ea7fa7bc62ed37a78dd3eb27dd0b64d01f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/candidate/analysis.json",
+      "candidateSHA256": "0b71fcf17bc8e4ac4de206b94597fb27f1aa9b23654492910447f814d335f852",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/candidate/extension-map.json",
+      "candidateSHA256": "5086ebe952763d5519196ccb891b73b519c4eaedd722872229ab04c31d869d55",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/candidate/fix-map.json",
+      "candidateSHA256": "374e82df880ffb06375b55eacc4ecdf14efaf46e80c6c7f01fc1cca067291a50",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/candidate/model.json",
+      "candidateSHA256": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/candidate/payload.json",
+      "candidateSHA256": "f8e06b356193478d942f2bee842509acd369c86e490caaa030c274359b2defa8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/first-findings.json",
+      "candidateSHA256": "03f344d9cd2ece4c293950780ac2e08f9e06dba9cdec8282ce1a80244ab31394",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/manifest.json",
+      "candidateSHA256": "c6673b063c01526a9ffb4ae335ab236bf1653360333be816a1a6a3d89721ae5f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/test_semantics.py",
+      "candidateSHA256": "23091c3c5fa6b51ec7c734e36ab3e0834e55338bc583f533b3608379c4db4bdf",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tests/all-tests.json",
+      "candidateSHA256": "c0879fefa463df7bbf9c36bcdcedd621df90624e4545982aa17b23e301d27dcd",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/analyze.py",
+      "candidateSHA256": "9a460c58b604bde2191497e0fab82a8420be31c6495bda6062dedc37dccf2003",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/analyze.py.provenance.json",
+      "candidateSHA256": "ba6ed7fea42b3a0a552a0a9631a8d4790a7e06f02f2819b5a7c2c3994310143f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/basic-ui.js",
+      "candidateSHA256": "e1b386b6faebdbc0dbc3ddf013eff512bd697527df480d6eae4b246af26d47d6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/build_review.py",
+      "candidateSHA256": "26ffbdc9a62b7b57ac3236b995c4ad9e5d554a46f472620c7d4ff3adb309177f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/build_review.py.provenance.json",
+      "candidateSHA256": "359ea26f59aea4321065a1f38a1c0cd9fe01bd2f5eb911110b24e813cdefb1ca",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/compile_model.py",
+      "candidateSHA256": "a52fe1b061e97cf88691caa24233b84b48540a505733765c6102f1ddbd908837",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/compile_model.py.provenance.json",
+      "candidateSHA256": "1bfd2d53ff670f4a09b394e72b4478b763cbe20a3508ab1153e4e70b5a52ca21",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/d04.py",
+      "candidateSHA256": "7cfc69abf2ca839fc86c17c0032f812f2ce064cbe32ec6170e833c477eab6b2d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/d05.py",
+      "candidateSHA256": "5bc8093a78f5770315988367f328c7ada9418068158419afcd6ee12214e45ad4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/d06.py",
+      "candidateSHA256": "b1b5ad3a51fa7dd39a9653d148baa695cd1ba45f367caa1bcb581bcec2173005",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/extension-ui.js",
+      "candidateSHA256": "1924e8bf828ac3454d5342f947ced963857ef64475be1de650c2c784e59ec6ba",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/mcp_client.py",
+      "candidateSHA256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/mcp_client.py.provenance.json",
+      "candidateSHA256": "79066c830ddd4f1b23807d9a894988ac3bf4d9ff3daf11adf2dfd9a12148ce76",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/projection.py",
+      "candidateSHA256": "8eaf84a4e76ca7248ca5c2ad009d9904c7c54f9d014ae9871de2cdb7ed576862",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/queries.py",
+      "candidateSHA256": "b15081f65a4559a0cd9682097c883aeff10bc1119384f4f33728064c5317e0fc",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/queries.py.provenance.json",
+      "candidateSHA256": "35271147466e134e5be105357d2db88ce597c8c1c529247bc63b5c699441a99c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/run_graph.py",
+      "candidateSHA256": "61a271ab91e798857db818cae00323d202712454b10717e544645c5dede6a559",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/run_graph.py.provenance.json",
+      "candidateSHA256": "3eeceeb2d292da84774fa52dd521293040893994446945d2a948c56b5dd608b5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/semantics.py",
+      "candidateSHA256": "9fa62cf1cb4805324c56e3d0740b740c7be011270b94666ebe618e32c7c3ea33",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/viewer.base.html",
+      "candidateSHA256": "7f2f98bfc9cab7a5b27c6645334c8224bc5e82730027d3359954aac352b68221",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/viewer.base.html.provenance.json",
+      "candidateSHA256": "31a739446826b05bdc69119e9f66db5e7fa9467b7619dfc0d6f2d765eab5b35b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/viewer.template.html",
+      "candidateSHA256": "d5192f3ff4e5f55970be3532970dba2e913c664a3cdaa4b810389bb6d7ce4ccc",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审冻结/tools/viewer.template.html.provenance.json",
+      "candidateSHA256": "8cfe0339bee3de04a2dace682d3b2ba5b928e3433723498c239dc578e5d3a4b9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/analysis-roundtrip.json",
+      "candidateSHA256": "0b71fcf17bc8e4ac4de206b94597fb27f1aa9b23654492910447f814d335f852",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/counterexample-wrong-boundary-locator.json",
+      "candidateSHA256": "c5ce0552f5288e17c1bd81515b59674fe92f887f8dcc6af96468a2a6d8d64da4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/finalize_review.py",
+      "candidateSHA256": "0cd3209984223f06409d0bc2d9e0c03f655371cdf6de30e03632e9e51f439891",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/findings.json",
+      "candidateSHA256": "319e3d5edd82dfd090db48f8a635d627e3267e8b03ae6c194c74f5ab412c0578",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/focused-provenance-repro.json",
+      "candidateSHA256": "e9ec4a0e57e8c950b3c7890ea48a5bf395c1dd639f97ee19d5e92fecc6b1d29d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/focused_provenance_repro.py",
+      "candidateSHA256": "6ded9d2c0b39371ac08584d30eb3ac60766500b027eb7bce327f10b5e2d6f5a4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/geometry-recomputation.json",
+      "candidateSHA256": "0e07bcf444c91cbe824a16d20c3c1e729350da0519fc272b20657c10104a3c77",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/independent_review.py",
+      "candidateSHA256": "f665c9ad4206e79027377e35a21306a90be03d8564d1e76611a4de1e397c1bed",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/manifest-end.json",
+      "candidateSHA256": "0eb4e0b565cbce33f604d4b07bb2228aaa08bd2b222184b275e775c65aad3d20",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/manifest-start.json",
+      "candidateSHA256": "c684df725729343ce1dbe2c946c1008df48073558c43fc2761126c01939bf8ec",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/mutation-probes.json",
+      "candidateSHA256": "fd68ef882a01d3fd22ad760bac88ef7708645ad791168d5b796f6c34f1f4ec35",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/positive-exceptions.json",
+      "candidateSHA256": "90072f0f617b89bce4cb67b513597b5885e2a08999e02ff22587378badc5c2b8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/preservation.json",
+      "candidateSHA256": "d0f059b10df96837bfa8c1549466b8305c8c06235a376672d7bc621a8fba9e50",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/static-checks.json",
+      "candidateSHA256": "57c56e4c819acdcb5fe45f6a2f89b552cd205b8430cd705c24586c99310d7d54",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/summary.md",
+      "candidateSHA256": "eb1e2dc9669459667686e3804c398a037e2fe3a144767cce37ad3c1b5e519d19",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/复审结果/verification.json",
+      "candidateSHA256": "4978bf24f90fb18a1ea4c6ce844065a212db9af36c31eebabe7901fab3b81d10",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/baseline/freeze.json",
+      "candidateSHA256": "854e23ff6f6c840f8551325dea4b7c8e708650355e56fa7849d5af7b9c60bdf6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/baseline/model-2.1.json",
+      "candidateSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/baseline/审核意见.md",
+      "candidateSHA256": "a82243b1e9f7d03cca4f468c5a00f2658c98b4f09d9ca23e6b4c3541f650885e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/build_fix.py",
+      "candidateSHA256": "e95f5fe3eaf013569edd4fe7090cd0ea7fa7bc62ed37a78dd3eb27dd0b64d01f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/candidate/analysis.json",
+      "candidateSHA256": "0b71fcf17bc8e4ac4de206b94597fb27f1aa9b23654492910447f814d335f852",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/candidate/extension-map.json",
+      "candidateSHA256": "5086ebe952763d5519196ccb891b73b519c4eaedd722872229ab04c31d869d55",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/candidate/fix-map.json",
+      "candidateSHA256": "374e82df880ffb06375b55eacc4ecdf14efaf46e80c6c7f01fc1cca067291a50",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/candidate/model.json",
+      "candidateSHA256": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/candidate/payload.json",
+      "candidateSHA256": "f8e06b356193478d942f2bee842509acd369c86e490caaa030c274359b2defa8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/delta.json",
+      "candidateSHA256": "8e55dfefed51721fbc1ca578f4266097d3a73f54c1368be9306f3c2dff630c22",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/manifest.json",
+      "candidateSHA256": "d618cf094b15cc5a4d6ebc16d37e5dfee960dccb34f876d5928240e9e1040e80",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/previous-findings.json",
+      "candidateSHA256": "319e3d5edd82dfd090db48f8a635d627e3267e8b03ae6c194c74f5ab412c0578",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/previous-focused_provenance_repro.py",
+      "candidateSHA256": "6ded9d2c0b39371ac08584d30eb3ac60766500b027eb7bce327f10b5e2d6f5a4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/previous-independent_review.py",
+      "candidateSHA256": "f665c9ad4206e79027377e35a21306a90be03d8564d1e76611a4de1e397c1bed",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/previous-verification.json",
+      "candidateSHA256": "4978bf24f90fb18a1ea4c6ce844065a212db9af36c31eebabe7901fab3b81d10",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/test_semantics.py",
+      "candidateSHA256": "1afe21622685177a2da45e3fd8c727f4e633d2fecafcc6a4425bb77a208d96c0",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/analyze.py",
+      "candidateSHA256": "9a460c58b604bde2191497e0fab82a8420be31c6495bda6062dedc37dccf2003",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/analyze.py.provenance.json",
+      "candidateSHA256": "ba6ed7fea42b3a0a552a0a9631a8d4790a7e06f02f2819b5a7c2c3994310143f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/basic-ui.js",
+      "candidateSHA256": "e1b386b6faebdbc0dbc3ddf013eff512bd697527df480d6eae4b246af26d47d6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/build_review.py",
+      "candidateSHA256": "26ffbdc9a62b7b57ac3236b995c4ad9e5d554a46f472620c7d4ff3adb309177f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/build_review.py.provenance.json",
+      "candidateSHA256": "359ea26f59aea4321065a1f38a1c0cd9fe01bd2f5eb911110b24e813cdefb1ca",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/compile_model.py",
+      "candidateSHA256": "52f3a2ac164aa7073b3deebd47f7c91e789b663d3da7a37a8a8757a07db8c7d6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/compile_model.py.provenance.json",
+      "candidateSHA256": "1bfd2d53ff670f4a09b394e72b4478b763cbe20a3508ab1153e4e70b5a52ca21",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/d04.py",
+      "candidateSHA256": "7cfc69abf2ca839fc86c17c0032f812f2ce064cbe32ec6170e833c477eab6b2d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/d05.py",
+      "candidateSHA256": "5bc8093a78f5770315988367f328c7ada9418068158419afcd6ee12214e45ad4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/d06.py",
+      "candidateSHA256": "b1b5ad3a51fa7dd39a9653d148baa695cd1ba45f367caa1bcb581bcec2173005",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/extension-ui.js",
+      "candidateSHA256": "1924e8bf828ac3454d5342f947ced963857ef64475be1de650c2c784e59ec6ba",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/mcp_client.py",
+      "candidateSHA256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/mcp_client.py.provenance.json",
+      "candidateSHA256": "79066c830ddd4f1b23807d9a894988ac3bf4d9ff3daf11adf2dfd9a12148ce76",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/projection.py",
+      "candidateSHA256": "8eaf84a4e76ca7248ca5c2ad009d9904c7c54f9d014ae9871de2cdb7ed576862",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/queries.py",
+      "candidateSHA256": "b15081f65a4559a0cd9682097c883aeff10bc1119384f4f33728064c5317e0fc",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/queries.py.provenance.json",
+      "candidateSHA256": "35271147466e134e5be105357d2db88ce597c8c1c529247bc63b5c699441a99c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/run_graph.py",
+      "candidateSHA256": "61a271ab91e798857db818cae00323d202712454b10717e544645c5dede6a559",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/run_graph.py.provenance.json",
+      "candidateSHA256": "3eeceeb2d292da84774fa52dd521293040893994446945d2a948c56b5dd608b5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/semantics.py",
+      "candidateSHA256": "fffb7acfb2d0acb1121e54f7ac9f097e3770f63270e7fcea274eb6a8f504db60",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/viewer.base.html",
+      "candidateSHA256": "7f2f98bfc9cab7a5b27c6645334c8224bc5e82730027d3359954aac352b68221",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/viewer.base.html.provenance.json",
+      "candidateSHA256": "31a739446826b05bdc69119e9f66db5e7fa9467b7619dfc0d6f2d765eab5b35b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/viewer.template.html",
+      "candidateSHA256": "d5192f3ff4e5f55970be3532970dba2e913c664a3cdaa4b810389bb6d7ce4ccc",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修冻结/tools/viewer.template.html.provenance.json",
+      "candidateSHA256": "8cfe0339bee3de04a2dace682d3b2ba5b928e3433723498c239dc578e5d3a4b9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/analysis-roundtrip.json",
+      "candidateSHA256": "0b71fcf17bc8e4ac4de206b94597fb27f1aa9b23654492910447f814d335f852",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-BOUND-S04-C01-locator-misplaced.json",
+      "candidateSHA256": "58268e8179ab9d008f723bb1ab9d82dfdeaa2f5d51a68764d01b05c30ac8b549",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-BOUND-S04-C01-locator-missing.json",
+      "candidateSHA256": "8658c3872434d19c4aceabb4a50404a439c54b54bca8e94864c1a128b4ad1c1b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-BOUND-S04-C01-sourceUid-misplaced.json",
+      "candidateSHA256": "05867404a65d52811aa88e6f6f7d71a8c13b5afa301d411798996febe21243cf",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-BOUND-S04-C01-sourceUid-missing.json",
+      "candidateSHA256": "8c7beca4e291ccbcc7fe7ccfdf63d9d6ca6ee79f813f7aff50c2b3fce820b069",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-BOUND-S04-C01-sourceVersion-misplaced.json",
+      "candidateSHA256": "b299e984126e83c18582626d54d104645fb646ddd0934218e49a54729d9c2edc",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-BOUND-S04-C01-sourceVersion-missing.json",
+      "candidateSHA256": "a6444699aa5ed9b1583f2d484fbba9d62b8aeb59aae78aab8dfb3763b76a555f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-R059-locator-misplaced.json",
+      "candidateSHA256": "bf61b5f68a9cc0f4784d8f795512359856c59ff107c5733066408c2cef9454ff",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-R059-locator-missing.json",
+      "candidateSHA256": "b48d5e7cb92d551ad18bc84da8f3ba346e32e1257db25fabede2113049ece8de",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-R059-sourceUid-misplaced.json",
+      "candidateSHA256": "79d25e9cde7d0b1122551bf718d65e01c7bc9a62ec88fe28557adb64bb50635c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-R059-sourceUid-missing.json",
+      "candidateSHA256": "a630cb54bd196f04253f58b4d5d9a21cc743f8b5b301cbefce0cedc3b2c265d3",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-R059-sourceVersion-misplaced.json",
+      "candidateSHA256": "e3bc8b9027a0ac7ec86c298f57346a70ecaadbaa3c162f2dbb148b72b369d899",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/counterexample-R059-sourceVersion-missing.json",
+      "candidateSHA256": "3ffe152cbcf0941d8af55e52e5c984fb5ec6b108e284144f38939f409a08efbe",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/delta-verification.json",
+      "candidateSHA256": "2130fd89d1f0c3a3372185f3aed78540f3f1db2355d77398feec615cb7bf3767",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/f03_review.py",
+      "candidateSHA256": "02c9740c4ad4e8ade94e9bc342572101c10d3314e65bff8844916d369ea97acd",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/findings.json",
+      "candidateSHA256": "d3abf7dd1e2cebf0e67ec9925505ad3617b3778059da86094a5c205392c157fe",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/fresh-f03-results.json",
+      "candidateSHA256": "816caa97c96255dbf0589c3156845ea58e067f7d67f2bbaf06dae80ce90aee55",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/fresh-positive-results.json",
+      "candidateSHA256": "703ed6705c92b9d17caf28bd78c56bcb2dec27dc43a4f0b7a6e624091398f0c2",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/geometry-recomputation.json",
+      "candidateSHA256": "0e07bcf444c91cbe824a16d20c3c1e729350da0519fc272b20657c10104a3c77",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/manifest-end.json",
+      "candidateSHA256": "a05740ddededb42f56fca8c81b048bb7547984b4ad0b436321cb40e91e7dc785",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/manifest-execution-start.json",
+      "candidateSHA256": "a05740ddededb42f56fca8c81b048bb7547984b4ad0b436321cb40e91e7dc785",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/manifest-start.json",
+      "candidateSHA256": "9a91a17a9ecd905060ccf470a50cc3d6f39a5450fbde2b3e433c0a7c04f4af90",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/model-roundtrip.json",
+      "candidateSHA256": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/mutation-probes.json",
+      "candidateSHA256": "31a5cb41d67e16cd6569c66e1d4d14362daa5d028ccde2221b82811fd3d45bbb",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/positive-exceptions.json",
+      "candidateSHA256": "90072f0f617b89bce4cb67b513597b5885e2a08999e02ff22587378badc5c2b8",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/preservation.json",
+      "candidateSHA256": "d0f059b10df96837bfa8c1549466b8305c8c06235a376672d7bc621a8fba9e50",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/reused-execution.json",
+      "candidateSHA256": "9f6ef6485596c2ee4ce8a509ea48102ca60ee3aa9367b068e4b2b9d1364e57df",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/reused-stderr.txt",
+      "candidateSHA256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/reused-stdout.txt",
+      "candidateSHA256": "cf66410bb5f1c9221a4b171a74dfb327071c88e6a7d04f6b506a1b0cb477978b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/reused-verification.json",
+      "candidateSHA256": "570a43e9731b8869e5f1813530d92d0f3fe3ecbbf16d86ca5a621d1a73f23d60",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/reused_previous_independent_review.py",
+      "candidateSHA256": "5cb7e19eaee4151afe4bad274f80588c19119455004a88bbff96ed03faff9896",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/static-checks.json",
+      "candidateSHA256": "57c56e4c819acdcb5fe45f6a2f89b552cd205b8430cd705c24586c99310d7d54",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/summary.md",
+      "candidateSHA256": "19b2222d9644bbb1d8da7c6ef01b134d6fcd08a9097f65d76023b71436c80894",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/来源补修复审/verification.json",
+      "candidateSHA256": "e81b7cb6ff78a9cc116f467bbb1a925925fae650fe967342e98dbd9495d15e67",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/baseline/freeze.json",
+      "candidateSHA256": "854e23ff6f6c840f8551325dea4b7c8e708650355e56fa7849d5af7b9c60bdf6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/baseline/model-2.1.json",
+      "candidateSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/baseline/审核意见.md",
+      "candidateSHA256": "a82243b1e9f7d03cca4f468c5a00f2658c98b4f09d9ca23e6b4c3541f650885e",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/candidate/analysis.json",
+      "candidateSHA256": "c5f61fcef0189623c95cd5c433b3091693b7fe68abbdac1f6b6d25047fa02123",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/candidate/extension-map.json",
+      "candidateSHA256": "5086ebe952763d5519196ccb891b73b519c4eaedd722872229ab04c31d869d55",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/candidate/fix-map.json",
+      "candidateSHA256": "374e82df880ffb06375b55eacc4ecdf14efaf46e80c6c7f01fc1cca067291a50",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/candidate/model.json",
+      "candidateSHA256": "dc34d566727682816cfe555c9840cb86d6f1672d7e14701d7b9c19a07e1e0cad",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/candidate/payload.json",
+      "candidateSHA256": "2022bd60aa7ad4680cb046f201ac8db03c8fd56ffe9b7e4302e9732e83a6cafa",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/manifest.json",
+      "candidateSHA256": "12505b7f8cf137ef9af7e5ba73d34dad1c403301dfeb4a78826ce17b46c9c6a6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/test_semantics.py",
+      "candidateSHA256": "99b8907eb28b86f04422142b39f1598674ea6fd339faf1caf0dcb8b9439a439a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tests/all-tests.json",
+      "candidateSHA256": "f0a033fd1dfa8867d90424f43ccf508a685d569a3bd956f58736df07e034378f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/analyze.py",
+      "candidateSHA256": "9a460c58b604bde2191497e0fab82a8420be31c6495bda6062dedc37dccf2003",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/analyze.py.provenance.json",
+      "candidateSHA256": "ba6ed7fea42b3a0a552a0a9631a8d4790a7e06f02f2819b5a7c2c3994310143f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/basic-ui.js",
+      "candidateSHA256": "e1b386b6faebdbc0dbc3ddf013eff512bd697527df480d6eae4b246af26d47d6",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/build_review.py",
+      "candidateSHA256": "26ffbdc9a62b7b57ac3236b995c4ad9e5d554a46f472620c7d4ff3adb309177f",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/build_review.py.provenance.json",
+      "candidateSHA256": "359ea26f59aea4321065a1f38a1c0cd9fe01bd2f5eb911110b24e813cdefb1ca",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/compile_model.py",
+      "candidateSHA256": "1b55a9ffa86e57a356d03e2317f2b48c69a91f8fac8f6be628e3ec44eb5eebae",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/compile_model.py.provenance.json",
+      "candidateSHA256": "1bfd2d53ff670f4a09b394e72b4478b763cbe20a3508ab1153e4e70b5a52ca21",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/d04.py",
+      "candidateSHA256": "7cfc69abf2ca839fc86c17c0032f812f2ce064cbe32ec6170e833c477eab6b2d",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/d05.py",
+      "candidateSHA256": "5bc8093a78f5770315988367f328c7ada9418068158419afcd6ee12214e45ad4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/d06.py",
+      "candidateSHA256": "b1b5ad3a51fa7dd39a9653d148baa695cd1ba45f367caa1bcb581bcec2173005",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/extension-ui.js",
+      "candidateSHA256": "1924e8bf828ac3454d5342f947ced963857ef64475be1de650c2c784e59ec6ba",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/mcp_client.py",
+      "candidateSHA256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/mcp_client.py.provenance.json",
+      "candidateSHA256": "79066c830ddd4f1b23807d9a894988ac3bf4d9ff3daf11adf2dfd9a12148ce76",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/projection.py",
+      "candidateSHA256": "8eaf84a4e76ca7248ca5c2ad009d9904c7c54f9d014ae9871de2cdb7ed576862",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/queries.py",
+      "candidateSHA256": "b15081f65a4559a0cd9682097c883aeff10bc1119384f4f33728064c5317e0fc",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/queries.py.provenance.json",
+      "candidateSHA256": "35271147466e134e5be105357d2db88ce597c8c1c529247bc63b5c699441a99c",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/run_graph.py",
+      "candidateSHA256": "61a271ab91e798857db818cae00323d202712454b10717e544645c5dede6a559",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/run_graph.py.provenance.json",
+      "candidateSHA256": "3eeceeb2d292da84774fa52dd521293040893994446945d2a948c56b5dd608b5",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/semantics.py",
+      "candidateSHA256": "4afd0ffeb88a7c0d8d114ebface78675ff2ad6dc631798b8e201e7ddc9bbf962",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/viewer.base.html",
+      "candidateSHA256": "7f2f98bfc9cab7a5b27c6645334c8224bc5e82730027d3359954aac352b68221",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/viewer.base.html.provenance.json",
+      "candidateSHA256": "31a739446826b05bdc69119e9f66db5e7fa9467b7619dfc0d6f2d765eab5b35b",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/viewer.template.html",
+      "candidateSHA256": "d5192f3ff4e5f55970be3532970dba2e913c664a3cdaa4b810389bb6d7ce4ccc",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮冻结/tools/viewer.template.html.provenance.json",
+      "candidateSHA256": "8cfe0339bee3de04a2dace682d3b2ba5b928e3433723498c239dc578e5d3a4b9",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/authorized-diff.json",
+      "candidateSHA256": "2fa58306fb98b0fa3c4d8213e8e52733d43bef3667daf9bdd653b943aae59add",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/evidence-role-drift.json",
+      "candidateSHA256": "16fe60cf78243fad1ef2b396d3c82cb175cf16516cba4fdeaaf662244aad9004",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/findings.json",
+      "candidateSHA256": "03f344d9cd2ece4c293950780ac2e08f9e06dba9cdec8282ce1a80244ab31394",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/independent-geometry.json",
+      "candidateSHA256": "f5cbf8bb2a1f38e10234175f51d9bd7e7920727d85c8e926f6c58b6ef8dedfa4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/independent_review.py",
+      "candidateSHA256": "88177f5aa9973bb9ed51d5d8e314ad926ac8af344ddc40b4359c93b08700d97a",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/json-roundtrip-repro.json",
+      "candidateSHA256": "2a3a48669a614abe7516143b56828133a8a2f9770537f35c465f7ce50e8a1ef4",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/mutation-probes.json",
+      "candidateSHA256": "9fdf50246a0bd0e6bd2c8dffbef05cf12ebdb584fc71cd70408c6b3e028ffcbf",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/summary.md",
+      "candidateSHA256": "4a692781ae6cc3f74ea40b89eba70c9a6e6c2d0fdaf27ab518980bbd2563ef64",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/supplied-tests.txt",
+      "candidateSHA256": "7214c4344d917ede5fcc8a4cdd8d27fe8c27436e546a50e06af69eeb3913a430",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/verification.json",
+      "candidateSHA256": "3a43d8bb6827ecc3f907b83643e88ffe7a67ee1f61779d3d5d9f5df95d7977a7",
+      "currentSHA256": null,
+      "action": "create-only"
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/基础关系修订审查/首轮结果/write-static-check.json",
+      "candidateSHA256": "4cb15a45454ab24f44e733da45ea76f787c3d71a8b673f80eabf0f0db8e68eb6",
+      "currentSHA256": null,
+      "action": "create-only"
+    }
+  ]
+}

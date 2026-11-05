@@ -1,0 +1,639 @@
+{
+  "version": "V01-unified-2.0",
+  "sourceModelSha256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+  "evidenceStatus": "synthetic-only",
+  "D01": {
+    "dimensions": [
+      {
+        "uid": "V01:B01",
+        "name": "V01虚拟主屋",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 9.6,
+        "depthM": 7.2,
+        "basis": "主屋既有轴网矩形9.6×7.2m；非主体外墙外边线，不含挑檐",
+        "groundZM": 0,
+        "widthDepthRatio": 1.3333333333333333,
+        "eaveElevationM": 3.2666666666666666,
+        "ownEaveHeightM": 3.2666666666666666,
+        "ownRidgeHeightM": 5.6,
+        "ownEaveHeightWidthRatio": 0.3402777777777778
+      },
+      {
+        "uid": "V01:B02",
+        "name": "统一原型侧房（沿用D01侧房设定）",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 6,
+        "depthM": 4,
+        "basis": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+        "groundZM": 3,
+        "widthDepthRatio": 1.5,
+        "eaveElevationM": 7,
+        "ownEaveHeightM": 4,
+        "ownRidgeHeightM": 5,
+        "ownEaveHeightWidthRatio": 0.6666666666666666
+      },
+      {
+        "uid": "V01:S01",
+        "name": "堂屋",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 2.9600000000000004,
+        "depthM": 5.58,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 0.5304659498207887
+      },
+      {
+        "uid": "V01:S02",
+        "name": "西室",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 2.96,
+        "depthM": 5.46,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 0.5421245421245421
+      },
+      {
+        "uid": "V01:S03",
+        "name": "东室",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 2.960000000000001,
+        "depthM": 5.46,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 0.5421245421245423
+      },
+      {
+        "uid": "V01:S04",
+        "name": "前廊",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 9.6,
+        "depthM": 1.5,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 6.3999999999999995
+      },
+      {
+        "uid": "V01:S05",
+        "name": "前院",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 9.360000000000001,
+        "depthM": 4.68,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 2.0000000000000004
+      },
+      {
+        "uid": "V01:S06",
+        "name": "南侧外部参照区",
+        "status": "computed-synthetic",
+        "issues": [],
+        "datum": "V01:DATUM01",
+        "widthM": 2,
+        "depthM": 1.38,
+        "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "groundZM": 0,
+        "widthDepthRatio": 1.4492753623188408
+      }
+    ],
+    "comparison": {
+      "uid": "V01:CMP01",
+      "status": "computed-synthetic",
+      "issues": [],
+      "subject": "V01:B02",
+      "reference": "V01:B01",
+      "valueM": 3.7333333333333334,
+      "meaning": "侧房减主屋的共同基准檐口高程差；不是自身檐高之差",
+      "cacheAgreement": true
+    }
+  },
+  "D03": {
+    "T01": [
+      {
+        "uid": "V01:S04",
+        "name": "前廊",
+        "geometryVersion": "V01-unified-2.0",
+        "groundZM": 0,
+        "coverState": "covered-open-sided",
+        "rangeBasis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "useState": "known",
+        "threeDimensionalBoundaryState": "not-fully-declared"
+      },
+      {
+        "uid": "V01:S05",
+        "name": "前院",
+        "geometryVersion": "V01-unified-2.0",
+        "groundZM": 0,
+        "coverState": "uncovered",
+        "rangeBasis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "useState": "known",
+        "threeDimensionalBoundaryState": "not-fully-declared"
+      },
+      {
+        "uid": "V01:S06",
+        "name": "南侧外部参照区",
+        "geometryVersion": "V01-unified-2.0",
+        "groundZM": 0,
+        "coverState": "uncovered",
+        "rangeBasis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+        "useState": "known",
+        "threeDimensionalBoundaryState": "not-fully-declared"
+      }
+    ],
+    "T02": {
+      "uid": "V01:S05",
+      "analysisSliceZM": 1,
+      "perimeterM": 28.080000000000002,
+      "netSolidBoundaryM": 17.720000000000002,
+      "netSolidRatio": 0.6310541310541311,
+      "classifiedState": "out-of-scope-for-legacy-four-side-rule",
+      "boundaryCoverage": 1.0,
+      "segments": [
+        {
+          "id": "N",
+          "lengthM": 9.360000000000001,
+          "solidIntervalsM": [
+            [
+              0.0,
+              0.020000000000000004
+            ],
+            [
+              2.94,
+              3.22
+            ],
+            [
+              6.140000000000001,
+              6.42
+            ],
+            [
+              9.34,
+              9.360000000000001
+            ]
+          ],
+          "solidLengthM": 0.600000000000001,
+          "coverState": "covered-open-sided",
+          "participants": [
+            {
+              "uid": "V01:C01",
+              "name": "前廊柱1",
+              "relationshipUid": "V01:BOUND-S05-C01",
+              "role": "column-section",
+              "intervalsM": [
+                [
+                  0,
+                  0.020000000000000004
+                ]
+              ],
+              "contributionM": 0.020000000000000004
+            },
+            {
+              "uid": "V01:C02",
+              "name": "前廊柱2",
+              "relationshipUid": "V01:BOUND-S05-C02",
+              "role": "column-section",
+              "intervalsM": [
+                [
+                  2.94,
+                  3.22
+                ]
+              ],
+              "contributionM": 0.28000000000000025
+            },
+            {
+              "uid": "V01:C03",
+              "name": "前廊柱3",
+              "relationshipUid": "V01:BOUND-S05-C03",
+              "role": "column-section",
+              "intervalsM": [
+                [
+                  6.140000000000001,
+                  6.42
+                ]
+              ],
+              "contributionM": 0.27999999999999936
+            },
+            {
+              "uid": "V01:C04",
+              "name": "前廊柱4",
+              "relationshipUid": "V01:BOUND-S05-C04",
+              "role": "column-section",
+              "intervalsM": [
+                [
+                  9.34,
+                  9.360000000000001
+                ]
+              ],
+              "contributionM": 0.02000000000000135
+            },
+            {
+              "uid": "V01:S04",
+              "name": "前廊",
+              "relationshipUid": "V01:BOUND-S05-S04",
+              "role": "covered-open-transition",
+              "intervalsM": [],
+              "contributionM": 0
+            }
+          ]
+        },
+        {
+          "id": "E",
+          "lengthM": 4.68,
+          "solidIntervalsM": [
+            [
+              0.0,
+              4.68
+            ]
+          ],
+          "solidLengthM": 4.68,
+          "coverState": "uncovered",
+          "participants": [
+            {
+              "uid": "V01:W09",
+              "name": "前院东墙",
+              "relationshipUid": "V01:R075",
+              "role": "wall-boundary",
+              "intervalsM": [
+                [
+                  0,
+                  4.68
+                ]
+              ],
+              "contributionM": 4.68
+            }
+          ]
+        },
+        {
+          "id": "S",
+          "lengthM": 9.360000000000001,
+          "solidIntervalsM": [
+            [
+              0.0,
+              3.880000000000001
+            ],
+            [
+              5.4799999999999995,
+              9.360000000000001
+            ]
+          ],
+          "solidLengthM": 7.7600000000000025,
+          "coverState": "uncovered",
+          "participants": [
+            {
+              "uid": "V01:W10",
+              "name": "前院南墙",
+              "relationshipUid": "V01:R076",
+              "role": "wall-boundary",
+              "intervalsM": [
+                [
+                  0,
+                  3.880000000000001
+                ],
+                [
+                  5.4799999999999995,
+                  9.360000000000001
+                ]
+              ],
+              "contributionM": 7.7600000000000025
+            }
+          ]
+        },
+        {
+          "id": "W",
+          "lengthM": 4.68,
+          "solidIntervalsM": [
+            [
+              0.0,
+              4.68
+            ]
+          ],
+          "solidLengthM": 4.68,
+          "coverState": "uncovered",
+          "participants": [
+            {
+              "uid": "V01:W08",
+              "name": "前院西墙",
+              "relationshipUid": "V01:R074",
+              "role": "wall-boundary",
+              "intervalsM": [
+                [
+                  0,
+                  4.68
+                ]
+              ],
+              "contributionM": 4.68
+            }
+          ]
+        }
+      ],
+      "meaning": "z=1m切片与内院分析边界；墙扣院门，柱计局部截面，有盖不计连续实体；不是三维围合度或建筑类型已验证"
+    },
+    "T03": [
+      {
+        "uid": "V01:I04",
+        "name": "前廊—前院开放分界",
+        "widthM": 9.32,
+        "widthMeaning": "既有分界跨度，柱列占用不扣成连续净宽",
+        "relativePosition": 0.5,
+        "referenceMode": "same-line-local-subsegment",
+        "startChainageM": 0.02,
+        "endChainageM": 9.34,
+        "referenceLengthM": 9.36,
+        "referenceCenterXY": [
+          4.800000000000001,
+          0
+        ],
+        "sideBoundaryMappings": [
+          {
+            "absoluteOffsetM": 0.0,
+            "basis": "同线局部",
+            "offsetYM": 0.0,
+            "role": "side-a",
+            "segmentXY": [
+              [
+                0.14,
+                0.0
+              ],
+              [
+                9.46,
+                0.0
+              ]
+            ],
+            "spaceUid": "V01:S04"
+          },
+          {
+            "absoluteOffsetM": 0.0,
+            "basis": "同线局部",
+            "offsetYM": 0.0,
+            "role": "side-b",
+            "segmentXY": [
+              [
+                0.14,
+                0.0
+              ],
+              [
+                9.46,
+                0.0
+              ]
+            ],
+            "spaceUid": "V01:S05"
+          }
+        ],
+        "participation": [
+          {
+            "target": "V01:S04",
+            "role": "side-a",
+            "relationshipUid": "V01:R039"
+          },
+          {
+            "target": "V01:S05",
+            "role": "side-b",
+            "relationshipUid": "V01:R040"
+          }
+        ],
+        "clearanceState": "not-geometrically-validated"
+      },
+      {
+        "uid": "V01:I05",
+        "name": "院门界面",
+        "widthM": 1.6,
+        "widthMeaning": "旧开口分析跨度，不等于当前成人净通行宽度验证",
+        "relativePosition": 0.5000000000000001,
+        "referenceMode": "host-axis-to-space-boundary-projection",
+        "startChainageM": 4,
+        "endChainageM": 5.6,
+        "referenceLengthM": 9.6,
+        "referenceCenterXY": [
+          4.800000000000001,
+          -4.8
+        ],
+        "sideBoundaryMappings": [
+          {
+            "absoluteOffsetM": 0.1200000000000001,
+            "basis": "宿主轴向该空间分析边界的明确平行映射；非原几何重合",
+            "offsetYM": 0.1200000000000001,
+            "role": "side-a",
+            "segmentXY": [
+              [
+                4.0,
+                -4.68
+              ],
+              [
+                5.6,
+                -4.68
+              ]
+            ],
+            "spaceUid": "V01:S05"
+          },
+          {
+            "absoluteOffsetM": 0.1200000000000001,
+            "basis": "宿主轴向该空间分析边界的明确平行映射；非原几何重合",
+            "offsetYM": -0.1200000000000001,
+            "role": "side-b",
+            "segmentXY": [
+              [
+                4.0,
+                -4.92
+              ],
+              [
+                5.6,
+                -4.92
+              ]
+            ],
+            "spaceUid": "V01:S06"
+          }
+        ],
+        "participation": [
+          {
+            "target": "V01:S05",
+            "role": "side-a",
+            "relationshipUid": "V01:R042"
+          },
+          {
+            "target": "V01:S06",
+            "role": "side-b",
+            "relationshipUid": "V01:R043"
+          },
+          {
+            "target": "V01:W10",
+            "role": "opening-host",
+            "relationshipUid": "V01:R044"
+          }
+        ],
+        "clearanceState": "not-geometrically-validated"
+      }
+    ],
+    "T04": {
+      "contextId": "V01-walk-baseline",
+      "actor": "正常成人步行（旧合成情境断言）",
+      "snapshot": "V01-synthetic-T0",
+      "relationships": [
+        "V01:R041",
+        "V01:R045"
+      ],
+      "paths": [
+        {
+          "from": "V01:S06",
+          "to": "V01:S04",
+          "status": "known-subgraph-path",
+          "path": {
+            "nodes": [
+              "V01:S06",
+              "V01:S05",
+              "V01:S04"
+            ],
+            "via": [
+              "V01:I05",
+              "V01:I04"
+            ],
+            "relationships": [
+              "V01:R045",
+              "V01:R041"
+            ],
+            "crossings": 2
+          }
+        },
+        {
+          "from": "V01:S04",
+          "to": "V01:S06",
+          "status": "known-subgraph-path",
+          "path": {
+            "nodes": [
+              "V01:S04",
+              "V01:S05",
+              "V01:S06"
+            ],
+            "via": [
+              "V01:I04",
+              "V01:I05"
+            ],
+            "relationships": [
+              "V01:R041",
+              "V01:R045"
+            ],
+            "crossings": 2
+          }
+        }
+      ],
+      "meaning": "最少跨界数仅在已知外部子图内；bidirectional旧断言显式双向处理；不证明净空、真实可达、步行距离或全宅最短路"
+    },
+    "T05": {
+      "scopeId": "V01-G0-local-window",
+      "levelZM": 0,
+      "scopePolygonXY": [
+        0,
+        -4.8,
+        9.6,
+        -4.8,
+        9.6,
+        7.2,
+        0,
+        7.2,
+        0,
+        -4.8
+      ],
+      "scopeAreaM2": 115.19999999999999,
+      "scopeBasis": "指定0m层局部分析窗：按主屋轴网与前院墙轴外围矩形声明，非净使用面积、用地面积或全宅比例",
+      "includedSpaces": [
+        "V01:S04",
+        "V01:S05"
+      ],
+      "excludedSpaces": [
+        "V01:S06"
+      ],
+      "excludedBuildings": [
+        "V01:B02"
+      ],
+      "areas": [
+        {
+          "uid": "V01:S04",
+          "areaM2": 14.399999999999999,
+          "ratioToLocalWindow": 0.125
+        },
+        {
+          "uid": "V01:S05",
+          "areaM2": 43.8048,
+          "ratioToLocalWindow": 0.38025000000000003
+        }
+      ],
+      "spaceUnionAreaM2": 58.20479999999999,
+      "unionRatioToLocalWindow": 0.50525,
+      "overlapDeductedM2": 0.0,
+      "deductionPolicy": "按空间既有声明矩形，不扣柱；不与包含廊的建筑投影求和。围合长度另在z=1m切片计算，分母不是净使用面积",
+      "wholeDwellingRatio": null,
+      "wholeDwellingState": "not-established-overall-boundary-incomplete",
+      "position": {
+        "subject": "V01:S04",
+        "reference": "V01:S05",
+        "deltaXM": 0,
+        "deltaYM": 3.09,
+        "alongAxisM": 3.09,
+        "meaning": "廊相对前院中心，不是双院序列"
+      }
+    },
+    "T06": {
+      "scope": [
+        "V01:S04",
+        "V01:S05",
+        "V01:S06"
+      ],
+      "byUse": [
+        {
+          "use": "交通与停留",
+          "spaceUids": [
+            "V01:S04"
+          ],
+          "spaceCount": 1
+        },
+        {
+          "use": "出入参照",
+          "spaceUids": [
+            "V01:S06"
+          ],
+          "spaceCount": 1
+        },
+        {
+          "use": "户外生活",
+          "spaceUids": [
+            "V01:S05"
+          ],
+          "spaceCount": 1
+        }
+      ],
+      "knownSpaceCount": 3,
+      "unknownOrUnsupported": [],
+      "assignmentCount": 3,
+      "meaning": "沿用各空间自己的合成用途；同一用途内按空间UID去重，不由E例或形态新增用途，不升级为全宅用途统计"
+    }
+  },
+  "identityReuse": {
+    "mainBuilding": "V01:B01",
+    "hall": "V01:S01",
+    "courtyard": "V01:S05",
+    "veranda": "V01:S04",
+    "gate": "V01:I05",
+    "legacyDuplicateNodes": [],
+    "courtyardUsedBy": [
+      "D01尺寸",
+      "D03-T01",
+      "D03-T02",
+      "D03-T03",
+      "D03-T04",
+      "D03-T05",
+      "D03-T06"
+    ],
+    "noMeasurementRecordNodes": true
+  }
+}

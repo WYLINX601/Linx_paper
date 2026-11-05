@@ -1,0 +1,20 @@
+{
+  "status": "prepared",
+  "preparedAt": "2026-10-24T12:12:56.782054+00:00",
+  "sourceModelSha256": "03aef114820ba2b9b998e8d36f5e226aad4d45d8e5a2051e1876f6d7bc9e7c05",
+  "archiveFileSha256": "da78c5fb265e8e7bb2a66b0c3639acb1b940f1b35e2a1a620d8fd1fab034df1f",
+  "oldNodes": 640,
+  "oldRelationships": 3713,
+  "oldGraphSha256": "a9b370b494e82c75581ca2bfe8de7fd82980699ca627a3d1925b97d37f1f1977",
+  "newNodes": 41,
+  "newRelationships": 166,
+  "newGraphSha256": "3ba2430f0b1f2ed04ae92eb05204713a2cd2fc4c0d44d7b160e6ce1f4561c60f",
+  "archive": "/Users/wangyuelin/Desktop/Obsidian/Paper/archive/2026-10-24-Neo4j旧图谱归档/数据库完整快照.json",
+  "queryExplain": [],
+  "restoreExplain": [],
+  "schemaPolicy": "Existing constraints and indexes retained; no schema changes",
+  "authorization": "User requested archive all previous graph data and make V01 the iteration base.",
+  "planCheckStatus": "EXPLAIN accepted; MCP returns result rows only, no plan tree",
+  "concurrencyProtection": "Lock old nodes and relationships by dependent property self-assignment before comparison. Delete only archived relationships, then plain DELETE nodes; no DETACH DELETE.",
+  "replannedAt": "2026-10-24T12:18:09.160363+00:00"
+}

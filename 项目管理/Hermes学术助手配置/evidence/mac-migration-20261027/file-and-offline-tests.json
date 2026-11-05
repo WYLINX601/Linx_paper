@@ -1,0 +1,36 @@
+{
+  "assets": {
+    "files": 1,
+    "all_equal": true
+  },
+  "sessions": {
+    "files": 0,
+    "all_equal": true
+  },
+  "plans": {
+    "files": 0,
+    "all_equal": true
+  },
+  "image_cache": {
+    "files": 0,
+    "all_equal": true
+  },
+  "audio_cache": {
+    "files": 0,
+    "all_equal": true
+  },
+  "simulated_linux_connection_failure": {
+    "exit": 255,
+    "error": "ssh: connect to host 127.0.0.1 port 1: Connection refused"
+  },
+  "local_status_after_failure": {
+    "ok": true,
+    "result": {
+      "root": "/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "root_available": true,
+      "host": "wangyuelindeMacBook-Air.local",
+      "platform": "darwin",
+      "checked_at_utc": "2026-10-27T08:42:49Z"
+    }
+  }
+}

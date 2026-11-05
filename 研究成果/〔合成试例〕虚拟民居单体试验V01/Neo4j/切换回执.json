@@ -1,0 +1,11 @@
+{
+  "appliedAt": "2026-10-24T12:20:32.535759+00:00",
+  "receipt": [
+    {
+      "archivedNodes": 640,
+      "expectedNodes": 41,
+      "expectedRelationships": 166
+    }
+  ],
+  "archiveFileSha256": "da78c5fb265e8e7bb2a66b0c3639acb1b940f1b35e2a1a620d8fd1fab034df1f"
+}

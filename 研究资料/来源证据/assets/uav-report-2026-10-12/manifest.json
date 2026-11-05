@@ -1,0 +1,44 @@
+[
+  {
+    "asset": "研究资料/来源证据/assets/uav-report-2026-10-12/tang-residential-model.png",
+    "original_pdf": "/Users/wangyuelin/Zotero/storage/GSZYPRIQ/汤茗喆 - 2024 - 基于数字信息模型的传统村落建筑风貌保护更新方法研究 ——以尚志市镇北村为例.pdf",
+    "pdf_page": 87,
+    "figure": "汤茗喆，2021，图3-24，印刷78页／PDF87页",
+    "crop_bbox_pt": [
+      102.6499252,
+      414.31300539999995,
+      492.3999235,
+      624.8129999
+    ],
+    "render_scale": 3,
+    "operation": "按原页图像边界裁切；未补画、去除对象或修改色彩"
+  },
+  {
+    "asset": "研究资料/来源证据/assets/uav-report-2026-10-12/yu-tower-model.png",
+    "original_pdf": "/Users/wangyuelin/Zotero/storage/GMJMCWYG/余学飞 - 2020 - 多源数字化勘测技术在北京通州燃灯塔中的应用研究.pdf",
+    "pdf_page": 33,
+    "figure": "余学飞，2020，图3-9，印刷25页／PDF33页",
+    "crop_bbox_pt": [
+      142.2,
+      313.9,
+      453.0,
+      594.0999999999999
+    ],
+    "render_scale": 3,
+    "operation": "按原页图像边界裁切；未补画、去除对象或修改色彩"
+  },
+  {
+    "asset": "研究资料/来源证据/assets/uav-report-2026-10-12/li-textured-model.png",
+    "original_pdf": "/Users/wangyuelin/Zotero/storage/PQ963XWW/李益壮 等 - 2026 - 基于无人机倾斜摄影测量技术的古建筑三维建模与保护研究.pdf",
+    "pdf_page": 3,
+    "figure": "李益壮等，2026，图3，印刷19页／PDF3页",
+    "crop_bbox_pt": [
+      51.0232,
+      285.6518,
+      288.515,
+      410.2543
+    ],
+    "render_scale": 3,
+    "operation": "按原页图像边界裁切；未补画、去除对象或修改色彩"
+  }
+]

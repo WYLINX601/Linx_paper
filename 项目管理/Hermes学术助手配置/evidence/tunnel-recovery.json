@@ -1,0 +1,7 @@
+{
+  "before_authenticated": true,
+  "simulated_tunnel_down_unavailable": true,
+  "restarted_authenticated": true,
+  "fresh_context_after_recovery": true,
+  "service": "hermes-academic-obsidian-tunnel.service"
+}

@@ -1,0 +1,356 @@
+{
+  "status": "passed-scoped-technical-checks",
+  "documents": [
+    {
+      "path": "README.md",
+      "sourceSHA256": "736a6fa00a8c5dc4623dff51dda7e7065373c09898427e99ba2c3b064c16f39f",
+      "preview": "00.html",
+      "tables": 1,
+      "strong": 1,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 539,
+      "overflow": false
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sourceSHA256": "723c499a789cf668802cd372e546f9f5466881ccadd048c915e3633f4b96d691",
+      "preview": "01.html",
+      "tables": 1,
+      "strong": 8,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 15017,
+      "overflow": false
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sourceSHA256": "617e29aae587104cca0db72c351944b0dd1d16ec2caf04b76821f9def68a28fa",
+      "preview": "02.html",
+      "tables": 1,
+      "strong": 5,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 3531,
+      "overflow": false
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sourceSHA256": "def612fa25dc1ea0d865708ad66501066ea0ae832f2123a71f23b38b2358e5b3",
+      "preview": "03.html",
+      "tables": 1,
+      "strong": 2,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 1657,
+      "overflow": false
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sourceSHA256": "c68c3e24155ae4f9250a9a2a1853eca53648db3fa5f19353a247ec76d97d0285",
+      "preview": "04.html",
+      "tables": 1,
+      "strong": 2,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 1464,
+      "overflow": false
+    },
+    {
+      "path": "研究成果/README.md",
+      "sourceSHA256": "a62061ec10174778cf3ac91f5c56c3c273e5ec5dc2ef01e871380585e1793da5",
+      "preview": "05.html",
+      "tables": 1,
+      "strong": 0,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 1644,
+      "overflow": false
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sourceSHA256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94",
+      "preview": "06.html",
+      "tables": 9,
+      "strong": 57,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 16364,
+      "overflow": false
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sourceSHA256": "49299305c0f2a87350a6feaa8c79910ea649830823a2b1ad6d34dd0985ef09ca",
+      "preview": "07.html",
+      "tables": 10,
+      "strong": 59,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 7625,
+      "overflow": false
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sourceSHA256": "cc53a008ef4e0f8850a6ea0030f434500358d880265107d5ad927f9987c7c473",
+      "preview": "08.html",
+      "tables": 2,
+      "strong": 7,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 3118,
+      "overflow": false,
+      "routeNodes": 0,
+      "routeEdges": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+      "sourceSHA256": "0ba8306392605f77337cb650b962d5230625d7ba140799b8620b4762e392f9af",
+      "preview": "09.html",
+      "tables": 0,
+      "strong": 0,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 382,
+      "overflow": false,
+      "routeNodes": 0,
+      "routeEdges": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/README.md",
+      "sourceSHA256": "6f23c7608fef22a6757ee1d6b495e503294e6b04b5d9dd9f12fd2b329ad89e80",
+      "preview": "10.html",
+      "tables": 0,
+      "strong": 0,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 255,
+      "overflow": false,
+      "routeNodes": 0,
+      "routeEdges": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sourceSHA256": "fc0b53ca447f3bcbaf3ea48556a67134080c7f2734940361db7f0750c94f6f30",
+      "preview": "11.html",
+      "tables": 3,
+      "strong": 6,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 3314,
+      "overflow": false,
+      "routeNodes": 0,
+      "routeEdges": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/技术复核说明.md",
+      "sourceSHA256": "6a1482d9862028b93146b855515d4abb97c04b920e07ae1dee3c9f6febbc048e",
+      "preview": "12.html",
+      "tables": 0,
+      "strong": 0,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 639,
+      "overflow": false,
+      "routeNodes": 0,
+      "routeEdges": 0
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sourceSHA256": "f966e63ee9b69b8ab58ac13d180a4c605a5016321331f93eb8bd66fbdcf43b32",
+      "preview": "13.html",
+      "tables": 2,
+      "strong": 19,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 12099,
+      "overflow": false,
+      "routeNodes": 0,
+      "routeEdges": 0
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sourceSHA256": "1da1c80f621fee9a19cbe64abc6bcdb544c00eff96178a7827f4864aa861e75a",
+      "preview": "14.html",
+      "tables": 1,
+      "strong": 1,
+      "mermaid": 1,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 2023,
+      "overflow": false,
+      "routeNodes": 13,
+      "routeEdges": 29
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/README.md",
+      "sourceSHA256": "125495e7bcb312411a746965db8180a455f45fea62b6058960abe30b25aa4181",
+      "preview": "15.html",
+      "tables": 0,
+      "strong": 0,
+      "mermaid": 0,
+      "ready": true,
+      "errors": [],
+      "errorIcons": 0,
+      "bodyLength": 1281,
+      "overflow": false,
+      "routeNodes": 0,
+      "routeEdges": 0
+    }
+  ],
+  "nativeMap": {
+    "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+    "oldNodes": 134,
+    "newNodes": 140,
+    "oldUIDsPreserved": true,
+    "compatibility": {
+      "ok": true,
+      "method": "installed_plugin_markdown_reader",
+      "rendering": "not_exercised"
+    },
+    "sha256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94"
+  },
+  "sourceMerge": {
+    "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+    "originalSHA256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+    "liveSHA256": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2",
+    "semanticNodesEqualBeforeMerge": true,
+    "pluginLayoutAndUnknownFieldsPreserved": true,
+    "originalSnapshotRetained": true,
+    "oldNodeCount": 134,
+    "newNodeCount": 140,
+    "scope": "Only rich-text serialization and UI state changed before rebase; authorized D03 edits regenerated on latest live source. Native preview cleared as stale, not falsely regenerated.",
+    "rebasedIntermediateSHA256": "719b50bd2993c32c9a84f4e6a62a11af635fcc632b0bc4e3fe74687c013eed2e",
+    "finalCandidateSHA256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94",
+    "finalNotesSyncedToDetailedTable": true
+  },
+  "linkCheck": {
+    "checked": 15,
+    "newIssues": [],
+    "documents": [
+      {
+        "path": "README.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "context/PROJECT_CONTEXT.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/README.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/README.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/技术复核说明.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/README.md",
+        "existing": [],
+        "current": [],
+        "new": []
+      }
+    ]
+  },
+  "notCovered": [
+    "native mind-map pixel layout",
+    "live Neo4j Browser GUI",
+    "empirical research validity"
+  ]
+}

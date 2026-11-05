@@ -1,0 +1,218 @@
+[
+  {
+    "source": "主题研究/三维资料质量与空间区域关联",
+    "destination": "主题研究/〔研究方法〕三维资料质量与空间区域关联",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "主题研究/合成试建与规则检验",
+    "destination": "主题研究/〔检验与评价〕合成试建与规则检验",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "主题研究/多尺度语义模型与建模依据",
+    "destination": "主题研究/〔体系设计〕多尺度语义模型与建模依据",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "主题研究/案例查询风貌比较与有效性",
+    "destination": "主题研究/〔检验与评价〕案例查询风貌比较与有效性",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "主题研究/畲族民居研究现状与研究缺口",
+    "destination": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "主题研究/研究对象与样本边界",
+    "destination": "主题研究/〔研究界定〕研究对象与样本边界",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "主题研究/类型识别与语义关系表达",
+    "destination": "主题研究/〔研究方法〕类型识别与语义关系表达",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "主题研究/风貌特征筛选与数据记录",
+    "destination": "主题研究/〔体系设计〕风貌特征筛选与数据记录",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/D01图谱表达试例",
+    "destination": "研究成果/〔合成试例〕D01图谱表达试例",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/三维建模技术路线",
+    "destination": "研究成果/〔技术路线〕三维建模技术路线",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/传统民居类型与形态拆解",
+    "destination": "研究成果/〔文献拆解〕传统民居类型与形态拆解",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/单体层实体属性关系候选模型v0.1",
+    "destination": "研究成果/〔候选模型〕单体层实体属性关系候选模型v0.1",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/单体层知识图谱v0.1",
+    "destination": "研究成果/〔模型原型〕单体层知识图谱v0.1",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/单体层知识图谱v0.2",
+    "destination": "研究成果/〔模型原型〕单体层知识图谱v0.2",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/建筑单体框架-本体与分析衔接v0.1",
+    "destination": "研究成果/〔方法衔接〕建筑单体框架-本体与分析衔接v0.1",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/建筑单体研究内容框架v0.1",
+    "destination": "研究成果/〔候选框架〕建筑单体研究内容框架v0.1",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/建筑空间界面与构成关系类型图谱",
+    "destination": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/建筑风貌知识图谱基础框架",
+    "destination": "研究成果/〔候选框架〕建筑风貌知识图谱基础框架",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/思维导图",
+    "destination": "研究成果/〔讨论图示〕思维导图",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/景宁畲族传统民居建筑特征",
+    "destination": "研究成果/〔特征归纳〕景宁畲族传统民居建筑特征",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/畲族建筑风貌综述修订",
+    "destination": "研究成果/〔修订记录〕畲族建筑风貌综述修订",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/畲族建筑风貌综述审阅",
+    "destination": "研究成果/〔审阅记录〕畲族建筑风貌综述审阅",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/知识图谱建模基准",
+    "destination": "研究成果/〔建模依据〕知识图谱建模基准",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/研究对象候选导师浏览版",
+    "destination": "研究成果/〔展示材料〕研究对象候选导师浏览版",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/虚拟民居单体试验V01",
+    "destination": "研究成果/〔合成试例〕虚拟民居单体试验V01",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/论文研究路径",
+    "destination": "研究成果/〔研究路线〕论文研究路径",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/风貌分析拆解",
+    "destination": "研究成果/〔分析框架〕风貌分析拆解",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "研究成果/风貌分析目标文献对照",
+    "destination": "研究成果/〔文献对照〕风貌分析目标文献对照",
+    "kind": "directory",
+    "verified": true
+  },
+  {
+    "source": "主题研究/〔研究方法〕三维资料质量与空间区域关联/主题研究.md",
+    "destination": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+    "kind": "topic-document",
+    "verified": true
+  },
+  {
+    "source": "主题研究/〔检验与评价〕合成试建与规则检验/主题研究.md",
+    "destination": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+    "kind": "topic-document",
+    "verified": true
+  },
+  {
+    "source": "主题研究/〔体系设计〕多尺度语义模型与建模依据/主题研究.md",
+    "destination": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+    "kind": "topic-document",
+    "verified": true
+  },
+  {
+    "source": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/主题研究.md",
+    "destination": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+    "kind": "topic-document",
+    "verified": true
+  },
+  {
+    "source": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口/主题研究.md",
+    "destination": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口/〔理论与文献依据〕畲族民居研究现状与研究缺口.md",
+    "kind": "topic-document",
+    "verified": true
+  },
+  {
+    "source": "主题研究/〔研究界定〕研究对象与样本边界/主题研究.md",
+    "destination": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md",
+    "kind": "topic-document",
+    "verified": true
+  },
+  {
+    "source": "主题研究/〔研究方法〕类型识别与语义关系表达/主题研究.md",
+    "destination": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+    "kind": "topic-document",
+    "verified": true
+  },
+  {
+    "source": "主题研究/〔体系设计〕风貌特征筛选与数据记录/主题研究.md",
+    "destination": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+    "kind": "topic-document",
+    "verified": true
+  }
+]

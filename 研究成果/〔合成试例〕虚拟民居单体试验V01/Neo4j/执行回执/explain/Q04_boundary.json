@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (c:V01 {uid:'V01:S05'})-[r:BOUNDARY_PARTICIPANT]->(p) RETURN c.uid AS courtyard,p.uid AS participant,p.name AS name,r.uid AS relationshipUid,r.boundaryId AS boundaryId,r.participantRole AS role,r.analysisSliceZM AS sliceZM,r.referenceLengthM AS lengthM,r.solidIntervalBoundsM AS intervals,r.netContributionM AS netContributionM ORDER BY boundaryId,participant",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-30T20:54:35.552314+08:00"
+}

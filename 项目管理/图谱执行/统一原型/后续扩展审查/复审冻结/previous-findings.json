@@ -1,0 +1,182 @@
+{
+  "status": "request_changes",
+  "blocking": true,
+  "scope": "independent-read-only-frozen-package-review",
+  "inputRoot": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review-fixed",
+  "outputRoot": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review-output",
+  "integrity": {
+    "manifestEntries": 31,
+    "initialAllMatch": true,
+    "afterTestsAllMatch": true,
+    "frozenFilesModified": false,
+    "moduleImportsFromFrozenToolsOnly": true,
+    "pythonBytecodeDisabled": true
+  },
+  "findings": [
+    {
+      "id": "F01",
+      "severity": "P1",
+      "blocking": true,
+      "title": "零净面积材料被计入材料种数，错误改变 D06 候选归类",
+      "locations": ["tools/d04.py:390-403", "tools/d06.py:63-71"],
+      "semanticBasis": ["originals/d04.md:128-135", "originals/d06.md:80-84", "originals/d06.md:179-186"],
+      "testId": "zero_net_material_changes_classification",
+      "mutation": {
+        "target": "W03.properties.facadeRecords[0].surfaceRegions",
+        "preserve": "原墙及洞口几何、节点身份、来源边和区域元数据均不动；局部区域使用不同 ID",
+        "regions": [
+          {"rectUZ": [0, 0, 9.6, 1], "material": "灰泥"},
+          {"rectUZ": [0, 1, 1, 2], "material": "灰泥"},
+          {"rectUZ": [2.2, 1, 9.6, 2], "material": "灰泥"},
+          {"rectUZ": [0, 2, 9.6, 3.6], "material": "灰泥"},
+          {"rectUZ": [1, 1, 2.2, 2], "material": "砖"}
+        ]
+      },
+      "expected": "砖区域恰位于 I08 洞口，扣洞后不构成第二种净墙面材料。应保持 completeMaterialCount=1、single-material-complete-domain，或明确拒绝此输入。",
+      "actual": {
+        "compilerAccepted": true,
+        "materialAreasM2": {"灰泥": 30.959999999999997, "砖": 0.0},
+        "state": "known",
+        "completeMaterialCount": 2,
+        "classification": "multiple-materials-complete-domain"
+      },
+      "impact": "既有固定几何内的合法编译输入产生错误定义性特征与候选分型。冻结载荷绑定和逐值读回不能发现该数学逻辑错误，构成本轮阻断。",
+      "recommendation": "净域材料种数仅计有正净面积的材料；保留零面积诊断与分类输入的区别，加入此反例和真正双材料正例。"
+    },
+    {
+      "id": "F02",
+      "severity": "P2",
+      "blocking": false,
+      "title": "D03 围合重算依赖 rawModel 快照，掩盖实际 C01 几何缺失或变化",
+      "locations": ["tools/analyze.py:28", "tools/analyze.py:55-65"],
+      "testIds": ["missing_actual_C01_geometry", "actual_C01_geometry_vs_rawModel"],
+      "mutation": "在 payload 内存副本中删除 C01.geometryJson，或把其中 radius 改成 1.0；SOURCE.rawModelJson 和派生关系缓存不动。",
+      "expected": "缺失实际截面时停止对应围合分析；实际截面变化时重算并发现过期缓存。",
+      "actual": {
+        "analyzeAcceptedMissingGeometry": true,
+        "analyzeAcceptedChangedGeometry": true,
+        "D03T02Unchanged": true,
+        "reportedNetSolidRatio": 0.6310541310541311,
+        "separatelyRecomputedContribution": {"relationship": "BOUND-S05-C01", "oldM": 0.020000000000000004, "newM": 0.88}
+      },
+      "impact": "独立 analyze/CLI 的实际几何重算保证不完整。",
+      "mitigationAndSeverityBoundary": "run_graph.py:114 的 verify_exact 在 analyze 前能拦截相对载荷的此类变化；不声称能绕过完整迁移验证链，因此列 P2。",
+      "recommendation": "从实际读回几何重算，快照仅提供冻结契约；实际值缺失不得回退旧快照。"
+    },
+    {
+      "id": "F03",
+      "severity": "P2",
+      "blocking": false,
+      "title": "rehydrate 忽略快照清单外实际关系，使 D06 配对唯一性检查不完整",
+      "locations": ["tools/projection.py:8-27", "tools/d06.py:42-47", "tools/analyze.py:104-108"],
+      "testId": "extra_actual_pair_relationship",
+      "mutation": "复制实际 I05→S05、role=side-a 的 INTERFACE_OF，改为新 id=EXTRA、uid=V01:EXTRA；仅加入实际关系集，不改 rawModelJson。",
+      "expected": "实际同角色关系出现两条，唯一实际配对检查应拒绝或报告额外关系。",
+      "actual": {"actualRelationshipCount": 286, "rehydratedRelationshipCount": 285, "pairStillPublished": "D06-P01", "supportingRelationshipIds": ["R042", "R044"]},
+      "impact": "独立 D06 重算的唯一性条件基于被截断关系集，而非完整实际读回。",
+      "mitigationAndSeverityBoundary": "verify_exact 的完整身份集合检查能拒绝额外关系，已以内存反例执行；不认定整个写后链被绕过。",
+      "recommendation": "核对实际与快照身份集合的差异，或在完整实际关系集执行配对资格校验。"
+    },
+    {
+      "id": "F04",
+      "severity": "P2",
+      "blocking": false,
+      "title": "新增几何来源指针及版本字段仅被登记，实际值不受验证",
+      "locations": ["tools/projection.py:33-55", "tools/compile_model.py:137-186"],
+      "testId": "new_geometry_wrong_locator_version",
+      "mutation": {"B03.properties.geometrySourceLocator": "/nodes/9/geometry", "B03.properties.geometrySourceVersion": "stale-version"},
+      "expected": "B03 当前几何来源错指 W03 且版本不相容，应拒绝。",
+      "actual": {"compilerAccepted": true},
+      "impact": "已定义的几何来源元数据错误可进入合法编译载荷，逐值写后核验只会确认错误被原样保存。",
+      "severityBoundary": "冻结基线 B03/CG01/ST01/TP01 的几何来源指针及版本目前正确；本项为可复现校验缺口，不声称基线已有错误来源。",
+      "recommendation": "固定原型内校验几何来源指针解析对象和几何版本，不必扩展任意外部格式支持。"
+    }
+  ],
+  "checkedFiles": [
+    "manifest.json",
+    "tools/d04.py",
+    "tools/d05.py",
+    "tools/d06.py",
+    "tools/projection.py",
+    "tools/compile_model.py",
+    "tools/run_graph.py",
+    "tools/analyze.py",
+    "tools/queries.py",
+    "candidate/model.json",
+    "candidate/analysis.json",
+    "candidate/payload.json",
+    "originals/model.json",
+    "originals/d04.md",
+    "originals/d05.md",
+    "originals/d06.md",
+    "originals/bot.md",
+    "originals/optimization.md"
+  ],
+  "checkedFilesNote": "以上为实际核读或计算解析的文件；其余 manifest 条目只核验字节哈希，不代表内容审查。model/analysis/payload 为针对任务所需字段的结构解析和比较。",
+  "testsPerformed": {
+    "reproductionScript": "reproduce.py",
+    "recordedResults": "test-results.json",
+    "recordedObservationCount": 21,
+    "countMeaning": "含基线、反例、预期拒绝和末次哈希检查，不是全部通过的测试数",
+    "baseline": {
+      "validateModel": true,
+      "recompiledPayloadEqualsFrozenPayload": true,
+      "freshAnalysisEqualsFrozenAnalysis": true,
+      "modelNodes": 55,
+      "payloadNodesIncludingSnapshot": 56,
+      "relationships": 285,
+      "D06Tasks": ["T01", "T02", "T03", "T04", "T05"]
+    },
+    "originalPreservation": {
+      "allOldNodeIdsNamesClassesLabelsEvidenceGeometryUnchanged": true,
+      "allOldRelationshipIdsEndpointsTypesStatusEvidenceUnchanged": true,
+      "oldNodeExistingPropertyDeltaKeys": ["analysisItems", "areaScopeVersion", "frameVersion", "geometryVersion", "inputGeometryVersion", "ruleVersion", "sourceVersion"],
+      "oldRelationshipPropertyDeltaKeys": ["assertionSourceVersion", "sourceVersion", "geometryVersion", "expectedSourceVersion", "frameVersion", "inputGeometryVersion"],
+      "newNodeIds": ["B03", "CG01", "ST01", "TP01"]
+    },
+    "recordedTestIds": [
+      "baseline",
+      "old_identity_semantics",
+      "zero_net_material_changes_classification",
+      "new_geometry_wrong_locator_version",
+      "missing_actual_facade_rejected",
+      "missing_actual_B03_eave_rejected",
+      "extra_actual_pair_relationship",
+      "actual_C01_geometry_vs_rawModel",
+      "missing_actual_C01_geometry",
+      "wrong_facade_source_pointer_rejected",
+      "actual_material_recomputed",
+      "both_material_unknown_joint_empty",
+      "missing_facade_source_rejected",
+      "stale_facade_version_rejected",
+      "wrong_explicit_pair_rejected",
+      "classification_unknown_unmatched_conflict",
+      "postwrite_exact_positive",
+      "postwrite_exact_reject_property",
+      "postwrite_exact_reject_type",
+      "postwrite_exact_reject_extra-edge",
+      "hashes_after"
+    ],
+    "supplementaryExecutedChecks": [
+      "独立公式核对 W03 毛域及三洞面积、W10 材料覆盖、路面宽及左边界实体比例、人工地表坡比，均一致",
+      "同点门槛点不在路面内时保持 unknown",
+      "装入实际 C01.radius=1.0 后，冻结 boundary_qualification 将 BOUND-S05-C01 净贡献重算为 0.88m",
+      "统一编译器拒绝重叠材料分区、过期来源版本和错误关系 assertionLocator",
+      "核对四个新增对象的 geometrySourceLocator 和 geometrySourceVersion 基线值正确",
+      "统计旧关系属性变化仅为来源、几何、基准和比较预期版本更新"
+    ],
+    "protectionReview": {
+      "prewrite": "静态核读冻结绑定、原生类型、身份／端点／命名空间、旧节点／关系比对、阶段防重试、提交前重新编译。没有执行 Cypher。",
+      "postwritePureFunctions": "仅 AST 提取 run_graph.native_type/verify_exact/preserve_original_geometry，不导入 mcp_client。执行 verify_exact 正例及属性／原生类型／额外重复关系负例。",
+      "databaseExecution": false
+    }
+  },
+  "limitations": [
+    "未连接数据库，未独立验证真实数据库值、Cypher 保护执行、约束索引、事务并发、写入或恢复。未运行 run_graph.main。",
+    "payload 及内存构造读回记录不是独立数据库快照；不能作为数据库实际值核验完成的证据。",
+    "没有读取 Paper、配置凭据、Zotero 或外链文献；语义依据限包内原件，不声称重新精读相关论文。",
+    "不涉及真实样本、真实统计、地域类型、民族专属性、因果或方法优越性验证。",
+    "完整表图、浏览器验收、任意曲墙曲街泛化不在范围；不恢复 D02 内部构架、D07 或 D08。",
+    "冻结基线重编译和现有分析一致，不等于全部反例正确。P2 读回分析缺口另有 main 中 verify_exact 保护，不夸称可绕过整个迁移链。"
+  ]
+}

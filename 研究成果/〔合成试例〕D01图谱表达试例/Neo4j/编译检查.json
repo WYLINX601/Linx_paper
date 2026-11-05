@@ -1,0 +1,26 @@
+{
+  "checkedAtUtc": "2026-10-29T06:06:44.615770+00:00",
+  "actualMcpResults": {
+    "migration": [],
+    "restore": [],
+    "createWhenAbsent": [],
+    "deleteOnlyD01": [],
+    "queries": {
+      "Q01": [],
+      "Q02": [],
+      "Q03": [],
+      "Q04": [],
+      "Q05": [],
+      "Q06": [],
+      "Q07": [],
+      "Q08": [],
+      "Q09": [],
+      "Q10": [],
+      "Q11": []
+    }
+  },
+  "compilationPassed": true,
+  "queryExecutionCompleted": false,
+  "planBodyAvailable": false,
+  "scope": "EXPLAIN未报错；MCP没有返回执行计划正文，不声称审核计划细节。"
+}

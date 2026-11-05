@@ -1,0 +1,160 @@
+{
+  "ok": true,
+  "verifiedAtUtc": "2026-10-29T06:09:46.801215+00:00",
+  "newNodes": 11,
+  "newRelationships": 18,
+  "allLabelsPropertiesEndpointsMatched": true,
+  "nativeFloatAndBooleanTypesChecked": true,
+  "originalGraphUnchanged": true,
+  "originalFingerprint": "3b211af59b32a29f7d10f282f303ef9ed271e18a964fd0b44f41617a6687f11a",
+  "crossDatasetEdges": 0,
+  "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+  "checks": [
+    {
+      "uid": "D01V01:B01",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:B02",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:C01",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:CASE",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:D01",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:EV01",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:R01",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:R02",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:R03",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:S01",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:U01",
+      "kind": "node",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E001",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E002",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E003",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E004",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E005",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E006",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E007",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E008",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E010",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E011",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E013",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E014",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E016",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E017",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E018",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E019",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E020",
+      "kind": "relationship",
+      "passed": true
+    },
+    {
+      "uid": "D01V01:E023",
+      "kind": "relationship",
+      "passed": true
+    }
+  ],
+  "schemaUnchanged": true
+}

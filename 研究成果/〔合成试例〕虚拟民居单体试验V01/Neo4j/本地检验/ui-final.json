@@ -1,0 +1,186 @@
+{
+  "status": "passed",
+  "htmlSHA256": "d5625844af6935c3b4ac834feb6e5fa36ecbd84f8af398d84044ed931274207d",
+  "combinations": [
+    {
+      "v": "overview",
+      "ev": false,
+      "nodes": 15,
+      "edges": 27,
+      "rendered": 27,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "D01",
+      "ev": false,
+      "nodes": 10,
+      "edges": 10,
+      "rendered": 10,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T01",
+      "ev": false,
+      "nodes": 6,
+      "edges": 4,
+      "rendered": 4,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T02",
+      "ev": false,
+      "nodes": 10,
+      "edges": 10,
+      "rendered": 10,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T03",
+      "ev": false,
+      "nodes": 6,
+      "edges": 5,
+      "rendered": 5,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T04",
+      "ev": false,
+      "nodes": 6,
+      "edges": 7,
+      "rendered": 7,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T05",
+      "ev": false,
+      "nodes": 6,
+      "edges": 5,
+      "rendered": 5,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T06",
+      "ev": false,
+      "nodes": 13,
+      "edges": 20,
+      "rendered": 20,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "all",
+      "ev": false,
+      "nodes": 37,
+      "edges": 107,
+      "rendered": 107,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "overview",
+      "ev": true,
+      "nodes": 22,
+      "edges": 56,
+      "rendered": 56,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "D01",
+      "ev": true,
+      "nodes": 17,
+      "edges": 38,
+      "rendered": 38,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T01",
+      "ev": true,
+      "nodes": 13,
+      "edges": 24,
+      "rendered": 24,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T02",
+      "ev": true,
+      "nodes": 12,
+      "edges": 23,
+      "rendered": 23,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T03",
+      "ev": true,
+      "nodes": 8,
+      "edges": 15,
+      "rendered": 15,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T04",
+      "ev": true,
+      "nodes": 8,
+      "edges": 17,
+      "rendered": 17,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T05",
+      "ev": true,
+      "nodes": 13,
+      "edges": 25,
+      "rendered": 25,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "T06",
+      "ev": true,
+      "nodes": 13,
+      "edges": 20,
+      "rendered": 20,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    },
+    {
+      "v": "all",
+      "ev": true,
+      "nodes": 52,
+      "edges": 259,
+      "rendered": 259,
+      "bad": [],
+      "overflow": false,
+      "errors": []
+    }
+  ]
+}

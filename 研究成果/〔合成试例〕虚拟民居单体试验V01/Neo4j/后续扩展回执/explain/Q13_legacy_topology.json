@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (a:V01)-[r]->(b:V01) WHERE type(r) IN ['AXIS_JOINS','ENVELOPE_INTERSECTS','SHARES_BOUNDARY'] RETURN type(r) AS type,count(r) AS count ORDER BY type",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:40:48.219118+08:00"
+}

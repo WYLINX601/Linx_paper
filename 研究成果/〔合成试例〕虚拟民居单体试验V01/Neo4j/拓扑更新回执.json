@@ -1,0 +1,13 @@
+{
+  "appliedAt": "2026-10-26T06:29:38.893989+00:00",
+  "receipt": [
+    {
+      "createdNodes": 2,
+      "createdRelationships": 25,
+      "deletedNodes": 0,
+      "deletedRelationships": 0,
+      "updatedNodes": 41
+    }
+  ],
+  "sourceModelSha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67"
+}

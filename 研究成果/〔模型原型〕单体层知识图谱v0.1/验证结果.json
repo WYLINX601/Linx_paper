@@ -1,0 +1,1298 @@
+{
+  "ok": true,
+  "date": "2026-10-22",
+  "counts": {
+    "classes": 9,
+    "features": 23,
+    "relation_definitions": 14,
+    "case_nodes": 14,
+    "assertions": 27,
+    "classification_judgements": 4,
+    "evidence": 5,
+    "candidate_relations": 8,
+    "unresolved_source_conflicts": 1
+  },
+  "checks": [
+    {
+      "check": "标识唯一：14",
+      "passed": true
+    },
+    {
+      "check": "标识唯一：27",
+      "passed": true
+    },
+    {
+      "check": "标识唯一：5",
+      "passed": true
+    },
+    {
+      "check": "标识唯一：2",
+      "passed": true
+    },
+    {
+      "check": "标识唯一：4",
+      "passed": true
+    },
+    {
+      "check": "ZHOUHU概念存在",
+      "passed": true
+    },
+    {
+      "check": "SC_COLUMN概念存在",
+      "passed": true
+    },
+    {
+      "check": "SC_PROTO概念存在",
+      "passed": true
+    },
+    {
+      "check": "T_55概念存在",
+      "passed": true
+    },
+    {
+      "check": "T_56概念存在",
+      "passed": true
+    },
+    {
+      "check": "T_PROTO概念存在",
+      "passed": true
+    },
+    {
+      "check": "D_8概念存在",
+      "passed": true
+    },
+    {
+      "check": "R_8概念存在",
+      "passed": true
+    },
+    {
+      "check": "C_8概念存在",
+      "passed": true
+    },
+    {
+      "check": "W_8概念存在",
+      "passed": true
+    },
+    {
+      "check": "D_1概念存在",
+      "passed": true
+    },
+    {
+      "check": "R_1概念存在",
+      "passed": true
+    },
+    {
+      "check": "C_1概念存在",
+      "passed": true
+    },
+    {
+      "check": "W_1概念存在",
+      "passed": true
+    },
+    {
+      "check": "E_Z8来源及页图定位",
+      "passed": true
+    },
+    {
+      "check": "E_Z8图页存在",
+      "passed": true
+    },
+    {
+      "check": "E_Z1来源及页图定位",
+      "passed": true
+    },
+    {
+      "check": "E_Z1图页存在",
+      "passed": true
+    },
+    {
+      "check": "E_MAP来源及页图定位",
+      "passed": true
+    },
+    {
+      "check": "E_MAP图页存在",
+      "passed": true
+    },
+    {
+      "check": "E_PROTOTYPE来源及页图定位",
+      "passed": true
+    },
+    {
+      "check": "E_PROTOTYPE图页存在",
+      "passed": true
+    },
+    {
+      "check": "E_COMMON来源及页图定位",
+      "passed": true
+    },
+    {
+      "check": "E_COMMON图页存在",
+      "passed": true
+    },
+    {
+      "check": "IN_T_55必填项",
+      "passed": true
+    },
+    {
+      "check": "IN_T_55目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "IN_T_55对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "IN_T_55归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "IN_T_55关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "IN_T_55关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "IN_T_55推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "IN_T_56必填项",
+      "passed": true
+    },
+    {
+      "check": "IN_T_56目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "IN_T_56对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "IN_T_56归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "IN_T_56关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "IN_T_56关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "IN_T_56推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "IN_PROTO必填项",
+      "passed": true
+    },
+    {
+      "check": "IN_PROTO目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "IN_PROTO对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "IN_PROTO归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "IN_PROTO关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "IN_PROTO关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "IN_PROTO推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "LOC_8必填项",
+      "passed": true
+    },
+    {
+      "check": "LOC_8目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "LOC_8对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "LOC_8归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "LOC_8关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "LOC_8关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "LOC_8推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "REP_8必填项",
+      "passed": true
+    },
+    {
+      "check": "REP_8目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "REP_8对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "REP_8归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "REP_8关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "REP_8关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "REP_8推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "PLACE_8必填项",
+      "passed": true
+    },
+    {
+      "check": "PLACE_8目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "PLACE_8对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "PLACE_8归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "PLACE_8关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "PLACE_8关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "PLACE_8推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "CODE_8必填项",
+      "passed": true
+    },
+    {
+      "check": "CODE_8目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "CODE_8对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "CODE_8归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "CODE_8特征存在",
+      "passed": true
+    },
+    {
+      "check": "CODE_8特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "CODE_8值型",
+      "passed": true
+    },
+    {
+      "check": "CODE_8推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_load_bearing必填项",
+      "passed": true
+    },
+    {
+      "check": "F_8_load_bearing目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "F_8_load_bearing对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_load_bearing归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "F_8_load_bearing特征存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_load_bearing特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "F_8_load_bearing值型",
+      "passed": true
+    },
+    {
+      "check": "F_8_load_bearing推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_rear_courtyard_form必填项",
+      "passed": true
+    },
+    {
+      "check": "F_8_rear_courtyard_form目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "F_8_rear_courtyard_form对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_rear_courtyard_form归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "F_8_rear_courtyard_form特征存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_rear_courtyard_form特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "F_8_rear_courtyard_form值型",
+      "passed": true
+    },
+    {
+      "check": "F_8_rear_courtyard_form推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_column_bay_form必填项",
+      "passed": true
+    },
+    {
+      "check": "F_8_column_bay_form目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "F_8_column_bay_form对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_column_bay_form归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "F_8_column_bay_form特征存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_column_bay_form特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "F_8_column_bay_form值型",
+      "passed": true
+    },
+    {
+      "check": "F_8_column_bay_form推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_roof_layered必填项",
+      "passed": true
+    },
+    {
+      "check": "F_8_roof_layered目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "F_8_roof_layered对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_roof_layered归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "F_8_roof_layered特征存在",
+      "passed": true
+    },
+    {
+      "check": "F_8_roof_layered特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "F_8_roof_layered值型",
+      "passed": true
+    },
+    {
+      "check": "F_8_roof_layered推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "SPACE_8必填项",
+      "passed": true
+    },
+    {
+      "check": "SPACE_8目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "SPACE_8对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "SPACE_8归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "SPACE_8关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "SPACE_8关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "SPACE_8推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "WALL_8必填项",
+      "passed": true
+    },
+    {
+      "check": "WALL_8目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "WALL_8对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "WALL_8归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "WALL_8关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "WALL_8关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "WALL_8推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "CREP_8必填项",
+      "passed": true
+    },
+    {
+      "check": "CREP_8目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "CREP_8对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "CREP_8归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "CREP_8关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "CREP_8关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "CREP_8推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "WREP_8必填项",
+      "passed": true
+    },
+    {
+      "check": "WREP_8目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "WREP_8对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "WREP_8归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "WREP_8关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "WREP_8关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "WREP_8推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "LOC_1必填项",
+      "passed": true
+    },
+    {
+      "check": "LOC_1目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "LOC_1对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "LOC_1归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "LOC_1关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "LOC_1关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "LOC_1推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "REP_1必填项",
+      "passed": true
+    },
+    {
+      "check": "REP_1目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "REP_1对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "REP_1归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "REP_1关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "REP_1关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "REP_1推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "PLACE_1必填项",
+      "passed": true
+    },
+    {
+      "check": "PLACE_1目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "PLACE_1对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "PLACE_1归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "PLACE_1关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "PLACE_1关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "PLACE_1推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "CODE_1必填项",
+      "passed": true
+    },
+    {
+      "check": "CODE_1目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "CODE_1对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "CODE_1归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "CODE_1特征存在",
+      "passed": true
+    },
+    {
+      "check": "CODE_1特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "CODE_1值型",
+      "passed": true
+    },
+    {
+      "check": "CODE_1推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_load_bearing必填项",
+      "passed": true
+    },
+    {
+      "check": "F_1_load_bearing目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "F_1_load_bearing对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_load_bearing归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "F_1_load_bearing特征存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_load_bearing特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "F_1_load_bearing值型",
+      "passed": true
+    },
+    {
+      "check": "F_1_load_bearing推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_rear_courtyard_form必填项",
+      "passed": true
+    },
+    {
+      "check": "F_1_rear_courtyard_form目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "F_1_rear_courtyard_form对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_rear_courtyard_form归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "F_1_rear_courtyard_form特征存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_rear_courtyard_form特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "F_1_rear_courtyard_form值型",
+      "passed": true
+    },
+    {
+      "check": "F_1_rear_courtyard_form推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_column_bay_form必填项",
+      "passed": true
+    },
+    {
+      "check": "F_1_column_bay_form目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "F_1_column_bay_form对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_column_bay_form归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "F_1_column_bay_form特征存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_column_bay_form特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "F_1_column_bay_form值型",
+      "passed": true
+    },
+    {
+      "check": "F_1_column_bay_form推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_roof_layered必填项",
+      "passed": true
+    },
+    {
+      "check": "F_1_roof_layered目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "F_1_roof_layered对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_roof_layered归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "F_1_roof_layered特征存在",
+      "passed": true
+    },
+    {
+      "check": "F_1_roof_layered特征对象类别",
+      "passed": true
+    },
+    {
+      "check": "F_1_roof_layered值型",
+      "passed": true
+    },
+    {
+      "check": "F_1_roof_layered推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "SPACE_1必填项",
+      "passed": true
+    },
+    {
+      "check": "SPACE_1目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "SPACE_1对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "SPACE_1归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "SPACE_1关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "SPACE_1关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "SPACE_1推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "WALL_1必填项",
+      "passed": true
+    },
+    {
+      "check": "WALL_1目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "WALL_1对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "WALL_1归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "WALL_1关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "WALL_1关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "WALL_1推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "CREP_1必填项",
+      "passed": true
+    },
+    {
+      "check": "CREP_1目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "CREP_1对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "CREP_1归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "CREP_1关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "CREP_1关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "CREP_1推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "WREP_1必填项",
+      "passed": true
+    },
+    {
+      "check": "WREP_1目标/值互斥",
+      "passed": true
+    },
+    {
+      "check": "WREP_1对象及证据存在",
+      "passed": true
+    },
+    {
+      "check": "WREP_1归属及状态合法",
+      "passed": true
+    },
+    {
+      "check": "WREP_1关系及终点存在",
+      "passed": true
+    },
+    {
+      "check": "WREP_1关系方向及对象类别",
+      "passed": true
+    },
+    {
+      "check": "WREP_1推断输入存在",
+      "passed": true
+    },
+    {
+      "check": "has_space无包含循环",
+      "passed": true
+    },
+    {
+      "check": "has_element无包含循环",
+      "passed": true
+    },
+    {
+      "check": "CLASS_8判断必填",
+      "passed": true
+    },
+    {
+      "check": "CLASS_8判断对象和类型",
+      "passed": true
+    },
+    {
+      "check": "CLASS_8分类体系一致",
+      "passed": true
+    },
+    {
+      "check": "CLASS_8判断证据存在",
+      "passed": true
+    },
+    {
+      "check": "CLASS_8独立重算结果一致",
+      "passed": true
+    },
+    {
+      "check": "CLASS_8/T_55_C1输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8判断必填",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8判断对象和类型",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8分类体系一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8判断证据存在",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8独立重算结果一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8/P_WALL输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8/P_COURT输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8/P_COLUMN输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8/P_ROOF输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "CLASS_1判断必填",
+      "passed": true
+    },
+    {
+      "check": "CLASS_1判断对象和类型",
+      "passed": true
+    },
+    {
+      "check": "CLASS_1分类体系一致",
+      "passed": true
+    },
+    {
+      "check": "CLASS_1判断证据存在",
+      "passed": true
+    },
+    {
+      "check": "CLASS_1独立重算结果一致",
+      "passed": true
+    },
+    {
+      "check": "CLASS_1/T_56_C1输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1判断必填",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1判断对象和类型",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1分类体系一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1判断证据存在",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1独立重算结果一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1/P_WALL输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1/P_COURT输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1/P_COLUMN输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1/P_ROOF输入对象/维度一致",
+      "passed": true
+    },
+    {
+      "check": "领域断言没有绕过分类判断的裸has_type",
+      "passed": true
+    },
+    {
+      "check": "四项侧样特征只落记录，不传播全栋",
+      "passed": true
+    },
+    {
+      "check": "没有将未有案例证据的通行/支承/三维关系实例化",
+      "passed": true
+    },
+    {
+      "check": "四项齐备一致可匹配（仅内存合成防错输入）",
+      "passed": true
+    },
+    {
+      "check": "缺失不按false处理",
+      "passed": true
+    },
+    {
+      "check": "明确否定和true值可以区分",
+      "passed": true
+    },
+    {
+      "check": "相反断言不被任意选择",
+      "passed": true
+    },
+    {
+      "check": "争议断言暂停确定匹配",
+      "passed": true
+    }
+  ],
+  "semantic_guard_tests": [
+    {
+      "check": "四项齐备一致可匹配（仅内存合成防错输入）",
+      "passed": true
+    },
+    {
+      "check": "缺失不按false处理",
+      "passed": true
+    },
+    {
+      "check": "明确否定和true值可以区分",
+      "passed": true
+    },
+    {
+      "check": "相反断言不被任意选择",
+      "passed": true
+    },
+    {
+      "check": "争议断言暂停确定匹配",
+      "passed": true
+    }
+  ],
+  "queries": [
+    {
+      "id": "Q1",
+      "question": "这两条记录属于什么柱筒类别？",
+      "answer": [
+        {
+          "record": "表3.7第8号侧样记录",
+          "type": "五柱五筒",
+          "judgement": "CLASS_8"
+        },
+        {
+          "record": "表3.7第1号侧样记录",
+          "type": "五柱六筒",
+          "judgement": "CLASS_1"
+        }
+      ]
+    },
+    {
+      "id": "Q2",
+      "question": "在原表的四个侧样维度上有何差异？",
+      "answer": [
+        {
+          "feature": "load_bearing",
+          "label": "是否承重",
+          "values": [
+            false,
+            true
+          ],
+          "statuses": [
+            "documented",
+            "documented"
+          ],
+          "assertions": [
+            "F_8_load_bearing",
+            "F_1_load_bearing"
+          ],
+          "evidence": [
+            "E_Z1",
+            "E_Z8"
+          ]
+        },
+        {
+          "feature": "rear_courtyard_form",
+          "label": "后厨天井形态",
+          "values": [
+            "一字形",
+            "方形"
+          ],
+          "statuses": [
+            "documented",
+            "documented"
+          ],
+          "assertions": [
+            "F_8_rear_courtyard_form",
+            "F_1_rear_courtyard_form"
+          ],
+          "evidence": [
+            "E_Z1",
+            "E_Z8"
+          ]
+        },
+        {
+          "feature": "column_bay_form",
+          "label": "柱筒组合",
+          "values": [
+            "五柱五筒",
+            "五柱六筒"
+          ],
+          "statuses": [
+            "documented",
+            "documented"
+          ],
+          "assertions": [
+            "F_8_column_bay_form",
+            "F_1_column_bay_form"
+          ],
+          "evidence": [
+            "E_Z1",
+            "E_Z8"
+          ]
+        },
+        {
+          "feature": "roof_layered",
+          "label": "屋面是否分层",
+          "values": [
+            false,
+            true
+          ],
+          "statuses": [
+            "documented",
+            "disputed"
+          ],
+          "assertions": [
+            "F_8_roof_layered",
+            "F_1_roof_layered"
+          ],
+          "evidence": [
+            "E_COMMON",
+            "E_Z1",
+            "E_Z8"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "Q3",
+      "question": "满足2023论文原型的四项组合吗？",
+      "answer": [
+        {
+          "record": "表3.7第8号侧样记录",
+          "decision": "criteria_not_match",
+          "criteria": [
+            {
+              "feature": "load_bearing",
+              "result": "satisfied"
+            },
+            {
+              "feature": "rear_courtyard_form",
+              "result": "satisfied"
+            },
+            {
+              "feature": "column_bay_form",
+              "result": "not_satisfied"
+            },
+            {
+              "feature": "roof_layered",
+              "result": "satisfied"
+            }
+          ],
+          "judgement": "PROTO_8"
+        },
+        {
+          "record": "表3.7第1号侧样记录",
+          "decision": "criteria_not_match",
+          "criteria": [
+            {
+              "feature": "load_bearing",
+              "result": "not_satisfied"
+            },
+            {
+              "feature": "rear_courtyard_form",
+              "result": "not_satisfied"
+            },
+            {
+              "feature": "column_bay_form",
+              "result": "not_satisfied"
+            },
+            {
+              "feature": "roof_layered",
+              "result": "unknown"
+            }
+          ],
+          "judgement": "PROTO_1"
+        }
+      ]
+    },
+    {
+      "id": "Q4",
+      "question": "能否追溯全部断言与分类判断？",
+      "answer": {
+        "assertions": 27,
+        "classifications": 4,
+        "all_have_resolvable_evidence": true,
+        "unresolved_source_conflicts": 1
+      }
+    },
+    {
+      "id": "Q5",
+      "question": "能否查房间通行与具体构件支承链？",
+      "answer": {
+        "direct_access_edges": 0,
+        "support_edges": 0,
+        "meaning": "资料未覆盖；不能解释为建筑没有这些关系。"
+      }
+    },
+    {
+      "id": "Q6",
+      "question": "能否给出历时演变和三维区域？",
+      "answer": {
+        "change_events": 0,
+        "geometry_regions": 0,
+        "meaning": "本轮没有相关个案证据，接口尚未实例化。"
+      }
+    }
+  ],
+  "errors": [],
+  "limits": "数据语义约束与定向原文证据检查；不证明分类理论有效性、全县覆盖或实地现状。"
+}

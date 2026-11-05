@@ -1,0 +1,509 @@
+[
+  {
+    "path": "01_sources/2026-10-12-三维建模方法核查记录.md",
+    "sha256": "e8b60c13ed5d0b2dd5eb6c0d31d428bc3e0f73d4550352aa9787b3b6b30749a2",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "01_sources/README.md",
+    "sha256": "5a8b86bb29ad5452135ae20b26f17163faa26f1af22b1a00dc406ab5eac56c32",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "AGENTS.md",
+    "sha256": "37fe1a022ff667d88e7d1bfeee0238bcdbb49fa360d1e45723fd9c98bb891cc9",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "README.md",
+    "sha256": "0691063b53652ddb60921f5e76693caa9361eabe206a9f10db5a6019aa4e6d6e",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "archive/2026-10-28-Wiki全库改造/README.md",
+    "sha256": "b668de2abef30d72f91957e4be5a020b2310a48328f552d7392b1949f71a72d5",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "archive/README.md",
+    "sha256": "ce3b6c942d6bddbaa8b4f3ce77fdb2fecb6f5c303d6c24f5ca4159d61f359d20",
+    "state": "published_verified",
+    "backup": {
+      "created_at_utc": "2026-10-28T04:33:59Z",
+      "original_path": "archive/README.md",
+      "canonical_path": "archive/README.md",
+      "backup_path": ".hermes-academic-backups/20261028T043359Z_3f116c553d1047b0bef592a6b54cb8f9.bak",
+      "original_sha256": "18c025472ab5eb1618f85b8f91b0b7a2c3c597015bea6a7852037b09471f008e",
+      "original_size_bytes": 5717,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "ce3b6c942d6bddbaa8b4f3ce77fdb2fecb6f5c303d6c24f5ca4159d61f359d20",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  },
+  {
+    "path": "context/PROJECT_CONTEXT.md",
+    "sha256": "ec6d8fcecf6c8e535e2476f7a4f25c14989a620d898e62a99264409ed650df18",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/README.md",
+    "sha256": "217632ba21f8a98109c1f587a969ae7ba267c91e8b6d0af47991117f3af0c84f",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/吴莹2018论文精读/吴莹2018-类型学与语义网络.smm.md",
+    "sha256": "5335e53817311f53878439f11860dabeb342cc6799edb945fad8b214cee428fb",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/建筑单体框架-本体与分析衔接v0.1/按顺序拆解.md",
+    "sha256": "9f4d529043c3da6eb4e236266a831b03f528071628b55d069d3875609b2e4ecb",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/思维导图/知识图谱文献拆解/05-随州地方性知识图谱.smm.md",
+    "sha256": "64b42a485a65ec9fc3b328acbdb2da3f8aeeb0d04edaf2abe4dd3da89d9ab5e8",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/村落资料整理/大张坑/资料索引.json",
+    "sha256": "fc2ab37f3c7b2cdfdcb0b6d6270dacafdfe9cd5e91d902ed1bdd55006ad08a93",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/村落资料整理/敕木山/资料索引.md",
+    "sha256": "ffb3c7a5b3fa4977882456c74b363a876665fa28afdbe5c4948d1b09020e94ee",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/论文研究Wiki设计/论文研究Wiki结构设计.html",
+    "sha256": "c20a1c594ab1751665939831e00db93bb1f066a0852117503cd05929361f75f9",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/论文研究Wiki设计/论文研究Wiki结构设计.md",
+    "sha256": "a33315fce2539c6e6a8ef254b68df35867c5c93567c0c8bb7129ba675fd48c38",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "outputs/风貌分析目标文献对照/风貌研究与畲族建筑研究对照.md",
+    "sha256": "e59d2f1987956eb6602743a7f6e18ecc4a8ebbbb608693209eca90e4af348ae3",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "三维建模技术方案调研汇总与后续技术路线.md",
+    "sha256": "71857788bb337aab02977a854047d482b5774a2a853f28e82e8fead971e1259b",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/README.md",
+    "sha256": "9c6d583e3d1cfc8c8dcc423465329ce8e1aa91b885459a1779246ab4a16ed133",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/吴莹-2018-江南古镇语义网络量化.md",
+    "sha256": "c866beae482a2d439940c89183f67cc9c6b077698186dd58b4961cea2dbbc5a1",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/吴钰-2022-新畲寮风格民居设计.md",
+    "sha256": "6858d530c955f56abe6d3c52b206157b9ae56b6c7b6bfb5bc382035138a596b7",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/廖瑞-2024-康巴藏区传统民居建筑风貌图谱.md",
+    "sha256": "7ef44b4c2018ceb068a80f90ca8d69cb46cbcf26c63a4b4a3460ed2ccdc3e7b5",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/张建宏-2025-柳城畲族镇文化变迁.md",
+    "sha256": "ff112434eb60fad39cf31410b969a7d3b96d61c87bc3098bdacdb0f8a67a2ec8",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/文献提炼模板.md",
+    "sha256": "61188f0fc3b2c19f474f0eea5dc7a80e954a62f6ff652fbb9113f2e5a74471c7",
+    "state": "published_verified",
+    "backup": {
+      "created_at_utc": "2026-10-28T04:34:01Z",
+      "original_path": "文献库/文献提炼模板.md",
+      "canonical_path": "文献库/文献提炼模板.md",
+      "backup_path": ".hermes-academic-backups/20261028T043401Z_4b362d8aeed04ff4930b0a40cec5cdac.bak",
+      "original_sha256": "9df1f65d18e95ebe1912f48121c35f495fa9cf8b425aa267b2f084c016bb77b0",
+      "original_size_bytes": 3121,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "61188f0fc3b2c19f474f0eea5dc7a80e954a62f6ff652fbb9113f2e5a74471c7",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  },
+  {
+    "path": "文献库/景宁畲族传统民居建筑风貌研究综述.md",
+    "sha256": "8fe08b86e5f2d395428542554806f112ca178e96c53d2738d03e4edd89a95e03",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/朱凌-2012-县城建筑有机更新.md",
+    "sha256": "07106da8767ae5af69e02ada775732d75d85b980c2d0bb64422338c3470c637d",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/朱宇恒-年份待核-民族特色城市风貌规划.md",
+    "sha256": "2c1a3eb93e743427929c4fdcc679531ea4be5cf98287b2620a82bb3157f131ad",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/李世芬等-2022-渤海南域民居建筑基因与图谱.md",
+    "sha256": "e00033b165418172f55d645295aa8057dd2ca0cf20bde91ab47f482f36643054",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/杨映靖-2021-畲族景观建筑保护开发.md",
+    "sha256": "5b5d617d880da2bb9ef93f7efdaf7a8410adbd3e3d3ac4169e4f0415fcf925b5",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/杨波-2026-景宁县人民医院传统元素转译.md",
+    "sha256": "af955cb5c7b72dc1fcb3e732ab994ebbe3ad0fc2fd034e227b34fa347a92da46",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/柳晓杰-2010-山城空间营造探讨.md",
+    "sha256": "6b16436f00431f03ca1b378937c9cb0c700946b6db39c2a600e4248766c1bb92",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/柴一涵-2024-畲族传统村落公共文化空间重构.md",
+    "sha256": "bc8ebeb00bb88716d0252afede8c82e96500c75d81ae431e46ae60f00cf018dc",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/汤喜燕-2026-峩山畲族馆阈限体验.md",
+    "sha256": "2e28cb044432acd0245fe77563b32c8d754451920fb0bc614e476fd8aa998016",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/汤茗喆-2021-数字信息模型与传统村落风貌保护更新.md",
+    "sha256": "363ec179811661fb2bcfd655edbe6040bd541195d3fc1b9ccaf92a5ddabd5fb6",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/汪梅-2006-景宁畲族住宅建筑特色.md",
+    "sha256": "36554ef943ceba8abeb59396e2c9e94eb50d44ded6d366fbad162f0886be62e3",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/潘钊-2015-景宁传统村落保护发展.md",
+    "sha256": "258eaf166341c4e1620c65cf1b773f0023b9495bf08b9a3da3310684ab06fdf8",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/潘钊-2017-景宁畲族传统建筑文化.md",
+    "sha256": "92275023e8790199aae09f7a630c2cd502fd36500baa59ad9875ed3a1d09f924",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/牛建农-年份待核-景宁畲族民居特色探析.md",
+    "sha256": "644fcdc356ff5aad0f52186a3ae4edf24a17d28e06d6bd38015368d3fc076999",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/王文辉-2015-大张坑畲族民居及其保护更新.md",
+    "sha256": "4cf1735a0d3e66db2fa9a2af49e4fe92dff8bf0a5998d31b38fa78e8f88bea8f",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/王曦昊-2024-竹里畲族民居微更新.md",
+    "sha256": "8070b9a71315cb01cd7eeeaf3193a8dd5e38b645ef58d7bdd4f667543b86003f",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/王舒泓-2026-文化生态与宁德畲族文化传承.md",
+    "sha256": "e31df39f57bafe1f1d1703c26e5516066f3702a366e09dd545405e989170b177",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/畲族文献阅读索引.md",
+    "sha256": "13bf3d709428fbdff3fbeaca28a4f6044f6cf979d8909c0a543578d208b71ee5",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/蓝法勤-2013-卷草凤凰纹装饰研究.md",
+    "sha256": "50b7aade46361a775666c97f315e777b2d696a4e878b81d4b8a7b98059b4f84a",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/赵圣洁-2013-东弄村畲族民居初探.md",
+    "sha256": "27b1b9e7fc4197c24130dad3bde56e8a417f6e53c9ce368beef3e562f306a8b3",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/赵潇诺-2022-景宁畲族传统民居营造技艺.md",
+    "sha256": "9f73f9057bb8ea38d6c202aaa42f0fe6b984e0c08848a4a6a53af896931b5602",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/赵潇诺-2023-景宁畲族木构侧样.md",
+    "sha256": "598462ff162e9bc03ee9786a6ab890b2d19e75f15af01c85ba42ea0196b1090c",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/郭锐等-2026-多源数据与知识图谱历史建筑保护.md",
+    "sha256": "1b8c7f2dc081a1633f53e790879cdcf3faf0dd8435edaafba606a782a1301d1b",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/阮仪三（署名待核）-2008-东弄畲族村调研.md",
+    "sha256": "599ad29da25ee008a16c61097d838b7ea00ff5f747d8bfb2c645b87774988d7f",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/陈丹丹-2026-双田村畲族文旅融合路径.md",
+    "sha256": "6343ce82dfc014d61720d1b48ab348ee7ee11ec8c2d89b3a88bd7f4f19be62d5",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "文献库/鲁晓敏-2023-景宁凤凰服饰与文化.md",
+    "sha256": "1350d36301a9bd59c1937934fc84d7ad0358e313055b7519a9fb7367ad81105c",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "景宁畲族传统民居建筑特征初步总结.md",
+    "sha256": "48e8136186932f56f1c0da701f0f0dab5f41825477ce6c29d1921bb5bac34dc0",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/01-绪论/章节导航.md",
+    "sha256": "eda59f66d7b4f165ad0fc121d0cf4b1ab4720194547bf5ef097ac6eb3729b666",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/02-研究对象与资料基础/章节导航.md",
+    "sha256": "d15f2f3fc2bc5033adb344995ffa907d18a85229490c3798c55199f941da3056",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/03-体系与方法设计/章节导航.md",
+    "sha256": "1437d6adabceef44d040cc0633d2d9f8c1b882a0a943682eba7dea11158aee99",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/04-案例实施与检验/章节导航.md",
+    "sha256": "5216d456dc5e23d022e7c369da6a91ffca7b22afa3c0c177fa4b5c23d7aa819f",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/05-分析比较与讨论/章节导航.md",
+    "sha256": "0ea5ea01d448a809f9750c4468dce5b2501ea0f27e1edc4ca984db27b0c56f15",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/06-结论与展望/章节导航.md",
+    "sha256": "bb4220143a334ac147e98606a94f435519a7a52101a18060f63ab10a97299022",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/README.md",
+    "sha256": "8e07eebef84a0bdac1b7af55d39f2ea4c15420877cb81c38643f832d989fb89b",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/_管理/健康检查/test_wiki_health.py",
+    "sha256": "f8428f995e301150077c2a1ac9cc6fcad871d19c1b6fc1006ba1a0c4057902ce",
+    "state": "published_verified",
+    "backup": {
+      "created_at_utc": "2026-10-28T04:34:03Z",
+      "original_path": "论文研究/_管理/健康检查/test_wiki_health.py",
+      "canonical_path": "论文研究/_管理/健康检查/test_wiki_health.py",
+      "backup_path": ".hermes-academic-backups/20261028T043403Z_640c5279c6084199a15379083271c0c3.bak",
+      "original_sha256": "3e9df0e5f664071dc57874b9f36fe5d4cd827001e20cc72b940c86e307888d31",
+      "original_size_bytes": 3964,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "f8428f995e301150077c2a1ac9cc6fcad871d19c1b6fc1006ba1a0c4057902ce",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  },
+  {
+    "path": "论文研究/_管理/健康检查/wiki_health.py",
+    "sha256": "16acc130201cc4eff31179f7044e6930231d5948db91d6a324042bf534e407e6",
+    "state": "published_verified",
+    "backup": {
+      "created_at_utc": "2026-10-28T04:34:03Z",
+      "original_path": "论文研究/_管理/健康检查/wiki_health.py",
+      "canonical_path": "论文研究/_管理/健康检查/wiki_health.py",
+      "backup_path": ".hermes-academic-backups/20261028T043403Z_50079845f3f54e1d88f6d2dd4b5b4b3b.bak",
+      "original_sha256": "f51c698a85aa04c888b302181524e6e400ca3edae264536b9f07e4bdf45f4b9e",
+      "original_size_bytes": 11138,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "16acc130201cc4eff31179f7044e6930231d5948db91d6a324042bf534e407e6",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  },
+  {
+    "path": "论文研究/_管理/健康检查/使用说明.md",
+    "sha256": "28dba4148a0a42523313b9b345fa3254256714c627401aa8d512d2667cfdc020",
+    "state": "published_verified",
+    "backup": {
+      "created_at_utc": "2026-10-28T04:34:03Z",
+      "original_path": "论文研究/_管理/健康检查/使用说明.md",
+      "canonical_path": "论文研究/_管理/健康检查/使用说明.md",
+      "backup_path": ".hermes-academic-backups/20261028T043403Z_7ab88c6b9ff74150b3e3101efe099729.bak",
+      "original_sha256": "09ea1b1a685a24fa1f035a8c93b01798d5c7da3beae5f8e18b33bbcd93941a1d",
+      "original_size_bytes": 1802,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "28dba4148a0a42523313b9b345fa3254256714c627401aa8d512d2667cfdc020",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  },
+  {
+    "path": "论文研究/_管理/健康检查/依赖基线.json",
+    "sha256": "c91f5b7948e2993d338b8f98bf708a3df2755b0bce2b7b89202b2b4083e84410",
+    "state": "published_verified",
+    "backup": null
+  },
+  {
+    "path": "论文研究/_管理/健康检查/健康报告.md",
+    "sha256": "a1e7c341698c95bdaae121f4875694220037fc6d73737baa4a250f7c30fb3efa",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/_管理/健康检查/基线说明.json",
+    "sha256": "69074604c4d8e2d00d9a1b305fe3d3a99419b1508e9c2a683182cb9a2c4f318a",
+    "state": "published_verified",
+    "backup": null
+  },
+  {
+    "path": "论文研究/_管理/全库文件登记.json",
+    "sha256": "e923d1c48702702e0c506e42bc59a3525afde7644a3bc6d384cdefd9a3c3aa0c",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/_管理/工作台派生记录.json",
+    "sha256": "42ae494d4100e996bfea1002568e62cd6293bcd694f09b8d997392d7379b292e",
+    "state": "published_verified",
+    "backup": null
+  },
+  {
+    "path": "论文研究/_管理/改造报告.md",
+    "sha256": "2a2c93fe1bd16e0477aa9ccab8eb53a611c7faf36c81c05da74ec96e33cbb54e",
+    "state": "published_verified",
+    "backup": {
+      "created_at_utc": "2026-10-28T04:34:04Z",
+      "original_path": "论文研究/_管理/改造报告.md",
+      "canonical_path": "论文研究/_管理/改造报告.md",
+      "backup_path": ".hermes-academic-backups/20261028T043404Z_f9ba78d5dfdc413ab62b2f3d575fb1ab.bak",
+      "original_sha256": "fe636a38a07431805bd7999831295547db3b3a015db6255c7238fa15b67463dd",
+      "original_size_bytes": 3454,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "2a2c93fe1bd16e0477aa9ccab8eb53a611c7faf36c81c05da74ec96e33cbb54e",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  },
+  {
+    "path": "论文研究/_管理/既有成果入口.md",
+    "sha256": "24a540d2c258e9771b9737fe34262594a441c6319677991e6f73d8a9798f0325",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/_管理/术语与标签.md",
+    "sha256": "4cff928ad0aa2507d226e84471df4b4753859ffdd20ff10177211e6077012241",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/_管理/模板/主题研究模板.md",
+    "sha256": "b32e5bc91b8392f3a3337302ba1efb5fc45f70339670a211e44d74989d40ab41",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/_管理/章节主题映射.md",
+    "sha256": "61812868f90f3dab768c40174175a358ac2c74b8f1a9eee4ef8fe9e12b398456",
+    "state": "published_verified",
+    "backup": {
+      "created_at_utc": "2026-10-28T04:34:04Z",
+      "original_path": "论文研究/_管理/章节主题映射.md",
+      "canonical_path": "论文研究/_管理/章节主题映射.md",
+      "backup_path": ".hermes-academic-backups/20261028T043404Z_54d36a5d59dc462f8ad0793287ff3de3.bak",
+      "original_sha256": "3b46ec21ddc7771ed91cbbcc5d0858caff6e9a5b3bedcc915d278b391c904347",
+      "original_size_bytes": 9994,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "61812868f90f3dab768c40174175a358ac2c74b8f1a9eee4ef8fe9e12b398456",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  },
+  {
+    "path": "论文研究/_管理/章节采用记录.json",
+    "sha256": "8e533a3018e44fe196ffb24317a4b80474bb80a2cea710bbc8664284a8ab4eff",
+    "state": "published_verified",
+    "backup": {
+      "created_at_utc": "2026-10-28T04:34:04Z",
+      "original_path": "论文研究/_管理/章节采用记录.json",
+      "canonical_path": "论文研究/_管理/章节采用记录.json",
+      "backup_path": ".hermes-academic-backups/20261028T043404Z_675ab53e8bff4b94a06e5c56683bcfa5.bak",
+      "original_sha256": "c2cb4c04e1f48f47043a2ced0afad7c5bb75a022ebd35684201ab196a4272f1f",
+      "original_size_bytes": 16321,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "8e533a3018e44fe196ffb24317a4b80474bb80a2cea710bbc8664284a8ab4eff",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  },
+  {
+    "path": "论文研究/_管理/维护规则.md",
+    "sha256": "d0d37b5b6a67d575de3a7d0ec4a658a3d07ea79fc2f460a7c6e146ada0738e4e",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/_管理/迁移路径映射.json",
+    "sha256": "ebe3405b891e21022bd5183b08ba28481d59bc41eaa5705d307125f46d2e4f6b",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/主题研究/三维资料质量与空间区域关联/主题研究.md",
+    "sha256": "29c3bb7499664a0ba99a6d9ea4fb3535f215e32a6e3cc0e304de5cc6ce291319",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/主题研究/合成试建与规则检验/主题研究.md",
+    "sha256": "014cd0819e7fb3ccf0a41386b3fc1d4a290bdc2b8ff9a01eb94cb6d00728893a",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/主题研究/多尺度语义模型与建模依据/主题研究.md",
+    "sha256": "cc4997392debc0ce7280bf0a73702230fc49abca9ff9c47aae99556373ceb1f0",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/主题研究/案例查询风貌比较与有效性/主题研究.md",
+    "sha256": "e0c15e23e14483f8e5a49bcfabf959d39b1c8e5ccdfd21c6d7be00d4787f64a5",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+    "sha256": "6f84eafb8ea534bcd62bc0d0a7148a8e4a3e9956720b8dfa36a70578826e5cb2",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/主题研究/研究对象与样本边界/主题研究.md",
+    "sha256": "1634e13e401ca19859ce2469f5a6d4778693d2b2031af0da51698ffa50f68a16",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/主题研究/类型识别与语义关系表达/主题研究.md",
+    "sha256": "00d324007be74ed361617c0da16aa385df01d82203238df7e13faa443a26ea04",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/主题研究/风貌特征筛选与数据记录/主题研究.md",
+    "sha256": "75fc09013a7f9775f4d8d7aa85e90acc8d4e579a3af84eb63ed8c6a1d0ab3260",
+    "state": "already_equal_readback"
+  },
+  {
+    "path": "论文研究/研究工作台.html",
+    "sha256": "a6e3397e37c02d170dd262b9749c6fa6a49175f339e43ee108c5d14c215262d7",
+    "state": "published_verified",
+    "backup": null
+  },
+  {
+    "path": "风貌认知体系 2026-10-20 13.52.41.smm.md",
+    "sha256": "042fec2148aaa80bf4403c16f4128b0b5ae5aa41dba23b1ab43fe371b7829e80",
+    "state": "already_equal_readback"
+  }
+]

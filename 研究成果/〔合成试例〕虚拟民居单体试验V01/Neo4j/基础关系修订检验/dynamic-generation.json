@@ -1,0 +1,28 @@
+{
+  "changedByTask": [
+    "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md"
+  ],
+  "preexistingOutOfSync": [],
+  "unrelatedDifferencesUntouched": true,
+  "stats": {
+    "route_nodes": 13,
+    "scope": "exact route generator subset"
+  },
+  "expectedSHA256": {
+    "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8"
+  },
+  "fullGeneratorBlockers": [
+    {
+      "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+      "sha256": "c02c3a236d65d496e1ed3dde42d026fb082ba72afa261ffeeedbeae93ba7dbcb",
+      "missing": [
+        "artifact_primary_topic",
+        "artifact_topic_roles",
+        "artifact_main_sources"
+      ]
+    }
+  ],
+  "fullGeneratorPassed": false,
+  "scope": "route plus changed package boundary only; no unrelated catalog or chapter rewrite",
+  "generatorSHA256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259"
+}

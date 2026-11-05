@@ -1,0 +1,2131 @@
+{
+  "date": "2026-10-22",
+  "scope": "四篇全文/正文精读深化；证据记录不复制可编辑框架，框架唯一维护源为01–04及10–11原生导图",
+  "status": "四篇正文精读、框架深化、13轴比较及迁移讨论完成；独立原文抽验提出的两项修订已完成并通过独立局部复验；文件校验通过。未做模型复现、景宁样本验证或用户最终方案确认",
+  "papers": {
+    "H": {
+      "metadata": {
+        "title": "徽州民居语义体系",
+        "attachment_key": "9TUEWX22",
+        "zotero_key": "DMFXW3FX",
+        "reading_scope": "全文正文核读，关键分类图表回原页核验；参考文献用于辨别间接来源，不声称逐项核查原始引用",
+        "printed_start": 94,
+        "author": "汪强、李早、高翔、叶茂盛",
+        "year": 2019,
+        "total_pdf_pages": 4,
+        "full_title": "地域性民居风貌要素语义体系构筑方法及特征解析——以徽州地区为例",
+        "local_pdf": "/Users/wangyuelin/Zotero/storage/9TUEWX22/汪强 等 - 2019 - 地域性民居风貌要素语义体系构筑方法及特征解析——以徽州地区为例.pdf",
+        "sha256": "9641e584e113a7a7bb18489a380f4626f82037987dd2d0d24f9ae4eea975b8a6"
+      },
+      "evidence": [
+        {
+          "id": "H01",
+          "pdf_page": 1,
+          "printed_page": 94,
+          "section": "问题与样本",
+          "claim": "实地调研20余个徽州村落，结合既有民居研究，以风貌语汇和逻辑关系建立记述体系。未列完整村落/单体样本表、调研时间或分层抽样。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=1"
+        },
+        {
+          "id": "H02",
+          "pdf_page": 1,
+          "printed_page": 94,
+          "section": "资料基础",
+          "claim": "《徽州明代住宅》《安徽民居》等为图示和类型资料来源；论文将实地与文献整合，未对每条分类逐一注明田野样本来源。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=1"
+        },
+        {
+          "id": "H03",
+          "pdf_page": 2,
+          "printed_page": 95,
+          "section": "要素界定",
+          "claim": "将宅居空间、立面形态、细部装饰、村落空间纳入风貌研究；四者是内容分组，并非村落—组群—单体—构件四级尺度。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=2"
+        },
+        {
+          "id": "H04",
+          "pdf_page": 1,
+          "printed_page": 94,
+          "section": "研究操作",
+          "claim": "将空间、图案、样式等形式转为专业描述语汇，再梳理概念间逻辑关系；正文第2页补充先提取构成、形式、类型、组合、材质、色彩并制作对应图示。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=1"
+        },
+        {
+          "id": "H05",
+          "pdf_page": 1,
+          "printed_page": 94,
+          "section": "is-a",
+          "claim": "is-a指子体是母体的一种具体形式，用于基本概念阶层化。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=1"
+        },
+        {
+          "id": "H06",
+          "pdf_page": 1,
+          "printed_page": 94,
+          "section": "p/o",
+          "claim": "p/o即part of，指子体是母体的一部分；不能与类型继承混同。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=1"
+        },
+        {
+          "id": "H07",
+          "pdf_page": 1,
+          "printed_page": 94,
+          "section": "a/o",
+          "claim": "a/o即attribute of，指按某属性从母体分类得到一类子体。它在本文是分类关系，不应直接认作OWL的数据属性。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=1"
+        },
+        {
+          "id": "H08",
+          "pdf_page": 1,
+          "printed_page": 94,
+          "section": "HOZO角色",
+          "claim": "作者介绍HOZO基于RDF框架、可导入导出XML/RDF/HTML等描述编码，并显示等级与属性关系。本文未提供可下载本体文件或软件版本配置。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=1"
+        },
+        {
+          "id": "H09",
+          "pdf_page": 2,
+          "printed_page": 95,
+          "section": "表1→图3",
+          "claim": "先从空间类型、平面类型、组合形式、布局方式、平面形状5方面取要素，再按类型/形式两个语义维度重组。是观察维度到表达结构的转换。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=2"
+        },
+        {
+          "id": "H10",
+          "pdf_page": 2,
+          "printed_page": 95,
+          "section": "图3空间类型",
+          "claim": "图3主体空间含入口、堂屋、厢房、天井；附属空间含杂物间、厨房、卫生间、院落；交通空间含过道和楼梯。正文随后却称主体空间中的天井和宅院变化最多，院落归属存在表述差异。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=2"
+        },
+        {
+          "id": "H11",
+          "pdf_page": 2,
+          "printed_page": 95,
+          "section": "天井与院落",
+          "claim": "天井有三水归堂、四水归堂，后者为主；部分设水池。图3还区分天井串联/并联组织、有水池/无水池。院落按前、后、内、侧位置分型。未给每类频数。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=2"
+        },
+        {
+          "id": "H12",
+          "pdf_page": 2,
+          "printed_page": 95,
+          "section": "形式三维度",
+          "claim": "布局形式对称/不对称；组合形式并联、串联、院落连接；平面形式矩形/多边形，矩形分凹、回、H、日。正文将这些形式与天井位置及组合联系。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=2"
+        },
+        {
+          "id": "H13",
+          "pdf_page": 2,
+          "printed_page": 95,
+          "section": "组合逻辑",
+          "claim": "正文解释独立天井的位置形成凹/回，面积更大或凹/回组合形成H/日；通常轴线对接，很少错位。此为形态解释，未提供生成算法或量化判别阈值。",
+          "attribution": "作者解释",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=2"
+        },
+        {
+          "id": "H14",
+          "pdf_page": 2,
+          "printed_page": 95,
+          "section": "空间关系解释",
+          "claim": "流线关系和位序主次并存；作者以宗族、亲属、地形、风俗解释单元组合与有机生长。没有因果识别或组合发生频率。",
+          "attribution": "作者解释",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=2"
+        },
+        {
+          "id": "H15",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "屋顶",
+          "claim": "屋顶形式单坡、双坡、混合，以双坡为主；材料为小青瓦，呈灰黑色肌理。其类别、材质、色彩为不同描述轴。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H16",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "马头墙",
+          "claim": "马头墙构成分墙面、墙脊、垛头；墙体位置、方向、长短、阶梯级数和尺度形成变化。正文列阶梯形、硬山加阶梯、弓字形，另描述正面矩形/凹形、侧面工字/阶梯等。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H17",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "垛头术语差异",
+          "claim": "正文先列印斗式、朝笏式、坐吻式、鹊尾式，随后频次描述改为印斗式和挑斗式次之；未解释朝笏/挑斗对应。不能自行合并同义词。",
+          "attribution": "阅读者核查",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H18",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "门窗",
+          "claim": "门构成门楼、门罩、门套、门扇；正文门型字匾、牌楼、八字、垂帘、拱形。窗常见一字/月眉，另称后期半圆窗套和人字窗罩出现。门窗石材/木材、颜色因地而异。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H19",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "立面解释",
+          "claim": "门向、凹退斜转和附加小院被解释为朝向适应；小高窗被解释为通风、私密、防盗和文化习俗，采光主要借天井。西方文化导致窗变化属作者解释，未给独立历时样本。",
+          "attribution": "作者解释",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H20",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "细部四组",
+          "claim": "细部装饰组织为三雕构件、庭院门、铺装、彩画；从材质、位置、颜色、样式取原型，不等于只列装饰题材。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H21",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "三雕组织",
+          "claim": "三雕按位置、技法、题材组织；砖雕多用于门罩等，石雕用于室外、柱础门槛等，木雕多室内梁架门窗。材料性能与使用位置的联系是作者解释。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H22",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "三雕技法题材",
+          "claim": "正文举镂雕、圆雕、浮雕；图7技法节点还见刻线、浮雕、镂雕、透雕等。题材图示包括祥纹、动植物、忠孝仁义、佛道题材、民间风俗、人物故事、园林山水。不据图示推定互斥分类或完整词表。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H23",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "院门与铺装",
+          "claim": "院门以门洞形状和匾额表达，正文形状圆、拱、花瓶、多边形；铺地石板、卵石、青砖，图案直条、万字锦文、席纹等。图7还组织铺贴方式、材质、图案。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H24",
+          "pdf_page": 3,
+          "printed_page": 96,
+          "section": "彩画",
+          "claim": "彩画描述位置及色彩：门楣、窗楣、屋角墙、马头墙轮廓；正文以黑为主、蓝红对比。装饰文化含义是解释层，不是构件材料属性本身。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=3"
+        },
+        {
+          "id": "H25",
+          "pdf_page": 4,
+          "printed_page": 97,
+          "section": "村落山水关系",
+          "claim": "山体关系分多面环山、两面临山、一面临山；水体关系分贯穿村落、环绕村落、沿侧面。可复合共现，并无排他分类约束或距离/角度阈值。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=4"
+        },
+        {
+          "id": "H26",
+          "pdf_page": 4,
+          "printed_page": 97,
+          "section": "村落形态术语",
+          "claim": "正文四型带状密集、团状集中、辐射分散、辐射倾向集中；图8最后一型写辐射集中。正文引用叶茂盛2018聚类论文，未在本文重做该分类实验。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=4"
+        },
+        {
+          "id": "H27",
+          "pdf_page": 4,
+          "printed_page": 97,
+          "section": "广义对象边界",
+          "claim": "村落空间包含水口、门楼、街巷、牌坊、祠堂、书院等广义民居内容。与以宅居为核心的单体研究边界不同，不能全部自动纳入目标论文。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=4"
+        },
+        {
+          "id": "H28",
+          "pdf_page": 4,
+          "printed_page": 97,
+          "section": "空间与文化解释",
+          "claim": "街巷组织串联围合发散、开敞封闭；牌坊/门楼限定或框景；水口兼生态交通防御生产；宗祠与支祠为聚居组织中心。为作者综合说明，非空间指标测量结果。",
+          "attribution": "作者解释",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=4"
+        },
+        {
+          "id": "H29",
+          "pdf_page": 4,
+          "printed_page": 97,
+          "section": "模型数据库展望",
+          "claim": "第5小节明确是研究展望：导出语义编码→制作要素模型→编程附加图形信息→编码与模型叠加→模型数据库→复建/自生成设计。图9展示编码和信息叠加示意，未报告实测三维区域绑定及验证。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=4"
+        },
+        {
+          "id": "H30",
+          "pdf_page": 4,
+          "printed_page": 97,
+          "section": "成果与验证边界",
+          "claim": "实际贡献是四组要素的语义记述体系及其建筑学解释，包含图示分类与关系表达；未给词汇数、实例数、标注一致性、检索性能、正式本体推理或生成设计效果测评。",
+          "attribution": "阅读者核查",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/9TUEWX22?page=4"
+        }
+      ],
+      "issues": []
+    },
+    "F": {
+      "metadata": {
+        "title": "伏岭村文化知识图谱",
+        "attachment_key": "6WCL46HB",
+        "zotero_key": "5BG4898K",
+        "reading_scope": "全文正文核读，关键分类图表回原页核验；参考文献用于辨别间接来源，不声称逐项核查原始引用",
+        "printed_start": 63,
+        "author": "陈晓华、唐文龙、鲍香玉",
+        "year": 2026,
+        "total_pdf_pages": 7,
+        "full_title": "基于本体论的传统村落文化知识图谱生成及其应用——以安徽省绩溪县伏岭村为例",
+        "local_pdf": "/Users/wangyuelin/Zotero/storage/6WCL46HB/陈晓华 等 - 2026 - 基于本体论的传统村落文化知识图谱生成及其应用——以安徽省绩溪县伏岭村为例.pdf",
+        "sha256": "e3f2dfdfe3b3415dd05678afd6d65871c947ec4da03e01fc3e4e5a07907e083e"
+      },
+      "evidence": [
+        {
+          "id": "F01",
+          "pdf_page": 2,
+          "printed_page": 64,
+          "section": "研究问题与个案",
+          "claim": "针对村落文化资料离散、文化关联难以呈现的问题，选伏岭村开展模式层到实例层建构；伏上/伏下为核心，纹川为古称。作者称典型，不是多村代表性抽样验证。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=2"
+        },
+        {
+          "id": "F02",
+          "pdf_page": 2,
+          "printed_page": 64,
+          "section": "数据来源",
+          "claim": "田野调查村落建筑与街巷、半结构访谈、图片影像和记录；保护规划与地方学者论著；Python采集百科及传统村落数字博物馆。未给各源条目数、时间和访谈人数。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=2"
+        },
+        {
+          "id": "F03",
+          "pdf_page": 2,
+          "printed_page": 64,
+          "section": "七步法1—3",
+          "claim": "先确定范围，考察可复用领域本体并对照认定指标补充，然后明确核心术语与概念。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=2"
+        },
+        {
+          "id": "F04",
+          "pdf_page": 2,
+          "printed_page": 64,
+          "section": "七步法4—7",
+          "claim": "确定核心类/子类，定义对象属性/数据属性，Protégé定义约束，添加实例验证。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=2"
+        },
+        {
+          "id": "F05",
+          "pdf_page": 3,
+          "printed_page": 65,
+          "section": "概念来源",
+          "claim": "依据传统村落认定指标、中国传统村落档案、非遗公约及CIDOC CRM建立叙词；没有列出CIDOC具体类/属性标识和版本映射表。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=3"
+        },
+        {
+          "id": "F06",
+          "pdf_page": 3,
+          "printed_page": 65,
+          "section": "三核心与六维度",
+          "claim": "文字确定村落选址和格局、传统建筑、非物质文化遗产三核心类；将类型、时间、地点、人物、事件、活动分别称其子类。其语义更像描述维度，不能不加审查作为同一种继承树。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=3"
+        },
+        {
+          "id": "F07",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表2选址格局",
+          "claim": "类型列古河道、街巷、牌坊、码头、古树、古井、山体；时间含形成与保存状态；地点为集体记忆公共空间；人物为布局决策者；事件为选址形成变化事件。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F08",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表2传统建筑",
+          "claim": "功能类型列祠堂/庙宇/民居/书院，同时含文保级别及造型结构材料装饰；时间含修建维修及保存程度；地点为位置及周边空间关系；人物为居住名人乡贤；事件为名人事迹。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F09",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表2非遗",
+          "claim": "类型含民俗、技艺、口述史、掌故逸事、文学作品及保护级别；时间含传承时长/状态；人物为传承人及组织者；地点为场所线路影响范围；活动为周期活动/技艺传承。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F10",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表3类型关系",
+          "claim": "对象属性：具有类型、被标识、由……构成。分别表达分类、正式命名、整体组成；其端点约束未逐条给出。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F11",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表3时间关系",
+          "claim": "对象属性：具有时间段、起始于……结束前、被时间界定、具有状态。保留原始名称，不能当作已定义时序计算表达式。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F12",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表3地点关系",
+          "claim": "对象属性：发生于、具有历史或当前位置、空间由……定义、毗邻。毗邻被解释为空间相邻/接壤，未给几何判据、容差和实例验证。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F13",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表3人物关系",
+          "claim": "对象属性：由……执行、参与者、源自、是……成员。源自在此分组的例释是徽剧起源民俗表演，分组和语义需进一步审查。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F14",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表3事件关系",
+          "claim": "对象属性：导致、延续为、被……修改。分别表达结果、继承和人为改变，不等同已执行因果推理。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F15",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表3活动关系",
+          "claim": "对象属性：使用特定物品、采用特定技术、采用通用流程、受……影响。与前五组共22项。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F16",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表4类型与时间属性",
+          "claim": "类型属性3项建筑功能类型/非遗项目类型/环境要素类型，值为类型名称；时间4项始建时间(年月日)、使用时段、传承时长、保存状态(百分比/文本)。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F17",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表4地点与人物属性",
+          "claim": "地点3项地理坐标(经纬度)、主要功能(功能区)、地形特征；人物2项传承人信息(姓名代数级别)、家族谱系(人物关系)。字段有复合内容，非现成规范数据类型。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F18",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "表4事件与活动属性",
+          "claim": "事件2项事件内容(时间地点人物文本)、事件影响；活动2项营造工艺、保护措施。表4按可见属性名称计16项，部分是复合字段，未给可执行类型/校验约束。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F19",
+          "pdf_page": 3,
+          "printed_page": 65,
+          "section": "Protégé约束与实例验证",
+          "claim": "在Classes等添加类/属性，用限制表达式约束，添加实例并赋值/连关系，通过OntoGraf展示；正文未提供具体表达式、推理器结果或约束违规测试。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=3"
+        },
+        {
+          "id": "F20",
+          "pdf_page": 5,
+          "printed_page": 67,
+          "section": "图3层级差异",
+          "claim": "图3可视层级从owl:Thing分物质文化/非物质文化，再关联村落格局选址、传统建筑等；不同于文字直接三核心。紫色实例含伏岭村、元代以前、杉公祠、保存完整等。应分别保留概念方案与实例图。",
+          "attribution": "阅读者核查",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=5"
+        },
+        {
+          "id": "F21",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "四项手动映射",
+          "claim": "本体类→Neo4j标签；实例→节点；对象属性→关系；数据属性→节点属性。明确为手动映射，未报告自动转换工具和参数。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F22",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "抽取与融合",
+          "claim": "从基础资料抽实体/关系/属性，以本体限定类型和属性范围；词汇映射统一伏岭村/纹川村等别名，并称本体推理解决冲突。未给身份规则、冲突策略、置信度或质量指标。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F23",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "RDF记法疑点",
+          "claim": "正文写实体—关系—实体或实体—属性—属性，第二种尾项原文如此。应保留转录并另作规范核对，不照此文字构造实际RDF。",
+          "attribution": "阅读者核查",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F24",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "存储与可视化",
+          "claim": "作者报告RDF导入Neo4j，用Cypher查询；节点颜色表示实例与属性的不同层次，箭头有方向。未给插件/导入语句、实际RDF文件和查询代码。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        },
+        {
+          "id": "F25",
+          "pdf_page": 5,
+          "printed_page": 67,
+          "section": "图4属性节点化",
+          "claim": "图4部分值如三十六口古井、南北向分布以节点呈现；不能据概括映射断言所有数据属性均落为节点属性。仅见截图，底层存储需原始导出核查。",
+          "attribution": "阅读者核查",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=5"
+        },
+        {
+          "id": "F26",
+          "pdf_page": 5,
+          "printed_page": 67,
+          "section": "选址格局检索",
+          "claim": "输入村落选址/村落格局/街巷体系标签，展示山体河流、形成时期、邵氏先民、南北布局、前街后巷、72巷36井等关联。年代传说与功能解释是文献知识的检索呈现，未独立证明历史真实性。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=5"
+        },
+        {
+          "id": "F27",
+          "pdf_page": 5,
+          "printed_page": 67,
+          "section": "建筑文化知识发现",
+          "claim": "传统建筑标签检索将外部形态、四水归堂、院落组合、材料、三雕、宗祠和活化利用串联；具体世德堂、杉公祠为实例。无新知识判定基准和自动推理规则，主要为关联展示及解释。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=5"
+        },
+        {
+          "id": "F28",
+          "pdf_page": 5,
+          "printed_page": 67,
+          "section": "问答用途设想",
+          "claim": "可通过语义解析、关联、推理建立问答，面向游客路线、传承人展演信息、分龄教学；未展示问答实现和性能。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=5"
+        },
+        {
+          "id": "F29",
+          "pdf_page": 6,
+          "printed_page": 68,
+          "section": "非遗数字服务展望",
+          "claim": "高频问答关键词识别濒危项目、数字修复、VR/AR文化空间等为设想。高频词与濒危并无本文实证因果或分类规则支持。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=6"
+        },
+        {
+          "id": "F30",
+          "pdf_page": 6,
+          "printed_page": 68,
+          "section": "实际成果",
+          "claim": "本体及实例图、伏岭文化图谱和两个查询/关联场景为可见成果；作者主张效率准确性和可迁移性，未报告对照实验、检索指标、用户测试或多案例验证。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=6"
+        },
+        {
+          "id": "F31",
+          "pdf_page": 6,
+          "printed_page": 68,
+          "section": "后续范围",
+          "claim": "作者称初步探索，未来拟扩大采集、多案例多尺度验证、跨地域关联及LLM提升转化。不能当作本文已有跨尺度验证。",
+          "attribution": "作者报告",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=6"
+        },
+        {
+          "id": "F32",
+          "pdf_page": 4,
+          "printed_page": 66,
+          "section": "复现缺项",
+          "claim": "全篇未报告图谱节点/边总数、完整实体实例清单、正式领域/值域与基数限制、版本化标识、原始数据库下载或完整导入查询代码。",
+          "attribution": "阅读者核查",
+          "verification": "正文及相应原页核对",
+          "uncertainty": "",
+          "source_link": "zotero://open-pdf/library/items/6WCL46HB?page=4"
+        }
+      ],
+      "issues": []
+    },
+    "W": {
+      "metadata": {
+        "title": "中国传统村落特征的解读与集群识别——基于聚类和知识图谱的认知与利用方法",
+        "author": [
+          "王笑",
+          "朱雪融",
+          "唐芃"
+        ],
+        "year": 2025,
+        "publication": "建筑学报，2025年第4期，82–89页",
+        "DOI": "10.19819/j.cnki.ISSN0529-1399.202504013",
+        "zotero_key": "95UFJBNQ",
+        "attachment_key": "NWZLFV5V",
+        "attachment_filename": "王笑 等 - 2025 - 中国传统村落特征的解读与集群识别——基于聚类和知识图谱的认知与利用方法.pdf",
+        "total_pdf_pages": 8,
+        "printed_pages": "PDF第1–8页对应印刷页82–89",
+        "reading_scope": "通过Zotero attachment-key NWZLFV5V读取全文；本地原PDF逐页提取并核读第1–8页（含正文、表1、图1–13、讨论与参考文献）。未对原PDF做写入或修复；仅在内存中截去最后%%EOF后的附加内容以便PDF解析。",
+        "visual_pages": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ],
+        "visual_check": "8页均以高分辨率整页渲染目视；表1及图1–13逐一核看。对图1、图9–13等关键图作高分辨率裁切复核。印刷页码与PDF页序逐页核对。",
+        "local_pdf": "/Users/wangyuelin/Zotero/storage/NWZLFV5V/王笑 等 - 2025 - 中国传统村落特征的解读与集群识别——基于聚类和知识图谱的认知与利用方法.pdf",
+        "sha256": "9466364756157bb631427f7f1cc429cb7091697b541fd02a99a51de771466c13"
+      },
+      "evidence": [
+        {
+          "id": "W01",
+          "pdf_page": 1,
+          "printed_page": 82,
+          "section": "摘要；1 背景",
+          "claim": "研究目标是用形态聚类和综合属性聚类理解传统村落物质与非物质特征，再据此建知识图谱，支持要素检索、关联呈现、集群识别及集中连片保护的区域化决策。",
+          "attribution": "作者报告",
+          "verification": "正文核读；首页摘要和背景段落原页核验",
+          "uncertainty": "研究目标不等于已实现或已验证的全部功能。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=1"
+        },
+        {
+          "id": "W02",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2.1 数据获取和预处理",
+          "claim": "形态影像数据以现《中国传统村落保护名录》8155个村落为基础；通过天地图Web服务API采集卫星影像和矢量底图，按村名获取地理位置和统一尺寸图像瓦片。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图表/页面视觉复核",
+          "uncertainty": "图像瓦片的具体像素尺寸、影像日期、定位失败/缺图处理未报告。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W03",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2.1 数据获取和预处理；表1",
+          "claim": "综合属性数据不是8155个全覆盖：作者从中国传统村落数字博物馆已建数字单馆中爬取并整理截至2023年12月的1023个村落属性统计数据，作为综合属性聚类要素。",
+          "attribution": "作者报告",
+          "verification": "正文核读；表1与原页视觉核验",
+          "uncertainty": "未报告1023个样本抽取规则、与8155个图像样本的逐村对应率。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W04",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2.1 数据获取和预处理；表1",
+          "claim": "表1字段按环境维度分组：建成环境含村域面积（km²）、占地面积（km²）；自然环境含海拔（m）、主要地貌；社会环境含形成年代、主要民族、户籍人口、常住人口、主要产业、村集体年收入（万元）、村民人均年收入（元）。共同字段为村落名、经度/纬度、属性（如行政村/自然村）。",
+          "attribution": "作者报告",
+          "verification": "表1整页原图视觉核验；字段及单位逐列核对",
+          "uncertainty": "表头未给人口单位，数值字段缺失口径、调查年份及不同来源的统一规则未说明；“属性”列是行政村/自然村类别。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W05",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2.1；表1",
+          "claim": "表1列出的示例记录显示行政村/自然村均纳入数据；示例包括宁艾村、西冶村、龙川村、邓蒙村和小落水村，表中间以省略号截去其余记录。",
+          "attribution": "作者报告",
+          "verification": "表1原页视觉核验",
+          "uncertainty": "表1是部分示例，不能据此复原1023条数据。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W06",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2.2 特征信息的提取与整合",
+          "claim": "形态图像处理包括提取村落轮廓黑白图像，并在村落斑块上叠加道路和水域色块：建筑物与道路代表村庄建成环境，水域代表自然环境。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图1原页视觉核验",
+          "uncertainty": "未报告轮廓提取算法、道路/水域颜色编码和人工校正步骤。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W07",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2.2；图1",
+          "claim": "作者称利用预训练神经网络模型从形态图像提取特征向量；图1的相应转换标签为图像处理→特征提取→嵌入/整合。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图1高分辨率裁切核验",
+          "uncertainty": "模型名称、训练域、特征维数及图像特征如何与表格属性融合均未说明。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W08",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2.2；表1；图1",
+          "claim": "综合要素属性由指标型统计数据和形态图像特征整合；类别型字段（如主要地貌、主要民族）为文本，统计字段（如户籍人口、人均年收入）为数值，作者报告对各指标分别编码、降维、标准化后形成多维综合特征向量。",
+          "attribution": "作者报告",
+          "verification": "正文核读；表1和图1视觉核验",
+          "uncertainty": "具体类别编码、数值变换、标准化方式及缺失值处理未报告。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W09",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "图1；2.2.2–2.2.3",
+          "claim": "图1展示的顺序为：多源异构数据分别经图像处理/特征提取或数据清洗/结构化；特征嵌入整合与标准化形成特征向量；降维到平面向量空间；以欧氏距离聚类形成聚类类型并提取聚类中心/类型信息；继而定义实体关系、将指标统计数据赋为实体属性、图数据库可视化形成知识图谱。",
+          "attribution": "阅读者重建",
+          "verification": "图1原页高分辨率裁切核验；与2.2.1–2.2.4正文逐项对照",
+          "uncertainty": "图1是方法路径示意，不证明每一步的实现参数或代码。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W10",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2.3 特征向量的降维和聚类；图1",
+          "claim": "作者解释降维用于降低高维复杂性并保持全局分布，降维后在二维平面以点表示，再按欧氏距离远近聚类；以此得到形态类型和综合属性类型。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图1原图核验",
+          "uncertainty": "降维方法、二维嵌入参数和聚类算法名称/距离配置未报告。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W11",
+          "pdf_page": 2,
+          "printed_page": 83,
+          "section": "2.2；图1",
+          "claim": "方法图与方法段落未报告预训练模型名称、特征维数、各指标编码表、标准化算法、降维算法、聚类算法名称、聚类超参数或选取簇数的准则；正文明确给出的计算原则主要为欧氏距离与报告后的簇数。",
+          "attribution": "阅读者核查（本轮全文/图表范围内未报告）",
+          "verification": "全文正文核读；图1–8图页核验",
+          "uncertainty": "结论限于该8页论文所呈现的方法与图表。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=2"
+        },
+        {
+          "id": "W12",
+          "pdf_page": 3,
+          "printed_page": 84,
+          "section": "3.1.1 聚类结果；图2",
+          "claim": "8155个预处理形态底图产生9个聚类簇。图2以类型1–9编号；作者报告向量空间中类型边界较明显、簇内肌理有共性，狭长的左侧组团被分成两类，少数位置有直观异常值。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图2原页视觉核验",
+          "uncertainty": "论文未给全国九类统一的语义名称；编号类型不应直接解释为原文命名的形态类别。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=3"
+        },
+        {
+          "id": "W13",
+          "pdf_page": 3,
+          "printed_page": 84,
+          "section": "3.1.1；图2a",
+          "claim": "作者把按图像特征向量排序后图像黑色占比由下至上增加解释为村落规模逐渐扩大。",
+          "attribution": "作者解释",
+          "verification": "正文核读；图2a图页视觉核验",
+          "uncertainty": "这是作者对排序图的形态解释，不是单体建筑尺度或实际面积测量结果。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=3"
+        },
+        {
+          "id": "W14",
+          "pdf_page": 3,
+          "printed_page": 84,
+          "section": "3.1.1；图2c",
+          "claim": "作者报告轮廓系数用于评估聚类凝聚力和分离度，范围−1.0至1.0，数值较高表示聚类效果较好；形态聚类平均SC=0.79。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图2c原图视觉核验",
+          "uncertainty": "这里只记录作者对系数的解释与报告值；未独立复算。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=3"
+        },
+        {
+          "id": "W15",
+          "pdf_page": 3,
+          "printed_page": 84,
+          "section": "3.1.1；图2c",
+          "claim": "图2c的类型1–9轮廓系数依次为0.82、0.73、0.54、0.81、0.87、0.91、0.80、0.77、0.87；图注明平均轮廓系数Avg.SC=0.79。",
+          "attribution": "作者报告",
+          "verification": "图2c高分辨率原图逐柱核验",
+          "uncertainty": "按原图读取，未复算平均值。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=3"
+        },
+        {
+          "id": "W16",
+          "pdf_page": 3,
+          "printed_page": 84,
+          "section": "3.1.1；图3",
+          "claim": "每一类的聚类中心样本被作者作为代表村落形态；非中心样本及靠近簇边界、判定模糊的样本呈现过渡或交叉形态。图3按9类展示代表形态、非中心过渡形态和边界交叉形态。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图3原页视觉核验",
+          "uncertainty": "图3未列所有样本的村名或样本选择阈值。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=3"
+        },
+        {
+          "id": "W17",
+          "pdf_page": 3,
+          "printed_page": 84,
+          "section": "3.1.1；图3",
+          "claim": "作者以零散聚集点扩大连接为聚落/集镇、点状形态组团化与边界融合等解释形态变化；描述的过渡形态包括线性与块状融合的指状/辐射状、线性连接的网状/格网状，以及低密度块状的离散均质分布。",
+          "attribution": "作者解释",
+          "verification": "正文核读；图3图示核验",
+          "uncertainty": "作者明确说形态聚类是同一当下时点上不同时间积累状态的呈现；此序列不是独立历史年表或历时追踪证据。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=3"
+        },
+        {
+          "id": "W18",
+          "pdf_page": 5,
+          "printed_page": 86,
+          "section": "3.1.2；图5",
+          "claim": "正文对形态类型3、4、5、7作了语义化空间解释：类型3在晋冀豫交界、太行山南部黄土丘陵山间盆地较集中，呈有机团块边界、肌理松散；类型4在黔东南、湘西、浙南山丘地带较集中，边界不规则且有高密度中心；类型5在黔东南一带有适应地形的明显边界和紧凑高密度肌理；类型7在皖南山丘有较丰富水系参与、规模较大、密度较高、聚落中心和街巷较规则。",
+          "attribution": "作者报告与解释",
+          "verification": "正文核读；图4/图5原页视觉核验",
+          "uncertainty": "这四类是9个编号形态簇中的局部解释；其余簇没有在正文中获得同等程度的命名解释。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=5"
+        },
+        {
+          "id": "W19",
+          "pdf_page": 4,
+          "printed_page": 85,
+          "section": "3.1.2；图4",
+          "claim": "图4展示全国总分布、核密度和9类分布/核密度；作者报告名录村落总体主要分布在西南、东南沿海、黄河中游，并把部分高密区与西南山区、东南丘陵/密集水网、太行山脉的重叠解释为复杂地形有助于传统形态保持。",
+          "attribution": "作者报告与解释",
+          "verification": "正文核读；图4地图整页核验",
+          "uncertainty": "作者使用‘说明’和‘可能’作机制解释；图示为空间共现，不构成因果检验。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=4"
+        },
+        {
+          "id": "W20",
+          "pdf_page": 5,
+          "printed_page": 86,
+          "section": "3.2.1 聚类结果；图6",
+          "claim": "综合属性聚类以1023个村落综合特征向量为输入，采用文中所说的相同聚类算法，得到3个簇；作者指出其意义和特征空间分布与形态图像聚类不同。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图6原图核验",
+          "uncertainty": "“相同聚类算法”承接前文，但算法名称仍未写明；是否每个字段/图像向量均有完整值未报告。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=5"
+        },
+        {
+          "id": "W21",
+          "pdf_page": 5,
+          "printed_page": 86,
+          "section": "3.2.1；图7",
+          "claim": "类型1因占地面积较大，户籍/常住人口及村集体/人均年收入较高，被解释为驱动力较高的“发展型”；类型2面积、人口、收入较低，被解释为动力不足、可能衰退消失的“衰退型”；类型3面积、人口、收入居中，被解释为受自然环境限制而平衡或缓慢发展的“平衡型”。",
+          "attribution": "作者解释",
+          "verification": "正文核读；图7雷达图和类型文字原页核验",
+          "uncertainty": "类型名称是综合属性三簇的作者解释，不是8155村落形态9簇的语义名称；“驱动力/衰退”未由时间序列验证。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=5"
+        },
+        {
+          "id": "W22",
+          "pdf_page": 5,
+          "printed_page": 86,
+          "section": "图6；3.2.1–3.2.2",
+          "claim": "综合属性聚类平均SC=0.41，图6标示类型1=0.46、类型2=0.37、类型3=0.33；按作者给出的SC解释，数值越高越好。",
+          "attribution": "作者报告；后一比较为阅读者依据作者定义作的直接读数解释",
+          "verification": "正文与图6原页视觉核验",
+          "uncertainty": "作者没有据此给出与形态聚类SC的统计比较或聚类可靠性阈值；不能单凭SC判定类别正确与否。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=5"
+        },
+        {
+          "id": "W23",
+          "pdf_page": 5,
+          "printed_page": 86,
+          "section": "3.2.2；图8",
+          "claim": "图8对形态类型、常住人口和人均年收入做冷热点分析；图例给出90%、95%、99%置信度的冷点/热点及不显著类别。正文报告三项指标存在地域聚集，并解释相应高低值区。",
+          "attribution": "作者报告与解释",
+          "verification": "图8整页视觉核验；下页正文核读",
+          "uncertainty": "热点算法、空间权重、邻域尺度/距离阈值未报告；高低值的社会含义属于作者解释。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=5"
+        },
+        {
+          "id": "W24",
+          "pdf_page": 6,
+          "printed_page": 87,
+          "section": "4 知识图谱构建；图9",
+          "claim": "作者明确报告基于开源平台Neo4j构建“中国传统村落知识图谱原型”；图9展示总体图谱及相似关系组团、单个村落实体属性指标和属性描述子图。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图9高分辨率裁切核验",
+          "uncertainty": "图示可证明作者呈现原型与可视化，不给出数据库实体总数或导出文件。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=6"
+        },
+        {
+          "id": "W25",
+          "pdf_page": 6,
+          "printed_page": 87,
+          "section": "4.1 实体关系定义和属性层级；图9",
+          "claim": "知识图谱以传统村落为主要信息实体，定义村落之间的“相似性”关系；作者称该边表达聚类结果知识，并用于集群识别/搜索推荐，与单纯空间位置关系有所区别。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图9b图例核验",
+          "uncertainty": "文中未给空间包含、邻接、距离等空间拓扑关系的图谱定义。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=6"
+        },
+        {
+          "id": "W26",
+          "pdf_page": 6,
+          "printed_page": 87,
+          "section": "4.1；图9b",
+          "claim": "相似性关系按综合属性特征向量的欧氏距离计算，取最近15个村落作为相似性村落群；使用30%和70%阈值划分强相似、中相似、弱相似关系；属性类别相同或数值相近也作为相似性检索规则。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图9b关系图例核验",
+          "uncertainty": "30%/70%基于何种归一化分值、阈值方向/距离区间及边是否有向均未说明；不可擅自称为分位数或概率。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=6"
+        },
+        {
+          "id": "W27",
+          "pdf_page": 6,
+          "printed_page": 87,
+          "section": "4.1；图9c–d",
+          "claim": "属性表征分两层：第一层为建成/自然/社会环境中的属性指标名称；第二层为属性的类别、数值及区间描述，作者示例包括地貌=山地、海拔100m为低海拔；两层在可视化中表现为村落子图内可逐层展开的关系。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图9c–d高分辨率裁切核验",
+          "uncertainty": "示例中100m是作者举例，不足以证明其他海拔分箱边界或实际全量编码规则。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=6"
+        },
+        {
+          "id": "W28",
+          "pdf_page": 6,
+          "printed_page": 87,
+          "section": "图10；4.2.1",
+          "claim": "图10三个属性检索输入分别为：贵州+中海拔+主要地脉（山地）；形成年代（明代）+主要民族（苗族）；低村域面积+低常住人口+低人均年收入+主要产业（农业）。每组结果以包含村落实体与强/中/弱相似关系的网络子图呈现。",
+          "attribution": "作者报告",
+          "verification": "图10原页高分辨率裁切逐字核验",
+          "uncertainty": "图10没有在正文列出三组完整返回村落名单；图中文字“主要地脉”与表1/方法中的“主要地貌”异写，见issue I02。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=6"
+        },
+        {
+          "id": "W29",
+          "pdf_page": 7,
+          "printed_page": 88,
+          "section": "4.2.2；图11–12",
+          "claim": "绩溪县案例正文称从数字博物馆取得16个村落综合信息；与规划对照。规划涉及包括中国传统村落在内的35个省级以上传统村落及其他需保护古村落，并提出分区指引、分级保护及村景共建、线点相连、多村联动等模式。",
+          "attribution": "作者报告",
+          "verification": "正文核读；图11/12原页视觉核验",
+          "uncertainty": "图11/12可见村名数量和正文16个的样本口径不一致或无法由本文解释，见issue I01；规划原文未在本轮另行核验。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=7"
+        },
+        {
+          "id": "W30",
+          "pdf_page": 7,
+          "printed_page": 88,
+          "section": "4.2.2（1）；图12",
+          "claim": "绩溪16村的形态结果在正文中概括为小规模点状片状、中规模临河块状、大规模紧凑面状；作者认为三类与规划的“岭南—山地离散”“登源河—河道串联”“岭北—簇群集聚”基本呼应，但规划依据县域尺度村落与登源河/徽岭关系，本研究依据村庄本身与周边环境特征。",
+          "attribution": "作者报告与解释",
+          "verification": "正文核读；图12对照图原页视觉核验",
+          "uncertainty": "这三种描述是绩溪案例的归纳，不应误称为全国9类形态聚类的固定名称。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=7"
+        },
+        {
+          "id": "W31",
+          "pdf_page": 7,
+          "printed_page": 88,
+          "section": "4.2.2（1）",
+          "claim": "作者举出不一致案例：磡头村在规划中属“岭南—山地离散”，但云川溪穿村而过、轮廓部分呈团块状，因此本研究判为“中规模临河块状”；冯村、石家村在规划中属“岭北—簇群集聚”，但村落规模较小、轮廓更似点状/片状，因此被归为“小规模点状片状”。",
+          "attribution": "作者解释",
+          "verification": "正文核读；与图12村名和类别图示核验",
+          "uncertainty": "作者将差异归因于分析视角/尺度不同；没有独立地面测量来裁决哪一分类更正确。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=7"
+        },
+        {
+          "id": "W32",
+          "pdf_page": 7,
+          "printed_page": 88,
+          "section": "4.2.2（2）；图13a",
+          "claim": "面向“适合发展山野旅游的村落”检索，正文举霞水村、磡头村为结果：二者综合属性相似，适合考虑山地特色与旅游产业联动；《规划》中的“人文景观合一的高山康养区”也包含两村，并分别提出磡头摄影主题、霞水艺术主题的休闲度假和康养旅游。",
+          "attribution": "作者报告；规划对应内容为作者转述",
+          "verification": "正文核读；图13a检索图视觉核验",
+          "uncertainty": "规划是本文引用的外部文件[25]，本轮没有单独核查其全文；该示例是案例一致性说明，不是产业效果验证。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=7"
+        },
+        {
+          "id": "W33",
+          "pdf_page": 7,
+          "printed_page": 88,
+          "section": "4.2.2（2）；图13b",
+          "claim": "面向“适合保留农业景观的村落”检索，作者举石门村、上庄村为结果，认为二者兼有农业和旅游基础，可考虑保留田园景观、提升农产品市场价值；规划转述了核桃、茶叶、贡菊、中药材、蜂产品等资源利用方向。",
+          "attribution": "作者报告；规划对应内容为作者转述",
+          "verification": "正文核读；图13b检索图视觉核验",
+          "uncertainty": "规划为间接来源；本文未报告联动决策后的实施或成效。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=7"
+        },
+        {
+          "id": "W34",
+          "pdf_page": 7,
+          "printed_page": 88,
+          "section": "图11–12",
+          "claim": "图11可视图中出现18个可辨村名，图12按三类展示的村落名标签也多于正文所称的16个案例村；视觉可辨标签包括蜀马、尚、浩寨/冯、霞水、石家、石门、磡头、瀛洲/汪、龙川、仁里、北、坦头、水、上庄、旺川、宅坦等。正文未解释这些额外节点是样本外上下文节点、图示扩展还是计数差异。",
+          "attribution": "阅读者核查",
+          "verification": "图11/12高分辨率原图目视计数，并以页面可提取文字核对；正文数字另行核读",
+          "uncertainty": "需回看作者数据或图源确认图中相邻/换行村名的拆分和样本边界；不要擅自将18村修正成正文的16村。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=7"
+        },
+        {
+          "id": "W35",
+          "pdf_page": 6,
+          "printed_page": 87,
+          "section": "图9及4.1–4.2",
+          "claim": "全文报告了知识图谱原型、Neo4j、实体关系层级与应用案例，但未报告图数据库节点数、关系数/三元组数、实际导出的schema/数据文件、Cypher/其他查询脚本、代码仓库或复现实验步骤。",
+          "attribution": "阅读者核查（未报告项）",
+          "verification": "全篇8页正文、图1–13、讨论和参考文献核查",
+          "uncertainty": "仅限本论文公开呈现范围；不代表作者没有内部实现文件。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=6"
+        },
+        {
+          "id": "W36",
+          "pdf_page": 8,
+          "printed_page": 89,
+          "section": "5 讨论与展望",
+          "claim": "作者说当前知识图谱受样本和数据局限，在知识推理与发现方面仍待深化；Graph RAG被表述为知识图谱‘能够面向未来’的架构。全文没有报告已实现的图谱推理规则、推理实验、Graph RAG系统或生成质量/检索指标。",
+          "attribution": "作者报告；实施状态判断为阅读者核查",
+          "verification": "第8页讨论原文核读并视觉核验；全文检索相关方法/结果段落",
+          "uncertainty": "原文展望语句不能当作本文已有Graph RAG实现。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=8"
+        },
+        {
+          "id": "W37",
+          "pdf_page": 8,
+          "printed_page": 89,
+          "section": "5 讨论与展望",
+          "claim": "作者将图谱贡献定位为组织分散的非结构化资料与有建筑学意义的结构化信息、支持数字化保护和复杂决策；同时指出LLM对规划文本/规范的快速理解有帮助但不真正具备专业领域知识，仍需建立更深层次的数据关系。",
+          "attribution": "作者解释",
+          "verification": "第8页讨论原文核读",
+          "uncertainty": "这是作者对方法价值和领域需求的论述，不是对LLM与Graph RAG的实证比较。",
+          "source_link": "zotero://open-pdf/library/items/NWZLFV5V?page=8"
+        }
+      ],
+      "issues": [
+        {
+          "id": "I01",
+          "issue": "绩溪县样本数口径待核：正文两处称由数字博物馆取得16个村落；图11/12原页视觉可辨约18个村落标签，图12还出现换行/邻近标签。图中的节点可能含上下文村落，也可能存在图文计数差异，本文没有解释。",
+          "evidence_ids": [
+            "W29",
+            "W34"
+          ],
+          "status": "待核；报告正文数字与图示，不自行修正。"
+        },
+        {
+          "id": "I02",
+          "issue": "图10地理查询标签目视为“主要地脉（山地）”，而表1、图7及方法段落使用“主要地貌”。这是图内术语异写/疑似排印问题。",
+          "evidence_ids": [
+            "W04",
+            "W28"
+          ],
+          "status": "原图已高分辨率复核；含义可能相同但不替作者改字。"
+        },
+        {
+          "id": "I03",
+          "issue": "图10中三组查询结果绘为村落节点与强/中/弱相似边，但正文未给出各检索结果的完整村名；不可根据图形位置补造完整输出集合。",
+          "evidence_ids": [
+            "W28"
+          ],
+          "status": "保留图示输出类型；完整清单未报告。"
+        },
+        {
+          "id": "I04",
+          "issue": "15近邻后的30%/70%阈值未定义计算口径，无法精确复现强/中/弱相似边；不得将其未经证据解释为分位数或概率阈值。",
+          "evidence_ids": [
+            "W26"
+          ],
+          "status": "方法边界；待作者补充。"
+        },
+        {
+          "id": "I05",
+          "issue": "文中提出知识图谱推理与Graph RAG方向，但当前结果只展示Neo4j原型、属性检索和案例集群识别；没有实现状态或性能证据支持已完成推理/Graph RAG。",
+          "evidence_ids": [
+            "W24",
+            "W35",
+            "W36"
+          ],
+          "status": "按未来展望而非已完成方法报告。"
+        }
+      ]
+    },
+    "M": {
+      "metadata": {
+        "author": "穆潇莹",
+        "title": "传统村落问答系统智能问句识别方法研究",
+        "year": 2023,
+        "institution": "渤海大学",
+        "degree": "硕士学位论文",
+        "attachment_key": "PSNPDJVV",
+        "parent_item_key": "MITZPS7U",
+        "total_pdf_pages": 47,
+        "reading_scope": "已核读PDF第7–44页对应正文（印刷页1–38），并检视PDF第45–47页参考文献区以确认正文边界；不声称逐条审计参考文献。前一轮定向阅读后，本轮补足全篇正文。重点核读第3、4、5章、结论及表1/2、图7、表7–13。正文由Zotero全文读取，关键页用图像核验。",
+        "visual_pages_checked": [
+          {
+            "pdf_page": 18,
+            "printed_page": 12
+          },
+          {
+            "pdf_page": 19,
+            "printed_page": 13
+          },
+          {
+            "pdf_page": 20,
+            "printed_page": 14
+          },
+          {
+            "pdf_page": 21,
+            "printed_page": 15
+          },
+          {
+            "pdf_page": 22,
+            "printed_page": 16
+          },
+          {
+            "pdf_page": 23,
+            "printed_page": 17
+          },
+          {
+            "pdf_page": 26,
+            "printed_page": 20
+          },
+          {
+            "pdf_page": 27,
+            "printed_page": 21
+          },
+          {
+            "pdf_page": 31,
+            "printed_page": 25
+          },
+          {
+            "pdf_page": 32,
+            "printed_page": 26
+          },
+          {
+            "pdf_page": 33,
+            "printed_page": 27
+          },
+          {
+            "pdf_page": 34,
+            "printed_page": 28
+          },
+          {
+            "pdf_page": 35,
+            "printed_page": 29
+          },
+          {
+            "pdf_page": 36,
+            "printed_page": 30
+          },
+          {
+            "pdf_page": 37,
+            "printed_page": 31
+          },
+          {
+            "pdf_page": 38,
+            "printed_page": 32
+          },
+          {
+            "pdf_page": 39,
+            "printed_page": 33
+          },
+          {
+            "pdf_page": 40,
+            "printed_page": 34
+          },
+          {
+            "pdf_page": 42,
+            "printed_page": 36
+          }
+        ],
+        "reading_note": "Zotero PDF分页图像工具报invalid trailer；遵照委托仅在内存中截取最后一个%%EOF供fitz解析/渲染，未改附件。",
+        "local_pdf": "/Users/wangyuelin/Zotero/storage/PSNPDJVV/穆潇莹 - 传统村落问答系统智能问句识别方法研究.pdf",
+        "sha256": "e6292c0aee60ace65153d85636dbc2040b7d54857f0b8c76fa8cf256c98284d6"
+      },
+      "evidence": [
+        {
+          "id": "M01",
+          "pdf_page": 10,
+          "printed_page": 4,
+          "section": "1.3研究内容",
+          "claim": "工作三项：构建辽宁传统村落知识图谱；ALBERT-EGP加领域词典/最大匹配识别实体、SimBERT作模板匹配；填充实体并查询图谱。",
+          "attribution": "作者报告",
+          "verification": "Zotero全文核读",
+          "uncertainty": "研究对象是辽宁传统村落问答。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=10"
+        },
+        {
+          "id": "M02",
+          "pdf_page": 18,
+          "printed_page": 12,
+          "section": "3.1；图6",
+          "claim": "作者称采用自底向上与自顶向下结合；经前期调研确定数据源，以程序爬取和人工采集获取资料。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未量化两种方法各自占比。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=18"
+        },
+        {
+          "id": "M03",
+          "pdf_page": 18,
+          "printed_page": 12,
+          "section": "图6构建流程",
+          "claim": "流程图包括结构化/半结构化/非结构化数据获取、本体构建、实体/关系/属性抽取、Neo4j存储和图谱应用。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "流程图不提供抽取算法或质量阈值。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=18"
+        },
+        {
+          "id": "M04",
+          "pdf_page": 19,
+          "printed_page": 13,
+          "section": "3.2本体；表1",
+          "claim": "文字称本体有11类：村落、民族、人物、传统节日、非遗项目、风景名胜、传统建筑、传统工艺、美食物产、文物古迹、其它概念。",
+          "attribution": "作者报告",
+          "verification": "全文及原页图像核验",
+          "uncertainty": "表1为部分概念属性，没有“其它概念”对应行。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=19"
+        },
+        {
+          "id": "M05",
+          "pdf_page": 19,
+          "printed_page": 13,
+          "section": "表1部分概念和属性",
+          "claim": "村落属性列ID、名称、所属地区、村落级别、属性信息、建村时间、历史；人物列ID、姓名、职业、出生/死亡日期、性别、成就。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "表题为部分概念和属性。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=19"
+        },
+        {
+          "id": "M06",
+          "pdf_page": 19,
+          "printed_page": 13,
+          "section": "表1部分概念和属性",
+          "claim": "表列民族(ID/名称)、传统节日(ID/名称/时间)、非遗项目(ID/名称/盛行时间)、风景名胜(ID/名称/位置)、传统建筑(ID/名称)。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未列类型、取值规范或空值处理。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=19"
+        },
+        {
+          "id": "M07",
+          "pdf_page": 19,
+          "printed_page": 13,
+          "section": "表1部分概念和属性",
+          "claim": "传统工艺含传统服饰、石雕技艺；特色物产含特色美食、物产；文物古迹含文物、古迹。古迹字段含位置、保护级别、建筑面积、遗址面积、建成年代等。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未说明子类到Neo4j标签的映射。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=19"
+        },
+        {
+          "id": "M08",
+          "pdf_page": 20,
+          "printed_page": 14,
+          "section": "表2部分关系",
+          "claim": "表2可见16个关系名：传承人、所属民族、特色物产、特色美食、下辖市、下辖地区、下辖乡镇、下辖村域、传统文物、现存古迹、村志族谱、主要民族、传统建筑、传统节日、历史人物、非遗项目。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "表题为部分关系，序号有空缺/错位，按名称计数。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=20"
+        },
+        {
+          "id": "M09",
+          "pdf_page": 20,
+          "printed_page": 14,
+          "section": "表2部分关系",
+          "claim": "端点示例：传承人连接石雕技艺/非遗项目与人物；所属民族连接人物-民族；下辖市为省-市，下辖地区为市-区县，下辖乡镇为区县-乡镇，下辖村域为乡镇-村落。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未说明省/市/区县等层级与最终实体标签的映射。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=20"
+        },
+        {
+          "id": "M10",
+          "pdf_page": 20,
+          "printed_page": 14,
+          "section": "表2部分关系",
+          "claim": "特色物产/特色美食是村落到对应对象；传统文物、现存古迹、村志族谱、主要民族、传统建筑、传统节日、历史人物、非遗项目均以村落为一端。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "关系方向的数据库约定未详述。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=20"
+        },
+        {
+          "id": "M11",
+          "pdf_page": 20,
+          "printed_page": 14,
+          "section": "图7本体模型",
+          "claim": "Protégé图可辨owl:Thing、村落、人物、民族、非遗项目、传统建筑/服饰/石雕技艺、文物古迹、美食物产、行政区划和“其它”等节点。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "只记录可辨节点，不重建完整公理。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=20"
+        },
+        {
+          "id": "M12",
+          "pdf_page": 21,
+          "printed_page": 15,
+          "section": "3.3数据源与知识获取",
+          "claim": "结构化数据主要来自公开数据集；非结构化来源有村落网页、新闻和县区宣传网站，爬取文本后做实体关系识别；半结构化有百科和中国传统村落数字博物馆，分析网页源码并以脚本抽取部分信息。",
+          "attribution": "作者报告",
+          "verification": "全文及原页图像核验",
+          "uncertainty": "未给完整来源清单、版本、条数、采集时间及抽取质量。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=21"
+        },
+        {
+          "id": "M13",
+          "pdf_page": 18,
+          "printed_page": 12,
+          "section": "3.1；图6",
+          "claim": "作者同时提到程序爬取和人工采集。半结构化脚本抽取、非结构化文本识别有说明，但各字段的自动/人工边界和复核方式未逐项报告。",
+          "attribution": "阅读者重建",
+          "verification": "相邻章节对读",
+          "uncertainty": "仅限论文报告范围。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=18"
+        },
+        {
+          "id": "M14",
+          "pdf_page": 21,
+          "printed_page": 15,
+          "section": "3.4存储与展示",
+          "claim": "图谱以实体-关系-实体及实体-属性-属性值表达，使用Cypher存储和查询Neo4j。",
+          "attribution": "作者报告",
+          "verification": "全文及原页图像核验",
+          "uncertainty": "未说空值、多值属性、来源断言如何存储。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=21"
+        },
+        {
+          "id": "M15",
+          "pdf_page": 22,
+          "printed_page": 16,
+          "section": "图9、图10",
+          "claim": "导入语句示例创建nation、node、products、relic1、scenery、township、address等节点；图10以波台沟村展示中心村落及相关节点。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "截图不能证明整体规模。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=22"
+        },
+        {
+          "id": "M16",
+          "pdf_page": 23,
+          "printed_page": 17,
+          "section": "3.4图11",
+          "claim": "作者称最终图谱有11类标签(address, celebrity, lettered, delicacy, nation, products, node, relic1, scenery, clothes, festival)及15种关系类型。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未报告总节点/边数，未列完整15关系清单。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=23"
+        },
+        {
+          "id": "M17",
+          "pdf_page": 23,
+          "printed_page": 17,
+          "section": "3.2-3.4 schema对照",
+          "claim": "本体/表1含传统建筑等概念，Neo4j标签有node、relic1等；正文未提供概念类至最终标签的完整映射。",
+          "attribution": "阅读者重建",
+          "verification": "跨表与图像核对",
+          "uncertainty": "不据此断言代码中不存在映射。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=23"
+        },
+        {
+          "id": "M18",
+          "pdf_page": 23,
+          "printed_page": 17,
+          "section": "3.5可视化平台",
+          "claim": "平台使用Django、Neo4j、Python和前端页面，按数据层/逻辑层/表现层组织，可做关键词节点查询和关联信息展示。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未提供部署、并发、时延或用户评估。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=23"
+        },
+        {
+          "id": "M19",
+          "pdf_page": 27,
+          "printed_page": 21,
+          "section": "4.2命名实体识别",
+          "claim": "“石佛寺二村”整体可为address，内部“石佛寺”又可为scenery；作者以此说明逐词CRF难表达重叠实体，选择GlobalPointer类跨度识别。",
+          "attribution": "作者解释",
+          "verification": "全文及原页图像核验",
+          "uncertainty": "是方法动机示例，不是测试结果。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=27"
+        },
+        {
+          "id": "M20",
+          "pdf_page": 27,
+          "printed_page": 21,
+          "section": "图16模型结构说明",
+          "claim": "实体识别流程包括ALBERT编码、EGP跨度分类、实体校正；上下文表示后预测跨度，再用词典/模糊方式校正。",
+          "attribution": "作者报告",
+          "verification": "相邻正文核对",
+          "uncertainty": "图16未在本轮逐像素核验。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=27"
+        },
+        {
+          "id": "M21",
+          "pdf_page": 31,
+          "printed_page": 25,
+          "section": "4.2.3 EGP",
+          "claim": "长度len序列有len(len+1)/2个连续候选跨度，作者用跨度首尾表示打分识别实体，意在支持嵌套跨度。",
+          "attribution": "作者解释",
+          "verification": "原页图像核验公式",
+          "uncertainty": "未独立复现模型实现。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=31"
+        },
+        {
+          "id": "M22",
+          "pdf_page": 31,
+          "printed_page": 25,
+          "section": "4.2.3 EGP",
+          "claim": "作者称GP每类约增加2Dd参数；EGP共享跨度矩阵并拼接头/尾向量，每类约增加2D参数。",
+          "attribution": "作者解释",
+          "verification": "原页图像核验公式与正文",
+          "uncertainty": "保留作者复杂度陈述。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=31"
+        },
+        {
+          "id": "M23",
+          "pdf_page": 32,
+          "printed_page": 26,
+          "section": "4.2.3 RoPE/损失",
+          "claim": "作者引入RoPE编码相对位置，给出EGP损失式；按类型m的跨度分数大于0解码为实体。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "仅核对公式文字，不复算训练代码。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=32"
+        },
+        {
+          "id": "M24",
+          "pdf_page": 33,
+          "printed_page": 27,
+          "section": "4.2.4实体校正",
+          "claim": "实体类型文字列address、celebrity、scenery、relic1、lettered和拼写delicary；图谱清单使用delicacy。",
+          "attribution": "作者报告",
+          "verification": "全文和图11对读",
+          "uncertainty": "论文内部拼写不一，原样保留。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=33"
+        },
+        {
+          "id": "M25",
+          "pdf_page": 33,
+          "printed_page": 27,
+          "section": "4.2.4实体词典",
+          "claim": "词典据称来自国务院非遗名单、浙江大学“历代文物数据集”等；示例把印纹硬陶杯/板瓦/琉璃鸱吻列为relic1，把锡伯族西迁节/夜八出/梁祝传说列为lettered。",
+          "attribution": "作者报告",
+          "verification": "全文核读",
+          "uncertainty": "未给完整词典、数量、版本、筛选/审核记录。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=33"
+        },
+        {
+          "id": "M26",
+          "pdf_page": 34,
+          "printed_page": 28,
+          "section": "表3、表4双向最大匹配",
+          "claim": "作者比较正向和反向最大匹配结果；相同长度且相同则择一，相同长度但不同则倾向单字词较少者；词数差异时按正文规则选方向。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "伪代码分支有不完整/不易判读处，不补造缺失代码。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=34"
+        },
+        {
+          "id": "M27",
+          "pdf_page": 35,
+          "printed_page": 29,
+          "section": "表5复杂度",
+          "claim": "作者报告正向/反向最大匹配复杂度为O(log(mk))。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "没有推导，仅作为作者报告，不评价正确性。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=35"
+        },
+        {
+          "id": "M28",
+          "pdf_page": 35,
+          "printed_page": 29,
+          "section": "4.2.4模糊匹配",
+          "claim": "作者使用fuzzywuzzy的fuzz、process，介绍ratio、partial、忽略词序、去重子集等相似度策略用于词典校正。",
+          "attribution": "作者报告",
+          "verification": "全文核读",
+          "uncertainty": "未报实际策略选择、阈值或候选优先级。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=35"
+        },
+        {
+          "id": "M29",
+          "pdf_page": 26,
+          "printed_page": 20,
+          "section": "图15问句识别框架",
+          "claim": "用户问题经村落领域实体识别后进入模板匹配，SimBERT和余弦相似度用于生成抽象问句/选择模板。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未见低置信度拒答或澄清路径。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=26"
+        },
+        {
+          "id": "M30",
+          "pdf_page": 36,
+          "printed_page": 30,
+          "section": "图20、表6问句抽象",
+          "claim": "抽取实体后用实体类型替换；例：“石佛村的面积有多大？”→“[address]的面积有多大？”，“努尔哈赤什么时候出生的？”→“[celebrity]什么时候出生的？”。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "多实体替换顺序未说明。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=36"
+        },
+        {
+          "id": "M31",
+          "pdf_page": 36,
+          "printed_page": 30,
+          "section": "4.3模板",
+          "claim": "作者称从互联网问卷收集200条用户问句并归纳意图、设计15种模板；200是问句数，正文未称200名受访者。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未报问卷、受访者构成或去重规则。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=36"
+        },
+        {
+          "id": "M32",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板1：辽宁省有哪些传统村落 → 某地的传统村落。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M33",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板2：石佛村的面积有多大 → 某地的面积。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M34",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板3：努尔哈赤什么时候出生的 → 某人的出生日期。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M35",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板4：赫图阿拉村的村民大都是什么民族 → 某地主要民族。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M36",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板5：波台沟村的名胜古迹有哪些 → 某地的名胜古迹。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M37",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板6：白音爱里村相关的非遗项目 → 某地的非遗项目。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M38",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板7：请推荐一下郭杖子村的旅游景点 → 某地的风景名胜。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M39",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板8：想了解一下石佛寺二村的建筑风格 → 某村的特色建筑。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M40",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板9：可以介绍一下夜八出吗 → XX 的相关介绍。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M41",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板10：尹湛纳希什么时候去世的 → 某人的死亡日期。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M42",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板11：腰站村的历史可以追溯到什么时候 → 某村的始建时间。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M43",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板12：可以介绍一下得胜村的特色美食吗 → 某地的传统美食。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M44",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板13：衙门村历史上的人物 → 某地的历史人物。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M45",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板14：三家村有什么特色的民俗吗 → 某村的民俗文化。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M46",
+          "pdf_page": 37,
+          "printed_page": 31,
+          "section": "表7问句模板",
+          "claim": "模板15：华山村有哪些特产 → 某地的特产。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "保留表内原文。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=37"
+        },
+        {
+          "id": "M47",
+          "pdf_page": 36,
+          "printed_page": 30,
+          "section": "4.3模板相似度",
+          "claim": "问句和模板经SimBERT编码后按余弦相似度排序，取最高分模板；所读正文没有阈值、margin或拒识/回退规则。",
+          "attribution": "作者报告",
+          "verification": "全文及原页图像核验",
+          "uncertainty": "最高分不等于已验证意图正确。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=36"
+        },
+        {
+          "id": "M48",
+          "pdf_page": 38,
+          "printed_page": 32,
+          "section": "表8实验环境",
+          "claim": "环境为Python 3.7、PyTorch、Transformers；OMEN Laptop、Windows 11、i7-11800H、RTX3050Ti、16GB。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "未给代码仓库或依赖锁定。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=38"
+        },
+        {
+          "id": "M49",
+          "pdf_page": 38,
+          "printed_page": 32,
+          "section": "表9数据集",
+          "claim": "NER用CLUEbenchmark子集(address、celebrity、scenery)及文物/食品/非遗领域资料和部分图谱数据；表9有“叶老桂”人物、“天津”address、“武夷山景区”scenery示例。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "样例不代表语料全貌。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=38"
+        },
+        {
+          "id": "M50",
+          "pdf_page": 39,
+          "printed_page": 33,
+          "section": "表10标注样例",
+          "claim": "作者称Python脚本标注公开文物、食物、非遗资料及部分辽宁图谱数据，合并四类领域数据与原数据；表10一条辽宁语境样例却标注“天津”address。",
+          "attribution": "阅读者重建",
+          "verification": "原页图像核验",
+          "uncertainty": "只指出可见样例疑似错标，不外推语料错误率。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=39"
+        },
+        {
+          "id": "M51",
+          "pdf_page": 39,
+          "printed_page": 33,
+          "section": "5.1.3指标",
+          "claim": "正文公式为P=TP/(TP+FP)、R=TP/(TP+FN)、F1=2PR/(P+R)。",
+          "attribution": "作者报告",
+          "verification": "全文核读",
+          "uncertainty": "未定义表格的聚合口径。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=39"
+        },
+        {
+          "id": "M52",
+          "pdf_page": 40,
+          "printed_page": 34,
+          "section": "表11 NER结果",
+          "claim": "表中P/R/F1：ALBert-CRF 76.57/80.73/78.60；ALBert-BiLSTN-CRF 76.31/75.02/75.66；Bert-EGP 86.68/85.94/85.88；ALBert-EGP 87.83/84.01/86.40；ALBert-EGP-词典校正 91.53/91.02/90.73。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "BiLSTN为表内拼写；未给micro/macro/weighted定义。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=40"
+        },
+        {
+          "id": "M53",
+          "pdf_page": 40,
+          "printed_page": 34,
+          "section": "表11口径核验",
+          "claim": "表内Bert-EGP、ALBert-EGP、词典校正三行，将显示P/R代入正文调和平均式，F1约86.31、85.88、91.27，与展示85.88、86.40、90.73不同。",
+          "attribution": "阅读者重建",
+          "verification": "按原图数值复算",
+          "uncertainty": "可能涉及未披露的指标聚合口径，本文未给足以复算的信息；普通两位小数舍入不足以解释该差值，不据此断定作者计算错误。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=40"
+        },
+        {
+          "id": "M54",
+          "pdf_page": 40,
+          "printed_page": 34,
+          "section": "表12词典纠错",
+          "claim": "示例：闾山满族剪纸从relic1改lettered；漏掉的瓦当补为relic1；“喜利妈妈信俗”边界改为“喜利妈妈”。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "是个案，不是纠错类型总体统计。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=40"
+        },
+        {
+          "id": "M55",
+          "pdf_page": 42,
+          "printed_page": 36,
+          "section": "表13 Cypher",
+          "claim": "景点问句例用MATCH (a:address)-[:风景名胜]->(b:relic1) WHERE a.name=%s RETURN b.name AS r。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "`:relic1`与标签`:scenery`的映射未解释；仅一个示例。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=42"
+        },
+        {
+          "id": "M56",
+          "pdf_page": 42,
+          "printed_page": 36,
+          "section": "表13 Cypher",
+          "claim": "特产问句例用MATCH (a:address)-[:特色物产]->(b:Products) where a.name=%s RETURN b.name AS r；大小写按表内保留。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "不证明15模板均各有独立查询。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=42"
+        },
+        {
+          "id": "M57",
+          "pdf_page": 42,
+          "printed_page": 36,
+          "section": "5.2系统实现、图21",
+          "claim": "作者描述NER及模板匹配后将实体填入Cypher，查询Neo4j并返还前端；图21为问答界面。",
+          "attribution": "作者报告",
+          "verification": "原页图像核验",
+          "uncertainty": "界面和两条查询不是端到端性能测试。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=42"
+        },
+        {
+          "id": "M58",
+          "pdf_page": 44,
+          "printed_page": 38,
+          "section": "结论",
+          "claim": "作者承认图谱不完整、复杂问题无法回答、模板问题简单；展望扩展图谱/模板并考虑用深度学习做用户问题分类。",
+          "attribution": "作者解释",
+          "verification": "全文核读",
+          "uncertainty": "是作者提出的后续工作，非已验证成果。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=44"
+        },
+        {
+          "id": "M59",
+          "pdf_page": 44,
+          "printed_page": 38,
+          "section": "结论文字",
+          "claim": "结论称“以下三个问题”但只列两项，并有“提出一种适用于，并将此模型应用到中”等未完成句。",
+          "attribution": "阅读者重建",
+          "verification": "全文核读",
+          "uncertainty": "文本缺漏不据以推测第三项。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=44"
+        },
+        {
+          "id": "M60",
+          "pdf_page": 12,
+          "printed_page": 6,
+          "section": "第2章与第3章对读",
+          "claim": "第2章泛述融合可消歧；第3章已读实现未报告稳定ID生成、别名、同名消歧、跨来源去重/冲突规则。",
+          "attribution": "阅读者重建",
+          "verification": "章节对读",
+          "uncertainty": "限论文正文报告范围，不断言代码没有实现。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=12"
+        },
+        {
+          "id": "M61",
+          "pdf_page": 11,
+          "printed_page": 5,
+          "section": "2.1知识图谱构建方法",
+          "claim": "文字说主要分三个步骤，随后列出抽取、理解、评估、总结四项。",
+          "attribution": "阅读者重建",
+          "verification": "全文核读",
+          "uncertainty": "可能是编辑笔误。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=11"
+        },
+        {
+          "id": "M62",
+          "pdf_page": 23,
+          "printed_page": 17,
+          "section": "3.4图谱规模",
+          "claim": "第3.4节报告实体标签数和关系类型数并展示图谱，但未报告节点、关系实例、属性记录总量。",
+          "attribution": "阅读者重建",
+          "verification": "该节全文和图11核对",
+          "uncertainty": "不能从截图估算总体规模。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=23"
+        },
+        {
+          "id": "M63",
+          "pdf_page": 38,
+          "printed_page": 32,
+          "section": "5.1实验复现信息",
+          "claim": "PDF38–40（印刷页32–34）所读实验范围未见样本总量、训练/验证/测试切分、标注一致性、epoch、batch size、学习率、最大长度、种子等。",
+          "attribution": "阅读者重建",
+          "verification": "第5.1节范围核读",
+          "uncertainty": "不推断未公开代码参数。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=38"
+        },
+        {
+          "id": "M64",
+          "pdf_page": 40,
+          "printed_page": 34,
+          "section": "第4.3节及第5章评估",
+          "claim": "未见模板匹配准确率、问答端到端准确率、覆盖率、拒答率或用户评估。",
+          "attribution": "阅读者重建",
+          "verification": "第4.3节与第5章核读",
+          "uncertainty": "不排除论文外日志或未提交材料有数据。",
+          "source_link": "zotero://open-pdf/library/items/PSNPDJVV?page=40"
+        }
+      ],
+      "issues": [
+        {
+          "issue": "11类概念与表1范围",
+          "detail": "表1仅列部分属性并缺“其它概念”属性行；不可当作11类完整schema。",
+          "evidence_ids": [
+            "M04",
+            "M05",
+            "M11"
+          ]
+        },
+        {
+          "issue": "16关系与15关系差异",
+          "detail": "表2有16个关系名，最终图谱报15种；未说明合并/删除/映射。",
+          "evidence_ids": [
+            "M08",
+            "M16"
+          ]
+        },
+        {
+          "issue": "融合/消歧实现未详述",
+          "detail": "第2章一般性讲实体消歧，第3章实现未交代ID、别名、去重、同名或冲突处理。",
+          "evidence_ids": [
+            "M60"
+          ]
+        },
+        {
+          "issue": "概念到数据库标签的映射",
+          "detail": "传统建筑等概念与node/relic1等最终标签之间缺少完整映射表。",
+          "evidence_ids": [
+            "M07",
+            "M16",
+            "M17"
+          ]
+        },
+        {
+          "issue": "图谱规模和来源质量统计不足",
+          "detail": "未报告节点/边/属性值数、各源条数、覆盖率或抽取质量。",
+          "evidence_ids": [
+            "M12",
+            "M16",
+            "M62"
+          ]
+        },
+        {
+          "issue": "抽取和清洗的自动化边界",
+          "detail": "说明爬取、人工采集和脚本抽取，但字段级自动/人工划分、复核及冲突流程不足。",
+          "evidence_ids": [
+            "M02",
+            "M12",
+            "M13",
+            "M60"
+          ]
+        },
+        {
+          "issue": "实验复现细节缺项",
+          "detail": "未见NER样本量、拆分、标注一致性和训练超参数。",
+          "evidence_ids": [
+            "M48",
+            "M49",
+            "M63"
+          ]
+        },
+        {
+          "issue": "疑似单例错标",
+          "detail": "表10一条辽宁语境语料标注天津；只作为可见单例疑点。",
+          "evidence_ids": [
+            "M50"
+          ]
+        },
+        {
+          "issue": "F1口径未解释",
+          "detail": "三行P/R与F1的直接调和平均值不一致；未披露聚合口径，因此不做确定性错误断言。",
+          "evidence_ids": [
+            "M51",
+            "M52",
+            "M53"
+          ]
+        },
+        {
+          "issue": "查询目标标签不统一",
+          "detail": "景点查询目标relic1，实体清单还含scenery；特产查询用Products大小写。",
+          "evidence_ids": [
+            "M16",
+            "M55",
+            "M56"
+          ]
+        },
+        {
+          "issue": "问答效果未量化",
+          "detail": "无模板匹配/端到端正确率、拒答率、覆盖率或用户评价。",
+          "evidence_ids": [
+            "M47",
+            "M55",
+            "M56",
+            "M57",
+            "M64"
+          ]
+        },
+        {
+          "issue": "原文表述/算法边界",
+          "detail": "三步骤后列四项；结论说三个问题但列两点并有未完句；O(log(mk))无推导。",
+          "evidence_ids": [
+            "M27",
+            "M59",
+            "M61"
+          ]
+        }
+      ]
+    }
+  },
+  "external_normative_checks": [
+    {
+      "url": "https://www.w3.org/TR/rdf11-concepts/#section-triples",
+      "role": "区分RDF规范与F论文原句疑点；不补写原文实现"
+    },
+    {
+      "url": "https://www.w3.org/TR/owl2-primer/",
+      "role": "类、属性、个体、数据值概念核对；不替代论文自身本体"
+    }
+  ],
+  "evidence_count": 163
+}

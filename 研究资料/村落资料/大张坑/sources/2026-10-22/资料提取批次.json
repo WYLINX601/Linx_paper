@@ -1,0 +1,314 @@
+{
+  "batch_id": "DZK-2026-10-22-01",
+  "village": "东坑镇大张坑自然村",
+  "created": "2026-10-22",
+  "legacy_index": "资料索引.json (40 existing records; preserved unchanged)",
+  "new_material_ids": [
+    "DZK-M041",
+    "DZK-M042",
+    "DZK-M043",
+    "DZK-M044",
+    "DZK-M045",
+    "DZK-M046"
+  ],
+  "existing_material_supplement": {
+    "id": "DZK-M038",
+    "title": "W04 2026调研与16间待盘活民居",
+    "local_path": "sources/2026-10-22/W04-潮新闻-2026-08-31.html",
+    "sha256": "ac5a1374315ee544f56e039c9e18ad6ff73e1b00eca7579b584e82b41d172232",
+    "note": "已有材料M038的原报道网页副本；不另计新材料ID。"
+  },
+  "records": [
+    {
+      "id": "DZK-M041",
+      "external_source_id": "W05",
+      "title": "景宁畲族自治县革命遗址保护利用规划（2024-2030）",
+      "source_type": "official_plan_pdf",
+      "source_url": "https://www.jingning.gov.cn/module/download/downfile.jsp?classid=0&filename=2d593f8e7afa4f108bef511a165af7cc.pdf",
+      "retrieval_or_related_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2734/site/attach/0/2d593f8e7afa4f108bef511a165af7cc.pdf",
+      "local_path": "sources/2026-10-22/W05-景宁革命遗址保护利用规划-2024-2030.pdf",
+      "bytes": 23878061,
+      "sha256": "8fdeeddd20cd2d91c91818f214660b2d98c5c88f7b64e629a4867d85262b46ad",
+      "downloaded_or_saved": "2026-10-22",
+      "time_basis": "2024-2030",
+      "scope_and_limitations": "县级遗址保护规划；页内有大张坑两处具名对象雷景三故居、畲族革命历史展览馆；调查基准日未知。官方原始下载URL网络请求404/超时，使用浙江政务OSS副本下载，页面内容可读。 PDF p.39展览馆图则另有表/正文面积数值差异和遗址构成字段待核；见本轮提取表。",
+      "page_images": [
+        "sources/2026-10-22/pages/W05-page-38.png",
+        "sources/2026-10-22/pages/W05-page-39.png"
+      ],
+      "method": "2026-10-22 web search/open and local download; read original PDF pages or saved HTML/metadata as applicable"
+    },
+    {
+      "id": "DZK-M042",
+      "external_source_id": "W06",
+      "title": "景宁东坑镇：做好“红绿畲”文章 绘就发展新蓝图",
+      "source_type": "local_news_html",
+      "source_url": "https://town.zjol.com.cn/czjsb/202310/t20231008_26318398.shtml",
+      "retrieval_or_related_url": "https://town.zjol.com.cn/czjsb/202310/t20231008_26318398.shtml",
+      "local_path": "sources/2026-10-22/W06-浙江在线-北溪村行政调整及大张坑-2023-10-08.html",
+      "bytes": 23835,
+      "sha256": "d89fb38d85f6eacd7fdba44495c5dac269ef6e39ed8824c6d77ddf5ae833b26f",
+      "downloaded_or_saved": "2026-10-22",
+      "time_basis": "2023-10-08",
+      "scope_and_limitations": "浙江在线刊载景宁新闻网记者/通讯员报道；报道层级以北溪行政村为主，含大张坑自然村线索；户数、人数按报道日期和范围记录，不当作现状。",
+      "page_images": [],
+      "method": "2026-10-22 web search/open and local download; read original PDF pages or saved HTML/metadata as applicable"
+    },
+    {
+      "id": "DZK-M043",
+      "external_source_id": "W07",
+      "title": "景宁畲族自治县东坑镇北溪村村庄规划（2023-2035年）",
+      "source_type": "official_plan_pdf",
+      "source_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2734/site/attach/0/c08543a16668433193b903e748d762d1.pdf",
+      "retrieval_or_related_url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2734/site/attach/0/c08543a16668433193b903e748d762d1.pdf",
+      "local_path": "sources/2026-10-22/W07-北溪村村庄规划-2023-2035.pdf",
+      "bytes": 19961956,
+      "sha256": "8b559f4fd06954bcb4e4e1b4ed838bc2e484893225d0ac84b9172638b11c1b6d",
+      "downloaded_or_saved": "2026-10-22",
+      "time_basis": "2023-2035（规划期）；文件元数据2023-11-22",
+      "scope_and_limitations": "规划范围为北溪行政村全域，规划书列4个自然村；人口为行政村户籍口径。规划意向不等于实施结果；与2023-10报道11个自然村口径不同，需核实来源时点和定义。",
+      "page_images": [],
+      "method": "2026-10-22 web search/open and local download; read original PDF pages or saved HTML/metadata as applicable"
+    },
+    {
+      "id": "DZK-M044",
+      "external_source_id": "W08",
+      "title": "景宁县入选省级传统村落集中连片保护利用试点县",
+      "source_type": "government_account_html",
+      "source_url": "https://www.thepaper.cn/newsDetail_forward_26273655",
+      "retrieval_or_related_url": "http://mp.weixin.qq.com/s?__biz=MjM5OTE4MTkwMQ==&mid=2653381456&idx=2&sn=2cec98e56e65547dc76853548898a0ff",
+      "local_path": "sources/2026-10-22/W08-景宁县省级传统村落集中连片试点-2024-02-05.html",
+      "bytes": 26392,
+      "sha256": "7308b9ac4e349dac228501d8d24da0e3c59bb079ea9e6cb07e6a158d5564b1df",
+      "downloaded_or_saved": "2026-10-22",
+      "time_basis": "2024-02-05",
+      "scope_and_limitations": "澎湃号·政务页面提及试点范围含东坑镇北溪村（大张坑村）；ThePaper页面打开超时，原公众号页打开失败；保留为政务账号范围线索，仍需省级批复/名单核实。",
+      "page_images": [],
+      "method": "2026-10-22 web search/open and local download; read original PDF pages or saved HTML/metadata as applicable",
+      "content_capture_path": "sources/2026-10-22/W08-原文入口和浏览记录.md"
+    },
+    {
+      "id": "DZK-M045",
+      "external_source_id": "W09",
+      "title": "敕木山中的畲族红寨——大张坑村社会调查",
+      "source_type": "book_catalog_lead",
+      "source_url": "https://www.megbook.com.hk/mall/detail.jsp?proID=3126858",
+      "retrieval_or_related_url": "https://www.sanmin.com.tw/product/index/006696954",
+      "local_path": "sources/2026-10-22/W09-敕木山中的畲族红寨-书目页-MegBook.html",
+      "bytes": 8269,
+      "sha256": "971995230d2dc1e3f34636513233f56a14056086ec54b713ca9daece6f99e2b6",
+      "downloaded_or_saved": "2026-10-22",
+      "time_basis": "2018（书目页标注出版日2018-02-01）；调查日期据网页摘录为2017年",
+      "scope_and_limitations": "仅书目/目录及后记摘要线索，不是原书全文；已留存检索摘录，书店页返回JS重定向壳。书中潜含大张坑第一手历史/民居/图像资料，须人工借阅或取得合法可读本。",
+      "page_images": [],
+      "method": "2026-10-22 web search/open and local download; read original PDF pages or saved HTML/metadata as applicable",
+      "content_capture_path": "sources/2026-10-22/W09-书目检索摘录-非原书全文.md"
+    },
+    {
+      "id": "DZK-M046",
+      "external_source_id": "W10",
+      "title": "乡村景观营建与文化传承研究——以景宁地区畲族传统村落为例",
+      "source_type": "book_catalog_lead",
+      "source_url": "https://thinker.cnki.net/bookstore/book/bookdetail?bookcode=9787308249782000&type=book",
+      "retrieval_or_related_url": "https://www.megbook.com.tw/mall/detail.jsp?proID=4017991",
+      "local_path": "sources/2026-10-22/W10-乡村景观营建与文化传承研究-书目页-MegBook.html",
+      "bytes": 8028,
+      "sha256": "2e9c57624eee4960bf02980b6d81a1a543f1722761f9fe409564025c2cc81a56",
+      "downloaded_or_saved": "2026-10-22",
+      "time_basis": "Zotero未录出版日期；书店目录检索标2024-08-01",
+      "scope_and_limitations": "Zotero记录T8PH8Q5D无附件；书店页仅为获取全文线索，不作大张坑专项或现状证据。",
+      "page_images": [],
+      "method": "2026-10-22 web search/open and local download; read original PDF pages or saved HTML/metadata as applicable",
+      "content_capture_path": "sources/2026-10-22/W10-Zotero书目记录及检索摘录.md"
+    }
+  ],
+  "page_images": [
+    {
+      "path": "sources/2026-10-22/pages/L12-page-039.png",
+      "bytes": 336228,
+      "sha256": "4349c27537bed11d4d2bb3b307a12a3a3becf40f2b7c0fb5132f78973314b68b",
+      "derived_from": "named PDF page rendering; not independent source"
+    },
+    {
+      "path": "sources/2026-10-22/pages/L12-page-035.png",
+      "bytes": 163830,
+      "sha256": "73448507abc2be396e12bc479422a8e1a1a8e8b152c50b0dc2aaaef7cd874d9c",
+      "derived_from": "named PDF page rendering; not independent source"
+    },
+    {
+      "path": "sources/2026-10-22/pages/L12-page-067.png",
+      "bytes": 150646,
+      "sha256": "455a99e3fd50fb177a7533a2a38e8bbd7d7a894e47b24eea42ee3f5bcaff2a0e",
+      "derived_from": "named PDF page rendering; not independent source"
+    },
+    {
+      "path": "sources/2026-10-22/pages/L14-page-048.png",
+      "bytes": 412083,
+      "sha256": "a92e4b0ee426f3c905c9bfa557b92c0e01c4abf76af0e3182ad69a2f66d3e250",
+      "derived_from": "named PDF page rendering; not independent source"
+    },
+    {
+      "path": "sources/2026-10-22/pages/L22-page-092.png",
+      "bytes": 652567,
+      "sha256": "17dfa78b16d2188c6464b8bb50740306678cab3c7c22ebc6a22b1b98fcbd9b66",
+      "derived_from": "named PDF page rendering; not independent source"
+    },
+    {
+      "path": "sources/2026-10-22/pages/W05-page-38.png",
+      "bytes": 2092451,
+      "sha256": "fb852aa54af545092abef9aff88c913bba204c6433e92ae2303ad29d72f6e853",
+      "derived_from": "named PDF page rendering; not independent source"
+    },
+    {
+      "path": "sources/2026-10-22/pages/W05-page-39.png",
+      "bytes": 2143533,
+      "sha256": "22f48a002b1b09b82389527acc7416b1c0cefc8b60ea18a6e9fc9a2a76db386f",
+      "derived_from": "named PDF page rendering; not independent source"
+    }
+  ],
+  "zotero_search_scope": {
+    "source": "../../../共享来源/2026-10-22/Zotero-景宁检索结果.md",
+    "date": "2026-10-22",
+    "query": "景宁, limit 100; direct queries 大张坑/北溪村/雷景三故居; fulltext reread for L08/ZWDJJE99, L12/3IJX2PUQ; item T8PH8Q5D metadata and attachment lookup",
+    "caveat": "semantic search unavailable because optional dependency is not installed; T8 book has no attachment; prior Zotero page parser errors recorded, local PDF text and rendered page inspection used as fallback"
+  },
+  "original_pdfs_read": [
+    {
+      "id": "L09/ETTYATRB",
+      "title": "浙江景宁传统畲族民居及其保护与更新——以大张坑村为中心",
+      "pdf_pages": [
+        16,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        48,
+        49,
+        50
+      ],
+      "printed_pages": [
+        8,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        40,
+        41,
+        42
+      ],
+      "submission_date": "2015-03-25 (cover); Zotero date 2016-01-16",
+      "survey_date": "not specified",
+      "page_specific_notes": [
+        "PDF p.16/printed p.8: 2013 Dongkeng Township statistics describe the then Dazhangkeng administrative village (not 2023 Beixi administrative village): 67 households and 211 She people; natural villages Dazhangkeng/Lingkou/Caoyutang have 59/6/2 households. The text says one She household is in Lingkou and the remaining 58 in Dazhangkeng. It also states the village merged into Dongkeng Town in 1992 and formerly belonged to Beixi Township; footnote 3 defines unqualified 'Dazhangkeng' in the thesis as Dazhangkeng natural village.",
+        "PDF p.16/printed p.8 location description: southeast of county seat, south foothills of Chimu Mountain, about 23 km from county seat, 18 km from town government, 4 km from Provincial Highway 54, mountain/semi-mountain area, stated elevation 650-800 m. Preserve separately from L12 PDF p.67 author-drawn 923 m value; methods/bases unknown.",
+        "PDF p.49/printed p.41: lists five villagers and says '五幢民居'; preserve as five dwellings, not five households. Exact one-to-one resident/building correspondence and five current locations are not established."
+      ],
+      "checked_page_images": [
+        "assets/pages/L09-pdf016.png",
+        "assets/pages/L09-pdf049.png"
+      ]
+    },
+    {
+      "id": "L08/ZWDJJE99",
+      "title": "景宁畲族传统民居营造技艺研究",
+      "pdf_pages": [
+        27,
+        113
+      ],
+      "printed_pages": [
+        16,
+        102
+      ],
+      "submission_date": "2022-05-20; Zotero date 2023-01-16",
+      "search_result": "local full-text search found only p27 village selection table and p113 Appendix A conservation description mentioning Dazhangkeng; no village-specific measured case details located"
+    },
+    {
+      "id": "L12/3IJX2PUQ",
+      "title": "聚落“双修”视角下景宁畲族传统村落公共文化空间重构研究",
+      "pdf_pages": [
+        23,
+        35,
+        39,
+        41,
+        44,
+        67
+      ],
+      "printed_pages": [
+        9,
+        21,
+        25,
+        27,
+        30,
+        53
+      ],
+      "submission_date": "2024-06 (front matter); Zotero date 2025-08-16",
+      "search_result": "p35 is a continuation of Table 1.4 (not Table 1.3): Dazhangkeng values 200 She population and 240 total population, not households; no date/source basis stated. p39 lists four in-depth villages (Dongnong, Zhouhu, Gangshi, Taoyuan), while p44 methods names three (Dongnong, Zhouhu, Gangshi), preserving the paper's internal scope discrepancy; Dazhangkeng is not among either deep-case list"
+    },
+    {
+      "id": "L14/AAPV5P6L",
+      "title": "基于民族特性的新畲寮风格民居设计研究——以景宁东弄村为例",
+      "pdf_pages": [
+        48,
+        72
+      ],
+      "printed_pages": [
+        33,
+        57
+      ],
+      "submission_date": "2022; Zotero date 2023-02-16",
+      "search_result": "p72 Fig 5-23 is one unnamed Dazhangkeng courtyard-wall photo by author; adjacent Fig 5-24 is from Baidu and not Dazhangkeng"
+    },
+    {
+      "id": "L22/VSES7L3M",
+      "title": "浙江景宁畲族自治县县城建筑有机更新研究",
+      "pdf_pages": [
+        35,
+        36,
+        37,
+        92
+      ],
+      "printed_pages": [
+        26,
+        27,
+        28,
+        83
+      ],
+      "submission_date": "2012; Zotero date 2012-06-16",
+      "search_result": "p37 Fig 3-16 Dazhangkeng survey group; p92 village craft discussion/photos; no building IDs or capture date"
+    }
+  ],
+  "tool_errors_and_fallbacks": [
+    "Zotero read_pdf_pages returned the same invalid PDF trailer parser error on L09/L08/L12/L14/L22; local attachments were read with bundled pypdf and selected pages rendered, without altering source files.",
+    "Zotero semantic search optional module unavailable; no installation attempted.",
+    "Official Jingning download URL for W05 returned 404/timeout; same PDF was retrieved from Zhejiang government OSS URL recorded above.",
+    "ThePaper W08 direct page timed out and original WeChat link could not be opened; saved HTML copy and search record retained; verify underlying provincial approval manually.",
+    "Local three-dimensional file-entry audit is at ../共享来源/2026-10-22/本机文件入口排查.md; only standard non-hidden Desktop/Documents/Downloads locations were searched."
+  ],
+  "counts_note": "Source/material records M041-M046=6; W04 is only a raw-copy supplement under existing M038. Page images are derivative page references, not additional sources, structures, houses, or measurements.",
+  "shared_references": [
+    {
+      "title": "景政办发2023-48号 名镇志名村志实施方案",
+      "path": "../../../共享来源/2026-10-22/景政办发2023-48号-名镇志名村志实施方案.pdf",
+      "page": "7",
+      "use": "东坑镇纳入首批镇线索；5个首批村不含大张坑/北溪；计划不等于已出版",
+      "maintainer": "parent task"
+    },
+    {
+      "title": "本机文件入口排查",
+      "path": "../../../共享来源/2026-10-22/本机文件入口排查.md",
+      "use": "本轮三维/测绘路径边界和待提供入口"
+    }
+  ]
+}

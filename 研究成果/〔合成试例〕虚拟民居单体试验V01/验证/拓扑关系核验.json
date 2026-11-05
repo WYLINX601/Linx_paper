@@ -1,0 +1,836 @@
+{
+  "date": "2026-10-26",
+  "status": "local_geometry_verified_database_status_separate",
+  "baselineSha256": "03aef114820ba2b9b998e8d36f5e226aad4d45d8e5a2051e1876f6d7bc9e7c05",
+  "scriptSha256": "1cd4eaa824ef2a602695f764fe75f278f99be28c0248e064193148298738baaa",
+  "wallRuleScriptSha256": "51ad62a6bd011b8f8346a31fb6e4e2a685803ce50626a8e89b7deef9fc61d78a",
+  "wallPairs": [
+    {
+      "source": "W01",
+      "target": "W02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W01",
+      "target": "W03",
+      "kind": "point",
+      "atSource": "ATEND",
+      "atTarget": "ATSTART",
+      "junctionXY": [
+        0.0,
+        7.2
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—端转角"
+    },
+    {
+      "source": "W01",
+      "target": "W04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W01",
+      "target": "W05",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W01",
+      "target": "W06",
+      "kind": "point",
+      "atSource": "ATPATH",
+      "atTarget": "ATSTART",
+      "junctionXY": [
+        0.0,
+        1.5
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—中段交接"
+    },
+    {
+      "source": "W01",
+      "target": "W07",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W01",
+      "target": "W08",
+      "kind": "point",
+      "atSource": "ATSTART",
+      "atTarget": "ATEND",
+      "junctionXY": [
+        0.0,
+        0.0
+      ],
+      "axisAngleDeg": 0.0,
+      "derivedForm": "端—端共线延续"
+    },
+    {
+      "source": "W01",
+      "target": "W09",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W01",
+      "target": "W10",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "W03",
+      "kind": "point",
+      "atSource": "ATEND",
+      "atTarget": "ATEND",
+      "junctionXY": [
+        9.6,
+        7.2
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—端转角"
+    },
+    {
+      "source": "W02",
+      "target": "W04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "W05",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "W06",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "W07",
+      "kind": "point",
+      "atSource": "ATPATH",
+      "atTarget": "ATEND",
+      "junctionXY": [
+        9.6,
+        1.5
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—中段交接"
+    },
+    {
+      "source": "W02",
+      "target": "W08",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "W09",
+      "kind": "point",
+      "atSource": "ATSTART",
+      "atTarget": "ATEND",
+      "junctionXY": [
+        9.6,
+        0.0
+      ],
+      "axisAngleDeg": 0.0,
+      "derivedForm": "端—端共线延续"
+    },
+    {
+      "source": "W02",
+      "target": "W10",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W03",
+      "target": "W04",
+      "kind": "point",
+      "atSource": "ATPATH",
+      "atTarget": "ATEND",
+      "junctionXY": [
+        3.2,
+        7.2
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—中段交接"
+    },
+    {
+      "source": "W03",
+      "target": "W05",
+      "kind": "point",
+      "atSource": "ATPATH",
+      "atTarget": "ATEND",
+      "junctionXY": [
+        6.4,
+        7.2
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—中段交接"
+    },
+    {
+      "source": "W03",
+      "target": "W06",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W03",
+      "target": "W07",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W03",
+      "target": "W08",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W03",
+      "target": "W09",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W03",
+      "target": "W10",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "W05",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "W06",
+      "kind": "point",
+      "atSource": "ATSTART",
+      "atTarget": "ATEND",
+      "junctionXY": [
+        3.2,
+        1.5
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—端转角"
+    },
+    {
+      "source": "W04",
+      "target": "W07",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "W08",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "W09",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "W10",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W05",
+      "target": "W06",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W05",
+      "target": "W07",
+      "kind": "point",
+      "atSource": "ATSTART",
+      "atTarget": "ATSTART",
+      "junctionXY": [
+        6.4,
+        1.5
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—端转角"
+    },
+    {
+      "source": "W05",
+      "target": "W08",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W05",
+      "target": "W09",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W05",
+      "target": "W10",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W06",
+      "target": "W07",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W06",
+      "target": "W08",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W06",
+      "target": "W09",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W06",
+      "target": "W10",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W07",
+      "target": "W08",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W07",
+      "target": "W09",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W07",
+      "target": "W10",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W08",
+      "target": "W09",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W08",
+      "target": "W10",
+      "kind": "point",
+      "atSource": "ATSTART",
+      "atTarget": "ATSTART",
+      "junctionXY": [
+        0.0,
+        -4.8
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—端转角"
+    },
+    {
+      "source": "W09",
+      "target": "W10",
+      "kind": "point",
+      "atSource": "ATSTART",
+      "atTarget": "ATEND",
+      "junctionXY": [
+        9.6,
+        -4.8
+      ],
+      "axisAngleDeg": 90.0,
+      "derivedForm": "端—端转角"
+    }
+  ],
+  "wallColumnPairs": [
+    {
+      "source": "W01",
+      "target": "C01",
+      "kind": "intersection",
+      "intersectionKind": "interior_overlap",
+      "atWall": "ATSTART",
+      "commonZ": [
+        0.0,
+        3.6
+      ]
+    },
+    {
+      "source": "W01",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W01",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W01",
+      "target": "C04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "C01",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W02",
+      "target": "C04",
+      "kind": "intersection",
+      "intersectionKind": "interior_overlap",
+      "atWall": "ATSTART",
+      "commonZ": [
+        0.0,
+        3.6
+      ]
+    },
+    {
+      "source": "W03",
+      "target": "C01",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W03",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W03",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W03",
+      "target": "C04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "C01",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W04",
+      "target": "C04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W05",
+      "target": "C01",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W05",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W05",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W05",
+      "target": "C04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W06",
+      "target": "C01",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W06",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W06",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W06",
+      "target": "C04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W07",
+      "target": "C01",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W07",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W07",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W07",
+      "target": "C04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W08",
+      "target": "C01",
+      "kind": "intersection",
+      "intersectionKind": "interior_overlap",
+      "atWall": "ATEND",
+      "commonZ": [
+        0.0,
+        1.6
+      ]
+    },
+    {
+      "source": "W08",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W08",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W08",
+      "target": "C04",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W09",
+      "target": "C01",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W09",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W09",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W09",
+      "target": "C04",
+      "kind": "intersection",
+      "intersectionKind": "interior_overlap",
+      "atWall": "ATEND",
+      "commonZ": [
+        0.0,
+        1.6
+      ]
+    },
+    {
+      "source": "W10",
+      "target": "C01",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W10",
+      "target": "C02",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W10",
+      "target": "C03",
+      "kind": "disjoint"
+    },
+    {
+      "source": "W10",
+      "target": "C04",
+      "kind": "disjoint"
+    }
+  ],
+  "roofPair": {
+    "kind": "shared_curve",
+    "boundaryStart": [
+      -0.6,
+      3.6,
+      5.6
+    ],
+    "boundaryEnd": [
+      10.2,
+      3.6,
+      5.6
+    ],
+    "boundaryRole": "ridge"
+  },
+  "boundaryChecks": [
+    {
+      "name": "直角端接",
+      "passed": true,
+      "result": {
+        "kind": "point",
+        "atSource": "ATEND",
+        "atTarget": "ATSTART",
+        "junctionXY": [
+          1.0,
+          0.0
+        ],
+        "axisAngleDeg": 90.0,
+        "derivedForm": "端—端转角"
+      }
+    },
+    {
+      "name": "T形端中接",
+      "passed": true,
+      "result": {
+        "kind": "point",
+        "atSource": "ATPATH",
+        "atTarget": "ATSTART",
+        "junctionXY": [
+          1.0,
+          0.0
+        ],
+        "axisAngleDeg": 90.0,
+        "derivedForm": "端—中段交接"
+      }
+    },
+    {
+      "name": "X形中中接",
+      "passed": true,
+      "result": {
+        "kind": "point",
+        "atSource": "ATPATH",
+        "atTarget": "ATPATH",
+        "junctionXY": [
+          1.0,
+          0.0
+        ],
+        "axisAngleDeg": 90.0,
+        "derivedForm": "中段—中段交叉"
+      }
+    },
+    {
+      "name": "共线端接",
+      "passed": true,
+      "result": {
+        "kind": "point",
+        "atSource": "ATEND",
+        "atTarget": "ATSTART",
+        "junctionXY": [
+          1.0,
+          0.0
+        ],
+        "axisAngleDeg": 0.0,
+        "derivedForm": "端—端共线延续"
+      }
+    },
+    {
+      "name": "斜向端接",
+      "passed": true,
+      "result": {
+        "kind": "point",
+        "atSource": "ATEND",
+        "atTarget": "ATSTART",
+        "junctionXY": [
+          1.0,
+          0.0
+        ],
+        "axisAngleDeg": 45.0,
+        "derivedForm": "端—端转角"
+      }
+    },
+    {
+      "name": "平行分离",
+      "passed": true,
+      "result": {
+        "kind": "disjoint"
+      }
+    },
+    {
+      "name": "同线分离",
+      "passed": true,
+      "result": {
+        "kind": "disjoint"
+      }
+    },
+    {
+      "name": "极小缝仍不吸附",
+      "passed": true,
+      "result": {
+        "kind": "disjoint"
+      }
+    },
+    {
+      "name": "共线重叠待审",
+      "passed": true,
+      "result": {
+        "kind": "overlap_review"
+      }
+    },
+    {
+      "name": "同轴重复待审",
+      "passed": true,
+      "result": {
+        "kind": "overlap_review"
+      }
+    },
+    {
+      "name": "零长度无效",
+      "passed": true,
+      "result": {
+        "kind": "invalid_zero_length"
+      }
+    },
+    {
+      "name": "异层投影不建边",
+      "passed": true,
+      "result": {
+        "kind": "different_levels_projection_only",
+        "atSource": "ATPATH",
+        "atTarget": "ATPATH",
+        "junctionXY": [
+          1.0,
+          0.0
+        ],
+        "axisAngleDeg": 90.0,
+        "derivedForm": "中段—中段交叉"
+      }
+    },
+    {
+      "name": "层位未知待审",
+      "passed": true,
+      "result": {
+        "kind": "level_unknown_review",
+        "atSource": "ATPATH",
+        "atTarget": "ATPATH",
+        "junctionXY": [
+          1.0,
+          0.0
+        ],
+        "axisAngleDeg": 90.0,
+        "derivedForm": "中段—中段交叉"
+      }
+    },
+    {
+      "name": "交换两墙后部位属性同步互换",
+      "passed": true
+    },
+    {
+      "name": "柱包络内部重叠",
+      "passed": true
+    },
+    {
+      "name": "墙中段侧向相切",
+      "passed": true
+    },
+    {
+      "name": "墙端外侧相切",
+      "passed": true
+    },
+    {
+      "name": "微缝不吸附",
+      "passed": true
+    },
+    {
+      "name": "Z分离不误接",
+      "passed": true
+    },
+    {
+      "name": "Z端面相切",
+      "passed": true
+    },
+    {
+      "name": "截面包含仍算内部相交",
+      "passed": true
+    },
+    {
+      "name": "墙柱层位缺失保留待审",
+      "passed": true
+    },
+    {
+      "name": "墙端顺序互换部位同步",
+      "passed": true
+    },
+    {
+      "name": "三维共边及正脊",
+      "passed": true
+    },
+    {
+      "name": "交换坡面及环方向",
+      "passed": true
+    },
+    {
+      "name": "投影重合但Z不同不共边",
+      "passed": true
+    },
+    {
+      "name": "单点不当共边",
+      "passed": true
+    },
+    {
+      "name": "重复坡面待审",
+      "passed": true
+    },
+    {
+      "name": "天沟分类",
+      "passed": true
+    },
+    {
+      "name": "自交四边形拒绝",
+      "passed": true
+    },
+    {
+      "name": "内部投影重叠待审",
+      "passed": true
+    },
+    {
+      "name": "共面共边不擅称折线",
+      "passed": true
+    }
+  ],
+  "newNodeIds": [
+    "RS01",
+    "RS02"
+  ],
+  "addedRelationshipIds": [
+    "WJ-W01-W03",
+    "WJ-W01-W06",
+    "WJ-W01-W08",
+    "WJ-W02-W03",
+    "WJ-W02-W07",
+    "WJ-W02-W09",
+    "WJ-W03-W04",
+    "WJ-W03-W05",
+    "WJ-W04-W06",
+    "WJ-W05-W07",
+    "WJ-W08-W10",
+    "WJ-W09-W10",
+    "WC-W01-C01",
+    "WC-W02-C04",
+    "WC-W08-C01",
+    "WC-W09-C04",
+    "RS-PART-RS01",
+    "RS-DOC-EV01-RS01",
+    "RS-DOC-EV07-RS01",
+    "RS-DOC-EV08-RS01",
+    "RS-PART-RS02",
+    "RS-DOC-EV01-RS02",
+    "RS-DOC-EV07-RS02",
+    "RS-DOC-EV08-RS02",
+    "RS-RS01-RS02"
+  ],
+  "counts": {
+    "wallPairs": 45,
+    "wallJoins": 12,
+    "wallColumnPairs": 40,
+    "envelopeIntersections": 4,
+    "sharedBoundaries": 1,
+    "newRelationships": 25
+  },
+  "scope": "single synthetic case; exact scoped geometry, no survey precision / physical connection / structural inference claims",
+  "sourceModelSha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67"
+}

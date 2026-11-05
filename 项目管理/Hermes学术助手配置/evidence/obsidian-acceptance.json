@@ -1,0 +1,12 @@
+{
+  "time": "2026-10-26T14:20:44.815904+00:00",
+  "service": "obsidian",
+  "create": "{\n  \"message\": \"OK\",\n  \"version\": \"946a84\"\n}",
+  "patch": "{\n  \"message\": \"OK\",\n  \"version\": \"6e060f\"\n}",
+  "stale_write_rejected": true,
+  "search": "[\n  {\n    \"filename\": \"outputs/academic-acceptance-temp/test-20261026.md\",\n    \"score\": -2.0338,\n    \"matches\": [\n      {\n        \"match\": {\n          \"start\": 2,\n          \"end\": 10,\n          \"source\": \"content\"\n        },\n        \"context\": \"# Academic API acceptance\\n\\n## Result\\n\\nAfter — 临时验收通过\\n\"\n      },\n      {\n        \"match\": {\n          \"start\": 11,\n          \"end\": 14,\n          \"source\": \"content\"\n        },\n        \"context\": \"# Academic API acceptance\\n\\n## Result\\n\\nAfter — 临时验收通过\\n\"\n      },\n      {\n        \"match\": {\n          \"start\": 15,\n          \"end\": 25,\n          \"source\": \"content\"\n        },\n        \"context\": \"# Academic API acceptance\\n\\n## Result\\n\\nAfter — 临时验收通过\\n\"\n      }\n    ],\n    \"totalMatches\": 3\n  }\n]",
+  "open_and_active": true,
+  "commands_count": 1,
+  "cleanup": true,
+  "restored_active": "outputs/风貌分析目标文献对照/风貌分析目标对照.smm.md"
+}

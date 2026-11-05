@@ -1,0 +1,68 @@
+{
+  "verified_at_utc": "2026-10-26T14:48:57.993671+00:00",
+  "profile": "academic",
+  "display_name": "学术助手",
+  "model": {
+    "default": "gpt-5.6-luna",
+    "provider": "openai-codex"
+  },
+  "mcp_servers": [
+    "zotero",
+    "neo4j-paper",
+    "obsidian"
+  ],
+  "toolsets": {
+    "cli": [
+      "terminal",
+      "file",
+      "web",
+      "browser",
+      "vision",
+      "skills",
+      "todo",
+      "memory",
+      "session_search"
+    ],
+    "api_server": [
+      "terminal",
+      "file",
+      "web",
+      "browser",
+      "vision",
+      "skills",
+      "todo",
+      "memory",
+      "session_search"
+    ],
+    "local": [
+      "terminal",
+      "file",
+      "web",
+      "browser",
+      "vision",
+      "skills",
+      "todo",
+      "memory",
+      "session_search"
+    ],
+    "acp": [
+      "terminal",
+      "file",
+      "web",
+      "browser",
+      "vision",
+      "skills",
+      "todo",
+      "memory",
+      "session_search"
+    ]
+  },
+  "automatic_skill_review": false,
+  "lazy_mcp": true,
+  "config_sha256": "1d9b83e856410f5ad415ae7030c39666f29620cf5f4e9373a802305150ec8a93",
+  "desktop_context_session": "20261026_221913_748fc2",
+  "desktop_zotero_session": "20261026_224035_d02db6",
+  "desktop_zotero_verified": "7KCJR9EB PDF page 1, title and PyMuPDF fallback marker returned",
+  "desktop_web_verified": "BOT official website search and browser title",
+  "desktop_skill_count": 33
+}

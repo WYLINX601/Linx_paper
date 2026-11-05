@@ -1,0 +1,10 @@
+{
+  "artifact_role": "transferred_copy",
+  "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+  "source_path": "项目管理/图谱执行/统一原型/tools/compile_model.py",
+  "sha256": "c746341ff2dcb861fd2d57c6f69635e626ccd686a6c8c3d98b64cd2887727ce8",
+  "size_bytes": 16762,
+  "source_modified_at_utc": "2026-10-30T13:15:27Z",
+  "downloaded_at_utc": "2026-10-30T23:06:26Z",
+  "local_copy_path": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/originals/tools/compile_model.py"
+}

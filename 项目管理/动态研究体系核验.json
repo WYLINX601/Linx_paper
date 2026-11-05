@@ -1,0 +1,1079 @@
+{
+  "stats": {
+    "chapters": 6,
+    "sections": 32,
+    "adoptions": 54,
+    "topics": 8,
+    "roles": 6,
+    "route_nodes": 8,
+    "artifact_packages": 20,
+    "artifact_relations": 59
+  },
+  "published_files_verified": 54,
+  "protected_files_unchanged": 529,
+  "tests": {
+    "dynamic_behavior": 16,
+    "health_checker": 20
+  },
+  "mermaid": {
+    "version_tested": "11.12.0",
+    "rendered": 8,
+    "render_errors": 0,
+    "viewport_width": 1280,
+    "content_width": 1265,
+    "visual_spot_checks": [
+      "outline",
+      "research_path",
+      "role_index"
+    ],
+    "limitation": "browser-rendered proof, not Obsidian-native pixel acceptance"
+  },
+  "new_structural_errors": 0,
+  "preexisting_structural_errors": [
+    {
+      "code": "LINK_MISSING",
+      "path": "文献库/专题精读/吴莹2018论文精读/吴莹2018-类型学与语义网络.smm.md",
+      "target": "outputs/知识图谱建模基准/本研究优化基准.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "文献库/专题精读/吴莹2018论文精读/吴莹2018-类型学与语义网络.smm.md",
+      "target": "论文研究/主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/传统民居类型与形态拆解/独立验收.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/传统民居类型与形态拆解/证据与阅读记录.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/01-共性分析框架（讨论稿）.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/02-跨论文比较.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/11-徽州空间形式.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/12-闽南二维空间量化.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/13-晋东南院落形态.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/14-侗族民居形态.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/15-清水江自组织演化.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/16-土坑村类型分析.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/17-徽州类型学思想.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/18-台州民居类型.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/19-景宁木构侧样.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/20-景宁营造技艺.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/21-形态类型学理论.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/22-后溪村形态类型保护.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    }
+  ],
+  "new_freshness_notifications": [
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/研究对象与样本边界/主题研究.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    }
+  ],
+  "baseline_refreshed": false,
+  "adoption_records_preserved": 54,
+  "adoption_export_equal": true,
+  "health_scan_at": "2026-10-29T02:29:52.760479+00:00",
+  "health_counts": {
+    "error": 18,
+    "info": 17,
+    "review": 157
+  },
+  "publication_ledger": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "0df33685b0e59098d87e7fa84440484f02730d767b0012748461796c1dc747f4",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:35Z",
+        "original_path": "AGENTS.md",
+        "canonical_path": "AGENTS.md",
+        "backup_path": ".hermes-academic-backups/20261029T022735Z_f8123f8234cc421282989683624ccc2b.bak",
+        "original_sha256": "8eaaa64553eba2ee602407d707020d37d9e63f6ba18130f8d8c2c2147cf129dd",
+        "original_size_bytes": 4602,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "0df33685b0e59098d87e7fa84440484f02730d767b0012748461796c1dc747f4",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "README.md",
+      "sha256": "676751ee840e8ede22f958308420a7905244e820375140ce3d71c2be33c8a8ed",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:35Z",
+        "original_path": "README.md",
+        "canonical_path": "README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022735Z_95be47a5934440e2b2a1d2d09b5925c6.bak",
+        "original_sha256": "595ec1c2f4924195651bd04440b18178f6d0d37bf4f0a61c276257122a8922db",
+        "original_size_bytes": 1259,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "676751ee840e8ede22f958308420a7905244e820375140ce3d71c2be33c8a8ed",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "c49c6cd7ae8c82f73bca34d1328bad11582ed10807a322b52c18a3731708ad93",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:35Z",
+        "original_path": "context/PROJECT_CONTEXT.md",
+        "canonical_path": "context/PROJECT_CONTEXT.md",
+        "backup_path": ".hermes-academic-backups/20261029T022735Z_85b8398dd3c04a149568bf48e0f54334.bak",
+        "original_sha256": "fb0fd18c8b4436a01e4d6948ed84055a23dbce149cfe9ef678fb8bf212bcd3c3",
+        "original_size_bytes": 31344,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "c49c6cd7ae8c82f73bca34d1328bad11582ed10807a322b52c18a3731708ad93",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "论文章节/README.md",
+      "sha256": "9ca62bc592ab4a2132586e4736a3b48274f90a122811d8227f85a2c16e668f43",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:35Z",
+        "original_path": "论文章节/README.md",
+        "canonical_path": "论文章节/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022735Z_c90da169fa8c440a806698cb16333398.bak",
+        "original_sha256": "fe1643980b3c97f549b1c62c001141c9715ceebe96b55050f4106dac2ead25c1",
+        "original_size_bytes": 3801,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "9ca62bc592ab4a2132586e4736a3b48274f90a122811d8227f85a2c16e668f43",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/README.md",
+      "sha256": "a10bc2840375f216d2917e5f0ec4b75399c852ae8401044eab918004feec21bb",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:35Z",
+        "original_path": "主题研究/README.md",
+        "canonical_path": "主题研究/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022735Z_c4f1c5d2d0fc47d28daaaf9059db42bf.bak",
+        "original_sha256": "b01a45c76179a53840c8a7d457d650eca85c974823591fa21ad32c053aedc7cb",
+        "original_size_bytes": 3178,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "a10bc2840375f216d2917e5f0ec4b75399c852ae8401044eab918004feec21bb",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/README.md",
+      "sha256": "697188f179cae04489e08244f560fcb83ebdbe461ae0177dc82d6c94789e86bf",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:36Z",
+        "original_path": "研究成果/README.md",
+        "canonical_path": "研究成果/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022736Z_2c65928e09f7424584472f12963074c0.bak",
+        "original_sha256": "d5bc4f7a2fa5e9750a1ad944fc8d60af8557ad359706eb3401df1ae72a58af0c",
+        "original_size_bytes": 9542,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "697188f179cae04489e08244f560fcb83ebdbe461ae0177dc82d6c94789e86bf",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "项目管理/README.md",
+      "sha256": "88c7a5a2df14357761d0333cd624e20fc5414540e1c95b66faef808a939ae97c",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:36Z",
+        "original_path": "项目管理/README.md",
+        "canonical_path": "项目管理/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022736Z_108391bf9ae84a48bf3095fa770a9b5e.bak",
+        "original_sha256": "dde3b9dd92583011371b96a3a028680c3d0083ee082c246ea3005af2c5216db6",
+        "original_size_bytes": 781,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "88c7a5a2df14357761d0333cd624e20fc5414540e1c95b66faef808a939ae97c",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "项目管理/维护规则.md",
+      "sha256": "88664a06a771ef02e9010fcdb966508b82dc329e4605bc51f2148d11cbb1f510",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:36Z",
+        "original_path": "项目管理/维护规则.md",
+        "canonical_path": "项目管理/维护规则.md",
+        "backup_path": ".hermes-academic-backups/20261029T022736Z_10059efdfca8439aaed430d908547f56.bak",
+        "original_sha256": "3787923be9cc79082fec9acb602a494ecd42122b3d1cc763ea33ab1fedac4129",
+        "original_size_bytes": 3471,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "88664a06a771ef02e9010fcdb966508b82dc329e4605bc51f2148d11cbb1f510",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "项目管理/主题成果关系维护.md",
+      "sha256": "2c871d187a0e156f87e210cb83afef2bf155a9dc303d49d0cdc8e6bf8f625404",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:36Z",
+        "original_path": "项目管理/主题成果关系维护.md",
+        "canonical_path": "项目管理/主题成果关系维护.md",
+        "backup_path": ".hermes-academic-backups/20261029T022736Z_46ce92eae473488195148d7d0d0082ce.bak",
+        "original_sha256": "4bbc29bdae462bf024713ef08856f63cedd542c944805bef369594e5e5b8562b",
+        "original_size_bytes": 2283,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "2c871d187a0e156f87e210cb83afef2bf155a9dc303d49d0cdc8e6bf8f625404",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "项目管理/健康检查/topic_artifact_views.py",
+      "sha256": "87d4fb8689c37f7362c1629a5d878c5541649f61c3114d7c76cfbce1d31508a0",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:36Z",
+        "original_path": "项目管理/健康检查/topic_artifact_views.py",
+        "canonical_path": "项目管理/健康检查/topic_artifact_views.py",
+        "backup_path": ".hermes-academic-backups/20261029T022736Z_296a327b75e142d383f8c75f62330f9f.bak",
+        "original_sha256": "af10bc44ac09bae3c15dfa9c37ecb76f82be99f0964fb2436671c7b1092f6349",
+        "original_size_bytes": 6968,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "87d4fb8689c37f7362c1629a5d878c5541649f61c3114d7c76cfbce1d31508a0",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "项目管理/健康检查/wiki_health.py",
+      "sha256": "72378f549bf16eafc8d880443d55f5d4d57528c09b1173148ce8718f8e1927e2",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:37Z",
+        "original_path": "项目管理/健康检查/wiki_health.py",
+        "canonical_path": "项目管理/健康检查/wiki_health.py",
+        "backup_path": ".hermes-academic-backups/20261029T022737Z_20c16ad1d2ab423293e2ce15f3fbe774.bak",
+        "original_sha256": "24fd172f7806a50b6619f5719a7826ee5121413d84f810cc800720c867fb7b9e",
+        "original_size_bytes": 12715,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "72378f549bf16eafc8d880443d55f5d4d57528c09b1173148ce8718f8e1927e2",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "项目管理/章节主题映射.md",
+      "sha256": "f99401c34c2db7df83e8ad8d4f54ac42f60d78d870b92c64d893974c773dea8d",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:37Z",
+        "original_path": "项目管理/章节主题映射.md",
+        "canonical_path": "项目管理/章节主题映射.md",
+        "backup_path": ".hermes-academic-backups/20261029T022737Z_99995749a3c34526a3dcca03cf7a9d4b.bak",
+        "original_sha256": "788987be0f2a56f13aef6aa07a3acec4a1623424d30eb62609213bb43d87d02e",
+        "original_size_bytes": 9757,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "f99401c34c2db7df83e8ad8d4f54ac42f60d78d870b92c64d893974c773dea8d",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "项目管理/章节采用记录.json",
+      "sha256": "693776fb9a7a59d45b7c79d627899026645cb12e947a8a00de15e2e719a277a6",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:37Z",
+        "original_path": "项目管理/章节采用记录.json",
+        "canonical_path": "项目管理/章节采用记录.json",
+        "backup_path": ".hermes-academic-backups/20261029T022737Z_32bd10918f7948d7aa0529da829a8012.bak",
+        "original_sha256": "cc2201103b415d1dc82d937bc3bbbe162b2e0e9d3966791ba2a25e74f4b3e4fe",
+        "original_size_bytes": 15618,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "693776fb9a7a59d45b7c79d627899026645cb12e947a8a00de15e2e719a277a6",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "论文章节/01-绪论/章节导航.md",
+      "sha256": "1bc0d27aa87e1fbe332a09c58903e7e46743eca35ea69d30229ab5cf9e71642f",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:37Z",
+        "original_path": "论文章节/01-绪论/章节导航.md",
+        "canonical_path": "论文章节/01-绪论/章节导航.md",
+        "backup_path": ".hermes-academic-backups/20261029T022737Z_d41fde01821643abacc28c5704fc1d17.bak",
+        "original_sha256": "7a6f9cd1bfb416ed032e920976a9b99f21b2acd6e52a7a7c155d2ac73a1c5b1a",
+        "original_size_bytes": 3672,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "1bc0d27aa87e1fbe332a09c58903e7e46743eca35ea69d30229ab5cf9e71642f",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "sha256": "dd1c525cb3a89bea132813290ae67a9301d722eda9000cf56168bf1ab3386cd7",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:37Z",
+        "original_path": "论文章节/02-研究对象与资料基础/章节导航.md",
+        "canonical_path": "论文章节/02-研究对象与资料基础/章节导航.md",
+        "backup_path": ".hermes-academic-backups/20261029T022737Z_b76738f2ec4341418fbe2522e5bf5670.bak",
+        "original_sha256": "982b854f7684f5e95b75a96985eaf416fbdfe11282a82ba55719fde317a3054c",
+        "original_size_bytes": 3300,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "dd1c525cb3a89bea132813290ae67a9301d722eda9000cf56168bf1ab3386cd7",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "sha256": "328f4a9cba17df966d72dff845b0a97392cfcffff83afd37f9689d26801a898b",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:37Z",
+        "original_path": "论文章节/03-体系与方法设计/章节导航.md",
+        "canonical_path": "论文章节/03-体系与方法设计/章节导航.md",
+        "backup_path": ".hermes-academic-backups/20261029T022737Z_fc07c6ddb8e940eda3c1b0395689e1b1.bak",
+        "original_sha256": "c0b02b0d5ec7bcdf1ec959e7b18bd560ec08002894dc1435f4cf2db7ae2769e2",
+        "original_size_bytes": 3179,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "328f4a9cba17df966d72dff845b0a97392cfcffff83afd37f9689d26801a898b",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "sha256": "ec70750a0c9a945c31650997f36969f30d081c40db24863031f3ad2fc0a9e4f3",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:38Z",
+        "original_path": "论文章节/04-案例实施与检验/章节导航.md",
+        "canonical_path": "论文章节/04-案例实施与检验/章节导航.md",
+        "backup_path": ".hermes-academic-backups/20261029T022738Z_c3cb95a40e4546ab9116d67aa16a9082.bak",
+        "original_sha256": "b7431aec12648c6223d3842343125c0121963e2a3e48baf9ca906c03f6589829",
+        "original_size_bytes": 3280,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "ec70750a0c9a945c31650997f36969f30d081c40db24863031f3ad2fc0a9e4f3",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "sha256": "b6a74c6980f38bd32da983a043b57f0bd26432cd6b12122ae4a1303b524aaec0",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:38Z",
+        "original_path": "论文章节/05-分析比较与讨论/章节导航.md",
+        "canonical_path": "论文章节/05-分析比较与讨论/章节导航.md",
+        "backup_path": ".hermes-academic-backups/20261029T022738Z_73191e731d574d2e9ea16d3ecc7be541.bak",
+        "original_sha256": "9224bdca58d0b9de76be3bf917769a498867f9136434c68123342ebf086b1e01",
+        "original_size_bytes": 3718,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "b6a74c6980f38bd32da983a043b57f0bd26432cd6b12122ae4a1303b524aaec0",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "sha256": "95683eda05a4e470f33d9d4f7fe56976cbf21312df627fafb63f1de1194a87ad",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:38Z",
+        "original_path": "论文章节/06-结论与展望/章节导航.md",
+        "canonical_path": "论文章节/06-结论与展望/章节导航.md",
+        "backup_path": ".hermes-academic-backups/20261029T022738Z_c5b32788191b4229ba3b1e403077e01a.bak",
+        "original_sha256": "cf24b646cf67163b89f3f5a9522cd901ba032719e45f1af4a207572b65d0cbc5",
+        "original_size_bytes": 2173,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "95683eda05a4e470f33d9d4f7fe56976cbf21312df627fafb63f1de1194a87ad",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+      "sha256": "cf1ffdf5cb8706542e3aa6fdd088280af99f7b365050c6e3528fb2825f206888",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:38Z",
+        "original_path": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+        "canonical_path": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261029T022738Z_fa7de2856d9b4753907210a266234ed8.bak",
+        "original_sha256": "c75a024a389628c6e5b21134cd5a49b5fed47870eafe3e7f0264c0516caa1539",
+        "original_size_bytes": 4214,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "cf1ffdf5cb8706542e3aa6fdd088280af99f7b365050c6e3528fb2825f206888",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/合成试建与规则检验/主题研究.md",
+      "sha256": "8643b55ae88469b8efe1ea1c938653170b74a3439965d9fb3178105ca3e00796",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:38Z",
+        "original_path": "主题研究/合成试建与规则检验/主题研究.md",
+        "canonical_path": "主题研究/合成试建与规则检验/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261029T022738Z_713945475b2347e4a308d01921c2ec08.bak",
+        "original_sha256": "f1a10002232f68aa953ecf968037d127810402e601451d0ffd7cc40bc50a53f6",
+        "original_size_bytes": 5206,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "8643b55ae88469b8efe1ea1c938653170b74a3439965d9fb3178105ca3e00796",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "sha256": "3a99b79566531b4f1a379a05d77554a9e3afa0417b2639069a09ae4b3d9fdcfa",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:39Z",
+        "original_path": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+        "canonical_path": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261029T022739Z_e39e855c3c76438eb11e05319184a7e3.bak",
+        "original_sha256": "16f434f28c9af7703eac3dfb61d893dd66ed77a87dcc42b5fec65e190eb87a5e",
+        "original_size_bytes": 9646,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "3a99b79566531b4f1a379a05d77554a9e3afa0417b2639069a09ae4b3d9fdcfa",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "sha256": "b271752842e790803ac7daf67094a02f0bfc220a0a23e003637b19b597660a2f",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:39Z",
+        "original_path": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+        "canonical_path": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261029T022739Z_c829ad2b61c44cac95f7af81c031485b.bak",
+        "original_sha256": "61f9845575377a495606918b75335a56e8fd1329ff11a218b89dcc7a2dc2b8c7",
+        "original_size_bytes": 5312,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "b271752842e790803ac7daf67094a02f0bfc220a0a23e003637b19b597660a2f",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+      "sha256": "81a980813f5f8c40d68976da30601cfaa0e9e7fb2a3c41c1f32654d9c75c9fb9",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:39Z",
+        "original_path": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+        "canonical_path": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261029T022739Z_a80e31b189774d7e94f0074069da718f.bak",
+        "original_sha256": "66e0c332014896f689c636b09c621f15c55148a53a58ca7f87aa547a5afe0a80",
+        "original_size_bytes": 3955,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "81a980813f5f8c40d68976da30601cfaa0e9e7fb2a3c41c1f32654d9c75c9fb9",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/研究对象与样本边界/主题研究.md",
+      "sha256": "2ac10dc740f1b71712101b7a7f4e8c368f72064e77f0bcd700d64873a2e13950",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:39Z",
+        "original_path": "主题研究/研究对象与样本边界/主题研究.md",
+        "canonical_path": "主题研究/研究对象与样本边界/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261029T022739Z_80ebc47f54e34ae9a4f32d6a3fba2fe9.bak",
+        "original_sha256": "02c47733f2f9f0cb8f0212a74f04aea6fdf81b242316f7ab0f7b398b73f04908",
+        "original_size_bytes": 3324,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "2ac10dc740f1b71712101b7a7f4e8c368f72064e77f0bcd700d64873a2e13950",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/类型识别与语义关系表达/主题研究.md",
+      "sha256": "7879d987d188d151ffa3bf929515c3c1fbb3bdf998617049749d618eabe26804",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:39Z",
+        "original_path": "主题研究/类型识别与语义关系表达/主题研究.md",
+        "canonical_path": "主题研究/类型识别与语义关系表达/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261029T022739Z_53811f0cccb24c27a37812c937a6ff6a.bak",
+        "original_sha256": "66180e33ad14430c6b74a31317d6ae2a5ae35a813e4ae4243cec128e372a9c04",
+        "original_size_bytes": 9906,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "7879d987d188d151ffa3bf929515c3c1fbb3bdf998617049749d618eabe26804",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/风貌特征筛选与数据记录/主题研究.md",
+      "sha256": "7ed56c7267e275102ff77c2338d40207383a3f882fbe317cfbe46e2c518bfa17",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:39Z",
+        "original_path": "主题研究/风貌特征筛选与数据记录/主题研究.md",
+        "canonical_path": "主题研究/风貌特征筛选与数据记录/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261029T022739Z_8d735b36863f44af92805bfc7417823f.bak",
+        "original_sha256": "5ffa16ef46099913b9dc285a80ea222268045279c73e4e13fb1b0ca01ffce423",
+        "original_size_bytes": 7573,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "7ed56c7267e275102ff77c2338d40207383a3f882fbe317cfbe46e2c518bfa17",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/D01图谱表达试例/README.md",
+      "sha256": "cf240c11d809169d60c66683815cb9397851612431d0f5237e96024c6b5c77e5",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:40Z",
+        "original_path": "研究成果/D01图谱表达试例/README.md",
+        "canonical_path": "研究成果/D01图谱表达试例/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022740Z_2053080646e949d5a788d95e9b3caa02.bak",
+        "original_sha256": "51d08372fca9af936e494ebecaea1d35ed2a411787ae6c42ee8b932a65900d91",
+        "original_size_bytes": 14044,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "cf240c11d809169d60c66683815cb9397851612431d0f5237e96024c6b5c77e5",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/三维建模技术路线/README.md",
+      "sha256": "dc762296fb6398a491a38c6d78218b70ea90b5fdcb959d5947c59b175853f2dd",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:40Z",
+        "original_path": "研究成果/三维建模技术路线/README.md",
+        "canonical_path": "研究成果/三维建模技术路线/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022740Z_d1d6ab1d5b90432d8a7c1fadf0da940d.bak",
+        "original_sha256": "7a50f5e7e1b8fba7252212b9393398e0c4503b0a86e0567e2977205667b67f88",
+        "original_size_bytes": 2077,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "dc762296fb6398a491a38c6d78218b70ea90b5fdcb959d5947c59b175853f2dd",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/传统民居类型与形态拆解/README.md",
+      "sha256": "9a6f66e359b0110047249608fd22059ca7093919b813061b1644ff97f63e562a",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:40Z",
+        "original_path": "研究成果/传统民居类型与形态拆解/README.md",
+        "canonical_path": "研究成果/传统民居类型与形态拆解/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022740Z_72d442b4010c463eb748af72e6d4fbe3.bak",
+        "original_sha256": "acda70e4dedb7ad72898d0ef839c9eb64272657aaf66c2021d26af5a6917117d",
+        "original_size_bytes": 3508,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "9a6f66e359b0110047249608fd22059ca7093919b813061b1644ff97f63e562a",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/单体层实体属性关系候选模型v0.1/README.md",
+      "sha256": "50fdaf0fa6a6eda636e7e11f5c5097805eb67911c4982124a37d42c3132b36a7",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:40Z",
+        "original_path": "研究成果/单体层实体属性关系候选模型v0.1/README.md",
+        "canonical_path": "研究成果/单体层实体属性关系候选模型v0.1/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022740Z_147ed2a619554d21a7a4a907222701aa.bak",
+        "original_sha256": "0b0445f3643ce1d1338ce845a3a3f90286ce99dbb279ca285644a90f7c81880f",
+        "original_size_bytes": 5660,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "50fdaf0fa6a6eda636e7e11f5c5097805eb67911c4982124a37d42c3132b36a7",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/单体层知识图谱v0.1/README.md",
+      "sha256": "2be86bdbcc8eec693e7155011d6c9baa418fb3dafd00d3d672ba76270bb26ce9",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:40Z",
+        "original_path": "研究成果/单体层知识图谱v0.1/README.md",
+        "canonical_path": "研究成果/单体层知识图谱v0.1/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022740Z_c9cb21b7f74c424b9e1346ac4065586c.bak",
+        "original_sha256": "7632a9f20dfdd8fbd29a75bce8278fc6a7367e846acc5c874aad358a58598388",
+        "original_size_bytes": 3213,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "2be86bdbcc8eec693e7155011d6c9baa418fb3dafd00d3d672ba76270bb26ce9",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/单体层知识图谱v0.2/README.md",
+      "sha256": "472f7cd0138cee93a523378a75e73f987be5f9ce5231850aa43db0e06051a880",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:40Z",
+        "original_path": "研究成果/单体层知识图谱v0.2/README.md",
+        "canonical_path": "研究成果/单体层知识图谱v0.2/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022740Z_1354571317864ddc9ae93d9a7f896123.bak",
+        "original_sha256": "f1ac45700ebde532a0858f880a968271deef17d61cd0588eacdb06cac9c39911",
+        "original_size_bytes": 9201,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "472f7cd0138cee93a523378a75e73f987be5f9ce5231850aa43db0e06051a880",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/建筑单体框架-本体与分析衔接v0.1/README.md",
+      "sha256": "1a90dc2bb4cd302c5f710fd625811ceceb887472513de59d30485e37aad801ed",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:41Z",
+        "original_path": "研究成果/建筑单体框架-本体与分析衔接v0.1/README.md",
+        "canonical_path": "研究成果/建筑单体框架-本体与分析衔接v0.1/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022741Z_3050f97cdb9b46c09899f5c3945d38b6.bak",
+        "original_sha256": "5fc4a4fb4e497925f76418836be7a627f27bb987ccccf9d4eac173c92934fb51",
+        "original_size_bytes": 8519,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "1a90dc2bb4cd302c5f710fd625811ceceb887472513de59d30485e37aad801ed",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/建筑单体研究内容框架v0.1/README.md",
+      "sha256": "0c19dfecfc482b9e78d3d39721465f78b40964c9a49caecbb7af6acb203c386f",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:41Z",
+        "original_path": "研究成果/建筑单体研究内容框架v0.1/README.md",
+        "canonical_path": "研究成果/建筑单体研究内容框架v0.1/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022741Z_6c4d4307e9b54e2e89bafeba82c953cb.bak",
+        "original_sha256": "65b45f1469dfd0d878295fa08b4406bfc2804effa80ad482c65951ec747320c9",
+        "original_size_bytes": 9318,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "0c19dfecfc482b9e78d3d39721465f78b40964c9a49caecbb7af6acb203c386f",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/建筑空间界面与构成关系类型图谱/README.md",
+      "sha256": "5effd0330e1a75a0b40d1018387910668925b04d7993f199905d3ecfd2f49caa",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:41Z",
+        "original_path": "研究成果/建筑空间界面与构成关系类型图谱/README.md",
+        "canonical_path": "研究成果/建筑空间界面与构成关系类型图谱/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022741Z_6d488f46f10b46c19592b95d53aede70.bak",
+        "original_sha256": "cf8892f5cebafcd249201ed61952bf8a5b4345bebed35a39a7ce2308f9bda5e5",
+        "original_size_bytes": 3039,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "5effd0330e1a75a0b40d1018387910668925b04d7993f199905d3ecfd2f49caa",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/建筑风貌知识图谱基础框架/README.md",
+      "sha256": "23462ab0ab419ac90fbfd03e9203e58a99494ec17921893d6ece93711e5de15b",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:41Z",
+        "original_path": "研究成果/建筑风貌知识图谱基础框架/README.md",
+        "canonical_path": "研究成果/建筑风貌知识图谱基础框架/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022741Z_4b5683bea68d4ad991f1eb0d1e205905.bak",
+        "original_sha256": "bae0ce2f3ef1ea8e4259924f5883730b56cedbc39cd4034b9e671b4897a589ed",
+        "original_size_bytes": 3177,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "23462ab0ab419ac90fbfd03e9203e58a99494ec17921893d6ece93711e5de15b",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/思维导图/README.md",
+      "sha256": "892bf794ec38ae66a8326c518541e82868d8705d80a5f803a34209c91691dfa9",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:41Z",
+        "original_path": "研究成果/思维导图/README.md",
+        "canonical_path": "研究成果/思维导图/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022741Z_9157e087daeb464a97b22db634209f00.bak",
+        "original_sha256": "cc1151ca77a3353255e1d3dcc36c05e69fc83a67f793590f12d7e1029499423c",
+        "original_size_bytes": 4965,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "892bf794ec38ae66a8326c518541e82868d8705d80a5f803a34209c91691dfa9",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/景宁畲族传统民居建筑特征/README.md",
+      "sha256": "ff356f4e2832bf4fb15298c3f8ed9939daccdb9c5c14b3429b4121fd7222ecff",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:41Z",
+        "original_path": "研究成果/景宁畲族传统民居建筑特征/README.md",
+        "canonical_path": "研究成果/景宁畲族传统民居建筑特征/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022741Z_ab4694d27c8447f5a26c51bae21b55b1.bak",
+        "original_sha256": "b37ba2ad734e450c5d5bfa550155aea32fb43f24c2bbea6cceb14d6eb4fa5ee0",
+        "original_size_bytes": 2728,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "ff356f4e2832bf4fb15298c3f8ed9939daccdb9c5c14b3429b4121fd7222ecff",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/畲族建筑风貌综述修订/README.md",
+      "sha256": "366961a84711405e46978522ad7160b86099efde50d22fdd457911fd57b072c8",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:42Z",
+        "original_path": "研究成果/畲族建筑风貌综述修订/README.md",
+        "canonical_path": "研究成果/畲族建筑风貌综述修订/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022742Z_406e0ba0def14cbdb2b5cfa84112b0df.bak",
+        "original_sha256": "a8c54702fe7b698b9444f8e53a29654a2c782c4816c39a149376d88e9a1ddc24",
+        "original_size_bytes": 2349,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "366961a84711405e46978522ad7160b86099efde50d22fdd457911fd57b072c8",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/畲族建筑风貌综述审阅/README.md",
+      "sha256": "a6b5ae27468645a28748ef6422829c03d279acb8f6c9e1e3ab2b83e5e103f8cb",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:42Z",
+        "original_path": "研究成果/畲族建筑风貌综述审阅/README.md",
+        "canonical_path": "研究成果/畲族建筑风貌综述审阅/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022742Z_5b38a426365b4bbfb9a9c8276f9c6ed3.bak",
+        "original_sha256": "a687f5ada287338c3a22b52567ddbfce645eed4bb627793ed9e08f761fdbf26e",
+        "original_size_bytes": 2420,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "a6b5ae27468645a28748ef6422829c03d279acb8f6c9e1e3ab2b83e5e103f8cb",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/知识图谱建模基准/README.md",
+      "sha256": "7c85031e86829703b4b0e82e305fcc8a225b8c935075d4af2f68f481305ef1d7",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:42Z",
+        "original_path": "研究成果/知识图谱建模基准/README.md",
+        "canonical_path": "研究成果/知识图谱建模基准/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022742Z_45c2516861064477811dbb9332bbc45b.bak",
+        "original_sha256": "ecbdc7918d7122f1316779a74bbced12a45550b6d3a262893cfe29a4d2da569f",
+        "original_size_bytes": 3865,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "7c85031e86829703b4b0e82e305fcc8a225b8c935075d4af2f68f481305ef1d7",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/研究对象候选导师浏览版/README.md",
+      "sha256": "1ddce4b55626d1238a9995da41727ea2ad132dfd457393a0ddf1ad2511a06b51",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:42Z",
+        "original_path": "研究成果/研究对象候选导师浏览版/README.md",
+        "canonical_path": "研究成果/研究对象候选导师浏览版/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022742Z_7cdc9a44fef646a08e3ba9bdc9e4aa13.bak",
+        "original_sha256": "2a20759a00e9c9e08ee18e814454746f19eb1ba24afd8a7dd69c911933d57213",
+        "original_size_bytes": 2357,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "1ddce4b55626d1238a9995da41727ea2ad132dfd457393a0ddf1ad2511a06b51",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/虚拟民居单体试验V01/README.md",
+      "sha256": "cc08cf1d06009ef1d20b7710285f6637a3ea4477428b92938b623684ed3202f5",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:42Z",
+        "original_path": "研究成果/虚拟民居单体试验V01/README.md",
+        "canonical_path": "研究成果/虚拟民居单体试验V01/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022742Z_8450fa01b5eb4027b3bc09ebd4d79627.bak",
+        "original_sha256": "b64b1f0baa164a53ff623822ee8d6a85951230bbc9d0e4dae7fef353f3e97e9e",
+        "original_size_bytes": 22688,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "cc08cf1d06009ef1d20b7710285f6637a3ea4477428b92938b623684ed3202f5",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/论文研究路径/README.md",
+      "sha256": "0b55cee4743834a537946459b09407c4db8ddfabb7d44b45d8c7cb527351f4ad",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:42Z",
+        "original_path": "研究成果/论文研究路径/README.md",
+        "canonical_path": "研究成果/论文研究路径/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022742Z_8c91693ba7a3463eb8794608b73b1fc0.bak",
+        "original_sha256": "432c1bdca5d09388abcbe36036f3f154c9302fcbf16fa25949eff015749983e5",
+        "original_size_bytes": 4879,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "0b55cee4743834a537946459b09407c4db8ddfabb7d44b45d8c7cb527351f4ad",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/风貌分析拆解/README.md",
+      "sha256": "3221252af5ad9d3fd77cf681ed3e6ba95962f09b7f61ba10ee3ef86c69ba5423",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:43Z",
+        "original_path": "研究成果/风貌分析拆解/README.md",
+        "canonical_path": "研究成果/风貌分析拆解/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022743Z_7147fa774acf4cefb86009ecc80aa41a.bak",
+        "original_sha256": "4ed693c1e17a46424523000d8574dcb29e7963563ffb8de2b718d7ece85082f7",
+        "original_size_bytes": 3799,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "3221252af5ad9d3fd77cf681ed3e6ba95962f09b7f61ba10ee3ef86c69ba5423",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/风貌分析目标文献对照/README.md",
+      "sha256": "6fad110b0e295eb40beec898b2884d077e999fc04b223b254164dbbd25099f5e",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-29T02:27:43Z",
+        "original_path": "研究成果/风貌分析目标文献对照/README.md",
+        "canonical_path": "研究成果/风貌分析目标文献对照/README.md",
+        "backup_path": ".hermes-academic-backups/20261029T022743Z_2b0de16beb7c416f8813165dd0762155.bak",
+        "original_sha256": "7b355212678ab09371dc689251757f41b7d1ccfe3a6faf847052461ae6dbb1a1",
+        "original_size_bytes": 3322,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "6fad110b0e295eb40beec898b2884d077e999fc04b223b254164dbbd25099f5e",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "论文章节/大纲结构.yaml",
+      "sha256": "65c8373191c1a8b8e2c959b2032c6c50ff59641d1450c1508d05ce7a686ed6c6",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/论文研究路径/研究路径结构.json",
+      "sha256": "2e046ae14d4cc73df22eaaf4114c61d88c83fad546f50c6f2dc40a07511e7726",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "项目管理/动态研究体系.md",
+      "sha256": "da82c7d20eaf94dde89aa8cedeb7a519381424d1047fb0447baef904c9217bb0",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "论文章节/现行大纲.md",
+      "sha256": "2031b2b2bc327245f2dc5d6e9beb4bd18b817d8619d751dbae51281be5419499",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/论文研究路径/研究路径工作图.md",
+      "sha256": "8580e0090672d08d83c8d7c8a1c480171d57af78a28f2ed804718413a9b0938a",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "项目管理/健康检查/research_structure.py",
+      "sha256": "54de9fa66ca4e704286ba3cba515fedd39bfa668141ac38e93821bf46318da70",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "项目管理/健康检查/test_research_structure.py",
+      "sha256": "49b19702b14415522c08995bc392ea1ec537dc07349a765c2f9426957cfeb19a",
+      "state": "published_verified",
+      "backup": null
+    }
+  ]
+}

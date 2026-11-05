@@ -1,0 +1,28 @@
+{
+  "status": "verified-technical-only-user-review-pending",
+  "at": "2026-10-30T14:09:02.247256+08:00",
+  "modelSHA256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+  "exactNodes": 28,
+  "exactRelationships": 70,
+  "propertiesAndNativeTypes": "equal",
+  "globalNodes": 82,
+  "globalRelationships": 279,
+  "oldNodes": 54,
+  "oldRelationships": 209,
+  "oldFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+  "preservedFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+  "oldGraphUnchanged": true,
+  "constraintsIndexesUnchanged": true,
+  "queries": {
+    "Q01": 4,
+    "Q02": 16,
+    "Q03": 4,
+    "Q04": 26,
+    "Q05": 4,
+    "Q06": 1,
+    "Q07": 1,
+    "Q08": 7
+  },
+  "readOnlyMismatchTests": 2,
+  "sourceRuleBoundary": "four synthetic examples; not empirical validity; no native Neo4j GUI check"
+}

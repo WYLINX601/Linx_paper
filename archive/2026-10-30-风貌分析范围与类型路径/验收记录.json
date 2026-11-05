@@ -1,0 +1,1043 @@
+{
+  "checked_at": "2026-10-30T12:28:10.004648+08:00",
+  "scope": "2026-10-30风貌分析采用范围、前置分型及D06建筑学产出路径；文件与表达验收，不是实证验收",
+  "published_files": [
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "local": null,
+      "expected": "20cdc47471bf50d4a3867cdad282a260b17074ea06f34858c5ef6b3582e8fcbc",
+      "sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "local": null,
+      "expected": "0309cfb0e86916801644cda31391fd2f2e8d0428803b87960342d56e428fb34b",
+      "sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "local": null,
+      "expected": "1ac588f934dfbe21a05a36b480aa558c6967e4227159d64c997153da2c44727c",
+      "sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "local": null,
+      "expected": "3df08e2b287810368f6e7595a249aaf4387c53ca56bf687c3a907e0324835cc6",
+      "sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解表.md",
+      "local": null,
+      "expected": "d70f9506d891e8130805aa58961bf473416eee2c9037c493c7d6c6118b509b63",
+      "sha256": "43c96d6bb91afc12a3c2df3742f7444a7612bfbf84b64574b9abed86b0c99709",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解表.md",
+      "local": null,
+      "expected": "c3cba6a0dc36cd158f35f464c6b5b681920b459115f5d4c915db33bc9200237b",
+      "sha256": "1c188a5277ce29f4a0f30bb789672a00639326d3d30d8dccce510c4fd838c143",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "local": null,
+      "expected": "57249607463f75141c7f9a67603e1cfe1e1e1dcda8e870113e98675340959551",
+      "sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "local": null,
+      "expected": "525bcbdac21323ff4e51407131559cea2630f74a20a80e1be91f777371717212",
+      "sha256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "local": null,
+      "expected": "cd1db107850c8869b2eaf778a67d7f014945e13b4705970450334e2e20e98e94",
+      "sha256": "cb348a43f7dfc66d7d440d904be1a80c7064895f3ce0c5ef54ecbd27a87639cf",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "local": null,
+      "expected": "b841735dc9c128aa051c1b45549e9dfebf7264498096f9514831011aa49d34af",
+      "sha256": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "local": null,
+      "expected": "23c51874a4014a22a7163f6397e9fa5d345e1d1128ae6b8d61d1249a243e2d04",
+      "sha256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "local": null,
+      "expected": "385c74e1d5ad9f84edd2272553be4ad1d27b5257a1bf21a07c6b03ed34cec8e5",
+      "sha256": "a9bc2c82dae16e3f7b24395ca38815de7c3e7bb5791bbddc1902cab2139af1f4",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "local": null,
+      "expected": "43449f7f4a35f71006c557c6fba49f66546890229b896eef3e8a63ca47e667a6",
+      "sha256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/README.md",
+      "local": null,
+      "expected": "0f0e7a66ac829b732c7caf6060cba45aa88b9cda11311f8a185571b0e9b770d7",
+      "sha256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "local": null,
+      "expected": "e20656703c4bd215f2679128e1c4b6e0f2dbd7ddcadc5098d9a6d011f20929ed",
+      "sha256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "archive/README.md",
+      "local": null,
+      "expected": "173f02e8a89c0b2faafb8af8b66461d3d0e12e4521b3335c46b43968f3ebdbd6",
+      "sha256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "archive/2026-10-30-风貌分析范围与类型路径/修改前原件.zip",
+      "local": null,
+      "expected": null,
+      "sha256": "bcb8231fcfddac8d50ab9c9c741f9e56f7acbea81ec80cc83648663ba64322e6",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "archive/2026-10-30-风貌分析范围与类型路径/变更清单.json",
+      "local": null,
+      "expected": null,
+      "sha256": "b6956d68e394928b55517086f4868f8a2a7f28f5e739ae21df5aad880264c458",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "archive/2026-10-30-风貌分析范围与类型路径/README.md",
+      "local": null,
+      "expected": null,
+      "sha256": "90be9d052077fb6502165a876abf5854ce725f72e2542bbdec00a20b8ea69c83",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "local": null,
+      "expected": "5430a613b26cec93e369d7195ba7750f98bac815698491a25f643ab08feeeaef",
+      "sha256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "local": null,
+      "expected": "d6b3a1815d21ff988a208192bd361912933b8eb5f7358dc34787a5056a0f464b",
+      "sha256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "local": null,
+      "expected": "98115a03e1677cfef83d049321b772a4041b05140304a22f1dd1c66a469f3d27",
+      "sha256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "local": null,
+      "expected": "1e96829779164635f5aa5fb122849f1deacb3124aa4c85ec0477a3809efaa087",
+      "sha256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解图.smm.md",
+      "local": null,
+      "expected": "11a905275891483370d09681148633fee63fea21feedf317816b880b9da4244a",
+      "sha256": "0d6eae16ad8b9df7dfd9246aa6619464218c4ef7a6d77eae011252b94112973a",
+      "bridge_readback_verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解图.smm.md",
+      "local": null,
+      "expected": "40c2f77c5a2ca0efb6f6878649b12447bb2dc25c706383d66242fa2d5527b93d",
+      "sha256": "4dee12bc852e2f801ef9c3b6a578ff61bd9dc97672ee0e85949dc04d0b9ab7ae",
+      "bridge_readback_verified": true
+    }
+  ],
+  "verification": {
+    "ok": true,
+    "files": 25,
+    "existing_files": 22,
+    "analysis_items": {
+      "D03": 6,
+      "D04": 6,
+      "D05": 6,
+      "D06": 5,
+      "D07": 4,
+      "D08": 3
+    },
+    "native_maps": 6,
+    "old_native_uids_preserved": 560,
+    "new_link_issues": 0,
+    "preexisting_link_issues": 6,
+    "map_links_checked": 61,
+    "protected": 11,
+    "preexisting_generator_differences": [],
+    "generator_stats": {
+      "chapters": 6,
+      "sections": 37,
+      "subsections": 17,
+      "adoptions": 88,
+      "topics": 8,
+      "roles": 6,
+      "route_nodes": 13,
+      "artifact_packages": 20,
+      "artifact_relations": 59
+    }
+  },
+  "post_readback": {
+    "ok": true,
+    "readback_files": 25,
+    "native_maps_validated": 6,
+    "protected_unchanged": [
+      "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+      "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型图.smm.md",
+      "研究成果/〔分析框架〕风貌分析拆解/D02屋顶侧样与构架拆解表.md",
+      "研究成果/〔分析框架〕风貌分析拆解/D02屋顶侧样与构架拆解图.smm.md",
+      "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+      "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+      "项目管理/健康检查/依赖基线.json",
+      "论文章节/大纲结构.yaml",
+      "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md"
+    ],
+    "preexisting_generator_differences": [],
+    "database_mutations_performed": false,
+    "validation_scope": "files, links, source/map identifiers, renderer, plugin compatibility; not empirical classification",
+    "not_verified": [
+      "原生导图像素级布局",
+      "Neo4j Browser GUI",
+      "真实资料可用性",
+      "真实样本分型、统计或解释有效性"
+    ]
+  },
+  "backups": [
+    {
+      "path": "archive/README.md",
+      "backup_path": ".hermes-academic-backups/20261030T042534Z_b114926faac34357aa40c6e8cc6184b9.bak",
+      "original_sha256": "173f02e8a89c0b2faafb8af8b66461d3d0e12e4521b3335c46b43968f3ebdbd6",
+      "verified": true
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "backup_path": ".hermes-academic-backups/20261030T042535Z_7bc4ea4e88c049258d1e436a75825d65.bak",
+      "original_sha256": "525bcbdac21323ff4e51407131559cea2630f74a20a80e1be91f777371717212",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "backup_path": ".hermes-academic-backups/20261030T042535Z_ed576eadd2984ac3b06e47125f0de1b9.bak",
+      "original_sha256": "23c51874a4014a22a7163f6397e9fa5d345e1d1128ae6b8d61d1249a243e2d04",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "backup_path": ".hermes-academic-backups/20261030T042535Z_0ca86d3646df4a0a8aaab5f35eb54152.bak",
+      "original_sha256": "385c74e1d5ad9f84edd2272553be4ad1d27b5257a1bf21a07c6b03ed34cec8e5",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "backup_path": ".hermes-academic-backups/20261030T042535Z_3d55c0e69355461f8bf68b3b25608d7f.bak",
+      "original_sha256": "43449f7f4a35f71006c557c6fba49f66546890229b896eef3e8a63ca47e667a6",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "backup_path": ".hermes-academic-backups/20261030T042536Z_452c7e8bb88643ef904b75f6b049c186.bak",
+      "original_sha256": "cd1db107850c8869b2eaf778a67d7f014945e13b4705970450334e2e20e98e94",
+      "verified": true
+    },
+    {
+      "path": "研究成果/README.md",
+      "backup_path": ".hermes-academic-backups/20261030T042536Z_a9cb67f340e744558fb0d09da1343bfc.bak",
+      "original_sha256": "0f0e7a66ac829b732c7caf6060cba45aa88b9cda11311f8a185571b0e9b770d7",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "backup_path": ".hermes-academic-backups/20261030T042536Z_7b4be0fa05f64e57a1c1249aad7ca185.bak",
+      "original_sha256": "5430a613b26cec93e369d7195ba7750f98bac815698491a25f643ab08feeeaef",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "backup_path": ".hermes-academic-backups/20261030T042536Z_f236607bb1b64753b580d193145c4c0f.bak",
+      "original_sha256": "20cdc47471bf50d4a3867cdad282a260b17074ea06f34858c5ef6b3582e8fcbc",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "backup_path": ".hermes-academic-backups/20261030T042537Z_5f16c29d49354f5882499bdf20f6ac40.bak",
+      "original_sha256": "d6b3a1815d21ff988a208192bd361912933b8eb5f7358dc34787a5056a0f464b",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "backup_path": ".hermes-academic-backups/20261030T042537Z_48f9bd85f7b8461e9486f041876363b9.bak",
+      "original_sha256": "0309cfb0e86916801644cda31391fd2f2e8d0428803b87960342d56e428fb34b",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "backup_path": ".hermes-academic-backups/20261030T042537Z_f7e123f76b794b41a881e3d47304a99c.bak",
+      "original_sha256": "98115a03e1677cfef83d049321b772a4041b05140304a22f1dd1c66a469f3d27",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "backup_path": ".hermes-academic-backups/20261030T042537Z_5178245359c34461b2278eea79096bd2.bak",
+      "original_sha256": "1ac588f934dfbe21a05a36b480aa558c6967e4227159d64c997153da2c44727c",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "backup_path": ".hermes-academic-backups/20261030T042538Z_479c3546eb8b4a9ca365145f960ae2d4.bak",
+      "original_sha256": "1e96829779164635f5aa5fb122849f1deacb3124aa4c85ec0477a3809efaa087",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "backup_path": ".hermes-academic-backups/20261030T042538Z_5f35e27311d841dea72c9d939857bee3.bak",
+      "original_sha256": "3df08e2b287810368f6e7595a249aaf4387c53ca56bf687c3a907e0324835cc6",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解图.smm.md",
+      "backup_path": ".hermes-academic-backups/20261030T042538Z_e969b81bcd53498d897f9b667158612b.bak",
+      "original_sha256": "11a905275891483370d09681148633fee63fea21feedf317816b880b9da4244a",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解表.md",
+      "backup_path": ".hermes-academic-backups/20261030T042538Z_95725a18dacd4ee0b72a7e3f0bb9150f.bak",
+      "original_sha256": "d70f9506d891e8130805aa58961bf473416eee2c9037c493c7d6c6118b509b63",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解图.smm.md",
+      "backup_path": ".hermes-academic-backups/20261030T042539Z_7b7bda174b8b41b09f434b7455a87e26.bak",
+      "original_sha256": "40c2f77c5a2ca0efb6f6878649b12447bb2dc25c706383d66242fa2d5527b93d",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解表.md",
+      "backup_path": ".hermes-academic-backups/20261030T042539Z_2ea0d39555ba414d8eebd083639a4c7b.bak",
+      "original_sha256": "c3cba6a0dc36cd158f35f464c6b5b681920b459115f5d4c915db33bc9200237b",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "backup_path": ".hermes-academic-backups/20261030T042539Z_586d2c0da6dd43478a04381a4d3bb5f1.bak",
+      "original_sha256": "57249607463f75141c7f9a67603e1cfe1e1e1dcda8e870113e98675340959551",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "backup_path": ".hermes-academic-backups/20261030T042539Z_07082784b7a64085a339f0b0832e8a0a.bak",
+      "original_sha256": "e20656703c4bd215f2679128e1c4b6e0f2dbd7ddcadc5098d9a6d011f20929ed",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "backup_path": ".hermes-academic-backups/20261030T042539Z_7bbfa349c5af4d55be23017c540025be.bak",
+      "original_sha256": "b841735dc9c128aa051c1b45549e9dfebf7264498096f9514831011aa49d34af",
+      "verified": true
+    }
+  ],
+  "protected_source_hashes": {
+    "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md": "ff356ab34e1d844c466156e48ea36b4f8eb9e7ee8a6dec21898707318ea22169",
+    "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731",
+    "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md": "7e487e73cc3d3f9106cb6baa87ae1b59c1fc7f97dd028027ed8125c0eb429ea0",
+    "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型图.smm.md": "20cc0d2da65301a1d64730fecfef5712db86d7be6fd4d6d27c1dfe331280765c",
+    "研究成果/〔分析框架〕风貌分析拆解/D02屋顶侧样与构架拆解表.md": "e084aaf8c154a5468e1d91d33cd7df656fdd86ef35c448c27fc81afa0b2e77f2",
+    "研究成果/〔分析框架〕风貌分析拆解/D02屋顶侧样与构架拆解图.smm.md": "35a37f47e486d3eaa37511884cf7ab253d45c1447169f6bbaa5036038c1c422e",
+    "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+    "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67",
+    "项目管理/健康检查/依赖基线.json": "f00e07213a4375fec519e84277ea6789b3bb06f4afe8e1967f8412f0f7e8eb16",
+    "论文章节/大纲结构.yaml": "25faaedec543746fde6587b98aa486eefcee45937db3fbe3e4437c12678a5a12",
+    "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md": "b68cc0ab3a136a9d154a29cc5478aa1ca9b221768145aeebdfd75f3b93522f09"
+  },
+  "scoped_links": {
+    "scope": "changed files, native map links and direct targets only",
+    "before_count": 357,
+    "after_count": 373,
+    "before_issues": [
+      [
+        "archive/README.md",
+        "ambiguous",
+        "三维建模技术方案调研汇总与后续技术路线"
+      ],
+      [
+        "archive/README.md",
+        "ambiguous",
+        "研究对象候选汇总-导师浏览版"
+      ],
+      [
+        "archive/README.md",
+        "ambiguous",
+        "论文写作与证据说明"
+      ],
+      [
+        "archive/README.md",
+        "missing",
+        "../01_sources/2026-10-13-研究背景新增依据核查.md"
+      ],
+      [
+        "archive/README.md",
+        "missing",
+        "../outputs/虚拟民居单体试验V01/Neo4j/README.md"
+      ],
+      [
+        "archive/README.md",
+        "missing",
+        "论文研究/_管理/改造报告.md"
+      ]
+    ],
+    "after_issues": [
+      [
+        "archive/README.md",
+        "ambiguous",
+        "三维建模技术方案调研汇总与后续技术路线"
+      ],
+      [
+        "archive/README.md",
+        "ambiguous",
+        "研究对象候选汇总-导师浏览版"
+      ],
+      [
+        "archive/README.md",
+        "ambiguous",
+        "论文写作与证据说明"
+      ],
+      [
+        "archive/README.md",
+        "missing",
+        "../01_sources/2026-10-13-研究背景新增依据核查.md"
+      ],
+      [
+        "archive/README.md",
+        "missing",
+        "../outputs/虚拟民居单体试验V01/Neo4j/README.md"
+      ],
+      [
+        "archive/README.md",
+        "missing",
+        "论文研究/_管理/改造报告.md"
+      ]
+    ],
+    "new_issues": [],
+    "map_links": 61,
+    "map_issues": []
+  },
+  "native_map_checks": [
+    {
+      "key": "D03",
+      "old_nodes": 112,
+      "nodes": 126,
+      "old_uids_preserved": true,
+      "analysis_ids": [
+        "D03-T01",
+        "D03-T02",
+        "D03-T03",
+        "D03-T04",
+        "D03-T05",
+        "D03-T06"
+      ],
+      "layout_unchanged": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    {
+      "key": "D04",
+      "old_nodes": 111,
+      "nodes": 126,
+      "old_uids_preserved": true,
+      "analysis_ids": [
+        "D04-T01",
+        "D04-T02",
+        "D04-T03",
+        "D04-T04",
+        "D04-T05",
+        "D04-T06"
+      ],
+      "layout_unchanged": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    {
+      "key": "D05",
+      "old_nodes": 111,
+      "nodes": 125,
+      "old_uids_preserved": true,
+      "analysis_ids": [
+        "D05-T01",
+        "D05-T02",
+        "D05-T03",
+        "D05-T04",
+        "D05-T05",
+        "D05-T06"
+      ],
+      "layout_unchanged": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    {
+      "key": "D06",
+      "old_nodes": 94,
+      "nodes": 133,
+      "old_uids_preserved": true,
+      "analysis_ids": [
+        "D06-T01",
+        "D06-T02",
+        "D06-T03",
+        "D06-T04",
+        "D06-T05"
+      ],
+      "layout_unchanged": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    {
+      "key": "D07",
+      "old_nodes": 75,
+      "nodes": 84,
+      "old_uids_preserved": true,
+      "analysis_ids": [
+        "D07-T01",
+        "D07-T02",
+        "D07-T03",
+        "D07-T04"
+      ],
+      "layout_unchanged": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    {
+      "key": "D08",
+      "old_nodes": 57,
+      "nodes": 65,
+      "old_uids_preserved": true,
+      "analysis_ids": [
+        "D08-T01",
+        "D08-T02",
+        "D08-T03"
+      ],
+      "layout_unchanged": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    }
+  ],
+  "markdown_and_tree_preview_dom": [
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "D03 院落与空间组织拆解表",
+      "tables": 10,
+      "overflow": false,
+      "strong": 6,
+      "literalBold": false,
+      "file": "doc-00.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "source_sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "D04 立面、材料色彩与装饰拆解表",
+      "tables": 10,
+      "overflow": false,
+      "strong": 6,
+      "literalBold": false,
+      "file": "doc-01.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "source_sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "D05 民居组合、街巷与地形拆解表",
+      "tables": 10,
+      "overflow": false,
+      "strong": 6,
+      "literalBold": false,
+      "file": "doc-02.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "source_sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "D06 类型差异、共同特征与关联解释拆解表",
+      "tables": 12,
+      "overflow": false,
+      "strong": 5,
+      "literalBold": false,
+      "file": "doc-03.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "source_sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "D07 更新过程与风貌变化拆解表",
+      "tables": 6,
+      "overflow": false,
+      "strong": 4,
+      "literalBold": false,
+      "file": "doc-04.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解表.md",
+      "source_sha256": "43c96d6bb91afc12a3c2df3742f7444a7612bfbf84b64574b9abed86b0c99709",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "D08 视觉识别与使用者感知拆解表",
+      "tables": 6,
+      "overflow": false,
+      "strong": 3,
+      "literalBold": false,
+      "file": "doc-05.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解表.md",
+      "source_sha256": "1c188a5277ce29f4a0f30bb789672a00639326d3d30d8dccce510c4fd838c143",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "风貌分析拆解",
+      "tables": 2,
+      "overflow": false,
+      "strong": 0,
+      "literalBold": false,
+      "file": "doc-06.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "source_sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "景宁畲族建筑研究项目上下文",
+      "tables": 1,
+      "overflow": false,
+      "strong": 0,
+      "literalBold": false,
+      "file": "doc-07.html",
+      "source": "context/PROJECT_CONTEXT.md",
+      "source_sha256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "类型识别与语义关系表达",
+      "tables": 2,
+      "overflow": false,
+      "mermaidBlocks": 0,
+      "svg": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "file": "doc-08.html",
+      "source": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "source_sha256": "cb348a43f7dfc66d7d440d904be1a80c7064895f3ce0c5ef54ecbd27a87639cf",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "多尺度语义模型与建模依据",
+      "tables": 1,
+      "overflow": false,
+      "mermaidBlocks": 0,
+      "svg": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "file": "doc-10.html",
+      "source": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "source_sha256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "风貌特征筛选与数据记录",
+      "tables": 1,
+      "overflow": false,
+      "mermaidBlocks": 0,
+      "svg": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "file": "doc-11.html",
+      "source": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "source_sha256": "a9bc2c82dae16e3f7b24395ca38815de7c3e7bb5791bbddc1902cab2139af1f4",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "案例查询风貌比较与有效性",
+      "tables": 1,
+      "overflow": false,
+      "mermaidBlocks": 0,
+      "svg": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "file": "doc-12.html",
+      "source": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "source_sha256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "研究成果包目录",
+      "tables": 1,
+      "overflow": false,
+      "mermaidBlocks": 0,
+      "svg": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "file": "doc-13.html",
+      "source": "研究成果/README.md",
+      "source_sha256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "研究路径工作图",
+      "tables": 1,
+      "overflow": false,
+      "mermaidBlocks": 1,
+      "svg": 1,
+      "diagramNodes": 13,
+      "errorIcons": 0,
+      "file": "doc-14.html",
+      "source": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "source_sha256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d",
+      "mermaid": true,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "历史资料归档",
+      "tables": 1,
+      "overflow": false,
+      "mermaidBlocks": 0,
+      "svg": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "file": "doc-21.html",
+      "source": "archive/README.md",
+      "source_sha256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "ready": true,
+      "errors": [],
+      "heading": "风貌分析范围与类型形成路径：修订前快照",
+      "tables": 0,
+      "overflow": false,
+      "mermaidBlocks": 0,
+      "svg": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "file": "doc-24.html",
+      "source": "archive/2026-10-30-风貌分析范围与类型路径/README.md",
+      "source_sha256": "90be9d052077fb6502165a876abf5854ce725f72e2542bbdec00a20b8ea69c83",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "heading": "D03 院落与空间组织拆解",
+      "details": 126,
+      "overflow": false,
+      "scopeNodes": 6,
+      "file": "D03-map.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "source_sha256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "heading": "D04 立面、材料色彩与装饰拆解",
+      "details": 126,
+      "overflow": false,
+      "scopeNodes": 6,
+      "file": "D04-map.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "source_sha256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "heading": "D05 民居组合、街巷与地形拆解",
+      "details": 125,
+      "overflow": false,
+      "scopeNodes": 6,
+      "file": "D05-map.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "source_sha256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "heading": "D06 类型差异、共同特征与关联解释拆解",
+      "details": 133,
+      "overflow": false,
+      "scopeNodes": 5,
+      "file": "D06-map.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "source_sha256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "heading": "D07 更新过程与风貌变化拆解（本阶段暂缓）",
+      "details": 84,
+      "overflow": false,
+      "scopeNodes": 4,
+      "file": "D07-map.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解图.smm.md",
+      "source_sha256": "0d6eae16ad8b9df7dfd9246aa6619464218c4ef7a6d77eae011252b94112973a",
+      "mermaid": false,
+      "ok": true
+    },
+    {
+      "heading": "D08 视觉识别与使用者感知拆解（本阶段不纳入）",
+      "details": 65,
+      "overflow": false,
+      "scopeNodes": 3,
+      "file": "D08-map.html",
+      "source": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解图.smm.md",
+      "source_sha256": "4dee12bc852e2f801ef9c3b6a578ff61bd9dc97672ee0e85949dc04d0b9ab7ae",
+      "mermaid": false,
+      "ok": true
+    }
+  ],
+  "visual_boundary": {
+    "dom_and_mermaid_rendering_passed": true,
+    "browser_capture_screenshot": "two timeouts; no image returned for visual inspection",
+    "fallback_headless_capture": "Chrome produced a PNG, not visually accepted",
+    "native_plugin_pixel_layout_verified": false,
+    "not_a_full_vault_health_pass": true
+  },
+  "independent_review": {
+    "model_requested": "gpt-6.1-sol",
+    "reasoning_requested": "medium",
+    "result_exit_code": 0,
+    "scope": "六表及包入口的固定版本文本；未独立核PDF、数据库、图或GUI",
+    "source_hashes": [
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+        "sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+        "sha256": "f03cbd9dd12f9a846c741635afe8c5848b75340c343ff14306279ba0faf722be"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+        "sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+        "sha256": "4679c748bfce7c4ace33fa6c37d186569ab815dfbd550216dff2e6b5ddd6960d"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解表.md",
+        "sha256": "55327ab55c72a7dd729cfd851d0189d40f525e00292dc96e7957ba17fd57ffa2"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解表.md",
+        "sha256": "199c8c785e2c7420d0b35c14cd9b15da242cabc1abd5220359065e88f042f559"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+        "sha256": "4393c922eee2d74f298d1f3fc48f9cd97d4b9cf4bd294e68c04c49391b7fad72"
+      }
+    ],
+    "report": "结论：文本总体可作为“范围已确认、规则待审核”的候选框架保留。D03—D05已补出局部分型路径，D06也明确了建筑学产出，不再只是采集清单。未见必须恢复暂停项才能继续的依赖。主要缺口是归类冲突处理和跨尺度组合的具体执行口径；它们阻断直接实施，不阻断候选文档成立。\n\n本报告仅审所给文本；未调用工具、访问文件或网络，未写库、修改文件或保存记忆。数据库54节点、209关系及D02—D08标记为0，均按主会话实查信息接受，不作独立复核声明；原文、导图和GUI亦未核验。\n\n一、阻断项：进入实际分型前须补\n\n1. D06“候选分型流程”第3—4步、T03：缺少同维度规则之间的关系。\n现有“满足／不满足／未定”能解释单条规则，却未说明同一对象同时满足两型时如何处理。“混合型”不能替代规则重叠的处理。\n最小修正：每个分类方案声明“互斥单选／允许多标签／层级分类”，并规定重叠时保留并列、按何条件细分或修订规则；证据充分但不匹配现有规则者标“已知未匹配”，与未知分开。\n\n2. D06“跨维度组合表”、T02及D04“类型产出”：\n已要求归属链和汇总规则，但尚不能直接执行建筑层组合统计。例如同栋多个立面型，如何与一个或多个院落型配对仍未确定。\n最小修正：每次组合明确统计单位、配对关系及一对多处理；未选定建筑层汇总规则时，只报告立面—所属院落等明确配对，不生成整栋组合频数。无需现在统一冻结所有方案。\n\n二、建议：局部消歧，不扩大项目\n\n3. README“当前拆解入口”：“D02相关拆解保留为候选储备”容易被理解为整个D02暂停，而D03、D05、D06又引用外部屋顶。\n最小修正：“D02内部构架及依赖内部信息的分析暂停；外部屋顶仅在规则采用且证据足够时引用，不构成必采项。”这样与接口保持一致。\n\n4. D04“表层配置类型”：允许保留未知区域是合理的，但应区分部分描述与完整配置归类。\n最小修正：补“非定义性区域未知可保留已判类型并注明覆盖；定义性部位未知则暂不归类”。D03围合构型可沿用此原则，避免把不完整证据稳定命名为完整类型。\n\n5. D07-T01审核语“本轮是否只保留……”、D08-T03“本阶段是否整体暂缓D08”仍像重开范围决定；后者还混用“暂缓”和“不纳入”。\n最小修正：分别改成“恢复后是否……”和“未来重议是否启用；本阶段不纳入不变”。\n\n6. D06建筑学成果中的“哪些随环境条件变化”，可能被读成时序变化或环境驱动。\n最小修正：“哪些在不同现状环境条件组之间呈现差异”；原因解释另按T05证据门槛处理。\n\n7. README“本轮核对与数据库处理”含表图同步、解析和渲染验收的完成式陈述。仅凭本包不能确认这些履历，但不因此认定其虚假。\n最小修正：统一注明“据主会话核验记录”，与本次独立文本审查分开；未实际完成的验收不得并入完成清单。\n\n三、已足够：无需追加任务\n\n8. 暂停依赖：D03局部通行不要求完整室内网；D04表层与外露装饰不恢复内部构架；D05几何可见性不替代人的感知；D06排除暂停字段且不启动时期比较，边界基本闭合。\n\n9. 证据与表达：文献议题、本研究候选规则、来源原型和样本支持类型已有区分；未知不作无、有效分母、同源去重、尺度分层和条件节点化均有明确约束。未见“所有类型必须建节点”或“文档完成即实证完成”的实质性表述。\n\n10. 方法与产出：已有“记录—规则—逐例归类—反例与敏感性—比较—解释”链，以及类型图谱、组合表、空间差异和解释段落四类成果。现阶段可称“可转入试判的候选方法框架”，不能称“已验证分型方法”。补齐上述执行口径即可推进，不必增加聚类、感知实验、历史研究或空数据库节点。",
+    "revised_after_review": [
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+        "reviewed_sha256": "f03cbd9dd12f9a846c741635afe8c5848b75340c343ff14306279ba0faf722be",
+        "published_sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+        "reviewed_sha256": "4679c748bfce7c4ace33fa6c37d186569ab815dfbd550216dff2e6b5ddd6960d",
+        "published_sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D07更新过程与风貌变化拆解表.md",
+        "reviewed_sha256": "55327ab55c72a7dd729cfd851d0189d40f525e00292dc96e7957ba17fd57ffa2",
+        "published_sha256": "43c96d6bb91afc12a3c2df3742f7444a7612bfbf84b64574b9abed86b0c99709"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D08视觉识别与感知拆解表.md",
+        "reviewed_sha256": "199c8c785e2c7420d0b35c14cd9b15da242cabc1abd5220359065e88f042f559",
+        "published_sha256": "1c188a5277ce29f4a0f30bb789672a00639326d3d30d8dccce510c4fd838c143"
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+        "reviewed_sha256": "4393c922eee2d74f298d1f3fc48f9cd97d4b9cf4bd294e68c04c49391b7fad72",
+        "published_sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177"
+      }
+    ],
+    "revised_text_review": "主会话核对；未冒称第二轮独立复核"
+  },
+  "database_check": {
+    "checked_date_local": "2026-10-30",
+    "access": "configured SSH-backed Neo4j MCP read_cypher",
+    "mutations_performed": false,
+    "aggregate_query": "CALL { MATCH (n) RETURN count(n) AS nodeCount } CALL { MATCH ()-[r]->() RETURN count(r) AS relationshipCount } CALL { MATCH (n) WITH coalesce(n.caseId,'snapshot') AS scope, count(n) AS nodes RETURN collect({scope:scope,nodes:nodes}) AS scopes } CALL { MATCH (n) WHERE n.caseId =~ 'D0[2-8].*' OR n.uid =~ 'D0[2-8].*' OR n.analysisItem =~ 'D0[2-8]-.*' OR any(x IN coalesce(n.analysisItems,[]) WHERE x =~ 'D0[2-8]-.*') RETURN count(n) AS d02ToD08Instances } RETURN nodeCount, relationshipCount, scopes, d02ToD08Instances",
+    "aggregate_result": {
+      "d02ToD08Instances": 0,
+      "nodeCount": 54,
+      "relationshipCount": 209,
+      "scopes": [
+        {
+          "nodes": 42,
+          "scope": "V01"
+        },
+        {
+          "nodes": 11,
+          "scope": "D01V01"
+        },
+        {
+          "nodes": 1,
+          "scope": "snapshot"
+        }
+      ]
+    },
+    "constraints_query": "SHOW CONSTRAINTS YIELD name, type, labelsOrTypes, properties RETURN name, type, labelsOrTypes, properties ORDER BY name",
+    "constraints_result": [
+      {
+        "labelsOrTypes": [
+          "KGItem"
+        ],
+        "name": "kgitem_uid_unique",
+        "properties": [
+          "uid"
+        ],
+        "type": "UNIQUENESS"
+      }
+    ],
+    "indexes_query": "SHOW INDEXES YIELD name, type, labelsOrTypes, properties, state RETURN name, type, labelsOrTypes, properties, state ORDER BY name",
+    "indexes_result": [
+      {
+        "labelsOrTypes": null,
+        "name": "index_343aff4e",
+        "properties": null,
+        "state": "ONLINE",
+        "type": "LOOKUP"
+      },
+      {
+        "labelsOrTypes": null,
+        "name": "index_f7700477",
+        "properties": null,
+        "state": "ONLINE",
+        "type": "LOOKUP"
+      },
+      {
+        "labelsOrTypes": [
+          "KGItem"
+        ],
+        "name": "kgitem_uid_unique",
+        "properties": [
+          "uid"
+        ],
+        "state": "ONLINE",
+        "type": "RANGE"
+      }
+    ],
+    "impact_assessment": "本轮调整的是分析范围与候选分类方法，不更改既有合成案例的对象身份、参数、词汇、来源或计算规则。结合全库scope和标签分布、双基准与案例主源核对，未发现需要随本次调整迁移的现有实例；标记匹配为0本身不单独承担这一结论。V01既有内部对象保留合成试验身份，不代表恢复当前内部构架研究。D06是研究产出环节，不预创建空实体。",
+    "limitations": [
+      "不是本轮数据库恢复快照",
+      "未重验全部历史功能查询",
+      "未验收Neo4j Browser GUI",
+      "没有真实D03—D06样本分型结果"
+    ]
+  },
+  "database_post_publication_read": {
+    "query": "CALL { MATCH (n) RETURN count(n) AS nodes } CALL { MATCH ()-[r]->() RETURN count(r) AS relationships } CALL { MATCH (a {caseId:'D01V01'})-[r]->(b {caseId:'D01V01'}) RETURN count(r) AS d01Relationships } CALL { MATCH (a {caseId:'V01'})-[r]->(b {caseId:'V01'}) RETURN count(r) AS v01Relationships } RETURN nodes, relationships, d01Relationships, v01Relationships",
+    "result": {
+      "d01Relationships": 18,
+      "nodes": 54,
+      "relationships": 209,
+      "v01Relationships": 191
+    },
+    "source": "2026-10-30本轮MCP真实只读返回"
+  },
+  "recoverability_boundary": "22份原件ZIP成员逐项验摘要，22份桥接备份字节摘要匹配。未执行恢复演练；数据库没有写入，也未宣称新增数据库恢复快照。",
+  "open_issues": [
+    "归档索引既有6处链接问题保留，无本轮新增断链",
+    "分类判据、真实资料覆盖、样本归类与建筑学结论仍待实际研究验证",
+    "未运行本轮全部历史图谱功能查询，不以本轮总数核对代替历史完整验证"
+  ]
+}

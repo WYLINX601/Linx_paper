@@ -1,0 +1,193 @@
+{
+  "mode": "plan",
+  "namespace": "kgmodel:single:v01:",
+  "sourceHash": "0bb011ccc3e7f06f19473ec6da0028c12c6f9d4a3997f0a85a8758be56736009",
+  "expectedNodes": 546,
+  "expectedEdges": 3497,
+  "protectedBeforeHash": "04300e00d8a1f4482cccf569dae5d110391aa950eadcc6063479da9f0544e71c",
+  "protectedNodeCount": 94,
+  "protectedEdgeCount": 216,
+  "constraints": [
+    {
+      "labelsOrTypes": [
+        "KGItem"
+      ],
+      "properties": [
+        "uid"
+      ],
+      "type": "UNIQUENESS"
+    }
+  ],
+  "indexes": [
+    {
+      "state": "ONLINE",
+      "populationPercent": 100.0
+    },
+    {
+      "state": "ONLINE",
+      "populationPercent": 100.0
+    },
+    {
+      "state": "ONLINE",
+      "populationPercent": 100.0
+    }
+  ],
+  "status": "planned",
+  "plans": [
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelVersion) SET n = row RETURN count(n) AS created",
+      "rows": 1,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelEntityType) SET n = row RETURN count(n) AS created",
+      "rows": 15,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelElementProfile) SET n = row RETURN count(n) AS created",
+      "rows": 15,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelProperty) SET n = row RETURN count(n) AS created",
+      "rows": 75,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelRelation) SET n = row RETURN count(n) AS created",
+      "rows": 28,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelRecordProfile) SET n = row RETURN count(n) AS created",
+      "rows": 8,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelAnalysisQuestion) SET n = row RETURN count(n) AS created",
+      "rows": 12,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelResearchItem) SET n = row RETURN count(n) AS created",
+      "rows": 100,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelEvidenceReference) SET n = row RETURN count(n) AS created",
+      "rows": 164,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelDecision) SET n = row RETURN count(n) AS created",
+      "rows": 121,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row CREATE (n:KGItem:ModelDefinition:Candidate:ModelOpenIssue) SET n = row RETURN count(n) AS created",
+      "rows": 7,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:DEFINES]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 153,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:DESIGN_FROM_ITEM]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 515,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:COVERS_ITEM]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 100,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:USES_ENTITY_TYPE]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 604,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:USES_RELATION]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 78,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:USES_RECORD_PROFILE]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 374,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:REFERENCES_EVIDENCE]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 280,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:USES_PROPERTY]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 312,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:USES_PROFILE]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 130,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:HAS_PROPERTY]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 169,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:ALLOWS_RELATION]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 60,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:TO_TYPE]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 41,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:PROFILE_OF]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 15,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:REQUIRES_PROPERTY]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 144,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:REQUIRES_RELATION]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 41,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:INVOLVES_TYPE]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 126,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:ANALYSES_ITEM]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 106,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:HAS_DECISION]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 121,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:PROPOSES_DEFINITION]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 121,
+      "planned": true
+    },
+    {
+      "query": "UNWIND $rows AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:HAS_OPEN_ISSUE]->(b) SET r = row.props RETURN count(r) AS created",
+      "rows": 7,
+      "planned": true
+    }
+  ]
+}

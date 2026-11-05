@@ -1,0 +1,2045 @@
+{
+  "Q01_identity": [
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "name": "V01虚拟主屋",
+      "uid": "V01:B01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "name": "统一原型侧房（沿用D01侧房设定）",
+      "uid": "V01:B02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "name": "人工邻宅（不同物理身份，非实测）",
+      "uid": "V01:B03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "name": "前廊柱1",
+      "uid": "V01:C01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "name": "前廊柱2",
+      "uid": "V01:C02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "name": "前廊柱3",
+      "uid": "V01:C03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "name": "前廊柱4",
+      "uid": "V01:C04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "name": "当前合成建筑组二维分析集合",
+      "uid": "V01:CG01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "ComparisonResult"
+      ],
+      "name": "檐口高差：侧房减主屋（统一原型重算）",
+      "uid": "V01:CMP01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "name": "统一原型外部空间分析规则",
+      "uid": "V01:D03-R01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "ReferenceDatum"
+      ],
+      "name": "统一原型局部坐标与高程基准",
+      "uid": "V01:DATUM01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "name": "自身檐口相对高度规则",
+      "uid": "V01:DIM-R01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "name": "水平比例与高宽比规则",
+      "uid": "V01:DIM-R02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "name": "共同基准檐口高差规则",
+      "uid": "V01:DIM-R03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Source",
+        "Evidence",
+        "Demo",
+        "V01",
+        "SyntheticSource"
+      ],
+      "name": "示例素材",
+      "uid": "V01:EV01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成平面布局与尺寸图",
+      "uid": "V01:EV02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成南立面",
+      "uid": "V01:EV03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成北立面",
+      "uid": "V01:EV04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成东立面",
+      "uid": "V01:EV05"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成西立面",
+      "uid": "V01:EV06"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成A—A剖面",
+      "uid": "V01:EV07"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成屋顶投影图",
+      "uid": "V01:EV08"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Source",
+        "Demo",
+        "V01",
+        "SyntheticSource"
+      ],
+      "name": "旧D01侧房参数与迁移来源",
+      "uid": "V01:EV09"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "堂屋—前廊开放分界",
+      "uid": "V01:I01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "西室门洞界面",
+      "uid": "V01:I02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "东室门洞界面",
+      "uid": "V01:I03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01",
+        "EntranceInterface"
+      ],
+      "name": "前廊—前院开放分界",
+      "uid": "V01:I04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01",
+        "EntranceInterface"
+      ],
+      "name": "院门界面",
+      "uid": "V01:I05"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "西室临廊窗界面",
+      "uid": "V01:I06"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "东室临廊窗界面",
+      "uid": "V01:I07"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "西室北窗",
+      "uid": "V01:I08"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "堂屋北窗",
+      "uid": "V01:I09"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "东室北窗",
+      "uid": "V01:I10"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_木",
+        "材质_陶瓦",
+        "Roof"
+      ],
+      "name": "主屋双坡屋顶系统",
+      "uid": "V01:RF01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "RoofSurface",
+        "GeometryRepresentation"
+      ],
+      "name": "主屋南坡面",
+      "uid": "V01:RS01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "RoofSurface",
+        "GeometryRepresentation"
+      ],
+      "name": "主屋北坡面",
+      "uid": "V01:RS02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "name": "堂屋",
+      "uid": "V01:S01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "name": "西室",
+      "uid": "V01:S02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "name": "东室",
+      "uid": "V01:S03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "ExternalTransition"
+      ],
+      "name": "前廊",
+      "uid": "V01:S04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "Courtyard"
+      ],
+      "name": "前院",
+      "uid": "V01:S05"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "ExternalTransition"
+      ],
+      "name": "南侧外部参照区",
+      "uid": "V01:S06"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "DatasetSnapshot",
+        "Demo",
+        "V01"
+      ],
+      "name": "V01统一原型与来源快照",
+      "uid": "V01:SOURCE"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "SpatialReference",
+        "StreetSegment"
+      ],
+      "name": "代表性完整直线合成街段",
+      "uid": "V01:ST01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "GeometryRepresentation",
+        "GroundProfile"
+      ],
+      "name": "人工地面样点剖面（非屋顶）",
+      "uid": "V01:TP01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "Zone",
+        "DwellingUnit"
+      ],
+      "name": "统一原型宅院整体",
+      "uid": "V01:U01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "西侧外墙",
+      "uid": "V01:W01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "东侧外墙",
+      "uid": "V01:W02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "北侧外墙",
+      "uid": "V01:W03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "西室与堂屋分隔墙",
+      "uid": "V01:W04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "东室与堂屋分隔墙",
+      "uid": "V01:W05"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "西室前墙",
+      "uid": "V01:W06"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "东室前墙",
+      "uid": "V01:W07"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "前院西墙",
+      "uid": "V01:W08"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "前院东墙",
+      "uid": "V01:W09"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "前院南墙",
+      "uid": "V01:W10"
+    }
+  ],
+  "Q02_dimensions": [
+    {
+      "basis": "主屋既有轴网矩形9.6×7.2m；非主体外墙外边线，不含挑檐",
+      "depthM": 7.2,
+      "eaveZM": 3.2666666666666666,
+      "groundZM": 0,
+      "ownEaveHeightM": 3.2666666666666666,
+      "ownEaveHeightWidthRatio": 0.3402777777777778,
+      "uid": "V01:B01",
+      "widthDepthRatio": 1.3333333333333333,
+      "widthM": 9.6
+    },
+    {
+      "basis": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+      "depthM": 4,
+      "eaveZM": 7,
+      "groundZM": 3,
+      "ownEaveHeightM": 4,
+      "ownEaveHeightWidthRatio": 0.6666666666666666,
+      "uid": "V01:B02",
+      "widthDepthRatio": 1.5,
+      "widthM": 6
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 5.58,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S01",
+      "widthDepthRatio": 0.5304659498207887,
+      "widthM": 2.9600000000000004
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 5.46,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S02",
+      "widthDepthRatio": 0.5421245421245421,
+      "widthM": 2.96
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 5.46,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S03",
+      "widthDepthRatio": 0.5421245421245423,
+      "widthM": 2.960000000000001
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 1.5,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S04",
+      "widthDepthRatio": 6.3999999999999995,
+      "widthM": 9.6
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 4.68,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S05",
+      "widthDepthRatio": 2.0000000000000004,
+      "widthM": 9.360000000000001
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 1.38,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S06",
+      "widthDepthRatio": 1.4492753623188408,
+      "widthM": 2
+    }
+  ],
+  "Q03_comparison": [
+    {
+      "cacheAgreement": true,
+      "reference": "V01:B01",
+      "subject": "V01:B02",
+      "uid": "V01:CMP01",
+      "valid": true,
+      "valueM": 3.7333333333333334
+    }
+  ],
+  "Q04_boundary": [
+    {
+      "boundaryId": "E",
+      "courtyard": "V01:S05",
+      "intervals": [
+        0,
+        4.68
+      ],
+      "lengthM": 4.68,
+      "name": "前院东墙",
+      "netContributionM": 4.68,
+      "participant": "V01:W09",
+      "relationshipUid": "V01:R075",
+      "role": "wall-boundary",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [
+        0,
+        0.020000000000000004
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前廊柱1",
+      "netContributionM": 0.020000000000000004,
+      "participant": "V01:C01",
+      "relationshipUid": "V01:BOUND-S05-C01",
+      "role": "column-section",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [
+        2.94,
+        3.22
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前廊柱2",
+      "netContributionM": 0.28000000000000025,
+      "participant": "V01:C02",
+      "relationshipUid": "V01:BOUND-S05-C02",
+      "role": "column-section",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [
+        6.140000000000001,
+        6.42
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前廊柱3",
+      "netContributionM": 0.27999999999999936,
+      "participant": "V01:C03",
+      "relationshipUid": "V01:BOUND-S05-C03",
+      "role": "column-section",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [
+        9.34,
+        9.360000000000001
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前廊柱4",
+      "netContributionM": 0.02000000000000135,
+      "participant": "V01:C04",
+      "relationshipUid": "V01:BOUND-S05-C04",
+      "role": "column-section",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [],
+      "lengthM": 9.360000000000001,
+      "name": "前廊",
+      "netContributionM": 0,
+      "participant": "V01:S04",
+      "relationshipUid": "V01:BOUND-S05-S04",
+      "role": "covered-open-transition",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "S",
+      "courtyard": "V01:S05",
+      "intervals": [
+        0,
+        3.880000000000001,
+        5.4799999999999995,
+        9.360000000000001
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前院南墙",
+      "netContributionM": 7.7600000000000025,
+      "participant": "V01:W10",
+      "relationshipUid": "V01:R076",
+      "role": "wall-boundary",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "W",
+      "courtyard": "V01:S05",
+      "intervals": [
+        0,
+        4.68
+      ],
+      "lengthM": 4.68,
+      "name": "前院西墙",
+      "netContributionM": 4.68,
+      "participant": "V01:W08",
+      "relationshipUid": "V01:R074",
+      "role": "wall-boundary",
+      "sliceZM": 1
+    }
+  ],
+  "Q05_interfaces": [
+    {
+      "interface": "V01:I04",
+      "participant": "V01:S04",
+      "referenceMode": "same-line-local-subsegment",
+      "relationshipUid": "V01:R039",
+      "relativePosition": 0.5,
+      "role": "side-a",
+      "sideMappings": "[{\"absoluteOffsetM\":0.0,\"basis\":\"同线局部\",\"offsetYM\":0.0,\"role\":\"side-a\",\"segmentXY\":[[0.14,0.0],[9.46,0.0]],\"spaceUid\":\"V01:S04\"},{\"absoluteOffsetM\":0.0,\"basis\":\"同线局部\",\"offsetYM\":0.0,\"role\":\"side-b\",\"segmentXY\":[[0.14,0.0],[9.46,0.0]],\"spaceUid\":\"V01:S05\"}]"
+    },
+    {
+      "interface": "V01:I04",
+      "participant": "V01:S05",
+      "referenceMode": "same-line-local-subsegment",
+      "relationshipUid": "V01:R040",
+      "relativePosition": 0.5,
+      "role": "side-b",
+      "sideMappings": "[{\"absoluteOffsetM\":0.0,\"basis\":\"同线局部\",\"offsetYM\":0.0,\"role\":\"side-a\",\"segmentXY\":[[0.14,0.0],[9.46,0.0]],\"spaceUid\":\"V01:S04\"},{\"absoluteOffsetM\":0.0,\"basis\":\"同线局部\",\"offsetYM\":0.0,\"role\":\"side-b\",\"segmentXY\":[[0.14,0.0],[9.46,0.0]],\"spaceUid\":\"V01:S05\"}]"
+    },
+    {
+      "interface": "V01:I05",
+      "participant": "V01:W10",
+      "referenceMode": "host-axis-to-space-boundary-projection",
+      "relationshipUid": "V01:R044",
+      "relativePosition": 0.5000000000000001,
+      "role": "opening-host",
+      "sideMappings": "[{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":0.1200000000000001,\"role\":\"side-a\",\"segmentXY\":[[4.0,-4.68],[5.6,-4.68]],\"spaceUid\":\"V01:S05\"},{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":-0.1200000000000001,\"role\":\"side-b\",\"segmentXY\":[[4.0,-4.92],[5.6,-4.92]],\"spaceUid\":\"V01:S06\"}]"
+    },
+    {
+      "interface": "V01:I05",
+      "participant": "V01:S05",
+      "referenceMode": "host-axis-to-space-boundary-projection",
+      "relationshipUid": "V01:R042",
+      "relativePosition": 0.5000000000000001,
+      "role": "side-a",
+      "sideMappings": "[{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":0.1200000000000001,\"role\":\"side-a\",\"segmentXY\":[[4.0,-4.68],[5.6,-4.68]],\"spaceUid\":\"V01:S05\"},{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":-0.1200000000000001,\"role\":\"side-b\",\"segmentXY\":[[4.0,-4.92],[5.6,-4.92]],\"spaceUid\":\"V01:S06\"}]"
+    },
+    {
+      "interface": "V01:I05",
+      "participant": "V01:S06",
+      "referenceMode": "host-axis-to-space-boundary-projection",
+      "relationshipUid": "V01:R043",
+      "relativePosition": 0.5000000000000001,
+      "role": "side-b",
+      "sideMappings": "[{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":0.1200000000000001,\"role\":\"side-a\",\"segmentXY\":[[4.0,-4.68],[5.6,-4.68]],\"spaceUid\":\"V01:S05\"},{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":-0.1200000000000001,\"role\":\"side-b\",\"segmentXY\":[[4.0,-4.92],[5.6,-4.92]],\"spaceUid\":\"V01:S06\"}]"
+    }
+  ],
+  "Q06_outward_path": [
+    {
+      "crossings": 2,
+      "nodes": [
+        "V01:S06",
+        "V01:S05",
+        "V01:S04"
+      ],
+      "via": [
+        "V01:I05",
+        "V01:I04"
+      ]
+    }
+  ],
+  "Q07_return_path": [
+    {
+      "crossings": 2,
+      "nodes": [
+        "V01:S04",
+        "V01:S05",
+        "V01:S06"
+      ],
+      "via": [
+        "V01:I04",
+        "V01:I05"
+      ]
+    }
+  ],
+  "Q08_local_area_inputs": [
+    {
+      "geometryVersion": "V01-unified-2.1",
+      "groundZM": 0,
+      "polygon": [
+        0,
+        0,
+        9.6,
+        0,
+        9.6,
+        1.5,
+        0,
+        1.5
+      ],
+      "scope": [
+        0,
+        -4.8,
+        9.6,
+        -4.8,
+        9.6,
+        7.2,
+        0,
+        7.2,
+        0,
+        -4.8
+      ],
+      "scopeId": "V01-G0-local-window",
+      "uid": "V01:S04"
+    },
+    {
+      "geometryVersion": "V01-unified-2.1",
+      "groundZM": 0,
+      "polygon": [
+        0.12,
+        -4.68,
+        9.48,
+        -4.68,
+        9.48,
+        0,
+        0.12,
+        0
+      ],
+      "scope": [
+        0,
+        -4.8,
+        9.6,
+        -4.8,
+        9.6,
+        7.2,
+        0,
+        7.2,
+        0,
+        -4.8
+      ],
+      "scopeId": "V01-G0-local-window",
+      "uid": "V01:S05"
+    }
+  ],
+  "Q09_uses": [
+    {
+      "spaceCount": 1,
+      "spaceUids": [
+        "V01:S04"
+      ],
+      "use": "交通与停留"
+    },
+    {
+      "spaceCount": 1,
+      "spaceUids": [
+        "V01:S06"
+      ],
+      "use": "出入参照"
+    },
+    {
+      "spaceCount": 1,
+      "spaceUids": [
+        "V01:S05"
+      ],
+      "use": "户外生活"
+    }
+  ],
+  "Q10_sources": [
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "axisDepthM",
+        "axisFootprintAreaM2",
+        "axisWidthM",
+        "caseId",
+        "coordinateFrame",
+        "depthDirection",
+        "depthM",
+        "eavePointXYZ",
+        "eaveZM",
+        "facingAzimuthDeg",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundPointXYZ",
+        "groundZM",
+        "heightBasis",
+        "measurementBoundaryBasis",
+        "precisionMeaning",
+        "recordStatus",
+        "ridgeHeightM",
+        "ridgePointXYZ",
+        "ridgeZM",
+        "role",
+        "scenario",
+        "storeys",
+        "unit",
+        "wallSupportHeightM",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/0/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:B01"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/0/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:B01"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "caseId",
+        "coordinateFrame",
+        "d03GroundEligibility",
+        "geometryVersion",
+        "legacyUid",
+        "recordStatus",
+        "registrationBasis",
+        "researchScopeStatus",
+        "scenario"
+      ],
+      "locator": "/nodes/42/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:B02"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/42/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:B02"
+    },
+    {
+      "actualSourceVersion": "1.1",
+      "fields": [
+        "depthDirection",
+        "depthM",
+        "eavePointXYZ",
+        "eaveZM",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "groundPointXYZ",
+        "groundZM",
+        "heightBasis",
+        "identityBasis",
+        "measurementBoundaryBasis",
+        "precisionMeaning",
+        "ridgePointXYZ",
+        "ridgeZM",
+        "role",
+        "unit",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/3/properties",
+      "source": "V01:EV09",
+      "sourceVersion": "1.1",
+      "uid": "V01:B02"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "recordStatus",
+        "researchScopeStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/1/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:S01"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "recordStatus",
+        "researchScopeStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/2/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:S02"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "recordStatus",
+        "researchScopeStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/3/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:S03"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "recordStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/4/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:S04"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "analysisSliceZM",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "boundarySegmentsJson",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "enclosureBasis",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "recordStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/5/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:S05"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/5/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:S05"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "recordStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/6/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.1",
+      "uid": "V01:S06"
+    }
+  ],
+  "Q11_roles_and_scope": [
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:U01",
+      "target": "V01:B01",
+      "type": "BOT_HAS_BUILDING"
+    },
+    {
+      "role": null,
+      "scope": "新增侧房在同一合成组织整体，不据此推与前院同层或相通",
+      "source": "V01:U01",
+      "target": "V01:B02",
+      "type": "BOT_HAS_BUILDING"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:B01",
+      "target": "V01:S01",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:B01",
+      "target": "V01:S02",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:B01",
+      "target": "V01:S03",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:B01",
+      "target": "V01:S04",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:U01",
+      "target": "V01:S05",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:C01",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:C02",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:C03",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:C04",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:RF01",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W01",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W02",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W03",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W04",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W05",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W06",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W07",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "courtyard-enclosure-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W08",
+      "target": "V01:U01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "courtyard-enclosure-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W09",
+      "target": "V01:U01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "courtyard-enclosure-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W10",
+      "target": "V01:U01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:RS01",
+      "target": "V01:RF01",
+      "type": "PART_OF"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:RS02",
+      "target": "V01:RF01",
+      "type": "PART_OF"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:S04",
+      "target": "V01:S05",
+      "type": "PLAN_POSITION"
+    }
+  ],
+  "Q12_no_duplicates": [
+    {
+      "courtyardIdentity": 1,
+      "hallIdentity": 1,
+      "legacyActiveNodes": 0
+    }
+  ],
+  "Q13_legacy_topology": [
+    {
+      "count": 12,
+      "type": "AXIS_JOINS"
+    },
+    {
+      "count": 4,
+      "type": "ENVELOPE_INTERSECTS"
+    },
+    {
+      "count": 1,
+      "type": "SHARES_BOUNDARY"
+    }
+  ],
+  "Q14_facade_records": [
+    {
+      "assertionLocator": "/relationships/259",
+      "host": "V01:W03",
+      "localRecords": "[{\"analysisItems\":[\"D04-T01\",\"D04-T02\",\"D04-T03\",\"D04-T04\",\"D04-T05\",\"D04-T06\"],\"candidateRuleVersion\":\"D04-candidate-0.1\",\"colorState\":\"conditional-not-enabled\",\"coordinateFrame\":\"V01-local-XYZ\",\"decorationState\":\"unknown\",\"evidence\":[\"EV01\"],\"exteriorSide\":\"north\",\"geometryVersion\":\"V01-unified-2.1\",\"hostId\":\"W03\",\"id\":\"D04-W03-N\",\"openingIds\":[\"I08\",\"I09\",\"I10\"],\"outlineUZ\":[[0.0,0.0],[9.6,0.0],[9.6,3.6],[0.0,3.6]],\"ownerId\":\"B01\",\"projection\":{\"axisOriginXYZ\":[0.0,7.2,0.0],\"exteriorOriginXYZ\":[0.0,7.32,0.0],\"heightBasis\":\"geometry.topProfile逐点墙顶投影；不是RF01檐口\",\"mode\":\"orthographic-axis-to-parallel-exterior\",\"offsetBasis\":\"墙轴平行偏移半墙厚；当前0.24/2=0.12m，非轴线即实体外表面\",\"offsetM\":0.12,\"outwardNormalXYZ\":[0.0,1.0,0.0],\"uAxisXYZ\":[1.0,0.0,0.0]},\"projectionRangeUZ\":[0.0,0.0,9.6,3.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"仅本墙完整轴长在指定外侧的正投影；不代表全部建筑立面\",\"status\":\"synthetic_assignment\",\"surfaceRegions\":[{\"coordinateFrame\":\"V01-local-XYZ\",\"evidence\":[\"EV01\"],\"geometryVersion\":\"V01-unified-2.1\",\"id\":\"D04-W03-N-surface-1\",\"layer\":\"surface\",\"material\":\"灰泥\",\"rectUZ\":[0.0,0.0,9.6,3.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"明确人工指定的u-z矩形表层条带；不推墙芯\",\"state\":\"known\",\"status\":\"synthetic_assignment\",\"unit\":\"m\"}],\"unit\":\"m\"}]",
+      "owner": "V01:B01",
+      "regionId": "D04-W03-N",
+      "role": "specified-exterior-projection"
+    },
+    {
+      "assertionLocator": "/relationships/260",
+      "host": "V01:W10",
+      "localRecords": "[{\"analysisItems\":[\"D04-T01\",\"D04-T02\",\"D04-T03\",\"D04-T04\",\"D04-T05\",\"D04-T06\"],\"candidateRuleVersion\":\"D04-candidate-0.1\",\"colorState\":\"conditional-not-enabled\",\"coordinateFrame\":\"V01-local-XYZ\",\"decorationState\":\"unknown\",\"evidence\":[\"EV01\"],\"exteriorSide\":\"south\",\"geometryVersion\":\"V01-unified-2.1\",\"hostId\":\"W10\",\"id\":\"D04-W10-S\",\"openingIds\":[\"I05\"],\"outlineUZ\":[[0.0,0.0],[9.6,0.0],[9.6,1.6],[0.0,1.6]],\"ownerId\":\"U01\",\"projection\":{\"axisOriginXYZ\":[0.0,-4.8,0.0],\"exteriorOriginXYZ\":[0.0,-4.92,0.0],\"heightBasis\":\"geometry.topProfile逐点墙顶投影；不是RF01檐口\",\"mode\":\"orthographic-axis-to-parallel-exterior\",\"offsetBasis\":\"墙轴平行偏移半墙厚；当前0.24/2=0.12m，非轴线即实体外表面\",\"offsetM\":0.12,\"outwardNormalXYZ\":[0.0,-1.0,0.0],\"uAxisXYZ\":[1.0,0.0,0.0]},\"projectionRangeUZ\":[0.0,0.0,9.6,1.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"仅本墙完整轴长在指定外侧的正投影；不代表全部建筑立面\",\"status\":\"synthetic_assignment\",\"surfaceRegions\":[{\"coordinateFrame\":\"V01-local-XYZ\",\"evidence\":[\"EV01\"],\"geometryVersion\":\"V01-unified-2.1\",\"id\":\"D04-W10-S-surface-1\",\"layer\":\"surface\",\"material\":\"灰泥\",\"rectUZ\":[0.0,0.0,4.8,1.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"明确人工指定的u-z矩形表层条带；不推墙芯\",\"state\":\"known\",\"status\":\"synthetic_assignment\",\"unit\":\"m\"},{\"coordinateFrame\":\"V01-local-XYZ\",\"evidence\":[\"EV01\"],\"geometryVersion\":\"V01-unified-2.1\",\"id\":\"D04-W10-S-surface-2\",\"layer\":\"surface\",\"material\":null,\"rectUZ\":[4.8,0.0,9.6,1.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"明确人工指定的u-z矩形表层条带；不推墙芯\",\"state\":\"unknown\",\"status\":\"synthetic_assignment\",\"unit\":\"m\"}],\"unit\":\"m\"}]",
+      "owner": "V01:U01",
+      "regionId": "D04-W10-S",
+      "role": "specified-exterior-projection"
+    }
+  ],
+  "Q15_facade_openings": [
+    {
+      "geometry": "{\"a\":[1,7.2],\"b\":[2.2,7.2],\"kind\":\"interface\",\"z\":[1.0,2.0]}",
+      "host": "V01:W03",
+      "opening": "V01:I08",
+      "relation": "V01:R053"
+    },
+    {
+      "geometry": "{\"a\":[4.2,7.2],\"b\":[5.4,7.2],\"kind\":\"interface\",\"z\":[1.0,2.0]}",
+      "host": "V01:W03",
+      "opening": "V01:I09",
+      "relation": "V01:R055"
+    },
+    {
+      "geometry": "{\"a\":[7.4,7.2],\"b\":[8.6,7.2],\"kind\":\"interface\",\"z\":[1.0,2.0]}",
+      "host": "V01:W03",
+      "opening": "V01:I10",
+      "relation": "V01:R057"
+    },
+    {
+      "geometry": "{\"a\":[4,-4.8],\"b\":[5.6,-4.8],\"kind\":\"interface\",\"z\":[0,1.6]}",
+      "host": "V01:W10",
+      "opening": "V01:I05",
+      "relation": "V01:R044"
+    }
+  ],
+  "Q16_collection": [
+    {
+      "building": "V01:B01",
+      "collection": "V01:CG01",
+      "collectionLabels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "dwellingOwners": [
+        "V01:U01"
+      ],
+      "eaveZM": 3.2666666666666666,
+      "footprint": [
+        0,
+        0,
+        9.6,
+        0,
+        9.6,
+        7.2,
+        0,
+        7.2
+      ],
+      "groundZM": 0,
+      "ordinal": 1,
+      "ridgeZM": 5.6,
+      "role": "same-U01-main"
+    },
+    {
+      "building": "V01:B02",
+      "collection": "V01:CG01",
+      "collectionLabels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "dwellingOwners": [
+        "V01:U01"
+      ],
+      "eaveZM": 7,
+      "footprint": [
+        10,
+        -6,
+        14,
+        -6,
+        14,
+        0,
+        10,
+        0
+      ],
+      "groundZM": 3,
+      "ordinal": 2,
+      "ridgeZM": 8,
+      "role": "same-U01-annex"
+    },
+    {
+      "building": "V01:B03",
+      "collection": "V01:CG01",
+      "collectionLabels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "dwellingOwners": [],
+      "eaveZM": 3,
+      "footprint": [
+        0,
+        -12,
+        9.6,
+        -12,
+        9.6,
+        -8.8,
+        0,
+        -8.8
+      ],
+      "groundZM": 0,
+      "ordinal": 3,
+      "ridgeZM": 4.8,
+      "role": "neighbor-dwelling"
+    }
+  ],
+  "Q17_street_sides": [
+    {
+      "geometry": "{\"centerline\":[[0,-6.8],[9.6,-6.8]],\"kind\":\"street_reference\",\"surfaceXY\":[0,-8.8,9.6,-8.8,9.6,-4.92,0,-4.92],\"surfaceZM\":0}",
+      "participant": "V01:W10",
+      "role": "wall-side",
+      "segments": "[{\"basis\":\"W10\",\"rangeM\":[0,4],\"state\":\"entity\"},{\"basis\":\"I05\",\"rangeM\":[4,5.6],\"state\":\"opening\"},{\"basis\":\"W10\",\"rangeM\":[5.6,9.6],\"state\":\"entity\"}]",
+      "side": "left",
+      "street": "V01:ST01",
+      "version": "V01-unified-2.1"
+    },
+    {
+      "geometry": "{\"centerline\":[[0,-6.8],[9.6,-6.8]],\"kind\":\"street_reference\",\"surfaceXY\":[0,-8.8,9.6,-8.8,9.6,-4.92,0,-4.92],\"surfaceZM\":0}",
+      "participant": "V01:B03",
+      "role": "building-side",
+      "segments": "[{\"basis\":\"B03\",\"rangeM\":[0,9.6],\"state\":\"entity\"}]",
+      "side": "right",
+      "street": "V01:ST01",
+      "version": "V01-unified-2.1"
+    }
+  ],
+  "Q18_ground_reference": [
+    {
+      "building": "V01:B02",
+      "geometry": "{\"kind\":\"ground_profile\",\"pointsXYZ\":[[9.6,-6.8,0],[10,-3,3]]}",
+      "objectPoint": [
+        10,
+        -3,
+        3
+      ],
+      "objectPointField": "groundPointXYZ",
+      "pointIndex": 1,
+      "profile": "V01:TP01",
+      "state": "known"
+    }
+  ],
+  "Q19_explicit_local_pair": [
+    {
+      "courtyard": "V01:S05",
+      "courtyardRelationship": "V01:R042",
+      "host": "V01:W10",
+      "hostRelationship": "V01:R044",
+      "localRegion": "D04-W10-S",
+      "owner": "V01:U01",
+      "via": "V01:I05"
+    }
+  ],
+  "Q20_extension_sources": [
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/0/properties",
+      "object": "V01:B01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/42/properties",
+      "object": "V01:B02",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "caseId",
+        "coordinateFrame",
+        "depthDirection",
+        "depthM",
+        "eavePointXYZ",
+        "eaveZM",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometrySourceLocator",
+        "geometrySourceVersion",
+        "geometryVersion",
+        "groundPointXYZ",
+        "groundZM",
+        "heightBasis",
+        "identityBasis",
+        "measurementBoundaryBasis",
+        "precisionMeaning",
+        "recordStatus",
+        "ridgePointXYZ",
+        "ridgeZM",
+        "role",
+        "scenario",
+        "unit",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/51/properties",
+      "object": "V01:B03",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "boundaryVersion",
+        "caseId",
+        "coordinateFrame",
+        "coverage",
+        "geometrySourceLocator",
+        "geometrySourceVersion",
+        "geometryVersion",
+        "inclusionReason",
+        "recordStatus",
+        "scenario",
+        "unit"
+      ],
+      "locator": "/nodes/52/properties",
+      "object": "V01:CG01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/26/properties",
+      "object": "V01:I05",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/29/properties",
+      "object": "V01:I08",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/30/properties",
+      "object": "V01:I09",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/31/properties",
+      "object": "V01:I10",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/5/properties",
+      "object": "V01:S05",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "boundaryVersion",
+        "caseId",
+        "coordinateFrame",
+        "coverage",
+        "geometrySourceLocator",
+        "geometrySourceVersion",
+        "geometryVersion",
+        "recordStatus",
+        "scenario",
+        "surfaceMeaning",
+        "surfaceSource",
+        "surfaceState",
+        "unit",
+        "widthMeaning"
+      ],
+      "locator": "/nodes/53/properties",
+      "object": "V01:ST01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "caseId",
+        "coordinateFrame",
+        "coverage",
+        "geometrySourceLocator",
+        "geometrySourceVersion",
+        "geometryVersion",
+        "groundSource",
+        "groundState",
+        "interpretation",
+        "recordStatus",
+        "scenario",
+        "unit"
+      ],
+      "locator": "/nodes/54/properties",
+      "object": "V01:TP01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/43/properties",
+      "object": "V01:U01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "facadeRecordsJson"
+      ],
+      "locator": "/nodes/9/properties",
+      "object": "V01:W03",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.1",
+      "expectedVersion": "V01-unified-2.1",
+      "fields": [
+        "analysisItems",
+        "facadeRecordsJson"
+      ],
+      "locator": "/nodes/16/properties",
+      "object": "V01:W10",
+      "source": "V01:EV01"
+    }
+  ]
+}

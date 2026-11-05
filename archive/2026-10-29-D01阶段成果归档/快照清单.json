@@ -1,0 +1,185 @@
+{
+  "snapshot_kind": "D01 stage closeout, not new database execution",
+  "created_at": "2026-10-29T10:11:56.017626+00:00",
+  "file_count": 25,
+  "zip_sha256": "9191d574296b9fb043a0c7d01a2f5340df6b3dd9410aeccd6134560b6a936592",
+  "zip_bytes": 107840,
+  "scope": "Existing D01 analytical table/native map and complete D01 graph package; new D02 files excluded. Dependencies remain in current Paper/Zotero.",
+  "files": [
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "size_bytes": 6986,
+      "sha256": "5e89675ea878cfddb3ca63cf6c4eec3e6d434dcb54cf8d398ff3d9db03db882c",
+      "source_before_sha256": "8a89bcb0a7550976dd7b01b744f65fbbe821ff926b992d6056d39d7ccf269c9f",
+      "updated_in_this_closeout": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型图.smm.md",
+      "size_bytes": 31110,
+      "sha256": "0deafd53f59b4ea4bd73ecd4a356fa865cdfc2e6232f64405d5516c23f8af81d",
+      "source_before_sha256": "0deafd53f59b4ea4bd73ecd4a356fa865cdfc2e6232f64405d5516c23f8af81d",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "size_bytes": 28698,
+      "sha256": "7e487e73cc3d3f9106cb6baa87ae1b59c1fc7f97dd028027ed8125c0eb429ea0",
+      "source_before_sha256": "336617207a5b672f8678fa7d2b6f2c9ccbaf42cb653548364e920e30a6d78e6b",
+      "updated_in_this_closeout": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/交付验收.json",
+      "size_bytes": 4289,
+      "sha256": "bb26ecd36a70e734913dd9788866d6c76d480657526998991d9bb46ec5679213",
+      "source_before_sha256": "bb26ecd36a70e734913dd9788866d6c76d480657526998991d9bb46ec5679213",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/仅回退本例.cypher",
+      "size_bytes": 353,
+      "sha256": "b1ffb3dcddb416e8e1b4d06ffb4858af39d21aadf785637f7fa111b65eeb81ea",
+      "source_before_sha256": "b1ffb3dcddb416e8e1b4d06ffb4858af39d21aadf785637f7fa111b65eeb81ea",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/写入回执.json",
+      "size_bytes": 307,
+      "sha256": "f0882585b2f474a76ff74c84cf90ce2d20c5fbd28df82a7f4394c8331427152f",
+      "source_before_sha256": "f0882585b2f474a76ff74c84cf90ce2d20c5fbd28df82a7f4394c8331427152f",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/复核与修正.json",
+      "size_bytes": 3129,
+      "sha256": "206cab4ec5359ae3956cb2e2dd9b236658df4c710f352399fb15e355904a3ca5",
+      "source_before_sha256": "206cab4ec5359ae3956cb2e2dd9b236658df4c710f352399fb15e355904a3ca5",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/审核查询.cypher",
+      "size_bytes": 35625,
+      "sha256": "dd63724106e29872548d7084e01e017c7a708aa894a72e23f54ae8285f1a8866",
+      "source_before_sha256": "dd63724106e29872548d7084e01e017c7a708aa894a72e23f54ae8285f1a8866",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/导入.cypher",
+      "size_bytes": 574,
+      "sha256": "57f06e664d7d3852189cd5d7f40a46578e4df25f32eb401e55d9f3255f7026b0",
+      "source_before_sha256": "57f06e664d7d3852189cd5d7f40a46578e4df25f32eb401e55d9f3255f7026b0",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/导入参数.json",
+      "size_bytes": 23542,
+      "sha256": "f3cd19193c8e371c6ed00fc2fdd194989bafc3ba7bcb4b0490df7940371dbcf3",
+      "source_before_sha256": "f3cd19193c8e371c6ed00fc2fdd194989bafc3ba7bcb4b0490df7940371dbcf3",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/数据库读回.json",
+      "size_bytes": 57799,
+      "sha256": "23d4295ba9c30050809d868b99eb9bae8acd6a8a42ecf8641e45fdbfdaa0ca98",
+      "source_before_sha256": "23d4295ba9c30050809d868b99eb9bae8acd6a8a42ecf8641e45fdbfdaa0ca98",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/查询核验.json",
+      "size_bytes": 3344,
+      "sha256": "ae1b2b608b4c5d430ea783bb07a440f88afea90e08577cf9148c9e2649687e23",
+      "source_before_sha256": "ae1b2b608b4c5d430ea783bb07a440f88afea90e08577cf9148c9e2649687e23",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/查询返回.json",
+      "size_bytes": 66654,
+      "sha256": "67717242aaaddd5ccec9e4caae6bcea0832d7d582c99cc974ed0d1c82f8c87d8",
+      "source_before_sha256": "67717242aaaddd5ccec9e4caae6bcea0832d7d582c99cc974ed0d1c82f8c87d8",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/离线视图检查.json",
+      "size_bytes": 2909,
+      "sha256": "ac5f995aaa50979ccd8a2e9ad1a9af8b85e6ee4cae3376c65a7f41209adc4d02",
+      "source_before_sha256": "ac5f995aaa50979ccd8a2e9ad1a9af8b85e6ee4cae3376c65a7f41209adc4d02",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/编译检查.json",
+      "size_bytes": 583,
+      "sha256": "16c5422eff155dc079e1b84a0269d4b136b3981a4f68bde6cd52136015cdcb85",
+      "source_before_sha256": "16c5422eff155dc079e1b84a0269d4b136b3981a4f68bde6cd52136015cdcb85",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/视图查询核验.json",
+      "size_bytes": 94054,
+      "sha256": "423a4c56b95a382f58a43ccb4bc9804fd94d7d9caa67809ee6fd904804ffcc1a",
+      "source_before_sha256": "423a4c56b95a382f58a43ccb4bc9804fd94d7d9caa67809ee6fd904804ffcc1a",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/迁移.cypher",
+      "size_bytes": 2302,
+      "sha256": "bbe6d12ce93cb197b61a6b03e3729c6d80f0dcb9319139931c4901811e9c8e51",
+      "source_before_sha256": "bbe6d12ce93cb197b61a6b03e3729c6d80f0dcb9319139931c4901811e9c8e51",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/迁移保护反例核验.json",
+      "size_bytes": 1472,
+      "sha256": "90a9e2e0c8afb05e388ea7b1eda0400a4eaf49adc81d2cff23523973ce9f94fe",
+      "source_before_sha256": "90a9e2e0c8afb05e388ea7b1eda0400a4eaf49adc81d2cff23523973ce9f94fe",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/迁移参数.json",
+      "size_bytes": 49048,
+      "sha256": "ffebb089309d37fd9102d21537ac426905a4f283036acf95cfe38840b6e5fad5",
+      "source_before_sha256": "ffebb089309d37fd9102d21537ac426905a4f283036acf95cfe38840b6e5fad5",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/迁移映射与字段核验.json",
+      "size_bytes": 9766,
+      "sha256": "0ba8e4eed7c2d2139d931598c7f430a40065e4c67fc330723517e85be96bb861",
+      "source_before_sha256": "0ba8e4eed7c2d2139d931598c7f430a40065e4c67fc330723517e85be96bb861",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/迁移状态.json",
+      "size_bytes": 919,
+      "sha256": "b56cda1c8e107e01acff239b0004b0a4a6fd83c707594493a5a3b404318d7e9e",
+      "source_before_sha256": "b56cda1c8e107e01acff239b0004b0a4a6fd83c707594493a5a3b404318d7e9e",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/Neo4j/逐记录核验.json",
+      "size_bytes": 3068,
+      "sha256": "da80419422677a370d528c1ceb06201295e8c02d1a6f821c1396be228907527a",
+      "source_before_sha256": "da80419422677a370d528c1ceb06201295e8c02d1a6f821c1396be228907527a",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "size_bytes": 17448,
+      "sha256": "b53f0ecdb872701cb6b55726e93962cffe0eaf75cc3332f5e9b01e1a0b54f39d",
+      "source_before_sha256": "a0e694b30405f7b2595d9b8e4b34b00dc62eff8f52adc2e2cd0cfa1d21390101",
+      "updated_in_this_closeout": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/审核视图.html",
+      "size_bytes": 101824,
+      "sha256": "a0e962f9d9e2a2db181fb99f20daf3ba5aabea925457e6c7ef096400bc57f0db",
+      "source_before_sha256": "a0e962f9d9e2a2db181fb99f20daf3ba5aabea925457e6c7ef096400bc57f0db",
+      "updated_in_this_closeout": false
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+      "size_bytes": 25091,
+      "sha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+      "source_before_sha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+      "updated_in_this_closeout": false
+    }
+  ]
+}

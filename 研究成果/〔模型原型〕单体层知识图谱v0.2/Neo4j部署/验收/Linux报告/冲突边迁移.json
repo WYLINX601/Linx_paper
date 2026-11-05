@@ -1,0 +1,20 @@
+{
+  "query": "MATCH (a:KGItem:Assertion:Literature {uid:'kgv02:literature:assertion:F_1_roof_layered'})-[old:EVIDENCED_BY {linkId:'F_1_roof_layered:EVIDENCED_BY:kgv02:literature:evidence:E_COMMON'}]->(ev:KGItem:Evidence:Literature {uid:'kgv02:literature:evidence:E_COMMON'}) DELETE old MERGE (a)-[:CONFLICTING_EVIDENCE {linkId:'F_1_roof_layered:CONFLICTING_EVIDENCE:kgv02:literature:evidence:E_COMMON'}]->(ev) RETURN count(*) AS migrated",
+  "result": [
+    {
+      "columns": [
+        "migrated"
+      ],
+      "data": [
+        {
+          "row": [
+            1
+          ],
+          "meta": [
+            null
+          ]
+        }
+      ]
+    }
+  ]
+}

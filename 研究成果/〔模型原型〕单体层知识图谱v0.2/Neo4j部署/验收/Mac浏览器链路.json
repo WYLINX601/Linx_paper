@@ -1,0 +1,7 @@
+{
+  "testedAt": "2026-10-22T12:26:21.702177+00:00",
+  "status": "passed",
+  "websocketUpgrade": "HTTP/1.1 101 Switching Protocols",
+  "browserLoginPage": "visibly loaded in Chrome after exact-IP proxy bypass",
+  "browserAuthenticatedGraphInteraction": "not performed; credentials verified through HTTP and Bolt separately"
+}

@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (b:V01)-[r:REFERENCES_GROUND]->(p:V01) RETURN b.uid AS building,p.uid AS profile,p.geometryJson AS geometry,p.groundState AS state,r.pointIndex AS pointIndex,r.objectPointField AS objectPointField,b.groundPointXYZ AS objectPoint ORDER BY building",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"building\": \"V01:B02\",\n    \"geometry\": \"{\\\"kind\\\":\\\"ground_profile\\\",\\\"pointsXYZ\\\":[[9.6,-6.8,0],[10,-3,3]]}\",\n    \"objectPoint\": [\n      10,\n      -3,\n      3\n    ],\n    \"objectPointField\": \"groundPointXYZ\",\n    \"pointIndex\": 1,\n    \"profile\": \"V01:TP01\",\n    \"state\": \"known\"\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:50:25.043476+08:00"
+}

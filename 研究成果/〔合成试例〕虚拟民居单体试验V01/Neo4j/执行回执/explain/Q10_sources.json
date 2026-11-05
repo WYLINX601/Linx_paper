@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (n:V01)-[r:HAS_SOURCE]->(s) WHERE n.uid IN $dimensionUids RETURN n.uid AS uid,s.uid AS source,r.fields AS fields,r.locator AS locator,r.sourceVersion AS sourceVersion,s.sourceVersion AS actualSourceVersion ORDER BY uid,source",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-30T20:54:35.621127+08:00"
+}

@@ -1,0 +1,186 @@
+{
+  "version": "0.2",
+  "date": "2026-10-22",
+  "authority": "用户授权优化并要求标注依据和事实记录；所有本地字段/约束是本研究设计，不冒充六篇共同提出的本体。",
+  "changes": [
+    {
+      "id": "O01",
+      "title": "空间划分可以依据建筑意义",
+      "before": "Space定义偏概括，未显式记录连续空间的分界依据。",
+      "after": "补充语义分界与新空间的划分体系、依据、状态；堂屋和前廊可以保持两个节点。",
+      "basisRefs": [
+        "ISM01",
+        "ISM02",
+        "ISM03",
+        "BOT01"
+      ],
+      "rationale": "把用户已确认的空间理解转成可检查规则。",
+      "implementation": "Space定义、spaceIdentityContract、space_division_basis；演示S_HALL/S_VERANDA",
+      "status": "模型与合成示例已实现",
+      "validationBoundary": "真实民居如何划分仍需平面、现场及建筑学判断。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O02",
+      "title": "增加可描述的空间界面",
+      "before": "只有空间—空间边，难以记录某一个连接位置的性质。",
+      "after": "新增Interface和interface_of、realized_by；开口与墙门实体分开。",
+      "basisRefs": [
+        "BOT01",
+        "BOT03",
+        "ISM03",
+        "ISM04"
+      ],
+      "rationale": "界面承载分隔、开口与连接情况，允许无实体门框的分界。",
+      "implementation": "Interface及两种演示界面",
+      "status": "模型与合成示例已实现",
+      "validationBoundary": "PseudoOpening与Interface为本研究部分对应，未宣告外部标准等价。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O03",
+      "title": "邻接、通行、相交与分隔分别表达",
+      "before": "adjacent_to包含“共享或紧邻”两种含义；通行边缺少界面与情境。",
+      "after": "邻接收紧为共享边界；通行必带via及情境；新增相交、界面分隔与开口状态。",
+      "basisRefs": [
+        "BOT02",
+        "BOT03",
+        "ISM03"
+      ],
+      "rationale": "防止靠近即邻接、邻接即通行、无隔断即随时可通过。",
+      "implementation": "4项界面特征、intersects_space、direct_access_to限定；负例检查",
+      "status": "模型与查询规则已实现",
+      "validationBoundary": "相交关系尚无真实实例；方向、容差和时点须实际采集。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O04",
+      "title": "名称、用途、围合与形态分轴",
+      "before": "已有名称/用途/形态，但围合程度和多值约束不明确。",
+      "after": "保留原词，补围合程度、层位；用途明确允许多值，不强制唯一总类型。",
+      "basisRefs": [
+        "H04",
+        "H09",
+        "H10",
+        "ISM01",
+        "ISM02"
+      ],
+      "rationale": "前廊可同时是名称、半开放空间及交通/停留场所。",
+      "implementation": "features与示例两个space_use断言",
+      "status": "字段与合成示例已实现",
+      "validationBoundary": "不把徽州类别直接认作景宁地方分类，也不把Hall译作堂屋。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O05",
+      "title": "术语对齐与实体去重分开",
+      "before": "仅以文字说明保留原词与源内身份，缺少结构化对应规则。",
+      "after": "增加词表与映射状态、实体身份核对契约；相近词不自动合并建筑。",
+      "basisRefs": [
+        "H04",
+        "F22",
+        "M60"
+      ],
+      "rationale": "便于跨文献比较，同时保留不同地域、文献的用词差异。",
+      "implementation": "vocabulary两条来源用语；entityAlignmentContract",
+      "status": "小词表与核对结构已实现",
+      "validationBoundary": "未开展全库词汇归并或跨文献建筑去重；Hall与堂屋禁止自动等同。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O06",
+      "title": "明确概念、实例、组成和属性的落位",
+      "before": "已有类型和判断分离，但缺少完整存储映射说明。",
+      "after": "显式列出classes、nodes、object/value断言、classification及体系内broaderType的不同职责。",
+      "basisRefs": [
+        "H05",
+        "H06",
+        "H07",
+        "F06",
+        "F21",
+        "F25",
+        "M17"
+      ],
+      "rationale": "避免把“某种空间”“某个房间”“房间的组成”混为一条层级关系。",
+      "implementation": "storageMapping与关系域检查",
+      "status": "规则与现有案例检查已实现",
+      "validationBoundary": "a/o是该文的分类关系，不能直接照搬成OWL数据属性；未部署Neo4j/OWL。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O07",
+      "title": "将优化依据与建筑事实分别追溯",
+      "before": "v0.1断言已有页码、归属、时点与冲突；模型优化过程未独立留账。",
+      "after": "每项优化链接文献证据、前后差异与实现位置；数据集区分文献案例和合成演示，保留旧冲突。",
+      "basisRefs": [
+        "F22",
+        "M60",
+        "BOT03"
+      ],
+      "rationale": "不把方法论文作为某座民居空间事实的证明；新增事实须有来源、取得方法与时点。",
+      "implementation": "优化依据.json、优化记录.json、迁移核对；assertionContract.contextRules",
+      "status": "记录与隔离已实现",
+      "validationBoundary": "本项详细追溯结构是研究者新增规则；论文未提供同样完整的追溯方案。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O08",
+      "title": "分析相似作为有输入的派生结果",
+      "before": "已有类型判断，没有相似计算的来源结构。",
+      "after": "新增AnalysisRun与similar_to限定；记录输入、维度、方法版本、参数和缺失处理。",
+      "basisRefs": [
+        "W11",
+        "W26",
+        "W31"
+      ],
+      "rationale": "区分分析相似与空间邻接、文化成因，支持后续可复算比较。",
+      "implementation": "AnalysisRun、analysisRunContract、similar_to",
+      "status": "仅结构与约束已实现",
+      "validationBoundary": "未计算相似度或聚类；不迁移村落研究的15近邻和30%/70%阈值。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O09",
+      "title": "细化三维区域关联记录",
+      "before": "GeometryRegion只有版本/坐标/区域ID的概括接口。",
+      "after": "补资产位置、版本/哈希、坐标系/单位、区域选择器、对应方法、状态和覆盖范围；界面也可关联。",
+      "basisRefs": [
+        "BOT04",
+        "H29"
+      ],
+      "rationale": "将语义对象与几何文件的关系变成可核对记录。",
+      "implementation": "geometryContract、anchored_to扩展",
+      "status": "仅接口与约束已实现",
+      "validationBoundary": "没有加载真实三维资产；完整区域关联是本研究设计，未被六篇直接验证。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    },
+    {
+      "id": "O10",
+      "title": "用可核对的问题检验模型",
+      "before": "v0.1已有构造类型与来源查询，空间查询因无资料而为空。",
+      "after": "增加独立空间示例及查询：开放分界、相邻但不能穿越、多用途、来源回溯、无数据拒绝推断。",
+      "basisRefs": [
+        "M31",
+        "M57",
+        "M64",
+        "BOT03",
+        "ISM03"
+      ],
+      "rationale": "让每项结构改动对应实际可检查的回答，并保留资料不足状态。",
+      "implementation": "检查图谱.py、验证结果.json、查询与验收.md、浏览图",
+      "status": "查询与防错检验实现后记录实际结果",
+      "validationBoundary": "合成查询不等于真实样本有效性、端到端问答评估或用户研究。",
+      "attribution": "reader_cross_paper_modeling",
+      "recordedAt": "2026-10-22"
+    }
+  ]
+}

@@ -1,0 +1,283 @@
+[
+  {
+    "test": "baseline",
+    "result": {
+      "valid": true,
+      "payloadEqual": true,
+      "analysisEqual": true,
+      "D06Items": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05"
+      ],
+      "counts": [
+        55,
+        56,
+        285
+      ],
+      "D04": [
+        {
+          "region": "D04-W03-N",
+          "net": 30.959999999999997,
+          "known": 30.959999999999997,
+          "unknown": 0.0
+        },
+        {
+          "region": "D04-W10-S",
+          "net": 12.8,
+          "known": 6.4,
+          "unknown": 6.4
+        }
+      ]
+    }
+  },
+  {
+    "test": "old_identity_semantics",
+    "result": {
+      "oldGeometryAndIdentityUnchanged": true,
+      "oldRelationshipSemanticChanges": [],
+      "changedPropertyKeys": [
+        "analysisItems",
+        "areaScopeVersion",
+        "frameVersion",
+        "geometryVersion",
+        "inputGeometryVersion",
+        "ruleVersion",
+        "sourceVersion"
+      ],
+      "nonVersionChanges": [
+        [
+          "DIM-R01",
+          "ruleVersion",
+          "V01-unified-2.0",
+          "V01-unified-2.1"
+        ],
+        [
+          "DIM-R02",
+          "ruleVersion",
+          "V01-unified-2.0",
+          "V01-unified-2.1"
+        ],
+        [
+          "DIM-R03",
+          "ruleVersion",
+          "V01-unified-2.0",
+          "V01-unified-2.1"
+        ],
+        [
+          "D03-R01",
+          "ruleVersion",
+          "V01-unified-2.0",
+          "V01-unified-2.1"
+        ]
+      ]
+    }
+  },
+  {
+    "test": "zero_net_material_changes_classification",
+    "result": {
+      "compilerAccepted": true,
+      "materialAreasM2": {
+        "灰泥": 30.959999999999997,
+        "砖": 0.0
+      },
+      "materialState": "known",
+      "completeMaterialCount": 2,
+      "classification": [
+        {
+          "unitId": "D04-W03-N",
+          "schemeId": "complete-surface-material",
+          "ruleVersion": "D06-local-candidate-0.1",
+          "inputVersion": "V01-unified-2.1",
+          "state": "candidate-assigned",
+          "matches": [
+            "multiple-materials-complete-domain"
+          ],
+          "reason": "本研究候选几何结构规则；不是经样本支持的建筑类型",
+          "inputFields": {
+            "completeMaterialCount": 2
+          },
+          "locator": "/nodes/9/properties/facadeRecords"
+        }
+      ]
+    }
+  },
+  {
+    "test": "new_geometry_wrong_locator_version",
+    "result": {
+      "before": {
+        "geometrySourceLocator": "/nodes/51/geometry",
+        "geometrySourceVersion": "V01-unified-2.1"
+      },
+      "compilerAccepted": true
+    }
+  },
+  {
+    "test": "missing_actual_facade_rejected",
+    "exception": "ValueError",
+    "message": "Missing extension field W03.facadeRecords"
+  },
+  {
+    "test": "missing_actual_B03_eave_rejected",
+    "exception": "ValueError",
+    "message": "Missing extension field B03.eaveZM"
+  },
+  {
+    "test": "extra_actual_pair_relationship",
+    "result": {
+      "extraActualPairIgnored": true,
+      "localPairs": [
+        {
+          "pairId": "D06-P01",
+          "facadeUnitId": "D04-W10-S",
+          "facadeOwnerId": "U01",
+          "courtyardId": "S05",
+          "viaInterfaceId": "I05",
+          "supportingRelationshipIds": [
+            "R042",
+            "R044"
+          ],
+          "facadeMaterialState": "unknown",
+          "courtyardCoverState": "uncovered",
+          "combinationState": "partial-unknown",
+          "meaning": "同一院门分别定位院墙外侧局部和前院边界；不配对主屋北墙与前院",
+          "buildingFrequency": null,
+          "noCartesianProduct": true
+        }
+      ],
+      "rehydratedRelationshipCount": 285,
+      "actualRelationshipCount": 286
+    }
+  },
+  {
+    "test": "actual_C01_geometry_vs_rawModel",
+    "result": {
+      "geometry": {
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "height": 3.6,
+        "kind": "column",
+        "radius": 1.0
+      },
+      "enclosureUnchanged": true,
+      "enclosureRatio": 0.6310541310541311
+    }
+  },
+  {
+    "test": "missing_actual_C01_geometry",
+    "result": {
+      "enclosureUnchanged": true
+    }
+  },
+  {
+    "test": "wrong_facade_source_pointer_rejected",
+    "exception": "ValueError",
+    "message": "Unsupported extension field W03.facadeRecords"
+  },
+  {
+    "test": "actual_material_recomputed",
+    "result": {
+      "wholeShares": {
+        "灰泥": 1.0
+      },
+      "jointValidIds": [
+        "D04-W03-N",
+        "D04-W10-S"
+      ],
+      "rawSnapshotUnchanged": true
+    }
+  },
+  {
+    "test": "both_material_unknown_joint_empty",
+    "result": {
+      "joint": [],
+      "wholeFrequency": null,
+      "localPairs": 1
+    }
+  },
+  {
+    "test": "missing_facade_source_rejected",
+    "exception": "ValueError",
+    "message": "Unsupported extension field W03.facadeRecords"
+  },
+  {
+    "test": "stale_facade_version_rejected",
+    "exception": "ValueError",
+    "message": "incompatible geometryVersion"
+  },
+  {
+    "test": "wrong_explicit_pair_rejected",
+    "exception": "ValueError",
+    "message": "Unreviewed local pairing"
+  },
+  {
+    "test": "classification_unknown_unmatched_conflict",
+    "result": {
+      "None": "unknown",
+      "0": "known-unmatched",
+      "1": "candidate-assigned",
+      "3": "candidate-assigned",
+      "conflict": "rule-conflict"
+    }
+  },
+  {
+    "test": "postwrite_exact_positive",
+    "result": true
+  },
+  {
+    "test": "postwrite_exact_reject_property",
+    "exception": "ValueError",
+    "message": "Properties differ V01:B03"
+  },
+  {
+    "test": "postwrite_exact_reject_type",
+    "exception": "ValueError",
+    "message": "Native type differs V01:B03.eaveZM: FLOAT NOT NULL vs INTEGER NOT NULL"
+  },
+  {
+    "test": "postwrite_exact_reject_extra-edge",
+    "exception": "ValueError",
+    "message": "Identity mismatch relationships"
+  },
+  {
+    "test": "hashes_after",
+    "result": {
+      "candidate/model.json": true,
+      "candidate/extension-map.json": true,
+      "candidate/analysis.json": true,
+      "candidate/payload.json": true,
+      "tools/viewer.base.html": true,
+      "tools/build_review.py.provenance.json": true,
+      "tools/compile_model.py": true,
+      "tools/queries.py.provenance.json": true,
+      "tools/d05.py": true,
+      "tools/d04.py": true,
+      "tools/run_graph.py.provenance.json": true,
+      "tools/compile_model.py.provenance.json": true,
+      "tools/viewer.base.html.provenance.json": true,
+      "tools/viewer.template.html.provenance.json": true,
+      "tools/viewer.template.html": true,
+      "tools/run_graph.py": true,
+      "tools/mcp_client.py": true,
+      "tools/queries.py": true,
+      "tools/d06.py": true,
+      "tools/mcp_client.py.provenance.json": true,
+      "tools/extension-ui.js": true,
+      "tools/analyze.py.provenance.json": true,
+      "tools/projection.py": true,
+      "tools/build_review.py": true,
+      "tools/analyze.py": true,
+      "originals/model.json": true,
+      "originals/d06.md": true,
+      "originals/bot.md": true,
+      "originals/d04.md": true,
+      "originals/optimization.md": true,
+      "originals/d05.md": true
+    }
+  }
+]

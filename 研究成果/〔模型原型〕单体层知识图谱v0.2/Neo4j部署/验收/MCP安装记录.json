@@ -1,0 +1,129 @@
+{
+  "installedAt": "2026-10-22T13:00:46.520511+00:00",
+  "skillsRepository": "https://github.com/neo4j-contrib/neo4j-skills",
+  "skillsCommit": "39247b9c4ab20062aefd1cfe83c040167ef9ee83",
+  "skills": [
+    {
+      "name": "neo4j-mcp-skill",
+      "path": "/Users/wangyuelin/.codex/skills/neo4j-mcp-skill",
+      "bytes": 12437,
+      "files": {
+        "README.md": "4b1ecb082e1f43464790656791f542fb2167a1ba1e06f36373bb1bb689096c4e",
+        "SKILL.md": "f95d164c0fd56433d3c7a5ad4af66f068d8c5c28b7275f5c77618433d6a25f4b"
+      }
+    },
+    {
+      "name": "neo4j-modeling-skill",
+      "path": "/Users/wangyuelin/.codex/skills/neo4j-modeling-skill",
+      "bytes": 16714,
+      "files": {
+        "README.md": "710b4f9bf68546245381228f10b1ffe61f66a4723c045ebd11592b941f6dd59a",
+        "SKILL.md": "6430c84a35c4ad383c1da5272a042cc8931e4dac87ccffa56713bb293e4a2bbe"
+      }
+    },
+    {
+      "name": "neo4j-import-skill",
+      "path": "/Users/wangyuelin/.codex/skills/neo4j-import-skill",
+      "bytes": 29854,
+      "files": {
+        "README.md": "bd51da7027ad65a7132913b35e6258e6038645187754e6a167e5014037128945",
+        "SKILL.md": "c664abeb1ed57d18d98c2c1bdcbaa2db0a5167dd850f50d4d2c0f91b03246b73",
+        "references/post-import-refactoring.md": "28bcb9d162d2a5773a993e163ddda5f7a7dc281ca40cdf1a546c3878b5c273d3",
+        "references/data-importer-gui.md": "fa0f1bb30759f3ae2c3d8f05caac52415a5b24c4e654a665a1fff2dff65d795d",
+        "references/driver-batch-write.md": "5d2aaec79267b6a1ed0924fb366e3e6e8b1261886dee75dfbc0c5e34abf62d1a"
+      }
+    }
+  ],
+  "mcp": {
+    "version": "v1.6.1",
+    "source": "https://github.com/neo4j/mcp/releases/tag/v1.6.1",
+    "archiveSha256": "0d1dd091bd49c0af9e03fdb30d3548417602f5476d27ce968ea8694f80c3f72f",
+    "transport": "SSH stdio",
+    "readOnly": true,
+    "telemetry": false
+  },
+  "codex": {
+    "startup_timeout_sec": 30,
+    "tool_timeout_sec": 60,
+    "enabled_tools": [
+      "get-schema",
+      "read-cypher"
+    ],
+    "command": "/usr/bin/ssh",
+    "args": [
+      "-T",
+      "-o",
+      "BatchMode=yes",
+      "linx-HP-EliteDesk-880-G6-Tower-PC",
+      "/usr/bin/python3",
+      "/home/linx/.local/share/neo4j-paper/tools/MCP启动.py"
+    ]
+  },
+  "authorization": {
+    "APOC": "用户明确授权最小权限配置并重启",
+    "unrestricted": "apoc.meta.schema",
+    "writeTool": "Automatic review rejected persistent write access; read-only alternative configured"
+  },
+  "boundaries": [
+    "Current chat tool catalog has not hot-loaded the new MCP; actual tests used JSON-RPC over the exact configured SSH stdio command",
+    "Official skill content preserved; Neo4j 5.26 Community compatibility notes documented separately"
+  ],
+  "apoc": {
+    "status": "passed",
+    "apocJar": "/home/linx/.local/share/neo4j-paper/runtime/neo4j-community-5.26.32/plugins/apoc-5.26.32-core.jar",
+    "apocSha256": "ea6f46b541c473ab79fff4359524027a462d031f21048b8a8acbceb4fa46a92f",
+    "configBackup": "/home/linx/.config/neo4j-paper/conf/neo4j.conf.before-mcp-20261022",
+    "unrestrictedProcedure": "apoc.meta.schema",
+    "queryResults": [
+      {
+        "columns": [
+          "apocVersion"
+        ],
+        "data": [
+          {
+            "row": [
+              "5.26.32"
+            ],
+            "meta": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "columns": [
+          "schemaEntries"
+        ],
+        "data": [
+          {
+            "row": [
+              39
+            ],
+            "meta": [
+              null
+            ]
+          }
+        ]
+      },
+      {
+        "columns": [
+          "name",
+          "mode"
+        ],
+        "data": [
+          {
+            "row": [
+              "apoc.meta.schema",
+              "DEFAULT"
+            ],
+            "meta": [
+              null,
+              null
+            ]
+          }
+        ]
+      }
+    ],
+    "testedAt": "2026-10-22T12:55:53.525436+00:00"
+  }
+}

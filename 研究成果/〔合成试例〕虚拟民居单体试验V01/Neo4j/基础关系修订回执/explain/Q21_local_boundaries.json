@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (s:V01)-[r:BOUNDARY_PARTICIPANT]->(e:V01) RETURN s.uid AS space,e.uid AS participant,r.uid AS relationshipUid,r.localRangesJson AS localRanges,r.localNetLengthM AS localLengthM,r.analysisSliceZM AS sliceZM,r.localGeometryVersion AS version,r.assertionSourceUid AS sourceUid,r.assertionLocator AS sourceLocator ORDER BY space,participant",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.884548+08:00"
+}

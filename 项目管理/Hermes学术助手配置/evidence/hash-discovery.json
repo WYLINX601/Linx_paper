@@ -1,0 +1,323 @@
+{
+  "manifest_version": 1,
+  "portability_removals": [
+    {
+      "skill": "academic-research-suite",
+      "path": "ars/scripts/check_spec_consistency.py",
+      "origin": "/Users/wangyuelin/.codex/skills/academic-research-suite/ars/scripts/check_spec_consistency.py",
+      "source_sha256": "776b4ccc154a859a6f5246c6e7920cd396c74b186eae04d39806360e65f9895c",
+      "staged_sha256": "776b4ccc154a859a6f5246c6e7920cd396c74b186eae04d39806360e65f9895c",
+      "size_bytes": 88441,
+      "reason": "Upstream repository-only CI/development checker depends on source checkout metadata or excluded fixtures; not part of operational Hermes skill runtime."
+    },
+    {
+      "skill": "academic-research-suite",
+      "path": "ars/scripts/check_claim_standing_candidate_ledger_integration.py",
+      "origin": "/Users/wangyuelin/.codex/skills/academic-research-suite/ars/scripts/check_claim_standing_candidate_ledger_integration.py",
+      "source_sha256": "bbc28a2f8946ee64ba990e811381beea7cd4b2e0776d431a7552d65f47e811da",
+      "staged_sha256": "bbc28a2f8946ee64ba990e811381beea7cd4b2e0776d431a7552d65f47e811da",
+      "size_bytes": 19653,
+      "reason": "Upstream repository-only CI/development checker depends on source checkout metadata or excluded fixtures; not part of operational Hermes skill runtime."
+    }
+  ],
+  "expected_skill_count": 31,
+  "discovered_direct_skill_count": 32,
+  "discovered_direct_skills": [
+    "academic-research-suite",
+    "academic-workspace",
+    "architectural-element-decomposition",
+    "documents",
+    "drawio-skill",
+    "jupyter-notebook",
+    "literature-review",
+    "nature-academic-search",
+    "nature-data",
+    "nature-figure",
+    "nature-paper2ppt",
+    "nature-polishing",
+    "nature-response",
+    "nature-reviewer",
+    "nature-shared",
+    "nature-writing",
+    "neo4j-import-skill",
+    "neo4j-mcp-skill",
+    "neo4j-modeling-skill",
+    "obsidian-doc-finalize",
+    "obsidian-knowledge-manager",
+    "obsidian-mindmap",
+    "paper-methods-comparison",
+    "pdf",
+    "presentations",
+    "project-context-workflow",
+    "read-research-paper",
+    "scientific-brainstorming",
+    "scientific-visualization",
+    "spreadsheets",
+    "statistical-analysis",
+    "transcribe"
+  ],
+  "discovered_recursive_skill_count": 33,
+  "discovered_recursive_skills": [
+    "academic-research-suite",
+    "academic-workspace",
+    "architectural-element-decomposition",
+    "autonomous-ai-agents/hermes-agent",
+    "documents",
+    "drawio-skill",
+    "jupyter-notebook",
+    "literature-review",
+    "nature-academic-search",
+    "nature-data",
+    "nature-figure",
+    "nature-paper2ppt",
+    "nature-polishing",
+    "nature-response",
+    "nature-reviewer",
+    "nature-shared",
+    "nature-writing",
+    "neo4j-import-skill",
+    "neo4j-mcp-skill",
+    "neo4j-modeling-skill",
+    "obsidian-doc-finalize",
+    "obsidian-knowledge-manager",
+    "obsidian-mindmap",
+    "paper-methods-comparison",
+    "pdf",
+    "presentations",
+    "project-context-workflow",
+    "read-research-paper",
+    "scientific-brainstorming",
+    "scientific-visualization",
+    "spreadsheets",
+    "statistical-analysis",
+    "transcribe"
+  ],
+  "recursive_only": [
+    "autonomous-ai-agents/hermes-agent"
+  ],
+  "undiscovered_expected": [],
+  "unexpected_direct_discovered": [
+    "academic-workspace"
+  ],
+  "all_expected_hashes_match": true,
+  "all_non_manifest_files_absent": true,
+  "skills": {
+    "academic-research-suite": {
+      "checked": 588,
+      "expected": 588,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "architectural-element-decomposition": {
+      "checked": 2,
+      "expected": 2,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "drawio-skill": {
+      "checked": 35,
+      "expected": 35,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "jupyter-notebook": {
+      "checked": 11,
+      "expected": 11,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "literature-review": {
+      "checked": 12,
+      "expected": 12,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-academic-search": {
+      "checked": 43,
+      "expected": 43,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-data": {
+      "checked": 14,
+      "expected": 14,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-figure": {
+      "checked": 126,
+      "expected": 126,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-paper2ppt": {
+      "checked": 18,
+      "expected": 18,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-polishing": {
+      "checked": 32,
+      "expected": 32,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-response": {
+      "checked": 24,
+      "expected": 24,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-reviewer": {
+      "checked": 15,
+      "expected": 15,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-shared": {
+      "checked": 19,
+      "expected": 19,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "nature-writing": {
+      "checked": 75,
+      "expected": 75,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "neo4j-import-skill": {
+      "checked": 5,
+      "expected": 5,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "neo4j-mcp-skill": {
+      "checked": 2,
+      "expected": 2,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "neo4j-modeling-skill": {
+      "checked": 2,
+      "expected": 2,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "obsidian-doc-finalize": {
+      "checked": 3,
+      "expected": 3,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "obsidian-knowledge-manager": {
+      "checked": 6,
+      "expected": 6,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "obsidian-mindmap": {
+      "checked": 10,
+      "expected": 10,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "paper-methods-comparison": {
+      "checked": 2,
+      "expected": 2,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "pdf": {
+      "checked": 3,
+      "expected": 3,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "project-context-workflow": {
+      "checked": 2,
+      "expected": 2,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "read-research-paper": {
+      "checked": 4,
+      "expected": 4,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "scientific-brainstorming": {
+      "checked": 10,
+      "expected": 10,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "scientific-visualization": {
+      "checked": 18,
+      "expected": 18,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "statistical-analysis": {
+      "checked": 7,
+      "expected": 7,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "transcribe": {
+      "checked": 6,
+      "expected": 6,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "documents": {
+      "checked": 74,
+      "expected": 74,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "presentations": {
+      "checked": 10,
+      "expected": 10,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    },
+    "spreadsheets": {
+      "checked": 13,
+      "expected": 13,
+      "missing": [],
+      "mismatched": [],
+      "extra_files": []
+    }
+  }
+}

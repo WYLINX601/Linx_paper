@@ -1,0 +1,128 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="26.0.0">
+  <diagram id="jingning-features" name="文献初步归纳">
+    <mxGraphModel dx="1540" dy="1090" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1540" pageHeight="1090" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="rounded=0;fillColor=#FFFFFF;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="0" y="0" width="1540" height="1090" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="景宁畲族传统民居：建筑特征分层" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=40;fontColor=#183D4D;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="38" width="1420" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="四个空间尺度  +  两个贯穿维度  |  依据现有照片、测绘与营造文献" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#5B6972;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="62" y="105" width="1410" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="观察尺度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#596775;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="160" width="200" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="文献中的初步特征" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#596775;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="160" width="740" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="可展开的研究问题" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#596775;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="160" width="360" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="" style="rounded=0;fillColor=#E6F0EA;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="218" width="1420" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="" style="rounded=0;fillColor=#5E9370;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="218" width="7" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="01  村落" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontColor=#203548;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="235" width="195" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="环境与总体格局" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#566571;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="284" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="沿等高线层叠，山溪与坡地共同组织空间&#10;房屋、路径、梯田和山林形成紧密联系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontColor=#203548;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="238" width="740" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="地形如何影响选址、朝向&#10;及路径与建筑高差？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#203548;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="238" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="" style="rounded=0;fillColor=#E7EFF5;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="1420" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="" style="rounded=0;fillColor=#678CAC;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="360" width="7" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="02  组团" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontColor=#203548;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="377" width="195" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="相邻住宅的联系" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#566571;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="426" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="住宅邻接、横向加建与旧寮—新寮关系&#10;组团边界及多户共享空间仍需核对" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontColor=#203548;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="380" width="740" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="家庭居住变化如何反映在&#10;住宅增建和邻接关系中？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#203548;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="380" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="" style="rounded=0;fillColor=#FBF1DB;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="502" width="1420" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="" style="rounded=0;fillColor=#C29B46;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="502" width="7" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="03  单体" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontColor=#203548;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="519" width="195" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="形制与空间组织" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#566571;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="568" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="一字形与合院并见，长间—檐廊相连&#10;两层空间结合居住、储藏与祭祀" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontColor=#203548;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="522" width="740" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="平面、剖面与生活功能&#10;怎样组合，又有哪些变体？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#203548;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="522" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="rounded=0;fillColor=#F2E8EE;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="644" width="1420" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="" style="rounded=0;fillColor=#A27590;strokeColor=none;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="644" width="7" height="126" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="04  构件" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=30;fontColor=#203548;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="661" width="195" height="44" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="构造与装饰细部" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=21;fontColor=#566571;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="710" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="穿斗木构、石基土墙、瓦屋面&#10;腰檐、后侧屋面变体及卷草凤凰纹" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontColor=#203548;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="664" width="740" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="构件怎样组合？哪些做法&#10;体现地方性和文化表达？" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=24;fontColor=#203548;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="664" width="345" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="贯穿各尺度的解释维度" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=25;fontColor=#183D4D;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="62" y="795" width="1410" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="" style="rounded=0;fillColor=#F4F6F7;strokeColor=#D5DEE3;strokeWidth=1;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="60" y="853" width="696" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="" style="rounded=0;fillColor=#F4F6F7;strokeColor=#D5DEE3;strokeWidth=1;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="784" y="853" width="696" height="121" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="材料与营造" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontColor=#183D4D;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="863" width="620" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="选材、尺法、屋水算法、榫卯和匠师传承" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#405A66;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="84" y="909" width="642" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="使用与文化" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontColor=#183D4D;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="808" y="863" width="620" height="42" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="生活、生产、祭祀，以及纹样的位置和解释" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=23;fontColor=#405A66;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="808" y="909" width="642" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="研究价值：辨识特征组合与差异，联系建筑形式、营造过程和生活文化。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=26;fontColor=#183D4D;fontStyle=1;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="62" y="994" width="1410" height="41" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="2026-10-11 文献初步归纳；案例差异与民族专属性仍待核实。来源定位见配套图文稿。" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;fontSize=20;fontColor=#6B777F;fontStyle=0;spacing=0;fontFamily=PingFang SC;whiteSpace=wrap;html=0;" vertex="1" parent="1">
+          <mxGeometry x="62" y="1042" width="1410" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

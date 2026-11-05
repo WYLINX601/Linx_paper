@@ -1,0 +1,62 @@
+[
+  {
+    "path": "archive/README.md",
+    "before_sha256": "66c243ca13853fa97e6a53268facb44feac82086968286483160c7eac909ed7d",
+    "after_sha256": "84c3125b20cf949904107331e654cc5deaf614d25626a4608408ce23b54147f4"
+  },
+  {
+    "path": "context/PROJECT_CONTEXT.md",
+    "before_sha256": "b685aec9ea2a49dc5f9afe74b035981ab377df19c19b2b6e732f20952ac2766d",
+    "after_sha256": "c4cee9fa4a42e9e463738dc63d0542020004754b7b83af642404c258eadc2b91"
+  },
+  {
+    "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+    "before_sha256": "d35c17d6d6591441151d2a6541bae4972f8cd901ea070e30d24a6a3a2b8b9c40",
+    "after_sha256": "57276d266f416dd8586655e0b7f8196fdd05cbb6a978f504e91e43c2389ccf3e"
+  },
+  {
+    "path": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口/〔理论与文献依据〕畲族民居研究现状与研究缺口.md",
+    "before_sha256": "52019aae71a2d86bf0b382a086fd440e2e5be97a70e051b5ec2110c6f183c1c3",
+    "after_sha256": "205c34fe46b011dd53c5ee836e9d1aef6c7cc27425a8a5077670cca225d65ad6"
+  },
+  {
+    "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+    "before_sha256": "72771b14a1e937170a52e36b23963ed1b02ac2983a368a52072b5762b56de154",
+    "after_sha256": "fcbb31b0696c7ba71c8c918dcbf039b30df00f0d00116cfdf7162fd477072f4e"
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+    "before_sha256": "25bd5a3af7bf5d6ac63526bdadeac8005cfc31b95118f423324f6f3dbcee9da9",
+    "after_sha256": "e20656703c4bd215f2679128e1c4b6e0f2dbd7ddcadc5098d9a6d011f20929ed"
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+    "before_sha256": "ed895b3ee3a58d5edaa22560c6e3ae7b56c44e7da0f3973a0c196afc372798d6",
+    "after_sha256": "b841735dc9c128aa051c1b45549e9dfebf7264498096f9514831011aa49d34af"
+  },
+  {
+    "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+    "before_sha256": "72af57a218e528d154705ce92acf7e52c25f67d441003cf6b3e6703525ee620e",
+    "after_sha256": "31e96d4284c7a359a19a57fde6c2a9e6111831729efcf7b7548705ec95fde7f3"
+  },
+  {
+    "path": "论文章节/大纲结构.yaml",
+    "before_sha256": "894c69e50b6eb2ec6a91b6683b4ed7a1f2d378d85fd712242850e61d13491da4",
+    "after_sha256": "7317efd2503a01382646e0910aaae312a1b008ae7e8285cb965490a06abdaffc"
+  },
+  {
+    "path": "论文章节/现行大纲.md",
+    "before_sha256": "26100414762ae1872f50eb03adb74b20e70066503c4f4d7bcdd03e53cb312ba2",
+    "after_sha256": "f98c26f38fcdfb5871f8907ffe50befefc7c7f7e956f0f50b21c70335e00f3af"
+  },
+  {
+    "path": "项目管理/章节主题映射.md",
+    "before_sha256": "983276587ec82600ee10deb01953acba67740c3b21cd658d411eff1ae2b11aa4",
+    "after_sha256": "cfad5977befc5a7b99971cac121ad690cc84b9953e372eb54492c52614e1a31d"
+  },
+  {
+    "path": "项目管理/章节采用记录.json",
+    "before_sha256": "8ee280929d75cfd9a2b744a03436d91d4f6311af285ce632612ed65fc61c09d1",
+    "after_sha256": "230306fcd7409b0f3229c514be0dacc1c3bd30b161a9f64921cb3d23dc0a45af"
+  }
+]

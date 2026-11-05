@@ -1,0 +1,134 @@
+{
+  "checked_at": "2026-10-30T15:12:10.554164+08:00",
+  "scope": "本轮8个主体／入口／抽核目标；不含随后发布的验收说明、本检查文件及写入回执",
+  "core_files": 8,
+  "all_core_readback_verified": true,
+  "verified_targets": [
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/数据获取与实例记录主表.md",
+      "sha256": "11d9c4576359b427cabd0ffb57e7bf8c21e888abe3203122217d5a2b3350a40f"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/模型利用方法比较.smm.md",
+      "sha256": "0a090ab280602c2b7baacec26be5bdf2b5e9f01ad4cad45b2736ed12915d72db"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/证据与阅读记录.md",
+      "sha256": "e7efef5322f66e46427758ca81495592f713b9a5ff41146be2f74d50453b997c"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/来源索引.json",
+      "sha256": "fc627f83b30c8a94571627a70a19f6de066776ac500ff57eafafdbebe2e8d38f"
+    },
+    {
+      "target": "文献库/README.md",
+      "sha256": "320f4bf60109562e367a91e3bf70dcb70ed244758d05d238ffbb1d97d851cd32"
+    },
+    {
+      "target": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "sha256": "fd10192d452fff15a9dd4b1f67d066947b0aaa4f078e67ad0feabf2e9eb85c3f"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/复核材料/数据获取独立抽核.md",
+      "sha256": "0836a78cb630223b248511a37e8febcc2a5f9d5c2472e4a34da5f7aa71d5126d"
+    },
+    {
+      "target": "文献库/专题精读/倾斜摄影模型利用/复核材料/数据获取抽核快照.zip",
+      "sha256": "dd486c3d36ba89c5ac0077ec40b8dfe422bc307949600c7868047736c0d2f2fa"
+    }
+  ],
+  "prepublication": {
+    "checked_at": "2026-10-30T15:08:50.685783+08:00",
+    "paper_count": 6,
+    "pdf_available": 5,
+    "data_items": 30,
+    "interfaces": 13,
+    "old_nodes": 68,
+    "new_nodes": 122,
+    "all_existing_node_ids_preserved": true,
+    "data_ids_and_locator_status_links_match": true,
+    "wiki_and_map_links_checked": 87,
+    "missing": [],
+    "bad_main_anchors": [],
+    "review_inputs_unchanged": true,
+    "native_validation_ok": true,
+    "scope": "限定文献交付与入口，非全库健康或真实资料验收"
+  },
+  "native_map_ok": true,
+  "native_nodes": 122,
+  "linkdata_entries": 33,
+  "linkdata_matches_native_links": true,
+  "structure_after": {
+    "chapters": 6,
+    "sections": 37,
+    "subsections": 17,
+    "adoptions": 88,
+    "topics": 8,
+    "roles": 6,
+    "route_nodes": 13,
+    "artifact_packages": 21,
+    "artifact_relations": 62,
+    "out_of_sync": []
+  },
+  "render_checks": [
+    {
+      "source": "文献库/专题精读/倾斜摄影模型利用/数据获取与实例记录主表.md",
+      "source_sha256": "11d9c4576359b427cabd0ffb57e7bf8c21e888abe3203122217d5a2b3350a40f",
+      "preview": "main-preview.html",
+      "tables": 34,
+      "headings": 50,
+      "strong_count": 56,
+      "overflow": false,
+      "literalBold": false,
+      "badRows": []
+    },
+    {
+      "source": "文献库/专题精读/倾斜摄影模型利用/证据与阅读记录.md",
+      "source_sha256": "e7efef5322f66e46427758ca81495592f713b9a5ff41146be2f74d50453b997c",
+      "preview": "evidence-preview.html",
+      "tables": 2,
+      "headings": 23,
+      "strong_count": 47,
+      "overflow": false,
+      "literalBold": false,
+      "badRows": []
+    },
+    {
+      "source": "文献库/README.md",
+      "source_sha256": "320f4bf60109562e367a91e3bf70dcb70ed244758d05d238ffbb1d97d851cd32",
+      "preview": "index-preview.html",
+      "tables": 1,
+      "headings": 4,
+      "strong_count": 1,
+      "overflow": false,
+      "literalBold": false,
+      "badRows": []
+    },
+    {
+      "source": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "source_sha256": "fd10192d452fff15a9dd4b1f67d066947b0aaa4f078e67ad0feabf2e9eb85c3f",
+      "preview": "topic-preview.html",
+      "tables": 1,
+      "headings": 9,
+      "strong_count": 3,
+      "overflow": false,
+      "literalBold": false,
+      "badRows": []
+    }
+  ],
+  "visual_scope": {
+    "main_sha256": "11d9c4576359b427cabd0ffb57e7bf8c21e888abe3203122217d5a2b3350a40f",
+    "final_pixels_inspected": [
+      "C09的完整两列表（C10标题可见）"
+    ],
+    "earlier_pixels_inspected": [
+      "主表引言",
+      "G01—G02逐项表",
+      "I01—I09接口表",
+      "主题入口"
+    ],
+    "scope": "先前布局截图对应修订前候选；最终C09及四份最终DOM检查绑定最新内容，非逐页像素验收，非Obsidian GUI验收"
+  },
+  "independent_review": "有条件通过；主会话已修正并回查，修订后未再独立抽核",
+  "no_experiment_or_database_claim": true
+}

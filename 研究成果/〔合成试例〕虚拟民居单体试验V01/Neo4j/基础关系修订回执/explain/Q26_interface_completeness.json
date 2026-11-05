@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (i:V01:Interface) OPTIONAL MATCH (i)-[r:INTERFACE_OF]->(p) RETURN i.uid AS interface,i.kind AS kind,collect({participant:p.uid,role:r.role}) AS roles ORDER BY interface",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.930054+08:00"
+}

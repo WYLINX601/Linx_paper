@@ -1,0 +1,30 @@
+{
+  "initialManifest": {
+    "files": 33,
+    "mismatches": [],
+    "manifestSHA256": "12505b7f8cf137ef9af7e5ba73d34dad1c403301dfeb4a78826ce17b46c9c6a6"
+  },
+  "finalManifest": {
+    "files": 33,
+    "mismatches": [],
+    "manifestSHA256": "12505b7f8cf137ef9af7e5ba73d34dad1c403301dfeb4a78826ce17b46c9c6a6"
+  },
+  "modelNodes": 55,
+  "payloadNodes": 56,
+  "baselineEdges": 285,
+  "candidateEdges": 290,
+  "newEdges": [
+    "BOUND-S04-C01",
+    "BOUND-S04-C02",
+    "BOUND-S04-C03",
+    "BOUND-S04-C04",
+    "BOUND-S06-W10"
+  ],
+  "allGeometryPreserved": true,
+  "EV09Unchanged": true,
+  "compiledPayloadMatchesFrozen": true,
+  "analysisMatchesFrozen": false,
+  "geometryDiscrepancyCount": 0,
+  "suppliedTestsExitCode": 0,
+  "mutationProbes": 17
+}

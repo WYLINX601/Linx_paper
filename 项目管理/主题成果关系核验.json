@@ -1,0 +1,626 @@
+{
+  "scope": "topic-artifact-navigation-only",
+  "stats": {
+    "packages": 20,
+    "topics": 8,
+    "relations": 59,
+    "primary_relations": 20,
+    "reused_relations": 39,
+    "view_files": 30
+  },
+  "published_files_verified": 32,
+  "unit_tests_passed": 6,
+  "views_out_of_sync": [],
+  "new_structural_errors": [],
+  "preexisting_structural_errors": [
+    {
+      "code": "LINK_MISSING",
+      "path": "文献库/专题精读/吴莹2018论文精读/吴莹2018-类型学与语义网络.smm.md",
+      "target": "outputs/知识图谱建模基准/本研究优化基准.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "文献库/专题精读/吴莹2018论文精读/吴莹2018-类型学与语义网络.smm.md",
+      "target": "论文研究/主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/传统民居类型与形态拆解/独立验收.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/传统民居类型与形态拆解/证据与阅读记录.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/01-共性分析框架（讨论稿）.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/02-跨论文比较.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/11-徽州空间形式.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/12-闽南二维空间量化.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/13-晋东南院落形态.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/14-侗族民居形态.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/15-清水江自组织演化.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/16-土坑村类型分析.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/17-徽州类型学思想.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/18-台州民居类型.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/19-景宁木构侧样.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/20-景宁营造技艺.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/21-形态类型学理论.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/22-后溪村形态类型保护.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    }
+  ],
+  "additional_dependency_review_notifications": [
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/合成试建与规则检验/主题研究.md",
+      "target": "研究成果/虚拟民居单体试验V01/README.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "target": "研究成果/建筑单体框架-本体与分析衔接v0.1/README.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/风貌特征筛选与数据记录/主题研究.md",
+      "target": "研究成果/建筑单体研究内容框架v0.1/README.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/研究对象与样本边界/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "主题研究/研究对象与样本边界/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/合成试建与规则检验/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/合成试建与规则检验/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/研究对象与样本边界/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "主题研究/研究对象与样本边界/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    }
+  ],
+  "baseline_unchanged": true,
+  "rendered_preview": {
+    "tables": 30,
+    "rows": 146,
+    "viewport_width": 1280,
+    "content_width": 1265,
+    "empty_cells": 0,
+    "screenshot_inspected": true,
+    "limitation": "Derived HTML table proof, not Obsidian pixel-level acceptance."
+  },
+  "publication_ledger": [
+    {
+      "path": "研究成果/D01图谱表达试例/README.md",
+      "sha256": "b5208cbf13fd4b350f7b4ef66de7326687d43e00a2b105adaec3d9d5a3d14a9c",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/三维建模技术路线/README.md",
+      "sha256": "7a50f5e7e1b8fba7252212b9393398e0c4503b0a86e0567e2977205667b67f88",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/传统民居类型与形态拆解/README.md",
+      "sha256": "acda70e4dedb7ad72898d0ef839c9eb64272657aaf66c2021d26af5a6917117d",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/单体层实体属性关系候选模型v0.1/README.md",
+      "sha256": "0b0445f3643ce1d1338ce845a3a3f90286ce99dbb279ca285644a90f7c81880f",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:45Z",
+        "original_path": "研究成果/单体层实体属性关系候选模型v0.1/README.md",
+        "canonical_path": "研究成果/单体层实体属性关系候选模型v0.1/README.md",
+        "backup_path": ".hermes-academic-backups/20261028T114945Z_c3b765a8738a4805b15614e7da92f5fe.bak",
+        "original_sha256": "02047320f68ab2766023b93ca6fde098ce2e35808407e90781a5babc783ac071",
+        "original_size_bytes": 2667,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "0b0445f3643ce1d1338ce845a3a3f90286ce99dbb279ca285644a90f7c81880f",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/单体层知识图谱v0.1/README.md",
+      "sha256": "7632a9f20dfdd8fbd29a75bce8278fc6a7367e846acc5c874aad358a58598388",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/单体层知识图谱v0.2/README.md",
+      "sha256": "f1ac45700ebde532a0858f880a968271deef17d61cd0588eacdb06cac9c39911",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:45Z",
+        "original_path": "研究成果/单体层知识图谱v0.2/README.md",
+        "canonical_path": "研究成果/单体层知识图谱v0.2/README.md",
+        "backup_path": ".hermes-academic-backups/20261028T114945Z_333bc4187ab745c5899fec1fe0e64102.bak",
+        "original_sha256": "4ba4c01c2361a7f3db819ad6ecd2682e9423b57c3df046c1d2ef353bca218c60",
+        "original_size_bytes": 5371,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "f1ac45700ebde532a0858f880a968271deef17d61cd0588eacdb06cac9c39911",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/建筑单体框架-本体与分析衔接v0.1/README.md",
+      "sha256": "5fc4a4fb4e497925f76418836be7a627f27bb987ccccf9d4eac173c92934fb51",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:45Z",
+        "original_path": "研究成果/建筑单体框架-本体与分析衔接v0.1/README.md",
+        "canonical_path": "研究成果/建筑单体框架-本体与分析衔接v0.1/README.md",
+        "backup_path": ".hermes-academic-backups/20261028T114945Z_7a6bbfaaaac44ea0ae313f3bb38684ec.bak",
+        "original_sha256": "50d210cdd0bd03eca76f165ab170850f48709d80c7ae61832af6f55c2e48feea",
+        "original_size_bytes": 5462,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "5fc4a4fb4e497925f76418836be7a627f27bb987ccccf9d4eac173c92934fb51",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/建筑单体研究内容框架v0.1/README.md",
+      "sha256": "65b45f1469dfd0d878295fa08b4406bfc2804effa80ad482c65951ec747320c9",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:45Z",
+        "original_path": "研究成果/建筑单体研究内容框架v0.1/README.md",
+        "canonical_path": "研究成果/建筑单体研究内容框架v0.1/README.md",
+        "backup_path": ".hermes-academic-backups/20261028T114945Z_9f7cdda58cad4f23a9e2f0c21db5fc6c.bak",
+        "original_sha256": "e5595bef01ce92662326c618c971c5c1172acafaa635df3ec6067cb4ce13c3a7",
+        "original_size_bytes": 6130,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "65b45f1469dfd0d878295fa08b4406bfc2804effa80ad482c65951ec747320c9",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/建筑空间界面与构成关系类型图谱/README.md",
+      "sha256": "cf8892f5cebafcd249201ed61952bf8a5b4345bebed35a39a7ce2308f9bda5e5",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/建筑风貌知识图谱基础框架/README.md",
+      "sha256": "bae0ce2f3ef1ea8e4259924f5883730b56cedbc39cd4034b9e671b4897a589ed",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/思维导图/README.md",
+      "sha256": "cc1151ca77a3353255e1d3dcc36c05e69fc83a67f793590f12d7e1029499423c",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/景宁畲族传统民居建筑特征/README.md",
+      "sha256": "b37ba2ad734e450c5d5bfa550155aea32fb43f24c2bbea6cceb14d6eb4fa5ee0",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/畲族建筑风貌综述修订/README.md",
+      "sha256": "a8c54702fe7b698b9444f8e53a29654a2c782c4816c39a149376d88e9a1ddc24",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/畲族建筑风貌综述审阅/README.md",
+      "sha256": "a687f5ada287338c3a22b52567ddbfce645eed4bb627793ed9e08f761fdbf26e",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/知识图谱建模基准/README.md",
+      "sha256": "ecbdc7918d7122f1316779a74bbced12a45550b6d3a262893cfe29a4d2da569f",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/研究对象候选导师浏览版/README.md",
+      "sha256": "2a20759a00e9c9e08ee18e814454746f19eb1ba24afd8a7dd69c911933d57213",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/虚拟民居单体试验V01/README.md",
+      "sha256": "b64b1f0baa164a53ff623822ee8d6a85951230bbc9d0e4dae7fef353f3e97e9e",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:46Z",
+        "original_path": "研究成果/虚拟民居单体试验V01/README.md",
+        "canonical_path": "研究成果/虚拟民居单体试验V01/README.md",
+        "backup_path": ".hermes-academic-backups/20261028T114946Z_fd5d1dd847c2467f8707c74c40768ea6.bak",
+        "original_sha256": "be2c01a5a9744a5f34fa918d4cbe46c05116f086a08528264f658dd7abce917d",
+        "original_size_bytes": 18835,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "b64b1f0baa164a53ff623822ee8d6a85951230bbc9d0e4dae7fef353f3e97e9e",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/论文研究路径/README.md",
+      "sha256": "432c1bdca5d09388abcbe36036f3f154c9302fcbf16fa25949eff015749983e5",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/风貌分析拆解/README.md",
+      "sha256": "4ed693c1e17a46424523000d8574dcb29e7963563ffb8de2b718d7ece85082f7",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "研究成果/风貌分析目标文献对照/README.md",
+      "sha256": "7b355212678ab09371dc689251757f41b7d1ccfe3a6faf847052461ae6dbb1a1",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+      "sha256": "c75a024a389628c6e5b21134cd5a49b5fed47870eafe3e7f0264c0516caa1539",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:47Z",
+        "original_path": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+        "canonical_path": "主题研究/三维资料质量与空间区域关联/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261028T114947Z_4c7d1a566bf349aa9c73c6e918de0363.bak",
+        "original_sha256": "39f12797b11df33717bf9161cf657a6bbbdb67cf2b2435e1dbe7d9d81f611920",
+        "original_size_bytes": 2672,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "c75a024a389628c6e5b21134cd5a49b5fed47870eafe3e7f0264c0516caa1539",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/合成试建与规则检验/主题研究.md",
+      "sha256": "2bd573cbd125cc9798f2030ff12998d45cd9e9d356796bc5dafd34eab2c2bf0e",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:47Z",
+        "original_path": "主题研究/合成试建与规则检验/主题研究.md",
+        "canonical_path": "主题研究/合成试建与规则检验/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261028T114947Z_81f4777d64314540b70c4f5da0509054.bak",
+        "original_sha256": "795fb4d429c700c4d8e273f35d5f2a8f7355a22dd3d053cf2ea55f0ba4f4a8c5",
+        "original_size_bytes": 2499,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "2bd573cbd125cc9798f2030ff12998d45cd9e9d356796bc5dafd34eab2c2bf0e",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "sha256": "16f434f28c9af7703eac3dfb61d893dd66ed77a87dcc42b5fec65e190eb87a5e",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:47Z",
+        "original_path": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+        "canonical_path": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261028T114947Z_458dbbd83881426180d73b272248ee14.bak",
+        "original_sha256": "884732b6eaa90faed93f71a0492f4495323b088402455b63c78581841a3e38c5",
+        "original_size_bytes": 5267,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "16f434f28c9af7703eac3dfb61d893dd66ed77a87dcc42b5fec65e190eb87a5e",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "sha256": "61f9845575377a495606918b75335a56e8fd1329ff11a218b89dcc7a2dc2b8c7",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:48Z",
+        "original_path": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+        "canonical_path": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261028T114948Z_11e359daf8604ee59c6186512bd439a9.bak",
+        "original_sha256": "13cb7e0940ff56e7a85b8df4c7faa5e0fe1463b2f6438f9863d63361efdb51f0",
+        "original_size_bytes": 2420,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "61f9845575377a495606918b75335a56e8fd1329ff11a218b89dcc7a2dc2b8c7",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+      "sha256": "66e0c332014896f689c636b09c621f15c55148a53a58ca7f87aa547a5afe0a80",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:48Z",
+        "original_path": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+        "canonical_path": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261028T114948Z_80c08bbac4cf40d793a1c21a69945606.bak",
+        "original_sha256": "a4a3ebedf80ecb9bad630a58103a399e1815b3bbb3b62baf9be1a07f47883a5a",
+        "original_size_bytes": 2314,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "66e0c332014896f689c636b09c621f15c55148a53a58ca7f87aa547a5afe0a80",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/研究对象与样本边界/主题研究.md",
+      "sha256": "02c47733f2f9f0cb8f0212a74f04aea6fdf81b242316f7ab0f7b398b73f04908",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:48Z",
+        "original_path": "主题研究/研究对象与样本边界/主题研究.md",
+        "canonical_path": "主题研究/研究对象与样本边界/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261028T114948Z_1f5503a752cb45c9a3c7b33d055bb838.bak",
+        "original_sha256": "0b28f3d4fc9efa380f001d6bcc3b6b381a691625bf6a72896a6c4e3da81d067b",
+        "original_size_bytes": 2278,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "02c47733f2f9f0cb8f0212a74f04aea6fdf81b242316f7ab0f7b398b73f04908",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/类型识别与语义关系表达/主题研究.md",
+      "sha256": "66180e33ad14430c6b74a31317d6ae2a5ae35a813e4ae4243cec128e372a9c04",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:48Z",
+        "original_path": "主题研究/类型识别与语义关系表达/主题研究.md",
+        "canonical_path": "主题研究/类型识别与语义关系表达/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261028T114948Z_43ae58ff6a4a4604aeb0a644a45047b9.bak",
+        "original_sha256": "a44f20d8325dfbe08a02346e5e8a5b8b15f189d41c49388c5e8a3c74d31b651f",
+        "original_size_bytes": 6894,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "66180e33ad14430c6b74a31317d6ae2a5ae35a813e4ae4243cec128e372a9c04",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/风貌特征筛选与数据记录/主题研究.md",
+      "sha256": "26abd2e2405a6c539a91727f9c892f2fe4b9f6620ca5edfe081aae36f71dcd1d",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:48Z",
+        "original_path": "主题研究/风貌特征筛选与数据记录/主题研究.md",
+        "canonical_path": "主题研究/风貌特征筛选与数据记录/主题研究.md",
+        "backup_path": ".hermes-academic-backups/20261028T114948Z_12f4c96726a94dba863a8664e2ed94ea.bak",
+        "original_sha256": "e875873317746d23a5a4f2b8ec369e121f3fd450e24c35958de97d075f41e5f2",
+        "original_size_bytes": 3524,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "26abd2e2405a6c539a91727f9c892f2fe4b9f6620ca5edfe081aae36f71dcd1d",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "研究成果/README.md",
+      "sha256": "d5bc4f7a2fa5e9750a1ad944fc8d60af8557ad359706eb3401df1ae72a58af0c",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:48Z",
+        "original_path": "研究成果/README.md",
+        "canonical_path": "研究成果/README.md",
+        "backup_path": ".hermes-academic-backups/20261028T114948Z_55a9bbe620b84e459c544cc60d6f3f4c.bak",
+        "original_sha256": "0301b37494006c2ca508571b1745aac1993eb0e8828a9e09a892d1fe0f3a1b49",
+        "original_size_bytes": 5282,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "d5bc4f7a2fa5e9750a1ad944fc8d60af8557ad359706eb3401df1ae72a58af0c",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "主题研究/README.md",
+      "sha256": "b01a45c76179a53840c8a7d457d650eca85c974823591fa21ad32c053aedc7cb",
+      "state": "published_verified",
+      "backup": {
+        "created_at_utc": "2026-10-28T11:49:49Z",
+        "original_path": "主题研究/README.md",
+        "canonical_path": "主题研究/README.md",
+        "backup_path": ".hermes-academic-backups/20261028T114949Z_7c3831e453f1437a93bc5711b5d1a6a6.bak",
+        "original_sha256": "419797c1a70844f25664f266180984347fb93aa42eaab07240bae508bbdb3290",
+        "original_size_bytes": 1079,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "b01a45c76179a53840c8a7d457d650eca85c974823591fa21ad32c053aedc7cb",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      }
+    },
+    {
+      "path": "项目管理/主题成果关系维护.md",
+      "sha256": "48407c061ab5ac396cc1fc33ce8a24b3cc443905a34139322d2402a3213693e8",
+      "state": "published_verified",
+      "backup": null
+    },
+    {
+      "path": "项目管理/健康检查/topic_artifact_views.py",
+      "sha256": "af10bc44ac09bae3c15dfa9c37ecb76f82be99f0964fb2436671c7b1092f6349",
+      "state": "published_verified",
+      "backup": null
+    }
+  ],
+  "health_scan_at": "2026-10-28T11:49:57.266668+00:00"
+}

@@ -1,0 +1,2347 @@
+{
+  "nodes": [
+    {
+      "labels": [
+        "Building",
+        "D01V01",
+        "Demo",
+        "KGItem",
+        "Zone"
+      ],
+      "properties": {
+        "analysisItems": [
+          "D01-T01",
+          "D01-T02",
+          "D01-T05"
+        ],
+        "botClassIri": "https://w3id.org/bot#Building",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "depthDirection": "+Y",
+        "depthM": 6,
+        "eavePointXYZ": [
+          5,
+          0,
+          5
+        ],
+        "eaveZM": 5,
+        "footprintShape": "rectangle",
+        "footprintXY": [
+          0,
+          0,
+          10,
+          0,
+          10,
+          6,
+          0,
+          6
+        ],
+        "geometryActive": true,
+        "geometryVersion": "v1",
+        "groundPointXYZ": [
+          5,
+          0,
+          0
+        ],
+        "groundZM": 0,
+        "heightBasis": "指定正立面断面檐口点与墙脚地面点；檐口外缘，不混作梁顶",
+        "id": "B01",
+        "identityBasis": "人工设定为可独立识别的建筑单体；主屋角色不由尺寸自动推定",
+        "measurementBoundaryBasis": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+        "name": "示例主屋",
+        "precisionMeaning": "输入为精确算术设定，不宣称测绘精度",
+        "recordStatus": "synthetic_assignment",
+        "ridgePointXYZ": [
+          5,
+          3,
+          7
+        ],
+        "ridgeZM": 7,
+        "role": "主屋",
+        "scenario": "T0",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "uid": "D01V01:B01",
+        "unit": "m",
+        "widthDirection": "+X",
+        "widthM": 10
+      },
+      "propertyTypes": [
+        {
+          "key": "analysisItems",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "botClassIri",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "depthDirection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "depthM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "eavePointXYZ",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "eaveZM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "footprintShape",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "footprintXY",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "geometryActive",
+          "type": "BOOLEAN NOT NULL"
+        },
+        {
+          "key": "geometryVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "groundPointXYZ",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "groundZM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "heightBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "identityBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "measurementBoundaryBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "precisionMeaning",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "ridgePointXYZ",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "ridgeZM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "role",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scenario",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "unit",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "widthDirection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "widthM",
+          "type": "FLOAT NOT NULL"
+        }
+      ],
+      "uid": "D01V01:B01"
+    },
+    {
+      "labels": [
+        "Building",
+        "D01V01",
+        "Demo",
+        "KGItem",
+        "Zone"
+      ],
+      "properties": {
+        "analysisItems": [
+          "D01-T01",
+          "D01-T02",
+          "D01-T05"
+        ],
+        "botClassIri": "https://w3id.org/bot#Building",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "depthDirection": "+X",
+        "depthM": 4,
+        "eavePointXYZ": [
+          10,
+          -3,
+          7
+        ],
+        "eaveZM": 7,
+        "footprintShape": "rectangle",
+        "footprintXY": [
+          10,
+          -6,
+          14,
+          -6,
+          14,
+          0,
+          10,
+          0
+        ],
+        "geometryActive": true,
+        "geometryVersion": "v1",
+        "groundPointXYZ": [
+          10,
+          -3,
+          3
+        ],
+        "groundZM": 3,
+        "heightBasis": "指定正立面断面檐口点与墙脚地面点；檐口外缘，不混作梁顶",
+        "id": "B02",
+        "identityBasis": "人工设定为可独立识别的建筑单体；侧房角色不由尺寸自动推定",
+        "measurementBoundaryBasis": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+        "name": "示例侧房",
+        "precisionMeaning": "输入为精确算术设定，不宣称测绘精度",
+        "recordStatus": "synthetic_assignment",
+        "ridgePointXYZ": [
+          12,
+          -3,
+          8
+        ],
+        "ridgeZM": 8,
+        "role": "侧房",
+        "scenario": "T0",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "uid": "D01V01:B02",
+        "unit": "m",
+        "widthDirection": "+Y",
+        "widthM": 6
+      },
+      "propertyTypes": [
+        {
+          "key": "analysisItems",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "botClassIri",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "depthDirection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "depthM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "eavePointXYZ",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "eaveZM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "footprintShape",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "footprintXY",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "geometryActive",
+          "type": "BOOLEAN NOT NULL"
+        },
+        {
+          "key": "geometryVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "groundPointXYZ",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "groundZM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "heightBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "identityBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "measurementBoundaryBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "precisionMeaning",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "ridgePointXYZ",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "ridgeZM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "role",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scenario",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "unit",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "widthDirection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "widthM",
+          "type": "FLOAT NOT NULL"
+        }
+      ],
+      "uid": "D01V01:B02"
+    },
+    {
+      "labels": [
+        "ComparisonResult",
+        "D01V01",
+        "Demo",
+        "KGItem"
+      ],
+      "properties": {
+        "analysisItem": "D01-T05",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "derivationStatus": "computed_from_synthetic_inputs",
+        "id": "C01",
+        "interpretation": "正值表示比较对象的指定檐口点在共同基准下更高；不是建筑自身檐高差",
+        "metric": "eaveElevationDifference",
+        "name": "檐口高差：侧房减主屋",
+        "recordStatus": "synthetic_derived",
+        "ruleId": "D01-ER03-v1",
+        "scenario": "T0",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "uid": "D01V01:C01",
+        "unit": "m",
+        "valueM": 2
+      },
+      "propertyTypes": [
+        {
+          "key": "analysisItem",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "derivationStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "interpretation",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "metric",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "ruleId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scenario",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "unit",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "valueM",
+          "type": "FLOAT NOT NULL"
+        }
+      ],
+      "uid": "D01V01:C01"
+    },
+    {
+      "labels": [
+        "D01V01",
+        "DatasetRecord",
+        "Demo",
+        "KGItem"
+      ],
+      "properties": {
+        "approvedScope": "用户已确认对象属性＋共享资料来源方向并授权修改；具体字段与真实适用性仍待审核",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "CASE",
+        "modelVersion": "1.1",
+        "name": "D01合成审核例（记录，不是建筑）",
+        "purpose": "审核尺寸、基准、来源与比较结果的图谱表达",
+        "recordStatus": "synthetic_assignment",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "sourcePath": "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+        "uid": "D01V01:CASE"
+      },
+      "propertyTypes": [
+        {
+          "key": "approvedScope",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "modelVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "purpose",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourcePath",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "uid": "D01V01:CASE"
+    },
+    {
+      "labels": [
+        "D01V01",
+        "Demo",
+        "KGItem",
+        "ReferenceDatum"
+      ],
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "frame": "synthetic-local-m",
+        "frameVersion": "v1",
+        "id": "D01",
+        "name": "本例共同坐标与高程基准",
+        "originDescription": "人工设定O点为(0,0,0)，X/Y为平面正交方向，Z向上；不是地理坐标系",
+        "recordStatus": "synthetic_assignment",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "uid": "D01V01:D01",
+        "unit": "m"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "frame",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "frameVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "originDescription",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "unit",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "uid": "D01V01:D01"
+    },
+    {
+      "labels": [
+        "D01V01",
+        "Demo",
+        "KGItem",
+        "Source",
+        "SyntheticSource"
+      ],
+      "properties": {
+        "author": "研究试例人工设定",
+        "caseId": "D01V01",
+        "createdAtUtc": "2026-10-28T08:54:24.522083+00:00",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "EV01",
+        "name": "共享示例素材（人工合成，非实测）",
+        "recordStatus": "synthetic_assignment",
+        "sourceKind": "synthetic_assignment",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "sourcePath": "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+        "sourceVersion": "1.1",
+        "supportScope": "只登记D01人工合成设定；具体字段支持范围与定位由HAS_SOURCE关系声明，不证明真实民居事实",
+        "uid": "D01V01:EV01"
+      },
+      "propertyTypes": [
+        {
+          "key": "author",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "createdAtUtc",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceKind",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourcePath",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "supportScope",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "uid": "D01V01:EV01"
+    },
+    {
+      "labels": [
+        "AnalysisRule",
+        "D01V01",
+        "Demo",
+        "KGItem"
+      ],
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "expression": "eaveZM - groundZM",
+        "id": "R01",
+        "implementation": "Q03即时计算，不另存每栋高度结果节点",
+        "maintainedAt": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md#U13 D01数据表达试例",
+        "name": "自身檐口相对高度规则",
+        "preconditions": "同一建筑、对应部位、共同高程基准、同一情境与长度单位；两值均已知",
+        "recordStatus": "candidate_rule_implemented_for_demo",
+        "ruleId": "D01-ER01-v1",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "sourcePath": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+        "sourceSection": "D01-T02 竖向尺度与比例",
+        "uid": "D01V01:R01"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "expression",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "implementation",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "maintainedAt",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "preconditions",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "ruleId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourcePath",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceSection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "uid": "D01V01:R01"
+    },
+    {
+      "labels": [
+        "AnalysisRule",
+        "D01V01",
+        "Demo",
+        "KGItem"
+      ],
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "expression": "widthM/depthM; (eaveZM-groundZM)/widthM",
+        "id": "R02",
+        "implementation": "Q02/Q03即时计算",
+        "maintainedAt": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md#U13 D01数据表达试例",
+        "name": "水平比例与高宽比规则",
+        "preconditions": "对象和范围对应、单位一致、分母大于0；仅报告数值不设高大低矮阈值",
+        "recordStatus": "candidate_rule_implemented_for_demo",
+        "ruleId": "D01-ER02-v1",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "sourcePath": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+        "sourceSection": "D01-T01 / D01-T02",
+        "uid": "D01V01:R02"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "expression",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "implementation",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "maintainedAt",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "preconditions",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "ruleId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourcePath",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceSection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "uid": "D01V01:R02"
+    },
+    {
+      "labels": [
+        "AnalysisRule",
+        "D01V01",
+        "Demo",
+        "KGItem"
+      ],
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "expression": "subject.eaveZM - reference.eaveZM",
+        "id": "R03",
+        "implementation": "Q04读回重算并核对保存结果",
+        "maintainedAt": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md#U13 D01数据表达试例",
+        "name": "共同基准檐口高差规则",
+        "preconditions": "双方檐口部位明确，采用同一基准节点、同一情境与单位；不相减各自地面起算高度",
+        "recordStatus": "candidate_rule_implemented_for_demo",
+        "ruleId": "D01-ER03-v1",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "sourcePath": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+        "sourceSection": "D01-T05 单体间体量组合",
+        "uid": "D01V01:R03"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "expression",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "implementation",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "maintainedAt",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "preconditions",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "ruleId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourcePath",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceSection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "uid": "D01V01:R03"
+    },
+    {
+      "labels": [
+        "D01V01",
+        "Demo",
+        "KGItem",
+        "Space",
+        "Zone"
+      ],
+      "properties": {
+        "analysisItems": [
+          "D01-T06"
+        ],
+        "botClassIri": "https://w3id.org/bot#Space",
+        "boundaryBasis": "人工声明的地面分析范围，开敞处采用理论边界",
+        "caseId": "D01V01",
+        "coverage": "仅提供对象、地面范围与基准，不宣称T06围合配置已完整实现",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "depthDirection": "+Y",
+        "depthM": 6,
+        "footprintShape": "rectangle",
+        "footprintXY": [
+          0,
+          -6,
+          10,
+          -6,
+          10,
+          0,
+          0,
+          0
+        ],
+        "geometryActive": true,
+        "geometryState": "plan_only_no_closed_3d_volume",
+        "geometryVersion": "v1",
+        "groundZM": 0,
+        "id": "S01",
+        "measurementBoundaryBasis": "面对院落的建筑边界与人工声明的开敞边；不是用地面积",
+        "name": "示例院落",
+        "recordStatus": "synthetic_assignment",
+        "scenario": "T0",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "uid": "D01V01:S01",
+        "unit": "m",
+        "use": "户外活动",
+        "widthDirection": "+X",
+        "widthM": 10
+      },
+      "propertyTypes": [
+        {
+          "key": "analysisItems",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "botClassIri",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "boundaryBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "coverage",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "depthDirection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "depthM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "footprintShape",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "footprintXY",
+          "type": "LIST<FLOAT NOT NULL> NOT NULL"
+        },
+        {
+          "key": "geometryActive",
+          "type": "BOOLEAN NOT NULL"
+        },
+        {
+          "key": "geometryState",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "geometryVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "groundZM",
+          "type": "FLOAT NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "measurementBoundaryBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scenario",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "unit",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "use",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "widthDirection",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "widthM",
+          "type": "FLOAT NOT NULL"
+        }
+      ],
+      "uid": "D01V01:S01"
+    },
+    {
+      "labels": [
+        "D01V01",
+        "Demo",
+        "DwellingUnit",
+        "KGItem",
+        "Zone"
+      ],
+      "properties": {
+        "botClassIri": "https://w3id.org/bot#Zone",
+        "boundaryBasis": "本例人工指定的整体范围；不声明地籍边界",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "geometryState": "partial_plan_and_height_references",
+        "id": "U01",
+        "interpretation": "主屋、侧房与院落共同构成的形态分析整体，不等于一栋建筑",
+        "name": "示例民居单元",
+        "recordStatus": "synthetic_assignment",
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "uid": "D01V01:U01"
+      },
+      "propertyTypes": [
+        {
+          "key": "botClassIri",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "boundaryBasis",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "geometryState",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "interpretation",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "name",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceModelSha256",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "uid": "D01V01:U01"
+    }
+  ],
+  "relationships": [
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E001",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata",
+        "uid": "D01V01:E001"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:CASE",
+      "target": "D01V01:U01",
+      "type": "DESCRIBES",
+      "uid": "D01V01:E001"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E002",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata",
+        "uid": "D01V01:E002"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:CASE",
+      "target": "D01V01:EV01",
+      "type": "PROVIDES_SOURCE",
+      "uid": "D01V01:E002"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E003",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata",
+        "uid": "D01V01:E003"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:CASE",
+      "target": "D01V01:R01",
+      "type": "DECLARES_RULE",
+      "uid": "D01V01:E003"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E004",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata",
+        "uid": "D01V01:E004"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:CASE",
+      "target": "D01V01:R02",
+      "type": "DECLARES_RULE",
+      "uid": "D01V01:E004"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E005",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata",
+        "uid": "D01V01:E005"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:CASE",
+      "target": "D01V01:R03",
+      "type": "DECLARES_RULE",
+      "uid": "D01V01:E005"
+    },
+    {
+      "properties": {
+        "baselineRef": "B-R02",
+        "botPropertyIri": "https://w3id.org/bot#hasBuilding",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E006",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "BOT_adoption",
+        "uid": "D01V01:E006"
+      },
+      "propertyTypes": [
+        {
+          "key": "baselineRef",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "botPropertyIri",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:U01",
+      "target": "D01V01:B01",
+      "type": "BOT_HAS_BUILDING",
+      "uid": "D01V01:E006"
+    },
+    {
+      "properties": {
+        "baselineRef": "B-R02",
+        "botPropertyIri": "https://w3id.org/bot#hasBuilding",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E007",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "BOT_adoption",
+        "uid": "D01V01:E007"
+      },
+      "propertyTypes": [
+        {
+          "key": "baselineRef",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "botPropertyIri",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:U01",
+      "target": "D01V01:B02",
+      "type": "BOT_HAS_BUILDING",
+      "uid": "D01V01:E007"
+    },
+    {
+      "properties": {
+        "baselineRef": "B-R04",
+        "botPropertyIri": "https://w3id.org/bot#hasSpace",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E008",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "BOT_adoption",
+        "uid": "D01V01:E008"
+      },
+      "propertyTypes": [
+        {
+          "key": "baselineRef",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "botPropertyIri",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:U01",
+      "target": "D01V01:S01",
+      "type": "BOT_HAS_SPACE",
+      "uid": "D01V01:E008"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "fields": [
+          "depthM",
+          "eavePointXYZ",
+          "eaveZM",
+          "footprintXY",
+          "groundPointXYZ",
+          "groundZM",
+          "ridgePointXYZ",
+          "ridgeZM",
+          "widthM"
+        ],
+        "id": "E010",
+        "recordStatus": "synthetic_assignment",
+        "scope": "仅适用于列出的坐标、尺寸与高程字段；长度单位为m",
+        "semanticOrigin": "project_extension",
+        "uid": "D01V01:E010"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fields",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scope",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:B01",
+      "target": "D01V01:D01",
+      "type": "USES_DATUM",
+      "uid": "D01V01:E010"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "evidenceRole": "synthetic_assignment",
+        "fieldGroup": "currentGeometry",
+        "fields": [
+          "analysisItems",
+          "depthDirection",
+          "depthM",
+          "eavePointXYZ",
+          "eaveZM",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundPointXYZ",
+          "groundZM",
+          "heightBasis",
+          "measurementBoundaryBasis",
+          "precisionMeaning",
+          "ridgePointXYZ",
+          "ridgeZM",
+          "scenario",
+          "unit",
+          "widthDirection",
+          "widthM"
+        ],
+        "id": "E011",
+        "locator": "/nodes/2/properties",
+        "locatorKind": "json_pointer",
+        "objectId": "B01",
+        "recordStatus": "synthetic_assignment",
+        "reviewStatus": "synthetic_only_not_empirical",
+        "scope": "仅支持fields列出的人工几何值、口径与几何记录元数据，不支持该对象其他属性，也不是实测证据",
+        "semanticOrigin": "project_extension",
+        "sourceVersion": "1.1",
+        "uid": "D01V01:E011"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "evidenceRole",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fieldGroup",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fields",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "locator",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "locatorKind",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "objectId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "reviewStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scope",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:B01",
+      "target": "D01V01:EV01",
+      "type": "HAS_SOURCE",
+      "uid": "D01V01:E011"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "fields": [
+          "depthM",
+          "eavePointXYZ",
+          "eaveZM",
+          "footprintXY",
+          "groundPointXYZ",
+          "groundZM",
+          "ridgePointXYZ",
+          "ridgeZM",
+          "widthM"
+        ],
+        "id": "E013",
+        "recordStatus": "synthetic_assignment",
+        "scope": "仅适用于列出的坐标、尺寸与高程字段；长度单位为m",
+        "semanticOrigin": "project_extension",
+        "uid": "D01V01:E013"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fields",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scope",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:B02",
+      "target": "D01V01:D01",
+      "type": "USES_DATUM",
+      "uid": "D01V01:E013"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "evidenceRole": "synthetic_assignment",
+        "fieldGroup": "currentGeometry",
+        "fields": [
+          "analysisItems",
+          "depthDirection",
+          "depthM",
+          "eavePointXYZ",
+          "eaveZM",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundPointXYZ",
+          "groundZM",
+          "heightBasis",
+          "measurementBoundaryBasis",
+          "precisionMeaning",
+          "ridgePointXYZ",
+          "ridgeZM",
+          "scenario",
+          "unit",
+          "widthDirection",
+          "widthM"
+        ],
+        "id": "E014",
+        "locator": "/nodes/3/properties",
+        "locatorKind": "json_pointer",
+        "objectId": "B02",
+        "recordStatus": "synthetic_assignment",
+        "reviewStatus": "synthetic_only_not_empirical",
+        "scope": "仅支持fields列出的人工几何值、口径与几何记录元数据，不支持该对象其他属性，也不是实测证据",
+        "semanticOrigin": "project_extension",
+        "sourceVersion": "1.1",
+        "uid": "D01V01:E014"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "evidenceRole",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fieldGroup",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fields",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "locator",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "locatorKind",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "objectId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "reviewStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scope",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:B02",
+      "target": "D01V01:EV01",
+      "type": "HAS_SOURCE",
+      "uid": "D01V01:E014"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "fields": [
+          "depthM",
+          "footprintXY",
+          "groundZM",
+          "widthM"
+        ],
+        "id": "E016",
+        "recordStatus": "synthetic_assignment",
+        "scope": "仅适用于列出的坐标、尺寸与高程字段；长度单位为m",
+        "semanticOrigin": "project_extension",
+        "uid": "D01V01:E016"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fields",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scope",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:S01",
+      "target": "D01V01:D01",
+      "type": "USES_DATUM",
+      "uid": "D01V01:E016"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "evidenceRole": "synthetic_assignment",
+        "fieldGroup": "currentGeometry",
+        "fields": [
+          "analysisItems",
+          "coverage",
+          "depthDirection",
+          "depthM",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "scenario",
+          "unit",
+          "widthDirection",
+          "widthM"
+        ],
+        "id": "E017",
+        "locator": "/nodes/4/properties",
+        "locatorKind": "json_pointer",
+        "objectId": "S01",
+        "recordStatus": "synthetic_assignment",
+        "reviewStatus": "synthetic_only_not_empirical",
+        "scope": "仅支持fields列出的人工几何值、口径与几何记录元数据，不支持该对象其他属性，也不是实测证据",
+        "semanticOrigin": "project_extension",
+        "sourceVersion": "1.1",
+        "uid": "D01V01:E017"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "evidenceRole",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fieldGroup",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "fields",
+          "type": "LIST<STRING NOT NULL> NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "locator",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "locatorKind",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "objectId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "reviewStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "scope",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:S01",
+      "target": "D01V01:EV01",
+      "type": "HAS_SOURCE",
+      "uid": "D01V01:E017"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E018",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "uid": "D01V01:E018"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:U01",
+      "target": "D01V01:C01",
+      "type": "HAS_COMPARISON",
+      "uid": "D01V01:E018"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "field": "eaveZM",
+        "geometryVersion": "v1",
+        "id": "E019",
+        "recordStatus": "synthetic_assignment",
+        "role": "minuend",
+        "semanticOrigin": "project_extension",
+        "sourceRelationUid": "D01V01:E014",
+        "sourceVersion": "1.1",
+        "uid": "D01V01:E019"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "field",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "geometryVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "role",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceRelationUid",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:C01",
+      "target": "D01V01:B02",
+      "type": "COMPARES_SUBJECT",
+      "uid": "D01V01:E019"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "field": "eaveZM",
+        "geometryVersion": "v1",
+        "id": "E020",
+        "recordStatus": "synthetic_assignment",
+        "role": "subtrahend",
+        "semanticOrigin": "project_extension",
+        "sourceRelationUid": "D01V01:E011",
+        "sourceVersion": "1.1",
+        "uid": "D01V01:E020"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "field",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "geometryVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "role",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceRelationUid",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "sourceVersion",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:C01",
+      "target": "D01V01:B01",
+      "type": "COMPARES_REFERENCE",
+      "uid": "D01V01:E020"
+    },
+    {
+      "properties": {
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "datasetId": "D01V01",
+        "id": "E023",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "uid": "D01V01:E023"
+      },
+      "propertyTypes": [
+        {
+          "key": "caseId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "dataMode",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "datasetId",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "id",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "recordStatus",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "semanticOrigin",
+          "type": "STRING NOT NULL"
+        },
+        {
+          "key": "uid",
+          "type": "STRING NOT NULL"
+        }
+      ],
+      "source": "D01V01:C01",
+      "target": "D01V01:R03",
+      "type": "APPLIES_RULE",
+      "uid": "D01V01:E023"
+    }
+  ]
+}

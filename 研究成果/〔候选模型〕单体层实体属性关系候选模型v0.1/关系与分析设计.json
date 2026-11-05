@@ -1,0 +1,1288 @@
+{
+  "relations": [
+    {
+      "id": "has_space",
+      "label": "包含空间",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Building"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "分析边界内的空间包含；同一空间可以跨越多个物理构件。 本候选扩展至明确划分的单栋Building；保留旧Dwelling语义，不自动重标旧实例。",
+      "basisRefs": [
+        "NQD9DRI3:E7",
+        "92HEGM9S:E3"
+      ],
+      "acyclic": true,
+      "sourceItems": [
+        "B201",
+        "B101"
+      ],
+      "action": "细化适用对象",
+      "oldId": "has_space",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "has_element",
+      "label": "包含实体部分",
+      "domain": [
+        "Dwelling",
+        "Element",
+        "Building"
+      ],
+      "range": [
+        "Element"
+      ],
+      "definition": "物理组成关系；不能将天井空腔作为木构件。 本候选扩展至明确划分的单栋Building；保留旧Dwelling语义，不自动重标旧实例。",
+      "basisRefs": [
+        "T3F2ERJG:E5",
+        "26QUPIXE:E4"
+      ],
+      "acyclic": true,
+      "sourceItems": [
+        "B101",
+        "B501"
+      ],
+      "action": "细化适用对象",
+      "oldId": "has_element",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "bounds",
+      "label": "围合或界定",
+      "domain": [
+        "Element"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "某墙面、屋面或构架与空间边界的关系。",
+      "basisRefs": [
+        "83W7CJW2:E3"
+      ],
+      "sourceItems": [
+        "B105",
+        "B301",
+        "B506"
+      ],
+      "action": "沿用",
+      "oldId": "bounds",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "adjacent_to",
+      "label": "空间邻接",
+      "domain": [
+        "Space"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "两个空间共享部分边界；仅空间靠近不足以断言本关系。对称，不具传递性，不能推出通行。",
+      "basisRefs": [
+        "NQD9DRI3:E11",
+        "BOT02"
+      ],
+      "symmetric": true,
+      "transitive": false,
+      "changeRefs": [
+        "O03"
+      ],
+      "sourceItems": [
+        "B301"
+      ],
+      "action": "沿用",
+      "oldId": "adjacent_to",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "direct_access_to",
+      "label": "可直接通行至",
+      "domain": [
+        "Space"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "在指定时间、使用者及通行情境下，可经via指向的同一界面从起点直接到达终点。方向逐条记录；多跳可达另行计算，不能写作直接通行。",
+      "basisRefs": [
+        "NQD9DRI3:E11",
+        "BOT03",
+        "ISM03"
+      ],
+      "requiredQualifiers": [
+        "via",
+        "accessContext"
+      ],
+      "symmetric": false,
+      "transitive": false,
+      "changeRefs": [
+        "O03"
+      ],
+      "sourceItems": [
+        "B302",
+        "B303",
+        "B304"
+      ],
+      "action": "沿用",
+      "oldId": "direct_access_to",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "via",
+        "accessContext"
+      ],
+      "counterexample": "无实体隔断仍可能因高差、限制或阻挡不能直接通行。"
+    },
+    {
+      "id": "supports",
+      "label": "支承",
+      "domain": [
+        "Element"
+      ],
+      "range": [
+        "Element"
+      ],
+      "definition": "方向从承托构件指向被承托构件；接触不能自动推断支承。",
+      "basisRefs": [
+        "NQD9DRI3:E14"
+      ],
+      "sourceItems": [
+        "B504"
+      ],
+      "action": "沿用",
+      "oldId": "supports",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "contactPart",
+        "judgmentBasis",
+        "judgmentStatus"
+      ],
+      "counterexample": "柱梁几何接触不必然代表已确认支承；未知传力链不补全。"
+    },
+    {
+      "id": "represented_by",
+      "label": "由图纸或记录表述",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Building"
+      ],
+      "range": [
+        "Representation"
+      ],
+      "definition": "原文身份对应明确时建立，不以编号相同自动跨文献链接。 本候选扩展至明确划分的单栋Building；保留旧Dwelling语义，不自动重标旧实例。",
+      "basisRefs": [
+        "83W7CJW2:E2",
+        "ZWDJJE99:E5"
+      ],
+      "sourceItems": [
+        "A02",
+        "A04",
+        "B410"
+      ],
+      "action": "细化适用对象",
+      "oldId": "represented_by",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "located_in",
+      "label": "位于",
+      "domain": [
+        "Dwelling",
+        "Building"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "建筑定位到原文明确地点；本轮不补造坐标。 本候选扩展至明确划分的单栋Building；保留旧Dwelling语义，不自动重标旧实例。",
+      "basisRefs": [
+        "ZWDJJE99:E2"
+      ],
+      "sourceItems": [
+        "B801",
+        "B802"
+      ],
+      "action": "细化适用对象",
+      "oldId": "located_in",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "record_about_place",
+      "label": "记录涉及地点",
+      "domain": [
+        "Representation"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "只有记录而缺乏建筑身份时，保留该记录的调查地点。",
+      "basisRefs": [
+        "83W7CJW2:E2"
+      ],
+      "sourceItems": [
+        "A04",
+        "B802"
+      ],
+      "action": "沿用",
+      "oldId": "record_about_place",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "has_type",
+      "label": "被判为类型",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Representation",
+        "Building"
+      ],
+      "range": [
+        "TypeConcept"
+      ],
+      "definition": "必须通过带判据/证据的classification记录产生，不能无条件写裸边。 本候选扩展至明确划分的单栋Building；保留旧Dwelling语义，不自动重标旧实例。 注意：旧语义允许author_assigned或criteria_match，而旧导入器仅投影criteria_match；本轮仅登记差异，迁移前须统一，不改旧实例。",
+      "basisRefs": [
+        "NQD9DRI3:E3",
+        "83W7CJW2:E4"
+      ],
+      "sourceItems": [
+        "B403",
+        "B502",
+        "C03"
+      ],
+      "action": "细化适用对象",
+      "oldId": "has_type",
+      "layer": "分析派生",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "in_scheme",
+      "label": "属于分类体系",
+      "domain": [
+        "TypeConcept"
+      ],
+      "range": [
+        "TypeScheme"
+      ],
+      "definition": "类型概念的命名空间，不表示建筑实体从属。",
+      "basisRefs": [
+        "83W7CJW2:E4"
+      ],
+      "sourceItems": [
+        "C03"
+      ],
+      "action": "沿用",
+      "oldId": "in_scheme",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "variant_of",
+      "label": "是某原型的形态变体",
+      "domain": [
+        "TypeConcept"
+      ],
+      "range": [
+        "TypeConcept"
+      ],
+      "definition": "作者阐释或读者建模判断，保留操作规则与归属；不推出真实传播链或年代顺序。",
+      "basisRefs": [
+        "YTSWPLNA:E3",
+        "83W7CJW2:E4"
+      ],
+      "sourceItems": [
+        "B505",
+        "C04"
+      ],
+      "action": "沿用",
+      "oldId": "variant_of",
+      "layer": "分析派生",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "affects",
+      "label": "改变对象",
+      "domain": [
+        "ChangeEvent"
+      ],
+      "range": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Building"
+      ],
+      "definition": "实际事件对对象的作用，需时间和前后状态证据。",
+      "basisRefs": [
+        "92HEGM9S:E6"
+      ],
+      "tier": "extension",
+      "sourceItems": [
+        "B701",
+        "B702",
+        "B703"
+      ],
+      "action": "沿用",
+      "oldId": "affects",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "anchored_to",
+      "label": "关联几何区域",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Interface",
+        "Building",
+        "Surface"
+      ],
+      "range": [
+        "GeometryRegion"
+      ],
+      "definition": "对应对象与模型中的区域；必须有版本、坐标系、区域ID。 本候选扩展至明确划分的单栋Building；保留旧Dwelling语义，不自动重标旧实例。",
+      "basisRefs": [
+        "BOT04",
+        "H29"
+      ],
+      "tier": "extension",
+      "changeRefs": [
+        "O09"
+      ],
+      "sourceItems": [
+        "A02",
+        "B102",
+        "B406"
+      ],
+      "action": "细化适用对象",
+      "oldId": "anchored_to",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "interface_of",
+      "label": "界面关联对象",
+      "domain": [
+        "Interface"
+      ],
+      "range": [
+        "Space",
+        "Element"
+      ],
+      "definition": "将界面链接至具体参与对象；通行界面在本轮最小模型中须有两个不同Space端点，其他界面不强制套用。",
+      "basisRefs": [
+        "BOT03",
+        "ISM04"
+      ],
+      "changeRefs": [
+        "O02"
+      ],
+      "sourceItems": [
+        "B301",
+        "B302",
+        "B508"
+      ],
+      "action": "沿用",
+      "oldId": "interface_of",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "realized_by",
+      "label": "界面涉及实体",
+      "domain": [
+        "Interface"
+      ],
+      "range": [
+        "Element"
+      ],
+      "definition": "可选关系，记录门扇、墙体等与界面对应的实体；开放分界可没有实现构件，不补造门实体。",
+      "basisRefs": [
+        "BOT01",
+        "BOT03",
+        "ISM03"
+      ],
+      "changeRefs": [
+        "O02"
+      ],
+      "sourceItems": [
+        "B301",
+        "B302",
+        "B408",
+        "B508"
+      ],
+      "action": "沿用",
+      "oldId": "realized_by",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "intersects_space",
+      "label": "空间范围相交",
+      "domain": [
+        "Space"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "两个已界定空间的三维范围部分共享；须说明划分体系与几何依据，不等同相邻或通行。",
+      "basisRefs": [
+        "BOT02"
+      ],
+      "changeRefs": [
+        "O03"
+      ],
+      "symmetric": true,
+      "transitive": false,
+      "sourceItems": [
+        "B201",
+        "B301"
+      ],
+      "action": "沿用",
+      "oldId": "intersects_space",
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "similar_to",
+      "label": "分析判为相似",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Representation",
+        "Building"
+      ],
+      "range": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Representation",
+        "Building"
+      ],
+      "definition": "依据指定analysisRun形成的派生比较；不是地理接近、空间邻接或文化因果。是否有向由计算方法明确。 本候选扩展至明确划分的单栋Building；保留旧Dwelling语义，不自动重标旧实例。",
+      "basisRefs": [
+        "W26",
+        "W31"
+      ],
+      "changeRefs": [
+        "O08"
+      ],
+      "requiredQualifiers": [
+        "analysisRun",
+        "resultId"
+      ],
+      "sourceItems": [
+        "C04",
+        "C06"
+      ],
+      "action": "细化适用对象",
+      "oldId": "similar_to",
+      "layer": "分析派生",
+      "cardinality": "0..*；仅在满足关系证据与范围条件时建立，不把缺边当否定",
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "analysisRun",
+        "resultId"
+      ],
+      "counterexample": "仅名词相同、图中靠近或资料未提及，不足以建立肯定关系。"
+    },
+    {
+      "id": "has_building",
+      "label": "包含单栋建筑",
+      "domain": [
+        "Dwelling"
+      ],
+      "range": [
+        "Building"
+      ],
+      "definition": "研究单元纳入某栋建筑；必须说明纳入边界、主附角色与时点。共院不自动同户，同户不自动同栋。",
+      "sourceItems": [
+        "A01",
+        "B101"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "role",
+        "boundaryBasis"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "不能因对象同名或图中靠近而建立此关系。"
+    },
+    {
+      "id": "has_surface",
+      "label": "具有表面区域",
+      "domain": [
+        "Building",
+        "Element"
+      ],
+      "range": [
+        "Surface"
+      ],
+      "definition": "实体的实际表面区域；表面区域编号及范围须可指认。跨构件立面投影另用Representation/GeometryRegion表达。",
+      "sourceItems": [
+        "B605",
+        "B606",
+        "B616",
+        "B620"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "regionBoundary"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "不能因对象同名或图中靠近而建立此关系。"
+    },
+    {
+      "id": "located_in_space",
+      "label": "设置于空间",
+      "domain": [
+        "Element"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "构件或设施在某空间中的实际位置；服务一个空间不等于位于该空间。",
+      "sourceItems": [
+        "B206",
+        "B207",
+        "B304",
+        "B618"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "positionBasis"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "不能因对象同名或图中靠近而建立此关系。"
+    },
+    {
+      "id": "serves_space",
+      "label": "服务于空间",
+      "domain": [
+        "Element"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "按观察/档案/访谈记录设施或交通构件的服务空间；不以存在设施推定性能。",
+      "sourceItems": [
+        "B206",
+        "B304",
+        "B612"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "serviceKind"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "不能因对象同名或图中靠近而建立此关系。"
+    },
+    {
+      "id": "physical_connection",
+      "label": "构造连接",
+      "domain": [
+        "Element"
+      ],
+      "range": [
+        "Element"
+      ],
+      "definition": "有节点做法证据的实体连接；采用固定ID排序只储一条无向事实，连接方式另记录；不推断支承。",
+      "sourceItems": [
+        "B508"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "jointKind",
+        "jointLocation"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "相邻或触碰不能代替榫接/搭接等连接依据。"
+    },
+    {
+      "id": "relative_position",
+      "label": "相对方位",
+      "domain": [
+        "Building",
+        "Element",
+        "Space"
+      ],
+      "range": [
+        "Building",
+        "Element",
+        "Space",
+        "Place"
+      ],
+      "definition": "起点相对终点的位置；positionKind前/后/左/右/内侧/外侧等须绑定参照框架和部位。不同参照下的同词不直接合并。",
+      "sourceItems": [
+        "B106",
+        "B108",
+        "B402",
+        "B801",
+        "B802"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "referenceFrame",
+        "positionKind",
+        "viewDirection"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "不能因对象同名或图中靠近而建立此关系。"
+    },
+    {
+      "id": "uses_reference",
+      "label": "使用空间参照",
+      "domain": [
+        "Building",
+        "Space",
+        "Element",
+        "Interface",
+        "Surface",
+        "Representation"
+      ],
+      "range": [
+        "ReferenceFrame"
+      ],
+      "definition": "对象某项测量/判断所用的参照框架，必须由assertionId限定具体记录；不表示对象所有测量共用唯一基准。",
+      "sourceItems": [
+        "A06",
+        "B107",
+        "B401",
+        "B402",
+        "B407"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "assertionId"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "不能因对象同名或图中靠近而建立此关系。"
+    },
+    {
+      "id": "group_uses_space",
+      "label": "群体使用空间",
+      "domain": [
+        "ActorGroup"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "指定时段的使用、共享或专用关系；匿名群体身份及用途/活动依据明确。使用权不等同产权。",
+      "sourceItems": [
+        "B208",
+        "B210",
+        "B804",
+        "B805",
+        "B806"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "activity",
+        "period",
+        "usageMode"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "来源事实或有据判断",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "不能因对象同名或图中靠近而建立此关系。"
+    },
+    {
+      "id": "height_difference_to",
+      "label": "相对测点高差",
+      "domain": [
+        "Building",
+        "Element",
+        "Space"
+      ],
+      "range": [
+        "Building",
+        "Element",
+        "Space"
+      ],
+      "definition": "同一基准下，起点测点标高减终点测点标高；关系包含两测点、数值和方法引用。不以正高差推断审美等级。",
+      "sourceItems": [
+        "B402",
+        "B405",
+        "B407",
+        "B409"
+      ],
+      "qualifiers": [
+        "evidence",
+        "attribution",
+        "temporalScope",
+        "scope",
+        "subjectPoint",
+        "objectPoint",
+        "value",
+        "unit",
+        "referenceFrame",
+        "analysisRun",
+        "resultId"
+      ],
+      "action": "新增候选",
+      "oldId": null,
+      "layer": "分析派生",
+      "cardinality": "0..*；参与对象可多条，具体门槛见定义",
+      "counterexample": "不能因对象同名或图中靠近而建立此关系。"
+    }
+  ],
+  "recordProfiles": [
+    {
+      "id": "Assertion",
+      "label": "带来源的断言",
+      "definition": "复用现有记录层；subject + predicate + value或object，保留支持与冲突证据、归属、观察/有效时间、范围和方法。",
+      "sourceItems": [
+        "A03",
+        "A04",
+        "A05"
+      ],
+      "storage": "Assertion"
+    },
+    {
+      "id": "Measurement",
+      "label": "测量记录",
+      "definition": "作为Assertion记录profile；测值、原单位/规范单位、口径、起止边界/选择器、精度或误差说明、参照系、时点、来源与方法。",
+      "sourceItems": [
+        "A06",
+        "B109",
+        "B204",
+        "B401"
+      ],
+      "storage": "Assertion profile"
+    },
+    {
+      "id": "UseObservation",
+      "label": "使用/活动观察",
+      "definition": "作为Assertion记录profile；活动、空间、匿名群体、时段、观察或访谈原话同时保留，未观察活动不填不存在。",
+      "sourceItems": [
+        "B203",
+        "B208",
+        "B210",
+        "B806"
+      ],
+      "storage": "Assertion profile"
+    },
+    {
+      "id": "CraftStatement",
+      "label": "营造知识陈述",
+      "definition": "作为Assertion记录profile；匠师/文献的规则原话、工具、部位、适用范围和来源，不把地方规则自动视为普遍规律。",
+      "sourceItems": [
+        "B509",
+        "B511",
+        "B512",
+        "B807"
+      ],
+      "storage": "Assertion profile"
+    },
+    {
+      "id": "Classification",
+      "label": "类型判定",
+      "definition": "复用现有分类记录；判据体系及版本、来源判定/研究者判断、输入断言和逐项符合状态。",
+      "sourceItems": [
+        "B403",
+        "B502",
+        "C03"
+      ],
+      "storage": "Classification"
+    },
+    {
+      "id": "AnalysisResult",
+      "label": "分析结果",
+      "definition": "候选结果记录；隶属AnalysisRun，明确输入、输出种类、比较范围和不确定性；可回写但不覆盖事实。",
+      "sourceItems": [
+        "C04",
+        "C05",
+        "C06",
+        "C07"
+      ],
+      "storage": "AnalysisResult"
+    },
+    {
+      "id": "Source",
+      "label": "来源",
+      "definition": "复用现有Source；论文、图纸、档案、现场调查等来源身份与版本。",
+      "sourceItems": [
+        "A02",
+        "A04"
+      ],
+      "storage": "Source"
+    },
+    {
+      "id": "Evidence",
+      "label": "证据定位",
+      "definition": "复用现有Evidence；页码、图号、局部、调查记录号及实际核读状态。方法依据与案例事实支持分开。",
+      "sourceItems": [
+        "A04",
+        "A05"
+      ],
+      "storage": "Evidence"
+    }
+  ],
+  "questions": [
+    {
+      "id": "Q01",
+      "question": "住宅由哪些单栋、主附体量及庭院组成？",
+      "sourceItems": [
+        "B101",
+        "B102",
+        "B103",
+        "B104",
+        "B105",
+        "B106",
+        "B108",
+        "B110"
+      ],
+      "output": "组成图与横纵组织对照表",
+      "relations": [
+        "has_building",
+        "has_element",
+        "has_space",
+        "relative_position"
+      ],
+      "method": "按同一研究边界查询组成、数量和位置；不按屋顶数量替代栋数",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q02",
+      "question": "堂屋、前廊与庭院如何邻接、分界和通行？",
+      "sourceItems": [
+        "B201",
+        "B202",
+        "B203",
+        "B301",
+        "B302",
+        "B303",
+        "B304",
+        "B305",
+        "B307",
+        "B308"
+      ],
+      "output": "空间—界面图、分支/环路及入口层次",
+      "relations": [
+        "has_space",
+        "interface_of",
+        "realized_by",
+        "adjacent_to",
+        "direct_access_to"
+      ],
+      "method": "先固定空间划分和通行情境；路径是图上可达性，行为另求证据",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q03",
+      "question": "主附体量的尺寸与高低进退如何组合？",
+      "sourceItems": [
+        "B109",
+        "B401",
+        "B402",
+        "B404",
+        "B405",
+        "B407",
+        "B409"
+      ],
+      "output": "配对尺寸、高差和位置序列",
+      "relations": [
+        "has_element",
+        "relative_position",
+        "uses_reference",
+        "height_difference_to"
+      ],
+      "method": "同基准、同部位、兼容时点比较；不生成审美优劣阈值",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q04",
+      "question": "立面构成与门窗开口布局有什么差异？",
+      "sourceItems": [
+        "B406",
+        "B408",
+        "B410",
+        "B610",
+        "B612",
+        "B619"
+      ],
+      "output": "立面分段、开口位置与窗墙比",
+      "relations": [
+        "represented_by",
+        "anchored_to",
+        "realized_by"
+      ],
+      "method": "限定朝向与投影范围、窗分子及外墙总面积分母，门另列；不推采光性能",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q05",
+      "question": "构架配置、连接支承与房间尺度如何对应？",
+      "sourceItems": [
+        "B204",
+        "B501",
+        "B502",
+        "B503",
+        "B504",
+        "B505",
+        "B506",
+        "B507",
+        "B508"
+      ],
+      "output": "构架关系图与同部位跨度对照",
+      "relations": [
+        "has_element",
+        "physical_connection",
+        "supports",
+        "has_type"
+      ],
+      "method": "接触、连接、支承分开；证据不足保持未知，不做结构安全结论",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q06",
+      "question": "材料、饰面和颜色如何按部位组合？",
+      "sourceItems": [
+        "B511",
+        "B601",
+        "B602",
+        "B604",
+        "B605",
+        "B606",
+        "B608",
+        "B611",
+        "B613",
+        "B616",
+        "B620"
+      ],
+      "output": "部位材料色彩表及有判据的主辅划分",
+      "relations": [
+        "has_element",
+        "has_surface"
+      ],
+      "method": "基体与饰面分开；拍摄条件影响比较，主辅判据未定则仅描述",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q07",
+      "question": "入口、台基、台阶、装饰与设施有什么特征组合？",
+      "sourceItems": [
+        "B603",
+        "B607",
+        "B609",
+        "B610",
+        "B614",
+        "B615",
+        "B617",
+        "B618"
+      ],
+      "output": "构件特征组合与位置图",
+      "relations": [
+        "has_element",
+        "has_surface",
+        "located_in_space",
+        "serves_space"
+      ],
+      "method": "装饰题材与象征解释分开；追加设施不自动当传统构件",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q08",
+      "question": "同一住宅哪些特征延续或发生变化？",
+      "sourceItems": [
+        "B701",
+        "B702",
+        "B703",
+        "B704",
+        "B705",
+        "B706"
+      ],
+      "output": "跨时点同部位对照及证据表",
+      "relations": [
+        "affects",
+        "represented_by"
+      ],
+      "method": "无历史证据不生成改造事件；变化结果不覆盖当前/历史记录",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q09",
+      "question": "空间用途、住户和活动如何对应？",
+      "sourceItems": [
+        "B203",
+        "B205",
+        "B206",
+        "B207",
+        "B208",
+        "B209",
+        "B210",
+        "B211",
+        "B306",
+        "B804",
+        "B805",
+        "B806"
+      ],
+      "output": "空间使用矩阵、用途面积比例和活动路线",
+      "relations": [
+        "group_uses_space",
+        "located_in_space",
+        "serves_space"
+      ],
+      "method": "用途可多值；混用面积不可任意平摊，图上路径不等于实际路线",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q10",
+      "question": "单体怎样与地形、街巷、环境感受及植物配置联系？",
+      "sourceItems": [
+        "B801",
+        "B802",
+        "B803",
+        "B809"
+      ],
+      "output": "局部环境接口与访谈/实测对照",
+      "relations": [
+        "located_in",
+        "relative_position",
+        "uses_reference"
+      ],
+      "method": "形态、主观感受、仪器性能分层；不从几何比例反推环境因果",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q11",
+      "question": "样本可分出哪些类型及可解释的共性与变体？",
+      "sourceItems": [
+        "B102",
+        "B107",
+        "B403",
+        "B502",
+        "B505",
+        "B807",
+        "B808",
+        "C03",
+        "C04",
+        "C05",
+        "C06",
+        "C07"
+      ],
+      "output": "类型判据、类型组合、频数与差异及反例",
+      "relations": [
+        "has_type",
+        "in_scheme",
+        "variant_of",
+        "similar_to"
+      ],
+      "method": "文献类型仅为候选输入，实际B项按问题选择，原型不证明历史源头或民族专属性",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    },
+    {
+      "id": "Q12",
+      "question": "哪些内容有可靠资料，哪些应暂缓或修订？",
+      "sourceItems": [
+        "A01",
+        "A02",
+        "A03",
+        "A04",
+        "A05",
+        "A06",
+        "B509",
+        "B510",
+        "B512",
+        "B621",
+        "C01",
+        "C02"
+      ],
+      "output": "覆盖率、缺口表与试采修订记录",
+      "relations": [
+        "represented_by",
+        "record_about_place"
+      ],
+      "method": "基础规则贯穿所有问题；未采到不等于不存在；待补核不发布正式工序",
+      "status": "候选分析任务，未执行",
+      "inputPolicy": "列出的条目为任务候选输入；实际运行须进一步固定样本、属性记录ID与版本、口径和缺失策略。"
+    }
+  ]
+}

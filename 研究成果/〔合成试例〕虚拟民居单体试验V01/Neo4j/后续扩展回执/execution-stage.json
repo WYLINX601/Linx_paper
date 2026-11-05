@@ -1,0 +1,9 @@
+{
+  "stage": "verified",
+  "modelSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+  "payloadSHA256": "b204d09c15483ad00e36a91c88dbcaa6453a3bb20124e73fd852390a71c2d5bd",
+  "compilerSHA256": "6fc633590d3f042f8e53bd3926b7db8244a1e4e31d712bcd91461424578a7682",
+  "beforeFingerprint": "b9db8a1ad1edef6d8f442ccbb1728d7bb3a8ea5aea3dd3ccbf4ea3af316f8006",
+  "at": "2026-10-31T07:50:23.067434+08:00",
+  "verificationFingerprint": "93e2f80b4c30c14ef218f587f5ca1398fe32998e57677109b67476a2570d3265"
+}

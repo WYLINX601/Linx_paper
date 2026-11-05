@@ -1,0 +1,569 @@
+{
+  "version": "0.2",
+  "recordedAt": "2026-10-22",
+  "scope": "6篇直接方法参考；不把README中24篇拆解全部声称为本轮重新全文阅读或同等方法依据。",
+  "sources": [
+    {
+      "id": "S_H",
+      "title": "地域性民居风貌要素语义体系构筑方法及特征解析——以徽州地区为例",
+      "author": "汪强、李早、高翔、叶茂盛",
+      "year": 2019,
+      "zoteroKey": "DMFXW3FX",
+      "attachmentKey": "9TUEWX22",
+      "path": "/Users/wangyuelin/Zotero/storage/9TUEWX22/汪强 等 - 2019 - 地域性民居风貌要素语义体系构筑方法及特征解析——以徽州地区为例.pdf",
+      "sha256": "9641e584e113a7a7bb18489a380f4626f82037987dd2d0d24f9ae4eea975b8a6",
+      "sourceKind": "method_literature",
+      "readingScopeThisRound": "复用2026-10-22已有精读证据；关键页抽核范围另见核验记录，不声称本轮重新通读。",
+      "previousEvidenceFile": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json",
+      "previousEvidenceSha256": "f1d0698750666167b9982f319f5f1f609048c88e5a1b5bcc03a21ab8afeb61c4"
+    },
+    {
+      "id": "S_F",
+      "title": "基于本体论的传统村落文化知识图谱生成及其应用——以安徽省绩溪县伏岭村为例",
+      "author": "陈晓华、唐文龙、鲍香玉",
+      "year": 2026,
+      "zoteroKey": "5BG4898K",
+      "attachmentKey": "6WCL46HB",
+      "path": "/Users/wangyuelin/Zotero/storage/6WCL46HB/陈晓华 等 - 2026 - 基于本体论的传统村落文化知识图谱生成及其应用——以安徽省绩溪县伏岭村为例.pdf",
+      "sha256": "e3f2dfdfe3b3415dd05678afd6d65871c947ec4da03e01fc3e4e5a07907e083e",
+      "sourceKind": "method_literature",
+      "readingScopeThisRound": "复用2026-10-22已有精读证据；关键页抽核范围另见核验记录，不声称本轮重新通读。",
+      "previousEvidenceFile": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json",
+      "previousEvidenceSha256": "f1d0698750666167b9982f319f5f1f609048c88e5a1b5bcc03a21ab8afeb61c4"
+    },
+    {
+      "id": "S_W",
+      "title": "中国传统村落特征的解读与集群识别——基于聚类和知识图谱的认知与利用方法",
+      "author": [
+        "王笑",
+        "朱雪融",
+        "唐芃"
+      ],
+      "year": 2025,
+      "zoteroKey": "95UFJBNQ",
+      "attachmentKey": "NWZLFV5V",
+      "path": "/Users/wangyuelin/Zotero/storage/NWZLFV5V/王笑 等 - 2025 - 中国传统村落特征的解读与集群识别——基于聚类和知识图谱的认知与利用方法.pdf",
+      "sha256": "9466364756157bb631427f7f1cc429cb7091697b541fd02a99a51de771466c13",
+      "sourceKind": "method_literature",
+      "readingScopeThisRound": "复用2026-10-22已有精读证据；关键页抽核范围另见核验记录，不声称本轮重新通读。",
+      "previousEvidenceFile": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json",
+      "previousEvidenceSha256": "f1d0698750666167b9982f319f5f1f609048c88e5a1b5bcc03a21ab8afeb61c4"
+    },
+    {
+      "id": "S_M",
+      "title": "传统村落问答系统智能问句识别方法研究",
+      "author": "穆潇莹",
+      "year": 2023,
+      "zoteroKey": "MITZPS7U",
+      "attachmentKey": "PSNPDJVV",
+      "path": "/Users/wangyuelin/Zotero/storage/PSNPDJVV/穆潇莹 - 传统村落问答系统智能问句识别方法研究.pdf",
+      "sha256": "e6292c0aee60ace65153d85636dbc2040b7d54857f0b8c76fa8cf256c98284d6",
+      "sourceKind": "method_literature",
+      "readingScopeThisRound": "复用2026-10-22已有精读证据；关键页抽核范围另见核验记录，不声称本轮重新通读。",
+      "previousEvidenceFile": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json",
+      "previousEvidenceSha256": "f1d0698750666167b9982f319f5f1f609048c88e5a1b5bcc03a21ab8afeb61c4"
+    },
+    {
+      "id": "S_BOT",
+      "title": "BOT: The building topology ontology of the W3C linked building data group",
+      "author": "Mads Holten Rasmussen; Maxime Lefrançois; Georg Ferdinand Schneider; Pieter Pauwels",
+      "year": 2021,
+      "zoteroKey": "PNZ3865Z",
+      "attachmentKey": "6XP3U4GG",
+      "path": "/Users/wangyuelin/Zotero/storage/6XP3U4GG/Rasmussen et al - 2021 - BOT Building Topology Ontology.pdf",
+      "sha256": "b858353daf53c95102e45609d638f5e90039cabaa2bee7520f2b929d649b634d",
+      "doi": "10.3233/SW-200385",
+      "sourceKind": "method_literature",
+      "readingScopeThisRound": "前轮定向阅读模型定义、扩展与讨论；本轮经Zotero MCP重读PDF8–10（印刷149–151）。"
+    },
+    {
+      "id": "S_ISM",
+      "title": "Development of an Indoor Space Semantic Model and Its Implementation as an IndoorGML Extension",
+      "author": "Nishith Maheshwari; Srishti Srivastava; Krishnan Sundara Rajan",
+      "year": 2019,
+      "zoteroKey": "9WWMSBC5",
+      "attachmentKey": "5X32QFZG",
+      "path": "/Users/wangyuelin/Zotero/storage/5X32QFZG/Maheshwari et al - 2019 - Indoor Space Semantic Model.pdf",
+      "sha256": "6cfd362af7350f8fae3d3b0d1fd8d6ce54b8e8261d31a3ecfa1ea73d06168c98",
+      "doi": "10.3390/ijgi8080333",
+      "sourceKind": "method_literature",
+      "readingScopeThisRound": "前轮正文阅读及模型图核对；本轮经Zotero MCP重读PDF7、9–10、14–15。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "H04",
+      "source": "S_H",
+      "pdfPages": [
+        1
+      ],
+      "printedPages": [
+        94
+      ],
+      "locator": "研究操作",
+      "claim": "将空间、图案、样式等形式转为专业描述语汇，再梳理概念间逻辑关系；正文第2页补充先提取构成、形式、类型、组合、材质、色彩并制作对应图示。",
+      "attribution": "作者报告",
+      "verification": "沿用既有精读记录：正文及相应原页核对",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/9TUEWX22?page=1",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#H04"
+    },
+    {
+      "id": "H05",
+      "source": "S_H",
+      "pdfPages": [
+        1
+      ],
+      "printedPages": [
+        94
+      ],
+      "locator": "is-a",
+      "claim": "is-a指子体是母体的一种具体形式，用于基本概念阶层化。",
+      "attribution": "作者报告",
+      "verification": "本轮子agent回原PDF指定页抽核，关键图文目视核对；见原文抽核记录.md（非24篇重新通读）",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/9TUEWX22?page=1",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#H05"
+    },
+    {
+      "id": "H06",
+      "source": "S_H",
+      "pdfPages": [
+        1
+      ],
+      "printedPages": [
+        94
+      ],
+      "locator": "p/o",
+      "claim": "p/o即part of，指子体是母体的一部分；不能与类型继承混同。",
+      "attribution": "作者报告",
+      "verification": "本轮子agent回原PDF指定页抽核，关键图文目视核对；见原文抽核记录.md（非24篇重新通读）",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/9TUEWX22?page=1",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#H06"
+    },
+    {
+      "id": "H07",
+      "source": "S_H",
+      "pdfPages": [
+        1
+      ],
+      "printedPages": [
+        94
+      ],
+      "locator": "a/o",
+      "claim": "a/o即attribute of，指按某属性从母体分类得到一类子体。它在本文是分类关系，不应直接认作OWL的数据属性。",
+      "attribution": "作者报告",
+      "verification": "本轮子agent回原PDF指定页抽核，关键图文目视核对；见原文抽核记录.md（非24篇重新通读）",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/9TUEWX22?page=1",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#H07"
+    },
+    {
+      "id": "H09",
+      "source": "S_H",
+      "pdfPages": [
+        2
+      ],
+      "printedPages": [
+        95
+      ],
+      "locator": "表1→图3",
+      "claim": "先从空间类型、平面类型、组合形式、布局方式、平面形状5方面取要素，再按类型/形式两个语义维度重组。是观察维度到表达结构的转换。",
+      "attribution": "作者报告",
+      "verification": "沿用既有精读记录：正文及相应原页核对",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/9TUEWX22?page=2",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#H09"
+    },
+    {
+      "id": "H10",
+      "source": "S_H",
+      "pdfPages": [
+        2
+      ],
+      "printedPages": [
+        95
+      ],
+      "locator": "图3空间类型",
+      "claim": "图3主体空间含入口、堂屋、厢房、天井；附属空间含杂物间、厨房、卫生间、院落；交通空间含过道和楼梯。正文随后却称主体空间中的天井和宅院变化最多，院落归属存在表述差异。",
+      "attribution": "作者报告",
+      "verification": "沿用既有精读记录：正文及相应原页核对",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/9TUEWX22?page=2",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#H10"
+    },
+    {
+      "id": "H14",
+      "source": "S_H",
+      "pdfPages": [
+        2
+      ],
+      "printedPages": [
+        95
+      ],
+      "locator": "空间关系解释",
+      "claim": "流线关系和位序主次并存；作者以宗族、亲属、地形、风俗解释单元组合与有机生长。没有因果识别或组合发生频率。",
+      "attribution": "作者解释",
+      "verification": "沿用既有精读记录：正文及相应原页核对",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/9TUEWX22?page=2",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#H14"
+    },
+    {
+      "id": "H29",
+      "source": "S_H",
+      "pdfPages": [
+        4
+      ],
+      "printedPages": [
+        97
+      ],
+      "locator": "模型数据库展望",
+      "claim": "第5小节明确是研究展望：导出语义编码→制作要素模型→编程附加图形信息→编码与模型叠加→模型数据库→复建/自生成设计。图9展示编码和信息叠加示意，未报告实测三维区域绑定及验证。",
+      "attribution": "作者报告",
+      "verification": "沿用既有精读记录：正文及相应原页核对",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/9TUEWX22?page=4",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#H29"
+    },
+    {
+      "id": "F06",
+      "source": "S_F",
+      "pdfPages": [
+        3
+      ],
+      "printedPages": [
+        65
+      ],
+      "locator": "三核心与六维度",
+      "claim": "文字确定村落选址和格局、传统建筑、非物质文化遗产三核心类；将类型、时间、地点、人物、事件、活动分别称其子类。其语义更像描述维度，不能不加审查作为同一种继承树。",
+      "attribution": "作者报告",
+      "verification": "沿用既有精读记录：正文及相应原页核对",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/6WCL46HB?page=3",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#F06"
+    },
+    {
+      "id": "F21",
+      "source": "S_F",
+      "pdfPages": [
+        4
+      ],
+      "printedPages": [
+        66
+      ],
+      "locator": "四项手动映射",
+      "claim": "本体类→Neo4j标签；实例→节点；对象属性→关系；数据属性→节点属性。明确为手动映射，未报告自动转换工具和参数。",
+      "attribution": "作者报告",
+      "verification": "本轮子agent回原PDF指定页抽核，关键图文目视核对；见原文抽核记录.md（非24篇重新通读）",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/6WCL46HB?page=4",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#F21"
+    },
+    {
+      "id": "F22",
+      "source": "S_F",
+      "pdfPages": [
+        4
+      ],
+      "printedPages": [
+        66
+      ],
+      "locator": "抽取与融合",
+      "claim": "作者报告以本体限定抽取的类型和属性范围，以伏岭村/纹川村为名称冲突举例，通过词汇映射统一术语，并称本体推理检测解决冲突。",
+      "attribution": "作者报告",
+      "verification": "本轮子agent回原PDF指定页抽核，关键图文目视核对；见原文抽核记录.md（非24篇重新通读）",
+      "uncertainty": "指定页未给身份判定规则、冲突策略及验证；词汇映射的报告本身不能证明两个名称指向同一实体。原有精读记录的“别名”应理解为作者术语融合例，不作为独立身份核验。",
+      "sourceLink": "zotero://open-pdf/library/items/6WCL46HB?page=4",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#F22"
+    },
+    {
+      "id": "F25",
+      "source": "S_F",
+      "pdfPages": [
+        5
+      ],
+      "printedPages": [
+        67
+      ],
+      "locator": "图4属性节点化",
+      "claim": "图4部分值如三十六口古井、南北向分布以节点呈现；不能据概括映射断言所有数据属性均落为节点属性。仅见截图，底层存储需原始导出核查。",
+      "attribution": "阅读者核查",
+      "verification": "沿用既有精读记录：正文及相应原页核对",
+      "uncertainty": "",
+      "sourceLink": "zotero://open-pdf/library/items/6WCL46HB?page=5",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#F25"
+    },
+    {
+      "id": "W11",
+      "source": "S_W",
+      "pdfPages": [
+        2
+      ],
+      "printedPages": [
+        83
+      ],
+      "locator": "2.2；图1",
+      "claim": "方法图与方法段落未报告预训练模型名称、特征维数、各指标编码表、标准化算法、降维算法、聚类算法名称、聚类超参数或选取簇数的准则；正文明确给出的计算原则主要为欧氏距离与报告后的簇数。",
+      "attribution": "阅读者核查（本轮全文/图表范围内未报告）",
+      "verification": "沿用既有精读记录：全文正文核读；图1–8图页核验",
+      "uncertainty": "结论限于该8页论文所呈现的方法与图表。",
+      "sourceLink": "zotero://open-pdf/library/items/NWZLFV5V?page=2",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#W11"
+    },
+    {
+      "id": "W26",
+      "source": "S_W",
+      "pdfPages": [
+        6
+      ],
+      "printedPages": [
+        87
+      ],
+      "locator": "4.1；图9b",
+      "claim": "相似性关系按综合属性特征向量的欧氏距离计算，取最近15个村落作为相似性村落群；使用30%和70%阈值划分强相似、中相似、弱相似关系；属性类别相同或数值相近也作为相似性检索规则。",
+      "attribution": "作者报告",
+      "verification": "本轮子agent回原PDF指定页抽核，关键图文目视核对；见原文抽核记录.md（非24篇重新通读）",
+      "uncertainty": "30%/70%基于何种归一化分值、阈值方向/距离区间及边是否有向均未说明；不可擅自称为分位数或概率。",
+      "sourceLink": "zotero://open-pdf/library/items/NWZLFV5V?page=6",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#W26"
+    },
+    {
+      "id": "W31",
+      "source": "S_W",
+      "pdfPages": [
+        7
+      ],
+      "printedPages": [
+        88
+      ],
+      "locator": "4.2.2（1）",
+      "claim": "作者举出不一致案例：磡头村在规划中属“岭南—山地离散”，但云川溪穿村而过、轮廓部分呈团块状，因此本研究判为“中规模临河块状”；冯村、石家村在规划中属“岭北—簇群集聚”，但村落规模较小、轮廓更似点状/片状，因此被归为“小规模点状片状”。",
+      "attribution": "作者解释",
+      "verification": "沿用既有精读记录：正文核读；与图12村名和类别图示核验",
+      "uncertainty": "作者将差异归因于分析视角/尺度不同；没有独立地面测量来裁决哪一分类更正确。",
+      "sourceLink": "zotero://open-pdf/library/items/NWZLFV5V?page=7",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#W31"
+    },
+    {
+      "id": "M17",
+      "source": "S_M",
+      "pdfPages": [
+        23
+      ],
+      "printedPages": [
+        17
+      ],
+      "locator": "3.2-3.4 schema对照",
+      "claim": "本体/表1含传统建筑等概念，Neo4j标签有node、relic1等；正文未提供概念类至最终标签的完整映射。",
+      "attribution": "阅读者重建",
+      "verification": "沿用既有精读记录：跨表与图像核对",
+      "uncertainty": "不据此断言代码中不存在映射。",
+      "sourceLink": "zotero://open-pdf/library/items/PSNPDJVV?page=23",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#M17"
+    },
+    {
+      "id": "M31",
+      "source": "S_M",
+      "pdfPages": [
+        36
+      ],
+      "printedPages": [
+        30
+      ],
+      "locator": "4.3模板",
+      "claim": "作者称从互联网问卷收集200条用户问句并归纳意图、设计15种模板；200是问句数，正文未称200名受访者。",
+      "attribution": "作者报告",
+      "verification": "沿用既有精读记录：原页图像核验",
+      "uncertainty": "未报问卷、受访者构成或去重规则。",
+      "sourceLink": "zotero://open-pdf/library/items/PSNPDJVV?page=36",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#M31"
+    },
+    {
+      "id": "M57",
+      "source": "S_M",
+      "pdfPages": [
+        42
+      ],
+      "printedPages": [
+        36
+      ],
+      "locator": "5.2系统实现、图21",
+      "claim": "作者描述NER及模板匹配后将实体填入Cypher，查询Neo4j并返还前端；图21为问答界面。",
+      "attribution": "作者报告",
+      "verification": "本轮子agent回原PDF指定页抽核，关键图文目视核对；见原文抽核记录.md（非24篇重新通读）",
+      "uncertainty": "界面和两条查询不是端到端性能测试。",
+      "sourceLink": "zotero://open-pdf/library/items/PSNPDJVV?page=42",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#M57"
+    },
+    {
+      "id": "M60",
+      "source": "S_M",
+      "pdfPages": [
+        12
+      ],
+      "printedPages": [
+        6
+      ],
+      "locator": "第2章与第3章对读",
+      "claim": "第2章泛述融合可消歧；第3章已读实现未报告稳定ID生成、别名、同名消歧、跨来源去重/冲突规则。",
+      "attribution": "阅读者重建",
+      "verification": "沿用既有精读记录：章节对读",
+      "uncertainty": "限论文正文报告范围，不断言代码没有实现。",
+      "sourceLink": "zotero://open-pdf/library/items/PSNPDJVV?page=12",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#M60"
+    },
+    {
+      "id": "M64",
+      "source": "S_M",
+      "pdfPages": [
+        40
+      ],
+      "printedPages": [
+        34
+      ],
+      "locator": "第4.3节及第5章评估",
+      "claim": "未见模板匹配准确率、问答端到端准确率、覆盖率、拒答率或用户评估。",
+      "attribution": "阅读者重建",
+      "verification": "沿用既有精读记录：第4.3节与第5章核读",
+      "uncertainty": "不排除论文外日志或未提交材料有数据。",
+      "sourceLink": "zotero://open-pdf/library/items/PSNPDJVV?page=40",
+      "recordOrigin": "研究资料/来源证据/2026-10-22-四篇知识图谱论文精读证据.json#M64"
+    },
+    {
+      "id": "BOT01",
+      "source": "S_BOT",
+      "pdfPages": [
+        8
+      ],
+      "printedPages": [
+        149
+      ],
+      "locator": "§3.2、图2",
+      "claim": "BOT区分Zone、Element、Interface；三类彼此不相交。Zone含Site、Building、Storey、Space。",
+      "attribution": "作者报告",
+      "verification": "本轮Zotero MCP正文定向核读；核心模型图沿用前轮原页核看",
+      "uncertainty": "论文描述BOT v0.3.1；我们的Dwelling可能是多体研究单元，不可直接等同bot:Building。",
+      "sourceLink": "zotero://open-pdf/library/items/6XP3U4GG?page=8"
+    },
+    {
+      "id": "BOT02",
+      "source": "S_BOT",
+      "pdfPages": [
+        9
+      ],
+      "printedPages": [
+        150
+      ],
+      "locator": "§3.3",
+      "claim": "containsZone表示包含且具传递性；adjacentZone表示共享部分边界且对称；intersectsZone表示三维空间范围部分共享。",
+      "attribution": "作者报告",
+      "verification": "本轮Zotero MCP正文定向核读；核心模型图沿用前轮原页核看",
+      "uncertainty": "不从邻接推导通行；不把所有本地关系直接宣告为BOT等价属性。",
+      "sourceLink": "zotero://open-pdf/library/items/6XP3U4GG?page=9"
+    },
+    {
+      "id": "BOT03",
+      "source": "S_BOT",
+      "pdfPages": [
+        10
+      ],
+      "printedPages": [
+        151
+      ],
+      "locator": "§3.5",
+      "claim": "Interface用于细述空间、构件及二者之间的关系，可附加空间之间通行类型与限制；interfaceOf关联相应对象。",
+      "attribution": "作者报告",
+      "verification": "本轮Zotero MCP正文定向核读；核心模型图沿用前轮原页核看",
+      "uncertainty": "Interface不限于通行开口，也不等于墙或门实体。",
+      "sourceLink": "zotero://open-pdf/library/items/6XP3U4GG?page=10"
+    },
+    {
+      "id": "BOT04",
+      "source": "S_BOT",
+      "pdfPages": [
+        10
+      ],
+      "printedPages": [
+        151
+      ],
+      "locator": "§3.6起始",
+      "claim": "BOT提供将Zone或Element链接到三维模型的手段；具体模型编码不属于BOT范围。",
+      "attribution": "作者报告",
+      "verification": "本轮Zotero MCP正文定向核读；核心模型图沿用前轮原页核看",
+      "uncertainty": "模型版本、坐标系、区域选择器和对应误差是本研究增加的记录规则，不是论文已验证的完整三维区域方案。",
+      "sourceLink": "zotero://open-pdf/library/items/6XP3U4GG?page=10"
+    },
+    {
+      "id": "ISM01",
+      "source": "S_ISM",
+      "pdfPages": [
+        7
+      ],
+      "printedPages": [
+        7
+      ],
+      "locator": "§2.2.1–2.2.2、图3",
+      "claim": "区分形态与连接描述及语义描述：前者包括围合、形状、尺寸、开口，后者包括用途、楼层、建筑标签；可按应用扩展。",
+      "attribution": "作者报告",
+      "verification": "本轮Zotero MCP正文定向核读；核心模型图沿用前轮原页核看",
+      "uncertainty": "不能将空间名称、用途和围合程度压成互斥单一分类。",
+      "sourceLink": "zotero://open-pdf/library/items/5X32QFZG?page=7"
+    },
+    {
+      "id": "ISM02",
+      "source": "S_ISM",
+      "pdfPages": [
+        9,
+        10
+      ],
+      "printedPages": [
+        9,
+        10
+      ],
+      "locator": "§3.1.2",
+      "claim": "半开放/半围合空间可含天井、阳台、前廊等，不要求所有方向完全围合。",
+      "attribution": "作者报告",
+      "verification": "本轮Zotero MCP正文定向核读；核心模型图沿用前轮原页核看",
+      "uncertainty": "原文的容量、阻抗等服务于疏散场景，本轮不照搬为风貌核心字段。",
+      "sourceLink": "zotero://open-pdf/library/items/5X32QFZG?page=9"
+    },
+    {
+      "id": "ISM03",
+      "source": "S_ISM",
+      "pdfPages": [
+        10
+      ],
+      "printedPages": [
+        10
+      ],
+      "locator": "§3.2.1",
+      "claim": "Pseudo opening没有实体框架，可以是墙上缺口，也可以产生于空间细分；开口记录连接空间、状态及可达限制。",
+      "attribution": "作者报告",
+      "verification": "本轮Zotero MCP正文定向核读；核心模型图沿用前轮原页核看",
+      "uncertainty": "无门框不自动证明任何人或任何时点可通行；堂屋—前廊是本研究的迁移示例。",
+      "sourceLink": "zotero://open-pdf/library/items/5X32QFZG?page=10"
+    },
+    {
+      "id": "ISM04",
+      "source": "S_ISM",
+      "pdfPages": [
+        14,
+        15
+      ],
+      "printedPages": [
+        14,
+        15
+      ],
+      "locator": "图9—10、§5",
+      "claim": "SemanticSpace对应空间单元，SemanticOpening对应边界并支持连接关系；论文仍需完整案例验证及后续官方采纳讨论。",
+      "attribution": "作者报告",
+      "verification": "本轮Zotero MCP正文定向核读；核心模型图沿用前轮原页核看",
+      "uncertainty": "这是IndoorGML扩展提案，不是已正式采纳标准；PseudoOpening与本地Interface的映射由研究者提出。",
+      "sourceLink": "zotero://open-pdf/library/items/5X32QFZG?page=14"
+    }
+  ],
+  "separationRule": "方法文献支持建模选择，不能充当某座景宁民居的实测事实证据。",
+  "verificationRecord": "原文抽核记录.md"
+}

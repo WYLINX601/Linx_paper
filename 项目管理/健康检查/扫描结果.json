@@ -1,0 +1,883 @@
+{
+  "checker_version": "1.1",
+  "file_count": 1152,
+  "checked": {
+    "drawio_xml": 18,
+    "json": 145,
+    "link_documents": 303,
+    "links": 9355,
+    "native_link_indexes": 61,
+    "chapter_sections": 32
+  },
+  "excluded": [
+    ".git",
+    ".hermes-academic-backups",
+    ".langgraph_api",
+    ".obsidian",
+    ".openclaw",
+    ".trash",
+    "archive/2026-10-28-全库实体归位/目录残留元数据/论文研究/_管理/健康检查/__pycache__",
+    "项目管理/健康检查/__pycache__"
+  ],
+  "history_or_snapshots": 178,
+  "external_not_fetched": {
+    "external": 3179,
+    "external-local": 828
+  },
+  "counts": {
+    "review": 120
+  },
+  "issues": [
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/案例查询风貌比较与有效性/主题研究.md",
+      "target": "研究成果/风貌分析目标文献对照/风貌研究与畲族建筑研究对照.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/畲族民居研究现状与研究缺口/主题研究.md",
+      "target": "研究成果/风貌分析目标文献对照/风貌研究与畲族建筑研究对照.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/类型识别与语义关系表达/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "主题研究/类型识别与语义关系表达/主题研究.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/大张坑/sources/2026-10-22/W06-浙江在线-北溪村行政调整及大张坑-2023-10-08.html",
+      "target": "<a href=",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/大张坑/sources/2026-10-22/W06-浙江在线-北溪村行政调整及大张坑-2023-10-08.html",
+      "target": "<a href=",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/checkbox.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/checkbox.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/checkbox.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/checkbox.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/close.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/d.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/d.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/d1.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/d1.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/image06.jpg",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/log.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/soundon.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/x1.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/x2.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/zoomact.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/zoomin.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/zoomout.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/bshareC0.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/buttonLite.js#style=-1&uuid=62c783c8-3b18-4e11-89ad-6c8f72a36204&pophcol=2&lang=zh",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/calendar1.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/highlight.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/jquery-1.3.2.min.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/mp1.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/newPower1.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/pirobox.min.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/prototype.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/swfobject.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../paperindex.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/01/sxb20230323001v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/02/sxb20230323002v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/03/sxb20230323003v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/04/sxb20230323004v01n.jpg",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/04/sxb20230323004v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/04/sxb20230323004v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../style/calendar_new.css",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../style/newPower_new.css",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../style/pirobox-style.css",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932222.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932222.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932222.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932224.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932224.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932224.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "index_2023-03-23.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4682.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4683.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4684.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4684.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4685.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../all.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../all.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../assets/app.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../assets/logo.jpg",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../assets/style.css",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../data/corpus.json",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../leimu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../leimu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../leimu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../leimu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../llms-full.txt",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../llms.txt",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../qa.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#jingning",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#jinyun",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#liandu",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#lishui",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#longquan",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#qingyuan",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#songyang",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#suichang",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#yunhe",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../建设规范.md",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bm-001.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bm-015.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bm-051.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bm-055.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bx-063.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-dx-004.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/s02-2018-sohu-story.html",
+      "target": "m.sohu.com/a/257397347_100188381",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/来源证据/2026-10-26-BOT基准来源/官网原始页.html",
+      "target": "assets/interfaces.png",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/来源证据/2026-10-26-BOT基准来源/官网原始页.html",
+      "target": "assets/interfaces.png",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/来源证据/2026-10-26-BOT基准来源/官网原始页.html",
+      "target": "assets/zones.png",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/来源证据/2026-10-26-BOT基准来源/官网原始页.html",
+      "target": "assets/zones.png",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    }
+  ],
+  "not_checked": [
+    "原论文证据支持充分性与作者结论复核",
+    "未声明的全部派生关系及历史导出同步状态",
+    "Zotero条目/附件实时可达性",
+    "Linux Neo4j连接、数据与查询结果",
+    "原生导图像素级排版（另行解析验证）",
+    "外部URL实时可用性",
+    "语义矛盾自动判定与研究有效性"
+  ],
+  "reachable_pages": 737,
+  "run_at": "2026-10-28T05:48:25.788718+00:00"
+}

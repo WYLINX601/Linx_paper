@@ -1,0 +1,1068 @@
+- banner:
+  - link:
+    - /url: https://www.cnki.net/
+  - link "总库":
+    - /url: https://kns.cnki.net/starter/index
+  - link "检索":
+    - /url: https://kns.cnki.net/kns8s/search
+    - text: 检索
+  - link "CNKI AI":
+    - /url: https://ai.cnki.net
+    - text: CNKI AI
+  - link "出版来源":
+    - /url: https://navi.cnki.net/knavi/?language=CHS
+    - text: 出版来源
+  - link "我的CNKI":
+    - /url: https://kns.cnki.net/myspace/collect
+    - text: 我的CNKI
+  - generic: 充值
+  - link "会员":
+    - /url: https://member.cnki.net/
+  - generic "浙江大学图书馆"
+  - generic: 个人登录
+- generic "主题"
+- generic: ×
+- textbox "若检索词含*、+、-等特殊符号，需加半角引号。如：'8-姜酚'": 敕木山
+- link "#":
+  - /url: javascript:void(0)
+- button
+- link:
+  - /url: "#"
+- link "结果中检索":
+  - /url: javascript:void(0)
+- generic: 检索设置
+- link "总库 43":
+  - /url: javascript:void(0)
+  - generic: 总库
+  - emphasis: "43"
+- generic: 中文
+- generic: 外文
+- list:
+  - link "学术期刊 26":
+    - /url: javascript:void(0)
+    - generic: 学术期刊
+    - emphasis: "26"
+  - link "学位论文 4":
+    - /url: javascript:void(0)
+    - generic: 学位论文
+    - emphasis: "4"
+  - link "图书 0":
+    - /url: javascript:void(0)
+    - generic: 图书
+    - emphasis: "0"
+  - link "会议 2":
+    - /url: javascript:void(0)
+    - generic: 会议
+    - emphasis: "2"
+  - link "报纸 8":
+    - /url: javascript:void(0)
+    - generic: 报纸
+    - emphasis: "8"
+  - link "年鉴":
+    - /url: javascript:void(0)
+    - generic: 年鉴
+    - emphasis
+  - link "专利":
+    - /url: javascript:void(0)
+    - generic: 专利
+    - emphasis
+  - link "标准 0":
+    - /url: javascript:void(0)
+    - generic: 标准
+    - emphasis: "0"
+  - link "法律法规":
+    - /url: javascript:void(0)
+    - generic: 法律法规
+    - emphasis
+- link "更多资源":
+  - /url: javascript:void(0);
+- term:
+  - generic "只对前4万条记录分组": 主题
+  - generic "可视化"
+- term:
+  - link "主要主题":
+    - /url: javascript:void(0)
+  - link "次要主题":
+    - /url: javascript:void(0)
+- definition:
+  - list:
+    - checkbox "敕木山"
+    - link "敕木山":
+      - /url: javascript:void(0)
+    - generic: (15)
+    - checkbox "景宁县"
+    - link "景宁县":
+      - /url: javascript:void(0)
+    - generic: (5)
+    - checkbox "惠明茶"
+    - link "惠明茶":
+      - /url: javascript:void(0)
+    - generic: (3)
+    - checkbox "畲族村落"
+    - link "畲族村落":
+      - /url: javascript:void(0)
+    - generic: (3)
+    - checkbox "汤夫人崇拜"
+    - link "汤夫人崇拜":
+      - /url: javascript:void(0)
+    - generic: (3)
+    - checkbox "浙江省财政厅"
+    - link "浙江省财政厅":
+      - /url: javascript:void(0)
+    - generic: (2)
+    - checkbox "乡土景观"
+    - link "乡土景观":
+      - /url: javascript:void(0)
+    - generic: (2)
+    - checkbox "鹤溪镇"
+    - link "鹤溪镇":
+      - /url: javascript:void(0)
+    - generic: (2)
+    - checkbox "浙江景宁"
+    - link "浙江景宁":
+      - /url: javascript:void(0)
+    - generic: (2)
+    - checkbox "浙西南"
+    - link "浙西南":
+      - /url: javascript:void(0)
+    - generic: (2)
+- term:
+  - generic "只对前4万条记录分组": 来源类别
+  - generic "可视化"
+- definition:
+  - list:
+    - checkbox "北大核心"
+    - link "北大核心":
+      - /url: javascript:void(0)
+    - generic: (4)
+    - checkbox "CSSCI"
+    - link "CSSCI":
+      - /url: javascript:void(0)
+    - generic: (2)
+    - checkbox "CSCD"
+    - link "CSCD":
+      - /url: javascript:void(0)
+    - generic: (2)
+    - checkbox "WJCI"
+    - link "WJCI":
+      - /url: javascript:void(0)
+    - generic: (1)
+    - checkbox "AMI(顶级/权威/核心)"
+    - link "AMI":
+      - /url: javascript:void(0)
+    - generic: (1)
+- term:
+  - generic "只对前4万条记录分组": 学科
+  - generic "可视化"
+- definition:
+  - list:
+    - checkbox "民族学"
+    - link "民族学":
+      - /url: javascript:void(0)
+    - generic: (12)
+    - checkbox "中国民族与地方史志"
+    - link "中国民族与地方史志":
+      - /url: javascript:void(0)
+    - generic: (10)
+    - checkbox "旅游"
+    - link "旅游":
+      - /url: javascript:void(0)
+    - generic: (5)
+    - checkbox "文化"
+    - link "文化":
+      - /url: javascript:void(0)
+    - generic: (5)
+    - checkbox "建筑科学与工程"
+    - link "建筑科学与工程":
+      - /url: javascript:void(0)
+    - generic: (4)
+    - checkbox "行政学及国家行政管理"
+    - link "行政学及国家行政管理":
+      - /url: javascript:void(0)
+    - generic: (4)
+    - checkbox "农业经济"
+    - link "农业经济":
+      - /url: javascript:void(0)
+    - generic: (3)
+    - checkbox "轻工业手工业"
+    - link "轻工业手工业":
+      - /url: javascript:void(0)
+    - generic: (3)
+    - checkbox "政党及群众组织"
+    - link "政党及群众组织":
+      - /url: javascript:void(0)
+    - generic: (2)
+    - checkbox "财政与税收"
+    - link "财政与税收":
+      - /url: javascript:void(0)
+    - generic: (2)
+- term:
+  - generic "只对前4万条记录分组": 研究层次
+- term:
+  - generic "只对前100万条记录分组": 年度
+  - generic: 时间
+  - generic: 文献量
+- term:
+  - generic "对所有数据进行分组": 文献类型
+- term:
+  - generic "只对前100万条记录分组": 文献来源
+- term:
+  - generic "只对前4万条记录分组": 作者
+  - generic: 文献量
+  - generic: H指数
+- term:
+  - generic "只对前4万条记录分组": 机构
+- term:
+  - generic "只对前4万条记录分组": 基金
+- term:
+  - generic "只对前100万条记录分组": OA出版
+- generic "关闭": X
+- list:
+  - link "精品科研能力提升专题研修":
+    - /url: https://kfile.cnki.net/File/dashike.html
+    - img "精品科研能力提升专题研修"
+- text: 检索范围： 总库
+- generic: 主题：敕木山
+- link "主题定制":
+  - /url: javascript:void(0)
+- link "检索历史":
+  - /url: javascript:void(0)
+- text: 共找到
+- emphasis: "43"
+- text: 条结果
+- text: 1/3
+- generic "键盘的“← →”可以实现快速翻页": ">>"
+- checkbox "全选"
+- text: 全选
+- text: 已选
+- emphasis: "0"
+- link "清除":
+  - /url: javascript:$(this).filenameClear();
+- list:
+  - link "批量操作":
+    - /url: javascript:void(0)
+  - link "导出与分析":
+    - /url: javascript:void(0)
+- list:
+  - listitem "详情"
+  - listitem "列表"
+- generic: 显示
+- generic: "20"
+- generic: 排序：
+- list:
+  - listitem "只在800万条记录以内有效": 相关度
+  - listitem "只在800万条记录以内有效": 发表时间
+  - listitem "只在800万条记录以内有效": 被引
+  - listitem "只在800万条记录以内有效": 下载
+  - listitem "只在800万条记录以内有效": 综合
+- table:
+  - rowgroup:
+    - row "题名 作者 来源 发表时间 数据库 被引 下载 操作":
+      - columnheader
+      - columnheader "题名"
+      - columnheader "作者"
+      - columnheader "来源"
+      - columnheader "发表时间"
+      - columnheader "数据库"
+      - columnheader "被引"
+      - columnheader "下载"
+      - columnheader "操作"
+  - rowgroup:
+    - row "1 汉畲文化的接触——以客家文化与畲族文化为例 曾少聪 中南民族学院学报(哲学社会科学版) 1996-10-15 期刊 32 1125 下载 原版阅读 CNKI AI阅读":
+      - cell "1":
+        - checkbox
+        - text: "1"
+      - cell "汉畲文化的接触——以客家文化与畲族文化为例":
+        - link "汉畲文化的接触——以客家文化与畲族文化为例":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTOuGkXBx6D9E-KnUtzcCckJ9xPPVQiCb_RM7usBqxi7vjPL_PbTk7H6rpXARutSPzFpYLYwTcHYysjHZRNntXLcW7wrQdcbwCyE3EGL9rfnXRrPP7Wb3yj0s9rebx5OAzTTd64ldwj8z8OcQocZoC2jTnTomPGv-k=
+      - cell "曾少聪":
+        - link "曾少聪":
+          - /url: javascript:void(0)
+      - cell "中南民族学院学报(哲学社会科学版)":
+        - paragraph:
+          - link "中南民族学院学报(哲学社会科学版)":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiUBOof6Z21fKxtJGKmv4bbrMOhMwqIt7eUBse2zD6YCPsfnZwBXSi_gYl72rQqb6UpQuHF-lmgb0uXYivmg6voTXZ8VrjGIaBE=
+      - cell "1996-10-15"
+      - cell "期刊"
+      - cell "32":
+        - link "32":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTOuGkXBx6D9E-KnUtzcCckJ9xPPVQiCb_RM7usBqxi7vjPL_PbTk7H6rpXARutSPzFpYLYwTcHYysjHZRNntXLcW7wrQdcbwCyE3EGL9rfnXRrPP7Wb3yj0s9rebx5OAzTTd64ldwj8z8OcQocZoC2jTnTomPGv-k=&anchor=citnet
+      - cell "1125":
+        - link "1125":
+          - /url: javascript:void(0);
+      - cell "下载 原版阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvlrxB1jRBnVrxz%2FWz0dOr0vXcAnP8r1CXQr3sOk9lHqSbMPsa2AvttE1gaRCecf1jURFCDvaK41z9%2B%2FCQrPnWa8fRMZ8iE9sBWKqyFtreBf6s%2B6QpgKZvXz911%2BBwpxpWNJV9Q7HwQm1NAqjDLz2g4VqbayRUwaMy68ENScaBEfg2FLEZJCdwQrXUPYDlj5ko9MBCNCsl%2BhnP9MqqWkk0aFHgxdYxUpnQC4MihJUDGUWByPrOeVjQvA8LJw9JWKet6EpA%2BQ4lQV9624JmLtOxAy94bOun7jUQftxoFonwVWS
+          - text: 下载
+        - link "原版阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvlrxB1jRBnVrxz%2FWz0dOr0vXcAnP8r1CXQr3sOk9lHqSbMPsa2AvttE1gaRCecf1jeVU%2F7gJJsY56QJHgsspaTCso9UuW%2FBWppxFdIIn%2BeRnOXd9VWRdK41te2p4b3E6n7R%2B7uf%2FUq5onmDkPfYmN%2FzIRUHBpmYiWZCdd8rlvRr0zwYEUg6aPhbd4PQwzv1okeL%2F4GHhvivsjE85f6AhTZrl7855lBKxrmbJq2ECNP0GhpIZ6EausM4tEEdDlyyPU%2BhRr6hrH6w5Neu2hR9KJE6dOx89pqwCZVRJ09PS4dTX
+          - text: 原版阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgifez_KIK3sAe0XAxoSxjVzxU8r0ArRJTMluQczicIkCIotc40HqQW8E8NXkHK4AyU4!&mimetype=PDF&srid=kns
+          - text: CNKI AI阅读
+    - row "2 畲族历史迁徙与文化认同理性——以景宁鹤溪镇“六保”畲族村落汤夫人崇拜为例 王逍 民俗研究 2012-05-15 期刊 28 1208 下载 HTML阅读 CNKI AI阅读":
+      - cell "2":
+        - checkbox
+        - text: "2"
+      - cell "畲族历史迁徙与文化认同理性——以景宁鹤溪镇“六保”畲族村落汤夫人崇拜为例":
+        - link "畲族历史迁徙与文化认同理性——以景宁鹤溪镇“六保”畲族村落汤夫人崇拜为例":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjShRTxzr50QNPgIXyZ2BRmWreJGAW4G6cri8-esULfgshpjBoaAMsEgkYoFK_rF_ENHahQgZfo_EpELrdn2RBSpyIb_gyY6x2nbrGwLhTypzgafkqDYGOHVBFYtH8tweF8QQiFC4e1tIFEUmf59FEHwjOGFCGyY-6RQXcyU4vxBcw==
+      - cell "王逍":
+        - link "王逍":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjTqeYG1-jyL3OFNUtsAW5re1xhtSJcOOrgkQ5RYmTWhV0296Dx4da6QTuADTuUefLeGyaCJXSssICcJDmfnYdbmCfQDgJiQf-W25cRYFp-6UM4srDOpwuduqJh-_AyRacVEf06r-mtt1g==
+      - cell "民俗研究":
+        - paragraph:
+          - link "民俗研究":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiUJIvYUKzn5T6iHwhCgFPrX8ABVPIpNodwywX0Xkxld7n-VZi-dmALFz-j_YWTjlZROOAOkktNVFjEgUjNhQUDKf3pbvxqBqWM=
+      - cell "2012-05-15"
+      - cell "期刊"
+      - cell "28":
+        - link "28":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjShRTxzr50QNPgIXyZ2BRmWreJGAW4G6cri8-esULfgshpjBoaAMsEgkYoFK_rF_ENHahQgZfo_EpELrdn2RBSpyIb_gyY6x2nbrGwLhTypzgafkqDYGOHVBFYtH8tweF8QQiFC4e1tIFEUmf59FEHwjOGFCGyY-6RQXcyU4vxBcw==&anchor=citnet
+      - cell "1208":
+        - link "1208":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvrJY3OHTJ%2BP9A3LhCHaEoBfXcAnP8r1CXQr3sOk9lHqSEu9RR8170n2odKflWU%2FUs87gwy1grX57h2ij0XdPL8gYz7hIz%2Bm4gioz%2Fd0uFLWAlsQo%2BpRvK7ckfm79OSQVfSBnBa%2BGi6z13JPvtSv3a9ygQ3rcCWK8v00%2FaZoGrk3n3hCZuFE7gRGhyL7KUncO%2BmSy%2B0xjdpEjrBXJISzu8uTQ6%2Fn09%2FfeEJXlYW3f4XKteZP5yo5868sAFgS8fYDdGxbuvQxSuF1B39mv8JQ27MtTYZvirLO%2B7BEJjjbrMvpp
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvrJY3OHTJ%2BP9A3LhCHaEoBfXcAnP8r1CXQr3sOk9lHqSEu9RR8170n2odKflWU%2FUs8bwKofuDkecDdgEqUqfBHCKYUMOo8J8xduABzFUNW8cwchwR2FN4KCUBRwOPEA0KFoI06JeZj3AHASLOphhm2oAnR5FO8BkeNJ%2BjSDXO3jzq4Qi89k7RhHs%2BZ2T51F%2FP2EedcJrJkUQ4cE5FYeI%2Fn0G1K6JeS%2FTkjaWv1fzVPDAZPgGwV4c1s%2FLsAkGJzGmxktzwL%2BSFz91NSpG5Fyo0917a9PbxA%2F%2FkySGZgRtcTaN
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgid1bPnY7M98lFKgrxBi3a0AQTWKSgJX8QpYNHu0xF4feD5AZC2nB6SFSw3squH_gv0!&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "3 浙西南少数民族地区乡土景观研究——以景宁县环敕木山地区传统畲族聚落景观为例 任维;张雪葳;钱云;刘通 浙江农业学报 2016-05-25 期刊 23 698 下载 HTML阅读 CNKI AI阅读":
+      - cell "3":
+        - checkbox
+        - text: "3"
+      - cell "浙西南少数民族地区乡土景观研究——以景宁县环敕木山地区传统畲族聚落景观为例":
+        - link "浙西南少数民族地区乡土景观研究——以景宁县环敕木山地区传统畲族聚落景观为例":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjQxoJI8ocUV57rt5kwWCjKloUYT1DxcqgVFqTHBSIub713MGSN6lqu0pAnEwiburhigUPnCyJMF_vMUCHqA6eoHK63K96BiamGVnJuV0U1i5kozSJoC3HJ1ZW07MCftWoz_hgucXojhStkjnYyLabdx7-rfjQBPDKu1se4A45Qq8w==
+      - cell "任维;张雪葳;钱云;刘通":
+        - link "任维":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjShRTxzr50QNKubIQACOOJj6aYjBKCCkbebsRg0BSCh-v_v6wFMb3SiWE0BF1ScSV1NI2BbtOJTOCOleuxqaIUgoA_yx3ZAiqb8iDqyFsxbr02QfQw8EwyQ5dU3HLmQYtnBx1T09Veldg==
+        - text: ;
+        - link "张雪葳":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjQxoJI8ocUV50sdpDJbMwq6g3tcZhLSHs38Dr6mF7-a9XAwa3mWQ_Zj34MbHPFfXKFc7CB8VxIUNAeksxvpjaANBpWCpjyhb_Skc2Mc-MCpYQJDwbleWIEWCohB2mUglMVqaoP-7ZQ6sMhJ28Cm57zh
+        - text: ;
+        - link "钱云":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjQxoJI8ocUV50sdpDJbMwq6SCSTRnu9pU-LZvTRcSbZzhXNCWsKr7YDkV597bhYh2MJXFnXPaudBT2WhIBo2ElnmeGE1zhON4WUntGDpMGj7b9dmQwaxhQ0qh8QBNsome4FQHSYw5FErA==
+        - text: ;
+        - link "刘通":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjQxoJI8ocUV50sdpDJbMwq6rxNi8u3QtMgDpkoCy-cssuvTP7DmJIWvIyY1yCLwKsXy5TIQS4sTQ4wCi662RAdMY9LUoYIMezx58IqTTnOdQNr-g64I0ZEjTXhIcbF7sQz9kRu7x8TI8A==
+      - cell "浙江农业学报":
+        - paragraph:
+          - link "浙江农业学报":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiU6ZLqhN3kALgWnN6LgsI5j7YoeqhvGU57JLgML0y-IVHopTr2pbImvbreRah5FMdQ4P1P_2wY6HZBXTsbrQVJIAWi-VNNyisQ=
+      - cell "2016-05-25"
+      - cell "期刊"
+      - cell "23":
+        - link "23":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjQxoJI8ocUV57rt5kwWCjKloUYT1DxcqgVFqTHBSIub713MGSN6lqu0pAnEwiburhigUPnCyJMF_vMUCHqA6eoHK63K96BiamGVnJuV0U1i5kozSJoC3HJ1ZW07MCftWoz_hgucXojhStkjnYyLabdx7-rfjQBPDKu1se4A45Qq8w==&anchor=citnet
+      - cell "698":
+        - link "698":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6KdoAOCGXZdBUsz%2FwwABAitswngH5Dt9QolUpPy2Mxg7UNgEhPNG4j%2Fq9Z%2FvySWAs7kh7b5mY%2FmsIpB5E%2FKF94iQVtRGRF3wJSTnwmOEEZ8vwAlK57xT%2B8LhM%2BfEqYWvBGm0igmLMld3nSvbU4a5%2BOkNaUlSU0HSLnl9m7MwOtW%2FIk6uwqCk0OK1794SJFRH3EbY2CEkHpPQNW9%2Bcr%2FhXrozWdehHr25nzB2P6zLEyZoNdKtKS7XX7WGlSOnp1057AV0nwekMTmFMiEfDzKBef%2B3L
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6KdoAOCGXZdBUsz%2FwwABAitswngH5Dt9QolUpPy2Mxg7UNv%2FSudDUR3pu%2FPP8%2BZ1TWKiL6pUY4deTV2VvozAOFIpRZPJZEQefXW1RVS3a1v8jK%2F1BfoaD1y1Qo7XRFd7QjHpuNlDuxMvlZu263io%2FYiDKaul1dsBYtTi0d7iCbJHlGadTTHIvT6BRuVIs5kqQ%2BF3JqFwBwn5yrWSHhYHXU2Xx4eByK2%2BXqu1WJmJcg8kSm49dceze%2Bi8VXUMKNInsdoXxm%2Bhi8jh6HjWy9akG%2FO2ldygFAZVSLIHG9BPLv2JAig%3D%3D
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgif45Liel9qeWgb_rD3s2oIwbSgyakN70YKLW6msRjLr0sY6OcB5y-717t_p5nPWnYJ3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "4 浙西南古元古代高温和低温花岗岩的地球化学特征及地质意义 刘潜 南京大学 2013-05-01 硕士 16 692 下载 原版阅读 CNKI AI阅读":
+      - cell "4":
+        - checkbox
+        - text: "4"
+      - cell "浙西南古元古代高温和低温花岗岩的地球化学特征及地质意义":
+        - link "浙西南古元古代高温和低温花岗岩的地球化学特征及地质意义":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTcyZBIBTiyBfPjt3BzJI9GmJgQsiBLPSVL4PJPEL6syntRAGugW5meuEN9uk5MUW05RAG6O5soH0FbD9_Lq0TMwxd0JiyFQ7dH25FptXodLX4yBeBB6zayWD8fGx81yrlmtd7qhKepDRu-wZo1kwVsB4tnTYrEgPD8R68-vucQ4ou3HKdOSUvP
+      - cell "刘潜":
+        - link "刘潜":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjQxoJI8ocUV50sdpDJbMwq61gUOcy9ODSMXZu__wNnmS0jMglKtaGpGSv-1SfbnUGO0i2ef0gW1Im8ZGPkDFeBBbZaIIT43cotNk4kZpHajIHCwToIS5YTquYIJWYDPZcm1kBf6N9695g==
+      - cell "南京大学":
+        - paragraph:
+          - link "南京大学":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiUd-aK_7h8zPU9ucJVDLxsb1YnnPzqpMQMti5Vh-71JJE5kVnUnIZXJLa9_wIdkXcjSbPGGSopUghuc69hqgx6J
+      - cell "2013-05-01"
+      - cell "硕士"
+      - cell "16":
+        - link "16":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTcyZBIBTiyBfPjt3BzJI9GmJgQsiBLPSVL4PJPEL6syntRAGugW5meuEN9uk5MUW05RAG6O5soH0FbD9_Lq0TMwxd0JiyFQ7dH25FptXodLX4yBeBB6zayWD8fGx81yrlmtd7qhKepDRu-wZo1kwVsB4tnTYrEgPD8R68-vucQ4ou3HKdOSUvP&anchor=citnet
+      - cell "692":
+        - link "692":
+          - /url: javascript:void(0);
+      - cell "下载 原版阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BbbrIbe6iiYA%2BvD8dQ0EDilyGh6M%2Foyu76w0rLQaKyT430E3vZfp5dkrndY1sRGIBpyLT%2FZKQgNM05CynIM5HQ%2FCZXXREb7F4rVOjlJjigMil80vbNomKFjMOhCCNkgbBlem7EOQsXoZXjDGsrijOEYqVQU7m4DA0dixYqmPrAYDsvWZFlixFVNgzAuGDi60tfbwlTH4OUN0%2FhzF1u1On9FTgLvd890G16HLeaDQnvNpLgWHejxAzCU3TLQmWNkEbVvgBLWtHjZOnbj6My%2Fh3Q5M%2BMWSQNkBgopi7GzS7saGfngYfo4BvMFzO1HciiMU
+          - text: 下载
+        - link "原版阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BbbrIbe6iiYA%2BvD8dQ0EDilyGh6M%2Foyu76w0rLQaKyT430E3vZfp5dkrndY1sRGIBpyLT%2FZKQgNM05CynIM5HQ%2FCZXXREb7F4rVOjlJjigPcU5DNpzsJBExlSG2DYJiyOKcEuiGBHYRrSZfqbgWXfAqrBqCZ4JEfMxq%2B%2BqHy9SKhalvRyfqhFWmFWyfjAnhN4akS5QdKxdiRZC743njY%2BL9gPVdfU57GUBrj0SeqbtWmhvZp%2BtSeuFJZLSys8d0vo3N8h39l3RGT%2F3qPLlQ0xg%2FV3%2BqfatStGr4A9Tar%2F%2F4%2F1KTs2bcw5TkMpAtG3NWaHW0mmSr8kkUR5Q6g3dnHYw%3D%3D
+          - text: 原版阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=RGa7mrESpptToOMuMXTtLIdDpABOkPy0aETAVZfzihwm4iM4UTsUTJq-th3gskmnYYev2nPsjjWv7sexLFmsqDD7Dxy_1MyJCCn1TPv59QvI1ZqBdCn8bJxRuFKgHA9D&mimetype=PDF&srid=kns
+          - text: CNKI AI阅读
+    - row "5 浙南畲族社会变迁中的文化适应——以景宁敕木山区畲族村落社区汤夫人信仰为田野案例 王逍 浙江工商大学学报 2010-01-15 期刊 14 633 下载 HTML阅读 CNKI AI阅读":
+      - cell "5":
+        - checkbox
+        - text: "5"
+      - cell "浙南畲族社会变迁中的文化适应——以景宁敕木山区畲族村落社区汤夫人信仰为田野案例":
+        - link "浙南畲族社会变迁中的文化适应——以景宁敕木山区畲族村落社区汤夫人信仰为田野案例":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTcyZBIBTiyBfPjt3BzJI9G5P3aL-Szyg2jjvhXr-brwPWexoyO0qQaKnUVql2jy_uSC_cOF8iiZbx_muqi01QbTE6h1xA8Er99CEOWTSpac1xrjNawKypD47mqUBld1Gx7tknSuAxpbQkDOL_Ij4DrUbTjgPqzSqu3FjK4LCAmlQ==
+      - cell "王逍":
+        - link "王逍":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjTcyZBIBTiyBfnNWsyI2Vt3oi_DcwS1h33WUSNU7XUXsuJ5z57W8Qz1rs3jjhEucuhX6L4twyw1PO14Yuy5H6g5tEDFodHyokXg4JtXWz_ySB3sBDVqRuE8KlpapjVan1PLE6OoVTuqhw==
+      - cell "浙江工商大学学报":
+        - paragraph:
+          - link "浙江工商大学学报":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiUd-aK_7h8zPU9ucJVDLxsb0Jkcqc3jSE9gYZGg8WnVOLwYGVSUkbmCzPlk1jRmVREf6g-LTXc6S6gidoYFLCYvtt1o918a0kE=
+      - cell "2010-01-15"
+      - cell "期刊"
+      - cell "14":
+        - link "14":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTcyZBIBTiyBfPjt3BzJI9G5P3aL-Szyg2jjvhXr-brwPWexoyO0qQaKnUVql2jy_uSC_cOF8iiZbx_muqi01QbTE6h1xA8Er99CEOWTSpac1xrjNawKypD47mqUBld1Gx7tknSuAxpbQkDOL_Ij4DrUbTjgPqzSqu3FjK4LCAmlQ==&anchor=citnet
+      - cell "633":
+        - link "633":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvlqyNKBO791UJ1onr5ze5arXcAnP8r1CXQr3sOk9lHqS6wMwyLM1mDNAfOvzx2YaTtHLsBz6yCX373FWdAAGoMUYz7hIz%2Bm4gioz%2Fd0uFLWAlsQo%2BpRvK7ckfm79OSQVfSBnBa%2BGi6z13JPvtSv3a9ygQ3rcCWK8v00%2FaZoGrk3n3hCZuFE7gRGhyL7KUncO%2BpEfBalDP8f3bCVkIGSJgvDQ6%2Fn09%2FfeEJXlYW3f4XKteZP5yo5868sAFgS8fYDdGxbuvQxSuF1B39mv8JQ27MtTYZvirLO%2B7BEJjjbrMvpp
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvlqyNKBO791UJ1onr5ze5arXcAnP8r1CXQr3sOk9lHqS6wMwyLM1mDNAfOvzx2YaTsmATd2a%2FHXZpfpDr5%2FHHOqKYUMOo8J8xduABzFUNW8cwchwR2FN4KCUBRwOPEA0KFoI06JeZj3AHASLOphhm2oAnR5FO8BkeNJ%2BjSDXO3jzq4Qi89k7RhHs%2BZ2T51F%2FP4rdeqUJR9QUchJ8MtAxs1wG1K6JeS%2FTkjaWv1fzVPDAZPgGwV4c1s%2FLsAkGJzGmxktzwL%2BSFz91NSpG5Fyo0917a9PbxA%2F%2FkySGZgRtcTaN
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgieJPifEgppc4WNVfZBdAsOr5i9Uv9l1rhW6RXTB8bYPjWrtKmTjIDl_B2HwwrqmBJA!&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "6 浙江畲族80年文化变迁——《浙江景宁县敕木山畲民调查记》回访调查 何孝辉 丽水学院学报 2012-12-10 期刊 12 443 下载 HTML阅读 CNKI AI阅读":
+      - cell "6":
+        - checkbox
+        - text: "6"
+      - cell "浙江畲族80年文化变迁——《浙江景宁县敕木山畲民调查记》回访调查":
+        - link "浙江畲族80年文化变迁——《浙江景宁县敕木山畲民调查记》回访调查":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjQC_9g4wImKahvMMaFM2qoV8uYLZoZQXbJGTES9QraGqdGQ9PFwsjUSJNncxmcSK2W5sb-dUL5OhaHiyBE6h9Wzs8h5g-DO3PN1QC3NnV2fg5xc0e5bVRjUmyzc3wvqv-Z3DyJD5r5cFokMnEGkjCEbzts5V0MPw3sgJ3zJnhARhw==
+      - cell "何孝辉":
+        - link "何孝辉":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjQC_9g4wImKangAacHuftSzVq5L6FIcdxJkSIs0B6v4mLvJmq1OB9LFu8KqRgTvWmpt6h2GKsgKl2CNVH6_poi9av-mVMQLyP18IBxnT41RXVcaxggdcSSWoS5EKTPCLCGD0THywCPLEo61VPOGCdt6
+      - cell "丽水学院学报":
+        - paragraph:
+          - link "丽水学院学报":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiXgoHybQ0A03NkzVYpchAIE_5oVPXQcOwJ_3Y6d5bhbbL5wGydHDHNp2o3siktaA4Iw3fwz5Cf2xOyQtgQMflPxJ0EhpQEl4SQ=
+      - cell "2012-12-10"
+      - cell "期刊"
+      - cell "12":
+        - link "12":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjQC_9g4wImKahvMMaFM2qoV8uYLZoZQXbJGTES9QraGqdGQ9PFwsjUSJNncxmcSK2W5sb-dUL5OhaHiyBE6h9Wzs8h5g-DO3PN1QC3NnV2fg5xc0e5bVRjUmyzc3wvqv-Z3DyJD5r5cFokMnEGkjCEbzts5V0MPw3sgJ3zJnhARhw==&anchor=citnet
+      - cell "443":
+        - link "443":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvrJY3OHTJ%2BP9A3LhCHaEoBfXcAnP8r1CXQr3sOk9lHqSKOy%2F3F8s0iAH4GJKedYWuT1HIGhsLI3uDPbkjMnDEfAYz7hIz%2Bm4gioz%2Fd0uFLWAlsQo%2BpRvK7ckfm79OSQVfSBnBa%2BGi6z13JPvtSv3a9ygQ3rcCWK8v00%2FaZoGrk3n3hCZuFE7gRGhyL7KUncO%2Bo0bmAA06IVZ0ktmFAeU0afQ6%2Fn09%2FfeEJXlYW3f4XKteZP5yo5868sAFgS8fYDdGxbuvQxSuF1B39mv8JQ27MtTYZvirLO%2B7BEJjjbrMvpp
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvrJY3OHTJ%2BP9A3LhCHaEoBfXcAnP8r1CXQr3sOk9lHqSKOy%2F3F8s0iAH4GJKedYWuRRB2K9DGVtYum%2BQiNpLLUaKYUMOo8J8xduABzFUNW8cwchwR2FN4KCUBRwOPEA0KFoI06JeZj3AHASLOphhm2oAnR5FO8BkeNJ%2BjSDXO3jzq4Qi89k7RhHs%2BZ2T51F%2FP%2F5FIfaf8GRc9sannEwGJvUG1K6JeS%2FTkjaWv1fzVPDAZPgGwV4c1s%2FLsAkGJzGmxktzwL%2BSFz91NSpG5Fyo0917a9PbxA%2F%2FkySGZgRtcTaN
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiep-MRefE_GakdhNiL-YDBqkrIIXN0CDg0AT6QfvvDAqT5AZC2nB6SFSw3squH_gv0!&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "7 畲族起源与风俗 李兴金 寻根 2004-10-25 期刊 11 501 下载 HTML阅读 CNKI AI阅读":
+      - cell "7":
+        - checkbox
+        - text: "7"
+      - cell "畲族起源与风俗":
+        - link "畲族起源与风俗":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSZj0tdI3cLEgHprsX9uJMB73er4h8TNWPoXJXYBuxSEZHQMmeE_iUwZ6L__TSwh8bIIWajEHE-OAw2b6JQaio8YJAc7O3nS7WPru_spcSbRxLDUVRK0t6kNQrLTeBLvhvWZtsLBvZAyoqWzfd3gMWgjfIWXOxnR0qUNX7NZpQmkA==
+      - cell "李兴金":
+        - link "李兴金":
+          - /url: javascript:void(0)
+      - cell "寻根":
+        - paragraph:
+          - link "寻根":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiVrgsmdMXOQNE89j_ajNX_uaaV8w9uONNrpD7_amgM8niG1HStMupw_4LcuvTWiUCSKxDRtYH1YH4KIsb9YKWuuc2XSUBrdi1g=
+      - cell "2004-10-25"
+      - cell "期刊"
+      - cell "11":
+        - link "11":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSZj0tdI3cLEgHprsX9uJMB73er4h8TNWPoXJXYBuxSEZHQMmeE_iUwZ6L__TSwh8bIIWajEHE-OAw2b6JQaio8YJAc7O3nS7WPru_spcSbRxLDUVRK0t6kNQrLTeBLvhvWZtsLBvZAyoqWzfd3gMWgjfIWXOxnR0qUNX7NZpQmkA==&anchor=citnet
+      - cell "501":
+        - link "501":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvtz4MZlm8uV3cUpmZqpW12PXcAnP8r1CXQr3sOk9lHqS%2BKl2gnTuSTywT9TR9cN8YBB3Rk%2Fg9G%2Fv2sdF4G%2FgtO0Yz7hIz%2Bm4gioz%2Fd0uFLWAlsQo%2BpRvK7ckfm79OSQVfSBnBa%2BGi6z13JPvtSv3a9ygQ3rcCWK8v00%2FaZoGrk3n3hCZuFE7gRGhyL7KUncO%2BnE4HOQYTOitCAdiZdzOk07Q6%2Fn09%2FfeEJXlYW3f4XKteZP5yo5868sAFgS8fYDdGxbuvQxSuF1B39mv8JQ27MtTYZvirLO%2B7BEJjjbrMvpp
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvtz4MZlm8uV3cUpmZqpW12PXcAnP8r1CXQr3sOk9lHqS%2BKl2gnTuSTywT9TR9cN8YB4qjhYCZnbIkj3cfHD3iWSKYUMOo8J8xduABzFUNW8cwchwR2FN4KCUBRwOPEA0KFoI06JeZj3AHASLOphhm2oAnR5FO8BkeNJ%2BjSDXO3jzq4Qi89k7RhHs%2BZ2T51F%2FP3X%2BRDX7klHTQ9B%2BP%2FpZvpYG1K6JeS%2FTkjaWv1fzVPDAZPgGwV4c1s%2FLsAkGJzGmxktzwL%2BSFz91NSpG5Fyo0917a9PbxA%2F%2FkySGZgRtcTaN
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgif3QrQelidFVoJ9duGCEHiW0GBO-T6cmSFOptoaBP6P6yNYuDfZaBS3u2IemJLq4fo!&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "8 民国时期浙江畲汉民族的互动与友好——以两则口述史材料为中心 邱国珍 浙江工商大学学报 2010-01-15 期刊 8 530 下载 HTML阅读 CNKI AI阅读":
+      - cell "8":
+        - checkbox
+        - text: "8"
+      - cell "民国时期浙江畲汉民族的互动与友好——以两则口述史材料为中心":
+        - link "民国时期浙江畲汉民族的互动与友好——以两则口述史材料为中心":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSmPZ5ZuUgtbEsxxTUN2phKbnRHmC_QIj4IgANQp55yWPNx1fjdKmGn7oAV-FKd5dKzXLQEbMbhNEmC7_r8RMBmBxQrJX7g2M0t9UlarSFtsSTdOrasN8oJiqj0cwBPOnRSBl13UD4qMB-DnidhMjAbVl7DxCq8vponUOW_f1Dezw==
+      - cell "邱国珍":
+        - link "邱国珍":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjSZj0tdI3cLEq09BmwyE_ikFeKsyiT9DdN6GFGY-Ehehz3E9cYgI8CG8IHHinH1wPfZePC95wS-j_d3Z3wHjvn9v7BRxNI8kTSkcIYRKLemI4bMRJRaptujPPW7cD6GdtzJBbKDcgsLcHBPTmsMGU_Y
+      - cell "浙江工商大学学报":
+        - paragraph:
+          - link "浙江工商大学学报":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiVrgsmdMXOQNE89j_ajNX_uaaV8w9uONNrpD7_amgM8niG1HStMupw_64MDy3Ft_x794yC2Jy1hfxUas1EUquhf9r593MYQJms=
+      - cell "2010-01-15"
+      - cell "期刊"
+      - cell "8":
+        - link "8":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSmPZ5ZuUgtbEsxxTUN2phKbnRHmC_QIj4IgANQp55yWPNx1fjdKmGn7oAV-FKd5dKzXLQEbMbhNEmC7_r8RMBmBxQrJX7g2M0t9UlarSFtsSTdOrasN8oJiqj0cwBPOnRSBl13UD4qMB-DnidhMjAbVl7DxCq8vponUOW_f1Dezw==&anchor=citnet
+      - cell "530":
+        - link "530":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvlqyNKBO791UJ1onr5ze5arXcAnP8r1CXQr3sOk9lHqS6wMwyLM1mDNAfOvzx2YaTkzDNVPVjsud6rmLrTRk%2B5kYz7hIz%2Bm4gioz%2Fd0uFLWAlsQo%2BpRvK7ckfm79OSQVfSBnBa%2BGi6z13JPvtSv3a9ygQ3rcCWK8v00%2FaZoGrk3n3hCZuFE7gRGhyL7KUncO%2But3GlnI3VVa5iMYD4tDNIHQ6%2Fn09%2FfeEJXlYW3f4XKteZP5yo5868sAFgS8fYDdGxbuvQxSuF1B39mv8JQ27MtTYZvirLO%2B7BEJjjbrMvpp
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvlqyNKBO791UJ1onr5ze5arXcAnP8r1CXQr3sOk9lHqS6wMwyLM1mDNAfOvzx2YaTh3b7%2Bz9aQmCL4FOSg%2BKR%2F2KYUMOo8J8xduABzFUNW8cwchwR2FN4KCUBRwOPEA0KFoI06JeZj3AHASLOphhm2oAnR5FO8BkeNJ%2BjSDXO3jzq4Qi89k7RhHs%2BZ2T51F%2FP9ckOEOyvg1CyxSJwnlbW7YG1K6JeS%2FTkjaWv1fzVPDAZPgGwV4c1s%2FLsAkGJzGmxktzwL%2BSFz91NSpG5Fyo0917a9PbxA%2F%2FkySGZgRtcTaN
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgieJPifEgppc4WNVfZBdAsOrxMkO8G-f8Loj7ierWhM1CWrtKmTjIDl_B2HwwrqmBJA!&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "9 清代以来畲族教育研究 张小椿 福建师范大学 2009-04-01 硕士 7 375 下载 原版阅读 CNKI AI阅读":
+      - cell "9":
+        - checkbox
+        - text: "9"
+      - cell "清代以来畲族教育研究":
+        - link "清代以来畲族教育研究":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSmPZ5ZuUgtbEsxxTUN2phKmg-biyH3Hkzw3M9LoPrW4Y77yuvkWFsNraEw6SDSnO6xhQEw86vc-UM65ZMGqoDjj0uERhZRiB_MUDiMoWokbE99y99aRpilfynU9YJSKnHS3G3tcx2yvQZz_1zVyLnhl8YXNWF7p-GKz9gNJyxTRQ==
+      - cell "张小椿":
+        - link "张小椿":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjSmPZ5ZuUgtbN9TDzlm-QOwkwLyRASfuQr7q8y50iNuw9celDlaiPggW9ZC5w3ixa-jfaTytZvEyB--un8nb4T7XgMk-blMogcag1_ipgpXK4uDl7Hm0s1mub_tWNf8ATNGCIDIQf6etQCV0T4K0IFC
+      - cell "福建师范大学":
+        - paragraph:
+          - link "福建师范大学":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiWqcAZw6_8hDHavQ489y-twvv2qUMkxI9No-Nkhthkusgr0-2XYR7_H49pUf2NuuyaCB1DbZnlRtAzE_YejSOZH
+      - cell "2009-04-01"
+      - cell "硕士"
+      - cell "7":
+        - link "7":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSmPZ5ZuUgtbEsxxTUN2phKmg-biyH3Hkzw3M9LoPrW4Y77yuvkWFsNraEw6SDSnO6xhQEw86vc-UM65ZMGqoDjj0uERhZRiB_MUDiMoWokbE99y99aRpilfynU9YJSKnHS3G3tcx2yvQZz_1zVyLnhl8YXNWF7p-GKz9gNJyxTRQ==&anchor=citnet
+      - cell "375":
+        - link "375":
+          - /url: javascript:void(0);
+      - cell "下载 原版阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BbbrIbe6iiYA%2BvD8dQ0EDilyGh6M%2Foyu76w0rLQaKyQ4tuYHvBR2COfE%2FQbgThinghsrD%2FO%2FGTKVO7OMP%2Fzq3AxhzbelwElBY4MFNQmI6SH108bZxJjxE8eLyrWccWztddf4X0FJRE7GpN0BSoEjI01GOtvuhabc8H%2BYsVzSAKEUoRZK8ajwE5MtpquVRMyBgcYKzdxdLJ8Zh%2FQa10Mgexn8iHk5bpC9wP90E3P2logT4S9jgaMRkJ4bKrEhc7fLkeRhxbVLSgBK947efTcF1UmWVRzIC0kDyWQhMhpOQGH%2FFIi0LR%2F7Lctrc%2BLKPGgI
+          - text: 下载
+        - link "原版阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BbbrIbe6iiYA%2BvD8dQ0EDilyGh6M%2Foyu76w0rLQaKyQ4tuYHvBR2COfE%2FQbgThinghsrD%2FO%2FGTKVO7OMP%2Fzq3Ack4AV87uL8sPvci32MBHxl9nzo2QjjEtxenagguaMZsgWX02bwN1o3Y5pt6RTHZsluG%2F%2Bfm8sD8gciM6IZM3R89PNh%2FcbmL9iJQkRoIuabjNOomgDGyNdXYJtnMBzKSUdEu4sbhSTT8SwyfBh33tjnk8qOikZeSAqwcXpqgbYBiY7tSdjkK4VBc27Xq2LnKLg%2B%2F3VrOnUsITgbWTBGvwWOQwd9cb5T817TEyM2PD5r
+          - text: 原版阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=RGa7mrESpptToOMuMXTtLIdDpABOkPy0aETAVZfzihwm4iM4UTsUTJq-th3gskmny_l1OApvmnHguCqOZbNgnVx1Bq8g_OgWxnFaqZlh5TGX8H-zThafoXFu3hRPWoVX&mimetype=PDF&srid=kns
+          - text: CNKI AI阅读
+    - row "10 畲族传统服饰的文化功能及变迁——基于敕木山村的实证调查研究 许宪隆;谢文强 大理大学学报 2019-07-15 期刊 5 517 下载 HTML阅读 CNKI AI阅读":
+      - cell "10":
+        - checkbox
+        - text: "10"
+      - cell "畲族传统服饰的文化功能及变迁——基于敕木山村的实证调查研究":
+        - link "畲族传统服饰的文化功能及变迁——基于敕木山村的实证调查研究":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSWGBfMZw4fEsQgN_5eVeXogLtRu5e__ZzWbuW88AIGaPWDndeNc-dJt0J8LSiGqiCjHKq82trrHMwjHNfqs00n7EC9NIGewS5xz3QsV8F2EA7UJ8Ymh3mN1zv-Vfgas1fw5ibv3AqaZGs5aPBflpTrNiW0kaWyx04NJ7CJWtl2Qg==
+      - cell "许宪隆;谢文强":
+        - link "许宪隆":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjSWGBfMZw4fEkuZYP7wcIOg-soF96tStueyI86oRYCONYiGro41BoKHA0e6KMATc045FEEE5m7TfLccf9B2yGfHNA6p-YiByJU91AWuXJYu01n0FvJmXNlf5YiFKbGAaZFGFm0jt9XdKhjymAEUfnB4
+        - text: ;
+        - link "谢文强":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjSWGBfMZw4fEkuZYP7wcIOgtXWk0071RZsxDEZ684UeGbJf7vqHMxJ45gvEquBW5LJfzlpNKlPDMy2eu01vsCQWYd1aM1ZGZ2I-5GszvM0qIPRDOIMgMrPTDsUZVaIgvonGktjeDW5QY863qoZvRV3w
+      - cell "大理大学学报":
+        - paragraph:
+          - link "大理大学学报":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiUrFL0TSGvk3WhCFDQ4Ht-ILB5Gq79aolHxb1TlX6pmZG8THkxDI74hqzdA6LLvBTiFLAfAnWvNWcl4iF4ctFMcyNUqgOtuP8Y=
+      - cell "2019-07-15"
+      - cell "期刊"
+      - cell "5":
+        - link "5":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSWGBfMZw4fEsQgN_5eVeXogLtRu5e__ZzWbuW88AIGaPWDndeNc-dJt0J8LSiGqiCjHKq82trrHMwjHNfqs00n7EC9NIGewS5xz3QsV8F2EA7UJ8Ymh3mN1zv-Vfgas1fw5ibv3AqaZGs5aPBflpTrNiW0kaWyx04NJ7CJWtl2Qg==&anchor=citnet
+      - cell "517":
+        - link "517":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6KdpcFthR2AfRFJJL4BBrDlb97UX7v02MJ7F5xlJqhMRv6fXkAKJd2jasZCUylOUVgdZ7b5mY%2FmsIpB5E%2FKF94iQVtRGRF3wJSTnwmOEEZ8vwAlK57xT%2B8LhM%2BfEqYWvBGm0igmLMld3nSvbU4a5%2BOkNaUlSU0HSLnl9m7MwOtW%2FIk6IjjZ4ITthLS5q28lhdAI02CEkHpPQNW9%2Bcr%2FhXrozWdehHr25nzB2P6zLEyZoNdKtKS7XX7WGlSOnp1057AV0nwekMTmFMiEfDzKBef%2B3L
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6KdpcFthR2AfRFJJL4BBrDlb97UX7v02MJ7F5xlJqhMRv6Wdv6zG%2Frhm1c7hhLJupE5GL6pUY4deTV2VvozAOFIpRZPJZEQefXW1RVS3a1v8jK%2F1BfoaD1y1Qo7XRFd7QjHpuNlDuxMvlZu263io%2FYiDKaul1dsBYtTi0d7iCbJHlGYAGpVdJSIEogLxt8ykwyjFLZi8GRJiTfXrK%2BvItqggG4eByK2%2BXqu1WJmJcg8kSm49dceze%2Bi8VXUMKNInsdoXxm%2Bhi8jh6HjWy9akG%2FO2ldygFAZVSLIHG9BPLv2JAig%3D%3D
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgie1mQoy39vzbs3yYpDfaPuwoI8UOqUTM_mOUsSD0-WAMaLqpt-UE7qLGJpZtSTKj2x3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "11 浙西南环敕木山带畲族妇女“雄冠式”头冠解析 张洁 设计艺术研究 2015-02-15 期刊 5 145 下载 HTML阅读 CNKI AI阅读":
+      - cell "11":
+        - checkbox
+        - text: "11"
+      - cell "浙西南环敕木山带畲族妇女“雄冠式”头冠解析":
+        - link "浙西南环敕木山带畲族妇女“雄冠式”头冠解析":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjRzu4OjrfcDiE2EzHZ0tsJ45yoxvB23gm5mEP_PRi3d2ZYA_5fLcEtmbMXww3g3unQ4FXL4NzC-wW94ScYmwd-nqkETpmc9EQMvjUu2MuYX0n3WyMPkV4WbiJcvn7wpIZu0kqS_IpHF6aPbE2YH8kyv_0PIrMoNk6A5hWJ1unRSng==
+      - cell "张洁":
+        - link "张洁":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjSWGBfMZw4fEkuZYP7wcIOgX1Tx7ZkIpNH1N3_Sr4S4l4M13XeK_GwxPWj0l77krW9aXrbPKgH_HIfbBoS1kXRIjOy-uWIB2dVhv3R3-U7GYW-0NHvf61s2oHda_eZiWBHoeKZQksA7Yw==
+      - cell "设计艺术研究":
+        - paragraph:
+          - link "设计艺术研究":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiWNGZVTja6bAotyHlJ_8pLWuzpKYc9oge7sYMlLcPA4pMBb-v3sxyBG2gfo1vNnnp9-pXvwZ2Uv3uK2gfuCAS4l8o8ZEqX6_7U=
+      - cell "2015-02-15"
+      - cell "期刊"
+      - cell "5":
+        - link "5":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjRzu4OjrfcDiE2EzHZ0tsJ45yoxvB23gm5mEP_PRi3d2ZYA_5fLcEtmbMXww3g3unQ4FXL4NzC-wW94ScYmwd-nqkETpmc9EQMvjUu2MuYX0n3WyMPkV4WbiJcvn7wpIZu0kqS_IpHF6aPbE2YH8kyv_0PIrMoNk6A5hWJ1unRSng==&anchor=citnet
+      - cell "145":
+        - link "145":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6KdrS38G7seb%2FF2HHy1CU3jxfXJDr3vtn6dX190fQZzi1hxtWPOo96ORgjKuiQ3zUID97b5mY%2FmsIpB5E%2FKF94iQVtRGRF3wJSTnwmOEEZ8vwAlK57xT%2B8LhM%2BfEqYWvBGm0igmLMld3nSvbU4a5%2BOkNaUlSU0HSLnl9m7MwOtW%2FIk9%2BLkboLLpkwwMC34angCAE2CEkHpPQNW9%2Bcr%2FhXrozWdehHr25nzB2P6zLEyZoNdKtKS7XX7WGlSOnp1057AV0nwekMTmFMiEfDzKBef%2B3L
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6KdrS38G7seb%2FF2HHy1CU3jxfXJDr3vtn6dX190fQZzi1h%2F3f%2BY3wjyFdkcfHIK3UhmuL6pUY4deTV2VvozAOFIpRZPJZEQefXW1RVS3a1v8jK%2F1BfoaD1y1Qo7XRFd7QjHpuNlDuxMvlZu263io%2FYiDKaul1dsBYtTi0d7iCbJHlGYAGpVdJSIEogLxt8ykwyjF9SsVxgwYQHvgAOK6fIhsr4eByK2%2BXqu1WJmJcg8kSm49dceze%2Bi8VXUMKNInsdoXxm%2Bhi8jh6HjWy9akG%2FO2ldygFAZVSLIHG9BPLv2JAig%3D%3D
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgicTP5OpynvGeTU6ic7wbwGLTrRAO_Aje_Z3kpLZa4QQRZ743cnqaA9eAJ9i6ME4Uj13KAUBlVIsgcb0E8u_YkCK&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "12 浙江景宁传统畲族民居及其保护与更新——以大张坑村为中心 王文辉 浙江师范大学 2015-03-25 硕士 5 461 下载 原版阅读 CNKI AI阅读":
+      - cell "12":
+        - checkbox
+        - text: "12"
+      - cell "浙江景宁传统畲族民居及其保护与更新——以大张坑村为中心":
+        - link "浙江景宁传统畲族民居及其保护与更新——以大张坑村为中心":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjRzu4OjrfcDiE2EzHZ0tsJ4LZX7_pFbvXQbpepGb1cRQB6vINy-WhK_nkrLwJY7smjyITvvYBK0yGvegvpui6j_NxbKXVby0VOkcVEHXCWjYCkGJYX6We5pwYj2H4V73cia2DNcPIFVQVnFM5TWsUh6yh1IorZ-N4UaCqFeKulYLtBTdmT_67Qb
+      - cell "王文辉":
+        - link "王文辉":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjRzu4OjrfcDiNd_aksuID6LYrPTu5tLfp41U36KH8vbsoeU9wEOF26eKP_w6qmmbnC2mz5PaZZu_TtuEox74SsXe5NlGoqWvrb2uLNerl9lOpzpMWJvttkPKp2y__YXsNMmidfDA1v2K5OMTtzbrjYk
+      - cell "浙江师范大学":
+        - paragraph:
+          - link "浙江师范大学":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiWNGZVTja6bAotyHlJ_8pLWpwYJkFYLCyHzOjbbMGSfkFFKpKFF6BlVJFDlX7MbXy-9SJx2mfyb8SUGVXczIKaZ
+      - cell "2015-03-25"
+      - cell "硕士"
+      - cell "5":
+        - link "5":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjRzu4OjrfcDiE2EzHZ0tsJ4LZX7_pFbvXQbpepGb1cRQB6vINy-WhK_nkrLwJY7smjyITvvYBK0yGvegvpui6j_NxbKXVby0VOkcVEHXCWjYCkGJYX6We5pwYj2H4V73cia2DNcPIFVQVnFM5TWsUh6yh1IorZ-N4UaCqFeKulYLtBTdmT_67Qb&anchor=citnet
+      - cell "461":
+        - link "461":
+          - /url: javascript:void(0);
+      - cell "下载 原版阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BbbrIbe6iiYA%2BvD8dQ0EDilyGh6M%2Foyu76w0rLQaKyQGW1%2FiSlXitq2Yuml0ZdTmBpyLT%2FZKQgNM05CynIM5Hb0LSbmJ4lXAFnmtmN%2BL3wsil80vbNomKFjMOhCCNkgbBlem7EOQsXoZXjDGsrijOEYqVQU7m4DA0dixYqmPrAYDsvWZFlixFVNgzAuGDi60tfbwlTH4OUN0%2FhzF1u1On3NEcmpFO5nh5yukcWSfQo5pLgWHejxAzCU3TLQmWNkEbVvgBLWtHjZOnbj6My%2Fh3Q5M%2BMWSQNkBgopi7GzS7saGfngYfo4BvMFzO1HciiMU
+          - text: 下载
+        - link "原版阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BbbrIbe6iiYA%2BvD8dQ0EDilyGh6M%2Foyu76w0rLQaKyQGW1%2FiSlXitq2Yuml0ZdTmBpyLT%2FZKQgNM05CynIM5Hb0LSbmJ4lXAFnmtmN%2BL3wvcU5DNpzsJBExlSG2DYJiyOKcEuiGBHYRrSZfqbgWXfAqrBqCZ4JEfMxq%2B%2BqHy9SKhalvRyfqhFWmFWyfjAnhN4akS5QdKxdiRZC743njY%2BL9gPVdfU57GUBrj0SeqbtXqqdy8GJAlrmDLKgNomNLJo3N8h39l3RGT%2F3qPLlQ0xg%2FV3%2BqfatStGr4A9Tar%2F%2F4%2F1KTs2bcw5TkMpAtG3NWaHW0mmSr8kkUR5Q6g3dnHYw%3D%3D
+          - text: 原版阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=RGa7mrESpptToOMuMXTtLIdDpABOkPy0aETAVZfzihwm4iM4UTsUTJq-th3gskmnAjmOt0ezfMkzYfXOVc3i20zxQ6ZiUznL5IMv02iogYfI1ZqBdCn8bJxRuFKgHA9D&mimetype=PDF&srid=kns
+          - text: CNKI AI阅读
+    - row "13 历史人类学视野中的畲族经济转型 王逍 浙江师范大学学报(社会科学版) 2014-07-15 期刊 4 352 下载 HTML阅读 CNKI AI阅读":
+      - cell "13":
+        - checkbox
+        - text: "13"
+      - cell "历史人类学视野中的畲族经济转型":
+        - link "历史人类学视野中的畲族经济转型":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjR_7j8XQ-58XZ4XlU5Glc6ge1F3RpM02V38BhNl-AePSNn01hf0GqtHm5gRoSlldX1och31HFPDmzCSOZc-nktg8pUak_0n0KL_mYiCsIRab65hB82K_IjmmcxhkorgrcbnE-1PNQxvzy8ZyxePCbEaIKIVXnww6EPonQi9qD_tUQ==
+      - cell "王逍":
+        - link "王逍":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjR_7j8XQ-58Xf9K_0mzo8fmvo3xrJloWnayOHMMhOZ7PuFWVBQnADFnHHchssLpktDmkdUz4yUnPM7SrgRQnPoJ1FhxlSykv1U-XDhLK1axqGG2DbsNDu3X423ZiO7q1ucP6yOrTWGirg==
+      - cell "浙江师范大学学报(社会科学版)":
+        - paragraph:
+          - link "浙江师范大学学报(社会科学版)":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiWq73nhFrtiHZS53R2XlWuKYeot2QnT8-MMDB8ypEbLSiL7iW_mepG4yVK7TqyrP12QygUvOn75q41RoG5bSO8XbAF-0cVpmW4=
+      - cell "2014-07-15"
+      - cell "期刊"
+      - cell "4":
+        - link "4":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjR_7j8XQ-58XZ4XlU5Glc6ge1F3RpM02V38BhNl-AePSNn01hf0GqtHm5gRoSlldX1och31HFPDmzCSOZc-nktg8pUak_0n0KL_mYiCsIRab65hB82K_IjmmcxhkorgrcbnE-1PNQxvzy8ZyxePCbEaIKIVXnww6EPonQi9qD_tUQ==&anchor=citnet
+      - cell "352":
+        - link "352":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbviYQIQN2c8y26CiHTDvq5z%2FXcAnP8r1CXQr3sOk9lHqSuezIqSiEdwB0iADSyohy%2F%2FGKYzIVc6k%2BlmR7ZV41DT0Yz7hIz%2Bm4gioz%2Fd0uFLWAlsQo%2BpRvK7ckfm79OSQVfSBnBa%2BGi6z13JPvtSv3a9ygQ3rcCWK8v00%2FaZoGrk3n3hCZuFE7gRGhyL7KUncO%2BqnELQpSG3fUDSikd5avmQvQ6%2Fn09%2FfeEJXlYW3f4XKteZP5yo5868sAFgS8fYDdGxbuvQxSuF1B39mv8JQ27MtTYZvirLO%2B7BEJjjbrMvpp
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbviYQIQN2c8y26CiHTDvq5z%2FXcAnP8r1CXQr3sOk9lHqSuezIqSiEdwB0iADSyohy%2F12HWe2ePFLIFnob1uiwq8eKYUMOo8J8xduABzFUNW8cwchwR2FN4KCUBRwOPEA0KFoI06JeZj3AHASLOphhm2oAnR5FO8BkeNJ%2BjSDXO3jzq4Qi89k7RhHs%2BZ2T51F%2FP1dLnIXa7oHSaMjkhLea%2F8wG1K6JeS%2FTkjaWv1fzVPDAZPgGwV4c1s%2FLsAkGJzGmxktzwL%2BSFz91NSpG5Fyo0917a9PbxA%2F%2FkySGZgRtcTaN
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgif6y0s5C-TRsX21hGFXfQNd36eeF-m49hjhuL8S6nFDG_-evrFDiG4FJPuWP7VfIHo!&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "14 中国稻文化纪行 (一)畲族稻文化 玄松南,陈惠哲 中国稻米 2002-10-30 期刊 4 154 下载 HTML阅读 CNKI AI阅读":
+      - cell "14":
+        - checkbox
+        - text: "14"
+      - cell "中国稻文化纪行 (一)畲族稻文化":
+        - link "中国稻文化纪行 (一)畲族稻文化":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSBnJhsqW3CWzacXNpfU2QYr3LbvABYfnMiIogGHmmHnv2G9Y_YMM0yZtP81bd6n-9GuG8IwVtBjrxS_zEK1tn_M8Dax3KyJ0c4bP77Ib3ovLas_omkO9Toq2fwYXBj118QVl2eVd6gpj4rgnBEQm00Obdj_0A-D9jilrroAXV_sw==
+      - cell "玄松南,陈惠哲":
+        - link "玄松南,陈惠哲":
+          - /url: javascript:void(0)
+      - cell "中国稻米":
+        - paragraph:
+          - link "中国稻米":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiUMoC-go2_dibdlFBk_Nqxp7nqkN6B-wz7CnPfe2qT16NEMwJhvFzD9lkILa0j_7JlzOg6JFjgUe2kH4ckOUuofJ6MNMiOMOpw=
+      - cell "2002-10-30"
+      - cell "期刊"
+      - cell "4":
+        - link "4":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSBnJhsqW3CWzacXNpfU2QYr3LbvABYfnMiIogGHmmHnv2G9Y_YMM0yZtP81bd6n-9GuG8IwVtBjrxS_zEK1tn_M8Dax3KyJ0c4bP77Ib3ovLas_omkO9Toq2fwYXBj118QVl2eVd6gpj4rgnBEQm00Obdj_0A-D9jilrroAXV_sw==&anchor=citnet
+      - cell "154":
+        - link "154":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvoWAQ%2BBQJjD3ZuGed97ZmKfXcAnP8r1CXQr3sOk9lHqSYB9NAxN6fhSj1w5Eqohn1ezJU9KI1bkf6ycUMrRoY6EYz7hIz%2Bm4gioz%2Fd0uFLWAlsQo%2BpRvK7ckfm79OSQVfSBnBa%2BGi6z13JPvtSv3a9ygQ3rcCWK8v00%2FaZoGrk3n3hCZuFE7gRGhyL7KUncO%2BunhwujR%2BUJjP6bc2i90yGHQ6%2Fn09%2FfeEJXlYW3f4XKteZP5yo5868sAFgS8fYDdGxbuvQxSuF1B39mv8JQ27MtTYZvirLO%2B7BEJjjbrMvpp
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvoWAQ%2BBQJjD3ZuGed97ZmKfXcAnP8r1CXQr3sOk9lHqSYB9NAxN6fhSj1w5Eqohn1REPHWyPX2rD8LCBP%2FySLXOKYUMOo8J8xduABzFUNW8cwchwR2FN4KCUBRwOPEA0KFoI06JeZj3AHASLOphhm2oAnR5FO8BkeNJ%2BjSDXO3jzq4Qi89k7RhHs%2BZ2T51F%2FP0MST22o87ra0pGtp2xHieUG1K6JeS%2FTkjaWv1fzVPDAZPgGwV4c1s%2FLsAkGJzGmxktzwL%2BSFz91NSpG5Fyo0917a9PbxA%2F%2FkySGZgRtcTaN
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgidN1oD2zwhv6DpvazfyKXj6IC3_lkF6qMLoiuZUb3EviPax4PqE3wo3O0XoVhC09yc!&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "15 民俗信仰的社区功能意义——以景宁敕木山区惠明寺等畲族社区汤夫人信仰为例 王逍 非物质文化遗产研究集刊 2009-06-30 辑刊 4 256 下载 原版阅读 CNKI AI阅读":
+      - cell "15":
+        - checkbox
+        - text: "15"
+      - cell "民俗信仰的社区功能意义——以景宁敕木山区惠明寺等畲族社区汤夫人信仰为例":
+        - link "民俗信仰的社区功能意义——以景宁敕木山区惠明寺等畲族社区汤夫人信仰为例":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSBnJhsqW3CWzacXNpfU2QY1413DYF6n-yQldd0iwTEe-0uKY3vEzYDljyCvURxL4UXhQRuyO262ejv7bLWAYru_9wm5foZrBHsJ0pw4d7qy9j5fhaRKk3TRWTy7KmRNl6-pcWTHJzJGLEHjdBRz5esudOgq8E4mvYdXyHtQR4dvQ==
+      - cell "王逍":
+        - link "王逍":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjSBnJhsqW3CW6ghtS2QRwX3mKQnZ7RImY0n9MS_CtKukeA_S1tXG5D6g0hI6-WcI5fmJQBUP42ChDgIR7YEzse4TMKxCDaU8r6TUOOg3dpdYppQQkiJRRfYHPG5Gb4NaFDE0sLM_5Gc1w==
+      - cell "非物质文化遗产研究集刊":
+        - paragraph:
+          - link "非物质文化遗产研究集刊":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiUMoC-go2_dibdlFBk_NqxpAaPRK_6SyZVGh_F6dxcNJT6N_snYcvbgRw0oU-h7y_5FfxXCW-K27wDCp2eG03uxQ1EtXQpjBTo=
+      - cell "2009-06-30"
+      - cell "辑刊"
+      - cell "4":
+        - generic: "4"
+      - cell "256":
+        - link "256":
+          - /url: javascript:void(0);
+      - cell "下载 原版阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsnRTWg93%2FbWFyyGfw%2Bu26s5cNG7GpZM9rcxUrJVFJDuwgl2bTcX5YAmZhDVvpsvey0z4XO1HuwUnVk8n00SKemyDTjll3huHfQW%2FSufz6U4D7SkGsrFE2TBBPVpU%2BmIVFw43y6%2BGOCV0kn%2FpJh5EM5zUVI8ryHL0%2F0vT2%2FjgIF3GLD%2FLyT43RQyGoBbrej04Ah55vCzQM%2FcWOKlNvIrPdCAKAkvhGKGB5jmkEEz%2BB4op34c8RyqfNf8xXEI68oyfJYIMRE2vaONbQO10O7CIm7Qg0l2XWq6jtgtjVqo0Owd
+          - text: 下载
+        - link "原版阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsnRTWg93%2FbWFyyGfw%2Bu26s5cNG7GpZM9rcxUrJVFJDuwgl2bTcX5YAmZhDVvpsve3GdKLJNx7pURPbe%2FxmZHftGlNdjuH0MWV5BGciL5mHqyHlCgvNdZ3R%2BoHOx0eGDd01GOtvuhabc8H%2BYsVzSAKEUoRZK8ajwE5MtpquVRMyBgcYKzdxdLJ8Zh%2FQa10Mge9I2cam6LrTUYiv5v575w3kT4S9jgaMRkJ4bKrEhc7fLkeRhxbVLSgBK947efTcF1UmWVRzIC0kDyWQhMhpOQGH%2FFIi0LR%2F7Lctrc%2BLKPGgI
+          - text: 原版阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=xgMSeljRKPMg_qXEFUIXsgM1UHjV0uMR_icN4IXwgifp4uktQOvZoqTh2LY3SlJ3GN1ZDJ90krST1PwGhNHIOIuoyTORztWLHY9M12ULits!&mimetype=PDF&srid=kns
+          - text: CNKI AI阅读
+    - row "16 浙江景宁惠明寺畲族聚落边界景观解析与保护开发研究 韩远彬 丽水学院学报 2021-03-10 期刊 2 171 下载 HTML阅读 CNKI AI阅读":
+      - cell "16":
+        - checkbox
+        - text: "16"
+      - cell "浙江景宁惠明寺畲族聚落边界景观解析与保护开发研究":
+        - link "浙江景宁惠明寺畲族聚落边界景观解析与保护开发研究":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTlAgTrp1zC-V53a_Xk58GyAu43b0rRRPOirRmw3faS61QaO1dLTshE6xE0T6EjU4hBhXDfkA1K6sNjcrH_hDM1lw7EcxS28jTGaf-67HEX630XPrps0h8j96HcR60RIjpp5kZHhr-_9l9bwYOCwbFs_9m_JPE4W-jwOELqcA-FkA==
+      - cell "韩远彬":
+        - link "韩远彬":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjTlAgTrp1zC-Xaljx4vw9nJC8N7fR0Xjt2QvgqKPiU0MoxCNhRUWRxrHz7zxME97PtCo2peghoz7wmVeZjGRSCCL6x5MyNANO4r3prGGmgiP5ancqnNbGgH5YPYjO_9Ocl7GvEtguN0FEW8CcsyJ4Vs
+      - cell "丽水学院学报":
+        - paragraph:
+          - link "丽水学院学报":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiUPs1uXn9aqMBNjCjvqkumfqBqTo8kVTUFzYOehjcppPF-bhXJT7LjcZ_FdRumlwGHnXSxCrmdLdTPrunBYmgStzSvvJMk9wB8=
+      - cell "2021-03-10"
+      - cell "期刊"
+      - cell "2":
+        - link "2":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTlAgTrp1zC-V53a_Xk58GyAu43b0rRRPOirRmw3faS61QaO1dLTshE6xE0T6EjU4hBhXDfkA1K6sNjcrH_hDM1lw7EcxS28jTGaf-67HEX630XPrps0h8j96HcR60RIjpp5kZHhr-_9l9bwYOCwbFs_9m_JPE4W-jwOELqcA-FkA==&anchor=citnet
+      - cell "171":
+        - link "171":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6KdoabmU4NncMetQGnHwQAYvknbM7CXTDLy5Xq2jAmk0a6tzE578uBBxBpvas8%2BU9%2B897b5mY%2FmsIpB5E%2FKF94iQVtRGRF3wJSTnwmOEEZ8vwAlK57xT%2B8LhM%2BfEqYWvBGm0igmLMld3nSvbU4a5%2BOkNaUlSU0HSLnl9m7MwOtW%2FIk8DPwASPjjU0vsxLoUF1xp02CEkHpPQNW9%2Bcr%2FhXrozWdehHr25nzB2P6zLEyZoNdKtKS7XX7WGlSOnp1057AV0nwekMTmFMiEfDzKBef%2B3L
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6KdoabmU4NncMetQGnHwQAYvknbM7CXTDLy5Xq2jAmk0a6moCPS09Lqz0p0EYNSkL4TyL6pUY4deTV2VvozAOFIpRZPJZEQefXW1RVS3a1v8jK%2F1BfoaD1y1Qo7XRFd7QjHpuNlDuxMvlZu263io%2FYiDKaul1dsBYtTi0d7iCbJHlGYAGpVdJSIEogLxt8ykwyjHwCyulojfdF%2Fb4ZE1UBN3o4eByK2%2BXqu1WJmJcg8kSm49dceze%2Bi8VXUMKNInsdoXxm%2Bhi8jh6HjWy9akG%2FO2ldygFAZVSLIHG9BPLv2JAig%3D%3D
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiep-MRefE_GakdhNiL-YDBq1pnbKUbdWuCAIRaPhUQCjxcJFnCXWEvXwdDhbxhTw8J3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "17 畲族研究述评——以景宁田野调查的成果为例 方明;吕馨怡 丽水学院学报 2018-05-10 期刊 2 297 下载 HTML阅读 CNKI AI阅读":
+      - cell "17":
+        - checkbox
+        - text: "17"
+      - cell "畲族研究述评——以景宁田野调查的成果为例":
+        - link "畲族研究述评——以景宁田野调查的成果为例":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTU9GlN-xmz2HBoVTIUbyAGXwvk7JfDX9CYLLIvtRzgcB4nECIqxvo04vL6oApXSxjGfR4u0kQSBH8nqyMpPMT8kuw3ZBl6bUH6YpbhoGZJiUEqyZPztML4d9iZkYqPxKCApvpdHm32_QuGLRLbDTArPDX8AQ4GwKdOhjRr1X5p7Q==
+      - cell "方明;吕馨怡":
+        - link "方明":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjTU9GlN-xmz2AfURjLiBuFCx4jFQmJBdM4pZhTxkT1GbKc-RD7RBREpdyDvQ5_g9sMwhNfsBILs_xI81yBhJeyaHf4cbFqznOVSzTpCnHbtDAi0KUekniNirL1bt8v35x_1ym0ugDv4LQ==
+        - text: ;
+        - link "吕馨怡":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjTU9GlN-xmz2AfURjLiBuFC2fcREHFoQL5TQt5uGgJqQEuhGzO64nNMFZ8m-TBu2HGwZ9KSTdk25WQE30mL_jF7tOMUud-i6ws4riYAjSs8sLBLVgXAJgUtnyz_0Smm5lLHRZbgbeTJodJT9yiUpR5t
+      - cell "丽水学院学报":
+        - paragraph:
+          - link "丽水学院学报":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiU52HpkJeSjIRZRH2UKbl2R_gRd3KHVRzy7HWGIdg4kRsbmJRgXAbPI5Y5U9mih3X2XU9SD_kRgBImWMtIltD9z2NSA59T_sxk=
+      - cell "2018-05-10"
+      - cell "期刊"
+      - cell "2":
+        - link "2":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjTU9GlN-xmz2HBoVTIUbyAGXwvk7JfDX9CYLLIvtRzgcB4nECIqxvo04vL6oApXSxjGfR4u0kQSBH8nqyMpPMT8kuw3ZBl6bUH6YpbhoGZJiUEqyZPztML4d9iZkYqPxKCApvpdHm32_QuGLRLbDTArPDX8AQ4GwKdOhjRr1X5p7Q==&anchor=citnet
+      - cell "297":
+        - link "297":
+          - /url: javascript:void(0);
+      - cell "下载 HTML阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6Kdr8Oro5np6zCgMPEkkGtsVynbM7CXTDLy5Xq2jAmk0a6rf0X0mOb2bidwvW2yOjfHd7b5mY%2FmsIpB5E%2FKF94iQVtRGRF3wJSTnwmOEEZ8vwAlK57xT%2B8LhM%2BfEqYWvBGm0igmLMld3nSvbU4a5%2BOkNaUlSU0HSLnl9m7MwOtW%2FIk8lWPHImy0p9TsgpT1UMRog2CEkHpPQNW9%2Bcr%2FhXrozWdehHr25nzB2P6zLEyZoNdKtKS7XX7WGlSOnp1057AV0nwekMTmFMiEfDzKBef%2B3L
+          - text: 下载
+        - link "HTML阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6Kdr8Oro5np6zCgMPEkkGtsVynbM7CXTDLy5Xq2jAmk0a6rbi2ZwtOxOL%2BRr6CeYomWqL6pUY4deTV2VvozAOFIpRZPJZEQefXW1RVS3a1v8jK%2F1BfoaD1y1Qo7XRFd7QjHpuNlDuxMvlZu263io%2FYiDKaul1dsBYtTi0d7iCbJHlGYAGpVdJSIEogLxt8ykwyjHJqFwBwn5yrWSHhYHXU2Xx4eByK2%2BXqu1WJmJcg8kSm49dceze%2Bi8VXUMKNInsdoXxm%2Bhi8jh6HjWy9akG%2FO2ldygFAZVSLIHG9BPLv2JAig%3D%3D
+          - text: HTML阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiep-MRefE_GakdhNiL-YDBqC-u5sOGgA5Q-NbMZRSJphTVphw7qS8TD5hUBzNQ_xqN3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&srid=kns
+          - text: CNKI AI阅读
+    - row "18 惠明茶的品质与采摘加工 王建林 茶叶机械杂志 1997-12-20 期刊 2 61 下载 原版阅读 CNKI AI阅读":
+      - cell "18":
+        - checkbox
+        - text: "18"
+      - cell "惠明茶的品质与采摘加工":
+        - link "惠明茶的品质与采摘加工":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjRSCLiWLixgcHxmRRr7Kf-UJXOAQO6owoN5D3im6NdFMsA036bgAb1r1OZTFfuYvGhA0bIxKgX7K4XXoKF0B0Dh0ImzTYgGgn6G19_l7KveyrPJQC7syU1iDrsFD9WzYpKw9j8DJMoBvF6qMp2DBqGRowaj8x8r3XOwcrbicnaOZg==
+      - cell "王建林":
+        - link "王建林":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjRSCLiWLixgcJTfnYTnHVZeE1ZmlQly-nBgku5TbJRF9M5yrkX7y3k4YHqlLkCqERoQFAGgs7RpiXyDrVEHcrwQUPfeEMHe4uO4rIUoCGHzUmOVTuTuHzZZOjFg7cfczp_aFLc5UtaWppAhz2xmL7QD
+      - cell "茶叶机械杂志":
+        - paragraph:
+          - link "茶叶机械杂志":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiWgv6PEeMU9iLydru3Kc-n2WJsw9UDxpxqG7tS6iBYGH9zeSoE8I56MFdiMYqukJo71k2aQGV8Z7yTqG8JrxLKqO9P_JNpKtx8=
+      - cell "1997-12-20"
+      - cell "期刊"
+      - cell "2":
+        - link "2":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjRSCLiWLixgcHxmRRr7Kf-UJXOAQO6owoN5D3im6NdFMsA036bgAb1r1OZTFfuYvGhA0bIxKgX7K4XXoKF0B0Dh0ImzTYgGgn6G19_l7KveyrPJQC7syU1iDrsFD9WzYpKw9j8DJMoBvF6qMp2DBqGRowaj8x8r3XOwcrbicnaOZg==&anchor=citnet
+      - cell "61":
+        - link "61":
+          - /url: javascript:void(0);
+      - cell "下载 原版阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvlrxB1jRBnVrxz%2FWz0dOr0vXcAnP8r1CXQr3sOk9lHqSAXCtmi67bnBWqYn4Z69ZJEjvxQjTWAPKij0YuBKUxxQfRMZ8iE9sBWKqyFtreBf6s%2B6QpgKZvXz911%2BBwpxpWNJV9Q7HwQm1NAqjDLz2g4VqbayRUwaMy68ENScaBEfg2FLEZJCdwQrXUPYDlj5ko%2F81YDUpRuoRDToyC%2Fyp%2BXhHgxdYxUpnQC4MihJUDGUWByPrOeVjQvA8LJw9JWKet6EpA%2BQ4lQV9624JmLtOxAy94bOun7jUQftxoFonwVWS
+          - text: 下载
+        - link "原版阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvlrxB1jRBnVrxz%2FWz0dOr0vXcAnP8r1CXQr3sOk9lHqSAXCtmi67bnBWqYn4Z69ZJHZf6s1muDcVTC3iOX9Q1B6so9UuW%2FBWppxFdIIn%2BeRnOXd9VWRdK41te2p4b3E6n7R%2B7uf%2FUq5onmDkPfYmN%2FzIRUHBpmYiWZCdd8rlvRr0zwYEUg6aPhbd4PQwzv1okXodknyN4pdHuryJesIPI1%2Fl7855lBKxrmbJq2ECNP0GhpIZ6EausM4tEEdDlyyPU%2BhRr6hrH6w5Neu2hR9KJE6dOx89pqwCZVRJ09PS4dTX
+          - text: 原版阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiccq916k4Sl05QQGA0IFg9VjclNu5mj1g1Hvztm780aTYtc40HqQW8E8NXkHK4AyU4!&mimetype=PDF&srid=kns
+          - text: CNKI AI阅读
+    - row "19 社会性别视野下的浙江畲族女神信仰研究 宋周佳 广东技术师范大学 2020-06-01 硕士 2 433 下载 原版阅读 CNKI AI阅读":
+      - cell "19":
+        - checkbox
+        - text: "19"
+      - cell "社会性别视野下的浙江畲族女神信仰研究":
+        - link "社会性别视野下的浙江畲族女神信仰研究":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjRSCLiWLixgcHxmRRr7Kf-UWujWQwszyiUyQf_NUxUMnI8hcbHz18XAobjwtA6pdUPJxOO-wR3JZ_cwDpcPUr3cLimmnGxbxly-ctxYonfkriJjEj2ljN4DJxkeFeKM_Bvu85tsuPp1XC2qCbGDePdArA2yMvuexCm1jnaTtv1biq4ZwGr_2WHv
+      - cell "宋周佳":
+        - link "宋周佳":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjRSCLiWLixgcJTfnYTnHVZeqPEvKZuwm3PbHe_gjxLDuOuabLs55kPS2-irjxWlbJiFCfla_d4wPV6PIV85rUd58ShIz4b6L3_j8n0xBFwe-gclDOJhHv3vzISP-ScZr7STvKCKq4xwKKRIfkLu-AQb
+      - cell "广东技术师范大学":
+        - paragraph:
+          - link "广东技术师范大学":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiWgv6PEeMU9iLydru3Kc-n2fzwlZ-FPhIIg1Uwu9ptWj1zOswhQbp-OR-HiVF7xiZExGNOqraIVkkh0Ptvu2BMD
+      - cell "2020-06-01"
+      - cell "硕士"
+      - cell "2":
+        - link "2":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjRSCLiWLixgcHxmRRr7Kf-UWujWQwszyiUyQf_NUxUMnI8hcbHz18XAobjwtA6pdUPJxOO-wR3JZ_cwDpcPUr3cLimmnGxbxly-ctxYonfkriJjEj2ljN4DJxkeFeKM_Bvu85tsuPp1XC2qCbGDePdArA2yMvuexCm1jnaTtv1biq4ZwGr_2WHv&anchor=citnet
+      - cell "433":
+        - link "433":
+          - /url: javascript:void(0);
+      - cell "下载 原版阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BbbrIbe6iiYA%2BvD8dQ0EDilyGh6M%2Foyu76w0rLQaKyS1HGorVqC4jogZUahu1d6SVkTBStnvQmcAhRPkKHDP3HZx0FPigTQmAc31xqYgv5Yil80vbNomKFjMOhCCNkgbBlem7EOQsXoZXjDGsrijOEYqVQU7m4DA0dixYqmPrAYDsvWZFlixFVNgzAuGDi60tfbwlTH4OUN0%2FhzF1u1OnwQI6IwRNEeDFYiAIOmy2r9pLgWHejxAzCU3TLQmWNkEbVvgBLWtHjZOnbj6My%2Fh3Q5M%2BMWSQNkBgopi7GzS7saGfngYfo4BvMFzO1HciiMU
+          - text: 下载
+        - link "原版阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BbbrIbe6iiYA%2BvD8dQ0EDilyGh6M%2Foyu76w0rLQaKyS1HGorVqC4jogZUahu1d6SVkTBStnvQmcAhRPkKHDP3HZx0FPigTQmAc31xqYgv5bcU5DNpzsJBExlSG2DYJiyOKcEuiGBHYRrSZfqbgWXfAqrBqCZ4JEfMxq%2B%2BqHy9SKhalvRyfqhFWmFWyfjAnhN4akS5QdKxdiRZC743njY%2BL9gPVdfU57GUBrj0SeqbtVKTEgIt99N6E4QZmwXpOt3o3N8h39l3RGT%2F3qPLlQ0xg%2FV3%2BqfatStGr4A9Tar%2F%2F4%2F1KTs2bcw5TkMpAtG3NWaHW0mmSr8kkUR5Q6g3dnHYw%3D%3D
+          - text: 原版阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=RGa7mrESpptToOMuMXTtLIdDpABOkPy0aETAVZfzihwm4iM4UTsUTJq-th3gskmnGO45m4f3wAYvbTV5TqpDC6gR0PBUzSTmBzLmbQF9ZHvI1ZqBdCn8bJxRuFKgHA9D&mimetype=PDF&srid=kns
+          - text: CNKI AI阅读
+    - row "20 畲民最早入迁景宁时间辨析——雷进裕等人于明万历年间而非唐永泰二年迁入景宁 雷必贵 百越研究（第四辑）——中国百越民族史研究会第十六次年会论文集 2013-12-03 国际会议 2 58 下载 原版阅读 CNKI AI阅读":
+      - cell "20":
+        - checkbox
+        - text: "20"
+      - cell "畲民最早入迁景宁时间辨析——雷进裕等人于明万历年间而非唐永泰二年迁入景宁":
+        - link "畲民最早入迁景宁时间辨析——雷进裕等人于明万历年间而非唐永泰二年迁入景宁":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSC6sh3gdC5EWbQ8SRKCg1QYUo9mtuSMuBkDt6NRDa-7kvEBJrOTwoSOPZ2sKAkQf9BwgLCKse3SGc5D96AWIxy-KFbO94I-dYcdVCEBicCHONIKpcbcaaCOGlFCswxaKuXBsVOMZSbPMy_YxJ2kF7U2swWeZjWbE2osMpPoVLOVLD5WkbxzNLB
+      - cell "雷必贵":
+        - link "雷必贵":
+          - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjSC6sh3gdC5EYdQ5nA_1Wm-e__Q1593WJkhz80lNdbwey0QCXl5LmN6HmJN7tqWDoKkuxy7XUdofke1FSP0LORNMtF4XpRdv1I28MWWh3xKUKoX9OTyT2rYES_udEeSHxwSPvxnsMd_DzZJybAHXsV0
+      - cell "百越研究（第四辑）——中国百越民族史研究会第十六次年会论文集":
+        - paragraph:
+          - link "百越研究（第四辑）——中国百越民族史研究会第十六次年会论文集":
+            - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiVzws9pqltj7nDoxsmU0IYkKgcUfDbZYoSGbDnOqqKBF55m7HpsjkSWpbbll21Wfcd3oTbk0qxiTTCtU6uoKLJhKve74IqyC8IBakD3Y0HgfQ==
+      - cell "2013-12-03"
+      - cell "国际会议"
+      - cell "2":
+        - link "2":
+          - /url: https://kns.cnki.net/kcms2/article/abstract?v=zthAAw_tMjSC6sh3gdC5EWbQ8SRKCg1QYUo9mtuSMuBkDt6NRDa-7kvEBJrOTwoSOPZ2sKAkQf9BwgLCKse3SGc5D96AWIxy-KFbO94I-dYcdVCEBicCHONIKpcbcaaCOGlFCswxaKuXBsVOMZSbPMy_YxJ2kF7U2swWeZjWbE2osMpPoVLOVLD5WkbxzNLB&anchor=citnet
+      - cell "58":
+        - link "58":
+          - /url: javascript:void(0);
+      - cell "下载 原版阅读 CNKI AI阅读":
+        - link "下载":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BIQfYJ9xGGMgrydkE9rX0douPci1RCjSxP9YuFodv4xb63Zh7Lai1Pa3vzuaEITVYonar1EysYcEErd4ITNhxjiQZo3wYWkIPtBKeMUD2rG%2FpiMov8GoingO%2BHGd4p%2BkQHje0aj5T5od3PHpYBIx7P1BfoaD1y1Qo7XRFd7QjHpuNlDuxMvlZu263io%2FYiDKaul1dsBYtTi0d7iCbJHlGfP4ORbb4XHdvwjFsob%2BwhPKgFd7PTe8LgOkI71UqSok4eByK2%2BXqu1WJmJcg8kSm49dceze%2Bi8VXUMKNInsdoXxm%2Bhi8jh6HjWy9akG%2FO2ldygFAZVSLIHG9BPLv2JAig%3D%3D
+          - text: 下载
+        - link "原版阅读":
+          - /url: https://bar.cnki.net/bar/download/order?id=%2BIQfYJ9xGGMgrydkE9rX0douPci1RCjSxP9YuFodv4xb63Zh7Lai1Pa3vzuaEITVYonar1EysYcEErd4ITNhxjiQZo3wYWkIPtBKeMUD2rELzgqzRZWetuxZU%2FU3Zhdz%2Bn7BQMQp1IjbaMnhMm0vkNYNSUSmxYMZTzoRFSUI4sTSVfUOx8EJtTQKowy89oOFam2skVMGjMuvBDUnGgRH4NhSxGSQncEK11D2A5Y%2BZKPD1Yye41Zk5DEWhRqKbx9DR4MXWMVKZ0AuDIoSVAxlFgcj6znlY0LwPCycPSVinrehKQPkOJUFfetuCZi7TsQMveGzrp%2B41EH7caBaJ8FVkg%3D%3D
+          - text: 原版阅读
+        - generic "收藏"
+        - link "引用":
+          - /url: javascript:void(0)
+        - link "CNKI AI阅读":
+          - /url: https://ai.cnki.net/trans?path=study&cid=_G59CS0ekqlrtal0okC4OxEioDQGUYyP45GzgsBWMKX8LDGH3olE2pujvp2Jx5X9czQNmMyvNqfzZ1w3p9evrCQliOq0kpmcoLlzCp0rpEtc5961wxywCbfrTVqv763q&mimetype=PDF&srid=kns
+          - text: CNKI AI阅读
+- link "1":
+  - /url: javascript:void(0);
+- link "2":
+  - /url: javascript:void(0);
+- link "3":
+  - /url: javascript:void(0);
+- link "下一页":
+  - /url: javascript:void(0);
+- list:
+- contentinfo:
+  - list:
+    - generic: 读者服务
+    - link "购买知网卡":
+      - /url: http://vipcard.cnki.net/ec/skwd/skwd.htm
+    - link "充值中心":
+      - /url: http://zhifu.cnki.net/
+    - link "我的CNKI":
+      - /url: http://my.cnki.net/
+    - link "帮助中心":
+      - /url: http://service.cnki.net/helpcenter/
+    - generic: CNKI常用软件下载
+    - link "CAJViewer浏览器":
+      - /url: http://cajviewer.cnki.net
+    - link "知网研学（原E-Study）":
+      - /url: https://estudy.cnki.net/
+    - link "下载中心":
+      - /url: https://www.cnki.net/software/xzydq.htm
+    - link "标准阅读器":
+      - /url: https://piccache.cnki.net/2022/kdn/software/standardreader.exe
+    - generic: 特色服务
+    - link "手机知网":
+      - /url: http://wap.cnki.net/
+    - link "杂志订阅":
+      - /url: http://wuxizazhi.cnki.net/
+    - link "数字出版物订阅":
+      - /url: http://mall.cnki.net/
+    - link "广告服务":
+      - /url: http://a.cnki.net
+    - generic: 客户服务
+    - generic: 订卡热线：400-819-9993
+    - generic: 服务热线：400-810-9888
+    - text: 在线咨询：
+    - link "service.cnki.net":
+      - /url: http://service.cnki.net
+    - text: 邮件咨询：
+    - link "help@cnki.net":
+      - /url: mailto:help@cnki.net
+    - link "新浪微博客服":
+      - /url: http://e.weibo.com/u/3059308095
+      - generic: 新浪微博客服
+    - link "官方微信":
+      - /url: javascript:void(0)
+      - generic: 官方微信
+  - paragraph:
+    - link "关于我们":
+      - /url: http://cnki.net/gycnki/gycnki.htm
+    - link "CNKI 荣誉":
+      - /url: http://www.cnki.net/other/gonggao/gongsirongyu.html
+    - link "版权公告":
+      - /url: http://www.cnki.net/other/gonggao/bqsm.htm
+    - link "客服中心":
+      - /url: https://service.cnki.net/
+    - link "用户建议":
+      - /url: https://service.cnki.net/home?flag=1
+    - link "知网招聘":
+      - /url: https://piccache.cnki.net/index/CNKIRecruit/index.html
+    - link "知网推广":
+      - /url: http://a.cnki.net/
+    - generic: © 1998-2026中国知网（CNKI）
+  - link:
+    - /url: https://www.etrust.org.cn/CX8852713371735.html
+  - text: 京 ICP 证 040431 号
+  - link "网络出版服务许可证网出证(京)字第416号":
+    - /url: https://piccache.cnki.net/index/images/gb/416.jpg
+  - text: 京公网安备 11010802020460 号
+  - text: 同方知网数字科技有限公司 KDN 平台基础技术由 AIKBase 提供.
+  - link "在线咨询":
+    - /url: https://service.cnki.net
+  - link "用户反馈":
+    - /url: https://kefu.cnki.net/im/goLeavemsg.html?appid=01xds8&isLogin=true&skill=ff8080818906901e018909b8eda90057
+- generic: 拖动下方拼图完成验证
+- img "close"
+- generic: 安全验证
+- img "refresh"

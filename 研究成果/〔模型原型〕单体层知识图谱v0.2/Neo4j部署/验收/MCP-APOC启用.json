@@ -1,0 +1,58 @@
+{
+  "status": "passed",
+  "apocJar": "/home/linx/.local/share/neo4j-paper/runtime/neo4j-community-5.26.32/plugins/apoc-5.26.32-core.jar",
+  "apocSha256": "ea6f46b541c473ab79fff4359524027a462d031f21048b8a8acbceb4fa46a92f",
+  "configBackup": "/home/linx/.config/neo4j-paper/conf/neo4j.conf.before-mcp-20261022",
+  "unrestrictedProcedure": "apoc.meta.schema",
+  "queryResults": [
+    {
+      "columns": [
+        "apocVersion"
+      ],
+      "data": [
+        {
+          "row": [
+            "5.26.32"
+          ],
+          "meta": [
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "columns": [
+        "schemaEntries"
+      ],
+      "data": [
+        {
+          "row": [
+            39
+          ],
+          "meta": [
+            null
+          ]
+        }
+      ]
+    },
+    {
+      "columns": [
+        "name",
+        "mode"
+      ],
+      "data": [
+        {
+          "row": [
+            "apoc.meta.schema",
+            "DEFAULT"
+          ],
+          "meta": [
+            null,
+            null
+          ]
+        }
+      ]
+    }
+  ],
+  "testedAt": "2026-10-22T12:55:53.525436+00:00"
+}

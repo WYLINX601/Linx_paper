@@ -1,0 +1,9 @@
+{
+  "type": "canonical-prototype-reference",
+  "status": "superseded-by-unified-prototype",
+  "canonicalModel": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+  "canonicalReview": "研究成果/〔合成试例〕虚拟民居单体试验V01/审核视图.html",
+  "legacyDataset": "D01V01",
+  "archivedModel": "archive/2026-10-30-统一原型合并前/原件/d01.json",
+  "meaning": "analysis-role reuse, not entity sameAs; no nodes duplicated here"
+}

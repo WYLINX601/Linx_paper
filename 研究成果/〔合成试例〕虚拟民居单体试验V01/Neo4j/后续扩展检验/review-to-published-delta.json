@@ -1,0 +1,12 @@
+{
+  "scope": "main-session post-review UI-only delta; not independent rereview",
+  "changes": [
+    {
+      "path": "tools/viewer.template.html",
+      "reviewedSHA256": "ce4398d87306a7b55c7829a08b3e2ba8176024aa435b50c5110b65782b98239e",
+      "publishedSHA256": "7221d213224084e5f814546b239d6e4a9e8de45076db6509f4ad6aea7ac6744e"
+    }
+  ],
+  "reason": "Updated header and historical/current links; evidence expansion now takes a fixed closure and stable UID ordering instead of depending on relationship array order. Core source/compiler/analysis/execution unchanged.",
+  "verification": "final browser permutation and routing tests in ui-final.json"
+}

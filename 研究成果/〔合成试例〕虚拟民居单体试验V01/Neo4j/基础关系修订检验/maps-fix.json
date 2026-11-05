@@ -1,0 +1,182 @@
+[
+  {
+    "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+    "beforeNodes": 140,
+    "afterNodes": 147,
+    "preservedUIDs": 140,
+    "sha256": "ff7ca309b49b93c7974b828823ab82d16d2264619b1aeddffedc0066dcb4ec48",
+    "validation": {
+      "ok": true,
+      "errors": [],
+      "verification": {
+        "environment": {
+          "ok": true,
+          "plugin_version": "0.2.10",
+          "errors": [],
+          "warnings": [],
+          "files": [
+            {
+              "path": ".obsidian/plugins/simple-mind-map/main.js",
+              "bytes": 6579273,
+              "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+            },
+            {
+              "path": ".obsidian/plugins/simple-mind-map/styles.css",
+              "bytes": 796993,
+              "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+            }
+          ]
+        },
+        "compatibility": {
+          "ok": true,
+          "method": "installed_plugin_markdown_reader",
+          "rendering": "not_exercised"
+        }
+      },
+      "file": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-fix-iwt59djh/map-vault/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "relative": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "ff7ca309b49b93c7974b828823ab82d16d2264619b1aeddffedc0066dcb4ec48",
+      "nodes": 147,
+      "warnings": [],
+      "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2F.hermes%2Fprofiles%2Facademic%2Fcache%2Fscratch%2Fprototype-fix-iwt59djh%2Fmap-vault%2F%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%2F%E3%80%94%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E3%80%95%E9%A3%8E%E8%B2%8C%E5%88%86%E6%9E%90%E6%8B%86%E8%A7%A3%2FD03%E9%99%A2%E8%90%BD%E4%B8%8E%E7%A9%BA%E9%97%B4%E7%BB%84%E7%BB%87%E6%8B%86%E8%A7%A3%E5%9B%BE.smm.md",
+      "text_index_matches": true,
+      "preview": "empty"
+    },
+    "visualLayout": "not-pixel-verified"
+  },
+  {
+    "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+    "beforeNodes": 136,
+    "afterNodes": 136,
+    "preservedUIDs": 136,
+    "sha256": "6d3380d45cbcbef2ec26c6c4fbd20de87fd7f59e87e869fc7b997180aa59f1ed",
+    "validation": {
+      "ok": true,
+      "errors": [],
+      "verification": {
+        "environment": {
+          "ok": true,
+          "plugin_version": "0.2.10",
+          "errors": [],
+          "warnings": [],
+          "files": [
+            {
+              "path": ".obsidian/plugins/simple-mind-map/main.js",
+              "bytes": 6579273,
+              "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+            },
+            {
+              "path": ".obsidian/plugins/simple-mind-map/styles.css",
+              "bytes": 796993,
+              "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+            }
+          ]
+        },
+        "compatibility": {
+          "ok": true,
+          "method": "installed_plugin_markdown_reader",
+          "rendering": "not_exercised"
+        }
+      },
+      "file": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-fix-iwt59djh/map-vault/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "relative": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "sha256": "6d3380d45cbcbef2ec26c6c4fbd20de87fd7f59e87e869fc7b997180aa59f1ed",
+      "nodes": 136,
+      "warnings": [],
+      "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2F.hermes%2Fprofiles%2Facademic%2Fcache%2Fscratch%2Fprototype-fix-iwt59djh%2Fmap-vault%2F%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%2F%E3%80%94%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E3%80%95%E9%A3%8E%E8%B2%8C%E5%88%86%E6%9E%90%E6%8B%86%E8%A7%A3%2FD04%E7%AB%8B%E9%9D%A2%E6%9D%90%E6%96%99%E4%B8%8E%E8%A3%85%E9%A5%B0%E6%8B%86%E8%A7%A3%E5%9B%BE.smm.md",
+      "text_index_matches": true,
+      "preview": "empty"
+    },
+    "visualLayout": "not-pixel-verified"
+  },
+  {
+    "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+    "beforeNodes": 135,
+    "afterNodes": 135,
+    "preservedUIDs": 135,
+    "sha256": "8c8fa802dcc5b2e79dedd8cf935f3026d674e23daaebf108abd6fd98fc4e8a15",
+    "validation": {
+      "ok": true,
+      "errors": [],
+      "verification": {
+        "environment": {
+          "ok": true,
+          "plugin_version": "0.2.10",
+          "errors": [],
+          "warnings": [],
+          "files": [
+            {
+              "path": ".obsidian/plugins/simple-mind-map/main.js",
+              "bytes": 6579273,
+              "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+            },
+            {
+              "path": ".obsidian/plugins/simple-mind-map/styles.css",
+              "bytes": 796993,
+              "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+            }
+          ]
+        },
+        "compatibility": {
+          "ok": true,
+          "method": "installed_plugin_markdown_reader",
+          "rendering": "not_exercised"
+        }
+      },
+      "file": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-fix-iwt59djh/map-vault/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "relative": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "sha256": "8c8fa802dcc5b2e79dedd8cf935f3026d674e23daaebf108abd6fd98fc4e8a15",
+      "nodes": 135,
+      "warnings": [],
+      "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2F.hermes%2Fprofiles%2Facademic%2Fcache%2Fscratch%2Fprototype-fix-iwt59djh%2Fmap-vault%2F%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%2F%E3%80%94%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E3%80%95%E9%A3%8E%E8%B2%8C%E5%88%86%E6%9E%90%E6%8B%86%E8%A7%A3%2FD05%E6%B0%91%E5%B1%85%E7%BB%84%E5%90%88%E8%A1%97%E5%B7%B7%E4%B8%8E%E5%9C%B0%E5%BD%A2%E6%8B%86%E8%A7%A3%E5%9B%BE.smm.md",
+      "text_index_matches": true,
+      "preview": "empty"
+    },
+    "visualLayout": "not-pixel-verified"
+  },
+  {
+    "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+    "beforeNodes": 143,
+    "afterNodes": 143,
+    "preservedUIDs": 143,
+    "sha256": "6476e30b1da4080119705970614eb05ebd25fab3141fd9405dc314b8a62bcddb",
+    "validation": {
+      "ok": true,
+      "errors": [],
+      "verification": {
+        "environment": {
+          "ok": true,
+          "plugin_version": "0.2.10",
+          "errors": [],
+          "warnings": [],
+          "files": [
+            {
+              "path": ".obsidian/plugins/simple-mind-map/main.js",
+              "bytes": 6579273,
+              "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+            },
+            {
+              "path": ".obsidian/plugins/simple-mind-map/styles.css",
+              "bytes": 796993,
+              "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+            }
+          ]
+        },
+        "compatibility": {
+          "ok": true,
+          "method": "installed_plugin_markdown_reader",
+          "rendering": "not_exercised"
+        }
+      },
+      "file": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-fix-iwt59djh/map-vault/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "relative": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "sha256": "6476e30b1da4080119705970614eb05ebd25fab3141fd9405dc314b8a62bcddb",
+      "nodes": 143,
+      "warnings": [],
+      "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2F.hermes%2Fprofiles%2Facademic%2Fcache%2Fscratch%2Fprototype-fix-iwt59djh%2Fmap-vault%2F%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%2F%E3%80%94%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E3%80%95%E9%A3%8E%E8%B2%8C%E5%88%86%E6%9E%90%E6%8B%86%E8%A7%A3%2FD06%E7%B1%BB%E5%9E%8B%E6%AF%94%E8%BE%83%E4%B8%8E%E5%85%B3%E8%81%94%E8%A7%A3%E9%87%8A%E6%8B%86%E8%A7%A3%E5%9B%BE.smm.md",
+      "text_index_matches": true,
+      "preview": "empty"
+    },
+    "visualLayout": "not-pixel-verified"
+  }
+]

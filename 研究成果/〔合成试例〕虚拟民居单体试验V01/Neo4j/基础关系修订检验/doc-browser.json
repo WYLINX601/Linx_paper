@@ -1,0 +1,193 @@
+{
+  "scope": "rendered Markdown previews; not native Obsidian pixel acceptance",
+  "checks": [
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 1,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 3947,
+      "path": "archive/README.md",
+      "sha256": "4bdec72788f9eed3cceef1b6d46be22ff4fcc9660de323ec67c374db3bb92250"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 1,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 17058,
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "8e29ff7308528fc19bbe045ce5aec7dd7c6c093fef885599624f1d399320ac41"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 11,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 8808,
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "b939414108d68a96e7e7432878c9a021db4ea68957192dab5caaea937150a81b"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 10,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 7782,
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sha256": "4f2170635019e568a8167294dc5c4185a00b73728cdad46b42bbc9edfa9e0bef"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 10,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 7542,
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sha256": "bc1fab2bc8de8225d8f1322fabb80107cc427e08ee86a062ccc5446b948f20fb"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 12,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 9287,
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sha256": "8a34203da8d436089836d396b8faae62bdf6b489eb073b755a5eeef78979e3cc"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 2,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 3913,
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "c1dd190efd4e97ecd820ad4cd558a88c170c77727f8104f69c3446a2d274d72d"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 10,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 10164,
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "sha256": "4bca6dfe73fac7de8df5f623a05898240b85f2f678016e39698ba9d052522a53"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 0,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 871,
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/README.md",
+      "sha256": "11cf702d179da5e3d6f0132fef1720e43dca3b0c564ebefb68e512ab68fa903a"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 1,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 2067,
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订验收.md",
+      "sha256": "26df19c6edebcfa882e2bb40a9056fc2c2497d6cdc933bda51993fdbda8dac56"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 4,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 3458,
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "sha256": "effd55f5905fc494e81d3349e7cd2dc15ad0999a9291f273c275c3926c3c499f"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 6,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 15946,
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+      "sha256": "bb1fb8b3c79dc8fd5aeecef39353b0623c7c0a91ccf48c647f8821ee3230a800"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 2,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 15364,
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "3a448bc2f41965b2cc9f0ee751a8d037fb75dfd53c42ea0c98ba8ff56f1b68ff"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 1,
+      "mermaid": 1,
+      "diagramNodes": 13,
+      "errorIcons": 0,
+      "bodyLength": 2126,
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "4839e11539155428e19da13cc910aaeaf801d886298f263090d0640c26a36616"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 1,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 841,
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+      "sha256": "16254b0302d5061b604584f7a477c0c100005763b00ad94c471cf68053d72a60"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 2,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 3964,
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "sha256": "5d5e84aefe682430a7a34cdf483f6f56154e79042f1866c015980bfe334ff929"
+    },
+    {
+      "complete": true,
+      "errors": [],
+      "tables": 0,
+      "mermaid": 0,
+      "diagramNodes": 0,
+      "errorIcons": 0,
+      "bodyLength": 956,
+      "path": "项目管理/图谱执行/统一原型/README.md",
+      "sha256": "8a7e95244d8d2ec5bd1bf3ac12d82ea1da2eb38bd972f8f899ca0d46d7b401d2"
+    }
+  ],
+  "passed": true
+}

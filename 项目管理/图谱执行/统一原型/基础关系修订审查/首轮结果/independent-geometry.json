@@ -1,0 +1,852 @@
+{
+  "boundaryRows": [
+    {
+      "relationship": "R059",
+      "space": "S01",
+      "participant": "W03",
+      "independentAllSides": {
+        "N": [
+          [
+            0.0,
+            0.8800000000000003
+          ],
+          [
+            2.0800000000000005,
+            2.9600000000000004
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R060",
+      "space": "S01",
+      "participant": "W04",
+      "independentAllSides": {
+        "W": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            2.0,
+            5.58
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R061",
+      "space": "S01",
+      "participant": "W05",
+      "independentAllSides": {
+        "E": [
+          [
+            0.0,
+            3.5800000000000005
+          ],
+          [
+            4.58,
+            5.58
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R062",
+      "space": "S02",
+      "participant": "W01",
+      "independentAllSides": {
+        "W": [
+          [
+            0.0,
+            5.46
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R063",
+      "space": "S02",
+      "participant": "W03",
+      "independentAllSides": {
+        "N": [
+          [
+            0.0,
+            0.88
+          ],
+          [
+            2.08,
+            2.96
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R064",
+      "space": "S02",
+      "participant": "W04",
+      "independentAllSides": {
+        "E": [
+          [
+            0.0,
+            3.5800000000000005
+          ],
+          [
+            4.580000000000001,
+            5.46
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R065",
+      "space": "S02",
+      "participant": "W06",
+      "independentAllSides": {
+        "S": [
+          [
+            0.0,
+            0.8799999999999999
+          ],
+          [
+            2.08,
+            2.96
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R066",
+      "space": "S03",
+      "participant": "W02",
+      "independentAllSides": {
+        "E": [
+          [
+            0.0,
+            5.46
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R067",
+      "space": "S03",
+      "participant": "W03",
+      "independentAllSides": {
+        "N": [
+          [
+            0.0,
+            0.8800000000000008
+          ],
+          [
+            2.08,
+            2.960000000000001
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R068",
+      "space": "S03",
+      "participant": "W05",
+      "independentAllSides": {
+        "W": [
+          [
+            0.0,
+            0.8799999999999999
+          ],
+          [
+            1.88,
+            5.46
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R069",
+      "space": "S03",
+      "participant": "W07",
+      "independentAllSides": {
+        "S": [
+          [
+            0.0,
+            0.8800000000000008
+          ],
+          [
+            2.08,
+            2.960000000000001
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R070",
+      "space": "S04",
+      "participant": "W01",
+      "independentAllSides": {
+        "N": [
+          [
+            0.0,
+            0.11999999999999998
+          ]
+        ],
+        "S": [
+          [
+            9.479999999999999,
+            9.6
+          ]
+        ],
+        "W": [
+          [
+            0.0,
+            1.5
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R071",
+      "space": "S04",
+      "participant": "W02",
+      "independentAllSides": {
+        "N": [
+          [
+            9.479999999999999,
+            9.6
+          ]
+        ],
+        "E": [
+          [
+            0.0,
+            1.5
+          ]
+        ],
+        "S": [
+          [
+            0.0,
+            0.1199999999999992
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R072",
+      "space": "S04",
+      "participant": "W06",
+      "independentAllSides": {
+        "N": [
+          [
+            0.0,
+            1.0
+          ],
+          [
+            2.2,
+            3.1999999999999997
+          ]
+        ],
+        "W": [
+          [
+            1.38,
+            1.5
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R073",
+      "space": "S04",
+      "participant": "W07",
+      "independentAllSides": {
+        "N": [
+          [
+            6.3999999999999995,
+            7.400000000000001
+          ],
+          [
+            8.6,
+            9.6
+          ]
+        ],
+        "E": [
+          [
+            0.0,
+            0.1200000000000001
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ]
+    },
+    {
+      "relationship": "R074",
+      "space": "S05",
+      "participant": "W08",
+      "independentAllSides": {
+        "W": [
+          [
+            0.0,
+            4.68
+          ]
+        ]
+      },
+      "declaredSides": [
+        "W"
+      ]
+    },
+    {
+      "relationship": "R075",
+      "space": "S05",
+      "participant": "W09",
+      "independentAllSides": {
+        "E": [
+          [
+            0.0,
+            4.68
+          ]
+        ]
+      },
+      "declaredSides": [
+        "E"
+      ]
+    },
+    {
+      "relationship": "R076",
+      "space": "S05",
+      "participant": "W10",
+      "independentAllSides": {
+        "S": [
+          [
+            0.0,
+            3.880000000000001
+          ],
+          [
+            5.4799999999999995,
+            9.360000000000001
+          ]
+        ]
+      },
+      "declaredSides": [
+        "S"
+      ]
+    },
+    {
+      "relationship": "BOUND-S05-C01",
+      "space": "S05",
+      "participant": "C01",
+      "independentAllSides": {
+        "N": [
+          [
+            0,
+            0.020000000000000018
+          ]
+        ],
+        "W": [
+          [
+            4.6078889744907086,
+            4.68
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N"
+      ]
+    },
+    {
+      "relationship": "BOUND-S05-C02",
+      "space": "S05",
+      "participant": "C02",
+      "independentAllSides": {
+        "N": [
+          [
+            2.94,
+            3.22
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N"
+      ]
+    },
+    {
+      "relationship": "BOUND-S05-C03",
+      "space": "S05",
+      "participant": "C03",
+      "independentAllSides": {
+        "N": [
+          [
+            6.140000000000001,
+            6.42
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N"
+      ]
+    },
+    {
+      "relationship": "BOUND-S05-C04",
+      "space": "S05",
+      "participant": "C04",
+      "independentAllSides": {
+        "N": [
+          [
+            9.34,
+            9.360000000000001
+          ]
+        ],
+        "E": [
+          [
+            0,
+            0.07211102550928111
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N"
+      ]
+    },
+    {
+      "relationship": "BOUND-S04-C01",
+      "space": "S04",
+      "participant": "C01",
+      "independentAllSides": {
+        "S": [
+          [
+            9.459999999999999,
+            9.6
+          ]
+        ],
+        "W": [
+          [
+            0,
+            0.14
+          ]
+        ]
+      },
+      "declaredSides": [
+        "S"
+      ]
+    },
+    {
+      "relationship": "BOUND-S04-C02",
+      "space": "S04",
+      "participant": "C02",
+      "independentAllSides": {
+        "S": [
+          [
+            6.26,
+            6.539999999999999
+          ]
+        ]
+      },
+      "declaredSides": [
+        "S"
+      ]
+    },
+    {
+      "relationship": "BOUND-S04-C03",
+      "space": "S04",
+      "participant": "C03",
+      "independentAllSides": {
+        "S": [
+          [
+            3.059999999999999,
+            3.3399999999999994
+          ]
+        ]
+      },
+      "declaredSides": [
+        "S"
+      ]
+    },
+    {
+      "relationship": "BOUND-S04-C04",
+      "space": "S04",
+      "participant": "C04",
+      "independentAllSides": {
+        "E": [
+          [
+            1.3599999999999999,
+            1.5
+          ]
+        ],
+        "S": [
+          [
+            0,
+            0.14
+          ]
+        ]
+      },
+      "declaredSides": [
+        "S"
+      ]
+    },
+    {
+      "relationship": "BOUND-S06-W10",
+      "space": "S06",
+      "participant": "W10",
+      "independentAllSides": {
+        "N": [
+          [
+            0.0,
+            0.20000000000000018
+          ],
+          [
+            1.7999999999999998,
+            2.0
+          ]
+        ]
+      },
+      "declaredSides": [
+        "N"
+      ]
+    }
+  ],
+  "unionChecks": [
+    {
+      "space": "S01",
+      "side": "N",
+      "independentUnionM": 1.7600000000000002,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 1.7600000000000002
+    },
+    {
+      "space": "S01",
+      "side": "E",
+      "independentUnionM": 4.58,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 4.58
+    },
+    {
+      "space": "S01",
+      "side": "S",
+      "independentUnionM": 0.0,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 0
+    },
+    {
+      "space": "S01",
+      "side": "W",
+      "independentUnionM": 4.58,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 4.58
+    },
+    {
+      "space": "S02",
+      "side": "N",
+      "independentUnionM": 1.7599999999999998,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 1.7599999999999998
+    },
+    {
+      "space": "S02",
+      "side": "E",
+      "independentUnionM": 4.459999999999999,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 4.459999999999999
+    },
+    {
+      "space": "S02",
+      "side": "S",
+      "independentUnionM": 1.7599999999999998,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 1.7599999999999998
+    },
+    {
+      "space": "S02",
+      "side": "W",
+      "independentUnionM": 5.46,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 5.46
+    },
+    {
+      "space": "S03",
+      "side": "N",
+      "independentUnionM": 1.7600000000000016,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 1.7600000000000016
+    },
+    {
+      "space": "S03",
+      "side": "E",
+      "independentUnionM": 5.46,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 5.46
+    },
+    {
+      "space": "S03",
+      "side": "S",
+      "independentUnionM": 1.7600000000000016,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 1.7600000000000016
+    },
+    {
+      "space": "S03",
+      "side": "W",
+      "independentUnionM": 4.46,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 4.46
+    },
+    {
+      "space": "S04",
+      "side": "N",
+      "independentUnionM": 4.000000000000002,
+      "independentOverlapM": 0.2400000000000002,
+      "reportedUnionM": 4.000000000000002
+    },
+    {
+      "space": "S04",
+      "side": "E",
+      "independentUnionM": 1.5,
+      "independentOverlapM": 0.26000000000000023,
+      "reportedUnionM": 1.5
+    },
+    {
+      "space": "S04",
+      "side": "S",
+      "independentUnionM": 0.8400000000000016,
+      "independentOverlapM": 0.2400000000000002,
+      "reportedUnionM": 0.8400000000000002
+    },
+    {
+      "space": "S04",
+      "side": "W",
+      "independentUnionM": 1.5,
+      "independentOverlapM": 0.26000000000000023,
+      "reportedUnionM": 1.5
+    },
+    {
+      "space": "S05",
+      "side": "N",
+      "independentUnionM": 0.600000000000001,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 0.600000000000001
+    },
+    {
+      "space": "S05",
+      "side": "E",
+      "independentUnionM": 4.68,
+      "independentOverlapM": 0.07211102550928139,
+      "reportedUnionM": 4.68
+    },
+    {
+      "space": "S05",
+      "side": "S",
+      "independentUnionM": 7.760000000000002,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 7.7600000000000025
+    },
+    {
+      "space": "S05",
+      "side": "W",
+      "independentUnionM": 4.68,
+      "independentOverlapM": 0.07211102550929116,
+      "reportedUnionM": 4.68
+    },
+    {
+      "space": "S06",
+      "side": "N",
+      "independentUnionM": 0.40000000000000036,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 0.40000000000000036
+    },
+    {
+      "space": "S06",
+      "side": "E",
+      "independentUnionM": 0.0,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 0
+    },
+    {
+      "space": "S06",
+      "side": "S",
+      "independentUnionM": 0.0,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 0
+    },
+    {
+      "space": "S06",
+      "side": "W",
+      "independentUnionM": 0.0,
+      "independentOverlapM": 0.0,
+      "reportedUnionM": 0
+    }
+  ],
+  "discrepancies": [],
+  "undeclaredSideGeometricHits": [
+    {
+      "relationship": "BOUND-S05-C01",
+      "extraGeometricSides": {
+        "W": [
+          [
+            4.6078889744907086,
+            4.68
+          ]
+        ]
+      },
+      "interpretation": "geometric-only intersections outside explicitly scoped side; not an automatic missing assertion"
+    },
+    {
+      "relationship": "BOUND-S05-C04",
+      "extraGeometricSides": {
+        "E": [
+          [
+            0,
+            0.07211102550928111
+          ]
+        ]
+      },
+      "interpretation": "geometric-only intersections outside explicitly scoped side; not an automatic missing assertion"
+    },
+    {
+      "relationship": "BOUND-S04-C01",
+      "extraGeometricSides": {
+        "W": [
+          [
+            0,
+            0.14
+          ]
+        ]
+      },
+      "interpretation": "geometric-only intersections outside explicitly scoped side; not an automatic missing assertion"
+    },
+    {
+      "relationship": "BOUND-S04-C04",
+      "extraGeometricSides": {
+        "E": [
+          [
+            1.3599999999999999,
+            1.5
+          ]
+        ]
+      },
+      "interpretation": "geometric-only intersections outside explicitly scoped side; not an automatic missing assertion"
+    }
+  ],
+  "roof": [
+    {
+      "space": "S01",
+      "areaM2": 16.516800000000003,
+      "ratio": 1.0
+    },
+    {
+      "space": "S02",
+      "areaM2": 16.1616,
+      "ratio": 1.0
+    },
+    {
+      "space": "S03",
+      "areaM2": 16.161600000000004,
+      "ratio": 1.0
+    },
+    {
+      "space": "S04",
+      "areaM2": 14.399999999999999,
+      "ratio": 1.0
+    },
+    {
+      "space": "S05",
+      "areaM2": 5.6160000000000005,
+      "ratio": 0.12820512820512822
+    },
+    {
+      "space": "S06",
+      "areaM2": 0.0,
+      "ratio": 0.0
+    }
+  ],
+  "I04gapLengthsM": [
+    2.92,
+    2.9200000000000004,
+    2.920000000000001
+  ],
+  "streetAreaM2": 2.76
+}

@@ -1,0 +1,2881 @@
+{
+  "status": "published-and-verified-synthetic-external-scope",
+  "at": "2026-10-30T16:16:48.965953+08:00",
+  "scope": "D03 T01–T06 current external scope; original review HTML updated in place",
+  "payloadFiles": 72,
+  "overwrittenFiles": 30,
+  "thisReceiptExcludedFromPayloadCount": true,
+  "manifest": [
+    {
+      "path": "README.md",
+      "sha256": "736a6fa00a8c5dc4623dff51dda7e7065373c09898427e99ba2c3b064c16f39f",
+      "expected": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09"
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/README.md",
+      "sha256": "b07d82f8c3b8629564f2afc9c92c54ee4428e91fe91116b753edd2b56cb457ef",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/审核查询.cypher",
+      "sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/导入保护测试.json",
+      "sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/恢复说明.md",
+      "sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/执行阶段.json",
+      "sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/查询返回.json",
+      "sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/核验记录.json",
+      "sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/补充原件/研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+      "sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/compile_model.py",
+      "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/run_graph.py",
+      "sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/verify_current.py",
+      "sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review-prompt.txt",
+      "sha256": "7be18e11fc1aaae89681e37ad01bd9d3d36cd091020b792c29a198e303642b6f",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review-sources.json",
+      "sha256": "4fa9a870a10af1197357d2b107523b4aaedc15cde47774ee6025a1fc2d8456b6",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review2-prompt.txt",
+      "sha256": "9ef4ea67cc7742c2cf868a2312f5ad7a7286800cc43deb1adc4ab19c52b677b2",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review2-sources.json",
+      "sha256": "d9bd5257391e325f9f694fa911260231a3eed7e4ab45afb3f47043d52f230725",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/发布前插件保存版本/D03院落与空间组织拆解图.smm.md",
+      "sha256": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/发布前插件保存版本/合并核对.json",
+      "sha256": "d24d250a8e9a12eef59029a9e73a70691cbc7168d77052c3fa62aa69112f7863",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/build_extension.py",
+      "sha256": "b1f67fa0f1c8924a884a4ae9e154d182b1d02232be9c1b28cdf1f3e8ad795367",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/test_analysis.py",
+      "sha256": "17f8eed6de958b0392166f3d757e13bb919925fde6be36abea826a1dd899d8af",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/workspace.py",
+      "sha256": "a7a98402740958358e5647e205b607c21528754d6698f1f40ab6f879fa44af07",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/独立静态复核1.md",
+      "sha256": "7a37ebc8c6c54628b4c590a3ae76b38b8bcb2e240878ca6d42a919f5925a0e25",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/独立静态复核2.md",
+      "sha256": "597357bda445915cac454935195f31054ee3dafdc33c64a5b6efae572c1a3dc6",
+      "expected": null
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "723c499a789cf668802cd372e546f9f5466881ccadd048c915e3633f4b96d691",
+      "expected": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324"
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sha256": "617e29aae587104cca0db72c351944b0dd1d16ec2caf04b76821f9def68a28fa",
+      "expected": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb"
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sha256": "def612fa25dc1ea0d865708ad66501066ea0ae832f2123a71f23b38b2358e5b3",
+      "expected": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3"
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sha256": "c68c3e24155ae4f9250a9a2a1853eca53648db3fa5f19353a247ec76d97d0285",
+      "expected": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef"
+    },
+    {
+      "path": "研究成果/README.md",
+      "sha256": "a62061ec10174778cf3ac91f5c56c3c273e5ec5dc2ef01e871380585e1793da5",
+      "expected": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94",
+      "expected": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "49299305c0f2a87350a6feaa8c79910ea649830823a2b1ad6d34dd0985ef09ca",
+      "expected": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "cc53a008ef4e0f8850a6ea0030f434500358d880265107d5ad927f9987c7c473",
+      "expected": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项分析结果.json",
+      "sha256": "60a0bdedcdfa914e097d159b56dc3b472f5941fd59bcf93e5ce00bb90e683587",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项测试.json",
+      "sha256": "d3b87bb30f38204af5b4b873c5b49fe620b6969baf5fc43bc4f66a8e92f9e8e4",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项预检.json",
+      "sha256": "b205ad85c11ece7018e8483cc624132e5e88314c432cc94995771468e8d166a8",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/实际读回.json",
+      "sha256": "29acab0c9449196365e429bf9992fa5b8abf0e22b13b65b564ed6823b58ee110",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+      "sha256": "7581fbb1d116cecf3e939f9016b1d1cec0f9158528cad05728309dc3c5f94ba7",
+      "expected": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+      "sha256": "84585906cf899ac7e97b363406217568bf7afe9c57237538fce7c64ba73f3905",
+      "expected": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+      "sha256": "0ba8306392605f77337cb650b962d5230625d7ba140799b8620b4762e392f9af",
+      "expected": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+      "sha256": "99a4552ff62c71aee30bf52916fe2d243958544f2a391fdb4ba55222d3b4023d",
+      "expected": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/README.md",
+      "sha256": "6f23c7608fef22a6757ee1d6b495e503294e6b04b5d9dd9f12fd2b329ad89e80",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/Schema.json",
+      "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/逻辑快照.json",
+      "sha256": "7044f01d85ca639dbf4a7febca29d16866e17161cd841192eabd3305b01713a6",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/文档与导图验收.json",
+      "sha256": "e0ea1893416a504a3617c561989c9d3a42300135566c470589ede08dc4f8fa92",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+      "sha256": "43ab5fd733e3b6721576e8fb855ef3a457841288f7a4df013bad6be08339941c",
+      "expected": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+      "sha256": "e87d03b3eba6616f4e6838f68c092c1d409259f36b3eea1c28779a4d2d8e6154",
+      "expected": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+      "sha256": "0653898b86a80b63e20ef6c92a8764ed2bda7b358f07c2a0a5d3db21930a83db",
+      "expected": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/页面构建记录.json",
+      "sha256": "91dfc06bccf3950566d152af56b29217c4bbef402b847f017be6094567a4c384",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/页面验收.json",
+      "sha256": "7f551fc812ce5acb91b05251f7a5372cc14d658e50fcc2ddd9bdfea26ce289e4",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sha256": "fc0b53ca447f3bcbaf3ea48556a67134080c7f2734940361db7f0750c94f6f30",
+      "expected": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "sha256": "344b4b235640c95b04a2fbca14b88fca4bf2a883a209cceefe191923311772f8",
+      "expected": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/技术复核说明.md",
+      "sha256": "6a1482d9862028b93146b855515d4abb97c04b920e07ae1dee3c9f6febbc048e",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "sha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+      "expected": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1"
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "f966e63ee9b69b8ab58ac13d180a4c605a5016321331f93eb8bd66fbdcf43b32",
+      "expected": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "1da1c80f621fee9a19cbe64abc6bcdb544c00eff96178a7827f4864aa861e75a",
+      "expected": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "4c4acab9fc23f5ab50626fc160b77118f6a4770c76bc4613029aecbe67f3d626",
+      "expected": "e3786d02058b4a53aca61a5cbdfc33043b50650f41c4826aff5f45b39070b541"
+    },
+    {
+      "path": "项目管理/健康检查/research_structure.py",
+      "sha256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259",
+      "expected": "200122e73a123da7f98f2fa421c39f4d3924e481424da043a3902356d6940316"
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/README.md",
+      "sha256": "125495e7bcb312411a746965db8180a455f45fea62b6058960abe30b25aa4181",
+      "expected": "a3e80d30c3d72442120cacee980f6b0a73b5247715b3eec94a28061d60d074f3"
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/analyze.py",
+      "sha256": "d26e8c66b0f057e33c96d5b833995814859fafae678f602dbc12af172bfa3a8e",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/build_review.py",
+      "sha256": "65c4083b416888abe393ae0c2306dc02a995420be26d569f65f08c69cfbf98eb",
+      "expected": "7fc9b2e760edec62b11e3baf75644d8b2e6d544c81669013558541c2d333b3cb"
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+      "sha256": "aeca8b3a050cc8fc1b9e2615fb33d7106d1d8903584bad527d57fc017e43b632",
+      "expected": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e"
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/legacy_compile.py",
+      "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+      "sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+      "expected": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445"
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/preflight.py",
+      "sha256": "7cecfa87d03b5bde6b4c219d99e0ef960949ef30cd3da9ed207de4b039051284",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/requirements-tested.txt",
+      "sha256": "4c6f65030cbfd4688f1f0ae7c6f8661c008428455028a521722424855df4caae",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+      "sha256": "8e2326bb5d1b7b2de2b83c02970f4846d4a72658c0c60c0c2317c30d460a2b00",
+      "expected": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1"
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+      "sha256": "f47290d1796b537830420976191bbba54bc5124aa96a71b934c11aea71ed18a6",
+      "expected": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3"
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+      "sha256": "272fc922fc22e66c444e690ab088939763e7adc0db643778a4c1c3962e3ea216",
+      "expected": "a248bc88ed644eb84acfe28d08cca7b2eafffb91f5fd93c0fe52d39b70d55ff7"
+    }
+  ],
+  "exactReadbacks": [
+    {
+      "path": "README.md",
+      "sha256": "736a6fa00a8c5dc4623dff51dda7e7065373c09898427e99ba2c3b064c16f39f",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/README.md",
+      "sha256": "b07d82f8c3b8629564f2afc9c92c54ee4428e91fe91116b753edd2b56cb457ef",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/审核查询.cypher",
+      "sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/导入保护测试.json",
+      "sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/恢复说明.md",
+      "sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/执行阶段.json",
+      "sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/查询返回.json",
+      "sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/核验记录.json",
+      "sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/补充原件/研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+      "sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/compile_model.py",
+      "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/run_graph.py",
+      "sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/verify_current.py",
+      "sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review-prompt.txt",
+      "sha256": "7be18e11fc1aaae89681e37ad01bd9d3d36cd091020b792c29a198e303642b6f",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review-sources.json",
+      "sha256": "4fa9a870a10af1197357d2b107523b4aaedc15cde47774ee6025a1fc2d8456b6",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review2-prompt.txt",
+      "sha256": "9ef4ea67cc7742c2cf868a2312f5ad7a7286800cc43deb1adc4ab19c52b677b2",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review2-sources.json",
+      "sha256": "d9bd5257391e325f9f694fa911260231a3eed7e4ab45afb3f47043d52f230725",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/发布前插件保存版本/D03院落与空间组织拆解图.smm.md",
+      "sha256": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/发布前插件保存版本/合并核对.json",
+      "sha256": "d24d250a8e9a12eef59029a9e73a70691cbc7168d77052c3fa62aa69112f7863",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/build_extension.py",
+      "sha256": "b1f67fa0f1c8924a884a4ae9e154d182b1d02232be9c1b28cdf1f3e8ad795367",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/test_analysis.py",
+      "sha256": "17f8eed6de958b0392166f3d757e13bb919925fde6be36abea826a1dd899d8af",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/workspace.py",
+      "sha256": "a7a98402740958358e5647e205b607c21528754d6698f1f40ab6f879fa44af07",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/独立静态复核1.md",
+      "sha256": "7a37ebc8c6c54628b4c590a3ae76b38b8bcb2e240878ca6d42a919f5925a0e25",
+      "verified": true
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/独立静态复核2.md",
+      "sha256": "597357bda445915cac454935195f31054ee3dafdc33c64a5b6efae572c1a3dc6",
+      "verified": true
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "723c499a789cf668802cd372e546f9f5466881ccadd048c915e3633f4b96d691",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sha256": "617e29aae587104cca0db72c351944b0dd1d16ec2caf04b76821f9def68a28fa",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sha256": "def612fa25dc1ea0d865708ad66501066ea0ae832f2123a71f23b38b2358e5b3",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sha256": "c68c3e24155ae4f9250a9a2a1853eca53648db3fa5f19353a247ec76d97d0285",
+      "verified": true
+    },
+    {
+      "path": "研究成果/README.md",
+      "sha256": "a62061ec10174778cf3ac91f5c56c3c273e5ec5dc2ef01e871380585e1793da5",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "49299305c0f2a87350a6feaa8c79910ea649830823a2b1ad6d34dd0985ef09ca",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "cc53a008ef4e0f8850a6ea0030f434500358d880265107d5ad927f9987c7c473",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项分析结果.json",
+      "sha256": "60a0bdedcdfa914e097d159b56dc3b472f5941fd59bcf93e5ce00bb90e683587",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项测试.json",
+      "sha256": "d3b87bb30f38204af5b4b873c5b49fe620b6969baf5fc43bc4f66a8e92f9e8e4",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项预检.json",
+      "sha256": "b205ad85c11ece7018e8483cc624132e5e88314c432cc94995771468e8d166a8",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/实际读回.json",
+      "sha256": "29acab0c9449196365e429bf9992fa5b8abf0e22b13b65b564ed6823b58ee110",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+      "sha256": "7581fbb1d116cecf3e939f9016b1d1cec0f9158528cad05728309dc3c5f94ba7",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+      "sha256": "84585906cf899ac7e97b363406217568bf7afe9c57237538fce7c64ba73f3905",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+      "sha256": "0ba8306392605f77337cb650b962d5230625d7ba140799b8620b4762e392f9af",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+      "sha256": "99a4552ff62c71aee30bf52916fe2d243958544f2a391fdb4ba55222d3b4023d",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/README.md",
+      "sha256": "6f23c7608fef22a6757ee1d6b495e503294e6b04b5d9dd9f12fd2b329ad89e80",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/Schema.json",
+      "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/逻辑快照.json",
+      "sha256": "7044f01d85ca639dbf4a7febca29d16866e17161cd841192eabd3305b01713a6",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/文档与导图验收.json",
+      "sha256": "e0ea1893416a504a3617c561989c9d3a42300135566c470589ede08dc4f8fa92",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+      "sha256": "43ab5fd733e3b6721576e8fb855ef3a457841288f7a4df013bad6be08339941c",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+      "sha256": "e87d03b3eba6616f4e6838f68c092c1d409259f36b3eea1c28779a4d2d8e6154",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+      "sha256": "0653898b86a80b63e20ef6c92a8764ed2bda7b358f07c2a0a5d3db21930a83db",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/页面构建记录.json",
+      "sha256": "91dfc06bccf3950566d152af56b29217c4bbef402b847f017be6094567a4c384",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/页面验收.json",
+      "sha256": "7f551fc812ce5acb91b05251f7a5372cc14d658e50fcc2ddd9bdfea26ce289e4",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sha256": "fc0b53ca447f3bcbaf3ea48556a67134080c7f2734940361db7f0750c94f6f30",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "sha256": "344b4b235640c95b04a2fbca14b88fca4bf2a883a209cceefe191923311772f8",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/技术复核说明.md",
+      "sha256": "6a1482d9862028b93146b855515d4abb97c04b920e07ae1dee3c9f6febbc048e",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "sha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "f966e63ee9b69b8ab58ac13d180a4c605a5016321331f93eb8bd66fbdcf43b32",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "1da1c80f621fee9a19cbe64abc6bcdb544c00eff96178a7827f4864aa861e75a",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "4c4acab9fc23f5ab50626fc160b77118f6a4770c76bc4613029aecbe67f3d626",
+      "verified": true
+    },
+    {
+      "path": "项目管理/健康检查/research_structure.py",
+      "sha256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/README.md",
+      "sha256": "125495e7bcb312411a746965db8180a455f45fea62b6058960abe30b25aa4181",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/analyze.py",
+      "sha256": "d26e8c66b0f057e33c96d5b833995814859fafae678f602dbc12af172bfa3a8e",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/build_review.py",
+      "sha256": "65c4083b416888abe393ae0c2306dc02a995420be26d569f65f08c69cfbf98eb",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+      "sha256": "aeca8b3a050cc8fc1b9e2615fb33d7106d1d8903584bad527d57fc017e43b632",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/legacy_compile.py",
+      "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+      "sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/preflight.py",
+      "sha256": "7cecfa87d03b5bde6b4c219d99e0ef960949ef30cd3da9ed207de4b039051284",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/requirements-tested.txt",
+      "sha256": "4c6f65030cbfd4688f1f0ae7c6f8661c008428455028a521722424855df4caae",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+      "sha256": "8e2326bb5d1b7b2de2b83c02970f4846d4a72658c0c60c0c2317c30d460a2b00",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+      "sha256": "f47290d1796b537830420976191bbba54bc5124aa96a71b934c11aea71ed18a6",
+      "verified": true
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+      "sha256": "272fc922fc22e66c444e690ab088939763e7adc0db643778a4c1c3962e3ea216",
+      "verified": true
+    }
+  ],
+  "writeReceipts": [
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/README.md",
+      "sha256": "b07d82f8c3b8629564f2afc9c92c54ee4428e91fe91116b753edd2b56cb457ef",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/README.md",
+          "sha256": "b07d82f8c3b8629564f2afc9c92c54ee4428e91fe91116b753edd2b56cb457ef",
+          "size_bytes": 1282,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/审核查询.cypher",
+      "sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/审核查询.cypher",
+          "sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+          "size_bytes": 15914,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/导入保护测试.json",
+      "sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/导入保护测试.json",
+          "sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+          "size_bytes": 1582,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/恢复说明.md",
+      "sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/恢复说明.md",
+          "sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+          "size_bytes": 1351,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/执行阶段.json",
+      "sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/执行阶段.json",
+          "sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+          "size_bytes": 518,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/查询返回.json",
+      "sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/查询返回.json",
+          "sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+          "size_bytes": 28824,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/核验记录.json",
+      "sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/Neo4j/核验记录.json",
+          "sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+          "size_bytes": 889,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+          "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+          "size_bytes": 46181,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+          "sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+          "size_bytes": 21391,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+          "sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+          "size_bytes": 14969,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+          "sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+          "size_bytes": 209101,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+          "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+          "size_bytes": 18930,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/补充原件/研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+      "sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/补充原件/研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+          "sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+          "size_bytes": 3278,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/compile_model.py",
+      "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/compile_model.py",
+          "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+          "size_bytes": 24535,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/run_graph.py",
+      "sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/run_graph.py",
+          "sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+          "size_bytes": 7679,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/verify_current.py",
+      "sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/修改前/项目管理/图谱执行/D03院落围合/verify_current.py",
+          "sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+          "size_bytes": 1144,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review-prompt.txt",
+      "sha256": "7be18e11fc1aaae89681e37ad01bd9d3d36cd091020b792c29a198e303642b6f",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review-prompt.txt",
+          "sha256": "7be18e11fc1aaae89681e37ad01bd9d3d36cd091020b792c29a198e303642b6f",
+          "size_bytes": 92497,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review-sources.json",
+      "sha256": "4fa9a870a10af1197357d2b107523b4aaedc15cde47774ee6025a1fc2d8456b6",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review-sources.json",
+          "sha256": "4fa9a870a10af1197357d2b107523b4aaedc15cde47774ee6025a1fc2d8456b6",
+          "size_bytes": 893,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review2-prompt.txt",
+      "sha256": "9ef4ea67cc7742c2cf868a2312f5ad7a7286800cc43deb1adc4ab19c52b677b2",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review2-prompt.txt",
+          "sha256": "9ef4ea67cc7742c2cf868a2312f5ad7a7286800cc43deb1adc4ab19c52b677b2",
+          "size_bytes": 95536,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review2-sources.json",
+      "sha256": "d9bd5257391e325f9f694fa911260231a3eed7e4ab45afb3f47043d52f230725",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/冻结审查/review2-sources.json",
+          "sha256": "d9bd5257391e325f9f694fa911260231a3eed7e4ab45afb3f47043d52f230725",
+          "size_bytes": 986,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/发布前插件保存版本/D03院落与空间组织拆解图.smm.md",
+      "sha256": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/发布前插件保存版本/D03院落与空间组织拆解图.smm.md",
+          "sha256": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2",
+          "size_bytes": 46464,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/发布前插件保存版本/合并核对.json",
+      "sha256": "d24d250a8e9a12eef59029a9e73a70691cbc7168d77052c3fa62aa69112f7863",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/发布前插件保存版本/合并核对.json",
+          "sha256": "d24d250a8e9a12eef59029a9e73a70691cbc7168d77052c3fa62aa69112f7863",
+          "size_bytes": 879,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/build_extension.py",
+      "sha256": "b1f67fa0f1c8924a884a4ae9e154d182b1d02232be9c1b28cdf1f3e8ad795367",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/build_extension.py",
+          "sha256": "b1f67fa0f1c8924a884a4ae9e154d182b1d02232be9c1b28cdf1f3e8ad795367",
+          "size_bytes": 8888,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/test_analysis.py",
+      "sha256": "17f8eed6de958b0392166f3d757e13bb919925fde6be36abea826a1dd899d8af",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/test_analysis.py",
+          "sha256": "17f8eed6de958b0392166f3d757e13bb919925fde6be36abea826a1dd899d8af",
+          "size_bytes": 9976,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/workspace.py",
+      "sha256": "a7a98402740958358e5647e205b607c21528754d6698f1f40ab6f879fa44af07",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/复现材料/workspace.py",
+          "sha256": "a7a98402740958358e5647e205b607c21528754d6698f1f40ab6f879fa44af07",
+          "size_bytes": 1905,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/独立静态复核1.md",
+      "sha256": "7a37ebc8c6c54628b4c590a3ae76b38b8bcb2e240878ca6d42a919f5925a0e25",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/独立静态复核1.md",
+          "sha256": "7a37ebc8c6c54628b4c590a3ae76b38b8bcb2e240878ca6d42a919f5925a0e25",
+          "size_bytes": 9543,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03六项外部范围扩展/独立静态复核2.md",
+      "sha256": "597357bda445915cac454935195f31054ee3dafdc33c64a5b6efae572c1a3dc6",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03六项外部范围扩展/独立静态复核2.md",
+          "sha256": "597357bda445915cac454935195f31054ee3dafdc33c64a5b6efae572c1a3dc6",
+          "size_bytes": 6762,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项分析结果.json",
+      "sha256": "60a0bdedcdfa914e097d159b56dc3b472f5941fd59bcf93e5ce00bb90e683587",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项分析结果.json",
+          "sha256": "60a0bdedcdfa914e097d159b56dc3b472f5941fd59bcf93e5ce00bb90e683587",
+          "size_bytes": 23915,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项测试.json",
+      "sha256": "d3b87bb30f38204af5b4b873c5b49fe620b6969baf5fc43bc4f66a8e92f9e8e4",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项测试.json",
+          "sha256": "d3b87bb30f38204af5b4b873c5b49fe620b6969baf5fc43bc4f66a8e92f9e8e4",
+          "size_bytes": 6781,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项预检.json",
+      "sha256": "b205ad85c11ece7018e8483cc624132e5e88314c432cc94995771468e8d166a8",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/六项预检.json",
+          "sha256": "b205ad85c11ece7018e8483cc624132e5e88314c432cc94995771468e8d166a8",
+          "size_bytes": 424,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/实际读回.json",
+      "sha256": "29acab0c9449196365e429bf9992fa5b8abf0e22b13b65b564ed6823b58ee110",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/实际读回.json",
+          "sha256": "29acab0c9449196365e429bf9992fa5b8abf0e22b13b65b564ed6823b58ee110",
+          "size_bytes": 425133,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/README.md",
+      "sha256": "6f23c7608fef22a6757ee1d6b495e503294e6b04b5d9dd9f12fd2b329ad89e80",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/README.md",
+          "sha256": "6f23c7608fef22a6757ee1d6b495e503294e6b04b5d9dd9f12fd2b329ad89e80",
+          "size_bytes": 529,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/Schema.json",
+      "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/Schema.json",
+          "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+          "size_bytes": 703,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/逻辑快照.json",
+      "sha256": "7044f01d85ca639dbf4a7febca29d16866e17161cd841192eabd3305b01713a6",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/扩展前/逻辑快照.json",
+          "sha256": "7044f01d85ca639dbf4a7febca29d16866e17161cd841192eabd3305b01713a6",
+          "size_bytes": 929809,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/文档与导图验收.json",
+      "sha256": "e0ea1893416a504a3617c561989c9d3a42300135566c470589ede08dc4f8fa92",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/文档与导图验收.json",
+          "sha256": "e0ea1893416a504a3617c561989c9d3a42300135566c470589ede08dc4f8fa92",
+          "size_bytes": 10923,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/页面构建记录.json",
+      "sha256": "91dfc06bccf3950566d152af56b29217c4bbef402b847f017be6094567a4c384",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/页面构建记录.json",
+          "sha256": "91dfc06bccf3950566d152af56b29217c4bbef402b847f017be6094567a4c384",
+          "size_bytes": 739,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/页面验收.json",
+      "sha256": "7f551fc812ce5acb91b05251f7a5372cc14d658e50fcc2ddd9bdfea26ce289e4",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/页面验收.json",
+          "sha256": "7f551fc812ce5acb91b05251f7a5372cc14d658e50fcc2ddd9bdfea26ce289e4",
+          "size_bytes": 21721,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/技术复核说明.md",
+      "sha256": "6a1482d9862028b93146b855515d4abb97c04b920e07ae1dee3c9f6febbc048e",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/技术复核说明.md",
+          "sha256": "6a1482d9862028b93146b855515d4abb97c04b920e07ae1dee3c9f6febbc048e",
+          "size_bytes": 1564,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/analyze.py",
+      "sha256": "d26e8c66b0f057e33c96d5b833995814859fafae678f602dbc12af172bfa3a8e",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/analyze.py",
+          "sha256": "d26e8c66b0f057e33c96d5b833995814859fafae678f602dbc12af172bfa3a8e",
+          "size_bytes": 16494,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/legacy_compile.py",
+      "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/legacy_compile.py",
+          "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+          "size_bytes": 24535,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/preflight.py",
+      "sha256": "7cecfa87d03b5bde6b4c219d99e0ef960949ef30cd3da9ed207de4b039051284",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/preflight.py",
+          "sha256": "7cecfa87d03b5bde6b4c219d99e0ef960949ef30cd3da9ed207de4b039051284",
+          "size_bytes": 294,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/requirements-tested.txt",
+      "sha256": "4c6f65030cbfd4688f1f0ae7c6f8661c008428455028a521722424855df4caae",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/requirements-tested.txt",
+          "sha256": "4c6f65030cbfd4688f1f0ae7c6f8661c008428455028a521722424855df4caae",
+          "size_bytes": 63,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "README.md",
+      "sha256": "736a6fa00a8c5dc4623dff51dda7e7065373c09898427e99ba2c3b064c16f39f",
+      "previousSHA256": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "README.md",
+          "sha256": "736a6fa00a8c5dc4623dff51dda7e7065373c09898427e99ba2c3b064c16f39f",
+          "size_bytes": 2347,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:44Z",
+            "original_path": "README.md",
+            "canonical_path": "README.md",
+            "backup_path": ".hermes-academic-backups/20261030T080844Z_b92bbdc2ccdf479aa309460959c40e6f.bak",
+            "original_sha256": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09",
+            "original_size_bytes": 2341,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "736a6fa00a8c5dc4623dff51dda7e7065373c09898427e99ba2c3b064c16f39f",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "723c499a789cf668802cd372e546f9f5466881ccadd048c915e3633f4b96d691",
+      "previousSHA256": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "context/PROJECT_CONTEXT.md",
+          "sha256": "723c499a789cf668802cd372e546f9f5466881ccadd048c915e3633f4b96d691",
+          "size_bytes": 44052,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:44Z",
+            "original_path": "context/PROJECT_CONTEXT.md",
+            "canonical_path": "context/PROJECT_CONTEXT.md",
+            "backup_path": ".hermes-academic-backups/20261030T080844Z_05c92d4bb3ce429ea017baaaa31a85db.bak",
+            "original_sha256": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324",
+            "original_size_bytes": 44040,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "723c499a789cf668802cd372e546f9f5466881ccadd048c915e3633f4b96d691",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sha256": "617e29aae587104cca0db72c351944b0dd1d16ec2caf04b76821f9def68a28fa",
+      "previousSHA256": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+          "sha256": "617e29aae587104cca0db72c351944b0dd1d16ec2caf04b76821f9def68a28fa",
+          "size_bytes": 15300,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:44Z",
+            "original_path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+            "canonical_path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+            "backup_path": ".hermes-academic-backups/20261030T080844Z_8be8361daae446daaa29dc7e32b63df2.bak",
+            "original_sha256": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb",
+            "original_size_bytes": 15279,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "617e29aae587104cca0db72c351944b0dd1d16ec2caf04b76821f9def68a28fa",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sha256": "def612fa25dc1ea0d865708ad66501066ea0ae832f2123a71f23b38b2358e5b3",
+      "previousSHA256": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+          "sha256": "def612fa25dc1ea0d865708ad66501066ea0ae832f2123a71f23b38b2358e5b3",
+          "size_bytes": 7278,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:44Z",
+            "original_path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+            "canonical_path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+            "backup_path": ".hermes-academic-backups/20261030T080844Z_2cd0f703d7774a6984f1be20d9274870.bak",
+            "original_sha256": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3",
+            "original_size_bytes": 7257,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "def612fa25dc1ea0d865708ad66501066ea0ae832f2123a71f23b38b2358e5b3",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sha256": "c68c3e24155ae4f9250a9a2a1853eca53648db3fa5f19353a247ec76d97d0285",
+      "previousSHA256": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+          "sha256": "c68c3e24155ae4f9250a9a2a1853eca53648db3fa5f19353a247ec76d97d0285",
+          "size_bytes": 7218,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:44Z",
+            "original_path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+            "canonical_path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+            "backup_path": ".hermes-academic-backups/20261030T080844Z_6cc7f7e5727c434f98b892c013bb94cb.bak",
+            "original_sha256": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef",
+            "original_size_bytes": 7197,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "c68c3e24155ae4f9250a9a2a1853eca53648db3fa5f19353a247ec76d97d0285",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/README.md",
+      "sha256": "a62061ec10174778cf3ac91f5c56c3c273e5ec5dc2ef01e871380585e1793da5",
+      "previousSHA256": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/README.md",
+          "sha256": "a62061ec10174778cf3ac91f5c56c3c273e5ec5dc2ef01e871380585e1793da5",
+          "size_bytes": 15927,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:45Z",
+            "original_path": "研究成果/README.md",
+            "canonical_path": "研究成果/README.md",
+            "backup_path": ".hermes-academic-backups/20261030T080845Z_13526af560e2423f847703564d920557.bak",
+            "original_sha256": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84",
+            "original_size_bytes": 15894,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "a62061ec10174778cf3ac91f5c56c3c273e5ec5dc2ef01e871380585e1793da5",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94",
+      "previousSHA256": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+          "sha256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94",
+          "size_bytes": 47178,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:45Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+            "backup_path": ".hermes-academic-backups/20261030T080845Z_bff19bb395bd48da944d869042543196.bak",
+            "original_sha256": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2",
+            "original_size_bytes": 46464,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "49299305c0f2a87350a6feaa8c79910ea649830823a2b1ad6d34dd0985ef09ca",
+      "previousSHA256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+          "sha256": "49299305c0f2a87350a6feaa8c79910ea649830823a2b1ad6d34dd0985ef09ca",
+          "size_bytes": 22412,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:45Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+            "backup_path": ".hermes-academic-backups/20261030T080845Z_82a6814cba5245429f47688781cc194f.bak",
+            "original_sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+            "original_size_bytes": 21391,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "49299305c0f2a87350a6feaa8c79910ea649830823a2b1ad6d34dd0985ef09ca",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "cc53a008ef4e0f8850a6ea0030f434500358d880265107d5ad927f9987c7c473",
+      "previousSHA256": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+          "sha256": "cc53a008ef4e0f8850a6ea0030f434500358d880265107d5ad927f9987c7c473",
+          "size_bytes": 15500,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:45Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+            "backup_path": ".hermes-academic-backups/20261030T080845Z_082cbd9c7c97413fb26235598b434b08.bak",
+            "original_sha256": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c",
+            "original_size_bytes": 14967,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "cc53a008ef4e0f8850a6ea0030f434500358d880265107d5ad927f9987c7c473",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+      "sha256": "7581fbb1d116cecf3e939f9016b1d1cec0f9158528cad05728309dc3c5f94ba7",
+      "previousSHA256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+          "sha256": "7581fbb1d116cecf3e939f9016b1d1cec0f9158528cad05728309dc3c5f94ba7",
+          "size_bytes": 17335,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:45Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+            "backup_path": ".hermes-academic-backups/20261030T080845Z_d6debebd16f94d67b65f3de3b7ea210f.bak",
+            "original_sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+            "original_size_bytes": 15914,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "7581fbb1d116cecf3e939f9016b1d1cec0f9158528cad05728309dc3c5f94ba7",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+      "sha256": "84585906cf899ac7e97b363406217568bf7afe9c57237538fce7c64ba73f3905",
+      "previousSHA256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+          "sha256": "84585906cf899ac7e97b363406217568bf7afe9c57237538fce7c64ba73f3905",
+          "size_bytes": 821,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:45Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+            "backup_path": ".hermes-academic-backups/20261030T080845Z_954599adfa1e49f89aa8f2c31ba9bba8.bak",
+            "original_sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+            "original_size_bytes": 1582,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "84585906cf899ac7e97b363406217568bf7afe9c57237538fce7c64ba73f3905",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+      "sha256": "0ba8306392605f77337cb650b962d5230625d7ba140799b8620b4762e392f9af",
+      "previousSHA256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+          "sha256": "0ba8306392605f77337cb650b962d5230625d7ba140799b8620b4762e392f9af",
+          "size_bytes": 885,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:46Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+            "backup_path": ".hermes-academic-backups/20261030T080846Z_5e5fe845b6ec45c7aea6e40098233f5a.bak",
+            "original_sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+            "original_size_bytes": 1351,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "0ba8306392605f77337cb650b962d5230625d7ba140799b8620b4762e392f9af",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+      "sha256": "99a4552ff62c71aee30bf52916fe2d243958544f2a391fdb4ba55222d3b4023d",
+      "previousSHA256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+          "sha256": "99a4552ff62c71aee30bf52916fe2d243958544f2a391fdb4ba55222d3b4023d",
+          "size_bytes": 518,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:46Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+            "backup_path": ".hermes-academic-backups/20261030T080846Z_159c789768584134801159e093554769.bak",
+            "original_sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+            "original_size_bytes": 518,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "99a4552ff62c71aee30bf52916fe2d243958544f2a391fdb4ba55222d3b4023d",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+      "sha256": "43ab5fd733e3b6721576e8fb855ef3a457841288f7a4df013bad6be08339941c",
+      "previousSHA256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+          "sha256": "43ab5fd733e3b6721576e8fb855ef3a457841288f7a4df013bad6be08339941c",
+          "size_bytes": 3320,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:46Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+            "backup_path": ".hermes-academic-backups/20261030T080846Z_edb329b9be324eb28fd4866f0bbfdde6.bak",
+            "original_sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+            "original_size_bytes": 3278,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "43ab5fd733e3b6721576e8fb855ef3a457841288f7a4df013bad6be08339941c",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+      "sha256": "e87d03b3eba6616f4e6838f68c092c1d409259f36b3eea1c28779a4d2d8e6154",
+      "previousSHA256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+          "sha256": "e87d03b3eba6616f4e6838f68c092c1d409259f36b3eea1c28779a4d2d8e6154",
+          "size_bytes": 86121,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:46Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+            "backup_path": ".hermes-academic-backups/20261030T080846Z_0f4f602ce0e14da4a4d402e5b6b2e097.bak",
+            "original_sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+            "original_size_bytes": 28824,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "e87d03b3eba6616f4e6838f68c092c1d409259f36b3eea1c28779a4d2d8e6154",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+      "sha256": "0653898b86a80b63e20ef6c92a8764ed2bda7b358f07c2a0a5d3db21930a83db",
+      "previousSHA256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+          "sha256": "0653898b86a80b63e20ef6c92a8764ed2bda7b358f07c2a0a5d3db21930a83db",
+          "size_bytes": 1013,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:46Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+            "backup_path": ".hermes-academic-backups/20261030T080846Z_29aa7ffd9d2149b09bead68236266793.bak",
+            "original_sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+            "original_size_bytes": 889,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "0653898b86a80b63e20ef6c92a8764ed2bda7b358f07c2a0a5d3db21930a83db",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sha256": "fc0b53ca447f3bcbaf3ea48556a67134080c7f2734940361db7f0750c94f6f30",
+      "previousSHA256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+          "sha256": "fc0b53ca447f3bcbaf3ea48556a67134080c7f2734940361db7f0750c94f6f30",
+          "size_bytes": 13260,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:46Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+            "backup_path": ".hermes-academic-backups/20261030T080846Z_7e7a5fc966a54984a39f0ef3f335dc4c.bak",
+            "original_sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+            "original_size_bytes": 14969,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "fc0b53ca447f3bcbaf3ea48556a67134080c7f2734940361db7f0750c94f6f30",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "sha256": "344b4b235640c95b04a2fbca14b88fca4bf2a883a209cceefe191923311772f8",
+      "previousSHA256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+          "sha256": "344b4b235640c95b04a2fbca14b88fca4bf2a883a209cceefe191923311772f8",
+          "size_bytes": 429757,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:47Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+            "backup_path": ".hermes-academic-backups/20261030T080847Z_d296b40b3a5447168e97cc557f3975ac.bak",
+            "original_sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+            "original_size_bytes": 209101,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "344b4b235640c95b04a2fbca14b88fca4bf2a883a209cceefe191923311772f8",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "sha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+      "previousSHA256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+          "sha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+          "size_bytes": 40637,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:47Z",
+            "original_path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+            "canonical_path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+            "backup_path": ".hermes-academic-backups/20261030T080847Z_776d5f950686469c9131b540f7b85a1f.bak",
+            "original_sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+            "original_size_bytes": 18930,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "f966e63ee9b69b8ab58ac13d180a4c605a5016321331f93eb8bd66fbdcf43b32",
+      "previousSHA256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+          "sha256": "f966e63ee9b69b8ab58ac13d180a4c605a5016321331f93eb8bd66fbdcf43b32",
+          "size_bytes": 32260,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:47Z",
+            "original_path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+            "canonical_path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+            "backup_path": ".hermes-academic-backups/20261030T080847Z_5c4648301d7944edb9dc36668ccec114.bak",
+            "original_sha256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+            "original_size_bytes": 31235,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "f966e63ee9b69b8ab58ac13d180a4c605a5016321331f93eb8bd66fbdcf43b32",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "1da1c80f621fee9a19cbe64abc6bcdb544c00eff96178a7827f4864aa861e75a",
+      "previousSHA256": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+          "sha256": "1da1c80f621fee9a19cbe64abc6bcdb544c00eff96178a7827f4864aa861e75a",
+          "size_bytes": 16720,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:47Z",
+            "original_path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+            "canonical_path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+            "backup_path": ".hermes-academic-backups/20261030T080847Z_0e9d3f1de5d4454eba12da5b02f9e60b.bak",
+            "original_sha256": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420",
+            "original_size_bytes": 16755,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "1da1c80f621fee9a19cbe64abc6bcdb544c00eff96178a7827f4864aa861e75a",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "4c4acab9fc23f5ab50626fc160b77118f6a4770c76bc4613029aecbe67f3d626",
+      "previousSHA256": "e3786d02058b4a53aca61a5cbdfc33043b50650f41c4826aff5f45b39070b541",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+          "sha256": "4c4acab9fc23f5ab50626fc160b77118f6a4770c76bc4613029aecbe67f3d626",
+          "size_bytes": 8850,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:47Z",
+            "original_path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+            "canonical_path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+            "backup_path": ".hermes-academic-backups/20261030T080847Z_b5b0d6a2075c40e9957c43c1070448c5.bak",
+            "original_sha256": "e3786d02058b4a53aca61a5cbdfc33043b50650f41c4826aff5f45b39070b541",
+            "original_size_bytes": 8886,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "4c4acab9fc23f5ab50626fc160b77118f6a4770c76bc4613029aecbe67f3d626",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/健康检查/research_structure.py",
+      "sha256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259",
+      "previousSHA256": "200122e73a123da7f98f2fa421c39f4d3924e481424da043a3902356d6940316",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/健康检查/research_structure.py",
+          "sha256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259",
+          "size_bytes": 21364,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:47Z",
+            "original_path": "项目管理/健康检查/research_structure.py",
+            "canonical_path": "项目管理/健康检查/research_structure.py",
+            "backup_path": ".hermes-academic-backups/20261030T080847Z_c0246ee47ba6459ebfc67171cf24a346.bak",
+            "original_sha256": "200122e73a123da7f98f2fa421c39f4d3924e481424da043a3902356d6940316",
+            "original_size_bytes": 21363,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/README.md",
+      "sha256": "125495e7bcb312411a746965db8180a455f45fea62b6058960abe30b25aa4181",
+      "previousSHA256": "a3e80d30c3d72442120cacee980f6b0a73b5247715b3eec94a28061d60d074f3",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/README.md",
+          "sha256": "125495e7bcb312411a746965db8180a455f45fea62b6058960abe30b25aa4181",
+          "size_bytes": 2765,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:47Z",
+            "original_path": "项目管理/图谱执行/D03院落围合/README.md",
+            "canonical_path": "项目管理/图谱执行/D03院落围合/README.md",
+            "backup_path": ".hermes-academic-backups/20261030T080847Z_83c74a0f2f3a477b96ed6d423afdbf5a.bak",
+            "original_sha256": "a3e80d30c3d72442120cacee980f6b0a73b5247715b3eec94a28061d60d074f3",
+            "original_size_bytes": 2183,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "125495e7bcb312411a746965db8180a455f45fea62b6058960abe30b25aa4181",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/build_review.py",
+      "sha256": "65c4083b416888abe393ae0c2306dc02a995420be26d569f65f08c69cfbf98eb",
+      "previousSHA256": "7fc9b2e760edec62b11e3baf75644d8b2e6d544c81669013558541c2d333b3cb",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/build_review.py",
+          "sha256": "65c4083b416888abe393ae0c2306dc02a995420be26d569f65f08c69cfbf98eb",
+          "size_bytes": 2554,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:48Z",
+            "original_path": "项目管理/图谱执行/D03院落围合/build_review.py",
+            "canonical_path": "项目管理/图谱执行/D03院落围合/build_review.py",
+            "backup_path": ".hermes-academic-backups/20261030T080848Z_f18c2f7833c642838f29847862fe5b6e.bak",
+            "original_sha256": "7fc9b2e760edec62b11e3baf75644d8b2e6d544c81669013558541c2d333b3cb",
+            "original_size_bytes": 1210,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "65c4083b416888abe393ae0c2306dc02a995420be26d569f65f08c69cfbf98eb",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+      "sha256": "aeca8b3a050cc8fc1b9e2615fb33d7106d1d8903584bad527d57fc017e43b632",
+      "previousSHA256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+          "sha256": "aeca8b3a050cc8fc1b9e2615fb33d7106d1d8903584bad527d57fc017e43b632",
+          "size_bytes": 15126,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:48Z",
+            "original_path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+            "canonical_path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+            "backup_path": ".hermes-academic-backups/20261030T080848Z_45fc93aaf79245019a28b970c6c5daa6.bak",
+            "original_sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+            "original_size_bytes": 24535,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "aeca8b3a050cc8fc1b9e2615fb33d7106d1d8903584bad527d57fc017e43b632",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+      "sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+      "previousSHA256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+          "sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+          "size_bytes": 5056,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:48Z",
+            "original_path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+            "canonical_path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+            "backup_path": ".hermes-academic-backups/20261030T080848Z_0f0fe9c5b1014d768049006a05544a26.bak",
+            "original_sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+            "original_size_bytes": 5056,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+      "sha256": "8e2326bb5d1b7b2de2b83c02970f4846d4a72658c0c60c0c2317c30d460a2b00",
+      "previousSHA256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+          "sha256": "8e2326bb5d1b7b2de2b83c02970f4846d4a72658c0c60c0c2317c30d460a2b00",
+          "size_bytes": 14139,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:48Z",
+            "original_path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+            "canonical_path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+            "backup_path": ".hermes-academic-backups/20261030T080848Z_56a3067aae234e3b9b23bc53929855fe.bak",
+            "original_sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+            "original_size_bytes": 7679,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "8e2326bb5d1b7b2de2b83c02970f4846d4a72658c0c60c0c2317c30d460a2b00",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+      "sha256": "f47290d1796b537830420976191bbba54bc5124aa96a71b934c11aea71ed18a6",
+      "previousSHA256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+          "sha256": "f47290d1796b537830420976191bbba54bc5124aa96a71b934c11aea71ed18a6",
+          "size_bytes": 1149,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:48Z",
+            "original_path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+            "canonical_path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+            "backup_path": ".hermes-academic-backups/20261030T080848Z_67313f1bdd234e2d90d4c718a949dec5.bak",
+            "original_sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+            "original_size_bytes": 1144,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "f47290d1796b537830420976191bbba54bc5124aa96a71b934c11aea71ed18a6",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+      "sha256": "272fc922fc22e66c444e690ab088939763e7adc0db643778a4c1c3962e3ea216",
+      "previousSHA256": "a248bc88ed644eb84acfe28d08cca7b2eafffb91f5fd93c0fe52d39b70d55ff7",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+          "sha256": "272fc922fc22e66c444e690ab088939763e7adc0db643778a4c1c3962e3ea216",
+          "size_bytes": 32211,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T08:08:48Z",
+            "original_path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+            "canonical_path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+            "backup_path": ".hermes-academic-backups/20261030T080848Z_d875dc5130ae4d508ad77224c22ef591.bak",
+            "original_sha256": "a248bc88ed644eb84acfe28d08cca7b2eafffb91f5fd93c0fe52d39b70d55ff7",
+            "original_size_bytes": 17210,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "272fc922fc22e66c444e690ab088939763e7adc0db643778a4c1c3962e3ea216",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    }
+  ],
+  "backups": {
+    "scope": "exact returned backups only; no unrelated backup scan",
+    "verifiedBackupCount": 30,
+    "backups": [
+      {
+        "path": "README.md",
+        "backupPath": ".hermes-academic-backups/20261030T080844Z_b92bbdc2ccdf479aa309460959c40e6f.bak",
+        "sha256": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09",
+        "bytes": 2341,
+        "verified": true
+      },
+      {
+        "path": "context/PROJECT_CONTEXT.md",
+        "backupPath": ".hermes-academic-backups/20261030T080844Z_05c92d4bb3ce429ea017baaaa31a85db.bak",
+        "sha256": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324",
+        "bytes": 44040,
+        "verified": true
+      },
+      {
+        "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+        "backupPath": ".hermes-academic-backups/20261030T080844Z_8be8361daae446daaa29dc7e32b63df2.bak",
+        "sha256": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb",
+        "bytes": 15279,
+        "verified": true
+      },
+      {
+        "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+        "backupPath": ".hermes-academic-backups/20261030T080844Z_2cd0f703d7774a6984f1be20d9274870.bak",
+        "sha256": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3",
+        "bytes": 7257,
+        "verified": true
+      },
+      {
+        "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+        "backupPath": ".hermes-academic-backups/20261030T080844Z_6cc7f7e5727c434f98b892c013bb94cb.bak",
+        "sha256": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef",
+        "bytes": 7197,
+        "verified": true
+      },
+      {
+        "path": "研究成果/README.md",
+        "backupPath": ".hermes-academic-backups/20261030T080845Z_13526af560e2423f847703564d920557.bak",
+        "sha256": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84",
+        "bytes": 15894,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+        "backupPath": ".hermes-academic-backups/20261030T080845Z_bff19bb395bd48da944d869042543196.bak",
+        "sha256": "45fea36ff87fddc1f0485e5c6fb331debe93f78cb06e6f41d12bf89b2731d1a2",
+        "bytes": 46464,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+        "backupPath": ".hermes-academic-backups/20261030T080845Z_82a6814cba5245429f47688781cc194f.bak",
+        "sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+        "bytes": 21391,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+        "backupPath": ".hermes-academic-backups/20261030T080845Z_082cbd9c7c97413fb26235598b434b08.bak",
+        "sha256": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c",
+        "bytes": 14967,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+        "backupPath": ".hermes-academic-backups/20261030T080845Z_d6debebd16f94d67b65f3de3b7ea210f.bak",
+        "sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+        "bytes": 15914,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+        "backupPath": ".hermes-academic-backups/20261030T080845Z_954599adfa1e49f89aa8f2c31ba9bba8.bak",
+        "sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+        "bytes": 1582,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+        "backupPath": ".hermes-academic-backups/20261030T080846Z_5e5fe845b6ec45c7aea6e40098233f5a.bak",
+        "sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+        "bytes": 1351,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+        "backupPath": ".hermes-academic-backups/20261030T080846Z_159c789768584134801159e093554769.bak",
+        "sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+        "bytes": 518,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+        "backupPath": ".hermes-academic-backups/20261030T080846Z_edb329b9be324eb28fd4866f0bbfdde6.bak",
+        "sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+        "bytes": 3278,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+        "backupPath": ".hermes-academic-backups/20261030T080846Z_0f4f602ce0e14da4a4d402e5b6b2e097.bak",
+        "sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+        "bytes": 28824,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+        "backupPath": ".hermes-academic-backups/20261030T080846Z_29aa7ffd9d2149b09bead68236266793.bak",
+        "sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+        "bytes": 889,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+        "backupPath": ".hermes-academic-backups/20261030T080846Z_7e7a5fc966a54984a39f0ef3f335dc4c.bak",
+        "sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+        "bytes": 14969,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+        "backupPath": ".hermes-academic-backups/20261030T080847Z_d296b40b3a5447168e97cc557f3975ac.bak",
+        "sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+        "bytes": 209101,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+        "backupPath": ".hermes-academic-backups/20261030T080847Z_776d5f950686469c9131b540f7b85a1f.bak",
+        "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+        "bytes": 18930,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+        "backupPath": ".hermes-academic-backups/20261030T080847Z_5c4648301d7944edb9dc36668ccec114.bak",
+        "sha256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+        "bytes": 31235,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+        "backupPath": ".hermes-academic-backups/20261030T080847Z_0e9d3f1de5d4454eba12da5b02f9e60b.bak",
+        "sha256": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420",
+        "bytes": 16755,
+        "verified": true
+      },
+      {
+        "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+        "backupPath": ".hermes-academic-backups/20261030T080847Z_b5b0d6a2075c40e9957c43c1070448c5.bak",
+        "sha256": "e3786d02058b4a53aca61a5cbdfc33043b50650f41c4826aff5f45b39070b541",
+        "bytes": 8886,
+        "verified": true
+      },
+      {
+        "path": "项目管理/健康检查/research_structure.py",
+        "backupPath": ".hermes-academic-backups/20261030T080847Z_c0246ee47ba6459ebfc67171cf24a346.bak",
+        "sha256": "200122e73a123da7f98f2fa421c39f4d3924e481424da043a3902356d6940316",
+        "bytes": 21363,
+        "verified": true
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/README.md",
+        "backupPath": ".hermes-academic-backups/20261030T080847Z_83c74a0f2f3a477b96ed6d423afdbf5a.bak",
+        "sha256": "a3e80d30c3d72442120cacee980f6b0a73b5247715b3eec94a28061d60d074f3",
+        "bytes": 2183,
+        "verified": true
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/build_review.py",
+        "backupPath": ".hermes-academic-backups/20261030T080848Z_f18c2f7833c642838f29847862fe5b6e.bak",
+        "sha256": "7fc9b2e760edec62b11e3baf75644d8b2e6d544c81669013558541c2d333b3cb",
+        "bytes": 1210,
+        "verified": true
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+        "backupPath": ".hermes-academic-backups/20261030T080848Z_45fc93aaf79245019a28b970c6c5daa6.bak",
+        "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+        "bytes": 24535,
+        "verified": true
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+        "backupPath": ".hermes-academic-backups/20261030T080848Z_0f0fe9c5b1014d768049006a05544a26.bak",
+        "sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+        "bytes": 5056,
+        "verified": true
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+        "backupPath": ".hermes-academic-backups/20261030T080848Z_56a3067aae234e3b9b23bc53929855fe.bak",
+        "sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+        "bytes": 7679,
+        "verified": true
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+        "backupPath": ".hermes-academic-backups/20261030T080848Z_67313f1bdd234e2d90d4c718a949dec5.bak",
+        "sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+        "bytes": 1144,
+        "verified": true
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+        "backupPath": ".hermes-academic-backups/20261030T080848Z_d875dc5130ae4d508ad77224c22ef591.bak",
+        "sha256": "a248bc88ed644eb84acfe28d08cca7b2eafffb91f5fd93c0fe52d39b70d55ff7",
+        "bytes": 17210,
+        "verified": true
+      }
+    ]
+  },
+  "formalReadonlyDatabaseVerification": {
+    "status": "verified-external-synthetic-six-items-new-details-awaiting-review",
+    "at": "2026-10-30T16:09:34.265841+08:00",
+    "modelSHA256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+    "exactNodes": 42,
+    "exactRelationships": 111,
+    "nativeTypes": "verified",
+    "preservedNodes": 54,
+    "preservedRelationships": 209,
+    "preservedFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+    "originalPreservedFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+    "constraintsIndexesUnchanged": true,
+    "queries": {
+      "Q01": 4,
+      "Q02": 16,
+      "Q03": 4,
+      "Q04": 39,
+      "Q05": 4,
+      "Q06": 1,
+      "Q07": 1,
+      "Q08": 9,
+      "Q09": 4,
+      "Q10": 2,
+      "Q11": 4,
+      "Q12": 5,
+      "Q13": 7,
+      "Q14": 4,
+      "Q15": 1
+    },
+    "analysisItems": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06"
+    ],
+    "firstExampleReview": "approved",
+    "extensionReview": "pending",
+    "empiricalValidity": "not-validated"
+  },
+  "publishedPageSmokeCheck": {
+    "url": "file:///Users/wangyuelin/Desktop/Obsidian/Paper/%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C/%E3%80%94%E5%90%88%E6%88%90%E8%AF%95%E4%BE%8B%E3%80%95D03%E9%99%A2%E8%90%BD%E5%9B%B4%E5%90%88%E5%9B%BE%E8%B0%B1%E8%AF%95%E4%BE%8B/%E5%AE%A1%E6%A0%B8%E8%A7%86%E5%9B%BE.html",
+    "ready": true,
+    "errors": [],
+    "records": [
+      {
+        "view": "T01",
+        "definition": true,
+        "results": 245,
+        "nodes": 8,
+        "edges": 7
+      },
+      {
+        "view": "T02",
+        "definition": true,
+        "results": 440,
+        "nodes": 6,
+        "edges": 6
+      },
+      {
+        "view": "T03",
+        "definition": true,
+        "results": 246,
+        "nodes": 9,
+        "edges": 8
+      },
+      {
+        "view": "T04",
+        "definition": true,
+        "results": 180,
+        "nodes": 9,
+        "edges": 13
+      },
+      {
+        "view": "T05",
+        "definition": true,
+        "results": 190,
+        "nodes": 7,
+        "edges": 7
+      },
+      {
+        "view": "T06",
+        "definition": true,
+        "results": 388,
+        "nodes": 5,
+        "edges": 4
+      }
+    ],
+    "queryCount": 16,
+    "defaultExample": "E"
+  },
+  "localTests": {
+    "status": "passed",
+    "count": 60,
+    "tests": [
+      {
+        "id": "positive-six-items-and-known-results",
+        "passed": true,
+        "kind": "local-projection-only"
+      },
+      {
+        "id": "area-geometryComplete",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "area-unit",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "area-level",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "area-coordinateFrame",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "area-geometryBasis",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "area-geometryVersion",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "zero-area",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "self-intersection",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "not-closed",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "outside-denominator",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "area-overlap-union-not-sum",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "geometry-source-field-missing",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "source-version-changed",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "source-locator-changed",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "unknown-side-stops",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "covered-not-solid",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "opening-not-deducted",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "overlap-solid-intervals",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "participant-mismatch",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "duplicate-boundary",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "entry-startChainageM",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "entry-endChainageM",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "entry-correspondence",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "entry-referenceGeometryVersion",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "entry-unit",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "entry-missing-role",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "bent-line-chainage-not-chord-midpoint",
+        "passed": true,
+        "kind": "local-geometry-primitive"
+      },
+      {
+        "id": "bent-entry-full-analysis-chain",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "entry-other-side-not-touching",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "known-building-participant-required",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-contextId-other",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-actor-empty",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-actor-another-actor",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-doorState-empty",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-obstacleState-empty",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-observationTime-empty",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-observationTime-different-snapshot",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-state-unknown",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-viaUid-D03V01:E-I04",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-sourceVersion-wrong",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-analysisRuleVersion-wrong",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-analysisRuleUid-wrong",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "passage-sourceModelSha256-wrong",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "wrong-access-endpoint",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "use-useScope",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "use-useEvidenceRole",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "use-useState",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "use-useValues",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "use-missing-source-field",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "use-explicit-none",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "use-not-applicable",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "wrong-rule-definition",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "wrong-rule-version",
+        "passed": true,
+        "kind": "local-parameter-only"
+      },
+      {
+        "id": "compiler-entry-host",
+        "passed": true,
+        "kind": "local-source-rejection"
+      },
+      {
+        "id": "compiler-duplicate-use",
+        "passed": true,
+        "kind": "local-source-rejection"
+      },
+      {
+        "id": "compiler-wrong-pass-via",
+        "passed": true,
+        "kind": "local-source-rejection"
+      },
+      {
+        "id": "compiler-wrong-geometry-xy",
+        "passed": true,
+        "kind": "local-source-rejection"
+      },
+      {
+        "id": "A-D-original-inputs-preserved",
+        "passed": true,
+        "kind": "source-equality"
+      },
+      {
+        "id": "zero-hop-undeclared-context-rejected",
+        "passed": true,
+        "kind": "analysis-request"
+      }
+    ],
+    "scope": "local synthetic/projection and parameter-only; database guards are separately executed"
+  },
+  "notValidated": [
+    "empirical validity",
+    "new details user approval",
+    "full indoor or cross-storey network",
+    "Neo4j Browser GUI",
+    "native mind-map pixel layout"
+  ],
+  "nonBlockingCapabilityNotice": "MCP startup reported gds.version unavailable; this work did not use GDS and its read-only verification passed."
+}

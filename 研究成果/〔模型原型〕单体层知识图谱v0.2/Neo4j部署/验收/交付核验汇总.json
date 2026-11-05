@@ -1,0 +1,32 @@
+{
+  "recordedAt": "2026-10-22T12:31:12.372384+00:00",
+  "status": "passed",
+  "importedDomainEntities": 21,
+  "assertionRecords": 55,
+  "classificationRecords": 4,
+  "databaseNodes": 94,
+  "databaseRelationships": 216,
+  "macAndLinuxFullProjectionVerification": true,
+  "exampleQueriesPassed": 10,
+  "repeatImportVerified": true,
+  "serviceRestartVerified": true,
+  "nativeBackupCreated": true,
+  "macBackupShaMatched": true,
+  "browserLoginPageVerified": true,
+  "browserAuthenticatedQueryTested": false,
+  "files": {
+    "Linux备份.py": "71a80d75310c80fd705d2956b945d97288dd86636e755fc87322830d735bb957",
+    "导入与验证.py": "88989e12a0b5110c2d952ae41647685ac6ba1d7898465694abeeeb0732810000",
+    "常用查询.cypher": "838f197b8a0088f244eb1c99068b5f1c1c3cc7056d3ae420312682f4fc6ba1d1",
+    "Linux安装.py": "368999b2ee60b0a7f9b4e16465eff13f3ec1a2e6dca0167d5a1373a1c180d6da"
+  },
+  "sourceAuthority": "Original v0.2 JSON remains authoritative; database does not automatically write back",
+  "boundaries": [
+    "No full machine reboot test",
+    "No restore rehearsal",
+    "Original PDF and image archives remain on Mac",
+    "Synthetic space demonstration does not establish facts about a real dwelling"
+  ],
+  "independentReview": "passed",
+  "independentReviewSha256": "e4f9b6313a8e331dd3152ecf2d6a1d3af70a56f7b9f701513793139afa1c6d93"
+}

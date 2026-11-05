@@ -1,0 +1,83 @@
+{
+  "experimentId": "V01-blind-01",
+  "agentModel": "gpt-6-luna",
+  "method": "使用Python math计算P1：按输入给定的对称双坡与尺寸计算；其余判断仅依据本输入O01-O05，未使用网络。",
+  "answers": [
+    {
+      "id": "P1",
+      "status": "derived",
+      "answer": "屋面坡度约29.05°。",
+      "evidence": [
+        "O01"
+      ],
+      "reasoning_summary": "对称双坡的水平半跨=7.2/2=3.6 m；升高=5.6−3.6=2.0 m。θ=arctan(升高/半跨)=arctan(2.0/3.6)≈29.0546°。",
+      "verification_needed": "如需核实测量精度，查验A—A剖面的原始测绘记录。",
+      "structuredValue": {
+        "rise_m": 2.0,
+        "run_m": 3.6,
+        "formula": "theta = arctan(rise / run)",
+        "slope_degrees": 29.0546
+      }
+    },
+    {
+      "id": "P2",
+      "status": "derived",
+      "answer": "可以补出基准情境下S01与S03的直接双向通行关系，经界面I03（墙W05门洞）；情境为正常成人步行、设定无阻挡。",
+      "evidence": [
+        "O02"
+      ],
+      "reasoning_summary": "O02明确记录I03位于W05门洞、参与S01和S03，并给出正常成人步行、无阻挡、双向通行的基准情境；据此可补录该情境下的直接通行关系。",
+      "verification_needed": "当前基准情境已有输入依据；若要记录其他情境，需提供对应情境的通行证据。",
+      "structuredValue": {
+        "from": "S01",
+        "to": "S03",
+        "relation": "直接通行",
+        "interface": "I03",
+        "wall": "W05",
+        "interface_location": "门洞",
+        "scenario": "正常成人步行；设定无阻挡",
+        "direction": "双向"
+      }
+    },
+    {
+      "id": "P3",
+      "status": "supported",
+      "answer": "可为RF01补充材质_木与材质_陶瓦：木构支撑、陶质小青瓦覆盖。",
+      "evidence": [
+        "O03"
+      ],
+      "reasoning_summary": "O03直接描述RF01为木构支撑、陶质小青瓦覆盖；前者对应材质_木，后者对应材质_陶瓦。",
+      "verification_needed": "无需额外资料即可按给定描述添加这两个标签。",
+      "structuredValue": {
+        "labels": [
+          "材质_木",
+          "材质_陶瓦"
+        ],
+        "component_mapping": {
+          "支撑": "材质_木",
+          "覆盖": "材质_陶瓦"
+        }
+      }
+    },
+    {
+      "id": "P4",
+      "status": "unknown",
+      "answer": "不能确定W06的墙芯材料。现有证据只说明外表面为灰白色抹灰。",
+      "evidence": [
+        "O04"
+      ],
+      "reasoning_summary": "外表面饰层不能唯一指示墙芯；输入明确缺少墙芯剖面、施工记录和材料检测。",
+      "verification_needed": "需墙芯剖面、施工记录或材料检测结果。"
+    },
+    {
+      "id": "P5",
+      "status": "unknown",
+      "answer": "不能确定S03的具体使用功能。现有资料仅描述其位置、形状、门洞和窗，未提供用途证据。",
+      "evidence": [
+        "O05"
+      ],
+      "reasoning_summary": "平面位置、空间形状及开口信息不足以识别具体使用功能；输入也明确没有家具、生活活动、访谈或用途文字。",
+      "verification_needed": "需补充家具与生活活动观察、访谈或明确记载用途的资料。"
+    }
+  ]
+}

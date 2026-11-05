@@ -1,0 +1,790 @@
+{
+  "screening_date": "2026-10-06",
+  "count": 112,
+  "records": [
+    {
+      "source_key": "3IJX2PUQ",
+      "pdf_page": "122",
+      "image_path": "assets/she-image-bank/3IJX2PUQ-pdf122.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "3IJX2PUQ",
+      "pdf_page": "40",
+      "image_path": "assets/she-image-bank/3IJX2PUQ-pdf40.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "3IJX2PUQ",
+      "pdf_page": "41",
+      "image_path": "assets/she-image-bank/3IJX2PUQ-pdf41.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "3IJX2PUQ",
+      "pdf_page": "42",
+      "image_path": "assets/she-image-bank/3IJX2PUQ-pdf42.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "6NQGHZQC",
+      "pdf_page": "58",
+      "image_path": "assets/she-image-bank/6NQGHZQC-pdf58.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "6NQGHZQC",
+      "pdf_page": "59",
+      "image_path": "assets/she-image-bank/6NQGHZQC-pdf59.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "7KCJR9EB",
+      "pdf_page": "002",
+      "image_path": "assets/she-image-bank/7KCJR9EB-002.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "7KCJR9EB",
+      "pdf_page": "003",
+      "image_path": "assets/she-image-bank/7KCJR9EB-003.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "7KCJR9EB",
+      "pdf_page": "004",
+      "image_path": "assets/she-image-bank/7KCJR9EB-004.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "AAPV5P6L",
+      "pdf_page": "25",
+      "image_path": "assets/she-image-bank/AAPV5P6L-pdf25.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "AAPV5P6L",
+      "pdf_page": "83",
+      "image_path": "assets/she-image-bank/AAPV5P6L-pdf83.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "AAPV5P6L",
+      "pdf_page": "84",
+      "image_path": "assets/she-image-bank/AAPV5P6L-pdf84.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "001",
+      "image_path": "assets/she-image-bank/BUUUUWRW-001.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "007",
+      "image_path": "assets/she-image-bank/BUUUUWRW-007.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "008",
+      "image_path": "assets/she-image-bank/BUUUUWRW-008.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "009",
+      "image_path": "assets/she-image-bank/BUUUUWRW-009.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "011",
+      "image_path": "assets/she-image-bank/BUUUUWRW-011.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "012",
+      "image_path": "assets/she-image-bank/BUUUUWRW-012.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "013",
+      "image_path": "assets/she-image-bank/BUUUUWRW-013.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "014",
+      "image_path": "assets/she-image-bank/BUUUUWRW-014.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "015",
+      "image_path": "assets/she-image-bank/BUUUUWRW-015.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "016",
+      "image_path": "assets/she-image-bank/BUUUUWRW-016.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "017",
+      "image_path": "assets/she-image-bank/BUUUUWRW-017.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "018",
+      "image_path": "assets/she-image-bank/BUUUUWRW-018.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "020",
+      "image_path": "assets/she-image-bank/BUUUUWRW-020.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "024",
+      "image_path": "assets/she-image-bank/BUUUUWRW-024.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "026",
+      "image_path": "assets/she-image-bank/BUUUUWRW-026.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "029",
+      "image_path": "assets/she-image-bank/BUUUUWRW-029.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "030",
+      "image_path": "assets/she-image-bank/BUUUUWRW-030.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "031",
+      "image_path": "assets/she-image-bank/BUUUUWRW-031.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "032",
+      "image_path": "assets/she-image-bank/BUUUUWRW-032.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "035",
+      "image_path": "assets/she-image-bank/BUUUUWRW-035.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "039",
+      "image_path": "assets/she-image-bank/BUUUUWRW-039.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "042",
+      "image_path": "assets/she-image-bank/BUUUUWRW-042.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "048",
+      "image_path": "assets/she-image-bank/BUUUUWRW-048.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "049",
+      "image_path": "assets/she-image-bank/BUUUUWRW-049.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "058",
+      "image_path": "assets/she-image-bank/BUUUUWRW-058.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "060",
+      "image_path": "assets/she-image-bank/BUUUUWRW-060.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "064",
+      "image_path": "assets/she-image-bank/BUUUUWRW-064.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "065",
+      "image_path": "assets/she-image-bank/BUUUUWRW-065.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "069",
+      "image_path": "assets/she-image-bank/BUUUUWRW-069.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "072",
+      "image_path": "assets/she-image-bank/BUUUUWRW-072.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "073",
+      "image_path": "assets/she-image-bank/BUUUUWRW-073.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "078",
+      "image_path": "assets/she-image-bank/BUUUUWRW-078.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "080",
+      "image_path": "assets/she-image-bank/BUUUUWRW-080.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "081",
+      "image_path": "assets/she-image-bank/BUUUUWRW-081.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "084",
+      "image_path": "assets/she-image-bank/BUUUUWRW-084.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "087",
+      "image_path": "assets/she-image-bank/BUUUUWRW-087.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "090",
+      "image_path": "assets/she-image-bank/BUUUUWRW-090.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "092",
+      "image_path": "assets/she-image-bank/BUUUUWRW-092.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "093",
+      "image_path": "assets/she-image-bank/BUUUUWRW-093.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "094",
+      "image_path": "assets/she-image-bank/BUUUUWRW-094.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "095",
+      "image_path": "assets/she-image-bank/BUUUUWRW-095.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "096",
+      "image_path": "assets/she-image-bank/BUUUUWRW-096.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "097",
+      "image_path": "assets/she-image-bank/BUUUUWRW-097.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "098",
+      "image_path": "assets/she-image-bank/BUUUUWRW-098.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "099",
+      "image_path": "assets/she-image-bank/BUUUUWRW-099.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "100",
+      "image_path": "assets/she-image-bank/BUUUUWRW-100.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "101",
+      "image_path": "assets/she-image-bank/BUUUUWRW-101.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "102",
+      "image_path": "assets/she-image-bank/BUUUUWRW-102.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "103",
+      "image_path": "assets/she-image-bank/BUUUUWRW-103.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "104",
+      "image_path": "assets/she-image-bank/BUUUUWRW-104.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "105",
+      "image_path": "assets/she-image-bank/BUUUUWRW-105.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "106",
+      "image_path": "assets/she-image-bank/BUUUUWRW-106.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "107",
+      "image_path": "assets/she-image-bank/BUUUUWRW-107.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "108",
+      "image_path": "assets/she-image-bank/BUUUUWRW-108.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "109",
+      "image_path": "assets/she-image-bank/BUUUUWRW-109.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "110",
+      "image_path": "assets/she-image-bank/BUUUUWRW-110.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "115",
+      "image_path": "assets/she-image-bank/BUUUUWRW-115.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "116",
+      "image_path": "assets/she-image-bank/BUUUUWRW-116.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "117",
+      "image_path": "assets/she-image-bank/BUUUUWRW-117.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "118",
+      "image_path": "assets/she-image-bank/BUUUUWRW-118.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "119",
+      "image_path": "assets/she-image-bank/BUUUUWRW-119.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "120",
+      "image_path": "assets/she-image-bank/BUUUUWRW-120.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "121",
+      "image_path": "assets/she-image-bank/BUUUUWRW-121.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "122",
+      "image_path": "assets/she-image-bank/BUUUUWRW-122.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "BUUUUWRW",
+      "pdf_page": "123",
+      "image_path": "assets/she-image-bank/BUUUUWRW-123.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "016",
+      "image_path": "assets/she-image-bank/ETTYATRB-016.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "017",
+      "image_path": "assets/she-image-bank/ETTYATRB-017.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "018",
+      "image_path": "assets/she-image-bank/ETTYATRB-018.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "019",
+      "image_path": "assets/she-image-bank/ETTYATRB-019.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "020",
+      "image_path": "assets/she-image-bank/ETTYATRB-020.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "021",
+      "image_path": "assets/she-image-bank/ETTYATRB-021.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "022",
+      "image_path": "assets/she-image-bank/ETTYATRB-022.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "023",
+      "image_path": "assets/she-image-bank/ETTYATRB-023.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "ETTYATRB",
+      "pdf_page": "024",
+      "image_path": "assets/she-image-bank/ETTYATRB-024.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "PIMB8MAY",
+      "pdf_page": "001",
+      "image_path": "assets/she-image-bank/PIMB8MAY-001.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "PIMB8MAY",
+      "pdf_page": "002",
+      "image_path": "assets/she-image-bank/PIMB8MAY-002.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VRWLBN8X",
+      "pdf_page": "1",
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf1.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VRWLBN8X",
+      "pdf_page": "2",
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf2.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VRWLBN8X",
+      "pdf_page": "3",
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf3.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VRWLBN8X",
+      "pdf_page": "4",
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf4.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VRWLBN8X",
+      "pdf_page": "5",
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf5.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VRWLBN8X",
+      "pdf_page": "6",
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf6.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "106",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf106.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "111",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf111.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "34",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf34.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "35",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf35.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "37",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf37.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "38",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf38.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "39",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf39.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "40",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf40.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "41",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf41.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "42",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf42.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "43",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf43.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "VSES7L3M",
+      "pdf_page": "44",
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf44.png",
+      "reuse_purpose": "建筑照片、测绘、构件或状态线索",
+      "identity_status": "待逐图核对"
+    },
+    {
+      "source_key": "ZWDJJE99",
+      "pdf_page": "027",
+      "image_path": "assets/she-image-bank/ZWDJJE99-027.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "ZWDJJE99",
+      "pdf_page": "055",
+      "image_path": "assets/she-image-bank/ZWDJJE99-055.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "ZWDJJE99",
+      "pdf_page": "056",
+      "image_path": "assets/she-image-bank/ZWDJJE99-056.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "ZWDJJE99",
+      "pdf_page": "057",
+      "image_path": "assets/she-image-bank/ZWDJJE99-057.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "ZWDJJE99",
+      "pdf_page": "113",
+      "image_path": "assets/she-image-bank/ZWDJJE99-113.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    },
+    {
+      "source_key": "ZWDJJE99",
+      "pdf_page": "114",
+      "image_path": "assets/she-image-bank/ZWDJJE99-114.png",
+      "reuse_purpose": "对象/范围/数量证据",
+      "identity_status": "已明确对象"
+    }
+  ]
+}

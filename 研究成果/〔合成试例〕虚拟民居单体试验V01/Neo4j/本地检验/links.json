@@ -1,0 +1,222 @@
+{
+  "checked": 29,
+  "newIssues": [],
+  "documents": [
+    {
+      "path": "README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型图.smm.md",
+      "existing": [
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T01 水平尺度与比例"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T02 竖向尺度与比例"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T03 屋顶对整体体量的贡献"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T04 局部轮廓变化"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T05 单体间体量组合"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#D01-T06 建筑与院落的整体关系"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#共用记录口径"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#口径核对示例：自身高度不等于组合高差"
+        ],
+        [
+          "missing",
+          "研究成果/风貌分析拆解/风貌分析拆解类型表.md#来源、出处与支持范围"
+        ]
+      ],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/审核视图.html",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/发布验收.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/审核视图.html",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例浏览.html",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/README.md",
+      "existing": [],
+      "current": [],
+      "new": []
+    }
+  ],
+  "credentialPatternLocations": []
+}

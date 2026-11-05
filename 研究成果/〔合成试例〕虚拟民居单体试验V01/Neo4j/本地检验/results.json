@@ -1,0 +1,7 @@
+{
+  "count": 50,
+  "failures": 0,
+  "errors": 0,
+  "status": "passed",
+  "scope": "local source/payload and negative parameters; no persisted bad data"
+}

@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (i:V01)-[r:INTERFACE_OF]->(h:V01) WHERE h.uid IN ['V01:W03','V01:W10'] AND r.role='opening-host' RETURN h.uid AS host,i.uid AS opening,i.geometryJson AS geometry,r.uid AS relation ORDER BY host,opening",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:40:48.235926+08:00"
+}

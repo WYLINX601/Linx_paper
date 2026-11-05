@@ -1,0 +1,4240 @@
+{
+  "meta": {
+    "caseId": "V01",
+    "title": "三开间前廊前院虚拟民居",
+    "mode": "synthetic_demo",
+    "created": "2026-10-24",
+    "scope": "单栋认识与粗粒度关系表达；前院为关联空间",
+    "representativeness": "借鉴台州等江浙民居常见构成的人工组合，不是复原实物、地域典型性证明或畲族研究发现",
+    "inferenceBoundary": "推演结果另存；不自动覆盖事实标签与属性",
+    "coordinateSystem": "局部米制：X东、Y北、Z上；地坪Z=0；建筑南侧Y=0",
+    "dataSource": "全部实例、尺寸、材料和用途为本次合成设定；文献仅支持方法与构成参照",
+    "formatNote": "本文件为候选语义模型与几何交换数据，不是已执行的Neo4j数据库快照。"
+  },
+  "parameters": {
+    "width_m": 9.6,
+    "depth_m": 7.2,
+    "bay_width_m": 3.2,
+    "veranda_depth_m": 1.5,
+    "courtyard_depth_m": 4.8,
+    "wall_thickness_m": 0.24,
+    "wall_support_height_m": 3.6,
+    "ridge_height_m": 5.6,
+    "roof_overhang_m": 0.6,
+    "courtyard_wall_height_m": 1.6,
+    "column_diameter_m": 0.28,
+    "floor_z_m": 0.0
+  },
+  "materialLabels": {
+    "材质_木": "对象或该系统含木材；不表达材种与体积比例",
+    "材质_砖": "合成设定为砖质主体；真实对象须有材料依据",
+    "材质_灰泥": "含灰泥饰面；不自动等于墙芯材料",
+    "材质_陶瓦": "含陶质屋面瓦；不表达瓦片数量"
+  },
+  "relationVocabulary": [
+    {
+      "type": "PART_OF",
+      "zh": "组成／归属",
+      "definition": "一个构件或空间属于本案例定义的整体；不表示类型上位，也不自动表示接触。",
+      "direction": "部分→整体",
+      "minimum": "两端身份、所属整体",
+      "example": "C01→B01"
+    },
+    {
+      "type": "ASSOCIATED_WITH",
+      "zh": "住宅关联范围",
+      "definition": "前院服务于该主屋；保留独立空间身份，不并入建筑本体面积。",
+      "direction": "关联对象→建筑",
+      "minimum": "关联角色",
+      "example": "S05→B01"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "zh": "由构件界定",
+      "definition": "墙体的部分表面界定该空间；墙上存在门窗时由界面另行记录，不表示整墙可穿行。",
+      "direction": "空间→墙体",
+      "minimum": "边界构件、适用部分",
+      "example": "S03→W05；I03是W05中的门洞界面"
+    },
+    {
+      "type": "INTERFACE_OF",
+      "zh": "界面参与对象",
+      "definition": "指明该界面对应哪些空间。墙体由REALIZED_IN另行定位。",
+      "direction": "界面→空间",
+      "minimum": "界面、空间、划分依据",
+      "example": "I01→S01/S04"
+    },
+    {
+      "type": "REALIZED_IN",
+      "zh": "界面所在构件",
+      "definition": "分界／开口对应的实体构件；无实体分界时可以没有这条边。",
+      "direction": "界面→构件",
+      "minimum": "所在部位",
+      "example": "I03→W05"
+    },
+    {
+      "type": "DIRECT_ACCESS_TO",
+      "zh": "直接通行",
+      "definition": "在基准情境下经同一界面直接通往另一空间；由已确认界面与通行条件派生。",
+      "direction": "本案例存一条边，bidirectional=true表示双向；普通有向查询须显式处理",
+      "minimum": "界面、情境、双向性",
+      "example": "S01→S03 via I03"
+    },
+    {
+      "type": "SPATIAL_RELATION",
+      "zh": "方位、距离、夹角",
+      "definition": "使用相同坐标系，按明确参照点/轴给出相对位置。方位角与两轴夹角分别记录。",
+      "direction": "从源看目标",
+      "minimum": "direction、distanceM、azimuthDeg、axisAngleDeg及口径",
+      "example": "S02→S03：东、6.4m、90°、0°"
+    },
+    {
+      "type": "SUPPORTS_SYSTEM",
+      "zh": "参与系统支承",
+      "definition": "粗粒度建造系统的参与支承关系；中间构件未展开，不声称直接接触或承载力已验证。",
+      "direction": "参与支承构件→系统",
+      "minimum": "设计／观察依据、简化范围",
+      "example": "C01→RF01"
+    },
+    {
+      "type": "DOCUMENTS",
+      "zh": "证据记录",
+      "definition": "资料记录了对象的哪些内容；同源生成的多幅图纸不是相互独立的证据。",
+      "direction": "证据→对象",
+      "minimum": "来源、定位、支持范围",
+      "example": "EV02→S01"
+    }
+  ],
+  "nodes": [
+    {
+      "id": "B01",
+      "name": "V01虚拟主屋",
+      "class": "Building",
+      "labels": [
+        "Building"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "storeys": 1,
+        "axisWidthM": 9.6,
+        "axisDepthM": 7.2,
+        "axisFootprintAreaM2": 69.12,
+        "facingAzimuthDeg": 180,
+        "wallSupportHeightM": 3.6,
+        "ridgeHeightM": 5.6
+      },
+      "geometry": {
+        "kind": "box",
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          9.6,
+          7.2,
+          5.6
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03",
+        "EV04",
+        "EV05",
+        "EV06",
+        "EV07",
+        "EV08"
+      ]
+    },
+    {
+      "id": "S01",
+      "name": "堂屋",
+      "class": "Space",
+      "labels": [
+        "Space"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "use": "会客与家庭活动",
+        "enclosure": "indoor",
+        "floorZ": 0,
+        "areaM2": 16.5168,
+        "areaBasis": "矩形分析范围投影；前廊不扣柱占地，外部参照区不是用地面积",
+        "divisionBasis": "本次合成平面与用途设定",
+        "axisAzimuthDeg": 0
+      },
+      "geometry": {
+        "kind": "rect",
+        "min": [
+          3.32,
+          1.5
+        ],
+        "max": [
+          6.28,
+          7.08
+        ],
+        "z": 0
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "S02",
+      "name": "西室",
+      "class": "Space",
+      "labels": [
+        "Space"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "use": "卧室",
+        "enclosure": "indoor",
+        "floorZ": 0,
+        "areaM2": 16.1616,
+        "areaBasis": "矩形分析范围投影；前廊不扣柱占地，外部参照区不是用地面积",
+        "divisionBasis": "本次合成平面与用途设定",
+        "axisAzimuthDeg": 0
+      },
+      "geometry": {
+        "kind": "rect",
+        "min": [
+          0.12,
+          1.62
+        ],
+        "max": [
+          3.08,
+          7.08
+        ],
+        "z": 0
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "S03",
+      "name": "东室",
+      "class": "Space",
+      "labels": [
+        "Space"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "use": "卧室",
+        "enclosure": "indoor",
+        "floorZ": 0,
+        "areaM2": 16.1616,
+        "areaBasis": "矩形分析范围投影；前廊不扣柱占地，外部参照区不是用地面积",
+        "divisionBasis": "本次合成平面与用途设定",
+        "axisAzimuthDeg": 0
+      },
+      "geometry": {
+        "kind": "rect",
+        "min": [
+          6.52,
+          1.62
+        ],
+        "max": [
+          9.48,
+          7.08
+        ],
+        "z": 0
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "S04",
+      "name": "前廊",
+      "class": "Space",
+      "labels": [
+        "Space"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "use": "交通与停留",
+        "enclosure": "semi_open",
+        "floorZ": 0,
+        "areaM2": 14.4,
+        "areaBasis": "矩形分析范围投影；前廊不扣柱占地，外部参照区不是用地面积",
+        "divisionBasis": "本次合成平面与用途设定",
+        "axisAzimuthDeg": 90
+      },
+      "geometry": {
+        "kind": "rect",
+        "min": [
+          0,
+          0
+        ],
+        "max": [
+          9.6,
+          1.5
+        ],
+        "z": 0
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "S05",
+      "name": "前院",
+      "class": "Space",
+      "labels": [
+        "Space"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "use": "户外生活",
+        "enclosure": "open",
+        "floorZ": 0,
+        "areaM2": 43.8048,
+        "areaBasis": "矩形分析范围投影；前廊不扣柱占地，外部参照区不是用地面积",
+        "divisionBasis": "本次合成平面与用途设定",
+        "axisAzimuthDeg": 90
+      },
+      "geometry": {
+        "kind": "rect",
+        "min": [
+          0.12,
+          -4.68
+        ],
+        "max": [
+          9.48,
+          0
+        ],
+        "z": 0
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "S06",
+      "name": "南侧外部参照区",
+      "class": "Space",
+      "labels": [
+        "Space"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "use": "出入参照",
+        "enclosure": "external_reference",
+        "floorZ": 0,
+        "areaM2": 2.76,
+        "areaBasis": "矩形分析范围投影；前廊不扣柱占地，外部参照区不是用地面积",
+        "divisionBasis": "本次合成平面与用途设定",
+        "axisAzimuthDeg": 90
+      },
+      "geometry": {
+        "kind": "rect",
+        "min": [
+          3.8,
+          -6.3
+        ],
+        "max": [
+          5.8,
+          -4.92
+        ],
+        "z": 0
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "W01",
+      "name": "西侧外墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 7.2,
+        "thicknessM": 0.24,
+        "referenceHeightM": 3.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 0,
+        "maxHeightM": 5.6
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          0,
+          0
+        ],
+        "b": [
+          0,
+          7.2
+        ],
+        "thickness": 0.24,
+        "height": 3.6,
+        "heightMode": "roof_profile",
+        "heightIsReference": true,
+        "topProfile": [
+          [
+            0,
+            0,
+            3.6
+          ],
+          [
+            0,
+            3.6,
+            5.6
+          ],
+          [
+            0,
+            7.2,
+            3.6
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV06"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W02",
+      "name": "东侧外墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 7.2,
+        "thicknessM": 0.24,
+        "referenceHeightM": 3.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 0,
+        "maxHeightM": 5.6
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          9.6,
+          0
+        ],
+        "b": [
+          9.6,
+          7.2
+        ],
+        "thickness": 0.24,
+        "height": 3.6,
+        "heightMode": "roof_profile",
+        "heightIsReference": true,
+        "topProfile": [
+          [
+            9.6,
+            0,
+            3.6
+          ],
+          [
+            9.6,
+            3.6,
+            5.6
+          ],
+          [
+            9.6,
+            7.2,
+            3.6
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV05"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W03",
+      "name": "北侧外墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 9.6,
+        "thicknessM": 0.24,
+        "referenceHeightM": 3.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 90,
+        "maxHeightM": 3.6
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          0,
+          7.2
+        ],
+        "b": [
+          9.6,
+          7.2
+        ],
+        "thickness": 0.24,
+        "height": 3.6,
+        "heightMode": "roof_profile",
+        "heightIsReference": true,
+        "topProfile": [
+          [
+            0,
+            7.2,
+            3.6
+          ],
+          [
+            9.6,
+            7.2,
+            3.6
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV04",
+        "EV07"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W04",
+      "name": "西室与堂屋分隔墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 5.7,
+        "thicknessM": 0.24,
+        "referenceHeightM": 3.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 0,
+        "maxHeightM": 5.6
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          3.2,
+          1.5
+        ],
+        "b": [
+          3.2,
+          7.2
+        ],
+        "thickness": 0.24,
+        "height": 3.6,
+        "heightMode": "roof_profile",
+        "heightIsReference": true,
+        "topProfile": [
+          [
+            3.2,
+            1.5,
+            4.43333333
+          ],
+          [
+            3.2,
+            3.6,
+            5.6
+          ],
+          [
+            3.2,
+            7.2,
+            3.6
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W05",
+      "name": "东室与堂屋分隔墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 5.7,
+        "thicknessM": 0.24,
+        "referenceHeightM": 3.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 0,
+        "maxHeightM": 5.6
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          6.4,
+          1.5
+        ],
+        "b": [
+          6.4,
+          7.2
+        ],
+        "thickness": 0.24,
+        "height": 3.6,
+        "heightMode": "roof_profile",
+        "heightIsReference": true,
+        "topProfile": [
+          [
+            6.4,
+            1.5,
+            4.43333333
+          ],
+          [
+            6.4,
+            3.6,
+            5.6
+          ],
+          [
+            6.4,
+            7.2,
+            3.6
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W06",
+      "name": "西室前墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 3.2,
+        "thicknessM": 0.24,
+        "referenceHeightM": 3.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 90,
+        "maxHeightM": 4.43333333
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          0,
+          1.5
+        ],
+        "b": [
+          3.2,
+          1.5
+        ],
+        "thickness": 0.24,
+        "height": 3.6,
+        "heightMode": "roof_profile",
+        "heightIsReference": true,
+        "topProfile": [
+          [
+            0,
+            1.5,
+            4.43333333
+          ],
+          [
+            3.2,
+            1.5,
+            4.43333333
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W07",
+      "name": "东室前墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 3.2,
+        "thicknessM": 0.24,
+        "referenceHeightM": 3.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 90,
+        "maxHeightM": 4.43333333
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          6.4,
+          1.5
+        ],
+        "b": [
+          9.6,
+          1.5
+        ],
+        "thickness": 0.24,
+        "height": 3.6,
+        "heightMode": "roof_profile",
+        "heightIsReference": true,
+        "topProfile": [
+          [
+            6.4,
+            1.5,
+            4.43333333
+          ],
+          [
+            9.6,
+            1.5,
+            4.43333333
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W08",
+      "name": "前院西墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 4.8,
+        "thicknessM": 0.24,
+        "referenceHeightM": 1.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 0,
+        "maxHeightM": 1.6
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          0,
+          -4.8
+        ],
+        "b": [
+          0,
+          0
+        ],
+        "thickness": 0.24,
+        "height": 1.6,
+        "heightMode": "constant",
+        "heightIsReference": false,
+        "topProfile": [
+          [
+            0,
+            -4.8,
+            1.6
+          ],
+          [
+            0,
+            0,
+            1.6
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W09",
+      "name": "前院东墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 4.8,
+        "thicknessM": 0.24,
+        "referenceHeightM": 1.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 0,
+        "maxHeightM": 1.6
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          9.6,
+          -4.8
+        ],
+        "b": [
+          9.6,
+          0
+        ],
+        "thickness": 0.24,
+        "height": 1.6,
+        "heightMode": "constant",
+        "heightIsReference": false,
+        "topProfile": [
+          [
+            9.6,
+            -4.8,
+            1.6
+          ],
+          [
+            9.6,
+            0,
+            1.6
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "W10",
+      "name": "前院南墙",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Wall",
+        "材质_砖",
+        "材质_灰泥"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "lengthM": 9.6,
+        "thicknessM": 0.24,
+        "referenceHeightM": 1.6,
+        "heightBasis": "庭院墙为恒高；主屋墙顶按屋面函数截取。referenceHeightM是外墙轴线处承托基准，不能替代逐点墙顶高。",
+        "axisAzimuthDeg": 90,
+        "maxHeightM": 1.6
+      },
+      "geometry": {
+        "kind": "wall",
+        "a": [
+          0,
+          -4.8
+        ],
+        "b": [
+          9.6,
+          -4.8
+        ],
+        "thickness": 0.24,
+        "height": 1.6,
+        "heightMode": "constant",
+        "heightIsReference": false,
+        "topProfile": [
+          [
+            0,
+            -4.8,
+            1.6
+          ],
+          [
+            9.6,
+            -4.8,
+            1.6
+          ]
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "labelEvidence": {
+        "材质_砖": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_灰泥": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "C01",
+      "name": "前廊柱1",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Column",
+        "材质_木"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "diameterM": 0.28,
+        "heightM": 3.6
+      },
+      "geometry": {
+        "kind": "column",
+        "center": [
+          0,
+          0,
+          0
+        ],
+        "radius": 0.14,
+        "height": 3.6
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ],
+      "labelEvidence": {
+        "材质_木": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "C02",
+      "name": "前廊柱2",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Column",
+        "材质_木"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "diameterM": 0.28,
+        "heightM": 3.6
+      },
+      "geometry": {
+        "kind": "column",
+        "center": [
+          3.2,
+          0,
+          0
+        ],
+        "radius": 0.14,
+        "height": 3.6
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ],
+      "labelEvidence": {
+        "材质_木": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "C03",
+      "name": "前廊柱3",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Column",
+        "材质_木"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "diameterM": 0.28,
+        "heightM": 3.6
+      },
+      "geometry": {
+        "kind": "column",
+        "center": [
+          6.4,
+          0,
+          0
+        ],
+        "radius": 0.14,
+        "height": 3.6
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ],
+      "labelEvidence": {
+        "材质_木": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "C04",
+      "name": "前廊柱4",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Column",
+        "材质_木"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "diameterM": 0.28,
+        "heightM": 3.6
+      },
+      "geometry": {
+        "kind": "column",
+        "center": [
+          9.6,
+          0,
+          0
+        ],
+        "radius": 0.14,
+        "height": 3.6
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ],
+      "labelEvidence": {
+        "材质_木": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      }
+    },
+    {
+      "id": "RF01",
+      "name": "主屋双坡屋顶系统",
+      "class": "Element",
+      "labels": [
+        "Element",
+        "Roof",
+        "材质_木",
+        "材质_陶瓦"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "form": "双坡",
+        "slopeDeg": 29.0546041,
+        "eaveHeightM": 3.26666667,
+        "ridgeHeightM": 5.6,
+        "overhangM": 0.6,
+        "ridgeAzimuthDeg": 90,
+        "materialLabelMeaning": "系统含木构与陶瓦覆盖；不表达材料体积比例或细部层次"
+      },
+      "geometry": {
+        "kind": "gable_roof",
+        "x": [
+          -0.6,
+          10.2
+        ],
+        "y": [
+          -0.6,
+          7.8
+        ],
+        "ridgeY": 3.6,
+        "eaveZ": 3.2666666666666666,
+        "ridgeZ": 5.6
+      },
+      "evidence": [
+        "EV01",
+        "EV03",
+        "EV04",
+        "EV05",
+        "EV06",
+        "EV07",
+        "EV08"
+      ],
+      "labelEvidence": {
+        "材质_木": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        },
+        "材质_陶瓦": {
+          "evidence": [
+            "EV01"
+          ],
+          "status": "synthetic_assignment"
+        }
+      },
+      "propertyOrigins": {
+        "slopeDeg": {
+          "status": "geometry_derived",
+          "analysis": "A01"
+        },
+        "eaveHeightM": {
+          "status": "geometry_derived",
+          "formula": "3.6-0.6*(5.6-3.6)/3.6"
+        }
+      }
+    },
+    {
+      "id": "I01",
+      "name": "堂屋—前廊开放分界",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "open_boundary",
+        "widthM": 2.96,
+        "sillZ": 0,
+        "headZ": 3.3,
+        "passage": "yes",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "none",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面",
+        "heightBasis": "开放界面的分析范围设为地坪至3.3m，不表示实体过梁、顶棚或最大净高。"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          3.32,
+          1.5
+        ],
+        "b": [
+          6.28,
+          1.5
+        ],
+        "z": [
+          0,
+          3.3
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "I02",
+      "name": "西室门洞界面",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "door_opening",
+        "widthM": 1.0,
+        "sillZ": 0,
+        "headZ": 2.2,
+        "passage": "yes",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "opening_in_wall",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          3.2,
+          2.5
+        ],
+        "b": [
+          3.2,
+          3.5
+        ],
+        "z": [
+          0,
+          2.2
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "I03",
+      "name": "东室门洞界面",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "door_opening",
+        "widthM": 1.0,
+        "sillZ": 0,
+        "headZ": 2.2,
+        "passage": "yes",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "opening_in_wall",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          6.4,
+          2.5
+        ],
+        "b": [
+          6.4,
+          3.5
+        ],
+        "z": [
+          0,
+          2.2
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "I04",
+      "name": "前廊—前院开放分界",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "open_boundary",
+        "widthM": 9.32,
+        "sillZ": 0,
+        "headZ": 3.3,
+        "passage": "yes",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "none",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面",
+        "widthBasis": "分界线两端跨度9.32m，中间有柱；不是连续净通行宽度。",
+        "heightBasis": "开放界面的分析范围设为地坪至3.3m，不表示实体过梁、顶棚或最大净高。"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          0.14,
+          0
+        ],
+        "b": [
+          9.46,
+          0
+        ],
+        "z": [
+          0,
+          3.3
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "I05",
+      "name": "院门界面",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "gate_opening",
+        "widthM": 1.6,
+        "sillZ": 0,
+        "headZ": 1.6,
+        "passage": "yes",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "opening_in_wall",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          4,
+          -4.8
+        ],
+        "b": [
+          5.6,
+          -4.8
+        ],
+        "z": [
+          0,
+          1.6
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "I06",
+      "name": "西室临廊窗界面",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "window_opening",
+        "widthM": 1.2,
+        "sillZ": 1.0,
+        "headZ": 2.0,
+        "passage": "no",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "opening_in_wall",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          1,
+          1.5
+        ],
+        "b": [
+          2.2,
+          1.5
+        ],
+        "z": [
+          1.0,
+          2.0
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ]
+    },
+    {
+      "id": "I07",
+      "name": "东室临廊窗界面",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "window_opening",
+        "widthM": 1.2,
+        "sillZ": 1.0,
+        "headZ": 2.0,
+        "passage": "no",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "opening_in_wall",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          7.4,
+          1.5
+        ],
+        "b": [
+          8.6,
+          1.5
+        ],
+        "z": [
+          1.0,
+          2.0
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV03"
+      ]
+    },
+    {
+      "id": "I08",
+      "name": "西室北窗",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "window_opening",
+        "widthM": 1.2,
+        "sillZ": 1.0,
+        "headZ": 2.0,
+        "passage": "no",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "opening_in_wall",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          1,
+          7.2
+        ],
+        "b": [
+          2.2,
+          7.2
+        ],
+        "z": [
+          1.0,
+          2.0
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV04"
+      ]
+    },
+    {
+      "id": "I09",
+      "name": "堂屋北窗",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "window_opening",
+        "widthM": 1.2,
+        "sillZ": 1.0,
+        "headZ": 2.0,
+        "passage": "no",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "opening_in_wall",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          4.2,
+          7.2
+        ],
+        "b": [
+          5.4,
+          7.2
+        ],
+        "z": [
+          1.0,
+          2.0
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV04"
+      ]
+    },
+    {
+      "id": "I10",
+      "name": "东室北窗",
+      "class": "Interface",
+      "labels": [
+        "Interface"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "kind": "window_opening",
+        "widthM": 1.2,
+        "sillZ": 1.0,
+        "headZ": 2.0,
+        "passage": "no",
+        "accessContext": "合成基准情境：正常成人步行；设定门洞无门扇阻挡；窗不作步行通道",
+        "physicalSeparation": "opening_in_wall",
+        "boundaryBasis": "合成平面定义；不将实际墙体等同界面"
+      },
+      "geometry": {
+        "kind": "interface",
+        "a": [
+          7.4,
+          7.2
+        ],
+        "b": [
+          8.6,
+          7.2
+        ],
+        "z": [
+          1.0,
+          2.0
+        ]
+      },
+      "evidence": [
+        "EV01",
+        "EV02",
+        "EV04"
+      ]
+    },
+    {
+      "id": "EV01",
+      "name": "合成设定说明",
+      "class": "Evidence",
+      "labels": [
+        "Evidence"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "evidenceKind": "synthetic_spec",
+        "origin": "本次合成案例生成",
+        "locator": "EV01",
+        "description": "本次为检验语义表达人工设定的几何、用途、材料与粗粒度支承关系。不是文献原文或现场记录。",
+        "observationDate": "not_applicable",
+        "isRealWorldEvidence": false
+      },
+      "geometry": null,
+      "evidence": []
+    },
+    {
+      "id": "EV02",
+      "name": "合成平面布局与尺寸图",
+      "class": "Evidence",
+      "labels": [
+        "Evidence"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "evidenceKind": "synthetic_drawing",
+        "origin": "本次合成案例生成",
+        "locator": "EV02",
+        "description": "空间分区、墙柱位置、门窗界面；建筑轴网9.6×7.2m，前院深4.8m。",
+        "observationDate": "not_applicable",
+        "isRealWorldEvidence": false
+      },
+      "geometry": null,
+      "evidence": []
+    },
+    {
+      "id": "EV03",
+      "name": "合成南立面",
+      "class": "Evidence",
+      "labels": [
+        "Evidence"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "evidenceKind": "synthetic_drawing",
+        "origin": "本次合成案例生成",
+        "locator": "EV03",
+        "description": "前廊柱列、前窗、开敞堂口及檐脊高度。",
+        "observationDate": "not_applicable",
+        "isRealWorldEvidence": false
+      },
+      "geometry": null,
+      "evidence": []
+    },
+    {
+      "id": "EV04",
+      "name": "合成北立面",
+      "class": "Evidence",
+      "labels": [
+        "Evidence"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "evidenceKind": "synthetic_drawing",
+        "origin": "本次合成案例生成",
+        "locator": "EV04",
+        "description": "三处北窗及屋顶轮廓。",
+        "observationDate": "not_applicable",
+        "isRealWorldEvidence": false
+      },
+      "geometry": null,
+      "evidence": []
+    },
+    {
+      "id": "EV05",
+      "name": "合成东立面",
+      "class": "Evidence",
+      "labels": [
+        "Evidence"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "evidenceKind": "synthetic_drawing",
+        "origin": "本次合成案例生成",
+        "locator": "EV05",
+        "description": "山墙、双坡顶及前后挑檐。",
+        "observationDate": "not_applicable",
+        "isRealWorldEvidence": false
+      },
+      "geometry": null,
+      "evidence": []
+    },
+    {
+      "id": "EV06",
+      "name": "合成西立面",
+      "class": "Evidence",
+      "labels": [
+        "Evidence"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "evidenceKind": "synthetic_drawing",
+        "origin": "本次合成案例生成",
+        "locator": "EV06",
+        "description": "山墙与双坡顶，外观不能单独确定墙芯材料。",
+        "observationDate": "not_applicable",
+        "isRealWorldEvidence": false
+      },
+      "geometry": null,
+      "evidence": []
+    },
+    {
+      "id": "EV07",
+      "name": "合成A—A剖面",
+      "class": "Evidence",
+      "labels": [
+        "Evidence"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "evidenceKind": "synthetic_drawing",
+        "origin": "本次合成案例生成",
+        "locator": "EV07",
+        "description": "切面X=4.8m；进深、承托线和檐脊标高。未展开梁架和榫卯。",
+        "observationDate": "not_applicable",
+        "isRealWorldEvidence": false
+      },
+      "geometry": null,
+      "evidence": []
+    },
+    {
+      "id": "EV08",
+      "name": "合成屋顶投影图",
+      "class": "Evidence",
+      "labels": [
+        "Evidence"
+      ],
+      "properties": {
+        "caseId": "V01",
+        "recordStatus": "synthetic_assignment",
+        "evidenceKind": "synthetic_drawing",
+        "origin": "本次合成案例生成",
+        "locator": "EV08",
+        "description": "脊线、屋面边界与外挑尺寸。",
+        "observationDate": "not_applicable",
+        "isRealWorldEvidence": false
+      },
+      "geometry": null,
+      "evidence": []
+    }
+  ],
+  "relationships": [
+    {
+      "id": "R001",
+      "type": "PART_OF",
+      "source": "S01",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R002",
+      "type": "PART_OF",
+      "source": "S02",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R003",
+      "type": "PART_OF",
+      "source": "S03",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R004",
+      "type": "PART_OF",
+      "source": "S04",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R005",
+      "type": "ASSOCIATED_WITH",
+      "source": "S05",
+      "target": "B01",
+      "properties": {
+        "role": "服务于主屋的前院；不是建筑本体面积"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R006",
+      "type": "PART_OF",
+      "source": "W01",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R007",
+      "type": "PART_OF",
+      "source": "W02",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R008",
+      "type": "PART_OF",
+      "source": "W03",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R009",
+      "type": "PART_OF",
+      "source": "W04",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R010",
+      "type": "PART_OF",
+      "source": "W05",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R011",
+      "type": "PART_OF",
+      "source": "W06",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R012",
+      "type": "PART_OF",
+      "source": "W07",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R013",
+      "type": "PART_OF",
+      "source": "W08",
+      "target": "S05",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R014",
+      "type": "PART_OF",
+      "source": "W09",
+      "target": "S05",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R015",
+      "type": "PART_OF",
+      "source": "W10",
+      "target": "S05",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R016",
+      "type": "PART_OF",
+      "source": "C01",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R017",
+      "type": "PART_OF",
+      "source": "C02",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R018",
+      "type": "PART_OF",
+      "source": "C03",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R019",
+      "type": "PART_OF",
+      "source": "C04",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R020",
+      "type": "PART_OF",
+      "source": "RF01",
+      "target": "B01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R021",
+      "type": "SUPPORTS_SYSTEM",
+      "source": "C01",
+      "target": "RF01",
+      "properties": {
+        "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R022",
+      "type": "SUPPORTS_SYSTEM",
+      "source": "C02",
+      "target": "RF01",
+      "properties": {
+        "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R023",
+      "type": "SUPPORTS_SYSTEM",
+      "source": "C03",
+      "target": "RF01",
+      "properties": {
+        "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R024",
+      "type": "SUPPORTS_SYSTEM",
+      "source": "C04",
+      "target": "RF01",
+      "properties": {
+        "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R025",
+      "type": "SUPPORTS_SYSTEM",
+      "source": "W01",
+      "target": "RF01",
+      "properties": {
+        "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R026",
+      "type": "SUPPORTS_SYSTEM",
+      "source": "W02",
+      "target": "RF01",
+      "properties": {
+        "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R027",
+      "type": "SUPPORTS_SYSTEM",
+      "source": "W03",
+      "target": "RF01",
+      "properties": {
+        "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R028",
+      "type": "INTERFACE_OF",
+      "source": "I01",
+      "target": "S01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R029",
+      "type": "INTERFACE_OF",
+      "source": "I01",
+      "target": "S04",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R030",
+      "type": "DIRECT_ACCESS_TO",
+      "source": "S01",
+      "target": "S04",
+      "properties": {
+        "via": "I01",
+        "bidirectional": true,
+        "context": "基准情境正常步行"
+      },
+      "status": "rule_derived",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "R031",
+      "type": "INTERFACE_OF",
+      "source": "I02",
+      "target": "S02",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R032",
+      "type": "INTERFACE_OF",
+      "source": "I02",
+      "target": "S01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R033",
+      "type": "REALIZED_IN",
+      "source": "I02",
+      "target": "W04",
+      "properties": {
+        "meaning": "界面位于该墙的开口处，不等同墙整体"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R034",
+      "type": "DIRECT_ACCESS_TO",
+      "source": "S02",
+      "target": "S01",
+      "properties": {
+        "via": "I02",
+        "bidirectional": true,
+        "context": "基准情境正常步行"
+      },
+      "status": "rule_derived",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "R035",
+      "type": "INTERFACE_OF",
+      "source": "I03",
+      "target": "S01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R036",
+      "type": "INTERFACE_OF",
+      "source": "I03",
+      "target": "S03",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R037",
+      "type": "REALIZED_IN",
+      "source": "I03",
+      "target": "W05",
+      "properties": {
+        "meaning": "界面位于该墙的开口处，不等同墙整体"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R038",
+      "type": "DIRECT_ACCESS_TO",
+      "source": "S01",
+      "target": "S03",
+      "properties": {
+        "via": "I03",
+        "bidirectional": true,
+        "context": "基准情境正常步行"
+      },
+      "status": "rule_derived",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "R039",
+      "type": "INTERFACE_OF",
+      "source": "I04",
+      "target": "S04",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R040",
+      "type": "INTERFACE_OF",
+      "source": "I04",
+      "target": "S05",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R041",
+      "type": "DIRECT_ACCESS_TO",
+      "source": "S04",
+      "target": "S05",
+      "properties": {
+        "via": "I04",
+        "bidirectional": true,
+        "context": "基准情境正常步行"
+      },
+      "status": "rule_derived",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "R042",
+      "type": "INTERFACE_OF",
+      "source": "I05",
+      "target": "S05",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R043",
+      "type": "INTERFACE_OF",
+      "source": "I05",
+      "target": "S06",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R044",
+      "type": "REALIZED_IN",
+      "source": "I05",
+      "target": "W10",
+      "properties": {
+        "meaning": "界面位于该墙的开口处，不等同墙整体"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R045",
+      "type": "DIRECT_ACCESS_TO",
+      "source": "S05",
+      "target": "S06",
+      "properties": {
+        "via": "I05",
+        "bidirectional": true,
+        "context": "基准情境正常步行"
+      },
+      "status": "rule_derived",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "R046",
+      "type": "INTERFACE_OF",
+      "source": "I06",
+      "target": "S02",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R047",
+      "type": "INTERFACE_OF",
+      "source": "I06",
+      "target": "S04",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R048",
+      "type": "REALIZED_IN",
+      "source": "I06",
+      "target": "W06",
+      "properties": {
+        "meaning": "界面位于该墙的开口处，不等同墙整体"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R049",
+      "type": "INTERFACE_OF",
+      "source": "I07",
+      "target": "S03",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R050",
+      "type": "INTERFACE_OF",
+      "source": "I07",
+      "target": "S04",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R051",
+      "type": "REALIZED_IN",
+      "source": "I07",
+      "target": "W07",
+      "properties": {
+        "meaning": "界面位于该墙的开口处，不等同墙整体"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R052",
+      "type": "INTERFACE_OF",
+      "source": "I08",
+      "target": "S02",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R053",
+      "type": "REALIZED_IN",
+      "source": "I08",
+      "target": "W03",
+      "properties": {
+        "meaning": "界面位于该墙的开口处，不等同墙整体"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R054",
+      "type": "INTERFACE_OF",
+      "source": "I09",
+      "target": "S01",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R055",
+      "type": "REALIZED_IN",
+      "source": "I09",
+      "target": "W03",
+      "properties": {
+        "meaning": "界面位于该墙的开口处，不等同墙整体"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R056",
+      "type": "INTERFACE_OF",
+      "source": "I10",
+      "target": "S03",
+      "properties": {},
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R057",
+      "type": "REALIZED_IN",
+      "source": "I10",
+      "target": "W03",
+      "properties": {
+        "meaning": "界面位于该墙的开口处，不等同墙整体"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ]
+    },
+    {
+      "id": "R058",
+      "type": "SPATIAL_RELATION",
+      "source": "S02",
+      "target": "S03",
+      "properties": {
+        "direction": "东",
+        "distanceM": 6.4,
+        "azimuthDeg": 90,
+        "axisAngleDeg": 0,
+        "distanceBasis": "源、目标空间中心之间的水平欧氏距离；不是边界净距",
+        "directionBasis": "从源看目标；北0度顺时针；世界坐标X东Y北",
+        "angleBasis": "两空间长轴的最小无向平面夹角，0到90度"
+      },
+      "status": "geometry_derived",
+      "evidence": [
+        "EV02"
+      ]
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S01",
+      "target": "W03",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R059"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S01",
+      "target": "W04",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R060"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S01",
+      "target": "W05",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R061"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S02",
+      "target": "W01",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R062"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S02",
+      "target": "W03",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R063"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S02",
+      "target": "W04",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R064"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S02",
+      "target": "W06",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R065"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S03",
+      "target": "W02",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R066"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S03",
+      "target": "W03",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R067"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S03",
+      "target": "W05",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R068"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S03",
+      "target": "W07",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R069"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S04",
+      "target": "W01",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R070"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S04",
+      "target": "W02",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R071"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S04",
+      "target": "W06",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R072"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S04",
+      "target": "W07",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R073"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S05",
+      "target": "W08",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R074"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S05",
+      "target": "W09",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R075"
+    },
+    {
+      "type": "BOUNDED_BY",
+      "source": "S05",
+      "target": "W10",
+      "properties": {
+        "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ],
+      "id": "R076"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "B01",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R077"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "B01",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R078"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "B01",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R079"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV04",
+      "target": "B01",
+      "properties": {
+        "scope": "主屋北立面轮廓及北窗",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV04"
+      ],
+      "id": "R080"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV05",
+      "target": "B01",
+      "properties": {
+        "scope": "主屋东侧山墙和屋面轮廓",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV05"
+      ],
+      "id": "R081"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV06",
+      "target": "B01",
+      "properties": {
+        "scope": "主屋西侧山墙和屋面轮廓",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV06"
+      ],
+      "id": "R082"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV07",
+      "target": "B01",
+      "properties": {
+        "scope": "X=4.8m剖面的进深、屋面、北墙、堂屋与前廊关系及标高",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV07"
+      ],
+      "id": "R083"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV08",
+      "target": "B01",
+      "properties": {
+        "scope": "屋顶投影的边界、脊线、外挑和尺寸",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV08"
+      ],
+      "id": "R084"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "S01",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R085"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "S01",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R086"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "S02",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R087"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "S02",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R088"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "S03",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R089"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "S03",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R090"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "S04",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R091"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "S04",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R092"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "S05",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R093"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "S05",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R094"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "S06",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R095"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "S06",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R096"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W01",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R097"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W01",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R098"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV06",
+      "target": "W01",
+      "properties": {
+        "scope": "主屋西侧山墙和屋面轮廓",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV06"
+      ],
+      "id": "R099"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W02",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R100"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W02",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R101"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV05",
+      "target": "W02",
+      "properties": {
+        "scope": "主屋东侧山墙和屋面轮廓",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV05"
+      ],
+      "id": "R102"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W03",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R103"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W03",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R104"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV04",
+      "target": "W03",
+      "properties": {
+        "scope": "主屋北立面轮廓及北窗",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV04"
+      ],
+      "id": "R105"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV07",
+      "target": "W03",
+      "properties": {
+        "scope": "X=4.8m剖面的进深、屋面、北墙、堂屋与前廊关系及标高",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV07"
+      ],
+      "id": "R106"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W04",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R107"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W04",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R108"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W05",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R109"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W05",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R110"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W06",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R111"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W06",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R112"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "W06",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R113"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W07",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R114"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W07",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R115"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "W07",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R116"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W08",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R117"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W08",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R118"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W09",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R119"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W09",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R120"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "W10",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R121"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "W10",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R122"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "C01",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R123"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "C01",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R124"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "C01",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R125"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "C02",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R126"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "C02",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R127"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "C02",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R128"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "C03",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R129"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "C03",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R130"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "C03",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R131"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "C04",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R132"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "C04",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R133"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "C04",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R134"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "RF01",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R135"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "RF01",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R136"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV04",
+      "target": "RF01",
+      "properties": {
+        "scope": "主屋北立面轮廓及北窗",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV04"
+      ],
+      "id": "R137"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV05",
+      "target": "RF01",
+      "properties": {
+        "scope": "主屋东侧山墙和屋面轮廓",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV05"
+      ],
+      "id": "R138"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV06",
+      "target": "RF01",
+      "properties": {
+        "scope": "主屋西侧山墙和屋面轮廓",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV06"
+      ],
+      "id": "R139"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV07",
+      "target": "RF01",
+      "properties": {
+        "scope": "X=4.8m剖面的进深、屋面、北墙、堂屋与前廊关系及标高",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV07"
+      ],
+      "id": "R140"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV08",
+      "target": "RF01",
+      "properties": {
+        "scope": "屋顶投影的边界、脊线、外挑和尺寸",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV08"
+      ],
+      "id": "R141"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I01",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R142"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I01",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R143"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I02",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R144"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I02",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R145"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I03",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R146"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I03",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R147"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I04",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R148"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I04",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R149"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I05",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R150"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I05",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R151"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I06",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R152"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I06",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R153"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "I06",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R154"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I07",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R155"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I07",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R156"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV03",
+      "target": "I07",
+      "properties": {
+        "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV03"
+      ],
+      "id": "R157"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I08",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R158"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I08",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R159"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV04",
+      "target": "I08",
+      "properties": {
+        "scope": "主屋北立面轮廓及北窗",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV04"
+      ],
+      "id": "R160"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I09",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R161"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I09",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R162"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV04",
+      "target": "I09",
+      "properties": {
+        "scope": "主屋北立面轮廓及北窗",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV04"
+      ],
+      "id": "R163"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV01",
+      "target": "I10",
+      "properties": {
+        "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01"
+      ],
+      "id": "R164"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV02",
+      "target": "I10",
+      "properties": {
+        "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV02"
+      ],
+      "id": "R165"
+    },
+    {
+      "type": "DOCUMENTS",
+      "source": "EV04",
+      "target": "I10",
+      "properties": {
+        "scope": "主屋北立面轮廓及北窗",
+        "dependency": "全部合成资料同源，不能按多份独立证据累计"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV04"
+      ],
+      "id": "R166"
+    }
+  ],
+  "drawingContract": {
+    "plan": "EV02",
+    "south": "EV03",
+    "north": "EV04",
+    "east": "EV05",
+    "west": "EV06",
+    "section": "EV07",
+    "roof": "EV08",
+    "sectionPlane": "X=4.8",
+    "wallOpeningRule": "所有门窗按Interface几何在对应墙面切开或画断线；开口不等于整墙通行",
+    "wallTopRule": "东西外墙为山墙，顶随屋面；纵向分隔墙同样随屋面，前侧墙沿Y=1.5 roof_z；图中须注明墙顶高度变化，referenceHeightM仅承托线基准",
+    "roof_z": "5.6-abs(y-3.6)*(2/3.6)",
+    "geometryScope": "示意构造，无梁架/节点详图；渲染墙实体必须避让开口",
+    "scopeNotes": [
+      "所有图从同一JSON参数生成；仅供语义与几何一致性讨论，不是施工图。",
+      "南北立面展示主屋，前院围墙省略。",
+      "平面北向向上；各立面标明视向；A—A切面X=4.8m。",
+      "I04宽度是跨越柱列的分界线跨度，不是连续净宽。"
+    ]
+  },
+  "groundTruth": {
+    "P1": {
+      "value": 29.0546041,
+      "unit": "deg",
+      "rule": "atan((ridgeZ-wallSupportZ)/(axisDepth/2))",
+      "status": "derivable"
+    },
+    "P2": {
+      "value": true,
+      "via": "I03",
+      "source": "S01",
+      "target": "S03",
+      "bidirectional": true,
+      "status": "derivable"
+    },
+    "P3": {
+      "value": [
+        "材质_木",
+        "材质_陶瓦"
+      ],
+      "status": "extractable"
+    },
+    "P4": {
+      "truth": "材质_砖",
+      "observable_status": "underdetermined",
+      "acceptable": "拒绝确证；可列带依据和待验证条件的材料候选"
+    },
+    "P5": {
+      "truth": "卧室",
+      "observable_status": "underdetermined",
+      "acceptable": "拒绝确证；可列多种用途假设但不改成事实"
+    }
+  },
+  "experiment": {
+    "inputFile": "验证/遮蔽输入.json",
+    "answerKeyFile": "验证/合成真值.json",
+    "resultFile": "验证/推演结果.json",
+    "truthPolicy": "真值先确定并保存；推演子agent不读取案例模型、真值及完整图纸，仅读取遮蔽输入。该约束是文件访问纪律，不是安全隔离。",
+    "full_evidence_and_missing_evidence_are_separate": true
+  },
+  "researchReferences": [
+    {
+      "key": "AR5L935U",
+      "title": "浙江台州地区传统民居类型与特征研究",
+      "locator": "PDF41—43、66—84；已有定向阅读记录",
+      "source": "../风貌分析目标文献对照/风貌研究与畲族建筑研究对照.md",
+      "supports": "材料环境、构造系统、空间形制及一字型单体等分析参照",
+      "does_not_support": "本案例具体平面、尺寸、材料、用途、结构安全或地域代表性"
+    }
+  ],
+  "analysisResults": [
+    {
+      "id": "A01",
+      "kind": "geometry_calculation",
+      "name": "屋面坡度",
+      "value": 29.0546,
+      "unit": "°",
+      "formula": "atan((5.6−3.6)/(7.2/2))",
+      "inputs": [
+        "EV07"
+      ],
+      "status": "derived_from_synthetic_evidence"
+    },
+    {
+      "id": "A02",
+      "kind": "geometry_calculation",
+      "name": "屋面几何总面积",
+      "value": 103.78,
+      "unit": "m²",
+      "formula": "2×10.8×sqrt(4.2²+(4.2×2/3.6)²)",
+      "inputs": [
+        "EV07",
+        "EV08"
+      ],
+      "status": "derived_from_synthetic_evidence"
+    },
+    {
+      "id": "A03",
+      "kind": "graph_rule",
+      "name": "常规步行直接通行",
+      "value": 5,
+      "unit": "组双向空间对",
+      "inputs": [
+        "EV01",
+        "EV02"
+      ],
+      "status": "derived_from_synthetic_evidence"
+    },
+    {
+      "id": "A04",
+      "kind": "spatial_measurement",
+      "name": "西室到东室",
+      "value": {
+        "direction": "东",
+        "distanceM": 6.4,
+        "azimuthDeg": 90,
+        "axisAngleDeg": 0
+      },
+      "inputs": [
+        "EV02"
+      ],
+      "status": "derived_from_synthetic_evidence"
+    }
+  ],
+  "modelBoundary": {
+    "spaceGeometry": "仅有平面区域及地坪标高，没有宣称封闭、无缝的三维空间实体。门洞沿墙中心线记录；与房间净边界之间有墙厚，不能直接拿平面线条相触判定通行。",
+    "interfaceScope": "优先记录门窗和开放过渡；普通实体边界用BOUNDED_BY，不把每一块墙面都节点化。I08—I10北窗的室外端暂不实例化，不能据此生成完整室外图。",
+    "materialAnalysis": "材料标签统一字典；同一对象可多标签。计数须先限定对象类别和层级，含某材料不等于面积、体积或质量比例。",
+    "neo4jMapping": "JSON为交换与展示结构；geometry、labelEvidence、properties中的嵌套对象须另作LPG存储映射，尚未导入数据库。",
+    "completeness": "只对本轮墙柱屋顶、空间、开口与基础量测任务提供可互核资料；梁架、榫卯、厨房与生活设施未展开，不能称完整实物复原。"
+  },
+  "methodSources": [
+    {
+      "title": "Building Topology Ontology (BOT) specification",
+      "url": "https://w3c-lbd-cg.github.io/bot/",
+      "locator": "Space, Element, adjacentElement, Interfaces, 3D Model",
+      "claim": "区分空间、实体构件与界面；界面用于限定对象间关系；几何可关联外部表示。",
+      "read_scope": "定向阅读上述定义与例子，2026-10-24。",
+      "can_support": "本案例对空间、构件和界面的语义区分。",
+      "cannot_support": "本案LPG关系名、通行规则和虚拟建筑事实由本研究另行定义，不宣称完整BOT实现。"
+    },
+    {
+      "title": "The Shapely User Manual",
+      "url": "https://shapely.readthedocs.io/en/stable/manual.html",
+      "locator": "Geometric objects and coordinate systems; General Attributes and Methods (area, length, distance); predicates intersects, touches, within.",
+      "claim": "For coordinate-defined planar geometries, Shapely provides deterministic area, length, distance, and topological predicates. It explicitly performs analysis in the x-y plane and ignores z.",
+      "read_scope": "Read the coordinate-system and geometry notes, measurement methods, and topological-predicate sections; not the full manual.",
+      "can_support": "After plan lines, room polygons, openings, and a scale-aware coordinate system have been traced, calculate 2D lengths/areas/distances and candidate contains/intersects/touches relations reproducibly.",
+      "cannot_support": "It does not extract or semantically recognize a drawing, establish that traced coordinates match a real building, or calculate roof slope from z; z is ignored in its geometric analysis."
+    },
+    {
+      "title": "Navigation-Oriented Topological Model Construction Algorithm for Complex Indoor Space",
+      "url": "https://www.mdpi.com/2220-9964/12/6/248",
+      "locator": "Sections 3.2 (space-wall and room-room topology), 4.3 (polygon extraction), 4.5 (complexity), 5.1-5.3 (tests), and conclusion.",
+      "claim": "The paper constructs room polygons and adjacency/connectivity/inclusion relations from building-plan linework using graph and disjoint-set methods, and reports tests on real and simulated plans. Its conclusion says semantic extraction from plan annotations is outside the method's current treatment.",
+      "read_scope": "Read indexed full-text excerpts for the specified methods, tests, and conclusion. The publisher page was throttled, so this was not a full-paper read.",
+      "can_support": "A plan-derived topology baseline for room boundaries, wall incidence, adjacency, and connectivity, once linework is available.",
+      "cannot_support": "Automatic interpretation of untraced drawings, reliable semantic/material classification without annotation, or transfer of the reported algorithm's validity to Jingning dwellings."
+    },
+    {
+      "title": "Neo4j Cypher Manual (current)",
+      "url": "https://neo4j.com/docs/cypher-manual/current/patterns/",
+      "locator": "Patterns and path matching: https://neo4j.com/docs/cypher-manual/current/patterns/ ; aggregating functions: https://neo4j.com/docs/cypher-manual/25/functions/aggregating/ ; spatial values and functions: https://neo4j.com/docs/cypher-manual/current/values-and-types/spatial/ and https://neo4j.com/docs/cypher-manual/current/functions/spatial/ .",
+      "claim": "Cypher MATCH expresses graph-pattern and path queries; count/avg/sum aggregate matched values; built-in spatial geometry is POINT (2D or 3D), with point distance requiring compatible CRS and dimensions. Spatial functions specify points and calculate point-to-point distance.",
+      "read_scope": "Read current pattern, spatial-value, and spatial-function pages; the official aggregation page was reviewed via its indexed excerpt for grouping and aggregate functions, not fully opened.",
+      "can_support": "Run graph rules, fixed/variable-length path queries, relationship integrity checks, and grouped counts/statistics; store coordinates/derived quantities and compute supported point-to-point distances.",
+      "cannot_support": "Without custom functions or a separate geometry engine, Cypher is not a drawing interpreter or general wall/polygon/solid geometry engine; graph paths alone do not calculate polygon area, shared-boundary length, or roof slope."
+    },
+    {
+      "title": "KICGPT: Large Language Model with Knowledge in Context for Knowledge Graph Completion",
+      "url": "https://aclanthology.org/2023.findings-emnlp.580/",
+      "locator": "Sections 1 and 3.1-3.3 define link prediction and candidate ranking; sections 4.1-4.2 describe benchmark data and MRR/Hits metrics; conclusion and limitations.",
+      "claim": "The paper treats completion as predicting and ranking a missing entity in an incomplete triple, combining a KG retriever with LLM re-ranking and demonstrations. It evaluates against held-out benchmark triples; this is predictive evaluation, not evidence verification for a particular building.",
+      "read_scope": "Read the abstract, problem definition, method, benchmark setup, metrics/results, and limitations; not a broader KGC survey.",
+      "can_support": "Use an LLM to propose/rank missing relation or label candidates, and evaluate predictions against deliberately hidden known triples in a controlled graph.",
+      "cannot_support": "A predicted material or construction relation is not verified merely because it is plausible, well-ranked, or supported by an LLM explanation; the paper does not validate claims against architectural drawings, field measurements, or Jingning evidence."
+    },
+    {
+      "title": "Photogrammetry-based approach for collecting and processing information about an existing building",
+      "url": "https://doi.org/10.24425/bpasts.2023.144453",
+      "locator": "Methods §§2.1-2.3; results and discussion §§3-4; conclusions §5.",
+      "claim": "In its single-building study, the UAV photogrammetry model represented geometry visible from outside and could not represent elements or structures not externally visible. Interior elements required a separate BIM model informed by plans and direct measurements. The study also recommends reference checks because individual take-offs could have material error even when an aggregate result looked accurate.",
+      "read_scope": "Read the abstract, UAV/model methods, model-comparison and take-off results, discussion, and conclusions.",
+      "can_support": "An explicit visibility boundary for external UAV oblique imagery and a rationale for independent reference dimensions and separate indoor capture.",
+      "cannot_support": "Internal room geometry, hidden joints/structure, material composition, or historical attributes from external imagery alone; its one-building accuracy figures are not guaranteed for another survey."
+    }
+  ],
+  "methodOptions": {
+    "deterministic_geometry_baseline": "先固定坐标系、单位与图纸比例；比例未知时先用已知尺寸校准，并保留坐标及来源。两点长度 L=sqrt((dx)^2+(dy)^2)；高差 Δz=z2-z1；坡角 θ=atan2(|Δz|,sqrt((dx)^2+(dy)^2))×180/π，坡度比=|Δz|/水平投影。房间用平面多边形，墙线/柱点/门窗开口作为线或点；用相交、包含关系及正长度共享边界（阈值 ε）生成候选邻接/界面。由坐标公式或几何库计算，再把公式、单位、输入坐标、图纸页码和精度状态写回图谱。",
+    "neo4j_and_llm_boundary": "Neo4j负责对象与关系约束、路径查询、计数/分组统计；一般多段线和面几何由确定性几何步骤计算后写入图谱。LLM只提议缺失标签/关系候选；把候选、解释、模型与已提供来源分开保存，标记为预测或假设，证据不足时输出unknown/拒答，不自动升级为已证事实。",
+    "validation": "对预先设定的虚拟案例真值遮蔽一小部分尺寸/关系/材料标签，保留答案供盲测；长度/坡度与手算坐标基线对照并报绝对误差，关系/标签按precision、recall、F1核对，同时统计无依据断言、冲突和拒答。固定输入与随机种子，确保可复算。此结果只验证合成案例上的流程一致性与预测行为，不构成真实景宁民居的实证验证。"
+  }
+}

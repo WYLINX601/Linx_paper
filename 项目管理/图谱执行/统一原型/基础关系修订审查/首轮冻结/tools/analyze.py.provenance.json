@@ -1,0 +1,10 @@
+{
+  "artifact_role": "transferred_copy",
+  "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+  "source_path": "项目管理/图谱执行/统一原型/tools/analyze.py",
+  "sha256": "fffa67f39c04fd1fe4acec033173cf867f8aa3fdb0238db2f789bd7eaaf2e8ea",
+  "size_bytes": 13017,
+  "source_modified_at_utc": "2026-10-30T13:15:26Z",
+  "downloaded_at_utc": "2026-10-30T23:06:27Z",
+  "local_copy_path": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/originals/tools/analyze.py"
+}

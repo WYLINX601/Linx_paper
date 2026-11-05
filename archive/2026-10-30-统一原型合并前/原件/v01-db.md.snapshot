@@ -1,0 +1,101 @@
+# V01：当前 Neo4j 迭代基线
+
+2026-10-26已完成拓扑扩展。当前数据库`neo4j`有 **42个对象与证据节点＋1个完整来源快照节点，共191条关系**。原40个源节点与166条关系保留；新增2个坡面、25条关系，没有删除原节点或关系。现有UID约束与索引保留，未修改权限或服务配置。
+
+本例是合成民居，用于表达与查询验证，不是实测样本，也不代表江浙或畲族民居的一般规律。
+
+[打开Neo4j Browser](http://100.68.38.32:7474/browser/) · [案例浏览](../案例浏览.html) · [构建方法与决策](../构建方法与决策记录.md) · [更新前归档与回退说明](../../../archive/2026-10-26-V01拓扑更新前/README.md)
+
+## 本轮新增什么
+
+| 内容 | 数量 | 语义边界 |
+| --- | --- | --- |
+| RoofSurface：RS01南坡面、RS02北坡面 | 2节点 | 无厚度理想坡面，归属RF01；不继承系统材料标签 |
+| AXIS_JOINS：墙轴交接 | 12边 | 双方端部／中段、交点XY、WJ-01-v1；不证明实体接触 |
+| ENVELOPE_INTERSECTS：墙柱简化包络相交 | 4边 | 本例均内部重叠；未扣洞、未裁切的包络关系，不证明嵌柱或支承 |
+| SHARES_BOUNDARY：坡面共边 | 1边 | 三维共线段，正脊长10.8m；不等于实体屋脊构件已细分 |
+| PART_OF及DOCUMENTS | 2＋6边 | 两坡面归属屋顶；EV01、EV07、EV08各记证据适用范围，均为同源资料 |
+
+本轮3种新关系均标记`recordStatus=synthetic_geometry_derived`并连接EV01依据；规则与参考来源集中保存在主源`topologyRules`、`topologySources`及来源快照，必要属性保存在边上。以问题为起点，暂不增加交点、连接部位或屋脊节点。
+
+## 先看这些查询
+
+2026-10-24已在当时Chrome的Neo4j Browser的Queries → Drafts保存V01-01至V01-05。[当时截图](Queries收藏已保存.jpg)。本轮更新数据库，不声称已新增或刷新Browser收藏；原V01-01全图查询可显示新关系。
+
+只看本轮补充的几何关系：
+
+```cypher
+MATCH (a:V01)-[r]->(b:V01)
+WHERE type(r) IN ['AXIS_JOINS','ENVELOPE_INTERSECTS','SHARES_BOUNDARY']
+RETURN a,r,b;
+```
+
+看前院南墙与哪些墙交接，并正确解释存储方向上的部位：
+
+```cypher
+MATCH (w:V01:Wall {id:'W10'})-[r:AXIS_JOINS]-(b:V01:Wall)
+RETURN w.name AS wall,b.name AS otherWall,
+       startNode(r).id AS storedSource,r.atSource AS atStoredSource,
+       endNode(r).id AS storedTarget,r.atTarget AS atStoredTarget,
+       r.junctionXY AS junction,r.ruleId AS rule;
+```
+
+已返回W08前院西墙、W09前院东墙；端点含义不随无向查询的进入方向交换。
+
+看墙柱包络关系：
+
+```cypher
+MATCH (w:V01:Wall)-[r:ENVELOPE_INTERSECTS]->(c:V01:Column)
+RETURN w.name,c.name,r.intersectionKind,r.atWall,r.commonZ,r.ruleId;
+```
+
+结果为W01—C01、W08—C01、W02—C04、W09—C04。`interior_overlap`表示简化几何内部相交，实际墙端如何处理仍未知。
+
+看坡面、系统归属与共边：
+
+```cypher
+MATCH (s:V01:RoofSurface)-[p:PART_OF]->(roof:V01:Roof)
+OPTIONAL MATCH (s)-[j:SHARES_BOUNDARY]-(other:V01:RoofSurface)
+RETURN s,p,roof,j,other;
+```
+
+查询中的对称共边可能被两侧匹配，图形显示会合并同一条边；统计时应匹配存储方向或使用`DISTINCT`，不能把它算成2条共边。
+
+原有全图与通行查询继续有效：
+
+```cypher
+MATCH (a:V01)-[r]->(b:V01)
+WHERE type(r)<>'DOCUMENTS'
+RETURN a,r,b;
+```
+
+```cypher
+MATCH p=shortestPath((a:V01:Space {id:'S06'})-[:DIRECT_ACCESS_TO*1..6]-(b:V01:Space {id:'S03'}))
+WHERE all(r IN relationships(p) WHERE r.bidirectional=true)
+RETURN p;
+```
+
+已复核南侧外部→前院→前廊→堂屋→东室，仍为4次跨空间通行。不能据此直接解释社会等级或文化意义。
+
+## 存储与来源
+
+[案例模型.json](../案例模型.json)是维护主源，Neo4j是它的查询投影，不会自动把数据库编辑写回文件。节点继续采用`uid=V01:原编号`；数值、布尔值、材料标签原生保存，嵌套几何及完整来源保留为JSON字符串。原始记录保存在`sourceRecordJson`。
+
+`V01:SOURCE`为`DatasetSnapshot`，保存完整主源、规则、方法与推演记录；不加V01标签，避免混入42个案例／证据对象的统计。屋顶系统与坡面是不同层级，面积统计先限定RoofSurface；材料对象计数不等于材料面积或体积占比。
+
+当前来源SHA-256：`acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67`。
+
+## 实际核验与恢复边界
+
+- 官方MCP单事务写入：新增2节点、25关系，更新41个旧节点的来源版本／快照，删除0节点0关系。[更新回执](拓扑更新回执.json)。
+- 回读逐记录对照标签、属性值、关系类型、方向与端点，一致；8项功能查询、175项原生数值类型检查通过。[入库核验](拓扑入库核验.json)。
+- MCP的JSON可能把FLOAT值1.0显示成1，或把FLOAT数组显示成[0,7.2]。读回适配只处理表示层，数据库`valueType`单独核验；归档另外保留2388项原属性类型，回退据此重建原FLOAT/INTEGER。point.distance返回10.799999999999999，用1e-9m的算术误差核对10.8m，不作为测绘容差。
+- 已准备状态比对保护的增量及回退语句，二者EXPLAIN通过。回退未实际执行，未做并发压力测试；数据库验证不等于真实建筑识别或构造验证。
+- 独立子agent完成本地模型、算法、写入范围及回退类型复核；实际数据库独立回读也已通过，范围与修正记录见方法记录。
+- 案例浏览重生成，8张SVG及页面静态检查通过；本轮未进行浏览器交互和收藏栏验收。
+
+[同步预检](拓扑更新预检.json)保存授权、范围及哈希；[更新语句](拓扑更新.cypher)和[参数](拓扑更新参数.json)保存实际载荷。`拓扑同步.py verify`只读复查当前主源与数据库，`apply`仅适用于这次已冻结的更新；状态已一致则不重复创建；本轮实际重复调用已返回`already_applied_no_write`。不得把它当作任意新版覆盖按钮。
+
+2026-10-24的640节点、3713关系旧库仍保存在[原归档](../../../archive/2026-10-24-Neo4j旧图谱归档/README.md)。本次更新前的41节点、166关系及来源文件另存于[2026-10-26归档](../../../archive/2026-10-26-V01拓扑更新前/README.md)。本目录原“本次切换／入库核验”文件保留2026-10-24历史身份，不代表当前数量；后续使用“拓扑更新／拓扑入库核验”入口。
+
+本轮只扩展既有单体关系与访问入口，没有改变总体研究目标、阶段或研究路径图表达，核对后保留现有图源和PNG。

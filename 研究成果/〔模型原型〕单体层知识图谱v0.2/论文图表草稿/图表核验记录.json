@@ -1,0 +1,193 @@
+{
+  "date": "2026-10-22",
+  "passed": true,
+  "checks": [
+    {
+      "item": "模型定义.json",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "案例图谱.json",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "空间关系演示.json",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "优化依据.json",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "优化记录.json",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "检查图谱.py",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "迁移记录.json",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "独立验收.md",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "原文抽核记录.md",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "ZWDJJE99-PDF55.png",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "证据与阅读记录.md",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "ZWDJJE99-PDF56.png",
+      "kind": "source_hash_unchanged",
+      "passed": true
+    },
+    {
+      "item": "表1-关系定义及依据.md",
+      "kind": "local_links",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "item": "表2-查询及验证结果.md",
+      "kind": "local_links",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "item": "README.md",
+      "kind": "local_links",
+      "passed": true,
+      "missing": []
+    },
+    {
+      "item": "02-核心概念关系.drawio",
+      "kind": "xml_edge_references",
+      "passed": true
+    },
+    {
+      "item": "01-模型构建过程.drawio",
+      "kind": "xml_edge_references",
+      "passed": true
+    },
+    {
+      "item": "04-空间关系编码演示.drawio",
+      "kind": "xml_edge_references",
+      "passed": true
+    },
+    {
+      "item": "03-文献实例编码.drawio",
+      "kind": "xml_edge_references",
+      "passed": true
+    },
+    {
+      "item": "04-空间关系编码演示.png",
+      "kind": "png_integrity",
+      "passed": true,
+      "dimensions": [
+        2732,
+        1622
+      ]
+    },
+    {
+      "item": "01-模型构建过程.png",
+      "kind": "png_integrity",
+      "passed": true,
+      "dimensions": [
+        2642,
+        1322
+      ]
+    },
+    {
+      "item": "03-文献实例编码.png",
+      "kind": "png_integrity",
+      "passed": true,
+      "dimensions": [
+        2732,
+        1772
+      ]
+    },
+    {
+      "item": "02-核心概念关系.png",
+      "kind": "png_integrity",
+      "passed": true,
+      "dimensions": [
+        2642,
+        1832
+      ]
+    }
+  ],
+  "visualReview": "主agent已目视检查4张导出图；修正图2注释遮挡连线及图3原页嵌入格式后复看。原文第8行定位框正确。",
+  "limits": "XML与PNG检查不证明建筑事实；图表独立复核另记。",
+  "finalLocalLinks": {
+    "checked": 56,
+    "missing": []
+  },
+  "finalInputHashesUnchanged": true,
+  "reviewDisposition": [
+    {
+      "finding": "图4完整记录标题范围过宽",
+      "action": "已将drawio和PNG中的C区标题改为通行关系的关键字段，并目视复核。",
+      "status": "resolved_by_primary"
+    },
+    {
+      "finding": "图3正式缩印需局部放大",
+      "action": "已纳入README正式排版要求；当前交付为屏幕讨论稿，未声称完成印刷校样。",
+      "status": "documented_for_manuscript_layout"
+    }
+  ],
+  "outputs": [
+    {
+      "file": "01-模型构建过程.drawio",
+      "sha256": "a7825bb61d735da5b95254be11b58d8cf951a35aa3575613f3e5fa852bd1a92d"
+    },
+    {
+      "file": "01-模型构建过程.png",
+      "sha256": "0331fa830f15db098f31f81e1afe7deea71485739ba1bc23b907b74ac12b09eb"
+    },
+    {
+      "file": "02-核心概念关系.drawio",
+      "sha256": "e79b4c36c92be1a0ca365e54993d8b485e72fb102310d6b4cfe2559e706e96e1"
+    },
+    {
+      "file": "02-核心概念关系.png",
+      "sha256": "563a308e0250e3ce07e596385b194ad9ac3dc553d1cf496e6552879354894593"
+    },
+    {
+      "file": "03-文献实例编码.drawio",
+      "sha256": "3f1c9a5074bf57259609e81806b20ef871f918bca9ede5c1083f94f8bc0de880"
+    },
+    {
+      "file": "03-文献实例编码.png",
+      "sha256": "a789e0e7da5eda2caef1e3ec403168302b68ff928224831d4f2be2e771f9a0f4"
+    },
+    {
+      "file": "04-空间关系编码演示.drawio",
+      "sha256": "4013323d7de7205a2226db2c47e72cb872726b89381d0331f0313e354d880c66"
+    },
+    {
+      "file": "04-空间关系编码演示.png",
+      "sha256": "96bd20c86fe7e9b224a068cc9940dc1b43d980465024f96f41529694d006dab8"
+    }
+  ]
+}

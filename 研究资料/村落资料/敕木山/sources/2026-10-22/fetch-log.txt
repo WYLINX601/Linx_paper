@@ -1,0 +1,21 @@
+Retrieved locally: 2026-10-22T15:03:32+08:00
+
+w02-2026-protection-register	200	text/html; charset=utf-8	30156	https://www.jingning.gov.cn/col/col1229631018/art/2026/art_e28476d814684e38843b01cad4474107.html	研究资料/村落资料/敕木山/sources/2026-10-22/w02-2026-protection-register.html
+w09-2015-protection-range-approval	200	text/html;charset=UTF-8	26620	https://www.zj.gov.cn/art/2015/10/9/art_1229017138_63940.html	研究资料/村落资料/敕木山/sources/2026-10-22/w09-2015-protection-range-approval.html
+w01-2022-lishui-historic-residences	200	text/html; charset=utf-8	15639	https://www.lishui.gov.cn/art/2022/7/11/art_1229268129_57336308.html	研究资料/村落资料/敕木山/sources/2026-10-22/w01-2022-lishui-historic-residences.html
+r03-2019-pengpai-stubble-research	200	text/html; charset=utf-8	61550	https://www.thepaper.cn/newsDetail_forward_4891534	研究资料/村落资料/敕木山/sources/2026-10-22/r03-2019-pengpai-stubble-research.html
+r04-2026-lishui-heritage-entry	200	text/html; charset=utf-8	15616	https://www.lsnews.com.cn/news/geo/e/wl-bm-035.html	研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html
+l18-2025-journal-issue-metadata	200	text/html;charset=UTF-8	284841	https://www.ncpssd.org/journal/secure/details?params=TmFST09sNmwwNUJiL0lHNWJIRmpoYk1MTU40Z0V3dGZEUlUyK2doYnREUVFuMWVXQTJxbzl0U0dDOGs4cm9Ncg	研究资料/村落资料/敕木山/sources/2026-10-22/l18-2025-journal-issue-metadata.html
+m008-51wendang-lead	ERROR	URLError: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1082)>	https://www.51wendang.com/doc/a282ae843147d30a3c221c9c77cc3805c04b6fd0
+s02-2018-sohu-story	200	text/html;charset=UTF-8	28204	https://www.sohu.com/a/257397347_100188381	研究资料/村落资料/敕木山/sources/2026-10-22/s02-2018-sohu-story.html
+r02-2023-local-newspaper	200	text/html	40344	http://epaper.jnnews.zj.cn/html/2023-03/23/content_4685_15932222.htm	研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html
+
+2026-10-22 batch supplements (after the initial 15:03:32+08:00 retrieval log)
+m008-cnki-article-page-accessibility-capture.txt	 copied from parent-collected original CNKI page text; includes bibliographic metadata, abstract, and login/CAPTCHA state; not raw HTML
+m008-2025-城市规划-敕木山村调研-张云.pdf	 copied from user-completed Downloads file; 2-page PDF; SHA-256 f341f2cc72bffac8bb4b5d138836218ec74c09ef6b2938609f490cc30495eb9d; both pages visually inspected
+chai-2025-selected-page-extracts.txt	 extracted from existing Zotero PDF; original PDF pages 34,38,39,79,80; corresponding page images preserved in pdf-pages/
+w09-2015 CEB direct download	 prior HTTP 200 returned 70-byte HTML denial, not the CEB attachment; see w09-2015-ceb-download-response.html
+m008-cnki-article-page-accessibility-capture.txt	 copied from parent-collected original CNKI page text; includes bibliographic metadata, abstract, and login/CAPTCHA state; not raw HTML
+m008-2025-城市规划-敕木山村调研-张云.pdf	 copied from user-completed Downloads file; 2-page PDF; SHA-256 f341f2cc72bffac8bb4b5d138836218ec74c09ef6b2938609f490cc30495eb9d; both pages visually inspected
+chai-2025-selected-page-extracts.txt	 extracted from existing Zotero PDF; original PDF pages 34,38,39,79,80; corresponding page images preserved in pdf-pages/
+w09-2015 CEB direct download	 prior HTTP 200 returned 70-byte HTML denial, not the CEB attachment; see w09-2015-ceb-download-response.html

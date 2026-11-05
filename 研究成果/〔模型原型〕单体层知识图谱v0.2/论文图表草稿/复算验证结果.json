@@ -1,0 +1,1003 @@
+{
+  "ok": true,
+  "date": "2026-10-22",
+  "counts": {
+    "classes": 11,
+    "features": 30,
+    "relations": 18,
+    "methodSources": 6,
+    "methodEvidence": 28,
+    "changes": 10,
+    "literatureNodes": 14,
+    "literatureAssertions": 27,
+    "demoNodes": 7,
+    "demoAssertions": 28
+  },
+  "checks": [
+    {
+      "check": "模型依据均指向本轮证据或v0.1既有依据",
+      "passed": true
+    },
+    {
+      "check": "classes标识唯一",
+      "passed": true
+    },
+    {
+      "check": "features标识唯一",
+      "passed": true
+    },
+    {
+      "check": "relations标识唯一",
+      "passed": true
+    },
+    {
+      "check": "方法来源及证据ID唯一",
+      "passed": true
+    },
+    {
+      "check": "H04原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "H05原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "H06原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "H07原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "H09原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "H10原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "H14原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "H29原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "F06原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "F21原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "F22原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "F25原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "W11原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "W26原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "W31原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "M17原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "M31原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "M57原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "M60原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "M64原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "BOT01原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "BOT02原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "BOT03原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "BOT04原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "ISM01原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "ISM02原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "ISM03原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "ISM04原文定位完整",
+      "passed": true
+    },
+    {
+      "check": "S_H附件身份与哈希一致",
+      "passed": true
+    },
+    {
+      "check": "S_F附件身份与哈希一致",
+      "passed": true
+    },
+    {
+      "check": "S_W附件身份与哈希一致",
+      "passed": true
+    },
+    {
+      "check": "S_M附件身份与哈希一致",
+      "passed": true
+    },
+    {
+      "check": "S_BOT附件身份与哈希一致",
+      "passed": true
+    },
+    {
+      "check": "S_ISM附件身份与哈希一致",
+      "passed": true
+    },
+    {
+      "check": "O01优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O01前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O02优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O02前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O03优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O03前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O04优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O04前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O05优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O05前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O06优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O06前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O07优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O07前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O08优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O08前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O09优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O09前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "O10优化依据可解析",
+      "passed": true
+    },
+    {
+      "check": "O10前后变化及推断边界完整",
+      "passed": true
+    },
+    {
+      "check": "record_code特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "plan_form特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "enclosure_pattern特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "bay_count特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "jin_count特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "storey_count特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "space_use特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "local_space_name特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "axis_symmetry特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "roof_form特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "skyline_form特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "facade_composition特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "material特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "construction_form特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "load_bearing特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "column_bay_form特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "rear_courtyard_form特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "roof_layered特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "width特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "depth特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "height特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "area特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "decorative_motif特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "space_division_basis特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "enclosure_degree特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "floor_level特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "interface_kind特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "physical_separation特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "opening_state特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "passage_allowed特征domain存在",
+      "passed": true
+    },
+    {
+      "check": "has_space关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "has_element关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "bounds关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "adjacent_to关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "direct_access_to关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "supports关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "represented_by关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "located_in关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "record_about_place关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "has_type关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "in_scheme关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "variant_of关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "affects关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "anchored_to关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "interface_of关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "realized_by关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "intersects_space关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "similar_to关系domain/range存在",
+      "passed": true
+    },
+    {
+      "check": "文献案例语义约束：通过",
+      "passed": true
+    },
+    {
+      "check": "空间演示语义约束：通过",
+      "passed": true
+    },
+    {
+      "check": "迁移保留原事实：nodes",
+      "passed": true
+    },
+    {
+      "check": "迁移保留原事实：assertions",
+      "passed": true
+    },
+    {
+      "check": "迁移保留原事实：classifications",
+      "passed": true
+    },
+    {
+      "check": "迁移保留原事实：gaps",
+      "passed": true
+    },
+    {
+      "check": "迁移保留原事实：conflicts",
+      "passed": true
+    },
+    {
+      "check": "迁移保留原事实：limits",
+      "passed": true
+    },
+    {
+      "check": "迁移保留原事实：sources",
+      "passed": true
+    },
+    {
+      "check": "E_Z8证据只改相对图片路径",
+      "passed": true
+    },
+    {
+      "check": "E_Z1证据只改相对图片路径",
+      "passed": true
+    },
+    {
+      "check": "E_MAP证据只改相对图片路径",
+      "passed": true
+    },
+    {
+      "check": "E_PROTOTYPE证据只改相对图片路径",
+      "passed": true
+    },
+    {
+      "check": "E_COMMON证据只改相对图片路径",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：图谱预览.png",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：独立验收.md",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：验证结果.json",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：检查图谱.py",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：案例图谱.json",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：案例与查询检验.md",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：生成浏览图.py",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：模型定义.json",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：图谱浏览.html",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：建模说明.md",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：ZWDJJE99-PDF63.png",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：83W7CJW2-PDF5.png",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：ZWDJJE99-PDF55.png",
+      "passed": true
+    },
+    {
+      "check": "v0.1原文件未改：ZWDJJE99-PDF56.png",
+      "passed": true
+    },
+    {
+      "check": "CLASS_8原分类复算不变",
+      "passed": true
+    },
+    {
+      "check": "PROTO_8原分类复算不变",
+      "passed": true
+    },
+    {
+      "check": "CLASS_1原分类复算不变",
+      "passed": true
+    },
+    {
+      "check": "PROTO_1原分类复算不变",
+      "passed": true
+    },
+    {
+      "check": "错误界面不能支持堂屋至前廊通行",
+      "passed": true
+    },
+    {
+      "check": "缺少via的通行边拒绝",
+      "passed": true
+    },
+    {
+      "check": "合成演示不能冒充文献事实",
+      "passed": true
+    },
+    {
+      "check": "仅有邻接/开放/无隔断不自动生成通行",
+      "passed": true
+    },
+    {
+      "check": "缺少通行判断不默认false",
+      "passed": true
+    },
+    {
+      "check": "同情境禁止通行与肯定边冲突可检出",
+      "passed": true
+    },
+    {
+      "check": "三维锚点缺版本/区域信息拒绝",
+      "passed": true
+    },
+    {
+      "check": "分析运行缺输入/参数拒绝",
+      "passed": true
+    },
+    {
+      "check": "几何字段齐全但全为null仍拒绝",
+      "passed": true
+    },
+    {
+      "check": "空分析运行不能支持相似边",
+      "passed": true
+    },
+    {
+      "check": "新断言缺取得方法/判断者/范围/日期拒绝",
+      "passed": true
+    },
+    {
+      "check": "邻接边不能无依据改称分析相似",
+      "passed": true
+    },
+    {
+      "check": "缺少邻接证据不能回答相邻且禁止穿越",
+      "passed": true
+    },
+    {
+      "check": "争议通行记录不作为确定可通行答案",
+      "passed": true
+    },
+    {
+      "check": "有效的合成运行与肯定结果对应可接纳（不是实际分析）",
+      "passed": true
+    },
+    {
+      "check": "results含null不能支持相似边",
+      "passed": true
+    },
+    {
+      "check": "运行结果与边端点不同不能接纳",
+      "passed": true
+    },
+    {
+      "check": "不相似结果不能生成肯定相似边",
+      "passed": true
+    }
+  ],
+  "semanticGuards": [
+    {
+      "check": "错误界面不能支持堂屋至前廊通行",
+      "passed": true
+    },
+    {
+      "check": "缺少via的通行边拒绝",
+      "passed": true
+    },
+    {
+      "check": "合成演示不能冒充文献事实",
+      "passed": true
+    },
+    {
+      "check": "仅有邻接/开放/无隔断不自动生成通行",
+      "passed": true
+    },
+    {
+      "check": "缺少通行判断不默认false",
+      "passed": true
+    },
+    {
+      "check": "同情境禁止通行与肯定边冲突可检出",
+      "passed": true
+    },
+    {
+      "check": "三维锚点缺版本/区域信息拒绝",
+      "passed": true
+    },
+    {
+      "check": "分析运行缺输入/参数拒绝",
+      "passed": true
+    },
+    {
+      "check": "几何字段齐全但全为null仍拒绝",
+      "passed": true
+    },
+    {
+      "check": "空分析运行不能支持相似边",
+      "passed": true
+    },
+    {
+      "check": "新断言缺取得方法/判断者/范围/日期拒绝",
+      "passed": true
+    },
+    {
+      "check": "邻接边不能无依据改称分析相似",
+      "passed": true
+    },
+    {
+      "check": "缺少邻接证据不能回答相邻且禁止穿越",
+      "passed": true
+    },
+    {
+      "check": "争议通行记录不作为确定可通行答案",
+      "passed": true
+    },
+    {
+      "check": "有效的合成运行与肯定结果对应可接纳（不是实际分析）",
+      "passed": true
+    },
+    {
+      "check": "results含null不能支持相似边",
+      "passed": true
+    },
+    {
+      "check": "运行结果与边端点不同不能接纳",
+      "passed": true
+    },
+    {
+      "check": "不相似结果不能生成肯定相似边",
+      "passed": true
+    }
+  ],
+  "queries": [
+    {
+      "id": "Q01",
+      "question": "周湖文献案例可给出堂屋—前廊通行吗？",
+      "datasetKind": "literature_case",
+      "answer": [],
+      "interpretation": "资料未覆盖；空结果不代表建筑没有通行关系。"
+    },
+    {
+      "id": "Q02",
+      "question": "演示堂屋能直接通往哪个空间？",
+      "datasetKind": "synthetic_demo",
+      "answer": [
+        {
+          "to": "前廊（演示）",
+          "via": "堂屋—前廊开放分界",
+          "assertion": "ACCESS_HV",
+          "evidence": [
+            "E_DEMO"
+          ]
+        }
+      ],
+      "interpretation": "仅返回有明确通行断言的前廊；不由邻接推导卧室。"
+    },
+    {
+      "id": "Q03",
+      "question": "演示中相邻但不能穿越该界面的是哪一对？",
+      "datasetKind": "synthetic_demo",
+      "answer": [
+        {
+          "interface": "I_WALL",
+          "objects": [
+            "S_BED",
+            "S_HALL"
+          ],
+          "prohibitionAssertion": "PASS_WALL",
+          "adjacencyAssertions": [
+            "ADJ_HB"
+          ],
+          "endpointAssertions": [
+            "I_WALL_HALL",
+            "I_WALL_OTHER"
+          ],
+          "accessContext": {
+            "scenario": "教学示例中的正常使用时段",
+            "agent": "可独立行走的成人",
+            "mode": "普通步行"
+          },
+          "evidence": [
+            "E_DEMO"
+          ]
+        }
+      ],
+      "interpretation": "联查同一时点的邻接、界面端点与禁止通行证据。只说明指定界面不能穿越；卧室是否有其他路径未设定。"
+    },
+    {
+      "id": "Q04",
+      "question": "前廊能否同时有名称、围合程度和多个用途？",
+      "datasetKind": "synthetic_demo",
+      "answer": {
+        "local_space_name": [
+          "前廊"
+        ],
+        "enclosure_degree": [
+          "semi_open"
+        ],
+        "space_use": [
+          "交通",
+          "停留"
+        ]
+      },
+      "interpretation": "各轴分别记录；不是互斥总分类。"
+    },
+    {
+      "id": "Q05",
+      "question": "两个案例的分类判断是否改变？",
+      "datasetKind": "literature_case",
+      "answer": [
+        {
+          "id": "CLASS_8",
+          "decision": "criteria_match",
+          "criteria": [
+            "satisfied"
+          ]
+        },
+        {
+          "id": "PROTO_8",
+          "decision": "criteria_not_match",
+          "criteria": [
+            "satisfied",
+            "satisfied",
+            "not_satisfied",
+            "satisfied"
+          ]
+        },
+        {
+          "id": "CLASS_1",
+          "decision": "criteria_match",
+          "criteria": [
+            "satisfied"
+          ]
+        },
+        {
+          "id": "PROTO_1",
+          "decision": "criteria_not_match",
+          "criteria": [
+            "not_satisfied",
+            "not_satisfied",
+            "not_satisfied",
+            "unknown"
+          ]
+        }
+      ],
+      "interpretation": "沿用四项判据；未改变原有分类事实。"
+    },
+    {
+      "id": "Q06",
+      "question": "原屋面记载冲突是否保留？",
+      "datasetKind": "literature_case",
+      "answer": [
+        {
+          "id": "F_1_roof_layered",
+          "value": true,
+          "evidence": [
+            "E_Z1"
+          ],
+          "conflictingEvidence": [
+            "E_COMMON"
+          ]
+        }
+      ],
+      "interpretation": "保留原表值与冲突来源，不替作者裁决。"
+    },
+    {
+      "id": "Q07",
+      "question": "真实文献案例是否已经关联三维区域？",
+      "datasetKind": "literature_case",
+      "answer": [],
+      "interpretation": "无实际绑定；本轮只完善接口与记录约束。"
+    },
+    {
+      "id": "Q08",
+      "question": "是否已经计算民居相似或聚类？",
+      "datasetKind": "literature_case",
+      "answer": [],
+      "interpretation": "尚未运行分析；模型支持不等于分析完成。"
+    },
+    {
+      "id": "Q09",
+      "question": "两类数据的事实是否都能回到各自来源？",
+      "datasetKind": "dataset_audit",
+      "answer": {
+        "literature_case": {
+          "assertions": 27,
+          "all_resolvable": true
+        },
+        "synthetic_demo": {
+          "assertions": 28,
+          "all_resolvable": true
+        }
+      },
+      "interpretation": "演示回到场景定义，文献事实回到原文，不能互作证据。"
+    },
+    {
+      "id": "Q10",
+      "question": "十项优化是否都有依据与迁移边界？",
+      "datasetKind": "model_audit",
+      "answer": [
+        {
+          "id": "O01",
+          "basisRefs": [
+            "ISM01",
+            "ISM02",
+            "ISM03",
+            "BOT01"
+          ],
+          "status": "模型与合成示例已实现",
+          "validationBoundary": "真实民居如何划分仍需平面、现场及建筑学判断。"
+        },
+        {
+          "id": "O02",
+          "basisRefs": [
+            "BOT01",
+            "BOT03",
+            "ISM03",
+            "ISM04"
+          ],
+          "status": "模型与合成示例已实现",
+          "validationBoundary": "PseudoOpening与Interface为本研究部分对应，未宣告外部标准等价。"
+        },
+        {
+          "id": "O03",
+          "basisRefs": [
+            "BOT02",
+            "BOT03",
+            "ISM03"
+          ],
+          "status": "模型与查询规则已实现",
+          "validationBoundary": "相交关系尚无真实实例；方向、容差和时点须实际采集。"
+        },
+        {
+          "id": "O04",
+          "basisRefs": [
+            "H04",
+            "H09",
+            "H10",
+            "ISM01",
+            "ISM02"
+          ],
+          "status": "字段与合成示例已实现",
+          "validationBoundary": "不把徽州类别直接认作景宁地方分类，也不把Hall译作堂屋。"
+        },
+        {
+          "id": "O05",
+          "basisRefs": [
+            "H04",
+            "F22",
+            "M60"
+          ],
+          "status": "小词表与核对结构已实现",
+          "validationBoundary": "未开展全库词汇归并或跨文献建筑去重；Hall与堂屋禁止自动等同。"
+        },
+        {
+          "id": "O06",
+          "basisRefs": [
+            "H05",
+            "H06",
+            "H07",
+            "F06",
+            "F21",
+            "F25",
+            "M17"
+          ],
+          "status": "规则与现有案例检查已实现",
+          "validationBoundary": "a/o是该文的分类关系，不能直接照搬成OWL数据属性；未部署Neo4j/OWL。"
+        },
+        {
+          "id": "O07",
+          "basisRefs": [
+            "F22",
+            "M60",
+            "BOT03"
+          ],
+          "status": "记录与隔离已实现",
+          "validationBoundary": "本项详细追溯结构是研究者新增规则；论文未提供同样完整的追溯方案。"
+        },
+        {
+          "id": "O08",
+          "basisRefs": [
+            "W11",
+            "W26",
+            "W31"
+          ],
+          "status": "仅结构与约束已实现",
+          "validationBoundary": "未计算相似度或聚类；不迁移村落研究的15近邻和30%/70%阈值。"
+        },
+        {
+          "id": "O09",
+          "basisRefs": [
+            "BOT04",
+            "H29"
+          ],
+          "status": "仅接口与约束已实现",
+          "validationBoundary": "没有加载真实三维资产；完整区域关联是本研究设计，未被六篇直接验证。"
+        },
+        {
+          "id": "O10",
+          "basisRefs": [
+            "M31",
+            "M57",
+            "M64",
+            "BOT03",
+            "ISM03"
+          ],
+          "status": "查询与防错检验实现后记录实际结果",
+          "validationBoundary": "合成查询不等于真实样本有效性、端到端问答评估或用户研究。"
+        }
+      ],
+      "interpretation": "所有字段规则均为研究者优化；不冒充作者原本体或实证结论。"
+    }
+  ],
+  "errors": [],
+  "limits": "程序核验结构、迁移一致性和查询行为；原文抽核另记。没有田野验证、OWL一致性推理或真实三维绑定。"
+}

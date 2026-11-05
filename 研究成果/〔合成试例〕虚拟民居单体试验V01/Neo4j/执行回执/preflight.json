@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "modelSHA256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+  "payloadSHA256": "b5d4767bc9de2ba20d9bbe17ddcf449053c1ece34da5a8d179740ce9c347afb8",
+  "compilerSHA256": "dd3767e56a0614de3bfdd824b9968fe8661933884fbd731474a20964b4e7705c",
+  "beforeFingerprint": "ce72a33e4da1ddf2ea10367128d8653a837aa99cc56342464999fa536f1b731f",
+  "explainCount": 14,
+  "explainScope": "compiled without error; MCP may not expose operators",
+  "rejectedPayloads": 16
+}

@@ -1,0 +1,167 @@
+{
+  "checked_at": "2026-10-28T03:14:13.783830+00:00",
+  "scope": "Only this design delivery, its direct local links, source snapshots and updated entry targets; not a full-vault health audit.",
+  "delivered_count_excluding_this_report": 19,
+  "new_count_excluding_this_report": 17,
+  "updated_count": 2,
+  "reference_snapshot_count": 10,
+  "readback_verified_count_excluding_this_report": 19,
+  "direct_local_link_target_count": 22,
+  "readback": {
+    "outputs/论文研究Wiki设计/论文研究Wiki结构设计.md": "3b10cdb995d7f4558dca770215bb4774d6f5151e18edfe2f22432d8c83c2d0cb",
+    "outputs/论文研究Wiki设计/论文研究Wiki结构设计.html": "ead758aa31a395e459846f466cc207a33e5307598265315492232cbd3da71914",
+    "outputs/论文研究Wiki设计/技能参考与取舍.md": "e38e5621c061420a9e69116ec33ff42a3e7aee67c1dfbcfe2aef7a6e348e1745",
+    "outputs/论文研究Wiki设计/技能参考与取舍.html": "34f5d96d21d3ea5f2b520e18ed3ef66d03be3e9ff241e1032e8b503188014b26",
+    "outputs/论文研究Wiki设计/Wiki组织模型.drawio": "acd3efcbadfd28efd3f9477b20f30e88023c240353a8505d05dd39829ff461d1",
+    "outputs/论文研究Wiki设计/Wiki组织模型.png": "dff6490c08c1dfa6c32a67d7afdb994d6941e26d3ebecfb9aa07b871f26e776d",
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--docs--skills.md": "5a91cc072c31e4cdbb2f158d279edf4468540151bc52be7ab0fb2fe6bc402c0b",
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-lint--SKILL.md": "6c20611923582bcecf9a8f9b3f3e0b682395b8d2dc05306278f9b175d5e86c01",
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-dedup--SKILL.md": "8ab4f8f311394e1f606f249625898969a86758e5f940e6b9ac27696e0c134563",
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-status--SKILL.md": "5df307eef4b8b25764c6ef6b7718e385cfa3ad2a15db1aa7f40b1c69e98d192f",
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--cross-linker--SKILL.md": "13fcd523762039e0ee12489d9448daeb5a4a463ecea8bc6c4e4b8536f8dc320a",
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--tag-taxonomy--SKILL.md": "1e8938c4844cb17b0d84602f6e90142f9816daaa54b0ed923500e28d8044f0d7",
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-context-pack--SKILL.md": "23c7c372f2f39be30c80dc6345c870af72ed182d6f18b874599a57594c3dc832",
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-synthesize--SKILL.md": "93149926c1404ed455af64a1b13324bc4bb50a95c1c1344d365d7c7879d0de31",
+    "01_sources/2026-10-28-研究Wiki技能参考/agricidaniel--skills--wiki--SKILL.md": "562c92afa2ff44b3084ae5d4c2b9a3e4d09bfd20b586fc27d275c4b15cdd8662",
+    "01_sources/2026-10-28-研究Wiki技能参考/kepano--README.md": "a395f944ddce5efa92f52f5c947cec9d015e5c7448ae7f31eb41a0652c968c57",
+    "01_sources/2026-10-28-研究Wiki技能参考/manifest.json": "8d86d816e508125483e8a6e10b8cecc756233c42e57dfc537177b1b0f375b0ed",
+    "README.md": "4313a61f11913fab080d76495357cca135c4c27144eb09dfe54412f117351223",
+    "context/PROJECT_CONTEXT.md": "e000f44e918f7c8f73b531ab51d66cf3ed067fc081903c01b1b6f05429635779"
+  },
+  "links": {
+    "outputs/论文研究Wiki设计/论文研究Wiki结构设计.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "3b10cdb995d7f4558dca770215bb4774d6f5151e18edfe2f22432d8c83c2d0cb"
+    },
+    "outputs/论文研究Wiki设计/技能参考与取舍.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "e38e5621c061420a9e69116ec33ff42a3e7aee67c1dfbcfe2aef7a6e348e1745"
+    },
+    "outputs/论文研究Wiki设计/Wiki组织模型.png": {
+      "status": "verified_uploaded_target",
+      "sha256": "dff6490c08c1dfa6c32a67d7afdb994d6941e26d3ebecfb9aa07b871f26e776d"
+    },
+    "outputs/论文研究Wiki设计/Wiki组织模型.drawio": {
+      "status": "verified_uploaded_target",
+      "sha256": "acd3efcbadfd28efd3f9477b20f30e88023c240353a8505d05dd39829ff461d1"
+    },
+    "context/PROJECT_CONTEXT.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "e000f44e918f7c8f73b531ab51d66cf3ed067fc081903c01b1b6f05429635779"
+    },
+    "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md": {
+      "status": "reachable_existing_source",
+      "sha256": "cf10cadeee031fcbbc40f6eb2f21d423779d971238ebb28bb8676e0712c6d5f3"
+    },
+    "文献库/README.md": {
+      "status": "reachable_existing_source",
+      "sha256": "c1b78efcd64923e2f0cb255593f0dd53662d87bef9e80ec4998c9e7825b5c052"
+    },
+    "outputs/夏雷数据与理论追溯/README.md": {
+      "status": "reachable_existing_source",
+      "sha256": "cd8b6c3064500d99e9a4dd6559466df12335a9d4b54506b39b510f69167e7321"
+    },
+    "outputs/村落资料整理/README.md": {
+      "status": "reachable_existing_source",
+      "sha256": "c440c805b71375ca92e985bbfae0f277cc028366834823f4c0145c85c05383d4"
+    },
+    "outputs/知识图谱建模基准/BOT基准.md": {
+      "status": "reachable_existing_source",
+      "sha256": "81cf17f84c165877d24abed237823e9e34a7b8f10c6341deafeb5b51cd273294"
+    },
+    "outputs/知识图谱建模基准/本研究优化基准.md": {
+      "status": "reachable_existing_source",
+      "sha256": "91e7bed6d4322d2bf48440cf277c28d6a80dfa2bd630a61ae84bac0558e03c2b"
+    },
+    "outputs/虚拟民居单体试验V01/Neo4j/README.md": {
+      "status": "reachable_existing_source",
+      "sha256": "1ae7937208fdb444844321ec1e07b4fe417ff31ee4ee982e9334132b1b10ce48"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/manifest.json": {
+      "status": "verified_uploaded_target",
+      "sha256": "8d86d816e508125483e8a6e10b8cecc756233c42e57dfc537177b1b0f375b0ed"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-lint--SKILL.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "6c20611923582bcecf9a8f9b3f3e0b682395b8d2dc05306278f9b175d5e86c01"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-dedup--SKILL.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "8ab4f8f311394e1f606f249625898969a86758e5f940e6b9ac27696e0c134563"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-status--SKILL.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "5df307eef4b8b25764c6ef6b7718e385cfa3ad2a15db1aa7f40b1c69e98d192f"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--cross-linker--SKILL.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "13fcd523762039e0ee12489d9448daeb5a4a463ecea8bc6c4e4b8536f8dc320a"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--tag-taxonomy--SKILL.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "1e8938c4844cb17b0d84602f6e90142f9816daaa54b0ed923500e28d8044f0d7"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-synthesize--SKILL.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "93149926c1404ed455af64a1b13324bc4bb50a95c1c1344d365d7c7879d0de31"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/ar9av--.skills--wiki-context-pack--SKILL.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "23c7c372f2f39be30c80dc6345c870af72ed182d6f18b874599a57594c3dc832"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/agricidaniel--skills--wiki--SKILL.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "562c92afa2ff44b3084ae5d4c2b9a3e4d09bfd20b586fc27d275c4b15cdd8662"
+    },
+    "01_sources/2026-10-28-研究Wiki技能参考/kepano--README.md": {
+      "status": "verified_uploaded_target",
+      "sha256": "a395f944ddce5efa92f52f5c947cec9d015e5c7448ae7f31eb41a0652c968c57"
+    }
+  },
+  "entry_backups": [
+    {
+      "created_at_utc": "2026-10-28T03:13:24Z",
+      "original_path": "README.md",
+      "canonical_path": "README.md",
+      "backup_path": ".hermes-academic-backups/20261028T031324Z_d8f3782ae68c4dbe99c0c2824b781e39.bak",
+      "original_sha256": "72e036646f866b1f0a03618e2c8bb1532d35006f5605c165b98fbd06a573c533",
+      "original_size_bytes": 10512,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "4313a61f11913fab080d76495357cca135c4c27144eb09dfe54412f117351223",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-10-28T03:13:24Z",
+      "original_path": "context/PROJECT_CONTEXT.md",
+      "canonical_path": "context/PROJECT_CONTEXT.md",
+      "backup_path": ".hermes-academic-backups/20261028T031324Z_4dedcca8aab448e2842cebe61019429e.bak",
+      "original_sha256": "19a8c5c1d5b8070a73465e7c8ae2fc5ed020cdc14036bbf1406257220eb9d4df",
+      "original_size_bytes": 28400,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "e000f44e918f7c8f73b531ab51d66cf3ed067fc081903c01b1b6f05429635779",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  ],
+  "render_checks": {
+    "main_h2_count": 11,
+    "main_table_count": 8,
+    "main_anchor_errors": 0,
+    "main_horizontal_overflow": false,
+    "diagram_loaded": true,
+    "reference_h2_count": 3,
+    "reference_table_count": 1,
+    "reference_horizontal_overflow": false,
+    "visual_review": "Browser screenshots of model, directory, health table and reference overview. Diagram arrow label adjusted and re-exported."
+  },
+  "recovery_notes": [
+    "First upload stopped before creation because target parent was absent; readback confirmed target missing, then scoped directories were created.",
+    "After uploads, PNG verification download failed because local check directory was absent. Created the check directory and ran verification only; no committed files were re-uploaded."
+  ],
+  "not_done": [
+    "Full vault audit",
+    "Wiki directory migration",
+    "External framework installation",
+    "Research evidence revalidation",
+    "Zotero or Neo4j mutation"
+  ]
+}

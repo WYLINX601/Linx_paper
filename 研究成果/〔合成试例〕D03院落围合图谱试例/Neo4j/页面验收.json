@@ -1,0 +1,1103 @@
+{
+  "status": "passed",
+  "scope": "70 case/task/evidence combinations; all 42 node details and 111 relationship details; six full entries and 16 query/analysis displays; default-route non-endpoint node intersections zero; desktop screenshots inspected",
+  "htmlSHA256": "344b4b235640c95b04a2fbca14b88fca4bf2a883a209cceefe191923311772f8",
+  "combinations": {
+    "combinations": [
+      {
+        "code": "A",
+        "evidence": false,
+        "t": "all",
+        "nodes": 7,
+        "relationships": 11,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": false,
+        "t": "T01",
+        "nodes": 6,
+        "relationships": 5,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": false,
+        "t": "T02",
+        "nodes": 5,
+        "relationships": 4,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": false,
+        "t": "T03",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": false,
+        "t": "T04",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": false,
+        "t": "T05",
+        "nodes": 5,
+        "relationships": 4,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": false,
+        "t": "T06",
+        "nodes": 2,
+        "relationships": 1,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": true,
+        "t": "all",
+        "nodes": 9,
+        "relationships": 19,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": true,
+        "t": "T01",
+        "nodes": 8,
+        "relationships": 12,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": true,
+        "t": "T02",
+        "nodes": 7,
+        "relationships": 10,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": true,
+        "t": "T03",
+        "nodes": 5,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": true,
+        "t": "T04",
+        "nodes": 5,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": true,
+        "t": "T05",
+        "nodes": 7,
+        "relationships": 10,
+        "ok": true
+      },
+      {
+        "code": "A",
+        "evidence": true,
+        "t": "T06",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": false,
+        "t": "all",
+        "nodes": 7,
+        "relationships": 11,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": false,
+        "t": "T01",
+        "nodes": 6,
+        "relationships": 5,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": false,
+        "t": "T02",
+        "nodes": 5,
+        "relationships": 4,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": false,
+        "t": "T03",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": false,
+        "t": "T04",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": false,
+        "t": "T05",
+        "nodes": 5,
+        "relationships": 4,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": false,
+        "t": "T06",
+        "nodes": 2,
+        "relationships": 1,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": true,
+        "t": "all",
+        "nodes": 9,
+        "relationships": 19,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": true,
+        "t": "T01",
+        "nodes": 8,
+        "relationships": 12,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": true,
+        "t": "T02",
+        "nodes": 7,
+        "relationships": 10,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": true,
+        "t": "T03",
+        "nodes": 5,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": true,
+        "t": "T04",
+        "nodes": 5,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": true,
+        "t": "T05",
+        "nodes": 7,
+        "relationships": 10,
+        "ok": true
+      },
+      {
+        "code": "B",
+        "evidence": true,
+        "t": "T06",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": false,
+        "t": "all",
+        "nodes": 6,
+        "relationships": 9,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": false,
+        "t": "T01",
+        "nodes": 5,
+        "relationships": 4,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": false,
+        "t": "T02",
+        "nodes": 4,
+        "relationships": 3,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": false,
+        "t": "T03",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": false,
+        "t": "T04",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": false,
+        "t": "T05",
+        "nodes": 4,
+        "relationships": 3,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": false,
+        "t": "T06",
+        "nodes": 2,
+        "relationships": 1,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": true,
+        "t": "all",
+        "nodes": 8,
+        "relationships": 16,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": true,
+        "t": "T01",
+        "nodes": 7,
+        "relationships": 10,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": true,
+        "t": "T02",
+        "nodes": 6,
+        "relationships": 8,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": true,
+        "t": "T03",
+        "nodes": 5,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": true,
+        "t": "T04",
+        "nodes": 5,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": true,
+        "t": "T05",
+        "nodes": 6,
+        "relationships": 8,
+        "ok": true
+      },
+      {
+        "code": "C",
+        "evidence": true,
+        "t": "T06",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": false,
+        "t": "all",
+        "nodes": 6,
+        "relationships": 9,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": false,
+        "t": "T01",
+        "nodes": 5,
+        "relationships": 4,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": false,
+        "t": "T02",
+        "nodes": 4,
+        "relationships": 3,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": false,
+        "t": "T03",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": false,
+        "t": "T04",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": false,
+        "t": "T05",
+        "nodes": 4,
+        "relationships": 3,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": false,
+        "t": "T06",
+        "nodes": 2,
+        "relationships": 1,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": true,
+        "t": "all",
+        "nodes": 8,
+        "relationships": 16,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": true,
+        "t": "T01",
+        "nodes": 7,
+        "relationships": 10,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": true,
+        "t": "T02",
+        "nodes": 6,
+        "relationships": 8,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": true,
+        "t": "T03",
+        "nodes": 5,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": true,
+        "t": "T04",
+        "nodes": 5,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": true,
+        "t": "T05",
+        "nodes": 6,
+        "relationships": 8,
+        "ok": true
+      },
+      {
+        "code": "D",
+        "evidence": true,
+        "t": "T06",
+        "nodes": 3,
+        "relationships": 2,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": false,
+        "t": "all",
+        "nodes": 12,
+        "relationships": 27,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": false,
+        "t": "T01",
+        "nodes": 8,
+        "relationships": 7,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": false,
+        "t": "T02",
+        "nodes": 6,
+        "relationships": 6,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": false,
+        "t": "T03",
+        "nodes": 9,
+        "relationships": 8,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": false,
+        "t": "T04",
+        "nodes": 9,
+        "relationships": 13,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": false,
+        "t": "T05",
+        "nodes": 7,
+        "relationships": 7,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": false,
+        "t": "T06",
+        "nodes": 5,
+        "relationships": 4,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": true,
+        "t": "all",
+        "nodes": 14,
+        "relationships": 41,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": true,
+        "t": "T01",
+        "nodes": 10,
+        "relationships": 17,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": true,
+        "t": "T02",
+        "nodes": 7,
+        "relationships": 12,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": true,
+        "t": "T03",
+        "nodes": 10,
+        "relationships": 17,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": true,
+        "t": "T04",
+        "nodes": 10,
+        "relationships": 22,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": true,
+        "t": "T05",
+        "nodes": 9,
+        "relationships": 16,
+        "ok": true
+      },
+      {
+        "code": "E",
+        "evidence": true,
+        "t": "T06",
+        "nodes": 5,
+        "relationships": 4,
+        "ok": true
+      }
+    ],
+    "uniqueNodes": [
+      "D03V01:A-BE",
+      "D03V01:A-BN",
+      "D03V01:A-BW",
+      "D03V01:A-C01",
+      "D03V01:A-I01",
+      "D03V01:A-U01",
+      "D03V01:A-W01",
+      "D03V01:EV01",
+      "D03V01:R01",
+      "D03V01:B-BE",
+      "D03V01:B-BN",
+      "D03V01:B-BW",
+      "D03V01:B-C01",
+      "D03V01:B-I01",
+      "D03V01:B-U01",
+      "D03V01:B-W01",
+      "D03V01:C-BE",
+      "D03V01:C-BN",
+      "D03V01:C-C01",
+      "D03V01:C-I01",
+      "D03V01:C-U01",
+      "D03V01:C-W01",
+      "D03V01:D-BE",
+      "D03V01:D-BN",
+      "D03V01:D-C01",
+      "D03V01:D-I01",
+      "D03V01:D-U01",
+      "D03V01:D-W01",
+      "D03V01:E-B01",
+      "D03V01:E-B02",
+      "D03V01:E-C01",
+      "D03V01:E-C02",
+      "D03V01:E-G01",
+      "D03V01:E-I01",
+      "D03V01:E-I02",
+      "D03V01:E-I03",
+      "D03V01:E-I04",
+      "D03V01:E-P01",
+      "D03V01:E-U01",
+      "D03V01:E-W01",
+      "D03V01:EV02",
+      "D03V01:R02"
+    ],
+    "uniqueRelationships": [
+      "D03V01:A-BOUNDARY-E",
+      "D03V01:A-BOUNDARY-N",
+      "D03V01:A-BOUNDARY-S",
+      "D03V01:A-BOUNDARY-W",
+      "D03V01:A-CONTAINS-A-BE",
+      "D03V01:A-CONTAINS-A-BN",
+      "D03V01:A-CONTAINS-A-BW",
+      "D03V01:A-CONTAINS-C",
+      "D03V01:A-CONTAINS-W",
+      "D03V01:A-ENTRY-courtyard-side",
+      "D03V01:A-ENTRY-opening-host",
+      "D03V01:SRC-A-C01",
+      "D03V01:A-CLASS",
+      "D03V01:SRC-A-BE",
+      "D03V01:SRC-A-BN",
+      "D03V01:SRC-A-BW",
+      "D03V01:SRC-A-I01",
+      "D03V01:SRC-A-U01",
+      "D03V01:SRC-A-W01",
+      "D03V01:B-BOUNDARY-E",
+      "D03V01:B-BOUNDARY-N",
+      "D03V01:B-BOUNDARY-S",
+      "D03V01:B-BOUNDARY-W",
+      "D03V01:B-CONTAINS-B-BE",
+      "D03V01:B-CONTAINS-B-BN",
+      "D03V01:B-CONTAINS-B-BW",
+      "D03V01:B-CONTAINS-C",
+      "D03V01:B-CONTAINS-W",
+      "D03V01:B-ENTRY-courtyard-side",
+      "D03V01:B-ENTRY-opening-host",
+      "D03V01:SRC-B-C01",
+      "D03V01:B-CLASS",
+      "D03V01:SRC-B-BE",
+      "D03V01:SRC-B-BN",
+      "D03V01:SRC-B-BW",
+      "D03V01:SRC-B-I01",
+      "D03V01:SRC-B-U01",
+      "D03V01:SRC-B-W01",
+      "D03V01:C-BOUNDARY-E",
+      "D03V01:C-BOUNDARY-N",
+      "D03V01:C-BOUNDARY-S",
+      "D03V01:C-CONTAINS-C",
+      "D03V01:C-CONTAINS-C-BE",
+      "D03V01:C-CONTAINS-C-BN",
+      "D03V01:C-CONTAINS-W",
+      "D03V01:C-ENTRY-courtyard-side",
+      "D03V01:C-ENTRY-opening-host",
+      "D03V01:SRC-C-C01",
+      "D03V01:C-CLASS",
+      "D03V01:SRC-C-BE",
+      "D03V01:SRC-C-BN",
+      "D03V01:SRC-C-I01",
+      "D03V01:SRC-C-U01",
+      "D03V01:SRC-C-W01",
+      "D03V01:D-BOUNDARY-E",
+      "D03V01:D-BOUNDARY-N",
+      "D03V01:D-BOUNDARY-S",
+      "D03V01:D-CONTAINS-C",
+      "D03V01:D-CONTAINS-D-BE",
+      "D03V01:D-CONTAINS-D-BN",
+      "D03V01:D-CONTAINS-W",
+      "D03V01:D-ENTRY-courtyard-side",
+      "D03V01:D-ENTRY-opening-host",
+      "D03V01:SRC-D-C01",
+      "D03V01:D-CLASS",
+      "D03V01:SRC-D-BE",
+      "D03V01:SRC-D-BN",
+      "D03V01:SRC-D-I01",
+      "D03V01:SRC-D-U01",
+      "D03V01:SRC-D-W01",
+      "D03V01:ACCESS-E-C01-E-G01",
+      "D03V01:ACCESS-E-C01-E-P01",
+      "D03V01:ACCESS-E-G01-E-C01",
+      "D03V01:ACCESS-E-G01-E-C02",
+      "D03V01:ACCESS-E-P01-E-C01",
+      "D03V01:E-BOUNDARY-E-C01-E",
+      "D03V01:E-BOUNDARY-E-C01-N",
+      "D03V01:E-BOUNDARY-E-C01-S",
+      "D03V01:E-BOUNDARY-E-C02-E",
+      "D03V01:E-BOUNDARY-E-C02-N",
+      "D03V01:E-BOUNDARY-E-C02-S",
+      "D03V01:E-CONTAINS-E-B01",
+      "D03V01:E-CONTAINS-E-B02",
+      "D03V01:E-CONTAINS-E-C01",
+      "D03V01:E-CONTAINS-E-C02",
+      "D03V01:E-CONTAINS-E-G01",
+      "D03V01:E-CONTAINS-E-P01",
+      "D03V01:E-CONTAINS-E-W01",
+      "D03V01:E-I01-opening-host",
+      "D03V01:E-I01-side-a",
+      "D03V01:E-I01-side-b",
+      "D03V01:E-I02-side-a",
+      "D03V01:E-I02-side-b",
+      "D03V01:E-I03-side-a",
+      "D03V01:E-I03-side-b",
+      "D03V01:E-I04-side-a",
+      "D03V01:POS-E-C02-E-C01",
+      "D03V01:SRC-E-C01",
+      "D03V01:SRC-E-C02",
+      "D03V01:SRC-E-G01",
+      "D03V01:SRC-E-P01",
+      "D03V01:E-USES-R02",
+      "D03V01:SRC-E-B01",
+      "D03V01:SRC-E-B02",
+      "D03V01:SRC-E-I01",
+      "D03V01:SRC-E-I02",
+      "D03V01:SRC-E-I03",
+      "D03V01:SRC-E-I04",
+      "D03V01:SRC-E-U01",
+      "D03V01:SRC-E-W01",
+      "D03V01:SRC-R02"
+    ],
+    "faults": [],
+    "errors": []
+  },
+  "interactions": {
+    "nodes": [
+      "D03V01:A-BE",
+      "D03V01:A-BN",
+      "D03V01:A-BW",
+      "D03V01:A-C01",
+      "D03V01:A-I01",
+      "D03V01:A-U01",
+      "D03V01:A-W01",
+      "D03V01:EV01",
+      "D03V01:R01",
+      "D03V01:B-BE",
+      "D03V01:B-BN",
+      "D03V01:B-BW",
+      "D03V01:B-C01",
+      "D03V01:B-I01",
+      "D03V01:B-U01",
+      "D03V01:B-W01",
+      "D03V01:C-BE",
+      "D03V01:C-BN",
+      "D03V01:C-C01",
+      "D03V01:C-I01",
+      "D03V01:C-U01",
+      "D03V01:C-W01",
+      "D03V01:D-BE",
+      "D03V01:D-BN",
+      "D03V01:D-C01",
+      "D03V01:D-I01",
+      "D03V01:D-U01",
+      "D03V01:D-W01",
+      "D03V01:E-B01",
+      "D03V01:E-B02",
+      "D03V01:E-C01",
+      "D03V01:E-C02",
+      "D03V01:E-G01",
+      "D03V01:E-I01",
+      "D03V01:E-I02",
+      "D03V01:E-I03",
+      "D03V01:E-I04",
+      "D03V01:E-P01",
+      "D03V01:E-U01",
+      "D03V01:E-W01",
+      "D03V01:EV02",
+      "D03V01:R02"
+    ],
+    "relationships": [
+      "D03V01:A-BOUNDARY-E",
+      "D03V01:A-BOUNDARY-N",
+      "D03V01:A-BOUNDARY-S",
+      "D03V01:A-BOUNDARY-W",
+      "D03V01:A-CLASS",
+      "D03V01:A-CONTAINS-A-BE",
+      "D03V01:A-CONTAINS-A-BN",
+      "D03V01:A-CONTAINS-A-BW",
+      "D03V01:A-CONTAINS-C",
+      "D03V01:A-CONTAINS-W",
+      "D03V01:A-ENTRY-courtyard-side",
+      "D03V01:A-ENTRY-opening-host",
+      "D03V01:SRC-A-BE",
+      "D03V01:SRC-A-BN",
+      "D03V01:SRC-A-BW",
+      "D03V01:SRC-A-C01",
+      "D03V01:SRC-A-I01",
+      "D03V01:SRC-A-U01",
+      "D03V01:SRC-A-W01",
+      "D03V01:B-BOUNDARY-E",
+      "D03V01:B-BOUNDARY-N",
+      "D03V01:B-BOUNDARY-S",
+      "D03V01:B-BOUNDARY-W",
+      "D03V01:B-CLASS",
+      "D03V01:B-CONTAINS-B-BE",
+      "D03V01:B-CONTAINS-B-BN",
+      "D03V01:B-CONTAINS-B-BW",
+      "D03V01:B-CONTAINS-C",
+      "D03V01:B-CONTAINS-W",
+      "D03V01:B-ENTRY-courtyard-side",
+      "D03V01:B-ENTRY-opening-host",
+      "D03V01:SRC-B-BE",
+      "D03V01:SRC-B-BN",
+      "D03V01:SRC-B-BW",
+      "D03V01:SRC-B-C01",
+      "D03V01:SRC-B-I01",
+      "D03V01:SRC-B-U01",
+      "D03V01:SRC-B-W01",
+      "D03V01:C-BOUNDARY-E",
+      "D03V01:C-BOUNDARY-N",
+      "D03V01:C-BOUNDARY-S",
+      "D03V01:C-CLASS",
+      "D03V01:C-CONTAINS-C",
+      "D03V01:C-CONTAINS-C-BE",
+      "D03V01:C-CONTAINS-C-BN",
+      "D03V01:C-CONTAINS-W",
+      "D03V01:C-ENTRY-courtyard-side",
+      "D03V01:C-ENTRY-opening-host",
+      "D03V01:SRC-C-BE",
+      "D03V01:SRC-C-BN",
+      "D03V01:SRC-C-C01",
+      "D03V01:SRC-C-I01",
+      "D03V01:SRC-C-U01",
+      "D03V01:SRC-C-W01",
+      "D03V01:D-BOUNDARY-E",
+      "D03V01:D-BOUNDARY-N",
+      "D03V01:D-BOUNDARY-S",
+      "D03V01:D-CLASS",
+      "D03V01:D-CONTAINS-C",
+      "D03V01:D-CONTAINS-D-BE",
+      "D03V01:D-CONTAINS-D-BN",
+      "D03V01:D-CONTAINS-W",
+      "D03V01:D-ENTRY-courtyard-side",
+      "D03V01:D-ENTRY-opening-host",
+      "D03V01:SRC-D-BE",
+      "D03V01:SRC-D-BN",
+      "D03V01:SRC-D-C01",
+      "D03V01:SRC-D-I01",
+      "D03V01:SRC-D-U01",
+      "D03V01:SRC-D-W01",
+      "D03V01:ACCESS-E-C01-E-G01",
+      "D03V01:ACCESS-E-C01-E-P01",
+      "D03V01:ACCESS-E-G01-E-C01",
+      "D03V01:ACCESS-E-G01-E-C02",
+      "D03V01:ACCESS-E-P01-E-C01",
+      "D03V01:E-BOUNDARY-E-C01-E",
+      "D03V01:E-BOUNDARY-E-C01-N",
+      "D03V01:E-BOUNDARY-E-C01-S",
+      "D03V01:E-BOUNDARY-E-C02-E",
+      "D03V01:E-BOUNDARY-E-C02-N",
+      "D03V01:E-BOUNDARY-E-C02-S",
+      "D03V01:E-CONTAINS-E-B01",
+      "D03V01:E-CONTAINS-E-B02",
+      "D03V01:E-CONTAINS-E-C01",
+      "D03V01:E-CONTAINS-E-C02",
+      "D03V01:E-CONTAINS-E-G01",
+      "D03V01:E-CONTAINS-E-P01",
+      "D03V01:E-CONTAINS-E-W01",
+      "D03V01:E-I01-opening-host",
+      "D03V01:E-I01-side-a",
+      "D03V01:E-I01-side-b",
+      "D03V01:E-I02-side-a",
+      "D03V01:E-I02-side-b",
+      "D03V01:E-I03-side-a",
+      "D03V01:E-I03-side-b",
+      "D03V01:E-I04-side-a",
+      "D03V01:E-USES-R02",
+      "D03V01:POS-E-C02-E-C01",
+      "D03V01:SRC-E-B01",
+      "D03V01:SRC-E-B02",
+      "D03V01:SRC-E-C01",
+      "D03V01:SRC-E-C02",
+      "D03V01:SRC-E-G01",
+      "D03V01:SRC-E-I01",
+      "D03V01:SRC-E-I02",
+      "D03V01:SRC-E-I03",
+      "D03V01:SRC-E-I04",
+      "D03V01:SRC-E-P01",
+      "D03V01:SRC-E-U01",
+      "D03V01:SRC-E-W01",
+      "D03V01:SRC-R02"
+    ],
+    "fail": [],
+    "docs": [
+      {
+        "task": "T01",
+        "hasDefinition": true,
+        "hasResults": true
+      },
+      {
+        "task": "T02",
+        "hasDefinition": true,
+        "hasResults": true
+      },
+      {
+        "task": "T03",
+        "hasDefinition": true,
+        "hasResults": true
+      },
+      {
+        "task": "T04",
+        "hasDefinition": true,
+        "hasResults": true
+      },
+      {
+        "task": "T05",
+        "hasDefinition": true,
+        "hasResults": true
+      },
+      {
+        "task": "T06",
+        "hasDefinition": true,
+        "hasResults": true
+      }
+    ],
+    "queries": [
+      {
+        "query": "Q01",
+        "code": 304,
+        "result": 936
+      },
+      {
+        "query": "Q02",
+        "code": 412,
+        "result": 3123
+      },
+      {
+        "query": "Q03",
+        "code": 2408,
+        "result": 1259
+      },
+      {
+        "query": "Q04",
+        "code": 266,
+        "result": 23036
+      },
+      {
+        "query": "Q05",
+        "code": 5886,
+        "result": 3722
+      },
+      {
+        "query": "Q06",
+        "code": 6295,
+        "result": 3956
+      },
+      {
+        "query": "Q07",
+        "code": 130,
+        "result": 38
+      },
+      {
+        "query": "Q08",
+        "code": 87,
+        "result": 1012
+      },
+      {
+        "query": "Q09",
+        "code": 95,
+        "result": 7500
+      },
+      {
+        "query": "Q10",
+        "code": 238,
+        "result": 10854
+      },
+      {
+        "query": "Q11",
+        "code": 198,
+        "result": 6124
+      },
+      {
+        "query": "Q12",
+        "code": 143,
+        "result": 7992
+      },
+      {
+        "query": "Q13",
+        "code": 255,
+        "result": 2466
+      },
+      {
+        "query": "Q14",
+        "code": 257,
+        "result": 3425
+      },
+      {
+        "query": "Q15",
+        "code": 128,
+        "result": 1466
+      },
+      {
+        "query": "PY-ANALYSIS",
+        "code": 40,
+        "result": 20928
+      }
+    ],
+    "zoomed": true,
+    "errors": []
+  },
+  "notCovered": "Not live Neo4j Browser GUI or native Simple Mind Map pixel layout; no empirical validation",
+  "presentationAmendments": [
+    {
+      "id": "comment-1-boundaryRecordsJson",
+      "at": "2026-10-30T17:57:49.025673+08:00",
+      "comment": "这个是什么？",
+      "scope": "Only boundaryRecordsJson human-readable display; source template and offline page. No model or database changes.",
+      "previousHTMLSHA256": "344b4b235640c95b04a2fbca14b88fca4bf2a883a209cceefe191923311772f8",
+      "htmlSHA256": "937e80ecf0674f9bd9c3e98555aca38aed1fb4d033ac27aad42e872de84122f4",
+      "templateSHA256": "fa186c85a38bc866f3d18251996c365dfe1e1274c5e76536857db0685448c298",
+      "modelSHA256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+      "snapshotBytesUnchanged": true,
+      "localTests": {
+        "status": "passed",
+        "count": 9,
+        "tests": [
+          "four-readable-segments-and-source-values",
+          "raw-data-retained-and-collapsed",
+          "known-empty-is-not-unknown",
+          "missing-or-invalid-intervals-not-zero",
+          "malformed-json-keeps-original",
+          "empty-records-not-no-boundary",
+          "text-is-html-escaped",
+          "other-properties-identical-for-every-node-and-relation",
+          "snapshot-byte-preserved"
+        ],
+        "snapshotUnchanged": true,
+        "graphNodes": 42,
+        "graphRelationships": 111
+      },
+      "interactionChecks": {
+        "ready": true,
+        "errors": [],
+        "courts": [
+          {
+            "id": "E-C01",
+            "segments": 4,
+            "collapsed": true,
+            "rawUnchanged": true,
+            "text": "这是院落每一侧的边界说明。 记录哪一侧由建筑、院墙或开放空间界定，以及哪些部分计入实体围合。它是院落的属性，不是额外的图谱节点。\n\n北侧（N） · 有盖开放过渡\n\nE例有盖开放过渡廊（E-G01）\n\n边界状态：已知；覆盖：有盖、侧向开放\n\n实体围合区间：明确无实体围合段（不是资料缺失）\n\n东侧（E） · 建筑侧\n\nE例东侧建筑（E-B01）\n\n边界状态：已知；覆盖：无盖\n\n实体围合区间：0–6 m\n\n南侧（S） · 院墙\n\nE例南侧院墙（E-W01）\n\n边界状态：已知；覆盖：无盖\n\n实体围合区间：0–3 m、5–8 m\n\n西侧（W） · 明确开放\n\n无实体参与者（明确开放）\n\n边界状态：已知；覆盖：无盖\n\n实体围合区间：明确无实体围合段（不是资料缺失）\n\n区间从各边段折线起点累计，以米计；入口空段不计入实体围合，有顶盖也不等于实体封闭。方位按本合成例参照，坐标系：E-local-xy。这些是人工设定，不是实测。\n\n查看原始字段与坐标（JSON）",
+            "canExpand": true
+          },
+          {
+            "id": "E-C02",
+            "segments": 4,
+            "collapsed": true,
+            "rawUnchanged": true,
+            "text": "这是院落每一侧的边界说明。 记录哪一侧由建筑、院墙或开放空间界定，以及哪些部分计入实体围合。它是院落的属性，不是额外的图谱节点。\n\n北侧（N） · 建筑侧\n\nE例北侧建筑（E-B02）\n\n边界状态：已知；覆盖：无盖\n\n实体围合区间：0–8 m\n\n东侧（E） · 建筑侧\n\nE例东侧建筑（E-B01）\n\n边界状态：已知；覆盖：无盖\n\n实体围合区间：0–4 m\n\n南侧（S） · 有盖开放过渡\n\nE例有盖开放过渡廊（E-G01）\n\n边界状态：已知；覆盖：有盖、侧向开放\n\n实体围合区间：明确无实体围合段（不是资料缺失）\n\n西侧（W） · 明确开放\n\n无实体参与者（明确开放）\n\n边界状态：已知；覆盖：无盖\n\n实体围合区间：明确无实体围合段（不是资料缺失）\n\n区间从各边段折线起点累计，以米计；入口空段不计入实体围合，有顶盖也不等于实体封闭。方位按本合成例参照，坐标系：E-local-xy。这些是人工设定，不是实测。\n\n查看原始字段与坐标（JSON）",
+            "canExpand": true
+          }
+        ],
+        "views": [
+          {
+            "view": "T01",
+            "nodes": 8,
+            "results": 245
+          },
+          {
+            "view": "T02",
+            "nodes": 6,
+            "results": 440
+          },
+          {
+            "view": "T03",
+            "nodes": 9,
+            "results": 246
+          },
+          {
+            "view": "T04",
+            "nodes": 9,
+            "results": 180
+          },
+          {
+            "view": "T05",
+            "nodes": 7,
+            "results": 190
+          },
+          {
+            "view": "T06",
+            "nodes": 5,
+            "results": 388
+          }
+        ],
+        "graphNodes": 42,
+        "graphRelationships": 111,
+        "overflow": false
+      },
+      "finalRenderedDOMCheck": {
+        "ready": true,
+        "errors": [],
+        "segments": 4,
+        "rawCollapsed": true,
+        "intro": "这是院落每一侧的边界说明。 记录各段是建筑侧、院墙侧还是开放边界，以及哪些部分计入实体围合。它是院落的属性，不是额外的图谱节点。",
+        "uncoveredScope": true,
+        "overflow": false
+      },
+      "pixelReview": "Not completed: screenshot capture timed out in two browser sessions. Rendered DOM, layout overflow and interactions checked; not claiming screenshot acceptance."
+    }
+  ]
+}

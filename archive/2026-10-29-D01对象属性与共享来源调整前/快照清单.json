@@ -1,0 +1,189 @@
+{
+  "capturedAtUtc": "2026-10-29T05:56:32.440679+00:00",
+  "members": [
+    {
+      "path": "Neo4j/仅回退本例.cypher",
+      "sha256": "b1ffb3dcddb416e8e1b4d06ffb4858af39d21aadf785637f7fa111b65eeb81ea",
+      "bytes": 353
+    },
+    {
+      "path": "Neo4j/仅回退本例.cypher.provenance.json",
+      "sha256": "fb63c55554819c4abccb91277036a9647648942410fba003fe4c750e89a5d831",
+      "bytes": 549
+    },
+    {
+      "path": "Neo4j/写入回执.json",
+      "sha256": "58d414fb12cd44883b8d22d39f18840ee826f75dba040600acf011945a119a22",
+      "bytes": 157
+    },
+    {
+      "path": "Neo4j/写入回执.json.provenance.json",
+      "sha256": "24ad87a89bbc08d30ce70d432d8a57313cce7ad71392d8bc385bf5c7f2c71482",
+      "bytes": 539
+    },
+    {
+      "path": "Neo4j/审核查询.cypher",
+      "sha256": "cb5d028fb057baad1f46cc84720ea842511173d221c002b0bba7d1fcadd56ad5",
+      "bytes": 4846
+    },
+    {
+      "path": "Neo4j/审核查询.cypher.provenance.json",
+      "sha256": "5551f1cbb2eb38c9b1ebf44753147cf08e379e87c81b3dc06eb27edd9ff84970",
+      "bytes": 544
+    },
+    {
+      "path": "Neo4j/导入.cypher",
+      "sha256": "57f06e664d7d3852189cd5d7f40a46578e4df25f32eb401e55d9f3255f7026b0",
+      "bytes": 574
+    },
+    {
+      "path": "Neo4j/导入.cypher.provenance.json",
+      "sha256": "27ef4bdc30b65f0dbb71ea81a7e8c7171a9b6b9c9cac1f7500f56dd86fc997f6",
+      "bytes": 531
+    },
+    {
+      "path": "Neo4j/导入参数.json",
+      "sha256": "9abefb242694bec619ad67c6b52de8cf2e6c1289b5be39607219adaee40cb148",
+      "bytes": 25632
+    },
+    {
+      "path": "Neo4j/导入参数.json.provenance.json",
+      "sha256": "f19239ebd42953a7df747340e97e15e325d3000833cbefcac2fec8aee0d6ddeb",
+      "bytes": 541
+    },
+    {
+      "path": "Neo4j/数据库读回.json",
+      "sha256": "4147c77795cb1ace7744c9e40dd36e3b40b477e1a3f6d58aaf5636d3662405d2",
+      "bytes": 65358
+    },
+    {
+      "path": "Neo4j/数据库读回.json.provenance.json",
+      "sha256": "17a6afb93c19c9a8bd49aa0b845b0f84f7bd11af2565137ff8796a4bd63166bf",
+      "bytes": 547
+    },
+    {
+      "path": "Neo4j/查询核验.json",
+      "sha256": "c852bcf9775bc4ecfef81c69ba0af834afc964bce75077205bc4427435baba84",
+      "bytes": 1354
+    },
+    {
+      "path": "Neo4j/查询核验.json.provenance.json",
+      "sha256": "2737a32e147e4d4e94c5baffa97269537c5c477eac27766f8ee87205e2dead47",
+      "bytes": 540
+    },
+    {
+      "path": "Neo4j/查询返回.json",
+      "sha256": "ce5b859e4e399b08033215667e8d8b4c409b3e269bd5a47dc072fff059645bda",
+      "bytes": 11892
+    },
+    {
+      "path": "Neo4j/查询返回.json.provenance.json",
+      "sha256": "f23d392a05faeccc0cad59fba37c4141f7560624cde00c87d239839aa4e33b62",
+      "bytes": 541
+    },
+    {
+      "path": "Neo4j/离线视图检查.json",
+      "sha256": "56b549b72a5aa3df6bfe75d82f29b1cbc4dba147d9fdd6e923f64eddb253d631",
+      "bytes": 2176
+    },
+    {
+      "path": "Neo4j/离线视图检查.json.provenance.json",
+      "sha256": "db4eac26d4621403624ffb4638a0063a98e04f33018ac9852d0cebe7ff548236",
+      "bytes": 552
+    },
+    {
+      "path": "Neo4j/编译检查.json",
+      "sha256": "88ede46ca68d5f97c839f5206f41cb06eeac7a7703a79cd06863b2c8023e038e",
+      "bytes": 45
+    },
+    {
+      "path": "Neo4j/编译检查.json.provenance.json",
+      "sha256": "73ecd4a9522a46bbe1b5675ee976ea6623552fb6a478d9040e07263d189a6837",
+      "bytes": 538
+    },
+    {
+      "path": "Neo4j/视图查询核验.json",
+      "sha256": "d8d4be1a89365624bd8ffec2b228232f3b589fef244ec4e4dba2d11b8795c151",
+      "bytes": 25611
+    },
+    {
+      "path": "Neo4j/视图查询核验.json.provenance.json",
+      "sha256": "ca9ca87526af57bdce566a9cae364704817cdb4e367e90d356bd8e2b59a15e78",
+      "bytes": 553
+    },
+    {
+      "path": "Neo4j/逐记录核验.json",
+      "sha256": "b90d6c191c7e563a29a08693945993b5b13d91e798ab0a686f1868dbb40bc396",
+      "bytes": 458
+    },
+    {
+      "path": "Neo4j/逐记录核验.json.provenance.json",
+      "sha256": "7725268d9dd82cdeb5611480e50eac5219c6d3a5dfb2a0ae3149bb1b17081994",
+      "bytes": 545
+    },
+    {
+      "path": "README.md",
+      "sha256": "e01e0da1dfccd0aa9d8e27d6a9c2f18f036e5e2419a3e589a61c0a314e20b187",
+      "bytes": 16019
+    },
+    {
+      "path": "README.md.provenance.json",
+      "sha256": "a864c1d5f43309ed02b0e0e2c6b87c32402b313d2c35f48247111c0eae9421ee",
+      "bytes": 513
+    },
+    {
+      "path": "baseline.md",
+      "sha256": "666fcb26cfe131cd2efd9ae972f914ec6dc2e2a6bedd3ca537650ab1822e7699",
+      "bytes": 24658
+    },
+    {
+      "path": "baseline.md.provenance.json",
+      "sha256": "fcdcf688eef999ecc6e771c7c239a801b60260159da328f6bafd6b1497242c60",
+      "bytes": 533
+    },
+    {
+      "path": "bot.md",
+      "sha256": "ff356ab34e1d844c466156e48ea36b4f8eb9e7ee8a6dec21898707318ea22169",
+      "bytes": 18913
+    },
+    {
+      "path": "bot.md.provenance.json",
+      "sha256": "65838916aadb61cfcc3d7cca740ebb86f1fbe542cdd47b498844bf9a2c6d6fdb",
+      "bytes": 516
+    },
+    {
+      "path": "live-graph.json",
+      "sha256": "e0f2c32efec2e6ba2cbd1bff091b801f5cc9316d9362aa1a937f3876351d645c",
+      "bytes": 702922
+    },
+    {
+      "path": "live-manifest.json",
+      "sha256": "7cc0f509801e1ce6cd9f944a7a2992a64f6abb5df67de6be85a908e02a2170ef",
+      "bytes": 1246
+    },
+    {
+      "path": "审核视图.html",
+      "sha256": "5f2b9d072a129040c5d1b0fa42e1ddf3a71aaffccad468751a1312103cdf84d3",
+      "bytes": 66159
+    },
+    {
+      "path": "审核视图.html.provenance.json",
+      "sha256": "f472324cfcd6fe42b962dd6021f71f2fa7e45739b8ea5ed7c7188eacd97bb127",
+      "bytes": 529
+    },
+    {
+      "path": "案例模型.json",
+      "sha256": "c9ad6ffa3e60e48dea07e4a79091bd75ae123b0100ab03dcb2beeb094751c1f8",
+      "bytes": 24348
+    },
+    {
+      "path": "案例模型.json.provenance.json",
+      "sha256": "d2a73538b20361a6a637ae8f7a562d4349dd2bc934d1f21e9a5a0a30371a8670",
+      "bytes": 529
+    }
+  ],
+  "memberCount": 36,
+  "zipSha256": "07223459c62b0e507dc03900367247409fa00eb9346c247e9492d8d4f4ccf18f",
+  "allMembersVerified": true,
+  "databaseSnapshotKind": "full logical; not binary dump; restoration not rehearsed"
+}

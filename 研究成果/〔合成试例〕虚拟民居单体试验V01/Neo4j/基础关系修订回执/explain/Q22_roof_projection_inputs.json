@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (s:V01:Space),(r:V01 {uid:'V01:RF01'}) RETURN s.uid AS space,s.geometryJson AS spaceGeometry,s.overallCoverType AS overallType,s.coverStateMeaning AS coverMeaning,r.uid AS provider,r.geometryJson AS roofGeometry,s.geometryVersion AS spaceVersion,r.geometryVersion AS roofVersion ORDER BY space",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.893708+08:00"
+}

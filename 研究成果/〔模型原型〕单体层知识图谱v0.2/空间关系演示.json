@@ -1,0 +1,583 @@
+{
+  "version": "0.2",
+  "datasetKind": "synthetic_demo",
+  "status": "demonstration_only",
+  "created": "2026-10-22",
+  "scope": "堂屋—前廊—卧室的虚构教学示例；用于检查表达语义，不对应任何实际住宅、调查样本或论文原案例。",
+  "nodes": [
+    {
+      "id": "D_DEMO",
+      "label": "演示民居（虚构）",
+      "class": "Dwelling",
+      "identityStatus": "synthetic",
+      "note": "虚构演示，不计入实际样本。"
+    },
+    {
+      "id": "S_HALL",
+      "label": "堂屋（演示）",
+      "class": "Space",
+      "identityStatus": "synthetic",
+      "note": "虚构演示，不计入实际样本。",
+      "divisionScheme": "DEMO_SEMANTIC_REGIONS",
+      "boundaryBasis": "场景中按堂屋、前廊、卧室的建筑意义定义边界；无测量坐标。",
+      "boundaryStatus": "proposed"
+    },
+    {
+      "id": "S_VERANDA",
+      "label": "前廊（演示）",
+      "class": "Space",
+      "identityStatus": "synthetic",
+      "note": "虚构演示，不计入实际样本。",
+      "divisionScheme": "DEMO_SEMANTIC_REGIONS",
+      "boundaryBasis": "场景中按堂屋、前廊、卧室的建筑意义定义边界；无测量坐标。",
+      "boundaryStatus": "proposed"
+    },
+    {
+      "id": "S_BED",
+      "label": "卧室（演示）",
+      "class": "Space",
+      "identityStatus": "synthetic",
+      "note": "虚构演示，不计入实际样本。",
+      "divisionScheme": "DEMO_SEMANTIC_REGIONS",
+      "boundaryBasis": "场景中按堂屋、前廊、卧室的建筑意义定义边界；无测量坐标。",
+      "boundaryStatus": "proposed"
+    },
+    {
+      "id": "I_OPEN",
+      "label": "堂屋—前廊开放分界",
+      "class": "Interface",
+      "identityStatus": "synthetic",
+      "note": "虚构演示，不计入实际样本。"
+    },
+    {
+      "id": "I_WALL",
+      "label": "堂屋—卧室隔墙界面",
+      "class": "Interface",
+      "identityStatus": "synthetic",
+      "note": "虚构演示，不计入实际样本。"
+    },
+    {
+      "id": "E_WALL",
+      "label": "无开口墙体（演示）",
+      "class": "Element",
+      "identityStatus": "synthetic",
+      "note": "虚构演示，不计入实际样本。"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "HAS_S_HALL",
+      "subject": "D_DEMO",
+      "predicate": "has_space",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_HALL"
+    },
+    {
+      "id": "HAS_S_VERANDA",
+      "subject": "D_DEMO",
+      "predicate": "has_space",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_VERANDA"
+    },
+    {
+      "id": "HAS_S_BED",
+      "subject": "D_DEMO",
+      "predicate": "has_space",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_BED"
+    },
+    {
+      "id": "NAME_S_HALL",
+      "subject": "S_HALL",
+      "predicate": "local_space_name",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "堂屋"
+    },
+    {
+      "id": "BASIS_S_HALL",
+      "subject": "S_HALL",
+      "predicate": "space_division_basis",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "按场景中的建筑意义划分；连续开放不取消空间身份。"
+    },
+    {
+      "id": "NAME_S_VERANDA",
+      "subject": "S_VERANDA",
+      "predicate": "local_space_name",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "前廊"
+    },
+    {
+      "id": "BASIS_S_VERANDA",
+      "subject": "S_VERANDA",
+      "predicate": "space_division_basis",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "按场景中的建筑意义划分；连续开放不取消空间身份。"
+    },
+    {
+      "id": "NAME_S_BED",
+      "subject": "S_BED",
+      "predicate": "local_space_name",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "卧室"
+    },
+    {
+      "id": "BASIS_S_BED",
+      "subject": "S_BED",
+      "predicate": "space_division_basis",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "按场景中的建筑意义划分；连续开放不取消空间身份。"
+    },
+    {
+      "id": "USE_V_0",
+      "subject": "S_VERANDA",
+      "predicate": "space_use",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "交通"
+    },
+    {
+      "id": "USE_V_1",
+      "subject": "S_VERANDA",
+      "predicate": "space_use",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "停留"
+    },
+    {
+      "id": "ENC_V",
+      "subject": "S_VERANDA",
+      "predicate": "enclosure_degree",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "normalizedTerm": "TERM_SEMI_OPEN",
+      "value": "semi_open"
+    },
+    {
+      "id": "I_OPEN_HALL",
+      "subject": "I_OPEN",
+      "predicate": "interface_of",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_HALL"
+    },
+    {
+      "id": "I_OPEN_OTHER",
+      "subject": "I_OPEN",
+      "predicate": "interface_of",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_VERANDA"
+    },
+    {
+      "id": "I_WALL_HALL",
+      "subject": "I_WALL",
+      "predicate": "interface_of",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_HALL"
+    },
+    {
+      "id": "I_WALL_OTHER",
+      "subject": "I_WALL",
+      "predicate": "interface_of",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_BED"
+    },
+    {
+      "id": "KIND_OPEN",
+      "subject": "I_OPEN",
+      "predicate": "interface_kind",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "open_boundary"
+    },
+    {
+      "id": "KIND_WALL",
+      "subject": "I_WALL",
+      "predicate": "interface_kind",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "solid_boundary"
+    },
+    {
+      "id": "SEP_OPEN",
+      "subject": "I_OPEN",
+      "predicate": "physical_separation",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "none"
+    },
+    {
+      "id": "SEP_WALL",
+      "subject": "I_WALL",
+      "predicate": "physical_separation",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "full"
+    },
+    {
+      "id": "STATE_OPEN",
+      "subject": "I_OPEN",
+      "predicate": "opening_state",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "value": "open"
+    },
+    {
+      "id": "PASS_OPEN",
+      "subject": "I_OPEN",
+      "predicate": "passage_allowed",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "accessContext": {
+        "scenario": "教学示例中的正常使用时段",
+        "agent": "可独立行走的成人",
+        "mode": "普通步行"
+      },
+      "value": true
+    },
+    {
+      "id": "PASS_WALL",
+      "subject": "I_WALL",
+      "predicate": "passage_allowed",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "accessContext": {
+        "scenario": "教学示例中的正常使用时段",
+        "agent": "可独立行走的成人",
+        "mode": "普通步行"
+      },
+      "value": false
+    },
+    {
+      "id": "WALL_REALIZED",
+      "subject": "I_WALL",
+      "predicate": "realized_by",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "E_WALL"
+    },
+    {
+      "id": "ADJ_HV",
+      "subject": "S_HALL",
+      "predicate": "adjacent_to",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_VERANDA"
+    },
+    {
+      "id": "ADJ_HB",
+      "subject": "S_HALL",
+      "predicate": "adjacent_to",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "object": "S_BED"
+    },
+    {
+      "id": "ACCESS_HV",
+      "subject": "S_HALL",
+      "predicate": "direct_access_to",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "via": "I_OPEN",
+      "accessContext": {
+        "scenario": "教学示例中的正常使用时段",
+        "agent": "可独立行走的成人",
+        "mode": "普通步行"
+      },
+      "object": "S_VERANDA"
+    },
+    {
+      "id": "ACCESS_VH",
+      "subject": "S_VERANDA",
+      "predicate": "direct_access_to",
+      "evidence": [
+        "E_DEMO"
+      ],
+      "attribution": "synthetic_assumption",
+      "temporalScope": "虚构场景同一设定时点；无实际观测日期",
+      "status": "demonstration",
+      "scope": "教学示例",
+      "method": "人工设定，用于检查表达规则",
+      "recordedAt": "2026-10-22",
+      "observer": "本轮建模者",
+      "via": "I_OPEN",
+      "accessContext": {
+        "scenario": "教学示例中的正常使用时段",
+        "agent": "可独立行走的成人",
+        "mode": "普通步行"
+      },
+      "object": "S_HALL"
+    }
+  ],
+  "classifications": [],
+  "gaps": [
+    {
+      "subject": "D_DEMO",
+      "predicate": "anchored_to",
+      "status": "unknown",
+      "note": "没有三维资产，仅演示空间语义。"
+    },
+    {
+      "subject": "S_BED",
+      "predicate": "other_access_routes",
+      "status": "unknown",
+      "note": "未设定卧室其他开口或绕行路线，不由本例推断卧室完全不可达。"
+    }
+  ],
+  "conflicts": [],
+  "limits": [
+    "示例仅测试结构和查询行为，不证明实地边界合理或方法有效。",
+    "没有真实尺寸、坐标、三维模型、文化事实或房间全网络。"
+  ],
+  "sources": [
+    {
+      "id": "S_DEMO",
+      "title": "研究者构造的堂屋—前廊教学示例",
+      "sourceKind": "synthetic_scenario",
+      "author": "本轮建模者",
+      "year": 2026,
+      "note": "承接用户提出的连续空间讨论；前廊与卧室的隔墙对照为本轮新增假设。"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E_DEMO",
+      "source": "S_DEMO",
+      "pdfPages": [],
+      "printedPages": [],
+      "locator": "本文件scenarioDefinition",
+      "summary": "为演示明确设定：堂屋与前廊分为两个空间，共享开放分界、无实体隔断；正常步行双向通行。堂屋与卧室在另一界面相邻，该界面为无开口实体墙，不允许穿越该界面。其他路径和尺寸未设定。",
+      "attribution": "synthetic_assumption",
+      "visualChecked": false
+    }
+  ],
+  "scenarioDefinition": "E_DEMO仅支持合成示例内部设定，不是建筑调查证据。"
+}

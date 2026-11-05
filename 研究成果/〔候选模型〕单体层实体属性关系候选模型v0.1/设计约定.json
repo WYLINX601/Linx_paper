@@ -1,0 +1,859 @@
+{
+  "version": "0.1-candidate",
+  "status": "候选模型设计；不迁移数据库",
+  "entities": [
+    {
+      "id": "Dwelling",
+      "label": "民居研究单元",
+      "definition": "本轮单体分析的对象边界。可含明确归属的主屋、附属体与庭院；不以同姓、同一院落或同一照片自动合并独立住宅。",
+      "action": "沿用",
+      "tier": "core",
+      "basisRefs": [
+        "NQD9DRI3:E2",
+        "26QUPIXE:E3"
+      ],
+      "sourceItems": [
+        "A01",
+        "B101"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "Space",
+      "label": "空间单元",
+      "definition": "按可说明的建筑意义、用途、位置、围合或分析需要划定的空间区域；边界可以是实体界面，也可以是明确记录的语义分界。连续开放的堂屋与前廊可为两个空间，但须记录分界依据。空间区域不等于墙、门等实体构件。",
+      "action": "沿用",
+      "tier": "core",
+      "basisRefs": [
+        "NQD9DRI3:E7",
+        "NQD9DRI3:E11",
+        "92HEGM9S:E3",
+        "BOT01",
+        "ISM01",
+        "ISM02",
+        "ISM03"
+      ],
+      "sourceItems": [
+        "B201",
+        "B202",
+        "B203",
+        "B301"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "Element",
+      "label": "建筑实体部分",
+      "definition": "可独立指认的体量、构造系统、构架或构件。用elementLevel与elementKind区分；主屋/附属屋独立栋身份由Building承担；体量不自动等于单栋。",
+      "action": "沿用",
+      "tier": "core",
+      "basisRefs": [
+        "26QUPIXE:E4",
+        "83W7CJW2:E3",
+        "NQD9DRI3:E14"
+      ],
+      "sourceItems": [
+        "B101",
+        "B501",
+        "B503",
+        "B601"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "Representation",
+      "label": "图纸或调查记录",
+      "definition": "文献中的平面、剖面侧样、照片或表格记录。它是建筑的表述，不是建筑本身；无法确认建筑对应时仍可记录表内特征。",
+      "action": "沿用",
+      "tier": "core",
+      "basisRefs": [
+        "83W7CJW2:E2",
+        "ZWDJJE99:E5"
+      ],
+      "sourceItems": [
+        "A02",
+        "A04",
+        "B406",
+        "B410"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "Place",
+      "label": "地点或外部空间",
+      "definition": "村落、地块、道路等外部接口，仅保存定位和解释单体所需关系。",
+      "action": "沿用",
+      "tier": "interface",
+      "basisRefs": [
+        "V5RJB5WJ:E1",
+        "6TEACH2F:E2"
+      ],
+      "sourceItems": [
+        "B801",
+        "B802",
+        "B809"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "TypeScheme",
+      "label": "分类体系",
+      "definition": "带来源、研究区域、分类维度与版本的一套判据；不同文献中的同名类型不默认同义。",
+      "action": "沿用",
+      "tier": "core",
+      "basisRefs": [
+        "AR5L935U:E5",
+        "NQD9DRI3:E3",
+        "83W7CJW2:E4"
+      ],
+      "sourceItems": [
+        "A06",
+        "C03"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "TypeConcept",
+      "label": "类型概念",
+      "definition": "某一体系内的类别或作者推辨原型；标明普通类别/原型，不把原型视为历史上实存的母体建筑。",
+      "action": "沿用",
+      "tier": "core",
+      "basisRefs": [
+        "26QUPIXE:E3",
+        "83W7CJW2:E4"
+      ],
+      "sourceItems": [
+        "B403",
+        "B502",
+        "C03",
+        "C04"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "ChangeEvent",
+      "label": "变化事件",
+      "definition": "有时间或前后状态证据支持的加建、减建、用途改变等事件；类型图的变形操作不能直接生成历史事件。",
+      "action": "沿用",
+      "tier": "extension",
+      "basisRefs": [
+        "92HEGM9S:E6",
+        "V5RJB5WJ:E2"
+      ],
+      "sourceItems": [
+        "A03",
+        "B701",
+        "B702",
+        "B703"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "GeometryRegion",
+      "label": "三维或二维区域锚点",
+      "definition": "绑定模型、照片或图纸文件版本的二维/三维区域锚点；含坐标系、区域选择器、映射方法、覆盖与状态。这里只规定接口，不代表已有实际几何绑定。",
+      "action": "沿用",
+      "tier": "extension",
+      "basisRefs": [
+        "BOT04",
+        "H29"
+      ],
+      "sourceItems": [
+        "A02",
+        "B102",
+        "B406"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "Interface",
+      "label": "空间或构件界面",
+      "definition": "指定空间/构件在至少一方边界上的关联部位，用于描述分界、接触或连接。通行连接口是本地界面的一种用途；界面与门墙实体分开。",
+      "action": "沿用",
+      "tier": "core",
+      "basisRefs": [
+        "BOT01",
+        "BOT03",
+        "ISM03",
+        "ISM04"
+      ],
+      "sourceItems": [
+        "B301",
+        "B302",
+        "B408",
+        "B508"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "AnalysisRun",
+      "label": "分析运行记录",
+      "definition": "一次分析任务的输入范围、方法版本、参数、缺失处理与结果；定义存在不代表已运行。",
+      "action": "沿用",
+      "tier": "extension",
+      "basisRefs": [
+        "W11",
+        "W26",
+        "W31"
+      ],
+      "sourceItems": [
+        "C03",
+        "C05",
+        "C06",
+        "C07"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "Building",
+      "label": "单栋建筑",
+      "definition": "可独立指认的物理建筑；与包含主屋、附属屋和庭院的民居研究单元分开。连建或后加体是否独立成栋，须保留划分依据，不能仅凭屋顶数量判栋。",
+      "action": "新增候选",
+      "tier": "core",
+      "sourceItems": [
+        "A01",
+        "B101",
+        "B110"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "Surface",
+      "label": "可观察表面区域",
+      "definition": "墙、屋面、铺地等实体上有明确范围的实际表面，用于饰面、色彩与纹理记录；不是墙体本身，也不是一幅立面投影图。资料不足时只保留所属构件上的范围限定记录，不强制建表面节点。",
+      "action": "新增候选",
+      "tier": "conditional",
+      "sourceItems": [
+        "B602",
+        "B605",
+        "B606",
+        "B616",
+        "B620"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "ReferenceFrame",
+      "label": "空间参照框架",
+      "definition": "测量或相对关系使用的基准组合，记录原点/标高零点、坐标或朝向、轴线与适用范围；测点可为观测中的点位选择器，不一律建实体。",
+      "action": "新增候选",
+      "tier": "conditional",
+      "sourceItems": [
+        "A06",
+        "B107",
+        "B401",
+        "B402",
+        "B407",
+        "B801"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    },
+    {
+      "id": "ActorGroup",
+      "label": "匿名使用群体",
+      "definition": "仅在共享、家庭或活动分析需要跨记录对应时，为户或使用群体建立匿名稳定标识；不记录无关个人身份，不由户数推断家庭结构。",
+      "action": "新增候选",
+      "tier": "conditional",
+      "sourceItems": [
+        "B208",
+        "B804",
+        "B805",
+        "B806"
+      ],
+      "identityRule": "稳定ID + 研究单元/资料命名空间；同名不合并，不同来源确认同一对象后建立对齐记录。",
+      "collectionGate": "有明确对象边界和资料依据时建实例；候选定义不要求每个样本都有该实体。",
+      "notEquivalent": "概念类不等于实例，不等于类型判断结果或图中属性值节点。",
+      "attributesPolicy": "身份元数据置对象记录；建筑观测值使用Assertion及来源、时点、范围；不要用当前值覆盖历史或争议记录。"
+    }
+  ],
+  "elementProfiles": [
+    {
+      "id": "volume",
+      "label": "体量",
+      "elementLevel": "volume",
+      "sourceItems": [
+        "B101",
+        "B402"
+      ]
+    },
+    {
+      "id": "system",
+      "label": "构造系统",
+      "elementLevel": "system",
+      "sourceItems": [
+        "B501"
+      ]
+    },
+    {
+      "id": "frame",
+      "label": "构架单元",
+      "elementLevel": "frame",
+      "sourceItems": [
+        "B502",
+        "B503",
+        "B507"
+      ]
+    },
+    {
+      "id": "roof",
+      "label": "屋顶/屋面系统",
+      "elementLevel": "system",
+      "sourceItems": [
+        "B403",
+        "B405",
+        "B601"
+      ]
+    },
+    {
+      "id": "wall",
+      "label": "墙段",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B506",
+        "B604",
+        "B619"
+      ]
+    },
+    {
+      "id": "door",
+      "label": "门框门扇/门组",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B610",
+        "B611",
+        "B615"
+      ]
+    },
+    {
+      "id": "window",
+      "label": "窗框窗扇/窗组",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B612",
+        "B613"
+      ]
+    },
+    {
+      "id": "column",
+      "label": "柱",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B503",
+        "B505"
+      ]
+    },
+    {
+      "id": "beam",
+      "label": "梁枋",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B503",
+        "B505"
+      ]
+    },
+    {
+      "id": "base",
+      "label": "台基/基础",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B510",
+        "B607",
+        "B608"
+      ]
+    },
+    {
+      "id": "stair",
+      "label": "台阶/楼梯",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B304",
+        "B609"
+      ]
+    },
+    {
+      "id": "railing",
+      "label": "护栏",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B614"
+      ]
+    },
+    {
+      "id": "paving",
+      "label": "铺地构造",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B616"
+      ]
+    },
+    {
+      "id": "decoration",
+      "label": "装饰构件",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B603",
+        "B617"
+      ]
+    },
+    {
+      "id": "facility",
+      "label": "灶、烟囱及其他设施",
+      "elementLevel": "component",
+      "sourceItems": [
+        "B206",
+        "B618"
+      ]
+    }
+  ],
+  "sharedFields": [
+    {
+      "id": "F_localName",
+      "label": "原词/地方名称",
+      "domain": [
+        "Space",
+        "Element",
+        "Surface",
+        "Building"
+      ],
+      "datatype": "string",
+      "unit": "不适用",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "保持来源原词；标准词映射单独记录",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "A06",
+        "B202"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_width",
+      "label": "宽度测值",
+      "domain": [
+        "Building",
+        "Space",
+        "Element",
+        "Surface",
+        "Interface"
+      ],
+      "datatype": "number",
+      "unit": "m",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "必选measurementKind=净宽/轴线面宽/外轮廓宽/洞口宽/构件宽；起止边界与方向必填，不同口径不合并统计",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B109",
+        "B204",
+        "B408",
+        "B507",
+        "B610",
+        "B612"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_depth",
+      "label": "进深测值",
+      "domain": [
+        "Building",
+        "Space",
+        "Element"
+      ],
+      "datatype": "number",
+      "unit": "m",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "必选measurementKind=净进深/轴线进深/外轮廓进深；记录起止边界和方向",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B109",
+        "B204",
+        "B507"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_height",
+      "label": "高度差测值",
+      "domain": [
+        "Building",
+        "Space",
+        "Element",
+        "Surface",
+        "Interface"
+      ],
+      "datatype": "number",
+      "unit": "m",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "起止点必填；必选净高/檐口相对高度/总高/台基高/台阶高/墙段高/洞口高；不是绝对标高",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B401",
+        "B607",
+        "B609",
+        "B619"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_elevation",
+      "label": "测点标高",
+      "domain": [
+        "Building",
+        "Space",
+        "Element",
+        "Surface",
+        "Interface"
+      ],
+      "datatype": "number",
+      "unit": "m",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "pointRole=地坪/檐口/屋脊/地面/其他，点位选择器和ReferenceFrame必填；同基准才可求差",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B401",
+        "B402",
+        "B405",
+        "B407",
+        "B409",
+        "B801"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_area",
+      "label": "面积测值",
+      "domain": [
+        "Building",
+        "Space",
+        "Element",
+        "Surface",
+        "Interface"
+      ],
+      "datatype": "number",
+      "unit": "m²",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "areaKind=基底/建筑/净使用/表面/正投影/洞口正投影，区域边界和计入排除项必填；分母另明确",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B109",
+        "B204",
+        "B211",
+        "B408"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_material",
+      "label": "部位材料描述",
+      "domain": [
+        "Element",
+        "Surface"
+      ],
+      "datatype": "string",
+      "unit": "不适用",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "区分基体/饰面/连接材料，记录实际部位及层次；多材料用多记录，不上推全栋",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B511",
+        "B601",
+        "B604",
+        "B605",
+        "B608",
+        "B609",
+        "B611",
+        "B613",
+        "B614",
+        "B615",
+        "B616"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_color",
+      "label": "部位颜色观察",
+      "domain": [
+        "Element",
+        "Surface"
+      ],
+      "datatype": "string",
+      "unit": "不适用",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "定性原词及照片条件；仪器色值另立F_instrumentColor，普通照片不作标准色值",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B602",
+        "B606",
+        "B608",
+        "B611",
+        "B613",
+        "B616",
+        "B617"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_use",
+      "label": "空间用途",
+      "domain": [
+        "Space"
+      ],
+      "datatype": "string",
+      "unit": "不适用",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "允许多用途与时段；记录活动和依据；无用途记录不等于闲置",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B203",
+        "B205",
+        "B207",
+        "B208",
+        "B209",
+        "B210",
+        "B702"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_condition",
+      "label": "保存/使用状态",
+      "domain": [
+        "Building",
+        "Space",
+        "Element",
+        "Surface"
+      ],
+      "datatype": "string",
+      "unit": "不适用",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "conditionDimension=使用/保存/可辨识，分开填写，保留时点/证据；未知不等于损坏或闲置",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B209",
+        "B704"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_formDescription",
+      "label": "形态观察描述",
+      "domain": [
+        "Building",
+        "Space",
+        "Element",
+        "Surface",
+        "Interface"
+      ],
+      "datatype": "string",
+      "unit": "不适用",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "记录轮廓/构成/做法原始描述；来源类型词另注明归属，研究者分类走Classification",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B102",
+        "B403",
+        "B406",
+        "B603",
+        "B607",
+        "B609",
+        "B610",
+        "B612",
+        "B614",
+        "B615"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    },
+    {
+      "id": "F_orientation",
+      "label": "方向或朝向",
+      "domain": [
+        "Building",
+        "Space",
+        "Element",
+        "Surface",
+        "Interface"
+      ],
+      "datatype": "number|string",
+      "unit": "degree或原词",
+      "cardinality": "每条观测单值；同对象可有多条时点/口径记录",
+      "definition": "数值为相对声明北向的方位角；前后左右原词必须关联参照对象与ReferenceFrame，不作直接数值比较",
+      "allowedValues": "按定义中的口径枚举；开放原词保存原文",
+      "collection": "按对应源条目采集图纸/现场/照片/访谈，记录方法与定位",
+      "missing": "unknown/not_observed/not_applicable/conflicting分别记录；confirmed_absent须否定证据",
+      "storage": "Assertion.value；量值附单位、口径、范围、来源、时点与方法，不直接覆盖实体",
+      "sourceItems": [
+        "B106",
+        "B108",
+        "B408",
+        "B612",
+        "B801"
+      ],
+      "status": "候选，待试采",
+      "origin": "研究者合并设计"
+    }
+  ],
+  "principles": [
+    "原框架100条为来源与用途，不等于100个类或必采字段。实体定义与个案身份分开。",
+    "研究单位Dwelling、物理单栋Building、可解释的体量Element:volume分开；独栋情形仍可关联同一研究单位，不按名称自动合并。",
+    "Element仅作共享基类；profiles是可重用形态/构造层级与种类，不创建同物异名重复节点。屋顶、系统、构件的实例细化按实际资料。",
+    "孔洞/开放分界用Interface，框扇等实体用Element；同一门窗不得用一个节点混写通行界面与实体构件。",
+    "新增Surface是实际表面；立面轮廓/投影范围用Representation与GeometryRegion记录，不把图纸或投影面积当物理表面面积。",
+    "原型/类型用TypeConcept+TypeScheme，建筑实例通过Classification判定；作者称谓与研究者派生分类分开。",
+    "共享字段优先复用；但measurementKind/边界/时点不同不能无条件汇总；分析结果不覆盖观测。",
+    "营造规则、访谈、活动可用Assertion记录profile；仅多方关系必须独立引用时再另立记录实体，禁止将每个名词都变实体。",
+    "资料与字段未知必须保留；允许暂缓与不适用，核心不是全量必采。"
+  ],
+  "oldModelKeys": {
+    "classes": [
+      "Dwelling",
+      "Space",
+      "Element",
+      "Representation",
+      "Place",
+      "TypeScheme",
+      "TypeConcept",
+      "ChangeEvent",
+      "GeometryRegion",
+      "Interface",
+      "AnalysisRun"
+    ],
+    "features": [
+      "record_code",
+      "plan_form",
+      "enclosure_pattern",
+      "bay_count",
+      "jin_count",
+      "storey_count",
+      "space_use",
+      "local_space_name",
+      "axis_symmetry",
+      "roof_form",
+      "skyline_form",
+      "facade_composition",
+      "material",
+      "construction_form",
+      "load_bearing",
+      "column_bay_form",
+      "rear_courtyard_form",
+      "roof_layered",
+      "width",
+      "depth",
+      "height",
+      "area",
+      "decorative_motif",
+      "space_division_basis",
+      "enclosure_degree",
+      "floor_level",
+      "interface_kind",
+      "physical_separation",
+      "opening_state",
+      "passage_allowed"
+    ],
+    "relations": [
+      "has_space",
+      "has_element",
+      "bounds",
+      "adjacent_to",
+      "direct_access_to",
+      "supports",
+      "represented_by",
+      "located_in",
+      "record_about_place",
+      "has_type",
+      "in_scheme",
+      "variant_of",
+      "affects",
+      "anchored_to",
+      "interface_of",
+      "realized_by",
+      "intersects_space",
+      "similar_to"
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+{
+  "structure": {
+    "chapters": 6,
+    "sections": 35,
+    "adoptions": 63,
+    "topics": 8,
+    "roles": 6,
+    "route_nodes": 8,
+    "artifact_packages": 20,
+    "artifact_relations": 59
+  },
+  "integrity": {
+    "tracked_files_verified": 1079,
+    "unchanged_bytes": 919,
+    "published_files_verified": 162,
+    "relocated_files": 328,
+    "topic_directories": 8,
+    "topic_main_documents": 8,
+    "artifact_directories": 20,
+    "obsolete_directories_remaining": 0,
+    "actual_topics": [
+      "〔体系设计〕多尺度语义模型与建模依据",
+      "〔体系设计〕风貌特征筛选与数据记录",
+      "〔检验与评价〕合成试建与规则检验",
+      "〔检验与评价〕案例查询风貌比较与有效性",
+      "〔理论与文献依据〕畲族民居研究现状与研究缺口",
+      "〔研究方法〕三维资料质量与空间区域关联",
+      "〔研究方法〕类型识别与语义关系表达",
+      "〔研究界定〕研究对象与样本边界"
+    ],
+    "actual_artifacts": [
+      "〔修订记录〕畲族建筑风貌综述修订",
+      "〔候选框架〕建筑单体研究内容框架v0.1",
+      "〔候选框架〕建筑风貌知识图谱基础框架",
+      "〔候选模型〕单体层实体属性关系候选模型v0.1",
+      "〔分析框架〕风貌分析拆解",
+      "〔合成试例〕D01图谱表达试例",
+      "〔合成试例〕虚拟民居单体试验V01",
+      "〔审阅记录〕畲族建筑风貌综述审阅",
+      "〔展示材料〕研究对象候选导师浏览版",
+      "〔建模依据〕知识图谱建模基准",
+      "〔技术路线〕三维建模技术路线",
+      "〔文献对照〕风貌分析目标文献对照",
+      "〔文献拆解〕传统民居类型与形态拆解",
+      "〔方法衔接〕建筑单体框架-本体与分析衔接v0.1",
+      "〔模型原型〕单体层知识图谱v0.1",
+      "〔模型原型〕单体层知识图谱v0.2",
+      "〔特征归纳〕景宁畲族传统民居建筑特征",
+      "〔研究路线〕论文研究路径",
+      "〔类型图谱〕建筑空间界面与构成关系类型图谱",
+      "〔讨论图示〕思维导图"
+    ]
+  },
+  "tests": {
+    "test_research_structure.py": {
+      "run": 21,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    },
+    "test_wiki_health.py": {
+      "run": 20,
+      "failures": 0,
+      "errors": 0,
+      "passed": true
+    }
+  },
+  "native_maps": {
+    "count": 62,
+    "passed": 62,
+    "payloads_unchanged": true
+  },
+  "rendering": {
+    "mermaid_graphs_rendered": 8,
+    "mermaid_errors": 0,
+    "reviewed": "浏览器实际渲染；抽查大纲与角色命名清单。不是全部原生导图像素验收。"
+  },
+  "obsidian_verification": "已用vault_list读取主题研究、研究成果及三维主题目录；与磁盘新名称一致",
+  "new_structural_errors": 0,
+  "existing_structural_errors": 18,
+  "health_counts": {
+    "error": 18,
+    "info": 17,
+    "review": 172
+  },
+  "health_issue_codes": {
+    "LINK_MISSING": 18,
+    "BASELINE_UNKNOWN": 17,
+    "DEPENDENCY_CHANGED": 59,
+    "SOURCE_RESOURCE": 113
+  },
+  "subagent": "gpt-6.1-sol-med不受当前ChatGPT/Codex账户支持；两项尝试均未修改文件；主会话执行",
+  "scope": "工作大纲与角色命名实施；未重写旧正文结论或进行新的实证",
+  "final_scan_file_count": 1217
+}

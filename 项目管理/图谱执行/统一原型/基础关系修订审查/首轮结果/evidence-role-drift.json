@@ -1,0 +1,160 @@
+{
+  "count": 31,
+  "changes": [
+    {
+      "id": "R030",
+      "before": "legacy-synthetic-passage-assertion",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "R034",
+      "before": "legacy-synthetic-passage-assertion",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "R038",
+      "before": "legacy-synthetic-passage-assertion",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "R041",
+      "before": "legacy-synthetic-passage-assertion",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "R045",
+      "before": "legacy-synthetic-passage-assertion",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "R058",
+      "before": "geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W01-W03",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W01-W06",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W01-W08",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W02-W03",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W02-W07",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W02-W09",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W03-W04",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W03-W05",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W04-W06",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W05-W07",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W08-W10",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WJ-W09-W10",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WC-W01-C01",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WC-W02-C04",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WC-W08-C01",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "WC-W09-C04",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-PART-RS01",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-DOC-EV01-RS01",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-DOC-EV07-RS01",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-DOC-EV08-RS01",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-PART-RS02",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-DOC-EV01-RS02",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-DOC-EV07-RS02",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-DOC-EV08-RS02",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    },
+    {
+      "id": "RS-RS01-RS02",
+      "before": "synthetic_geometry_derived",
+      "after": "synthetic_assignment"
+    }
+  ]
+}

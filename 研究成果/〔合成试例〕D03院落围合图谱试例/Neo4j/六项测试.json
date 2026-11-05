@@ -1,0 +1,307 @@
+{
+  "status": "passed",
+  "count": 60,
+  "tests": [
+    {
+      "id": "positive-six-items-and-known-results",
+      "passed": true,
+      "kind": "local-projection-only"
+    },
+    {
+      "id": "area-geometryComplete",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "area-unit",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "area-level",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "area-coordinateFrame",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "area-geometryBasis",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "area-geometryVersion",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "zero-area",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "self-intersection",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "not-closed",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "outside-denominator",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "area-overlap-union-not-sum",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "geometry-source-field-missing",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "source-version-changed",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "source-locator-changed",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "unknown-side-stops",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "covered-not-solid",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "opening-not-deducted",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "overlap-solid-intervals",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "participant-mismatch",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "duplicate-boundary",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "entry-startChainageM",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "entry-endChainageM",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "entry-correspondence",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "entry-referenceGeometryVersion",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "entry-unit",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "entry-missing-role",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "bent-line-chainage-not-chord-midpoint",
+      "passed": true,
+      "kind": "local-geometry-primitive"
+    },
+    {
+      "id": "bent-entry-full-analysis-chain",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "entry-other-side-not-touching",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "known-building-participant-required",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-contextId-other",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-actor-empty",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-actor-another-actor",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-doorState-empty",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-obstacleState-empty",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-observationTime-empty",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-observationTime-different-snapshot",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-state-unknown",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-viaUid-D03V01:E-I04",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-sourceVersion-wrong",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-analysisRuleVersion-wrong",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-analysisRuleUid-wrong",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "passage-sourceModelSha256-wrong",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "wrong-access-endpoint",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "use-useScope",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "use-useEvidenceRole",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "use-useState",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "use-useValues",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "use-missing-source-field",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "use-explicit-none",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "use-not-applicable",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "wrong-rule-definition",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "wrong-rule-version",
+      "passed": true,
+      "kind": "local-parameter-only"
+    },
+    {
+      "id": "compiler-entry-host",
+      "passed": true,
+      "kind": "local-source-rejection"
+    },
+    {
+      "id": "compiler-duplicate-use",
+      "passed": true,
+      "kind": "local-source-rejection"
+    },
+    {
+      "id": "compiler-wrong-pass-via",
+      "passed": true,
+      "kind": "local-source-rejection"
+    },
+    {
+      "id": "compiler-wrong-geometry-xy",
+      "passed": true,
+      "kind": "local-source-rejection"
+    },
+    {
+      "id": "A-D-original-inputs-preserved",
+      "passed": true,
+      "kind": "source-equality"
+    },
+    {
+      "id": "zero-hop-undeclared-context-rejected",
+      "passed": true,
+      "kind": "analysis-request"
+    }
+  ],
+  "scope": "local synthetic/projection and parameter-only; database guards are separately executed"
+}

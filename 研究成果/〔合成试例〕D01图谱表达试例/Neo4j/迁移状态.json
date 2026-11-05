@@ -1,0 +1,23 @@
+{
+  "oldSourceSha256": "c9ad6ffa3e60e48dea07e4a79091bd75ae123b0100ab03dcb2beeb094751c1f8",
+  "newSourceSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+  "oldFullGraphFingerprint": "7e2e1149a09f6c6875650afc7a61e23719ea2b41818ac6f5dc23743e3b5b9938",
+  "events": [
+    {
+      "phase": "prepared_before_source_publication",
+      "atUtc": "2026-10-29T06:09:45.927532+00:00"
+    },
+    {
+      "phase": "source_published_before_db_request",
+      "atUtc": "2026-10-29T06:09:46.172619+00:00"
+    },
+    {
+      "phase": "verified_complete",
+      "atUtc": "2026-10-29T06:09:47.038782+00:00",
+      "newFullGraphFingerprint": "a3a71d625cf347048743202ca631ce5e98c61c2dfe41a303f58b720da2beaa89",
+      "originalGraphUnchanged": true
+    }
+  ],
+  "scope": "Paper与Neo4j不是同一事务；阶段日志及受保护补偿负责恢复，不宣称跨存储原子性",
+  "phase": "verified_complete"
+}

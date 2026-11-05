@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (n) RETURN count(CASE WHEN n.uid STARTS WITH 'D01V01:' OR n.uid STARTS WITH 'D03V01:' THEN 1 END) AS legacyActiveNodes,count(CASE WHEN n.uid='V01:S05' THEN 1 END) AS courtyardIdentity,count(CASE WHEN n.uid='V01:S01' THEN 1 END) AS hallIdentity",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"courtyardIdentity\": 1,\n    \"hallIdentity\": 1,\n    \"legacyActiveNodes\": 0\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:50:24.833002+08:00"
+}

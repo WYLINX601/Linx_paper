@@ -1,0 +1,4 @@
+shapely==2.2.0
+markdown-it-py==4.2.0
+mcp==1.30.0
+PyYAML==6.0.3

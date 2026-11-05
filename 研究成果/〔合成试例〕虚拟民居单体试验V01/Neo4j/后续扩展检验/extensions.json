@@ -1,0 +1,8 @@
+{
+  "count": 36,
+  "failures": 0,
+  "errors": 0,
+  "skipped": 1,
+  "status": "passed",
+  "scope": "in-memory positive/negative tests, not persisted corrupt data"
+}

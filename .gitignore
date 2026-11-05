@@ -7,3 +7,13 @@
 node_modules/
 __pycache__/
 *.py[cod]
+.hermes-academic-backups/
+archive/2026-10-29-Hermes工作区迁移/旧工作区完整快照.tar.gz
+
+# Local assistant session data
+.claudian/
+
+# Local recovery archives exceed GitHub's 100 MB per-file limit
+archive/2026-10-28-全库实体归位/归位前原件.zip
+archive/2026-10-28-Wiki全库改造/改造前原件.zip
+archive/2026-10-29-学术大纲与角色命名/改名前在用文件.zip

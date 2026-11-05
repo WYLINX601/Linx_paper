@@ -1,0 +1,825 @@
+{
+  "datasetId": "D01V01",
+  "modelVersion": "1.1",
+  "createdAtUtc": "2026-10-28T08:54:24.522083+00:00",
+  "status": "synthetic_implementation_awaiting_semantic_review",
+  "purpose": "落实数据如何进入节点、属性与关系，并通过真实Neo4j查询检验表达",
+  "authoritativePath": "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+  "basedOn": {
+    "BOT": "BOT-B0.1 / ontology 0.3.2",
+    "application": "KG-R0.1 U02/U10/U11/U13",
+    "analysis": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md"
+  },
+  "boundary": {
+    "synthetic": true,
+    "realBuilding": false,
+    "primaryCoverage": [
+      "D01-T01",
+      "D01-T02",
+      "D01-T05"
+    ],
+    "partialCoverage": [
+      "D01-T06对象及地面范围"
+    ],
+    "notImplemented": [
+      "D01-T03屋顶外形分析",
+      "D01-T04局部轮廓变化",
+      "D01-T06完整围合判据",
+      "完整OWL推理",
+      "真实样本有效性验证",
+      "资料采集与处理方法"
+    ],
+    "noExistingDataMutation": "V01及既有约束不改动；D01V01独立命名空间；无跨例边",
+    "derivationPolicy": "自身高度与比例查询时计算；C01独立保存派生比较结果。比较角色边直接引用对象属性、几何版本及适用来源关系，不再维护USES_INPUT或同义HIGHER_THAN边。",
+    "geometryPolicy": "平面矩形和代表高度不构成完整三维实体，不据此判断真实接触、共墙、通行或计算体积",
+    "attributeSourcePolicy": "对象直接保存一套当前几何属性；共享资料来源节点通过HAS_SOURCE关系限定支持字段、来源版本与定位。不默认建尺寸记录节点；实际出现并存冲突、时态或独立引用需求时再评估。"
+  },
+  "nodes": [
+    {
+      "id": "CASE",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "DatasetRecord"
+      ],
+      "properties": {
+        "uid": "D01V01:CASE",
+        "id": "CASE",
+        "name": "D01合成审核例（记录，不是建筑）",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "purpose": "审核尺寸、基准、来源与比较结果的图谱表达",
+        "modelVersion": "1.1",
+        "sourcePath": "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+        "approvedScope": "用户已确认对象属性＋共享资料来源方向并授权修改；具体字段与真实适用性仍待审核"
+      }
+    },
+    {
+      "id": "U01",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "Zone",
+        "DwellingUnit"
+      ],
+      "properties": {
+        "uid": "D01V01:U01",
+        "id": "U01",
+        "name": "示例民居单元",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "botClassIri": "https://w3id.org/bot#Zone",
+        "interpretation": "主屋、侧房与院落共同构成的形态分析整体，不等于一栋建筑",
+        "boundaryBasis": "本例人工指定的整体范围；不声明地籍边界",
+        "geometryState": "partial_plan_and_height_references"
+      }
+    },
+    {
+      "id": "B01",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "Zone",
+        "Building"
+      ],
+      "properties": {
+        "uid": "D01V01:B01",
+        "id": "B01",
+        "name": "示例主屋",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "botClassIri": "https://w3id.org/bot#Building",
+        "role": "主屋",
+        "identityBasis": "人工设定为可独立识别的建筑单体；主屋角色不由尺寸自动推定",
+        "unit": "m",
+        "scenario": "T0",
+        "geometryVersion": "v1",
+        "geometryActive": true,
+        "measurementBoundaryBasis": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+        "heightBasis": "指定正立面断面檐口点与墙脚地面点；檐口外缘，不混作梁顶",
+        "precisionMeaning": "输入为精确算术设定，不宣称测绘精度",
+        "analysisItems": [
+          "D01-T01",
+          "D01-T02",
+          "D01-T05"
+        ],
+        "widthM": 10.0,
+        "depthM": 6.0,
+        "groundZM": 0.0,
+        "eaveZM": 5.0,
+        "ridgeZM": 7.0,
+        "widthDirection": "+X",
+        "depthDirection": "+Y",
+        "footprintXY": [
+          0.0,
+          0.0,
+          10.0,
+          0.0,
+          10.0,
+          6.0,
+          0.0,
+          6.0
+        ],
+        "footprintShape": "rectangle",
+        "groundPointXYZ": [
+          5.0,
+          0.0,
+          0.0
+        ],
+        "eavePointXYZ": [
+          5.0,
+          0.0,
+          5.0
+        ],
+        "ridgePointXYZ": [
+          5.0,
+          3.0,
+          7.0
+        ]
+      }
+    },
+    {
+      "id": "B02",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "Zone",
+        "Building"
+      ],
+      "properties": {
+        "uid": "D01V01:B02",
+        "id": "B02",
+        "name": "示例侧房",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "botClassIri": "https://w3id.org/bot#Building",
+        "role": "侧房",
+        "identityBasis": "人工设定为可独立识别的建筑单体；侧房角色不由尺寸自动推定",
+        "unit": "m",
+        "scenario": "T0",
+        "geometryVersion": "v1",
+        "geometryActive": true,
+        "measurementBoundaryBasis": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+        "heightBasis": "指定正立面断面檐口点与墙脚地面点；檐口外缘，不混作梁顶",
+        "precisionMeaning": "输入为精确算术设定，不宣称测绘精度",
+        "analysisItems": [
+          "D01-T01",
+          "D01-T02",
+          "D01-T05"
+        ],
+        "widthM": 6.0,
+        "depthM": 4.0,
+        "groundZM": 3.0,
+        "eaveZM": 7.0,
+        "ridgeZM": 8.0,
+        "widthDirection": "+Y",
+        "depthDirection": "+X",
+        "footprintXY": [
+          10.0,
+          -6.0,
+          14.0,
+          -6.0,
+          14.0,
+          0.0,
+          10.0,
+          0.0
+        ],
+        "footprintShape": "rectangle",
+        "groundPointXYZ": [
+          10.0,
+          -3.0,
+          3.0
+        ],
+        "eavePointXYZ": [
+          10.0,
+          -3.0,
+          7.0
+        ],
+        "ridgePointXYZ": [
+          12.0,
+          -3.0,
+          8.0
+        ]
+      }
+    },
+    {
+      "id": "S01",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "Zone",
+        "Space"
+      ],
+      "properties": {
+        "uid": "D01V01:S01",
+        "id": "S01",
+        "name": "示例院落",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "botClassIri": "https://w3id.org/bot#Space",
+        "use": "户外活动",
+        "boundaryBasis": "人工声明的地面分析范围，开敞处采用理论边界",
+        "geometryState": "plan_only_no_closed_3d_volume",
+        "unit": "m",
+        "scenario": "T0",
+        "geometryVersion": "v1",
+        "geometryActive": true,
+        "analysisItems": [
+          "D01-T06"
+        ],
+        "widthM": 10.0,
+        "depthM": 6.0,
+        "groundZM": 0.0,
+        "widthDirection": "+X",
+        "depthDirection": "+Y",
+        "footprintXY": [
+          0.0,
+          -6.0,
+          10.0,
+          -6.0,
+          10.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        "footprintShape": "rectangle",
+        "measurementBoundaryBasis": "面对院落的建筑边界与人工声明的开敞边；不是用地面积",
+        "coverage": "仅提供对象、地面范围与基准，不宣称T06围合配置已完整实现"
+      }
+    },
+    {
+      "id": "D01",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "ReferenceDatum"
+      ],
+      "properties": {
+        "uid": "D01V01:D01",
+        "id": "D01",
+        "name": "本例共同坐标与高程基准",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "unit": "m",
+        "frame": "synthetic-local-m",
+        "originDescription": "人工设定O点为(0,0,0)，X/Y为平面正交方向，Z向上；不是地理坐标系",
+        "frameVersion": "v1"
+      }
+    },
+    {
+      "id": "EV01",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "Source",
+        "SyntheticSource"
+      ],
+      "properties": {
+        "uid": "D01V01:EV01",
+        "id": "EV01",
+        "name": "共享示例素材（人工合成，非实测）",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "sourceKind": "synthetic_assignment",
+        "sourcePath": "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+        "supportScope": "只登记D01人工合成设定；具体字段支持范围与定位由HAS_SOURCE关系声明，不证明真实民居事实",
+        "author": "研究试例人工设定",
+        "createdAtUtc": "2026-10-28T08:54:24.522083+00:00",
+        "sourceVersion": "1.1"
+      }
+    },
+    {
+      "id": "R01",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "AnalysisRule"
+      ],
+      "properties": {
+        "uid": "D01V01:R01",
+        "id": "R01",
+        "name": "自身檐口相对高度规则",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "candidate_rule_implemented_for_demo",
+        "ruleId": "D01-ER01-v1",
+        "expression": "eaveZM - groundZM",
+        "preconditions": "同一建筑、对应部位、共同高程基准、同一情境与长度单位；两值均已知",
+        "sourcePath": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+        "sourceSection": "D01-T02 竖向尺度与比例",
+        "maintainedAt": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md#U13 D01数据表达试例",
+        "implementation": "Q03即时计算，不另存每栋高度结果节点"
+      }
+    },
+    {
+      "id": "R02",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "AnalysisRule"
+      ],
+      "properties": {
+        "uid": "D01V01:R02",
+        "id": "R02",
+        "name": "水平比例与高宽比规则",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "candidate_rule_implemented_for_demo",
+        "ruleId": "D01-ER02-v1",
+        "expression": "widthM/depthM; (eaveZM-groundZM)/widthM",
+        "preconditions": "对象和范围对应、单位一致、分母大于0；仅报告数值不设高大低矮阈值",
+        "sourcePath": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+        "sourceSection": "D01-T01 / D01-T02",
+        "maintainedAt": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md#U13 D01数据表达试例",
+        "implementation": "Q02/Q03即时计算"
+      }
+    },
+    {
+      "id": "R03",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "AnalysisRule"
+      ],
+      "properties": {
+        "uid": "D01V01:R03",
+        "id": "R03",
+        "name": "共同基准檐口高差规则",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "candidate_rule_implemented_for_demo",
+        "ruleId": "D01-ER03-v1",
+        "expression": "subject.eaveZM - reference.eaveZM",
+        "preconditions": "双方檐口部位明确，采用同一基准节点、同一情境与单位；不相减各自地面起算高度",
+        "sourcePath": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+        "sourceSection": "D01-T05 单体间体量组合",
+        "maintainedAt": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md#U13 D01数据表达试例",
+        "implementation": "Q04读回重算并核对保存结果"
+      }
+    },
+    {
+      "id": "C01",
+      "labels": [
+        "KGItem",
+        "D01V01",
+        "Demo",
+        "ComparisonResult"
+      ],
+      "properties": {
+        "uid": "D01V01:C01",
+        "id": "C01",
+        "name": "檐口高差：侧房减主屋",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_derived",
+        "metric": "eaveElevationDifference",
+        "valueM": 2.0,
+        "unit": "m",
+        "scenario": "T0",
+        "ruleId": "D01-ER03-v1",
+        "interpretation": "正值表示比较对象的指定檐口点在共同基准下更高；不是建筑自身檐高差",
+        "derivationStatus": "computed_from_synthetic_inputs",
+        "analysisItem": "D01-T05"
+      }
+    }
+  ],
+  "relationships": [
+    {
+      "id": "E001",
+      "source": "D01V01:CASE",
+      "target": "D01V01:U01",
+      "type": "DESCRIBES",
+      "properties": {
+        "uid": "D01V01:E001",
+        "id": "E001",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata"
+      }
+    },
+    {
+      "id": "E002",
+      "source": "D01V01:CASE",
+      "target": "D01V01:EV01",
+      "type": "PROVIDES_SOURCE",
+      "properties": {
+        "uid": "D01V01:E002",
+        "id": "E002",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata"
+      }
+    },
+    {
+      "id": "E003",
+      "source": "D01V01:CASE",
+      "target": "D01V01:R01",
+      "type": "DECLARES_RULE",
+      "properties": {
+        "uid": "D01V01:E003",
+        "id": "E003",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata"
+      }
+    },
+    {
+      "id": "E004",
+      "source": "D01V01:CASE",
+      "target": "D01V01:R02",
+      "type": "DECLARES_RULE",
+      "properties": {
+        "uid": "D01V01:E004",
+        "id": "E004",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata"
+      }
+    },
+    {
+      "id": "E005",
+      "source": "D01V01:CASE",
+      "target": "D01V01:R03",
+      "type": "DECLARES_RULE",
+      "properties": {
+        "uid": "D01V01:E005",
+        "id": "E005",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_metadata"
+      }
+    },
+    {
+      "id": "E006",
+      "source": "D01V01:U01",
+      "target": "D01V01:B01",
+      "type": "BOT_HAS_BUILDING",
+      "properties": {
+        "uid": "D01V01:E006",
+        "id": "E006",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "BOT_adoption",
+        "botPropertyIri": "https://w3id.org/bot#hasBuilding",
+        "baselineRef": "B-R02"
+      }
+    },
+    {
+      "id": "E007",
+      "source": "D01V01:U01",
+      "target": "D01V01:B02",
+      "type": "BOT_HAS_BUILDING",
+      "properties": {
+        "uid": "D01V01:E007",
+        "id": "E007",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "BOT_adoption",
+        "botPropertyIri": "https://w3id.org/bot#hasBuilding",
+        "baselineRef": "B-R02"
+      }
+    },
+    {
+      "id": "E008",
+      "source": "D01V01:U01",
+      "target": "D01V01:S01",
+      "type": "BOT_HAS_SPACE",
+      "properties": {
+        "uid": "D01V01:E008",
+        "id": "E008",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "BOT_adoption",
+        "botPropertyIri": "https://w3id.org/bot#hasSpace",
+        "baselineRef": "B-R04"
+      }
+    },
+    {
+      "id": "E010",
+      "source": "D01V01:B01",
+      "target": "D01V01:D01",
+      "type": "USES_DATUM",
+      "properties": {
+        "uid": "D01V01:E010",
+        "id": "E010",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "fields": [
+          "depthM",
+          "eavePointXYZ",
+          "eaveZM",
+          "footprintXY",
+          "groundPointXYZ",
+          "groundZM",
+          "ridgePointXYZ",
+          "ridgeZM",
+          "widthM"
+        ],
+        "scope": "仅适用于列出的坐标、尺寸与高程字段；长度单位为m"
+      }
+    },
+    {
+      "id": "E011",
+      "source": "D01V01:B01",
+      "target": "D01V01:EV01",
+      "type": "HAS_SOURCE",
+      "properties": {
+        "uid": "D01V01:E011",
+        "id": "E011",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "scope": "仅支持fields列出的人工几何值、口径与几何记录元数据，不支持该对象其他属性，也不是实测证据",
+        "fields": [
+          "analysisItems",
+          "depthDirection",
+          "depthM",
+          "eavePointXYZ",
+          "eaveZM",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundPointXYZ",
+          "groundZM",
+          "heightBasis",
+          "measurementBoundaryBasis",
+          "precisionMeaning",
+          "ridgePointXYZ",
+          "ridgeZM",
+          "scenario",
+          "unit",
+          "widthDirection",
+          "widthM"
+        ],
+        "fieldGroup": "currentGeometry",
+        "sourceVersion": "1.1",
+        "locatorKind": "json_pointer",
+        "locator": "/nodes/2/properties",
+        "objectId": "B01",
+        "evidenceRole": "synthetic_assignment",
+        "reviewStatus": "synthetic_only_not_empirical"
+      }
+    },
+    {
+      "id": "E013",
+      "source": "D01V01:B02",
+      "target": "D01V01:D01",
+      "type": "USES_DATUM",
+      "properties": {
+        "uid": "D01V01:E013",
+        "id": "E013",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "fields": [
+          "depthM",
+          "eavePointXYZ",
+          "eaveZM",
+          "footprintXY",
+          "groundPointXYZ",
+          "groundZM",
+          "ridgePointXYZ",
+          "ridgeZM",
+          "widthM"
+        ],
+        "scope": "仅适用于列出的坐标、尺寸与高程字段；长度单位为m"
+      }
+    },
+    {
+      "id": "E014",
+      "source": "D01V01:B02",
+      "target": "D01V01:EV01",
+      "type": "HAS_SOURCE",
+      "properties": {
+        "uid": "D01V01:E014",
+        "id": "E014",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "scope": "仅支持fields列出的人工几何值、口径与几何记录元数据，不支持该对象其他属性，也不是实测证据",
+        "fields": [
+          "analysisItems",
+          "depthDirection",
+          "depthM",
+          "eavePointXYZ",
+          "eaveZM",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundPointXYZ",
+          "groundZM",
+          "heightBasis",
+          "measurementBoundaryBasis",
+          "precisionMeaning",
+          "ridgePointXYZ",
+          "ridgeZM",
+          "scenario",
+          "unit",
+          "widthDirection",
+          "widthM"
+        ],
+        "fieldGroup": "currentGeometry",
+        "sourceVersion": "1.1",
+        "locatorKind": "json_pointer",
+        "locator": "/nodes/3/properties",
+        "objectId": "B02",
+        "evidenceRole": "synthetic_assignment",
+        "reviewStatus": "synthetic_only_not_empirical"
+      }
+    },
+    {
+      "id": "E016",
+      "source": "D01V01:S01",
+      "target": "D01V01:D01",
+      "type": "USES_DATUM",
+      "properties": {
+        "uid": "D01V01:E016",
+        "id": "E016",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "fields": [
+          "depthM",
+          "footprintXY",
+          "groundZM",
+          "widthM"
+        ],
+        "scope": "仅适用于列出的坐标、尺寸与高程字段；长度单位为m"
+      }
+    },
+    {
+      "id": "E017",
+      "source": "D01V01:S01",
+      "target": "D01V01:EV01",
+      "type": "HAS_SOURCE",
+      "properties": {
+        "uid": "D01V01:E017",
+        "id": "E017",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "scope": "仅支持fields列出的人工几何值、口径与几何记录元数据，不支持该对象其他属性，也不是实测证据",
+        "fields": [
+          "analysisItems",
+          "coverage",
+          "depthDirection",
+          "depthM",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "scenario",
+          "unit",
+          "widthDirection",
+          "widthM"
+        ],
+        "fieldGroup": "currentGeometry",
+        "sourceVersion": "1.1",
+        "locatorKind": "json_pointer",
+        "locator": "/nodes/4/properties",
+        "objectId": "S01",
+        "evidenceRole": "synthetic_assignment",
+        "reviewStatus": "synthetic_only_not_empirical"
+      }
+    },
+    {
+      "id": "E018",
+      "source": "D01V01:U01",
+      "target": "D01V01:C01",
+      "type": "HAS_COMPARISON",
+      "properties": {
+        "uid": "D01V01:E018",
+        "id": "E018",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension"
+      }
+    },
+    {
+      "id": "E019",
+      "source": "D01V01:C01",
+      "target": "D01V01:B02",
+      "type": "COMPARES_SUBJECT",
+      "properties": {
+        "uid": "D01V01:E019",
+        "id": "E019",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "role": "minuend",
+        "field": "eaveZM",
+        "geometryVersion": "v1",
+        "sourceRelationUid": "D01V01:E014",
+        "sourceVersion": "1.1"
+      }
+    },
+    {
+      "id": "E020",
+      "source": "D01V01:C01",
+      "target": "D01V01:B01",
+      "type": "COMPARES_REFERENCE",
+      "properties": {
+        "uid": "D01V01:E020",
+        "id": "E020",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension",
+        "role": "subtrahend",
+        "field": "eaveZM",
+        "geometryVersion": "v1",
+        "sourceRelationUid": "D01V01:E011",
+        "sourceVersion": "1.1"
+      }
+    },
+    {
+      "id": "E023",
+      "source": "D01V01:C01",
+      "target": "D01V01:R03",
+      "type": "APPLIES_RULE",
+      "properties": {
+        "uid": "D01V01:E023",
+        "id": "E023",
+        "datasetId": "D01V01",
+        "caseId": "D01V01",
+        "dataMode": "synthetic",
+        "recordStatus": "synthetic_assignment",
+        "semanticOrigin": "project_extension"
+      }
+    }
+  ],
+  "updatedAtUtc": "2026-10-29T06:06:42.711940+00:00",
+  "designDecision": {
+    "approvedDirection": "对象属性＋共享资料来源节点＋明确字段与定位的来源关系",
+    "approvedBy": "user",
+    "implementedVersion": "1.1",
+    "semanticReview": "具体字段、口径与适用性仍待审核；不等于真实样本验证",
+    "scope": "只调整D01V01；V01与BOT原定义不变"
+  }
+}

@@ -1,0 +1,112 @@
+[
+  {
+    "repo": "Ar9av/obsidian-wiki",
+    "revision": "4f457e154653756b04802d5aeb25c20f42b4770c",
+    "path": "docs/skills.md",
+    "url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/4f457e154653756b04802d5aeb25c20f42b4770c/docs/skills.md",
+    "local_file": "ar9av--docs--skills.md",
+    "sha256": "5a91cc072c31e4cdbb2f158d279edf4468540151bc52be7ab0fb2fe6bc402c0b",
+    "retrieved_at": "2026-10-28T02:55:47.786641+00:00",
+    "bytes": 7425,
+    "status": "retrieved"
+  },
+  {
+    "repo": "Ar9av/obsidian-wiki",
+    "revision": "4f457e154653756b04802d5aeb25c20f42b4770c",
+    "path": ".skills/wiki-lint/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/4f457e154653756b04802d5aeb25c20f42b4770c/.skills/wiki-lint/SKILL.md",
+    "local_file": "ar9av--.skills--wiki-lint--SKILL.md",
+    "sha256": "6c20611923582bcecf9a8f9b3f3e0b682395b8d2dc05306278f9b175d5e86c01",
+    "retrieved_at": "2026-10-28T02:55:47.908574+00:00",
+    "bytes": 37404,
+    "status": "retrieved"
+  },
+  {
+    "repo": "Ar9av/obsidian-wiki",
+    "revision": "4f457e154653756b04802d5aeb25c20f42b4770c",
+    "path": ".skills/wiki-dedup/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/4f457e154653756b04802d5aeb25c20f42b4770c/.skills/wiki-dedup/SKILL.md",
+    "local_file": "ar9av--.skills--wiki-dedup--SKILL.md",
+    "sha256": "8ab4f8f311394e1f606f249625898969a86758e5f940e6b9ac27696e0c134563",
+    "retrieved_at": "2026-10-28T02:55:47.830232+00:00",
+    "bytes": 15448,
+    "status": "retrieved"
+  },
+  {
+    "repo": "Ar9av/obsidian-wiki",
+    "revision": "4f457e154653756b04802d5aeb25c20f42b4770c",
+    "path": ".skills/wiki-status/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/4f457e154653756b04802d5aeb25c20f42b4770c/.skills/wiki-status/SKILL.md",
+    "local_file": "ar9av--.skills--wiki-status--SKILL.md",
+    "sha256": "5df307eef4b8b25764c6ef6b7718e385cfa3ad2a15db1aa7f40b1c69e98d192f",
+    "retrieved_at": "2026-10-28T02:55:47.877184+00:00",
+    "bytes": 30378,
+    "status": "retrieved"
+  },
+  {
+    "repo": "Ar9av/obsidian-wiki",
+    "revision": "4f457e154653756b04802d5aeb25c20f42b4770c",
+    "path": ".skills/cross-linker/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/4f457e154653756b04802d5aeb25c20f42b4770c/.skills/cross-linker/SKILL.md",
+    "local_file": "ar9av--.skills--cross-linker--SKILL.md",
+    "sha256": "13fcd523762039e0ee12489d9448daeb5a4a463ecea8bc6c4e4b8536f8dc320a",
+    "retrieved_at": "2026-10-28T02:55:47.778561+00:00",
+    "bytes": 14831,
+    "status": "retrieved"
+  },
+  {
+    "repo": "Ar9av/obsidian-wiki",
+    "revision": "4f457e154653756b04802d5aeb25c20f42b4770c",
+    "path": ".skills/tag-taxonomy/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/4f457e154653756b04802d5aeb25c20f42b4770c/.skills/tag-taxonomy/SKILL.md",
+    "local_file": "ar9av--.skills--tag-taxonomy--SKILL.md",
+    "sha256": "1e8938c4844cb17b0d84602f6e90142f9816daaa54b0ed923500e28d8044f0d7",
+    "retrieved_at": "2026-10-28T02:55:48.605102+00:00",
+    "bytes": 7196,
+    "status": "retrieved"
+  },
+  {
+    "repo": "Ar9av/obsidian-wiki",
+    "revision": "4f457e154653756b04802d5aeb25c20f42b4770c",
+    "path": ".skills/wiki-context-pack/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/4f457e154653756b04802d5aeb25c20f42b4770c/.skills/wiki-context-pack/SKILL.md",
+    "local_file": "ar9av--.skills--wiki-context-pack--SKILL.md",
+    "sha256": "23c7c372f2f39be30c80dc6345c870af72ed182d6f18b874599a57594c3dc832",
+    "retrieved_at": "2026-10-28T02:55:48.654263+00:00",
+    "bytes": 3007,
+    "status": "retrieved"
+  },
+  {
+    "repo": "Ar9av/obsidian-wiki",
+    "revision": "4f457e154653756b04802d5aeb25c20f42b4770c",
+    "path": ".skills/wiki-synthesize/SKILL.md",
+    "url": "https://raw.githubusercontent.com/Ar9av/obsidian-wiki/4f457e154653756b04802d5aeb25c20f42b4770c/.skills/wiki-synthesize/SKILL.md",
+    "local_file": "ar9av--.skills--wiki-synthesize--SKILL.md",
+    "sha256": "93149926c1404ed455af64a1b13324bc4bb50a95c1c1344d365d7c7879d0de31",
+    "retrieved_at": "2026-10-28T02:55:48.704472+00:00",
+    "bytes": 9168,
+    "status": "retrieved"
+  },
+  {
+    "repo": "AgriciDaniel/claude-obsidian",
+    "revision": "2e545563172f97f02ecaaaab376ceea1246a0583",
+    "path": "skills/wiki/SKILL.md",
+    "url": "https://raw.githubusercontent.com/AgriciDaniel/claude-obsidian/2e545563172f97f02ecaaaab376ceea1246a0583/skills/wiki/SKILL.md",
+    "local_file": "agricidaniel--skills--wiki--SKILL.md",
+    "sha256": "562c92afa2ff44b3084ae5d4c2b9a3e4d09bfd20b586fc27d275c4b15cdd8662",
+    "retrieved_at": "2026-10-28T02:55:48.706836+00:00",
+    "bytes": 6271,
+    "status": "retrieved"
+  },
+  {
+    "repo": "kepano/obsidian-skills",
+    "revision": "3ccff5338ea700537839b21900aa5358a0402c98",
+    "path": "README.md",
+    "url": "https://raw.githubusercontent.com/kepano/obsidian-skills/3ccff5338ea700537839b21900aa5358a0402c98/README.md",
+    "local_file": "kepano--README.md",
+    "sha256": "a395f944ddce5efa92f52f5c947cec9d015e5c7448ae7f31eb41a0652c968c57",
+    "retrieved_at": "2026-10-28T02:55:48.725385+00:00",
+    "bytes": 3539,
+    "status": "retrieved"
+  }
+]

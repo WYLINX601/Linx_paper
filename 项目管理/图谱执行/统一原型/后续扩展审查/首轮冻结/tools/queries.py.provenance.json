@@ -1,0 +1,10 @@
+{
+  "artifact_role": "transferred_copy",
+  "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+  "source_path": "项目管理/图谱执行/统一原型/tools/queries.py",
+  "sha256": "68636aaa679d0ce0f9278543f13bfb7dd5de9191e7ff32a30d075996e730ea57",
+  "size_bytes": 5538,
+  "source_modified_at_utc": "2026-10-30T13:15:27Z",
+  "downloaded_at_utc": "2026-10-30T23:06:26Z",
+  "local_copy_path": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/originals/tools/queries.py"
+}

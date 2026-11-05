@@ -1,0 +1,18 @@
+{
+  "academic": {
+    "exit_code": 0,
+    "output": "✓ Gateway is running via the default-profile multiplexer\n  Manage it from the default profile: hermes gateway status\n\nOther profiles:\n  ✓ default          — PID 3690900\n"
+  },
+  "kahn": {
+    "exit_code": 0,
+    "output": "✓ Gateway is running via the default-profile multiplexer\n  Manage it from the default profile: hermes gateway status\n\nOther profiles:\n  ✓ default          — PID 3690900\n"
+  },
+  "builder": {
+    "exit_code": 0,
+    "output": "✓ Gateway is running via the default-profile multiplexer\n  Manage it from the default profile: hermes gateway status\n\nOther profiles:\n  ✓ default          — PID 3690900\n"
+  },
+  "coo": {
+    "exit_code": 0,
+    "output": "✓ Gateway is running via the default-profile multiplexer\n  Manage it from the default profile: hermes gateway status\n\nOther profiles:\n  ✓ default          — PID 3690900\n"
+  }
+}

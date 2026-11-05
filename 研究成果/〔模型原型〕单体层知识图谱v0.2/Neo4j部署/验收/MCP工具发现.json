@@ -1,0 +1,104 @@
+{
+  "testedAt": "2026-10-22T12:56:23.551175+00:00",
+  "transport": "SSH stdio",
+  "command": [
+    "/usr/bin/ssh",
+    "-T",
+    "-o",
+    "BatchMode=yes",
+    "linx-HP-EliteDesk-880-G6-Tower-PC",
+    "/usr/bin/python3",
+    "/home/linx/.local/share/neo4j-paper/tools/MCP启动.py"
+  ],
+  "initialize": {
+    "protocolVersion": "2024-11-05",
+    "capabilities": {
+      "tools": {
+        "listChanged": true
+      }
+    },
+    "serverInfo": {
+      "name": "neo4j-mcp",
+      "version": "v1.6.1"
+    },
+    "instructions": "This is the Neo4j official MCP server and can provide tool calling to interact with your Neo4j database,by inferring the schema with tools like get-schema and executing arbitrary Cypher queries with read-cypher."
+  },
+  "tools": [
+    {
+      "annotations": {
+        "title": "Get Neo4j Schema",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "description": "\n\t\tRetrieve the schema information from the Neo4j database, including node labels, relationship types, and property keys.\n\t\tIf the database contains no data, no schema information is returned.",
+      "inputSchema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "get-schema"
+    },
+    {
+      "annotations": {
+        "title": "Read Cypher",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "description": "read-cypher can run only read-only Cypher statements. For write operations (CREATE, MERGE, DELETE, SET, etc...), schema/admin commands, or PROFILE queries, use write-cypher instead.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The Cypher query to execute"
+          },
+          "params": {
+            "type": "object",
+            "description": "Parameters to pass to the Cypher query",
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      },
+      "name": "read-cypher"
+    },
+    {
+      "annotations": {
+        "title": "Write Cypher",
+        "readOnlyHint": false,
+        "destructiveHint": true,
+        "idempotentHint": false,
+        "openWorldHint": true
+      },
+      "description": "write-cypher executes any arbitrary Cypher query, with write access, against the user-configured Neo4j database.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The Cypher query to execute"
+          },
+          "params": {
+            "type": "object",
+            "description": "Parameters to pass to the Cypher query",
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      },
+      "name": "write-cypher"
+    }
+  ],
+  "calls": [],
+  "status": "passed"
+}

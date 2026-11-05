@@ -1,0 +1,229 @@
+{
+  "status": "verified",
+  "verifiedAt": "2026-10-24T12:25:01.366281+00:00",
+  "nodeCount": 41,
+  "domainAndEvidenceNodes": 40,
+  "sourceSnapshotNodes": 1,
+  "relationshipCount": 166,
+  "graphSha256": "e51030c8fa7205daf9245487a3dfc36db6eec53d567986ac9b3faa52439bc2c0",
+  "expectedProjectionSha256": "3ba2430f0b1f2ed04ae92eb05204713a2cd2fc4c0d44d7b160e6ce1f4561c60f",
+  "numericRepresentationChanges": [
+    {
+      "uid": "V01:I02",
+      "property": "widthM",
+      "expected": 1.0,
+      "returned": 1,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I03",
+      "property": "widthM",
+      "expected": 1.0,
+      "returned": 1,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I06",
+      "property": "headZ",
+      "expected": 2.0,
+      "returned": 2,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I06",
+      "property": "sillZ",
+      "expected": 1.0,
+      "returned": 1,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I07",
+      "property": "headZ",
+      "expected": 2.0,
+      "returned": 2,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I07",
+      "property": "sillZ",
+      "expected": 1.0,
+      "returned": 1,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I08",
+      "property": "headZ",
+      "expected": 2.0,
+      "returned": 2,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I08",
+      "property": "sillZ",
+      "expected": 1.0,
+      "returned": 1,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I09",
+      "property": "headZ",
+      "expected": 2.0,
+      "returned": 2,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I09",
+      "property": "sillZ",
+      "expected": 1.0,
+      "returned": 1,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I10",
+      "property": "headZ",
+      "expected": 2.0,
+      "returned": 2,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:I10",
+      "property": "sillZ",
+      "expected": 1.0,
+      "returned": 1,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    },
+    {
+      "uid": "V01:S03",
+      "property": "centerX",
+      "expected": 8.0,
+      "returned": 8,
+      "expectedJsonType": "float",
+      "returnedJsonType": "int"
+    }
+  ],
+  "comparison": "All node labels, property values, typed relationship endpoints and property values match the expected LPG projection. Integral-float JSON normalization is recorded separately; serialization hashes need not match.",
+  "queries": [
+    {
+      "name": "对象类型分布",
+      "query": "MATCH (n:V01) RETURN n.class AS class,count(*) AS count ORDER BY class",
+      "result": [
+        {
+          "class": "Building",
+          "count": 1
+        },
+        {
+          "class": "Element",
+          "count": 15
+        },
+        {
+          "class": "Evidence",
+          "count": 8
+        },
+        {
+          "class": "Interface",
+          "count": 10
+        },
+        {
+          "class": "Space",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "name": "材料分组",
+      "query": "MATCH (n:V01:Element) UNWIND [l IN labels(n) WHERE l STARTS WITH \"材质_\"] AS material RETURN material,[l IN labels(n) WHERE l IN [\"Wall\",\"Column\",\"Roof\"]][0] AS componentType,count(*) AS count ORDER BY material,componentType",
+      "result": [
+        {
+          "componentType": "Column",
+          "count": 4,
+          "material": "材质_木"
+        },
+        {
+          "componentType": "Roof",
+          "count": 1,
+          "material": "材质_木"
+        },
+        {
+          "componentType": "Wall",
+          "count": 10,
+          "material": "材质_灰泥"
+        },
+        {
+          "componentType": "Wall",
+          "count": 10,
+          "material": "材质_砖"
+        },
+        {
+          "componentType": "Roof",
+          "count": 1,
+          "material": "材质_陶瓦"
+        }
+      ]
+    },
+    {
+      "name": "通行链",
+      "query": "MATCH p=shortestPath((a:V01:Space {id:\"S06\"})-[:DIRECT_ACCESS_TO*]-(b:V01:Space {id:\"S03\"})) WHERE all(r IN relationships(p) WHERE r.bidirectional=true) RETURN [n IN nodes(p)|n.name] AS spaces,length(p) AS steps",
+      "result": [
+        {
+          "spaces": [
+            "南侧外部参照区",
+            "前院",
+            "前廊",
+            "堂屋",
+            "东室"
+          ],
+          "steps": 4
+        }
+      ]
+    },
+    {
+      "name": "材料依据",
+      "query": "MATCH (e:V01:Evidence)-[r:DOCUMENTS]->(w:V01:Wall {id:\"W06\"}) RETURN e.id AS evidence,r.scope AS scope",
+      "result": [
+        {
+          "evidence": "EV01",
+          "scope": "人工设定的对象身份、几何、用途、材料与粗粒度建造关系；不是真实观测"
+        },
+        {
+          "evidence": "EV02",
+          "scope": "平面位置、分区轮廓、墙柱与开口位置及标注尺寸；不能证明隐藏材料或结构受力"
+        },
+        {
+          "evidence": "EV03",
+          "scope": "主屋南立面可见轮廓、柱列及前窗；前院围墙省略，不表示街上无遮挡实景"
+        }
+      ]
+    },
+    {
+      "name": "方位距离",
+      "query": "MATCH (a:V01:Space {id:\"S02\"})-[r:SPATIAL_RELATION]->(b:V01:Space {id:\"S03\"}) RETURN r.distanceM AS storedDistance,point.distance(point({x:a.centerX,y:a.centerY}),point({x:b.centerX,y:b.centerY})) AS recomputedDistance",
+      "result": [
+        {
+          "recomputedDistance": 6.4,
+          "storedDistance": 6.4
+        }
+      ]
+    },
+    {
+      "name": "旧候选层残留",
+      "query": "MATCH (n:ModelDefinition) RETURN count(n) AS oldModelNodes",
+      "result": [
+        {
+          "oldModelNodes": 0
+        }
+      ]
+    }
+  ]
+}

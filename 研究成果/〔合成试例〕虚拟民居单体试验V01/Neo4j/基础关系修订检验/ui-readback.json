@@ -1,0 +1,250 @@
+{
+  "htmlSHA256": "cadd36f352036ba1156888d1c2419c459259f4836dd6f397b1a87575b76c5ae5",
+  "kind": "actual-Neo4j-readback-offline-viewer",
+  "viewChecks": [
+    {
+      "view": "overview",
+      "evidence": false,
+      "nodes": 15,
+      "relationships": 32,
+      "renderedNodes": 15,
+      "renderedRelationships": 32,
+      "errors": []
+    },
+    {
+      "view": "D01",
+      "evidence": false,
+      "nodes": 10,
+      "relationships": 10,
+      "renderedNodes": 10,
+      "renderedRelationships": 10,
+      "errors": []
+    },
+    {
+      "view": "T01",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 4,
+      "renderedNodes": 6,
+      "renderedRelationships": 4,
+      "errors": []
+    },
+    {
+      "view": "T02",
+      "evidence": false,
+      "nodes": 10,
+      "relationships": 14,
+      "renderedNodes": 10,
+      "renderedRelationships": 14,
+      "errors": []
+    },
+    {
+      "view": "T03",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 5,
+      "renderedNodes": 6,
+      "renderedRelationships": 5,
+      "errors": []
+    },
+    {
+      "view": "T04",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 7,
+      "renderedNodes": 6,
+      "renderedRelationships": 7,
+      "errors": []
+    },
+    {
+      "view": "T05",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 5,
+      "renderedNodes": 6,
+      "renderedRelationships": 5,
+      "errors": []
+    },
+    {
+      "view": "T06",
+      "evidence": false,
+      "nodes": 13,
+      "relationships": 25,
+      "renderedNodes": 13,
+      "renderedRelationships": 25,
+      "errors": []
+    },
+    {
+      "view": "D04",
+      "evidence": false,
+      "nodes": 8,
+      "relationships": 6,
+      "renderedNodes": 8,
+      "renderedRelationships": 6,
+      "errors": []
+    },
+    {
+      "view": "D05",
+      "evidence": false,
+      "nodes": 11,
+      "relationships": 11,
+      "renderedNodes": 11,
+      "renderedRelationships": 11,
+      "errors": []
+    },
+    {
+      "view": "D06",
+      "evidence": false,
+      "nodes": 9,
+      "relationships": 10,
+      "renderedNodes": 9,
+      "renderedRelationships": 10,
+      "errors": []
+    },
+    {
+      "view": "all",
+      "evidence": false,
+      "nodes": 41,
+      "relationships": 120,
+      "renderedNodes": 41,
+      "renderedRelationships": 120,
+      "errors": []
+    },
+    {
+      "view": "basic",
+      "evidence": false,
+      "nodes": 41,
+      "relationships": 120,
+      "renderedNodes": 41,
+      "renderedRelationships": 120,
+      "errors": []
+    },
+    {
+      "view": "overview",
+      "evidence": true,
+      "nodes": 22,
+      "relationships": 68,
+      "renderedNodes": 22,
+      "renderedRelationships": 68,
+      "errors": []
+    },
+    {
+      "view": "D01",
+      "evidence": true,
+      "nodes": 17,
+      "relationships": 43,
+      "renderedNodes": 17,
+      "renderedRelationships": 43,
+      "errors": []
+    },
+    {
+      "view": "T01",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 29,
+      "renderedNodes": 13,
+      "renderedRelationships": 29,
+      "errors": []
+    },
+    {
+      "view": "T02",
+      "evidence": true,
+      "nodes": 12,
+      "relationships": 30,
+      "renderedNodes": 12,
+      "renderedRelationships": 30,
+      "errors": []
+    },
+    {
+      "view": "T03",
+      "evidence": true,
+      "nodes": 8,
+      "relationships": 18,
+      "renderedNodes": 8,
+      "renderedRelationships": 18,
+      "errors": []
+    },
+    {
+      "view": "T04",
+      "evidence": true,
+      "nodes": 8,
+      "relationships": 20,
+      "renderedNodes": 8,
+      "renderedRelationships": 20,
+      "errors": []
+    },
+    {
+      "view": "T05",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 30,
+      "renderedNodes": 13,
+      "renderedRelationships": 30,
+      "errors": []
+    },
+    {
+      "view": "T06",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 25,
+      "renderedNodes": 13,
+      "renderedRelationships": 25,
+      "errors": []
+    },
+    {
+      "view": "D04",
+      "evidence": true,
+      "nodes": 14,
+      "relationships": 32,
+      "renderedNodes": 14,
+      "renderedRelationships": 32,
+      "errors": []
+    },
+    {
+      "view": "D05",
+      "evidence": true,
+      "nodes": 18,
+      "relationships": 46,
+      "renderedNodes": 18,
+      "renderedRelationships": 46,
+      "errors": []
+    },
+    {
+      "view": "D06",
+      "evidence": true,
+      "nodes": 16,
+      "relationships": 41,
+      "renderedNodes": 16,
+      "renderedRelationships": 41,
+      "errors": []
+    },
+    {
+      "view": "all",
+      "evidence": true,
+      "nodes": 56,
+      "relationships": 290,
+      "renderedNodes": 56,
+      "renderedRelationships": 290,
+      "errors": []
+    },
+    {
+      "view": "basic",
+      "evidence": true,
+      "nodes": 56,
+      "relationships": 290,
+      "renderedNodes": 56,
+      "renderedRelationships": 290,
+      "errors": []
+    }
+  ],
+  "detailChecks": {
+    "columnsVisible": true,
+    "edgeUID": true,
+    "hasLocalLength": true,
+    "hasSource": true,
+    "coverage": 56,
+    "queryRows": 28,
+    "errors": []
+  },
+  "passed": true
+}

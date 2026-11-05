@@ -1,0 +1,18 @@
+{
+  "version": "V01-unified-2.0",
+  "dimensionUids": [
+    "V01:B01",
+    "V01:B02",
+    "V01:S01",
+    "V01:S02",
+    "V01:S03",
+    "V01:S04",
+    "V01:S05",
+    "V01:S06"
+  ],
+  "externalUids": [
+    "V01:S04",
+    "V01:S05",
+    "V01:S06"
+  ]
+}

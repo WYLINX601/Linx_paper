@@ -1,0 +1,320 @@
+- img "古书观止"
+- banner:
+  - navigation:
+    - link "古书观止 - 免费地方志家谱PDF下载 | 明清古籍数字资源库":
+      - /url: https://www.clc86.com
+      - img "古书观止 - 免费地方志家谱PDF下载 | 明清古籍数字资源库"
+    - list:
+      - link "首页":
+        - /url: https://www.clc86.com/
+        - generic: 首页
+      - link "地方志":
+        - /url: /library
+        - generic: 地方志
+      - link "地名库":
+        - /url: /regions
+        - generic: 地名库
+      - link "地方文化":
+        - /url: /culture
+        - generic: 地方文化
+      - link "历史人物":
+        - /url: /person
+        - generic: 历史人物
+      - link "地方特产":
+        - /url: /produce
+        - generic: 地方特产
+      - link "使用指南":
+        - /url: https://www.clc86.com/1.html
+        - generic: 使用指南
+    - link "登录":
+      - /url: javascript:;
+      - generic: 
+      - text: 登录
+    - generic:  
+    - list:
+      - link:
+        - /url: javascript:;
+      - link:
+        - /url: javascript:;
+- generic:  
+- main:
+  - navigation "面包屑":
+    - generic: 
+    - link "首页":
+      - /url: https://www.clc86.com
+    - generic: /
+    - link "古籍资源库":
+      - /url: https://www.clc86.com/library
+    - generic: /
+    - link "浙江":
+      - /url: https://www.clc86.com/library/zhejiang
+    - generic: /
+    - generic: 重修景宁县志（乾隆）
+  - heading "重修景宁县志（乾隆四十三年）张九华修吴嗣范纂 - 十二卷首一卷" [level=1]
+  - generic: 重修景宁县志（乾隆）.pdf
+  - generic: 
+  - text: 清乾隆刻本
+  - link " 浙江地方志":
+    - /url: https://www.clc86.com/library/zhejiang
+    - generic: 
+    - text: 浙江地方志
+  - link " 助站书友直接查看":
+    - /url: "#zpb-sponsor-card"
+    - generic: 
+    - text: 助站书友直接查看
+  - generic: 
+  - text: 网盘有效
+  - generic: 384 页
+  - generic: 页数
+  - generic: 168.2 MB
+  - generic: 大小
+  - generic: 1 个
+  - generic: 文件
+  - generic: 59 次
+  - generic: 下载
+  - link "在线阅读":
+    - /url: https://www.clc86.com/read/5113/
+    - generic: 
+    - text: 在线阅读
+  - link "本地下载":
+    - /url: javascript:;
+    - generic: 
+    - text: 本地下载
+  - generic: 
+  - text: 仅供学术研究，严禁商业用途
+  - img "重修景宁县志 第 1 页"
+  - text: 
+  - button "第 1 页":
+    - img "第 1 页"
+  - button "第 2 页":
+    - img "第 2 页"
+  - button "第 3 页":
+    - img "第 3 页"
+  - button "第 4 页":
+    - img "第 4 页"
+  - button "第 5 页":
+    - img "第 5 页"
+  - button "第 6 页":
+    - img "第 6 页"
+  - button "第 7 页":
+    - img "第 7 页"
+  - button "第 8 页":
+    - img "第 8 页"
+  - button "往后":
+    - generic: 
+  - generic: 〈重修景宁县志〉卷首 · 清乾隆刻本
+  - generic: 观止
+  - article:
+    - heading "获取这个资源" [level=2]
+    - generic: 登录后可选
+    - generic: 
+    - heading "请登录获取下载" [level=3]
+    - paragraph: 网盘链接可直接取用；提取码登录后显示。
+    - generic: 
+    - text: 网盘链接
+    - link "https://pan.baidu.com/s/1-kd1CyXdSnc88hD2Md4VIQ":
+      - /url: https://pan.baidu.com/s/1-kd1CyXdSnc88hD2Md4VIQ
+    - button "复制网盘链接":
+      - generic: 
+    - link "登录后免费下载":
+      - /url: javascript:;
+      - generic: 
+      - text: 登录后免费下载
+    - heading "文件清单" [level=2]
+    - generic: 1 个文件
+    - generic: 1个文件
+    - generic: 登录后查看下载次数
+    - generic: PDF
+    - generic "0604重修景宁县志（乾隆）.pdf"
+    - generic: 全书页码 1-384
+    - generic: 384 页
+    - generic: 168.2 MB
+    - generic: 
+    - text: 因服务器带宽有限，下载速度可能会随服务器网络环境有所波动
+    - heading "基本信息" [level=2]
+    - generic: 版本 · 著录项
+    - generic: 分类
+    - link "浙江地方志":
+      - /url: https://www.clc86.com/library/zhejiang
+    - generic: 地域
+    - link "浙江省":
+      - /url: https://www.clc86.com/regions/330000/
+    - generic: 年代
+    - generic: 清乾隆四十三年（1778年）
+    - generic: 版本
+    - generic: 清乾隆刻本
+    - generic: 编纂者
+    - generic: 张九华修 吴嗣范纂
+    - generic: 页数
+    - generic: 384 页
+    - generic: 大小
+    - generic: 168.2 MB
+    - generic: 文件数
+    - generic: 1 个
+    - generic: 行政代码
+    - generic: "330000"
+    - generic: 收录时间
+    - generic: 2025-11-02
+    - generic: 更新于
+    - generic: 2026-10-21
+    - heading "资源简介" [level=2]
+    - generic: 可折叠
+    - heading "基本信息" [level=4]
+    - paragraph: 《重修景宁县志》是清乾隆四十三年（1778年）刻本，十二卷首一卷。张九华修、吴嗣范纂。
+    - heading "内容概述" [level=4]
+    - paragraph: 全志记景宁的建置沿革、疆域山川、食货田赋、秩官选举、人物艺文，记载了英川堰等水利信息。
+    - heading "地方背景" [level=4]
+    - paragraph: 景宁在浙江，隶处州府，今属景宁畲族自治县，是全国唯一的畲族自治县。景宁县志在清代重修过几次，雍正十三年（1735年）编修过一部，乾隆四十三年张九华修、吴嗣范纂的是其中一部。
+    - heading "史料价值" [level=4]
+    - paragraph: 这部志是清乾隆四十三年（1778年）刻本，十二卷首一卷，张九华修、吴嗣范纂。记景宁从建置到乾隆年间的地理、物产、秩官、人物、艺文，是研究景宁（丽水）清代历史、畲族文化的一部重要文献。
+    - heading "版本流传" [level=4]
+    - paragraph: 清乾隆四十三年（1778年）刻本，十二卷首一卷。
+    - button "展开全文":
+      - generic: 展开全文
+      - generic: 
+    - heading "目录" [level=2]
+    - generic: 分册 · 页码
+    - list:
+      - generic: 
+      - text: 0604重修景宁县志（乾隆）
+      - generic: 384 页
+    - heading "地域相关信息" [level=2]
+    - link "进入浙江省地名页":
+      - /url: https://www.clc86.com/regions/330000/
+      - text: 进入浙江省地名页
+      - generic: 
+    - heading "相关资源" [level=2]
+    - generic: 同分类 · 猜你还需要
+    - link "淳安县志 淳安县志（光绪） 清光绪十年（1884年） · 806 页 · 372.4 MB":
+      - /url: https://www.clc86.com/down/4693
+      - img "淳安县志"
+      - generic "淳安县志（光绪）"
+      - generic: 清光绪十年（1884年） · 806 页 · 372.4 MB
+    - link "鄞县通志 鄞县通志（民国）03 政教志 甲乙丙 民国二十二年（1933年）启动编纂 · 582 页 · 146.7 MB":
+      - /url: https://www.clc86.com/down/5049
+      - img "鄞县通志"
+      - generic "鄞县通志（民国）03 政教志 甲乙丙"
+      - generic: 民国二十二年（1933年）启动编纂 · 582 页 · 146.7 MB
+    - link "嘉府典故纂要 嘉府典故纂要（乾隆） 清乾隆五十四年（1789年） · 148 页 · 46.5 MB":
+      - /url: https://www.clc86.com/down/4782
+      - img "嘉府典故纂要"
+      - generic "嘉府典故纂要（乾隆）"
+      - generic: 清乾隆五十四年（1789年） · 148 页 · 46.5 MB
+    - link "宝前两溪志略 宝前两溪志略（嘉庆） 清嘉庆年间 · 151 页 · 73.4 MB":
+      - /url: https://www.clc86.com/down/4672
+      - img "宝前两溪志略"
+      - generic "宝前两溪志略（嘉庆）"
+      - generic: 清嘉庆年间 · 151 页 · 73.4 MB
+    - heading "版权声明与下载须知" [level=2]
+    - generic: 免责声明
+    - paragraph: 📚 资源来源：本站仅收录公共版权书籍，资源来自合法购买、网络公开渠道收集、网友捐赠，如有侵权请发邮件联系我们。
+    - paragraph:
+      - strong: 🎓 使用限制
+      - text: ：仅供个人学习、学术研究使用，严禁用于任何商业用途。
+    - paragraph:
+      - strong: 💡 温馨提示
+      - text: ：下载后请在24小时内删除，如需长期保存请支持正版。
+    - complementary:
+      - heading "速览" [level=3]
+      - list:
+        - generic: 分类
+        - link "浙江地方志":
+          - /url: https://www.clc86.com/library/zhejiang
+        - generic: 地域
+        - link "浙江省":
+          - /url: https://www.clc86.com/regions/330000/
+        - generic: 年代
+        - generic: 清乾隆四十三年（1778年）
+        - generic: 版本
+        - generic: 清乾隆刻本
+        - generic: 编纂者
+        - generic: 张九华修 吴嗣范纂
+        - generic: 页数
+        - generic: 384 页
+        - generic: 文件大小
+        - generic: 168.2 MB
+        - generic: 文件
+        - generic: 1 个
+        - generic: 收录时间
+        - generic: 2025-11-02
+        - generic: 更新于
+        - generic: 2026-10-21
+      - heading "获取方式" [level=3]
+      - list:
+        - link "本地下载通道 助站书友可直接下载":
+          - /url: "#zpb-sponsor-card"
+          - generic: 本地下载通道
+          - generic: 助站书友可直接下载
+        - link "在线阅读 无需下载":
+          - /url: https://www.clc86.com/read/5113/
+          - generic: 在线阅读
+          - generic: 无需下载
+        - link "本地下载 站内文件 · 登录后可用":
+          - /url: "#zpb-sec-files"
+          - generic: 本地下载
+          - generic: 站内文件 · 登录后可用
+      - heading "同地域志书浙江" [level=3]
+      - list:
+        - link "梦粱录 梦粱录（南宋 清刻本） 南宋 · 290 页":
+          - /url: https://www.clc86.com/down/4840
+          - img "梦粱录"
+          - generic "梦粱录（南宋 清刻本）"
+          - generic: 南宋 · 290 页
+        - link "浙江全省舆图并水陆道里记 浙江全省舆图并水陆道里记（光绪）1-6 清光绪二十年（1894年） · 668 页":
+          - /url: https://www.clc86.com/down/5092
+          - img "浙江全省舆图并水陆道里记"
+          - generic "浙江全省舆图并水陆道里记（光绪）1-6"
+          - generic: 清光绪二十年（1894年） · 668 页
+        - link "赤城志 赤城志（嘉定） 南宋嘉定十六年（1223年） · 644 页":
+          - /url: https://www.clc86.com/down/4684
+          - img "赤城志"
+          - generic "赤城志（嘉定）"
+          - generic: 南宋嘉定十六年（1223年） · 644 页
+        - link "浙江通志稿 浙江通志稿（民国）044-050册 民国三十二年（1943年）至三十八年（1949年） · 727 页":
+          - /url: https://www.clc86.com/down/5095
+          - img "浙江通志稿"
+          - generic "浙江通志稿（民国）044-050册"
+          - generic: 民国三十二年（1943年）至三十八年（1949年） · 727 页
+      - link "同类古籍 533 部":
+        - /url: https://www.clc86.com/library/zhejiang
+        - text: 同类古籍 533 部
+        - generic: 
+- contentinfo:
+  - list:
+    - paragraph:
+      - link "古书观止 - 免费地方志家谱PDF下载 | 明清古籍数字资源库":
+        - /url: https://www.clc86.com
+        - img "古书观止 - 免费地方志家谱PDF下载 | 明清古籍数字资源库"
+    - generic: 古书观止 专注于地方志、家谱族谱、经史子集等明清珍贵古籍的数字化整理与免费分享，便捷的资源检索功能，关注公众号即可免费获取，欢迎您的探索与支持
+    - paragraph:
+      - link "友链申请":
+        - /url: https://www.clc86.com
+      - link "免责声明":
+        - /url: https://www.clc86.com
+      - link "广告合作":
+        - /url: https://www.clc86.com
+      - link "关于我们":
+        - /url: https://www.clc86.com
+    - text: Copyright © 2025 ·
+    - link "古书观止":
+      - /url: https://www.clc86.com
+    - text: ·
+    - link "湘ICP备2024060170号":
+      - /url: http://beian.miit.gov.cn/
+    - text: ·
+    - link "公安备案 湘公网安备43132202001098":
+      - /url: https://beian.mps.gov.cn/#/query/webSearch?code=43132202001098
+      - img "公安备案"
+      - text: 湘公网安备43132202001098
+    - link:
+      - /url: javascript:;
+    - link:
+      - /url: https://wpa.qq.com/msgrd?v=3&uin=498666161&site=qq&menu=yes
+    - link:
+      - /url: mailto:498666161@QQ.COM
+    - img "扫码关注公众微信号-古书观止"
+    - generic: 扫码关注公众微信号
+- generic "关于古书观止":
+- generic: 
+- generic: 
+- text:       

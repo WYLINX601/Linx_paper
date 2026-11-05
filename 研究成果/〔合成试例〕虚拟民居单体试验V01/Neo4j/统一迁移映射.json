@@ -1,0 +1,6441 @@
+{
+  "version": "V01-unified-2.0",
+  "sourceHashes": [
+    {
+      "name": "v01.json",
+      "sha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67",
+      "archivedAt": "archive/2026-10-30-统一原型合并前/原件/v01.json"
+    },
+    {
+      "name": "d01.json",
+      "sha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+      "archivedAt": "archive/2026-10-30-统一原型合并前/原件/d01.json"
+    },
+    {
+      "name": "d03.json",
+      "sha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+      "archivedAt": "archive/2026-10-30-统一原型合并前/原件/d03.json"
+    }
+  ],
+  "decision": "用户授权统一原型，非自动实体sameAs",
+  "nodes": [
+    {
+      "oldUid": "V01:B01",
+      "currentUid": "V01:B01",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:S01",
+      "currentUid": "V01:S01",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:S02",
+      "currentUid": "V01:S02",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:S03",
+      "currentUid": "V01:S03",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:S04",
+      "currentUid": "V01:S04",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:S05",
+      "currentUid": "V01:S05",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:S06",
+      "currentUid": "V01:S06",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W01",
+      "currentUid": "V01:W01",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W02",
+      "currentUid": "V01:W02",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W03",
+      "currentUid": "V01:W03",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W04",
+      "currentUid": "V01:W04",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W05",
+      "currentUid": "V01:W05",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W06",
+      "currentUid": "V01:W06",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W07",
+      "currentUid": "V01:W07",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W08",
+      "currentUid": "V01:W08",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W09",
+      "currentUid": "V01:W09",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:W10",
+      "currentUid": "V01:W10",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:C01",
+      "currentUid": "V01:C01",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:C02",
+      "currentUid": "V01:C02",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:C03",
+      "currentUid": "V01:C03",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:C04",
+      "currentUid": "V01:C04",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:RF01",
+      "currentUid": "V01:RF01",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I01",
+      "currentUid": "V01:I01",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I02",
+      "currentUid": "V01:I02",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I03",
+      "currentUid": "V01:I03",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I04",
+      "currentUid": "V01:I04",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I05",
+      "currentUid": "V01:I05",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I06",
+      "currentUid": "V01:I06",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I07",
+      "currentUid": "V01:I07",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I08",
+      "currentUid": "V01:I08",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I09",
+      "currentUid": "V01:I09",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:I10",
+      "currentUid": "V01:I10",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:EV01",
+      "currentUid": "V01:EV01",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:EV02",
+      "currentUid": "V01:EV02",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:EV03",
+      "currentUid": "V01:EV03",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:EV04",
+      "currentUid": "V01:EV04",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:EV05",
+      "currentUid": "V01:EV05",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:EV06",
+      "currentUid": "V01:EV06",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:EV07",
+      "currentUid": "V01:EV07",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:EV08",
+      "currentUid": "V01:EV08",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:RS01",
+      "currentUid": "V01:RS01",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:RS02",
+      "currentUid": "V01:RS02",
+      "action": "preserve-prototype-identity",
+      "sameAs": true
+    },
+    {
+      "oldUid": "V01:SOURCE",
+      "currentUid": "V01:SOURCE",
+      "action": "refresh-canonical-snapshot",
+      "sameAs": true
+    },
+    {
+      "oldUid": "D01V01:CASE",
+      "currentUid": "V01:SOURCE",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:U01",
+      "currentUid": "V01:U01",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:B01",
+      "currentUid": "V01:B01",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:B02",
+      "currentUid": "V01:B02",
+      "action": "transfer-existing-annex-setting",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:S01",
+      "currentUid": "V01:S05",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:D01",
+      "currentUid": "V01:DATUM01",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:EV01",
+      "currentUid": "V01:EV09",
+      "action": "retain-distinct-archived-source",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:R01",
+      "currentUid": "V01:DIM-R01",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:R02",
+      "currentUid": "V01:DIM-R02",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:R03",
+      "currentUid": "V01:DIM-R03",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D01V01:C01",
+      "currentUid": "V01:CMP01",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "不同合成试例身份，按用户授权接续表达角色；不继承冲突值"
+    },
+    {
+      "oldUid": "D03V01:A-BE",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:A-BN",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:A-BW",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:A-C01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:A-I01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:A-U01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:A-W01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:B-BE",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:B-BN",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:B-BW",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:B-C01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:B-I01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:B-U01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:B-W01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:C-BE",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:C-BN",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:C-C01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:C-I01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:C-U01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:C-W01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:D-BE",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:D-BN",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:D-C01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:D-I01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:D-U01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:D-W01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-B01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-B02",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-C01",
+      "currentUid": "V01:S05",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-C02",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-G01",
+      "currentUid": "V01:S04",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-I01",
+      "currentUid": "V01:I05",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-I02",
+      "currentUid": "V01:I04",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-I03",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-I04",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-P01",
+      "currentUid": "V01:S06",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-U01",
+      "currentUid": "V01:U01",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:E-W01",
+      "currentUid": "V01:W10",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:R01",
+      "currentUid": null,
+      "action": "archived-fixture-not-active-prototype",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    },
+    {
+      "oldUid": "D03V01:R02",
+      "currentUid": "V01:D03-R01",
+      "action": "capability-role-rebased-not-entity-equivalence",
+      "sameAs": false,
+      "note": "旧布局和数值留完整归档；不补造V01后院或把类型变体并成同一实体"
+    }
+  ],
+  "relationships": [
+    {
+      "uid": "V01:R001",
+      "before": {
+        "id": "R001",
+        "type": "PART_OF",
+        "source": "S01",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R001",
+        "type": "BOT_HAS_SPACE",
+        "source": "B01",
+        "target": "S01",
+        "properties": {
+          "botPropertyIri": "https://w3id.org/bot#hasSpace",
+          "semanticOrigin": "BOT-adoption",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/0",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/0"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R002",
+      "before": {
+        "id": "R002",
+        "type": "PART_OF",
+        "source": "S02",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R002",
+        "type": "BOT_HAS_SPACE",
+        "source": "B01",
+        "target": "S02",
+        "properties": {
+          "botPropertyIri": "https://w3id.org/bot#hasSpace",
+          "semanticOrigin": "BOT-adoption",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/1",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/1"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R003",
+      "before": {
+        "id": "R003",
+        "type": "PART_OF",
+        "source": "S03",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R003",
+        "type": "BOT_HAS_SPACE",
+        "source": "B01",
+        "target": "S03",
+        "properties": {
+          "botPropertyIri": "https://w3id.org/bot#hasSpace",
+          "semanticOrigin": "BOT-adoption",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/2",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/2"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R004",
+      "before": {
+        "id": "R004",
+        "type": "PART_OF",
+        "source": "S04",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R004",
+        "type": "BOT_HAS_SPACE",
+        "source": "B01",
+        "target": "S04",
+        "properties": {
+          "botPropertyIri": "https://w3id.org/bot#hasSpace",
+          "semanticOrigin": "BOT-adoption",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/3",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/3"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R006",
+      "before": {
+        "id": "R006",
+        "type": "PART_OF",
+        "source": "W01",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R006",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W01",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/5",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/5"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R007",
+      "before": {
+        "id": "R007",
+        "type": "PART_OF",
+        "source": "W02",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R007",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W02",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/6",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/6"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R008",
+      "before": {
+        "id": "R008",
+        "type": "PART_OF",
+        "source": "W03",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R008",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W03",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/7",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/7"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R009",
+      "before": {
+        "id": "R009",
+        "type": "PART_OF",
+        "source": "W04",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R009",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W04",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/8",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/8"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R010",
+      "before": {
+        "id": "R010",
+        "type": "PART_OF",
+        "source": "W05",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R010",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W05",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/9",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/9"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R011",
+      "before": {
+        "id": "R011",
+        "type": "PART_OF",
+        "source": "W06",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R011",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W06",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/10",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/10"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R012",
+      "before": {
+        "id": "R012",
+        "type": "PART_OF",
+        "source": "W07",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R012",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W07",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/11",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/11"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R013",
+      "before": {
+        "id": "R013",
+        "type": "PART_OF",
+        "source": "W08",
+        "target": "S05",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R013",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W08",
+        "target": "U01",
+        "properties": {
+          "role": "courtyard-enclosure-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/12",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/12"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R014",
+      "before": {
+        "id": "R014",
+        "type": "PART_OF",
+        "source": "W09",
+        "target": "S05",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R014",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W09",
+        "target": "U01",
+        "properties": {
+          "role": "courtyard-enclosure-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/13",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/13"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R015",
+      "before": {
+        "id": "R015",
+        "type": "PART_OF",
+        "source": "W10",
+        "target": "S05",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R015",
+        "type": "MEMBER_OF_ZONE",
+        "source": "W10",
+        "target": "U01",
+        "properties": {
+          "role": "courtyard-enclosure-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/14",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/14"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R016",
+      "before": {
+        "id": "R016",
+        "type": "PART_OF",
+        "source": "C01",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R016",
+        "type": "MEMBER_OF_ZONE",
+        "source": "C01",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/15",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/15"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R017",
+      "before": {
+        "id": "R017",
+        "type": "PART_OF",
+        "source": "C02",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R017",
+        "type": "MEMBER_OF_ZONE",
+        "source": "C02",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/16",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/16"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R018",
+      "before": {
+        "id": "R018",
+        "type": "PART_OF",
+        "source": "C03",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R018",
+        "type": "MEMBER_OF_ZONE",
+        "source": "C03",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/17",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/17"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R019",
+      "before": {
+        "id": "R019",
+        "type": "PART_OF",
+        "source": "C04",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R019",
+        "type": "MEMBER_OF_ZONE",
+        "source": "C04",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/18",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/18"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R020",
+      "before": {
+        "id": "R020",
+        "type": "PART_OF",
+        "source": "RF01",
+        "target": "B01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R020",
+        "type": "MEMBER_OF_ZONE",
+        "source": "RF01",
+        "target": "B01",
+        "properties": {
+          "role": "building-member",
+          "semanticOrigin": "research-extension",
+          "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/19",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/19"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R021",
+      "before": {
+        "id": "R021",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "C01",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R021",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "C01",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算",
+          "researchScopeStatus": "legacy-synthetic-retained-not-current-analysis-no-structural-validation",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/20",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/20"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R022",
+      "before": {
+        "id": "R022",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "C02",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R022",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "C02",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算",
+          "researchScopeStatus": "legacy-synthetic-retained-not-current-analysis-no-structural-validation",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/21",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/21"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R023",
+      "before": {
+        "id": "R023",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "C03",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R023",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "C03",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算",
+          "researchScopeStatus": "legacy-synthetic-retained-not-current-analysis-no-structural-validation",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/22",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/22"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R024",
+      "before": {
+        "id": "R024",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "C04",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R024",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "C04",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算",
+          "researchScopeStatus": "legacy-synthetic-retained-not-current-analysis-no-structural-validation",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/23",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/23"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R025",
+      "before": {
+        "id": "R025",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "W01",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R025",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "W01",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算",
+          "researchScopeStatus": "legacy-synthetic-retained-not-current-analysis-no-structural-validation",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/24",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/24"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R026",
+      "before": {
+        "id": "R026",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "W02",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R026",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "W02",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算",
+          "researchScopeStatus": "legacy-synthetic-retained-not-current-analysis-no-structural-validation",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/25",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/25"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R027",
+      "before": {
+        "id": "R027",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "W03",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R027",
+        "type": "SUPPORTS_SYSTEM",
+        "source": "W03",
+        "target": "RF01",
+        "properties": {
+          "meaning": "合成设计指定参与支承屋顶系统；梁架等中间构件未展开，不等于直接接触或结构验算",
+          "researchScopeStatus": "legacy-synthetic-retained-not-current-analysis-no-structural-validation",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/26",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/26"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R028",
+      "before": {
+        "id": "R028",
+        "type": "INTERFACE_OF",
+        "source": "I01",
+        "target": "S01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R028",
+        "type": "INTERFACE_OF",
+        "source": "I01",
+        "target": "S01",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/27",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/27"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R029",
+      "before": {
+        "id": "R029",
+        "type": "INTERFACE_OF",
+        "source": "I01",
+        "target": "S04",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R029",
+        "type": "INTERFACE_OF",
+        "source": "I01",
+        "target": "S04",
+        "properties": {
+          "role": "side-b",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/28",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/28"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R030",
+      "before": {
+        "id": "R030",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S01",
+        "target": "S04",
+        "properties": {
+          "via": "I01",
+          "bidirectional": true,
+          "context": "基准情境正常步行"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "after": {
+        "id": "R030",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S01",
+        "target": "S04",
+        "properties": {
+          "via": "I01",
+          "bidirectional": true,
+          "context": "基准情境正常步行",
+          "contextId": "V01-walk-baseline",
+          "actor": "正常成人步行（旧合成情境断言）",
+          "snapshot": "V01-synthetic-T0",
+          "evidenceRole": "legacy-synthetic-passage-assertion",
+          "geometryClearanceValidated": false,
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/29",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/29"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R031",
+      "before": {
+        "id": "R031",
+        "type": "INTERFACE_OF",
+        "source": "I02",
+        "target": "S02",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R031",
+        "type": "INTERFACE_OF",
+        "source": "I02",
+        "target": "S02",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/30",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/30"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R032",
+      "before": {
+        "id": "R032",
+        "type": "INTERFACE_OF",
+        "source": "I02",
+        "target": "S01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R032",
+        "type": "INTERFACE_OF",
+        "source": "I02",
+        "target": "S01",
+        "properties": {
+          "role": "side-b",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/31",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/31"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R033",
+      "before": {
+        "id": "R033",
+        "type": "REALIZED_IN",
+        "source": "I02",
+        "target": "W04",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R033",
+        "type": "INTERFACE_OF",
+        "source": "I02",
+        "target": "W04",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体",
+          "role": "opening-host",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/32",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/32"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R034",
+      "before": {
+        "id": "R034",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S02",
+        "target": "S01",
+        "properties": {
+          "via": "I02",
+          "bidirectional": true,
+          "context": "基准情境正常步行"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "after": {
+        "id": "R034",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S02",
+        "target": "S01",
+        "properties": {
+          "via": "I02",
+          "bidirectional": true,
+          "context": "基准情境正常步行",
+          "contextId": "V01-walk-baseline",
+          "actor": "正常成人步行（旧合成情境断言）",
+          "snapshot": "V01-synthetic-T0",
+          "evidenceRole": "legacy-synthetic-passage-assertion",
+          "geometryClearanceValidated": false,
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/33",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/33"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R035",
+      "before": {
+        "id": "R035",
+        "type": "INTERFACE_OF",
+        "source": "I03",
+        "target": "S01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R035",
+        "type": "INTERFACE_OF",
+        "source": "I03",
+        "target": "S01",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/34",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/34"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R036",
+      "before": {
+        "id": "R036",
+        "type": "INTERFACE_OF",
+        "source": "I03",
+        "target": "S03",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R036",
+        "type": "INTERFACE_OF",
+        "source": "I03",
+        "target": "S03",
+        "properties": {
+          "role": "side-b",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/35",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/35"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R037",
+      "before": {
+        "id": "R037",
+        "type": "REALIZED_IN",
+        "source": "I03",
+        "target": "W05",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R037",
+        "type": "INTERFACE_OF",
+        "source": "I03",
+        "target": "W05",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体",
+          "role": "opening-host",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/36",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/36"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R038",
+      "before": {
+        "id": "R038",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S01",
+        "target": "S03",
+        "properties": {
+          "via": "I03",
+          "bidirectional": true,
+          "context": "基准情境正常步行"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "after": {
+        "id": "R038",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S01",
+        "target": "S03",
+        "properties": {
+          "via": "I03",
+          "bidirectional": true,
+          "context": "基准情境正常步行",
+          "contextId": "V01-walk-baseline",
+          "actor": "正常成人步行（旧合成情境断言）",
+          "snapshot": "V01-synthetic-T0",
+          "evidenceRole": "legacy-synthetic-passage-assertion",
+          "geometryClearanceValidated": false,
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/37",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/37"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R039",
+      "before": {
+        "id": "R039",
+        "type": "INTERFACE_OF",
+        "source": "I04",
+        "target": "S04",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R039",
+        "type": "INTERFACE_OF",
+        "source": "I04",
+        "target": "S04",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/38",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/38"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R040",
+      "before": {
+        "id": "R040",
+        "type": "INTERFACE_OF",
+        "source": "I04",
+        "target": "S05",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R040",
+        "type": "INTERFACE_OF",
+        "source": "I04",
+        "target": "S05",
+        "properties": {
+          "role": "side-b",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/39",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/39"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R041",
+      "before": {
+        "id": "R041",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S04",
+        "target": "S05",
+        "properties": {
+          "via": "I04",
+          "bidirectional": true,
+          "context": "基准情境正常步行"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "after": {
+        "id": "R041",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S04",
+        "target": "S05",
+        "properties": {
+          "via": "I04",
+          "bidirectional": true,
+          "context": "基准情境正常步行",
+          "contextId": "V01-walk-baseline",
+          "actor": "正常成人步行（旧合成情境断言）",
+          "snapshot": "V01-synthetic-T0",
+          "evidenceRole": "legacy-synthetic-passage-assertion",
+          "geometryClearanceValidated": false,
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/40",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/40"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R042",
+      "before": {
+        "id": "R042",
+        "type": "INTERFACE_OF",
+        "source": "I05",
+        "target": "S05",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R042",
+        "type": "INTERFACE_OF",
+        "source": "I05",
+        "target": "S05",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/41",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/41"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R043",
+      "before": {
+        "id": "R043",
+        "type": "INTERFACE_OF",
+        "source": "I05",
+        "target": "S06",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R043",
+        "type": "INTERFACE_OF",
+        "source": "I05",
+        "target": "S06",
+        "properties": {
+          "role": "side-b",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/42",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/42"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R044",
+      "before": {
+        "id": "R044",
+        "type": "REALIZED_IN",
+        "source": "I05",
+        "target": "W10",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R044",
+        "type": "INTERFACE_OF",
+        "source": "I05",
+        "target": "W10",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体",
+          "role": "opening-host",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/43",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/43"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R045",
+      "before": {
+        "id": "R045",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S05",
+        "target": "S06",
+        "properties": {
+          "via": "I05",
+          "bidirectional": true,
+          "context": "基准情境正常步行"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "after": {
+        "id": "R045",
+        "type": "DIRECT_ACCESS_TO",
+        "source": "S05",
+        "target": "S06",
+        "properties": {
+          "via": "I05",
+          "bidirectional": true,
+          "context": "基准情境正常步行",
+          "contextId": "V01-walk-baseline",
+          "actor": "正常成人步行（旧合成情境断言）",
+          "snapshot": "V01-synthetic-T0",
+          "evidenceRole": "legacy-synthetic-passage-assertion",
+          "geometryClearanceValidated": false,
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/44",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/44"
+        },
+        "status": "rule_derived",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R046",
+      "before": {
+        "id": "R046",
+        "type": "INTERFACE_OF",
+        "source": "I06",
+        "target": "S02",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R046",
+        "type": "INTERFACE_OF",
+        "source": "I06",
+        "target": "S02",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/45",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/45"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R047",
+      "before": {
+        "id": "R047",
+        "type": "INTERFACE_OF",
+        "source": "I06",
+        "target": "S04",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R047",
+        "type": "INTERFACE_OF",
+        "source": "I06",
+        "target": "S04",
+        "properties": {
+          "role": "side-b",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/46",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/46"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R048",
+      "before": {
+        "id": "R048",
+        "type": "REALIZED_IN",
+        "source": "I06",
+        "target": "W06",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R048",
+        "type": "INTERFACE_OF",
+        "source": "I06",
+        "target": "W06",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体",
+          "role": "opening-host",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/47",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/47"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R049",
+      "before": {
+        "id": "R049",
+        "type": "INTERFACE_OF",
+        "source": "I07",
+        "target": "S03",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R049",
+        "type": "INTERFACE_OF",
+        "source": "I07",
+        "target": "S03",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/48",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/48"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R050",
+      "before": {
+        "id": "R050",
+        "type": "INTERFACE_OF",
+        "source": "I07",
+        "target": "S04",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R050",
+        "type": "INTERFACE_OF",
+        "source": "I07",
+        "target": "S04",
+        "properties": {
+          "role": "side-b",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/49",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/49"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R051",
+      "before": {
+        "id": "R051",
+        "type": "REALIZED_IN",
+        "source": "I07",
+        "target": "W07",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R051",
+        "type": "INTERFACE_OF",
+        "source": "I07",
+        "target": "W07",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体",
+          "role": "opening-host",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/50",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/50"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R052",
+      "before": {
+        "id": "R052",
+        "type": "INTERFACE_OF",
+        "source": "I08",
+        "target": "S02",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R052",
+        "type": "INTERFACE_OF",
+        "source": "I08",
+        "target": "S02",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/51",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/51"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R053",
+      "before": {
+        "id": "R053",
+        "type": "REALIZED_IN",
+        "source": "I08",
+        "target": "W03",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R053",
+        "type": "INTERFACE_OF",
+        "source": "I08",
+        "target": "W03",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体",
+          "role": "opening-host",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/52",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/52"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R054",
+      "before": {
+        "id": "R054",
+        "type": "INTERFACE_OF",
+        "source": "I09",
+        "target": "S01",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R054",
+        "type": "INTERFACE_OF",
+        "source": "I09",
+        "target": "S01",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/53",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/53"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R055",
+      "before": {
+        "id": "R055",
+        "type": "REALIZED_IN",
+        "source": "I09",
+        "target": "W03",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R055",
+        "type": "INTERFACE_OF",
+        "source": "I09",
+        "target": "W03",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体",
+          "role": "opening-host",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/54",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/54"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R056",
+      "before": {
+        "id": "R056",
+        "type": "INTERFACE_OF",
+        "source": "I10",
+        "target": "S03",
+        "properties": {},
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R056",
+        "type": "INTERFACE_OF",
+        "source": "I10",
+        "target": "S03",
+        "properties": {
+          "role": "side-a",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/55",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/55"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R057",
+      "before": {
+        "id": "R057",
+        "type": "REALIZED_IN",
+        "source": "I10",
+        "target": "W03",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "after": {
+        "id": "R057",
+        "type": "INTERFACE_OF",
+        "source": "I10",
+        "target": "W03",
+        "properties": {
+          "meaning": "界面位于该墙的开口处，不等同墙整体",
+          "role": "opening-host",
+          "semanticOrigin": "BOT-aligned-with-research-role",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/56",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/56"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01"
+        ]
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R059",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S01",
+        "target": "W03",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R059"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S01",
+        "target": "W03",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/58",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/58"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R059"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R060",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S01",
+        "target": "W04",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R060"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S01",
+        "target": "W04",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/59",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/59"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R060"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R061",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S01",
+        "target": "W05",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R061"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S01",
+        "target": "W05",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/60",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/60"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R061"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R062",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S02",
+        "target": "W01",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R062"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S02",
+        "target": "W01",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/61",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/61"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R062"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R063",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S02",
+        "target": "W03",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R063"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S02",
+        "target": "W03",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/62",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/62"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R063"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R064",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S02",
+        "target": "W04",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R064"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S02",
+        "target": "W04",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/63",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/63"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R064"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R065",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S02",
+        "target": "W06",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R065"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S02",
+        "target": "W06",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/64",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/64"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R065"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R066",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S03",
+        "target": "W02",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R066"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S03",
+        "target": "W02",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/65",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/65"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R066"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R067",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S03",
+        "target": "W03",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R067"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S03",
+        "target": "W03",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/66",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/66"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R067"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R068",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S03",
+        "target": "W05",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R068"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S03",
+        "target": "W05",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/67",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/67"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R068"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R069",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S03",
+        "target": "W07",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R069"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S03",
+        "target": "W07",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/68",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/68"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R069"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R070",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S04",
+        "target": "W01",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R070"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S04",
+        "target": "W01",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/69",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/69"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R070"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R071",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S04",
+        "target": "W02",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R071"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S04",
+        "target": "W02",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/70",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/70"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R071"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R072",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S04",
+        "target": "W06",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R072"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S04",
+        "target": "W06",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/71",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/71"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R072"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R073",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S04",
+        "target": "W07",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R073"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S04",
+        "target": "W07",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "not-localized",
+          "semanticOrigin": "research-extension",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/72",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/72"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R073"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R074",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S05",
+        "target": "W08",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R074"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S05",
+        "target": "W08",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "localized-by-existing-geometry",
+          "semanticOrigin": "research-extension",
+          "boundaryId": "W",
+          "analysisSliceZM": 1.0,
+          "geometryVersion": "V01-unified-2.0",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/73",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/73"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R074"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R075",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S05",
+        "target": "W09",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R075"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S05",
+        "target": "W09",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "localized-by-existing-geometry",
+          "semanticOrigin": "research-extension",
+          "boundaryId": "E",
+          "analysisSliceZM": 1.0,
+          "geometryVersion": "V01-unified-2.0",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/74",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/74"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R075"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    },
+    {
+      "uid": "V01:R076",
+      "before": {
+        "type": "BOUNDED_BY",
+        "source": "S05",
+        "target": "W10",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R076"
+      },
+      "after": {
+        "type": "BOUNDARY_PARTICIPANT",
+        "source": "S05",
+        "target": "W10",
+        "properties": {
+          "extent": "该墙承担部分空间边界；墙上可有另行记录的开口",
+          "participantRole": "wall-boundary",
+          "participantKind": "wall",
+          "scope": "已声明空间边界的部分由该墙界定；未细化者不声称完整边段或三维接触",
+          "rangeState": "localized-by-existing-geometry",
+          "semanticOrigin": "research-extension",
+          "boundaryId": "S",
+          "analysisSliceZM": 1.0,
+          "geometryVersion": "V01-unified-2.0",
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.0",
+          "assertionLocator": "/relationships/75",
+          "evidenceRole": "synthetic_assignment",
+          "sourceUid": "V01:EV01",
+          "sourceVersion": "V01-unified-2.0",
+          "locator": "/relationships/75"
+        },
+        "status": "synthetic_assignment",
+        "evidence": [
+          "EV01",
+          "EV02"
+        ],
+        "id": "R076"
+      },
+      "action": "retain-relationship-identity-and-rewrite-semantics"
+    }
+  ],
+  "relationshipInventory": [
+    {
+      "oldUid": "D01V01:E001",
+      "oldType": "DESCRIBES",
+      "oldSource": "D01V01:CASE",
+      "oldTarget": "D01V01:U01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E002",
+      "oldType": "PROVIDES_SOURCE",
+      "oldSource": "D01V01:CASE",
+      "oldTarget": "D01V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E003",
+      "oldType": "DECLARES_RULE",
+      "oldSource": "D01V01:CASE",
+      "oldTarget": "D01V01:R01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E004",
+      "oldType": "DECLARES_RULE",
+      "oldSource": "D01V01:CASE",
+      "oldTarget": "D01V01:R02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E005",
+      "oldType": "DECLARES_RULE",
+      "oldSource": "D01V01:CASE",
+      "oldTarget": "D01V01:R03",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E006",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D01V01:U01",
+      "oldTarget": "D01V01:B01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E007",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D01V01:U01",
+      "oldTarget": "D01V01:B02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E008",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D01V01:U01",
+      "oldTarget": "D01V01:S01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E010",
+      "oldType": "USES_DATUM",
+      "oldSource": "D01V01:B01",
+      "oldTarget": "D01V01:D01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E011",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D01V01:B01",
+      "oldTarget": "D01V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E013",
+      "oldType": "USES_DATUM",
+      "oldSource": "D01V01:B02",
+      "oldTarget": "D01V01:D01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E014",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D01V01:B02",
+      "oldTarget": "D01V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E016",
+      "oldType": "USES_DATUM",
+      "oldSource": "D01V01:S01",
+      "oldTarget": "D01V01:D01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E017",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D01V01:S01",
+      "oldTarget": "D01V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E018",
+      "oldType": "HAS_COMPARISON",
+      "oldSource": "D01V01:U01",
+      "oldTarget": "D01V01:C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E019",
+      "oldType": "COMPARES_SUBJECT",
+      "oldSource": "D01V01:C01",
+      "oldTarget": "D01V01:B02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E020",
+      "oldType": "COMPARES_REFERENCE",
+      "oldSource": "D01V01:C01",
+      "oldTarget": "D01V01:B01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D01V01:E023",
+      "oldType": "APPLIES_RULE",
+      "oldSource": "D01V01:C01",
+      "oldTarget": "D01V01:R03",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-BOUNDARY-E",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:A-C01",
+      "oldTarget": "D03V01:A-BE",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-BOUNDARY-N",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:A-C01",
+      "oldTarget": "D03V01:A-BN",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-BOUNDARY-S",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:A-C01",
+      "oldTarget": "D03V01:A-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-BOUNDARY-W",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:A-C01",
+      "oldTarget": "D03V01:A-BW",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-CLASS",
+      "oldType": "CLASSIFIED_BY",
+      "oldSource": "D03V01:A-C01",
+      "oldTarget": "D03V01:R01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-CONTAINS-A-BE",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:A-U01",
+      "oldTarget": "D03V01:A-BE",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-CONTAINS-A-BN",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:A-U01",
+      "oldTarget": "D03V01:A-BN",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-CONTAINS-A-BW",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:A-U01",
+      "oldTarget": "D03V01:A-BW",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-CONTAINS-C",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D03V01:A-U01",
+      "oldTarget": "D03V01:A-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-CONTAINS-W",
+      "oldType": "BOT_CONTAINS_ELEMENT",
+      "oldSource": "D03V01:A-U01",
+      "oldTarget": "D03V01:A-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-ENTRY-courtyard-side",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:A-I01",
+      "oldTarget": "D03V01:A-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:A-ENTRY-opening-host",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:A-I01",
+      "oldTarget": "D03V01:A-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:ACCESS-E-C01-E-G01",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "D03V01:E-C01",
+      "oldTarget": "D03V01:E-G01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:ACCESS-E-C01-E-P01",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "D03V01:E-C01",
+      "oldTarget": "D03V01:E-P01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:ACCESS-E-G01-E-C01",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "D03V01:E-G01",
+      "oldTarget": "D03V01:E-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:ACCESS-E-G01-E-C02",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "D03V01:E-G01",
+      "oldTarget": "D03V01:E-C02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:ACCESS-E-P01-E-C01",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "D03V01:E-P01",
+      "oldTarget": "D03V01:E-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-BOUNDARY-E",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:B-C01",
+      "oldTarget": "D03V01:B-BE",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-BOUNDARY-N",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:B-C01",
+      "oldTarget": "D03V01:B-BN",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-BOUNDARY-S",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:B-C01",
+      "oldTarget": "D03V01:B-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-BOUNDARY-W",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:B-C01",
+      "oldTarget": "D03V01:B-BW",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-CLASS",
+      "oldType": "CLASSIFIED_BY",
+      "oldSource": "D03V01:B-C01",
+      "oldTarget": "D03V01:R01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-CONTAINS-B-BE",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:B-U01",
+      "oldTarget": "D03V01:B-BE",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-CONTAINS-B-BN",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:B-U01",
+      "oldTarget": "D03V01:B-BN",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-CONTAINS-B-BW",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:B-U01",
+      "oldTarget": "D03V01:B-BW",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-CONTAINS-C",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D03V01:B-U01",
+      "oldTarget": "D03V01:B-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-CONTAINS-W",
+      "oldType": "BOT_CONTAINS_ELEMENT",
+      "oldSource": "D03V01:B-U01",
+      "oldTarget": "D03V01:B-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-ENTRY-courtyard-side",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:B-I01",
+      "oldTarget": "D03V01:B-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:B-ENTRY-opening-host",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:B-I01",
+      "oldTarget": "D03V01:B-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-BOUNDARY-E",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:C-C01",
+      "oldTarget": "D03V01:C-BE",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-BOUNDARY-N",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:C-C01",
+      "oldTarget": "D03V01:C-BN",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-BOUNDARY-S",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:C-C01",
+      "oldTarget": "D03V01:C-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-CLASS",
+      "oldType": "CLASSIFIED_BY",
+      "oldSource": "D03V01:C-C01",
+      "oldTarget": "D03V01:R01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-CONTAINS-C",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D03V01:C-U01",
+      "oldTarget": "D03V01:C-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-CONTAINS-C-BE",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:C-U01",
+      "oldTarget": "D03V01:C-BE",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-CONTAINS-C-BN",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:C-U01",
+      "oldTarget": "D03V01:C-BN",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-CONTAINS-W",
+      "oldType": "BOT_CONTAINS_ELEMENT",
+      "oldSource": "D03V01:C-U01",
+      "oldTarget": "D03V01:C-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-ENTRY-courtyard-side",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:C-I01",
+      "oldTarget": "D03V01:C-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:C-ENTRY-opening-host",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:C-I01",
+      "oldTarget": "D03V01:C-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-BOUNDARY-E",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:D-C01",
+      "oldTarget": "D03V01:D-BE",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-BOUNDARY-N",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:D-C01",
+      "oldTarget": "D03V01:D-BN",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-BOUNDARY-S",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:D-C01",
+      "oldTarget": "D03V01:D-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-CLASS",
+      "oldType": "CLASSIFIED_BY",
+      "oldSource": "D03V01:D-C01",
+      "oldTarget": "D03V01:R01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-CONTAINS-C",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D03V01:D-U01",
+      "oldTarget": "D03V01:D-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-CONTAINS-D-BE",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:D-U01",
+      "oldTarget": "D03V01:D-BE",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-CONTAINS-D-BN",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:D-U01",
+      "oldTarget": "D03V01:D-BN",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-CONTAINS-W",
+      "oldType": "BOT_CONTAINS_ELEMENT",
+      "oldSource": "D03V01:D-U01",
+      "oldTarget": "D03V01:D-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-ENTRY-courtyard-side",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:D-I01",
+      "oldTarget": "D03V01:D-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:D-ENTRY-opening-host",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:D-I01",
+      "oldTarget": "D03V01:D-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-BOUNDARY-E-C01-E",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:E-C01",
+      "oldTarget": "D03V01:E-B01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-BOUNDARY-E-C01-N",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:E-C01",
+      "oldTarget": "D03V01:E-G01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-BOUNDARY-E-C01-S",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:E-C01",
+      "oldTarget": "D03V01:E-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-BOUNDARY-E-C02-E",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:E-C02",
+      "oldTarget": "D03V01:E-B01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-BOUNDARY-E-C02-N",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:E-C02",
+      "oldTarget": "D03V01:E-B02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-BOUNDARY-E-C02-S",
+      "oldType": "BOUNDARY_PARTICIPANT",
+      "oldSource": "D03V01:E-C02",
+      "oldTarget": "D03V01:E-G01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-CONTAINS-E-B01",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:E-B01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-CONTAINS-E-B02",
+      "oldType": "BOT_HAS_BUILDING",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:E-B02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-CONTAINS-E-C01",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:E-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-CONTAINS-E-C02",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:E-C02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-CONTAINS-E-G01",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:E-G01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-CONTAINS-E-P01",
+      "oldType": "BOT_HAS_SPACE",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:E-P01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-CONTAINS-E-W01",
+      "oldType": "BOT_CONTAINS_ELEMENT",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:E-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-I01-opening-host",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:E-I01",
+      "oldTarget": "D03V01:E-W01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-I01-side-a",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:E-I01",
+      "oldTarget": "D03V01:E-P01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-I01-side-b",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:E-I01",
+      "oldTarget": "D03V01:E-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-I02-side-a",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:E-I02",
+      "oldTarget": "D03V01:E-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-I02-side-b",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:E-I02",
+      "oldTarget": "D03V01:E-G01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-I03-side-a",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:E-I03",
+      "oldTarget": "D03V01:E-G01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-I03-side-b",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:E-I03",
+      "oldTarget": "D03V01:E-C02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-I04-side-a",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "D03V01:E-I04",
+      "oldTarget": "D03V01:E-C02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:E-USES-R02",
+      "oldType": "USES_ANALYSIS_RULE",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:R02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:POS-E-C02-E-C01",
+      "oldType": "PLAN_POSITION",
+      "oldSource": "D03V01:E-C02",
+      "oldTarget": "D03V01:E-C01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-A-BE",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:A-BE",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-A-BN",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:A-BN",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-A-BW",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:A-BW",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-A-C01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:A-C01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-A-I01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:A-I01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-A-U01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:A-U01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-A-W01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:A-W01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-B-BE",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:B-BE",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-B-BN",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:B-BN",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-B-BW",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:B-BW",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-B-C01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:B-C01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-B-I01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:B-I01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-B-U01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:B-U01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-B-W01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:B-W01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-C-BE",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:C-BE",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-C-BN",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:C-BN",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-C-C01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:C-C01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-C-I01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:C-I01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-C-U01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:C-U01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-C-W01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:C-W01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-D-BE",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:D-BE",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-D-BN",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:D-BN",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-D-C01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:D-C01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-D-I01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:D-I01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-D-U01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:D-U01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-D-W01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:D-W01",
+      "oldTarget": "D03V01:EV01",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-B01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-B01",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-B02",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-B02",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-C01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-C01",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-C02",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-C02",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-G01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-G01",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-I01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-I01",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-I02",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-I02",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-I03",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-I03",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-I04",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-I04",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-P01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-P01",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-U01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-U01",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-E-W01",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:E-W01",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "D03V01:SRC-R02",
+      "oldType": "HAS_SOURCE",
+      "oldSource": "D03V01:R02",
+      "oldTarget": "D03V01:EV02",
+      "currentUid": null,
+      "action": "archived-trial-relationship-not-entity-equivalence"
+    },
+    {
+      "oldUid": "V01:R001",
+      "oldType": "PART_OF",
+      "oldSource": "V01:S01",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R001",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R002",
+      "oldType": "PART_OF",
+      "oldSource": "V01:S02",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R002",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R003",
+      "oldType": "PART_OF",
+      "oldSource": "V01:S03",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R003",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R004",
+      "oldType": "PART_OF",
+      "oldSource": "V01:S04",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R004",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R005",
+      "oldType": "ASSOCIATED_WITH",
+      "oldSource": "V01:S05",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R005",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R006",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W01",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R006",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R007",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W02",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R007",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R008",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W03",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R008",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R009",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W04",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R009",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R010",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W05",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R010",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R011",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W06",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R011",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R012",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W07",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R012",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R013",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W08",
+      "oldTarget": "V01:S05",
+      "currentUid": "V01:R013",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R014",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W09",
+      "oldTarget": "V01:S05",
+      "currentUid": "V01:R014",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R015",
+      "oldType": "PART_OF",
+      "oldSource": "V01:W10",
+      "oldTarget": "V01:S05",
+      "currentUid": "V01:R015",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R016",
+      "oldType": "PART_OF",
+      "oldSource": "V01:C01",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R016",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R017",
+      "oldType": "PART_OF",
+      "oldSource": "V01:C02",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R017",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R018",
+      "oldType": "PART_OF",
+      "oldSource": "V01:C03",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R018",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R019",
+      "oldType": "PART_OF",
+      "oldSource": "V01:C04",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R019",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R020",
+      "oldType": "PART_OF",
+      "oldSource": "V01:RF01",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R020",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R021",
+      "oldType": "SUPPORTS_SYSTEM",
+      "oldSource": "V01:C01",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R021",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R022",
+      "oldType": "SUPPORTS_SYSTEM",
+      "oldSource": "V01:C02",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R022",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R023",
+      "oldType": "SUPPORTS_SYSTEM",
+      "oldSource": "V01:C03",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R023",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R024",
+      "oldType": "SUPPORTS_SYSTEM",
+      "oldSource": "V01:C04",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R024",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R025",
+      "oldType": "SUPPORTS_SYSTEM",
+      "oldSource": "V01:W01",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R025",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R026",
+      "oldType": "SUPPORTS_SYSTEM",
+      "oldSource": "V01:W02",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R026",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R027",
+      "oldType": "SUPPORTS_SYSTEM",
+      "oldSource": "V01:W03",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R027",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R028",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I01",
+      "oldTarget": "V01:S01",
+      "currentUid": "V01:R028",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R029",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I01",
+      "oldTarget": "V01:S04",
+      "currentUid": "V01:R029",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R030",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "V01:S01",
+      "oldTarget": "V01:S04",
+      "currentUid": "V01:R030",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R031",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I02",
+      "oldTarget": "V01:S02",
+      "currentUid": "V01:R031",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R032",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I02",
+      "oldTarget": "V01:S01",
+      "currentUid": "V01:R032",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R033",
+      "oldType": "REALIZED_IN",
+      "oldSource": "V01:I02",
+      "oldTarget": "V01:W04",
+      "currentUid": "V01:R033",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R034",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "V01:S02",
+      "oldTarget": "V01:S01",
+      "currentUid": "V01:R034",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R035",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I03",
+      "oldTarget": "V01:S01",
+      "currentUid": "V01:R035",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R036",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I03",
+      "oldTarget": "V01:S03",
+      "currentUid": "V01:R036",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R037",
+      "oldType": "REALIZED_IN",
+      "oldSource": "V01:I03",
+      "oldTarget": "V01:W05",
+      "currentUid": "V01:R037",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R038",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "V01:S01",
+      "oldTarget": "V01:S03",
+      "currentUid": "V01:R038",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R039",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I04",
+      "oldTarget": "V01:S04",
+      "currentUid": "V01:R039",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R040",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I04",
+      "oldTarget": "V01:S05",
+      "currentUid": "V01:R040",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R041",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "V01:S04",
+      "oldTarget": "V01:S05",
+      "currentUid": "V01:R041",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R042",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I05",
+      "oldTarget": "V01:S05",
+      "currentUid": "V01:R042",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R043",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I05",
+      "oldTarget": "V01:S06",
+      "currentUid": "V01:R043",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R044",
+      "oldType": "REALIZED_IN",
+      "oldSource": "V01:I05",
+      "oldTarget": "V01:W10",
+      "currentUid": "V01:R044",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R045",
+      "oldType": "DIRECT_ACCESS_TO",
+      "oldSource": "V01:S05",
+      "oldTarget": "V01:S06",
+      "currentUid": "V01:R045",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R046",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I06",
+      "oldTarget": "V01:S02",
+      "currentUid": "V01:R046",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R047",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I06",
+      "oldTarget": "V01:S04",
+      "currentUid": "V01:R047",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R048",
+      "oldType": "REALIZED_IN",
+      "oldSource": "V01:I06",
+      "oldTarget": "V01:W06",
+      "currentUid": "V01:R048",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R049",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I07",
+      "oldTarget": "V01:S03",
+      "currentUid": "V01:R049",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R050",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I07",
+      "oldTarget": "V01:S04",
+      "currentUid": "V01:R050",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R051",
+      "oldType": "REALIZED_IN",
+      "oldSource": "V01:I07",
+      "oldTarget": "V01:W07",
+      "currentUid": "V01:R051",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R052",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I08",
+      "oldTarget": "V01:S02",
+      "currentUid": "V01:R052",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R053",
+      "oldType": "REALIZED_IN",
+      "oldSource": "V01:I08",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R053",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R054",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I09",
+      "oldTarget": "V01:S01",
+      "currentUid": "V01:R054",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R055",
+      "oldType": "REALIZED_IN",
+      "oldSource": "V01:I09",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R055",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R056",
+      "oldType": "INTERFACE_OF",
+      "oldSource": "V01:I10",
+      "oldTarget": "V01:S03",
+      "currentUid": "V01:R056",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R057",
+      "oldType": "REALIZED_IN",
+      "oldSource": "V01:I10",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R057",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R058",
+      "oldType": "SPATIAL_RELATION",
+      "oldSource": "V01:S02",
+      "oldTarget": "V01:S03",
+      "currentUid": "V01:R058",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R059",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S01",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R059",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R060",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S01",
+      "oldTarget": "V01:W04",
+      "currentUid": "V01:R060",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R061",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S01",
+      "oldTarget": "V01:W05",
+      "currentUid": "V01:R061",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R062",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S02",
+      "oldTarget": "V01:W01",
+      "currentUid": "V01:R062",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R063",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S02",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R063",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R064",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S02",
+      "oldTarget": "V01:W04",
+      "currentUid": "V01:R064",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R065",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S02",
+      "oldTarget": "V01:W06",
+      "currentUid": "V01:R065",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R066",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S03",
+      "oldTarget": "V01:W02",
+      "currentUid": "V01:R066",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R067",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S03",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R067",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R068",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S03",
+      "oldTarget": "V01:W05",
+      "currentUid": "V01:R068",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R069",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S03",
+      "oldTarget": "V01:W07",
+      "currentUid": "V01:R069",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R070",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S04",
+      "oldTarget": "V01:W01",
+      "currentUid": "V01:R070",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R071",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S04",
+      "oldTarget": "V01:W02",
+      "currentUid": "V01:R071",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R072",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S04",
+      "oldTarget": "V01:W06",
+      "currentUid": "V01:R072",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R073",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S04",
+      "oldTarget": "V01:W07",
+      "currentUid": "V01:R073",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R074",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S05",
+      "oldTarget": "V01:W08",
+      "currentUid": "V01:R074",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R075",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S05",
+      "oldTarget": "V01:W09",
+      "currentUid": "V01:R075",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R076",
+      "oldType": "BOUNDED_BY",
+      "oldSource": "V01:S05",
+      "oldTarget": "V01:W10",
+      "currentUid": "V01:R076",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R077",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R077",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R078",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R078",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R079",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R079",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R080",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV04",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R080",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R081",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV05",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R081",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R082",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV06",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R082",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R083",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV07",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R083",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R084",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV08",
+      "oldTarget": "V01:B01",
+      "currentUid": "V01:R084",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R085",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:S01",
+      "currentUid": "V01:R085",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R086",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:S01",
+      "currentUid": "V01:R086",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R087",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:S02",
+      "currentUid": "V01:R087",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R088",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:S02",
+      "currentUid": "V01:R088",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R089",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:S03",
+      "currentUid": "V01:R089",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R090",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:S03",
+      "currentUid": "V01:R090",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R091",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:S04",
+      "currentUid": "V01:R091",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R092",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:S04",
+      "currentUid": "V01:R092",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R093",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:S05",
+      "currentUid": "V01:R093",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R094",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:S05",
+      "currentUid": "V01:R094",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R095",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:S06",
+      "currentUid": "V01:R095",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R096",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:S06",
+      "currentUid": "V01:R096",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R097",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W01",
+      "currentUid": "V01:R097",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R098",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W01",
+      "currentUid": "V01:R098",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R099",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV06",
+      "oldTarget": "V01:W01",
+      "currentUid": "V01:R099",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R100",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W02",
+      "currentUid": "V01:R100",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R101",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W02",
+      "currentUid": "V01:R101",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R102",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV05",
+      "oldTarget": "V01:W02",
+      "currentUid": "V01:R102",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R103",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R103",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R104",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R104",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R105",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV04",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R105",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R106",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV07",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:R106",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R107",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W04",
+      "currentUid": "V01:R107",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R108",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W04",
+      "currentUid": "V01:R108",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R109",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W05",
+      "currentUid": "V01:R109",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R110",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W05",
+      "currentUid": "V01:R110",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R111",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W06",
+      "currentUid": "V01:R111",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R112",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W06",
+      "currentUid": "V01:R112",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R113",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:W06",
+      "currentUid": "V01:R113",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R114",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W07",
+      "currentUid": "V01:R114",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R115",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W07",
+      "currentUid": "V01:R115",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R116",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:W07",
+      "currentUid": "V01:R116",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R117",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W08",
+      "currentUid": "V01:R117",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R118",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W08",
+      "currentUid": "V01:R118",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R119",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W09",
+      "currentUid": "V01:R119",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R120",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W09",
+      "currentUid": "V01:R120",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R121",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:W10",
+      "currentUid": "V01:R121",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R122",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:W10",
+      "currentUid": "V01:R122",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R123",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:C01",
+      "currentUid": "V01:R123",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R124",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:C01",
+      "currentUid": "V01:R124",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R125",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:C01",
+      "currentUid": "V01:R125",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R126",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:C02",
+      "currentUid": "V01:R126",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R127",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:C02",
+      "currentUid": "V01:R127",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R128",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:C02",
+      "currentUid": "V01:R128",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R129",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:C03",
+      "currentUid": "V01:R129",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R130",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:C03",
+      "currentUid": "V01:R130",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R131",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:C03",
+      "currentUid": "V01:R131",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R132",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:C04",
+      "currentUid": "V01:R132",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R133",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:C04",
+      "currentUid": "V01:R133",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R134",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:C04",
+      "currentUid": "V01:R134",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R135",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R135",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R136",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R136",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R137",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV04",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R137",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R138",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV05",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R138",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R139",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV06",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R139",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R140",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV07",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R140",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R141",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV08",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:R141",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R142",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I01",
+      "currentUid": "V01:R142",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R143",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I01",
+      "currentUid": "V01:R143",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R144",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I02",
+      "currentUid": "V01:R144",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R145",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I02",
+      "currentUid": "V01:R145",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R146",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I03",
+      "currentUid": "V01:R146",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R147",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I03",
+      "currentUid": "V01:R147",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R148",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I04",
+      "currentUid": "V01:R148",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R149",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I04",
+      "currentUid": "V01:R149",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R150",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I05",
+      "currentUid": "V01:R150",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R151",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I05",
+      "currentUid": "V01:R151",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R152",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I06",
+      "currentUid": "V01:R152",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R153",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I06",
+      "currentUid": "V01:R153",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R154",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:I06",
+      "currentUid": "V01:R154",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R155",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I07",
+      "currentUid": "V01:R155",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R156",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I07",
+      "currentUid": "V01:R156",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R157",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV03",
+      "oldTarget": "V01:I07",
+      "currentUid": "V01:R157",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R158",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I08",
+      "currentUid": "V01:R158",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R159",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I08",
+      "currentUid": "V01:R159",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R160",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV04",
+      "oldTarget": "V01:I08",
+      "currentUid": "V01:R160",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R161",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I09",
+      "currentUid": "V01:R161",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R162",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I09",
+      "currentUid": "V01:R162",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R163",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV04",
+      "oldTarget": "V01:I09",
+      "currentUid": "V01:R163",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R164",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:I10",
+      "currentUid": "V01:R164",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R165",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV02",
+      "oldTarget": "V01:I10",
+      "currentUid": "V01:R165",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:R166",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV04",
+      "oldTarget": "V01:I10",
+      "currentUid": "V01:R166",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-DOC-EV01-RS01",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:RS01",
+      "currentUid": "V01:RS-DOC-EV01-RS01",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-DOC-EV01-RS02",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV01",
+      "oldTarget": "V01:RS02",
+      "currentUid": "V01:RS-DOC-EV01-RS02",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-DOC-EV07-RS01",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV07",
+      "oldTarget": "V01:RS01",
+      "currentUid": "V01:RS-DOC-EV07-RS01",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-DOC-EV07-RS02",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV07",
+      "oldTarget": "V01:RS02",
+      "currentUid": "V01:RS-DOC-EV07-RS02",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-DOC-EV08-RS01",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV08",
+      "oldTarget": "V01:RS01",
+      "currentUid": "V01:RS-DOC-EV08-RS01",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-DOC-EV08-RS02",
+      "oldType": "DOCUMENTS",
+      "oldSource": "V01:EV08",
+      "oldTarget": "V01:RS02",
+      "currentUid": "V01:RS-DOC-EV08-RS02",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-PART-RS01",
+      "oldType": "PART_OF",
+      "oldSource": "V01:RS01",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:RS-PART-RS01",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-PART-RS02",
+      "oldType": "PART_OF",
+      "oldSource": "V01:RS02",
+      "oldTarget": "V01:RF01",
+      "currentUid": "V01:RS-PART-RS02",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:RS-RS01-RS02",
+      "oldType": "SHARES_BOUNDARY",
+      "oldSource": "V01:RS01",
+      "oldTarget": "V01:RS02",
+      "currentUid": "V01:RS-RS01-RS02",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WC-W01-C01",
+      "oldType": "ENVELOPE_INTERSECTS",
+      "oldSource": "V01:W01",
+      "oldTarget": "V01:C01",
+      "currentUid": "V01:WC-W01-C01",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WC-W02-C04",
+      "oldType": "ENVELOPE_INTERSECTS",
+      "oldSource": "V01:W02",
+      "oldTarget": "V01:C04",
+      "currentUid": "V01:WC-W02-C04",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WC-W08-C01",
+      "oldType": "ENVELOPE_INTERSECTS",
+      "oldSource": "V01:W08",
+      "oldTarget": "V01:C01",
+      "currentUid": "V01:WC-W08-C01",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WC-W09-C04",
+      "oldType": "ENVELOPE_INTERSECTS",
+      "oldSource": "V01:W09",
+      "oldTarget": "V01:C04",
+      "currentUid": "V01:WC-W09-C04",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W01-W03",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W01",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:WJ-W01-W03",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W01-W06",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W01",
+      "oldTarget": "V01:W06",
+      "currentUid": "V01:WJ-W01-W06",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W01-W08",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W01",
+      "oldTarget": "V01:W08",
+      "currentUid": "V01:WJ-W01-W08",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W02-W03",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W02",
+      "oldTarget": "V01:W03",
+      "currentUid": "V01:WJ-W02-W03",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W02-W07",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W02",
+      "oldTarget": "V01:W07",
+      "currentUid": "V01:WJ-W02-W07",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W02-W09",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W02",
+      "oldTarget": "V01:W09",
+      "currentUid": "V01:WJ-W02-W09",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W03-W04",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W03",
+      "oldTarget": "V01:W04",
+      "currentUid": "V01:WJ-W03-W04",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W03-W05",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W03",
+      "oldTarget": "V01:W05",
+      "currentUid": "V01:WJ-W03-W05",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W04-W06",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W04",
+      "oldTarget": "V01:W06",
+      "currentUid": "V01:WJ-W04-W06",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W05-W07",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W05",
+      "oldTarget": "V01:W07",
+      "currentUid": "V01:WJ-W05-W07",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W08-W10",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W08",
+      "oldTarget": "V01:W10",
+      "currentUid": "V01:WJ-W08-W10",
+      "action": "preserve-or-rewrite-original-relationship"
+    },
+    {
+      "oldUid": "V01:WJ-W09-W10",
+      "oldType": "AXIS_JOINS",
+      "oldSource": "V01:W09",
+      "oldTarget": "V01:W10",
+      "currentUid": "V01:WJ-W09-W10",
+      "action": "preserve-or-rewrite-original-relationship"
+    }
+  ],
+  "D01FieldDecisions": [
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "widthM",
+      "oldValue": 10.0,
+      "currentValue": 9.6,
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "depthM",
+      "oldValue": 6.0,
+      "currentValue": 7.2,
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "groundZM",
+      "oldValue": 0.0,
+      "currentValue": 0.0,
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "eaveZM",
+      "oldValue": 5.0,
+      "currentValue": 3.2666666666666666,
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "ridgeZM",
+      "oldValue": 7.0,
+      "currentValue": 5.6,
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "measurementBoundaryBasis",
+      "oldValue": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+      "currentValue": "主屋既有轴网矩形9.6×7.2m；非主体外墙外边线，不含挑檐",
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "heightBasis",
+      "oldValue": "指定正立面断面檐口点与墙脚地面点；檐口外缘，不混作梁顶",
+      "currentValue": "RF01.geometry.eaveZ为挑檐外缘标高；wallSupportHeightM为墙轴承托参考，不可替代",
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "footprintXY",
+      "oldValue": [
+        0.0,
+        0.0,
+        10.0,
+        0.0,
+        10.0,
+        6.0,
+        0.0,
+        6.0
+      ],
+      "currentValue": [
+        0.0,
+        0.0,
+        9.6,
+        0.0,
+        9.6,
+        7.2,
+        0.0,
+        7.2
+      ],
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "widthDirection",
+      "oldValue": "+X",
+      "currentValue": "+X",
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B01",
+      "target": "V01:B01",
+      "field": "depthDirection",
+      "oldValue": "+Y",
+      "currentValue": "+Y",
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:S01",
+      "target": "V01:S05",
+      "field": "widthM",
+      "oldValue": 10.0,
+      "currentValue": 9.360000000000001,
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:S01",
+      "target": "V01:S05",
+      "field": "depthM",
+      "oldValue": 6.0,
+      "currentValue": 4.68,
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:S01",
+      "target": "V01:S05",
+      "field": "groundZM",
+      "oldValue": 0.0,
+      "currentValue": 0.0,
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:S01",
+      "target": "V01:S05",
+      "field": "measurementBoundaryBasis",
+      "oldValue": "面对院落的建筑边界与人工声明的开敞边；不是用地面积",
+      "currentValue": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:S01",
+      "target": "V01:S05",
+      "field": "footprintXY",
+      "oldValue": [
+        0.0,
+        -6.0,
+        10.0,
+        -6.0,
+        10.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "currentValue": [
+        0.12,
+        -4.68,
+        9.48,
+        -4.68,
+        9.48,
+        0.0,
+        0.12,
+        0.0
+      ],
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:S01",
+      "target": "V01:S05",
+      "field": "widthDirection",
+      "oldValue": "+X",
+      "currentValue": "+X",
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:S01",
+      "target": "V01:S05",
+      "field": "depthDirection",
+      "oldValue": "+Y",
+      "currentValue": "+Y",
+      "disposition": "recomputed-or-redeclared-from-V01-not-overwritten"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "widthM",
+      "oldValue": 6.0,
+      "currentValue": 6.0,
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "depthM",
+      "oldValue": 4.0,
+      "currentValue": 4.0,
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "groundZM",
+      "oldValue": 3.0,
+      "currentValue": 3.0,
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "eaveZM",
+      "oldValue": 7.0,
+      "currentValue": 7.0,
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "ridgeZM",
+      "oldValue": 8.0,
+      "currentValue": 8.0,
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "measurementBoundaryBasis",
+      "oldValue": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+      "currentValue": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "heightBasis",
+      "oldValue": "指定正立面断面檐口点与墙脚地面点；檐口外缘，不混作梁顶",
+      "currentValue": "指定正立面断面檐口点与墙脚地面点；檐口外缘，不混作梁顶",
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "footprintXY",
+      "oldValue": [
+        10.0,
+        -6.0,
+        14.0,
+        -6.0,
+        14.0,
+        0.0,
+        10.0,
+        0.0
+      ],
+      "currentValue": [
+        10.0,
+        -6.0,
+        14.0,
+        -6.0,
+        14.0,
+        0.0,
+        10.0,
+        0.0
+      ],
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "widthDirection",
+      "oldValue": "+Y",
+      "currentValue": "+Y",
+      "disposition": "retained-annex-setting"
+    },
+    {
+      "source": "D01V01:B02",
+      "target": "V01:B02",
+      "field": "depthDirection",
+      "oldValue": "+X",
+      "currentValue": "+X",
+      "disposition": "retained-annex-setting"
+    }
+  ],
+  "oldComparisonM": 2.0,
+  "newComparisonM": 3.7333333333333334,
+  "preservedOriginalGeometries": 42,
+  "newNodes": [
+    "B02",
+    "U01",
+    "DATUM01",
+    "EV09",
+    "DIM-R01",
+    "DIM-R02",
+    "DIM-R03",
+    "D03-R01",
+    "CMP01"
+  ],
+  "archivedTrialPolicy": [
+    {
+      "id": "D03-A-D",
+      "path": "archive/2026-10-30-统一原型合并前/原件/d03.json",
+      "sourceSha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+      "scope": "粗四侧归类、入口偏置、明确开放与未知的对照；不写入活动原型"
+    },
+    {
+      "id": "D03-E",
+      "path": "archive/2026-10-30-统一原型合并前/原件/d03.json",
+      "sourceSha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+      "scope": "双院/单向通行/未知外侧/多用途去重，保留旧算法与预期结果作回归夹具；不移入V01用途或布局"
+    }
+  ]
+}

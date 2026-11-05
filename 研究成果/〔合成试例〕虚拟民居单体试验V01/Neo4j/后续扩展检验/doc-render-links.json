@@ -1,0 +1,147 @@
+{
+  "scope": "changed documents and referenced targets; no dependency baseline refresh",
+  "documents": 17,
+  "preexistingIssues": [
+    [
+      "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "../../archive/2026-10-30-统一原型合并前/README.md",
+      "missing"
+    ],
+    [
+      "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "../〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "missing"
+    ],
+    [
+      "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "Neo4j/统一迁移映射.json",
+      "missing"
+    ],
+    [
+      "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "README.md",
+      "missing"
+    ]
+  ],
+  "afterIssues": [
+    [
+      "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "../../archive/2026-10-30-统一原型合并前/README.md",
+      "missing"
+    ],
+    [
+      "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "../〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "missing"
+    ],
+    [
+      "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "Neo4j/统一迁移映射.json",
+      "missing"
+    ],
+    [
+      "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "README.md",
+      "missing"
+    ]
+  ],
+  "newIssues": [],
+  "rendered": [
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "a7a8cabeff92e0d6c103b2e78fa33e091f898a43086994cde14bd424c7d5c41d",
+      "preview": "0.html",
+      "tables": 1,
+      "headings": 32,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "d25894ed8104e030926b8fe32f44b519a8526f0c062c9c50938da1f5b06b9e67",
+      "preview": "1.html",
+      "tables": 10,
+      "headings": 14,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sha256": "f11fb1bfb3e1cf993f006adfa04d5285265d5a4334b9f0b52a02a1b2f70e166a",
+      "preview": "3.html",
+      "tables": 10,
+      "headings": 13,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sha256": "8748d718c1d7efd549bae80446be6a180d2e2ba5ca15bac865919916c3f1df7b",
+      "preview": "5.html",
+      "tables": 10,
+      "headings": 13,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sha256": "4843f851a47e56aaa2d18ef43087f387fccc69fcc8ce286d06455b98c3b2a8b8",
+      "preview": "7.html",
+      "tables": 12,
+      "headings": 18,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "c59606ee27b47d241c40f4c0010b79ef46bfc13434edb4fb159e8e14c4b32345",
+      "preview": "8.html",
+      "tables": 2,
+      "headings": 10,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "sha256": "4bca6dfe73fac7de8df5f623a05898240b85f2f678016e39698ba9d052522a53",
+      "preview": "9.html",
+      "tables": 10,
+      "headings": 35,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "sha256": "d0453419e4046a7b140b938c990c89c68d4afd77e04828254e28d9052251bf35",
+      "preview": "10.html",
+      "tables": 3,
+      "headings": 8,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+      "sha256": "5043e8f7693ccf727f83c74e5a757f50fe4b2a8ad66f67b6b42899263ea88e8b",
+      "preview": "12.html",
+      "tables": 5,
+      "headings": 20,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "8233d305699a401b2b7ba260177783c9d399528e740c1fa3e1edca873e6f75ab",
+      "preview": "13.html",
+      "tables": 2,
+      "headings": 23,
+      "mermaid": 0
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "dd5021636596d1be423ecbfcd4394cce16208c9e65092dd733446104d3f32d0c",
+      "preview": "14.html",
+      "tables": 1,
+      "headings": 2,
+      "mermaid": 1
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "sha256": "d01404bb6ca032a1462d4dd333d2f8494841e8e7008373ebe54c77cb190024c7",
+      "preview": "15.html",
+      "tables": 2,
+      "headings": 6,
+      "mermaid": 0
+    }
+  ]
+}

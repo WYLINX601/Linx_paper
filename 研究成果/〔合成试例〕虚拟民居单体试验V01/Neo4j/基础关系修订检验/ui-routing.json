@@ -1,0 +1,30 @@
+{
+  "htmlSHA256": "cadd36f352036ba1156888d1c2419c459259f4836dd6f397b1a87575b76c5ae5",
+  "sampling": "8 SVG units; DOM bounds excluding endpoints",
+  "checks": [
+    {
+      "view": "overview",
+      "evidence": false,
+      "nodes": 15,
+      "edges": 32,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "view": "overview",
+      "evidence": true,
+      "nodes": 22,
+      "edges": 68,
+      "collisions": [],
+      "errors": []
+    },
+    {
+      "view": "all",
+      "evidence": true,
+      "nodes": 56,
+      "edges": 290,
+      "collisions": [],
+      "errors": []
+    }
+  ]
+}

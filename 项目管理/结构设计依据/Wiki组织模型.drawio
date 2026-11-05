@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio">
+  <diagram name="论文研究Wiki组织模型">
+    <mxGraphModel dx="1500" dy="800" grid="1" page="1" pageWidth="1500" pageHeight="800" background="#FFFFFF">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="title" value="&lt;b&gt;论文研究 Wiki：章节统领，主题展开，证据可追溯&lt;/b&gt;" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontFamily=PingFang SC;fontSize=30;fontColor=#182438;spacing=16;">
+          <mxGeometry as="geometry" x="40" y="20" width="1420" height="60" />
+        </mxCell>
+        <mxCell id="chapter" value="&lt;b&gt;论文框架与章节&lt;/b&gt;&lt;br&gt;绪论：问题、内容与路线&lt;br&gt;具体章节：方法、结果与讨论" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=22;fontColor=#182438;spacing=16;">
+          <mxGeometry as="geometry" x="50" y="180" width="350" height="150" />
+        </mxCell>
+        <mxCell id="topic" value="&lt;b&gt;主题研究&lt;/b&gt;&lt;br&gt;比较依据 · 分析选择&lt;br&gt;阶段成果 · 验证与反例" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontFamily=PingFang SC;fontSize=22;fontColor=#182438;spacing=16;">
+          <mxGeometry as="geometry" x="570" y="180" width="350" height="150" />
+        </mxCell>
+        <mxCell id="reading" value="&lt;b&gt;文献精读与拆解&lt;/b&gt;&lt;br&gt;忠实理解原文&lt;br&gt;作者结论与个人启发分开" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontFamily=PingFang SC;fontSize=22;fontColor=#182438;spacing=16;">
+          <mxGeometry as="geometry" x="1090" y="180" width="350" height="150" />
+        </mxCell>
+        <mxCell id="data" value="&lt;b&gt;实际研究证据&lt;/b&gt;&lt;br&gt;调研 · 案例 · 三维资料&lt;br&gt;试验记录与分析结果" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=PingFang SC;fontSize=22;fontColor=#182438;spacing=16;">
+          <mxGeometry as="geometry" x="570" y="490" width="350" height="140" />
+        </mxCell>
+        <mxCell id="original" value="&lt;b&gt;原始文献&lt;/b&gt;&lt;br&gt;Zotero 条目与 PDF&lt;br&gt;题名 · 作者 · 双页码定位" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;fontFamily=PingFang SC;fontSize=22;fontColor=#182438;spacing=16;">
+          <mxGeometry as="geometry" x="1090" y="490" width="350" height="140" />
+        </mxCell>
+        <mxCell id="e1" value="任务约束&lt;br&gt;成果反馈" edge="1" parent="1" source="chapter" target="topic" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50647a;strokeWidth=2;fontFamily=PingFang SC;fontSize=18;labelBackgroundColor=#ffffff;endArrow=block;startArrow=block;exitX=1;exitY=0.5;entryX=0;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e2" value="综合与借鉴" edge="1" parent="1" source="reading" target="topic" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50647a;strokeWidth=2;fontFamily=PingFang SC;fontSize=18;labelBackgroundColor=#ffffff;endArrow=block;exitX=0;exitY=0.5;entryX=1;entryY=0.5;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e3" value="核读与回查" edge="1" parent="1" source="original" target="reading" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50647a;strokeWidth=2;fontFamily=PingFang SC;fontSize=18;labelBackgroundColor=#ffffff;endArrow=block;startArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="e4" value="支撑与检验" edge="1" parent="1" source="data" target="topic" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#50647a;strokeWidth=2;fontFamily=PingFang SC;fontSize=18;labelBackgroundColor=#ffffff;endArrow=block;exitX=0.5;exitY=0;entryX=0.5;entryY=1;">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="health" value="&lt;b&gt;健康检查贯穿各层&lt;/b&gt;&lt;br&gt;断链与歧义 · 主源与重复&lt;br&gt;证据与状态 · 依赖变化&lt;br&gt;可恢复写入 · 维护规则冲突" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontFamily=PingFang SC;fontSize=20;fontColor=#182438;spacing=16;">
+          <mxGeometry as="geometry" x="50" y="460" width="350" height="200" />
+        </mxCell>
+        <mxCell id="note" value="章节—主题、主题—文献均可多对多；每项内容保留明确维护主源。&lt;br&gt;组织模型已确认；目录与健康规范为设计提案，未实施全库迁移。" vertex="1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=none;strokeColor=none;fontFamily=PingFang SC;fontSize=20;fontColor=#182438;spacing=16;">
+          <mxGeometry as="geometry" x="50" y="700" width="1390" height="70" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

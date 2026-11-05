@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (i:V01 {uid:'V01:I04'})-[a:INTERFACE_OF]->(s:Space)-[b:BOUNDARY_PARTICIPANT]->(c:Column) WHERE a.role IN ['side-a','side-b'] RETURN i.uid AS interface,s.uid AS side,c.uid AS column,i.geometryJson AS interfaceGeometry,c.geometryJson AS columnGeometry,b.uid AS boundaryRelationship ORDER BY side,column",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.904513+08:00"
+}

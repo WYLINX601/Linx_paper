@@ -1,0 +1,136 @@
+{
+  "date": "2026-10-15",
+  "purpose": "六章结构接续前的受影响文件快照",
+  "files": [
+    {
+      "original_path": "论文正文稿-无人机倾斜摄影与多尺度调研资料采集.md",
+      "snapshot": ".migration/originals/论文正文稿-无人机倾斜摄影与多尺度调研资料采集.md",
+      "sha256": "6b56c199a95ecb4b9348708a7d42c194487d7d7ddcbd658aa648a1ac761ac2a9"
+    },
+    {
+      "original_path": "研究对象候选汇总-导师浏览版.md",
+      "snapshot": ".migration/originals/研究对象候选汇总-导师浏览版.md",
+      "sha256": "17fc354f9493bfa37e8d98466d53b611545248355ae06fe72f9222882d145ae8"
+    },
+    {
+      "original_path": "三维建模技术方案调研汇总与后续技术路线.md",
+      "snapshot": ".migration/originals/三维建模技术方案调研汇总与后续技术路线.md",
+      "sha256": "ba8ef31590c44df8e7086b738a292eeb80f2edb8d778d1d2c2fc1644f4b4d21d"
+    },
+    {
+      "original_path": "论文写作与证据说明.md",
+      "snapshot": ".migration/originals/论文写作与证据说明.md",
+      "sha256": "edbaf97ff23a25167c66991f03484f336e629d8a8207564beb78f0b6c952996f"
+    },
+    {
+      "original_path": "README.md",
+      "snapshot": ".migration/originals/README.md",
+      "sha256": "e8cda318f1a15cf5f88e319aa4b5996a2d7e573346a7e31760b40a2d0773df73"
+    },
+    {
+      "original_path": "AGENTS.md",
+      "snapshot": ".migration/originals/AGENTS.md",
+      "sha256": "71a5db3f7cd223f959bf1c7dc5e083c9b9272b7c3942325deb7578e1e36e3682"
+    },
+    {
+      "original_path": "研究对象候选汇总-按村落.md",
+      "snapshot": ".migration/originals/研究对象候选汇总-按村落.md",
+      "sha256": "054e4c884809069972093be7013b3b82ac9811a704dfe3264eada323cd686a98"
+    },
+    {
+      "original_path": "文献库/畲族文献阅读索引.md",
+      "snapshot": ".migration/originals/文献库/畲族文献阅读索引.md",
+      "sha256": "61318e38af4328cb8ff091d194c4e5045cad47430daa7085425841e8df80bf7a"
+    },
+    {
+      "original_path": "文献库/核心文献网络补充与综述修订记录.md",
+      "snapshot": ".migration/originals/文献库/核心文献网络补充与综述修订记录.md",
+      "sha256": "8ba5a8733dd3ca8721d52018c1e205265159254e850dfbafeafa08027ba0fe77"
+    },
+    {
+      "original_path": "文献库/README.md",
+      "snapshot": ".migration/originals/文献库/README.md",
+      "sha256": "3d7f1929703a11dbccb36c9df82d40769847fab4e27a010834b52cf6cad364d2"
+    },
+    {
+      "original_path": "文献库/2026-王舒泓-文化生态与宁德畲族文化传承.md",
+      "snapshot": ".migration/originals/文献库/2026-王舒泓-文化生态与宁德畲族文化传承.md",
+      "sha256": "7eab34ff5d49209c5a302e33ca08406d0f11448b7fc7a537ef5c43b3b3fb583b"
+    },
+    {
+      "original_path": "文献库/景宁畲族传统民居建筑风貌研究综述.md",
+      "snapshot": ".migration/originals/文献库/景宁畲族传统民居建筑风貌研究综述.md",
+      "sha256": "e2b08c657e1dc16bf50b64bce54a7494f7c92f9b078c3fc5373809736cb5ae86"
+    },
+    {
+      "original_path": "文献库/2024-王曦昊-竹里畲族民居微更新.md",
+      "snapshot": ".migration/originals/文献库/2024-王曦昊-竹里畲族民居微更新.md",
+      "sha256": "85f393a650f2f006b867acf86f17ab041f2f7fb0257eeed660541ac625df776c"
+    },
+    {
+      "original_path": "文献库/2026-杨波-景宁县人民医院传统元素转译.md",
+      "snapshot": ".migration/originals/文献库/2026-杨波-景宁县人民医院传统元素转译.md",
+      "sha256": "801fd030e2928a52486b171d16a9ee38f60552e626008c0684d68cde945eb5ee"
+    },
+    {
+      "original_path": "文献库/2023-鲁晓敏-景宁凤凰服饰与文化.md",
+      "snapshot": ".migration/originals/文献库/2023-鲁晓敏-景宁凤凰服饰与文化.md",
+      "sha256": "e9fdaba108fa46147b2542c1a8a56225013791b68c3550f9c7ab302dc76892f4"
+    },
+    {
+      "original_path": "文献库/2025-张建宏-柳城畲族镇文化变迁.md",
+      "snapshot": ".migration/originals/文献库/2025-张建宏-柳城畲族镇文化变迁.md",
+      "sha256": "a77f82c1a52a03c4bbcb16409742f70574569bd3436015703d3b7325fe2dc8b7"
+    },
+    {
+      "original_path": "文献库/2026-陈丹丹-双田村畲族文旅融合路径.md",
+      "snapshot": ".migration/originals/文献库/2026-陈丹丹-双田村畲族文旅融合路径.md",
+      "sha256": "624345f041502a4f581b7865ed5a2cac49a01aca2bfca842ab6d93a42aa9e56b"
+    },
+    {
+      "original_path": "文献库/2026-汤喜燕-峩山畲族馆阈限体验.md",
+      "snapshot": ".migration/originals/文献库/2026-汤喜燕-峩山畲族馆阈限体验.md",
+      "sha256": "aa19fdd71d4fad505c66fecec28cf0044b2641cbe0596d0b808448f73f710f40"
+    },
+    {
+      "original_path": "context/PROJECT_CONTEXT.md",
+      "snapshot": ".migration/originals/context/PROJECT_CONTEXT.md",
+      "sha256": "fa66b13c1a493cfc95a57b36e33f14bfd100af16716267b35d22b6400ed6dfbf"
+    },
+    {
+      "original_path": "01_sources/2026-10-13-研究背景新增依据核查.md",
+      "snapshot": ".migration/originals/01_sources/2026-10-13-研究背景新增依据核查.md",
+      "sha256": "6f3092f94dd29e394164b6995dde694806ac318dd5a82bbfd52ada358cb712c6"
+    },
+    {
+      "original_path": "outputs/畲族建筑风貌综述审阅/审阅综合与修订记录.md",
+      "snapshot": ".migration/originals/outputs/畲族建筑风貌综述审阅/审阅综合与修订记录.md",
+      "sha256": "e22c6dd48809df6536d7a898cf43ba748c3b64e429c53de4315ed75386ca801b"
+    },
+    {
+      "original_path": "archive/2026-10-12-研究现状并入正文/论文研究现状-1.4.2景宁畲族传统民居研究.md",
+      "snapshot": ".migration/originals/archive/2026-10-12-研究现状并入正文/论文研究现状-1.4.2景宁畲族传统民居研究.md",
+      "sha256": "48c55a3d1058bc6553d7d664dd077c022a2e9c50b0f70e0d998a60775c0a657d"
+    },
+    {
+      "original_path": "archive/2026-10-12-研究现状并入正文/README.md",
+      "snapshot": ".migration/originals/archive/2026-10-12-研究现状并入正文/README.md",
+      "sha256": "289d89bb5f9732bbf0275bf2952423cf6859c83ebcb84b2b4878e73917dac6f0"
+    },
+    {
+      "original_path": "archive/2026-10-13-论文语言修订/README.md",
+      "snapshot": ".migration/originals/archive/2026-10-13-论文语言修订/README.md",
+      "sha256": "06d3004f5c5e77732394fca29c666f14ac101262f9d4fca82f22e515b9d2031b"
+    },
+    {
+      "original_path": "archive/2026-10-12-三维建模汇报简化/三维建模技术方案调研汇总与后续技术路线-详细讨论稿.md",
+      "snapshot": ".migration/originals/archive/2026-10-12-三维建模汇报简化/三维建模技术方案调研汇总与后续技术路线-详细讨论稿.md",
+      "sha256": "cf5bdbe66cab6ae27c632e92427d800c5631aea706213e074ecbcfd6dbcb62f9"
+    },
+    {
+      "original_path": "archive/2026-10-13-研究背景更新/README.md",
+      "snapshot": ".migration/originals/archive/2026-10-13-研究背景更新/README.md",
+      "sha256": "20e287fd3ba58bb695c0b9f8c156ac1ef92bb73e25016ee532441e7c717a4832"
+    }
+  ]
+}

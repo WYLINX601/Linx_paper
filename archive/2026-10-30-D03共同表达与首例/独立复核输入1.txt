@@ -1,0 +1,990 @@
+你是独立只读审核者。仅审下列冻结文本，不调用工具、不写Paper、不改数据库。任务：审D03四例合成数据和D03-D05共同表达，找具体阻断项或重要问题，尤其BOT身份/边界、过度建点、已知开放vs未知、分类规则与判据循环、来源版本、入口关系和Cypher保护。不要要求本轮补真实资料或恢复内部构架/时序/感知。D04-D05只共同接口、不是实例化；旧库54节点209关系不改。本次实际已完成9项EXPLAIN、11项只读参数分类测试、6项坏载荷拒绝；全库指纹未变。数据库尚未写正式例，README核验段尚待真实结果替换。请用中文分阻断/重要/建议，引用G编号、例ID或代码函数；不凭空要求节点化。指出不能验证的内容，最后给可否进入限定入库的意见。
+
+U14候选：
+### U14 D03—D05共同表达与院落围合首例
+
+**问题、依据与身份（2026-10-30）：** 用户授权先落实共同图谱表达并完成首个D03任务，具体结果与思路交由用户审核。本条沿用B-C01—07、B-R02／04／09／12、B-A07／08及U02／03／04／10／11；围合构成、来源字段及分类方案为本研究候选实现，不是BOT新增原定义。此轮核读现行双基准和D03—D06主表；文献作者、题名、Zotero和页码仍在各表来源段保留，未新增原文精读。
+
+| 编号 | 共同约定与最小表示 | BOT对照、范围及本轮状态 |
+|---|---|---|
+| G01 对象身份复用 | 宅院整体、建筑、院落、墙和入口按独立身份区分。D04使用同一建筑／入口，D05成员关系引用同一建筑，不按模块另复制实体 | 整体Zone、建筑Building、院落Space；平面表示不等于完整三维体。D03小例实现；D04／D05仅接口约定 |
+| G02 属性与局部范围 | 普通尺寸、方向、版本直接归对象；院落边段先保留局部编号、顺序、坐标／里程和状态，不逐段造节点 | U10／U11；局部编号不是新实体。混合、折线或不同分段应保留原序列，不硬套四侧 |
+| G03 边界参与 | 院落→参与建筑或构件，用`BOUNDARY_PARTICIPANT`携带边段ID、参与角色及来源。它表示所声明分析层位上的边界参与；面向院落的建筑一侧不等于已识别一面实体墙 | 研究扩展；不与`bot:adjacentElement`或`adjacentZone`直接声明等价，不推断三维接触、支承或产权。仅已知端点建边，开敞／未知由原记录明确区分 |
+| G04 入口独立身份 | 入口需要跨T02/T03及后续D04引用、相对定位和宿主／空间角色，故本例独立为Interface；通过`INTERFACE_OF`及`role`关联已知院侧和宿主 | 沿用B-C07／R12，角色是研究扩展。无外侧证据不补空间；没有足够净空、障碍和情境不生成通行边。不迁移V01已有角色方案 |
+| G05 来源粒度 | 对象属性→共享Source采用`HAS_SOURCE`限定fields、locator和版本；关系本身记录sourceUid、fields、locator和版本，不为给边溯源再造关系节点 | U10沿用与实现细化。关系的fields可包含source／target／type表示支持其端点及语义。文献／扫描真实来源仍须具体作者题名页码或局部模型定位；本例只有人工合成来源 |
+| G06 规则与归类分开 | 一份有独立版本且被多对象引用的ClassificationScheme；普通类型码不建类型节点。院落→方案的`CLASSIFIED_BY`保存候选归类、输入版本／字段和审核状态 | 研究扩展。规则在案例JSON的classificationScheme维护，归类边为派生缓存，查询重算核对；改字符串不会自动求值或同步缓存 |
+| G07 状态与可比范围 | 候选归类、关键未知、已知未匹配、规则冲突、不适用范围及无效输入分开；体系暂停项从任务配置排除，不填成0 | B-A07开放世界解释＋D06候选方法，不把关系缺席当“无”。共享资料与同源派生不构成独立互证 |
+| G08 跨维度接口 | D04记录建筑ID、面侧／区域及覆盖；独立复用需求出现前，立面／材料区优先局部记录。D05带空间范围的组团可为Zone，纯集合不冒称Zone；用成员／关系引用已有对象 | D04／D05的具体关系词、字段及实例尚未实现或冻结。材料标签延续U08，局部材料不传播为整墙／整栋；同院多建筑、多立面先声明配对，不自动生成笛卡尔组合 |
+
+**首例与反例：** [[研究成果/〔合成试例〕D03院落围合图谱试例/README.md|审核入口]]以A／B（同围合构成、入口位置不同）、C（明确开放侧）和D（未知侧）检查表达。入口位置只作为辅助特征，输出连续里程比，不设置“居中”通用容差。规则限人工四侧矩形参照：院墙有门洞仍属粗粒度wall侧，入口独立记录；不计算实体界定长度比例，不将规则名直接映射为三合院／四合院。
+
+**实施状态与边界：** 本例限定表达及查询状态以案例JSON、数据库读回与核验记录为准，具体判据仍待用户审核；非全量D03完成、非D04／D05实例化、非真实景宁分型或完整BOT推理。现有V01／D01不迁移，内部构架、完整室内网络、时序与感知范围不恢复。新关系不足或资料不足不能据此证明BOT无效；未做方法优越性比较。
+
+
+
+=== compile_model.py ===
+"""Compile the JSON maintenance source into guarded LPG and read-only queries."""
+import copy, hashlib, json, math, re
+from pathlib import Path
+from mcp_client import save
+PREFIX='D03V01:'; DS='D03V01'
+PACKAGE='研究成果/〔合成试例〕D03院落围合图谱试例'
+MODEL=PACKAGE+'/案例模型.json'
+BOT='https://w3id.org/bot#'
+KINDS=['building','wall','open','unknown']
+
+def dumps(v): return json.dumps(v,ensure_ascii=False,separators=(',',':'))
+def patterns(scheme):
+    out=[]
+    for rule in scheme['rules']:
+        p=rule['pattern']; variants=[p]
+        if scheme['allowReflection']: variants.append(list(reversed(p)))
+        keys=set()
+        for v in variants:
+            for i in range(len(v)) if scheme['allowRotation'] else [0]: keys.add('|'.join(v[i:]+v[:i]))
+        out.extend((k,rule['code']) for k in sorted(keys))
+    return out
+
+def classify(kinds,states,scheme,valid=True,shape='rectangular-reference'):
+    if not valid or len(kinds)!=len(states) or any(k not in KINDS for k in kinds): return 'invalid-input',[]
+    if shape!=scheme['applicableShape'] or len(kinds)!=len(scheme['sideIds']): return 'out-of-scope',[]
+    if any(s!='known' for s in states): return 'unknown',[]
+    matches=sorted(set(code for key,code in patterns(scheme) if key=='|'.join(kinds)))
+    return ('known-unmatched' if not matches else 'rule-conflict' if len(matches)>1 else 'candidate-assigned'),matches
+
+# The same expression is used by persisted graph queries and parameter-only tests.
+CORE='''WITH c,scheme,inputValid,cachedType,cachedStatus,
+ reduce(s='',kind IN c.boundaryKinds | s + CASE WHEN s='' THEN '' ELSE '|' END + kind) AS patternKey
+WITH c,scheme,inputValid,cachedType,cachedStatus,patternKey,
+ reduce(found=[],i IN range(0,size(scheme.patternKeys)-1) |
+ CASE WHEN scheme.patternKeys[i]=patternKey AND NOT scheme.patternCodes[i] IN found THEN found+[scheme.patternCodes[i]] ELSE found END) AS matches
+WITH c,scheme,cachedType,cachedStatus,patternKey,matches,
+ CASE WHEN NOT coalesce(inputValid,false) OR size(c.boundaryKinds)<>size(c.boundaryStates)
+           OR any(k IN c.boundaryKinds WHERE NOT k IN ['building','wall','open','unknown']) THEN 'invalid-input'
+      WHEN c.shapeCode<>scheme.applicableShape OR size(c.boundaryIds)<>size(scheme.sideIds) THEN 'out-of-scope'
+      WHEN c.boundaryIds<>scheme.sideIds THEN 'invalid-input'
+      WHEN any(s IN c.boundaryStates WHERE s<>'known') THEN 'unknown'
+      WHEN size(matches)=0 THEN 'known-unmatched'
+      WHEN size(matches)>1 THEN 'rule-conflict'
+      ELSE 'candidate-assigned' END AS resultStatus
+'''
+RETURN_CLASS="RETURN c.uid AS courtyard,c.exampleId AS example,patternKey,resultStatus,CASE WHEN resultStatus='candidate-assigned' THEN matches[0] ELSE '' END AS candidateType,matches,scheme.ruleVersion AS ruleVersion,cachedType,cachedStatus ORDER BY example"
+DB_PREFIX='''MATCH (c:Courtyard {caseId:$caseId})-[assignment:CLASSIFIED_BY]->(scheme:ClassificationScheme)
+OPTIONAL MATCH (c)-[hs:HAS_SOURCE]->(src:Source)
+WITH c,assignment,scheme,collect({edge:hs,src:src}) AS sources
+OPTIONAL MATCH (c)-[bp:BOUNDARY_PARTICIPANT]->(participant)
+WITH c,assignment,scheme,sources,collect({edge:bp,node:participant}) AS participants
+WITH c,scheme,assignment.candidateType AS cachedType,assignment.status AS cachedStatus,
+ size(sources)=1 AND sources[0].src.uid=assignment.sourceUid
+ AND sources[0].src.sourceVersion=assignment.inputVersion
+ AND sources[0].edge.sourceVersion=assignment.inputVersion
+ AND c.dataVersion=assignment.inputVersion
+ AND sources[0].edge.locator IS NOT NULL
+ AND all(k IN ['boundaryIds','boundaryKinds','boundaryStates','shapeCode'] WHERE k IN sources[0].edge.fields)
+ AND assignment.ruleVersion=scheme.ruleVersion
+ AND all(i IN range(0,size(c.boundaryIds)-1) WHERE
+   CASE WHEN c.boundaryKinds[i] IN ['building','wall'] THEN
+     size([p IN participants WHERE p.edge.boundaryId=c.boundaryIds[i]])=1
+     AND all(p IN [p IN participants WHERE p.edge.boundaryId=c.boundaryIds[i]] WHERE
+       p.edge.sourceUid=assignment.sourceUid AND p.edge.sourceVersion=assignment.inputVersion
+       AND p.edge.participantKind=c.boundaryKinds[i]
+       AND ((c.boundaryKinds[i]='building' AND 'Building' IN labels(p.node)) OR (c.boundaryKinds[i]='wall' AND 'Wall' IN labels(p.node))))
+   ELSE size([p IN participants WHERE p.edge.boundaryId=c.boundaryIds[i]])=0 END)
+ AND all(p IN participants WHERE p.edge IS NULL OR p.edge.boundaryId IN c.boundaryIds) AS inputValid
+'''
+IMPORT='''WITH $nodes AS ns,$relationships AS rs,$datasetId AS ds,$prefix AS prefix
+WHERE size(ns)>0 AND size(rs)>0
+ AND size(reduce(ids=[],n IN ns | CASE WHEN n.properties.uid IN ids THEN ids ELSE ids+[n.properties.uid] END))=size(ns)
+ AND size(reduce(ids=[],r IN rs | CASE WHEN r.properties.uid IN ids THEN ids ELSE ids+[r.properties.uid] END))=size(rs)
+ AND all(n IN ns WHERE n.properties.uid STARTS WITH prefix AND n.properties.caseId=ds AND n.properties.datasetId=ds
+     AND 'KGItem' IN n.labels AND 'D03V01' IN n.labels AND n.properties.sourceModelSha256=$sourceModelSha256)
+ AND all(r IN rs WHERE r.properties.uid STARTS WITH prefix AND r.properties.caseId=ds AND r.properties.datasetId=ds
+     AND r.properties.sourceModelSha256=$sourceModelSha256
+     AND r.type IN $allowedRelationshipTypes
+     AND size([n IN ns WHERE n.properties.uid=r.source])=1
+     AND size([n IN ns WHERE n.properties.uid=r.target])=1)
+OPTIONAL MATCH (existing)
+WHERE existing.datasetId=ds OR existing.caseId=ds OR existing.uid STARTS WITH prefix
+WITH ns,rs,ds,prefix,count(existing) AS collisions
+WHERE collisions=0
+OPTIONAL MATCH ()-[existingRel]->()
+WHERE existingRel.datasetId=ds OR existingRel.caseId=ds OR existingRel.uid STARTS WITH prefix
+WITH ns,rs,ds,prefix,count(existingRel) AS collisions
+WHERE collisions=0
+CALL { WITH ns UNWIND ns AS row CREATE (n:$(row.labels)) SET n=row.properties RETURN count(n) AS nodesCreated }
+CALL { WITH rs,ds UNWIND rs AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target})
+ WHERE a.caseId=ds AND b.caseId=ds CREATE (a)-[r:$(row.type)]->(b) SET r=row.properties RETURN count(r) AS relationshipsCreated }
+RETURN nodesCreated,relationshipsCreated
+'''
+
+def compile_model(path):
+    path=Path(path); raw=path.read_bytes(); model=json.loads(raw)
+    sha=hashlib.sha256(raw).hexdigest(); nodes=[];rels=[]; scheme=model['classificationScheme']; pairs=patterns(scheme)
+    def node(id,labels,p,example=None):
+        common={'uid':PREFIX+id,'id':id,'caseId':DS,'datasetId':DS,'dataMode':'synthetic','recordStatus':'synthetic-assignment','sourceModelSha256':sha,'dataVersion':model['modelVersion']}
+        if example: common['exampleId']=example
+        props={**common,**p};nodes.append({'id':id,'labels':['KGItem','D03V01',*labels],'properties':props});return props
+    def edge(id,type,source,target,props=None):
+        p={'uid':PREFIX+id,'id':id,'caseId':DS,'datasetId':DS,'dataMode':'synthetic','sourceModelSha256':sha,'semanticOrigin':'research-extension',**(props or {})}
+        rels.append({'id':id,'type':type,'source':PREFIX+source,'target':PREFIX+target,'properties':p});return p
+    def source(id,p,pointer):
+        excluded={'uid','id','caseId','datasetId','dataMode','recordStatus','sourceModelSha256','exampleId'}
+        fields=sorted(set(p)-excluded)
+        edge('SRC-'+id,'HAS_SOURCE',id,'EV01',{'fields':fields,'locator':pointer,'locatorKind':'JSON-pointer','sourceVersion':'1.0','evidenceRole':'synthetic-assignment','reviewStatus':'user-review-pending','projection':'字段由该JSON对象及其boundary数组投影；不是独立外部实证'})
+    node('EV01',['Source','SyntheticSource'],model['source'])
+    node('R01',['ClassificationScheme'],{'name':scheme['name'],'recordStatus':'research-candidate','ruleVersion':scheme['version'],'schemeMode':scheme['mode'],'applicableShape':scheme['applicableShape'],'sideIds':scheme['sideIds'],'patternKeys':[x[0] for x in pairs],'patternCodes':[x[1] for x in pairs],'typeCodes':[r['code'] for r in scheme['rules']],'typeNames':[r['name'] for r in scheme['rules']],'definitionJson':dumps(scheme),'sourceLocator':'/classificationScheme','reviewStatus':'user-review-pending'})
+    assignments=[]
+    for ei,ex in enumerate(model['examples']):
+        x=ex['id'];base='/examples/'+str(ei);u=ex['unit'];c=ex['courtyard'];wall=ex['wall'];ent=ex['entrance'];bs=ex['boundary']
+        assert len({b['id'] for b in bs})==len(bs)
+        assert all(b['state'] in ('known','unknown') and ((b['kind']=='unknown')==(b['state']=='unknown')) for b in bs)
+        assert all(bs[i]['endXY']==bs[(i+1)%len(bs)]['startXY'] for i in range(len(bs)))
+        up=node(u['id'],['Zone','DwellingUnit'],{**u,'botClassIri':BOT+'Zone','geometryState':'synthetic-declared-containment; geometry not computed'},x);source(u['id'],up,base+'/unit')
+        lengths=[math.dist(b['startXY'],b['endXY']) for b in bs]
+        cp=node(c['id'],['Zone','Space','Courtyard'],{**c,'botClassIri':BOT+'Space','boundaryIds':[b['id'] for b in bs],'boundaryKinds':[b['kind'] for b in bs],'boundaryStates':[b['state'] for b in bs],'boundaryLengthsM':lengths,'boundarySegmentsJson':dumps(bs),'analysisItems':['D03-T01','D03-T02']},x);source(c['id'],cp,base)
+        edge(x+'-CONTAINS-C','BOT_HAS_SPACE',u['id'],c['id'],{'botPropertyIri':BOT+'hasSpace','semanticOrigin':'BOT-aligned-synthetic-assertion','sourceUid':PREFIX+'EV01','sourceVersion':'1.0','locator':base,'fields':['source','target','type']})
+        for bi,b in enumerate(ex['buildings']):
+            bp=node(b['id'],['Zone','Building'],{**b,'botClassIri':BOT+'Building'},x);source(b['id'],bp,base+'/buildings/'+str(bi))
+            edge(x+'-CONTAINS-'+b['id'],'BOT_HAS_BUILDING',u['id'],b['id'],{'botPropertyIri':BOT+'hasBuilding','semanticOrigin':'BOT-aligned-synthetic-assertion','sourceUid':PREFIX+'EV01','sourceVersion':'1.0','locator':base,'fields':['source','target','type']})
+        wp=node(wall['id'],['Element','Wall'],{**wall,'botClassIri':BOT+'Element'},x);source(wall['id'],wp,base+'/wall')
+        edge(x+'-CONTAINS-W','BOT_CONTAINS_ELEMENT',u['id'],wall['id'],{'botPropertyIri':BOT+'containsElement','semanticOrigin':'BOT-aligned-synthetic-assertion','sourceUid':PREFIX+'EV01','sourceVersion':'1.0','locator':base,'fields':['source','target','type'],'interpretation':'整体分析范围包含院墙；并非院墙属于院落空间的构件组成'})
+        for j,b in enumerate(bs):
+            if b['participantId']:
+                edge(x+'-BOUNDARY-'+b['id'],'BOUNDARY_PARTICIPANT',c['id'],b['participantId'],{'boundaryId':b['id'],'participantKind':b['kind'],'participantScope':b['participantScope'],'sourceUid':PREFIX+'EV01','sourceVersion':'1.0','locator':base+'/boundary/'+str(j),'fields':['source','target','type','boundaryId','participantKind','participantScope'],'evidenceRole':'synthetic-assignment','mappingBoundary':'二维/语义参与，不断言BOT邻接、实体接触或承重'})
+        idx=next(i for i,b in enumerate(bs) if b['id']==ent['referenceBoundaryId']);L=lengths[idx]
+        assert 0<=ent['startChainageM']<ent['endChainageM']<=L and L>0
+        ip=node(ent['id'],['Interface','EntranceInterface'],{**{k:v for k,v in ent.items() if k!='hostId'},'referenceLengthM':L,'referenceGeometryVersion':c['geometryVersion'],'botClassIri':BOT+'Interface','analysisItems':['D03-T03']},x);source(ent['id'],ip,base)
+        for role,target in [('courtyard-side',c['id']),('opening-host',ent['hostId'])]:
+            edge(x+'-ENTRY-'+role,'INTERFACE_OF',ent['id'],target,{'role':role,'botPropertyIri':BOT+'interfaceOf','semanticOrigin':'BOT-aligned-with-research-role','sourceUid':PREFIX+'EV01','sourceVersion':'1.0','locator':base+'/entrance','fields':['source','target','type','role']})
+        status,matches=classify(cp['boundaryKinds'],cp['boundaryStates'],scheme)
+        assignment={'status':status,'candidateType':matches[0] if status=='candidate-assigned' else '', 'ruleVersion':scheme['version'],'inputVersion':'1.0','sourceUid':PREFIX+'EV01','sourceRelationUid':PREFIX+'SRC-'+c['id'],'inputFields':['boundaryIds','boundaryKinds','boundaryStates','shapeCode'],'inputBoundaryVersion':c['geometryVersion'],'analysisItems':['D06-T01','D06-T03'],'recordStatus':'derived-candidate','evidenceRole':'derived-not-independent-evidence','reviewStatus':'user-review-pending'}
+        edge(x+'-CLASS','CLASSIFIED_BY',c['id'],'R01',assignment);assignments.append({'example':x,**assignment})
+    ids=[n['properties']['uid'] for n in nodes];rids=[r['properties']['uid'] for r in rels]
+    assert len(ids)==len(set(ids)) and len(rids)==len(set(rids))
+    assert all(r['source'] in ids and r['target'] in ids for r in rels)
+    for row in nodes+rels:
+        for k,v in row['properties'].items():
+            assert isinstance(v,(str,bool,int,float,list)),(row['id'],k,type(v))
+            if isinstance(v,list): assert not v or len({type(t) for t in v})==1
+    payload={'nodes':nodes,'relationships':rels,'datasetId':DS,'prefix':PREFIX,'sourceModelSha256':sha,'allowedRelationshipTypes':sorted({r['type'] for r in rels})}
+    return model,payload,assignments
+
+Q3='''MATCH (i:EntranceInterface {caseId:$caseId})-[a:INTERFACE_OF {role:'courtyard-side'}]->(c:Courtyard)
+MATCH (i)-[h:INTERFACE_OF {role:'opening-host'}]->(host:Wall)
+MATCH (i)-[hs:HAS_SOURCE]->(src:Source)
+WITH i,c,host,hs,src,a,h,[k IN range(0,size(c.boundaryIds)-1) WHERE c.boundaryIds[k]=i.referenceBoundaryId] AS indices
+WITH i,c,host,
+ size(indices)=1 AND i.unit='m' AND c.unit='m' AND i.referenceLengthM>0
+ AND i.referenceLengthM=c.boundaryLengthsM[indices[0]]
+ AND i.referenceGeometryVersion=c.geometryVersion
+ AND i.startChainageM>=0 AND i.endChainageM>i.startChainageM AND i.endChainageM<=i.referenceLengthM
+ AND hs.sourceVersion=i.dataVersion AND src.sourceVersion=i.dataVersion
+ AND a.sourceVersion=i.dataVersion AND h.sourceVersion=i.dataVersion
+ AND all(f IN ['startChainageM','endChainageM','referenceLengthM','referenceBoundaryId','referenceGeometryVersion'] WHERE f IN hs.fields)
+ AND EXISTS { MATCH (c)-[bp:BOUNDARY_PARTICIPANT]->(host) WHERE bp.boundaryId=i.referenceBoundaryId } AS valid
+RETURN i.uid AS entrance,i.exampleId AS example,c.uid AS courtyard,host.uid AS host,i.referenceBoundaryId AS boundary,
+ i.startChainageM AS startM,i.endChainageM AS endM,i.referenceLengthM AS lengthM,valid,
+ CASE WHEN valid THEN (i.startChainageM+i.endChainageM)/2.0/i.referenceLengthM ELSE null END AS relativePosition,
+ i.farSideStatus AS farSideStatus,i.passabilityStatus AS passabilityStatus ORDER BY example'''
+
+def queries():
+    q={}
+    q['Q01']='''MATCH (u:DwellingUnit {caseId:$caseId})-[:BOT_HAS_SPACE]->(c:Courtyard)
+OPTIONAL MATCH (u)-[:BOT_HAS_BUILDING]->(b:Building)
+RETURN u.exampleId AS example,u.uid AS unit,c.uid AS courtyard,collect(b.uid) AS buildings,c.geometryState AS geometryState ORDER BY example'''
+    q['Q02']='''MATCH (c:Courtyard {caseId:$caseId}) UNWIND range(0,size(c.boundaryIds)-1) AS i
+OPTIONAL MATCH (c)-[p:BOUNDARY_PARTICIPANT]->(n) WHERE p.boundaryId=c.boundaryIds[i]
+RETURN c.exampleId AS example,c.uid AS courtyard,c.boundaryIds[i] AS side,c.boundaryStates[i] AS state,c.boundaryKinds[i] AS kind,n.uid AS participant,p.participantScope AS participantScope ORDER BY example,i'''
+    q['Q03']=Q3
+    q['Q04']='''MATCH (n:D03V01)-[s:HAS_SOURCE]->(e:Source)
+RETURN n.uid AS object,e.uid AS source,s.fields AS fields,s.locator AS locator,s.locatorKind AS locatorKind,s.sourceVersion AS expectedVersion,e.sourceVersion AS actualVersion,s.evidenceRole AS evidenceRole ORDER BY object'''
+    q['Q05']=DB_PREFIX+CORE+RETURN_CLASS
+    q['Q06']='CALL { '+q['Q05']+' } RETURN collect({example:example,courtyard:courtyard,pattern:patternKey,status:resultStatus,candidateType:candidateType,ruleVersion:ruleVersion}) AS d06Comparison'
+    q['Q07']='''MATCH (a)-[r]->(b) WHERE (a.caseId=$caseId OR b.caseId=$caseId) AND NOT (a.caseId=$caseId AND b.caseId=$caseId) RETURN count(r) AS crossDatasetEdges'''
+    q['Q08']='''MATCH (n:D03V01) WITH labels(n) AS labels,count(*) AS n RETURN labels,n ORDER BY labels'''
+    return q
+
+if __name__=='__main__':
+    import sys
+    d=Path(sys.argv[1]); model,payload,assignments=compile_model(d/'candidates'/MODEL)
+    out=d/'generated';out.mkdir(exist_ok=True)
+    save(out/'payload.json',payload);save(out/'assignments.json',assignments);save(out/'queries.json',queries())
+    (out/'import.cypher').write_text(IMPORT)
+    (out/'审核查询.cypher').write_text('// 参数 {caseId:"D03V01"}；Q00为可选图显示，不在查询验收计数内。\n// Q00\nMATCH (a:D03V01)-[r]->(b:D03V01) RETURN a,r,b;\n\n'+'\n\n'.join('// '+k+'\n'+v+';' for k,v in queries().items()))
+    print(json.dumps({'nodes':len(payload['nodes']),'relationships':len(payload['relationships']),'modelSHA256':payload['sourceModelSha256'],'assignments':[(x['example'],x['status'],x['candidateType']) for x in assignments]},ensure_ascii=False))
+
+
+=== candidates/研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json ===
+{
+  "datasetId": "D03V01",
+  "modelVersion": "1.0",
+  "status": "synthetic-candidate-awaiting-user-review",
+  "authoritativePath": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+  "purpose": "共同表达首轮实现；D03-T01/T02/T03接D06-T01/T03；非真实类型发现",
+  "authorization": "2026-10-30用户同意共同图谱表达及第一个具体任务，结果和思路待用户审核",
+  "scope": {
+    "implemented": [
+      "D03-T01外部院落身份与理论/实体边界区别",
+      "D03-T02逐侧参与与开敞/未知",
+      "D03-T03入口局部定位与宿主、已知院侧",
+      "D06-T01/T03限定输入检查、候选分型与变体比较"
+    ],
+    "notImplemented": [
+      "D03完整六项",
+      "D04立面实例",
+      "D05组团实例",
+      "D02内部构架",
+      "D03完整通行网",
+      "D07时序",
+      "D08感知",
+      "三维几何判断",
+      "真实样本有效性",
+      "BOT/OWL推理"
+    ]
+  },
+  "basis": [
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+      "items": [
+        "B-C01",
+        "B-C03",
+        "B-C05",
+        "B-C06",
+        "B-C07",
+        "B-R02",
+        "B-R04",
+        "B-R09",
+        "B-R12",
+        "B-A07",
+        "B-A08"
+      ]
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "items": [
+        "U02",
+        "U03",
+        "U04",
+        "U10",
+        "U11",
+        "U13",
+        "U14"
+      ]
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "items": [
+        "D03-T01",
+        "D03-T02",
+        "D03-T03"
+      ]
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "items": [
+        "D06-T01",
+        "D06-T03"
+      ]
+    }
+  ],
+  "source": {
+    "id": "EV01",
+    "name": "D03人工合成设定与来源定位",
+    "sourceKind": "synthetic-not-observation",
+    "sourcePath": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+    "sourceVersion": "1.0",
+    "creator": "研究协作过程中的人工试例设计",
+    "supportScope": "仅证明本试例如何设定；不支持真实建筑、类型有效性或独立互证"
+  },
+  "classificationScheme": {
+    "id": "R01",
+    "name": "四侧院落围合构成候选方案",
+    "version": "1.0",
+    "mode": "exclusive-single",
+    "status": "research-candidate-not-approved",
+    "unitOfAnalysis": "one-courtyard",
+    "applicableShape": "rectangular-reference",
+    "sideIds": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "allowRotation": true,
+    "allowReflection": true,
+    "definingFeatures": [
+      "完整且可判定的四侧序列",
+      "每侧的building/wall/open参与类别",
+      "实际参与端点和来源引用一致"
+    ],
+    "auxiliaryFeatures": [
+      "入口中心里程比；不决定围合类",
+      "N/E/S/W绝对方位"
+    ],
+    "rules": [
+      {
+        "code": "ENC-3B-1W",
+        "name": "三侧建筑＋一侧院墙",
+        "pattern": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ]
+      },
+      {
+        "code": "ENC-2B-1W-1O",
+        "name": "相邻两侧建筑＋一侧院墙＋一侧开放",
+        "pattern": [
+          "building",
+          "building",
+          "wall",
+          "open"
+        ]
+      }
+    ],
+    "exclusions": [
+      "非四侧或不符合本例矩形参照范围：out-of-scope",
+      "关键参与情况未知：unknown",
+      "已知但不符规则：known-unmatched",
+      "互斥规则同时满足：rule-conflict",
+      "字段、来源、版本或关系不一致：invalid-input"
+    ],
+    "boundaryPolicy": "按院落侧的主界定对象分粗类；院墙上有门洞仍记wall，入口另记，不计算实体边界长度比例；混合一侧/不规则边界须另审规则",
+    "localTypeNames": [],
+    "origin": "从既有D03/D06候选方法提出的本研究工作规则，不命名为三合院/四合院等地方类型"
+  },
+  "examples": [
+    {
+      "id": "A",
+      "name": "三侧建筑、一侧院墙；入口中心里程比0.50",
+      "unit": {
+        "id": "A-U01",
+        "name": "A例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "A-C01",
+        "name": "A例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "A-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BW",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "A-BN",
+          "name": "A例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "A-BE",
+          "name": "A例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "A-BW",
+          "name": "A例W侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "A-W01",
+        "name": "A例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "A-I01",
+        "name": "A例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "A-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "B",
+      "name": "同一围合构成；入口中心里程比0.25",
+      "unit": {
+        "id": "B-U01",
+        "name": "B例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "B-C01",
+        "name": "B例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "B-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BW",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "B-BN",
+          "name": "B例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "B-BE",
+          "name": "B例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "B-BW",
+          "name": "B例W侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "B-W01",
+        "name": "B例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "B-I01",
+        "name": "B例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 2.0,
+        "endChainageM": 4.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "B-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "C",
+      "name": "相邻两侧建筑、一侧院墙、一侧开放",
+      "unit": {
+        "id": "C-U01",
+        "name": "C例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "C-C01",
+        "name": "C例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "C-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "C-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "C-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "open",
+          "participantId": null,
+          "participantScope": "明确没有连续实体界定；不是缺资料",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "C-BN",
+          "name": "C例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "C-BE",
+          "name": "C例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "C-W01",
+        "name": "C例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "C-I01",
+        "name": "C例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "C-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "D",
+      "name": "西侧参与情况未知；不补造建筑或开放事实",
+      "unit": {
+        "id": "D-U01",
+        "name": "D例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "D-C01",
+        "name": "D例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "D例西侧是理论参照线，不声称已识别实体边界"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "D-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "D-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "D-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "unknown",
+          "kind": "unknown",
+          "participantId": null,
+          "participantScope": "仅有理论参照边，不知参与者",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "D-BN",
+          "name": "D例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "D-BE",
+          "name": "D例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "D-W01",
+        "name": "D例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "D-I01",
+        "name": "D例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "D-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    }
+  ]
+}
+
+
+=== candidates/研究成果/〔合成试例〕D03院落围合图谱试例/README.md ===
+---
+wiki_id: d03-courtyard-graph-example
+type: research-deliverable
+status: synthetic-candidate-awaiting-user-review
+created: '2026-10-30'
+updated: '2026-10-30'
+summary: 共同表达首轮落地；四个院落合成例区分同型变体、开放对照和关键未知。
+depends_on:
+- 研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md
+- 研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md
+- 研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md
+artifact_primary_topic: 合成试建与规则检验
+artifact_topic_roles:
+  合成试建与规则检验: 检查边界参与、来源、入口和候选分型的最小链
+  多尺度语义模型与建模依据: 对照U14共同表达及其BOT边界
+  案例查询风貌比较与有效性: 核对可比性、同型变体及未知处理，不作为真实有效性证据
+artifact_main_sources:
+- 研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json
+artifact_state: D03限定合成实现／共同表达与具体判据待用户审核；D04和D05未实例化
+artifact_kind: 院落围合最小图谱表达试例
+artifact_boundary: 案例JSON是唯一实例维护主源；本研究共同定义在优化基准U14。Neo4j及离线页为派生投影。合成例不进入正文，不默认进附录；没有真实样本、历史或民族结论。
+artifact_title: D03院落围合图谱试例
+artifact_label: 合成试例
+---
+
+# D03院落围合图谱试例
+
+**请审核“表达是否合适、分类理由是否成立”，而不是把运行通过当作方法已获认可。** 四个例子全部人工合成；没有采用某栋景宁建筑的事实，也没有虚构文献、作者或PDF页码来给合成参数背书。
+
+## 从哪里开始审核
+
+1. [交互审核页](审核视图.html)：先看平面示意及A—D比较，再切换对象骨架、属性与来源、分类追溯和全部图谱。可点击节点／关系查看属性、支持字段和来源定位。
+2. [D03详细拆解表](../〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md)及[原生可编辑导图](../〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md)：保留T01—T06，注明本次只实现T01／T02／T03的外部最小子集。
+3. [本研究优化基准U14](../〔建模依据〕知识图谱建模基准/本研究优化基准.md#u14-d03d05共同表达与院落围合首例)：G01—G08是共同表达的唯一规则入口；本页只解释它们在本例中的用法。
+4. [案例模型.json](案例模型.json)：唯一实例维护主源。[查询](Neo4j/审核查询.cypher)与[真实返回](Neo4j/查询返回.json)供逐项复查。
+
+审核页为真实数据库读回生成的离线快照，不实时连库，不是Neo4j Browser自身的GUI验收。入口几何是人工示意，不是扫描重建、地籍或测绘成果。
+
+## 1. 先把哪些东西分开
+
+| 信息 | 本例落地 | 为何这样处理／不做什么 |
+|---|---|---|
+| 宅院整体与院落 | A-U01等整体Zone；A-C01等院落Space | 院落不硬挂北侧建筑；整体不等于其中一栋 |
+| 参与围合的建筑与院墙 | 复用Building／Wall身份 | 建筑朝院一侧不冒称已识别实体墙；院墙不通过PART_OF挂在院落空间上 |
+| 边界段 | 院落上的有序局部记录；N／E／S／W只在所属院落内标识 | 不建16个边段节点，不建尺寸节点；四侧只是本轮规则范围 |
+| 哪个对象参与哪侧 | 院落→对象的BOUNDARY_PARTICIPANT边，携带局部编号及出处 | 不把二维参与关系升级为BOT邻接、真实接触或结构支承 |
+| 入口 | 有独立ID的EntranceInterface；两条带角色INTERFACE_OF指向院侧和宿主墙 | 为跨项引用和局部定位而建点，不是因为它“有尺寸”。外侧空间未知，不补点、不生成通行 |
+| 尺寸和位置 | 入口起止里程直接归入口；参照长度由同一边段投影 | 起点、方向、单位和几何版本保留；不储存另一份尺寸记录 |
+| 来源 | 一个共享EV01；对象HAS_SOURCE限定字段，关系直接带来源UID／定位／版本 | 这是人工设定追溯，不是独立验证，不为全部建筑事实背书 |
+| 候选分类 | 一份共享R01方案；每院落用CLASSIFIED_BY边保存派生候选及版本 | 不建“类型实体”和“D06建筑”；对象身份不随归类改变 |
+
+**D04、D05共同接口已说明，但未实例化：** D04以后引用相同建筑、入口及局部范围；D05引用相同建筑／院落，并带成员和分析范围。不能据本例宣称两个模块已建库。立面、材料区域和组团是否独立建点仍按独立身份／引用需求逐项判断。
+
+## 2. 四个合成例具体检验什么
+
+按N→E→S→W顺序读。S侧从东向西累计里程；同一参照边长12m。这些数值只是示例设置，没有地域或测绘依据。
+
+| 例 | N／E／S／W的构成 | 候选归类 | 入口中心里程比 | 本例的作用 |
+|---|---|---|---:|---|
+| A | 建筑／建筑／院墙／建筑 | ENC-3B-1W | 0.50 | 三侧建筑＋一侧院墙的正例 |
+| B | 建筑／建筑／院墙／建筑 | ENC-3B-1W | 0.25 | 与A同构成型；入口位置作为辅助变体，不另增围合类型 |
+| C | 建筑／建筑／院墙／明确开放 | ENC-2B-1W-1O | 0.50 | 相邻两侧建筑＋一侧院墙＋一侧开放的对照 |
+| D | 建筑／建筑／院墙／未知 | 暂不能判定 | 0.50 | 已知的入口位置可计算，但西侧未知，不能当开放或强分型 |
+
+入口比值按 `(s_a+s_b)/2/L` 计算。0.50只说明该参照下中心位置，不设“居中”的通用容差或建筑学评价。未判断净空、门扇、障碍和行人情境，所以四例均不输出可通行结论。
+
+### 候选规则的作用范围
+
+- 分析单位是一处院落，不是建筑栋数或宅院总体类型。
+- 规则只检查人工四侧矩形参照的侧类和排列；绝对方位、旋转和镜像不作定义性特征。C型要求两建筑侧相邻；相对两侧建筑不自动归入此型。
+- 院墙上存在入口仍属于粗粒度wall侧。此规则不是净实体边界长度比例，也不是完整物理闭合判断；需要扣洞／混合侧分析时另定粒度。
+- 边界未知→unknown；已知但不匹配→known-unmatched；互斥规则同时满足→rule-conflict；五侧或非本形态范围→out-of-scope；输入／来源／版本／关系不一致→invalid-input。
+- 不将候选名称直接映射成“三合院”“四合院”或地方类型，不声称两条规则穷尽院落形态。允许不同规则方案，修改后要重算而非仅修改显示名。
+
+## 3. D06真正收到什么
+
+收到院落ID、逐侧原始记录与关系、来源位置、规则版本、满足／未满足条件、候选结果及未定状态。Q05重算并对照保存的归类；Q06输出D06比较底表；入口连续量由Q03独立返回。
+
+由这四个**合成设定**能检验的逻辑是：A和B可以同型而有入口位置差异；C和A有明确边界构成差异；D不能与C合并为“开放型”。这只是比较路径可运行，不是景宁建筑学发现，更不产生类型频率、文化成因或民族专属性。
+
+## 4. 查询与实际执行证据
+
+| 查询 | 审核问题 |
+|---|---|
+| Q01 | 哪个整体包含哪处院落及哪些建筑？ |
+| Q02 | 各侧由谁参与，明确开放和未知能否区分？ |
+| Q03 | 入口宿主、院侧、参照边和位置比值是什么？缺少外侧是否被保留？ |
+| Q04 | 对象哪些字段由EV01哪个JSON片段支持？ |
+| Q05 | 当前规则重算的候选类型是否与保存值一致？来源／版本／端点是否合格？ |
+| Q06 | D06的同粒度比较底表是什么？ |
+| Q07 | 是否出现跨数据集边？ |
+| Q08 | 实际节点类别和数量是否与JSON投影相符？ |
+
+<!-- verification-summary:start -->
+执行核验进行中；不以候选文件代替数据库成功。最终以本节交付时的真实读回记录为准。
+<!-- verification-summary:end -->
+
+## 5. 维护、恢复与边界
+
+- 案例JSON修改后，由[项目管理执行入口](../../项目管理/图谱执行/D03院落围合/README.md)重新生成载荷、查询及展示；不要直接编辑派生页面或归类缓存当主源。
+- 本轮只向独立D03V01命名空间新增。V01／D01、约束和索引按完整逻辑指纹核对；没有把旧合成对象改成真实资料。
+- [写前快照](Neo4j/写前逻辑快照.json)保存旧库标签、属性、类型、端点及关系；不是二进制dump，也不表示已经演练恢复。[回退说明](Neo4j/恢复说明.md)只针对本例，不擅自回滚其他研究成果。
+- 本轮只验证固定Cypher和本例规则，不是通用自动分类引擎、数据库触发器、完整三维算法或OWL一致性验证。
+- 共同定义／详细拆解表、程序运行、用户审核、真实样本适用性分别报告；本例不进入正文，也不默认进入附录。
+
+## 6. 请你审核的五个决定
+
+| 审核点 | 当前取舍 | 用户意见 |
+|---|---|---|
+| R-A 对象粒度 | 不给边界段和尺寸逐一建节点；入口因独立引用建点 | 待审核 |
+| R-B 关系含义 | 建筑朝院侧参与围合，但不假造实体墙或三维邻接 | 待审核 |
+| R-C 类型粒度 | 先分围合构成，入口位置作同型内部差异；不先造总类型 | 待审核 |
+| R-D 缺失处理 | 明确开放和未知严格分开；关键未知停止分型 | 待审核 |
+| R-E 比较价值 | 图谱能够反查归类理由与来源；是否足以支撑下一步真实资料试判？ | 待审核 |
+
+可直接按G01—G08、A—D或R-A—R-E反馈。技术检查通过不自动勾选以上审核。

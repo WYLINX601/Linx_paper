@@ -1,0 +1,25 @@
+{
+  "status": "prepared",
+  "preparedAt": "2026-10-26T06:27:52.969173+00:00",
+  "archiveFileSha256": "31261edacee5f637177bf2261cc11245c9db0e16ddce910beab3b3b76034117f",
+  "archiveTypesSha256": "993883ee5c5cff809143a408ea5a2e38e3665255a510a57837ecf5749b3b023e",
+  "sourceModelSha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67",
+  "sourceNodeCount": 42,
+  "oldNodes": 41,
+  "oldRelationships": 166,
+  "newNodes": 43,
+  "newRelationships": 191,
+  "delta": {
+    "addedNodes": 2,
+    "addedRelationships": 25,
+    "deletedNodes": 0,
+    "deletedRelationships": 0,
+    "refreshedSourceNodes": 41
+  },
+  "queryExplain": [],
+  "rollbackExplain": [],
+  "querySha256": "7a149a65f484712585ac4483552e3d1a46fb6293c4cc37083af2dec26e97c35a",
+  "parameterSha256": "92377a9d819ceb7764a0203269b10838a8b7404bc581a7b2bef034961c346de4",
+  "authorization": "2026-10-26 user explicitly authorized construction, extension, and Neo4j CRUD update.",
+  "schemaPolicy": "Retain KGItem.uid uniqueness constraint and existing indexes; no server/permission changes"
+}

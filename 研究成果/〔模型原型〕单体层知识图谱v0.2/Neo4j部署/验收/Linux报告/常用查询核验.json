@@ -1,0 +1,52 @@
+[
+  {
+    "query": "// 1. 文献图：返回节点和关系列，在 Neo4j Browser 中显示 Graph 视图\nMATCH (a:KGItem:Entity:Literature)-[r]->(b:KGItem:Entity:Literature)\nRETURN a, r, b",
+    "rows": 22,
+    "status": "passed"
+  },
+  {
+    "query": "// 2. 虚构演示图：单独返回节点和关系列，在 Neo4j Browser 中显示 Graph 视图\nMATCH (a:KGItem:Entity:Demo)-[r]->(b:KGItem:Entity:Demo)\nRETURN a, r, b",
+    "rows": 12,
+    "status": "passed"
+  },
+  {
+    "query": "// 3. 全部领域实体之间的展示关系（表格；每条边携带 assertionId 与 qualifiers JSON）\nMATCH (a:KGItem:Entity)-[r]->(b:KGItem:Entity)\nWHERE a:Literature OR a:Demo\nRETURN a.datasetKind AS dataset, a.label AS fromLabel, type(r) AS relation,\n       b.label AS toLabel, r.assertionId AS assertionId,\n       r.sourceField AS sourceField, r.qualifiers AS qualifiers\nORDER BY dataset, fromLabel, relation, toLabel",
+    "rows": 34,
+    "status": "passed"
+  },
+  {
+    "query": "// 4. 仅文献案例中的领域实体及实体间展示关系（表格）\nMATCH (a:KGItem:Entity:Literature)-[r]->(b:KGItem:Entity:Literature)\nRETURN a.label AS fromLabel, type(r) AS relation, b.label AS toLabel,\n       r.assertionId AS assertionId, r.sourceField AS sourceField,\n       r.qualifiers AS qualifiers\nORDER BY fromLabel, relation, toLabel",
+    "rows": 22,
+    "status": "passed"
+  },
+  {
+    "query": "// 5. 仅虚构空间关系演示中的领域实体及实体间展示关系（表格）\nMATCH (a:KGItem:Entity:Demo)-[r]->(b:KGItem:Entity:Demo)\nRETURN a.label AS fromLabel, type(r) AS relation, b.label AS toLabel,\n       r.assertionId AS assertionId, r.sourceField AS sourceField,\n       r.qualifiers AS qualifiers\nORDER BY fromLabel, relation, toLabel",
+    "rows": 12,
+    "status": "passed"
+  },
+  {
+    "query": "// 6. 周湖8号的原始特征断言及其证据、来源回溯\nMATCH (record:KGItem:Entity:Literature {uid: 'kgv02:literature:entity:R_8'})\nMATCH (a:KGItem:Assertion:Literature)-[:SUBJECT]->(record)\nOPTIONAL MATCH (a)-[:EVIDENCED_BY]->(ev:KGItem:Evidence:Literature)-[:FROM_SOURCE]->(src:KGItem:Source:Literature)\nRETURN a.sourceId AS assertionId, a.predicate AS feature, a.valueJson AS valueJson,\n       a.scope AS scope, a.status AS status, a.attribution AS attribution,\n       ev.sourceId AS evidenceId, ev.locator AS locator, ev.summary AS evidence,\n       src.title AS sourceTitle\nORDER BY feature, evidenceId",
+    "rows": 6,
+    "status": "passed"
+  },
+  {
+    "query": "// 7. 堂屋与前廊的显式通行断言：同时检查方向、界面、情境和证据\nMATCH (a:KGItem:Assertion:Demo {predicate: 'direct_access_to'})\nMATCH (a)-[:SUBJECT]->(from:KGItem:Entity:Demo)\nMATCH (a)-[:OBJECT]->(to:KGItem:Entity:Demo)\nMATCH (a)-[:VIA]->(via:KGItem:Entity:Demo)\nMATCH (a)-[:EVIDENCED_BY]->(ev:KGItem:Evidence:Demo)-[:FROM_SOURCE]->(src:KGItem:Source:Demo)\nRETURN a.sourceId AS assertionId, from.label AS from, to.label AS to,\n       via.label AS interface, a.accessContextJson AS accessContext,\n       a.valueJson AS allowed, ev.sourceId AS evidenceId, ev.summary AS evidence,\n       src.title AS source\nORDER BY assertionId",
+    "rows": 2,
+    "status": "passed"
+  },
+  {
+    "query": "// 8. 分类比较：分类决策、四项判据 JSON、输入断言与证据\nMATCH (c:KGItem:Classification:Literature)-[:SUBJECT]->(subject:KGItem:Entity:Literature)\nMATCH (c)-[:TYPE]->(type:KGItem:Entity:Literature)\nMATCH (c)-[:SCHEME]->(scheme:KGItem:Entity:Literature)\nOPTIONAL MATCH (c)-[:INPUT]->(input:KGItem:Assertion:Literature)\nOPTIONAL MATCH (c)-[:EVIDENCED_BY]->(ev:KGItem:Evidence:Literature)\nRETURN c.sourceId AS classificationId, subject.label AS subject,\n       type.label AS type, scheme.label AS scheme, c.decision AS decision,\n       c.criteriaResultsJson AS criteriaResultsJson,\n       collect(DISTINCT input.sourceId) AS inputAssertions,\n       collect(DISTINCT ev.sourceId) AS evidence\nORDER BY classificationId",
+    "rows": 4,
+    "status": "passed"
+  },
+  {
+    "query": "// 9. 周湖1号屋面争议图：支持证据用 EVIDENCED_BY，冲突来源用 CONFLICTING_EVIDENCE\nMATCH (a:KGItem:Assertion:Literature {uid: 'kgv02:literature:assertion:F_1_roof_layered'})\nOPTIONAL MATCH (a)-[supports:EVIDENCED_BY]->(support:KGItem:Evidence:Literature)\nOPTIONAL MATCH (a)-[conflicts:CONFLICTING_EVIDENCE]->(conflict:KGItem:Evidence:Literature)\nOPTIONAL MATCH (support)-[supportSourceRel:FROM_SOURCE]->(supportSource:KGItem:Source:Literature)\nOPTIONAL MATCH (conflict)-[conflictSourceRel:FROM_SOURCE]->(conflictSource:KGItem:Source:Literature)\nRETURN a, supports, support, supportSourceRel, supportSource,\n       conflicts, conflict, conflictSourceRel, conflictSource",
+    "rows": 1,
+    "status": "passed"
+  },
+  {
+    "query": "// 10. 从来源回溯支持或冲突证据被哪些断言/分类使用\nMATCH (claim:KGItem)-[:EVIDENCED_BY]->(ev:KGItem:Evidence)-[:FROM_SOURCE]->(src:KGItem:Source)\nWHERE claim:Assertion OR claim:Classification\nRETURN src.datasetKind AS dataset, src.title AS source,\n       ev.sourceId AS evidenceId, ev.locator AS locator,\n       labels(claim) AS claimLabels, claim.sourceId AS claimId,\n       claim.predicate AS predicate, claim.decision AS decision,\n       'supporting' AS evidenceRole\nUNION\nMATCH (claim:KGItem)-[:CONFLICTING_EVIDENCE]->(ev:KGItem:Evidence)-[:FROM_SOURCE]->(src:KGItem:Source)\nWHERE claim:Assertion\nRETURN src.datasetKind AS dataset, src.title AS source,\n       ev.sourceId AS evidenceId, ev.locator AS locator,\n       labels(claim) AS claimLabels, claim.sourceId AS claimId,\n       claim.predicate AS predicate, claim.decision AS decision,\n       'conflicting' AS evidenceRole\nORDER BY dataset, source, evidenceId, claimId",
+    "rows": 68,
+    "status": "passed"
+  }
+]

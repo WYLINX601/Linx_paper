@@ -1,0 +1,14 @@
+{
+  "frozen_reports": 3,
+  "snapshot_files": 32,
+  "footnote_definitions": 23,
+  "cited_footnote_labels": 23,
+  "errors": [],
+  "current_manuscript_sha256": "b0c07099cad1b3d73cc6b133e182c3535b133c78d7c2f48954a2089e55b4fed5",
+  "checked": "immutable review hashes, current manuscript footnote closure, source-card links and newly added routes",
+  "not_checked": "2026 field status, unprovided fulltexts and comprehensive database coverage",
+  "preexisting_missing_routes": [
+    "README.md: broken /Users/wangyuelin/Downloads/新录音 2.md"
+  ],
+  "scope_note": "The unchanged project README links to a missing historical Downloads source. The saved 01_sources copy remains the historical route; no unrelated source was restored or removed."
+}

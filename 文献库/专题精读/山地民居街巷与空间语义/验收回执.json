@@ -1,0 +1,264 @@
+{
+  "checked_at_local": "2026-10-31T23:10:59.112344+08:00",
+  "scope": "This topic and newly added literature-index links only; no whole-vault health claim",
+  "published_files": [
+    "README.md",
+    "证据与阅读记录.md",
+    "山地街巷与民居关联-讨论稿.md",
+    "山地民居街巷论文精读.smm.md",
+    "来源与阅读状态.json",
+    "审阅与验收.md",
+    "审阅证据.zip"
+  ],
+  "actual_tree": [
+    "README.md",
+    "审阅与验收.md",
+    "审阅证据.zip",
+    "山地民居街巷论文精读.smm.md",
+    "山地街巷与民居关联-讨论稿.md",
+    "来源与阅读状态.json",
+    "证据与阅读记录.md"
+  ],
+  "local_link_checks": [
+    {
+      "source": "README.md",
+      "target": "山地民居街巷论文精读.smm.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "证据与阅读记录.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "山地街巷与民居关联-讨论稿.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "来源与阅读状态.json",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "审阅与验收.md",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "审阅证据.zip",
+      "exists": true
+    },
+    {
+      "source": "README.md",
+      "target": "../../README.md",
+      "exists": true
+    },
+    {
+      "source": "证据与阅读记录.md",
+      "target": "山地民居街巷论文精读.smm.md",
+      "exists": true
+    },
+    {
+      "source": "证据与阅读记录.md",
+      "target": "山地街巷与民居关联-讨论稿.md",
+      "exists": true
+    },
+    {
+      "source": "证据与阅读记录.md",
+      "target": "来源与阅读状态.json",
+      "exists": true
+    },
+    {
+      "source": "山地街巷与民居关联-讨论稿.md",
+      "target": "证据与阅读记录.md",
+      "exists": true
+    },
+    {
+      "source": "山地街巷与民居关联-讨论稿.md",
+      "target": "山地民居街巷论文精读.smm.md",
+      "exists": true
+    },
+    {
+      "source": "审阅与验收.md",
+      "target": "审阅证据.zip",
+      "exists": true
+    },
+    {
+      "source": "native_map",
+      "target": "文献库/专题精读/山地民居街巷与空间语义/山地街巷与民居关联-讨论稿.md",
+      "exists": true
+    },
+    {
+      "source": "native_map",
+      "target": "文献库/专题精读/山地民居街巷与空间语义/证据与阅读记录.md",
+      "exists": true
+    },
+    {
+      "source": "文献库新增导航",
+      "target": "README.md",
+      "exists": true
+    },
+    {
+      "source": "文献库新增导航",
+      "target": "山地民居街巷论文精读.smm.md",
+      "exists": true
+    },
+    {
+      "source": "文献库新增导航",
+      "target": "山地街巷与民居关联-讨论稿.md",
+      "exists": true
+    }
+  ],
+  "errors": [],
+  "unique_papers": 7,
+  "full_pdf_body_read": 4,
+  "full_html_text_read": 1,
+  "abstract_only": 2,
+  "zotero_attachments_sha256": [
+    {
+      "id": "jia2021",
+      "attachment_key": "2YSFURPE",
+      "sha256": "ffec0fd76ca1279a401cede9dbef751d28b53c873e01581107400b99f50b08cd",
+      "matches_download": true
+    },
+    {
+      "id": "zhu2023",
+      "attachment_key": "WA69359R",
+      "sha256": "a1ccf59c77f582cd57980a34ee0c7f5c1f8bafe92533f5f84ad1cb80c87586ca",
+      "matches_download": true
+    },
+    {
+      "id": "peng2023",
+      "attachment_key": "LI3RSPAL",
+      "sha256": "41842913c42c6b1e99f28171ba111ce3cb85561d52e3777897e26403a64c82ea",
+      "matches_download": true
+    },
+    {
+      "id": "zhao2026",
+      "attachment_key": "2393N4LC",
+      "sha256": "ca78f6cd7226f632442a7e8ad54a60683b2f2b3b9eac4c2d7efec47dd8ef2bd1",
+      "matches_download": true
+    },
+    {
+      "id": "lu2024",
+      "attachment_key": "TUF8669T",
+      "sha256": "960e60a7e7ca42676b3c5573fef7df5e470d6d065f0dc3f3681518e561b92d5a",
+      "matches_download": true
+    }
+  ],
+  "native_map_validation": {
+    "ok": true,
+    "errors": [],
+    "verification": {
+      "environment": {
+        "ok": true,
+        "plugin_version": "0.2.10",
+        "errors": [],
+        "warnings": [],
+        "files": [
+          {
+            "path": ".obsidian/plugins/simple-mind-map/main.js",
+            "bytes": 6579273,
+            "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+          },
+          {
+            "path": ".obsidian/plugins/simple-mind-map/styles.css",
+            "bytes": 796993,
+            "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+          }
+        ]
+      },
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    "file": "/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/专题精读/山地民居街巷与空间语义/山地民居街巷论文精读.smm.md",
+    "relative": "文献库/专题精读/山地民居街巷与空间语义/山地民居街巷论文精读.smm.md",
+    "sha256": "2cf89aabd17dc666ae959515608ec7b542d794ec80645f0b3bdf62d09c23ef41",
+    "nodes": 45,
+    "warnings": [],
+    "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2FDesktop%2FObsidian%2FPaper%2F%E6%96%87%E7%8C%AE%E5%BA%93%2F%E4%B8%93%E9%A2%98%E7%B2%BE%E8%AF%BB%2F%E5%B1%B1%E5%9C%B0%E6%B0%91%E5%B1%85%E8%A1%97%E5%B7%B7%E4%B8%8E%E7%A9%BA%E9%97%B4%E8%AF%AD%E4%B9%89%2F%E5%B1%B1%E5%9C%B0%E6%B0%91%E5%B1%85%E8%A1%97%E5%B7%B7%E8%AE%BA%E6%96%87%E7%B2%BE%E8%AF%BB.smm.md",
+    "text_index_matches": true,
+    "preview": "empty"
+  },
+  "independent_review": "No confirmed blocking error in sampled scope; N1/N2/N3 applied, then main-session review only",
+  "review_publication_delta": {
+    "frozen_inputs": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/mountain_streets/reviewed-inputs",
+    "reviewed_hashes": {
+      "map-native-input.json": "a70ca377e2b152aa7c20780d618237c68829f5d20da661e6714ed84dc8097991",
+      "山地街巷与民居关联-讨论稿.md": "d42c19ddadaa6a269476222d947fea6d101093d52915e4e32a4827c58d0e8ca1",
+      "jia2021-reading.md": "62ad884f3003bb47779ac997434d235bd046e526b06894c6f3063a04cbf32d0d",
+      "zhu2023-reading.md": "3f11738e84ff33e64705e97a6a7243e72278e2087539bedd2188183fea88156c",
+      "peng2023-reading.md": "898af7bd82855d36a2192033990aa97d1ca00b83ba5fbbaa5328ccbcc72f6d5b",
+      "zhao2026-reading.md": "71dba3e27cf3e9d2fc12628df9e4ee93b3a7594591d08e5d18761e9a591253d1",
+      "lu2024-reading.md": "4ce89322401d14a228bad666f5a8feb330a1e547cb45480a4255f19118e7a1f2",
+      "dai2020-reading.md": "8da9f9c7d4eb75882e0bdf38bb84158685194502555aea1e08c8f14dcc21d275",
+      "hao2019-reading.md": "d28932542d2aeb522affaa1546aafe1eca925dada9a915acd43161d3047cdabb"
+    },
+    "changed_map_notes": [
+      {
+        "uid": "399fa1e28aa84704a494a5cf5938699d",
+        "section": "4. 贡献、边界与景宁参考",
+        "paper": "zhu2023"
+      },
+      {
+        "uid": "6e831367750a432c980eb0a9997a3573",
+        "section": "地形与环路：必须分开理解",
+        "paper": "zhao2026"
+      },
+      {
+        "uid": "c366eba058c0470f8e410b35b0f11c52",
+        "section": "对景宁研究的参考（阅读者判断，候选）",
+        "paper": "lu2024"
+      }
+    ],
+    "discussion_changed": false,
+    "followup": "main-session adopted N1/N2/N3 and rechecked affected evidence; no second independent review claimed",
+    "publication_hashes": {
+      "map-native-input.json": "f7a9bca0799c5289ea9fa1af833d0a7db3b50cf2cddb14c8f25b7099997a33c9",
+      "山地街巷与民居关联-讨论稿.md": "d42c19ddadaa6a269476222d947fea6d101093d52915e4e32a4827c58d0e8ca1",
+      "jia2021-reading.md": "62ad884f3003bb47779ac997434d235bd046e526b06894c6f3063a04cbf32d0d",
+      "zhu2023-reading.md": "a4d1b8052e2196d953ea0b560b3c0d59dcadac10c24dbe630d5136443babe4bd",
+      "peng2023-reading.md": "898af7bd82855d36a2192033990aa97d1ca00b83ba5fbbaa5328ccbcc72f6d5b",
+      "zhao2026-reading.md": "14f52d4d1a35b886a2f198a368244bf3b613cea9b8b4c15fa47181477706a50b",
+      "lu2024-reading.md": "48d28a555bc7e13b4949563150e940b1dbf4108b4afd425f60b00d4e062570ac",
+      "dai2020-reading.md": "8da9f9c7d4eb75882e0bdf38bb84158685194502555aea1e08c8f14dcc21d275",
+      "hao2019-reading.md": "d28932542d2aeb522affaa1546aafe1eca925dada9a915acd43161d3047cdabb"
+    }
+  },
+  "index_publication": {
+    "ok": true,
+    "result": {
+      "path": "文献库/README.md",
+      "sha256": "b92c5bd7df24036a3e6db94156a4ae5093e375436fdb85f38af4f45c552dae09",
+      "size_bytes": 8109,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-10-31T15:09:51Z",
+        "original_path": "文献库/README.md",
+        "canonical_path": "文献库/README.md",
+        "backup_path": ".hermes-academic-backups/20261031T150951Z_4df0bb49157c4bf68c7a1b4f0f01e81b.bak",
+        "original_sha256": "320f4bf60109562e367a91e3bf70dcb70ed244758d05d238ffbb1d97d851cd32",
+        "original_size_bytes": 7669,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "b92c5bd7df24036a3e6db94156a4ae5093e375436fdb85f38af4f45c552dae09",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    }
+  },
+  "not_done": [
+    "two missing full texts",
+    "Lu original PDF and figure inspection",
+    "original-data reanalysis",
+    "Obsidian GUI pixel review",
+    "whole-vault health scan",
+    "Zotero semantic embedding unavailable",
+    "model or database modifications"
+  ]
+}

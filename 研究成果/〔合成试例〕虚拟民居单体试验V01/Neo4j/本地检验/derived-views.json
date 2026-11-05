@@ -1,0 +1,32 @@
+{
+  "status": "passed",
+  "stats": {
+    "chapters": 6,
+    "sections": 37,
+    "subsections": 17,
+    "adoptions": 88,
+    "topics": 8,
+    "roles": 6,
+    "route_nodes": 13,
+    "artifact_packages": 21,
+    "artifact_relations": 62
+  },
+  "changed": [
+    "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+    "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+    "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+    "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+    "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+    "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+    "研究成果/〔分析框架〕风貌分析拆解/README.md",
+    "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+    "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+    "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+    "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+    "研究成果/README.md",
+    "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md"
+  ],
+  "preexistingGeneratorDrift": [],
+  "untouchedPreexistingDrift": [],
+  "idempotentChangedViews": true
+}

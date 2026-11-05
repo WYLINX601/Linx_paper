@@ -1,0 +1,19 @@
+{
+  "scope": "read-only-verifier-upgrade",
+  "reason": "Canonical relationship-UID ordering; graph/model/payload/query/transaction unchanged. Readback mismatch was participant list order only. Main-session patch, not independently reviewed.",
+  "oldCompilerSHA256": "dd3767e56a0614de3bfdd824b9968fe8661933884fbd731474a20964b4e7705c",
+  "newCompilerSHA256": "b3dd5c016cda46ae037e874357cc4cfb61d7897d68a55dadd0b0024a7ba44626",
+  "modelSHA256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+  "payloadSHA256": "b5d4767bc9de2ba20d9bbe17ddcf449053c1ece34da5a8d179740ce9c347afb8",
+  "beforeFingerprint": "ce72a33e4da1ddf2ea10367128d8653a837aa99cc56342464999fa536f1b731f",
+  "changedFiles": {
+    "analyze.py": {
+      "before": "5fe121606c9bedc51e7e9cde9191ea52bf5157d1e038ae54beb3abe47464a7d0",
+      "after": "fffa67f39c04fd1fe4acec033173cf867f8aa3fdb0238db2f789bd7eaaf2e8ea"
+    },
+    "run_graph.py": {
+      "before": "506ed6cc80dfda42212a0bad898311fa41550ac8555c81e82f9da9b14cdb59cf",
+      "after": "37e3601a43303c95e725de05158e4cfb5f290c07fe478e029f56a0a676e76570"
+    }
+  }
+}

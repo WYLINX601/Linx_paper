@@ -1,0 +1,1997 @@
+{
+  "created": "2026-10-12",
+  "source_sha256": "054e4c884809069972093be7013b3b82ac9811a704dfe3264eada323cd686a98",
+  "statistics": {
+    "village_name_entries": 47,
+    "literature_records": 23,
+    "selected_web_images": 58,
+    "village_material_rows": 85,
+    "supplement_rows": 7,
+    "comparison_rows": 7,
+    "illustration_units": 101,
+    "web_illustrations": 57,
+    "document_illustrations": 44
+  },
+  "villages": [
+    "敕木山村",
+    "东弄村",
+    "大张坑村",
+    "桃源村",
+    "周湖村",
+    "深垟村",
+    "张坑村（沙湾镇，原文地点）",
+    "岗石村",
+    "张庄村",
+    "季庄村",
+    "惠明寺村",
+    "董川村",
+    "鹤溪村",
+    "汤湾村",
+    "小佐村",
+    "大均村",
+    "高演村",
+    "隆川村",
+    "库头村",
+    "金包山村",
+    "徐砻村",
+    "英川村",
+    "黄谢圩村",
+    "王宅村",
+    "小地村",
+    "漈头村",
+    "东垟村",
+    "鸬鹚村",
+    "印章村",
+    "毛垟村",
+    "上沙湾村",
+    "秋炉村",
+    "吴布村",
+    "安亭村",
+    "李宝村",
+    "金坵村（原文写法）",
+    "金丘村（原文写法）",
+    "驮戟村（原文写法）",
+    "驮戥村（原文写法）",
+    "双后降村（原文写法）",
+    "双后岗（原文写法）",
+    "马坑村",
+    "半垟村",
+    "降石村",
+    "米岩山村",
+    "大祭村（原文名，地名待核）",
+    "岩下村（原文九龙乡）"
+  ],
+  "rows": [
+    {
+      "village": "敕木山村",
+      "name": "四幢典型大户民居组",
+      "summary": "官方记载四幢民居建于清代至民国，均为二层，包含一字排开与合院形式，采用木构、土墙或板壁及小青瓦屋面。",
+      "materials": "形制描述、整体照片",
+      "credit": "丽水市文广旅体局，2022；2018摄影图文",
+      "images": [
+        "S01-01",
+        "S01-02",
+        "S01-03",
+        "S02-01",
+        "S02-02",
+        "S02-04",
+        "S02-05",
+        "S02-12",
+        "S02-15",
+        "S02-17",
+        "S02-03"
+      ]
+    },
+    {
+      "village": "敕木山村",
+      "name": "28号蓝姓畲族寮",
+      "summary": "装饰研究以该宅为实例，将卷草凤凰纹分为起始、中间、末端和延展四部分，并提供纹样示意。",
+      "materials": "纹样示意、装饰描述",
+      "credit": "蓝法勤，2013，95页，图1",
+      "images": [
+        "phoenix-28"
+      ]
+    },
+    {
+      "village": "敕木山村",
+      "name": "蓝村长家门楼",
+      "summary": "论文图6记录门楼梁上的凤凰纹，显示卷草线条与凤鸟形象相结合的装饰方式。",
+      "materials": "门楼装饰照片",
+      "credit": "蓝法勤，2013，96页，图6",
+      "images": [
+        "phoenix-chief"
+      ]
+    },
+    {
+      "village": "敕木山村",
+      "name": "史图博旧宅／蓝文成家／展览馆资料",
+      "summary": "报道记史图博1929年住在蓝文成家，展览馆相关照片呈现木构正屋、格扇与院落的空间面貌。",
+      "materials": "历史叙述、院落照片",
+      "credit": "《畲乡报》，2023；光林等，2018",
+      "images": [
+        "S02-06",
+        "S02-07",
+        "S02-08"
+      ]
+    },
+    {
+      "village": "东弄村",
+      "name": "东弄老村传统民居群",
+      "summary": "论文记老村107幢民居中有73幢传统民居、其中16幢空置，图文呈现依山层叠的土墙瓦顶建筑组合。",
+      "materials": "数量记录、聚落照片",
+      "credit": "吴钰，2022提交；阮仪三，2008；2023摄影图文",
+      "images": [
+        "S03-01",
+        "S04-04",
+        "S04-05",
+        "S04-07",
+        "S04-08",
+        "S04-09",
+        "S04-11",
+        "S04-12"
+      ]
+    },
+    {
+      "village": "东弄村",
+      "name": "编号调查与建筑质量调查",
+      "summary": "赵圣洁论文提供52项建筑的编号分布和逐项状态表，吴钰论文另记录52座较大建筑的质量分类。",
+      "materials": "编号分布、状态表、质量统计",
+      "credit": "赵圣洁，2015，99—107页；吴钰，68—69页",
+      "images": [
+        "dongnong-map"
+      ]
+    },
+    {
+      "village": "东弄村",
+      "name": "蓝氏宗祠及两侧附楼",
+      "summary": "文献记主楼与两侧附楼共三幢、总占地约440㎡，两侧分别为耕读文化馆与功德舞馆，后者建筑始建于1976年。",
+      "materials": "群组照片、用途与年代",
+      "credit": "柴一涵，2025，67页；2023摄影图文",
+      "images": [
+        "chai-ancestral",
+        "S04-03"
+      ]
+    },
+    {
+      "village": "东弄村",
+      "name": "蓝坤宝寮",
+      "summary": "论文图示该宅由前院、檐廊与两层木构主体组织空间，底层包含厅堂、厨房等功能，楼层通过两侧楼梯联系。",
+      "materials": "门楼照片、两层平面、剖面、屋顶与立面",
+      "credit": "赵圣洁，2015，48—49、57、90、92—94页",
+      "images": [
+        "blue-front",
+        "blue-perspective",
+        "blue-ground",
+        "blue-upper",
+        "blue-section",
+        "blue-roof",
+        "blue-elevation",
+        "blue-south",
+        "blue-entrance"
+      ]
+    },
+    {
+      "village": "东弄村",
+      "name": "河东侧空置宅院",
+      "summary": "论文将一处占地约323㎡的老旧空置宅院作为民宿拆建方案的设计对象，保存了原宅与场地分析线索。",
+      "materials": "场地与既有宅院描述",
+      "credit": "吴钰，74页",
+      "images": []
+    },
+    {
+      "village": "东弄村",
+      "name": "一字型两层空置住宅",
+      "summary": "论文记录一字型两层空置住宅，场地约480㎡、建筑占地约266㎡，并提出住宅改造设计。",
+      "materials": "形制、面积与设计资料",
+      "credit": "吴钰，78页",
+      "images": []
+    },
+    {
+      "village": "东弄村",
+      "name": "未具名废弃民居资料",
+      "summary": "论文照片记录了东弄传统民居空置废弃的使用状态，为村内住宅变化提供历史图像线索。",
+      "materials": "住宅照片记录",
+      "credit": "吴钰，11页",
+      "images": []
+    },
+    {
+      "village": "东弄村",
+      "name": "汤三公庙／地头庙",
+      "summary": "文献记该庙始建于1853年，为一层三开间土木建筑、占地约180㎡，照片呈现白墙、石基与瓦屋面。",
+      "materials": "外观照片、年代与形制",
+      "credit": "柴一涵，2025，67—68页",
+      "images": [
+        "chai-temple"
+      ]
+    },
+    {
+      "village": "东弄村",
+      "name": "灵峰殿",
+      "summary": "文献记灵峰殿清末始建、2017年原址重建，为一层约260㎡的村落信仰空间。",
+      "materials": "年代、规模与使用记录",
+      "credit": "柴一涵，2025，68页",
+      "images": []
+    },
+    {
+      "village": "东弄村",
+      "name": "戏台及室外空间",
+      "summary": "文献记录戏台、广场与台阶共同组成约1700㎡的室外文化空间，并描述使用与维护不足。",
+      "materials": "公共空间布局与用途",
+      "credit": "柴一涵，2025，68页",
+      "images": []
+    },
+    {
+      "village": "东弄村",
+      "name": "村委会／游客服务中心",
+      "summary": "文献记录该建筑为二层土木结构、占地约166㎡，兼具村务办公与游客服务用途。",
+      "materials": "结构、规模与用途",
+      "credit": "柴一涵，2025，69页",
+      "images": []
+    },
+    {
+      "village": "东弄村",
+      "name": "清中期米碓",
+      "summary": "论文将一处清中期米碓列为村内生产设施遗存，提供民居生活与生产活动的关联线索。",
+      "materials": "生产设施记录",
+      "credit": "柴一涵，2025，65页",
+      "images": []
+    },
+    {
+      "village": "大张坑村",
+      "name": "大张坑民居群",
+      "summary": "论文记自然村共有37幢民居、其中钢筋水泥结构1幢，照片呈现山地布局、石阶巷道与土墙瓦顶的材料组合。",
+      "materials": "村落及民居照片、数量记录",
+      "credit": "王文辉，2015提交／2016书目；2026报道",
+      "images": [
+        "S05-03",
+        "S05-06",
+        "S05-07",
+        "S05-08",
+        "dazhang-village",
+        "dazhang-survey"
+      ]
+    },
+    {
+      "village": "大张坑村",
+      "name": "雷氏祠堂",
+      "summary": "两篇论文保存雷氏祠堂的外观及室内陈设照片，为村内公共建筑与祭祀空间提供历史图像。",
+      "materials": "外观与室内历史照片",
+      "credit": "朱凌，2012，28页；王文辉，2016，15页",
+      "images": [
+        "lei-ancestral",
+        "dazhang-houses"
+      ]
+    },
+    {
+      "village": "大张坑村",
+      "name": "院墙材料实例",
+      "summary": "吴钰论文以大张坑实地照片说明院墙的石块堆叠做法，可与民居石基和围护材料对照。",
+      "materials": "院墙做法描述",
+      "credit": "吴钰，57页",
+      "images": []
+    },
+    {
+      "village": "桃源村",
+      "name": "清代建筑与传统民居群",
+      "summary": "两篇论文均记村内清代建筑10幢／处，图像呈现沿溪聚落、坡地石台基、木构檐廊、板壁与瓦屋面的组合。",
+      "materials": "整体照片、构件照片、村落分析图",
+      "credit": "赵潇诺，2023；柴一涵，2025；县融媒体，2026",
+      "images": [
+        "S06-03",
+        "S06-04",
+        "S06-19",
+        "S06-20",
+        "S06-21",
+        "S06-22",
+        "S06-23",
+        "S06-24",
+        "S06-25",
+        "S06-26",
+        "S06-27",
+        "S06-28",
+        "S06-29",
+        "S06-30",
+        "S06-31",
+        "taoyuan-map"
+      ]
+    },
+    {
+      "village": "桃源村",
+      "name": "五显殿／五显爷殿资料",
+      "summary": "论文记五显殿为一层砖木建筑，面阔三间、进深五间、占地约230㎡，相关图像展示门楼、院墙、柱与彩绘。",
+      "materials": "形制、规模、建筑及细部照片",
+      "credit": "柴一涵，2025，111页；县融媒体，2026",
+      "images": [
+        "S06-12",
+        "S06-13",
+        "S06-14",
+        "S06-15",
+        "S06-16",
+        "S06-17"
+      ]
+    },
+    {
+      "village": "桃源村",
+      "name": "文昌亭",
+      "summary": "文献记文昌亭1577年创建、1981年重建，现存形制为三层重檐六角攒尖顶，承担村落公共活动用途。",
+      "materials": "历史沿革、形制与用途",
+      "credit": "柴一涵，2025，114页",
+      "images": []
+    },
+    {
+      "village": "桃源村",
+      "name": "桃源桥、中心桥、畲汉同心桥",
+      "summary": "文献分别记录三座桥的尺度、位置及栏杆装饰，显示桥梁与沿溪交通和村落公共空间的联系。",
+      "materials": "三桥照片、尺度与装饰",
+      "credit": "柴一涵，2025，114页，图5.11",
+      "images": [
+        "taoyuan-bridges"
+      ]
+    },
+    {
+      "village": "桃源村",
+      "name": "古河道、入口景园与广场",
+      "summary": "论文将古河道、入口景园和广场列为村落公共空间，提供传统建筑周边环境与活动节点资料。",
+      "materials": "公共空间记录",
+      "credit": "柴一涵，2025，108、114页",
+      "images": []
+    },
+    {
+      "village": "周湖村",
+      "name": "周湖民居与侧样调查",
+      "summary": "文献称更新改造后民居保存较完善，侧样表15个编号包含四至六柱、四至六筒的构架形式，照片呈现院墙与坡地巷道。",
+      "materials": "侧样分型、村落照片",
+      "credit": "赵潇诺，2023，44、102页；2019摄影图文",
+      "images": [
+        "S07-01",
+        "S07-03",
+        "S07-04",
+        "S07-06",
+        "zhouhu-types"
+      ]
+    },
+    {
+      "village": "周湖村",
+      "name": "周湖8号民居",
+      "summary": "论文模型与立面图呈现两层主体、石砌院墙、前院与门楼的组合，并展示主屋及附属部分的体量关系。",
+      "materials": "建筑模型、立面图",
+      "credit": "朱凌，2012，31页，图3-20—3-21",
+      "images": [
+        "zhouhu-model",
+        "zhouhu-elevation"
+      ]
+    },
+    {
+      "village": "周湖村",
+      "name": "入口广场、茶主题广场与诚信景园",
+      "summary": "公共文化空间论文记录入口广场、惠明寺茶主题广场和诚信主题景园，提供村域环境与活动空间线索。",
+      "materials": "公共空间记录",
+      "credit": "柴一涵，2025，60页",
+      "images": []
+    },
+    {
+      "village": "深垟村",
+      "name": "深垟民居与院落",
+      "summary": "文献称改造后民居特色较明显，网络照片呈现石墙、院落门楼、木构住宅及坡地空间关系。",
+      "materials": "村落与院落照片",
+      "credit": "赵潇诺，2023；2025摄影图文",
+      "images": [
+        "S08-05",
+        "S08-06",
+        "S08-07"
+      ]
+    },
+    {
+      "village": "深垟村",
+      "name": "陈璧大宅相关资料",
+      "summary": "朱凌论文记录清光绪年间陈璧所建大宅的历史信息，并以图像呈现宅前入口、石作与装饰细部。",
+      "materials": "历史记载、入口照片",
+      "credit": "朱凌，2012，28页，图3-17",
+      "images": [
+        "chenbi-entrance"
+      ]
+    },
+    {
+      "village": "深垟村",
+      "name": "清泉石上居资料",
+      "summary": "报道相关院落照片呈现旧宅利用场景，为观察院落、建筑外观与使用变化提供图像。",
+      "materials": "院落照片、旧宅利用报道",
+      "credit": "严慧荣，2025",
+      "images": [
+        "S08-09"
+      ]
+    },
+    {
+      "village": "深垟村",
+      "name": "畲医畲药展示馆",
+      "summary": "报道记展示馆由民国老宅改建，门面照片显示旧宅外观与展示用途的结合。",
+      "materials": "门面照片、改用报道",
+      "credit": "严慧荣，2025",
+      "images": [
+        "S08-10"
+      ]
+    },
+    {
+      "village": "张坑村（沙湾镇，原文地点）",
+      "name": "蓝凤新寮",
+      "summary": "论文记木雕匠人蓝凤新所建住宅为五间两出手，前檐梁采用卷草凤凰纹，图像展示梁部与前后纹样排列。",
+      "materials": "装饰照片、形制及匠人记录",
+      "credit": "蓝法勤，2013，95—97页，图3、图8",
+      "images": [
+        "phoenix-lan",
+        "phoenix-lan-order"
+      ]
+    },
+    {
+      "village": "张坑村（沙湾镇，原文地点）",
+      "name": "蓝凤新兄弟所建寮",
+      "summary": "论文另记蓝凤新兄弟在村内建寮，其纹样雕刻同样出自蓝凤新之手，提供住宅与营造者的联系。",
+      "materials": "住宅与匠人记录",
+      "credit": "蓝法勤，2013，95页",
+      "images": []
+    },
+    {
+      "village": "岗石村",
+      "name": "公共文化空间与民居资料",
+      "summary": "文献记录民歌活动、清莲广场、休闲广场、文化长廊和明理亭等节点，呈现民居周边的文化活动网络。",
+      "materials": "公共空间布局、活动照片",
+      "credit": "柴一涵，2025，69—73页",
+      "images": [
+        "gangshi-square"
+      ]
+    },
+    {
+      "village": "岗石村",
+      "name": "蓝景芬住宅／畲族民歌传承馆",
+      "summary": "文献记二层自宅改设传承馆，一层厅堂承担民歌学习活动，前院用于排练和游客接待。",
+      "materials": "住宅外观、院落照片、使用记录",
+      "credit": "柴一涵，2025，71页，图3.20",
+      "images": [
+        "gangshi-home"
+      ]
+    },
+    {
+      "village": "岗石村",
+      "name": "文化礼堂",
+      "summary": "文献记礼堂为二层土木建筑、约170㎡，以戏台为主体，并用于节庆、山歌与村民活动。",
+      "materials": "建筑照片、形制与用途",
+      "credit": "柴一涵，2025，72—73页",
+      "images": [
+        "gangshi-hall"
+      ]
+    },
+    {
+      "village": "岗石村",
+      "name": "原村委会",
+      "summary": "文献记原村委会为一层约73㎡建筑，平面呈L形并形成小院落，办公迁出后处于荒废状态。",
+      "materials": "外观照片、平面与使用记录",
+      "credit": "柴一涵，2025，73页",
+      "images": [
+        "gangshi-office"
+      ]
+    },
+    {
+      "village": "张庄村",
+      "name": "传统民居与侧样调查",
+      "summary": "文献记民居数量较少、保存一般，侧样表8个编号涵盖四至六柱的木构组合。",
+      "materials": "侧样分型表、村落记录",
+      "credit": "赵潇诺，2023，45、102页",
+      "images": [
+        "zhangzhuang-types"
+      ]
+    },
+    {
+      "village": "季庄村",
+      "name": "侧样民居调查",
+      "summary": "论文侧样表10个编号涵盖四至六柱、四至七筒的构架组合，并提供对应分布图。",
+      "materials": "侧样分型表",
+      "credit": "赵潇诺，2023，46页",
+      "images": [
+        "jizhuang-types"
+      ]
+    },
+    {
+      "village": "季庄村",
+      "name": "刘宅",
+      "summary": "论文附录将刘宅列为村内一处县级历史建筑，提供名称及村落定位记录。",
+      "materials": "名称与地点记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "惠明寺村",
+      "name": "台地传统民居与院落",
+      "summary": "文献描述民居建于石砌台地上，多为两层院落住宅，一层承担生产生活，二层用于客房、储藏和祭祀。",
+      "materials": "空间与使用描述、村落区位图",
+      "credit": "潘钊，2015，50页",
+      "images": [
+        "huiming-location"
+      ]
+    },
+    {
+      "village": "惠明寺村",
+      "name": "惠明塔",
+      "summary": "论文规划章节将惠明塔列为村内古建筑资源，提供具名建筑线索。",
+      "materials": "规划文本中的名称记录",
+      "credit": "潘钊，2015，53页",
+      "images": []
+    },
+    {
+      "village": "董川村",
+      "name": "畲族老宅",
+      "summary": "文献明确记董川村有一处畲族老宅，形成可继续追查的住宅名称类别与村落定位线索。",
+      "materials": "村落与住宅记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "鹤溪村",
+      "name": "潘家大院",
+      "summary": "文献附录记鹤溪村仅存潘家大院一处，提供具名住宅和村落定位资料。",
+      "materials": "名称与地点记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "汤湾村",
+      "name": "汤湾4号民宅",
+      "summary": "论文平面与室内照片呈现前院、开放厅堂、后厅厨房及山泉水池之间的空间与生活联系。",
+      "materials": "一层平面、外观与室内照片",
+      "credit": "朱凌，2012，32页，图3-22",
+      "images": [
+        "tangwan-plan"
+      ]
+    },
+    {
+      "village": "小佐村",
+      "name": "村落民居资料",
+      "summary": "文献总体描述村内民居较多、保存较完善，为具名装饰住宅提供村落背景。",
+      "materials": "村落调查记录",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "小佐村",
+      "name": "雷姓寮",
+      "summary": "装饰研究以雷姓寮为例展示金鸡头式卷草纹，图像保留梁部凤鸟造型与雕刻线条。",
+      "materials": "装饰照片与纹样类型",
+      "credit": "蓝法勤，2013，96页，图4",
+      "images": [
+        "phoenix-lei"
+      ]
+    },
+    {
+      "village": "大均村",
+      "name": "村落民居资料",
+      "summary": "文献概述村内民居数量较少、保存一般，提供县内住宅比较的村落背景。",
+      "materials": "村落调查记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "大均村",
+      "name": "金鸡头式装饰民居",
+      "summary": "论文图5展示大均村一处民居的金鸡头式纹样，记录梁部卷草线条与凤鸟造型。",
+      "materials": "装饰照片",
+      "credit": "蓝法勤，2013，96页，图5",
+      "images": [
+        "phoenix-dajun"
+      ]
+    },
+    {
+      "village": "大均村",
+      "name": "富商李氏大屋／李氏住宅",
+      "summary": "原文将李氏大屋作为住宅装饰比较实例，图像与文字展示梁部仙鹤和凤凰纹的排列关系。",
+      "materials": "住宅及装饰照片、比较描述",
+      "credit": "蓝法勤，2013，96—97页，图7",
+      "images": [
+        "phoenix-li"
+      ]
+    },
+    {
+      "village": "大均村",
+      "name": "另一户住宅装饰资料",
+      "summary": "论文另记一户住宅前后梁上仙鹤、凤凰纹的排列，作为同村装饰顺序的比较材料。",
+      "materials": "装饰排列文字记录",
+      "credit": "蓝法勤，2013，96页",
+      "images": []
+    },
+    {
+      "village": "高演村",
+      "name": "任宅、周宅、清风桥",
+      "summary": "文献附录列出任宅、周宅和清风桥三项历史建筑，同时记录村内传统民居总体保存较好。",
+      "materials": "具名记录、村落概述",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "隆川村",
+      "name": "林氏宗祠、吴家老宅",
+      "summary": "文献记村落已进行更新改造，并列出林氏宗祠与吴家老宅两处历史建筑。",
+      "materials": "具名记录、更新概述",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "库头村",
+      "name": "村内文保点资料",
+      "summary": "论文附录记录村内文保点6处，为追查建筑组成提供村级数量线索。",
+      "materials": "文保点数量记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "库头村",
+      "name": "陈氏老宅",
+      "summary": "论文附录将陈氏老宅列为村内一处县级历史建筑，保存名称和村落定位。",
+      "materials": "名称与地点记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "金包山村",
+      "name": "民居遗存资料",
+      "summary": "论文附录记村内民居遗存较少、仅存一处，提供住宅数量的历史记录。",
+      "materials": "村落与数量记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "徐砻村",
+      "name": "村落民居与徐砻桥",
+      "summary": "文献记村内民居数量一般、总体保存较好，并具名列出徐砻桥这一桥梁资源。",
+      "materials": "村落概述、桥梁名称",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "英川村",
+      "name": "陈家老宅、吴家老宅",
+      "summary": "文献附录列出陈家老宅和吴家老宅两处县级历史建筑，提供村内具名住宅线索。",
+      "materials": "名称与地点记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "黄谢圩村",
+      "name": "张氏宗祠",
+      "summary": "论文附录记村内民居遗存较少，并将张氏宗祠列为一处县级历史建筑。",
+      "materials": "宗祠名称、村落概述",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "王宅村",
+      "name": "刘宅",
+      "summary": "论文附录记录村内刘宅这一历史建筑，并描述村落民居数量较少、保存一般。",
+      "materials": "住宅名称、村落概述",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "小地村",
+      "name": "46号新处",
+      "summary": "论文附录列出46号新处一处历史建筑，并记村内民居数量较少、保存一般。",
+      "materials": "原文名称、村落概述",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "漈头村",
+      "name": "潘正昌、朱学礼、寿章老宅、澍棠老宅",
+      "summary": "论文附录并列记录这四项县级历史建筑称谓，为村内住宅定位提供名称线索。",
+      "materials": "原文称谓与地点记录",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "东垟村",
+      "name": "陈氏宗祠",
+      "summary": "论文附录列出村内陈氏宗祠一处县级历史建筑，为公共建筑定位提供具名记录。",
+      "materials": "宗祠名称与地点",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "鸬鹚村",
+      "name": "吴氏老宅、刘氏老宅",
+      "summary": "文献附录记录吴氏老宅与刘氏老宅两处县级历史建筑，并描述村内保存完好的民居较少。",
+      "materials": "住宅名称、村落概述",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "印章村",
+      "name": "张氏、叶氏、柳氏宗祠资料",
+      "summary": "论文附录保存三姓宗祠的并列称谓，为村内宗祠组成与定位提供资料入口。",
+      "materials": "宗祠称谓与地点",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "毛垟村",
+      "name": "毛家老宅",
+      "summary": "论文附录列出毛家老宅一处县级历史建筑，并描述村内保存完好的民居较少。",
+      "materials": "住宅名称、村落概述",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "上沙湾村",
+      "name": "毛家老宅",
+      "summary": "论文附录列出上沙湾村毛家老宅一处县级历史建筑，并描述村内保存完好的民居较少。",
+      "materials": "住宅名称、村落概述",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "秋炉村",
+      "name": "陈家老宅",
+      "summary": "论文附录列出陈家老宅一处县级历史建筑，提供村落与住宅名称记录。",
+      "materials": "名称与地点记录",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "吴布村",
+      "name": "村落民居资料",
+      "summary": "文献描述民居保存较完整，并说明吴布村由吴村与布袋村合并形成。",
+      "materials": "村落沿革、保存概述",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "安亭村",
+      "name": "村落民居资料",
+      "summary": "文献描述村内民居数量一般、保存较好，形成村级住宅状况线索。",
+      "materials": "村落调查记录",
+      "credit": "赵潇诺，2023，102页",
+      "images": []
+    },
+    {
+      "village": "李宝村",
+      "name": "村落民居资料",
+      "summary": "文献描述村内民居数量较少、保存一般，形成村级住宅状况线索。",
+      "materials": "村落调查记录",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "金坵村（原文写法）",
+      "name": "村落搬迁资料",
+      "summary": "文献记村落已整村搬迁，保留了与住宅调查有关的村落变化线索。",
+      "materials": "搬迁记录",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "金丘村（原文写法）",
+      "name": "村落调查点",
+      "summary": "公共文化空间论文将金丘列入村落名单，提供村落研究范围线索。",
+      "materials": "研究村落名单",
+      "credit": "柴一涵，2025，27页",
+      "images": []
+    },
+    {
+      "village": "驮戟村（原文写法）",
+      "name": "村落民居资料",
+      "summary": "文献描述村内民居数量较少、保存一般，保留原村名与住宅状况记录。",
+      "materials": "村落调查记录",
+      "credit": "赵潇诺，2023，103页",
+      "images": []
+    },
+    {
+      "village": "驮戥村（原文写法）",
+      "name": "村落调查点",
+      "summary": "公共文化空间论文将驮戥列入村落名单，提供村落研究范围线索。",
+      "materials": "研究村落名单",
+      "credit": "柴一涵，2025，28页",
+      "images": []
+    },
+    {
+      "village": "双后降村（原文写法）",
+      "name": "研究对象选取记录",
+      "summary": "营造技艺论文将双后降列入研究对象选取表，提供村落调查范围线索。",
+      "materials": "研究对象选取表",
+      "credit": "赵潇诺，2023，16页",
+      "images": []
+    },
+    {
+      "village": "双后岗（原文写法）",
+      "name": "山地村落资料",
+      "summary": "2006年文章将双后岗列为传统畲族山地村落，提供聚落类型与比较地点线索。",
+      "materials": "村落文字记录",
+      "credit": "汪梅，2006",
+      "images": []
+    },
+    {
+      "village": "马坑村",
+      "name": "村落调查点",
+      "summary": "既有文献列出马坑这一村落名称，保留研究对象筛选的地点线索。",
+      "materials": "村落名单",
+      "credit": "详见原候选底稿",
+      "images": []
+    },
+    {
+      "village": "半垟村",
+      "name": "村落调查点",
+      "summary": "既有文献列出半垟这一村落名称，保留研究对象筛选的地点线索。",
+      "materials": "村落名单",
+      "credit": "详见原候选底稿",
+      "images": []
+    },
+    {
+      "village": "降石村",
+      "name": "村落调查点",
+      "summary": "既有文献列出降石这一村落名称，保留研究对象筛选的地点线索。",
+      "materials": "村落名单",
+      "credit": "详见原候选底稿",
+      "images": []
+    },
+    {
+      "village": "米岩山村",
+      "name": "民居调查线路点",
+      "summary": "民居研究将米岩山作为调查线路地点，提供村落定位与调查范围资料。",
+      "materials": "调查线路记录",
+      "credit": "朱凌，2012；详见原候选底稿",
+      "images": []
+    },
+    {
+      "village": "大祭村（原文名，地名待核）",
+      "name": "胡桥、护官桥",
+      "summary": "原文保存胡桥和护官桥的图像及构造说明，展示村内木构廊桥的体量与空间形式。",
+      "materials": "桥梁图像、构造说明",
+      "credit": "牛建农等，2009，62页",
+      "images": [
+        "dajicun-bridges"
+      ]
+    },
+    {
+      "village": "大祭村（原文名，地名待核）",
+      "name": "梅林老先生宅／梅氏院落资料",
+      "summary": "原文以梅林老先生宅和梅氏院落为住宅比较材料，记录多层屋檐与院落空间形制。",
+      "materials": "住宅照片、院落比较",
+      "credit": "牛建农等，2009，61页",
+      "images": [
+        "mei-house"
+      ]
+    },
+    {
+      "village": "岩下村（原文九龙乡）",
+      "name": "王姓村落与民居资料",
+      "summary": "原文描述位于半山的王姓村落及住宅形制，提供县内聚落与民居比较材料。",
+      "materials": "村落与形制描述",
+      "credit": "牛建农等，2009，61页",
+      "images": []
+    },
+    {
+      "village": "岩下村（原文九龙乡）",
+      "name": "山脚住宅侧挑晾台",
+      "summary": "原文记录山脚一户住宅在屋侧挑出晾台，展示住宅与山地环境的空间适应方式。",
+      "materials": "住宅照片、构件描述",
+      "credit": "牛建农等，2009，61页",
+      "images": [
+        "yanxia-platform"
+      ]
+    },
+    {
+      "village": "地点线索补充",
+      "name": "潘宅排屋（原文“大均乡潘宅”）",
+      "summary": "文章描述排屋长约40—50米、容纳十多个家庭，保存联排住宅与共居方式的图文材料。",
+      "materials": "排屋照片与访谈",
+      "credit": "汪梅，2006，74页",
+      "images": []
+    },
+    {
+      "village": "地点线索补充",
+      "name": "蓝姓村落民居群（鹤溪镇南部边缘）",
+      "summary": "文章记录蓝姓村民居群及百年以上住宅，为观察群体组合与住宅历史提供线索。",
+      "materials": "民居形制、历史描述",
+      "credit": "牛建农等，2009，59页",
+      "images": []
+    },
+    {
+      "village": "地点线索补充",
+      "name": "山地院落（原文“敕木山东弄村”）",
+      "summary": "文章图2呈现山地院落建筑，提供住宅组合与坡地关系的比较资料。",
+      "materials": "院落图像记录",
+      "credit": "汪梅，2006，71页",
+      "images": []
+    },
+    {
+      "village": "地点线索补充",
+      "name": "鹤溪近郊泥间",
+      "summary": "文章描述两层约10㎡的泥间，底层以泥墙围合并用于养牛，展示生活与生产混合使用。",
+      "materials": "住宅用途与尺度描述",
+      "credit": "牛建农等，2009，58页",
+      "images": []
+    },
+    {
+      "village": "地点线索补充",
+      "name": "东坑附近木构干栏民居",
+      "summary": "文章记录三层住宅，上两层为木构、底层以砖石围合用于堆物，呈现垂直分层的空间组织。",
+      "materials": "民居图像、材料与用途",
+      "credit": "牛建农等，2009，58页",
+      "images": [
+        "ganlan-house"
+      ]
+    },
+    {
+      "village": "地点线索补充",
+      "name": "雷姓联排住宅（东坑镇）",
+      "summary": "文章记一栋住宅由三户共建共居、横向延展至11开间，展示联排共居的形制。",
+      "materials": "住宅照片、共居与开间记录",
+      "credit": "牛建农等，2009，60页",
+      "images": [
+        "lei-row-house"
+      ]
+    },
+    {
+      "village": "地点线索补充",
+      "name": "潘家大院（原文仅“鹤溪镇”）",
+      "summary": "原文将潘家大院描述为有数百年历史的多进式院落，并提供住宅比较照片。",
+      "materials": "院落形制与历史描述",
+      "credit": "牛建农等，2009，61页",
+      "images": []
+    },
+    {
+      "village": "比较资料",
+      "name": "兰氏大厝（福州晋安区）",
+      "summary": "既有资料保留福州晋安区兰氏大厝这一具名建筑，作为外地畲族建筑比较线索。",
+      "materials": "具名建筑记录",
+      "credit": "详见原候选底稿",
+      "images": []
+    },
+    {
+      "village": "比较资料",
+      "name": "雷世儒雷氏大宅（霞浦半月里）",
+      "summary": "原文将雷世儒雷氏大宅作为外地畲族住宅实例，提供大宅外观与构造比较资料。",
+      "materials": "住宅照片与构造比较",
+      "credit": "朱凌，2012，29页，图3-18",
+      "images": [
+        "xiapu-house"
+      ]
+    },
+    {
+      "village": "比较资料",
+      "name": "潭宅、雷氏宗祠（丽水市区、遂昌）",
+      "summary": "装饰研究保留潭宅及遂昌雷氏宗祠案例，用于对照卷草纹、龙纹与凤凰纹的建筑装饰。",
+      "materials": "装饰照片、比较描述",
+      "credit": "蓝法勤，2013，96—97页",
+      "images": [
+        "tan-decoration"
+      ]
+    },
+    {
+      "village": "比较资料",
+      "name": "利山、坛头嘴、罗墩民居",
+      "summary": "原文讨论莲都、龙泉等地畲族民居的装饰做法，为跨地区住宅比较提供地点与类型线索。",
+      "materials": "跨地区装饰比较",
+      "credit": "蓝法勤，2013，97页",
+      "images": []
+    },
+    {
+      "village": "比较资料",
+      "name": "泰顺木构剖面、江西吉安狮子口式",
+      "summary": "既有资料保留泰顺木构剖面和江西吉安狮子口式构架，用于对照侧样与木构形式。",
+      "materials": "剖面与构架比较",
+      "credit": "详见原候选底稿",
+      "images": []
+    },
+    {
+      "village": "比较资料",
+      "name": "寮式棚屋、泥间、十扇厝、土墙厝",
+      "summary": "文献保存这些民居类型的泛称，为具体住宅识别与类型比较提供背景。",
+      "materials": "民居类型描述",
+      "credit": "详见原候选底稿",
+      "images": []
+    },
+    {
+      "village": "比较资料",
+      "name": "县城八井、木拱廊桥与现代展馆",
+      "summary": "既有资料记录井、廊桥及现代展馆等设施，为村落生活环境与新旧建筑比较提供背景。",
+      "materials": "设施与环境记录",
+      "credit": "详见原候选底稿",
+      "images": []
+    }
+  ],
+  "image_records": {
+    "S01-01": {
+      "path": "01_sources/assets/she-web-2026-10-06/S01/S01-01.jpg",
+      "caption": "敕木山 · 山地聚落远景",
+      "credit": "S01 · 网页发布于2022-07-11",
+      "url": "https://www.lishui.gov.cn/art/2022/7/11/art_1229268129_57336308.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S01-02": {
+      "path": "01_sources/assets/she-web-2026-10-06/S01/S01-02.jpg",
+      "caption": "敕木山 · 土墙瓦顶与外廊",
+      "credit": "S01 · 网页发布于2022-07-11",
+      "url": "https://www.lishui.gov.cn/art/2022/7/11/art_1229268129_57336308.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S01-03": {
+      "path": "01_sources/assets/she-web-2026-10-06/S01/S01-03.jpg",
+      "caption": "敕木山 · 民居山墙及附屋",
+      "credit": "S01 · 网页发布于2022-07-11",
+      "url": "https://www.lishui.gov.cn/art/2022/7/11/art_1229268129_57336308.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-01": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-01.jpg",
+      "caption": "敕木山 · 聚落与山势",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-02": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-02.jpg",
+      "caption": "敕木山 · 夯土民居外观",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-04": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-04.jpg",
+      "caption": "敕木山 · 山地建筑群",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-05": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-05.jpg",
+      "caption": "敕木山 · 土墙转角与檐口",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-12": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-12.jpg",
+      "caption": "敕木山 · 民居正侧面",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-15": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-15.jpg",
+      "caption": "敕木山 · 瓦屋面与山墙装饰",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-17": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-17.jpg",
+      "caption": "敕木山 · 坡地建筑组合",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-03": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-03.jpg",
+      "caption": "敕木山 · 门楼与檐廊",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "phoenix-28": {
+      "path": "01_sources/assets/she-image-bank/7KCJR9EB-002.png",
+      "caption": "28号蓝姓寮 · 卷草凤凰纹分段示意",
+      "credit": "蓝法勤，2013，95页，图1",
+      "crop": [
+        0.115,
+        0.699,
+        0.371,
+        0.086
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "phoenix-chief": {
+      "path": "01_sources/assets/she-image-bank/7KCJR9EB-003.png",
+      "caption": "蓝村长家 · 门楼梁部装饰",
+      "credit": "蓝法勤，2013，96页，图6",
+      "crop": [
+        0.516,
+        0.204,
+        0.366,
+        0.099
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "S02-06": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-06.jpg",
+      "caption": "敕木山 · 石阶与院墙",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-07": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-07.jpg",
+      "caption": "敕木山 · 展览馆相关木构正屋与院落",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S02-08": {
+      "path": "01_sources/assets/she-web-2026-10-06/S02/S02-08.jpg",
+      "caption": "敕木山 · 瓦顶与院墙门洞",
+      "credit": "S02 · 网页发布于2018-10-02",
+      "url": "https://www.sohu.com/a/257397347_100188381",
+      "crop": null,
+      "rotation": 0
+    },
+    "S03-01": {
+      "path": "01_sources/assets/she-web-2026-10-06/S03/S03-01.jpg",
+      "caption": "东弄 · 聚落全景",
+      "credit": "S03 · 网页发布于2026-02-06",
+      "url": "https://www.sohu.com/a/984593291_121106994",
+      "crop": null,
+      "rotation": 0
+    },
+    "S04-04": {
+      "path": "01_sources/assets/she-web-2026-10-06/S04/S04-04.jpg",
+      "caption": "东弄 · 传统民居组团",
+      "credit": "S04 · 网页发布于2023-11-27",
+      "url": "https://www.163.com/dy/article/IKID55FB0544AW5X.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S04-05": {
+      "path": "01_sources/assets/she-web-2026-10-06/S04/S04-05.jpg",
+      "caption": "东弄 · 坡地建筑组合",
+      "credit": "S04 · 网页发布于2023-11-27",
+      "url": "https://www.163.com/dy/article/IKID55FB0544AW5X.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S04-07": {
+      "path": "01_sources/assets/she-web-2026-10-06/S04/S04-07.jpg",
+      "caption": "东弄 · 夯土山墙与石墙",
+      "credit": "S04 · 网页发布于2023-11-27",
+      "url": "https://www.163.com/dy/article/IKID55FB0544AW5X.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S04-08": {
+      "path": "01_sources/assets/she-web-2026-10-06/S04/S04-08.jpg",
+      "caption": "东弄 · 建筑组团近景",
+      "credit": "S04 · 网页发布于2023-11-27",
+      "url": "https://www.163.com/dy/article/IKID55FB0544AW5X.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S04-09": {
+      "path": "01_sources/assets/she-web-2026-10-06/S04/S04-09.jpg",
+      "caption": "东弄 · 展示空间入口",
+      "credit": "S04 · 网页发布于2023-11-27",
+      "url": "https://www.163.com/dy/article/IKID55FB0544AW5X.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S04-11": {
+      "path": "01_sources/assets/she-web-2026-10-06/S04/S04-11.jpg",
+      "caption": "东弄 · 连续瓦屋面与檐口",
+      "credit": "S04 · 网页发布于2023-11-27",
+      "url": "https://www.163.com/dy/article/IKID55FB0544AW5X.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "S04-12": {
+      "path": "01_sources/assets/she-web-2026-10-06/S04/S04-12.jpg",
+      "caption": "东弄 · 水体、坡地与建筑边界",
+      "credit": "S04 · 网页发布于2023-11-27",
+      "url": "https://www.163.com/dy/article/IKID55FB0544AW5X.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "dongnong-map": {
+      "path": "01_sources/assets/she-crops/BUUUUWRW-p115-map.png",
+      "caption": "东弄 · 原论文编号分布与质量图",
+      "credit": "赵圣洁，2015，99页",
+      "crop": null,
+      "rotation": 0,
+      "url": ""
+    },
+    "chai-ancestral": {
+      "path": "outputs/研究对象候选导师浏览版/assets/柴一涵-2025-PDF81.png",
+      "caption": "东弄 · 蓝氏宗祠及附楼",
+      "credit": "柴一涵，2025，67页，图3.14",
+      "crop": [
+        0.23294858342077648,
+        0.4083147735708983,
+        0.5320041972717734,
+        0.28210838901262064
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "S04-03": {
+      "path": "01_sources/assets/she-web-2026-10-06/S04/S04-03.jpg",
+      "caption": "东弄 · 宗祠相关外观",
+      "credit": "S04 · 网页发布于2023-11-27",
+      "url": "https://www.163.com/dy/article/IKID55FB0544AW5X.html",
+      "crop": null,
+      "rotation": 0
+    },
+    "blue-front": {
+      "path": "01_sources/assets/she-crops/BUUUUWRW-p064-fig42-front-door.png",
+      "caption": "蓝坤宝寮 · 门楼外观",
+      "credit": "赵圣洁，2015，48页，图4-2",
+      "crop": [
+        0.06206896551724138,
+        0.044444444444444446,
+        0.8862068965517241,
+        0.7066666666666667
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "blue-perspective": {
+      "path": "01_sources/assets/she-crops/BUUUUWRW-p064-fig43-section.png",
+      "caption": "蓝坤宝寮 · 剖透视",
+      "credit": "赵圣洁，2015，48页，图4-3",
+      "crop": null,
+      "rotation": 0,
+      "url": ""
+    },
+    "blue-ground": {
+      "path": "01_sources/assets/she-crops/BUUUUWRW-p065-fig44-ground.png",
+      "caption": "蓝坤宝寮 · 一层平面及照片",
+      "credit": "赵圣洁，2015，49页，图4-4",
+      "crop": null,
+      "rotation": 0,
+      "url": ""
+    },
+    "blue-upper": {
+      "path": "01_sources/assets/she-crops/BUUUUWRW-p065-fig45-upper.png",
+      "caption": "蓝坤宝寮 · 二层平面及照片",
+      "credit": "赵圣洁，2015，49页，图4-5",
+      "crop": null,
+      "rotation": 0,
+      "url": ""
+    },
+    "blue-section": {
+      "path": "01_sources/assets/she-crops/BUUUUWRW-p073-fig419-section.png",
+      "caption": "蓝坤宝寮 · 1-1剖面",
+      "credit": "赵圣洁，2015，57页，图4-19",
+      "crop": null,
+      "rotation": 0,
+      "url": ""
+    },
+    "blue-roof": {
+      "path": "01_sources/assets/she-image-bank/BUUUUWRW-106.png",
+      "caption": "蓝坤宝寮 · 屋顶平面",
+      "credit": "赵圣洁，2015，90页",
+      "crop": null,
+      "rotation": 90,
+      "url": ""
+    },
+    "blue-elevation": {
+      "path": "01_sources/assets/she-image-bank/BUUUUWRW-108.png",
+      "caption": "蓝坤宝寮 · 2-2剖立面",
+      "credit": "赵圣洁，2015，92页",
+      "crop": null,
+      "rotation": 90,
+      "url": ""
+    },
+    "blue-south": {
+      "path": "01_sources/assets/she-image-bank/BUUUUWRW-109.png",
+      "caption": "蓝坤宝寮 · 南立面",
+      "credit": "赵圣洁，2015，93页",
+      "crop": null,
+      "rotation": 90,
+      "url": ""
+    },
+    "blue-entrance": {
+      "path": "01_sources/assets/she-image-bank/BUUUUWRW-110.png",
+      "caption": "蓝坤宝寮 · 主入口立面",
+      "credit": "赵圣洁，2015，94页",
+      "crop": null,
+      "rotation": 90,
+      "url": ""
+    },
+    "chai-temple": {
+      "path": "outputs/研究对象候选导师浏览版/assets/柴一涵-2025-PDF82.png",
+      "caption": "东弄 · 汤三公庙",
+      "credit": "柴一涵，2025，68页，图3.15",
+      "crop": [
+        0.316894018887723,
+        0.17965850037119524,
+        0.4050367261280168,
+        0.21529324424647364
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "S05-03": {
+      "path": "01_sources/assets/she-web-2026-10-06/S05/S05-03.jpg",
+      "caption": "大张坑 · 民居与石阶巷道",
+      "credit": "S05 · 网页发布于2026-06-29",
+      "url": "https://news.qq.com/rain/a/20260629A025AT00",
+      "crop": null,
+      "rotation": 0
+    },
+    "S05-06": {
+      "path": "01_sources/assets/she-web-2026-10-06/S05/S05-06.jpg",
+      "caption": "大张坑 · 聚落与民居组团",
+      "credit": "S05 · 网页发布于2026-06-29",
+      "url": "https://news.qq.com/rain/a/20260629A025AT00",
+      "crop": null,
+      "rotation": 0
+    },
+    "S05-07": {
+      "path": "01_sources/assets/she-web-2026-10-06/S05/S05-07.png",
+      "caption": "大张坑 · 山地建筑组合",
+      "credit": "S05 · 网页发布于2026-06-29",
+      "url": "https://news.qq.com/rain/a/20260629A025AT00",
+      "crop": null,
+      "rotation": 0
+    },
+    "S05-08": {
+      "path": "01_sources/assets/she-web-2026-10-06/S05/S05-08.jpg",
+      "caption": "大张坑 · 村落环境",
+      "credit": "S05 · 网页发布于2026-06-29",
+      "url": "https://news.qq.com/rain/a/20260629A025AT00",
+      "crop": null,
+      "rotation": 0
+    },
+    "dazhang-village": {
+      "path": "01_sources/assets/she-crops/ETTYATRB-p019-photos.png",
+      "caption": "大张坑 · 村落全貌与水口树",
+      "credit": "王文辉，2016，11页",
+      "crop": [
+        0,
+        0.19,
+        0.81,
+        0.55
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "dazhang-survey": {
+      "path": "01_sources/assets/she-image-bank/VSES7L3M-pdf37.png",
+      "caption": "大张坑 · 聚落、材料与建筑调研",
+      "credit": "朱凌，2012，28页，图3-16",
+      "crop": [
+        0.151,
+        0.115,
+        0.729,
+        0.305
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "lei-ancestral": {
+      "path": "01_sources/assets/she-image-bank/VSES7L3M-pdf37.png",
+      "caption": "大张坑 · 雷氏祠堂历史照片",
+      "credit": "朱凌，2012，28页，图3-16",
+      "crop": [
+        0.184,
+        0.375,
+        0.176,
+        0.037
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "dazhang-houses": {
+      "path": "01_sources/assets/she-crops/ETTYATRB-p023-photos.png",
+      "caption": "大张坑 · 雷氏祠堂与室内陈设",
+      "credit": "王文辉，2016，15页",
+      "crop": [
+        0,
+        0,
+        0.86,
+        0.52
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "S06-03": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-03.jpg",
+      "caption": "桃源 · 沿溪聚落全景",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-04": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-04.jpg",
+      "caption": "桃源 · 村落与水体",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-19": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-19.jpg",
+      "caption": "桃源 · 民居屋面与侧墙",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-20": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-20.jpg",
+      "caption": "桃源 · 木构檐廊与板壁",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-21": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-21.jpg",
+      "caption": "桃源 · 石台基与坡地民居",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-22": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-22.jpg",
+      "caption": "桃源 · 石阶巷道与围墙",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-23": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-23.jpg",
+      "caption": "桃源 · 瓦屋面与檐口",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-24": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-24.jpg",
+      "caption": "桃源 · 围墙门洞与瓦顶",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-25": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-25.jpg",
+      "caption": "桃源 · 雕花牛腿",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-26": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-26.jpg",
+      "caption": "桃源 · 街巷与墙体",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-27": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-27.jpg",
+      "caption": "桃源 · 木窗与石墙",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-28": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-28.jpg",
+      "caption": "桃源 · 街巷与屋檐",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-29": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-29.jpg",
+      "caption": "桃源 · 民居街巷",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-30": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-30.jpg",
+      "caption": "桃源 · 瓦檐与围墙",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-31": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-31.jpg",
+      "caption": "桃源 · 石墙、板壁与附属建筑",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "taoyuan-map": {
+      "path": "outputs/研究对象候选导师浏览版/assets/柴一涵-2025-PDF125.png",
+      "caption": "桃源 · 道路与建筑层数分析",
+      "credit": "柴一涵，2025，111页，图5.3—5.4",
+      "crop": [
+        0.1731374606505771,
+        0.09651076466221233,
+        0.7030430220356768,
+        0.34521158129175944
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "S06-12": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-12.jpg",
+      "caption": "桃源 · 五显爷殿相关外观",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-13": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-13.jpg",
+      "caption": "桃源 · 殿宇门楼与院墙",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-14": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-14.jpg",
+      "caption": "桃源 · 殿宇外观及装饰",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-15": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-15.jpg",
+      "caption": "桃源 · 公共建筑细部",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-16": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-16.jpg",
+      "caption": "桃源 · 柱及彩绘细部",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "S06-17": {
+      "path": "01_sources/assets/she-web-2026-10-06/S06/S06-17.jpg",
+      "caption": "桃源 · 殿宇相关场景",
+      "credit": "S06 · 网页发布于2026-07-10",
+      "url": "http://www.jnnews.zj.cn/syzx/202607/t20260710_7546909.shtml",
+      "crop": null,
+      "rotation": 0
+    },
+    "taoyuan-bridges": {
+      "path": "outputs/研究对象候选导师浏览版/assets/柴一涵-2025-PDF128.png",
+      "caption": "桃源 · 三座石拱桥",
+      "credit": "柴一涵，2025，114页，图5.11",
+      "crop": [
+        0.11752360965372508,
+        0.23608017817371937,
+        0.7607555089192025,
+        0.21974758723088345
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "S07-01": {
+      "path": "01_sources/assets/she-web-2026-10-06/S07/S07-01.jpg",
+      "caption": "周湖 · 门楼与街巷拼版",
+      "credit": "S07 · 网页发布于2019-02-20",
+      "url": "https://ishare.ifeng.com/c/s/7kRaaJeh3MJ",
+      "crop": null,
+      "rotation": 0
+    },
+    "S07-03": {
+      "path": "01_sources/assets/she-web-2026-10-06/S07/S07-03.jpg",
+      "caption": "周湖 · 院墙、门楼与坡地道路",
+      "credit": "S07 · 网页发布于2019-02-20",
+      "url": "https://ishare.ifeng.com/c/s/7kRaaJeh3MJ",
+      "crop": null,
+      "rotation": 0
+    },
+    "S07-04": {
+      "path": "01_sources/assets/she-web-2026-10-06/S07/S07-04.jpg",
+      "caption": "周湖 · 建筑与街巷拼版",
+      "credit": "S07 · 网页发布于2019-02-20",
+      "url": "https://ishare.ifeng.com/c/s/7kRaaJeh3MJ",
+      "crop": null,
+      "rotation": 0
+    },
+    "S07-06": {
+      "path": "01_sources/assets/she-web-2026-10-06/S07/S07-06.jpg",
+      "caption": "周湖 · 巷道与屋面",
+      "credit": "S07 · 网页发布于2019-02-20",
+      "url": "https://ishare.ifeng.com/c/s/7kRaaJeh3MJ",
+      "crop": null,
+      "rotation": 0
+    },
+    "zhouhu-types": {
+      "path": "01_sources/assets/she-image-bank/ZWDJJE99-055.png",
+      "caption": "周湖 · 侧样分型原表",
+      "credit": "赵潇诺，2023，44页",
+      "crop": [
+        0.133,
+        0.38,
+        0.752,
+        0.365
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "zhouhu-model": {
+      "path": "01_sources/assets/she-image-bank/VSES7L3M-pdf40.png",
+      "caption": "周湖8号民居 · 建筑模型",
+      "credit": "朱凌，2012，31页，图3-20",
+      "crop": [
+        0.088,
+        0.14,
+        0.709,
+        0.285
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "zhouhu-elevation": {
+      "path": "01_sources/assets/she-image-bank/VSES7L3M-pdf40.png",
+      "caption": "周湖8号民居 · 立面",
+      "credit": "朱凌，2012，31页，图3-21",
+      "crop": [
+        0.2,
+        0.44,
+        0.53,
+        0.405
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "S08-05": {
+      "path": "01_sources/assets/she-web-2026-10-06/S08/S08-05.jpg",
+      "caption": "深垟 · 石墙与院落门楼",
+      "credit": "S08 · 网页发布于2025-10-09",
+      "url": "https://www.sohu.com/a/942250774_121627717",
+      "crop": null,
+      "rotation": 0
+    },
+    "S08-06": {
+      "path": "01_sources/assets/she-web-2026-10-06/S08/S08-06.jpg",
+      "caption": "深垟 · 院落与住宅外观",
+      "credit": "S08 · 网页发布于2025-10-09",
+      "url": "https://www.sohu.com/a/942250774_121627717",
+      "crop": null,
+      "rotation": 0
+    },
+    "S08-07": {
+      "path": "01_sources/assets/she-web-2026-10-06/S08/S08-07.png",
+      "caption": "深垟 · 木构民居与院墙",
+      "credit": "S08 · 网页发布于2025-10-09",
+      "url": "https://www.sohu.com/a/942250774_121627717",
+      "crop": null,
+      "rotation": 0
+    },
+    "chenbi-entrance": {
+      "path": "01_sources/assets/she-image-bank/VSES7L3M-pdf37.png",
+      "caption": "陈璧大宅资料 · 宅前入口石作",
+      "credit": "朱凌，2012，28页，图3-17",
+      "crop": [
+        0.676,
+        0.61,
+        0.196,
+        0.188
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "S08-09": {
+      "path": "01_sources/assets/she-web-2026-10-06/S08/S08-09.jpg",
+      "caption": "深垟 · 清泉石上居相关院落",
+      "credit": "S08 · 网页发布于2025-10-09",
+      "url": "https://www.sohu.com/a/942250774_121627717",
+      "crop": null,
+      "rotation": 0
+    },
+    "S08-10": {
+      "path": "01_sources/assets/she-web-2026-10-06/S08/S08-10.jpg",
+      "caption": "深垟 · 畲医畲药展示馆门面",
+      "credit": "S08 · 网页发布于2025-10-09",
+      "url": "https://www.sohu.com/a/942250774_121627717",
+      "crop": null,
+      "rotation": 0
+    },
+    "phoenix-lan": {
+      "path": "01_sources/assets/she-image-bank/7KCJR9EB-003.png",
+      "caption": "蓝凤新寮 · 前檐梁凤凰纹",
+      "credit": "蓝法勤，2013，96页，图3",
+      "crop": [
+        0.115,
+        0.437,
+        0.371,
+        0.121
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "phoenix-lan-order": {
+      "path": "01_sources/assets/she-image-bank/7KCJR9EB-004.png",
+      "caption": "蓝凤新寮 · 前后纹样排列",
+      "credit": "蓝法勤，2013，97页，图8",
+      "crop": [
+        0.115,
+        0.395,
+        0.371,
+        0.136
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "gangshi-square": {
+      "path": "outputs/研究对象候选导师浏览版/assets/柴一涵-2025-PDF85.png",
+      "caption": "岗石 · 清莲广场",
+      "credit": "柴一涵，2025，71页，图3.21",
+      "crop": [
+        0.236096537250787,
+        0.6577579806978471,
+        0.5676810073452256,
+        0.15219005196733482
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "gangshi-home": {
+      "path": "outputs/研究对象候选导师浏览版/assets/柴一涵-2025-PDF85.png",
+      "caption": "蓝景芬住宅 · 民歌传承馆及院落",
+      "credit": "柴一涵，2025，71页，图3.20",
+      "crop": [
+        0.161594963273872,
+        0.20044543429844097,
+        0.7166841552990556,
+        0.19524870081662954
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "gangshi-hall": {
+      "path": "outputs/研究对象候选导师浏览版/assets/柴一涵-2025-PDF87.png",
+      "caption": "岗石 · 文化礼堂",
+      "credit": "柴一涵，2025，73页，图3.23",
+      "crop": [
+        0.28751311647429173,
+        0.08685968819599109,
+        0.46379853095487933,
+        0.24647364513734224
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "gangshi-office": {
+      "path": "outputs/研究对象候选导师浏览版/assets/柴一涵-2025-PDF87.png",
+      "caption": "岗石 · 原村委会外观与院落",
+      "credit": "柴一涵，2025，73页，图3.24",
+      "crop": [
+        0.26128016789087094,
+        0.5493689680772086,
+        0.4774396642182581,
+        0.2524127691165553
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "zhangzhuang-types": {
+      "path": "01_sources/assets/she-image-bank/ZWDJJE99-056.png",
+      "caption": "张庄 · 侧样分型与编号分布",
+      "credit": "赵潇诺，2023，45页",
+      "crop": [
+        0.133,
+        0.447,
+        0.752,
+        0.423
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "jizhuang-types": {
+      "path": "01_sources/assets/she-image-bank/ZWDJJE99-057.png",
+      "caption": "季庄 · 侧样分型与编号分布",
+      "credit": "赵潇诺，2023，46页",
+      "crop": [
+        0.133,
+        0.107,
+        0.752,
+        0.545
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "huiming-location": {
+      "path": "01_sources/assets/she-image-bank/6NQGHZQC-pdf58.png",
+      "caption": "惠明寺 · 村落区位",
+      "credit": "潘钊，2015，50页，图4.1",
+      "crop": [
+        0.113,
+        0.375,
+        0.8,
+        0.3
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "tangwan-plan": {
+      "path": "01_sources/assets/she-image-bank/VSES7L3M-pdf41.png",
+      "caption": "汤湾4号民宅 · 平面与室内使用",
+      "credit": "朱凌，2012，32页，图3-22",
+      "crop": [
+        0.148,
+        0.35,
+        0.71,
+        0.38
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "phoenix-lei": {
+      "path": "01_sources/assets/she-image-bank/7KCJR9EB-003.png",
+      "caption": "小佐雷姓寮 · 金鸡头式纹样",
+      "credit": "蓝法勤，2013，96页，图4",
+      "crop": [
+        0.115,
+        0.615,
+        0.371,
+        0.095
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "phoenix-dajun": {
+      "path": "01_sources/assets/she-image-bank/7KCJR9EB-003.png",
+      "caption": "大均民居 · 金鸡头式纹样",
+      "credit": "蓝法勤，2013，96页，图5",
+      "crop": [
+        0.115,
+        0.769,
+        0.371,
+        0.125
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "phoenix-li": {
+      "path": "01_sources/assets/she-image-bank/7KCJR9EB-004.png",
+      "caption": "李氏大屋 · 住宅及装饰细部",
+      "credit": "蓝法勤，2013，97页，图7",
+      "crop": [
+        0.115,
+        0.16,
+        0.371,
+        0.22
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "dajicun-bridges": {
+      "path": "01_sources/assets/she-image-bank/VRWLBN8X-pdf6.png",
+      "caption": "大祭村 · 木构廊桥",
+      "credit": "牛建农等，2009，62页，图5",
+      "crop": [
+        0.065,
+        0.11,
+        0.497,
+        0.24
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "mei-house": {
+      "path": "01_sources/assets/she-image-bank/VRWLBN8X-pdf5.png",
+      "caption": "梅林老先生宅 · 多层屋檐",
+      "credit": "牛建农等，2009，61页，图3",
+      "crop": [
+        0.115,
+        0.098,
+        0.332,
+        0.386
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "yanxia-platform": {
+      "path": "01_sources/assets/she-image-bank/VRWLBN8X-pdf5.png",
+      "caption": "岩下住宅 · 侧挑晾台",
+      "credit": "牛建农等，2009，61页，图4",
+      "crop": [
+        0.474,
+        0.615,
+        0.392,
+        0.241
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "ganlan-house": {
+      "path": "01_sources/assets/she-image-bank/VRWLBN8X-pdf3.png",
+      "caption": "东坑附近 · 河边坡地木构干栏民居",
+      "credit": "牛建农等，2009，59页，图1",
+      "crop": [
+        0.115,
+        0.1,
+        0.497,
+        0.265
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "lei-row-house": {
+      "path": "01_sources/assets/she-image-bank/VRWLBN8X-pdf4.png",
+      "caption": "东坑镇雷姓住宅 · 联排共居",
+      "credit": "牛建农等，2009，60页，图2",
+      "crop": [
+        0.326,
+        0.106,
+        0.496,
+        0.26
+      ],
+      "rotation": 0,
+      "url": ""
+    },
+    "xiapu-house": {
+      "path": "01_sources/assets/she-crops/VSES7L3M-p038-fig318.png",
+      "caption": "半月里 · 雷世儒雷氏大宅",
+      "credit": "朱凌，2012，29页，图3-18",
+      "crop": null,
+      "rotation": 0,
+      "url": ""
+    },
+    "tan-decoration": {
+      "path": "01_sources/assets/she-image-bank/7KCJR9EB-003.png",
+      "caption": "丽水潭宅 · 梁部龙纹比较",
+      "credit": "蓝法勤，2013，96页，图2",
+      "crop": [
+        0.115,
+        0.204,
+        0.371,
+        0.18
+      ],
+      "rotation": 0,
+      "url": ""
+    }
+  },
+  "source_image_corrections": [
+    "雷氏祠堂与陈璧大宅改用VSES7L3M-pdf37完整原页的对应区域；旧合并裁切未完整覆盖对应照片。",
+    "干栏照片位于VRWLBN8X-pdf3的图1；pdf2仅含文字，未作配图。",
+    "VRWLBN8X-pdf5对应梅林老先生宅与岩下晾台；未将这两张照片赋给潘家大院。",
+    "蓝姓村落文字记录未提供可明确对应的照片，不将同页东坑干栏照片挪用。",
+    "ETTYATRB-p023实际为雷氏祠堂及室内陈设照片，已从民居群移入宗祠条目；侧样表按对应村落区域显示。"
+  ],
+  "notes": [
+    "网页图像及PDF工作副本仅编码和缩放以便内嵌；图源文件不改动，定向显示与图表区域由版式视窗控制。",
+    "47为原村名条目数；村内资料条目和图像单元均不视为独立建筑数量。"
+  ],
+  "pdf_checks": {
+    "pages": 33,
+    "size_bytes": 24834993,
+    "required_labels_present": true,
+    "all_markdown_file_links_valid": true,
+    "rendered_all_pages_for_visual_review": true,
+    "all_pages_visually_reviewed": true
+  }
+}

@@ -1,0 +1,80 @@
+{
+  "status": "verified-unified-synthetic-prototype-new-details-await-user-review",
+  "modelSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+  "payloadSHA256": "b204d09c15483ad00e36a91c88dbcaa6453a3bb20124e73fd852390a71c2d5bd",
+  "compilerSHA256": "6fc633590d3f042f8e53bd3926b7db8244a1e4e31d712bcd91461424578a7682",
+  "beforeFingerprint": "b9db8a1ad1edef6d8f442ccbb1728d7bb3a8ea5aea3dd3ccbf4ea3af316f8006",
+  "at": "2026-10-31T07:50:25.174929+08:00",
+  "exactNodes": 56,
+  "exactRelationships": 285,
+  "originalV01NodeIdentitiesPreserved": 52,
+  "allOriginalV01GeometriesUnchanged": true,
+  "legacyTrialNodesActive": 0,
+  "nativeTypes": "verified",
+  "constraintsIndexesUnchanged": true,
+  "preservedOtherGraphFingerprint": "a703d71579c9879b2eb3414cd061af62faa25273afbb114b594903fef486c47b",
+  "queryCounts": {
+    "Q01_identity": 56,
+    "Q02_dimensions": 8,
+    "Q03_comparison": 1,
+    "Q04_boundary": 8,
+    "Q05_interfaces": 5,
+    "Q06_outward_path": 1,
+    "Q07_return_path": 1,
+    "Q08_local_area_inputs": 2,
+    "Q09_uses": 3,
+    "Q10_sources": 12,
+    "Q11_roles_and_scope": 25,
+    "Q12_no_duplicates": 1,
+    "Q13_legacy_topology": 3,
+    "Q14_facade_records": 2,
+    "Q15_facade_openings": 4,
+    "Q16_collection": 3,
+    "Q17_street_sides": 2,
+    "Q18_ground_reference": 1,
+    "Q19_explicit_local_pair": 1,
+    "Q20_extension_sources": 14
+  },
+  "analysisItems": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06"
+  ],
+  "empiricalValidity": "not-validated",
+  "restoreRehearsed": false,
+  "extensionAnalysisItems": {
+    "D04": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06"
+    ],
+    "D05": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06"
+    ],
+    "D06": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05"
+    ]
+  },
+  "newDistinctObjectIds": [
+    "B03",
+    "CG01",
+    "ST01",
+    "TP01"
+  ],
+  "scope": "V01 continuation only; no D01V01/D03V01 remigration"
+}

@@ -1,0 +1,215 @@
+{
+  "verified_at": "2026-10-30T12:35:17.674528+08:00",
+  "collection": "JMYSLMY3",
+  "paper_count": 6,
+  "primary_fulltexts_available": 5,
+  "papers": [
+    {
+      "id": "Gao2023",
+      "key": "9Y6QB8TQ",
+      "attachment": null,
+      "url": "https://isprs-archives.copernicus.org/articles/XLVIII-M-2-2023/629/2023/isprs-archives-XLVIII-M-2-2023-629-2023.pdf",
+      "sha256": "0030b9dc16db85ea178b0a0beea675956de3bffc69c33276144113085616b374",
+      "pages": 7,
+      "reading_status": "原文主体及模型利用定向核读",
+      "source_path": "研究资料/来源证据/assets/倾斜摄影模型利用/Gao2023.pdf",
+      "data_acquisition_review": {
+        "date": "2026-10-30",
+        "item_ids": [
+          "G01",
+          "G02",
+          "G03"
+        ],
+        "scope": "具体数据／来源／操作／输出／条件定向补核；不扩大全文精读声明",
+        "locators": [
+          "PDF4／印刷632，§4、图4—5；PDF6／印刷634局限",
+          "PDF5—6／印刷633—634，图6—11、§5",
+          "PDF6／印刷634，图10—11前相关段落"
+        ]
+      }
+    },
+    {
+      "id": "Zhang2022",
+      "key": "VT2P8MQX",
+      "attachment": "FN4RMP8Q",
+      "path": "/Users/wangyuelin/Zotero/storage/FN4RMP8Q/张纯 等 - 2022 - 无人机倾斜摄影技术支持的古驿站城镇形态特征研究.pdf",
+      "reading_status": "摘要和机构介绍核读；原文PDF缺失",
+      "supplementary_source": "https://plc.pku.edu.cn/info/1138/2170.htm",
+      "supplementary_snapshot": "研究资料/来源证据/assets/倾斜摄影模型利用/Zhang2022-PKU.html",
+      "supplementary_sha256": "8707506a81220c38c91643fdd9872fd007908e7e791f3ac1ada2c055493a5a2d",
+      "data_acquisition_review": {
+        "date": "2026-10-30",
+        "item_ids": [
+          "Z01",
+          "Z02",
+          "Z03"
+        ],
+        "scope": "具体数据／来源／操作／输出／条件定向补核；不扩大全文精读声明",
+        "locators": [
+          "北大—林肯中心2022-04-27介绍§1—2、图1—2；原刊摘要；PDF缺失",
+          "同一机构介绍§2“城镇形态要素提取和功能识别”、表1；PDF缺失",
+          "同一机构介绍§3、图3；原刊摘要；PDF缺失"
+        ]
+      }
+    },
+    {
+      "id": "Guo2026",
+      "key": "PZ3CR96H",
+      "attachment": "H4N4454A",
+      "path": "/Users/wangyuelin/Zotero/storage/H4N4454A/郭锐 等 - 2026 - 基于多源数据融合与知识图谱的历史建筑数字化保护方法研究.pdf",
+      "sha256": "9f0201dad497c8c2a985990ca35a898f08ed611dd0a3726bb8fd8137364817f1",
+      "pages": 3,
+      "reading_status": "原文全文核读，模型利用问题补充核对",
+      "data_acquisition_review": {
+        "date": "2026-10-30",
+        "item_ids": [
+          "Q01",
+          "Q02",
+          "Q03",
+          "Q04"
+        ],
+        "scope": "具体数据／来源／操作／输出／条件定向补核；不扩大全文精读声明",
+        "locators": [
+          "PDF2／印刷18，§1.2.1—1.2.3、§2.1",
+          "PDF2／印刷18，§1.2.1、§1.2.3",
+          "PDF2／印刷18，§2.1、图3",
+          "PDF2—3／印刷18—19，§2.2.1—2.2.2、表1"
+        ]
+      }
+    },
+    {
+      "id": "Yu2020",
+      "key": "QF58FNZ7",
+      "attachment": "GMJMCWYG",
+      "path": "/Users/wangyuelin/Zotero/storage/GMJMCWYG/余学飞 - 2020 - 多源数字化勘测技术在北京通州燃灯塔中的应用研究.pdf",
+      "sha256": "63873bb9338e69d896617f0ad45315bacd0ca97b818232a3de700fc23a3e9e6b",
+      "pages": 64,
+      "reading_status": "第4–5章定向核读，结合第3章来源背景",
+      "data_acquisition_review": {
+        "date": "2026-10-30",
+        "item_ids": [
+          "Y01",
+          "Y02",
+          "Y03",
+          "Y04",
+          "Y05"
+        ],
+        "scope": "具体数据／来源／操作／输出／条件定向补核；不扩大全文精读声明",
+        "locators": [
+          "PDF48—51／印刷40—43，§5.1、图5-1—5-5；室内边界PDF22／印刷14",
+          "PDF27—28／印刷19—20；PDF48—49／印刷40—41，§5.1",
+          "PDF49／印刷41，§5.1；质量控制PDF34—35／印刷26—27",
+          "PDF51—53／印刷43—45，§5.2、图5-6—5-7",
+          "PDF43—44／印刷35—36，§4.3.1；既有数值疑点见证据记录"
+        ]
+      }
+    },
+    {
+      "id": "Li2026",
+      "key": "JXLK36G8",
+      "attachment": "PQ963XWW",
+      "path": "/Users/wangyuelin/Zotero/storage/PQ963XWW/李益壮 等 - 2026 - 基于无人机倾斜摄影测量技术的古建筑三维建模与保护研究.pdf",
+      "sha256": "8715d578850805930a62a2d3a4b33d1659971e1863cef1fa07e30b6308c53e7d",
+      "pages": 4,
+      "reading_status": "原文全文核读，表4及模拟监测原页核对",
+      "data_acquisition_review": {
+        "date": "2026-10-30",
+        "item_ids": [
+          "L01",
+          "L02",
+          "L03",
+          "L04"
+        ],
+        "scope": "具体数据／来源／操作／输出／条件定向补核；不扩大全文精读声明",
+        "locators": [
+          "PDF2—3／印刷18—19，§3—4、表4",
+          "PDF3／印刷19，§5.2",
+          "PDF3／印刷19，§5.1",
+          "PDF3／印刷19，§5.3"
+        ]
+      }
+    },
+    {
+      "id": "Chen",
+      "key": "G7IK8ML5",
+      "attachment": "7DAAUJQ7",
+      "path": "/Users/wangyuelin/Zotero/storage/7DAAUJQ7/陈继龙 - 2026 - 基于全景建模与GIS技术的苏州东山镇传统村落数字化保护路径研究.pdf",
+      "sha256": "b8414e607bb61b048a551cf04f819905643380764a7fc22e8bb7e52a4e7c36ac",
+      "pages": 165,
+      "reading_status": "封面、第3章及第4–5章相关部分、结论局限定向核读",
+      "verified_year": 2025,
+      "verified_institution": "苏州大学",
+      "zotero_date_conflict": "2026-06-16；未修改原条目",
+      "verified_author": "陈继龙",
+      "supervisor": "刘志宏",
+      "data_acquisition_review": {
+        "date": "2026-10-30",
+        "item_ids": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C11"
+        ],
+        "scope": "具体数据／来源／操作／输出／条件定向补核；不扩大全文精读声明",
+        "locators": [
+          "PDF53—54／印刷45—46，§3.2.1；PDF66／印刷58",
+          "PDF54—55／印刷46—47，§3.2.2、图3-10",
+          "PDF55—56／印刷47—48，§3.2.3、图3-11；CAD衔接PDF72／印刷64及79／71",
+          "PDF78—79／印刷70—71，§4.1.3、图4-10",
+          "PDF56—57／印刷48—49，§3.2.3（2）、图3-12",
+          "PDF71—73／印刷63—65，§4.1.2、表4-3—4-4",
+          "PDF51—52／印刷43—44，§3.1.3（4）、表3-4—3-6",
+          "PDF57—60／印刷49—52，§3.3.1—3.3.2、图3-13—3-15",
+          "PDF98—102／印刷90—94，§4.2.3、表4-15—4-16",
+          "PDF102—103／印刷94—95，§4.2.3、表4-17",
+          "PDF103—105／印刷95—97，表4-18—4-19及相关正文"
+        ]
+      }
+    }
+  ],
+  "boundaries": [
+    "下载与提取不等于精读",
+    "定向核读不等于全文精读",
+    "Zotero元数据未改",
+    "未检查景宁真实三维资料",
+    "未改研究方案或数据库"
+  ],
+  "record_role": "来源身份与本轮阅读范围；固定提取阶段快照另在抽核输入快照ZIP内，非现行阅读状态",
+  "supplementary_sources": [
+    {
+      "url": "https://dosct.cn/cn/article/Y2022/I4/108",
+      "snapshot": "研究资料/来源证据/assets/倾斜摄影模型利用/Zhang2022-publisher.html",
+      "sha256": "9d9695624142a79dd65e79bbaa1aa0f89c4d7e342d77969b7bfa31cd990b3809",
+      "boundary": "网页／说明快照，不保证外链资源离线，不扩大六篇论文范围"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/CloudCompare/CloudCompare/master/plugins/core/Standard/qCSF/README.md",
+      "snapshot": "研究资料/来源证据/assets/倾斜摄影模型利用/CloudCompare-CSF.md",
+      "sha256": "4bba122748517acefa30d84b0e0e0bd41071441d7a8632b12b83f0809caa3c6d",
+      "boundary": "网页／说明快照，不保证外链资源离线，不扩大六篇论文范围"
+    },
+    {
+      "url": "https://help.autodesk.com/cloudhelp/2021/ENU/Revit-Model/files/GUID-B89AD692-C705-458F-A638-EE7DD83D694C.htm",
+      "snapshot": "研究资料/来源证据/assets/倾斜摄影模型利用/Revit2021-pointcloud.html",
+      "sha256": "c1553d914926fc8ad0c795ef9f83aa2eff20817b616e4719a06ba25320d35fbf",
+      "boundary": "网页／说明快照，不保证外链资源离线，不扩大六篇论文范围"
+    }
+  ],
+  "data_acquisition_round": {
+    "recorded_at": "2026-10-30T15:08:50.258270+08:00",
+    "main_source": "文献库/专题精读/倾斜摄影模型利用/数据获取与实例记录主表.md",
+    "evidence_item_count": 30,
+    "candidate_interface_count": 13,
+    "actual_model_tested": false,
+    "fulltext_gap": "Zhang2022",
+    "status": "文献定向核读与候选接口，非真实数据提取",
+    "previous_reading_status_preserved": true
+  }
+}

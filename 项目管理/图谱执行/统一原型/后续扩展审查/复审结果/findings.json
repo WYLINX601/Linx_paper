@@ -1,0 +1,570 @@
+{
+  "status": "approved_within_read_only_scope",
+  "blocking": false,
+  "scope": "second-independent-read-only-frozen-package-review",
+  "inputRoot": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed",
+  "outputRoot": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-output",
+  "sourceModelSha256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+  "summary": "F01—F04均已关闭；本次范围未发现新增阻断。固定合成原型和离线校验结论，不作数据库、浏览器或真实有效性通过宣称。",
+  "integrity": {
+    "manifestEntries": 27,
+    "initialAllMatch": true,
+    "afterTestsAllMatch": true,
+    "manifestSHA256": "1c3addbe116537b9eb025ce4923a65b747cdf5f325c1482e300c48e3c7ce031c",
+    "allFrozenBytesAndInventoryUnchanged": true,
+    "unlistedFiles": [],
+    "sourceModelSha256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+    "receipts": [
+      "hash-before.json",
+      "hash-after.json"
+    ]
+  },
+  "resolvedFindings": [
+    {
+      "id": "F01",
+      "status": "closed",
+      "previousSeverity": "P1",
+      "previousBlocking": true,
+      "conclusion": "独立重建旧反例，净面积为零的砖不再进入材料面积表、D04-T06组合或D06材料数；零面积诊断保留。",
+      "locations": [
+        "tools/d04.py:387-426",
+        "tools/d06.py:63-71"
+      ],
+      "evidence": {
+        "oldCounterexample": {
+          "path": "compile-then-analyze",
+          "lastRegionState": "known",
+          "materialAreasM2": {
+            "灰泥": 30.959999999999997
+          },
+          "unknownAreaM2": 0.0,
+          "combinationMaterials": [
+            "灰泥"
+          ],
+          "diagnostics": [
+            {
+              "regionId": "independent-region-4",
+              "state": "known",
+              "areaM2": 0.0
+            }
+          ],
+          "completeMaterialCount": 1,
+          "classification": [
+            "single-material-complete-domain"
+          ]
+        },
+        "trueTwoPositiveMaterials": {
+          "path": "compile-then-analyze",
+          "lastRegionState": "known",
+          "materialAreasM2": {
+            "灰泥": 21.360000000000003,
+            "砖": 9.6
+          },
+          "unknownAreaM2": 0.0,
+          "combinationMaterials": [
+            "灰泥",
+            "砖"
+          ],
+          "diagnostics": [
+            {
+              "regionId": "independent-region-4",
+              "state": "known",
+              "areaM2": 0.0
+            }
+          ],
+          "completeMaterialCount": 2,
+          "classification": [
+            "multiple-materials-complete-domain"
+          ]
+        },
+        "zeroUnknown": {
+          "path": "actual-LPG-unchanged-rawModel",
+          "lastRegionState": "unknown",
+          "materialAreasM2": {
+            "灰泥": 30.959999999999997
+          },
+          "unknownAreaM2": 0.0,
+          "combinationMaterials": [
+            "灰泥"
+          ],
+          "diagnostics": [
+            {
+              "regionId": "independent-region-4",
+              "state": "unknown",
+              "areaM2": 0.0
+            }
+          ],
+          "completeMaterialCount": 1,
+          "classification": [
+            "single-material-complete-domain"
+          ]
+        },
+        "positiveUnknownControl": {
+          "unknownAreaM2": 30.959999999999997,
+          "completeMaterialCount": null,
+          "jointValidCount": 0
+        }
+      },
+      "testIds": [
+        "F01_old_counterexample_compiled",
+        "F01_old_counterexample_LPG",
+        "F01_true_two_positive_materials_compiled",
+        "F01_true_two_positive_materials_LPG",
+        "F01_zero_unknown_compiled",
+        "F01_zero_unknown_LPG",
+        "F01_zero_mixed_compiled",
+        "F01_zero_mixed_LPG",
+        "F01_positive_unknown_remains_unknown"
+      ]
+    },
+    {
+      "id": "F02",
+      "status": "closed",
+      "previousSeverity": "P2",
+      "previousBlocking": false,
+      "conclusion": "D03用rehydrate得到的实际geometry重算。删除C01实际geometry停止；实际radius改为1.0而缓存不变停止；更新对应实际缓存后，rawModel不变仍能产生新围合结果，排除仅机械拒绝变化的伪修复。",
+      "locations": [
+        "tools/projection.py:13-24",
+        "tools/analyze.py:28-29",
+        "tools/analyze.py:56-66"
+      ],
+      "evidence": {
+        "F02_missing_actual_C01": {
+          "rejected": true,
+          "exception": "ValueError",
+          "message": "Missing actual geometry C01"
+        },
+        "F02_changed_actual_C01_stale_cache_stops": {
+          "rejected": true,
+          "exception": "ValueError",
+          "message": "Boundary cache differs from source geometry"
+        },
+        "F02_changed_actual_C01_current_cache_recomputes": {
+          "actualRadius": 1.0,
+          "contributionM": 0.88,
+          "netSolidBoundaryM": 18.580000000000002,
+          "netSolidRatio": 0.6616809116809117,
+          "rawModelUnchanged": true
+        }
+      },
+      "testIds": [
+        "F02_missing_actual_C01",
+        "F02_changed_actual_C01_stale_cache_stops",
+        "F02_changed_actual_C01_current_cache_recomputes"
+      ]
+    },
+    {
+      "id": "F03",
+      "status": "closed",
+      "previousSeverity": "P2",
+      "previousBlocking": false,
+      "conclusion": "实际节点与关系身份集合完整比较，拒绝旧反例EXTRA配对边及重复边；不再静默截断。额外/重复/缺失对象或边也被拒绝。关系status/evidence与节点evidence来自实际值，缺失关系元数据不回退快照；D04实际关系元数据变化会触发语义拒绝。",
+      "locations": [
+        "tools/projection.py:7-37",
+        "tools/d04.py:258-269",
+        "tools/d06.py:42-47"
+      ],
+      "testIds": [
+        "F03_extra-pair_projection",
+        "F03_extra-pair_analysis",
+        "F03_duplicate-edge_projection",
+        "F03_duplicate-edge_analysis",
+        "F03_missing-edge_projection",
+        "F03_missing-edge_analysis",
+        "F03_extra-node_projection",
+        "F03_extra-node_analysis",
+        "F03_duplicate-node_projection",
+        "F03_duplicate-node_analysis",
+        "F03_missing-node_projection",
+        "F03_missing-node_analysis",
+        "F03_edge-caseId_projection",
+        "F03_edge-caseId_analysis",
+        "F03_node-datasetId_projection",
+        "F03_node-datasetId_analysis",
+        "F03_actual_status_evidence_and_no_fallback",
+        "actual_facade_edge_recordStatus_not_snapshot",
+        "actual_facade_edge_evidenceIds_not_snapshot"
+      ]
+    },
+    {
+      "id": "F04",
+      "status": "closed",
+      "previousSeverity": "P2",
+      "previousBlocking": false,
+      "conclusion": "逐对象解析B03/CG01/ST01/TP01指针，均落到自身geometry且版本为V01-unified-2.1；逐对象错指W03、过期版本、缺指针及缺版本，编译与实际LPG分析两条路径全部拒绝。",
+      "locations": [
+        "tools/projection.py:40-65",
+        "tools/compile_model.py:183-186"
+      ],
+      "coverage": {
+        "objects": [
+          "B03",
+          "CG01",
+          "ST01",
+          "TP01"
+        ],
+        "positivePointerChecks": 4,
+        "negativeMutationsPerObject": [
+          "wrong-locator",
+          "stale-version",
+          "missing-locator",
+          "missing-version"
+        ],
+        "paths": [
+          "compiler",
+          "actual-LPG-analysis"
+        ],
+        "negativeScenarioCount": 32
+      },
+      "testIds": [
+        "F04_B03_positive_self_pointer_version",
+        "F04_B03_wrong-locator_compiler",
+        "F04_B03_wrong-locator_LPG",
+        "F04_B03_stale-version_compiler",
+        "F04_B03_stale-version_LPG",
+        "F04_B03_missing-locator_compiler",
+        "F04_B03_missing-locator_LPG",
+        "F04_B03_missing-version_compiler",
+        "F04_B03_missing-version_LPG",
+        "F04_CG01_positive_self_pointer_version",
+        "F04_CG01_wrong-locator_compiler",
+        "F04_CG01_wrong-locator_LPG",
+        "F04_CG01_stale-version_compiler",
+        "F04_CG01_stale-version_LPG",
+        "F04_CG01_missing-locator_compiler",
+        "F04_CG01_missing-locator_LPG",
+        "F04_CG01_missing-version_compiler",
+        "F04_CG01_missing-version_LPG",
+        "F04_ST01_positive_self_pointer_version",
+        "F04_ST01_wrong-locator_compiler",
+        "F04_ST01_wrong-locator_LPG",
+        "F04_ST01_stale-version_compiler",
+        "F04_ST01_stale-version_LPG",
+        "F04_ST01_missing-locator_compiler",
+        "F04_ST01_missing-locator_LPG",
+        "F04_ST01_missing-version_compiler",
+        "F04_ST01_missing-version_LPG",
+        "F04_TP01_positive_self_pointer_version",
+        "F04_TP01_wrong-locator_compiler",
+        "F04_TP01_wrong-locator_LPG",
+        "F04_TP01_stale-version_compiler",
+        "F04_TP01_stale-version_LPG",
+        "F04_TP01_missing-locator_compiler",
+        "F04_TP01_missing-locator_LPG",
+        "F04_TP01_missing-version_compiler",
+        "F04_TP01_missing-version_LPG"
+      ]
+    }
+  ],
+  "findings": [],
+  "checkedFiles": [
+    {
+      "path": "manifest.json",
+      "review": "完整核读及自身哈希前后比较",
+      "sha256": "1c3addbe116537b9eb025ce4923a65b747cdf5f325c1482e300c48e3c7ce031c"
+    },
+    {
+      "path": "previous-findings.json",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "a3e7640f6a4a235f8aff1328b1e286b26aedc2df81686a355b7df3e2939c1511"
+    },
+    {
+      "path": "test_review_fixes.py",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "d27a0be70c678a852b3b670ce43265858b5addf13aca2d408963f972d042b856"
+    },
+    {
+      "path": "candidate/model.json",
+      "review": "结构解析、相关字段核对及重编译/重分析全值比较",
+      "sha256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a"
+    },
+    {
+      "path": "candidate/extension-map.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "5086ebe952763d5519196ccb891b73b519c4eaedd722872229ab04c31d869d55"
+    },
+    {
+      "path": "candidate/analysis.json",
+      "review": "结构解析、相关字段核对及重编译/重分析全值比较",
+      "sha256": "c5f61fcef0189623c95cd5c433b3091693b7fe68abbdac1f6b6d25047fa02123"
+    },
+    {
+      "path": "candidate/payload.json",
+      "review": "结构解析、相关字段核对及重编译/重分析全值比较",
+      "sha256": "4b08f028c9027bbf189a7295f79f509b0a60de26e0c9a414713cd919a35fa4c7"
+    },
+    {
+      "path": "tools/viewer.base.html",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "7f2f98bfc9cab7a5b27c6645334c8224bc5e82730027d3359954aac352b68221"
+    },
+    {
+      "path": "tools/build_review.py.provenance.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "359ea26f59aea4321065a1f38a1c0cd9fe01bd2f5eb911110b24e813cdefb1ca"
+    },
+    {
+      "path": "tools/compile_model.py",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "ff77c2a83320d7729c3d2ab5cf4e4b54ed67bb75d1ddd17f4244bd9d14d15931"
+    },
+    {
+      "path": "tools/queries.py.provenance.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "35271147466e134e5be105357d2db88ce597c8c1c529247bc63b5c699441a99c"
+    },
+    {
+      "path": "tools/d05.py",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "5bc8093a78f5770315988367f328c7ada9418068158419afcd6ee12214e45ad4"
+    },
+    {
+      "path": "tools/d04.py",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "7cfc69abf2ca839fc86c17c0032f812f2ce064cbe32ec6170e833c477eab6b2d"
+    },
+    {
+      "path": "tools/run_graph.py.provenance.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "3eeceeb2d292da84774fa52dd521293040893994446945d2a948c56b5dd608b5"
+    },
+    {
+      "path": "tools/compile_model.py.provenance.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "1bfd2d53ff670f4a09b394e72b4478b763cbe20a3508ab1153e4e70b5a52ca21"
+    },
+    {
+      "path": "tools/viewer.base.html.provenance.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "31a739446826b05bdc69119e9f66db5e7fa9467b7619dfc0d6f2d765eab5b35b"
+    },
+    {
+      "path": "tools/viewer.template.html.provenance.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "8cfe0339bee3de04a2dace682d3b2ba5b928e3433723498c239dc578e5d3a4b9"
+    },
+    {
+      "path": "tools/viewer.template.html",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "ce4398d87306a7b55c7829a08b3e2ba8176024aa435b50c5110b65782b98239e"
+    },
+    {
+      "path": "tools/run_graph.py",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "ca277c40c5290c17c23f814e08fae7573f57343de0bc3c07f343dbb9ee85ea1b"
+    },
+    {
+      "path": "tools/mcp_client.py",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52"
+    },
+    {
+      "path": "tools/queries.py",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "ea88afee3121fe1152d120413c849e6ef583077a156473824ca734088219e14a"
+    },
+    {
+      "path": "tools/d06.py",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "b1b5ad3a51fa7dd39a9653d148baa695cd1ba45f367caa1bcb581bcec2173005"
+    },
+    {
+      "path": "tools/mcp_client.py.provenance.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "79066c830ddd4f1b23807d9a894988ac3bf4d9ff3daf11adf2dfd9a12148ce76"
+    },
+    {
+      "path": "tools/extension-ui.js",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "1924e8bf828ac3454d5342f947ced963857ef64475be1de650c2c784e59ec6ba"
+    },
+    {
+      "path": "tools/analyze.py.provenance.json",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "ba6ed7fea42b3a0a552a0a9631a8d4790a7e06f02f2819b5a7c2c3994310143f"
+    },
+    {
+      "path": "tools/projection.py",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "8eaf84a4e76ca7248ca5c2ad009d9904c7c54f9d014ae9871de2cdb7ed576862"
+    },
+    {
+      "path": "tools/build_review.py",
+      "review": "仅字节SHA-256校验；不代表内容复核",
+      "sha256": "47929a7b9aed976a9f56b8fd0ca02dc699701b01de6a35a6bb2b031791b5c749"
+    },
+    {
+      "path": "tools/analyze.py",
+      "review": "完整源码/记录核读，并按相关路径执行测试",
+      "sha256": "16cf37e2fc808433273bbd85257d6198965679e1ff355c72c74a2a726214aa73"
+    }
+  ],
+  "testsPerformed": {
+    "bundled": {
+      "script": "review2-fixed/test_review_fixes.py",
+      "log": "bundled-tests.log",
+      "testMethodCount": 11,
+      "result": "OK",
+      "parameterizedNewObjectSubcases": 8,
+      "countMeaning": "unittest报告11个测试方法；其中一个方法含四对象×两字段的8个subTest，不将其再加到方法数。"
+    },
+    "independent": {
+      "script": "independent_review.py",
+      "log": "independent-tests.log",
+      "results": "independent-results.json",
+      "scenarioCount": 85,
+      "passed": 85,
+      "failed": 0,
+      "expectedRejectionScenarioCount": 64,
+      "countMeaning": "一条result为一个命名场景，可含多个断言；预期拒绝算通过，不是断言数、数据库执行数或真实样本数。编译与LPG两路径分别记场景。与包内11方法存在覆盖重叠，不合计为96个互不重复测试。",
+      "testIds": [
+        "baseline_recompile_analyze_counts_sha",
+        "F01_old_counterexample_compiled",
+        "F01_old_counterexample_LPG",
+        "F01_true_two_positive_materials_compiled",
+        "F01_true_two_positive_materials_LPG",
+        "F01_zero_unknown_compiled",
+        "F01_zero_unknown_LPG",
+        "F01_zero_mixed_compiled",
+        "F01_zero_mixed_LPG",
+        "F01_positive_unknown_remains_unknown",
+        "F02_missing_actual_C01",
+        "F02_changed_actual_C01_stale_cache_stops",
+        "F02_changed_actual_C01_current_cache_recomputes",
+        "F03_extra-pair_projection",
+        "F03_extra-pair_analysis",
+        "F03_duplicate-edge_projection",
+        "F03_duplicate-edge_analysis",
+        "F03_missing-edge_projection",
+        "F03_missing-edge_analysis",
+        "F03_extra-node_projection",
+        "F03_extra-node_analysis",
+        "F03_duplicate-node_projection",
+        "F03_duplicate-node_analysis",
+        "F03_missing-node_projection",
+        "F03_missing-node_analysis",
+        "F03_edge-caseId_projection",
+        "F03_edge-caseId_analysis",
+        "F03_node-datasetId_projection",
+        "F03_node-datasetId_analysis",
+        "F03_actual_status_evidence_and_no_fallback",
+        "F04_B03_positive_self_pointer_version",
+        "F04_B03_wrong-locator_compiler",
+        "F04_B03_wrong-locator_LPG",
+        "F04_B03_stale-version_compiler",
+        "F04_B03_stale-version_LPG",
+        "F04_B03_missing-locator_compiler",
+        "F04_B03_missing-locator_LPG",
+        "F04_B03_missing-version_compiler",
+        "F04_B03_missing-version_LPG",
+        "F04_CG01_positive_self_pointer_version",
+        "F04_CG01_wrong-locator_compiler",
+        "F04_CG01_wrong-locator_LPG",
+        "F04_CG01_stale-version_compiler",
+        "F04_CG01_stale-version_LPG",
+        "F04_CG01_missing-locator_compiler",
+        "F04_CG01_missing-locator_LPG",
+        "F04_CG01_missing-version_compiler",
+        "F04_CG01_missing-version_LPG",
+        "F04_ST01_positive_self_pointer_version",
+        "F04_ST01_wrong-locator_compiler",
+        "F04_ST01_wrong-locator_LPG",
+        "F04_ST01_stale-version_compiler",
+        "F04_ST01_stale-version_LPG",
+        "F04_ST01_missing-locator_compiler",
+        "F04_ST01_missing-locator_LPG",
+        "F04_ST01_missing-version_compiler",
+        "F04_ST01_missing-version_LPG",
+        "F04_TP01_positive_self_pointer_version",
+        "F04_TP01_wrong-locator_compiler",
+        "F04_TP01_wrong-locator_LPG",
+        "F04_TP01_stale-version_compiler",
+        "F04_TP01_stale-version_LPG",
+        "F04_TP01_missing-locator_compiler",
+        "F04_TP01_missing-locator_LPG",
+        "F04_TP01_missing-version_compiler",
+        "F04_TP01_missing-version_LPG",
+        "actual_W10_two_materials_from_LPG",
+        "missing_actual_facade_stops",
+        "stale_actual_facade_source_stops",
+        "actual_facade_edge_recordStatus_not_snapshot",
+        "actual_facade_edge_evidenceIds_not_snapshot",
+        "postwrite_exact_positive",
+        "postwrite_exact_reject_property",
+        "postwrite_exact_reject_native-equal-value",
+        "postwrite_exact_reject_extra-edge",
+        "postwrite_exact_reject_duplicate-edge",
+        "postwrite_exact_reject_extra-node",
+        "postwrite_exact_reject_endpoint",
+        "postwrite_exact_reject_type",
+        "postwrite_exact_reject_label",
+        "postwrite_exact_reject_missing-edge",
+        "prewrite_binding_isolated_full_payload",
+        "geometry_preservation_positive",
+        "geometry_preservation_reject_changed_C01",
+        "fixed_prototype_independent_numeric_controls"
+      ]
+    },
+    "baseline": {
+      "payloadEqualsFrozen": true,
+      "analysisEqualsFrozen": true,
+      "modelObjects": 55,
+      "projectedNodesIncludingSOURCE": 56,
+      "projectedNonNewNodesIncludingSOURCE": 52,
+      "relationships": 285,
+      "BuildingObjects": 3,
+      "D06Tasks": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05"
+      ]
+    },
+    "actualMaterialRecompute": {
+      "materialAreasM2": {
+        "灰泥": 6.4,
+        "砖": 6.4
+      },
+      "completeMaterialCount": 2,
+      "rawModelUnchanged": true
+    },
+    "protectionReview": {
+      "prewriteStaticLocations": [
+        "tools/run_graph.py:12-32",
+        "tools/run_graph.py:65-114"
+      ],
+      "staticChecks": [
+        "冻结nodes/relationships等值绑定、原生类型、身份去重、命名空间、端点和标签/关系类型白名单",
+        "既有节点/关系属性与类型快照比较、schema检查、无盲重试stage、提交前重编译",
+        "写后无关图与schema比较、verify_exact先于analyze、查询覆盖及analyze(actual)==analyze(payload)"
+      ],
+      "pureFunctionsExtracted": [
+        "binding",
+        "native_type",
+        "preserve_original_geometry",
+        "verify_exact"
+      ],
+      "runGraphImported": false,
+      "mcpClientImported": false,
+      "databaseExecution": false
+    },
+    "loadedProjectModules": {
+      "compile_model": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/compile_model.py",
+      "analyze": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/analyze.py",
+      "projection": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/projection.py",
+      "d04": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/d04.py",
+      "d05": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/d05.py",
+      "d06": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/review2-fixed/tools/d06.py"
+    }
+  },
+  "limitations": [
+    "仅授权冻结根内资料及本轮输出；未访问Paper、数据库、配置、凭据、MCP、Zotero或网络。未修改冻结实现、技能或记忆。项目模块只从冻结tools导入；Python标准库及现有Shapely运行依赖不作为冻结外项目输入。Python均使用academic/runtime/venv/bin/python -B。",
+    "内存LPG记录来自冻结payload及明确变异，不是真实数据库快照；未运行run_graph.main、connected、snapshot或任何Cypher，未验证数据库实际写入、约束索引、事务并发、真实写前保护执行或恢复。",
+    "run_graph写前保护仅作源码审阅及binding纯函数检查；写后verify_exact与几何保留函数仅AST提取后在内存运行。纯函数通过不等于数据库写前写后链实际验收。",
+    "本包没有前轮原始模型或previous-findings中所引originals文档。本轮按previous-findings重建已记录反例，不把旧报告断言当成新证据；无法独立重做旧模型身份/几何逐值保留比较或重新核对缺席的文献原件。",
+    "52旧投影身份加4新对象等于56（含SOURCE）由当前包结构验证；当前源模型有55个对象，其中Building为3。不是56栋建筑，也不声称本轮有可供独立比较的旧52身份原始快照。",
+    "未验收浏览器、三表三图或完整展示产物；未做真实民居、真实统计、民族/地域专属性、因果或方法优越性验证。固定原型不代表真实有效性。",
+    "不要求任意曲墙曲街泛化，不扩展D02内部构架、D07或D08；结论仅适用于本冻结包、已列反例与限定合成原型，不是形式证明或全部输入空间覆盖。"
+  ]
+}

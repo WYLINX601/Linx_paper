@@ -1,0 +1,145 @@
+{
+  "manifest_sha256": "c6673b063c01526a9ffb4ae335ab236bf1653360333be816a1a6a3d89721ae5f",
+  "files": [
+    {
+      "path": "baseline/freeze.json",
+      "ok": true
+    },
+    {
+      "path": "baseline/model-2.1.json",
+      "ok": true
+    },
+    {
+      "path": "baseline/审核意见.md",
+      "ok": true
+    },
+    {
+      "path": "build_fix.py",
+      "ok": true
+    },
+    {
+      "path": "candidate/analysis.json",
+      "ok": true
+    },
+    {
+      "path": "candidate/extension-map.json",
+      "ok": true
+    },
+    {
+      "path": "candidate/fix-map.json",
+      "ok": true
+    },
+    {
+      "path": "candidate/model.json",
+      "ok": true
+    },
+    {
+      "path": "candidate/payload.json",
+      "ok": true
+    },
+    {
+      "path": "first-findings.json",
+      "ok": true
+    },
+    {
+      "path": "test_semantics.py",
+      "ok": true
+    },
+    {
+      "path": "tests/all-tests.json",
+      "ok": true
+    },
+    {
+      "path": "tools/analyze.py",
+      "ok": true
+    },
+    {
+      "path": "tools/analyze.py.provenance.json",
+      "ok": true
+    },
+    {
+      "path": "tools/basic-ui.js",
+      "ok": true
+    },
+    {
+      "path": "tools/build_review.py",
+      "ok": true
+    },
+    {
+      "path": "tools/build_review.py.provenance.json",
+      "ok": true
+    },
+    {
+      "path": "tools/compile_model.py",
+      "ok": true
+    },
+    {
+      "path": "tools/compile_model.py.provenance.json",
+      "ok": true
+    },
+    {
+      "path": "tools/d04.py",
+      "ok": true
+    },
+    {
+      "path": "tools/d05.py",
+      "ok": true
+    },
+    {
+      "path": "tools/d06.py",
+      "ok": true
+    },
+    {
+      "path": "tools/extension-ui.js",
+      "ok": true
+    },
+    {
+      "path": "tools/mcp_client.py",
+      "ok": true
+    },
+    {
+      "path": "tools/mcp_client.py.provenance.json",
+      "ok": true
+    },
+    {
+      "path": "tools/projection.py",
+      "ok": true
+    },
+    {
+      "path": "tools/queries.py",
+      "ok": true
+    },
+    {
+      "path": "tools/queries.py.provenance.json",
+      "ok": true
+    },
+    {
+      "path": "tools/run_graph.py",
+      "ok": true
+    },
+    {
+      "path": "tools/run_graph.py.provenance.json",
+      "ok": true
+    },
+    {
+      "path": "tools/semantics.py",
+      "ok": true
+    },
+    {
+      "path": "tools/viewer.base.html",
+      "ok": true
+    },
+    {
+      "path": "tools/viewer.base.html.provenance.json",
+      "ok": true
+    },
+    {
+      "path": "tools/viewer.template.html",
+      "ok": true
+    },
+    {
+      "path": "tools/viewer.template.html.provenance.json",
+      "ok": true
+    }
+  ]
+}

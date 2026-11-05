@@ -1,0 +1,17 @@
+{
+  "path": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/d03-full-kshvkp_s/candidates/研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+  "modelSHA256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+  "tableSHA256": "49299305c0f2a87350a6feaa8c79910ea649830823a2b1ad6d34dd0985ef09ca",
+  "snapshotSHA256": "29acab0c9449196365e429bf9992fa5b8abf0e22b13b65b564ed6823b58ee110",
+  "templateSHA256": "272fc922fc22e66c444e690ab088939763e7adc0db643778a4c1c3962e3ea216",
+  "htmlSHA256": "344b4b235640c95b04a2fbca14b88fca4bf2a883a209cceefe191923311772f8",
+  "tasks": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06"
+  ],
+  "source": "genuine verified Neo4j readback"
+}

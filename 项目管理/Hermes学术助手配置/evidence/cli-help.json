@@ -1,0 +1,1097 @@
+{
+  "candidate_count": 179,
+  "ok_count": 178,
+  "nonzero_count": 1,
+  "timeout_count": 0,
+  "error_count": 0,
+  "elapsed_seconds": 10.54,
+  "parse_errors": [],
+  "results": [
+    {
+      "file": "nature-academic-search/scripts/academic_search.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: academic_search.py [-h] [--author AUTHOR] [--affiliation AFFILIATION]\n                          [--orcid ORCID] [--list-authors]\n                          [--author-id AUTHOR_ID] [--limit LIMIT]\n                          [--year-from YEAR_FROM]\n                          [--sort {relevance_score,cited_by_count,publication_date}]\n                          [--mailto MAILTO] [--compact]\n       "
+    },
+    {
+      "file": "nature-academic-search/scripts/format-converter.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: format-converter.py [-h] [--pmid PMID] [--doi DOI] [--arxiv ARXIV]\n                           [--author AUTHOR] [--title TITLE] [--query QUERY]\n                           [--input INPUT] [--interactive]\n                           [--format {nbib,ris,bib,enw}] [--output OUTPUT]\n                           [--version] [--test] [--retry RETRY] [--preflight]\n\nMulti-source citation downloader wit"
+    },
+    {
+      "file": "nature-figure/scripts/audit_panel_alignment.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: audit_panel_alignment.py [-h] [--json] [--json-out JSON_OUT]\n                                [--overlay-svg OVERLAY_SVG]\n                                [--tolerance-pt TOLERANCE_PT]\n                                [--gutter-tolerance-pt GUTTER_TOLERANCE_PT]\n                                [--require-panel-labels] [--strict]\n                                [--self-test]\n                    "
+    },
+    {
+      "file": "nature-figure/scripts/audit_svg_schematic.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: audit_svg_schematic.py [-h] [--min-pt MIN_PT] [--max-pt MAX_PT]\n                              [--max-width-mm MAX_WIDTH_MM] [--json]\n                              svg\n\nAudit a hand-built SVG schematic against final-size journal rules. Checks,\nusing only the standard library: * effective text size at final physical size\n(font-size, ``scale``/``matrix`` transforms, and the ``viewBox`` to ``wi"
+    },
+    {
+      "file": "nature-figure/scripts/validate_figure.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: validate_figure.py [-h] [--backend {auto,python,r}] [--json] [--strict]\n                          [--self-test]\n                          [source]\n\nStatic preflight for publication-figure Python and R source files. The\nvalidator is intentionally dependency-free. It checks portable source-level\nrequirements before the selected backend renders the figure; it does not claim\nto validate statist"
+    },
+    {
+      "file": "nature-figure/scripts/plot_templates.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: plot_templates.py [-h] {volcano,roc,dotplot,marginal,paired} ...\n\nValidated Python templates for five common manuscript-figure families.\nSubcommands: volcano, roc, dotplot, marginal, and paired. Production runs\nrequire a CSV input. Simulated data is available only through the explicit\n--demo flag and is marked as such in the generated QA record. The template\nfamilies and adaptation safeguar"
+    },
+    {
+      "file": "nature-figure/scripts/audit_figure_collisions.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: audit_figure_collisions.py [-h] [--json] [--json-out JSON_OUT]\n                                  [--overlay-pdf OVERLAY_PDF] [--strict]\n                                  [--text-inset-pt TEXT_INSET_PT]\n                                  [--min-overlap-ratio MIN_OVERLAP_RATIO]\n                                  [--clipping-tolerance-pt CLIPPING_TOLERANCE_PT]\n                                  ["
+    },
+    {
+      "file": "nature-figure/scripts/nature_figure_backend.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: nature_figure_backend.py [-h] {get,set,clear,path} ...\n\nRead or write the user's default nature-figure plotting backend.\n\npositional arguments:\n  {get,set,clear,path}\n    get                 Print the saved backend; exit 1 if unset.\n    set                 Save the default backend.\n    clear               Remove the saved backend preference.\n    path                Print the config path.\n\no"
+    },
+    {
+      "file": "nature-figure/scripts/audit_pdf_text.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: audit_pdf_text.py [-h] [--min-pt MIN_PT] [--json] pdf\n\nAudit effective text sizes in PDF content streams. The size is ``Tf`` size\nscaled by the text matrix (``Tm``) and ``cm`` transforms. This dependency-free\ncheck catches reduced mathtext superscripts/subscripts and other glyph runs\nthat can fall below a journal font-size floor even when the parent matplotlib\n``fontsize`` is compliant. It "
+    },
+    {
+      "file": "nature-figure/scripts/generate_openrouter_schematic.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: generate_openrouter_schematic.py [-h] [--model MODEL] [--title TITLE]\n                                        [--abstract ABSTRACT]\n                                        [--abstract-file ABSTRACT_FILE]\n                                        [--panel-map PANEL_MAP]\n                                        [--prompt PROMPT]\n                                        [--prompt-file PROMPT_FILE]"
+    },
+    {
+      "file": "transcribe/scripts/transcribe_diarize.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: transcribe_diarize.py [-h] [--model MODEL]\n                             [--response-format RESPONSE_FORMAT]\n                             [--chunking-strategy CHUNKING_STRATEGY]\n                             [--language LANGUAGE] [--prompt PROMPT]\n                             [--known-speaker KNOWN_SPEAKER] [--out OUT]\n                             [--out-dir OUT_DIR] [--stdout] [--dry-run]\n  "
+    },
+    {
+      "file": "jupyter-notebook/scripts/new_notebook.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: new_notebook.py [-h] [--kind {experiment,tutorial}] --title TITLE\n                       [--out OUT] [--force]\n\nScaffold a Jupyter notebook for experiments or tutorials.\n\noptions:\n  -h, --help            show this help message and exit\n  --kind {experiment,tutorial}\n                        Notebook style to scaffold (default: experiment).\n  --title TITLE         Human-readable notebook titl"
+    },
+    {
+      "file": "nature-paper2ppt/scripts/audit_pptx_quality.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: audit_pptx_quality.py [-h] [--report REPORT] [--json JSON]\n                             [--fail-on {high,medium,low,none}]\n                             pptx\n\nAudit PPTX structure for nature-paper2ppt quality issues.\n\npositional arguments:\n  pptx\n\noptions:\n  -h, --help            show this help message and exit\n  --report REPORT       Write a Markdown report to this path.\n  --json JSON      "
+    },
+    {
+      "file": "literature-review/scripts/generate_schematic.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: generate_schematic.py [-h] -o OUTPUT\n                             [--doc-type {journal,conference,poster,presentation,report,grant,thesis,preprint,default}]\n                             [--iterations ITERATIONS] [--api-key API_KEY]\n                             [-v]\n                             prompt\n\nGenerate scientific schematics using AI with smart iterative refinement\n\npositional argume"
+    },
+    {
+      "file": "literature-review/scripts/generate_pdf.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: generate_pdf.py [-h] [-o OUTPUT] [--csl CITATION_STYLE]\n                       [--bibliography BIBLIOGRAPHY] [--template TEMPLATE]\n                       [--no-toc] [--no-numbers] [--check-deps]\n                       [markdown_file] [output_pdf]\n\nRender reviewed Markdown with Pandoc/XeLaTeX and optional local CSL\nbibliography.\n\npositional arguments:\n  markdown_file\n  output_pdf            "
+    },
+    {
+      "file": "literature-review/scripts/search_databases.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: search_databases.py [-h] [--format {json,markdown,bibtex}]\n                           [--output OUTPUT]\n                           [--rank {citations,year,relevance}]\n                           [--year-start YEAR_START] [--year-end YEAR_END]\n                           [--deduplicate] [--summary]\n                           results_file\n\nLiterature Database Search Script Processes normalized "
+    },
+    {
+      "file": "literature-review/scripts/generate_schematic_ai.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: generate_schematic_ai.py [-h] -o OUTPUT [--iterations ITERATIONS]\n                                [--doc-type {journal,conference,poster,presentation,report,grant,thesis,preprint,default}]\n                                [--api-key API_KEY] [-v]\n                                prompt\n\nGenerate scientific schematics using AI with smart iterative refinement\n\npositional arguments:\n  prompt    "
+    },
+    {
+      "file": "literature-review/scripts/verify_citations.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: verify_citations.py [-h] [--email EMAIL] [-o OUTPUT] markdown_file\n\nCheck DOI registration and retrieve Crossref metadata for manual citation\nreview. Registration does not establish that a citation supports a claim.\nCrossref does not cover all DOI registration agencies; unavailable metadata\nneeds manual review.\n\npositional arguments:\n  markdown_file\n\noptions:\n  -h, --help            show th"
+    },
+    {
+      "file": "scientific-brainstorming/scripts/session_scaffold.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: session_scaffold.py [-h] --session-id SESSION_ID --title TITLE\n                           --question QUESTION --participant PARTICIPANTS\n                           [--date SESSION_DATE] [--in-scope IN_SCOPE]\n                           [--out-of-scope OUT_OF_SCOPE]\n                           [--constraint CONSTRAINT]\n                           [--perspective PERSPECTIVE] --output OUTPUT\n    "
+    },
+    {
+      "file": "scientific-brainstorming/scripts/validate_register.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: validate_register.py [-h] [--output OUTPUT] [--strict] [--force] input\n\nValidate the structure, provenance, links, and bounded fields in a\nbrainstorming JSON register. No network or LLM calls are made.\n\npositional arguments:\n  input            Session/register .json file\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT  Optional validation-report .json file in "
+    },
+    {
+      "file": "scientific-brainstorming/scripts/evaluate_matrix.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: evaluate_matrix.py [-h] --config CONFIG [--weight-delta WEIGHT_DELTA]\n                          [--output OUTPUT] [--force]\n                          scores\n\nCalculate a disclosed weighted matrix from bounded CSV ratings, including\ninput intervals and local weight sensitivity. No network, LLM, or automatic\nscientific decision is used.\n\npositional arguments:\n  scores                Input rat"
+    },
+    {
+      "file": "nature-response/scripts/check_package_consistency.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_package_consistency.py [-h] --manuscript MANUSCRIPT --response\n                                    RESPONSE [--clean CLEAN] [--marked MARKED]\n                                    [--quote-macro QUOTE_MACROS]\n                                    [--minimum-quote-length MINIMUM_QUOTE_LENGTH]\n                                    [--substitution SOURCE=RENDERED] [--json]\n\nCheck LaTeX respons"
+    },
+    {
+      "file": "nature-shared/scripts/check_consistency.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_consistency.py [-h] [--term-group NAME=TERM|VARIANT]\n                            [--no-default-term-groups] [--json]\n                            [--fail-on-findings]\n                            paths [paths ...]\n\nFind terminology, numeric-precision, and equivalent-unit variants.\n\npositional arguments:\n  paths\n\noptions:\n  -h, --help            show this help message and exit\n  --term-g"
+    },
+    {
+      "file": "scientific-visualization/scripts/style_preview.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: style_preview.py [-h] --output OUTPUT\n                        [--style {default,nature,science,cell,minimal,presentation}]\n                        [--palette PALETTE] [--formats FORMATS] [--dpi DPI]\n                        [--manifest] [--force]\n\nRender a deterministic accessible-style preview with line, bar, heatmap,\nmissing-data, and raw-observation examples.\n\noptions:\n  -h, --help       "
+    },
+    {
+      "file": "scientific-visualization/scripts/palette_audit.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: palette_audit.py [-h] [--palette PALETTE | --color COLOR]\n                        [--list-palettes] [--background BACKGROUND]\n                        [--role {enhanced-text,graphical,large-text,normal-text}]\n                        [--contrast-threshold CONTRAST_THRESHOLD]\n                        [--grayscale-min-delta GRAYSCALE_MIN_DELTA]\n                        [--fail-on {none,background"
+    },
+    {
+      "file": "scientific-visualization/scripts/image_metadata.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: image_metadata.py [-h] [--format FORMATS] [--mode MODES]\n                         [--min-dpi MIN_DPI] [--max-dpi MAX_DPI]\n                         [--target-width-mm TARGET_WIDTH_MM]\n                         [--min-width-px MIN_WIDTH_PX]\n                         [--max-width-px MAX_WIDTH_PX]\n                         [--min-height-px MIN_HEIGHT_PX]\n                         [--max-height-px M"
+    },
+    {
+      "file": "scientific-visualization/scripts/style_presets.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: style_presets.py [-h] [--list] [--show STYLE] [--write STYLE PATH]\n                        [--palette PALETTE] [--force]\n\nInspect or write deterministic Matplotlib style presets. Presets are not\njournal-compliance certifications.\n\noptions:\n  -h, --help          show this help message and exit\n  --list              list available styles and palettes\n  --show STYLE        print one style as J"
+    },
+    {
+      "file": "scientific-visualization/scripts/figure_export.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: figure_export.py [-h] [--demo BASE_PATH] [--formats FORMATS]\n                        [--dpi DPI] [--font-mode {truetype,paths,current}]\n                        [--transparent] [--tight] [--manifest] [--force]\n                        [--style {default,nature,science,cell,minimal,presentation}]\n                        [--palette PALETTE]\n\nRender a deterministic Matplotlib export smoke-test. P"
+    },
+    {
+      "file": "scientific-visualization/scripts/export_plan.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: export_plan.py [-h] [--list] [--publisher PUBLISHER]\n                      [--figure-type FIGURE_TYPE] [--width WIDTH]\n                      [--phase PHASE] [--input INPUT]\n                      [--width-tolerance-mm WIDTH_TOLERANCE_MM]\n                      [--output OUTPUT] [--force]\n\nPlan publication export from dated official-source snapshots and optionally\nscreen a local file. No netwo"
+    },
+    {
+      "file": "obsidian-doc-finalize/scripts/finalize_doc.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: finalize_doc.py [-h] [--vault VAULT] --source SOURCE --target-dir\n                       TARGET_DIR [--target-name TARGET_NAME]\n                       [--archive-duplicate ARCHIVE_DUPLICATE]\n                       [--archive-dir ARCHIVE_DIR] [--remove-ds-store]\n                       [--run-lint] [--lint-script LINT_SCRIPT] [--dry-run]\n\nFinalize a completed Obsidian vault document. Moves a "
+    },
+    {
+      "file": "documents/scripts/render_and_diff.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: render_and_diff.py [-h] --outdir OUTDIR [--render_py RENDER_PY]\n                          a_docx b_docx\n\npositional arguments:\n  a_docx\n  b_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --outdir OUTDIR\n  --render_py RENDER_PY\n                        Path to render_docx.py\n"
+    },
+    {
+      "file": "documents/scripts/captions_and_crossrefs.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: captions_and_crossrefs.py [-h] [--tables] [--figures]\n                                 [--caption_text CAPTION_TEXT] [--bookmarks]\n                                 [--materialize]\n                                 input_docx output_docx\n\nInsert simple captions (Figure/Table) and optional cross-references. This is a\npragmatic OOXML-level helper for: - Adding Figure/Table captions using SEQ\nfi"
+    },
+    {
+      "file": "documents/scripts/google_docs_title_sanitize.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: google_docs_title_sanitize.py [-h] [--out OUT] [--in-place] [--check]\n                                     [--leading-nonempty-paragraphs LEADING_NONEMPTY_PARAGRAPHS]\n                                     input_docx\n\nSanitize or audit Google Docs title border/rule residue in DOCX files.\n\npositional arguments:\n  input_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --"
+    },
+    {
+      "file": "documents/scripts/watermark_add.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: watermark_add.py [-h] --out OUT --text TEXT in_docx\n\nAdd a VML watermark-like object to a DOCX header\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help   show this help message and exit\n  --out OUT\n  --text TEXT  Watermark string\n"
+    },
+    {
+      "file": "documents/scripts/watermark_audit_remove.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: watermark_audit_remove.py [-h] --mode {report,remove}\n                                 [--contains CONTAINS] [--out OUT]\n                                 in_docx\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --mode {report,remove}\n  --contains CONTAINS   Substring to match for removal\n  --out OUT             Output docx for remove\n"
+    },
+    {
+      "file": "documents/scripts/comments_extract.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: comments_extract.py [-h] --out OUT in_docx\n\nExtract DOCX comments into JSON\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help  show this help message and exit\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/xlsx_to_docx_table.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: xlsx_to_docx_table.py [-h] [--out OUT] [--sheet SHEET]\n                             [--header_rows HEADER_ROWS] [--title TITLE]\n                             xlsx [out_docx]\n\nConvert an XLSX sheet to a DOCX table\n\npositional arguments:\n  xlsx\n  out_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --out OUT             Output DOCX path (alias)\n  --sheet SHEET         S"
+    },
+    {
+      "file": "documents/scripts/accept_tracked_changes.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: accept_tracked_changes.py [-h] --mode {report,accept,reject}\n                                 [--out OUT] [--keep_tracking_on]\n                                 in_docx\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --mode {report,accept,reject}\n  --out OUT             Output DOCX (required for accept/reject)\n  --keep_tracking_on    Do no"
+    },
+    {
+      "file": "documents/scripts/fields_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: fields_report.py [-h] [--max_examples MAX_EXAMPLES] docx\n\nScan a DOCX for Word fields (PAGE/TOC/REF/...).\n\npositional arguments:\n  docx\n\noptions:\n  -h, --help            show this help message and exit\n  --max_examples MAX_EXAMPLES\n                        Examples to print per field type\n"
+    },
+    {
+      "file": "documents/scripts/fields_materialize.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: fields_materialize.py [-h] --out OUT [--only {SEQ,REF} [{SEQ,REF} ...]]\n                             input_docx\n\nMaterialize SEQ/REF field results inside a DOCX\n\npositional arguments:\n  input_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --out OUT             Output DOCX path\n  --only {SEQ,REF} [{SEQ,REF} ...]\n                        Which field types to materiali"
+    },
+    {
+      "file": "documents/scripts/footnotes_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: footnotes_report.py [-h] docx\n\npositional arguments:\n  docx\n\noptions:\n  -h, --help  show this help message and exit\n"
+    },
+    {
+      "file": "documents/scripts/apply_template_styles.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: apply_template_styles.py [-h] --template TEMPLATE --target TARGET --out\n                                OUT\n\noptions:\n  -h, --help           show this help message and exit\n  --template TEMPLATE\n  --target TARGET\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/table_geometry.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: table_geometry.py [-h] docx\n\nAudit exact DOCX table geometry\n\npositional arguments:\n  docx\n\noptions:\n  -h, --help  show this help message and exit\n"
+    },
+    {
+      "file": "documents/scripts/insert_toc.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: insert_toc.py [-h] [--out OUT] [--placeholder PLACEHOLDER]\n                     [--levels LEVELS]\n                     docx\n\nInsert a Word TOC field at a placeholder paragraph.\n\npositional arguments:\n  docx\n\noptions:\n  -h, --help            show this help message and exit\n  --out OUT             Output DOCX path (default: in-place)\n  --placeholder PLACEHOLDER\n                        Paragra"
+    },
+    {
+      "file": "documents/scripts/flatten_ref_fields.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: flatten_ref_fields.py [-h] --out OUT in_docx\n\nFlatten REF/PAGEREF fields to literal text\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help  show this help message and exit\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/docx_table_to_csv.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: docx_table_to_csv.py [-h] [--table_index TABLE_INDEX] --out OUT docx\n\nExport a DOCX table to CSV\n\npositional arguments:\n  docx\n\noptions:\n  -h, --help            show this help message and exit\n  --table_index TABLE_INDEX\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/images_audit.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: images_audit.py [-h] [--max_rows MAX_ROWS] docx\n\nAudit images in a DOCX (inline vs floating, sizes)\n\npositional arguments:\n  docx\n\noptions:\n  -h, --help           show this help message and exit\n  --max_rows MAX_ROWS\n"
+    },
+    {
+      "file": "documents/scripts/insert_note.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: insert_note.py [-h] --kind {footnote,endnote} --text TEXT\n                      [--marker MARKER] --out OUT\n                      in_docx\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --kind {footnote,endnote}\n  --text TEXT\n  --marker MARKER\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/make_fixtures.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: make_fixtures.py [-h] --outdir OUTDIR [--only {tracked,watermark,all}]\n\noptions:\n  -h, --help            show this help message and exit\n  --outdir OUTDIR       Directory to write fixtures\n  --only {tracked,watermark,all}\n                        Which fixtures to generate\n"
+    },
+    {
+      "file": "documents/scripts/privacy_scrub.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: privacy_scrub.py [-h] --out OUT in_docx\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help  show this help message and exit\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/insert_ref_fields.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: insert_ref_fields.py [-h] [--pattern PATTERN] [--prefix PREFIX]\n                            input_docx output_docx\n\nInsert Word cross-references (REF fields) by replacing lightweight markers.\nWhy this exists -------------- Word cross-references are implemented as `REF`\nfields that point at a bookmark. `python-docx` does not expose a first-class\nAPI for these fields. This helper lets you aut"
+    },
+    {
+      "file": "documents/scripts/comments_add.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: comments_add.py [-h] --out OUT [--author AUTHOR] [--add ADD]\n                       [--ignore_case] [--require_all]\n                       in_docx\n\nAdd multiple Word comments by paragraph substring match\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help       show this help message and exit\n  --out OUT\n  --author AUTHOR\n  --add ADD        Add a comment: contains=comment text (repeatab"
+    },
+    {
+      "file": "documents/scripts/docx_ooxml_patch.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: docx_ooxml_patch.py [-h] [--out OUT] [--enable-track] [--author AUTHOR]\n                           [--date DATE]\n                           [--tracked-replace-ins-id TRACKED_REPLACE_INS_ID]\n                           [--new-text NEW_TEXT] [--del-id DEL_ID]\n                           [--ins-id INS_ID] [--add-comment]\n                           [--comment-text COMMENT_TEXT]\n                  "
+    },
+    {
+      "file": "documents/scripts/set_protection.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: set_protection.py [-h] --mode MODE --out OUT in_docx\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help   show this help message and exit\n  --mode MODE  Protection mode: off | readOnly | comments | trackedChanges |\n               forms (aliases accepted: read_only, read-only, readonly,\n               tracked_changes, tracked-changes)\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/heading_audit.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: heading_audit.py [-h] [--max_findings MAX_FINDINGS] docx\n\nAudit heading hierarchy + numbering usage in a DOCX\n\npositional arguments:\n  docx\n\noptions:\n  -h, --help            show this help message and exit\n  --max_findings MAX_FINDINGS\n"
+    },
+    {
+      "file": "documents/scripts/content_controls.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: content_controls.py [-h] docx {list,wrap_placeholders,fill} ...\n\nWork with Word content controls (SDTs) in a DOCX\n\npositional arguments:\n  docx                  Input .docx\n  {list,wrap_placeholders,fill}\n    list                List SDTs\n    wrap_placeholders   Wrap {{TAG}} placeholders into SDTs\n    fill                Fill SDTs by tag\n\noptions:\n  -h, --help            show this help mess"
+    },
+    {
+      "file": "documents/scripts/a11y_audit.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: a11y_audit.py [-h] [--fix_image_alt {from_filename}]\n                     [--fix_table_headers {first_row}] [--out OUT]\n                     [--out_json OUT_JSON]\n                     in_docx\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --fix_image_alt {from_filename}\n                        Apply safe image alt fix\n  --fix_table_heade"
+    },
+    {
+      "file": "documents/scripts/section_audit.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: section_audit.py [-h] docx\n\nAudit DOCX sections: orientation, margins, header/footer linkage\n\npositional arguments:\n  docx\n\noptions:\n  -h, --help  show this help message and exit\n"
+    },
+    {
+      "file": "documents/scripts/add_tracked_replacements.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: add_tracked_replacements.py [-h] --out OUT [--author AUTHOR]\n                                   [--replace REPLACE]\n                                   in_docx\n\nAdd tracked replacement edits (best-effort)\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help         show this help message and exit\n  --out OUT\n  --author AUTHOR\n  --replace REPLACE  Replacement formatted as OLD=NEW (repeatab"
+    },
+    {
+      "file": "documents/scripts/internal_nav.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: internal_nav.py [-h] --out OUT [--toc_title TOC_TITLE]\n                       [--levels LEVELS [LEVELS ...]] [--no_quicklinks]\n                       [--no_back_to_toc] [--no_top_bottom]\n                       input_docx\n\nAdd internal navigation links/bookmarks and a static TOC\n\npositional arguments:\n  input_docx\n\noptions:\n  -h, --help            show this help message and exit\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/style_lint.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: style_lint.py [-h] [--json JSON_OUT] input_docx\n\nLint a DOCX for common style/formatting issues\n\npositional arguments:\n  input_docx\n\noptions:\n  -h, --help       show this help message and exit\n  --json JSON_OUT  Write a JSON report to this path\n"
+    },
+    {
+      "file": "documents/scripts/comments_apply_patch.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: comments_apply_patch.py [-h] --out OUT in_docx patch_json\n\nAppend/replace/resolve existing Word comments\n\npositional arguments:\n  in_docx\n  patch_json\n\noptions:\n  -h, --help  show this help message and exit\n  --out OUT\n"
+    },
+    {
+      "file": "documents/scripts/style_normalize.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: style_normalize.py [-h] [--out OUT] [--clear_paragraph_format]\n                          [--enforce_heading_spacing]\n                          input_docx [output_docx]\n\npositional arguments:\n  input_docx\n  output_docx           Output DOCX path (positional)\n\noptions:\n  -h, --help            show this help message and exit\n  --out OUT             Output DOCX path (alias for positional output"
+    },
+    {
+      "file": "documents/scripts/redact_docx.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: redact_docx.py [-h] [--emails] [--phones] [--pattern PATTERN]\n                      [--mask_char MASK_CHAR] [--replacement REPLACEMENT]\n                      [--no_preserve_length] [--include_comments]\n                      input_docx output_docx\n\nRedact/anonymize text in a DOCX (OOXML patch).\n\npositional arguments:\n  input_docx\n  output_docx\n\noptions:\n  -h, --help            show this help"
+    },
+    {
+      "file": "documents/scripts/merge_docx_append.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: merge_docx_append.py [-h] --out OUT [--allow_drawings]\n                            base_docx append_docx\n\npositional arguments:\n  base_docx\n  append_docx\n\noptions:\n  -h, --help        show this help message and exit\n  --out OUT\n  --allow_drawings\n"
+    },
+    {
+      "file": "documents/scripts/comments_strip.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: comments_strip.py [-h] --out OUT in_docx\n\npositional arguments:\n  in_docx\n\noptions:\n  -h, --help  show this help message and exit\n  --out OUT\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/run_ledger.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: run_ledger.py [-h] {append,report,show} ...\n\nARS pipeline run ledger (#887).\n\npositional arguments:\n  {append,report,show}\n    append              Append one entry to the ledger.\n    report              Check the ledger against claims.\n    show                Print only the entries the break rule trusts.\n\noptions:\n  -h, --help            show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_experiment_provenance.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_experiment_provenance.py [-h] passport\n\nValidate a Material Passport YAML's `experiment_provenance[]` entry SHAPE\n(#260).\n\npositional arguments:\n  passport\n\noptions:\n  -h, --help  show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_calibration_tiers.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_calibration_tiers.py [-h] [--root ROOT]\n\nStatic contract for bounded reviewer calibration tiers.\n\noptions:\n  -h, --help   show this help message and exit\n  --root ROOT\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/run_indirect_prompt_injection_no_call.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: run_indirect_prompt_injection_no_call.py [-h]\n                                                {init-run,materialize,validate,ingest,prepare-blind-packet}\n                                                ...\n\nOffline-only Phase-2 envelope for #675. This CLI can freeze, materialize,\nvalidate, ingest externally recorded evidence, and prepare isolated blind-\nsession packets. It has no provider t"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_reviewer_finding_contract.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_reviewer_finding_contract.py [-h] [--root ROOT]\n\nReviewer finding-contract lint (#574 behavior batch: A1/A2/A3/B1). Pins the\nbehavior batch's prompt surfaces so the drift classes it retired cannot\nsilently return: - A1 — finding quotas removed + Coverage Receipt: the four\nscoring agents and the peer-review template carry NO `(3-5 items)` / `List\n3-5` quotas, carry the canonical `## Fi"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_distribution_surface_claims.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_distribution_surface_claims.py [-h] [--root ROOT]\n\nDistribution-surface claim discipline lint (#753). The #745 capability matrix\npins README claim anchors, and version-consistency invariant 8 binds the\nplugin.json agent-count number to the tree — but the 2026-08-17 ISO\n42001-spirit audit (T-1) found the marketing surfaces themselves (`.claude-\nplugin/plugin.json` / `.claude-plugin/mar"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_policy_anchor_table.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_policy_anchor_table.py [-h] [--venue-policies VENUE_POLICIES]\n                                    [path]\n\n#108 policy_anchor_table.md static lint. Decision Doc reference:\ndocs/design/2026-05-14-ai-disclosure-schema-decision.md §4.1 (item 6a) + §4.3\ninvariants. Implementation spec reference: docs/design/2026-05-14-ai-\ndisclosure-impl-spec.md §2.1 (file map) + §4 (TDD test discipline) +"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_e4_promotion.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_e4_promotion.py [-h] --source-root SOURCE_ROOT --destination-root\n                             DESTINATION_ROOT --stem STEM\n\nVerify that an E4 record and raw bundle were promoted byte-for-byte. This\nchecker validates only the copy boundary. It never reinterprets model output,\nchecker verdicts, adjudication, or the four closed status fields.\n\noptions:\n  -h, --help            show this "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_rq_framing_patterns.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_rq_framing_patterns.py [-h] [gold_set]\n\npositional arguments:\n  gold_set\n\noptions:\n  -h, --help  show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/pdf_read_preflight.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: pdf_read_preflight.py [-h] [--output OUTPUT] [--classify-content]\n                             [--classifier-diagnostics CLASSIFIER_DIAGNOSTICS]\n                             pdf\n\nPDF read-integrity preflight (#512): PASS/FAIL/UNAVAILABLE sidecar for page-\nanchor trust decisions.\n\npositional arguments:\n  pdf                   path to the locally-read PDF\n\noptions:\n  -h, --help            sho"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/retraction_status.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: retraction_status.py [-h] [--output OUTPUT] input\n\nResolve a hermetic #651 retraction fixture\n\npositional arguments:\n  input\n\noptions:\n  -h, --help       show this help message and exit\n  --output OUTPUT\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/run_ideation_diversity_no_call.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: run_ideation_diversity_no_call.py [-h]\n                                         {init-run,materialize,validate,prepare-blind-packet,ingest}\n                                         ...\n\nOffline-only execution envelope for #659. The command set creates and\nvalidates files. It has no provider transport, dispatch, probe, actor,\nsubject, judge, or adjudicator execution path. Externally recorded"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/resume_e4_record.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: resume_e4_record.py [-h] --bundle BUNDLE --work-dir WORK_DIR\n\nRe-emit an E4 record from a preserved post-dispatch evidence bundle. This is\nrecovery after record emission failed. It never constructs a model transport,\ncontinues an interrupted panel, retries a call, or accepts closed status\nfields from the operator.\n\noptions:\n  -h, --help           show this help message and exit\n  --bundle B"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_repro_lock.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_repro_lock.py [-h] passport\n\nValidate a Material Passport YAML's `repro_lock` sub-block. Usage: python\nscripts/check_repro_lock.py path/to/passport.yaml - Missing `repro_lock` key\n(not even null): ERROR, exit 1. - `repro_lock: null`: WARN, exit 0 (honest\nopt-out). - Populated block with all required sub-fields: OK, exit 0. -\nPopulated block with missing sub-field or unknown schema_ver"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/claim_registry_coverage.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: claim_registry_coverage.py [-h] --draft DRAFT --registry REGISTRY\n                                  [--output OUTPUT]\n                                  [--validate-report VALIDATE_REPORT]\n\nBuild and replay-validate a bounded E1 Claim Registry coverage report. The\ndetector enumerates citation-bearing and quantitative sentence candidates,\nrecords their bounded lexical trigger spans, and joins"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/ars_apply_revision_patch.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: ars_apply_revision_patch.py [-h] --block-manifest BLOCK_MANIFEST\n                                   [--roadmap ROADMAP]\n                                   [--author-adjudication AUTHOR_ADJUDICATION]\n                                   [--claim-surface-manifest CLAIM_SURFACE_MANIFEST]\n                                   [--artifact-root ARTIFACT_ROOT]\n                                   [--inte"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/render_harness_retirement_issue.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: render_harness_retirement_issue.py [-h] --month MONTH\n                                          [--manifest MANIFEST]\n                                          [--output OUTPUT]\n\nRender the monthly harness-retirement tracking issue (#617). The Bucket A\ninventory comes only from ``ars_phase_scope_manifest.json``. Keeping scope\nassembly out of the workflow prevents the generated issue from si"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/claim_strength_drift_disposition.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: claim_strength_drift_disposition.py [-h] {build,validate} ...\n\nBuild and validate explicit author dispositions for detected E6 drift.\n\npositional arguments:\n  {build,validate}\n    build           build a disposition sidecar\n    validate        validate an existing sidecar\n\noptions:\n  -h, --help        show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_sprint_contract.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_sprint_contract.py [-h] [--ars-version ARS_VERSION] contract\n\nValidate an ARS sprint contract against sprint_contract.schema.json. Usage:\npython scripts/check_sprint_contract.py path/to/contract.json [--ars-version\nvX.Y.Z] Exit 0 on pass (warnings may still be printed to stderr). Exit 1 on\nschema or structural validation failure, or file error.\n\npositional arguments:\n  contract       "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/claim_standing_stance_scorer.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: claim_standing_stance_scorer.py [-h] [--set SET] --adjudicated\n                                       ADJUDICATED --subject SUBJECT\n                                       [--output OUTPUT]\n\nMechanical stance scorer for the #655 claim-standing seed set. Compares one\nsubject run's frozen enum outputs against adjudicated expert labels, without\nasking any model to reinterpret either side. Deter"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_routing_core_sync.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_routing_core_sync.py [-h] [--root ROOT]\n\nRouting-core sync lint (#892).\n\noptions:\n  -h, --help   show this help message and exit\n  --root ROOT\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/build_claim_standing_candidate_ledger.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_claim_standing_candidate_ledger.py [-h] {build,validate} ...\n\nBuild or replay-validate the offline #655 Track A candidate ledger. The\nruntime consumes only explicitly named local JSON files containing a frozen\nquery plan and already-returned synthetic or externally supplied retrieval\nrecords. It has no discovery adapter, transport, model, stance classifier,\nrenderer, ambient clock, re"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_data_access_level.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_data_access_level.py [-h] [--path PATH]\n\noptions:\n  -h, --help   show this help message and exit\n  --path PATH\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_v3_10_policy.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_v3_10_policy.py [-h] [--entry-schema ENTRY_SCHEMA]\n                             [--terminal-policies-schema TERMINAL_POLICIES_SCHEMA]\n                             [--formatter-path FORMATTER_PATH]\n                             [--orchestrator-path ORCHESTRATOR_PATH]\n\nv3.10 policy-layer lint\n\noptions:\n  -h, --help            show this help message and exit\n  --entry-schema ENTRY_SCHEMA\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/dispatch_e4_panel.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: dispatch_e4_panel.py [-h] --fixture FIXTURE --condition\n                            {baseline,post,script_adapter} --replicate\n                            REPLICATE --work-dir WORK_DIR --date DATE\n                            [--model MODEL] [--effort EFFORT]\n                            [--set-root SET_ROOT]\n                            [--generated-at GENERATED_AT]\n\nDispatch one E4 seeded-de"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/build_submission_packet_manifest.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_submission_packet_manifest.py [-h] {build,validate,render} ...\n\npositional arguments:\n  {build,validate,render}\n\noptions:\n  -h, --help            show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/fetch_calibration_corpus.py",
+      "status": "nonzero",
+      "returncode": 1,
+      "output": "Traceback (most recent call last):\n  File \"/home/linx/.hermes/profiles/academic/skills/academic-research-suite/ars/scripts/fetch_calibration_corpus.py\", line 33, in <module>\n    import openreview\nModuleNotFoundError: No module named 'openreview'\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_compliance_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_compliance_report.py [-h] report\n\nValidate an ARS compliance report against compliance_report.schema.json.\nUsage: python scripts/check_compliance_report.py path/to/report.json Exit 0 on\npass (warnings may still be printed to stderr). Exit 1 on validation failure.\n\npositional arguments:\n  report      Path to the compliance report JSON\n\noptions:\n  -h, --help  show this help message and "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/recompute_receipts.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: recompute_receipts.py [-h] --extraction EXTRACTION --output OUTPUT\n\n#610 step-5 deterministic arithmetic-receipt calculator. Consumes one gate-\nvalidated ``## Recompute Extraction`` artifact (the isolated numeric input\nsurface: typed manuscript values transcribed by the methodology seat, never\nthe manuscript itself) and emits the exact ``## Arithmetic Receipts`` section\ngrammar pinned by ``"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/audit_snapshot.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: audit_snapshot.py [-h] {snapshot,verify} ...\n\nARS v3.6.7 audit bundle snapshot helper. Modes: --snapshot (initial) or\n--verify (post-codex).\n\npositional arguments:\n  {snapshot,verify}\n    snapshot         Snapshot bundle, write manifest + prompt\n    verify           Verify bundle files against snapshot manifest\n\noptions:\n  -h, --help         show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_judge_prompt_version.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_judge_prompt_version.py [-h] [--root ROOT]\n\nJudge-prompt-version drift guard (#361).\n\noptions:\n  -h, --help   show this help message and exit\n  --root ROOT  Repo root to check (for test fixtures). Defaults to the repo\n               root.\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/score_review_criteria_constructive_value.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: score_review_criteria_constructive_value.py [-h] --adjudication\n                                                   ADJUDICATION\n                                                   [--output OUTPUT]\n\nReduce a completed #684 paired expert-adjudication record. This stdlib-only\nscorer reads one explicit local file. It performs no subject or judge\ndispatch, network/API/model call, clock read, dir"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/inquiry_branch_ledger.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: inquiry_branch_ledger.py [-h]\n                                {validate,replay,append,summary,load-bound,commit}\n                                ...\n\nValidate, replay, and durably publish inquiry-branch-ledger/1.0 (#743). The\nledger is an opt-in, event-sourced user-project artifact. This module is\ndeliberately manuscript-blind and model-free: callers supply exact profile\ndocuments, timestam"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/migrate_literature_corpus_to_v3_7_3.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: migrate_literature_corpus_to_v3_7_3.py [-h] [--dry-run] [--verbose]\n                                              path\n\nBackfill v3.7.3 contamination_signals on pre-v3.7.3 literature_corpus[]\nentries. See docs/migration/v3.7.3-contamination-signals-backfill.md\n\npositional arguments:\n  path        Passport YAML file or directory\n\noptions:\n  -h, --help  show this help message and exit\n  --dry-run   Show proposed changes, write nothing\n  --verbose   Per-entry logging to stderr\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_version_consistency.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_version_consistency.py [-h] [--path PATH] [--tag TAG]\n\noptions:\n  -h, --help   show this help message and exit\n  --path PATH\n  --tag TAG    git tag ref (e.g. v3.14.0, leading 'v' optional); must equal\n               the suite version — used by the tag-version-match workflow\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_review_pathway_output.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_review_pathway_output.py [-h] --trace-json TRACE_JSON\n                                      [--rendered RENDERED]\n\nLint only explicitly named #669 generated output surfaces. The checker never\nscans a directory or repository. A pathway term is allowed only in the exact\ncandidate-name JSON field and its exact deterministic ``Candidate pathway\nexamined:`` rendering. The artifact remains "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/validate_claim_standing_stance_assets.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: validate_claim_standing_stance_assets.py [-h]\n                                                {validate-assets,validate-expert-file}\n                                                ...\n\nOffline validator for the #655 claim-standing stance seed set. Validates\n`evals/heldout/claim_standing_probe/heldout_stance_set.json` against its\nclosed schema and the structural invariants below. File-only;"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/build_review_pathway_rule_trace.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_review_pathway_rule_trace.py [-h] {build,validate,render} ...\n\nBuild, replay-validate, and render a deterministic #669 pathway rule trace.\nThe runtime opens only caller-named JSON artifacts. It never chooses or ranks\na pathway, determines approval/exemption/clearance, calls a model or network,\nuses the clock, scans a directory, or changes a workflow decision.\n\npositional arguments:\n  "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_reviewer_scoring_honesty.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_reviewer_scoring_honesty.py [-h] [--root ROOT]\n\nGuard criterion-bound reviewer judgement and calibration honesty. This lint\nprotects current runtime/documentation surfaces. Historical design records and\nunrelated scoring systems are intentionally out of scope. Exit 0: contract\npresent; 1: drift; 2: required input missing.\n\noptions:\n  -h, --help   show this help message and exit\n  --ro"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/ars_cache_invalidate.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: ars-cache-invalidate [-h] citation_key\n\nDrop cached verification entries for a citation_key.\n\npositional arguments:\n  citation_key  The citation_key whose cached resolver entries to invalidate.\n\noptions:\n  -h, --help    show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_audit_artifact_consistency.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_audit_artifact_consistency.py [-h]\n                                           [--mode {proposal,persisted,jsonl-stream}]\n                                           [--example-validation-harness]\n                                           [--entry ENTRY] [--sidecar SIDECAR]\n                                           [--verdict VERDICT] [--jsonl JSONL]\n                                  "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/tortured_phrase_screening.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: tortured_phrase_screening.py [-h]\n                                    {validate-snapshot,scan-draft,validate-draft,render-draft,enrich-passport}\n                                    ...\n\nHermetic tortured-phrase risk-marker screening for issue #660. The runtime\nconsumes only explicitly named local inputs. It never downloads a phrase list,\ndereferences a corpus pointer, invokes a model, judges authorship, or rewrites\nmanuscript text. A deterministic match is carried as a heuristic advisory\nbecause a curated-list hit is only a risk marker. CLI exit codes: 0 success, 1\nfail-closed contract/replay error, 2 invocation error. A snapshot failure\nstill writes an explicit degraded/not-checked artifact when an output path was\nsupplied; it never becomes a clean result.\n\npositional arguments:\n  {validate-snapshot,scan-draft,validate-draft,render-draft,enrich-passport}\n    validate-snapshot   Validate and hash-bind one local snapshot.\n    scan-draft          Build a closed own-draft advisory "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/review_criteria_binding.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: review_criteria_binding.py [-h]\n                                  {init,marker,record,validate,validate-findings}\n                                  ...\n\nBuild and validate #684 review-criteria consumer bindings. The tool is\ndeterministic and stdlib-only. It reads only explicitly named paths, never\ninvokes a model or network service, and never derives a review verdict.\n\npositional arguments:"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_ci_pytest_manifest.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_ci_pytest_manifest.py [-h] [--manifest MANIFEST]\n                                   [--workflow WORKFLOW] [--root ROOT]\n\nDrift guard for the unified pytest invocation manifest (issue #156). Validates\n`scripts/_ci_pytest_manifest.toml` and the surrounding workflow: 1. every\nmanifest entry's `path` exists on disk 2. `id` values are unique across\nentries 3. (path, args) tuples are unique"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/claim_standing_stance_runner.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: claim_standing_stance_runner.py [-h] {run} ...\n\nStance runner for the #655 claim-standing probe (Track B execution). Consumes\na finalized candidate ledger under a `retrieval_plus_stance` query-plan-1.1\nconsent and produces one `claim-standing-stance-record/1.0` plus its\n`evidence-row/1.3` rows. The stance provider is an injected transport whose\ndeclared identity must equal the consented `st"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_policy_anchor_protocol.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_policy_anchor_protocol.py [-h] [path]\n\n#108 policy_anchor_disclosure_protocol.md static lint. Decision Doc reference:\ndocs/design/2026-05-14-ai-disclosure-schema-decision.md §4.1 (item 6) + §4.3\ninvariants + §4.4 11 open concerns + §3 G10 7-row precedence table.\nImplementation spec reference: docs/design/2026-05-14-ai-disclosure-impl-\nspec.md §3 (resolved-paths table). This lint enfor"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_phase_conformance.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_phase_conformance.py [-h] --contract CONTRACT --role ROLE\n                                  --phase1 PHASE1\n                                  (--phase2 PHASE2 | --phase1-only | --extraction EXTRACTION)\n                                  [--injected-receipts INJECTED_RECEIPTS]\n                                  --manuscript MANUSCRIPT --metadata METADATA\n\nFail-closed Phase 1 -> Phase 2 c"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/score_calibration_run.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: score_calibration_run.py [-h] --runs-dir RUNS_DIR --gold GOLD\n                                [--replicates REPLICATES]\n                                [--overrides OVERRIDES]\n                                [--severity-classifications SEVERITY_CLASSIFICATIONS]\n                                --out OUT\n\nDeterministic scoring for the reviewer-calibration full-tier run (#653).\n\noptions:\n  -h,"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/ars_mark_read.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: ars_mark_read.py [-h] [--passport-path PASSPORT_PATH] [--unmark]\n                        [--scope {full_text,sections,abstract_only,toc_only,unknown}]\n                        [--locator LOCATOR] [--note NOTE]\n                        citation_keys [citation_keys ...]\n\nARS /ars-mark-read peer-file writer (v3.6.8 §3.6).\n\npositional arguments:\n  citation_keys         Citation keys to mark (or u"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/claim_standing_discovery.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: claim_standing_discovery.py [-h] {retrieve} ...\n\nLive discovery adapters for the #655 claim-standing probe (Track A head).\nTurns a consent-bound `claim-standing-query-plan/1.0` into a `claim-standing-\nretrieval-input/1.0` record: one closed adapter per index, the frozen v1 caps,\nadapter-boundary truncation, and the closed failure vocabulary. The design's\nresolver clients stay untouched — th"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/verify_submission_package.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: verify_submission_package [-h] [--passport PASSPORT]\n                                 [--join-map JOIN_MAP]\n                                 [--venue-profile VENUE_PROFILE]\n                                 [--report-out REPORT_OUT]\n                                 [--policy {advisory,strict}]\n                                 [--check-freshness]\n                                 package_dir\n\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_claim_standing_freshness.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_claim_standing_freshness.py [-h] --current-claim-file\n                                         CURRENT_CLAIM_FILE --query-plan\n                                         QUERY_PLAN\n                                         [--candidate-ledger CANDIDATE_LEDGER]\n                                         [--stance-record STANCE_RECORD]\n                                         [--runtime-chec"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/migrate_literature_corpus_to_v3_9_0.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: migrate_literature_corpus_to_v3_9_0.py [-h] [--dry-run] [--verbose]\n                                              path\n\nBackfill v3.9.0 openalex_unmatched + crossref_unmatched on v3.7.3-onward\nliterature_corpus[] entries. See docs/design/2026-05-17-ars-v3.9.0-cross-\nindex-triangulation-measurement-spec.md §3.7\n\npositional arguments:\n  path        Passport YAML file\n\noptions:\n  -h, --help  show this help message and exit\n  --dry-run   Show proposed changes, write nothing\n  --verbose   Per-entry logging to stderr\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_benchmark_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_benchmark_report.py [-h] report\n\nValidate an ARS benchmark report against benchmark_report.schema.json. Usage:\npython scripts/check_benchmark_report.py path/to/report.json Exit 0 on pass\n(warnings may still be printed to stderr). Exit 1 on validation failure.\n\npositional arguments:\n  report      Path to the benchmark report JSON\n\noptions:\n  -h, --help  show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_degradation_registry.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_degradation_registry.py [-h] [--registry REGISTRY]\n\nDegradation-registry lint (#511 Part A). Pins\nshared/contracts/degradation_registry.json — the machine-readable INDEX of\nARS's graceful-degradation mechanisms — to the repo state it cites, so the\nregistry can never drift into a stale (or second) authority: D1. Registry\nparses, carries registry_version + a non-empty mechanisms list, a"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_acronyms.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_acronyms.py [-h] --input INPUT [--scopes SCOPES] [--allow ALLOW]\n                         [--allow-file ALLOW_FILE] [--lang {en,zh-TW}]\n                         [--json-out JSON_OUT]\n\nDeterministic acronym check (#849).\n\noptions:\n  -h, --help            show this help message and exit\n  --input INPUT         Markdown or plain-text manuscript.\n  --scopes SCOPES       Comma-separated sc"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/research_workflow_profile.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: research_workflow_profile.py [-h]\n                                    {validate-profile,validate-receipt,select,correct,show-selection}\n                                    ...\n\nValidate and apply the research-workflow-profile/1.0 contract (#742). The\nruntime is deliberately manuscript-blind. It reads only explicitly supplied\nprofile/receipt/inventory paths, never proposes a family from cont"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/render_claim_standing_view.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: render_claim_standing_view.py [-h] --query-plan QUERY_PLAN\n                                     --candidate-ledger CANDIDATE_LEDGER\n                                     [--stance-record STANCE_RECORD]\n                                     [--evidence-rows EVIDENCE_ROWS]\n                                     [--output OUTPUT]\n\nDeterministic presentation of a #655 claim-standing probe (design §"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/ideation_diversity_assignment_gate.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: ideation_diversity_assignment_gate.py [-h] {verify,deliver} ...\n\nClosed first-round assignment-ledger gate for the #659 blind bundle. The #659\nno-call envelope freezes 48 arm-blind judge packets but explicitly does not\nimplement the assignment-ledger gate the design requires before any first-\nround packet delivery. This tool is that gate, kept outside the no-call runner\nso the envelope's ow"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_method_weaknesses_sync.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_method_weaknesses_sync.py [-h] [--root ROOT]\n\nPer-source method-weaknesses sync lint (#916).\n\noptions:\n  -h, --help   show this help message and exit\n  --root ROOT\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_v3_7_3_three_layer_citation.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_v3_7_3_three_layer_citation.py [-h] paths [paths ...]\n\nv3.7.3 Three-Layer Citation lint.\n\npositional arguments:\n  paths       markdown files to lint\n\noptions:\n  -h, --help  show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/_next_verified_at_ms.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: _next_verified_at_ms.py [-h] --passport PASSPORT\n\nPrint the next verified_at value (RFC 3339 UTC ms) strictly greater than every\nprior audit_artifact[] entry's verified_at in the given Material Passport\n(§5.4).\n\noptions:\n  -h, --help           show this help message and exit\n  --passport PASSPORT  Path to passport YAML or JSON containing\n                       audit_artifact[].\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_panel_synthesis.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_panel_synthesis.py [-h] --contract CONTRACT --report REPORTS\n                                [--roles ROLES]\n                                (--synthesis SYNTHESIS | --layer1-only)\n\nValidate Schema 13.2 reviewer cards and recompute panel synthesis. Schema 13.2\nremoves per-seat failure-condition decisions. This checker parses role-scoped\ndimension scores, evaluates each condition per d"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/parse_audit_verdict.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: parse_audit_verdict.py [-h] (--probe JSONL | --jsonl JSONL)\n                              [--round ROUND] [--target-rounds TARGET_ROUNDS]\n\nParse codex CLI 0.125+ --json JSONL stream into verdict YAML. Modes: --probe\n(validate only) or --jsonl (emit YAML to stdout).\n\noptions:\n  -h, --help            show this help message and exit\n  --probe JSONL         Validate JSONL has parseable agent_me"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/review_panel_provenance.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: review_panel_provenance.py [-h]\n                                  {build,validate,build-carrier,validate-carrier,validate-schema6}\n                                  ...\n\nBuild and replay-validate typed reviewer_full panel provenance. The artifact\ndeliberately has no binary ``independent`` field. Role/persona separation,\ncontext freshness, output blinding, model-family diversity, provider\ndi"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/evidence_rows.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: evidence_rows.py [-h] {validate,render} ...\n\nBuild, validate, page, and inertly render ARS shared evidence rows. The module\nis deliberately standard-library-only and hermetic. Builders may inspect only\nthe ``session_source_or_none`` string explicitly supplied by their caller.\nValidators optionally replay against that same explicit string. Renderers\nrequire an explicit source map (in memory,"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_collaboration_depth_rubric.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_collaboration_depth_rubric.py [-h] [--path PATH]\n\noptions:\n  -h, --help   show this help message and exit\n  --path PATH\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_indirect_prompt_injection_no_call.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "#675 no-call AST guard passed.\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_prisma_trAIce_freshness.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_prisma_trAIce_freshness.py [-h] [path]\n\nWarn when shared/prisma_trAIce_protocol.md is older than 180 days. Non-\nblocking: exit 0 even on stale, but print warning to stderr. Exit 1 only on\nparse error (missing or malformed snapshot_date). Usage: python\nscripts/check_prisma_trAIce_freshness.py [path] Default path:\nshared/prisma_trAIce_protocol.md (relative to repo root).\n\npositional arg"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/verify_passport.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: verify_passport [-h] [--synthetic-ref-slug {citation_key}] [--no-cache]\n                       passport\n\nVerify citation existence across a Material Passport.\n\npositional arguments:\n  passport              Path to the passport YAML file.\n\noptions:\n  -h, --help            show this help message and exit\n  --synthetic-ref-slug {citation_key}\n                        Synthesize ref_slug from ea"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_revision_token_conservation.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_revision_token_conservation.py [-h] {pair,patch} ...\n\nDeterministic token-conservation audit between revision rounds (#570).\n\npositional arguments:\n  {pair,patch}\n    pair        audit two full drafts\n    patch       audit a #390 patch against its base\n\noptions:\n  -h, --help    show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_firm_rules_sync.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_firm_rules_sync.py [-h] [--root ROOT]\n\nfirm-rules sync + collision lint\n\noptions:\n  -h, --help   show this help message and exit\n  --root ROOT  repo root (for fixtures)\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/adjudication_activity.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: adjudication_activity.py [-h]\n                                {init-store,build-input,append-run,render,validate,delete-runs,delete-store}\n                                ...\n\npositional arguments:\n  {init-store,build-input,append-run,render,validate,delete-runs,delete-store}\n\noptions:\n  -h, --help            show this help message and exit\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/validate_compliance_fixtures.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: validate_compliance_fixtures.py [-h] [fixture_dir]\n\nValidate all compliance_report YAML fixtures against Schema 12. Loads each\nexamples/compliance/fixture_*.yaml in-process and runs it through\nscripts.check_compliance_report.validate(). Exits 0 if every fixture\nvalidates; exits 1 on first failure or if no fixtures are found. Usage: python\nscripts/validate_compliance_fixtures.py [fixture_dir"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/temporal_integrity_audit.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: temporal_integrity_audit.py [-h] --draft DRAFT --timeline TIMELINE\n                                   --citation-provenance CITATION_PROVENANCE\n                                   --output OUTPUT\n                                   [--markdown-output MARKDOWN_OUTPUT]\n                                   --report-reference-date\n                                   REPORT_REFERENCE_DATE --audit-run"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_claim_audit_consistency.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_claim_audit_consistency.py [-h] --passport PASSPORT\n\ncheck_claim_audit_consistency.py — ARS v3.8 claim-faithfulness audit lint.\n\noptions:\n  -h, --help           show this help message and exit\n  --passport PASSPORT  Path to a passport-shaped JSON containing the six\n                       aggregates the lint reads.\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/dispatch_calibration_panel.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: dispatch_calibration_panel.py [-h] --stage {cards,panel,manifest}\n                                     [--paper PAPER] [--replicate REPLICATE]\n                                     [--corpus-dir CORPUS_DIR]\n                                     [--pdf-cache PDF_CACHE] --work-dir\n                                     WORK_DIR [--model MODEL]\n                                     [--effort EFFORT"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/ars_anchorize_draft.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: ars_anchorize_draft.py [-h] [--manifest-out MANIFEST_OUT] draft\n\nAnchorize a draft: stamp block markers + emit the block manifest.\n\npositional arguments:\n  draft                 markdown draft to anchorize (modified in place)\n\noptions:\n  -h, --help            show this help message and exit\n  --manifest-out MANIFEST_OUT\n                        block manifest output path (default: <draft>.bl"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/migrate_literature_corpus_to_v3_10.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: migrate_literature_corpus_to_v3_10.py [-h] [--dry-run] [--verbose] path\n\nSeed passport-level terminal_policies (default advisory) on v3.9.0-onward\nliterature_corpus passports. Pure local transform; deep-merge (only absent\nkeys), idempotent. See docs/design/2026-05-31-ars-v3.10-policy-layer-rescope-\nspec.md §3 PR-B item 12\n\npositional arguments:\n  path        Passport YAML file\n\noptions:\n  -h, --help  show this help message and exit\n  --dry-run   Show proposed seed, write nothing\n  --verbose   Per-key logging to stderr\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_reviewer_data_fences.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_reviewer_data_fences.py [-h] [--root ROOT]\n\nReviewer data-fence lint (#574 A6 / PR #578 follow-up, shipped with the\nbehavior batch). Pins the `<paper_content>` + `<phase1_output>` data-fence\ncontract across every surface PR #578 established, so a later prompt edit\ncannot silently drop or weaken the untrusted-manuscript boundary: 1. Each of\nthe FIVE reviewer panel agents carries BOTH c"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_pipeline_integrity.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_pipeline_integrity.py [-h] [--strict]\n                                   [--window-seconds WINDOW_SECONDS] [--json]\n                                   [workdir]\n\nAdvisory check for ARS pipeline phase scope inflation (v3.9.2)\n\npositional arguments:\n  workdir               Working directory to scan (default: current directory)\n\noptions:\n  -h, --help            show this help message and"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/assemble_calibration_corpus.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: assemble_calibration_corpus.py [-h] {select,freeze,verify} ...\n\nGold-corpus manifest assembly for the reviewer-calibration suite (#653).\n\npositional arguments:\n  {select,freeze,verify}\n    select              deterministic stratified candidate selection\n    freeze              write papers.json + gold_labels.json\n    verify              recompute and cross-check the manifest\n\noptions:\n  -h,"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/run_review_criteria_constructive_value.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: run_review_criteria_constructive_value.py [-h]\n                                                 {validate-assets,detect,init-run,dispatch,prepare-expert-packet,validate-labels,finalize,build-report}\n                                                 ...\n\nContained subscription-CLI runner for the #684 paired measurement. CI\nexercises asset validation, prompt sealing, fake-Codex dispatch, blind"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/build_cross_document_consistency_advisory.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_cross_document_consistency_advisory.py [-h]\n                                                    {build-preregistration-artifact,finalize,validate,render}\n                                                    ...\n\nBuild, replay-validate, and render the hermetic #672 advisory. The semantic\nobservations are explicit untrusted inputs. This module performs only closed-\ncontract validation, e"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_review_form_note_sync.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_review_form_note_sync.py [-h] [--root ROOT]\n\nReview-form note sync lint (#921).\n\noptions:\n  -h, --help   show this help message and exit\n  --root ROOT\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/resolve_human_subjects_authority.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: resolve_human_subjects_authority.py [-h] [--context CONTEXT] --registry\n                                           REGISTRY [--output OUTPUT]\n                                           [--check-registry]\n                                           [--check-resolved CHECK_RESOLVED]\n\nResolve explicit human-subjects authority profiles without inferring\njurisdiction. The runtime is standard-libr"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_re_review_synthesis.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_re_review_synthesis.py [-h] --manifest MANIFEST --precommitment\n                                    PRECOMMITMENT --verdict-record\n                                    VERDICT_RECORD --traceability TRACEABILITY\n                                    --roadmap ROADMAP --author-adjudication\n                                    AUTHOR_ADJUDICATION\n                                    --revisio"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_v3_9_0_triangulation.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_v3_9_0_triangulation.py [-h] [--formatter-path FORMATTER_PATH]\n                                     [--orchestrator-path ORCHESTRATOR_PATH]\n\nv3.9.0 triangulation spec lint\n\noptions:\n  -h, --help            show this help message and exit\n  --formatter-path FORMATTER_PATH\n                        Path to formatter_agent.md (for test fixtures)\n  --orchestrator-path ORCHESTRATOR_PATH\n    "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/run_indirect_prompt_injection_probe.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: run_indirect_prompt_injection_probe.py [-h]\n                                              {validate-assets,materialize,score-output}\n                                              ...\n\nValidate, materialize, and mechanically inspect the #675 seed set. This CLI\nnever dispatches a model and has no network/provider transport. It is a\nbehavioral evaluation probe, not a structural instruction/dat"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/run_role_topology_utility_dry_run.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: run_role_topology_utility_dry_run.py [-h]\n                                            {validate-assets,dry-run,materialize}\n                                            ...\n\nValidate and materialize the offline #582 role-topology seed. This module has\nno dispatch command, model/provider transport, network access, or measurement\nwriter. ``dry-run`` is in-memory only; ``materialize`` writes ne"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/human_read_attestation_resolver.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: human_read_attestation_resolver.py [-h] --read-log READ_LOG\n                                          --citation-key CITATION_KEY\n                                          --anchor-kind ANCHOR_KIND\n                                          [--anchor-value ANCHOR_VALUE]\n\nResolve USER_ATTESTED_READ coverage for one citation anchor.\n\noptions:\n  -h, --help            show this help message and "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_claim_standing_transmissions.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_claim_standing_transmissions.py [-h] {build,validate} ...\n\nTransmission-ledger builder/validator for the #655 claim-standing probe.\nImplements the design §6 transmission accounting and the §9 gate-14 check:\nevery authorized transmission attempt is recorded (recipient, purpose, exact\ncontent classes, byte count, local hash, time, consent receipt, retention\ndisclosure, result state) and"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_committee_correspondence.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_committee_correspondence.py [-h] [--schema SCHEMA] tracker\n\nValidate a #668 committee-correspondence bundle. This checker proves byte\ntransport, source-comment accounting, degraded/profile semantics, and\nresponse-skeleton coverage. It does not make a human-subjects determination or\njudge whether a response will satisfy a committee.\n\npositional arguments:\n  tracker          path to con"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/resolve_review_target_context.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: resolve_review_target_context.py [-h] --context CONTEXT\n                                        [--registry REGISTRY]\n                                        [--output OUTPUT] [--brief BRIEF]\n\nResolve an author-confirmed review target against a versioned criteria\nregistry. The resolver is intentionally blind to manuscript content. It opens\nonly the two explicit input paths and any explicitl"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/revision_roadmap.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: revision_roadmap.py [-h]\n                           {validate-roadmap,build-adjudication,validate-adjudication,render,build-integrity-authorization,validate-integrity-authorization,validate-bundle}\n                           ...\n\nValidate and replay the #670 revision-authority contract.\n\npositional arguments:\n  {validate-roadmap,build-adjudication,validate-adjudication,render,build-integrit"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/bibliographic_integrity_signals.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: bibliographic_integrity_signals.py [-h] --input INPUT --output OUTPUT\n                                          --recorded-at RECORDED_AT\n\nAdd canonical bibliographic-integrity records without deleting legacy fields.\n\noptions:\n  -h, --help            show this help message and exit\n  --input INPUT\n  --output OUTPUT\n  --recorded-at RECORDED_AT\n                        ISO-8601 migration times"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/build_claim_standing_query_plan.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_claim_standing_query_plan.py [-h] {propose,bind} ...\n\nConsent-surface builder for the #655 claim-standing probe (design §3.1/§3.2).\nTurns one Phase E Claim Registry row plus explicit researcher decisions into a\nschema-valid `claim-standing-query-plan/1.0` (retrieval_only) or `/1.1`\n(retrieval_plus_stance) plan, or into an explicit local `not_checked`\ndeclination record. The §3.1 trigg"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_heldout_measurement_report.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_heldout_measurement_report.py [-h] [--all] [reports ...]\n\nValidate ARS held-out measurement reports against the #654/#664 contract.\nLayers: 1. JSON Schema (evals/heldout/measurement_report.schema.json) — shape,\nenums, const attestations (rubric_precommitted / raw_published /\nraw_outputs.retained), and the version/suite branches B1-B8. 2. Cross-field\ninvariants I1-I15 — rules a schema "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_literature_corpus_schema.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_literature_corpus_schema.py [-h] [--passport PASSPORT]\n                                         [--rejection-log REJECTION_LOG]\n\nValidate literature_corpus passport + rejection log YAMLs.\n\noptions:\n  -h, --help            show this help message and exit\n  --passport PASSPORT   Validate a single passport YAML.\n  --rejection-log REJECTION_LOG\n                        Validate a single rejection log YAML.\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/bootstrap_timeline_yaml.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: bootstrap_timeline_yaml.py [-h] --corpus CORPUS --output OUTPUT\n                                  [--dry-run]\n\nv3.9.4 bootstrap_timeline_yaml.py — opt-in Crossref + pdftotext\n\noptions:\n  -h, --help       show this help message and exit\n  --corpus CORPUS  Path to corpus YAML containing literature_corpus[]\n  --output OUTPUT  Path to write timeline.yaml\n  --dry-run        Skip API and pdftotex"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_reviewer_sprint_prompt_sync.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_reviewer_sprint_prompt_sync.py [-h] [--root ROOT]\n\nExact sync lint for the #611 reviewer sprint-prompt canonical source. The\ndispatcher sends each reviewer's Phase 1/Phase 2 H3 body verbatim. A file\npointer cannot replace those bytes under ``--bare --tools \"\"``. This lint\nkeeps the runtime mirrors inline while making one marked reference file the\nediting source. It enforces two indepe"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/build_content_coverage_advisory.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_content_coverage_advisory.py [-h] {build,validate,render} ...\n\nFinalize, replay-validate, and render the bounded #681 LLM advisory. The\nruntime consumes evaluator judgments only as explicit input. It performs no\nmodel call, prose classification, retrieval, directory scan, or ambient source\nlookup. Every authority and packet pointer is re-established from the complete\n#666/#667 named i"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/build_calibration_measurement_row.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_calibration_measurement_row.py [-h] --work-dir WORK_DIR --metrics\n                                            METRICS --gold GOLD\n                                            [--decision-overrides DECISION_OVERRIDES]\n                                            [--severity-classifications SEVERITY_CLASSIFICATIONS]\n                                            --class-a-audit CLASS_A_AUDIT"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/validate_ideation_diversity_assets.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: validate_ideation_diversity_assets.py [-h]\n                                             {validate-assets,materialize-variant}\n                                             ...\n\nOffline validator for the #659 Phase-1 design and synthetic role seed. This\nCLI has no subject, actor, judge, provider, or network transport. It may\nmaterialize the frozen non-production prompt variant to a new file, "
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_v3_9_4_temporal_verification.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_v3_9_4_temporal_verification.py [-h] --timeline TIMELINE\n                                             --citation-provenance\n                                             CITATION_PROVENANCE\n                                             --temporal-audit TEMPORAL_AUDIT\n\noptions:\n  -h, --help            show this help message and exit\n  --timeline TIMELINE\n  --citation-provenance CITATION_"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_stage_capability_matrix.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_stage_capability_matrix.py [-h] [--render]\n\nStage capability/evidence matrix lint + renderer (#745). Pins\nshared/contracts/capability/stage_capability_matrix.json — the single machine-\nreadable source for what each pipeline stage's mechanisms are, what evidence\nexists for them, and the maximum claim that evidence licenses — so capability\nlanguage can never silently outrun the recorded"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_instruction_data_boundary.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_instruction_data_boundary.py [-h] [--root ROOT]\n\ninstruction-vs-data boundary lint\n\noptions:\n  -h, --help   show this help message and exit\n  --root ROOT  repo root (for fixtures)\n"
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_skill_inventory_parity.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: check_skill_inventory_parity.py [-h] [--path PATH]\n\noptions:\n  -h, --help   show this help message and exit\n  --path PATH\n"
+    },
+    {
+      "file": "academic-research-suite/ars/sr-screener/scripts/build_workflow.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_workflow.py [-h] --work WORK --protocol PROTOCOL\n                         [--config CONFIG] --jobs\n                         {all,pilot,pending,recheck,recheck-all}\n                         [--batches BATCHES] [--pilot-n PILOT_N] [--out OUT]\n                         [--emit-prompts EMIT_PROMPTS] [--return-decisions]\n                         [--pilot-override PILOT_OVERRIDE]\n           "
+    },
+    {
+      "file": "academic-research-suite/ars/sr-screener/scripts/build_outputs.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: build_outputs.py [-h] --work WORK --out OUT [--stage {ta,ft}]\n                        [--config CONFIG] [--tag-keywords]\n\nPhase 6 (Reporter): build the screening deliverables from merged decisions.\n\nUsage:\n  python build_outputs.py --work W --out OUT_DIR [--stage ta|ft] [--config screening_config.json]\n                          [--tag-keywords]\n\nWrites into OUT_DIR (prefix TA_ or FT_):\n  <P"
+    },
+    {
+      "file": "academic-research-suite/ars/sr-screener/scripts/prepare_fulltext.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: prepare_fulltext.py [-h] --work WORK --pdf-dir PDF_DIR [--map MAP]\n                           [--config CONFIG] [--only-include]\n\nFull-text stage, step 1: match the PDFs of advanced records.\n\nUsage:\n  python prepare_fulltext.py --work W --pdf-dir PDFS [--config screening_config.json] [--map map.csv]\n\nTakes every record whose title/abstract decision is include or unclear (decisions.json) and"
+    },
+    {
+      "file": "academic-research-suite/ars/sr-screener/scripts/merge_decisions.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: merge_decisions.py [-h] --work WORK --from SOURCES [SOURCES ...]\n                          [--config CONFIG] [--protocol PROTOCOL]\n                          [--legacy-import-reason LEGACY_IMPORT_REASON]\n                          [--stage {ta,ft}] [--overrides OVERRIDES]\n                          [--pilot-labels PILOT_LABELS] [--audit]\n\nMerge reviewer decisions into final screening decisions"
+    },
+    {
+      "file": "academic-research-suite/ars/sr-screener/scripts/prepare_records.py",
+      "status": "ok",
+      "returncode": 0,
+      "output": "usage: prepare_records.py [-h] --inputs INPUTS [INPUTS ...] --work WORK\n                          [--config CONFIG] [--db DB] [--force]\n\nPhase 1 (Records Librarian): parse exports, remove duplicates, write screening batches.\n\nUsage:\n  python prepare_records.py --inputs EXPORTS_DIR_OR_FILES... --work WORK_DIR [--config screening_config.json]\n                            [--db \"file.ris=Scopus\" ...] "
+    }
+  ],
+  "pre_portability_candidate_count": 181,
+  "excluded_development_checks": [
+    {
+      "file": "academic-research-suite/ars/scripts/check_claim_standing_candidate_ledger_integration.py",
+      "reason": "Upstream source-repository CI/development checker; removed from the Hermes operational package and its hash recorded in manifest portability_removals."
+    },
+    {
+      "file": "academic-research-suite/ars/scripts/check_spec_consistency.py",
+      "reason": "Upstream source-repository CI/development checker; removed from the Hermes operational package and its hash recorded in manifest portability_removals."
+    }
+  ],
+  "final_note": "Five ruamel.yaml-dependent help paths were retested and passed after the dependency was installed. One remaining nonzero help path is fetch_calibration_corpus.py, which imports the optional openreview package before argument parsing. No remote/API workflow was invoked."
+}

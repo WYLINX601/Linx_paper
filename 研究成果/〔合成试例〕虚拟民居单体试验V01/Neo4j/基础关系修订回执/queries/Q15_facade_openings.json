@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (i:V01)-[r:INTERFACE_OF]->(h:V01) WHERE h.uid IN ['V01:W03','V01:W10'] AND r.role='opening-host' RETURN h.uid AS host,i.uid AS opening,i.geometryJson AS geometry,r.uid AS relation ORDER BY host,opening",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"geometry\": \"{\\\"a\\\":[1,7.2],\\\"b\\\":[2.2,7.2],\\\"kind\\\":\\\"interface\\\",\\\"z\\\":[1.0,2.0]}\",\n    \"host\": \"V01:W03\",\n    \"opening\": \"V01:I08\",\n    \"relation\": \"V01:R053\"\n  },\n  {\n    \"geometry\": \"{\\\"a\\\":[4.2,7.2],\\\"b\\\":[5.4,7.2],\\\"kind\\\":\\\"interface\\\",\\\"z\\\":[1.0,2.0]}\",\n    \"host\": \"V01:W03\",\n    \"opening\": \"V01:I09\",\n    \"relation\": \"V01:R055\"\n  },\n  {\n    \"geometry\": \"{\\\"a\\\":[7.4,7.2],\\\"b\\\":[8.6,7.2],\\\"kind\\\":\\\"interface\\\",\\\"z\\\":[1.0,2.0]}\",\n    \"host\": \"V01:W03\",\n    \"opening\": \"V01:I10\",\n    \"relation\": \"V01:R057\"\n  },\n  {\n    \"geometry\": \"{\\\"a\\\":[4,-4.8],\\\"b\\\":[5.6,-4.8],\\\"kind\\\":\\\"interface\\\",\\\"z\\\":[0,1.6]}\",\n    \"host\": \"V01:W10\",\n    \"opening\": \"V01:I05\",\n    \"relation\": \"V01:R044\"\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:13:51.983295+08:00"
+}

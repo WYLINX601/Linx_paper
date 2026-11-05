@@ -1,0 +1,578 @@
+[
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceUid",
+    "mutation": "missing",
+    "route": "canonical.validate_model",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-sourceUid-missing.json",
+    "fixtureSHA256": "8c7beca4e291ccbcc7fe7ccfdf63d9d6ca6ee79f813f7aff50c2b3fce820b069",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceUid",
+    "mutation": "missing",
+    "route": "canonical.compile_model",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-sourceUid-missing.json",
+    "fixtureSHA256": "8c7beca4e291ccbcc7fe7ccfdf63d9d6ca6ee79f813f7aff50c2b3fce820b069",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceUid",
+    "mutation": "missing",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-sourceUid-missing.json",
+    "fixtureSHA256": "8c7beca4e291ccbcc7fe7ccfdf63d9d6ca6ee79f813f7aff50c2b3fce820b069",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source alias mismatch BOUND-S04-C01",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": false,
+        "value": null,
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/285"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceUid",
+    "mutation": "misplaced",
+    "route": "canonical.validate_model",
+    "wrongValue": "V01:EV09",
+    "fixture": "counterexample-BOUND-S04-C01-sourceUid-misplaced.json",
+    "fixtureSHA256": "05867404a65d52811aa88e6f6f7d71a8c13b5afa301d411798996febe21243cf",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceUid",
+    "mutation": "misplaced",
+    "route": "canonical.compile_model",
+    "wrongValue": "V01:EV09",
+    "fixture": "counterexample-BOUND-S04-C01-sourceUid-misplaced.json",
+    "fixtureSHA256": "05867404a65d52811aa88e6f6f7d71a8c13b5afa301d411798996febe21243cf",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceUid",
+    "mutation": "misplaced",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": "V01:EV09",
+    "fixture": "counterexample-BOUND-S04-C01-sourceUid-misplaced.json",
+    "fixtureSHA256": "05867404a65d52811aa88e6f6f7d71a8c13b5afa301d411798996febe21243cf",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source alias mismatch BOUND-S04-C01",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": true,
+        "value": "V01:EV09",
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/285"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceVersion",
+    "mutation": "missing",
+    "route": "canonical.validate_model",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-sourceVersion-missing.json",
+    "fixtureSHA256": "a6444699aa5ed9b1583f2d484fbba9d62b8aeb59aae78aab8dfb3763b76a555f",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceVersion",
+    "mutation": "missing",
+    "route": "canonical.compile_model",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-sourceVersion-missing.json",
+    "fixtureSHA256": "a6444699aa5ed9b1583f2d484fbba9d62b8aeb59aae78aab8dfb3763b76a555f",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceVersion",
+    "mutation": "missing",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-sourceVersion-missing.json",
+    "fixtureSHA256": "a6444699aa5ed9b1583f2d484fbba9d62b8aeb59aae78aab8dfb3763b76a555f",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source alias mismatch BOUND-S04-C01",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": false,
+        "value": null,
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/285"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceVersion",
+    "mutation": "misplaced",
+    "route": "canonical.validate_model",
+    "wrongValue": "1.1",
+    "fixture": "counterexample-BOUND-S04-C01-sourceVersion-misplaced.json",
+    "fixtureSHA256": "b299e984126e83c18582626d54d104645fb646ddd0934218e49a54729d9c2edc",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceVersion",
+    "mutation": "misplaced",
+    "route": "canonical.compile_model",
+    "wrongValue": "1.1",
+    "fixture": "counterexample-BOUND-S04-C01-sourceVersion-misplaced.json",
+    "fixtureSHA256": "b299e984126e83c18582626d54d104645fb646ddd0934218e49a54729d9c2edc",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "sourceVersion",
+    "mutation": "misplaced",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": "1.1",
+    "fixture": "counterexample-BOUND-S04-C01-sourceVersion-misplaced.json",
+    "fixtureSHA256": "b299e984126e83c18582626d54d104645fb646ddd0934218e49a54729d9c2edc",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source alias mismatch BOUND-S04-C01",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": true,
+        "value": "1.1",
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/285"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "locator",
+    "mutation": "missing",
+    "route": "canonical.validate_model",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-locator-missing.json",
+    "fixtureSHA256": "8658c3872434d19c4aceabb4a50404a439c54b54bca8e94864c1a128b4ad1c1b",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch BOUND-S04-C01"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "locator",
+    "mutation": "missing",
+    "route": "canonical.compile_model",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-locator-missing.json",
+    "fixtureSHA256": "8658c3872434d19c4aceabb4a50404a439c54b54bca8e94864c1a128b4ad1c1b",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch BOUND-S04-C01"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "locator",
+    "mutation": "missing",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": null,
+    "fixture": "counterexample-BOUND-S04-C01-locator-missing.json",
+    "fixtureSHA256": "8658c3872434d19c4aceabb4a50404a439c54b54bca8e94864c1a128b4ad1c1b",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch BOUND-S04-C01",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": false,
+        "value": null,
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/285"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "locator",
+    "mutation": "misplaced",
+    "route": "canonical.validate_model",
+    "wrongValue": "/relationships/58",
+    "fixture": "counterexample-BOUND-S04-C01-locator-misplaced.json",
+    "fixtureSHA256": "58268e8179ab9d008f723bb1ab9d82dfdeaa2f5d51a68764d01b05c30ac8b549",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch BOUND-S04-C01"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "locator",
+    "mutation": "misplaced",
+    "route": "canonical.compile_model",
+    "wrongValue": "/relationships/58",
+    "fixture": "counterexample-BOUND-S04-C01-locator-misplaced.json",
+    "fixtureSHA256": "58268e8179ab9d008f723bb1ab9d82dfdeaa2f5d51a68764d01b05c30ac8b549",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch BOUND-S04-C01"
+  },
+  {
+    "relation": "BOUND-S04-C01",
+    "field": "locator",
+    "mutation": "misplaced",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": "/relationships/58",
+    "fixture": "counterexample-BOUND-S04-C01-locator-misplaced.json",
+    "fixtureSHA256": "58268e8179ab9d008f723bb1ab9d82dfdeaa2f5d51a68764d01b05c30ac8b549",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch BOUND-S04-C01",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": true,
+        "value": "/relationships/58",
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/285"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "R059",
+    "field": "sourceUid",
+    "mutation": "missing",
+    "route": "canonical.validate_model",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-sourceUid-missing.json",
+    "fixtureSHA256": "a630cb54bd196f04253f58b4d5d9a21cc743f8b5b301cbefce0cedc3b2c265d3",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "R059",
+    "field": "sourceUid",
+    "mutation": "missing",
+    "route": "canonical.compile_model",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-sourceUid-missing.json",
+    "fixtureSHA256": "a630cb54bd196f04253f58b4d5d9a21cc743f8b5b301cbefce0cedc3b2c265d3",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "R059",
+    "field": "sourceUid",
+    "mutation": "missing",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-sourceUid-missing.json",
+    "fixtureSHA256": "a630cb54bd196f04253f58b4d5d9a21cc743f8b5b301cbefce0cedc3b2c265d3",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source alias mismatch R059",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": false,
+        "value": null,
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/58"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "R059",
+    "field": "sourceUid",
+    "mutation": "misplaced",
+    "route": "canonical.validate_model",
+    "wrongValue": "V01:EV09",
+    "fixture": "counterexample-R059-sourceUid-misplaced.json",
+    "fixtureSHA256": "79d25e9cde7d0b1122551bf718d65e01c7bc9a62ec88fe28557adb64bb50635c",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "R059",
+    "field": "sourceUid",
+    "mutation": "misplaced",
+    "route": "canonical.compile_model",
+    "wrongValue": "V01:EV09",
+    "fixture": "counterexample-R059-sourceUid-misplaced.json",
+    "fixtureSHA256": "79d25e9cde7d0b1122551bf718d65e01c7bc9a62ec88fe28557adb64bb50635c",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "R059",
+    "field": "sourceUid",
+    "mutation": "misplaced",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": "V01:EV09",
+    "fixture": "counterexample-R059-sourceUid-misplaced.json",
+    "fixtureSHA256": "79d25e9cde7d0b1122551bf718d65e01c7bc9a62ec88fe28557adb64bb50635c",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source alias mismatch R059",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": true,
+        "value": "V01:EV09",
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/58"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "R059",
+    "field": "sourceVersion",
+    "mutation": "missing",
+    "route": "canonical.validate_model",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-sourceVersion-missing.json",
+    "fixtureSHA256": "3ffe152cbcf0941d8af55e52e5c984fb5ec6b108e284144f38939f409a08efbe",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "R059",
+    "field": "sourceVersion",
+    "mutation": "missing",
+    "route": "canonical.compile_model",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-sourceVersion-missing.json",
+    "fixtureSHA256": "3ffe152cbcf0941d8af55e52e5c984fb5ec6b108e284144f38939f409a08efbe",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "R059",
+    "field": "sourceVersion",
+    "mutation": "missing",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-sourceVersion-missing.json",
+    "fixtureSHA256": "3ffe152cbcf0941d8af55e52e5c984fb5ec6b108e284144f38939f409a08efbe",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source alias mismatch R059",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": false,
+        "value": null,
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/58"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "R059",
+    "field": "sourceVersion",
+    "mutation": "misplaced",
+    "route": "canonical.validate_model",
+    "wrongValue": "1.1",
+    "fixture": "counterexample-R059-sourceVersion-misplaced.json",
+    "fixtureSHA256": "e3bc8b9027a0ac7ec86c298f57346a70ecaadbaa3c162f2dbb148b72b369d899",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "R059",
+    "field": "sourceVersion",
+    "mutation": "misplaced",
+    "route": "canonical.compile_model",
+    "wrongValue": "1.1",
+    "fixture": "counterexample-R059-sourceVersion-misplaced.json",
+    "fixtureSHA256": "e3bc8b9027a0ac7ec86c298f57346a70ecaadbaa3c162f2dbb148b72b369d899",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source version"
+  },
+  {
+    "relation": "R059",
+    "field": "sourceVersion",
+    "mutation": "misplaced",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": "1.1",
+    "fixture": "counterexample-R059-sourceVersion-misplaced.json",
+    "fixtureSHA256": "e3bc8b9027a0ac7ec86c298f57346a70ecaadbaa3c162f2dbb148b72b369d899",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Relation source alias mismatch R059",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": true,
+        "value": "1.1",
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/58"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "R059",
+    "field": "locator",
+    "mutation": "missing",
+    "route": "canonical.validate_model",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-locator-missing.json",
+    "fixtureSHA256": "b48d5e7cb92d551ad18bc84da8f3ba346e32e1257db25fabede2113049ece8de",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch R059"
+  },
+  {
+    "relation": "R059",
+    "field": "locator",
+    "mutation": "missing",
+    "route": "canonical.compile_model",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-locator-missing.json",
+    "fixtureSHA256": "b48d5e7cb92d551ad18bc84da8f3ba346e32e1257db25fabede2113049ece8de",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch R059"
+  },
+  {
+    "relation": "R059",
+    "field": "locator",
+    "mutation": "missing",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": null,
+    "fixture": "counterexample-R059-locator-missing.json",
+    "fixtureSHA256": "b48d5e7cb92d551ad18bc84da8f3ba346e32e1257db25fabede2113049ece8de",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch R059",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": false,
+        "value": null,
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/58"
+        }
+      }
+    ]
+  },
+  {
+    "relation": "R059",
+    "field": "locator",
+    "mutation": "misplaced",
+    "route": "canonical.validate_model",
+    "wrongValue": "/relationships/285",
+    "fixture": "counterexample-R059-locator-misplaced.json",
+    "fixtureSHA256": "bf61b5f68a9cc0f4784d8f795512359856c59ff107c5733066408c2cef9454ff",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch R059"
+  },
+  {
+    "relation": "R059",
+    "field": "locator",
+    "mutation": "misplaced",
+    "route": "canonical.compile_model",
+    "wrongValue": "/relationships/285",
+    "fixture": "counterexample-R059-locator-misplaced.json",
+    "fixtureSHA256": "bf61b5f68a9cc0f4784d8f795512359856c59ff107c5733066408c2cef9454ff",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch R059"
+  },
+  {
+    "relation": "R059",
+    "field": "locator",
+    "mutation": "misplaced",
+    "route": "actualLPG.full_analyze",
+    "wrongValue": "/relationships/285",
+    "fixture": "counterexample-R059-locator-misplaced.json",
+    "fixtureSHA256": "bf61b5f68a9cc0f4784d8f795512359856c59ff107c5733066408c2cef9454ff",
+    "rejected": true,
+    "exceptionType": "ValueError",
+    "message": "Boundary source locator alias mismatch R059",
+    "rawModelJsonUnchanged": true,
+    "actualRehydratedValuesSeenByValidator": [
+      {
+        "present": true,
+        "value": "/relationships/285",
+        "assertions": {
+          "assertionSourceUid": "V01:EV01",
+          "assertionSourceVersion": "V01-unified-2.2",
+          "assertionLocator": "/relationships/58"
+        }
+      }
+    ]
+  }
+]

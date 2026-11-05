@@ -1,0 +1,22 @@
+{
+  "date": "2026-10-23",
+  "ok": true,
+  "errors": [],
+  "modelSha256": "0bb011ccc3e7f06f19473ec6da0028c12c6f9d4a3997f0a85a8758be56736009",
+  "counts": {
+    "entities": 15,
+    "elementProfiles": 15,
+    "fields": 75,
+    "relations": 28,
+    "questions": 12,
+    "itemMappings": 100,
+    "modelChanges": 121
+  },
+  "graphNodes": 546,
+  "graphEdges": 3497,
+  "sourceOriginalsUnchanged": true,
+  "limits": [
+    "只核候选定义结构、引用及生成内容；语义另由独立agent审核",
+    "不替代真实案例试采、PDF全文核读、算法复算或正式实例迁移"
+  ]
+}

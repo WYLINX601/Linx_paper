@@ -1,0 +1,2765 @@
+{
+  "screening_date": "2026-10-06",
+  "image_count": 112,
+  "records": [
+    {
+      "image_id": "3IJX2PUQ-pdf122",
+      "source_key": "3IJX2PUQ",
+      "pdf_page": 122,
+      "image_path": "assets/she-image-bank/3IJX2PUQ-pdf122.png",
+      "image_type": "桃源村落/建筑照片与统计页",
+      "objects": [
+        "桃源村"
+      ],
+      "places": [
+        "桃源村"
+      ],
+      "figure_table": [
+        "图5.1–5.2"
+      ],
+      "literature_status": [
+        "户籍人口376人，其中畲族136人（约35%），常驻80人；成村于南宋后期、600余年",
+        "作者称保存较好",
+        "同段另记文昌亭1处、五显殿1处、古河道1处",
+        "列入村内现存文化空间资源；未单列保护状况"
+      ],
+      "evidence_excerpt": [
+        "全村拥有户籍人口116户，376人",
+        "另有保存较好的清代建筑10处",
+        "文昌亭1处、五显殿1处、石拱桥3处",
+        "古河道1处"
+      ],
+      "reuse_purpose": [
+        "村落、清代建筑和公共遗存背景"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：桃源村落/建筑照片与统计页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "3IJX2PUQ-pdf040",
+      "source_key": "3IJX2PUQ",
+      "pdf_page": 40,
+      "image_path": "assets/she-image-bank/3IJX2PUQ-pdf40.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "论文界定的12个畲族传统村落"
+      ],
+      "places": [
+        "景宁县域",
+        "桃源村",
+        "东弄村",
+        "周湖村"
+      ],
+      "figure_table": [
+        "表1.7"
+      ],
+      "literature_status": [
+        "GIS/研究范围名单，不等同于逐村现场调查或建筑清单",
+        "名单列入；该行本身不说明建筑保存情况"
+      ],
+      "evidence_excerpt": [
+        "共12个村落",
+        "东坑镇 桃源村",
+        "鹤溪街道 东弄村",
+        "鹤溪街道 周湖村"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "具体名单逐项保留于后续记录；不得因另一文献同为12村就视为同一名单。；保留表1.7原名；不据此断定实地调查或具体建筑数量。"
+    },
+    {
+      "image_id": "3IJX2PUQ-pdf041",
+      "source_key": "3IJX2PUQ",
+      "pdf_page": 41,
+      "image_path": "assets/she-image-bank/3IJX2PUQ-pdf41.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [],
+      "places": [
+        "吴布村",
+        "安亭村",
+        "金丘村",
+        "李宝村",
+        "大张坑村",
+        "深垟村",
+        "岗石村"
+      ],
+      "figure_table": [
+        "表1.7"
+      ],
+      "literature_status": [
+        "名单列入；该行本身不说明建筑保存情况"
+      ],
+      "evidence_excerpt": [
+        "郑坑乡 吴布村",
+        "渤海镇 安亭村",
+        "澄照乡 金丘村",
+        "大均乡 李宝村",
+        "东坑镇 大张坑村"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "保留表1.7原名；不据此断定实地调查或具体建筑数量。；保留本论文原名“金丘”，不与其他文献的“金坵”自行合并。"
+    },
+    {
+      "image_id": "3IJX2PUQ-pdf042",
+      "source_key": "3IJX2PUQ",
+      "pdf_page": 42,
+      "image_path": "assets/she-image-bank/3IJX2PUQ-pdf42.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [],
+      "places": [
+        "驮戥村",
+        "张庄村"
+      ],
+      "figure_table": [
+        "表1.7"
+      ],
+      "literature_status": [
+        "名单列入；该行本身不说明建筑保存情况"
+      ],
+      "evidence_excerpt": [
+        "鸬鹚乡 驮戥村",
+        "沙湾镇 张庄村"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "保留表1.7原名；不据此断定实地调查或具体建筑数量。"
+    },
+    {
+      "image_id": "6NQGHZQC-pdf058",
+      "source_key": "6NQGHZQC",
+      "pdf_page": 58,
+      "image_path": "assets/she-image-bank/6NQGHZQC-pdf58.png",
+      "image_type": "村落规划/建筑照片页",
+      "objects": [
+        "景宁传统村落案例"
+      ],
+      "places": [
+        "惠明寺村"
+      ],
+      "figure_table": [
+        "图4.1–4.2"
+      ],
+      "literature_status": [
+        "作者称传统村落格局、传统建筑与原始风貌基本保存",
+        "畲族自治村；论文记录的村况",
+        "多建于石砌台地，主体一般两层，多为院落并有天井、前院"
+      ],
+      "evidence_excerpt": [
+        "辖5个自然村",
+        "69户",
+        "301人",
+        "传统民居建筑都建在石头砌成的台地上"
+      ],
+      "reuse_purpose": [
+        "村落保护与发展背景"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落规划/建筑照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "6NQGHZQC-pdf059",
+      "source_key": "6NQGHZQC",
+      "pdf_page": 59,
+      "image_path": "assets/she-image-bank/6NQGHZQC-pdf59.png",
+      "image_type": "建筑照片/遗存页",
+      "objects": [
+        "景宁传统村落案例"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "传统建筑与保护状态参考"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：建筑照片/遗存页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "7KCJR9EB-pdf002",
+      "source_key": "7KCJR9EB",
+      "pdf_page": 2,
+      "image_path": "assets/she-image-bank/7KCJR9EB-002.png",
+      "image_type": "门楼/梁部照片组",
+      "objects": [
+        "敕木山村28号蓝姓畲族寮等"
+      ],
+      "places": [
+        "景宁县敕木山村",
+        "景宁县沙湾镇张坑村"
+      ],
+      "figure_table": [
+        "图1图注",
+        "正文描述"
+      ],
+      "literature_status": [
+        "图示卷草凤凰纹装饰",
+        "文中称其兄弟也在村里起了寮；纹样雕刻出自蓝凤新之手"
+      ],
+      "evidence_excerpt": [
+        "图1：敕木山村28号蓝姓畲族寮",
+        "同时他的兄弟也在村里起了寮"
+      ],
+      "reuse_purpose": [
+        "凤凰纹与门楼构件特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：门楼/梁部照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "7KCJR9EB-pdf003",
+      "source_key": "7KCJR9EB",
+      "pdf_page": 3,
+      "image_path": "assets/she-image-bank/7KCJR9EB-003.png",
+      "image_type": "门楼/装饰照片组",
+      "objects": [
+        "蓝凤新寮、蓝村长家门楼、雷姓寮"
+      ],
+      "places": [
+        "景宁县沙湾镇张坑村",
+        "景宁县敕木山村",
+        "景宁县大漈乡小佐村",
+        "景宁县大均乡大均村",
+        "景宁县大均村",
+        "浙江省丽水市区"
+      ],
+      "figure_table": [
+        "图3图注；正文描述",
+        "图6图注；正文描述",
+        "图4图注",
+        "图5图注",
+        "正文描述",
+        "图2图注"
+      ],
+      "literature_status": [
+        "蓝凤新建一幢5间两出手的寮；前檐梁见卷草凤凰纹",
+        "门楼梁上有凤凰纹装饰",
+        "图示金鸡头式纹样",
+        "梁上仙鹤纹在前、凤凰纹在后",
+        "图示汉族龙须纹"
+      ],
+      "evidence_excerpt": [
+        "盖了一幢5间两出手的寮",
+        "蓝村长的门楼凤凰纹装饰",
+        "景宁县大漈乡小佐村雷姓",
+        "景宁县大均乡大均村",
+        "大均村还有一户汉族人家梁上的装饰"
+      ],
+      "reuse_purpose": [
+        "凤凰纹、梁部与门楼特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：门楼/装饰照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "7KCJR9EB-pdf004",
+      "source_key": "7KCJR9EB",
+      "pdf_page": 4,
+      "image_path": "assets/she-image-bank/7KCJR9EB-004.png",
+      "image_type": "凤凰纹与民居照片组",
+      "objects": [
+        "景宁大漈/大均等案例"
+      ],
+      "places": [
+        "景宁县大均村",
+        "遂昌县大柘镇大田村",
+        "浙江省莲都区大港头镇利山村",
+        "浙江省莲都区坛头嘴村",
+        "浙江省龙泉县竹垟畲族乡罗墩村"
+      ],
+      "figure_table": [
+        "图7图注；正文描述",
+        "正文比较段"
+      ],
+      "literature_status": [
+        "住宅梁枋有卷草凤凰纹等装饰；作者称装饰由蓝凤新制作",
+        "作者称在雷氏宗祠发现复杂卷草凤凰纹",
+        "作者称当地畲族民居常採本地汉族相似纹样，梁底中部常用凤凰图案"
+      ],
+      "evidence_excerpt": [
+        "景宁县大均富商李氏大屋纹样",
+        "大柘镇大田村的雷氏宗祠",
+        "其他地方的畲族村落"
+      ],
+      "reuse_purpose": [
+        "装饰图案与比较案例"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：凤凰纹与民居照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "AAPV5P6L-pdf025",
+      "source_key": "AAPV5P6L",
+      "pdf_page": 25,
+      "image_path": "assets/she-image-bank/AAPV5P6L-pdf25.png",
+      "image_type": "东弄村统计与照片页",
+      "objects": [
+        "东弄老村"
+      ],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "图2-1"
+      ],
+      "literature_status": [
+        "村级住宅统计；无逐栋身份清单",
+        "作者分类统计",
+        "文中记录为空置；非2026年现存确认",
+        "原文称质量较差、危积漏现象严重；不作2026现存确认"
+      ],
+      "evidence_excerpt": [
+        "东弄老村共107幢民居",
+        "有73幢传统民居",
+        "其中有16幢空置房屋",
+        "余下57幢传统民居中"
+      ],
+      "reuse_purpose": [
+        "107/73/16数量和传统民居照片"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：东弄村统计与照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "AAPV5P6L-pdf083",
+      "source_key": "AAPV5P6L",
+      "pdf_page": 83,
+      "image_path": "assets/she-image-bank/AAPV5P6L-pdf83.png",
+      "image_type": "建筑质量统计表与照片/图页",
+      "objects": [
+        "东弄村52座较大体量建筑"
+      ],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "表6-1"
+      ],
+      "literature_status": [
+        "抽样对象；表6-1未见逐栋身份编号清单",
+        "分类统计；非全村总量"
+      ],
+      "evidence_excerpt": [
+        "对东弄村52座规模相对大的建筑进行了调查",
+        "共有三十四幢这样的房屋",
+        "共有九幢这样的建筑物"
+      ],
+      "reuse_purpose": [
+        "34/9质量分类；样本身份未公开"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：建筑质量统计表与照片/图页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "AAPV5P6L-pdf084",
+      "source_key": "AAPV5P6L",
+      "pdf_page": 84,
+      "image_path": "assets/she-image-bank/AAPV5P6L-pdf84.png",
+      "image_type": "建筑质量统计续页",
+      "objects": [
+        "东弄村52座较大体量建筑"
+      ],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "表6-1"
+      ],
+      "literature_status": [
+        "分类统计；非全村总量"
+      ],
+      "evidence_excerpt": [
+        "比较破败的九幢民居"
+      ],
+      "reuse_purpose": [
+        "严重破损9座；样本身份未公开"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：建筑质量统计续页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf001",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 1,
+      "image_path": "assets/she-image-bank/BUUUUWRW-001.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf007",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 7,
+      "image_path": "assets/she-image-bank/BUUUUWRW-007.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf008",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 8,
+      "image_path": "assets/she-image-bank/BUUUUWRW-008.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf009",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 9,
+      "image_path": "assets/she-image-bank/BUUUUWRW-009.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf011",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 11,
+      "image_path": "assets/she-image-bank/BUUUUWRW-011.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf012",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 12,
+      "image_path": "assets/she-image-bank/BUUUUWRW-012.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf013",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 13,
+      "image_path": "assets/she-image-bank/BUUUUWRW-013.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf014",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 14,
+      "image_path": "assets/she-image-bank/BUUUUWRW-014.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf015",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 15,
+      "image_path": "assets/she-image-bank/BUUUUWRW-015.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf016",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 16,
+      "image_path": "assets/she-image-bank/BUUUUWRW-016.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf017",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 17,
+      "image_path": "assets/she-image-bank/BUUUUWRW-017.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf018",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 18,
+      "image_path": "assets/she-image-bank/BUUUUWRW-018.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf020",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 20,
+      "image_path": "assets/she-image-bank/BUUUUWRW-020.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf024",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 24,
+      "image_path": "assets/she-image-bank/BUUUUWRW-024.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf026",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 26,
+      "image_path": "assets/she-image-bank/BUUUUWRW-026.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf029",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 29,
+      "image_path": "assets/she-image-bank/BUUUUWRW-029.png",
+      "image_type": "研究流程图",
+      "objects": [
+        "研究设计流程与调查对象关系"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "方法流程参考"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：研究流程图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf030",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 30,
+      "image_path": "assets/she-image-bank/BUUUUWRW-030.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf031",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 31,
+      "image_path": "assets/she-image-bank/BUUUUWRW-031.png",
+      "image_type": "村落与民俗照片页",
+      "objects": [
+        "东弄村/畲族文化背景"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "村落背景和研究语境"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落与民俗照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf032",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 32,
+      "image_path": "assets/she-image-bank/BUUUUWRW-032.png",
+      "image_type": "村落环境照片页",
+      "objects": [
+        "东弄村山地聚落"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "聚落环境与风貌背景"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落环境照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf035",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 35,
+      "image_path": "assets/she-image-bank/BUUUUWRW-035.png",
+      "image_type": "民俗/服饰图页",
+      "objects": [
+        "畲族文化背景，非单体建筑"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "文化语境参考，不作为建筑现状"
+      ],
+      "confidence": "C",
+      "analysis_note": "人工视觉复核：民俗/服饰图页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf039",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 39,
+      "image_path": "assets/she-image-bank/BUUUUWRW-039.png",
+      "image_type": "村落位置与照片页",
+      "objects": [
+        "东弄村及周边"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "聚落定位与环境"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落位置与照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf042",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 42,
+      "image_path": "assets/she-image-bank/BUUUUWRW-042.png",
+      "image_type": "建筑/村落照片页",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "整体风貌与保存状态线索"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：建筑/村落照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf048",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 48,
+      "image_path": "assets/she-image-bank/BUUUUWRW-048.png",
+      "image_type": "村落鸟瞰照片页",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "聚落整体形态"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落鸟瞰照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf049",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 49,
+      "image_path": "assets/she-image-bank/BUUUUWRW-049.png",
+      "image_type": "村落鸟瞰照片页",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "聚落整体形态"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落鸟瞰照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf058",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 58,
+      "image_path": "assets/she-image-bank/BUUUUWRW-058.png",
+      "image_type": "村落地图与构件照片页",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "定位、木构和构件参考"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落地图与构件照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf060",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 60,
+      "image_path": "assets/she-image-bank/BUUUUWRW-060.png",
+      "image_type": "道路/建筑照片与地图页",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "村落空间和建筑状态线索"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：道路/建筑照片与地图页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf064",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 64,
+      "image_path": "assets/she-image-bank/BUUUUWRW-064.png",
+      "image_type": "门楼照片与剖面图",
+      "objects": [
+        "东弄村传统民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "立面、门楼和剖面特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：门楼照片与剖面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf065",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 65,
+      "image_path": "assets/she-image-bank/BUUUUWRW-065.png",
+      "image_type": "平面/立面图与照片",
+      "objects": [
+        "东弄村传统民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "平面、立面、构件特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：平面/立面图与照片；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf069",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 69,
+      "image_path": "assets/she-image-bank/BUUUUWRW-069.png",
+      "image_type": "建筑细部照片页",
+      "objects": [
+        "东弄村民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "木构、门窗和材料特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：建筑细部照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf072",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 72,
+      "image_path": "assets/she-image-bank/BUUUUWRW-072.png",
+      "image_type": "构件照片页",
+      "objects": [
+        "东弄村民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "木构、屋面和细部特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：构件照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf073",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 73,
+      "image_path": "assets/she-image-bank/BUUUUWRW-073.png",
+      "image_type": "立面/构件图页",
+      "objects": [
+        "东弄村民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "立面、构件和装饰特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：立面/构件图页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf078",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 78,
+      "image_path": "assets/she-image-bank/BUUUUWRW-078.png",
+      "image_type": "建筑照片页",
+      "objects": [
+        "东弄村民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "材料、立面和保存状态"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：建筑照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf080",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 80,
+      "image_path": "assets/she-image-bank/BUUUUWRW-080.png",
+      "image_type": "木构细部照片页",
+      "objects": [
+        "东弄村民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "木构、屋面和节点特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：木构细部照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf081",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 81,
+      "image_path": "assets/she-image-bank/BUUUUWRW-081.png",
+      "image_type": "构造/细部照片页",
+      "objects": [
+        "东弄村民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "构件与连接方式参考"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：构造/细部照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf084",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 84,
+      "image_path": "assets/she-image-bank/BUUUUWRW-084.png",
+      "image_type": "栏杆/装饰细部照片页",
+      "objects": [
+        "东弄村民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "装饰和构件特征"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：栏杆/装饰细部照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf087",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 87,
+      "image_path": "assets/she-image-bank/BUUUUWRW-087.png",
+      "image_type": "章节文字页",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "文字背景，无独立图像证据"
+      ],
+      "confidence": "C",
+      "analysis_note": "人工视觉复核：章节文字页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf090",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 90,
+      "image_path": "assets/she-image-bank/BUUUUWRW-090.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf092",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 92,
+      "image_path": "assets/she-image-bank/BUUUUWRW-092.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf093",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 93,
+      "image_path": "assets/she-image-bank/BUUUUWRW-093.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf094",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 94,
+      "image_path": "assets/she-image-bank/BUUUUWRW-094.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf095",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 95,
+      "image_path": "assets/she-image-bank/BUUUUWRW-095.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "村落概况统计",
+        "村落人口统计"
+      ],
+      "places": [
+        "东弄村行政村（辖东弄、周坑、岗头3个自然村）"
+      ],
+      "figure_table": [
+        "附录1调研报告"
+      ],
+      "literature_status": [
+        "全村100户",
+        "全村380人，其中畲族265人"
+      ],
+      "evidence_excerpt": [
+        "辖东弄、周坑、岗头3个自然村；全村100户",
+        "全村380人，其中畲族265人"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "行政村范围与东弄自然村单体样本有别。；人口数字不转换为户数或建筑数量。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf096",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 96,
+      "image_path": "assets/she-image-bank/BUUUUWRW-096.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf097",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 97,
+      "image_path": "assets/she-image-bank/BUUUUWRW-097.png",
+      "image_type": "村落规划与照片页",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "聚落格局与建筑环境"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落规划与照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf098",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 98,
+      "image_path": "assets/she-image-bank/BUUUUWRW-098.png",
+      "image_type": "村落鸟瞰与建筑照片页",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "聚落整体与建筑状态"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落鸟瞰与建筑照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf099",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 99,
+      "image_path": "assets/she-image-bank/BUUUUWRW-099.png",
+      "image_type": "建筑照片组",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "建筑立面、环境与状态"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：建筑照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf100",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 100,
+      "image_path": "assets/she-image-bank/BUUUUWRW-100.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf101",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 101,
+      "image_path": "assets/she-image-bank/BUUUUWRW-101.png",
+      "image_type": "建筑/遗存照片或案例页",
+      "objects": [
+        "蓝坤宝寮（蓝坤宝家族住宅）"
+      ],
+      "places": [
+        "东弄村（村内未注明路段）",
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录1访谈记录；访谈地点蓝坤宝寮内",
+        "附录1访谈记录"
+      ],
+      "literature_status": [
+        "受访者称现无人居住，用于放杂物；父母搬至毗邻另建寮居住",
+        "受访者称房主为父亲蓝坤宝；具体年代记忆不确定"
+      ],
+      "evidence_excerpt": [
+        "这栋房子是我爸和几个叔叔伯伯的；现在这没人住了，就放杂物了。",
+        "他叫蓝坤宝"
+      ],
+      "reuse_purpose": [
+        "对象识别与保存状态参照"
+      ],
+      "confidence": "A",
+      "analysis_note": "户主女儿访谈；PDF内图题与正文均名为蓝坤宝寮。；蓝坤宝寮测绘与正文另有建筑细节；年代不作推断。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf102",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 102,
+      "image_path": "assets/she-image-bank/BUUUUWRW-102.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf103",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 103,
+      "image_path": "assets/she-image-bank/BUUUUWRW-103.png",
+      "image_type": "建筑分布图",
+      "objects": [
+        "东弄村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "建筑定位与样本范围"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：建筑分布图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf104",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 104,
+      "image_path": "assets/she-image-bank/BUUUUWRW-104.png",
+      "image_type": "平面图",
+      "objects": [
+        "蓝坤宝寮/东弄民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "平面与空间组织"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：平面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf105",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 105,
+      "image_path": "assets/she-image-bank/BUUUUWRW-105.png",
+      "image_type": "平面图",
+      "objects": [
+        "蓝坤宝寮/东弄民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "平面与空间组织"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：平面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf106",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 106,
+      "image_path": "assets/she-image-bank/BUUUUWRW-106.png",
+      "image_type": "屋面/平面图",
+      "objects": [
+        "蓝坤宝寮/东弄民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "屋面与构造参考"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：屋面/平面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf107",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 107,
+      "image_path": "assets/she-image-bank/BUUUUWRW-107.png",
+      "image_type": "剖面/平面图",
+      "objects": [
+        "蓝坤宝寮/东弄民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "剖面与空间组织"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：剖面/平面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf108",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 108,
+      "image_path": "assets/she-image-bank/BUUUUWRW-108.png",
+      "image_type": "剖面图",
+      "objects": [
+        "蓝坤宝寮/东弄民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "剖面与构造参考"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：剖面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf109",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 109,
+      "image_path": "assets/she-image-bank/BUUUUWRW-109.png",
+      "image_type": "立面/剖面图",
+      "objects": [
+        "蓝坤宝寮/东弄民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "立面与构造参考"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：立面/剖面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf110",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 110,
+      "image_path": "assets/she-image-bank/BUUUUWRW-110.png",
+      "image_type": "构造节点/立面图",
+      "objects": [
+        "蓝坤宝寮/东弄民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "构造与立面参考"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：构造节点/立面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf115",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 115,
+      "image_path": "assets/she-image-bank/BUUUUWRW-115.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "附录5图表编号建筑1–52"
+      ],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "图：东弄村建筑调研样本编号；附录5表格PDF116–123/印刷100–107"
+      ],
+      "literature_status": [
+        "图示建筑编号1至52"
+      ],
+      "evidence_excerpt": [
+        "表格逐号记录质量、层数、用途、结构、风貌和备注；编号建筑具体状态见后续记录。"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "BUUUUWRW-pdf116",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 116,
+      "image_path": "assets/she-image-bank/BUUUUWRW-116.png",
+      "image_type": "建筑现状编号表",
+      "objects": [],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录5：景宁县东弄村建筑现状分析"
+      ],
+      "literature_status": [
+        "质量良好；1层；泥木结构；风貌较好；建于清咸丰三年（1853年）；正常使用",
+        "质量良好；1层（局部2层）；泥木结构；风貌较好；始建清嘉庆十三年（1808年）；部分功能改成农耕展示区",
+        "质量良好；2层；泥木结构；风貌较好；正常使用",
+        "质量较差；2层；泥木结构；风貌较差；现已废弃",
+        "质量良好；2层；泥木结构；风貌一般；门窗等小部件改建；正常使用"
+      ],
+      "evidence_excerpt": [
+        "编号1：村庙，建于清咸丰三年，正常使用",
+        "编号2：祠堂始建嘉庆十三年，部分改作农耕展示区",
+        "编号3：民居，质量良好，泥木，正常使用",
+        "编号4：民居，质量良好，泥木，正常使用",
+        "编号5：民居，现已废弃"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中未列具体宅名或房主姓名；编号由PDF115/印刷99分布图定位。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf117",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 117,
+      "image_path": "assets/she-image-bank/BUUUUWRW-117.png",
+      "image_type": "建筑现状编号表",
+      "objects": [],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录5：景宁县东弄村建筑现状分析"
+      ],
+      "literature_status": [
+        "质量一般；2层；泥木结构；风貌一般；正常使用",
+        "质量良好；2层；砖混结构；风貌较差；正常使用",
+        "质量良好；2层；砖混结构；风貌一般；正常使用",
+        "质量良好；2层；泥木结构；风貌良好；正常使用",
+        "质量较差；1层；泥木结构；风貌一般；现已废弃",
+        "质量良好；2层；泥木结构；风貌较差；墙面、门窗翻新；正常使用",
+        "质量良好；2层；泥木结构；风貌一般；门窗翻新；正常使用",
+        "质量良好；2层；泥木（部分砖混）；风貌较差；局部加建；正常使用"
+      ],
+      "evidence_excerpt": [
+        "编号9：民居，质量一般，正常使用",
+        "编号10：砖混民居，风貌较差，正常使用",
+        "编号11：砖混民居，风貌一般，正常使用",
+        "编号12：泥木民居，风貌良好，正常使用",
+        "编号13：1层民居，现已废弃"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中未列具体宅名或房主姓名；编号由PDF115/印刷99分布图定位。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf118",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 118,
+      "image_path": "assets/she-image-bank/BUUUUWRW-118.png",
+      "image_type": "建筑现状编号表",
+      "objects": [],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录5：景宁县东弄村建筑现状分析"
+      ],
+      "literature_status": [
+        "质量良好；2层；泥木结构；风貌一般；门头后期改建；正常使用",
+        "质量良好；2层；泥木结构；风貌一般；墙面等后期翻新；正常使用",
+        "质量良好；2层；砖混结构；风貌较差；整体后期改建；正常使用",
+        "质量良好；2层；泥木结构；风貌一般；局部后期加建；正常使用",
+        "质量良好；2层；泥木结构；风貌较好；正常使用",
+        "质量良好；2层；泥木结构；风貌一般；院墙后期翻新；正常使用",
+        "质量良好；2层；砖混结构；风貌较差；新建，尚未投入使用"
+      ],
+      "evidence_excerpt": [
+        "编号17：门头为后期改建，正常使用",
+        "编号18：用途社区服务中心，墙面等后期翻新",
+        "编号19：砖混民居，整体为后期改建",
+        "编号20：局部为后期加建，正常使用",
+        "编号21：民居，风貌较好，正常使用"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中未列具体宅名或房主姓名；编号由PDF115/印刷99分布图定位。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf119",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 119,
+      "image_path": "assets/she-image-bank/BUUUUWRW-119.png",
+      "image_type": "建筑现状编号表",
+      "objects": [],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录5：景宁县东弄村建筑现状分析"
+      ],
+      "literature_status": [
+        "质量良好；2层；砖混结构；风貌较差；正常使用",
+        "质量良好；2层；泥木结构；风貌一般；局部附属设施后期加建；正常使用",
+        "质量良好；2层；泥木结构；风貌较好；正常使用",
+        "质量较差；2层；泥木结构；风貌较差；现已废弃",
+        "质量良好；2层；泥木结构；风貌一般；正常使用"
+      ],
+      "evidence_excerpt": [
+        "编号25：砖混民居，风貌较差，正常使用",
+        "编号26：局部附属设施为后期加建",
+        "编号27：民居，风貌较好，正常使用",
+        "编号28：民居，现已废弃",
+        "编号29：民居，风貌较好，正常使用"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中未列具体宅名或房主姓名；编号由PDF115/印刷99分布图定位。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf120",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 120,
+      "image_path": "assets/she-image-bank/BUUUUWRW-120.png",
+      "image_type": "建筑现状编号表",
+      "objects": [],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录5：景宁县东弄村建筑现状分析"
+      ],
+      "literature_status": [
+        "质量良好；2层；泥木结构；风貌良好；户主不是畲民，非传统畲寮；正常使用",
+        "质量良好；2层；砖混结构；风貌较差；后期新建；正常使用",
+        "质量良好；2层；泥木结构；风貌一般；正常使用",
+        "质量良好；2层；泥木结构；风貌较好；正常使用",
+        "质量较差；2层；泥木结构；风貌较差；现已废弃",
+        "质量一般；2层；泥木结构；风貌一般；正常使用"
+      ],
+      "evidence_excerpt": [
+        "编号32：户主不是畲民，非传统畲寮",
+        "编号33：砖混民居，后期新建，正常使用",
+        "编号34：民居，风貌一般，正常使用",
+        "编号35：民居，风貌较好，正常使用",
+        "编号36：民居，现已废弃"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中未列具体宅名或房主姓名；编号由PDF115/印刷99分布图定位。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf121",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 121,
+      "image_path": "assets/she-image-bank/BUUUUWRW-121.png",
+      "image_type": "建筑现状编号表",
+      "objects": [],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录5：景宁县东弄村建筑现状分析"
+      ],
+      "literature_status": [
+        "质量一般；2层；泥木结构；风貌一般；仅有一老人独居，部分废弃",
+        "质量良好；2层；泥木结构；风貌较好；建于1930年代；现已废弃",
+        "质量良好；2层；泥木结构；风貌较好；正常使用",
+        "质量一般；2层；泥木结构；风貌较好；正常使用",
+        "质量良好；2层；泥木结构；风貌一般；正常使用",
+        "质量一般；2层；泥木结构；风貌一般；正常使用"
+      ],
+      "evidence_excerpt": [
+        "编号39：只有一老人独居，部分废弃",
+        "编号40：曾为食堂，建于1930年代，现已废弃",
+        "编号41：民居，风貌较好，正常使用",
+        "编号42：民居，风貌较好，正常使用",
+        "编号43：质量一般，风貌较好，正常使用"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中未列具体宅名或房主姓名；编号由PDF115/印刷99分布图定位。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf122",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 122,
+      "image_path": "assets/she-image-bank/BUUUUWRW-122.png",
+      "image_type": "建筑现状编号表",
+      "objects": [],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录5：景宁县东弄村建筑现状分析"
+      ],
+      "literature_status": [
+        "质量一般；2层；泥木结构；风貌较好；现已废弃",
+        "质量良好；2层；泥木结构；风貌较好；正常使用",
+        "质量良好；2层；泥木结构；风貌良好；正常使用",
+        "质量较差；2层；泥木结构；风貌较差；现已废弃",
+        "质量一般；2层；泥木结构；风貌一般；正常使用",
+        "质量一般；2层；泥木结构；风貌一般；正常使用；户主不是畲民"
+      ],
+      "evidence_excerpt": [
+        "编号46：民居，现已废弃",
+        "编号47：民居，风貌较好，正常使用",
+        "编号48：民居，风貌良好，正常使用",
+        "编号49：民居，现已废弃",
+        "编号50：民居，质量一般，正常使用"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中未列具体宅名或房主姓名；编号由PDF115/印刷99分布图定位。"
+    },
+    {
+      "image_id": "BUUUUWRW-pdf123",
+      "source_key": "BUUUUWRW",
+      "pdf_page": 123,
+      "image_path": "assets/she-image-bank/BUUUUWRW-123.png",
+      "image_type": "建筑现状编号表",
+      "objects": [],
+      "places": [
+        "东弄村"
+      ],
+      "figure_table": [
+        "附录5：景宁县东弄村建筑现状分析"
+      ],
+      "literature_status": [
+        "质量较差；2层；泥木结构；风貌较差；现已废弃"
+      ],
+      "evidence_excerpt": [
+        "编号52：民居，现已废弃"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中未列具体宅名或房主姓名；编号由PDF115/印刷99分布图定位。"
+    },
+    {
+      "image_id": "ETTYATRB-pdf016",
+      "source_key": "ETTYATRB",
+      "pdf_page": 16,
+      "image_path": "assets/she-image-bank/ETTYATRB-016.png",
+      "image_type": "研究范围图与村落统计页",
+      "objects": [
+        "大张坑自然村/行政村"
+      ],
+      "places": [
+        "东坑镇大张坑行政村（含大张坑、岭口、草鱼塘3自然村）",
+        "东坑镇草鱼塘自然村",
+        "东坑镇岭口自然村",
+        "东坑镇大张坑自然村"
+      ],
+      "figure_table": [
+        "村落概况段及统计资料注",
+        "村落概况段",
+        "页下注③"
+      ],
+      "literature_status": [
+        "全村共有67户",
+        "草鱼塘自然村2户",
+        "岭口自然村6户",
+        "大张坑村59户",
+        "本文所论述的大张坑即大张坑自然村"
+      ],
+      "evidence_excerpt": [
+        "原文行政村辖3自然村；户数不转换为民居栋数。",
+        "原文所列三自然村顺序第一项。",
+        "原文所列三自然村顺序第二项。",
+        "原文所列三自然村顺序第三项。",
+        "据脚注将PDF20的“全村”限定为大张坑自然村。"
+      ],
+      "reuse_purpose": [
+        "研究范围与数量核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：研究范围图与村落统计页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "ETTYATRB-pdf017",
+      "source_key": "ETTYATRB",
+      "pdf_page": 17,
+      "image_path": "assets/she-image-bank/ETTYATRB-017.png",
+      "image_type": "村落统计表与历史资料图",
+      "objects": [
+        "大张坑村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "村落历史与数量背景"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落统计表与历史资料图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "ETTYATRB-pdf018",
+      "source_key": "ETTYATRB",
+      "pdf_page": 18,
+      "image_path": "assets/she-image-bank/ETTYATRB-018.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "ETTYATRB-pdf019",
+      "source_key": "ETTYATRB",
+      "pdf_page": 19,
+      "image_path": "assets/she-image-bank/ETTYATRB-019.png",
+      "image_type": "村落建筑照片组",
+      "objects": [
+        "大张坑村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "民居保存状态和环境"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：村落建筑照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "ETTYATRB-pdf020",
+      "source_key": "ETTYATRB",
+      "pdf_page": 20,
+      "image_path": "assets/she-image-bank/ETTYATRB-020.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "民居总体（未逐栋编号）",
+        "钢筋水泥结构民居（未逐栋编号）"
+      ],
+      "places": [
+        "东坑镇大张坑自然村"
+      ],
+      "figure_table": [
+        "村落现状调查段"
+      ],
+      "literature_status": [
+        "村内传统民居保存完整；全村37幢民居",
+        "钢筋水泥结构建筑"
+      ],
+      "evidence_excerpt": [
+        "记录原文直接给出的民居总数；不据37减1推算36幢传统建筑。",
+        "原文仅报告一幢钢筋水泥结构；不据此推断其余36幢均为传统民居。"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "ETTYATRB-pdf021",
+      "source_key": "ETTYATRB",
+      "pdf_page": 21,
+      "image_path": "assets/she-image-bank/ETTYATRB-021.png",
+      "image_type": "民居照片与文字页",
+      "objects": [
+        "大张坑村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "建筑状态和更新线索"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：民居照片与文字页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "ETTYATRB-pdf022",
+      "source_key": "ETTYATRB",
+      "pdf_page": 22,
+      "image_path": "assets/she-image-bank/ETTYATRB-022.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "ETTYATRB-pdf023",
+      "source_key": "ETTYATRB",
+      "pdf_page": 23,
+      "image_path": "assets/she-image-bank/ETTYATRB-023.png",
+      "image_type": "建筑照片组",
+      "objects": [
+        "大张坑村"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "民居外观和更新状态"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：建筑照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "ETTYATRB-pdf024",
+      "source_key": "ETTYATRB",
+      "pdf_page": 24,
+      "image_path": "assets/she-image-bank/ETTYATRB-024.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "PIMB8MAY-pdf001",
+      "source_key": "PIMB8MAY",
+      "pdf_page": 1,
+      "image_path": "assets/she-image-bank/PIMB8MAY-001.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "村落户数",
+        "村落人口"
+      ],
+      "places": [
+        "东弄畲族村"
+      ],
+      "figure_table": [
+        "1.村落概况"
+      ],
+      "literature_status": [
+        "其中约有57户人家",
+        "不足300人"
+      ],
+      "evidence_excerpt": [
+        "其中约有57户人家",
+        "不足300人"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "户数不是民居栋数；与其他论文行政村/自然村统计口径不同，不作合并。；不以299替代不精确上限；非建筑数量。"
+    },
+    {
+      "image_id": "PIMB8MAY-pdf002",
+      "source_key": "PIMB8MAY",
+      "pdf_page": 2,
+      "image_path": "assets/she-image-bank/PIMB8MAY-002.png",
+      "image_type": "建筑/遗存照片或案例页",
+      "objects": [
+        "蓝氏家族宗祠",
+        "民居建筑群（泛称）"
+      ],
+      "places": [
+        "东弄畲族村"
+      ],
+      "figure_table": [
+        "村落空间布局正文",
+        "3.村落民居建筑及配图说明"
+      ],
+      "literature_status": [
+        "建于清道光年间；重大节庆或商议大事时全村聚集之地",
+        "房屋依山纵向层叠错落；部分蓝宅结构与装饰保存较好"
+      ],
+      "evidence_excerpt": [
+        "蓝氏家族宗祠建于清道光年间",
+        "民居建筑基本坐落于同一块坝，依山纵向层叠错落"
+      ],
+      "reuse_purpose": [
+        "对象识别与保存状态参照"
+      ],
+      "confidence": "A",
+      "analysis_note": "文中称蓝姓同祖；未给具体宗祠地址或编号。；照片注记“民居建筑前的茶园”“民居的入口处”“民居建筑内院”，未标具体宅名。"
+    },
+    {
+      "image_id": "VRWLBN8X-pdf001",
+      "source_key": "VRWLBN8X",
+      "pdf_page": 1,
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf1.png",
+      "image_type": "民居类型照片页",
+      "objects": [
+        "景宁畲族住宅案例"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "泥间和居住类型参考"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：民居类型照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VRWLBN8X-pdf002",
+      "source_key": "VRWLBN8X",
+      "pdf_page": 2,
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf2.png",
+      "image_type": "传统民居照片/图注页",
+      "objects": [
+        "砖木结构庭院旁“泥间”",
+        "河边斜坡木构干栏民居"
+      ],
+      "places": [
+        "鹤溪镇近郊某村（村名未详）",
+        "东坑镇附近某村（村名未详）"
+      ],
+      "figure_table": [
+        "图1（图注在PDF3/印刷59）",
+        "图1（图注PDF3/印刷59）"
+      ],
+      "literature_status": [
+        "泥墙围合底层用于养牛",
+        "上两层全木构，底层木柱间以砖石围合，用于堆放杂物"
+      ],
+      "evidence_excerpt": [
+        "占地大约10平方米左右，两层",
+        "主体为三层，上面两层为全木构"
+      ],
+      "reuse_purpose": [
+        "对象识别与保存状态参照"
+      ],
+      "confidence": "A",
+      "analysis_note": "村名与宅主未记载；尺寸不是数量。；图注地点为东坑镇至大漈途中；村名未详。"
+    },
+    {
+      "image_id": "VRWLBN8X-pdf003",
+      "source_key": "VRWLBN8X",
+      "pdf_page": 3,
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf3.png",
+      "image_type": "传统民居照片/图注页",
+      "objects": [
+        "蓝姓村落民居（未逐栋编号）"
+      ],
+      "places": [
+        "鹤溪镇南部边缘“畲族风情村”"
+      ],
+      "figure_table": [],
+      "literature_status": [
+        "有些民居逾百年，多为两层、五或七开间，木构架及小青瓦；作者认为仍见干栏文化特征"
+      ],
+      "evidence_excerpt": [
+        "村中有些民居已有一百多年的历史"
+      ],
+      "reuse_purpose": [
+        "对象识别与保存状态参照"
+      ],
+      "confidence": "A",
+      "analysis_note": "文中称“畲族风情村”，未给正式村名，保留作者标签。"
+    },
+    {
+      "image_id": "VRWLBN8X-pdf004",
+      "source_key": "VRWLBN8X",
+      "pdf_page": 4,
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf4.png",
+      "image_type": "传统民居照片/图注页",
+      "objects": [
+        "雷姓民居（3户共建共居）"
+      ],
+      "places": [
+        "东坑镇雷姓畲族村（村名未详）"
+      ],
+      "figure_table": [
+        "图2"
+      ],
+      "literature_status": [
+        "三户共建共居；平地条件仍采用横向延展"
+      ],
+      "evidence_excerpt": [
+        "有一栋三户人家合住的民居，横向加长至11开间"
+      ],
+      "reuse_purpose": [
+        "对象识别与保存状态参照"
+      ],
+      "confidence": "A",
+      "analysis_note": "11为开间数，3为户数，均非建筑栋数。"
+    },
+    {
+      "image_id": "VRWLBN8X-pdf005",
+      "source_key": "VRWLBN8X",
+      "pdf_page": 5,
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf5.png",
+      "image_type": "传统民居照片/图注页",
+      "objects": [
+        "潘家大院",
+        "梅林老先生宅",
+        "梅氏院落",
+        "王姓汉族村落及民居",
+        "山脚一户民居侧挑大晾台"
+      ],
+      "places": [
+        "鹤溪镇",
+        "大祭村（原文名）",
+        "九龙乡岩下村"
+      ],
+      "figure_table": [
+        "图3",
+        "图4"
+      ],
+      "literature_status": [
+        "多进式汉族院落；厅堂正面开敞并有多重屋檐",
+        "各层均设屋檐，一层堂屋正面开敞",
+        "主屋两重腰檐，底层横梁为装饰重点",
+        "半山村落；全木构民居横向扩展，借用畲族开敞堂屋、腰檐等做法",
+        "长木梁挑出，铺竹片且无栏杆"
+      ],
+      "evidence_excerpt": [
+        "鹤溪镇潘家大院，是一处有数百年历史的多进式汉族院落",
+        "大祭村梅林老先生宅第三层，每层均设屋檐",
+        "大祭乡梅氏院落（汉族）",
+        "是一个建于半山的王姓汉族村落",
+        "有一户建于山脚的民居，在屋子的侧面挑出去一个轻灵的大晾台"
+      ],
+      "reuse_purpose": [
+        "对象识别与保存状态参照"
+      ],
+      "confidence": "A",
+      "analysis_note": "景宁境内汉族比较案例，不归为畲族住宅。；原文作“大祭村”；不擅自改并其他文献“ 大漈”写法。；原文地名照录，不能仅凭同音/近形和其他记录合并。"
+    },
+    {
+      "image_id": "VRWLBN8X-pdf006",
+      "source_key": "VRWLBN8X",
+      "pdf_page": 6,
+      "image_path": "assets/she-image-bank/VRWLBN8X-pdf6.png",
+      "image_type": "传统民居照片/图注页",
+      "objects": [
+        "大祭村木构古廊桥（胡桥、护官桥）",
+        "胡桥",
+        "护官桥"
+      ],
+      "places": [
+        "大祭村（原文名）"
+      ],
+      "figure_table": [
+        "图5"
+      ],
+      "literature_status": [
+        "胡桥有戏台/观众席；护官桥有三层空间，分别含关帝庙、文昌阁、魁星楼",
+        "桥上游一侧建戏台，下游侧设观众席",
+        "三层一侧包含关帝庙、文昌阁、魁星楼"
+      ],
+      "evidence_excerpt": [
+        "有两座木构古廊桥，一座名胡桥，另一座名护官桥",
+        "一座名胡桥，桥面很宽",
+        "名护官桥，该桥上游一侧为三层"
+      ],
+      "reuse_purpose": [
+        "对象识别与保存状态参照"
+      ],
+      "confidence": "A",
+      "analysis_note": "原文地名作大祭，不自行与其他字形合并；各层数是空间层级，不是桥栋数。；原文地名写法照录。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf106",
+      "source_key": "VSES7L3M",
+      "pdf_page": 106,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf106.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [
+        "鹤溪中路（建设路—府前路）建筑有机更新示范段",
+        "景宁广播电视大楼（鹤溪中路转角）"
+      ],
+      "places": [
+        "景宁县城"
+      ],
+      "figure_table": [
+        "图7-1",
+        "图7-1（图注扫描不完整）"
+      ],
+      "literature_status": [
+        "论文称为建筑有机更新实践成果",
+        "论文称为县城标志性建筑；更新章节图示广电中心平改坡"
+      ],
+      "evidence_excerpt": [
+        "工程于2010年1月开始进行前期研究",
+        "景宁广播电视大楼建筑特色鲜明"
+      ],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "A",
+      "analysis_note": "更新项目，不是传统旧屋清单。；县城项目/现状建筑，不属于传统村落存量。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf111",
+      "source_key": "VSES7L3M",
+      "pdf_page": 111,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf111.png",
+      "image_type": "PDF关键页，待逐图核对",
+      "objects": [],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "需人工确认图像用途"
+      ],
+      "confidence": "C",
+      "analysis_note": ""
+    },
+    {
+      "image_id": "VSES7L3M-pdf034",
+      "source_key": "VSES7L3M",
+      "pdf_page": 34,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf34.png",
+      "image_type": "廊桥照片/图注页",
+      "objects": [
+        "景宁三条桥（归属未明）"
+      ],
+      "places": [
+        "景宁三条桥"
+      ],
+      "figure_table": [
+        "图注（图号未确认）"
+      ],
+      "literature_status": [
+        "作者称景宁廊桥众多、形式多样；未记该桥具体保存状态"
+      ],
+      "evidence_excerpt": [
+        "廊桥——景宁三条桥"
+      ],
+      "reuse_purpose": [
+        "桥梁形态参考，归属待核"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：廊桥照片/图注页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf035",
+      "source_key": "VSES7L3M",
+      "pdf_page": 35,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf35.png",
+      "image_type": "村落分布与宗祠/庙宇照片页",
+      "objects": [
+        "东弄、周湖、大张坑、深垟、米岩山等"
+      ],
+      "places": [
+        "东弄村",
+        "周湖村",
+        "大张坑村",
+        "深垟村",
+        "米岩山村",
+        "半月里村",
+        "白露坑村"
+      ],
+      "figure_table": [
+        "图3.14",
+        "图3.15"
+      ],
+      "literature_status": [
+        "作为浙南/闽东代表性畲族聚落调查点",
+        "已荒废；梁架和雕花仍显精美",
+        "因村民日常维护而香火不断、日渐峥嵘",
+        "多二层、个别三层、自成院落；未给建筑总数",
+        "原文称村民日日维护汤三公庙"
+      ],
+      "evidence_excerpt": [
+        "东弄村",
+        "周湖村",
+        "大张坑村",
+        "深垟村",
+        "米岩山村"
+      ],
+      "reuse_purpose": [
+        "调查地点和公共建筑状态"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：村落分布与宗祠/庙宇照片页；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf037",
+      "source_key": "VSES7L3M",
+      "pdf_page": 37,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf37.png",
+      "image_type": "宗祠/大宅照片组",
+      "objects": [
+        "雷氏祠堂、陈璧大宅遗址门头"
+      ],
+      "places": [
+        "大张坑村",
+        "深垟村"
+      ],
+      "figure_table": [
+        "图3.16",
+        "图3.17"
+      ],
+      "literature_status": [
+        "图注显示祠堂；正文未给保护状态",
+        "大宅已毁，门头保存较完整"
+      ],
+      "evidence_excerpt": [
+        "雷氏祠堂",
+        "宅虽已毁，但宅前保存完好的门头"
+      ],
+      "reuse_purpose": [
+        "遗存状态和建筑类型"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：宗祠/大宅照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf038",
+      "source_key": "VSES7L3M",
+      "pdf_page": 38,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf38.png",
+      "image_type": "宗祠/民居照片组",
+      "objects": [
+        "雷世儒雷氏大宅等"
+      ],
+      "places": [
+        "半月里村"
+      ],
+      "figure_table": [
+        "图3.18"
+      ],
+      "literature_status": [
+        "作者称保存较好；院落布局、环廊、厅堂上下通高"
+      ],
+      "evidence_excerpt": [
+        "保存着一座畲族大宅——雷世儒雷氏大宅"
+      ],
+      "reuse_purpose": [
+        "民居立面和保存状态"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：宗祠/民居照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf039",
+      "source_key": "VSES7L3M",
+      "pdf_page": 39,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf39.png",
+      "image_type": "村落老宅照片组",
+      "objects": [
+        "半月里/白露坑等"
+      ],
+      "places": [
+        "白露坑村"
+      ],
+      "figure_table": [],
+      "literature_status": [
+        "多为单层夯土、小青瓦悬山顶；多数老宅荒废，居民多迁出老村另建新房"
+      ],
+      "evidence_excerpt": [
+        "村落大多老宅如今已荒废"
+      ],
+      "reuse_purpose": [
+        "村落民居状态比较"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：村落老宅照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf040",
+      "source_key": "VSES7L3M",
+      "pdf_page": 40,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf40.png",
+      "image_type": "民居模型与立面图",
+      "objects": [
+        "周湖村8号民居"
+      ],
+      "places": [
+        "周湖村"
+      ],
+      "figure_table": [
+        "图3.20–3.21"
+      ],
+      "literature_status": [
+        "以典型畲族民居形态呈现；无现状保存评述"
+      ],
+      "evidence_excerpt": [
+        "浙江景宁周湖村8号民居建筑"
+      ],
+      "reuse_purpose": [
+        "形态、立面和类型参考"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：民居模型与立面图；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf041",
+      "source_key": "VSES7L3M",
+      "pdf_page": 41,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf41.png",
+      "image_type": "平面图与室内照片",
+      "objects": [
+        "汤湾村4号民宅"
+      ],
+      "places": [
+        "汤湾村"
+      ],
+      "figure_table": [
+        "图3.22"
+      ],
+      "literature_status": [
+        "展示住宅平面、照片与室内使用；无现状保存评述"
+      ],
+      "evidence_excerpt": [
+        "浙江省景宁畲族自治县汤湾村4号民宅"
+      ],
+      "reuse_purpose": [
+        "平面与室内空间参考"
+      ],
+      "confidence": "A",
+      "analysis_note": "人工视觉复核：平面图与室内照片；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf042",
+      "source_key": "VSES7L3M",
+      "pdf_page": 42,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf42.png",
+      "image_type": "住宅照片组",
+      "objects": [
+        "周湖/汤湾等民居"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "住宅外观与构造参考"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：住宅照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf043",
+      "source_key": "VSES7L3M",
+      "pdf_page": 43,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf43.png",
+      "image_type": "干栏/住宅照片组",
+      "objects": [
+        "景宁民居案例"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "架空、立面与材料参考"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：干栏/住宅照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "VSES7L3M-pdf044",
+      "source_key": "VSES7L3M",
+      "pdf_page": 44,
+      "image_path": "assets/she-image-bank/VSES7L3M-pdf44.png",
+      "image_type": "门楼/民居遗址照片组",
+      "objects": [
+        "景宁民居案例"
+      ],
+      "places": [],
+      "figure_table": [],
+      "literature_status": [],
+      "evidence_excerpt": [],
+      "reuse_purpose": [
+        "门楼、遗址和保存状态"
+      ],
+      "confidence": "B",
+      "analysis_note": "人工视觉复核：门楼/民居遗址照片组；对象/用途按图注和版面识别。"
+    },
+    {
+      "image_id": "ZWDJJE99-pdf027",
+      "source_key": "ZWDJJE99",
+      "pdf_page": 27,
+      "image_path": "assets/she-image-bank/ZWDJJE99-027.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "表1.2研究对象选取表中的村名"
+      ],
+      "places": [
+        "桃源村",
+        "深垟村",
+        "李宝村",
+        "双后降村",
+        "吴布村",
+        "大张坑村",
+        "马坑村",
+        "半垟村",
+        "安亭村",
+        "张庄村",
+        "降石村",
+        "周湖村",
+        "西一村",
+        "董川村",
+        "库头村",
+        "小佐村",
+        "高演村",
+        "季庄村",
+        "徐砻村",
+        "张坑村",
+        "隆川村",
+        "大均村",
+        "茗源村",
+        "高沈村"
+      ],
+      "figure_table": [
+        "表1.2研究对象选取表：畲族村",
+        "表1.2研究对象选取表：汉族村"
+      ],
+      "literature_status": [
+        "表1.2列入“畲族村”组",
+        "表1.2列入“汉族村”组"
+      ],
+      "evidence_excerpt": [
+        "表1.2列出的畲族村名",
+        "表1.2列出的汉族村名"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表格分类按原文保留；不表示每村均有逐栋调查记录。；季庄村在正文样本说明中又称畲族村，原文分类冲突并列保留。"
+    },
+    {
+      "image_id": "ZWDJJE99-pdf055",
+      "source_key": "ZWDJJE99",
+      "pdf_page": 55,
+      "image_path": "assets/she-image-bank/ZWDJJE99-055.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "侧样分型统计表中的民居编号记录"
+      ],
+      "places": [
+        "周湖村"
+      ],
+      "figure_table": [
+        "表3.7"
+      ],
+      "literature_status": [
+        "表中民居编号记录"
+      ],
+      "evidence_excerpt": [
+        "表格编号项数为人工逐行清点；不可当作全村民居栋数。"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表内民居编号有对应分布图定位；逐行计数不是全村建筑总量，一栋建筑是否对应多个侧样未说明。"
+    },
+    {
+      "image_id": "ZWDJJE99-pdf056",
+      "source_key": "ZWDJJE99",
+      "pdf_page": 56,
+      "image_path": "assets/she-image-bank/ZWDJJE99-056.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "侧样分型统计表中的民居编号记录"
+      ],
+      "places": [
+        "张庄村"
+      ],
+      "figure_table": [
+        "表3.8"
+      ],
+      "literature_status": [
+        "表中民居编号记录"
+      ],
+      "evidence_excerpt": [
+        "表格编号项数为人工逐行清点；不可当作全村民居栋数。"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表内民居编号有对应分布图定位；逐行计数不是全村建筑总量，一栋建筑是否对应多个侧样未说明。"
+    },
+    {
+      "image_id": "ZWDJJE99-pdf057",
+      "source_key": "ZWDJJE99",
+      "pdf_page": 57,
+      "image_path": "assets/she-image-bank/ZWDJJE99-057.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "侧样分型统计表中的民居编号记录"
+      ],
+      "places": [
+        "季庄村"
+      ],
+      "figure_table": [
+        "表3.9"
+      ],
+      "literature_status": [
+        "表中民居编号记录"
+      ],
+      "evidence_excerpt": [
+        "表格编号项数为人工逐行清点；不可当作全村民居栋数。"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "表中编号1–10可由对应分布图定位；表格行数与建筑栋数关系未交代。该文表1.2又将季庄列入汉族村组，与本段“畲族村”说法同源冲突，未判定。"
+    },
+    {
+      "image_id": "ZWDJJE99-pdf113",
+      "source_key": "ZWDJJE99",
+      "pdf_page": 113,
+      "image_path": "assets/she-image-bank/ZWDJJE99-113.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "村落总体（未列单体宅名）",
+        "任宅、周宅、清风桥",
+        "清代建筑（未具名）",
+        "林氏宗祠、吴家老宅",
+        "文物保护点（表中未逐项命名）",
+        "陈氏老宅",
+        "未具名民居遗存",
+        "潘家大院",
+        "徐砻桥",
+        "陈家老宅、吴家老宅",
+        "未具名畲族老宅",
+        "张氏宗祠",
+        "刘宅",
+        "46号新处"
+      ],
+      "places": [
+        "大际乡西一村",
+        "梧桐乡高演村",
+        "鹤溪街道东弄村",
+        "鹤溪街道周湖村",
+        "东坑镇桃源村",
+        "英川镇隆川村",
+        "郑坑乡吴布村",
+        "毛垟乡库头村",
+        "红星街道金包山村",
+        "鹤溪街道鹤溪村",
+        "渤海镇安亭村",
+        "东坑镇深垟村",
+        "东坑镇徐砻村",
+        "东坑镇大张坑村",
+        "东坑镇茗源村",
+        "英川镇英川村",
+        "英川镇董川村",
+        "英川镇黄谢圩村",
+        "英川镇梅漴村",
+        "英川镇王宅村",
+        "英川镇跃垟村",
+        "沙湾镇七里村",
+        "沙湾镇道化村",
+        "沙湾镇何处村",
+        "沙湾镇季庄村",
+        "沙湾镇李处村",
+        "沙湾镇小地村",
+        "沙湾镇叶桥村",
+        "沙湾镇张庄村",
+        "大均乡大均村"
+      ],
+      "figure_table": [
+        "附录A：景宁地区国家级传统村落民居情况调查表"
+      ],
+      "literature_status": [
+        "民居数量多，保存较完善",
+        "传统民居保存较好；有任宅、周宅、清风桥三项县级历史建筑",
+        "已更新改造，整村搬迁",
+        "更新改造，保存较完善",
+        "民居数量多，保存较完善；清代建筑10幢",
+        "已进行更新改造；现存林氏宗祠、吴家老宅两处县级历史建筑",
+        "吴村与布袋村合并而成；现村民均为畲民；民居保存较完整",
+        "已进行更新改造；文保6处；有陈氏老宅一处县级历史建筑",
+        "有陈氏老宅一处县级历史建筑",
+        "民居遗存较少，仅存一处",
+        "仅存潘家大院一处",
+        "民居数量一般，保存较好",
+        "已经改造；民居保存较好，特色明显",
+        "民居数量一般但保存较好；有国宝徐砻桥一座",
+        "民居遗存较少",
+        "有陈家老宅、吴家老宅两处县级历史建筑",
+        "畲族老宅一处",
+        "民居遗存较少；有张氏宗祠一处县级历史建筑",
+        "民居数量较少，保存一般；有刘宅一处县级历史建筑",
+        "民居数量较少，保存一般",
+        "有老宅，但民居数量较少，保存一般",
+        "民居数量多，保存较完善；有刘宅一处县级历史建筑",
+        "民居数量较少，保存一般；有46号新处一处县级历史建筑"
+      ],
+      "evidence_excerpt": [
+        "民居数量多，保存较完善",
+        "任宅、周宅、清风桥三项县级历史建筑",
+        "已更新改造，整村搬迁",
+        "更新改造，保存较完善",
+        "清代建筑10幢"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "数量为表述中的历史建筑项目数，其中清风桥非住宅。；原文直接数量，未给逐栋名称。；原文将此数表述为文保处数，不作民居总量。"
+    },
+    {
+      "image_id": "ZWDJJE99-pdf114",
+      "source_key": "ZWDJJE99",
+      "pdf_page": 114,
+      "image_path": "assets/she-image-bank/ZWDJJE99-114.png",
+      "image_type": "范围/编号/统计表",
+      "objects": [
+        "村落总体（未列单体宅名）",
+        "潘正昌、朱学礼、寿章老宅、澍棠老宅",
+        "陈氏宗祠",
+        "吴氏老宅、刘氏老宅",
+        "张氏、叶氏、柳氏宗祠（原文如此，数量为两处）",
+        "毛家老宅",
+        "陈家老宅"
+      ],
+      "places": [
+        "大均乡李宝村",
+        "澄照乡金坵村",
+        "澄照乡漈头村",
+        "大漈乡小佐村",
+        "景南乡东垟村",
+        "雁溪乡雁溪村",
+        "鸬鹚乡鸬鹚村",
+        "鸬鹚乡仁字坑村",
+        "鸬鹚乡山下村",
+        "鸬鹚乡印章村",
+        "鸬鹚乡驮戟村",
+        "鸬鹚乡徐崇村",
+        "标溪乡标溪村",
+        "标溪乡叶谢村",
+        "毛垟乡毛垟村",
+        "毛垟乡陈坪村",
+        "毛垟乡炉西村",
+        "毛垟乡上沙湾村",
+        "秋炉乡秋炉村",
+        "秋炉乡新塘洋村",
+        "大地乡跃垟村",
+        "大地乡张坑村",
+        "九龙乡高沈村"
+      ],
+      "figure_table": [
+        "附录A：景宁地区国家级传统村落民居情况调查表"
+      ],
+      "literature_status": [
+        "民居数量较少，保存一般",
+        "整村搬迁",
+        "有潘正昌、朱学礼、寿章老宅、澍棠老宅四处县级历史建筑",
+        "民居数量多，保存较完善",
+        "保存完好较少；有陈氏宗祠一处县级历史建筑",
+        "保存完好较少；有吴氏老宅、刘氏老宅两处县级历史建筑",
+        "保存完好较少；有张氏、叶氏、柳氏宗祠两处县级历史建筑",
+        "民居数量较少，但保存一般",
+        "保存完好较少；有毛家老宅一处县级历史建筑",
+        "保存完好较少；有陈家老宅一处县级历史建筑",
+        "民居数量较多，保存较好"
+      ],
+      "evidence_excerpt": [
+        "民居数量较少，保存一般",
+        "整村搬迁",
+        "有潘正昌、朱学礼、寿章老宅、澍棠老宅四处县级历史建筑",
+        "民居数量多，保存较完善",
+        "有陈氏宗祠一处县级历史建筑"
+      ],
+      "reuse_purpose": [
+        "数量、范围与样本核查"
+      ],
+      "confidence": "A",
+      "analysis_note": "图像中乡名行首有“县”字样；按县域上下文整理为“鸬鹚乡仁字坑村”。；按原文保留三姓与“两处”并列表述，不自行拆分。"
+    }
+  ]
+}

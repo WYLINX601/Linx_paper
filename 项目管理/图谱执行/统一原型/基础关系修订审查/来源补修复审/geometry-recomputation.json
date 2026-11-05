@@ -1,0 +1,1283 @@
+{
+  "comparisons": [
+    {
+      "space": "S01",
+      "segment": "N",
+      "participant": "W03",
+      "independent": [
+        [
+          0.0,
+          0.8800000000000003
+        ],
+        [
+          2.0800000000000005,
+          2.9600000000000004
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8800000000000003
+        ],
+        [
+          2.0800000000000005,
+          2.9600000000000004
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S01",
+      "segment": "N",
+      "independentUnion": [
+        [
+          0.0,
+          0.8800000000000003
+        ],
+        [
+          2.0800000000000005,
+          2.9600000000000004
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8800000000000003
+        ],
+        [
+          2.0800000000000005,
+          2.9600000000000004
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S01",
+      "segment": "E",
+      "participant": "W05",
+      "independent": [
+        [
+          0.0,
+          3.58
+        ],
+        [
+          4.58,
+          5.58
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          3.5800000000000005
+        ],
+        [
+          4.58,
+          5.58
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S01",
+      "segment": "E",
+      "independentUnion": [
+        [
+          0.0,
+          3.58
+        ],
+        [
+          4.58,
+          5.58
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          3.5800000000000005
+        ],
+        [
+          4.58,
+          5.58
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S01",
+      "segment": "S",
+      "independentUnion": [],
+      "reported": [],
+      "equal": true
+    },
+    {
+      "space": "S01",
+      "segment": "W",
+      "participant": "W04",
+      "independent": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.58
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.58
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S01",
+      "segment": "W",
+      "independentUnion": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.58
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.0,
+          5.58
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S02",
+      "segment": "N",
+      "participant": "W03",
+      "independent": [
+        [
+          0.0,
+          0.88
+        ],
+        [
+          2.08,
+          2.96
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.88
+        ],
+        [
+          2.08,
+          2.96
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S02",
+      "segment": "N",
+      "independentUnion": [
+        [
+          0.0,
+          0.88
+        ],
+        [
+          2.08,
+          2.96
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.88
+        ],
+        [
+          2.08,
+          2.96
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S02",
+      "segment": "E",
+      "participant": "W04",
+      "independent": [
+        [
+          0.0,
+          3.58
+        ],
+        [
+          4.58,
+          5.46
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          3.5800000000000005
+        ],
+        [
+          4.580000000000001,
+          5.46
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S02",
+      "segment": "E",
+      "independentUnion": [
+        [
+          0.0,
+          3.58
+        ],
+        [
+          4.58,
+          5.46
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          3.5800000000000005
+        ],
+        [
+          4.580000000000001,
+          5.46
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S02",
+      "segment": "S",
+      "participant": "W06",
+      "independent": [
+        [
+          0.0,
+          0.8799999999999999
+        ],
+        [
+          2.08,
+          2.96
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8799999999999999
+        ],
+        [
+          2.08,
+          2.96
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S02",
+      "segment": "S",
+      "independentUnion": [
+        [
+          0.0,
+          0.8799999999999999
+        ],
+        [
+          2.08,
+          2.96
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8799999999999999
+        ],
+        [
+          2.08,
+          2.96
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S02",
+      "segment": "W",
+      "participant": "W01",
+      "independent": [
+        [
+          0.0,
+          5.46
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          5.46
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S02",
+      "segment": "W",
+      "independentUnion": [
+        [
+          0.0,
+          5.46
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          5.46
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S03",
+      "segment": "N",
+      "participant": "W03",
+      "independent": [
+        [
+          0.0,
+          0.8800000000000008
+        ],
+        [
+          2.08,
+          2.960000000000001
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8800000000000008
+        ],
+        [
+          2.08,
+          2.960000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S03",
+      "segment": "N",
+      "independentUnion": [
+        [
+          0.0,
+          0.8800000000000008
+        ],
+        [
+          2.08,
+          2.960000000000001
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8800000000000008
+        ],
+        [
+          2.08,
+          2.960000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S03",
+      "segment": "E",
+      "participant": "W02",
+      "independent": [
+        [
+          0.0,
+          5.46
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          5.46
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S03",
+      "segment": "E",
+      "independentUnion": [
+        [
+          0.0,
+          5.46
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          5.46
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S03",
+      "segment": "S",
+      "participant": "W07",
+      "independent": [
+        [
+          0.0,
+          0.8800000000000008
+        ],
+        [
+          2.08,
+          2.960000000000001
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8800000000000008
+        ],
+        [
+          2.08,
+          2.960000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S03",
+      "segment": "S",
+      "independentUnion": [
+        [
+          0.0,
+          0.8800000000000008
+        ],
+        [
+          2.08,
+          2.960000000000001
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8800000000000008
+        ],
+        [
+          2.08,
+          2.960000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S03",
+      "segment": "W",
+      "participant": "W05",
+      "independent": [
+        [
+          0.0,
+          0.8799999999999999
+        ],
+        [
+          1.88,
+          5.46
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8799999999999999
+        ],
+        [
+          1.88,
+          5.46
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S03",
+      "segment": "W",
+      "independentUnion": [
+        [
+          0.0,
+          0.8799999999999999
+        ],
+        [
+          1.88,
+          5.46
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.8799999999999999
+        ],
+        [
+          1.88,
+          5.46
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "N",
+      "participant": "W01",
+      "independent": [
+        [
+          0.0,
+          0.12
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.11999999999999998
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "N",
+      "participant": "W02",
+      "independent": [
+        [
+          9.48,
+          9.6
+        ]
+      ],
+      "reported": [
+        [
+          9.479999999999999,
+          9.6
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "N",
+      "participant": "W06",
+      "independent": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.2,
+          3.2
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.2,
+          3.1999999999999997
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "N",
+      "participant": "W07",
+      "independent": [
+        [
+          6.4,
+          7.4
+        ],
+        [
+          8.6,
+          9.6
+        ]
+      ],
+      "reported": [
+        [
+          6.3999999999999995,
+          7.400000000000001
+        ],
+        [
+          8.6,
+          9.6
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "N",
+      "independentUnion": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.2,
+          3.2
+        ],
+        [
+          6.4,
+          7.4
+        ],
+        [
+          8.6,
+          9.6
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          1.0
+        ],
+        [
+          2.2,
+          3.1999999999999997
+        ],
+        [
+          6.3999999999999995,
+          7.400000000000001
+        ],
+        [
+          8.6,
+          9.6
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "E",
+      "participant": "W02",
+      "independent": [
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "E",
+      "participant": "W07",
+      "independent": [
+        [
+          0.0,
+          0.1200000000000001
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.1200000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "E",
+      "independentUnion": [
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "S",
+      "participant": "W01",
+      "independent": [
+        [
+          9.48,
+          9.6
+        ]
+      ],
+      "reported": [
+        [
+          9.479999999999999,
+          9.6
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "S",
+      "participant": "W02",
+      "independent": [
+        [
+          0.0,
+          0.11999999999999922
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.1199999999999992
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "S",
+      "participant": "C01",
+      "independent": [
+        [
+          9.459999999999999,
+          9.6
+        ]
+      ],
+      "reported": [
+        [
+          9.459999999999999,
+          9.6
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "S",
+      "participant": "C02",
+      "independent": [
+        [
+          6.26,
+          6.539999999999999
+        ]
+      ],
+      "reported": [
+        [
+          6.26,
+          6.539999999999999
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "S",
+      "participant": "C03",
+      "independent": [
+        [
+          3.059999999999999,
+          3.3399999999999994
+        ]
+      ],
+      "reported": [
+        [
+          3.059999999999999,
+          3.3399999999999994
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "S",
+      "participant": "C04",
+      "independent": [
+        [
+          0,
+          0.14
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.14
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "S",
+      "independentUnion": [
+        [
+          0.0,
+          0.14
+        ],
+        [
+          3.059999999999999,
+          3.3399999999999994
+        ],
+        [
+          6.26,
+          6.539999999999999
+        ],
+        [
+          9.459999999999999,
+          9.6
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.14
+        ],
+        [
+          3.059999999999999,
+          3.3399999999999994
+        ],
+        [
+          6.26,
+          6.539999999999999
+        ],
+        [
+          9.459999999999999,
+          9.6
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "W",
+      "participant": "W01",
+      "independent": [
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "W",
+      "participant": "W06",
+      "independent": [
+        [
+          1.38,
+          1.5
+        ]
+      ],
+      "reported": [
+        [
+          1.38,
+          1.5
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S04",
+      "segment": "W",
+      "independentUnion": [
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          1.5
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "N",
+      "participant": "S04",
+      "independent": [],
+      "reported": [],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "N",
+      "participant": "C01",
+      "independent": [
+        [
+          0,
+          0.020000000000000018
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.020000000000000004
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "N",
+      "participant": "C02",
+      "independent": [
+        [
+          2.94,
+          3.22
+        ]
+      ],
+      "reported": [
+        [
+          2.94,
+          3.22
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "N",
+      "participant": "C03",
+      "independent": [
+        [
+          6.140000000000001,
+          6.42
+        ]
+      ],
+      "reported": [
+        [
+          6.140000000000001,
+          6.42
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "N",
+      "participant": "C04",
+      "independent": [
+        [
+          9.34,
+          9.360000000000001
+        ]
+      ],
+      "reported": [
+        [
+          9.34,
+          9.360000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "N",
+      "independentUnion": [
+        [
+          0,
+          0.020000000000000018
+        ],
+        [
+          2.94,
+          3.22
+        ],
+        [
+          6.140000000000001,
+          6.42
+        ],
+        [
+          9.34,
+          9.360000000000001
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.020000000000000004
+        ],
+        [
+          2.94,
+          3.22
+        ],
+        [
+          6.140000000000001,
+          6.42
+        ],
+        [
+          9.34,
+          9.360000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "E",
+      "participant": "W09",
+      "independent": [
+        [
+          0.0,
+          4.68
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          4.68
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "E",
+      "independentUnion": [
+        [
+          0.0,
+          4.68
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          4.68
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "S",
+      "participant": "W10",
+      "independent": [
+        [
+          0.0,
+          3.880000000000001
+        ],
+        [
+          5.48,
+          9.360000000000001
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          3.880000000000001
+        ],
+        [
+          5.4799999999999995,
+          9.360000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "S",
+      "independentUnion": [
+        [
+          0.0,
+          3.880000000000001
+        ],
+        [
+          5.48,
+          9.360000000000001
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          3.880000000000001
+        ],
+        [
+          5.4799999999999995,
+          9.360000000000001
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "W",
+      "participant": "W08",
+      "independent": [
+        [
+          0.0,
+          4.68
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          4.68
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S05",
+      "segment": "W",
+      "independentUnion": [
+        [
+          0.0,
+          4.68
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          4.68
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S06",
+      "segment": "N",
+      "participant": "W10",
+      "independent": [
+        [
+          0.0,
+          0.20000000000000018
+        ],
+        [
+          1.7999999999999998,
+          2.0
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.20000000000000018
+        ],
+        [
+          1.7999999999999998,
+          2.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S06",
+      "segment": "N",
+      "independentUnion": [
+        [
+          0.0,
+          0.20000000000000018
+        ],
+        [
+          1.7999999999999998,
+          2.0
+        ]
+      ],
+      "reported": [
+        [
+          0.0,
+          0.20000000000000018
+        ],
+        [
+          1.7999999999999998,
+          2.0
+        ]
+      ],
+      "equal": true
+    },
+    {
+      "space": "S06",
+      "segment": "E",
+      "independentUnion": [],
+      "reported": [],
+      "equal": true
+    },
+    {
+      "space": "S06",
+      "segment": "S",
+      "independentUnion": [],
+      "reported": [],
+      "equal": true
+    },
+    {
+      "space": "S06",
+      "segment": "W",
+      "independentUnion": [],
+      "reported": [],
+      "equal": true
+    }
+  ],
+  "columnLengths": [
+    0.14000000000000057,
+    0.27999999999999936,
+    0.28000000000000025,
+    0.14
+  ],
+  "gateIntervals": [
+    [
+      0.0,
+      0.20000000000000018
+    ],
+    [
+      1.7999999999999998,
+      2.0
+    ]
+  ],
+  "gateNet": 0.40000000000000036,
+  "roofAreas": {
+    "S01": 16.516800000000003,
+    "S02": 16.1616,
+    "S03": 16.161600000000004,
+    "S04": 14.399999999999999,
+    "S05": 5.6160000000000005,
+    "S06": 0.0
+  },
+  "I04GapIntervals": [
+    [
+      0,
+      2.92
+    ],
+    [
+      3.2,
+      6.120000000000001
+    ],
+    [
+      6.4,
+      9.32
+    ]
+  ],
+  "I04GapLengths": [
+    2.92,
+    2.920000000000001,
+    2.92
+  ],
+  "streetArea": 2.76
+}

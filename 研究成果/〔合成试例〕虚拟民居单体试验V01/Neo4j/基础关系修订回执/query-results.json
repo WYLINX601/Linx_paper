@@ -1,0 +1,6331 @@
+{
+  "Q01_identity": [
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "name": "V01虚拟主屋",
+      "uid": "V01:B01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "name": "统一原型侧房（沿用D01侧房设定）",
+      "uid": "V01:B02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "name": "人工邻宅（不同物理身份，非实测）",
+      "uid": "V01:B03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "name": "前廊柱1",
+      "uid": "V01:C01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "name": "前廊柱2",
+      "uid": "V01:C02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "name": "前廊柱3",
+      "uid": "V01:C03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "name": "前廊柱4",
+      "uid": "V01:C04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "name": "当前合成建筑组二维分析集合",
+      "uid": "V01:CG01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "ComparisonResult"
+      ],
+      "name": "檐口高差：侧房减主屋（统一原型重算）",
+      "uid": "V01:CMP01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "name": "统一原型外部空间分析规则",
+      "uid": "V01:D03-R01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "ReferenceDatum"
+      ],
+      "name": "统一原型局部坐标与高程基准",
+      "uid": "V01:DATUM01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "name": "自身檐口相对高度规则",
+      "uid": "V01:DIM-R01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "name": "水平比例与高宽比规则",
+      "uid": "V01:DIM-R02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "name": "共同基准檐口高差规则",
+      "uid": "V01:DIM-R03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Source",
+        "Evidence",
+        "Demo",
+        "V01",
+        "SyntheticSource"
+      ],
+      "name": "示例素材",
+      "uid": "V01:EV01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成平面布局与尺寸图",
+      "uid": "V01:EV02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成南立面",
+      "uid": "V01:EV03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成北立面",
+      "uid": "V01:EV04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成东立面",
+      "uid": "V01:EV05"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成西立面",
+      "uid": "V01:EV06"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成A—A剖面",
+      "uid": "V01:EV07"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "name": "合成屋顶投影图",
+      "uid": "V01:EV08"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Source",
+        "Demo",
+        "V01",
+        "SyntheticSource"
+      ],
+      "name": "旧D01侧房参数与迁移来源",
+      "uid": "V01:EV09"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "堂屋—前廊开放分界",
+      "uid": "V01:I01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "西室门洞界面",
+      "uid": "V01:I02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "东室门洞界面",
+      "uid": "V01:I03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01",
+        "EntranceInterface"
+      ],
+      "name": "前廊—前院开放分界",
+      "uid": "V01:I04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01",
+        "EntranceInterface"
+      ],
+      "name": "院门界面",
+      "uid": "V01:I05"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "西室临廊窗界面",
+      "uid": "V01:I06"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "东室临廊窗界面",
+      "uid": "V01:I07"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "西室北窗",
+      "uid": "V01:I08"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "堂屋北窗",
+      "uid": "V01:I09"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "name": "东室北窗",
+      "uid": "V01:I10"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_木",
+        "材质_陶瓦",
+        "Roof"
+      ],
+      "name": "主屋双坡屋顶系统",
+      "uid": "V01:RF01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "RoofSurface",
+        "GeometryRepresentation"
+      ],
+      "name": "主屋南坡面",
+      "uid": "V01:RS01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "RoofSurface",
+        "GeometryRepresentation"
+      ],
+      "name": "主屋北坡面",
+      "uid": "V01:RS02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "name": "堂屋",
+      "uid": "V01:S01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "name": "西室",
+      "uid": "V01:S02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "name": "东室",
+      "uid": "V01:S03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "ExternalTransition"
+      ],
+      "name": "前廊",
+      "uid": "V01:S04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "Courtyard"
+      ],
+      "name": "前院",
+      "uid": "V01:S05"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "ExternalTransition"
+      ],
+      "name": "南侧外部参照区",
+      "uid": "V01:S06"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "DatasetSnapshot",
+        "Demo",
+        "V01"
+      ],
+      "name": "V01统一原型与来源快照",
+      "uid": "V01:SOURCE"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "SpatialReference",
+        "StreetSegment"
+      ],
+      "name": "代表性完整直线合成街段",
+      "uid": "V01:ST01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "GeometryRepresentation",
+        "GroundProfile"
+      ],
+      "name": "人工地面样点剖面（非屋顶）",
+      "uid": "V01:TP01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "Zone",
+        "DwellingUnit"
+      ],
+      "name": "统一原型宅院整体",
+      "uid": "V01:U01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "西侧外墙",
+      "uid": "V01:W01"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "东侧外墙",
+      "uid": "V01:W02"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "北侧外墙",
+      "uid": "V01:W03"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "西室与堂屋分隔墙",
+      "uid": "V01:W04"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "东室与堂屋分隔墙",
+      "uid": "V01:W05"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "西室前墙",
+      "uid": "V01:W06"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "东室前墙",
+      "uid": "V01:W07"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "前院西墙",
+      "uid": "V01:W08"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "前院东墙",
+      "uid": "V01:W09"
+    },
+    {
+      "dataset": "V01",
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "name": "前院南墙",
+      "uid": "V01:W10"
+    }
+  ],
+  "Q02_dimensions": [
+    {
+      "basis": "主屋既有轴网矩形9.6×7.2m；非主体外墙外边线，不含挑檐",
+      "depthM": 7.2,
+      "eaveZM": 3.2666666666666666,
+      "groundZM": 0,
+      "ownEaveHeightM": 3.2666666666666666,
+      "ownEaveHeightWidthRatio": 0.3402777777777778,
+      "uid": "V01:B01",
+      "widthDepthRatio": 1.3333333333333333,
+      "widthM": 9.6
+    },
+    {
+      "basis": "指定基准层主体外墙外边线的水平投影，不含屋檐与台基",
+      "depthM": 4,
+      "eaveZM": 7,
+      "groundZM": 3,
+      "ownEaveHeightM": 4,
+      "ownEaveHeightWidthRatio": 0.6666666666666666,
+      "uid": "V01:B02",
+      "widthDepthRatio": 1.5,
+      "widthM": 6
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 5.58,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S01",
+      "widthDepthRatio": 0.5304659498207887,
+      "widthM": 2.9600000000000004
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 5.46,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S02",
+      "widthDepthRatio": 0.5421245421245421,
+      "widthM": 2.96
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 5.46,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S03",
+      "widthDepthRatio": 0.5421245421245423,
+      "widthM": 2.960000000000001
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 1.5,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S04",
+      "widthDepthRatio": 6.3999999999999995,
+      "widthM": 9.6
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 4.68,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S05",
+      "widthDepthRatio": 2.0000000000000004,
+      "widthM": 9.360000000000001
+    },
+    {
+      "basis": "既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间",
+      "depthM": 1.38,
+      "eaveZM": null,
+      "groundZM": 0,
+      "ownEaveHeightM": null,
+      "ownEaveHeightWidthRatio": null,
+      "uid": "V01:S06",
+      "widthDepthRatio": 1.4492753623188408,
+      "widthM": 2
+    }
+  ],
+  "Q03_comparison": [
+    {
+      "cacheAgreement": true,
+      "reference": "V01:B01",
+      "subject": "V01:B02",
+      "uid": "V01:CMP01",
+      "valid": true,
+      "valueM": 3.7333333333333334
+    }
+  ],
+  "Q04_boundary": [
+    {
+      "boundaryId": "E",
+      "courtyard": "V01:S05",
+      "intervals": [
+        0,
+        4.68
+      ],
+      "lengthM": 4.68,
+      "name": "前院东墙",
+      "netContributionM": 4.68,
+      "participant": "V01:W09",
+      "relationshipUid": "V01:R075",
+      "role": "wall-boundary",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [
+        0,
+        0.020000000000000004
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前廊柱1",
+      "netContributionM": 0.020000000000000004,
+      "participant": "V01:C01",
+      "relationshipUid": "V01:BOUND-S05-C01",
+      "role": "column-section",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [
+        2.94,
+        3.22
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前廊柱2",
+      "netContributionM": 0.28000000000000025,
+      "participant": "V01:C02",
+      "relationshipUid": "V01:BOUND-S05-C02",
+      "role": "column-section",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [
+        6.140000000000001,
+        6.42
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前廊柱3",
+      "netContributionM": 0.27999999999999936,
+      "participant": "V01:C03",
+      "relationshipUid": "V01:BOUND-S05-C03",
+      "role": "column-section",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [
+        9.34,
+        9.360000000000001
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前廊柱4",
+      "netContributionM": 0.02000000000000135,
+      "participant": "V01:C04",
+      "relationshipUid": "V01:BOUND-S05-C04",
+      "role": "column-section",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "N",
+      "courtyard": "V01:S05",
+      "intervals": [],
+      "lengthM": 9.360000000000001,
+      "name": "前廊",
+      "netContributionM": 0,
+      "participant": "V01:S04",
+      "relationshipUid": "V01:BOUND-S05-S04",
+      "role": "covered-open-transition",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "S",
+      "courtyard": "V01:S05",
+      "intervals": [
+        0,
+        3.880000000000001,
+        5.4799999999999995,
+        9.360000000000001
+      ],
+      "lengthM": 9.360000000000001,
+      "name": "前院南墙",
+      "netContributionM": 7.7600000000000025,
+      "participant": "V01:W10",
+      "relationshipUid": "V01:R076",
+      "role": "wall-boundary",
+      "sliceZM": 1
+    },
+    {
+      "boundaryId": "W",
+      "courtyard": "V01:S05",
+      "intervals": [
+        0,
+        4.68
+      ],
+      "lengthM": 4.68,
+      "name": "前院西墙",
+      "netContributionM": 4.68,
+      "participant": "V01:W08",
+      "relationshipUid": "V01:R074",
+      "role": "wall-boundary",
+      "sliceZM": 1
+    }
+  ],
+  "Q05_interfaces": [
+    {
+      "interface": "V01:I04",
+      "participant": "V01:S04",
+      "referenceMode": "same-line-local-subsegment",
+      "relationshipUid": "V01:R039",
+      "relativePosition": 0.5,
+      "role": "side-a",
+      "sideMappings": "[{\"absoluteOffsetM\":0.0,\"basis\":\"同线局部\",\"offsetYM\":0.0,\"role\":\"side-a\",\"segmentXY\":[[0.14,0.0],[9.46,0.0]],\"spaceUid\":\"V01:S04\"},{\"absoluteOffsetM\":0.0,\"basis\":\"同线局部\",\"offsetYM\":0.0,\"role\":\"side-b\",\"segmentXY\":[[0.14,0.0],[9.46,0.0]],\"spaceUid\":\"V01:S05\"}]"
+    },
+    {
+      "interface": "V01:I04",
+      "participant": "V01:S05",
+      "referenceMode": "same-line-local-subsegment",
+      "relationshipUid": "V01:R040",
+      "relativePosition": 0.5,
+      "role": "side-b",
+      "sideMappings": "[{\"absoluteOffsetM\":0.0,\"basis\":\"同线局部\",\"offsetYM\":0.0,\"role\":\"side-a\",\"segmentXY\":[[0.14,0.0],[9.46,0.0]],\"spaceUid\":\"V01:S04\"},{\"absoluteOffsetM\":0.0,\"basis\":\"同线局部\",\"offsetYM\":0.0,\"role\":\"side-b\",\"segmentXY\":[[0.14,0.0],[9.46,0.0]],\"spaceUid\":\"V01:S05\"}]"
+    },
+    {
+      "interface": "V01:I05",
+      "participant": "V01:W10",
+      "referenceMode": "host-axis-to-space-boundary-projection",
+      "relationshipUid": "V01:R044",
+      "relativePosition": 0.5000000000000001,
+      "role": "opening-host",
+      "sideMappings": "[{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":0.1200000000000001,\"role\":\"side-a\",\"segmentXY\":[[4.0,-4.68],[5.6,-4.68]],\"spaceUid\":\"V01:S05\"},{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":-0.1200000000000001,\"role\":\"side-b\",\"segmentXY\":[[4.0,-4.92],[5.6,-4.92]],\"spaceUid\":\"V01:S06\"}]"
+    },
+    {
+      "interface": "V01:I05",
+      "participant": "V01:S05",
+      "referenceMode": "host-axis-to-space-boundary-projection",
+      "relationshipUid": "V01:R042",
+      "relativePosition": 0.5000000000000001,
+      "role": "side-a",
+      "sideMappings": "[{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":0.1200000000000001,\"role\":\"side-a\",\"segmentXY\":[[4.0,-4.68],[5.6,-4.68]],\"spaceUid\":\"V01:S05\"},{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":-0.1200000000000001,\"role\":\"side-b\",\"segmentXY\":[[4.0,-4.92],[5.6,-4.92]],\"spaceUid\":\"V01:S06\"}]"
+    },
+    {
+      "interface": "V01:I05",
+      "participant": "V01:S06",
+      "referenceMode": "host-axis-to-space-boundary-projection",
+      "relationshipUid": "V01:R043",
+      "relativePosition": 0.5000000000000001,
+      "role": "side-b",
+      "sideMappings": "[{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":0.1200000000000001,\"role\":\"side-a\",\"segmentXY\":[[4.0,-4.68],[5.6,-4.68]],\"spaceUid\":\"V01:S05\"},{\"absoluteOffsetM\":0.1200000000000001,\"basis\":\"宿主轴向该空间分析边界的明确平行映射；非原几何重合\",\"offsetYM\":-0.1200000000000001,\"role\":\"side-b\",\"segmentXY\":[[4.0,-4.92],[5.6,-4.92]],\"spaceUid\":\"V01:S06\"}]"
+    }
+  ],
+  "Q06_outward_path": [
+    {
+      "crossings": 2,
+      "nodes": [
+        "V01:S06",
+        "V01:S05",
+        "V01:S04"
+      ],
+      "via": [
+        "V01:I05",
+        "V01:I04"
+      ]
+    }
+  ],
+  "Q07_return_path": [
+    {
+      "crossings": 2,
+      "nodes": [
+        "V01:S04",
+        "V01:S05",
+        "V01:S06"
+      ],
+      "via": [
+        "V01:I04",
+        "V01:I05"
+      ]
+    }
+  ],
+  "Q08_local_area_inputs": [
+    {
+      "geometryVersion": "V01-unified-2.2",
+      "groundZM": 0,
+      "polygon": [
+        0,
+        0,
+        9.6,
+        0,
+        9.6,
+        1.5,
+        0,
+        1.5
+      ],
+      "scope": [
+        0,
+        -4.8,
+        9.6,
+        -4.8,
+        9.6,
+        7.2,
+        0,
+        7.2,
+        0,
+        -4.8
+      ],
+      "scopeId": "V01-G0-local-window",
+      "uid": "V01:S04"
+    },
+    {
+      "geometryVersion": "V01-unified-2.2",
+      "groundZM": 0,
+      "polygon": [
+        0.12,
+        -4.68,
+        9.48,
+        -4.68,
+        9.48,
+        0,
+        0.12,
+        0
+      ],
+      "scope": [
+        0,
+        -4.8,
+        9.6,
+        -4.8,
+        9.6,
+        7.2,
+        0,
+        7.2,
+        0,
+        -4.8
+      ],
+      "scopeId": "V01-G0-local-window",
+      "uid": "V01:S05"
+    }
+  ],
+  "Q09_uses": [
+    {
+      "spaceCount": 1,
+      "spaceUids": [
+        "V01:S04"
+      ],
+      "use": "交通与停留"
+    },
+    {
+      "spaceCount": 1,
+      "spaceUids": [
+        "V01:S06"
+      ],
+      "use": "出入参照"
+    },
+    {
+      "spaceCount": 1,
+      "spaceUids": [
+        "V01:S05"
+      ],
+      "use": "户外生活"
+    }
+  ],
+  "Q10_sources": [
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "axisDepthM",
+        "axisFootprintAreaM2",
+        "axisWidthM",
+        "caseId",
+        "coordinateFrame",
+        "depthDirection",
+        "depthM",
+        "eavePointXYZ",
+        "eaveZM",
+        "facingAzimuthDeg",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundPointXYZ",
+        "groundZM",
+        "heightBasis",
+        "measurementBoundaryBasis",
+        "precisionMeaning",
+        "recordStatus",
+        "ridgeHeightM",
+        "ridgePointXYZ",
+        "ridgeZM",
+        "role",
+        "scenario",
+        "storeys",
+        "unit",
+        "wallSupportHeightM",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/0/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:B01"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/0/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:B01"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "caseId",
+        "coordinateFrame",
+        "d03GroundEligibility",
+        "geometryVersion",
+        "legacyUid",
+        "recordStatus",
+        "registrationBasis",
+        "researchScopeStatus",
+        "scenario"
+      ],
+      "locator": "/nodes/42/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:B02"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/42/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:B02"
+    },
+    {
+      "actualSourceVersion": "1.1",
+      "fields": [
+        "depthDirection",
+        "depthM",
+        "eavePointXYZ",
+        "eaveZM",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "groundPointXYZ",
+        "groundZM",
+        "heightBasis",
+        "identityBasis",
+        "measurementBoundaryBasis",
+        "precisionMeaning",
+        "ridgePointXYZ",
+        "ridgeZM",
+        "role",
+        "unit",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/3/properties",
+      "source": "V01:EV09",
+      "sourceVersion": "1.1",
+      "uid": "V01:B02"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "analysisSliceZM",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "boundaryBasis",
+        "boundarySegmentsJson",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "coverStateMeaning",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "overallCoverType",
+        "recordStatus",
+        "researchScopeStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/1/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:S01"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "analysisSliceZM",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "boundaryBasis",
+        "boundarySegmentsJson",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "coverStateMeaning",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "overallCoverType",
+        "recordStatus",
+        "researchScopeStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/2/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:S02"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "analysisSliceZM",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "boundaryBasis",
+        "boundarySegmentsJson",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "coverStateMeaning",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "overallCoverType",
+        "recordStatus",
+        "researchScopeStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/3/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:S03"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "analysisSliceZM",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "boundaryBasis",
+        "boundarySegmentsJson",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "coverStateMeaning",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "overallCoverType",
+        "recordStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/4/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:S04"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "analysisSliceZM",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "boundaryBasis",
+        "boundaryCoverStateMeaning",
+        "boundarySegmentsJson",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "coverStateMeaning",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "enclosureBasis",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "overallCoverType",
+        "recordStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/5/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:S05"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/5/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:S05"
+    },
+    {
+      "actualSourceVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "analysisSliceZM",
+        "areaBasis",
+        "areaM2",
+        "axisAzimuthDeg",
+        "boundaryBasis",
+        "boundarySegmentsJson",
+        "caseId",
+        "clearHeightState",
+        "coordinateFrame",
+        "coverState",
+        "coverStateMeaning",
+        "depthDirection",
+        "depthM",
+        "dimensionStatus",
+        "divisionBasis",
+        "enclosure",
+        "floorZ",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometryVersion",
+        "groundZM",
+        "measurementBoundaryBasis",
+        "overallCoverType",
+        "recordStatus",
+        "scenario",
+        "unit",
+        "use",
+        "useContext",
+        "useEvidenceRole",
+        "useScope",
+        "useState",
+        "useValues",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/6/properties",
+      "source": "V01:EV01",
+      "sourceVersion": "V01-unified-2.2",
+      "uid": "V01:S06"
+    }
+  ],
+  "Q11_roles_and_scope": [
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:U01",
+      "target": "V01:B01",
+      "type": "BOT_HAS_BUILDING"
+    },
+    {
+      "role": null,
+      "scope": "新增侧房在同一合成组织整体，不据此推与前院同层或相通",
+      "source": "V01:U01",
+      "target": "V01:B02",
+      "type": "BOT_HAS_BUILDING"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:B01",
+      "target": "V01:S01",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:B01",
+      "target": "V01:S02",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:B01",
+      "target": "V01:S03",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:B01",
+      "target": "V01:S04",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:U01",
+      "target": "V01:S05",
+      "type": "BOT_HAS_SPACE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:C01",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:C02",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:C03",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:C04",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:RF01",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W01",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W02",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W03",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W04",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W05",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W06",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "building-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W07",
+      "target": "V01:B01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "courtyard-enclosure-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W08",
+      "target": "V01:U01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "courtyard-enclosure-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W09",
+      "target": "V01:U01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": "courtyard-enclosure-member",
+      "scope": "构件在原型组织中的成员归属；不由旧PART_OF自动升级为bot:containsElement或已证三维几何包含",
+      "source": "V01:W10",
+      "target": "V01:U01",
+      "type": "MEMBER_OF_ZONE"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:RS01",
+      "target": "V01:RF01",
+      "type": "PART_OF"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:RS02",
+      "target": "V01:RF01",
+      "type": "PART_OF"
+    },
+    {
+      "role": null,
+      "scope": null,
+      "source": "V01:S04",
+      "target": "V01:S05",
+      "type": "PLAN_POSITION"
+    }
+  ],
+  "Q12_no_duplicates": [
+    {
+      "courtyardIdentity": 1,
+      "hallIdentity": 1,
+      "legacyActiveNodes": 0
+    }
+  ],
+  "Q13_legacy_topology": [
+    {
+      "count": 12,
+      "type": "AXIS_JOINS"
+    },
+    {
+      "count": 4,
+      "type": "ENVELOPE_INTERSECTS"
+    },
+    {
+      "count": 1,
+      "type": "SHARES_BOUNDARY"
+    }
+  ],
+  "Q14_facade_records": [
+    {
+      "assertionLocator": "/relationships/259",
+      "host": "V01:W03",
+      "localRecords": "[{\"analysisItems\":[\"D04-T01\",\"D04-T02\",\"D04-T03\",\"D04-T04\",\"D04-T05\",\"D04-T06\"],\"candidateRuleVersion\":\"D04-candidate-0.1\",\"colorState\":\"conditional-not-enabled\",\"coordinateFrame\":\"V01-local-XYZ\",\"decorationState\":\"unknown\",\"evidence\":[\"EV01\"],\"exteriorSide\":\"north\",\"geometryVersion\":\"V01-unified-2.2\",\"hostId\":\"W03\",\"id\":\"D04-W03-N\",\"openingIds\":[\"I08\",\"I09\",\"I10\"],\"outlineUZ\":[[0.0,0.0],[9.6,0.0],[9.6,3.6],[0.0,3.6]],\"ownerId\":\"B01\",\"projection\":{\"axisOriginXYZ\":[0.0,7.2,0.0],\"exteriorOriginXYZ\":[0.0,7.32,0.0],\"heightBasis\":\"geometry.topProfile逐点墙顶投影；不是RF01檐口\",\"mode\":\"orthographic-axis-to-parallel-exterior\",\"offsetBasis\":\"墙轴平行偏移半墙厚；当前0.24/2=0.12m，非轴线即实体外表面\",\"offsetM\":0.12,\"outwardNormalXYZ\":[0.0,1.0,0.0],\"uAxisXYZ\":[1.0,0.0,0.0]},\"projectionRangeUZ\":[0.0,0.0,9.6,3.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"仅本墙完整轴长在指定外侧的正投影；不代表全部建筑立面\",\"status\":\"synthetic_assignment\",\"surfaceRegions\":[{\"coordinateFrame\":\"V01-local-XYZ\",\"evidence\":[\"EV01\"],\"geometryVersion\":\"V01-unified-2.2\",\"id\":\"D04-W03-N-surface-1\",\"layer\":\"surface\",\"material\":\"灰泥\",\"rectUZ\":[0.0,0.0,9.6,3.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"明确人工指定的u-z矩形表层条带；不推墙芯\",\"state\":\"known\",\"status\":\"synthetic_assignment\",\"unit\":\"m\"}],\"unit\":\"m\"}]",
+      "owner": "V01:B01",
+      "regionId": "D04-W03-N",
+      "role": "specified-exterior-projection"
+    },
+    {
+      "assertionLocator": "/relationships/260",
+      "host": "V01:W10",
+      "localRecords": "[{\"analysisItems\":[\"D04-T01\",\"D04-T02\",\"D04-T03\",\"D04-T04\",\"D04-T05\",\"D04-T06\"],\"candidateRuleVersion\":\"D04-candidate-0.1\",\"colorState\":\"conditional-not-enabled\",\"coordinateFrame\":\"V01-local-XYZ\",\"decorationState\":\"unknown\",\"evidence\":[\"EV01\"],\"exteriorSide\":\"south\",\"geometryVersion\":\"V01-unified-2.2\",\"hostId\":\"W10\",\"id\":\"D04-W10-S\",\"openingIds\":[\"I05\"],\"outlineUZ\":[[0.0,0.0],[9.6,0.0],[9.6,1.6],[0.0,1.6]],\"ownerId\":\"U01\",\"projection\":{\"axisOriginXYZ\":[0.0,-4.8,0.0],\"exteriorOriginXYZ\":[0.0,-4.92,0.0],\"heightBasis\":\"geometry.topProfile逐点墙顶投影；不是RF01檐口\",\"mode\":\"orthographic-axis-to-parallel-exterior\",\"offsetBasis\":\"墙轴平行偏移半墙厚；当前0.24/2=0.12m，非轴线即实体外表面\",\"offsetM\":0.12,\"outwardNormalXYZ\":[0.0,-1.0,0.0],\"uAxisXYZ\":[1.0,0.0,0.0]},\"projectionRangeUZ\":[0.0,0.0,9.6,1.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"仅本墙完整轴长在指定外侧的正投影；不代表全部建筑立面\",\"status\":\"synthetic_assignment\",\"surfaceRegions\":[{\"coordinateFrame\":\"V01-local-XYZ\",\"evidence\":[\"EV01\"],\"geometryVersion\":\"V01-unified-2.2\",\"id\":\"D04-W10-S-surface-1\",\"layer\":\"surface\",\"material\":\"灰泥\",\"rectUZ\":[0.0,0.0,4.8,1.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"明确人工指定的u-z矩形表层条带；不推墙芯\",\"state\":\"known\",\"status\":\"synthetic_assignment\",\"unit\":\"m\"},{\"coordinateFrame\":\"V01-local-XYZ\",\"evidence\":[\"EV01\"],\"geometryVersion\":\"V01-unified-2.2\",\"id\":\"D04-W10-S-surface-2\",\"layer\":\"surface\",\"material\":null,\"rectUZ\":[4.8,0.0,9.6,1.6],\"scenario\":\"V01-T0\",\"scopeBasis\":\"明确人工指定的u-z矩形表层条带；不推墙芯\",\"state\":\"unknown\",\"status\":\"synthetic_assignment\",\"unit\":\"m\"}],\"unit\":\"m\"}]",
+      "owner": "V01:U01",
+      "regionId": "D04-W10-S",
+      "role": "specified-exterior-projection"
+    }
+  ],
+  "Q15_facade_openings": [
+    {
+      "geometry": "{\"a\":[1,7.2],\"b\":[2.2,7.2],\"kind\":\"interface\",\"z\":[1.0,2.0]}",
+      "host": "V01:W03",
+      "opening": "V01:I08",
+      "relation": "V01:R053"
+    },
+    {
+      "geometry": "{\"a\":[4.2,7.2],\"b\":[5.4,7.2],\"kind\":\"interface\",\"z\":[1.0,2.0]}",
+      "host": "V01:W03",
+      "opening": "V01:I09",
+      "relation": "V01:R055"
+    },
+    {
+      "geometry": "{\"a\":[7.4,7.2],\"b\":[8.6,7.2],\"kind\":\"interface\",\"z\":[1.0,2.0]}",
+      "host": "V01:W03",
+      "opening": "V01:I10",
+      "relation": "V01:R057"
+    },
+    {
+      "geometry": "{\"a\":[4,-4.8],\"b\":[5.6,-4.8],\"kind\":\"interface\",\"z\":[0,1.6]}",
+      "host": "V01:W10",
+      "opening": "V01:I05",
+      "relation": "V01:R044"
+    }
+  ],
+  "Q16_collection": [
+    {
+      "building": "V01:B01",
+      "collection": "V01:CG01",
+      "collectionLabels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "dwellingOwners": [
+        "V01:U01"
+      ],
+      "eaveZM": 3.2666666666666666,
+      "footprint": [
+        0,
+        0,
+        9.6,
+        0,
+        9.6,
+        7.2,
+        0,
+        7.2
+      ],
+      "groundZM": 0,
+      "ordinal": 1,
+      "ridgeZM": 5.6,
+      "role": "same-U01-main"
+    },
+    {
+      "building": "V01:B02",
+      "collection": "V01:CG01",
+      "collectionLabels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "dwellingOwners": [
+        "V01:U01"
+      ],
+      "eaveZM": 7,
+      "footprint": [
+        10,
+        -6,
+        14,
+        -6,
+        14,
+        0,
+        10,
+        0
+      ],
+      "groundZM": 3,
+      "ordinal": 2,
+      "ridgeZM": 8,
+      "role": "same-U01-annex"
+    },
+    {
+      "building": "V01:B03",
+      "collection": "V01:CG01",
+      "collectionLabels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "dwellingOwners": [],
+      "eaveZM": 3,
+      "footprint": [
+        0,
+        -12,
+        9.6,
+        -12,
+        9.6,
+        -8.8,
+        0,
+        -8.8
+      ],
+      "groundZM": 0,
+      "ordinal": 3,
+      "ridgeZM": 4.8,
+      "role": "neighbor-dwelling"
+    }
+  ],
+  "Q17_street_sides": [
+    {
+      "geometry": "{\"centerline\":[[0,-6.8],[9.6,-6.8]],\"kind\":\"street_reference\",\"surfaceXY\":[0,-8.8,9.6,-8.8,9.6,-4.92,0,-4.92],\"surfaceZM\":0}",
+      "participant": "V01:W10",
+      "role": "wall-side",
+      "segments": "[{\"basis\":\"W10\",\"rangeM\":[0,4],\"state\":\"entity\"},{\"basis\":\"I05\",\"rangeM\":[4,5.6],\"state\":\"opening\"},{\"basis\":\"W10\",\"rangeM\":[5.6,9.6],\"state\":\"entity\"}]",
+      "side": "left",
+      "street": "V01:ST01",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "geometry": "{\"centerline\":[[0,-6.8],[9.6,-6.8]],\"kind\":\"street_reference\",\"surfaceXY\":[0,-8.8,9.6,-8.8,9.6,-4.92,0,-4.92],\"surfaceZM\":0}",
+      "participant": "V01:B03",
+      "role": "building-side",
+      "segments": "[{\"basis\":\"B03\",\"rangeM\":[0,9.6],\"state\":\"entity\"}]",
+      "side": "right",
+      "street": "V01:ST01",
+      "version": "V01-unified-2.2"
+    }
+  ],
+  "Q18_ground_reference": [
+    {
+      "building": "V01:B02",
+      "geometry": "{\"kind\":\"ground_profile\",\"pointsXYZ\":[[9.6,-6.8,0],[10,-3,3]]}",
+      "objectPoint": [
+        10,
+        -3,
+        3
+      ],
+      "objectPointField": "groundPointXYZ",
+      "pointIndex": 1,
+      "profile": "V01:TP01",
+      "state": "known"
+    }
+  ],
+  "Q19_explicit_local_pair": [
+    {
+      "courtyard": "V01:S05",
+      "courtyardRelationship": "V01:R042",
+      "host": "V01:W10",
+      "hostRelationship": "V01:R044",
+      "localRegion": "D04-W10-S",
+      "owner": "V01:U01",
+      "via": "V01:I05"
+    }
+  ],
+  "Q20_extension_sources": [
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/0/properties",
+      "object": "V01:B01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/42/properties",
+      "object": "V01:B02",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "caseId",
+        "coordinateFrame",
+        "depthDirection",
+        "depthM",
+        "eavePointXYZ",
+        "eaveZM",
+        "footprintShape",
+        "footprintXY",
+        "geometryActive",
+        "geometrySourceLocator",
+        "geometrySourceVersion",
+        "geometryVersion",
+        "groundPointXYZ",
+        "groundZM",
+        "heightBasis",
+        "identityBasis",
+        "measurementBoundaryBasis",
+        "precisionMeaning",
+        "recordStatus",
+        "ridgePointXYZ",
+        "ridgeZM",
+        "role",
+        "scenario",
+        "unit",
+        "widthDirection",
+        "widthM"
+      ],
+      "locator": "/nodes/51/properties",
+      "object": "V01:B03",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "boundaryVersion",
+        "caseId",
+        "coordinateFrame",
+        "coverage",
+        "geometrySourceLocator",
+        "geometrySourceVersion",
+        "geometryVersion",
+        "inclusionReason",
+        "recordStatus",
+        "scenario",
+        "unit"
+      ],
+      "locator": "/nodes/52/properties",
+      "object": "V01:CG01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/26/properties",
+      "object": "V01:I05",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/29/properties",
+      "object": "V01:I08",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/30/properties",
+      "object": "V01:I09",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/31/properties",
+      "object": "V01:I10",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/5/properties",
+      "object": "V01:S05",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "boundaryVersion",
+        "caseId",
+        "coordinateFrame",
+        "coverage",
+        "geometrySourceLocator",
+        "geometrySourceVersion",
+        "geometryVersion",
+        "recordStatus",
+        "scenario",
+        "surfaceMeaning",
+        "surfaceSource",
+        "surfaceState",
+        "unit",
+        "widthMeaning"
+      ],
+      "locator": "/nodes/53/properties",
+      "object": "V01:ST01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "caseId",
+        "coordinateFrame",
+        "coverage",
+        "geometrySourceLocator",
+        "geometrySourceVersion",
+        "geometryVersion",
+        "groundSource",
+        "groundState",
+        "interpretation",
+        "recordStatus",
+        "scenario",
+        "unit"
+      ],
+      "locator": "/nodes/54/properties",
+      "object": "V01:TP01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems"
+      ],
+      "locator": "/nodes/43/properties",
+      "object": "V01:U01",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "facadeRecordsJson"
+      ],
+      "locator": "/nodes/9/properties",
+      "object": "V01:W03",
+      "source": "V01:EV01"
+    },
+    {
+      "actualVersion": "V01-unified-2.2",
+      "expectedVersion": "V01-unified-2.2",
+      "fields": [
+        "analysisItems",
+        "facadeRecordsJson"
+      ],
+      "locator": "/nodes/16/properties",
+      "object": "V01:W10",
+      "source": "V01:EV01"
+    }
+  ],
+  "Q21_local_boundaries": [
+    {
+      "localLengthM": 1.7600000000000002,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[\"I09\"],\"intervalsM\":[[0.0,0.8800000000000003],[2.0800000000000005,2.9600000000000004]],\"netLengthM\":1.7600000000000002,\"referenceLengthM\":2.9600000000000004,\"referencePolylineXY\":[[3.32,7.08],[6.28,7.08]]}]",
+      "participant": "V01:W03",
+      "relationshipUid": "V01:R059",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/58",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S01",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 4.58,
+      "localRanges": "[{\"boundaryId\":\"W\",\"deductedOpeningIds\":[\"I02\"],\"intervalsM\":[[0.0,1.0],[2.0,5.58]],\"netLengthM\":4.58,\"referenceLengthM\":5.58,\"referencePolylineXY\":[[3.32,1.5],[3.32,7.08]]}]",
+      "participant": "V01:W04",
+      "relationshipUid": "V01:R060",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/59",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S01",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 4.58,
+      "localRanges": "[{\"boundaryId\":\"E\",\"deductedOpeningIds\":[\"I03\"],\"intervalsM\":[[0.0,3.5800000000000005],[4.58,5.58]],\"netLengthM\":4.58,\"referenceLengthM\":5.58,\"referencePolylineXY\":[[6.28,7.08],[6.28,1.5]]}]",
+      "participant": "V01:W05",
+      "relationshipUid": "V01:R061",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/60",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S01",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 5.46,
+      "localRanges": "[{\"boundaryId\":\"W\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,5.46]],\"netLengthM\":5.46,\"referenceLengthM\":5.46,\"referencePolylineXY\":[[0.12,1.62],[0.12,7.08]]}]",
+      "participant": "V01:W01",
+      "relationshipUid": "V01:R062",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/61",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S02",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 1.7599999999999998,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[\"I08\"],\"intervalsM\":[[0.0,0.88],[2.08,2.96]],\"netLengthM\":1.7599999999999998,\"referenceLengthM\":2.96,\"referencePolylineXY\":[[0.12,7.08],[3.08,7.08]]}]",
+      "participant": "V01:W03",
+      "relationshipUid": "V01:R063",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/62",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S02",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 4.459999999999999,
+      "localRanges": "[{\"boundaryId\":\"E\",\"deductedOpeningIds\":[\"I02\"],\"intervalsM\":[[0.0,3.5800000000000005],[4.580000000000001,5.46]],\"netLengthM\":4.459999999999999,\"referenceLengthM\":5.46,\"referencePolylineXY\":[[3.08,7.08],[3.08,1.62]]}]",
+      "participant": "V01:W04",
+      "relationshipUid": "V01:R064",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/63",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S02",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 1.7599999999999998,
+      "localRanges": "[{\"boundaryId\":\"S\",\"deductedOpeningIds\":[\"I06\"],\"intervalsM\":[[0.0,0.8799999999999999],[2.08,2.96]],\"netLengthM\":1.7599999999999998,\"referenceLengthM\":2.96,\"referencePolylineXY\":[[3.08,1.62],[0.12,1.62]]}]",
+      "participant": "V01:W06",
+      "relationshipUid": "V01:R065",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/64",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S02",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 5.46,
+      "localRanges": "[{\"boundaryId\":\"E\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,5.46]],\"netLengthM\":5.46,\"referenceLengthM\":5.46,\"referencePolylineXY\":[[9.48,7.08],[9.48,1.62]]}]",
+      "participant": "V01:W02",
+      "relationshipUid": "V01:R066",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/65",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S03",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 1.7600000000000016,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[\"I10\"],\"intervalsM\":[[0.0,0.8800000000000008],[2.08,2.960000000000001]],\"netLengthM\":1.7600000000000016,\"referenceLengthM\":2.960000000000001,\"referencePolylineXY\":[[6.52,7.08],[9.48,7.08]]}]",
+      "participant": "V01:W03",
+      "relationshipUid": "V01:R067",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/66",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S03",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 4.46,
+      "localRanges": "[{\"boundaryId\":\"W\",\"deductedOpeningIds\":[\"I03\"],\"intervalsM\":[[0.0,0.8799999999999999],[1.88,5.46]],\"netLengthM\":4.46,\"referenceLengthM\":5.46,\"referencePolylineXY\":[[6.52,1.62],[6.52,7.08]]}]",
+      "participant": "V01:W05",
+      "relationshipUid": "V01:R068",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/67",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S03",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 1.7600000000000016,
+      "localRanges": "[{\"boundaryId\":\"S\",\"deductedOpeningIds\":[\"I07\"],\"intervalsM\":[[0.0,0.8800000000000008],[2.08,2.960000000000001]],\"netLengthM\":1.7600000000000016,\"referenceLengthM\":2.960000000000001,\"referencePolylineXY\":[[9.48,1.62],[6.52,1.62]]}]",
+      "participant": "V01:W07",
+      "relationshipUid": "V01:R069",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/68",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S03",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.14000000000000057,
+      "localRanges": "[{\"boundaryId\":\"S\",\"deductedOpeningIds\":[],\"intervalsM\":[[9.459999999999999,9.6]],\"netLengthM\":0.14000000000000057,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[9.6,0.0],[0.0,0.0]]}]",
+      "participant": "V01:C01",
+      "relationshipUid": "V01:BOUND-S04-C01",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/285",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S04",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.27999999999999936,
+      "localRanges": "[{\"boundaryId\":\"S\",\"deductedOpeningIds\":[],\"intervalsM\":[[6.26,6.539999999999999]],\"netLengthM\":0.27999999999999936,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[9.6,0.0],[0.0,0.0]]}]",
+      "participant": "V01:C02",
+      "relationshipUid": "V01:BOUND-S04-C02",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/286",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S04",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.28000000000000025,
+      "localRanges": "[{\"boundaryId\":\"S\",\"deductedOpeningIds\":[],\"intervalsM\":[[3.059999999999999,3.3399999999999994]],\"netLengthM\":0.28000000000000025,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[9.6,0.0],[0.0,0.0]]}]",
+      "participant": "V01:C03",
+      "relationshipUid": "V01:BOUND-S04-C03",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/287",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S04",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.14,
+      "localRanges": "[{\"boundaryId\":\"S\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,0.14]],\"netLengthM\":0.14,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[9.6,0.0],[0.0,0.0]]}]",
+      "participant": "V01:C04",
+      "relationshipUid": "V01:BOUND-S04-C04",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/288",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S04",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 1.7400000000000009,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,0.11999999999999998]],\"netLengthM\":0.11999999999999998,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[0.0,1.5],[9.6,1.5]]},{\"boundaryId\":\"S\",\"deductedOpeningIds\":[],\"intervalsM\":[[9.479999999999999,9.6]],\"netLengthM\":0.120000000000001,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[9.6,0.0],[0.0,0.0]]},{\"boundaryId\":\"W\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,1.5]],\"netLengthM\":1.5,\"referenceLengthM\":1.5,\"referencePolylineXY\":[[0.0,0.0],[0.0,1.5]]}]",
+      "participant": "V01:W01",
+      "relationshipUid": "V01:R070",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/69",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S04",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 1.7400000000000002,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[],\"intervalsM\":[[9.479999999999999,9.6]],\"netLengthM\":0.120000000000001,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[0.0,1.5],[9.6,1.5]]},{\"boundaryId\":\"E\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,1.5]],\"netLengthM\":1.5,\"referenceLengthM\":1.5,\"referencePolylineXY\":[[9.6,1.5],[9.6,0.0]]},{\"boundaryId\":\"S\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,0.1199999999999992]],\"netLengthM\":0.1199999999999992,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[9.6,0.0],[0.0,0.0]]}]",
+      "participant": "V01:W02",
+      "relationshipUid": "V01:R071",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/70",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S04",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 2.1199999999999997,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[\"I06\"],\"intervalsM\":[[0.0,1.0],[2.2,3.1999999999999997]],\"netLengthM\":1.9999999999999996,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[0.0,1.5],[9.6,1.5]]},{\"boundaryId\":\"W\",\"deductedOpeningIds\":[],\"intervalsM\":[[1.38,1.5]],\"netLengthM\":0.1200000000000001,\"referenceLengthM\":1.5,\"referencePolylineXY\":[[0.0,0.0],[0.0,1.5]]}]",
+      "participant": "V01:W06",
+      "relationshipUid": "V01:R072",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/71",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S04",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 2.120000000000002,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[\"I07\"],\"intervalsM\":[[6.3999999999999995,7.400000000000001],[8.6,9.6]],\"netLengthM\":2.0000000000000018,\"referenceLengthM\":9.6,\"referencePolylineXY\":[[0.0,1.5],[9.6,1.5]]},{\"boundaryId\":\"E\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,0.1200000000000001]],\"netLengthM\":0.1200000000000001,\"referenceLengthM\":1.5,\"referencePolylineXY\":[[9.6,1.5],[9.6,0.0]]}]",
+      "participant": "V01:W07",
+      "relationshipUid": "V01:R073",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/72",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S04",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.020000000000000004,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,0.020000000000000004]],\"netLengthM\":0.020000000000000004,\"referenceLengthM\":9.360000000000001,\"referencePolylineXY\":[[0.12,0.0],[9.48,0.0]]}]",
+      "participant": "V01:C01",
+      "relationshipUid": "V01:BOUND-S05-C01",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/195",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S05",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.28000000000000025,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[],\"intervalsM\":[[2.94,3.22]],\"netLengthM\":0.28000000000000025,\"referenceLengthM\":9.360000000000001,\"referencePolylineXY\":[[0.12,0.0],[9.48,0.0]]}]",
+      "participant": "V01:C02",
+      "relationshipUid": "V01:BOUND-S05-C02",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/196",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S05",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.27999999999999936,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[],\"intervalsM\":[[6.140000000000001,6.42]],\"netLengthM\":0.27999999999999936,\"referenceLengthM\":9.360000000000001,\"referencePolylineXY\":[[0.12,0.0],[9.48,0.0]]}]",
+      "participant": "V01:C03",
+      "relationshipUid": "V01:BOUND-S05-C03",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/197",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S05",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.02000000000000135,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[],\"intervalsM\":[[9.34,9.360000000000001]],\"netLengthM\":0.02000000000000135,\"referenceLengthM\":9.360000000000001,\"referencePolylineXY\":[[0.12,0.0],[9.48,0.0]]}]",
+      "participant": "V01:C04",
+      "relationshipUid": "V01:BOUND-S05-C04",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/198",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S05",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[],\"intervalsM\":[],\"netLengthM\":0,\"referenceLengthM\":9.360000000000001,\"referencePolylineXY\":[[0.12,0.0],[9.48,0.0]]}]",
+      "participant": "V01:S04",
+      "relationshipUid": "V01:BOUND-S05-S04",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/194",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S05",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 4.68,
+      "localRanges": "[{\"boundaryId\":\"W\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,4.68]],\"netLengthM\":4.68,\"referenceLengthM\":4.68,\"referencePolylineXY\":[[0.12,-4.68],[0.12,0.0]]}]",
+      "participant": "V01:W08",
+      "relationshipUid": "V01:R074",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/73",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S05",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 4.68,
+      "localRanges": "[{\"boundaryId\":\"E\",\"deductedOpeningIds\":[],\"intervalsM\":[[0.0,4.68]],\"netLengthM\":4.68,\"referenceLengthM\":4.68,\"referencePolylineXY\":[[9.48,0.0],[9.48,-4.68]]}]",
+      "participant": "V01:W09",
+      "relationshipUid": "V01:R075",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/74",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S05",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 7.7600000000000025,
+      "localRanges": "[{\"boundaryId\":\"S\",\"deductedOpeningIds\":[\"I05\"],\"intervalsM\":[[0.0,3.880000000000001],[5.4799999999999995,9.360000000000001]],\"netLengthM\":7.7600000000000025,\"referenceLengthM\":9.360000000000001,\"referencePolylineXY\":[[9.48,-4.68],[0.12,-4.68]]}]",
+      "participant": "V01:W10",
+      "relationshipUid": "V01:R076",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/75",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S05",
+      "version": "V01-unified-2.2"
+    },
+    {
+      "localLengthM": 0.40000000000000036,
+      "localRanges": "[{\"boundaryId\":\"N\",\"deductedOpeningIds\":[\"I05\"],\"intervalsM\":[[0.0,0.20000000000000018],[1.7999999999999998,2.0]],\"netLengthM\":0.40000000000000036,\"referenceLengthM\":2.0,\"referencePolylineXY\":[[3.8,-4.92],[5.8,-4.92]]}]",
+      "participant": "V01:W10",
+      "relationshipUid": "V01:BOUND-S06-W10",
+      "sliceZM": 1,
+      "sourceLocator": "/relationships/289",
+      "sourceUid": "V01:EV01",
+      "space": "V01:S06",
+      "version": "V01-unified-2.2"
+    }
+  ],
+  "Q22_roof_projection_inputs": [
+    {
+      "coverMeaning": "overall-space-character-not-zero-projection",
+      "overallType": "enclosed-covered-space",
+      "provider": "V01:RF01",
+      "roofGeometry": "{\"eaveZ\":3.2666666666666666,\"kind\":\"gable_roof\",\"ridgeY\":3.6,\"ridgeZ\":5.6,\"x\":[-0.6,10.2],\"y\":[-0.6,7.8]}",
+      "roofVersion": "V01-unified-2.2",
+      "space": "V01:S01",
+      "spaceGeometry": "{\"kind\":\"rect\",\"max\":[6.28,7.08],\"min\":[3.32,1.5],\"z\":0}",
+      "spaceVersion": "V01-unified-2.2"
+    },
+    {
+      "coverMeaning": "overall-space-character-not-zero-projection",
+      "overallType": "enclosed-covered-space",
+      "provider": "V01:RF01",
+      "roofGeometry": "{\"eaveZ\":3.2666666666666666,\"kind\":\"gable_roof\",\"ridgeY\":3.6,\"ridgeZ\":5.6,\"x\":[-0.6,10.2],\"y\":[-0.6,7.8]}",
+      "roofVersion": "V01-unified-2.2",
+      "space": "V01:S02",
+      "spaceGeometry": "{\"kind\":\"rect\",\"max\":[3.08,7.08],\"min\":[0.12,1.62],\"z\":0}",
+      "spaceVersion": "V01-unified-2.2"
+    },
+    {
+      "coverMeaning": "overall-space-character-not-zero-projection",
+      "overallType": "enclosed-covered-space",
+      "provider": "V01:RF01",
+      "roofGeometry": "{\"eaveZ\":3.2666666666666666,\"kind\":\"gable_roof\",\"ridgeY\":3.6,\"ridgeZ\":5.6,\"x\":[-0.6,10.2],\"y\":[-0.6,7.8]}",
+      "roofVersion": "V01-unified-2.2",
+      "space": "V01:S03",
+      "spaceGeometry": "{\"kind\":\"rect\",\"max\":[9.48,7.08],\"min\":[6.52,1.62],\"z\":0}",
+      "spaceVersion": "V01-unified-2.2"
+    },
+    {
+      "coverMeaning": "overall-space-character-not-zero-projection",
+      "overallType": "covered-open-sided-space",
+      "provider": "V01:RF01",
+      "roofGeometry": "{\"eaveZ\":3.2666666666666666,\"kind\":\"gable_roof\",\"ridgeY\":3.6,\"ridgeZ\":5.6,\"x\":[-0.6,10.2],\"y\":[-0.6,7.8]}",
+      "roofVersion": "V01-unified-2.2",
+      "space": "V01:S04",
+      "spaceGeometry": "{\"kind\":\"rect\",\"max\":[9.6,1.5],\"min\":[0,0],\"z\":0}",
+      "spaceVersion": "V01-unified-2.2"
+    },
+    {
+      "coverMeaning": "overall-space-character-not-zero-projection",
+      "overallType": "open-air-space-character",
+      "provider": "V01:RF01",
+      "roofGeometry": "{\"eaveZ\":3.2666666666666666,\"kind\":\"gable_roof\",\"ridgeY\":3.6,\"ridgeZ\":5.6,\"x\":[-0.6,10.2],\"y\":[-0.6,7.8]}",
+      "roofVersion": "V01-unified-2.2",
+      "space": "V01:S05",
+      "spaceGeometry": "{\"kind\":\"rect\",\"max\":[9.48,0],\"min\":[0.12,-4.68],\"z\":0}",
+      "spaceVersion": "V01-unified-2.2"
+    },
+    {
+      "coverMeaning": "overall-space-character-not-zero-projection",
+      "overallType": "open-air-space-character",
+      "provider": "V01:RF01",
+      "roofGeometry": "{\"eaveZ\":3.2666666666666666,\"kind\":\"gable_roof\",\"ridgeY\":3.6,\"ridgeZ\":5.6,\"x\":[-0.6,10.2],\"y\":[-0.6,7.8]}",
+      "roofVersion": "V01-unified-2.2",
+      "space": "V01:S06",
+      "spaceGeometry": "{\"kind\":\"rect\",\"max\":[5.8,-4.92],\"min\":[3.8,-6.3],\"z\":0}",
+      "spaceVersion": "V01-unified-2.2"
+    }
+  ],
+  "Q23_open_interface_columns": [
+    {
+      "boundaryRelationship": "V01:BOUND-S04-C01",
+      "column": "V01:C01",
+      "columnGeometry": "{\"center\":[0,0,0],\"height\":3.6,\"kind\":\"column\",\"radius\":0.14}",
+      "interface": "V01:I04",
+      "interfaceGeometry": "{\"a\":[0.14,0],\"b\":[9.46,0],\"kind\":\"interface\",\"z\":[0,3.3]}",
+      "side": "V01:S04"
+    },
+    {
+      "boundaryRelationship": "V01:BOUND-S04-C02",
+      "column": "V01:C02",
+      "columnGeometry": "{\"center\":[3.2,0,0],\"height\":3.6,\"kind\":\"column\",\"radius\":0.14}",
+      "interface": "V01:I04",
+      "interfaceGeometry": "{\"a\":[0.14,0],\"b\":[9.46,0],\"kind\":\"interface\",\"z\":[0,3.3]}",
+      "side": "V01:S04"
+    },
+    {
+      "boundaryRelationship": "V01:BOUND-S04-C03",
+      "column": "V01:C03",
+      "columnGeometry": "{\"center\":[6.4,0,0],\"height\":3.6,\"kind\":\"column\",\"radius\":0.14}",
+      "interface": "V01:I04",
+      "interfaceGeometry": "{\"a\":[0.14,0],\"b\":[9.46,0],\"kind\":\"interface\",\"z\":[0,3.3]}",
+      "side": "V01:S04"
+    },
+    {
+      "boundaryRelationship": "V01:BOUND-S04-C04",
+      "column": "V01:C04",
+      "columnGeometry": "{\"center\":[9.6,0,0],\"height\":3.6,\"kind\":\"column\",\"radius\":0.14}",
+      "interface": "V01:I04",
+      "interfaceGeometry": "{\"a\":[0.14,0],\"b\":[9.46,0],\"kind\":\"interface\",\"z\":[0,3.3]}",
+      "side": "V01:S04"
+    },
+    {
+      "boundaryRelationship": "V01:BOUND-S05-C01",
+      "column": "V01:C01",
+      "columnGeometry": "{\"center\":[0,0,0],\"height\":3.6,\"kind\":\"column\",\"radius\":0.14}",
+      "interface": "V01:I04",
+      "interfaceGeometry": "{\"a\":[0.14,0],\"b\":[9.46,0],\"kind\":\"interface\",\"z\":[0,3.3]}",
+      "side": "V01:S05"
+    },
+    {
+      "boundaryRelationship": "V01:BOUND-S05-C02",
+      "column": "V01:C02",
+      "columnGeometry": "{\"center\":[3.2,0,0],\"height\":3.6,\"kind\":\"column\",\"radius\":0.14}",
+      "interface": "V01:I04",
+      "interfaceGeometry": "{\"a\":[0.14,0],\"b\":[9.46,0],\"kind\":\"interface\",\"z\":[0,3.3]}",
+      "side": "V01:S05"
+    },
+    {
+      "boundaryRelationship": "V01:BOUND-S05-C03",
+      "column": "V01:C03",
+      "columnGeometry": "{\"center\":[6.4,0,0],\"height\":3.6,\"kind\":\"column\",\"radius\":0.14}",
+      "interface": "V01:I04",
+      "interfaceGeometry": "{\"a\":[0.14,0],\"b\":[9.46,0],\"kind\":\"interface\",\"z\":[0,3.3]}",
+      "side": "V01:S05"
+    },
+    {
+      "boundaryRelationship": "V01:BOUND-S05-C04",
+      "column": "V01:C04",
+      "columnGeometry": "{\"center\":[9.6,0,0],\"height\":3.6,\"kind\":\"column\",\"radius\":0.14}",
+      "interface": "V01:I04",
+      "interfaceGeometry": "{\"a\":[0.14,0],\"b\":[9.46,0],\"kind\":\"interface\",\"z\":[0,3.3]}",
+      "side": "V01:S05"
+    }
+  ],
+  "Q24_street_reference_inputs": [
+    {
+      "referenceLabels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "SpatialReference",
+        "StreetSegment"
+      ],
+      "space": "V01:S06",
+      "spaceGeometry": "{\"kind\":\"rect\",\"max\":[5.8,-4.92],\"min\":[3.8,-6.3],\"z\":0}",
+      "spaceLabels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "ExternalTransition"
+      ],
+      "spaceLevel": 0,
+      "spaceVersion": "V01-unified-2.2",
+      "street": "V01:ST01",
+      "streetGeometry": "{\"centerline\":[[0,-6.8],[9.6,-6.8]],\"kind\":\"street_reference\",\"surfaceXY\":[0,-8.8,9.6,-8.8,9.6,-4.92,0,-4.92],\"surfaceZM\":0}",
+      "streetVersion": "V01-unified-2.2"
+    }
+  ],
+  "Q25_object_relationship_inventory": [
+    {
+      "incident": [
+        {
+          "other": "V01:C04",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R019"
+        },
+        {
+          "other": "V01:EV07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R083"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R077"
+        },
+        {
+          "other": "V01:U01",
+          "type": "BOT_HAS_BUILDING",
+          "uid": "V01:U-HAS-B01"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-B01"
+        },
+        {
+          "other": "V01:W03",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R008"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R020"
+        },
+        {
+          "other": "V01:EV04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R080"
+        },
+        {
+          "other": "V01:EV05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R081"
+        },
+        {
+          "other": "V01:W06",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R011"
+        },
+        {
+          "other": "V01:C02",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R017"
+        },
+        {
+          "other": "V01:S04",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:R004"
+        },
+        {
+          "other": "V01:C03",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R018"
+        },
+        {
+          "other": "V01:EV06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R082"
+        },
+        {
+          "other": "V01:CG01",
+          "type": "HAS_ANALYSIS_MEMBER",
+          "uid": "V01:D05-MEM-B01"
+        },
+        {
+          "other": "V01:W01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R006"
+        },
+        {
+          "other": "V01:W04",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R009"
+        },
+        {
+          "other": "V01:S01",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:R001"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-B01"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R078"
+        },
+        {
+          "other": "V01:S05",
+          "type": "ASSOCIATED_WITH",
+          "uid": "V01:R005"
+        },
+        {
+          "other": "V01:W07",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R012"
+        },
+        {
+          "other": "V01:W05",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R010"
+        },
+        {
+          "other": "V01:EV08",
+          "type": "DOCUMENTS",
+          "uid": "V01:R084"
+        },
+        {
+          "other": "V01:W02",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R007"
+        },
+        {
+          "other": "V01:W03",
+          "type": "FACADE_PARTICIPANT",
+          "uid": "V01:D04-FACADE-W03"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R079"
+        },
+        {
+          "other": "V01:C01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R016"
+        },
+        {
+          "other": "V01:S03",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:R003"
+        },
+        {
+          "other": "V01:S02",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:R002"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-B01"
+        },
+        {
+          "other": "V01:CMP01",
+          "type": "COMPARES_REFERENCE",
+          "uid": "V01:CMP01-subtrahend"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "uid": "V01:B01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:CG01",
+          "type": "HAS_ANALYSIS_MEMBER",
+          "uid": "V01:D05-MEM-B02"
+        },
+        {
+          "other": "V01:CMP01",
+          "type": "COMPARES_SUBJECT",
+          "uid": "V01:CMP01-minuend"
+        },
+        {
+          "other": "V01:EV09",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-B02"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-B02-REG"
+        },
+        {
+          "other": "V01:TP01",
+          "type": "REFERENCES_GROUND",
+          "uid": "V01:D05-GROUND"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-B02"
+        },
+        {
+          "other": "V01:U01",
+          "type": "BOT_HAS_BUILDING",
+          "uid": "V01:U-HAS-B02"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-B02"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "uid": "V01:B02"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:D05-DATUM-B03"
+        },
+        {
+          "other": "V01:CG01",
+          "type": "HAS_ANALYSIS_MEMBER",
+          "uid": "V01:D05-MEM-B03"
+        },
+        {
+          "other": "V01:ST01",
+          "type": "STREET_BOUNDARY_PARTICIPANT",
+          "uid": "V01:D05-RIGHT"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-B03"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Building",
+        "V01",
+        "Zone"
+      ],
+      "uid": "V01:B03"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S04-C01"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R125"
+        },
+        {
+          "other": "V01:W01",
+          "type": "ENVELOPE_INTERSECTS",
+          "uid": "V01:WC-W01-C01"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R021"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R124"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-C01"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R123"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R016"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-C01"
+        },
+        {
+          "other": "V01:W08",
+          "type": "ENVELOPE_INTERSECTS",
+          "uid": "V01:WC-W08-C01"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "uid": "V01:C01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S04-C02"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R127"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R017"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-C02"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R126"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R022"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-C02"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R128"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "uid": "V01:C02"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S04-C03"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-C03"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R023"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R131"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R018"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-C03"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R129"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R130"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "uid": "V01:C03"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S04-C04"
+        },
+        {
+          "other": "V01:W09",
+          "type": "ENVELOPE_INTERSECTS",
+          "uid": "V01:WC-W09-C04"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R019"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-C04"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R132"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R133"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-C04"
+        },
+        {
+          "other": "V01:W02",
+          "type": "ENVELOPE_INTERSECTS",
+          "uid": "V01:WC-W02-C04"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R024"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R134"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "Column",
+        "材质_木"
+      ],
+      "uid": "V01:C04"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-CG01"
+        },
+        {
+          "other": "V01:B02",
+          "type": "HAS_ANALYSIS_MEMBER",
+          "uid": "V01:D05-MEM-B02"
+        },
+        {
+          "other": "V01:B03",
+          "type": "HAS_ANALYSIS_MEMBER",
+          "uid": "V01:D05-MEM-B03"
+        },
+        {
+          "other": "V01:B01",
+          "type": "HAS_ANALYSIS_MEMBER",
+          "uid": "V01:D05-MEM-B01"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:D05-DATUM-CG01"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "AnalysisCollection"
+      ],
+      "uid": "V01:CG01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:B02",
+          "type": "COMPARES_SUBJECT",
+          "uid": "V01:CMP01-minuend"
+        },
+        {
+          "other": "V01:U01",
+          "type": "HAS_COMPARISON",
+          "uid": "V01:U-HAS-CMP01"
+        },
+        {
+          "other": "V01:DIM-R03",
+          "type": "APPLIES_RULE",
+          "uid": "V01:CMP01-RULE"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-CMP01"
+        },
+        {
+          "other": "V01:B01",
+          "type": "COMPARES_REFERENCE",
+          "uid": "V01:CMP01-subtrahend"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "ComparisonResult"
+      ],
+      "uid": "V01:CMP01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-D03-R01"
+        },
+        {
+          "other": "V01:U01",
+          "type": "USES_ANALYSIS_RULE",
+          "uid": "V01:U-USES-D03"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "uid": "V01:D03-R01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S04",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S04"
+        },
+        {
+          "other": "V01:S05",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S05"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-DATUM01"
+        },
+        {
+          "other": "V01:TP01",
+          "type": "USES_DATUM",
+          "uid": "V01:D05-DATUM-TP01"
+        },
+        {
+          "other": "V01:B03",
+          "type": "USES_DATUM",
+          "uid": "V01:D05-DATUM-B03"
+        },
+        {
+          "other": "V01:ST01",
+          "type": "USES_DATUM",
+          "uid": "V01:D05-DATUM-ST01"
+        },
+        {
+          "other": "V01:S02",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S02"
+        },
+        {
+          "other": "V01:CG01",
+          "type": "USES_DATUM",
+          "uid": "V01:D05-DATUM-CG01"
+        },
+        {
+          "other": "V01:B01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-B01"
+        },
+        {
+          "other": "V01:S01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S01"
+        },
+        {
+          "other": "V01:S03",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S03"
+        },
+        {
+          "other": "V01:B02",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-B02"
+        },
+        {
+          "other": "V01:S06",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S06"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "ReferenceDatum"
+      ],
+      "uid": "V01:DATUM01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:U01",
+          "type": "DECLARES_RULE",
+          "uid": "V01:DECLARE-DIM-R01"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-DIM-R01"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "uid": "V01:DIM-R01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-DIM-R02"
+        },
+        {
+          "other": "V01:U01",
+          "type": "DECLARES_RULE",
+          "uid": "V01:DECLARE-DIM-R02"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "uid": "V01:DIM-R02"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-DIM-R03"
+        },
+        {
+          "other": "V01:CMP01",
+          "type": "APPLIES_RULE",
+          "uid": "V01:CMP01-RULE"
+        },
+        {
+          "other": "V01:U01",
+          "type": "DECLARES_RULE",
+          "uid": "V01:DECLARE-DIM-R03"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Demo",
+        "V01",
+        "AnalysisRule"
+      ],
+      "uid": "V01:DIM-R03"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:W02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R100"
+        },
+        {
+          "other": "V01:I01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R142"
+        },
+        {
+          "other": "V01:B01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R077"
+        },
+        {
+          "other": "V01:W08",
+          "type": "DOCUMENTS",
+          "uid": "V01:R117"
+        },
+        {
+          "other": "V01:W05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R109"
+        },
+        {
+          "other": "V01:W07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R114"
+        },
+        {
+          "other": "V01:I02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R144"
+        },
+        {
+          "other": "V01:W01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R097"
+        },
+        {
+          "other": "V01:C04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R132"
+        },
+        {
+          "other": "V01:I04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R148"
+        },
+        {
+          "other": "V01:S01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R085"
+        },
+        {
+          "other": "V01:RS02",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV01-RS02"
+        },
+        {
+          "other": "V01:I03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R146"
+        },
+        {
+          "other": "V01:S06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R095"
+        },
+        {
+          "other": "V01:S02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R087"
+        },
+        {
+          "other": "V01:I09",
+          "type": "DOCUMENTS",
+          "uid": "V01:R161"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R135"
+        },
+        {
+          "other": "V01:S05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R093"
+        },
+        {
+          "other": "V01:W04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R107"
+        },
+        {
+          "other": "V01:W10",
+          "type": "DOCUMENTS",
+          "uid": "V01:R121"
+        },
+        {
+          "other": "V01:I05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R150"
+        },
+        {
+          "other": "V01:S03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R089"
+        },
+        {
+          "other": "V01:C01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R123"
+        },
+        {
+          "other": "V01:RS01",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV01-RS01"
+        },
+        {
+          "other": "V01:I10",
+          "type": "DOCUMENTS",
+          "uid": "V01:R164"
+        },
+        {
+          "other": "V01:W09",
+          "type": "DOCUMENTS",
+          "uid": "V01:R119"
+        },
+        {
+          "other": "V01:S04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R091"
+        },
+        {
+          "other": "V01:I08",
+          "type": "DOCUMENTS",
+          "uid": "V01:R158"
+        },
+        {
+          "other": "V01:C02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R126"
+        },
+        {
+          "other": "V01:I07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R155"
+        },
+        {
+          "other": "V01:I06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R152"
+        },
+        {
+          "other": "V01:C03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R129"
+        },
+        {
+          "other": "V01:W03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R103"
+        },
+        {
+          "other": "V01:W06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R111"
+        },
+        {
+          "other": "V01:D03-R01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-D03-R01"
+        },
+        {
+          "other": "V01:CG01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-CG01"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-DATUM01"
+        },
+        {
+          "other": "V01:S05",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S05"
+        },
+        {
+          "other": "V01:W05",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W05"
+        },
+        {
+          "other": "V01:I09",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I09"
+        },
+        {
+          "other": "V01:I10",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I10"
+        },
+        {
+          "other": "V01:W08",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W08"
+        },
+        {
+          "other": "V01:I08",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-I08"
+        },
+        {
+          "other": "V01:B01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-B01"
+        },
+        {
+          "other": "V01:W04",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W04"
+        },
+        {
+          "other": "V01:RS01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-RS01"
+        },
+        {
+          "other": "V01:I05",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-I05"
+        },
+        {
+          "other": "V01:DIM-R03",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-DIM-R03"
+        },
+        {
+          "other": "V01:S01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S01"
+        },
+        {
+          "other": "V01:C01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-C01"
+        },
+        {
+          "other": "V01:TP01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-TP01"
+        },
+        {
+          "other": "V01:W09",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W09"
+        },
+        {
+          "other": "V01:S03",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S03"
+        },
+        {
+          "other": "V01:U01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-U01"
+        },
+        {
+          "other": "V01:DIM-R02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-DIM-R02"
+        },
+        {
+          "other": "V01:S06",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S06"
+        },
+        {
+          "other": "V01:I04",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I04"
+        },
+        {
+          "other": "V01:W07",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W07"
+        },
+        {
+          "other": "V01:I06",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I06"
+        },
+        {
+          "other": "V01:C02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-C02"
+        },
+        {
+          "other": "V01:S04",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S04"
+        },
+        {
+          "other": "V01:RS02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-RS02"
+        },
+        {
+          "other": "V01:B02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-B02"
+        },
+        {
+          "other": "V01:I10",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-I10"
+        },
+        {
+          "other": "V01:I09",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-I09"
+        },
+        {
+          "other": "V01:I08",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I08"
+        },
+        {
+          "other": "V01:W03",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-W03"
+        },
+        {
+          "other": "V01:I03",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I03"
+        },
+        {
+          "other": "V01:B01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-B01"
+        },
+        {
+          "other": "V01:S05",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-S05"
+        },
+        {
+          "other": "V01:CMP01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-CMP01"
+        },
+        {
+          "other": "V01:S02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S02"
+        },
+        {
+          "other": "V01:U01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-U01"
+        },
+        {
+          "other": "V01:I01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I01"
+        },
+        {
+          "other": "V01:W06",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W06"
+        },
+        {
+          "other": "V01:W10",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-W10"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-RF01"
+        },
+        {
+          "other": "V01:I02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I02"
+        },
+        {
+          "other": "V01:ST01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-ST01"
+        },
+        {
+          "other": "V01:I07",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I07"
+        },
+        {
+          "other": "V01:W10",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W10"
+        },
+        {
+          "other": "V01:W03",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W03"
+        },
+        {
+          "other": "V01:W01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W01"
+        },
+        {
+          "other": "V01:B03",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-B03"
+        },
+        {
+          "other": "V01:I05",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I05"
+        },
+        {
+          "other": "V01:DIM-R01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-DIM-R01"
+        },
+        {
+          "other": "V01:W02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W02"
+        },
+        {
+          "other": "V01:B02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-B02-REG"
+        },
+        {
+          "other": "V01:C03",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-C03"
+        },
+        {
+          "other": "V01:C04",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-C04"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Source",
+        "Evidence",
+        "Demo",
+        "V01",
+        "SyntheticSource"
+      ],
+      "uid": "V01:EV01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:I02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R145"
+        },
+        {
+          "other": "V01:W02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R101"
+        },
+        {
+          "other": "V01:I06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R153"
+        },
+        {
+          "other": "V01:I04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R149"
+        },
+        {
+          "other": "V01:C02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R127"
+        },
+        {
+          "other": "V01:S01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R086"
+        },
+        {
+          "other": "V01:C01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R124"
+        },
+        {
+          "other": "V01:I05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R151"
+        },
+        {
+          "other": "V01:I07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R156"
+        },
+        {
+          "other": "V01:I03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R147"
+        },
+        {
+          "other": "V01:C04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R133"
+        },
+        {
+          "other": "V01:S05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R094"
+        },
+        {
+          "other": "V01:I08",
+          "type": "DOCUMENTS",
+          "uid": "V01:R159"
+        },
+        {
+          "other": "V01:W04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R108"
+        },
+        {
+          "other": "V01:W08",
+          "type": "DOCUMENTS",
+          "uid": "V01:R118"
+        },
+        {
+          "other": "V01:S04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R092"
+        },
+        {
+          "other": "V01:W07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R115"
+        },
+        {
+          "other": "V01:W03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R104"
+        },
+        {
+          "other": "V01:W09",
+          "type": "DOCUMENTS",
+          "uid": "V01:R120"
+        },
+        {
+          "other": "V01:I10",
+          "type": "DOCUMENTS",
+          "uid": "V01:R165"
+        },
+        {
+          "other": "V01:B01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R078"
+        },
+        {
+          "other": "V01:W01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R098"
+        },
+        {
+          "other": "V01:W05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R110"
+        },
+        {
+          "other": "V01:I01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R143"
+        },
+        {
+          "other": "V01:C03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R130"
+        },
+        {
+          "other": "V01:W10",
+          "type": "DOCUMENTS",
+          "uid": "V01:R122"
+        },
+        {
+          "other": "V01:S02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R088"
+        },
+        {
+          "other": "V01:S06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R096"
+        },
+        {
+          "other": "V01:I09",
+          "type": "DOCUMENTS",
+          "uid": "V01:R162"
+        },
+        {
+          "other": "V01:S03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R090"
+        },
+        {
+          "other": "V01:W06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R112"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "uid": "V01:EV02"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:C01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R125"
+        },
+        {
+          "other": "V01:W06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R113"
+        },
+        {
+          "other": "V01:C03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R131"
+        },
+        {
+          "other": "V01:I06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R154"
+        },
+        {
+          "other": "V01:W07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R116"
+        },
+        {
+          "other": "V01:C02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R128"
+        },
+        {
+          "other": "V01:B01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R079"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R136"
+        },
+        {
+          "other": "V01:C04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R134"
+        },
+        {
+          "other": "V01:I07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R157"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "uid": "V01:EV03"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:RF01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R137"
+        },
+        {
+          "other": "V01:B01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R080"
+        },
+        {
+          "other": "V01:I09",
+          "type": "DOCUMENTS",
+          "uid": "V01:R163"
+        },
+        {
+          "other": "V01:W03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R105"
+        },
+        {
+          "other": "V01:I10",
+          "type": "DOCUMENTS",
+          "uid": "V01:R166"
+        },
+        {
+          "other": "V01:I08",
+          "type": "DOCUMENTS",
+          "uid": "V01:R160"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "uid": "V01:EV04"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:B01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R081"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R138"
+        },
+        {
+          "other": "V01:W02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R102"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "uid": "V01:EV05"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:W01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R099"
+        },
+        {
+          "other": "V01:B01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R082"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R139"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "uid": "V01:EV06"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:B01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R083"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R140"
+        },
+        {
+          "other": "V01:RS01",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV07-RS01"
+        },
+        {
+          "other": "V01:RS02",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV07-RS02"
+        },
+        {
+          "other": "V01:W03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R106"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "uid": "V01:EV07"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:RS01",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV08-RS01"
+        },
+        {
+          "other": "V01:B01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R084"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R141"
+        },
+        {
+          "other": "V01:RS02",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV08-RS02"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Evidence",
+        "Demo",
+        "V01"
+      ],
+      "uid": "V01:EV08"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:B02",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-B02"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Source",
+        "Demo",
+        "V01",
+        "SyntheticSource"
+      ],
+      "uid": "V01:EV09"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R142"
+        },
+        {
+          "other": "V01:S04",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R029"
+        },
+        {
+          "other": "V01:S01",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R028"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I01"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R143"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "uid": "V01:I01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R145"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R144"
+        },
+        {
+          "other": "V01:S01",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R032"
+        },
+        {
+          "other": "V01:S02",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R031"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I02"
+        },
+        {
+          "other": "V01:W04",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R033"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "uid": "V01:I02"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:W05",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R037"
+        },
+        {
+          "other": "V01:S03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R036"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R147"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R146"
+        },
+        {
+          "other": "V01:S01",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R035"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I03"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "uid": "V01:I03"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R149"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R148"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I04"
+        },
+        {
+          "other": "V01:S04",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R039"
+        },
+        {
+          "other": "V01:S05",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R040"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01",
+        "EntranceInterface"
+      ],
+      "uid": "V01:I04"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S06",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R043"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-I05"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R151"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I05"
+        },
+        {
+          "other": "V01:W10",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R044"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R150"
+        },
+        {
+          "other": "V01:S05",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R042"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01",
+        "EntranceInterface"
+      ],
+      "uid": "V01:I05"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R153"
+        },
+        {
+          "other": "V01:S04",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R047"
+        },
+        {
+          "other": "V01:S02",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R046"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I06"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R152"
+        },
+        {
+          "other": "V01:W06",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R048"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R154"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "uid": "V01:I06"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R049"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R156"
+        },
+        {
+          "other": "V01:S04",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R050"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R155"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I07"
+        },
+        {
+          "other": "V01:W07",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R051"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R157"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "uid": "V01:I07"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-I08"
+        },
+        {
+          "other": "V01:W03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R053"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R159"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R158"
+        },
+        {
+          "other": "V01:EV04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R160"
+        },
+        {
+          "other": "V01:S02",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R052"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I08"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "uid": "V01:I08"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I09"
+        },
+        {
+          "other": "V01:EV04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R163"
+        },
+        {
+          "other": "V01:W03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R055"
+        },
+        {
+          "other": "V01:S01",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R054"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R162"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-I09"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R161"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "uid": "V01:I09"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R056"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-I10"
+        },
+        {
+          "other": "V01:EV04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R166"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R164"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R165"
+        },
+        {
+          "other": "V01:W03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R057"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-I10"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "Interface",
+        "V01"
+      ],
+      "uid": "V01:I10"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:RS02",
+          "type": "PART_OF",
+          "uid": "V01:RS-PART-RS02"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R020"
+        },
+        {
+          "other": "V01:EV04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R137"
+        },
+        {
+          "other": "V01:C01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R021"
+        },
+        {
+          "other": "V01:EV05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R138"
+        },
+        {
+          "other": "V01:C03",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R023"
+        },
+        {
+          "other": "V01:EV07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R140"
+        },
+        {
+          "other": "V01:W01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R025"
+        },
+        {
+          "other": "V01:W02",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R026"
+        },
+        {
+          "other": "V01:C02",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R022"
+        },
+        {
+          "other": "V01:RS01",
+          "type": "PART_OF",
+          "uid": "V01:RS-PART-RS01"
+        },
+        {
+          "other": "V01:C04",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R024"
+        },
+        {
+          "other": "V01:W03",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R027"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-RF01"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R136"
+        },
+        {
+          "other": "V01:EV08",
+          "type": "DOCUMENTS",
+          "uid": "V01:R141"
+        },
+        {
+          "other": "V01:EV06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R139"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R135"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_木",
+        "材质_陶瓦",
+        "Roof"
+      ],
+      "uid": "V01:RF01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-RS01"
+        },
+        {
+          "other": "V01:EV08",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV08-RS01"
+        },
+        {
+          "other": "V01:EV07",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV07-RS01"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV01-RS01"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "PART_OF",
+          "uid": "V01:RS-PART-RS01"
+        },
+        {
+          "other": "V01:RS02",
+          "type": "SHARES_BOUNDARY",
+          "uid": "V01:RS-RS01-RS02"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "RoofSurface",
+        "GeometryRepresentation"
+      ],
+      "uid": "V01:RS01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:RF01",
+          "type": "PART_OF",
+          "uid": "V01:RS-PART-RS02"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV01-RS02"
+        },
+        {
+          "other": "V01:EV07",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV07-RS02"
+        },
+        {
+          "other": "V01:RS01",
+          "type": "SHARES_BOUNDARY",
+          "uid": "V01:RS-RS01-RS02"
+        },
+        {
+          "other": "V01:EV08",
+          "type": "DOCUMENTS",
+          "uid": "V01:RS-DOC-EV08-RS02"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-RS02"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "RoofSurface",
+        "GeometryRepresentation"
+      ],
+      "uid": "V01:RS02"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S04",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R030"
+        },
+        {
+          "other": "V01:S03",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R038"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R086"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S01"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R085"
+        },
+        {
+          "other": "V01:I02",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R032"
+        },
+        {
+          "other": "V01:S02",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R034"
+        },
+        {
+          "other": "V01:I03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R035"
+        },
+        {
+          "other": "V01:W03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R059"
+        },
+        {
+          "other": "V01:W04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R060"
+        },
+        {
+          "other": "V01:B01",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:R001"
+        },
+        {
+          "other": "V01:I01",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R028"
+        },
+        {
+          "other": "V01:I09",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R054"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S01"
+        },
+        {
+          "other": "V01:W05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R061"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "uid": "V01:S01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:W04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R064"
+        },
+        {
+          "other": "V01:I06",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R046"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S02"
+        },
+        {
+          "other": "V01:W06",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R065"
+        },
+        {
+          "other": "V01:S01",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R034"
+        },
+        {
+          "other": "V01:W03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R063"
+        },
+        {
+          "other": "V01:I02",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R031"
+        },
+        {
+          "other": "V01:I08",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R052"
+        },
+        {
+          "other": "V01:W01",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R062"
+        },
+        {
+          "other": "V01:S03",
+          "type": "SPATIAL_RELATION",
+          "uid": "V01:R058"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S02"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R088"
+        },
+        {
+          "other": "V01:B01",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:R002"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R087"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "uid": "V01:S02"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:I10",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R056"
+        },
+        {
+          "other": "V01:I03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R036"
+        },
+        {
+          "other": "V01:W03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R067"
+        },
+        {
+          "other": "V01:I07",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R049"
+        },
+        {
+          "other": "V01:S01",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R038"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S03"
+        },
+        {
+          "other": "V01:W02",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R066"
+        },
+        {
+          "other": "V01:W05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R068"
+        },
+        {
+          "other": "V01:S02",
+          "type": "SPATIAL_RELATION",
+          "uid": "V01:R058"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R089"
+        },
+        {
+          "other": "V01:B01",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:R003"
+        },
+        {
+          "other": "V01:W07",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R069"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S03"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R090"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone"
+      ],
+      "uid": "V01:S03"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:C02",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S04-C02"
+        },
+        {
+          "other": "V01:C03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S04-C03"
+        },
+        {
+          "other": "V01:C04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S04-C04"
+        },
+        {
+          "other": "V01:C01",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S04-C01"
+        },
+        {
+          "other": "V01:S01",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R030"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S04"
+        },
+        {
+          "other": "V01:W02",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R071"
+        },
+        {
+          "other": "V01:S05",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R041"
+        },
+        {
+          "other": "V01:W07",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R073"
+        },
+        {
+          "other": "V01:I06",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R047"
+        },
+        {
+          "other": "V01:B01",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:R004"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R092"
+        },
+        {
+          "other": "V01:I01",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R029"
+        },
+        {
+          "other": "V01:I07",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R050"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R091"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-S04"
+        },
+        {
+          "other": "V01:I04",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R039"
+        },
+        {
+          "other": "V01:W06",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R072"
+        },
+        {
+          "other": "V01:S05",
+          "type": "PLAN_POSITION",
+          "uid": "V01:POS-S04-S05"
+        },
+        {
+          "other": "V01:W01",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R070"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S04"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "ExternalTransition"
+      ],
+      "uid": "V01:S04"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S05"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S05"
+        },
+        {
+          "other": "V01:C03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-C03"
+        },
+        {
+          "other": "V01:S04",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R041"
+        },
+        {
+          "other": "V01:C04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-C04"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R094"
+        },
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-S04"
+        },
+        {
+          "other": "V01:S06",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R045"
+        },
+        {
+          "other": "V01:S04",
+          "type": "PLAN_POSITION",
+          "uid": "V01:POS-S04-S05"
+        },
+        {
+          "other": "V01:C02",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-C02"
+        },
+        {
+          "other": "V01:B01",
+          "type": "ASSOCIATED_WITH",
+          "uid": "V01:R005"
+        },
+        {
+          "other": "V01:W09",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R075"
+        },
+        {
+          "other": "V01:W10",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R076"
+        },
+        {
+          "other": "V01:W08",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R074"
+        },
+        {
+          "other": "V01:I05",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R042"
+        },
+        {
+          "other": "V01:C01",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S05-C01"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R093"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-S05"
+        },
+        {
+          "other": "V01:U01",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:U-HAS-S05"
+        },
+        {
+          "other": "V01:I04",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R040"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "Courtyard"
+      ],
+      "uid": "V01:S05"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:W10",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S06-W10"
+        },
+        {
+          "other": "V01:I05",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R043"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-S06"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R095"
+        },
+        {
+          "other": "V01:S05",
+          "type": "DIRECT_ACCESS_TO",
+          "uid": "V01:R045"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R096"
+        },
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:DATUM-S06"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Space",
+        "Demo",
+        "V01",
+        "Zone",
+        "ExternalTransition"
+      ],
+      "uid": "V01:S06"
+    },
+    {
+      "incident": [
+        {
+          "other": null,
+          "type": null,
+          "uid": null
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "DatasetSnapshot",
+        "Demo",
+        "V01"
+      ],
+      "uid": "V01:SOURCE"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:D05-DATUM-ST01"
+        },
+        {
+          "other": "V01:W10",
+          "type": "STREET_BOUNDARY_PARTICIPANT",
+          "uid": "V01:D05-LEFT"
+        },
+        {
+          "other": "V01:B03",
+          "type": "STREET_BOUNDARY_PARTICIPANT",
+          "uid": "V01:D05-RIGHT"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-ST01"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "SpatialReference",
+        "StreetSegment"
+      ],
+      "uid": "V01:ST01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:DATUM01",
+          "type": "USES_DATUM",
+          "uid": "V01:D05-DATUM-TP01"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-TP01"
+        },
+        {
+          "other": "V01:B02",
+          "type": "REFERENCES_GROUND",
+          "uid": "V01:D05-GROUND"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "GeometryRepresentation",
+        "GroundProfile"
+      ],
+      "uid": "V01:TP01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:W10",
+          "type": "FACADE_PARTICIPANT",
+          "uid": "V01:D04-FACADE-W10"
+        },
+        {
+          "other": "V01:B01",
+          "type": "BOT_HAS_BUILDING",
+          "uid": "V01:U-HAS-B01"
+        },
+        {
+          "other": "V01:W10",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R015"
+        },
+        {
+          "other": "V01:DIM-R01",
+          "type": "DECLARES_RULE",
+          "uid": "V01:DECLARE-DIM-R01"
+        },
+        {
+          "other": "V01:W09",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R014"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-U01"
+        },
+        {
+          "other": "V01:W08",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R013"
+        },
+        {
+          "other": "V01:CMP01",
+          "type": "HAS_COMPARISON",
+          "uid": "V01:U-HAS-CMP01"
+        },
+        {
+          "other": "V01:D03-R01",
+          "type": "USES_ANALYSIS_RULE",
+          "uid": "V01:U-USES-D03"
+        },
+        {
+          "other": "V01:DIM-R03",
+          "type": "DECLARES_RULE",
+          "uid": "V01:DECLARE-DIM-R03"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-U01"
+        },
+        {
+          "other": "V01:DIM-R02",
+          "type": "DECLARES_RULE",
+          "uid": "V01:DECLARE-DIM-R02"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOT_HAS_SPACE",
+          "uid": "V01:U-HAS-S05"
+        },
+        {
+          "other": "V01:B02",
+          "type": "BOT_HAS_BUILDING",
+          "uid": "V01:U-HAS-B02"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Demo",
+        "V01",
+        "Zone",
+        "DwellingUnit"
+      ],
+      "uid": "V01:U01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:W08",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W01-W08"
+        },
+        {
+          "other": "V01:C01",
+          "type": "ENVELOPE_INTERSECTS",
+          "uid": "V01:WC-W01-C01"
+        },
+        {
+          "other": "V01:EV06",
+          "type": "DOCUMENTS",
+          "uid": "V01:R099"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R097"
+        },
+        {
+          "other": "V01:W03",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W01-W03"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R025"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R006"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W01"
+        },
+        {
+          "other": "V01:W06",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W01-W06"
+        },
+        {
+          "other": "V01:S02",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R062"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R098"
+        },
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R070"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W01"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R100"
+        },
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R071"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R101"
+        },
+        {
+          "other": "V01:W07",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W02-W07"
+        },
+        {
+          "other": "V01:S03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R066"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W02"
+        },
+        {
+          "other": "V01:C04",
+          "type": "ENVELOPE_INTERSECTS",
+          "uid": "V01:WC-W02-C04"
+        },
+        {
+          "other": "V01:W09",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W02-W09"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R026"
+        },
+        {
+          "other": "V01:W03",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W02-W03"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R007"
+        },
+        {
+          "other": "V01:EV05",
+          "type": "DOCUMENTS",
+          "uid": "V01:R102"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W02"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R008"
+        },
+        {
+          "other": "V01:W05",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W03-W05"
+        },
+        {
+          "other": "V01:S03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R067"
+        },
+        {
+          "other": "V01:I08",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R053"
+        },
+        {
+          "other": "V01:W01",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W01-W03"
+        },
+        {
+          "other": "V01:EV04",
+          "type": "DOCUMENTS",
+          "uid": "V01:R105"
+        },
+        {
+          "other": "V01:S01",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R059"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R103"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R104"
+        },
+        {
+          "other": "V01:S02",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R063"
+        },
+        {
+          "other": "V01:W04",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W03-W04"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W03"
+        },
+        {
+          "other": "V01:W02",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W02-W03"
+        },
+        {
+          "other": "V01:I09",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R055"
+        },
+        {
+          "other": "V01:RF01",
+          "type": "SUPPORTS_SYSTEM",
+          "uid": "V01:R027"
+        },
+        {
+          "other": "V01:B01",
+          "type": "FACADE_PARTICIPANT",
+          "uid": "V01:D04-FACADE-W03"
+        },
+        {
+          "other": "V01:EV07",
+          "type": "DOCUMENTS",
+          "uid": "V01:R106"
+        },
+        {
+          "other": "V01:I10",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R057"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-W03"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W03"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S02",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R064"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W04"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R108"
+        },
+        {
+          "other": "V01:W06",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W04-W06"
+        },
+        {
+          "other": "V01:S01",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R060"
+        },
+        {
+          "other": "V01:W03",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W03-W04"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R009"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R107"
+        },
+        {
+          "other": "V01:I02",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R033"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W04"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W05"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R109"
+        },
+        {
+          "other": "V01:I03",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R037"
+        },
+        {
+          "other": "V01:W03",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W03-W05"
+        },
+        {
+          "other": "V01:S03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R068"
+        },
+        {
+          "other": "V01:W07",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W05-W07"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R010"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R110"
+        },
+        {
+          "other": "V01:S01",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R061"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W05"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S02",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R065"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R113"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R011"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R111"
+        },
+        {
+          "other": "V01:I06",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R048"
+        },
+        {
+          "other": "V01:W04",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W04-W06"
+        },
+        {
+          "other": "V01:W01",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W01-W06"
+        },
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R072"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W06"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R112"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W06"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R114"
+        },
+        {
+          "other": "V01:S04",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R073"
+        },
+        {
+          "other": "V01:W02",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W02-W07"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W07"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R115"
+        },
+        {
+          "other": "V01:W05",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W05-W07"
+        },
+        {
+          "other": "V01:B01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R012"
+        },
+        {
+          "other": "V01:EV03",
+          "type": "DOCUMENTS",
+          "uid": "V01:R116"
+        },
+        {
+          "other": "V01:S03",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R069"
+        },
+        {
+          "other": "V01:I07",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R051"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W07"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:W01",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W01-W08"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R117"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W08"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R118"
+        },
+        {
+          "other": "V01:U01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R013"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R074"
+        },
+        {
+          "other": "V01:W10",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W08-W10"
+        },
+        {
+          "other": "V01:C01",
+          "type": "ENVELOPE_INTERSECTS",
+          "uid": "V01:WC-W08-C01"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W08"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:C04",
+          "type": "ENVELOPE_INTERSECTS",
+          "uid": "V01:WC-W09-C04"
+        },
+        {
+          "other": "V01:W10",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W09-W10"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W09"
+        },
+        {
+          "other": "V01:U01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R014"
+        },
+        {
+          "other": "V01:W02",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W02-W09"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R120"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R119"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R075"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W09"
+    },
+    {
+      "incident": [
+        {
+          "other": "V01:S06",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:BOUND-S06-W10"
+        },
+        {
+          "other": "V01:U01",
+          "type": "FACADE_PARTICIPANT",
+          "uid": "V01:D04-FACADE-W10"
+        },
+        {
+          "other": "V01:W09",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W09-W10"
+        },
+        {
+          "other": "V01:ST01",
+          "type": "STREET_BOUNDARY_PARTICIPANT",
+          "uid": "V01:D05-LEFT"
+        },
+        {
+          "other": "V01:U01",
+          "type": "MEMBER_OF_ZONE",
+          "uid": "V01:R015"
+        },
+        {
+          "other": "V01:I05",
+          "type": "INTERFACE_OF",
+          "uid": "V01:R044"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:SRC-W10"
+        },
+        {
+          "other": "V01:S05",
+          "type": "BOUNDARY_PARTICIPANT",
+          "uid": "V01:R076"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "HAS_SOURCE",
+          "uid": "V01:X-SRC-W10"
+        },
+        {
+          "other": "V01:EV01",
+          "type": "DOCUMENTS",
+          "uid": "V01:R121"
+        },
+        {
+          "other": "V01:W08",
+          "type": "AXIS_JOINS",
+          "uid": "V01:WJ-W08-W10"
+        },
+        {
+          "other": "V01:EV02",
+          "type": "DOCUMENTS",
+          "uid": "V01:R122"
+        }
+      ],
+      "labels": [
+        "KGItem",
+        "Entity",
+        "Element",
+        "Demo",
+        "V01",
+        "材质_砖",
+        "Wall",
+        "材质_灰泥"
+      ],
+      "uid": "V01:W10"
+    }
+  ],
+  "Q26_interface_completeness": [
+    {
+      "interface": "V01:I01",
+      "kind": "open_boundary",
+      "roles": [
+        {
+          "participant": "V01:S04",
+          "role": "side-b"
+        },
+        {
+          "participant": "V01:S01",
+          "role": "side-a"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I02",
+      "kind": "door_opening",
+      "roles": [
+        {
+          "participant": "V01:S01",
+          "role": "side-b"
+        },
+        {
+          "participant": "V01:S02",
+          "role": "side-a"
+        },
+        {
+          "participant": "V01:W04",
+          "role": "opening-host"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I03",
+      "kind": "door_opening",
+      "roles": [
+        {
+          "participant": "V01:W05",
+          "role": "opening-host"
+        },
+        {
+          "participant": "V01:S03",
+          "role": "side-b"
+        },
+        {
+          "participant": "V01:S01",
+          "role": "side-a"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I04",
+      "kind": "open_boundary",
+      "roles": [
+        {
+          "participant": "V01:S04",
+          "role": "side-a"
+        },
+        {
+          "participant": "V01:S05",
+          "role": "side-b"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I05",
+      "kind": "gate_opening",
+      "roles": [
+        {
+          "participant": "V01:S06",
+          "role": "side-b"
+        },
+        {
+          "participant": "V01:W10",
+          "role": "opening-host"
+        },
+        {
+          "participant": "V01:S05",
+          "role": "side-a"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I06",
+      "kind": "window_opening",
+      "roles": [
+        {
+          "participant": "V01:S04",
+          "role": "side-b"
+        },
+        {
+          "participant": "V01:S02",
+          "role": "side-a"
+        },
+        {
+          "participant": "V01:W06",
+          "role": "opening-host"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I07",
+      "kind": "window_opening",
+      "roles": [
+        {
+          "participant": "V01:S03",
+          "role": "side-a"
+        },
+        {
+          "participant": "V01:S04",
+          "role": "side-b"
+        },
+        {
+          "participant": "V01:W07",
+          "role": "opening-host"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I08",
+      "kind": "window_opening",
+      "roles": [
+        {
+          "participant": "V01:W03",
+          "role": "opening-host"
+        },
+        {
+          "participant": "V01:S02",
+          "role": "side-a"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I09",
+      "kind": "window_opening",
+      "roles": [
+        {
+          "participant": "V01:W03",
+          "role": "opening-host"
+        },
+        {
+          "participant": "V01:S01",
+          "role": "side-a"
+        }
+      ]
+    },
+    {
+      "interface": "V01:I10",
+      "kind": "window_opening",
+      "roles": [
+        {
+          "participant": "V01:S03",
+          "role": "side-a"
+        },
+        {
+          "participant": "V01:W03",
+          "role": "opening-host"
+        }
+      ]
+    }
+  ]
+}

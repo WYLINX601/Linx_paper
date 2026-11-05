@@ -1,0 +1,69 @@
+{
+  "experimentId": "V01-blind-01",
+  "status": "synthetic_observed_packet",
+  "rules": [
+    "只使用本输入信息；每题输出supported/derived/hypothesis/unknown之一。",
+    "缺失不等于没有；不要把常见形式当成实例事实。",
+    "可以计算；记录公式和输入。",
+    "允许提出假设，但明确证据不足与验证资料。"
+  ],
+  "evidence": [
+    {
+      "id": "O01",
+      "type": "section_measurements",
+      "content": "A—A剖面：主屋轴线进深7.2m；对称双坡屋顶；坡面在南北外墙轴线处高度3.6m；脊高5.6m；以上标高同一基准。"
+    },
+    {
+      "id": "O02",
+      "type": "interface_record",
+      "content": "I03位于墙W05的门洞处，参与空间S01堂屋、S03东室；基准情境为正常成人步行，设定无阻挡，允许双向通行。图中尚未录入S01与S03的直接通行边。"
+    },
+    {
+      "id": "O03",
+      "type": "synthetic_description",
+      "content": "屋顶系统RF01为木构支撑、陶质小青瓦覆盖。"
+    },
+    {
+      "id": "O04",
+      "type": "surface_observation",
+      "content": "墙W06外表面为灰白色抹灰；没有墙芯剖面、施工记录或材料检测。"
+    },
+    {
+      "id": "O05",
+      "type": "plan_observation",
+      "content": "S03位于堂屋东侧；矩形室内空间；有一处通向堂屋的门洞和临廊、临北的窗。没有家具、生活活动、访谈或用途文字。"
+    }
+  ],
+  "questions": [
+    {
+      "id": "P1",
+      "question": "根据O01求屋面坡度（角度），给出公式和单位。"
+    },
+    {
+      "id": "P2",
+      "question": "是否能补出S01与S03的直接通行关系？必须指明界面和情境。"
+    },
+    {
+      "id": "P3",
+      "question": "根据O03给RF01补充材料标签，备选标签：材质_木、材质_砖、材质_灰泥、材质_陶瓦。"
+    },
+    {
+      "id": "P4",
+      "question": "能否确定W06墙芯材料？如只能假设，请说明。"
+    },
+    {
+      "id": "P5",
+      "question": "能否确定S03的具体使用功能？如只能假设，请说明。"
+    }
+  ],
+  "output_schema": {
+    "id": "P1...",
+    "status": "supported|derived|hypothesis|unknown",
+    "answer": "简明答案",
+    "evidence": [
+      "Oxx"
+    ],
+    "reasoning_summary": "公式或依据，不需要冗长思维过程",
+    "verification_needed": "如不能确定，列后续需何资料"
+  }
+}

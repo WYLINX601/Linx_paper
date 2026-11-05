@@ -1,0 +1,3183 @@
+{
+  "status": "technical-delivery-verified-user-semantic-review-pending",
+  "at": "2026-10-30T14:31:43.976255+08:00",
+  "scope": "G01-G08 common expression; bounded D03-T01/T02/T03 and D06 synthetic comparison; D04/D05 not instantiated",
+  "database": {
+    "status": "verified-technical-only-user-review-pending",
+    "at": "2026-10-30T14:09:02.247256+08:00",
+    "modelSHA256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+    "exactNodes": 28,
+    "exactRelationships": 70,
+    "propertiesAndNativeTypes": "equal",
+    "globalNodes": 82,
+    "globalRelationships": 279,
+    "oldNodes": 54,
+    "oldRelationships": 209,
+    "oldFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+    "preservedFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+    "oldGraphUnchanged": true,
+    "constraintsIndexesUnchanged": true,
+    "queries": {
+      "Q01": 4,
+      "Q02": 16,
+      "Q03": 4,
+      "Q04": 26,
+      "Q05": 4,
+      "Q06": 1,
+      "Q07": 1,
+      "Q08": 7
+    },
+    "readOnlyMismatchTests": 2,
+    "sourceRuleBoundary": "four synthetic examples; not empirical validity; no native Neo4j GUI check"
+  },
+  "publishedHelperReadOnlyRecheck": {
+    "status": "verified-technical-only-user-review-pending",
+    "at": "2026-10-30T14:28:47.258768+08:00",
+    "modelSHA256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+    "exactNodes": 28,
+    "exactRelationships": 70,
+    "propertiesAndNativeTypes": "equal",
+    "globalNodes": 82,
+    "globalRelationships": 279,
+    "oldNodes": 54,
+    "oldRelationships": 209,
+    "oldFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+    "preservedFingerprint": "2deedb2a360f63808a49a0bc9a9346cb3068e643c04e71fdb2cd2af9e9342d33",
+    "oldGraphUnchanged": true,
+    "constraintsIndexesUnchanged": true,
+    "queries": {
+      "Q01": 4,
+      "Q02": 16,
+      "Q03": 4,
+      "Q04": 26,
+      "Q05": 4,
+      "Q06": 1,
+      "Q07": 1,
+      "Q08": 7
+    },
+    "readOnlyMismatchTests": 2,
+    "sourceRuleBoundary": "four synthetic examples; not empirical validity; no native Neo4j GUI check"
+  },
+  "files": [
+    {
+      "path": "README.md",
+      "sha256": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09",
+      "expected": "15d1720f2fc4278aa888a9e451d05e2a2108d40f7839689ed098237c73a1d331"
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/README.md",
+      "sha256": "7d21e462bdefc81f2672545f8a1972dbacdff352902325b04da5fbe2e83ebb01",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/README.md",
+      "sha256": "15d1720f2fc4278aa888a9e451d05e2a2108d40f7839689ed098237c73a1d331",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/archive/README.md",
+      "sha256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/context/PROJECT_CONTEXT.md",
+      "sha256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/README.md",
+      "sha256": "b96f20f92ff8e001a2b00771238a02b626eafdd310c61a1a809b08d651f9a7bd",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sha256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sha256": "ff265cfbec72ce0708fcb387047a690ff8b92f6a731d4cec4524ed6b086672ac",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sha256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/README.md",
+      "sha256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "sha256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "sha256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "sha256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核1.md",
+      "sha256": "9d1e79a3a9a34836786dfb93a44f6550c7d671759f1b1a9f7cf0e84a1a921019",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核2.md",
+      "sha256": "160c987a15e57e4189a5ecc441e524ca6b4ef19ebe8e0e58b9b32d8e62ae1e8a",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核来源1.json",
+      "sha256": "add02d344806815270a5ee1857738cbbd942402a5ab34a3c5f5c27c0ec4deb1c",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核来源2.json",
+      "sha256": "3ee5a3d3c4afa258a769fc2e746a02014d34b6d1e2b529ff9d601673ada8c7ee",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核输入1.txt",
+      "sha256": "1219339e547fa99ec25ae36cd867478556be328d4fa000279c7dea47224dc0cc",
+      "expected": null
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核输入2.txt",
+      "sha256": "ae6ffa2682ebccf4436be46cc128cdf44085fb5d1edab9551a7128523592802a",
+      "expected": null
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "8231ec6200f50b67be22e447aab9bce2255ed8c4c09f629d51204bff67eba328",
+      "expected": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13"
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324",
+      "expected": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc"
+    },
+    {
+      "path": "主题研究/README.md",
+      "sha256": "a58aff26d4135265f027c15adbb1331afe6c49eeac3229462b516744b659d9f3",
+      "expected": "b96f20f92ff8e001a2b00771238a02b626eafdd310c61a1a809b08d651f9a7bd"
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sha256": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb",
+      "expected": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f"
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sha256": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3",
+      "expected": "ff265cfbec72ce0708fcb387047a690ff8b92f6a731d4cec4524ed6b086672ac"
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sha256": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef",
+      "expected": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497"
+    },
+    {
+      "path": "研究成果/README.md",
+      "sha256": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84",
+      "expected": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+      "expected": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+      "expected": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "expected": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sha256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "expected": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "expected": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sha256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "expected": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "expected": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sha256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "expected": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c",
+      "expected": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177"
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/README.md",
+      "sha256": "b41d8eb6d6899b9d4c07b1a7586a59b7009ecb40709c7b6d8a357407ee90004f",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/写前Schema.json",
+      "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/写前逻辑快照.json",
+      "sha256": "ac617c8d6801efab43ed158f01845c0ba127684fab91e76da5d5eaaa4b0e6793",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/分类参数测试.json",
+      "sha256": "b9cf939d318d33a7d8d0ae5952c598c36adf5e958829f944621071c172f5141b",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+      "sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入.cypher",
+      "sha256": "d95c0f6837215cf0d28c216fa9237ca81a4d8dcc4bce6dc69d7cfe2fa04dcee8",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+      "sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+      "sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+      "sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/数据库读回.json",
+      "sha256": "2af728dd782b569ce9c81c9b9aed1c16eca9b7fac60e0a5a8ce1e2f69b314542",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+      "sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+      "sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+      "sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/编译检查.json",
+      "sha256": "38e881a03e49eee161fbef38c7dd747b0f6497d5b97e32709dcc2c598e8dbc21",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/读回反例测试.json",
+      "sha256": "60e048133828b7a3d98f3dfd287b650040dc43d70deaf99d65b37a6d16a824af",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+      "expected": null
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+      "expected": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420",
+      "expected": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d"
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "e3786d02058b4a53aca61a5cbdfc33043b50650f41c4826aff5f45b39070b541",
+      "expected": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406"
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/README.md",
+      "sha256": "a3e80d30c3d72442120cacee980f6b0a73b5247715b3eec94a28061d60d074f3",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/build_review.py",
+      "sha256": "7fc9b2e760edec62b11e3baf75644d8b2e6d544c81669013558541c2d333b3cb",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+      "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+      "sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+      "sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+      "sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+      "expected": null
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+      "sha256": "a248bc88ed644eb84acfe28d08cca7b2eafffb91f5fd93c0fe52d39b70d55ff7",
+      "expected": null
+    }
+  ],
+  "initialPublicationReceipts": [
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/README.md",
+      "sha256": "7d21e462bdefc81f2672545f8a1972dbacdff352902325b04da5fbe2e83ebb01",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/README.md",
+          "sha256": "7d21e462bdefc81f2672545f8a1972dbacdff352902325b04da5fbe2e83ebb01",
+          "size_bytes": 2250,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/README.md",
+      "sha256": "15d1720f2fc4278aa888a9e451d05e2a2108d40f7839689ed098237c73a1d331",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/README.md",
+          "sha256": "15d1720f2fc4278aa888a9e451d05e2a2108d40f7839689ed098237c73a1d331",
+          "size_bytes": 2108,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/archive/README.md",
+      "sha256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/archive/README.md",
+          "sha256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13",
+          "size_bytes": 9918,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/context/PROJECT_CONTEXT.md",
+      "sha256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/context/PROJECT_CONTEXT.md",
+          "sha256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc",
+          "size_bytes": 42997,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/README.md",
+      "sha256": "b96f20f92ff8e001a2b00771238a02b626eafdd310c61a1a809b08d651f9a7bd",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/README.md",
+          "sha256": "b96f20f92ff8e001a2b00771238a02b626eafdd310c61a1a809b08d651f9a7bd",
+          "size_bytes": 11067,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sha256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+          "sha256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f",
+          "size_bytes": 14902,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sha256": "ff265cfbec72ce0708fcb387047a690ff8b92f6a731d4cec4524ed6b086672ac",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+          "sha256": "ff265cfbec72ce0708fcb387047a690ff8b92f6a731d4cec4524ed6b086672ac",
+          "size_bytes": 6847,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sha256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+          "sha256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497",
+          "size_bytes": 6778,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/README.md",
+      "sha256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/README.md",
+          "sha256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05",
+          "size_bytes": 15182,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+          "sha256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13",
+          "size_bytes": 43569,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+          "sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f",
+          "size_bytes": 20508,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "sha256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+          "sha256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0",
+          "size_bytes": 42778,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+          "sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466",
+          "size_bytes": 19235,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "sha256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+          "sha256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6",
+          "size_bytes": 42163,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+          "sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795",
+          "size_bytes": 18492,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "sha256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+          "sha256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206",
+          "size_bytes": 50447,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+          "sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675",
+          "size_bytes": 24347,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔分析框架〕风貌分析拆解/README.md",
+          "sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177",
+          "size_bytes": 14376,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+          "sha256": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731",
+          "size_bytes": 26217,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+          "sha256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d",
+          "size_bytes": 16635,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/修改前/研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+          "sha256": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406",
+          "size_bytes": 8766,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核1.md",
+      "sha256": "9d1e79a3a9a34836786dfb93a44f6550c7d671759f1b1a9f7cf0e84a1a921019",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/独立复核1.md",
+          "sha256": "9d1e79a3a9a34836786dfb93a44f6550c7d671759f1b1a9f7cf0e84a1a921019",
+          "size_bytes": 9113,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核2.md",
+      "sha256": "160c987a15e57e4189a5ecc441e524ca6b4ef19ebe8e0e58b9b32d8e62ae1e8a",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/独立复核2.md",
+          "sha256": "160c987a15e57e4189a5ecc441e524ca6b4ef19ebe8e0e58b9b32d8e62ae1e8a",
+          "size_bytes": 1955,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核来源1.json",
+      "sha256": "add02d344806815270a5ee1857738cbbd942402a5ab34a3c5f5c27c0ec4deb1c",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/独立复核来源1.json",
+          "sha256": "add02d344806815270a5ee1857738cbbd942402a5ab34a3c5f5c27c0ec4deb1c",
+          "size_bytes": 724,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核来源2.json",
+      "sha256": "3ee5a3d3c4afa258a769fc2e746a02014d34b6d1e2b529ff9d601673ada8c7ee",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/独立复核来源2.json",
+          "sha256": "3ee5a3d3c4afa258a769fc2e746a02014d34b6d1e2b529ff9d601673ada8c7ee",
+          "size_bytes": 360,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核输入1.txt",
+      "sha256": "1219339e547fa99ec25ae36cd867478556be328d4fa000279c7dea47224dc0cc",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/独立复核输入1.txt",
+          "sha256": "1219339e547fa99ec25ae36cd867478556be328d4fa000279c7dea47224dc0cc",
+          "size_bytes": 51105,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核输入2.txt",
+      "sha256": "ae6ffa2682ebccf4436be46cc128cdf44085fb5d1edab9551a7128523592802a",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/2026-10-30-D03共同表达与首例/独立复核输入2.txt",
+          "sha256": "ae6ffa2682ebccf4436be46cc128cdf44085fb5d1edab9551a7128523592802a",
+          "size_bytes": 39389,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/README.md",
+      "sha256": "b41d8eb6d6899b9d4c07b1a7586a59b7009ecb40709c7b6d8a357407ee90004f",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/README.md",
+          "sha256": "b41d8eb6d6899b9d4c07b1a7586a59b7009ecb40709c7b6d8a357407ee90004f",
+          "size_bytes": 1523,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/写前Schema.json",
+      "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/写前Schema.json",
+          "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+          "size_bytes": 703,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/写前逻辑快照.json",
+      "sha256": "ac617c8d6801efab43ed158f01845c0ba127684fab91e76da5d5eaaa4b0e6793",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/写前逻辑快照.json",
+          "sha256": "ac617c8d6801efab43ed158f01845c0ba127684fab91e76da5d5eaaa4b0e6793",
+          "size_bytes": 693259,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/分类参数测试.json",
+      "sha256": "b9cf939d318d33a7d8d0ae5952c598c36adf5e958829f944621071c172f5141b",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/分类参数测试.json",
+          "sha256": "b9cf939d318d33a7d8d0ae5952c598c36adf5e958829f944621071c172f5141b",
+          "size_bytes": 26059,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+      "sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/审核查询.cypher",
+          "sha256": "340b3579d3484e7217944e16cd99ccc0723dffd8d1ca3f30010162ed67ac3fb1",
+          "size_bytes": 15914,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入.cypher",
+      "sha256": "d95c0f6837215cf0d28c216fa9237ca81a4d8dcc4bce6dc69d7cfe2fa04dcee8",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入.cypher",
+          "sha256": "d95c0f6837215cf0d28c216fa9237ca81a4d8dcc4bce6dc69d7cfe2fa04dcee8",
+          "size_bytes": 2024,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+      "sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/导入保护测试.json",
+          "sha256": "2165a5e57f3bdd1b3d938a5a4423575a5f2200db2ee8c568036f9ec5802aea4a",
+          "size_bytes": 1582,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+      "sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+          "sha256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+          "size_bytes": 1351,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+      "sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/执行阶段.json",
+          "sha256": "23c3f366e3ab248311e7665411525daf18abd729599fceca5e607eb9168ffd6d",
+          "size_bytes": 518,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/数据库读回.json",
+      "sha256": "2af728dd782b569ce9c81c9b9aed1c16eca9b7fac60e0a5a8ce1e2f69b314542",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/数据库读回.json",
+          "sha256": "2af728dd782b569ce9c81c9b9aed1c16eca9b7fac60e0a5a8ce1e2f69b314542",
+          "size_bytes": 236595,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+      "sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询参数.json",
+          "sha256": "d280945bea5fa15d29dedbd80023822a7fe6be5b8506d0882db69d020559e4e0",
+          "size_bytes": 3278,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+      "sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/查询返回.json",
+          "sha256": "e01b7531ace914e1b04ac336216f298248b61721960b3dbddf4354b1892d08e0",
+          "size_bytes": 28824,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+      "sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/核验记录.json",
+          "sha256": "50c5833d10ddd37d615a86d2c047dc94f0aa85077b62652f4a96b255c57e931d",
+          "size_bytes": 889,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/编译检查.json",
+      "sha256": "38e881a03e49eee161fbef38c7dd747b0f6497d5b97e32709dcc2c598e8dbc21",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/编译检查.json",
+          "sha256": "38e881a03e49eee161fbef38c7dd747b0f6497d5b97e32709dcc2c598e8dbc21",
+          "size_bytes": 264,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/读回反例测试.json",
+      "sha256": "60e048133828b7a3d98f3dfd287b650040dc43d70deaf99d65b37a6d16a824af",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/读回反例测试.json",
+          "sha256": "60e048133828b7a3d98f3dfd287b650040dc43d70deaf99d65b37a6d16a824af",
+          "size_bytes": 8807,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+          "sha256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+          "size_bytes": 14969,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+      "sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+          "sha256": "edacda4298d60442f3dfed9d3fb5e9b1f2ed877bc5a7afdc238b8881b3ac423a",
+          "size_bytes": 209101,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+          "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+          "size_bytes": 18930,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/README.md",
+      "sha256": "a3e80d30c3d72442120cacee980f6b0a73b5247715b3eec94a28061d60d074f3",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/README.md",
+          "sha256": "a3e80d30c3d72442120cacee980f6b0a73b5247715b3eec94a28061d60d074f3",
+          "size_bytes": 2183,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/build_review.py",
+      "sha256": "7fc9b2e760edec62b11e3baf75644d8b2e6d544c81669013558541c2d333b3cb",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/build_review.py",
+          "sha256": "7fc9b2e760edec62b11e3baf75644d8b2e6d544c81669013558541c2d333b3cb",
+          "size_bytes": 1210,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+      "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/compile_model.py",
+          "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e",
+          "size_bytes": 24535,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+      "sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/mcp_client.py",
+          "sha256": "e40348da1484fb82d2acdcdcbc0396cd1cdbe13f33d2d6a9e33c7b7572560445",
+          "size_bytes": 5056,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+      "sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/run_graph.py",
+          "sha256": "f8ebc14cf89bf14d72f564bd92d1d35b9d515e05609e38777cee73d9b337a4d1",
+          "size_bytes": 7679,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+      "sha256": "bff5c0cbba40a45f985ed092b9b26f861ce0081a193d9d16944085f7b6bd6f79",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+          "sha256": "bff5c0cbba40a45f985ed092b9b26f861ce0081a193d9d16944085f7b6bd6f79",
+          "size_bytes": 1044,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+      "sha256": "a248bc88ed644eb84acfe28d08cca7b2eafffb91f5fd93c0fe52d39b70d55ff7",
+      "previousSHA256": null,
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/图谱执行/D03院落围合/viewer.template.html",
+          "sha256": "a248bc88ed644eb84acfe28d08cca7b2eafffb91f5fd93c0fe52d39b70d55ff7",
+          "size_bytes": 17210,
+          "created": true,
+          "backup": null,
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "8231ec6200f50b67be22e447aab9bce2255ed8c4c09f629d51204bff67eba328",
+      "previousSHA256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "archive/README.md",
+          "sha256": "8231ec6200f50b67be22e447aab9bce2255ed8c4c09f629d51204bff67eba328",
+          "size_bytes": 10127,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:26Z",
+            "original_path": "archive/README.md",
+            "canonical_path": "archive/README.md",
+            "backup_path": ".hermes-academic-backups/20261030T062526Z_a5b7447daea94a118feac6f4e4475fbd.bak",
+            "original_sha256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13",
+            "original_size_bytes": 9918,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "8231ec6200f50b67be22e447aab9bce2255ed8c4c09f629d51204bff67eba328",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "README.md",
+      "sha256": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09",
+      "previousSHA256": "15d1720f2fc4278aa888a9e451d05e2a2108d40f7839689ed098237c73a1d331",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "README.md",
+          "sha256": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09",
+          "size_bytes": 2341,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:26Z",
+            "original_path": "README.md",
+            "canonical_path": "README.md",
+            "backup_path": ".hermes-academic-backups/20261030T062526Z_25084e8ebc38452eab25c6993e33fd1d.bak",
+            "original_sha256": "15d1720f2fc4278aa888a9e451d05e2a2108d40f7839689ed098237c73a1d331",
+            "original_size_bytes": 2108,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324",
+      "previousSHA256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "context/PROJECT_CONTEXT.md",
+          "sha256": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324",
+          "size_bytes": 44040,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:26Z",
+            "original_path": "context/PROJECT_CONTEXT.md",
+            "canonical_path": "context/PROJECT_CONTEXT.md",
+            "backup_path": ".hermes-academic-backups/20261030T062526Z_cd73b0c6d60f42f0bde7d44d130bfdef.bak",
+            "original_sha256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc",
+            "original_size_bytes": 42997,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "主题研究/README.md",
+      "sha256": "a58aff26d4135265f027c15adbb1331afe6c49eeac3229462b516744b659d9f3",
+      "previousSHA256": "b96f20f92ff8e001a2b00771238a02b626eafdd310c61a1a809b08d651f9a7bd",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "主题研究/README.md",
+          "sha256": "a58aff26d4135265f027c15adbb1331afe6c49eeac3229462b516744b659d9f3",
+          "size_bytes": 11068,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:26Z",
+            "original_path": "主题研究/README.md",
+            "canonical_path": "主题研究/README.md",
+            "backup_path": ".hermes-academic-backups/20261030T062526Z_f174aedceba148c4b8fa12ff3568cbf6.bak",
+            "original_sha256": "b96f20f92ff8e001a2b00771238a02b626eafdd310c61a1a809b08d651f9a7bd",
+            "original_size_bytes": 11067,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "a58aff26d4135265f027c15adbb1331afe6c49eeac3229462b516744b659d9f3",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sha256": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb",
+      "previousSHA256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+          "sha256": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb",
+          "size_bytes": 15279,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:26Z",
+            "original_path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+            "canonical_path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+            "backup_path": ".hermes-academic-backups/20261030T062526Z_8e8a979330094025aba4740b129c32fd.bak",
+            "original_sha256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f",
+            "original_size_bytes": 14902,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sha256": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3",
+      "previousSHA256": "ff265cfbec72ce0708fcb387047a690ff8b92f6a731d4cec4524ed6b086672ac",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+          "sha256": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3",
+          "size_bytes": 7257,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:26Z",
+            "original_path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+            "canonical_path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+            "backup_path": ".hermes-academic-backups/20261030T062526Z_e040cc1e7baf48f28db000d065f3a5ee.bak",
+            "original_sha256": "ff265cfbec72ce0708fcb387047a690ff8b92f6a731d4cec4524ed6b086672ac",
+            "original_size_bytes": 6847,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sha256": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef",
+      "previousSHA256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+          "sha256": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef",
+          "size_bytes": 7197,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:26Z",
+            "original_path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+            "canonical_path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+            "backup_path": ".hermes-academic-backups/20261030T062526Z_a17e8e087c5c465ca236f92071f135f2.bak",
+            "original_sha256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497",
+            "original_size_bytes": 6778,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/README.md",
+      "sha256": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84",
+      "previousSHA256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/README.md",
+          "sha256": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84",
+          "size_bytes": 15894,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:27Z",
+            "original_path": "研究成果/README.md",
+            "canonical_path": "研究成果/README.md",
+            "backup_path": ".hermes-academic-backups/20261030T062527Z_37459080d2174ea184d2c072f9b3a148.bak",
+            "original_sha256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05",
+            "original_size_bytes": 15182,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+      "previousSHA256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+          "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+          "size_bytes": 46181,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:27Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+            "backup_path": ".hermes-academic-backups/20261030T062527Z_1e524e39cf27404bbd8efb545eb6c8ac.bak",
+            "original_sha256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13",
+            "original_size_bytes": 43569,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+      "previousSHA256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+          "sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+          "size_bytes": 21391,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:27Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+            "backup_path": ".hermes-academic-backups/20261030T062527Z_b7646111db8047a7b58df28cbed34a6f.bak",
+            "original_sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f",
+            "original_size_bytes": 20508,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "previousSHA256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+          "sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+          "size_bytes": 44318,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:27Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+            "backup_path": ".hermes-academic-backups/20261030T062527Z_16acb7a8b833445d9d03d3da7fabbb1a.bak",
+            "original_sha256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0",
+            "original_size_bytes": 42778,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sha256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "previousSHA256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+          "sha256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+          "size_bytes": 20018,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:27Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+            "backup_path": ".hermes-academic-backups/20261030T062527Z_5c652e1b9c44416fb88294d49cde61ff.bak",
+            "original_sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466",
+            "original_size_bytes": 19235,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "previousSHA256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+          "sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+          "size_bytes": 43619,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:27Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+            "backup_path": ".hermes-academic-backups/20261030T062527Z_f61eafe8f07b4d63bdb1d611548086fd.bak",
+            "original_sha256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6",
+            "original_size_bytes": 42163,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sha256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "previousSHA256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+          "sha256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+          "size_bytes": 19232,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:28Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+            "backup_path": ".hermes-academic-backups/20261030T062528Z_c973bc8487874da9b5185c115a9f6775.bak",
+            "original_sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795",
+            "original_size_bytes": 18492,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "previousSHA256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+          "sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+          "size_bytes": 52213,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:28Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+            "backup_path": ".hermes-academic-backups/20261030T062528Z_9014b36878444d399229ae4afdf40699.bak",
+            "original_sha256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206",
+            "original_size_bytes": 50447,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sha256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "previousSHA256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+          "sha256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+          "size_bytes": 25141,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:28Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+            "backup_path": ".hermes-academic-backups/20261030T062528Z_db0bfa5f8c2140d1bc9e905acae352fb.bak",
+            "original_sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675",
+            "original_size_bytes": 24347,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c",
+      "previousSHA256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+          "sha256": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c",
+          "size_bytes": 14967,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:28Z",
+            "original_path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+            "canonical_path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+            "backup_path": ".hermes-academic-backups/20261030T062528Z_ded1897a79c54eda93ba7210b35ccb8a.bak",
+            "original_sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177",
+            "original_size_bytes": 14376,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+      "previousSHA256": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+          "sha256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+          "size_bytes": 31235,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:28Z",
+            "original_path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+            "canonical_path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+            "backup_path": ".hermes-academic-backups/20261030T062528Z_dd855493c3f8480495d40749bc3d2a69.bak",
+            "original_sha256": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731",
+            "original_size_bytes": 26217,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420",
+      "previousSHA256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+          "sha256": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420",
+          "size_bytes": 16755,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:28Z",
+            "original_path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+            "canonical_path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+            "backup_path": ".hermes-academic-backups/20261030T062528Z_7206de16f0504519bbb9aa8d206104d0.bak",
+            "original_sha256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d",
+            "original_size_bytes": 16635,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "e3786d02058b4a53aca61a5cbdfc33043b50650f41c4826aff5f45b39070b541",
+      "previousSHA256": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406",
+      "response": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+          "sha256": "e3786d02058b4a53aca61a5cbdfc33043b50650f41c4826aff5f45b39070b541",
+          "size_bytes": 8886,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-10-30T06:25:28Z",
+            "original_path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+            "canonical_path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+            "backup_path": ".hermes-academic-backups/20261030T062528Z_ea1c7d53b9884bdcbdc7fa29e00044e3.bak",
+            "original_sha256": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406",
+            "original_size_bytes": 8766,
+            "original_permissions_mode_octal": "0644",
+            "requested_new_sha256": "e3786d02058b4a53aca61a5cbdfc33043b50650f41c4826aff5f45b39070b541",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true
+        }
+      }
+    }
+  ],
+  "postPublicationCorrection": {
+    "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+    "reason": "Pin temporary output to academic profile scratch; mac-run host TMPDIR differed",
+    "previousSHA256": "bff5c0cbba40a45f985ed092b9b26f861ce0081a193d9d16944085f7b6bd6f79",
+    "response": {
+      "ok": true,
+      "result": {
+        "path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+        "sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+        "size_bytes": 1144,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-10-30T06:28:45Z",
+          "original_path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+          "canonical_path": "项目管理/图谱执行/D03院落围合/verify_current.py",
+          "backup_path": ".hermes-academic-backups/20261030T062845Z_0c3fab0a7ff94c1593911260b068586d.bak",
+          "original_sha256": "bff5c0cbba40a45f985ed092b9b26f861ce0081a193d9d16944085f7b6bd6f79",
+          "original_size_bytes": 1044,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "123ca66d7d1611750cc084687903adcdb995e2b638a532b324c385dd63b1b7e3",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  "originalBackupChecks": [
+    {
+      "path": "archive/README.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062526Z_a5b7447daea94a118feac6f4e4475fbd.bak",
+      "sha256": "90dee00df6b2675beae679c3f16ebc2af2df1e578c6ae436a2e422d1343b0e13",
+      "verified": true
+    },
+    {
+      "path": "README.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062526Z_25084e8ebc38452eab25c6993e33fd1d.bak",
+      "sha256": "15d1720f2fc4278aa888a9e451d05e2a2108d40f7839689ed098237c73a1d331",
+      "verified": true
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062526Z_cd73b0c6d60f42f0bde7d44d130bfdef.bak",
+      "sha256": "1722d6c3ccf8b16dc88e28c4bd80120ec30f785e8b623498aec002c5c8203adc",
+      "verified": true
+    },
+    {
+      "path": "主题研究/README.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062526Z_f174aedceba148c4b8fa12ff3568cbf6.bak",
+      "sha256": "b96f20f92ff8e001a2b00771238a02b626eafdd310c61a1a809b08d651f9a7bd",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062526Z_8e8a979330094025aba4740b129c32fd.bak",
+      "sha256": "91936e434952e071cd559df513d7479dabbfc8d1cbbd70f19c7623abd1197e4f",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062526Z_e040cc1e7baf48f28db000d065f3a5ee.bak",
+      "sha256": "ff265cfbec72ce0708fcb387047a690ff8b92f6a731d4cec4524ed6b086672ac",
+      "verified": true
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062526Z_a17e8e087c5c465ca236f92071f135f2.bak",
+      "sha256": "ddf6e9ea716b841c02baec434df847650a6b15379869f9b09ec4cb4c54a86497",
+      "verified": true
+    },
+    {
+      "path": "研究成果/README.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062527Z_37459080d2174ea184d2c072f9b3a148.bak",
+      "sha256": "0de76a2d03295eeee76fc2b0371c513f0bd99d9d266ca121396e357f86edfe05",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062527Z_1e524e39cf27404bbd8efb545eb6c8ac.bak",
+      "sha256": "5bfa899bf1b7011498da1b5e50cdad579c234981fa9397b8dfbb19879f262b13",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062527Z_b7646111db8047a7b58df28cbed34a6f.bak",
+      "sha256": "dd8d5986455bfae71c27fd61ed796f06c6e86f536f800a4442cf9ebd33fd207f",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062527Z_16acb7a8b833445d9d03d3da7fabbb1a.bak",
+      "sha256": "1eed7988c124fee45df68c0cc6a2e803bb59b0ff83afadc3a8c1104cac90e4e0",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062527Z_5c652e1b9c44416fb88294d49cde61ff.bak",
+      "sha256": "9b2f2bf6d000474b04fc5b609e4e8c9fce6bafc23071ee35a56c9b577f29d466",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062527Z_f61eafe8f07b4d63bdb1d611548086fd.bak",
+      "sha256": "fc62592e4cff93cf2d9f3b556e96272a45f08045856eb4e92b18f6c4b79e02e6",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062528Z_c973bc8487874da9b5185c115a9f6775.bak",
+      "sha256": "17b29329c0aa1b714ca253910210538fdb44673b1f03de459f263d7c3878e795",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062528Z_9014b36878444d399229ae4afdf40699.bak",
+      "sha256": "2acd547bf7fd0e6f0f8b2814dc776be92abe1a5db11db380e09c5e7815051206",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062528Z_db0bfa5f8c2140d1bc9e905acae352fb.bak",
+      "sha256": "d9e0cc315f9706555e45955a406cdd42f8dfad95bf5e4479c30b8eaa6fff9675",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062528Z_ded1897a79c54eda93ba7210b35ccb8a.bak",
+      "sha256": "ee802c572a9f6634c713293a3ba164a8da87240180b2c03ffa27316cc917d177",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062528Z_dd855493c3f8480495d40749bc3d2a69.bak",
+      "sha256": "785d9820eab072f4dfa9d82be7fa6236fd27130f63256f67dde75f1881ec5731",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062528Z_7206de16f0504519bbb9aa8d206104d0.bak",
+      "sha256": "856563dbbcc846fb842f0184942d898a79e6b757b2967d56a5ae9835badee62d",
+      "verified": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "backupPath": "/Users/wangyuelin/Desktop/Obsidian/Paper/.hermes-academic-backups/20261030T062528Z_ea1c7d53b9884bdcbdc7fa29e00044e3.bak",
+      "sha256": "d0c2e166040ca58439d3bad35446cf361ebcd72aa17678fe596af454b4d85406",
+      "verified": true
+    }
+  ],
+  "correctionBackupChecked": true,
+  "nativeMaps": [
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "result": {
+        "ok": true,
+        "errors": [],
+        "verification": {
+          "environment": {
+            "ok": true,
+            "plugin_version": "0.2.10",
+            "errors": [],
+            "warnings": [],
+            "files": [
+              {
+                "path": ".obsidian/plugins/simple-mind-map/main.js",
+                "bytes": 6579273,
+                "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+              },
+              {
+                "path": ".obsidian/plugins/simple-mind-map/styles.css",
+                "bytes": 796993,
+                "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+              }
+            ]
+          },
+          "compatibility": {
+            "ok": true,
+            "method": "installed_plugin_markdown_reader",
+            "rendering": "not_exercised"
+          }
+        },
+        "file": "/Users/wangyuelin/Desktop/Obsidian/Paper/研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+        "relative": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+        "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+        "nodes": 134,
+        "warnings": [],
+        "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2FDesktop%2FObsidian%2FPaper%2F%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%2F%E3%80%94%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E3%80%95%E9%A3%8E%E8%B2%8C%E5%88%86%E6%9E%90%E6%8B%86%E8%A7%A3%2FD03%E9%99%A2%E8%90%BD%E4%B8%8E%E7%A9%BA%E9%97%B4%E7%BB%84%E7%BB%87%E6%8B%86%E8%A7%A3%E5%9B%BE.smm.md",
+        "text_index_matches": true,
+        "preview": "empty"
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "result": {
+        "ok": true,
+        "errors": [],
+        "verification": {
+          "environment": {
+            "ok": true,
+            "plugin_version": "0.2.10",
+            "errors": [],
+            "warnings": [],
+            "files": [
+              {
+                "path": ".obsidian/plugins/simple-mind-map/main.js",
+                "bytes": 6579273,
+                "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+              },
+              {
+                "path": ".obsidian/plugins/simple-mind-map/styles.css",
+                "bytes": 796993,
+                "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+              }
+            ]
+          },
+          "compatibility": {
+            "ok": true,
+            "method": "installed_plugin_markdown_reader",
+            "rendering": "not_exercised"
+          }
+        },
+        "file": "/Users/wangyuelin/Desktop/Obsidian/Paper/研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+        "relative": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+        "sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+        "nodes": 130,
+        "warnings": [],
+        "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2FDesktop%2FObsidian%2FPaper%2F%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%2F%E3%80%94%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E3%80%95%E9%A3%8E%E8%B2%8C%E5%88%86%E6%9E%90%E6%8B%86%E8%A7%A3%2FD04%E7%AB%8B%E9%9D%A2%E6%9D%90%E6%96%99%E4%B8%8E%E8%A3%85%E9%A5%B0%E6%8B%86%E8%A7%A3%E5%9B%BE.smm.md",
+        "text_index_matches": true,
+        "preview": "empty"
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "result": {
+        "ok": true,
+        "errors": [],
+        "verification": {
+          "environment": {
+            "ok": true,
+            "plugin_version": "0.2.10",
+            "errors": [],
+            "warnings": [],
+            "files": [
+              {
+                "path": ".obsidian/plugins/simple-mind-map/main.js",
+                "bytes": 6579273,
+                "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+              },
+              {
+                "path": ".obsidian/plugins/simple-mind-map/styles.css",
+                "bytes": 796993,
+                "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+              }
+            ]
+          },
+          "compatibility": {
+            "ok": true,
+            "method": "installed_plugin_markdown_reader",
+            "rendering": "not_exercised"
+          }
+        },
+        "file": "/Users/wangyuelin/Desktop/Obsidian/Paper/研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+        "relative": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+        "sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+        "nodes": 129,
+        "warnings": [],
+        "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2FDesktop%2FObsidian%2FPaper%2F%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%2F%E3%80%94%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E3%80%95%E9%A3%8E%E8%B2%8C%E5%88%86%E6%9E%90%E6%8B%86%E8%A7%A3%2FD05%E6%B0%91%E5%B1%85%E7%BB%84%E5%90%88%E8%A1%97%E5%B7%B7%E4%B8%8E%E5%9C%B0%E5%BD%A2%E6%8B%86%E8%A7%A3%E5%9B%BE.smm.md",
+        "text_index_matches": true,
+        "preview": "empty"
+      }
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "result": {
+        "ok": true,
+        "errors": [],
+        "verification": {
+          "environment": {
+            "ok": true,
+            "plugin_version": "0.2.10",
+            "errors": [],
+            "warnings": [],
+            "files": [
+              {
+                "path": ".obsidian/plugins/simple-mind-map/main.js",
+                "bytes": 6579273,
+                "sha256": "80748c596a89c76bd1c16c844d49e5ef263bc9911723fa02f893bab4c63dcaf5"
+              },
+              {
+                "path": ".obsidian/plugins/simple-mind-map/styles.css",
+                "bytes": 796993,
+                "sha256": "df694b0c34cc195e0a623573487fbdf1e3f08b4483d443737cc726e4dd944c18"
+              }
+            ]
+          },
+          "compatibility": {
+            "ok": true,
+            "method": "installed_plugin_markdown_reader",
+            "rendering": "not_exercised"
+          }
+        },
+        "file": "/Users/wangyuelin/Desktop/Obsidian/Paper/研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+        "relative": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+        "sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+        "nodes": 138,
+        "warnings": [],
+        "open_uri": "obsidian://open?path=%2FUsers%2Fwangyuelin%2FDesktop%2FObsidian%2FPaper%2F%E7%A0%94%E7%A9%B6%E6%88%90%E6%9E%9C%2F%E3%80%94%E5%88%86%E6%9E%90%E6%A1%86%E6%9E%B6%E3%80%95%E9%A3%8E%E8%B2%8C%E5%88%86%E6%9E%90%E6%8B%86%E8%A7%A3%2FD06%E7%B1%BB%E5%9E%8B%E6%AF%94%E8%BE%83%E4%B8%8E%E5%85%B3%E8%81%94%E8%A7%A3%E9%87%8A%E6%8B%86%E8%A7%A3%E5%9B%BE.smm.md",
+        "text_index_matches": true,
+        "preview": "empty"
+      }
+    }
+  ],
+  "preservedMapUIDs": [
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "oldNodes": 126,
+      "newNodes": 134,
+      "oldUIDsPreserved": true,
+      "sha256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      },
+      "preview": "not native pixel-layout acceptance"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "oldNodes": 126,
+      "newNodes": 130,
+      "oldUIDsPreserved": true,
+      "sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      },
+      "preview": "not native pixel-layout acceptance"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "oldNodes": 125,
+      "newNodes": 129,
+      "oldUIDsPreserved": true,
+      "sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      },
+      "preview": "not native pixel-layout acceptance"
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "oldNodes": 133,
+      "newNodes": 138,
+      "oldUIDsPreserved": true,
+      "sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      },
+      "preview": "not native pixel-layout acceptance"
+    }
+  ],
+  "scopedLinks": {
+    "documents": 22,
+    "newIssues": [],
+    "details": [
+      {
+        "path": "README.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "context/PROJECT_CONTEXT.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "主题研究/README.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/README.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/README.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      },
+      {
+        "path": "项目管理/图谱执行/D03院落围合/README.md",
+        "existingIssues": [],
+        "currentIssues": [],
+        "newIssues": []
+      }
+    ]
+  },
+  "documentRenderChecks": [
+    {
+      "path": "README.md",
+      "sourceSHA256": "d1fcdfcc52dfb02df63a4722800aacaa4bf124f8c9ea1086dba912eedd7e8f09",
+      "preview": "00.html",
+      "tables": 1,
+      "strong": 1,
+      "ready": true,
+      "errors": [],
+      "headings": 2,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/README.md",
+      "sourceSHA256": "7d21e462bdefc81f2672545f8a1972dbacdff352902325b04da5fbe2e83ebb01",
+      "preview": "01.html",
+      "tables": 0,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 3,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核1.md",
+      "sourceSHA256": "9d1e79a3a9a34836786dfb93a44f6550c7d671759f1b1a9f7cf0e84a1a921019",
+      "preview": "02.html",
+      "tables": 0,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 0,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "archive/2026-10-30-D03共同表达与首例/独立复核2.md",
+      "sourceSHA256": "160c987a15e57e4189a5ecc441e524ca6b4ef19ebe8e0e58b9b32d8e62ae1e8a",
+      "preview": "03.html",
+      "tables": 0,
+      "strong": 1,
+      "ready": true,
+      "errors": [],
+      "headings": 0,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "archive/README.md",
+      "sourceSHA256": "8231ec6200f50b67be22e447aab9bce2255ed8c4c09f629d51204bff67eba328",
+      "preview": "04.html",
+      "tables": 1,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 22,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sourceSHA256": "76ad6586cc5ecb4b28ed3ae600d6ca088e7ab04133f2c937c809ca86e978d324",
+      "preview": "05.html",
+      "tables": 1,
+      "strong": 8,
+      "ready": true,
+      "errors": [],
+      "headings": 26,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "主题研究/README.md",
+      "sourceSHA256": "a58aff26d4135265f027c15adbb1331afe6c49eeac3229462b516744b659d9f3",
+      "preview": "06.html",
+      "tables": 3,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 3,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "sourceSHA256": "2e3e281a26da9c8a2d2abfc9c9b060b91953054e3a1cdae421f524d9fa1fbceb",
+      "preview": "07.html",
+      "tables": 1,
+      "strong": 5,
+      "ready": true,
+      "errors": [],
+      "headings": 9,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "sourceSHA256": "d20fcb6de87860d1ccbb175b3831c91b087061a18fdf8ba2887690df021581c3",
+      "preview": "08.html",
+      "tables": 1,
+      "strong": 2,
+      "ready": true,
+      "errors": [],
+      "headings": 8,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "sourceSHA256": "66c64e85b30465e05fd99beabfb4fcadc50195ce32eec997c67c7241ba6d99ef",
+      "preview": "09.html",
+      "tables": 1,
+      "strong": 2,
+      "ready": true,
+      "errors": [],
+      "headings": 8,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/README.md",
+      "sourceSHA256": "51e36051718a1a086f24e66995e8e1f0f820d1f588430e8073ae3a61bb70df84",
+      "preview": "10.html",
+      "tables": 1,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 3,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+      "sourceSHA256": "472c79db53e505af20c1034865d6b85b88339a3a54d1b34b67e13c9abbfa5167",
+      "preview": "11.html",
+      "tables": 9,
+      "strong": 51,
+      "ready": true,
+      "errors": [],
+      "headings": 1,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "sourceSHA256": "75c5010a1944fef035102bf30dc1c01b5f1da1c67326c1c6c9b0e8472e71cff9",
+      "preview": "12.html",
+      "tables": 10,
+      "strong": 52,
+      "ready": true,
+      "errors": [],
+      "headings": 14,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "sourceSHA256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "preview": "13.html",
+      "tables": 9,
+      "strong": 46,
+      "ready": true,
+      "errors": [],
+      "headings": 1,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sourceSHA256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "preview": "14.html",
+      "tables": 10,
+      "strong": 47,
+      "ready": true,
+      "errors": [],
+      "headings": 13,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "sourceSHA256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "preview": "15.html",
+      "tables": 9,
+      "strong": 46,
+      "ready": true,
+      "errors": [],
+      "headings": 1,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sourceSHA256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "preview": "16.html",
+      "tables": 10,
+      "strong": 47,
+      "ready": true,
+      "errors": [],
+      "headings": 13,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "sourceSHA256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "preview": "17.html",
+      "tables": 14,
+      "strong": 57,
+      "ready": true,
+      "errors": [],
+      "headings": 5,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sourceSHA256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "preview": "18.html",
+      "tables": 12,
+      "strong": 49,
+      "ready": true,
+      "errors": [],
+      "headings": 18,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sourceSHA256": "a6a962ac94069592116acbe6011e2d87bb58a5d3f1f2920d4b7105abe531543c",
+      "preview": "19.html",
+      "tables": 2,
+      "strong": 7,
+      "ready": true,
+      "errors": [],
+      "headings": 7,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/README.md",
+      "sourceSHA256": "b41d8eb6d6899b9d4c07b1a7586a59b7009ecb40709c7b6d8a357407ee90004f",
+      "preview": "20.html",
+      "tables": 0,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 1,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/Neo4j/恢复说明.md",
+      "sourceSHA256": "844ad94f8f88bd827200a4d6bf417df9f5779566315050ce01b480158a71d31c",
+      "preview": "21.html",
+      "tables": 0,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 1,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+      "sourceSHA256": "35b4f8714cc10396144c2ab289cad1ac6d0cf8a991cba6728e94a074de642679",
+      "preview": "22.html",
+      "tables": 5,
+      "strong": 8,
+      "ready": true,
+      "errors": [],
+      "headings": 11,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sourceSHA256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+      "preview": "23.html",
+      "tables": 2,
+      "strong": 18,
+      "ready": true,
+      "errors": [],
+      "headings": 21,
+      "overflow": false,
+      "mermaidNodes": 0
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sourceSHA256": "96ec1ce5f79122290894274e29e7202fb1f4b2d663ad7049fd02c56addd90420",
+      "preview": "24.html",
+      "tables": 1,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 2,
+      "overflow": false,
+      "mermaidNodes": 13
+    },
+    {
+      "path": "项目管理/图谱执行/D03院落围合/README.md",
+      "sourceSHA256": "a3e80d30c3d72442120cacee980f6b0a73b5247715b3eec94a28061d60d074f3",
+      "preview": "25.html",
+      "tables": 0,
+      "strong": 0,
+      "ready": true,
+      "errors": [],
+      "headings": 4,
+      "overflow": false,
+      "mermaidNodes": 0
+    }
+  ],
+  "reviewPageChecks": {
+    "views": [
+      {
+        "example": "A",
+        "view": "skeleton",
+        "nodes": [
+          "D03V01:A-U01",
+          "D03V01:A-C01",
+          "D03V01:A-BE",
+          "D03V01:A-BN",
+          "D03V01:A-BW",
+          "D03V01:A-W01",
+          "D03V01:A-I01"
+        ],
+        "relationships": [
+          "D03V01:A-BOUNDARY-E",
+          "D03V01:A-BOUNDARY-N",
+          "D03V01:A-BOUNDARY-S",
+          "D03V01:A-BOUNDARY-W",
+          "D03V01:A-CONTAINS-A-BE",
+          "D03V01:A-CONTAINS-A-BN",
+          "D03V01:A-CONTAINS-A-BW",
+          "D03V01:A-CONTAINS-C",
+          "D03V01:A-CONTAINS-W",
+          "D03V01:A-ENTRY-courtyard-side",
+          "D03V01:A-ENTRY-opening-host"
+        ],
+        "nodeCount": 7,
+        "relationshipCount": 11
+      },
+      {
+        "example": "A",
+        "view": "source",
+        "nodes": [
+          "D03V01:A-U01",
+          "D03V01:A-C01",
+          "D03V01:A-BE",
+          "D03V01:A-BN",
+          "D03V01:A-BW",
+          "D03V01:A-W01",
+          "D03V01:A-I01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:SRC-A-BE",
+          "D03V01:SRC-A-BN",
+          "D03V01:SRC-A-BW",
+          "D03V01:SRC-A-C01",
+          "D03V01:SRC-A-I01",
+          "D03V01:SRC-A-U01",
+          "D03V01:SRC-A-W01"
+        ],
+        "nodeCount": 8,
+        "relationshipCount": 7
+      },
+      {
+        "example": "A",
+        "view": "classification",
+        "nodes": [
+          "D03V01:A-C01",
+          "D03V01:A-BE",
+          "D03V01:A-BN",
+          "D03V01:A-BW",
+          "D03V01:A-W01",
+          "D03V01:R01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:A-BOUNDARY-E",
+          "D03V01:A-BOUNDARY-N",
+          "D03V01:A-BOUNDARY-S",
+          "D03V01:A-BOUNDARY-W",
+          "D03V01:A-CLASS",
+          "D03V01:SRC-A-C01"
+        ],
+        "nodeCount": 7,
+        "relationshipCount": 6
+      },
+      {
+        "example": "A",
+        "view": "all",
+        "nodes": [
+          "D03V01:A-U01",
+          "D03V01:A-C01",
+          "D03V01:A-BE",
+          "D03V01:A-BN",
+          "D03V01:A-BW",
+          "D03V01:A-W01",
+          "D03V01:A-I01",
+          "D03V01:R01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:A-BOUNDARY-E",
+          "D03V01:A-BOUNDARY-N",
+          "D03V01:A-BOUNDARY-S",
+          "D03V01:A-BOUNDARY-W",
+          "D03V01:A-CLASS",
+          "D03V01:A-CONTAINS-A-BE",
+          "D03V01:A-CONTAINS-A-BN",
+          "D03V01:A-CONTAINS-A-BW",
+          "D03V01:A-CONTAINS-C",
+          "D03V01:A-CONTAINS-W",
+          "D03V01:A-ENTRY-courtyard-side",
+          "D03V01:A-ENTRY-opening-host",
+          "D03V01:SRC-A-BE",
+          "D03V01:SRC-A-BN",
+          "D03V01:SRC-A-BW",
+          "D03V01:SRC-A-C01",
+          "D03V01:SRC-A-I01",
+          "D03V01:SRC-A-U01",
+          "D03V01:SRC-A-W01"
+        ],
+        "nodeCount": 9,
+        "relationshipCount": 19
+      },
+      {
+        "example": "B",
+        "view": "skeleton",
+        "nodes": [
+          "D03V01:B-U01",
+          "D03V01:B-C01",
+          "D03V01:B-BE",
+          "D03V01:B-BN",
+          "D03V01:B-BW",
+          "D03V01:B-W01",
+          "D03V01:B-I01"
+        ],
+        "relationships": [
+          "D03V01:B-BOUNDARY-E",
+          "D03V01:B-BOUNDARY-N",
+          "D03V01:B-BOUNDARY-S",
+          "D03V01:B-BOUNDARY-W",
+          "D03V01:B-CONTAINS-B-BE",
+          "D03V01:B-CONTAINS-B-BN",
+          "D03V01:B-CONTAINS-B-BW",
+          "D03V01:B-CONTAINS-C",
+          "D03V01:B-CONTAINS-W",
+          "D03V01:B-ENTRY-courtyard-side",
+          "D03V01:B-ENTRY-opening-host"
+        ],
+        "nodeCount": 7,
+        "relationshipCount": 11
+      },
+      {
+        "example": "B",
+        "view": "source",
+        "nodes": [
+          "D03V01:B-U01",
+          "D03V01:B-C01",
+          "D03V01:B-BE",
+          "D03V01:B-BN",
+          "D03V01:B-BW",
+          "D03V01:B-W01",
+          "D03V01:B-I01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:SRC-B-BE",
+          "D03V01:SRC-B-BN",
+          "D03V01:SRC-B-BW",
+          "D03V01:SRC-B-C01",
+          "D03V01:SRC-B-I01",
+          "D03V01:SRC-B-U01",
+          "D03V01:SRC-B-W01"
+        ],
+        "nodeCount": 8,
+        "relationshipCount": 7
+      },
+      {
+        "example": "B",
+        "view": "classification",
+        "nodes": [
+          "D03V01:B-C01",
+          "D03V01:B-BE",
+          "D03V01:B-BN",
+          "D03V01:B-BW",
+          "D03V01:B-W01",
+          "D03V01:R01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:B-BOUNDARY-E",
+          "D03V01:B-BOUNDARY-N",
+          "D03V01:B-BOUNDARY-S",
+          "D03V01:B-BOUNDARY-W",
+          "D03V01:B-CLASS",
+          "D03V01:SRC-B-C01"
+        ],
+        "nodeCount": 7,
+        "relationshipCount": 6
+      },
+      {
+        "example": "B",
+        "view": "all",
+        "nodes": [
+          "D03V01:B-U01",
+          "D03V01:B-C01",
+          "D03V01:B-BE",
+          "D03V01:B-BN",
+          "D03V01:B-BW",
+          "D03V01:B-W01",
+          "D03V01:B-I01",
+          "D03V01:R01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:B-BOUNDARY-E",
+          "D03V01:B-BOUNDARY-N",
+          "D03V01:B-BOUNDARY-S",
+          "D03V01:B-BOUNDARY-W",
+          "D03V01:B-CLASS",
+          "D03V01:B-CONTAINS-B-BE",
+          "D03V01:B-CONTAINS-B-BN",
+          "D03V01:B-CONTAINS-B-BW",
+          "D03V01:B-CONTAINS-C",
+          "D03V01:B-CONTAINS-W",
+          "D03V01:B-ENTRY-courtyard-side",
+          "D03V01:B-ENTRY-opening-host",
+          "D03V01:SRC-B-BE",
+          "D03V01:SRC-B-BN",
+          "D03V01:SRC-B-BW",
+          "D03V01:SRC-B-C01",
+          "D03V01:SRC-B-I01",
+          "D03V01:SRC-B-U01",
+          "D03V01:SRC-B-W01"
+        ],
+        "nodeCount": 9,
+        "relationshipCount": 19
+      },
+      {
+        "example": "C",
+        "view": "skeleton",
+        "nodes": [
+          "D03V01:C-U01",
+          "D03V01:C-C01",
+          "D03V01:C-BE",
+          "D03V01:C-BN",
+          "D03V01:C-W01",
+          "D03V01:C-I01"
+        ],
+        "relationships": [
+          "D03V01:C-BOUNDARY-E",
+          "D03V01:C-BOUNDARY-N",
+          "D03V01:C-BOUNDARY-S",
+          "D03V01:C-CONTAINS-C",
+          "D03V01:C-CONTAINS-C-BE",
+          "D03V01:C-CONTAINS-C-BN",
+          "D03V01:C-CONTAINS-W",
+          "D03V01:C-ENTRY-courtyard-side",
+          "D03V01:C-ENTRY-opening-host"
+        ],
+        "nodeCount": 6,
+        "relationshipCount": 9
+      },
+      {
+        "example": "C",
+        "view": "source",
+        "nodes": [
+          "D03V01:C-U01",
+          "D03V01:C-C01",
+          "D03V01:C-BE",
+          "D03V01:C-BN",
+          "D03V01:C-W01",
+          "D03V01:C-I01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:SRC-C-BE",
+          "D03V01:SRC-C-BN",
+          "D03V01:SRC-C-C01",
+          "D03V01:SRC-C-I01",
+          "D03V01:SRC-C-U01",
+          "D03V01:SRC-C-W01"
+        ],
+        "nodeCount": 7,
+        "relationshipCount": 6
+      },
+      {
+        "example": "C",
+        "view": "classification",
+        "nodes": [
+          "D03V01:C-C01",
+          "D03V01:C-BE",
+          "D03V01:C-BN",
+          "D03V01:C-W01",
+          "D03V01:R01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:C-BOUNDARY-E",
+          "D03V01:C-BOUNDARY-N",
+          "D03V01:C-BOUNDARY-S",
+          "D03V01:C-CLASS",
+          "D03V01:SRC-C-C01"
+        ],
+        "nodeCount": 6,
+        "relationshipCount": 5
+      },
+      {
+        "example": "C",
+        "view": "all",
+        "nodes": [
+          "D03V01:C-U01",
+          "D03V01:C-C01",
+          "D03V01:C-BE",
+          "D03V01:C-BN",
+          "D03V01:C-W01",
+          "D03V01:C-I01",
+          "D03V01:R01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:C-BOUNDARY-E",
+          "D03V01:C-BOUNDARY-N",
+          "D03V01:C-BOUNDARY-S",
+          "D03V01:C-CLASS",
+          "D03V01:C-CONTAINS-C",
+          "D03V01:C-CONTAINS-C-BE",
+          "D03V01:C-CONTAINS-C-BN",
+          "D03V01:C-CONTAINS-W",
+          "D03V01:C-ENTRY-courtyard-side",
+          "D03V01:C-ENTRY-opening-host",
+          "D03V01:SRC-C-BE",
+          "D03V01:SRC-C-BN",
+          "D03V01:SRC-C-C01",
+          "D03V01:SRC-C-I01",
+          "D03V01:SRC-C-U01",
+          "D03V01:SRC-C-W01"
+        ],
+        "nodeCount": 8,
+        "relationshipCount": 16
+      },
+      {
+        "example": "D",
+        "view": "skeleton",
+        "nodes": [
+          "D03V01:D-U01",
+          "D03V01:D-C01",
+          "D03V01:D-BE",
+          "D03V01:D-BN",
+          "D03V01:D-W01",
+          "D03V01:D-I01"
+        ],
+        "relationships": [
+          "D03V01:D-BOUNDARY-E",
+          "D03V01:D-BOUNDARY-N",
+          "D03V01:D-BOUNDARY-S",
+          "D03V01:D-CONTAINS-C",
+          "D03V01:D-CONTAINS-D-BE",
+          "D03V01:D-CONTAINS-D-BN",
+          "D03V01:D-CONTAINS-W",
+          "D03V01:D-ENTRY-courtyard-side",
+          "D03V01:D-ENTRY-opening-host"
+        ],
+        "nodeCount": 6,
+        "relationshipCount": 9
+      },
+      {
+        "example": "D",
+        "view": "source",
+        "nodes": [
+          "D03V01:D-U01",
+          "D03V01:D-C01",
+          "D03V01:D-BE",
+          "D03V01:D-BN",
+          "D03V01:D-W01",
+          "D03V01:D-I01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:SRC-D-BE",
+          "D03V01:SRC-D-BN",
+          "D03V01:SRC-D-C01",
+          "D03V01:SRC-D-I01",
+          "D03V01:SRC-D-U01",
+          "D03V01:SRC-D-W01"
+        ],
+        "nodeCount": 7,
+        "relationshipCount": 6
+      },
+      {
+        "example": "D",
+        "view": "classification",
+        "nodes": [
+          "D03V01:D-C01",
+          "D03V01:D-BE",
+          "D03V01:D-BN",
+          "D03V01:D-W01",
+          "D03V01:R01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:D-BOUNDARY-E",
+          "D03V01:D-BOUNDARY-N",
+          "D03V01:D-BOUNDARY-S",
+          "D03V01:D-CLASS",
+          "D03V01:SRC-D-C01"
+        ],
+        "nodeCount": 6,
+        "relationshipCount": 5
+      },
+      {
+        "example": "D",
+        "view": "all",
+        "nodes": [
+          "D03V01:D-U01",
+          "D03V01:D-C01",
+          "D03V01:D-BE",
+          "D03V01:D-BN",
+          "D03V01:D-W01",
+          "D03V01:D-I01",
+          "D03V01:R01",
+          "D03V01:EV01"
+        ],
+        "relationships": [
+          "D03V01:D-BOUNDARY-E",
+          "D03V01:D-BOUNDARY-N",
+          "D03V01:D-BOUNDARY-S",
+          "D03V01:D-CLASS",
+          "D03V01:D-CONTAINS-C",
+          "D03V01:D-CONTAINS-D-BE",
+          "D03V01:D-CONTAINS-D-BN",
+          "D03V01:D-CONTAINS-W",
+          "D03V01:D-ENTRY-courtyard-side",
+          "D03V01:D-ENTRY-opening-host",
+          "D03V01:SRC-D-BE",
+          "D03V01:SRC-D-BN",
+          "D03V01:SRC-D-C01",
+          "D03V01:SRC-D-I01",
+          "D03V01:SRC-D-U01",
+          "D03V01:SRC-D-W01"
+        ],
+        "nodeCount": 8,
+        "relationshipCount": 16
+      }
+    ],
+    "uniqueNodes": 28,
+    "uniqueRelationships": 70,
+    "nodeIntersections": [],
+    "errors": [],
+    "queryViews": 8
+  },
+  "generatedViewChecks": {
+    "topic_artifact_views": {
+      "packages": 21,
+      "topics": 8,
+      "relations": 62,
+      "primary_relations": 21,
+      "reused_relations": 41,
+      "view_files": 31,
+      "out_of_sync": []
+    },
+    "research_structure": {
+      "chapters": 6,
+      "sections": 37,
+      "subsections": 17,
+      "adoptions": 88,
+      "topics": 8,
+      "roles": 6,
+      "route_nodes": 13,
+      "artifact_packages": 21,
+      "artifact_relations": 62,
+      "out_of_sync": []
+    }
+  },
+  "independentReview": {
+    "rounds": 2,
+    "modelRequested": "gpt-6.1-sol",
+    "effortRequested": "medium",
+    "effectiveEffort": "not separately echoed; do not infer from process launch",
+    "scope": "frozen static text, not live database or GUI",
+    "firstReviewSources": [
+      {
+        "path": "compile_model.py",
+        "sha256": "01f2f203b15ef0d591179109e3ae3dc00c8b6d1316635c75dc033ca1a4ddb39c"
+      },
+      {
+        "path": "candidates/研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+        "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1"
+      },
+      {
+        "path": "candidates/研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+        "sha256": "07234110f1eba72dba51dc719d5376c91d495cc9b26a00979f11dac5949d766f"
+      },
+      {
+        "path": "candidates/研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+        "sha256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+        "scope": "U14 only"
+      }
+    ],
+    "secondReviewSources": [
+      {
+        "path": "compile_model.py",
+        "sha256": "b0f5cea6da9db74819806029d4358239cbfb961029f7800c757f71d8b16ded3c"
+      },
+      {
+        "path": "run_graph.py",
+        "sha256": "088600d9642ed9d310250cd13ec3c721041a33027062fa1e2ca42df871f75a52"
+      },
+      {
+        "path": "preflight.py",
+        "sha256": "14206c6d4c6dbbccd6292d595044380d36e99fcdfaee397cef3ad8bebda34450"
+      }
+    ],
+    "followUp": "main-session fixes and actual reruns; not a third independent review"
+  },
+  "limitations": [
+    "synthetic settings, not empirical findings",
+    "candidate classifications await user semantic approval",
+    "D03 full module not implemented; D04/D05 are interfaces only",
+    "native map file/plugin checks passed, not native pixel-layout acceptance",
+    "offline readback viewer, not Neo4j Browser GUI or real-time connection",
+    "logical snapshot, no full restore rehearsal",
+    "no new literature close reading; preserve inherited author/title/Zotero/page evidence in original tables"
+  ]
+}

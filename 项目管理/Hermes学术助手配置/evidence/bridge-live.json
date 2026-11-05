@@ -1,0 +1,144 @@
+{
+  "schema_version": 1,
+  "started_at_utc": "2026-10-26T14:20:16.842397+00:00",
+  "acceptance_id": "20261026T142016Z-cdb413e8d1",
+  "scope": {
+    "runner": "linux-academic-profile",
+    "source": "mac-authoritative-paper",
+    "temporary_remote_directory": "outputs/.academic-acceptance-bridge-20261026T142016Z-cdb413e8d1",
+    "research_materials_modified": false
+  },
+  "checks": [
+    {
+      "name": "live_status",
+      "passed": true,
+      "exit_code": 0,
+      "root_available": true,
+      "platform": "darwin"
+    },
+    {
+      "name": "initial_context",
+      "passed": true,
+      "exit_code": 0,
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "exists": true,
+          "sha256": "73f47806bb38a4873671a5fced905ecbad825ccc5162b3c4755761ee45bdc06a",
+          "utf8_bytes": 3287
+        },
+        {
+          "path": "README.md",
+          "exists": true,
+          "sha256": "72e036646f866b1f0a03618e2c8bb1532d35006f5605c165b98fbd06a573c533",
+          "utf8_bytes": 10512
+        },
+        {
+          "path": "context/PROJECT_CONTEXT.md",
+          "exists": true,
+          "sha256": "19a8c5c1d5b8070a73465e7c8ae2fc5ed020cdc14036bbf1406257220eb9d4df",
+          "utf8_bytes": 28400
+        }
+      ]
+    },
+    {
+      "name": "create_owned_directory",
+      "passed": true,
+      "exit_code": 0
+    },
+    {
+      "name": "create_file",
+      "passed": true,
+      "exit_code": 0,
+      "sha256": "c5728465d6ee70107852d00935eadc80398d9f54583d340d9b5c99200a64793a",
+      "readback_verified": true
+    },
+    {
+      "name": "read_created_file",
+      "passed": true,
+      "exit_code": 0,
+      "sha256": "c5728465d6ee70107852d00935eadc80398d9f54583d340d9b5c99200a64793a"
+    },
+    {
+      "name": "overwrite_with_current_sha",
+      "passed": true,
+      "exit_code": 0,
+      "sha256": "5aeb7f957806b7737fb44b26f58d54201e6e2ac9a0a6ed893e53e4f085a2e27f",
+      "readback_verified": true,
+      "backup_path": ".hermes-academic-backups/20261026T142003Z_779111df6b8a4038bc1a067d93024050.bak",
+      "original_sha256": "c5728465d6ee70107852d00935eadc80398d9f54583d340d9b5c99200a64793a"
+    },
+    {
+      "name": "backup_readback",
+      "passed": true,
+      "exit_code": 0,
+      "sha256": "c5728465d6ee70107852d00935eadc80398d9f54583d340d9b5c99200a64793a",
+      "size_bytes": 64,
+      "original_path": "outputs/.academic-acceptance-bridge-20261026T142016Z-cdb413e8d1/probe.txt",
+      "metadata_original_sha256": "c5728465d6ee70107852d00935eadc80398d9f54583d340d9b5c99200a64793a"
+    },
+    {
+      "name": "stale_sha_rejected",
+      "passed": true,
+      "exit_code": 3,
+      "error_code": "conflict"
+    },
+    {
+      "name": "stale_attempt_did_not_mutate",
+      "passed": true,
+      "exit_code": 0,
+      "sha256": "5aeb7f957806b7737fb44b26f58d54201e6e2ac9a0a6ed893e53e4f085a2e27f"
+    },
+    {
+      "name": "download_and_provenance",
+      "passed": true,
+      "exit_code": 0,
+      "sha256": "5aeb7f957806b7737fb44b26f58d54201e6e2ac9a0a6ed893e53e4f085a2e27f",
+      "artifact_role": "transferred_copy",
+      "source_path": "outputs/.academic-acceptance-bridge-20261026T142016Z-cdb413e8d1/probe.txt",
+      "source_of_truth": "mac-agent:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "downloaded_at_utc": "2026-10-26T14:20:20Z",
+      "local_temporary_copy_cleaned_on_exit": true
+    },
+    {
+      "name": "invalid_target_fails_offline",
+      "passed": true,
+      "exit_code": 4,
+      "error_code": "offline",
+      "stale_result_returned": false
+    },
+    {
+      "name": "live_context_after_offline",
+      "passed": true,
+      "exit_code": 0,
+      "files": [
+        {
+          "path": "AGENTS.md",
+          "exists": true,
+          "sha256": "73f47806bb38a4873671a5fced905ecbad825ccc5162b3c4755761ee45bdc06a",
+          "utf8_bytes": 3287
+        },
+        {
+          "path": "README.md",
+          "exists": true,
+          "sha256": "72e036646f866b1f0a03618e2c8bb1532d35006f5605c165b98fbd06a573c533",
+          "utf8_bytes": 10512
+        },
+        {
+          "path": "context/PROJECT_CONTEXT.md",
+          "exists": true,
+          "sha256": "19a8c5c1d5b8070a73465e7c8ae2fc5ed020cdc14036bbf1406257220eb9d4df",
+          "utf8_bytes": 28400
+        }
+      ],
+      "same_hashes_as_initial": true
+    }
+  ],
+  "success": true,
+  "cleanup": {
+    "exit_code": 0,
+    "temporary_directory_removed": true,
+    "backups_retained": true
+  },
+  "finished_at_utc": "2026-10-26T14:20:21.666139+00:00"
+}

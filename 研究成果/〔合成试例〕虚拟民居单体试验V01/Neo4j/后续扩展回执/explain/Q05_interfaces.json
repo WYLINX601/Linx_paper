@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (i:V01)-[r:INTERFACE_OF]->(p) WHERE i.uid IN ['V01:I04','V01:I05'] RETURN i.uid AS interface,p.uid AS participant,r.role AS role,r.uid AS relationshipUid,i.referenceMode AS referenceMode,i.relativePosition AS relativePosition,i.sideBoundaryMappingsJson AS sideMappings ORDER BY interface,role",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:40:48.140129+08:00"
+}

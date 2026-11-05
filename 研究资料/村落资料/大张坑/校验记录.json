@@ -1,0 +1,31 @@
+{
+  "checked_at": "2026-10-19",
+  "method": "Read emitted JSON; resolve Markdown local targets; decode all indexed images; verify SHA-256 and copied bytes; visually inspect original pages and corrected crops",
+  "result": "passed",
+  "record_count": 40,
+  "categories": {
+    "文献页面": 23,
+    "既有裁切": 3,
+    "本轮裁切": 3,
+    "既存报道图像": 8,
+    "文字记录": 3
+  },
+  "indexed_image_file_count": 37,
+  "unique_indexed_paths": 40,
+  "copied_files_matching_original_bytes": 20,
+  "relative_markdown_link_occurrences_checked": 122,
+  "missing_relative_links": [],
+  "external_local_link_occurrences_checked": 41,
+  "missing_external_local_links_at_check": [],
+  "original_evidence_records_preserved": 11,
+  "new_crops_visually_checked": 3,
+  "existing_crops_visually_checked": 3,
+  "web_images_visually_checked": 8,
+  "network_checks_this_round": 0,
+  "limits": [
+    "No current field verification, external web reload, permissions for publication, or 3D dataset validation",
+    "Whole PDFs and original repository records remain external; package contains selected pages and excerpts",
+    "One erroneous historical crop and one non-building title image intentionally retained as excluded records"
+  ],
+  "library_check": "Package-relative links will be resolved again against returned Library destination after upload"
+}

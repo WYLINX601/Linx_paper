@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (a:V01)-[r]->(b:V01) WHERE type(r) IN ['BOT_HAS_SPACE','BOT_HAS_BUILDING','MEMBER_OF_ZONE','PART_OF','PLAN_POSITION'] RETURN a.uid AS source,b.uid AS target,type(r) AS type,r.role AS role,r.scope AS scope ORDER BY type,source,target",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-30T20:54:35.630559+08:00"
+}

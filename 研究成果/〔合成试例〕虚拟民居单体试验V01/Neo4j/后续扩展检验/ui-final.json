@@ -1,0 +1,350 @@
+{
+  "source": "verified-unified-synthetic-prototype-new-details-await-user-review",
+  "modelSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+  "combinations": [
+    {
+      "view": "overview",
+      "evidence": false,
+      "nodes": 15,
+      "relationships": 27,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "D01",
+      "evidence": false,
+      "nodes": 10,
+      "relationships": 10,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T01",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 4,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T02",
+      "evidence": false,
+      "nodes": 10,
+      "relationships": 10,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T03",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 5,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T04",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 7,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T05",
+      "evidence": false,
+      "nodes": 6,
+      "relationships": 5,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T06",
+      "evidence": false,
+      "nodes": 13,
+      "relationships": 25,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "D04",
+      "evidence": false,
+      "nodes": 8,
+      "relationships": 6,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "D05",
+      "evidence": false,
+      "nodes": 11,
+      "relationships": 11,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "D06",
+      "evidence": false,
+      "nodes": 9,
+      "relationships": 10,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "all",
+      "evidence": false,
+      "nodes": 41,
+      "relationships": 115,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "overview",
+      "evidence": true,
+      "nodes": 22,
+      "relationships": 63,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "D01",
+      "evidence": true,
+      "nodes": 17,
+      "relationships": 43,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T01",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 29,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T02",
+      "evidence": true,
+      "nodes": 12,
+      "relationships": 26,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T03",
+      "evidence": true,
+      "nodes": 8,
+      "relationships": 18,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T04",
+      "evidence": true,
+      "nodes": 8,
+      "relationships": 20,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T05",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 30,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "T06",
+      "evidence": true,
+      "nodes": 13,
+      "relationships": 25,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "D04",
+      "evidence": true,
+      "nodes": 14,
+      "relationships": 32,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "D05",
+      "evidence": true,
+      "nodes": 18,
+      "relationships": 46,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "D06",
+      "evidence": true,
+      "nodes": 16,
+      "relationships": 41,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    },
+    {
+      "view": "all",
+      "evidence": true,
+      "nodes": 56,
+      "relationships": 285,
+      "missingRoutes": [],
+      "nonEndpointCircleCrossings": [],
+      "invalid": false
+    }
+  ],
+  "permutationTests": [
+    {
+      "view": "overview",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "D01",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T01",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T02",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T03",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T04",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T05",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T06",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "D04",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "D05",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "D06",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "all",
+      "evidence": false,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "overview",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "D01",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T01",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T02",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T03",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T04",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T05",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "T06",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "D04",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "D05",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "D06",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    },
+    {
+      "view": "all",
+      "evidence": true,
+      "identityAndOrderInvariant": true
+    }
+  ],
+  "nodeDetails": 56,
+  "relationshipDetails": 285,
+  "detailFailures": [],
+  "queryResults": 20,
+  "renderErrors": [],
+  "htmlSHA256": "cb3bf5706b8ee14516cd1ac7fc0b659b503f14540b18c867338a6957c7d05113"
+}

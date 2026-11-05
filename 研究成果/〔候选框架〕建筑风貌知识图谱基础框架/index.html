@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f4f2">
+  <title>建筑风貌知识图谱</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <div class="title-row">
+        <div class="title-copy">
+          <p class="eyebrow">研究资料组织框架 · 候选版本 0.1</p>
+          <h1>建筑风貌知识图谱</h1>
+        </div>
+        <div class="file-actions" aria-label="数据文件操作">
+          <input id="data-file" class="visually-hidden" type="file" accept=".json,application/json">
+          <button id="import-trigger" class="button button-secondary" type="button">导入 JSON</button>
+          <button id="export-data" class="button button-primary" type="button">导出当前数据</button>
+          <span class="temporary-note">导入仅暂存于本页；刷新后重新载入演示数据</span>
+        </div>
+      </div>
+
+      <div id="dataset-notice" class="dataset-notice" role="status" aria-live="polite"></div>
+      <div id="import-message" class="import-message" role="status" aria-live="polite" hidden></div>
+
+      <nav class="view-tabs" role="tablist" aria-label="知识图谱视图">
+        <button id="tab-overview" class="tab-button is-active" type="button" role="tab" aria-selected="true" aria-controls="panel-overview" data-view="overview">框架总览</button>
+        <button id="tab-instance" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-instance" data-view="instance">实例关系</button>
+        <button id="tab-compare" class="tab-button" type="button" role="tab" aria-selected="false" aria-controls="panel-compare" data-view="compare">类型比较</button>
+      </nav>
+    </header>
+
+    <main>
+      <section id="panel-overview" class="view-panel" role="tabpanel" aria-labelledby="tab-overview">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">信息结构</p>
+            <h2>框架总览</h2>
+          </div>
+          <p class="section-intro">选择一类信息或关系，查看其含义、字段和候选规则。</p>
+        </div>
+        <div class="overview-layout">
+          <div class="overview-main">
+            <div id="class-grid" class="class-grid" aria-label="六类核心信息"></div>
+            <section class="relation-section" aria-labelledby="relation-title">
+              <div class="subsection-heading">
+                <h3 id="relation-title">信息之间的关系</h3>
+                <p>箭头表示关系方向；连线本身不代表因果。</p>
+              </div>
+              <div id="relation-list" class="relation-list"></div>
+            </section>
+          </div>
+          <aside id="framework-detail" class="detail-panel" aria-label="框架条目详情"></aside>
+        </div>
+      </section>
+
+      <section id="panel-instance" class="view-panel" role="tabpanel" aria-labelledby="tab-instance" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">单栋对象与证据链</p>
+            <h2>实例关系</h2>
+          </div>
+          <label class="select-control" for="building-select">
+            <span>选择建筑</span>
+            <select id="building-select" aria-label="选择建筑"></select>
+          </label>
+        </div>
+        <p class="section-intro instance-intro">选择建筑或构件，查看其记录、字段、类型和证据来源。只展开当前建筑附近的关系。</p>
+        <div id="no-buildings" class="empty-state" hidden>
+          <strong>尚未录入建筑</strong>
+          <span>导入研究数据后，这里会按实际录入内容显示；不会自动补入演示建筑。</span>
+        </div>
+        <div id="instance-layout" class="instance-layout">
+          <section class="graph-panel" aria-labelledby="graph-title">
+            <div class="panel-heading">
+              <div>
+                <p class="eyebrow">关系图</p>
+                <h3 id="graph-title">当前建筑的对象链</h3>
+              </div>
+              <span class="small-note">从左到右读取方向与关系名称</span>
+            </div>
+            <div id="building-path" class="building-path"></div>
+            <div class="component-section">
+              <h4>建筑包含的构件</h4>
+              <div id="component-list" class="component-list"></div>
+            </div>
+            <div class="record-graph-section">
+              <div class="subsection-heading">
+                <h4 id="record-graph-title">选中构件的记录关系</h4>
+                <span class="small-note">点击节点查看详情</span>
+              </div>
+              <div id="record-graph" class="record-graph"></div>
+            </div>
+            <section id="spatial-relation-section" class="spatial-relation-section" aria-labelledby="spatial-relation-title" hidden>
+              <div class="subsection-heading">
+                <h4 id="spatial-relation-title">当前建筑内的对象关系</h4>
+                <span class="small-note">按来源对象指向目标对象</span>
+              </div>
+              <div id="spatial-relations" class="spatial-relations"></div>
+            </section>
+          </section>
+          <aside id="instance-detail" class="detail-panel instance-detail" aria-label="当前节点详情"></aside>
+        </div>
+      </section>
+
+      <section id="panel-compare" class="view-panel" role="tabpanel" aria-labelledby="tab-compare" hidden>
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">按建筑并列</p>
+            <h2>类型比较</h2>
+          </div>
+          <p class="section-intro">单元格保留未观察、待复核和分歧状态；点击后查看该建筑该字段的全部记录。</p>
+        </div>
+        <div id="compare-empty" class="empty-state" hidden>
+          <strong>尚未录入建筑</strong>
+          <span>导入研究数据后，比较表会使用其中的建筑和记录。</span>
+        </div>
+        <div class="comparison-layout">
+          <div class="comparison-table-wrap" aria-label="类型与特征比较表，可在此区域横向滚动">
+            <table id="comparison-table" class="comparison-table">
+              <thead></thead>
+              <tbody></tbody>
+            </table>
+          </div>
+          <aside id="comparison-details" class="detail-panel comparison-details" aria-label="单元格相关记录">
+            <div class="detail-placeholder">
+              <span class="detail-kicker">记录详情</span>
+              <h3>选择一个单元格</h3>
+              <p>相关记录会在这里逐条列出，分歧不会自动合并。</p>
+            </div>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="page-footer">
+      <span>字段与类型仍是候选规则，需结合真实资料试采、复核和修订。</span>
+      <span>本页不提供照片预览或三维模型渲染。</span>
+    </footer>
+  </div>
+
+  <script src="demo-data.js"></script>
+  <script src="graph-core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (s:V01 {uid:'V01:ST01'})-[r:STREET_BOUNDARY_PARTICIPANT]->(p:V01) RETURN s.uid AS street,s.geometryJson AS geometry,p.uid AS participant,r.side AS side,r.role AS role,r.segmentsJson AS segments,r.geometryVersion AS version ORDER BY side",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"geometry\": \"{\\\"centerline\\\":[[0,-6.8],[9.6,-6.8]],\\\"kind\\\":\\\"street_reference\\\",\\\"surfaceXY\\\":[0,-8.8,9.6,-8.8,9.6,-4.92,0,-4.92],\\\"surfaceZM\\\":0}\",\n    \"participant\": \"V01:W10\",\n    \"role\": \"wall-side\",\n    \"segments\": \"[{\\\"basis\\\":\\\"W10\\\",\\\"rangeM\\\":[0,4],\\\"state\\\":\\\"entity\\\"},{\\\"basis\\\":\\\"I05\\\",\\\"rangeM\\\":[4,5.6],\\\"state\\\":\\\"opening\\\"},{\\\"basis\\\":\\\"W10\\\",\\\"rangeM\\\":[5.6,9.6],\\\"state\\\":\\\"entity\\\"}]\",\n    \"side\": \"left\",\n    \"street\": \"V01:ST01\",\n    \"version\": \"V01-unified-2.1\"\n  },\n  {\n    \"geometry\": \"{\\\"centerline\\\":[[0,-6.8],[9.6,-6.8]],\\\"kind\\\":\\\"street_reference\\\",\\\"surfaceXY\\\":[0,-8.8,9.6,-8.8,9.6,-4.92,0,-4.92],\\\"surfaceZM\\\":0}\",\n    \"participant\": \"V01:B03\",\n    \"role\": \"building-side\",\n    \"segments\": \"[{\\\"basis\\\":\\\"B03\\\",\\\"rangeM\\\":[0,9.6],\\\"state\\\":\\\"entity\\\"}]\",\n    \"side\": \"right\",\n    \"street\": \"V01:ST01\",\n    \"version\": \"V01-unified-2.1\"\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:50:25.012478+08:00"
+}

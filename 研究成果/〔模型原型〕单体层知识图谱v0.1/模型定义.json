@@ -1,0 +1,750 @@
+{
+  "version": "0.1",
+  "status": "discussion_draft",
+  "created": "2026-10-22",
+  "purpose": "以文献支撑的单体对象、特征、关系和类型判定构建可追溯的最小图谱；当前进行文献案例试表达，不是正式田野实证。",
+  "design_authority": "类、属性、关系与断言结构均为本研究的建模提案；basisRefs说明建筑学依据，不声称原文作者提出这些图谱结构。",
+  "classes": [
+    {
+      "id": "Dwelling",
+      "label": "民居研究单元",
+      "definition": "本轮单体分析的对象边界。可含明确归属的主屋、附属体与庭院；不以同姓、同一院落或同一照片自动合并独立住宅。",
+      "basisRefs": [
+        "NQD9DRI3:E2",
+        "26QUPIXE:E3"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "Space",
+      "label": "空间单元",
+      "definition": "可辨识、可命名或具有分析用途的空间范围，如厅堂、房间、廊、天井、院落。空间为空间范围，不等于构件或围护实体。",
+      "basisRefs": [
+        "NQD9DRI3:E7",
+        "NQD9DRI3:E11",
+        "92HEGM9S:E3"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "Element",
+      "label": "建筑实体部分",
+      "definition": "可独立指认的体量、构造系统、构架或构件；用elementLevel区分体量/系统/构架/构件，按证据需要细化。",
+      "basisRefs": [
+        "26QUPIXE:E4",
+        "83W7CJW2:E3",
+        "NQD9DRI3:E14"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "Representation",
+      "label": "图纸或调查记录",
+      "definition": "文献中的平面、剖面侧样、照片或表格记录。它是建筑的表述，不是建筑本身；无法确认建筑对应时仍可记录表内特征。",
+      "basisRefs": [
+        "83W7CJW2:E2",
+        "ZWDJJE99:E5"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "Place",
+      "label": "地点或外部空间",
+      "definition": "村落、地块、道路等外部接口，仅保存定位和解释单体所需关系。",
+      "basisRefs": [
+        "V5RJB5WJ:E1",
+        "6TEACH2F:E2"
+      ],
+      "tier": "interface"
+    },
+    {
+      "id": "TypeScheme",
+      "label": "分类体系",
+      "definition": "带来源、研究区域、分类维度与版本的一套判据；不同文献中的同名类型不默认同义。",
+      "basisRefs": [
+        "AR5L935U:E5",
+        "NQD9DRI3:E3",
+        "83W7CJW2:E4"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "TypeConcept",
+      "label": "类型概念",
+      "definition": "某一体系内的类别或作者推辨原型；标明普通类别/原型，不把原型视为历史上实存的母体建筑。",
+      "basisRefs": [
+        "26QUPIXE:E3",
+        "83W7CJW2:E4"
+      ],
+      "tier": "core"
+    },
+    {
+      "id": "ChangeEvent",
+      "label": "变化事件",
+      "definition": "有时间或前后状态证据支持的加建、减建、用途改变等事件；类型图的变形操作不能直接生成历史事件。",
+      "basisRefs": [
+        "92HEGM9S:E6",
+        "V5RJB5WJ:E2"
+      ],
+      "tier": "extension"
+    },
+    {
+      "id": "GeometryRegion",
+      "label": "三维或二维区域锚点",
+      "definition": "绑定模型/图纸的文件版本、坐标系与区域标识；只预留接口，本轮无真实三维数据关联。",
+      "basisRefs": [],
+      "tier": "extension"
+    }
+  ],
+  "features": [
+    {
+      "id": "record_code",
+      "label": "原文编号",
+      "domain": [
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "只在来源及编号体系内唯一。",
+      "basisRefs": [
+        "83W7CJW2:E2"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "plan_form",
+      "label": "平面形态",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "保存原词与观察范围；凹形/U形/三合院不自动等同。",
+      "basisRefs": [
+        "AR5L935U:E5",
+        "P2KHZ7AI:E2"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "enclosure_pattern",
+      "label": "围合构成",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "围合方向及构成房屋/界面；有原图时再作关系拆解。",
+      "basisRefs": [
+        "NQD9DRI3:E6",
+        "YTSWPLNA:E3"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "bay_count",
+      "label": "开间数",
+      "domain": [
+        "Dwelling",
+        "Element",
+        "Representation"
+      ],
+      "datatype": "integer",
+      "definition": "必须注明哪座房屋、哪一立面及计数方法；不混同结构筒数。",
+      "basisRefs": [
+        "26QUPIXE:E3"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "jin_count",
+      "label": "进数",
+      "domain": [
+        "Dwelling",
+        "Representation"
+      ],
+      "datatype": "integer",
+      "definition": "保留原文落/进的计数边界，不直接跨地区换算。",
+      "basisRefs": [
+        "4ZB238BG:E4"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "storey_count",
+      "label": "层数",
+      "domain": [
+        "Dwelling",
+        "Element",
+        "Representation"
+      ],
+      "datatype": "number",
+      "definition": "须说明阁楼/半层口径及对象范围。",
+      "basisRefs": [
+        "YTSWPLNA:E6"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "space_use",
+      "label": "空间用途",
+      "domain": [
+        "Space",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "用途与形态分开记录，允许同一空间多用途及不同时间用途。",
+      "basisRefs": [
+        "92HEGM9S:E3"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "local_space_name",
+      "label": "地方空间名称",
+      "domain": [
+        "Space",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "保留堂屋/后堂等原词；标准化映射另作判断。",
+      "basisRefs": [
+        "P2KHZ7AI:E4"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "axis_symmetry",
+      "label": "轴线与对称特征",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "注明平面、立面或组合层级；没有观察证据不填对称。",
+      "basisRefs": [
+        "T3F2ERJG:E4",
+        "26QUPIXE:E4"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "roof_form",
+      "label": "屋顶形式",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "单独屋面或整体屋面系统的形态。",
+      "basisRefs": [
+        "26QUPIXE:E4",
+        "AR5L935U:E4"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "skyline_form",
+      "label": "天际线形态",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "视向与取样界面必须明确；用来源内词汇。",
+      "basisRefs": [
+        "NQD9DRI3:E18"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "facade_composition",
+      "label": "立面构成",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "区分屋顶、墙身、台基及门窗等构成；不自动要求每项建节点。",
+      "basisRefs": [
+        "26QUPIXE:E4"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "material",
+      "label": "材料",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "必须限定至可确认的部位，局部材料不赋给全栋。",
+      "basisRefs": [
+        "AR5L935U:E4",
+        "92HEGM9S:E6"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "construction_form",
+      "label": "构架形式",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "穿斗、抬梁及混合/变体等保持来源判据。",
+      "basisRefs": [
+        "NQD9DRI3:E14",
+        "NQD9DRI3:E15"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "load_bearing",
+      "label": "是否承重",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "boolean",
+      "definition": "记录某墙/构件承担何处荷载的范围；false必须有否定证据。",
+      "basisRefs": [
+        "83W7CJW2:E2"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "column_bay_form",
+      "label": "柱筒组合",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "如五柱四筒，属于指定侧样/构架记录，不能视作整栋柱数。",
+      "basisRefs": [
+        "83W7CJW2:E3"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "rear_courtyard_form",
+      "label": "后厨天井形态",
+      "domain": [
+        "Space",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "保留一字/曲尺/凹等原文分类，注明后厨天井而非全栋平面。",
+      "basisRefs": [
+        "83W7CJW2:E2"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "roof_layered",
+      "label": "屋面是否分层",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "boolean",
+      "definition": "只作用于指定侧样或屋面系统。",
+      "basisRefs": [
+        "83W7CJW2:E2"
+      ],
+      "unit": null,
+      "tier": "core"
+    },
+    {
+      "id": "width",
+      "label": "面宽",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Representation"
+      ],
+      "datatype": "number",
+      "definition": "必须有单位、测量对象、边界/轴线口径、测量或读图方法；禁止从未标尺寸的图按视觉估数。",
+      "basisRefs": [
+        "4ZB238BG:E8",
+        "NQD9DRI3:E16"
+      ],
+      "unit": "m",
+      "tier": "core"
+    },
+    {
+      "id": "depth",
+      "label": "进深",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Representation"
+      ],
+      "datatype": "number",
+      "definition": "必须有单位、测量对象、边界/轴线口径、测量或读图方法；禁止从未标尺寸的图按视觉估数。",
+      "basisRefs": [
+        "4ZB238BG:E8",
+        "NQD9DRI3:E16"
+      ],
+      "unit": "m",
+      "tier": "core"
+    },
+    {
+      "id": "height",
+      "label": "高度",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Representation"
+      ],
+      "datatype": "number",
+      "definition": "必须有单位、测量对象、边界/轴线口径、测量或读图方法；禁止从未标尺寸的图按视觉估数。",
+      "basisRefs": [
+        "4ZB238BG:E8",
+        "NQD9DRI3:E16"
+      ],
+      "unit": "m",
+      "tier": "core"
+    },
+    {
+      "id": "area",
+      "label": "面积",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Representation"
+      ],
+      "datatype": "number",
+      "definition": "必须有单位、测量对象、边界/轴线口径、测量或读图方法；禁止从未标尺寸的图按视觉估数。",
+      "basisRefs": [
+        "4ZB238BG:E8",
+        "NQD9DRI3:E16"
+      ],
+      "unit": "m²",
+      "tier": "core"
+    },
+    {
+      "id": "decorative_motif",
+      "label": "装饰题材",
+      "domain": [
+        "Element",
+        "Representation"
+      ],
+      "datatype": "string",
+      "definition": "只对可辨识的装饰部位记录，文化寓意需另列解释证据。",
+      "basisRefs": [
+        "26QUPIXE:E4"
+      ],
+      "unit": null,
+      "tier": "extension"
+    }
+  ],
+  "relations": [
+    {
+      "id": "has_space",
+      "label": "包含空间",
+      "domain": [
+        "Dwelling",
+        "Space"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "分析边界内的空间包含；同一空间可以跨越多个物理构件。",
+      "basisRefs": [
+        "NQD9DRI3:E7",
+        "92HEGM9S:E3"
+      ],
+      "acyclic": true
+    },
+    {
+      "id": "has_element",
+      "label": "包含实体部分",
+      "domain": [
+        "Dwelling",
+        "Element"
+      ],
+      "range": [
+        "Element"
+      ],
+      "definition": "物理组成关系；不能将天井空腔作为木构件。",
+      "basisRefs": [
+        "T3F2ERJG:E5",
+        "26QUPIXE:E4"
+      ],
+      "acyclic": true
+    },
+    {
+      "id": "bounds",
+      "label": "围合或界定",
+      "domain": [
+        "Element"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "某墙面、屋面或构架与空间边界的关系。",
+      "basisRefs": [
+        "83W7CJW2:E3"
+      ]
+    },
+    {
+      "id": "adjacent_to",
+      "label": "空间邻接",
+      "domain": [
+        "Space"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "共享或紧邻边界，不能据此推导可通行。",
+      "basisRefs": [
+        "NQD9DRI3:E11"
+      ],
+      "symmetric": true
+    },
+    {
+      "id": "direct_access_to",
+      "label": "可直接通行至",
+      "domain": [
+        "Space"
+      ],
+      "range": [
+        "Space"
+      ],
+      "definition": "有可确认开口/通道的直接通行边；方向有证据时保留，双向需两条断言。",
+      "basisRefs": [
+        "NQD9DRI3:E11"
+      ]
+    },
+    {
+      "id": "supports",
+      "label": "支承",
+      "domain": [
+        "Element"
+      ],
+      "range": [
+        "Element"
+      ],
+      "definition": "方向从承托构件指向被承托构件；接触不能自动推断支承。",
+      "basisRefs": [
+        "NQD9DRI3:E14"
+      ]
+    },
+    {
+      "id": "represented_by",
+      "label": "由图纸或记录表述",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element"
+      ],
+      "range": [
+        "Representation"
+      ],
+      "definition": "原文身份对应明确时建立，不以编号相同自动跨文献链接。",
+      "basisRefs": [
+        "83W7CJW2:E2",
+        "ZWDJJE99:E5"
+      ]
+    },
+    {
+      "id": "located_in",
+      "label": "位于",
+      "domain": [
+        "Dwelling"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "建筑定位到原文明确地点；本轮不补造坐标。",
+      "basisRefs": [
+        "ZWDJJE99:E2"
+      ]
+    },
+    {
+      "id": "record_about_place",
+      "label": "记录涉及地点",
+      "domain": [
+        "Representation"
+      ],
+      "range": [
+        "Place"
+      ],
+      "definition": "只有记录而缺乏建筑身份时，保留该记录的调查地点。",
+      "basisRefs": [
+        "83W7CJW2:E2"
+      ]
+    },
+    {
+      "id": "has_type",
+      "label": "被判为类型",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element",
+        "Representation"
+      ],
+      "range": [
+        "TypeConcept"
+      ],
+      "definition": "必须通过带判据/证据的classification记录产生，不能无条件写裸边。",
+      "basisRefs": [
+        "NQD9DRI3:E3",
+        "83W7CJW2:E4"
+      ]
+    },
+    {
+      "id": "in_scheme",
+      "label": "属于分类体系",
+      "domain": [
+        "TypeConcept"
+      ],
+      "range": [
+        "TypeScheme"
+      ],
+      "definition": "类型概念的命名空间，不表示建筑实体从属。",
+      "basisRefs": [
+        "83W7CJW2:E4"
+      ]
+    },
+    {
+      "id": "variant_of",
+      "label": "是某原型的形态变体",
+      "domain": [
+        "TypeConcept"
+      ],
+      "range": [
+        "TypeConcept"
+      ],
+      "definition": "作者阐释或读者建模判断，保留操作规则与归属；不推出真实传播链或年代顺序。",
+      "basisRefs": [
+        "YTSWPLNA:E3",
+        "83W7CJW2:E4"
+      ]
+    },
+    {
+      "id": "affects",
+      "label": "改变对象",
+      "domain": [
+        "ChangeEvent"
+      ],
+      "range": [
+        "Dwelling",
+        "Space",
+        "Element"
+      ],
+      "definition": "实际事件对对象的作用，需时间和前后状态证据。",
+      "basisRefs": [
+        "92HEGM9S:E6"
+      ],
+      "tier": "extension"
+    },
+    {
+      "id": "anchored_to",
+      "label": "关联几何区域",
+      "domain": [
+        "Dwelling",
+        "Space",
+        "Element"
+      ],
+      "range": [
+        "GeometryRegion"
+      ],
+      "definition": "对应对象与模型中的区域；必须有版本、坐标系、区域ID。",
+      "basisRefs": [],
+      "tier": "extension"
+    }
+  ],
+  "assertionContract": {
+    "required": [
+      "id",
+      "subject",
+      "predicate",
+      "evidence",
+      "attribution",
+      "temporalScope",
+      "status"
+    ],
+    "exactlyOne": [
+      "object",
+      "value"
+    ],
+    "attribution": [
+      "author_report",
+      "reader_diagram_observation",
+      "reader_modeling_inference",
+      "author_interpretation"
+    ],
+    "status": [
+      "documented",
+      "tentative",
+      "disputed"
+    ],
+    "temporalScope": "原文所述/图示时点；日期未知须明确，不以论文出版年或录入日期替代测绘年。",
+    "evidence": "至少一条Evidence ID。证据包含Zotero key、PDF页序、印刷页及图表/行定位。",
+    "numericRules": "数值量须有单位、对象边界、测量/计算方法；计数仍需范围。",
+    "conflictRule": "相互矛盾的断言并存并标记disputed；不取平均、不覆盖、不按年份自动择新。",
+    "unknownRule": "未记载不生成假值；另在gaps中列unknown/not_observed/not_applicable，false需明确否定证据。"
+  },
+  "classificationContract": {
+    "required": [
+      "id",
+      "subject",
+      "type",
+      "scheme",
+      "decision",
+      "criteriaResults",
+      "evidence",
+      "attribution",
+      "temporalScope"
+    ],
+    "decision": [
+      "author_assigned",
+      "criteria_match",
+      "criteria_not_match",
+      "insufficient_evidence"
+    ],
+    "projection": "只有author_assigned或criteria_match可生成带判断标识的has_type边；criteria_match不等于历史原型身份。",
+    "criteriaResult": [
+      "satisfied",
+      "not_satisfied",
+      "unknown"
+    ],
+    "rule": "显式记录判据和输入断言；资料不足不可默认判定；允许同对象在不同维度/体系下拥有多个类型。"
+  },
+  "scopeRules": [
+    "源内编号是局部标识；跨文献实体合并须有额外对应证据。",
+    "单体研究边界由独立住宅、主附屋、共院等实际情况决定；默认不把同一院落全部建筑合成一栋。",
+    "Representation上的表列特征不能自动传播到Dwelling或所有Element。",
+    "通行关系不等同邻接，支承不等同接触，类型不等同具体房屋。",
+    "原型匹配不证明年代先后、传播源流、民族专属性或县域代表性。",
+    "历时事件和三维接口仅为扩展；无证据时保持空缺。"
+  ]
+}

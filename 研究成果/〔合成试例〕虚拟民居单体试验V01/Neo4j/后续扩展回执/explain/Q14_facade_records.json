@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (o:V01)-[r:FACADE_PARTICIPANT]->(h:V01) RETURN o.uid AS owner,h.uid AS host,r.regionId AS regionId,r.role AS role,h.facadeRecordsJson AS localRecords,r.assertionLocator AS assertionLocator ORDER BY host",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:40:48.227581+08:00"
+}

@@ -1,0 +1,19 @@
+{
+  "native_format": ".smm.md",
+  "plugin": "Simple mind map 0.2.10",
+  "nodes": 6,
+  "visible_texts": [
+    "Mindmap smoke test",
+    "Create and validate",
+    "Native .smm.md",
+    "Edit path",
+    "Updated node",
+    "New child"
+  ],
+  "editable_toolbar_visible": true,
+  "gui_verified": true,
+  "zoom_for_review": 50,
+  "temp_file_trashed": ".trash/hermes-academic-mindmap-smoke-20261026.smm.md",
+  "last_sha256": "294a044ae540eae2229938de97e4c163c3ff1f768cddb53b213caf777b0ec871",
+  "original_note_restored": "outputs/风貌分析目标文献对照/风貌分析目标对照.smm.md"
+}

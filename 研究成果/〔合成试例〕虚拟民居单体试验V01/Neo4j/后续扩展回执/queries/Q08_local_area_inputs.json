@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (u:V01 {uid:'V01:U01'}),(n:V01) WHERE n.uid IN ['V01:S04','V01:S05'] RETURN u.areaScopeId AS scopeId,u.areaScopePolygonXY AS scope,n.uid AS uid,n.footprintXY AS polygon,n.groundZM AS groundZM,n.geometryVersion AS geometryVersion ORDER BY uid",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"geometryVersion\": \"V01-unified-2.1\",\n    \"groundZM\": 0,\n    \"polygon\": [\n      0,\n      0,\n      9.6,\n      0,\n      9.6,\n      1.5,\n      0,\n      1.5\n    ],\n    \"scope\": [\n      0,\n      -4.8,\n      9.6,\n      -4.8,\n      9.6,\n      7.2,\n      0,\n      7.2,\n      0,\n      -4.8\n    ],\n    \"scopeId\": \"V01-G0-local-window\",\n    \"uid\": \"V01:S04\"\n  },\n  {\n    \"geometryVersion\": \"V01-unified-2.1\",\n    \"groundZM\": 0,\n    \"polygon\": [\n      0.12,\n      -4.68,\n      9.48,\n      -4.68,\n      9.48,\n      0,\n      0.12,\n      0\n    ],\n    \"scope\": [\n      0,\n      -4.8,\n      9.6,\n      -4.8,\n      9.6,\n      7.2,\n      0,\n      7.2,\n      0,\n      -4.8\n    ],\n    \"scopeId\": \"V01-G0-local-window\",\n    \"uid\": \"V01:S05\"\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:50:24.689573+08:00"
+}

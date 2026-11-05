@@ -1,0 +1,173 @@
+{
+  "date": "2026-10-22",
+  "counts": {
+    "research_items": 100,
+    "architectural_content": 87,
+    "evidence": 164,
+    "sources": 13,
+    "native_maps": 4
+  },
+  "checks": {
+    "csv_matches_payload": true,
+    "markdown_ids_exact": true,
+    "all_evidence_references_resolve": true,
+    "evidence_sources_resolve": true,
+    "native_detail_ids_once": true,
+    "native_nodes_and_notes_match_input": true,
+    "native_links_exist": true,
+    "files_fully_read": true
+  },
+  "maps": [
+    {
+      "file": "outputs/思维导图/建筑单体研究内容框架v0.1/00-研究内容总览.smm.md",
+      "nodes": 60,
+      "sha256": "256b7581158bd68f08af4f2d3c23037fb79c527a1fb4cf7332a47de459c95ec2",
+      "validation_ok": true,
+      "native_content_exact": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    {
+      "file": "outputs/思维导图/建筑单体研究内容框架v0.1/01-整体空间与形态.smm.md",
+      "nodes": 44,
+      "sha256": "3bad8cb4f85ef62147ff3df4d2bc3971ed69c2812c5a3de9587c27f96be1d427",
+      "validation_ok": true,
+      "native_content_exact": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    {
+      "file": "outputs/思维导图/建筑单体研究内容框架v0.1/02-构造细部与变化.smm.md",
+      "nodes": 43,
+      "sha256": "7af808800adb79b1253c6cb4f4036210f31ac0c25f6cee29ac4e473420457387",
+      "validation_ok": true,
+      "native_content_exact": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    },
+    {
+      "file": "outputs/思维导图/建筑单体研究内容框架v0.1/03-解释比较与研究基础.smm.md",
+      "nodes": 26,
+      "sha256": "80a112745b559b468545f42860f3f0d4e4b173992762b4c8f50f6ddb013be1e1",
+      "validation_ok": true,
+      "native_content_exact": true,
+      "compatibility": {
+        "ok": true,
+        "method": "installed_plugin_markdown_reader",
+        "rendering": "not_exercised"
+      }
+    }
+  ],
+  "files": [
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/README.md",
+      "bytes": 6130,
+      "sha256": "e5595bef01ce92662326c618c971c5c1172acafaa635df3ec6067cb4ce13c3a7"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/文献依据索引.md",
+      "bytes": 119465,
+      "sha256": "7c1a2995d3ed1c9744ae25d79e820119cbba82d7f4d41103c1aaa026a3f7f599"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/本轮证据复核记录.md",
+      "bytes": 5890,
+      "sha256": "ef7663fb0e6be97a1cd9649fb976cfca547d885daeed16f79b3eed665eaff8fc"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/独立验收.md",
+      "bytes": 13091,
+      "sha256": "92643c4d6452735044c621ebb82633eb56404dee708b0a6f4201f119c8b4522c"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/研究内容总表.csv",
+      "bytes": 81821,
+      "sha256": "5500085b64f74ab9822559e0a2c1056d955d1274787782968e3b9d2fdb04c5b6"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/研究内容总表.md",
+      "bytes": 43187,
+      "sha256": "e76b0de3f68e207a9f906f20c841aeb91de7ae7efa110060ccd55e3408b30cc8"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/研究内容总表.xlsx",
+      "bytes": 62519,
+      "sha256": "4702a6df1d5cfa85188a2ed97cc683d126fbdb77bd10704ffbfcf3a73b2a725a"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/综合依据与范围取舍.md",
+      "bytes": 7463,
+      "sha256": "ce137e57154c4a875f718f237bd2b21665d8a6f69260972f9e025ec9f9dc4a8f"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/采证/夏雷定向复核.md",
+      "bytes": 18327,
+      "sha256": "bde9fe1aa0cc7a17d5252c8a09a44305a7e90831b1dcd9b7328354a52309f7ff"
+    },
+    {
+      "file": "outputs/建筑单体研究内容框架v0.1/采证/类型形态覆盖核对.md",
+      "bytes": 20160,
+      "sha256": "0ed4834c9360f6a6af81eef225f25637f103ad9b95ac3e121f07a1be1c35858b"
+    }
+  ],
+  "workbook": {
+    "checks": [
+      {
+        "sheet": "研究内容",
+        "rows": 100,
+        "cell_values_exact": true,
+        "ids_exact": true,
+        "pane": {
+          "xSplit": "3",
+          "ySplit": "1",
+          "topLeftCell": "D2",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        }
+      },
+      {
+        "sheet": "依据记录",
+        "rows": 164,
+        "cell_values_exact": true,
+        "ids_exact": true,
+        "pane": {
+          "xSplit": "1",
+          "ySplit": "1",
+          "topLeftCell": "B2",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        }
+      },
+      {
+        "sheet": "文献覆盖",
+        "rows": 13,
+        "cell_values_exact": true,
+        "ids_exact": true,
+        "pane": {
+          "xSplit": "1",
+          "ySplit": "1",
+          "topLeftCell": "B2",
+          "activePane": "bottomRight",
+          "state": "frozen"
+        }
+      }
+    ],
+    "native_tables_with_filters": 3,
+    "full_cell_comparison": "passed",
+    "source_payload_version": "v0.1"
+  },
+  "limits": [
+    "导图自动校验包括已安装插件读取器兼容性与资源实读；未做GUI排版验收",
+    "Excel经过独立构建任务渲染与XML全量核对，主会话另查看四个代表范围；未做Excel应用内交互验证",
+    "内容证据独立抽核见独立验收.md；不是13篇全文重新核验"
+  ]
+}

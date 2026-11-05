@@ -1,0 +1,36 @@
+{
+  "dependency": "ruamel.yaml",
+  "results": [
+    {
+      "file": "ars/scripts/migrate_literature_corpus_to_v3_7_3.py",
+      "status": "passed",
+      "returncode": 0,
+      "output": "usage: migrate_literature_corpus_to_v3_7_3.py [-h] [--dry-run] [--verbose]\n                                              path\n\nBackfill v3.7.3 contamination_signals on pre-v3.7.3 literature_corpus[]\nentries. See docs/migration/v3.7.3-contamination-signals-backfill.md\n\npositional arguments:\n  path        Passport YAML file or directory\n\noptions:\n  -h, --help  show this help message and exit\n  --dry-run   Show proposed changes, write nothing\n  --verbose   Per-entry logging to stderr\n"
+    },
+    {
+      "file": "ars/scripts/tortured_phrase_screening.py",
+      "status": "passed",
+      "returncode": 0,
+      "output": "usage: tortured_phrase_screening.py [-h]\n                                    {validate-snapshot,scan-draft,validate-draft,render-draft,enrich-passport}\n                                    ...\n\nHermetic tortured-phrase risk-marker screening for issue #660. The runtime\nconsumes only explicitly named local inputs. It never downloads a phrase list,\ndereferences a corpus pointer, invokes a model, judges authorship, or rewrites\nmanuscript text. A deterministic match is carried as a heuristic advisory\nbecause a curated-list hit is only a risk marker. CLI exit codes: 0 success, 1\nfail-closed contract/replay error, 2 invocation error. A snapshot failure\nstill writes an explicit degraded/not-checked artifact when an output path was\nsupplied; it never becomes a clean result.\n\npositional arguments:\n  {validate-snapshot,scan-draft,validate-draft,render-draft,enrich-passport}\n    validate-snapshot   Validate and hash-bind one local snapshot.\n    scan-draft          Build a closed own-draft advisory "
+    },
+    {
+      "file": "ars/scripts/migrate_literature_corpus_to_v3_9_0.py",
+      "status": "passed",
+      "returncode": 0,
+      "output": "usage: migrate_literature_corpus_to_v3_9_0.py [-h] [--dry-run] [--verbose]\n                                              path\n\nBackfill v3.9.0 openalex_unmatched + crossref_unmatched on v3.7.3-onward\nliterature_corpus[] entries. See docs/design/2026-05-17-ars-v3.9.0-cross-\nindex-triangulation-measurement-spec.md §3.7\n\npositional arguments:\n  path        Passport YAML file\n\noptions:\n  -h, --help  show this help message and exit\n  --dry-run   Show proposed changes, write nothing\n  --verbose   Per-entry logging to stderr\n"
+    },
+    {
+      "file": "ars/scripts/migrate_literature_corpus_to_v3_10.py",
+      "status": "passed",
+      "returncode": 0,
+      "output": "usage: migrate_literature_corpus_to_v3_10.py [-h] [--dry-run] [--verbose] path\n\nSeed passport-level terminal_policies (default advisory) on v3.9.0-onward\nliterature_corpus passports. Pure local transform; deep-merge (only absent\nkeys), idempotent. See docs/design/2026-05-31-ars-v3.10-policy-layer-rescope-\nspec.md §3 PR-B item 12\n\npositional arguments:\n  path        Passport YAML file\n\noptions:\n  -h, --help  show this help message and exit\n  --dry-run   Show proposed seed, write nothing\n  --verbose   Per-key logging to stderr\n"
+    },
+    {
+      "file": "ars/scripts/check_literature_corpus_schema.py",
+      "status": "passed",
+      "returncode": 0,
+      "output": "usage: check_literature_corpus_schema.py [-h] [--passport PASSPORT]\n                                         [--rejection-log REJECTION_LOG]\n\nValidate literature_corpus passport + rejection log YAMLs.\n\noptions:\n  -h, --help            show this help message and exit\n  --passport PASSPORT   Validate a single passport YAML.\n  --rejection-log REJECTION_LOG\n                        Validate a single rejection log YAML.\n"
+    }
+  ],
+  "passed": 5
+}

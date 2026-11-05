@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (s:V01 {uid:'V01:S06'}),(t:V01 {uid:'V01:ST01'}) RETURN s.uid AS space,t.uid AS street,labels(s) AS spaceLabels,labels(t) AS referenceLabels,s.geometryJson AS spaceGeometry,t.geometryJson AS streetGeometry,s.groundZM AS spaceLevel,s.geometryVersion AS spaceVersion,t.geometryVersion AS streetVersion",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.912841+08:00"
+}

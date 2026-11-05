@@ -1,0 +1,85 @@
+{
+  "mode": "verify",
+  "status": "passed",
+  "namespaceNodes": 94,
+  "expectedNamespaceNodes": 94,
+  "namespaceRelationships": 216,
+  "expectedNamespaceRelationships": 216,
+  "rawJsonRoundTrip": true,
+  "snapshotHashes": "matched",
+  "verifiedAt": "2026-10-22T12:24:40.552056+00:00",
+  "note": "Database read verification completed. Import runtime is evidenced only if this follows a successful import.",
+  "counts": {
+    "entities": 21,
+    "literatureEntities": 14,
+    "demoEntities": 7,
+    "assertions": 55,
+    "literatureAssertions": 27,
+    "demoAssertions": 28,
+    "classifications": 4,
+    "evidence": 6,
+    "sources": 3,
+    "classificationCriteria": 10,
+    "rawJsonRoundTrip": true,
+    "sourceFiles": {
+      "模型定义.json": {
+        "sha256": "e5ad37644663fd08eab2856ef541e8d487ce751d0202b0eb6c8d7b44bda87817",
+        "bytes": 36680
+      },
+      "案例图谱.json": {
+        "sha256": "0498fb1c3253e1e0aee9fe4744ed55c7f1fff72ac8763a61f05eea5a954a46fc",
+        "bytes": 29669
+      },
+      "空间关系演示.json": {
+        "sha256": "307a8989efdb42ce0d89359da6f09e743b24e653bdfb6f5beebd99ce3ca27884",
+        "bytes": 18662
+      },
+      "优化依据.json": {
+        "sha256": "eca95ca124a722e1a36c9855a48364d981b044d370a8c7ca4c0ef6ffec73680b",
+        "bytes": 25622
+      },
+      "优化记录.json": {
+        "sha256": "f0b6cf0b966f6df76c86ed6347a9288e36dadf3887b93350280fdb016d68f9b3",
+        "bytes": 8563
+      }
+    },
+    "checks": {
+      "accessOnlyInDemoWithViaAndContext": true,
+      "literatureHasNoAccessAssertion": true,
+      "positiveHasTypeCount": 2,
+      "proto8NotProjectedAsPositiveType": true,
+      "disputedRoofValueAndEvidencePreserved": true,
+      "conflictingEvidenceUsesSeparateProjection": true,
+      "classificationCriteriaLinkedAndConsistent": true
+    },
+    "modelSnapshotKeys": [
+      "analysisRunContract",
+      "assertionContract",
+      "classes",
+      "classificationContract",
+      "created",
+      "design_authority",
+      "entityAlignmentContract",
+      "externalAlignment",
+      "features",
+      "geometryContract",
+      "interfaceContract",
+      "previousVersion",
+      "purpose",
+      "relations",
+      "scopeRules",
+      "spaceIdentityContract",
+      "status",
+      "storageMapping",
+      "updated",
+      "version",
+      "vocabulary",
+      "vocabularyContract"
+    ],
+    "optionalSnapshots": [
+      "优化依据.json",
+      "优化记录.json"
+    ],
+    "note": "Local dry-run only; no Neo4j connection was made."
+  }
+}

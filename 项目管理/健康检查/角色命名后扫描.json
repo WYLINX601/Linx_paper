@@ -1,0 +1,1494 @@
+{
+  "checker_version": "1.3",
+  "file_count": 1217,
+  "checked": {
+    "drawio_xml": 18,
+    "json": 162,
+    "link_documents": 330,
+    "links": 9843,
+    "native_link_indexes": 62,
+    "chapter_sections": 35
+  },
+  "excluded": [
+    ".git",
+    ".hermes-academic-backups",
+    ".langgraph_api",
+    ".obsidian",
+    ".openclaw",
+    ".trash",
+    "archive/2026-10-28-全库实体归位/目录残留元数据/论文研究/_管理/健康检查/__pycache__",
+    "项目管理/健康检查/__pycache__"
+  ],
+  "history_or_snapshots": 190,
+  "external_not_fetched": {
+    "external": 3186,
+    "external-local": 828
+  },
+  "counts": {
+    "error": 18,
+    "info": 17,
+    "review": 172
+  },
+  "issues": [
+    {
+      "code": "LINK_MISSING",
+      "path": "文献库/专题精读/吴莹2018论文精读/吴莹2018-类型学与语义网络.smm.md",
+      "target": "outputs/知识图谱建模基准/本研究优化基准.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "文献库/专题精读/吴莹2018论文精读/吴莹2018-类型学与语义网络.smm.md",
+      "target": "论文研究/主题研究/多尺度语义模型与建模依据/主题研究.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/传统民居类型与形态拆解/独立验收.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/传统民居类型与形态拆解/证据与阅读记录.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/01-共性分析框架（讨论稿）.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/02-跨论文比较.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/11-徽州空间形式.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/12-闽南二维空间量化.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/13-晋东南院落形态.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/14-侗族民居形态.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/15-清水江自组织演化.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/16-土坑村类型分析.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/17-徽州类型学思想.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/18-台州民居类型.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/19-景宁木构侧样.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/20-景宁营造技艺.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/21-形态类型学理论.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "LINK_MISSING",
+      "path": "项目管理/工具示例/思维导图操作示例.smm.md",
+      "target": "outputs/思维导图/传统民居类型与形态拆解/22-后溪村形态类型保护.smm.md",
+      "detail": "target absent or ambiguous",
+      "severity": "error"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "target": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "target": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "target": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "target": "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "target": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/风貌研究与畲族建筑研究对照.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "target": "研究资料/来源证据/风貌分析拆解/分析拆解路径手稿.png",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "target": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "target": "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "target": "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+      "target": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "BASELINE_UNKNOWN",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "论文章节/大纲结构.yaml",
+      "detail": "no previous content baseline; no freshness claim",
+      "severity": "info"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "target": "文献库/吴莹-2018-江南古镇语义网络量化.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "target": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "target": "研究成果/〔方法衔接〕建筑单体框架-本体与分析衔接v0.1/README.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "target": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "target": "研究成果/〔候选框架〕建筑单体研究内容框架v0.1/README.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "target": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "target": "研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "target": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/风貌研究与畲族建筑研究对照.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口/〔理论与文献依据〕畲族民居研究现状与研究缺口.md",
+      "target": "文献库/景宁畲族传统民居建筑风貌研究综述.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口/〔理论与文献依据〕畲族民居研究现状与研究缺口.md",
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/风貌研究与畲族建筑研究对照.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "target": "主题研究/〔研究方法〕三维资料质量与空间区域关联/三维建模技术方案调研汇总与后续技术路线.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "target": "研究资料/来源证据/2026-10-12-三维建模方法核查记录.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "target": "论文章节/02-研究对象与资料基础/论文正文稿-无人机倾斜摄影与多尺度调研资料采集.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "target": "文献库/专题精读/吴莹2018论文精读/吴莹2018-类型学与语义网络.smm.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "target": "文献库/吴莹-2018-江南古镇语义网络量化.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "target": "文献库/文献导图/传统民居类型与形态拆解/00-阅读总览.smm.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md",
+      "target": "研究资料/对象候选/研究对象候选汇总-按村落.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md",
+      "target": "研究资料/村落资料/README.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/〔理论与文献依据〕畲族民居研究现状与研究缺口/〔理论与文献依据〕畲族民居研究现状与研究缺口.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/01-绪论/章节导航.md",
+      "target": "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/02-研究对象与资料基础/章节导航.md",
+      "target": "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/03-体系与方法设计/章节导航.md",
+      "target": "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/〔检验与评价〕合成试建与规则检验/〔检验与评价〕合成试建与规则检验.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/04-案例实施与检验/章节导航.md",
+      "target": "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "主题研究/〔研究方法〕类型识别与语义关系表达/〔研究方法〕类型识别与语义关系表达.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/05-分析比较与讨论/章节导航.md",
+      "target": "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "主题研究/〔检验与评价〕案例查询风貌比较与有效性/〔检验与评价〕案例查询风貌比较与有效性.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "DEPENDENCY_CHANGED",
+      "path": "论文章节/06-结论与展望/章节导航.md",
+      "target": "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md",
+      "detail": "content changed since recorded baseline; semantic review required",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/大张坑/sources/2026-10-22/W06-浙江在线-北溪村行政调整及大张坑-2023-10-08.html",
+      "target": "<a href=",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/大张坑/sources/2026-10-22/W06-浙江在线-北溪村行政调整及大张坑-2023-10-08.html",
+      "target": "<a href=",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/checkbox.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/checkbox.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/checkbox.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/checkbox.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/close.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/d.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/d.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/d1.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/d1.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/image06.jpg",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/log.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/pdf.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/soundon.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/x1.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/x2.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/zoomact.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/zoomin.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../image/zoomout.gif",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/bshareC0.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/buttonLite.js#style=-1&uuid=62c783c8-3b18-4e11-89ad-6c8f72a36204&pophcol=2&lang=zh",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/calendar1.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/highlight.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/jquery-1.3.2.min.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/mp1.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/newPower1.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/pirobox.min.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/prototype.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../js/swfobject.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../paperindex.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/01/sxb20230323001v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/02/sxb20230323002v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/03/sxb20230323003v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/04/sxb20230323004v01n.jpg",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/04/sxb20230323004v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../resfile/2023-03-23/04/sxb20230323004v01n.pdf",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../style/calendar_new.css",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../style/newPower_new.css",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "../../../style/pirobox-style.css",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932221.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932222.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932222.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932222.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932223.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932224.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932224.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "content_4685_15932224.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "index_2023-03-23.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4682.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4683.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4684.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4684.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "target": "node_4685.htm",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../all.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../all.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../assets/app.js",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../assets/logo.jpg",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../assets/style.css",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../data/corpus.json",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../index.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../leimu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../leimu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../leimu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../leimu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../llms-full.txt",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../llms.txt",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../qa.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#jingning",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#jinyun",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#liandu",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#lishui",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#longquan",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#qingyuan",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#songyang",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#suichang",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../quyu.html#yunhe",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../wenlv.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "../建设规范.md",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bm-001.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bm-015.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bm-051.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bm-055.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-bx-063.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "target": "wl-dx-004.html",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/s02-2018-sohu-story.html",
+      "target": "m.sohu.com/a/257397347_100188381",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/来源证据/2026-10-26-BOT基准来源/官网原始页.html",
+      "target": "assets/interfaces.png",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/来源证据/2026-10-26-BOT基准来源/官网原始页.html",
+      "target": "assets/interfaces.png",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/来源证据/2026-10-26-BOT基准来源/官网原始页.html",
+      "target": "assets/zones.png",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    },
+    {
+      "code": "SOURCE_RESOURCE",
+      "path": "研究资料/来源证据/2026-10-26-BOT基准来源/官网原始页.html",
+      "target": "assets/zones.png",
+      "detail": "saved web snapshot is not a self-contained website",
+      "severity": "review"
+    }
+  ],
+  "not_checked": [
+    "原论文证据支持充分性与作者结论复核",
+    "未声明的全部派生关系及历史导出同步状态",
+    "Zotero条目/附件实时可达性",
+    "Linux Neo4j连接、数据与查询结果",
+    "原生导图像素级排版（另行解析验证）",
+    "外部URL实时可用性",
+    "语义矛盾自动判定与研究有效性"
+  ],
+  "reachable_pages": 773,
+  "run_at": "2026-10-29T04:47:57.465338+00:00"
+}

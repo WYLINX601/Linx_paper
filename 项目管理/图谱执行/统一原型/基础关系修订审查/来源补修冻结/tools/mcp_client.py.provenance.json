@@ -1,0 +1,10 @@
+{
+  "artifact_role": "transferred_copy",
+  "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+  "source_path": "项目管理/图谱执行/统一原型/tools/mcp_client.py",
+  "sha256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+  "size_bytes": 3786,
+  "source_modified_at_utc": "2026-10-30T13:15:27Z",
+  "downloaded_at_utc": "2026-10-30T23:06:26Z",
+  "local_copy_path": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/originals/tools/mcp_client.py"
+}

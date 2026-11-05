@@ -1,0 +1,78 @@
+filters:
+  and:
+    - file.ext == "md"
+    - or:
+        - type == "research-question"
+        - type == "research-claim"
+        - type == "research-topic"
+formulas:
+  show_topic: if(primary_topic, primary_topic, "")
+  show_kind: if(claim_kind, claim_kind, "")
+  show_status: if(status, status, "")
+  show_logic: if(logic_role, logic_role, "")
+  show_role: if(research_role, research_role, "")
+  show_summary: if(summary, summary, "")
+properties:
+  file.name:
+    displayName: 页面
+  formula.show_topic:
+    displayName: 所属主题
+  formula.show_logic:
+    displayName: 逻辑作用
+  formula.show_kind:
+    displayName: 性质
+  formula.show_status:
+    displayName: 状态
+  formula.show_summary:
+    displayName: 摘要
+  formula.show_role:
+    displayName: 研究角色
+views:
+  - type: table
+    name: 子问题
+    filters:
+      and:
+        - type == "research-question"
+    order:
+      - file.name
+      - formula.show_topic
+      - formula.show_logic
+      - formula.show_status
+      - formula.show_summary
+  - type: table
+    name: 论点
+    filters:
+      and:
+        - type == "research-claim"
+    groupBy:
+      property: primary_topic
+      direction: ASC
+    order:
+      - file.name
+      - formula.show_kind
+      - formula.show_status
+      - formula.show_summary
+  - type: table
+    name: 待复核
+    filters:
+      and:
+        - type == "research-claim"
+        - or:
+            - status == "candidate"
+            - status == "contested"
+    order:
+      - file.name
+      - formula.show_topic
+      - formula.show_kind
+      - formula.show_status
+      - formula.show_summary
+  - type: table
+    name: 主题
+    filters:
+      and:
+        - type == "research-topic"
+    order:
+      - file.name
+      - formula.show_role
+      - formula.show_status
+      - formula.show_summary

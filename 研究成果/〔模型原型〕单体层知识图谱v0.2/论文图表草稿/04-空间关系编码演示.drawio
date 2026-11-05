@@ -1,0 +1,90 @@
+<?xml version='1.0' encoding='utf-8'?>
+<mxfile host="drawio" version="32.4.1">
+  <diagram name="图4  堂屋—前廊：空间与界面的编码" id="04">
+    <mxGraphModel dx="1800" dy="1060" grid="1" gridSize="10" page="1" pageScale="1" pageWidth="1800" pageHeight="1060" background="#ffffff">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=#ffffff;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="0" y="0" width="1800" height="1060" />
+        </mxCell>
+        <mxCell id="3" value="图4  堂屋—前廊：空间与界面的编码" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=30;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="24" width="1720" height="48" />
+        </mxCell>
+        <mxCell id="4" value="合成演示｜synthetic_demo｜不是周湖8号平面；不具有尺寸、朝向或建筑实测依据" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=17;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="80" width="1720" height="46" />
+        </mxCell>
+        <mxCell id="5" value="A  区域关系示意（无比例）" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=24;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="145" width="480" height="40" />
+        </mxCell>
+        <mxCell id="6" value="B  对应实例子图" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=24;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="630" y="145" width="510" height="40" />
+        </mxCell>
+        <mxCell id="7" value="C  通行关系的关键字段" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=24;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="145" width="500" height="40" />
+        </mxCell>
+        <mxCell id="8" value="堂屋&lt;br&gt;S_HALL" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=27;fontColor=#172b4d;spacing=14;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;rounded=0;strokeColor=none;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="250" width="400" height="210" />
+        </mxCell>
+        <mxCell id="9" value="前廊&lt;br&gt;S_VERANDA&lt;br&gt;半开放；交通与停留" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=25;fontColor=#172b4d;spacing=14;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;rounded=0;strokeColor=none;fillColor=#eef6ec;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="460" width="400" height="190" />
+        </mxCell>
+        <mxCell id="10" value="" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#172b4d;spacing=14;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1.5;rounded=0;fillColor=none;dashed=1;strokeWidth=3;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="100" y="458" width="400" height="4" />
+        </mxCell>
+        <mxCell id="11" value="I_OPEN：语义分界／无实体隔断" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="55" y="700" width="520" height="60" />
+        </mxCell>
+        <mxCell id="12" value="色块外缘仅为示意范围，不表示墙体。&lt;br&gt;两块区域的形状、大小与上下布局&lt;br&gt;都是图示安排，不是测量结果。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=20;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="55" y="790" width="520" height="100" />
+        </mxCell>
+        <mxCell id="13" value="堂屋 S_HALL&lt;br&gt;Space" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=24;fontColor=#172b4d;spacing=14;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="250" width="480" height="90" />
+        </mxCell>
+        <mxCell id="14" value="前廊 S_VERANDA&lt;br&gt;Space" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=24;fontColor=#172b4d;spacing=14;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="620" width="480" height="90" />
+        </mxCell>
+        <mxCell id="15" value="开放分界 I_OPEN&lt;br&gt;Interface" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=24;fontColor=#172b4d;spacing=14;fillColor=#e1d5e7;strokeColor=#9673a6;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="650" y="435" width="480" height="90" />
+        </mxCell>
+        <mxCell id="16" value="interface_of" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=PingFang SC;fontSize=17;strokeColor=#52677f;fontColor=#172b4d;strokeWidth=1.8;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=0;entryX=0.5;entryY=1;" edge="1" parent="1" source="15" target="13">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="17" value="interface_of" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=PingFang SC;fontSize=17;strokeColor=#52677f;fontColor=#172b4d;strokeWidth=1.8;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=0.5;exitY=1;entryX=0.5;entryY=0;" edge="1" parent="1" source="15" target="14">
+          <mxGeometry as="geometry" relative="1" />
+        </mxCell>
+        <mxCell id="18" value="邻接&lt;br&gt;ADJ_HV" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=PingFang SC;fontSize=17;strokeColor=#52677f;fontColor=#172b4d;strokeWidth=1.8;labelBackgroundColor=#ffffff;endArrow=none;endFill=1;exitX=0;exitY=0.5;entryX=0;entryY=0.5;" edge="1" parent="1" source="13" target="14">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="600" y="295" />
+              <mxPoint x="600" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="19" value="通行&lt;br&gt;ACCESS_HV&lt;br&gt;ACCESS_VH" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=PingFang SC;fontSize=17;strokeColor=#52677f;fontColor=#172b4d;strokeWidth=1.8;labelBackgroundColor=#ffffff;endArrow=block;endFill=1;exitX=1;exitY=0.5;entryX=1;entryY=0.5;startArrow=block;startFill=1;" edge="1" parent="1" source="13" target="14">
+          <mxGeometry as="geometry" relative="1">
+            <Array as="points">
+              <mxPoint x="1190" y="295" />
+              <mxPoint x="1190" y="665" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="20" value="邻接线无方向；右侧双箭头合并显示两条&lt;br&gt;有向通行断言。两条通行均限定 via=I_OPEN。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="640" y="770" width="560" height="80" />
+        </mxCell>
+        <mxCell id="21" value="ACCESS_HV&lt;br&gt;&lt;br&gt;起点：S_HALL 堂屋&lt;br&gt;关系：direct_access_to&lt;br&gt;终点：S_VERANDA 前廊&lt;br&gt;经过界面：I_OPEN&lt;br&gt;使用者：可独立行走的成人&lt;br&gt;方式：普通步行&lt;br&gt;时段：演示正常使用时段" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;align=left;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="250" width="500" height="410" />
+        </mxCell>
+        <mxCell id="22" value="实例依据：E_DEMO&lt;br&gt;人工设定的教学场景&lt;br&gt;&lt;br&gt;模型依据：BOT03、ISM03&lt;br&gt;文献支持表达方法，&lt;br&gt;不证明此场景是实际住宅。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=22;fontColor=#172b4d;spacing=14;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=1.5;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="1260" y="710" width="500" height="220" />
+        </mxCell>
+        <mxCell id="23" value="图注：区域、界面、邻接与通行均对应空间关系演示.json中的既有ID；仅展示堂屋—前廊子图，省略其他演示对象。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=17;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="970" width="1710" height="35" />
+        </mxCell>
+        <mxCell id="24" value="“无实体隔断”是界面特征；“半开放”是空间特征；“可直接通行”是带情境的空间关系。不能仅由邻接或开放自动推断通行。" style="rounded=1;arcSize=8;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=17;fontColor=#172b4d;spacing=14;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=1.5;fillColor=none;strokeColor=none;align=left;spacing=0;" vertex="1" parent="1">
+          <mxGeometry as="geometry" x="40" y="1010" width="1710" height="30" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

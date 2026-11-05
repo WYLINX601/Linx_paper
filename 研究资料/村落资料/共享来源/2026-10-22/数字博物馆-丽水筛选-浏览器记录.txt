@@ -1,0 +1,78 @@
+- link:
+  - /url: /_ascnlink_n
+- generic: 数字博物馆检索
+- combobox:
+  - option "---请选择-- -"
+  - option "北京市"
+  - option "天津市"
+  - option "河北省"
+  - option "山西省"
+  - option "内蒙古自治区"
+  - option "辽宁省"
+  - option "吉林省"
+  - option "黑龙江省"
+  - option "上海市"
+  - option "江苏省"
+  - option "浙江省" [selected]
+  - option "安徽省"
+  - option "福建省"
+  - option "江西省"
+  - option "山东省"
+  - option "河南省"
+  - option "湖北省"
+  - option "湖南省"
+  - option "广东省"
+  - option "广西壮族自治区"
+  - option "海南省"
+  - option "重庆市"
+  - option "四川省"
+  - option "贵州省"
+  - option "云南省"
+  - option "西藏自治区"
+  - option "陕西省"
+  - option "甘肃省"
+  - option "青海省"
+  - option "宁夏回族自治区"
+  - option "新疆维吾尔自治区"
+- combobox:
+  - option "---请选择-- -"
+  - option "杭州市"
+  - option "宁波市"
+  - option "温州市"
+  - option "嘉兴市"
+  - option "绍兴市"
+  - option "金华市"
+  - option "衢州市"
+  - option "台州市"
+  - option "丽水市" [selected]
+- paragraph: 中国 传统村落名录
+- link "景宁畲族自治县大漈乡小佐村":
+  - /url: " /single/pvillages/533112720801/index.html"
+- link "景宁畲族自治县沙湾镇叶桥村":
+  - /url: " /single/pvillages/533112710407/index.html"
+- link "缙云县壶镇镇岩下村":
+  - /url: /main/villages/33112210101/Index.html
+- link "松阳县大东坝镇横樟村":
+  - /url: /main/villages/33112410402/Index.html
+- link "松阳县赤寿乡界首村":
+  - /url: /main/villages/33112420601/Index.html
+- link "缙云县新建镇河阳村":
+  - /url: /main/villages/33112210201/Index.html
+- link "松阳县三都乡杨家堂村":
+  - /url: /main/villages/33112420301/Index.html
+- link "龙泉市西街街道下樟村":
+  - /url: /main/villages/33118100202/Index.html
+- link "龙泉市石达石街道炉地垟村":
+  - /url: https://main.dmctv.com.cn/villages/33118100402/Index.html
+- link "龙泉市龙南乡下田村":
+  - /url: /main/villages/33118120702/Index.html
+- link "龙泉市屏南镇车盘坑村":
+  - /url: /main/villages/33118110701/Index.html
+- link "龙泉市城北乡上田村":
+  - /url: /main/villages/33118120601/Index.html
+- link "龙泉市小梅镇大窑村":
+  - /url: /main/villages/33118110201/Index.html
+- link "龙泉市小梅镇金村村":
+  - /url: /main/villages/33118110202/Index.html
+- link "龙泉市石达石街道李山头村":
+  - /url: /main/villages/33118100403/Index.html

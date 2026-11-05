@@ -1,0 +1,152 @@
+{
+  "verifiedAtUtc": "2026-10-29T06:21:45.629641+00:00",
+  "ok": true,
+  "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+  "nodes": 11,
+  "relationships": 18,
+  "queryCount": 11,
+  "queryAssertions": 32,
+  "migrationGuardTests": 6,
+  "preservedAttributeMappings": 54,
+  "currentGraphMatchesPublishedReadback": true,
+  "originalGraphFingerprint": "3b211af59b32a29f7d10f282f303ef9ed271e18a964fd0b44f41617a6687f11a",
+  "originalGraphUnchanged": true,
+  "schemaUnchanged": true,
+  "crossDatasetEdges": 0,
+  "healthBefore": {
+    "error": 18,
+    "info": 17,
+    "review": 172
+  },
+  "healthAfter": {
+    "error": 18,
+    "info": 17,
+    "review": 172
+  },
+  "newHealthIssues": [],
+  "removedHealthIssues": [],
+  "boundedHealthReadTimeouts": 0,
+  "dependencyBaselineReset": false,
+  "topicArtifactViewsOutOfSync": [],
+  "topicArtifactCheckEvidence": "actual topic_artifact_views.py --check returned out_of_sync []",
+  "browserReview": {
+    "checkedAtUtc": "2026-10-29T06:18:57.110906+00:00",
+    "views": [
+      {
+        "view": "core",
+        "nodeCount": 11,
+        "relationshipCount": 18,
+        "visibleNodes": 4,
+        "visibleEdges": 3,
+        "selected": {
+          "kind": "node",
+          "id": "U01"
+        },
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "overlapHits": [],
+        "labelOverlapHits": [],
+        "overflow": false,
+        "queryGroups": 11
+      },
+      {
+        "view": "data",
+        "nodeCount": 11,
+        "relationshipCount": 18,
+        "visibleNodes": 6,
+        "visibleEdges": 9,
+        "selected": {
+          "kind": "node",
+          "id": "B01"
+        },
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "overlapHits": [],
+        "labelOverlapHits": [],
+        "overflow": false,
+        "queryGroups": 11
+      },
+      {
+        "view": "trace",
+        "nodeCount": 11,
+        "relationshipCount": 18,
+        "visibleNodes": 6,
+        "visibleEdges": 7,
+        "selected": {
+          "kind": "node",
+          "id": "C01"
+        },
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "overlapHits": [],
+        "labelOverlapHits": [],
+        "overflow": false,
+        "queryGroups": 11
+      },
+      {
+        "view": "all",
+        "nodeCount": 11,
+        "relationshipCount": 18,
+        "visibleNodes": 11,
+        "visibleEdges": 18,
+        "selected": {
+          "kind": "node",
+          "id": "CASE"
+        },
+        "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+        "overlapHits": [],
+        "labelOverlapHits": [],
+        "overflow": false,
+        "queryGroups": 11
+      }
+    ],
+    "sourceEdgeInteraction": {
+      "selected": {
+        "kind": "edge",
+        "id": "D01V01:E011"
+      },
+      "hasFields": true,
+      "hasLocator": true,
+      "hasVersion": true
+    },
+    "renderedDocuments": [
+      {
+        "title": "🐴 README.md",
+        "heading": "D01图谱表达试例",
+        "tables": 4,
+        "overflow": false,
+        "bodyLength": 4231
+      },
+      {
+        "title": "🐴 baseline.md",
+        "heading": "本研究优化基准",
+        "tables": 1,
+        "overflow": false,
+        "bodyLength": 9721
+      },
+      {
+        "title": "🐴 primary-topic.md",
+        "heading": "合成试建与规则检验",
+        "tables": 1,
+        "overflow": false,
+        "bodyLength": 1514
+      },
+      {
+        "title": "🐴 data-topic.md",
+        "heading": "风貌特征筛选与数据记录",
+        "tables": 1,
+        "overflow": false,
+        "bodyLength": 1840
+      },
+      {
+        "title": "🐴 archive-index.md",
+        "heading": "历史资料归档",
+        "tables": 1,
+        "overflow": false,
+        "bodyLength": 2217
+      }
+    ],
+    "renderedDocumentCount": 5,
+    "nativeNeo4jBrowserGuiAccepted": false,
+    "source": "Actual Neo4j readback embedded in a local offline HTML viewer",
+    "ok": true
+  },
+  "scope": "合成表达、计算、来源定位及迁移安全的限定验收；真实民居有效性、Neo4j Browser GUI、二进制备份与恢复演练未完成。"
+}

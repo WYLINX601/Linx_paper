@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (n:V01) WHERE n.uid IN $dimensionUids RETURN n.uid AS uid,n.widthM AS widthM,n.depthM AS depthM,n.groundZM AS groundZM,n.eaveZM AS eaveZM,n.eaveZM-n.groundZM AS ownEaveHeightM,n.widthM/n.depthM AS widthDepthRatio,(n.eaveZM-n.groundZM)/n.widthM AS ownEaveHeightWidthRatio,n.measurementBoundaryBasis AS basis ORDER BY uid",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"basis\": \"主屋既有轴网矩形9.6×7.2m；非主体外墙外边线，不含挑檐\",\n    \"depthM\": 7.2,\n    \"eaveZM\": 3.2666666666666666,\n    \"groundZM\": 0,\n    \"ownEaveHeightM\": 3.2666666666666666,\n    \"ownEaveHeightWidthRatio\": 0.3402777777777778,\n    \"uid\": \"V01:B01\",\n    \"widthDepthRatio\": 1.3333333333333333,\n    \"widthM\": 9.6\n  },\n  {\n    \"basis\": \"指定基准层主体外墙外边线的水平投影，不含屋檐与台基\",\n    \"depthM\": 4,\n    \"eaveZM\": 7,\n    \"groundZM\": 3,\n    \"ownEaveHeightM\": 4,\n    \"ownEaveHeightWidthRatio\": 0.6666666666666666,\n    \"uid\": \"V01:B02\",\n    \"widthDepthRatio\": 1.5,\n    \"widthM\": 6\n  },\n  {\n    \"basis\": \"既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间\",\n    \"depthM\": 5.58,\n    \"eaveZM\": null,\n    \"groundZM\": 0,\n    \"ownEaveHeightM\": null,\n    \"ownEaveHeightWidthRatio\": null,\n    \"uid\": \"V01:S01\",\n    \"widthDepthRatio\": 0.5304659498207887,\n    \"widthM\": 2.9600000000000004\n  },\n  {\n    \"basis\": \"既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间\",\n    \"depthM\": 5.46,\n    \"eaveZM\": null,\n    \"groundZM\": 0,\n    \"ownEaveHeightM\": null,\n    \"ownEaveHeightWidthRatio\": null,\n    \"uid\": \"V01:S02\",\n    \"widthDepthRatio\": 0.5421245421245421,\n    \"widthM\": 2.96\n  },\n  {\n    \"basis\": \"既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间\",\n    \"depthM\": 5.46,\n    \"eaveZM\": null,\n    \"groundZM\": 0,\n    \"ownEaveHeightM\": null,\n    \"ownEaveHeightWidthRatio\": null,\n    \"uid\": \"V01:S03\",\n    \"widthDepthRatio\": 0.5421245421245423,\n    \"widthM\": 2.960000000000001\n  },\n  {\n    \"basis\": \"既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间\",\n    \"depthM\": 1.5,\n    \"eaveZM\": null,\n    \"groundZM\": 0,\n    \"ownEaveHeightM\": null,\n    \"ownEaveHeightWidthRatio\": null,\n    \"uid\": \"V01:S04\",\n    \"widthDepthRatio\": 6.3999999999999995,\n    \"widthM\": 9.6\n  },\n  {\n    \"basis\": \"既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间\",\n    \"depthM\": 4.68,\n    \"eaveZM\": null,\n    \"groundZM\": 0,\n    \"ownEaveHeightM\": null,\n    \"ownEaveHeightWidthRatio\": null,\n    \"uid\": \"V01:S05\",\n    \"widthDepthRatio\": 2.0000000000000004,\n    \"widthM\": 9.360000000000001\n  },\n  {\n    \"basis\": \"既有矩形空间分析范围；不是墙轴范围，也不代表完整三维净空间\",\n    \"depthM\": 1.38,\n    \"eaveZM\": null,\n    \"groundZM\": 0,\n    \"ownEaveHeightM\": null,\n    \"ownEaveHeightWidthRatio\": null,\n    \"uid\": \"V01:S06\",\n    \"widthDepthRatio\": 1.4492753623188408,\n    \"widthM\": 2\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:50:24.321416+08:00"
+}

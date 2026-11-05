@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (n:V01) RETURN n.uid AS uid,n.name AS name,labels(n) AS labels,n.datasetId AS dataset ORDER BY uid",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-30T20:54:35.400790+08:00"
+}

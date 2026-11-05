@@ -1,0 +1,952 @@
+{
+  "version": "0.2",
+  "status": "discussion_draft",
+  "created": "2026-10-22",
+  "scope": "2条源内民居/侧样记录；构造类型试表达，非完整单体空间图谱或2026现状样本",
+  "nodes": [
+    {
+      "id": "ZHOUHU",
+      "label": "周湖村",
+      "class": "Place",
+      "note": "仅作源内地点接口；不推算住宅总量。"
+    },
+    {
+      "id": "SC_COLUMN",
+      "label": "学位论文表3.7柱筒维度",
+      "class": "TypeScheme",
+      "note": "由表列类别重建的维度体系；不是作者发布的本体。",
+      "source": "S_THESIS"
+    },
+    {
+      "id": "SC_PROTO",
+      "label": "2023论文侧样原型四项条件",
+      "class": "TypeScheme",
+      "note": "将作者文字组合操作化为四项相等判据，属于读者试判方案；未做跨来源完整测绘口径验证。",
+      "source": "S_ARTICLE"
+    },
+    {
+      "id": "T_55",
+      "label": "五柱五筒",
+      "class": "TypeConcept",
+      "scheme": "SC_COLUMN",
+      "dimension": "column_bay_form",
+      "role": "category",
+      "criteria": [
+        {
+          "id": "T_55_C1",
+          "feature": "column_bay_form",
+          "operator": "equals",
+          "expected": "五柱五筒"
+        }
+      ],
+      "evidence": [
+        "E_Z8"
+      ]
+    },
+    {
+      "id": "T_56",
+      "label": "五柱六筒",
+      "class": "TypeConcept",
+      "scheme": "SC_COLUMN",
+      "dimension": "column_bay_form",
+      "role": "category",
+      "criteria": [
+        {
+          "id": "T_56_C1",
+          "feature": "column_bay_form",
+          "operator": "equals",
+          "expected": "五柱六筒"
+        }
+      ],
+      "evidence": [
+        "E_Z1"
+      ]
+    },
+    {
+      "id": "T_PROTO",
+      "label": "作者推辨的侧样原型",
+      "class": "TypeConcept",
+      "scheme": "SC_PROTO",
+      "dimension": "four_feature_combination",
+      "role": "prototype",
+      "criteria": [
+        {
+          "id": "P_WALL",
+          "feature": "load_bearing",
+          "operator": "equals",
+          "expected": false
+        },
+        {
+          "id": "P_COURT",
+          "feature": "rear_courtyard_form",
+          "operator": "equals",
+          "expected": "一字形"
+        },
+        {
+          "id": "P_COLUMN",
+          "feature": "column_bay_form",
+          "operator": "equals",
+          "expected": "五柱四筒"
+        },
+        {
+          "id": "P_ROOF",
+          "feature": "roof_layered",
+          "operator": "equals",
+          "expected": false
+        }
+      ],
+      "evidence": [
+        "E_PROTOTYPE"
+      ],
+      "note": "比较只针对四项表列条件；不是历史实体或当前最常见类型。"
+    },
+    {
+      "id": "D_8",
+      "label": "周湖8号（文献对象）",
+      "class": "Dwelling",
+      "identityStatus": "source_local_only",
+      "note": "身份仅在ZWDJJE99表3.7及续页编号图内成立；独立住宅/共院边界、户主、地址与2026现状未核实。不能与其他文献同号自动合并。"
+    },
+    {
+      "id": "R_8",
+      "label": "表3.7第8号侧样记录",
+      "class": "Representation",
+      "identityStatus": "source_local_only",
+      "source": "S_THESIS",
+      "note": "四项值描述此侧样记录；柱筒数不是全栋柱数。"
+    },
+    {
+      "id": "C_8",
+      "label": "8号后厨天井（候选空间）",
+      "class": "Space",
+      "identityStatus": "reader_decomposition",
+      "note": "由表列天井字段拆出的候选空间对象；没有完整平面、面积或通行关系。"
+    },
+    {
+      "id": "W_8",
+      "label": "8号后院院墙（候选部位）",
+      "class": "Element",
+      "identityStatus": "reader_decomposition",
+      "elementLevel": "component",
+      "note": "由表列院墙字段拆出的候选实体部分；位置、范围、分段数量尚无实测核对。"
+    },
+    {
+      "id": "D_1",
+      "label": "周湖1号（文献对象）",
+      "class": "Dwelling",
+      "identityStatus": "source_local_only",
+      "note": "身份仅在ZWDJJE99表3.7及续页编号图内成立；独立住宅/共院边界、户主、地址与2026现状未核实。不能与其他文献同号自动合并。"
+    },
+    {
+      "id": "R_1",
+      "label": "表3.7第1号侧样记录",
+      "class": "Representation",
+      "identityStatus": "source_local_only",
+      "source": "S_THESIS",
+      "note": "四项值描述此侧样记录；柱筒数不是全栋柱数。"
+    },
+    {
+      "id": "C_1",
+      "label": "1号后厨天井（候选空间）",
+      "class": "Space",
+      "identityStatus": "reader_decomposition",
+      "note": "由表列天井字段拆出的候选空间对象；没有完整平面、面积或通行关系。"
+    },
+    {
+      "id": "W_1",
+      "label": "1号后院院墙（候选部位）",
+      "class": "Element",
+      "identityStatus": "reader_decomposition",
+      "elementLevel": "component",
+      "note": "由表列院墙字段拆出的候选实体部分；位置、范围、分段数量尚无实测核对。"
+    }
+  ],
+  "sources": [
+    {
+      "id": "S_THESIS",
+      "title": "景宁畲族传统民居营造技艺研究",
+      "author": "赵潇诺",
+      "year": 2022,
+      "zoteroKey": "ZWDJJE99",
+      "attachmentKey": "52VRHDAG",
+      "path": "/Users/wangyuelin/Zotero/storage/52VRHDAG/赵潇诺 - 2023 - 景宁畲族传统民居营造技艺研究.pdf"
+    },
+    {
+      "id": "S_ARTICLE",
+      "title": "浙西南景宁畲族民居木构侧样研究",
+      "author": "赵潇诺、佟士枢、何礼平",
+      "year": 2023,
+      "zoteroKey": "83W7CJW2",
+      "attachmentKey": "M2XVALGA",
+      "path": "/Users/wangyuelin/Zotero/storage/M2XVALGA/赵潇诺 等 - 2023 - 浙西南景宁畲族民居木构侧样研究.pdf"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E_Z8",
+      "source": "S_THESIS",
+      "pdfPages": [
+        55
+      ],
+      "printedPages": [
+        44
+      ],
+      "locator": "表3.7「景宁周湖村侧样分型规律统计」，民居标号8行",
+      "summary": "院墙不承重；后厨“一”字形天井；五柱五筒；屋面是否分层：否。",
+      "attribution": "author_report",
+      "visualChecked": true,
+      "image": "../单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF55.png"
+    },
+    {
+      "id": "E_Z1",
+      "source": "S_THESIS",
+      "pdfPages": [
+        55
+      ],
+      "printedPages": [
+        44
+      ],
+      "locator": "表3.7「景宁周湖村侧样分型规律统计」，民居标号1行",
+      "summary": "院墙承重；后厨方形天井；五柱六筒；屋面是否分层：是。",
+      "attribution": "author_report",
+      "visualChecked": true,
+      "image": "../单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF55.png"
+    },
+    {
+      "id": "E_MAP",
+      "source": "S_THESIS",
+      "pdfPages": [
+        56
+      ],
+      "printedPages": [
+        45
+      ],
+      "locator": "表3.7续页中的周湖编号底图",
+      "summary": "底图包含1和8等编号；作为同篇源内定位，不提供本轮可用坐标或2026现状。",
+      "attribution": "author_report",
+      "visualChecked": true,
+      "image": "../单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF56.png"
+    },
+    {
+      "id": "E_PROTOTYPE",
+      "source": "S_ARTICLE",
+      "pdfPages": [
+        5
+      ],
+      "printedPages": [
+        14
+      ],
+      "locator": "§3.3延续段，左下原型结论（图11的文字总结）",
+      "summary": "作者推辨的侧样原型组合为院墙不承重、五柱四筒、后厨“一”字形天井、屋面不分层。",
+      "attribution": "author_report",
+      "visualChecked": true,
+      "image": "../单体层知识图谱v0.1/证据图页/83W7CJW2-PDF5.png"
+    },
+    {
+      "id": "E_COMMON",
+      "source": "S_THESIS",
+      "pdfPages": [
+        63
+      ],
+      "printedPages": [
+        52
+      ],
+      "locator": "§3.4.3（1）实测数据，周湖常见侧样概括",
+      "summary": "原文将五柱六筒、院墙承重、屋架不分层、后厨方形天井概括为周湖常见型，并指向表3.7的1、2、3、4号；与表中1—3号屋面分层=是，以及4号其他字段不一致。保留屋架/屋面措辞差异，不裁决哪处笔误。",
+      "attribution": "author_report",
+      "visualChecked": true,
+      "image": "../单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF63.png"
+    }
+  ],
+  "assertions": [
+    {
+      "id": "IN_T_55",
+      "subject": "T_55",
+      "predicate": "in_scheme",
+      "evidence": [
+        "E_Z8",
+        "E_Z1"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "来源内类别组织",
+      "note": "",
+      "object": "SC_COLUMN"
+    },
+    {
+      "id": "IN_T_56",
+      "subject": "T_56",
+      "predicate": "in_scheme",
+      "evidence": [
+        "E_Z8",
+        "E_Z1"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "来源内类别组织",
+      "note": "",
+      "object": "SC_COLUMN"
+    },
+    {
+      "id": "IN_PROTO",
+      "subject": "T_PROTO",
+      "predicate": "in_scheme",
+      "evidence": [
+        "E_PROTOTYPE"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "作者结论的读者操作化",
+      "note": "",
+      "object": "SC_PROTO"
+    },
+    {
+      "id": "LOC_8",
+      "subject": "D_8",
+      "predicate": "located_in",
+      "evidence": [
+        "E_Z8",
+        "E_MAP"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "来源内地点",
+      "note": "",
+      "object": "ZHOUHU"
+    },
+    {
+      "id": "REP_8",
+      "subject": "D_8",
+      "predicate": "represented_by",
+      "evidence": [
+        "E_Z8",
+        "E_MAP"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "表中民居编号与同页续图的对应；不代表全栋信息完整",
+      "note": "",
+      "object": "R_8"
+    },
+    {
+      "id": "PLACE_8",
+      "subject": "R_8",
+      "predicate": "record_about_place",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "表题与记录归属",
+      "note": "",
+      "object": "ZHOUHU"
+    },
+    {
+      "id": "CODE_8",
+      "subject": "R_8",
+      "predicate": "record_code",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "ZWDJJE99表3.7周湖编号",
+      "note": "",
+      "value": "8"
+    },
+    {
+      "id": "F_8_load_bearing",
+      "subject": "R_8",
+      "predicate": "load_bearing",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "后院院墙性质",
+      "note": "",
+      "value": false
+    },
+    {
+      "id": "F_8_rear_courtyard_form",
+      "subject": "R_8",
+      "predicate": "rear_courtyard_form",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "后厨天井形式",
+      "note": "原词保留在证据摘要；一字/方形为轻量规范化，不与整栋平面形态混同。",
+      "value": "一字形"
+    },
+    {
+      "id": "F_8_column_bay_form",
+      "subject": "R_8",
+      "predicate": "column_bay_form",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "表列侧样柱筒形式",
+      "note": "",
+      "value": "五柱五筒"
+    },
+    {
+      "id": "F_8_roof_layered",
+      "subject": "R_8",
+      "predicate": "roof_layered",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "表列侧样屋面是否分层",
+      "note": "",
+      "value": false
+    },
+    {
+      "id": "SPACE_8",
+      "subject": "D_8",
+      "predicate": "has_space",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "tentative",
+      "scope": "候选拆分，仅表达表列后厨天井存在",
+      "note": "",
+      "object": "C_8",
+      "derivedFrom": [
+        "F_8_rear_courtyard_form"
+      ]
+    },
+    {
+      "id": "WALL_8",
+      "subject": "D_8",
+      "predicate": "has_element",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "tentative",
+      "scope": "候选拆分，仅表达表列后院院墙存在",
+      "note": "",
+      "object": "W_8",
+      "derivedFrom": [
+        "F_8_load_bearing"
+      ]
+    },
+    {
+      "id": "CREP_8",
+      "subject": "C_8",
+      "predicate": "represented_by",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "tentative",
+      "scope": "只对应后厨天井列，不继承整条侧样全部特征",
+      "note": "",
+      "object": "R_8",
+      "derivedFrom": [
+        "F_8_rear_courtyard_form"
+      ]
+    },
+    {
+      "id": "WREP_8",
+      "subject": "W_8",
+      "predicate": "represented_by",
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "tentative",
+      "scope": "只对应后院院墙性质列，不继承整条侧样全部特征",
+      "note": "",
+      "object": "R_8",
+      "derivedFrom": [
+        "F_8_load_bearing"
+      ]
+    },
+    {
+      "id": "LOC_1",
+      "subject": "D_1",
+      "predicate": "located_in",
+      "evidence": [
+        "E_Z1",
+        "E_MAP"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "来源内地点",
+      "note": "",
+      "object": "ZHOUHU"
+    },
+    {
+      "id": "REP_1",
+      "subject": "D_1",
+      "predicate": "represented_by",
+      "evidence": [
+        "E_Z1",
+        "E_MAP"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "表中民居编号与同页续图的对应；不代表全栋信息完整",
+      "note": "",
+      "object": "R_1"
+    },
+    {
+      "id": "PLACE_1",
+      "subject": "R_1",
+      "predicate": "record_about_place",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "表题与记录归属",
+      "note": "",
+      "object": "ZHOUHU"
+    },
+    {
+      "id": "CODE_1",
+      "subject": "R_1",
+      "predicate": "record_code",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "ZWDJJE99表3.7周湖编号",
+      "note": "",
+      "value": "1"
+    },
+    {
+      "id": "F_1_load_bearing",
+      "subject": "R_1",
+      "predicate": "load_bearing",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "后院院墙性质",
+      "note": "",
+      "value": true
+    },
+    {
+      "id": "F_1_rear_courtyard_form",
+      "subject": "R_1",
+      "predicate": "rear_courtyard_form",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "后厨天井形式",
+      "note": "原词保留在证据摘要；一字/方形为轻量规范化，不与整栋平面形态混同。",
+      "value": "方形"
+    },
+    {
+      "id": "F_1_column_bay_form",
+      "subject": "R_1",
+      "predicate": "column_bay_form",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "documented",
+      "scope": "表列侧样柱筒形式",
+      "note": "",
+      "value": "五柱六筒"
+    },
+    {
+      "id": "F_1_roof_layered",
+      "subject": "R_1",
+      "predicate": "roof_layered",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "author_report",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "disputed",
+      "scope": "表列侧样屋面是否分层",
+      "note": "表3.7单元格明确为“是”；§3.4.3将1—4号归入“屋架不分层”的常见型，存在待核的一致性问题。两处原词不同，本轮不裁决；表值保留但不作为确定的原型判据。",
+      "value": true,
+      "conflictingEvidence": [
+        "E_COMMON"
+      ]
+    },
+    {
+      "id": "SPACE_1",
+      "subject": "D_1",
+      "predicate": "has_space",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "tentative",
+      "scope": "候选拆分，仅表达表列后厨天井存在",
+      "note": "",
+      "object": "C_1",
+      "derivedFrom": [
+        "F_1_rear_courtyard_form"
+      ]
+    },
+    {
+      "id": "WALL_1",
+      "subject": "D_1",
+      "predicate": "has_element",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "tentative",
+      "scope": "候选拆分，仅表达表列后院院墙存在",
+      "note": "",
+      "object": "W_1",
+      "derivedFrom": [
+        "F_1_load_bearing"
+      ]
+    },
+    {
+      "id": "CREP_1",
+      "subject": "C_1",
+      "predicate": "represented_by",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "tentative",
+      "scope": "只对应后厨天井列，不继承整条侧样全部特征",
+      "note": "",
+      "object": "R_1",
+      "derivedFrom": [
+        "F_1_rear_courtyard_form"
+      ]
+    },
+    {
+      "id": "WREP_1",
+      "subject": "W_1",
+      "predicate": "represented_by",
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "文献调查/表述时点；单栋观测日期未明确，不能等同出版年或2026年",
+      "status": "tentative",
+      "scope": "只对应后院院墙性质列，不继承整条侧样全部特征",
+      "note": "",
+      "object": "R_1",
+      "derivedFrom": [
+        "F_1_load_bearing"
+      ]
+    }
+  ],
+  "classifications": [
+    {
+      "id": "CLASS_8",
+      "subject": "R_8",
+      "type": "T_55",
+      "scheme": "SC_COLUMN",
+      "decision": "criteria_match",
+      "criteriaResults": [
+        {
+          "criterion": "T_55_C1",
+          "feature": "column_bay_form",
+          "expected": "五柱五筒",
+          "actual": "五柱五筒",
+          "assertion": "F_8_column_bay_form",
+          "result": "satisfied",
+          "reason": ""
+        }
+      ],
+      "evidence": [
+        "E_Z8"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "仅比较文献表述，未知单栋调查日期；不作演变判断",
+      "note": "同一学位论文表列柱筒类别的相等匹配。"
+    },
+    {
+      "id": "PROTO_8",
+      "subject": "R_8",
+      "type": "T_PROTO",
+      "scheme": "SC_PROTO",
+      "decision": "criteria_not_match",
+      "criteriaResults": [
+        {
+          "criterion": "P_WALL",
+          "feature": "load_bearing",
+          "expected": false,
+          "actual": false,
+          "assertion": "F_8_load_bearing",
+          "result": "satisfied",
+          "reason": ""
+        },
+        {
+          "criterion": "P_COURT",
+          "feature": "rear_courtyard_form",
+          "expected": "一字形",
+          "actual": "一字形",
+          "assertion": "F_8_rear_courtyard_form",
+          "result": "satisfied",
+          "reason": ""
+        },
+        {
+          "criterion": "P_COLUMN",
+          "feature": "column_bay_form",
+          "expected": "五柱四筒",
+          "actual": "五柱五筒",
+          "assertion": "F_8_column_bay_form",
+          "result": "not_satisfied",
+          "reason": ""
+        },
+        {
+          "criterion": "P_ROOF",
+          "feature": "roof_layered",
+          "expected": false,
+          "actual": false,
+          "assertion": "F_8_roof_layered",
+          "result": "satisfied",
+          "reason": ""
+        }
+      ],
+      "evidence": [
+        "E_PROTOTYPE",
+        "E_Z8"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "仅比较文献表述，未知单栋调查日期；不作演变判断",
+      "note": "跨来源四项组合试判；同词同范围只是本轮比较假设。未证明历史原型、传承关系或类型全貌。"
+    },
+    {
+      "id": "CLASS_1",
+      "subject": "R_1",
+      "type": "T_56",
+      "scheme": "SC_COLUMN",
+      "decision": "criteria_match",
+      "criteriaResults": [
+        {
+          "criterion": "T_56_C1",
+          "feature": "column_bay_form",
+          "expected": "五柱六筒",
+          "actual": "五柱六筒",
+          "assertion": "F_1_column_bay_form",
+          "result": "satisfied",
+          "reason": ""
+        }
+      ],
+      "evidence": [
+        "E_Z1"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "仅比较文献表述，未知单栋调查日期；不作演变判断",
+      "note": "同一学位论文表列柱筒类别的相等匹配。"
+    },
+    {
+      "id": "PROTO_1",
+      "subject": "R_1",
+      "type": "T_PROTO",
+      "scheme": "SC_PROTO",
+      "decision": "criteria_not_match",
+      "criteriaResults": [
+        {
+          "criterion": "P_WALL",
+          "feature": "load_bearing",
+          "expected": false,
+          "actual": true,
+          "assertion": "F_1_load_bearing",
+          "result": "not_satisfied",
+          "reason": ""
+        },
+        {
+          "criterion": "P_COURT",
+          "feature": "rear_courtyard_form",
+          "expected": "一字形",
+          "actual": "方形",
+          "assertion": "F_1_rear_courtyard_form",
+          "result": "not_satisfied",
+          "reason": ""
+        },
+        {
+          "criterion": "P_COLUMN",
+          "feature": "column_bay_form",
+          "expected": "五柱四筒",
+          "actual": "五柱六筒",
+          "assertion": "F_1_column_bay_form",
+          "result": "not_satisfied",
+          "reason": ""
+        },
+        {
+          "criterion": "P_ROOF",
+          "feature": "roof_layered",
+          "expected": false,
+          "actual": true,
+          "assertion": "F_1_roof_layered",
+          "result": "unknown",
+          "reason": "原文表/文概括不一致，表值保留但暂不用于确定判定"
+        }
+      ],
+      "evidence": [
+        "E_PROTOTYPE",
+        "E_Z1"
+      ],
+      "attribution": "reader_modeling_inference",
+      "temporalScope": "仅比较文献表述，未知单栋调查日期；不作演变判断",
+      "note": "跨来源四项组合试判；同词同范围只是本轮比较假设。未证明历史原型、传承关系或类型全貌。"
+    }
+  ],
+  "gaps": [
+    {
+      "subject": "D_8",
+      "field": "plan_form",
+      "status": "unknown",
+      "reason": "未确认本号完整平面；论文通用院落示意不能移植给此号"
+    },
+    {
+      "subject": "D_8",
+      "field": "direct_access_to",
+      "status": "unknown",
+      "reason": "没有与本号身份对应的门洞/动线图"
+    },
+    {
+      "subject": "D_8",
+      "field": "supports",
+      "status": "unknown",
+      "reason": "只有院墙是否承重列，未确认具体支承构件对"
+    },
+    {
+      "subject": "D_8",
+      "field": "area",
+      "status": "unknown",
+      "reason": "没有该对象经核对的面积与测量边界"
+    },
+    {
+      "subject": "D_8",
+      "field": "ChangeEvent",
+      "status": "unknown",
+      "reason": "没有同栋前后状态和可靠日期"
+    },
+    {
+      "subject": "D_8",
+      "field": "anchored_to",
+      "status": "unknown",
+      "reason": "没有本号对应的三维模型、坐标系、区域标识"
+    },
+    {
+      "subject": "D_8",
+      "field": "current_status",
+      "status": "unknown",
+      "reason": "文献记录不证明2026年现状"
+    },
+    {
+      "subject": "D_8",
+      "field": "Dwelling_boundary",
+      "status": "unknown",
+      "reason": "是否独立住宅、共院与附属体范围待实地核对"
+    },
+    {
+      "subject": "D_1",
+      "field": "plan_form",
+      "status": "unknown",
+      "reason": "未确认本号完整平面；论文通用院落示意不能移植给此号"
+    },
+    {
+      "subject": "D_1",
+      "field": "direct_access_to",
+      "status": "unknown",
+      "reason": "没有与本号身份对应的门洞/动线图"
+    },
+    {
+      "subject": "D_1",
+      "field": "supports",
+      "status": "unknown",
+      "reason": "只有院墙是否承重列，未确认具体支承构件对"
+    },
+    {
+      "subject": "D_1",
+      "field": "area",
+      "status": "unknown",
+      "reason": "没有该对象经核对的面积与测量边界"
+    },
+    {
+      "subject": "D_1",
+      "field": "ChangeEvent",
+      "status": "unknown",
+      "reason": "没有同栋前后状态和可靠日期"
+    },
+    {
+      "subject": "D_1",
+      "field": "anchored_to",
+      "status": "unknown",
+      "reason": "没有本号对应的三维模型、坐标系、区域标识"
+    },
+    {
+      "subject": "D_1",
+      "field": "current_status",
+      "status": "unknown",
+      "reason": "文献记录不证明2026年现状"
+    },
+    {
+      "subject": "D_1",
+      "field": "Dwelling_boundary",
+      "status": "unknown",
+      "reason": "是否独立住宅、共院与附属体范围待实地核对"
+    }
+  ],
+  "conflicts": [
+    {
+      "id": "CONFLICT_1",
+      "subject": "R_1",
+      "predicate": "roof_layered",
+      "assertion": "F_1_roof_layered",
+      "evidence": [
+        "E_Z1",
+        "E_COMMON"
+      ],
+      "status": "unresolved",
+      "handling": "保留表值为来源报告；判据评价置unknown；不把常见型文字直接转成另一条已确认单体否定值。"
+    }
+  ],
+  "limits": [
+    "候选空间/部位拆分是读者建模推断，显示为tentative，不声称原文逐个命名。",
+    "资料仅够四项构造特征和有限身份定位；通行、支承、尺寸、年代和三维关系未实例化。",
+    "表3.7民居编号与本篇地图匹配，不等于跨文献或当前实地唯一标识。",
+    "1号屋面表值与常见型概括存在待核不一致，分类不强行采用该项。"
+  ],
+  "datasetKind": "literature_case",
+  "migration": {
+    "from": "../单体层知识图谱v0.1/案例图谱.json",
+    "sourceSha256": "3efea4bddad187cbf4aa6a44949ab7e887955b4157709fd1b498a17bce8fa454",
+    "rule": "全部14节点、27断言、4次分类、5项证据的事实内容保留；只补数据集身份与维护路径，未增加现场事实。"
+  }
+}

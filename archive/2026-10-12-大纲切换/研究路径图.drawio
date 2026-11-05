@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<mxfile host="drawio" version="31.7.0" source="科研方案-导师反馈调整版.md" sourceReviewedDate="2026-10-08" researchStatus="plan-draft" workflowNote="五环节主体；初步图谱与分析反馈；篇幅受控的风貌引导与有限案例检验">
+  <diagram id="research-route" name="研究路径">
+    <mxGraphModel dx="1440" dy="2070" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1480" pageHeight="2080" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="2" value="传统民居风貌特征提取与图谱构建 · 研究路径" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;text;strokeColor=none;fillColor=none;fontSize=30;fontColor=#243746;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="30" width="1320" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="3" value="景宁畲族传统民居（优先候选）｜建筑单体及可见构件｜研究方案示意" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;text;strokeColor=none;fillColor=none;fontSize=20;fontColor=#52616b;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="80" y="100" width="1320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="4" value="&lt;b&gt;核心问题&lt;/b&gt;　如何由数字资料提取风貌特征、构建可追溯图谱，并支持有依据的保护与更新引导？" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=10;fillColor=#f5f5f5;strokeColor=#666666;fontSize=21;" vertex="1" parent="1">
+          <mxGeometry x="100" y="160" width="1240" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="5" value="&lt;b&gt;前置：对象界定与试采验证&lt;/b&gt;&lt;br&gt;范围、有效样本与采集条件待核查" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontSize=19;" vertex="1" parent="1">
+          <mxGeometry x="500" y="270" width="440" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="6" value="资料与辅助方法" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;text;strokeColor=none;fillColor=none;fontSize=21;fontColor=#666666;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="360" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="7" value="研究主线与成果应用" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;text;strokeColor=none;fillColor=none;fontSize=21;fontColor=#466da0;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="360" width="400" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="8" value="阶段产出" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;text;strokeColor=none;fillColor=none;fontSize=21;fontColor=#538447;fontStyle=1;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="360" width="320" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9" value="&lt;div style=&quot;font-size:23px;font-weight:600;line-height:1.35;&quot;&gt;① 倾斜摄影建模&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:19px;line-height:1.55;&quot;&gt;同一对象多视角影像 → 重建&lt;br&gt;检查整体与目标构件的可用性&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="400" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="10" value="&lt;div style=&quot;font-size:23px;font-weight:600;line-height:1.35;&quot;&gt;② 构件区分与证据整理&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:19px;line-height:1.55;&quot;&gt;屋顶 · 山墙 · 墙体 · 门窗等&lt;br&gt;人工或辅助区分；关联多源资料&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="640" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="11" value="&lt;div style=&quot;font-size:21px;font-weight:600;line-height:1.35;&quot;&gt;③ 基础特征提取&lt;br&gt;与初步图谱构建&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;记录实例形态、参数及组合&lt;br&gt;关联构件图、量测与原始证据&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="880" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="12" value="&lt;div style=&quot;font-size:21px;font-weight:600;line-height:1.35;&quot;&gt;④ 基于图谱的类型、组合&lt;br&gt;与差异分析&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;对照初步图谱及对应数据表&lt;br&gt;归纳共性、变体与组合规律&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1120" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="13" value="&lt;div style=&quot;font-size:22px;font-weight:600;line-height:1.35;&quot;&gt;⑤ 可追溯的风貌图谱成果&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;经分析、修订与核验形成成果&lt;br&gt;保留分类规则、参数及证据关联&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#dae8fc;strokeColor=#6c8ebf;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1360" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="14" value="&lt;div style=&quot;font-size:23px;font-weight:600;line-height:1.35;&quot;&gt;空中与地面采集&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:19px;line-height:1.55;&quot;&gt;无人机倾斜影像&lt;br&gt;地面补拍 · 独立检查尺寸&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="410" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="&lt;b&gt;现场调查与历史文献&lt;/b&gt;&lt;br&gt;材料、工艺、年代与使用信息" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="640" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="16" value="&lt;b&gt;可选：AI辅助区域标注&lt;/b&gt;&lt;br&gt;人工校正；检查质量与总耗时" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=18;" vertex="1" parent="1">
+          <mxGeometry x="100" y="740" width="320" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="17" value="&lt;div style=&quot;font-size:21px;font-weight:600;line-height:1.35;&quot;&gt;图谱框架与调查编码&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;先定组织框架 · 字段与取值规则&lt;br&gt;证据索引 · 未知状态&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="890" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="18" value="&lt;div style=&quot;font-size:23px;font-weight:600;line-height:1.35;&quot;&gt;类型学与前人研究&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:19px;line-height:1.55;&quot;&gt;判别依据 · 代表实例&lt;br&gt;混合类型 · 反例与文献对照&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1130" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="19" value="&lt;div style=&quot;font-size:23px;font-weight:600;line-height:1.35;&quot;&gt;证据对应&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:19px;line-height:1.55;&quot;&gt;建筑 → 构件实例&lt;br&gt;类型与参数 → 原始资料&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1370" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="20" value="&lt;div style=&quot;font-size:23px;font-weight:600;line-height:1.35;&quot;&gt;三维模型与档案&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:19px;line-height:1.55;&quot;&gt;模型／点云 · 整体及立面视图&lt;br&gt;采集条件 · 缺失与检查记录&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="410" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="21" value="&lt;div style=&quot;font-size:23px;font-weight:600;line-height:1.35;&quot;&gt;构件实例及证据索引&lt;/div&gt;&lt;div style=&quot;height:12px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:19px;line-height:1.55;&quot;&gt;构件清单 · 图像区域／模型部位&lt;br&gt;关联现场记录与文献&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="650" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="22" value="&lt;div style=&quot;font-size:22px;font-weight:600;line-height:1.35;&quot;&gt;初步图谱与特征表&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;构件图 · 形态参数 · 组合记录&lt;br&gt;证据索引 · 暂定与复核状态&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="890" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="23" value="&lt;div style=&quot;font-size:22px;font-weight:600;line-height:1.35;&quot;&gt;类型与差异分析结果&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;频次、分布与类型—构件矩阵&lt;br&gt;代表与反例 · 图谱修订依据&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1130" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="24" value="&lt;div style=&quot;font-size:22px;font-weight:600;line-height:1.35;&quot;&gt;最终图谱成果&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;建筑类型图谱 · 构件特征图谱&lt;br&gt;组合与分布图谱&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1370" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="5" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="27" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="28" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=0.35;exitY=1;exitDx=0;exitDy=0;entryX=0.35;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="29" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="30" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="14" target="9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="17" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="32" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="18" target="12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="33" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="19" target="13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="34" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="15" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#9673a6;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.75;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="16" target="10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9" target="20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="10" target="21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="38" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="11" target="22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="39" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="40" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#6c8ebf;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="41" value="全过程质量检查 · 缺失或不一致时返回对应环节" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;swimlane;startSize=40;horizontal=1;container=1;pointerEvents=0;fillColor=#fff2cc;swimlaneFillColor=#ffffff;strokeColor=#d6b656;fontSize=20;fontStyle=1;spacing=6;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1840" width="1240" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="42" value="&lt;b&gt;资料可用性&lt;/b&gt;&lt;br&gt;部位覆盖 · 独立量测检查" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#fff2cc;strokeColor=none;fontSize=18;" vertex="1" parent="41">
+          <mxGeometry x="20" y="50" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="43" value="&lt;b&gt;编码与方法&lt;/b&gt;&lt;br&gt;统一定义 · 人工复核 · 修正成本" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#fff2cc;strokeColor=none;fontSize=18;" vertex="1" parent="41">
+          <mxGeometry x="430" y="50" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="44" value="&lt;b&gt;图谱与应用&lt;/b&gt;&lt;br&gt;证据追溯 · 引导依据 · 复核记录" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#fff2cc;strokeColor=none;fontSize=18;" vertex="1" parent="41">
+          <mxGeometry x="840" y="50" width="380" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="45" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#d6b656;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.8;entryY=0;entryDx=0;entryDy=0;dashed=1;dashPattern=6 4;" edge="1" parent="1" source="41" target="10">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1420" y="1910" />
+              <mxPoint x="1420" y="600" />
+              <mxPoint x="840" y="600" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="46" value="依据：科研方案-导师反馈调整版 §1、§3—§6.1　｜　2026-10-08　｜　图示流程不表示采集、实验或应用检验已完成" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;text;strokeColor=none;fillColor=none;fontSize=16;fontColor=#777777;fontStyle=0;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="100" y="2010" width="1240" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="47" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#9673a6;exitX=0.65;exitY=0;exitDx=0;exitDy=0;entryX=0.65;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="12" target="11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="48" value="分析反馈：修订图谱" style="text;whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=17;fontColor=#9673a6;align=left;verticalAlign=middle;strokeColor=none;fillColor=none;spacing=0;" vertex="1" parent="1">
+          <mxGeometry x="800" y="1060" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="49" value="&lt;div style=&quot;font-size:21px;font-weight:600;line-height:1.35;&quot;&gt;⑥ 图谱应用与风貌引导&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;依据—建议—适用条件 · 篇幅受控&lt;br&gt;有限案例检验，记录反馈与修订&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=0;fillColor=#fff2cc;strokeColor=#d6b656;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="520" y="1600" width="400" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="50" value="&lt;div style=&quot;font-size:22px;font-weight:600;line-height:1.35;&quot;&gt;案例与地域背景&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;保存与改造记录 · 同类参照&lt;br&gt;历史价值 · 实际使用需求&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#f5f5f5;strokeColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1610" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="51" value="&lt;div style=&quot;font-size:21px;font-weight:600;line-height:1.35;&quot;&gt;引导建议与检验记录&lt;/div&gt;&lt;div style=&quot;height:10px;&quot;&gt;&lt;/div&gt;&lt;div style=&quot;font-size:18px;line-height:1.45;&quot;&gt;引导表 · 模型或立面示意&lt;br&gt;适用条件 · 复核与待补证&lt;/div&gt;" style="whiteSpace=wrap;html=1;fontFamily=PingFang SC;fontSize=19;fontColor=#243746;align=center;verticalAlign=middle;spacing=12;rounded=1;arcSize=8;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="1020" y="1610" width="320" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=3;strokeColor=#d6b656;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="13" target="49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="53" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#d6b656;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="50" target="49">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="54" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;endArrow=block;endFill=1;strokeWidth=2;strokeColor=#d6b656;fontFamily=PingFang SC;fontSize=17;fontColor=#666666;labelBackgroundColor=#ffffff;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="49" target="51">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

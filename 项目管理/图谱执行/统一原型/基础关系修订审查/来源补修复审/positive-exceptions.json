@@ -1,0 +1,52 @@
+{
+  "I01": [
+    {
+      "role": "side-a",
+      "target": "S01"
+    },
+    {
+      "role": "side-b",
+      "target": "S04"
+    }
+  ],
+  "I04": [
+    {
+      "role": "side-a",
+      "target": "S04"
+    },
+    {
+      "role": "side-b",
+      "target": "S05"
+    }
+  ],
+  "I08": [
+    {
+      "role": "side-a",
+      "target": "S02"
+    },
+    {
+      "role": "opening-host",
+      "target": "W03"
+    }
+  ],
+  "I09": [
+    {
+      "role": "side-a",
+      "target": "S01"
+    },
+    {
+      "role": "opening-host",
+      "target": "W03"
+    }
+  ],
+  "I10": [
+    {
+      "role": "side-a",
+      "target": "S03"
+    },
+    {
+      "role": "opening-host",
+      "target": "W03"
+    }
+  ]
+}

@@ -1,0 +1,316 @@
+- banner:
+  - link:
+    - /url: https://www.cnki.net/
+  - link "总库":
+    - /url: https://kns.cnki.net/starter/index
+  - link "检索":
+    - /url: https://kns.cnki.net/kns8s/search
+    - text: 检索
+  - link "CNKI AI":
+    - /url: https://ai.cnki.net
+    - text: CNKI AI
+  - link "出版来源":
+    - /url: https://navi.cnki.net/knavi/?language=CHS
+    - text: 出版来源
+  - link "我的CNKI":
+    - /url: https://kns.cnki.net/myspace/collect
+    - text: 我的CNKI
+  - generic: 充值
+  - link "会员":
+    - /url: https://member.cnki.net/
+  - generic "浙江大学图书馆"
+  - generic: 个人登录
+- paragraph: 文献知网节
+- heading "文章目录" [level=5]
+- list:
+  - listitem "1．村落概况"
+  - listitem "2．村落格局与环境"
+  - listitem "3．民居院落与建筑特色"
+  - listitem "4．村落文化特色"
+  - listitem "5．现状与保护发展建议"
+- list:
+  - link "国家历史文化名城研究中心对敕木山村的调研重点是什么？":
+    - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiffqWByihSzcq7-1bEXA9macgXTOfEK84yeVWvDXXa18Q6c3WW7qTe3koRylZhzBMR3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&question=国家历史文化名城研究中心对敕木山村的调研重点是什么？  &qid=2031372553874857988&srid=KCMS&srid=KCMS
+    - paragraph: 国家历史文化名城研究中心对敕木山村的调研重点是什么？
+  - link "敕木山村的历史街区保护与开发面临哪些挑战？":
+    - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiffqWByihSzcq7-1bEXA9macgXTOfEK84yeVWvDXXa18Q6c3WW7qTe3koRylZhzBMR3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&question=敕木山村的历史街区保护与开发面临哪些挑战？&qid=2031372553874857989&srid=KCMS&srid=KCMS
+    - paragraph: 敕木山村的历史街区保护与开发面临哪些挑战？
+  - link "敕木山村在畲族文化传承中的地位如何？":
+    - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiffqWByihSzcq7-1bEXA9macgXTOfEK84yeVWvDXXa18Q6c3WW7qTe3koRylZhzBMR3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&question=敕木山村在畲族文化传承中的地位如何？  &qid=2031372553874857987&srid=KCMS&srid=KCMS
+    - paragraph: 敕木山村在畲族文化传承中的地位如何？
+- generic: 服务推荐
+- link "AI文献综述":
+  - /url: https://ai.cnki.net/sumup/professionalSumup/
+- link "AI深度研究":
+  - /url: https://ai.cnki.net/deepresearch/
+- link "个人查重":
+  - /url: https://cx.cnki.net/
+- link "AIGC检测":
+  - /url: https://cx.cnki.net/aigc/
+- link "知网书店":
+  - /url: https://book.cnki.net/
+- link "智能写作":
+  - /url: https://aidoc.cnki.net/createDoc/
+- link "职称评审材料":
+  - /url: https://au.cnki.net/author/server/ZCPS?platform=kns
+- link "学位论文投稿":
+  - /url: https://thesis.cnki.net/login
+- link "智能审校":
+  - /url: https://shendu.cnki.net
+- link "论文智能排版":
+  - /url: https://author.cnki.net/#/index
+- link "学术评价支撑平台":
+  - /url: https://xs.cnki.net/#
+- link "AI文献计量 new":
+  - /url: https://ai.cnki.net/bibliometrics
+- button "上一页":
+  - img "上一页"
+- link "recommend-icon 中国城市绿色低碳转型路径差异性研究 中国城市绿色低碳转型路径差异性研究":
+  - /url: https://book.cnki.net/book?id=2024018&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9301
+  - img "recommend-icon"
+  - img "中国城市绿色低碳转型路径差异性研究"
+  - paragraph: 中国城市绿色低碳转型路径差异性研究
+- link "recommend-icon 人类世 人类世":
+  - /url: https://book.cnki.net/book?id=2095396&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9302
+  - img "recommend-icon"
+  - img "人类世"
+  - paragraph: 人类世
+- link "recommend-icon 中国南方的宗谱与族群源流 中国南方的宗谱与族群源流":
+  - /url: https://book.cnki.net/book?id=2298515&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9303
+  - img "recommend-icon"
+  - img "中国南方的宗谱与族群源流"
+  - paragraph: 中国南方的宗谱与族群源流
+- link "recommend-icon 丽水常见外来植物图鉴 丽水常见外来植物图鉴":
+  - /url: https://book.cnki.net/book?id=2167083&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9304
+  - img "recommend-icon"
+  - img "丽水常见外来植物图鉴"
+  - paragraph: 丽水常见外来植物图鉴
+- link "recommend-icon (教材)生态文明知与行 (带受权码) (教材)生态文明知与行 (带受权码)":
+  - /url: https://book.cnki.net/book?id=2136136&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9305
+  - img "recommend-icon"
+  - img "(教材)生态文明知与行 (带受权码)"
+  - paragraph: (教材)生态文明知与行 (带受权码)
+- link "recommend-icon 中国少数民族文学之星丛书:望郎归 中国少数民族文学之星丛书:望郎归":
+  - /url: https://book.cnki.net/book?id=2281936&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9306
+  - img "recommend-icon"
+  - img "中国少数民族文学之星丛书:望郎归"
+  - paragraph: 中国少数民族文学之星丛书:望郎归
+- link "recommend-icon 丽水特色食品 丽水特色食品":
+  - /url: https://book.cnki.net/book?id=2065756&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9307
+  - img "recommend-icon"
+  - img "丽水特色食品"
+  - paragraph: 丽水特色食品
+- link "recommend-icon 生态文明教育 生态文明教育":
+  - /url: https://book.cnki.net/book?id=1905641&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9308
+  - img "recommend-icon"
+  - img "生态文明教育"
+  - paragraph: 生态文明教育
+- link "recommend-icon 大倚邦传奇 大倚邦传奇":
+  - /url: https://book.cnki.net/book?id=2327821&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9309
+  - img "recommend-icon"
+  - img "大倚邦传奇"
+  - paragraph: 大倚邦传奇
+- link "recommend-icon 中华文化“水”之核心话语研究 中华文化“水”之核心话语研究":
+  - /url: https://book.cnki.net/book?id=2098672&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9310
+  - img "recommend-icon"
+  - img "中华文化“水”之核心话语研究"
+  - paragraph: 中华文化“水”之核心话语研究
+- link "recommend-icon 中国城市绿色低碳转型路径差异性研究 中国城市绿色低碳转型路径差异性研究":
+  - /url: https://book.cnki.net/book?id=2024018&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9301
+  - img "recommend-icon"
+  - img "中国城市绿色低碳转型路径差异性研究"
+  - paragraph: 中国城市绿色低碳转型路径差异性研究
+- link "recommend-icon 人类世 人类世":
+  - /url: https://book.cnki.net/book?id=2095396&source=kns_carousel_books&recommendFrom=ecommerce-books&promotionPosition=kns-pic-right&recID=0rbh6a30a73325a9302
+  - img "recommend-icon"
+  - img "人类世"
+  - paragraph: 人类世
+- button "下一页":
+  - img "下一页"
+- generic "关闭": 推广 X
+- link "1533766566875758592":
+  - /url: https://a.cnki.net/gw/api/get/pdf/ads/v1/pdf/2026/1/d443d14b63094cb7ad26d2c5be3e9ff6.pdf
+  - img "1533766566875758592"
+- link "1544380125468950528":
+  - /url: https://kns.cnki.net/kcms2/article/abstract?v=nXt_PYYM1GvG-zWyzvwEIn3cxVuW51cxhZZyBZ0T96DDaJiQWY-VUPPuq8gx-Cc59fSbmVTULViPrPugCd5l51-4f5sKNYQyukVHAOFCKARznCk1WQqcEfUwcyt0ZTa7iPtzFuK6R9rz1APRR9TPJUR5KymuIg1wdnl42tlXs7l4Yrw-4-EpnQ==&uniplatform=NZKPT&language=CHS
+  - img "1544380125468950528"
+- link "1516041397298266112":
+  - /url: https://a.cnki.net/gw/api/get/pdf/ads/v1/pdf/2026/6/95b7648194724298a16a0665ee96ac83.pdf
+  - img "1516041397298266112"
+- link "1533766402492596224":
+  - /url: https://kns.cnki.net/kcms2/article/abstract?v=MKd1fMAWOtXo4_GyTnW2-bfVwgwZTCYM92VgLQZE_i-A6wxQGxsvVNs-yTm6G7uoqA9yMOfG9ii0S4B4M0nLEtdG1JOQSRoKH5ckwk2xZ-PAbYvLsyTIBxMP_H940XJooATCpELpjUdS7WE-JPlEKM9TaQ82YXEN52My_-k2AViTx1SFHpYQ7w==&uniplatform=NZKPT&language=CHS
+  - img "1533766402492596224"
+- link "1516042824825438208":
+  - /url: https://a.cnki.net/gw/api/get/pdf/ads/v1/pdf/2026/6/c50e5a0eb7a34d0e8b487ead1cc6c8f3.pdf
+  - img "1516042824825438208"
+- link "1546839283518668800":
+  - /url: http://zhifou.cn/
+  - img "1546839283518668800"
+- link "1516041608812822528":
+  - /url: https://a.cnki.net/gw/api/get/pdf/ads/v1/pdf/2026/6/d5e503a4ebf44f079b1d4d71ca7faa77.pdf
+  - img "1516041608812822528"
+- link "1516042478648557568":
+  - /url: https://a.cnki.net/gw/api/get/pdf/ads/v1/pdf/2026/6/375f80e6cd9f4caca1fbec5003238dd2.pdf
+  - img "1516042478648557568"
+- link "城市规划 .":
+  - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiURTAN_IKUd6g86YHQ9BSWkNi7m9oWII-i0VFg-zQZ3koKu2GQ7kONkzgSmdJSEQLbQyBQIyjTGdZyvd6qe_eNDEOVXtnWLM2Q=
+- link "2025 ,49 (02)":
+  - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiURTAN_IKUd6g86YHQ9BSWkd5zka9tI5vEHBet3Iz-OKJbEGfC05D80MOsWE-G7z7fAWWuUnOJV1AjUEJyifHQ7zLMvOaDzTfNE5Yj6IP8wEBXDtnbXPdVG
+- generic: ": 133-134"
+- link "查看该刊数据库收录来源":
+  - /url: https://navi.cnki.net/knavi/detail?p=aheN1OJ9hiURTAN_IKUd6g86YHQ9BSWkNi7m9oWII-i0VFg-zQZ3koKu2GQ7kONkzgSmdJSEQLbQyBQIyjTGdZyvd6qe_eNDEOVXtnWLM2Q=&index=1
+- link "使用帮助":
+  - /url: https://piccache.cnki.net/kdn/index/newhelper/manual.html#frame4-1-1-4
+- list:
+  - listitem "引用":
+    - link:
+      - /url: javascript:void(0)
+  - listitem "收藏":
+    - link:
+      - /url: javascript:void(0)
+  - listitem "分享"
+  - listitem "打印":
+    - link:
+      - /url: javascript:void(0);
+  - listitem "关注":
+    - link:
+      - /url: javascript:void(0)
+  - listitem "记笔记":
+    - link:
+      - /url: https://x.cnki.net/web/page/auth-check?redirectsource=zkjbj&redirectjump=yxread&filesourcetype=1&dbcode=CJFQ&tablename=CJFDLAST2025&filename=CSGH202502015
+  - listitem "推荐"
+  - listitem "CNKI AI阅读":
+    - link:
+      - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiffqWByihSzcq7-1bEXA9macgXTOfEK84yeVWvDXXa18Q6c3WW7qTe3koRylZhzBMR3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&srid=kcms
+- heading "浙江省丽水市景宁县敕木山村 国家历史文化名城研究中心历史街区调研" [level=1]
+- heading "张云1 都铭2" [level=3]:
+  - link "张云1":
+    - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjTWURwtrrDiVtcP3u5ekeMjY_VG6Wm6ed7vqXi_nmK7BGFRq3QrcinDt5flUkVjN38KkIOWlsDUQP9RYNOv58zGNeg0teA8J1Awqnd09UJ3pmn2lyp7rrzLOJstw8_AX_bYZvwwfofj2A==
+    - text: 张云
+    - superscript: "1"
+  - link "都铭2":
+    - /url: https://kns.cnki.net/kcms2/author/detail?v=zthAAw_tMjTWURwtrrDiVtcP3u5ekeMjCz2EIxJ3FZuC0Eu-hZjIGOgtguKzTQf0o9zh0hjqmZFzE4pihlO_WbSfb_OIH0_Q_efDkJZuiNB0GkSRnbo4chYCBjvNZ73l0wMceXWHqzXRzjP9G70zVg==
+    - text: 都铭
+    - superscript: "2"
+- heading "1.浙江大学园林研究所 2.浙江理工大学建筑工程学院" [level=3]:
+  - link "1.浙江大学园林研究所":
+    - /url: https://kns.cnki.net/kcms2/organ/detail?v=zthAAw_tMjTWURwtrrDiVuFSU-ZDUY125h4CHudDliErTYres1bCn561WUjufCosobPGfnQ9C17LPYLfloNSwzhNqpJCIrB_r0KQYyg6NWS9RDUs-SZcAj7Me0ic-BxCyGBCvbmCbtDav9xiAhxtTZB1GXMid_6XEk7ypMja2zks5adpvdHZSRKarxB4gJEniagDngOUNjzrXfGXXIJszPWnSSFSPIYi
+  - link "2.浙江理工大学建筑工程学院":
+    - /url: https://kns.cnki.net/kcms2/organ/detail?v=zthAAw_tMjTWURwtrrDiVuFSU-ZDUY12gyarXo9gdn8LV6k2FT-LyzMedZWMln2OKGvzY3fvcie2AQL70CyfflmYES8V7yWHWCMi_0hOa-vmhpDI-Bi9etvlJ4AFIhdHZQUwhzuJwfWFqdPwyjw7pblFJa5wRvH08T-CKaI9sadKF7_lCK830FsprC9BaDa6oiTiRMt10ljH0QgDmcNC_eFTKZVK6KFOior0i0FFKBvAobKJbLnJyPdeCSRvY8Hq
+- generic: 摘要：
+- text: <正>1．村落概况敕木山村位于浙江省丽水市景宁县县城西南部洞宫山脉的敕木山上，距县城约6km。村落畲族人口达97%，以蓝姓村民为主，是典型的畲族村寨。根据《汝南郡蓝氏房谱》记载，蓝氏祖先于明代万历十二年（1584年）从福建罗源迁移至敕木山村附近的张村及暮洋湖，即现在的周湖村。康熙十三年（1674年），昌富、昌和、昌林三兄弟来到敕木山，在山谷中发现可开垦的坡地，始垦荒耕作，并在康熙三十七年（1698年）开基于“则民丘”，即现在敕木山村村委所在地，距今已有300多年历史。蓝氏子孙在这里安家落户，村落逐渐向西、向东拓展，至今已有建筑约50栋，多为传统风貌民居。
+- generic: 基金资助：
+- paragraph:
+  - generic: 浙江省基础公益研究专项项目“浙江省丘陵地区传统村落的空间生长及低碳更新支撑体系”（LGN22E080001）资助；
+- list:
+  - generic: 专辑：
+  - paragraph: 工程科技Ⅱ辑
+  - generic: 专题：
+  - paragraph: 建筑科学与工程
+  - generic: 分类号：
+  - paragraph: TU982.29
+  - generic: 在线公开时间：
+  - paragraph: 2025-02-24 16:03（知网平台在线公开时间，不代表文献的发表时间）
+- paragraph: "397"
+- paragraph
+- paragraph
+- list:
+  - link "CNKI AI阅读":
+    - /url: https://ai.cnki.net/trans?path=study&cid=Pe2nFq1PBOM11SpCErZ-LwM1UHjV0uMR_icN4IXwgiffqWByihSzcq7-1bEXA9macgXTOfEK84yeVWvDXXa18Q6c3WW7qTe3koRylZhzBMR3KAUBlVIsgcb0E8u_YkCK&mimetype=XML&srid=kcms
+    - text: CNKI AI阅读
+  - link "HTML阅读":
+    - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6Kdog%2BHL%2FGFrGhKahW4YGMC%2BShEO8uFmSprYrsDk%2FKi2%2BrVTWCVC0SBxcqgm15N9ceRaL6pUY4deTV2VvozAOFIpRZPJZEQefXW1RVS3a1v8jK%2F1BfoaD1y1Qo7XRFd7QjHpuNlDuxMvlZu263io%2FYiDKaul1dsBYtTi0d7iCbJHlGf1mFsyMiOLkTXuxO3PXm7PwCyulojfdF%2Fb4ZE1UBN3o4eByK2%2BXqu1WJmJcg8kSm49dceze%2Bi8VXUMKNInsdoXxm%2Bhi8jh6HjWy9akG%2FO2ldygFAZVSLIHG9BPLv2JAig%3D%3D
+    - text: HTML阅读
+  - link "原版阅读":
+    - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6Kdog%2BHL%2FGFrGhKahW4YGMC%2BShEO8uFmSprYrsDk%2FKi2%2BrWLDeQbtPe%2ByAUDUln0OKKzbi9VqGRvU9Wt%2FNNXK2WCeZjr7C894tvO6YOYHK%2FxbW35Ty4NWPQW7DsbkwrQYomVkRqaapKH5IslUaOzv%2BNve4lZFB%2BJpWQyPSZLOS8E7XyqNf5kljnPJPRUaYE8evi1u4flGGyv%2FdAxC2lUXR54hWzG90%2BuScGKvieC2F2f8MenCC%2BtISrPNEFBOwmJM3%2FtgqZT9WZjHlF0GVcRx0CXC
+    - text: 原版阅读
+  - link "CAJ下载":
+    - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6Kdog%2BHL%2FGFrGhKahW4YGMC%2BShEO8uFmSprYrsDk%2FKi2%2BreKsFZXnlxGJhpVrOMvwflV7b5mY%2FmsIpB5E%2FKF94iQVtRGRF3wJSTnwmOEEZ8vwAlK57xT%2B8LhM%2BfEqYWvBGm0igmLMld3nSvbU4a5%2BOkNaUlSU0HSLnl9m7MwOtW%2FIk1AxGG9ns4v98NVqhMPX4302CEkHpPQNW9%2Bcr%2FhXrozWdehHr25nzB2P6zLEyZoNdKtKS7XX7WGlSOnp1057AV0nwekMTmFMiEfDzKBef%2B3L
+    - text: CAJ下载
+  - link "PDF下载":
+    - /url: https://bar.cnki.net/bar/download/order?id=Pmp%2F5es3RB81cmauPwpbvsPMJcfwHgIZAnUyOJG6Kdog%2BHL%2FGFrGhKahW4YGMC%2BShEO8uFmSprYrsDk%2FKi2%2BreKsFZXnlxGJhpVrOMvwflV7b5mY%2FmsIpB5E%2FKF94iQVwddxEU3rL3oTHoiWc6PitFK57xT%2B8LhM%2BfEqYWvBGm0igmLMld3nSvbU4a5%2BOkNaUlSU0HSLnl9m7MwOtW%2FIk1AxGG9ns4v98NVqhMPX4302CEkHpPQNW9%2Bcr%2FhXrozWdehHr25nzB2P6zLEyZoNdKtKS7XX7WGlSOnp1057AV0nwekMTmFMiEfDzKBef%2B3L
+    - text: PDF下载
+  - link "我是作者，免费下载":
+    - /url: https://au.cnki.net/author/workbench/myAchievement?platform=kns
+    - text: 我是作者，免费下载
+- paragraph: 手机扫码阅读
+- heading "引文网络" [level=5]:
+  - generic: 引文网络
+- list:
+  - listitem: 参考文献
+  - listitem: 引证文献
+  - listitem: 共引文献
+  - listitem: 同被引文献
+  - listitem: 二级参考文献
+  - listitem: 二级引证文献
+- contentinfo:
+  - list:
+    - generic: 读者服务
+    - link "购买知网卡":
+      - /url: http://vipcard.cnki.net/ec/skwd/skwd.htm
+    - link "充值中心":
+      - /url: http://zhifu.cnki.net/
+    - link "我的CNKI":
+      - /url: http://my.cnki.net/
+    - link "帮助中心":
+      - /url: http://service.cnki.net/helpcenter/
+    - generic: CNKI常用软件下载
+    - link "CAJViewer浏览器":
+      - /url: http://cajviewer.cnki.net
+    - link "知网研学（原E-Study）":
+      - /url: https://estudy.cnki.net/
+    - link "下载中心":
+      - /url: https://www.cnki.net/software/xzydq.htm
+    - link "标准阅读器":
+      - /url: https://piccache.cnki.net/2022/kdn/software/standardreader.exe
+    - generic: 特色服务
+    - link "手机知网":
+      - /url: http://wap.cnki.net/
+    - link "杂志订阅":
+      - /url: http://wuxizazhi.cnki.net/
+    - link "数字出版物订阅":
+      - /url: http://mall.cnki.net/
+    - link "广告服务":
+      - /url: http://a.cnki.net
+    - generic: 客户服务
+    - generic: 订卡热线：400-819-9993
+    - generic: 服务热线：400-810-9888
+    - text: 在线咨询：
+    - link "service.cnki.net":
+      - /url: http://service.cnki.net
+    - text: 邮件咨询：
+    - link "help@cnki.net":
+      - /url: mailto:help@cnki.net
+    - link "新浪微博客服":
+      - /url: http://e.weibo.com/u/3059308095
+      - generic: 新浪微博客服
+    - link "官方微信":
+      - /url: javascript:void(0)
+      - generic: 官方微信
+  - paragraph:
+    - link "关于我们":
+      - /url: http://cnki.net/gycnki/gycnki.htm
+    - link "CNKI 荣誉":
+      - /url: http://www.cnki.net/other/gonggao/gongsirongyu.html
+    - link "版权公告":
+      - /url: http://www.cnki.net/other/gonggao/bqsm.htm
+    - link "客服中心":
+      - /url: https://service.cnki.net/
+    - link "用户建议":
+      - /url: https://service.cnki.net/home?flag=1
+    - link "知网招聘":
+      - /url: https://piccache.cnki.net/index/CNKIRecruit/index.html
+    - link "知网推广":
+      - /url: http://a.cnki.net/
+    - generic: © 1998-2026中国知网（CNKI）
+  - link:
+    - /url: https://www.etrust.org.cn/CX8852713371735.html
+  - text: 京 ICP 证 040431 号
+  - link "网络出版服务许可证网出证(京)字第416号":
+    - /url: https://piccache.cnki.net/index/images/gb/416.jpg
+  - text: 京公网安备 11010802020460 号
+  - text: 同方知网数字科技有限公司 KDN 平台基础技术由 AIKBase 提供.
+- generic: 拖动下方拼图完成验证
+- img "close"
+- generic: 安全验证
+- img "refresh"

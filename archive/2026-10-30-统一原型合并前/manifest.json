@@ -1,0 +1,187 @@
+[
+  {
+    "original": "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/bot.md.snapshot",
+    "sha256": "ff356ab34e1d844c466156e48ea36b4f8eb9e7ee8a6dec21898707318ea22169"
+  },
+  {
+    "original": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/optimization.md.snapshot",
+    "sha256": "f966e63ee9b69b8ab58ac13d180a4c605a5016321331f93eb8bd66fbdcf43b32"
+  },
+  {
+    "original": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/v01.json",
+    "sha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67"
+  },
+  {
+    "original": "研究成果/〔合成试例〕D01图谱表达试例/案例模型.json",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d01.json",
+    "sha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1"
+  },
+  {
+    "original": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d03.json",
+    "sha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3"
+  },
+  {
+    "original": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/v01-readme.md.snapshot",
+    "sha256": "a1823c5d3da196f054dddb11dec04b2ca3f6cb0a3ea9c869e4641b3e4b92f18d"
+  },
+  {
+    "original": "研究成果/〔合成试例〕D01图谱表达试例/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d01-readme.md.snapshot",
+    "sha256": "b53f0ecdb872701cb6b55726e93962cffe0eaf75cc3332f5e9b01e1a0b54f39d"
+  },
+  {
+    "original": "研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d03-readme.md.snapshot",
+    "sha256": "fc0b53ca447f3bcbaf3ea48556a67134080c7f2734940361db7f0750c94f6f30"
+  },
+  {
+    "original": "项目管理/图谱执行/D03院落围合/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d03-tools.md.snapshot",
+    "sha256": "125495e7bcb312411a746965db8180a455f45fea62b6058960abe30b25aa4181"
+  },
+  {
+    "original": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/types.md.snapshot",
+    "sha256": "daeb3f960aebf072872c86abeb35bcd45c171ff50ee73cb3390e02192aa19f1a"
+  },
+  {
+    "original": "README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/home.md.snapshot",
+    "sha256": "736a6fa00a8c5dc4623dff51dda7e7065373c09898427e99ba2c3b064c16f39f"
+  },
+  {
+    "original": "context/PROJECT_CONTEXT.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/context.md.snapshot",
+    "sha256": "723c499a789cf668802cd372e546f9f5466881ccadd048c915e3633f4b96d691"
+  },
+  {
+    "original": "archive/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/archive-index.md.snapshot",
+    "sha256": "8231ec6200f50b67be22e447aab9bce2255ed8c4c09f629d51204bff67eba328"
+  },
+  {
+    "original": "研究成果/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/artifacts.md.snapshot",
+    "sha256": "a62061ec10174778cf3ac91f5c56c3c273e5ec5dc2ef01e871380585e1793da5"
+  },
+  {
+    "original": "研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/v01-methods.md.snapshot",
+    "sha256": "0c799e6b2b79cb55cbc873c13d6a28fc0066a5f507d6d64ab933fabb1d0f92f1"
+  },
+  {
+    "original": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/v01-db.md.snapshot",
+    "sha256": "1ae7937208fdb444844321ec1e07b4fe417ff31ee4ee982e9334132b1b10ce48"
+  },
+  {
+    "original": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例浏览.html",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/v01-old.html",
+    "sha256": "9f76e49ac8f7f0bbac0fce778bd73be66c8ba541ccf6cfaf7fefb8a5faeb064c"
+  },
+  {
+    "original": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型表.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d01-table.md.snapshot",
+    "sha256": "7e487e73cc3d3f9106cb6baa87ae1b59c1fc7f97dd028027ed8125c0eb429ea0"
+  },
+  {
+    "original": "研究成果/〔分析框架〕风貌分析拆解/风貌分析拆解类型图.smm.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d01-map.smm.md.snapshot",
+    "sha256": "20cc0d2da65301a1d64730fecfef5712db86d7be6fd4d6d27c1dfe331280765c"
+  },
+  {
+    "original": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d03-table.md.snapshot",
+    "sha256": "49299305c0f2a87350a6feaa8c79910ea649830823a2b1ad6d34dd0985ef09ca"
+  },
+  {
+    "original": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解图.smm.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d03-map.smm.md.snapshot",
+    "sha256": "f7c0a244137e1f27e3df4d7049addf8835b8c347e1bbbd7c0c61c97192c4ff94"
+  },
+  {
+    "original": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/framework-readme.md.snapshot",
+    "sha256": "cc53a008ef4e0f8850a6ea0030f434500358d880265107d5ad927f9987c7c473"
+  },
+  {
+    "original": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/types-readme.md.snapshot",
+    "sha256": "52d3a33ef842306bfbf47449c1d9b868aedbb3c73a2a9eb76fd26bca7764a7b7"
+  },
+  {
+    "original": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/route.json",
+    "sha256": "4c4acab9fc23f5ab50626fc160b77118f6a4770c76bc4613029aecbe67f3d626"
+  },
+  {
+    "original": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/route.md.snapshot",
+    "sha256": "1da1c80f621fee9a19cbe64abc6bcdb544c00eff96178a7827f4864aa861e75a"
+  },
+  {
+    "original": "项目管理/健康检查/research_structure.py",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/structure.py",
+    "sha256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259"
+  },
+  {
+    "original": "研究成果/〔合成试例〕D01图谱表达试例/审核视图.html",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d01-old.html",
+    "sha256": "a0e962f9d9e2a2db181fb99f20daf3ba5aabea925457e6c7ef096400bc57f0db"
+  },
+  {
+    "original": "研究成果/〔合成试例〕D03院落围合图谱试例/审核视图.html",
+    "archive": "archive/2026-10-30-统一原型合并前/原件/d03-old.html",
+    "sha256": "937e80ecf0674f9bd9c3e98555aca38aed1fb4d033ac27aad42e872de84122f4"
+  },
+  {
+    "executionSource": "db/before/components.json",
+    "archive": "archive/2026-10-30-统一原型合并前/db/before/components.json",
+    "sha256": "6a49af96acc02944db745cd95739a0cf0d415e917efed5bb4c23a6c3d605f859"
+  },
+  {
+    "executionSource": "db/before/graph.json",
+    "archive": "archive/2026-10-30-统一原型合并前/db/before/graph.json",
+    "sha256": "748fbe71f5d459109041c6b51721412354eb6eac53a55062ebc40e71ca05f548"
+  },
+  {
+    "executionSource": "db/before/raw.json",
+    "archive": "archive/2026-10-30-统一原型合并前/db/before/raw.json",
+    "sha256": "4fc025007da119bde1e24b623139e947eafebb5813d3fb4bf7491eeaf6261c56"
+  },
+  {
+    "executionSource": "db/before/schema-visualization.json",
+    "archive": "archive/2026-10-30-统一原型合并前/db/before/schema-visualization.json",
+    "sha256": "16b58b60e8d02a938541c5532b8f1706b2e8e264a8d0aae4e40dce70e20ced8b"
+  },
+  {
+    "executionSource": "db/before/schema.json",
+    "archive": "archive/2026-10-30-统一原型合并前/db/before/schema.json",
+    "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447"
+  },
+  {
+    "executionSource": "db/before/summary.json",
+    "archive": "archive/2026-10-30-统一原型合并前/db/before/summary.json",
+    "sha256": "93d111b8a9a467741cfeeeda92a96e4b0c321f2420aa6ce4628eb8cc557c84f2"
+  },
+  {
+    "executionSource": "d03-tools/analyze.py",
+    "archive": "archive/2026-10-30-统一原型合并前/d03-tools/analyze.py",
+    "sha256": "d26e8c66b0f057e33c96d5b833995814859fafae678f602dbc12af172bfa3a8e"
+  },
+  {
+    "executionSource": "d03-tools/compile_model.py",
+    "archive": "archive/2026-10-30-统一原型合并前/d03-tools/compile_model.py",
+    "sha256": "aeca8b3a050cc8fc1b9e2615fb33d7106d1d8903584bad527d57fc017e43b632"
+  },
+  {
+    "executionSource": "d03-tools/legacy_compile.py",
+    "archive": "archive/2026-10-30-统一原型合并前/d03-tools/legacy_compile.py",
+    "sha256": "4ea344be31502e1bc00004bc05a299e03da023f1454a32d89c09b567363a138e"
+  }
+]

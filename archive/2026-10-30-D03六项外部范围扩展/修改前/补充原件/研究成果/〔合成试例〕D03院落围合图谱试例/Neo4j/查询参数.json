@@ -1,0 +1,64 @@
+{
+  "caseId": "D03V01",
+  "modelSha": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+  "expectedRule": {
+    "uid": "D03V01:R01",
+    "id": "R01",
+    "caseId": "D03V01",
+    "datasetId": "D03V01",
+    "dataMode": "synthetic",
+    "recordStatus": "research-candidate",
+    "sourceModelSha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1",
+    "dataVersion": "1.0",
+    "name": "四侧院落围合构成候选方案",
+    "ruleVersion": "1.0",
+    "schemeMode": "exclusive-single",
+    "applicableShape": "rectangular-reference",
+    "sideIds": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "patternKeys": [
+      "building|building|building|wall",
+      "building|building|wall|building",
+      "building|wall|building|building",
+      "wall|building|building|building",
+      "building|building|open|wall",
+      "building|building|wall|open",
+      "building|open|wall|building",
+      "building|wall|open|building",
+      "open|building|building|wall",
+      "open|wall|building|building",
+      "wall|building|building|open",
+      "wall|open|building|building"
+    ],
+    "patternCodes": [
+      "ENC-3B-1W",
+      "ENC-3B-1W",
+      "ENC-3B-1W",
+      "ENC-3B-1W",
+      "ENC-2B-1W-1O",
+      "ENC-2B-1W-1O",
+      "ENC-2B-1W-1O",
+      "ENC-2B-1W-1O",
+      "ENC-2B-1W-1O",
+      "ENC-2B-1W-1O",
+      "ENC-2B-1W-1O",
+      "ENC-2B-1W-1O"
+    ],
+    "typeCodes": [
+      "ENC-3B-1W",
+      "ENC-2B-1W-1O"
+    ],
+    "typeNames": [
+      "三侧建筑＋一侧院墙",
+      "相邻两侧建筑＋一侧院墙＋一侧开放"
+    ],
+    "definitionJson": "{\"id\":\"R01\",\"name\":\"四侧院落围合构成候选方案\",\"version\":\"1.0\",\"mode\":\"exclusive-single\",\"status\":\"research-candidate-not-approved\",\"unitOfAnalysis\":\"one-courtyard\",\"applicableShape\":\"rectangular-reference\",\"sideIds\":[\"N\",\"E\",\"S\",\"W\"],\"allowRotation\":true,\"allowReflection\":true,\"definingFeatures\":[\"完整且可判定的四侧序列\",\"每侧的building/wall/open参与类别\",\"实际参与端点和来源引用一致\"],\"auxiliaryFeatures\":[\"入口中心里程比；不决定围合类\",\"N/E/S/W绝对方位\"],\"rules\":[{\"code\":\"ENC-3B-1W\",\"name\":\"三侧建筑＋一侧院墙\",\"pattern\":[\"building\",\"building\",\"wall\",\"building\"]},{\"code\":\"ENC-2B-1W-1O\",\"name\":\"相邻两侧建筑＋一侧院墙＋一侧开放\",\"pattern\":[\"building\",\"building\",\"wall\",\"open\"]}],\"exclusions\":[\"非四侧或不符合本例矩形参照范围：out-of-scope\",\"关键参与情况未知：unknown\",\"已知但不符规则：known-unmatched\",\"互斥规则同时满足：rule-conflict\",\"字段、来源、版本或关系不一致：invalid-input\"],\"boundaryPolicy\":\"按院落侧的主界定对象分粗类；院墙上有门洞仍记wall，入口另记，不计算实体边界长度比例；混合一侧/不规则边界须另审规则\",\"localTypeNames\":[],\"origin\":\"从既有D03/D06候选方法提出的本研究工作规则，不命名为三合院/四合院等地方类型\"}",
+    "definitionSha256": "aa5fa357f7265f045fa3cac38792c43c33732b45e9a29da26118b39cbd1328f5",
+    "sourceLocator": "/classificationScheme",
+    "reviewStatus": "user-review-pending"
+  }
+}

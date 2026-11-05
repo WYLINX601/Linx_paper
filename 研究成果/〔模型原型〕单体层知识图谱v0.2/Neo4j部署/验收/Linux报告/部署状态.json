@@ -1,0 +1,15 @@
+{
+  "verifiedAt": "2026-10-22T12:26:55.141681+00:00",
+  "diskBytes": {
+    "runtime": 526626249,
+    "downloads": 360468793,
+    "data": 2842393,
+    "backups": 256133
+  },
+  "totalBytes": 890703753,
+  "diskFreeBytes": 99252809728,
+  "service": "ActiveState=active\nSubState=running\nUnitFileState=enabled\nNRestarts=0\nMemoryCurrent=889180160\n",
+  "linger": "Linger=yes",
+  "listenPorts": "State  Recv-Q Send-Q         Local Address:Port Peer Address:Port\nLISTEN 0      50     [::ffff:100.68.38.32]:7474            *:*   \nLISTEN 0      4096   [::ffff:100.68.38.32]:7687            *:*   \n",
+  "wholeMachineRebootTested": false
+}

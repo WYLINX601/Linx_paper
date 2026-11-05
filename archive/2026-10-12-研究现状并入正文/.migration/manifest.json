@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-12",
+  "canonical": "景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.5.md",
+  "archived_source": "archive/2026-10-12-研究现状并入正文/论文研究现状-1.4.2景宁畲族传统民居研究.md",
+  "original_main_sha256": "810d8dad6b39f7a0246a30a50633d9155e616bf10490427d56994e25524e42a7",
+  "original_section_sha256": "2095c219e239d6fc84130369e9bf05a8ec609dc93da3dcc940df9e7e620b6a8f",
+  "route_files": [
+    "README.md",
+    "context/PROJECT_CONTEXT.md",
+    "文献库/README.md",
+    "文献库/景宁畲族传统民居建筑风貌研究综述.md",
+    "文献库/核心文献网络补充与综述修订记录.md",
+    "outputs/畲族建筑风貌综述审阅/审阅综合与修订记录.md"
+  ],
+  "scope": "fill section 1.4.2, add its references and preserve original standalone draft; research plan unchanged"
+}

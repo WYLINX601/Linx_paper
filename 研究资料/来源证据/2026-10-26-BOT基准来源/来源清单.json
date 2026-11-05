@@ -1,0 +1,143 @@
+{
+  "capturedAtUTC": "2026-10-26T12:20:56.211316+00:00",
+  "purpose": "User-authorized public BOT source preservation; originals are unmodified.",
+  "files": [
+    {
+      "requestedUrl": "https://w3c-lbd-cg.github.io/bot/",
+      "finalUrl": "https://w3c-lbd-cg.github.io/bot/",
+      "localPath": "官网原始页.html",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8",
+      "lastModified": "Mon, 28 Jun 2021 15:16:06 GMT",
+      "etag": "\"60d9e7b6-156fd\"",
+      "bytes": 87805,
+      "sha256": "e8a06d9b0cf472fc8fbe8ba3f5e92bde65919703513182d34ebb4705a155028e"
+    },
+    {
+      "requestedUrl": "https://w3c-lbd-cg.github.io/bot/assets/zones.png",
+      "finalUrl": "https://w3c-lbd-cg.github.io/bot/assets/zones.png",
+      "localPath": "images/zones.png",
+      "status": 200,
+      "contentType": "image/png",
+      "lastModified": "Mon, 28 Jun 2021 15:16:06 GMT",
+      "etag": "\"60d9e7b6-15945\"",
+      "bytes": 88389,
+      "sha256": "9f177bf282d73a18c5c0d218f54ba38b2a931081cfe396c2887d1f3b21cccbc7"
+    },
+    {
+      "requestedUrl": "https://w3c-lbd-cg.github.io/bot/assets/interfaces.png",
+      "finalUrl": "https://w3c-lbd-cg.github.io/bot/assets/interfaces.png",
+      "localPath": "images/interfaces.png",
+      "status": 200,
+      "contentType": "image/png",
+      "lastModified": "Mon, 28 Jun 2021 15:16:06 GMT",
+      "etag": "\"60d9e7b6-14625\"",
+      "bytes": 83493,
+      "sha256": "a97816be8c087caa036ee7de49d7d94c4688f4f13dd38bba87a1968c35f2c957"
+    },
+    {
+      "requestedUrl": "https://w3id.org/bot/bot.ttl",
+      "finalUrl": "https://w3c-lbd-cg.github.io/bot/bot.ttl",
+      "localPath": "bot.ttl",
+      "status": 200,
+      "contentType": "text/turtle; charset=utf-8",
+      "lastModified": "Mon, 28 Jun 2021 15:16:06 GMT",
+      "etag": "\"60d9e7b6-1cc07\"",
+      "bytes": 117767,
+      "sha256": "0f51c7f192d5e694a9c465cbc883448c64790ffabc3c1e8d6530912c45510d73"
+    },
+    {
+      "requestedUrl": "https://w3c-lbd-cg.github.io/bot/config.js",
+      "finalUrl": "https://w3c-lbd-cg.github.io/bot/config.js",
+      "localPath": "config.js",
+      "status": 200,
+      "contentType": "application/javascript; charset=utf-8",
+      "lastModified": "Mon, 28 Jun 2021 15:16:06 GMT",
+      "bytes": 4873,
+      "sha256": "b5903696f7d9df55ef47511286b303c825aee3047f220d22fad29e362f88d7da",
+      "capturedAtUTC": "2026-10-26T12:23:50.278470+00:00"
+    },
+    {
+      "requestedUrl": "https://w3c-lbd-cg.github.io/bot/style.css",
+      "finalUrl": "https://w3c-lbd-cg.github.io/bot/style.css",
+      "localPath": "style.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "lastModified": "Mon, 28 Jun 2021 15:16:06 GMT",
+      "bytes": 2385,
+      "sha256": "ba1fe0919e33e3444ef94bccb7b5bee1ac6109adf6132e3ba986c6ff551e825e",
+      "capturedAtUTC": "2026-10-26T12:23:51.202991+00:00"
+    },
+    {
+      "requestedUrl": "https://w3c-lbd-cg.github.io/bot/small.css",
+      "finalUrl": "https://w3c-lbd-cg.github.io/bot/small.css",
+      "localPath": "small.css",
+      "status": 200,
+      "contentType": "text/css; charset=utf-8",
+      "lastModified": "Mon, 28 Jun 2021 15:16:06 GMT",
+      "bytes": 320,
+      "sha256": "d943d954120818a07db918364e8e6a6ecb686d7e513223cd5570acef836b0d28",
+      "capturedAtUTC": "2026-10-26T12:23:52.133184+00:00"
+    }
+  ],
+  "errors": [
+    {
+      "url": "https://raw.githubusercontent.com/w3c-lbd-cg/bot/master/LICENSE",
+      "reason": "HTTP Error 404: Not Found"
+    }
+  ],
+  "paperReference": {
+    "zoteroItem": "PNZ3865Z",
+    "attachment": "6XP3U4GG",
+    "path": "/Users/wangyuelin/Zotero/storage/6XP3U4GG/Rasmussen et al - 2021 - BOT Building Topology Ontology.pdf",
+    "sha256": "b858353daf53c95102e45609d638f5e90039cabaa2bee7520f2b929d649b634d",
+    "copied": false,
+    "DOI": "10.3233/SW-200385"
+  },
+  "ontologyInspection": {
+    "method": "Text-level declaration inspection; no RDF parser or OWL reasoner run",
+    "versionInfo": "0.3.2",
+    "coreClasses": [
+      "Zone",
+      "Site",
+      "Building",
+      "Storey",
+      "Space",
+      "Element",
+      "Interface"
+    ],
+    "coreObjectProperties": [
+      "adjacentZone",
+      "intersectsZone",
+      "containsZone",
+      "hasBuilding",
+      "hasStorey",
+      "hasSpace",
+      "hasSubElement",
+      "hasElement",
+      "adjacentElement",
+      "containsElement",
+      "intersectingElement",
+      "interfaceOf",
+      "hasZeroPoint",
+      "has3DModel"
+    ],
+    "coreDatatypeProperties": [
+      "hasSimple3DModel"
+    ],
+    "deprecatedProperties": [
+      "hostsElement",
+      "aggregates"
+    ],
+    "interfaceCardinalityAxiomPresentInCore": false,
+    "licenseFromOntologyHeader": "https://creativecommons.org/licenses/by/1.0/"
+  },
+  "derivedFiles": [
+    {
+      "localPath": "官网离线阅读.html",
+      "kind": "Offline reading derivative; not byte-identical original",
+      "sha256": "6062fe9caa15600b40c17b218eafce9eb1aeaec246bb7dd15d7fc394f65a8403",
+      "transform": "Removed scripts and external styles; localized captured assets; resolved external links; added source notice and readable styles."
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "date": "2026-10-12",
+  "reason": "用户确认以文献路径、代表成果和四节点本研究路线进行简化汇报",
+  "files": [
+    {
+      "original": "三维建模技术方案调研汇总与后续技术路线.md",
+      "archive": "archive/2026-10-12-三维建模汇报简化/三维建模技术方案调研汇总与后续技术路线-详细讨论稿.md",
+      "original_sha256": "3232e4b35836f62919305ec16e920cd83369901d8553acffb3eb22a5f0e352db",
+      "archive_sha256": "cf5bdbe66cab6ae27c632e92427d800c5631aea706213e074ecbcfd6dbcb62f9"
+    },
+    {
+      "original": "outputs/三维建模技术路线/无人机倾斜摄影技术路线.drawio",
+      "archive": "archive/2026-10-12-三维建模汇报简化/无人机倾斜摄影技术路线.drawio",
+      "original_sha256": "799bd1d0dd3054cac22a81b63fd03c6260b6cdc8328e363019196b3fcebfe85d",
+      "archive_sha256": "799bd1d0dd3054cac22a81b63fd03c6260b6cdc8328e363019196b3fcebfe85d"
+    },
+    {
+      "original": "outputs/三维建模技术路线/无人机倾斜摄影技术路线.png",
+      "archive": "archive/2026-10-12-三维建模汇报简化/无人机倾斜摄影技术路线.png",
+      "original_sha256": "34e6aa7bbf82f2251856f0af01190fa0b6454e01767969f0f39ff7d7699af8bd",
+      "archive_sha256": "34e6aa7bbf82f2251856f0af01190fa0b6454e01767969f0f39ff7d7699af8bd"
+    }
+  ],
+  "intentional_changes": "归档Markdown仅改状态、增加当前入口提示并修复移动后的链接；图源与PNG完整保留。"
+}

@@ -1,0 +1,1873 @@
+你是本轮D03模型与执行代码的独立只读审查者。请仅审核附后的冻结文本，不使用工具，不读取额外文件、不修改Paper或数据库。输出中文审查结论、确定阻断项、重要建议、代码位置与具体反例，不重复所有代码。
+
+用户已审核通过A-D外部院落首例，授权补齐D03六项并更新原审核页。当前边界：只补外部院落、过渡、局部有证据通行与可选用途；不恢复室内／跨层完整网络、内部构架、时序、感知。A-D原始输入保留；E明确人工合成，不是真实调查或真实文献。
+
+请查：1)六项覆盖是否漏关键前提，尺寸是否被无理由节点化；2)未知／开放／不适用、同层面积并集与完整分母、入口弧长、通行方向情境／已知子图、用途适用层次与去重；3)BOT映射与研究扩展分离；4)数据库替换是否在同一事务中于删除前完整验证旧子图和新载荷，是否保护V01/D01，字段原生类型与SHA重编译；5)新旧审核状态是否误写为实证完成；6)测试有无虚假断言。技术结果：本地主源／参数测试52项已通过；实际MCP EXPLAIN16条及9种拒绝载荷已通过且全图指纹未变；尚未正式替换数据库。以上只说明已运行范围，不能代替你检查代码。
+
+重点区分实际阻断和未来泛化建议；不要要求不在用户范围内的真实采集或新增大模型。不要凭空宣称你运行了程序或查看了GUI。
+
+
+=== /Users/wangyuelin/.hermes/profiles/academic/cache/scratch/d03-full-kshvkp_s/compile_model.py SHA256 32b62177ef49de6afc14dfbc49daa94a7552fdda3f4f2257a417dcb0c092dba2 ===
+"""Version 1.1: retain approved core, add six-item external synthetic projection."""
+import json, hashlib, math
+from pathlib import Path
+import legacy_compile as legacy
+from legacy_compile import DS,PREFIX,MODEL,PACKAGE,BOT,require,dumps
+from shapely.geometry import Polygon,LineString
+ALLOWED_LABELS=legacy.ALLOWED_LABELS|{'ExternalTransition','AnalysisRule'}
+ALLOWED_RELS=legacy.ALLOWED_RELS|{'DIRECT_ACCESS_TO','PLAN_POSITION','USES_ANALYSIS_RULE'}
+
+def valid_polygon(p):
+    require(isinstance(p,list) and len(p)>=4 and p[0]==p[-1],'Polygon must explicitly close')
+    require(all(isinstance(x,list) and len(x)==2 and all(type(v) in (float,int) and math.isfinite(v) for v in x) for x in p),'Finite XY only')
+    g=Polygon(p);require(g.is_valid and g.area>0,'Invalid/empty polygon');return g
+
+def compile_model(path):
+    model,payload,assignments=legacy.compile_model(path)
+    ex=model['externalExtension'];sha=payload['sourceModelSha256'];ns=payload['nodes'];rs=payload['relationships']
+    require(ex['id']=='E' and model['modelVersion']=='1.1','Unexpected extension version')
+    require(model['review']['firstExample']=='user-approved-limited-synthetic-expression','Approval scope missing')
+    ev=ex['source'];sv=ev['sourceVersion'];src=PREFIX+ev['id'];rule=ex['rules']
+    require(sv=='E-1.0' and ex['version']=='E-1.0','Unexpected source version')
+    for n in ns:
+        if n['id']=='R01':n['properties']['reviewStatus']='user-approved-limited-synthetic-expression'
+    for r in rs:
+        if r['type'] in ('HAS_SOURCE','CLASSIFIED_BY'):r['properties']['reviewStatus']='first-example-approved-synthetic-only'
+    def node(id,labels,props,locator,role='synthetic-assignment'):
+        require(id.startswith('E-') or id in ('EV02','R02'),'Extension namespace')
+        pp={'id':id,'uid':PREFIX+id,'caseId':DS,'datasetId':DS,'exampleId':'E','dataMode':'synthetic','dataVersion':'1.1','recordStatus':role,'sourceModelSha256':sha,'sourceUid':src,'sourceVersion':sv,'sourceLocator':locator,'analysisRuleUid':PREFIX+'R02','analysisRuleVersion':rule['version'],**props}
+        ns.append({'id':id,'labels':['KGItem','D03V01',*labels],'properties':pp})
+        return pp
+    def edge(id,typ,a,b,props,locator):
+        pp={'id':id,'uid':PREFIX+id,'caseId':DS,'datasetId':DS,'exampleId':'E','dataMode':'synthetic','sourceModelSha256':sha,'sourceUid':src,'sourceVersion':sv,'locator':locator,'evidenceRole':'synthetic-assignment','semanticOrigin':'research-extension',**props}
+        if typ!='HAS_SOURCE':pp['fields']=sorted(k for k in pp if k not in ('fields','sourceModelSha256'))+['source','target','type']
+        rs.append({'id':id,'type':typ,'source':PREFIX+a,'target':PREFIX+b,'properties':pp})
+    node('EV02',['Source','SyntheticSource'],ev,'/externalExtension/source')
+    node('R02',['AnalysisRule'],{'name':rule['name'],'ruleVersion':rule['version'],'definitionJson':dumps(rule),'reviewStatus':'new-details-awaiting-user-review'},'/externalExtension/rules','research-working-rule')
+    objects={o['id']:o for o in ex['objects']}; require(len(objects)==len(ex['objects']),'Duplicate extension object')
+    for i,o in enumerate(ex['objects']):
+        labels=o['labels'];p={k:v for k,v in o.items() if k not in ('labels','polygon','boundaries')}
+        require(set(labels)<=ALLOWED_LABELS and not ({'Space','Building'}<=set(labels)),'Invalid object class')
+        if 'polygon' in o:
+            valid_polygon(o['polygon']);p['polygonJson']=dumps(o['polygon'])
+            require(o['geometryComplete'] is True and o['unit']=='m','Geometry scope')
+        if 'boundaries' in o:
+            bs=o['boundaries'];require(bs and len({b['id'] for b in bs})==len(bs),'Boundary identity')
+            for j,b in enumerate(bs):
+                require(b['state'] in ('known','unknown') and b['kind'] in ('building','wall','covered-transition','open','unknown'),'Boundary state/kind')
+                require((b['state']=='unknown')==(b['kind']=='unknown'),'Unknown mismatch')
+                line=LineString(b['polyline']);require(line.is_simple and line.length>0,'Invalid boundary polyline')
+                require(valid_polygon(o['polygon']).boundary.covers(line),'Boundary not on declared polygon')
+                require(b['polyline'][-1]==bs[(j+1)%len(bs)]['polyline'][0],'Boundary gap')
+                intervals=b['solidIntervalsM'];require(isinstance(intervals,list),'Intervals missing')
+                last=-1.0
+                for a,z in intervals:require(0<=a<z<=line.length and a>=last,'Invalid/overlapping interval');last=z
+                if b['kind']=='open':require(b['participantId'] is None and not intervals,'Open side has object/solid')
+                if b['participantId']:
+                    require(b['participantId'] in objects,'Missing boundary participant')
+                    expected={'building':'Building','wall':'Wall','covered-transition':'ExternalTransition'}[b['kind']]
+                    require(expected in objects[b['participantId']]['labels'],'Wrong boundary participant class')
+                    edge('E-BOUNDARY-'+o['id']+'-'+b['id'],'BOUNDARY_PARTICIPANT',o['id'],b['participantId'],{'boundaryId':b['id'],'participantKind':b['kind'],'participantScope':b['basis']},f'/externalExtension/objects/{i}/boundaries/{j}')
+            p['boundaryRecordsJson']=dumps(bs)
+        if 'Space' in labels:
+            require(o['useState'] in ('known','unknown','none','not-applicable'),'Use state')
+            require(isinstance(o['useValues'],list) and len(o['useValues'])==len(set(o['useValues'])),'Use values')
+            require((o['useState']=='known')==bool(o['useValues']),'Use state contradiction')
+            require(o['useScope']=='this-space' and o['useEvidenceRole']=='synthetic-assignment','Use evidence scope')
+        bc='Space' if 'Space' in labels else 'Building' if 'Building' in labels else 'Element' if 'Element' in labels else 'Zone'
+        p['botClassIri']=BOT+bc
+        pp=node(o['id'],labels,p,f'/externalExtension/objects/{i}')
+        if o['id']!='E-U01':
+            typ='BOT_HAS_SPACE' if 'Space' in labels else 'BOT_HAS_BUILDING' if 'Building' in labels else 'BOT_CONTAINS_ELEMENT'
+            edge('E-CONTAINS-'+o['id'],typ,'E-U01',o['id'],{'botPropertyIri':BOT+{'BOT_HAS_SPACE':'hasSpace','BOT_HAS_BUILDING':'hasBuilding','BOT_CONTAINS_ELEMENT':'containsElement'}[typ],'semanticOrigin':'BOT-aligned-synthetic-assertion'},f'/externalExtension/objects/{i}')
+    entrances={e['id']:e for e in ex['entrances']};require(len(entrances)==len(ex['entrances']),'Duplicate interface')
+    for i,e in enumerate(ex['entrances']):
+        c=objects[e['referenceSpaceId']];b=next(b for b in c['boundaries'] if b['id']==e['referenceBoundaryId']);line=LineString(b['polyline'])
+        require(e['unit']=='m' and e['referenceGeometryVersion']==c['geometryVersion'],'Entry units/version')
+        require(e['correspondence']=='unique-on-reference-line' and 0<=e['startChainageM']<e['endChainageM']<=line.length,'Entry interval')
+        endpoints=[e[k] for k in ('fromSpaceId','toSpaceId') if e[k]]
+        require(len(set(endpoints))==len(endpoints) and all(x in objects and 'Space' in objects[x]['labels'] for x in endpoints),'Entry endpoint')
+        require(e['referenceSpaceId'] in endpoints,'Reference space not an endpoint')
+        if e['hostId']:require(e['hostId']==b['participantId'] and 'Wall' in objects[e['hostId']]['labels'],'Host mismatch')
+        require((e['toSpaceId'] is None)==(e['farSideState']=='unknown'),'Other-side state')
+        p={k:v for k,v in e.items() if k not in ('fromSpaceId','toSpaceId','hostId')}
+        p.update(fromSpaceUid=PREFIX+e['fromSpaceId'],toSpaceUid=PREFIX+e['toSpaceId'] if e['toSpaceId'] else '',hostUid=PREFIX+e['hostId'] if e['hostId'] else '',referenceSpaceUid=PREFIX+e['referenceSpaceId'],referenceLengthM=float(line.length),referencePolylineJson=dumps(b['polyline']),botClassIri=BOT+'Interface')
+        node(e['id'],['Interface','EntranceInterface'],p,f'/externalExtension/entrances/{i}')
+        for role,target in [('side-a',e['fromSpaceId']),('side-b',e['toSpaceId']),('opening-host',e['hostId'])]:
+            if target:edge(e['id']+'-'+role,'INTERFACE_OF',e['id'],target,{'role':role,'botPropertyIri':BOT+'interfaceOf','semanticOrigin':'BOT-aligned-with-research-role'},f'/externalExtension/entrances/{i}')
+    seen=set()
+    for i,a in enumerate(ex['access']):
+        require(a['from']!=a['to'] and a['via'] in entrances,'Bad access identity')
+        en=entrances[a['via']];require({a['from'],a['to']}=={en['fromSpaceId'],en['toSpaceId']},'Access via endpoint mismatch')
+        require(a['state']=='passable-asserted' and a['contextId'] and a['actor'] and a['doorState'] and a['obstacleState'] and a['observationTime'],'Missing passage context')
+        require(a['evidenceRole']=='synthetic-explicit-passage-assertion','Passage not explicitly supported')
+        key=(a['from'],a['to'],a['via'],a['contextId']);require(key not in seen,'Duplicate passage');seen.add(key)
+        edge(a['id'],'DIRECT_ACCESS_TO',a['from'],a['to'],{**{k:v for k,v in a.items() if k not in ('from','to','via')},'viaUid':PREFIX+a['via'],'analysisRuleUid':PREFIX+'R02','analysisRuleVersion':rule['version'],'networkScope':'partial-external-known-subgraph'},f'/externalExtension/access/{i}')
+    for i,a in enumerate(ex['comparisons']):
+        s=objects[a['subject']];r=objects[a['reference']];u=objects[a['axisFrom']]
+        require(all(s[k]==r[k]==u[k] for k in ('unit','level','coordinateFrame','geometryBasis')),'Incompatible position comparison')
+        ca=valid_polygon(s['polygon']).centroid;cb=valid_polygon(r['polygon']).centroid;axis=u['axisXY'];norm=math.hypot(*axis);require(norm>0,'Zero axis')
+        dx=ca.x-cb.x;dy=ca.y-cb.y
+        edge(a['id'],'PLAN_POSITION',a['subject'],a['reference'],{'axisUid':PREFIX+a['axisFrom'],'deltaXM':dx,'deltaYM':dy,'alongAxisM':(dx*axis[0]+dy*axis[1])/norm,'crossAxisM':(dx*axis[1]-dy*axis[0])/norm,'meaning':a['meaning'],'inputGeometryVersion':s['geometryVersion'],'analysisRuleUid':PREFIX+'R02','analysisRuleVersion':rule['version'],'recordStatus':'derived-synthetic','evidenceRole':'derived-not-independent-evidence'},f'/externalExtension/comparisons/{i}')
+    edge('E-USES-R02','USES_ANALYSIS_RULE','E-U01','R02',{'analysisItems':['D03-T%02d'%i for i in range(1,7)]},'/externalExtension/rules')
+    for n in list(ns):
+        p=n['properties']
+        if p.get('exampleId')!='E' or n['id']=='EV02':continue
+        edge('SRC-'+n['id'],'HAS_SOURCE',n['id'],'EV02',{'fields':sorted(k for k in p if k not in ('sourceModelSha256','uid','caseId','datasetId')),'locatorKind':'JSON-pointer','sourceVersion':sv,'reviewStatus':'new-details-awaiting-user-review'},p['sourceLocator'])
+    ids=[n['properties']['uid'] for n in ns];rids=[r['properties']['uid'] for r in rs]
+    require(len(ids)==len(set(ids)) and len(rids)==len(set(rids)),'Duplicate graph identity')
+    require(all(set(n['labels'])<=ALLOWED_LABELS for n in ns),'Unexpected labels')
+    require(all(r['type'] in ALLOWED_RELS and r['source'] in ids and r['target'] in ids for r in rs),'Invalid relation')
+    for row in ns+rs:
+        for k,v in row['properties'].items():
+            require(type(v) in (str,bool,int,float,list),'Non-native property '+row['id']+'.'+k)
+            if isinstance(v,float):require(math.isfinite(v),'Nonfinite scalar')
+            if isinstance(v,list):require(all(type(x) in (str,bool,int,float) for x in v) and len({type(x) for x in v})<=1,'Invalid property list')
+    payload['allowedRelationshipTypes']=sorted({r['type'] for r in rs})
+    return model,payload,assignments
+
+def query_params(payload):return legacy.query_params(payload)
+def validate_payload(payload,path,expected_sha):
+    require(hashlib.sha256(Path(path).read_bytes()).hexdigest()==expected_sha,'Source changed')
+    require(payload==compile_model(path)[1],'Payload differs from recompiled source')
+    return True
+
+def queries():
+    q=legacy.queries()
+    for key in ('Q01','Q02','Q03','Q05','Q06'):
+        q[key]=q[key].replace('MATCH (u:DwellingUnit {caseId:$caseId})-[:BOT_HAS_SPACE]->(c:Courtyard)','MATCH (u:DwellingUnit {caseId:$caseId})-[:BOT_HAS_SPACE]->(c:Courtyard) WHERE u.exampleId IN [\'A\',\'B\',\'C\',\'D\']')
+        q[key]=q[key].replace('MATCH (c:Courtyard {caseId:$caseId})','MATCH (c:Courtyard {caseId:$caseId}) WHERE c.exampleId IN [\'A\',\'B\',\'C\',\'D\']')
+        q[key]=q[key].replace('MATCH (i:EntranceInterface {caseId:$caseId})','MATCH (i:EntranceInterface {caseId:$caseId}) WHERE i.exampleId IN [\'A\',\'B\',\'C\',\'D\']')
+    q['Q09']='MATCH (n:D03V01:Space {exampleId:"E"}) RETURN n.uid AS uid,properties(n) AS inputs ORDER BY uid'
+    q['Q10']='MATCH (n:D03V01:Courtyard {exampleId:"E"}) OPTIONAL MATCH (n)-[r:BOUNDARY_PARTICIPANT]->(p) RETURN n.uid AS uid,n.boundaryRecordsJson AS segments,collect({uid:r.uid,participant:p.uid,properties:properties(r)}) AS participants ORDER BY uid'
+    q['Q11']='MATCH (i:D03V01:EntranceInterface {exampleId:"E"}) OPTIONAL MATCH (i)-[r:INTERFACE_OF]->(p) RETURN i.uid AS uid,properties(i) AS inputs,collect({role:r.role,participant:p.uid}) AS roles ORDER BY uid'
+    q['Q12']='MATCH (a:D03V01)-[r:DIRECT_ACCESS_TO {exampleId:"E"}]->(b:D03V01) RETURN a.uid AS source,b.uid AS target,properties(r) AS inputs ORDER BY r.uid'
+    q['Q13']='MATCH (n:D03V01 {exampleId:"E"}) WHERE n.polygonJson IS NOT NULL RETURN n.uid AS uid,labels(n) AS labels,n.polygonJson AS polygon,n.level AS level,n.coordinateFrame AS frame,n.geometryBasis AS basis,n.unit AS unit,n.geometryVersion AS version ORDER BY uid'
+    q['Q14']='MATCH (s:D03V01:Space {exampleId:"E"}) OPTIONAL MATCH (s)-[r:HAS_SOURCE]->(e:Source) RETURN s.uid AS uid,s.useState AS state,s.useValues AS uses,s.useContext AS context,s.useScope AS scope,e.uid AS source,r.locator AS locator,r.fields AS fields ORDER BY uid'
+    q['Q15']='MATCH (a:D03V01)-[r:PLAN_POSITION]->(b:D03V01) RETURN a.uid AS subject,b.uid AS reference,properties(r) AS cached ORDER BY r.uid'
+    return q
+
+
+=== /Users/wangyuelin/.hermes/profiles/academic/cache/scratch/d03-full-kshvkp_s/analyze.py SHA256 557fe03a6659bba8881bccfa3b3277bb6ff1e2612daeeaeb828b377e85869f5d ===
+"""Deterministic D03 analysis of genuine readback; no assumed unseen edges.
+Geometry uses Shapely in 2D metres. Paths count explicit directed boundaries only.
+"""
+import json,math
+from collections import deque,Counter
+from shapely.geometry import Polygon,LineString
+from shapely.ops import unary_union
+from compile_model import valid_polygon,require,PREFIX
+
+def analyze(graph,requests,expected_rule):
+    N={n['key']:n for n in graph['nodes']};R=graph['relationships'];P={k:n['properties'] for k,n in N.items()}
+    rule=P.get(PREFIX+'R02',{})
+    require(expected_rule.get('version')=='D03-external-1.0' and json.loads(rule.get('definitionJson','{}'))==expected_rule and rule.get('ruleVersion')==expected_rule['version'],'Analysis rule differs from frozen source/program')
+    def supported(uid,fields):
+        ss=[r for r in R if r['source']==uid and r['type']=='HAS_SOURCE']
+        if P[uid].get('exampleId')=='E' and (P[uid].get('analysisRuleUid')!=PREFIX+'R02' or P[uid].get('analysisRuleVersion')!=expected_rule['version']):return False
+        return any(set(fields)<=set(r['properties'].get('fields',[])) and r['target'] in P and r['properties'].get('sourceVersion')==P[r['target']].get('sourceVersion') and (P[uid].get('sourceVersion',r['properties']['sourceVersion'])==r['properties']['sourceVersion']) and r['properties'].get('locator') and r['properties'].get('locator')==P[uid].get('sourceLocator',r['properties']['locator']) and r['properties'].get('sourceModelSha256')==P[uid].get('sourceModelSha256') for r in ss)
+    def rel_supported(r):
+        p=r['properties'];return p.get('sourceUid') in P and p.get('sourceVersion')==P[p['sourceUid']].get('sourceVersion') and bool(p.get('locator')) and set(['source','target','type'])<=set(p.get('fields',[])) and p.get('analysisRuleVersion',expected_rule['version'])==expected_rule['version']
+    def polygon(uid):
+        p=P[uid];require(p.get('geometryComplete') is True,'Incomplete geometry');require(p.get('unit')=='m','Non-metric geometry')
+        require(supported(uid,['polygonJson','geometryComplete','unit','geometryVersion','level','coordinateFrame','geometryBasis']),'Geometry provenance invalid')
+        return valid_polygon(json.loads(p['polygonJson']))
+    def compatible(ids):
+        vals=[P[k] for k in ids]
+        return all(len({p.get(f) for p in vals})==1 and vals[0].get(f) is not None for f in ('unit','level','coordinateFrame','geometryBasis','geometryVersion'))
+    T={f'T{i:02}':[] for i in range(1,7)}
+    spaces=sorted(k for k,n in N.items() if 'Space' in n['labels'])
+    for uid in spaces:
+        p=P[uid];ext=p.get('exampleId')=='E'
+        T['T01'].append({'uid':uid,'name':p['name'],'example':p['exampleId'],'level':p.get('level'),'boundaryBasis':p.get('boundaryBasis',p.get('interpretation')),'geometryComplete':p.get('geometryComplete','reference-ring-only'),'geometryRole':'二维分析范围，非完整三维体','coverage':p.get('coverState','not-assessed'),'state':'synthetic-declared','sourceLocator':p.get('sourceLocator')})
+        if not ext:
+            bs=json.loads(p['boundarySegmentsJson'])
+            T['T02'].append({'uid':uid,'example':p['exampleId'],'segments':bs,'status':'not-assessed-net-length','netSolidLengthM':None,'ratio':None,'reason':'首例只声明粗粒度侧类；未提供逐段实体及扣洞覆盖，不能由building/wall类别直接算净比例'})
+            T['T06'].append({'uid':uid,'example':p['exampleId'],'state':'unknown','uses':[],'reason':'首例没有用途证据，不由名称或几何补值'})
+            try:
+                g=valid_polygon([b['startXY'] for b in bs]+[bs[0]['startXY']])
+                T['T05'].append({'kind':'reference-area','uid':uid,'example':p['exampleId'],'areaM2':g.area,'status':'synthetic-reference-only','ratio':None,'reason':'仅人工闭合参照轮廓面积；整体边界未知，不能给全宅比例；围合参与未知不等于参照轮廓未定义'})
+            except (ValueError,KeyError):T['T05'].append({'uid':uid,'status':'invalid-geometry','areaM2':None})
+            continue
+        if p.get('boundaryRecordsJson'):
+            bs=json.loads(p['boundaryRecordsJson']);perimeter=known=solid=0.0;complete=True;segments=[]
+            try:
+                g=polygon(uid)
+                require(supported(uid,['boundaryRecordsJson']),'Boundary provenance')
+                require(bs and len({b['id'] for b in bs})==len(bs),'Boundary identities')
+                lines=[]
+                for j,b in enumerate(bs):
+                    line=LineString(b['polyline']);L=line.length;perimeter+=L;lines.append(line)
+                    require(line.is_simple and L>0 and g.boundary.covers(line),'Off-boundary segment')
+                    require(b['polyline'][-1]==bs[(j+1)%len(bs)]['polyline'][0],'Broken ring')
+                    if b['state']!='known' or b['solidState']!='known':complete=False;segments.append({'id':b['id'],'state':'unknown','lengthM':L});continue
+                    require(b['kind'] in ('building','wall','open','covered-transition'),'Unknown kind')
+                    particip=[r for r in R if r['source']==uid and r['type']=='BOUNDARY_PARTICIPANT' and r['properties'].get('boundaryId')==b['id']]
+                    if b['participantId']:
+                        require(len(particip)==1 and particip[0]['target']==PREFIX+b['participantId'] and rel_supported(particip[0]),'Participant mismatch')
+                    else:require(not particip,'Unexpected participant')
+                    last=-1.0;net=0.0
+                    for a,z in b['solidIntervalsM']:require(0<=a<z<=L and a>=last,'Invalid solid interval');last=z;net+=z-a
+                    if b['kind'] in ('open','covered-transition'):require(net==0,'Open/covered transition falsely solid')
+                    if b['kind']=='wall':
+                        for e in P.values():
+                            if e.get('referenceSpaceUid')==uid and e.get('referenceBoundaryId')==b['id']:
+                                require(all(min(z,e['endChainageM'])<=max(a,e['startChainageM']) for a,z in b['solidIntervalsM']),'Opening counted as solid')
+                    known+=L;solid+=net;segments.append({'id':b['id'],'kind':b['kind'],'participantId':b['participantId'],'lengthM':L,'solidLengthM':net,'cover':b['coverState']})
+                require(abs(unary_union(lines).length-perimeter)<1e-9 and abs(g.length-perimeter)<1e-9,'Boundary duplicated or not exhaustive')
+                status='computed' if complete and perimeter>0 else 'unknown-stopped'
+                T['T02'].append({'uid':uid,'example':'E','status':status,'perimeterM':perimeter,'knownLengthM':known,'netSolidLengthM':solid,'coverageRatio':known/perimeter if perimeter else None,'ratio':solid/perimeter if status=='computed' else None,'segments':segments,'rule':'声明分析层位：扣门洞，廊盖不计实体；不等于三维闭合度或人的感受'})
+            except (ValueError,KeyError,TypeError) as e:T['T02'].append({'uid':uid,'example':'E','status':'invalid-input','ratio':None,'reason':str(e)})
+        state=p.get('useState','unknown');uses=p.get('useValues',[])
+        valid=(state in ('known','unknown','none','not-applicable') and isinstance(uses,list) and all(isinstance(x,str) and x for x in uses) and len(uses)==len(set(uses)) and (bool(uses)==(state=='known')) and p.get('useScope')=='this-space' and p.get('useEvidenceRole')=='synthetic-assignment' and supported(uid,['useState','useValues','useContext','useScope','useLocator','useEvidenceRole']))
+        T['T06'].append({'uid':uid,'example':'E','state':state if valid else 'invalid-input','uses':uses if valid else [],'context':p.get('useContext'),'sourceLocator':p.get('useLocator'),'evidenceRole':p.get('useEvidenceRole'),'reason':'多用途仍是一个空间；仅人工设定，不是现实用途调查'})
+    for uid,n in sorted(N.items()):
+        if 'EntranceInterface' not in n['labels']:continue
+        p=P[uid]
+        if p.get('exampleId')!='E':
+            valid=supported(uid,['startChainageM','endChainageM','referenceLengthM','referenceBoundaryId','referenceGeometryVersion']) and 0<=p['startChainageM']<p['endChainageM']<=p['referenceLengthM']
+            T['T03'].append({'uid':uid,'example':p['exampleId'],'status':'computed' if valid else 'invalid-input','relativePosition':(p['startChainageM']+p['endChainageM'])/2/p['referenceLengthM'] if valid else None,'farSide':'unknown','passage':'not-assessed','hostUid':p['expectedHostUid']});continue
+        try:
+            require(supported(uid,['startChainageM','endChainageM','referencePolylineJson','referenceSpaceUid','referenceBoundaryId','referenceGeometryVersion','correspondence','unit']),'Entry provenance')
+            c=P[p['referenceSpaceUid']];b=next(x for x in json.loads(c['boundaryRecordsJson']) if x['id']==p['referenceBoundaryId'])
+            require(p['referenceGeometryVersion']==c['geometryVersion'] and p['unit']==c['unit']=='m','Entry reference mismatch')
+            require(p['correspondence']=='unique-on-reference-line' and json.loads(p['referencePolylineJson'])==b['polyline'],'Ambiguous correspondence')
+            line=LineString(b['polyline']);sa=p['startChainageM'];sb=p['endChainageM'];require(line.length==p['referenceLengthM'] and 0<=sa<sb<=line.length,'Invalid entry length')
+            rels=[r for r in R if r['source']==uid and r['type']=='INTERFACE_OF'];expected=[('side-a',p['fromSpaceUid'])]+([('side-b',p['toSpaceUid'])] if p['toSpaceUid'] else [])+([('opening-host',p['hostUid'])] if p['hostUid'] else [])
+            require(sorted((r['properties']['role'],r['target']) for r in rels)==sorted(expected) and all(rel_supported(r) for r in rels),'Entry role mismatch')
+            mid=line.interpolate((sa+sb)/2)
+            T['T03'].append({'uid':uid,'example':'E','status':'computed','relativePosition':(sa+sb)/2/line.length,'centerXY':[mid.x,mid.y],'from':p['fromSpaceUid'],'to':p['toSpaceUid'] or None,'farSide':p['farSideState'],'hostUid':p['hostUid'] or None,'scope':'唯一折线里程；不设居中阈值，不凭入口推通行'})
+        except (ValueError,KeyError,TypeError,StopIteration) as e:T['T03'].append({'uid':uid,'example':'E','status':'invalid-input','relativePosition':None,'reason':str(e)})
+    valid_entries={x['uid'] for x in T['T03'] if x['example']=='E' and x['status']=='computed'}
+    access=[];invalid_access=[]
+    for r in R:
+        if r['type']!='DIRECT_ACCESS_TO' or r['properties'].get('exampleId')!='E':continue
+        p=r['properties'];i=P.get(p.get('viaUid'),{})
+        ok=(p.get('viaUid') in valid_entries and {r['source'],r['target']}=={i.get('fromSpaceUid'),i.get('toSpaceUid')} and p.get('state')=='passable-asserted' and p.get('evidenceRole')=='synthetic-explicit-passage-assertion' and all(p.get(k) for k in ('contextId','actor','doorState','obstacleState','observationTime')) and rel_supported(r))
+        (access if ok else invalid_access).append(r)
+    for req in requests:
+        a=PREFIX+req['from'];b=PREFIX+req['to'];context=req['contextId'];queue=deque([(a,[a],[])]);seen={a};found=None
+        if a in N and b in N:
+            while queue:
+                here,path,edges=queue.popleft()
+                if here==b:found=(path,edges);break
+                for r in sorted(access,key=lambda r:r['key']):
+                    if r['source']==here and r['properties']['contextId']==context and r['target'] not in seen:
+                        seen.add(r['target']);queue.append((r['target'],path+[r['target']],edges+[r['key']]))
+        T['T04'].append({'from':a,'to':b,'context':context,'status':'confirmed-path-in-known-subgraph' if found else 'no-confirmed-path-not-unreachable','path':found[0] if found else [],'edgeIds':found[1] if found else [],'crossings':len(found[1]) if found else None,'scope':'仅已知外部有向子图；非全宅最短、非步行距离','rejectedEdges':[r['key'] for r in invalid_access]})
+    for code in 'ABCD':T['T04'].append({'example':code,'status':'not-assessed','crossings':None,'reason':'外侧未知、没有直接通行证据；不补边'})
+    ids=[k for k in spaces if P[k].get('exampleId')=='E'];courts=[k for k in ids if 'Courtyard' in N[k]['labels']];uid=PREFIX+'E-U01'
+    try:
+        require(compatible([uid]+ids),'Incompatible area coordinate/level/basis/version')
+        unit=polygon(uid);gs={k:polygon(k) for k in ids};require(all(unit.covers(g) for g in gs.values()),'Area outside denominator')
+        union=unary_union(list(gs.values()));cu=unary_union([gs[k] for k in courts]);s=sum(g.area for g in gs.values())
+        buildings=[k for k,n in N.items() if 'Building' in n['labels'] and P[k].get('exampleId')=='E']
+        require(compatible([uid]+buildings),'Building plane incompatible')
+        bg=[polygon(k) for k in buildings];require(all(unit.covers(g) for g in bg),'Building outside denominator')
+        require(all(g.intersection(union).area<1e-9 for g in bg),'Space-building analysis footprints overlap')
+        T['T05'].append({'kind':'area-configuration','example':'E','status':'computed','denominatorUid':uid,'denominatorM2':unit.area,'spaceAreasM2':{k:g.area for k,g in gs.items()},'rawSumM2':s,'spaceUnionM2':union.area,'overlapDeductedM2':s-union.area,'courtyardUnionM2':cu.area,'courtyardRatio':cu.area/unit.area,'scope':'同层平面分析投影；非全宅室内空间配比，非三维体积；剩余面积不补造房间'})
+    except (ValueError,KeyError,TypeError) as e:T['T05'].append({'kind':'area-configuration','example':'E','status':'not-computed','courtyardRatio':None,'reason':str(e)})
+    for r in R:
+        if r['type']!='PLAN_POSITION':continue
+        p=r['properties'];a=r['source'];b=r['target'];u=p['axisUid']
+        try:
+            require(compatible([a,b,u]) and rel_supported(r) and supported(u,['axisXY','axisBasis']),'Position references/provenance')
+            require(p['inputGeometryVersion']==P[a]['geometryVersion']==P[b]['geometryVersion'],'Position geometry version')
+            ca=polygon(a).centroid;cb=polygon(b).centroid;axis=P[u]['axisXY'];norm=math.hypot(*axis);require(norm>0,'Zero axis')
+            dx=ca.x-cb.x;dy=ca.y-cb.y;along=(dx*axis[0]+dy*axis[1])/norm;cross=(dx*axis[1]-dy*axis[0])/norm
+            T['T05'].append({'kind':'plan-position','source':a,'target':b,'example':'E','status':'computed','alongAxisM':along,'crossAxisM':cross,'cacheConsistent':all(math.isclose(p[k],v,abs_tol=1e-9) for k,v in [('deltaXM',dx),('deltaYM',dy),('alongAxisM',along),('crossAxisM',cross)]),'meaning':p['meaning']})
+        except (ValueError,KeyError,TypeError) as e:T['T05'].append({'kind':'plan-position','status':'not-computed','reason':str(e)})
+    uses=[x for x in T['T06'] if x.get('example')=='E' and x['state']=='known'];counts=Counter(u for x in uses for u in set(x['uses']))
+    return {'items':T,'useSummary':{'knownSpaces':len({x['uid'] for x in uses}),'useAssignments':sum(len(x['uses']) for x in uses),'spacesByUse':dict(counts),'unknownSpaces':len([x for x in T['T06'] if x.get('example')=='E' and x['state']=='unknown']),'notAdditive':True},'engine':'Python + Shapely; inputs are verified Neo4j readback','boundary':'Synthetic external-scope tests only; not empirical validity'}
+
+
+=== /Users/wangyuelin/.hermes/profiles/academic/cache/scratch/d03-full-kshvkp_s/run_graph.py SHA256 006b4f46357cd36b1ae8faaab18fdcb2166b9abbed1d7a037498ddb0b43bc8f8 ===
+"""Guarded replacement of D03V01 only, followed by exact readback.
+This is not a general synchronizer. Never retry an ambiguous mutation.
+"""
+import asyncio,copy,datetime,hashlib,json,argparse
+from pathlib import Path
+from compile_model import *
+from mcp_client import connected,snapshot,save,digest,canonical
+from analyze import analyze
+
+# Fixed executable allowlists; not supplied by payload.
+REPLACE='''WITH $nodes AS ns,$relationships AS rs
+WHERE size(ns)>0 AND size(rs)>0
+ AND size(reduce(xs=[],n IN ns|CASE WHEN n.properties.uid IN xs THEN xs ELSE xs+[n.properties.uid] END))=size(ns)
+ AND size(reduce(xs=[],r IN rs|CASE WHEN r.properties.uid IN xs THEN xs ELSE xs+[r.properties.uid] END))=size(rs)
+ AND all(n IN ns WHERE coalesce(n.properties.uid STARTS WITH 'D03V01:' AND n.properties.caseId='D03V01' AND n.properties.datasetId='D03V01' AND n.properties.sourceModelSha256=$sourceModelSha256 AND 'KGItem' IN n.labels AND 'D03V01' IN n.labels AND all(l IN n.labels WHERE l IN __LABELS__),false))
+ AND all(r IN rs WHERE coalesce(r.properties.uid STARTS WITH 'D03V01:' AND r.properties.caseId='D03V01' AND r.properties.datasetId='D03V01' AND r.properties.sourceModelSha256=$sourceModelSha256 AND r.type IN __RELS__ AND size([n IN ns WHERE n.properties.uid=r.source])=1 AND size([n IN ns WHERE n.properties.uid=r.target])=1,false))
+OPTIONAL MATCH (n) WHERE n.caseId='D03V01' OR n.datasetId='D03V01' OR n.uid STARTS WITH 'D03V01:'
+WITH ns,rs,collect(n) AS existing
+WHERE size(existing)=size($oldNodes) AND size(existing)>0 AND all(n IN existing WHERE single(o IN $oldNodes WHERE n.uid=o.key AND properties(n)=o.properties AND size(labels(n))=size(o.labels) AND all(l IN labels(n) WHERE l IN o.labels) AND all(t IN o.types WHERE valueType(n[t.key])=t.type)))
+OPTIONAL MATCH (a)-[r]->(b)
+WHERE a IN existing OR b IN existing OR r.caseId='D03V01' OR r.datasetId='D03V01' OR r.uid STARTS WITH 'D03V01:'
+WITH ns,rs,existing,collect({a:a,r:r,b:b}) AS es
+WHERE size(es)=size($oldRelationships) AND all(e IN es WHERE single(o IN $oldRelationships WHERE e.r.uid=o.key AND e.a.uid=o.source AND e.b.uid=o.target AND type(e.r)=o.type AND properties(e.r)=o.properties AND all(t IN o.types WHERE valueType(e.r[t.key])=t.type)))
+CALL { WITH es UNWIND es AS e WITH e.r AS r DELETE r RETURN count(*) AS relationshipsDeleted }
+CALL { WITH existing UNWIND existing AS n DELETE n RETURN count(*) AS nodesDeleted }
+CALL { WITH ns UNWIND ns AS row CREATE (n:$(row.labels)) SET n=row.properties RETURN count(*) AS nodesCreated }
+CALL { WITH rs UNWIND rs AS row MATCH (a:KGItem {uid:row.source}),(b:KGItem {uid:row.target}) CREATE (a)-[r:$(row.type)]->(b) SET r=row.properties RETURN count(*) AS relationshipsCreated }
+RETURN nodesDeleted,relationshipsDeleted,nodesCreated,relationshipsCreated
+'''.replace('__LABELS__',dumps(sorted(ALLOWED_LABELS))).replace('__RELS__',dumps(sorted(ALLOWED_RELS)))
+
+def owned(row):
+    p=row['properties'];return p.get('caseId')==DS or p.get('datasetId')==DS or row['key'].startswith(PREFIX)
+def split(g):return tuple(canonical({k:[x for x in g[k] if owned(x)==yes] for k in ('nodes','relationships')}) for yes in (True,False))
+def expected_type(v):
+    if type(v)==bool:return 'BOOLEAN NOT NULL'
+    if type(v)==str:return 'STRING NOT NULL'
+    if type(v)==int:return 'INTEGER NOT NULL'
+    if type(v)==float:return 'FLOAT NOT NULL'
+    if type(v)==list:return 'LIST<'+expected_type(v[0])+'> NOT NULL' if v else None
+    raise ValueError(type(v))
+def verify_exact(g,payload):
+    for cat in ('nodes','relationships'):
+        a={r['key']:r for r in g[cat]};e={r['properties']['uid']:r for r in payload[cat]}
+        require(len(a)==len(g[cat]) and set(a)==set(e),'Identity mismatch '+cat)
+        for uid,row in e.items():
+            require(a[uid]['properties']==row['properties'],'Property mismatch '+uid)
+            if cat=='nodes':require(sorted(a[uid]['labels'])==sorted(row['labels']),'Labels mismatch '+uid)
+            else:require(all(a[uid][k]==row[k] for k in ('source','target','type')),'Endpoint/type mismatch '+uid)
+            types={p['key']:p['type'] for p in a[uid]['types']}
+            for k,v in row['properties'].items():
+                t=expected_type(v)
+                if t:require(types[k]==t,'Native type mismatch '+uid+'.'+k)
+    return True
+
+async def main(args):
+    w=Path(args.workspace);out=w/'db';path=Path(args.model) if args.model else w/'candidates'/MODEL
+    model,payload,assignments=compile_model(path);validate_payload(payload,path,args.model_sha)
+    save(w/'generated/payload.json',payload);save(w/'generated/queries.json',queries());save(w/'generated/query-params.json',query_params(payload));(w/'generated/replace.cypher').write_text(REPLACE)
+    receipt=out/'execution-stage.json';compiler_sha=hashlib.sha256(Path(__file__).with_name('compile_model.py').read_bytes()).hexdigest()
+    if receipt.exists():
+        s=json.loads(receipt.read_text());require(s['modelSHA256']==args.model_sha and s['payloadSHA256']==digest(payload) and s['compilerSHA256']==compiler_sha,'Execution version conflict');require(args.mode=='verify','Do not resend write; verify existing stage')
+    async with connected(out) as call:
+        before,_=await snapshot(call,out/('before' if args.mode=='preflight' else 'current'))
+        current,preserved=split(before)
+        if args.mode=='preflight':
+            # Compare current core against the exact archived v1.0 model and compiler.
+            old_model,old_payload,_=legacy.compile_model(w/'originals'/MODEL)
+            verify_exact(current,old_payload)
+            params={**payload,'oldNodes':current['nodes'],'oldRelationships':current['relationships']}
+            for key,q in {'replace':REPLACE,**queries()}.items():await call('EXPLAIN '+q,params if key=='replace' else query_params(payload),write=True,receipt=out/'explain'/(key+'.json'))
+            tests=[]
+            for name in ('duplicate-node','missing-endpoint','wrong-label','wrong-type','wrong-namespace','wrong-source','stale-old-node','stale-old-edge','null-uid'):
+                p=copy.deepcopy(params)
+                if name=='duplicate-node':p['nodes'].append(copy.deepcopy(p['nodes'][0]))
+                elif name=='missing-endpoint':p['relationships'][0]['target']='D03V01:NO-SUCH-NODE'
+                elif name=='wrong-label':p['nodes'][0]['labels'].append('Unexpected')
+                elif name=='wrong-type':p['relationships'][0]['type']='UNEXPECTED'
+                elif name=='wrong-namespace':p['nodes'][0]['properties']['caseId']='V01'
+                elif name=='wrong-source':p['nodes'][0]['properties']['sourceModelSha256']='wrong'
+                elif name=='stale-old-node':p['oldNodes'][0]['properties']['name']='stale'
+                elif name=='stale-old-edge':p['oldRelationships'][0]['properties']['uid']='stale'
+                elif name=='null-uid':p['nodes'][0]['properties']['uid']=None
+                ret=await call(REPLACE,p,write=True)
+                require(ret==[],'Bad payload unexpectedly executed '+name)
+                tests.append({'id':name,'rejected':True})
+            after,_=await snapshot(call,out/'after-rejections');require(after==before,'Rejection tests changed graph')
+            save(out/'rejection-tests.json',tests)
+            save(out/'preflight.json',{'status':'passed','explainCount':len(queries())+1,'rejectedPayloads':len(tests),'beforeFingerprint':digest(before),'modelSHA256':args.model_sha,'payloadSHA256':digest(payload),'compilerSHA256':compiler_sha})
+            print(json.dumps({'preflight':'passed','nodes':len(payload['nodes']),'relationships':len(payload['relationships']),'rejected':len(tests)}));return
+        baseline=json.loads((out/'before/graph.json').read_text());old,untouched=split(baseline)
+        if args.mode=='write':
+            pre=json.loads((out/'preflight.json').read_text());require(before==baseline and pre['modelSHA256']==args.model_sha and pre['payloadSHA256']==digest(payload) and pre['compilerSHA256']==compiler_sha,'Source/database changed since preflight')
+            schema=json.loads((out/'current/schema.json').read_text());require(any(c['labelsOrTypes']==['KGItem'] and c['properties']==['uid'] and c['type']=='UNIQUENESS' for c in schema['constraints']),'UID constraint absent');require(all(i['state']=='ONLINE' for i in schema['indexes']),'Indexes unavailable')
+            save(receipt,{'stage':'write-started-no-retry','modelSHA256':args.model_sha,'payloadSHA256':digest(payload),'compilerSHA256':compiler_sha,'beforeFingerprint':digest(baseline),'at':datetime.datetime.now().astimezone().isoformat()})
+            validate_payload(payload,path,args.model_sha)
+            ret=await call(REPLACE,{**payload,'oldNodes':old['nodes'],'oldRelationships':old['relationships']},write=True,receipt=out/'write-return.json')
+            require(ret==[{'nodesDeleted':len(old['nodes']),'relationshipsDeleted':len(old['relationships']),'nodesCreated':len(payload['nodes']),'relationshipsCreated':len(payload['relationships'])}],'Unexpected write return; inspect without retry')
+        after,summary=await snapshot(call,out/'after');new,still=split(after)
+        require(still==untouched,'Unrelated graph changed');require(json.loads((out/'after/schema.json').read_text())==json.loads((out/'before/schema.json').read_text()),'Schema changed')
+        verify_exact(new,payload);save(out/'D03-readback.json',new)
+        results={k:await call(q,query_params(payload),receipt=out/(k+'-raw.json')) for k,q in queries().items()};save(out/'query-results.json',results)
+        require(len(results['Q05'])==4 and all(r['cacheConsistent'] for r in results['Q05']),'Core classification mismatch')
+        require([r['relativePosition'] for r in results['Q03']]==[0.5,0.25,0.5,0.5],'Core entrances changed')
+        require(results['Q07']==[{'crossDatasetEdges':0}],'Cross-dataset edge')
+        require([len(results[k]) for k in ('Q09','Q10','Q11','Q12','Q13','Q14','Q15')]==[4,2,4,5,7,4,1],'Missing extension query rows')
+        analysis=analyze(new,model['externalExtension']['pathRequests'],model['externalExtension']['rules']);save(out/'analysis-results.json',analysis)
+        require(len(analysis['items'])==6,'Missing D03 item')
+        require(all(r['status']=='computed' for r in analysis['items']['T02'] if r['example']=='E'),'Boundary calculation failed')
+        require(analysis['items']['T04'][0]['crossings']==3 and analysis['items']['T04'][1]['crossings'] is None,'Known-subgraph path mismatch')
+        require(analysis['useSummary']['knownSpaces']==2 and analysis['useSummary']['useAssignments']==4,'Use dedup mismatch')
+        areas=next(r for r in analysis['items']['T05'] if r.get('kind')=='area-configuration');require(areas['status']=='computed' and areas['courtyardRatio']==0.3125,'Area ratio mismatch')
+        report={'status':'verified-external-synthetic-six-items-new-details-awaiting-review','at':datetime.datetime.now().astimezone().isoformat(),'modelSHA256':args.model_sha,'exactNodes':len(new['nodes']),'exactRelationships':len(new['relationships']),'nativeTypes':'verified','preservedNodes':len(still['nodes']),'preservedRelationships':len(still['relationships']),'preservedFingerprint':digest(still),'originalPreservedFingerprint':digest(untouched),'constraintsIndexesUnchanged':True,'queries':{k:len(v) for k,v in results.items()},'analysisItems':list(analysis['items']),'firstExampleReview':'approved','extensionReview':'pending','empiricalValidity':'not-validated'}
+        save(out/'verification.json',report);s=json.loads(receipt.read_text());s.update(stage='verified',verificationFingerprint=digest(report));save(receipt,s);print(json.dumps(report,ensure_ascii=False))
+if __name__=='__main__':
+    p=argparse.ArgumentParser();p.add_argument('--workspace',required=True);p.add_argument('--model');p.add_argument('--model-sha',required=True);p.add_argument('--mode',choices=['preflight','write','verify'],required=True);asyncio.run(main(p.parse_args()))
+
+
+=== /Users/wangyuelin/.hermes/profiles/academic/cache/scratch/d03-full-kshvkp_s/test_analysis.py SHA256 8c88a40eda9a229f25f5d111d1b04e5ba7d129a6dea0935cc9d99e56b0c4870b ===
+"""Parameter-only adversarial tests. No bad data is persisted to Neo4j."""
+import copy,json,math,tempfile
+from pathlib import Path
+from compile_model import compile_model,valid_polygon,PREFIX
+from analyze import analyze
+from workspace import W,CASE
+from mcp_client import save
+m,p,_=compile_model(W/'candidates'/CASE/'案例模型.json')
+G={'nodes':[{'key':n['properties']['uid'],'labels':n['labels'],'properties':n['properties']} for n in p['nodes']],'relationships':[{'key':r['properties']['uid'],'source':r['source'],'target':r['target'],'type':r['type'],'properties':r['properties']} for r in p['relationships']]}
+REQ=m['externalExtension']['pathRequests'];RULE=m['externalExtension']['rules'];results=[]
+def analyze_g(g):return analyze(g,REQ,RULE)
+def prop(g,id):return next(n['properties'] for n in g['nodes'] if n['key']==PREFIX+id)
+def edge(g,id):return next(r for r in g['relationships'] if r['key']==PREFIX+id)
+def row(r,item,id):return next(x for x in r['items'][item] if x.get('uid')==PREFIX+id)
+def area(r):return next(x for x in r['items']['T05'] if x.get('kind')=='area-configuration')
+def test(name,mutation,check):
+    g=copy.deepcopy(G);mutation(g);r=analyze_g(g);assert check(r),name;results.append({'id':name,'passed':True,'kind':'local-parameter-only'})
+def boundary(g,fn):
+    p=prop(g,'E-C01');bs=json.loads(p['boundaryRecordsJson']);fn(bs);p['boundaryRecordsJson']=json.dumps(bs)
+def polygon(g,id,xy):prop(g,id)['polygonJson']=json.dumps(xy)
+b=analyze_g(G)
+assert len(b['items'])==6 and len(b['items']['T01'])==8
+assert math.isclose(row(b,'T02','E-C01')['ratio'],12/28) and row(b,'T02','E-C02')['ratio']==0.5
+assert b['items']['T04'][0]['crossings']==3 and b['items']['T04'][1]['crossings'] is None
+assert area(b)['courtyardRatio']==0.3125 and b['useSummary']['knownSpaces']==2 and b['useSummary']['useAssignments']==4
+assert all(x['relativePosition'] is not None for x in b['items']['T03'])
+results.append({'id':'positive-six-items-and-known-results','passed':True,'kind':'local-projection-only'})
+# T01/T05 invalid geometry, units, coordinate frames, denominator and uncertainty.
+for field,val in [('geometryComplete',False),('unit','cm'),('level','E-upper'),('coordinateFrame','different'),('geometryBasis','roof-projection'),('geometryVersion','changed')]:
+    test('area-'+field,lambda g,f=field,v=val:prop(g,'E-C01').update({f:v}),lambda r:area(r)['status']=='not-computed')
+for name,xy in [('zero-area',[[0.,0.],[0.,0.],[0.,0.],[0.,0.]]),('self-intersection',[[2.,2.],[10.,8.],[2.,8.],[10.,2.],[2.,2.]]),('not-closed',[[2.,2.],[10.,2.],[10.,8.],[2.,8.]])]:
+    test(name,lambda g,x=xy:polygon(g,'E-C01',x),lambda r:area(r)['status']=='not-computed')
+test('outside-denominator',lambda g:polygon(g,'E-U01',[[0.,0.],[5.,0.],[5.,5.],[0.,5.],[0.,0.]]),lambda r:area(r)['status']=='not-computed')
+test('area-overlap-union-not-sum',lambda g:polygon(g,'E-G01',[[2.,7.],[10.,7.],[10.,10.],[2.,10.],[2.,7.]]),lambda r:area(r)['status']=='computed' and area(r)['overlapDeductedM2']==8.0 and area(r)['spaceUnionM2']==112.0)
+test('geometry-source-field-missing',lambda g:edge(g,'SRC-E-C01')['properties']['fields'].remove('polygonJson'),lambda r:area(r)['status']=='not-computed')
+test('source-version-changed',lambda g:prop(g,'EV02').update(sourceVersion='E-2.0'),lambda r:area(r)['status']=='not-computed')
+test('source-locator-changed',lambda g:edge(g,'SRC-E-C01')['properties'].update(locator='/wrong'),lambda r:area(r)['status']=='not-computed')
+# T02 explicit open is zero, unknown stops full ratio, opening deduction is mandatory.
+test('unknown-side-stops',lambda g:boundary(g,lambda bs:bs[3].update(state='unknown',kind='unknown',solidState='unknown')),lambda r:row(r,'T02','E-C01')['status']=='unknown-stopped' and row(r,'T02','E-C01')['ratio'] is None)
+test('covered-not-solid',lambda g:boundary(g,lambda bs:bs[0].update(solidIntervalsM=[[0.,8.]])),lambda r:row(r,'T02','E-C01')['status']=='invalid-input')
+test('opening-not-deducted',lambda g:boundary(g,lambda bs:bs[2].update(solidIntervalsM=[[0.,8.]])),lambda r:row(r,'T02','E-C01')['status']=='invalid-input')
+test('overlap-solid-intervals',lambda g:boundary(g,lambda bs:bs[1].update(solidIntervalsM=[[0.,4.],[3.,6.]])),lambda r:row(r,'T02','E-C01')['status']=='invalid-input')
+test('participant-mismatch',lambda g:edge(g,'E-BOUNDARY-E-C01-E').update(target=PREFIX+'E-B02'),lambda r:row(r,'T02','E-C01')['status']=='invalid-input')
+test('duplicate-boundary',lambda g:boundary(g,lambda bs:bs[3].update(id='N')),lambda r:row(r,'T02','E-C01')['status']=='invalid-input')
+# T03 reference guards; arbitrary bent reference test uses the actual arc, not chord.
+for field,val in [('startChainageM',-1.),('endChainageM',99.),('correspondence','ambiguous'),('referenceGeometryVersion','wrong'),('unit','cm')]:
+    test('entry-'+field,lambda g,f=field,v=val:prop(g,'E-I01').update({f:v}),lambda r:row(r,'T03','E-I01')['status']=='invalid-input')
+test('entry-missing-role',lambda g:g['relationships'].remove(edge(g,'E-I01-side-b')),lambda r:row(r,'T03','E-I01')['status']=='invalid-input')
+from shapely.geometry import LineString
+line=LineString([[0.,0.],[2.,0.],[2.,4.]])
+pt=line.interpolate((1.+5.)/2);assert [pt.x,pt.y]==[2.,1.] and [pt.x,pt.y]!=[1.5,1.5]
+results.append({'id':'bent-line-chainage-not-chord-midpoint','passed':True,'kind':'local-geometry-primitive'})
+# T04 direction and context are mandatory; missing route never implies unreachable.
+for field,val in [('contextId','other'),('actor',''),('doorState',''),('obstacleState',''),('observationTime',''),('state','unknown'),('viaUid',PREFIX+'E-I04'),('sourceVersion','wrong'),('analysisRuleVersion','wrong')]:
+    test('passage-'+field,lambda g,f=field,v=val:edge(g,'ACCESS-E-G01-E-C02')['properties'].update({f:v}),lambda r:r['items']['T04'][0]['status']=='no-confirmed-path-not-unreachable')
+test('wrong-access-endpoint',lambda g:edge(g,'ACCESS-E-G01-E-C02').update(target=PREFIX+'E-P01'),lambda r:r['items']['T04'][0]['crossings'] is None)
+# T06 no geometry-to-use inference, no type-level claim applied to an instance.
+for field,val in [('useScope','type-only'),('useEvidenceRole','inferred-from-geometry'),('useState','unknown'),('useValues',['晾晒','晾晒'])]:
+    test('use-'+field,lambda g,f=field,v=val:prop(g,'E-C01').update({f:v}),lambda r:row(r,'T06','E-C01')['state']=='invalid-input')
+test('use-missing-source-field',lambda g:edge(g,'SRC-E-C01')['properties']['fields'].remove('useValues'),lambda r:row(r,'T06','E-C01')['state']=='invalid-input')
+test('use-explicit-none',lambda g:prop(g,'E-C02').update(useState='none'),lambda r:row(r,'T06','E-C02')['state']=='none')
+test('use-not-applicable',lambda g:prop(g,'E-C02').update(useState='not-applicable'),lambda r:row(r,'T06','E-C02')['state']=='not-applicable')
+for name,mutation in [('wrong-rule-definition',lambda g:prop(g,'R02').update(definitionJson='{}')),('wrong-rule-version',lambda g:prop(g,'R02').update(ruleVersion='wrong'))]:
+    g=copy.deepcopy(G);mutation(g)
+    try:analyze_g(g);raise AssertionError(name)
+    except ValueError:results.append({'id':name,'passed':True,'kind':'local-parameter-only'})
+# The source compiler rejects semantic corruption before any executable payload.
+for name,mutation in [('entry-host',lambda x:x['externalExtension']['entrances'][0].update(hostId='E-B01')),('duplicate-use',lambda x:x['externalExtension']['objects'][1].update(useValues=['晾晒','晾晒'])),('wrong-pass-via',lambda x:x['externalExtension']['access'][0].update(via='E-I04')),('wrong-geometry-xy',lambda x:x['externalExtension']['objects'][1]['polygon'][0].append(2.))]:
+    bad=copy.deepcopy(m);mutation(bad)
+    with tempfile.NamedTemporaryFile(mode='w',suffix='.json',dir=W,delete=False) as f:json.dump(bad,f);path=Path(f.name)
+    try:
+        try:compile_model(path);raise AssertionError(name)
+        except (ValueError,KeyError):results.append({'id':'compiler-'+name,'passed':True,'kind':'local-source-rejection'})
+    finally:path.unlink()
+assert m['examples']==json.loads((W/'originals'/CASE/'案例模型.json').read_text())['examples']
+results.append({'id':'A-D-original-inputs-preserved','passed':True,'kind':'source-equality'})
+save(W/'tests/results.json',{'status':'passed','count':len(results),'tests':results,'scope':'local synthetic/projection and parameter-only; database guards are separately executed'})
+print(json.dumps({'status':'passed','count':len(results)}))
+
+
+=== /Users/wangyuelin/.hermes/profiles/academic/cache/scratch/d03-full-kshvkp_s/candidates/研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json SHA256 39d43893a965c809125cff40d61a64b81d57e69a95804a374a20bf09b4cded04 ===
+{
+  "datasetId": "D03V01",
+  "modelVersion": "1.1",
+  "status": "synthetic-candidate-awaiting-user-review",
+  "authoritativePath": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+  "purpose": "D03-T01—T06当前外部范围的逐项表达与合成检验；不是室内完整化或真实样本验证",
+  "authorization": "2026-10-30用户审核通过首例，并授权完整D03拆解、一并更新既有审核视图。新增实施细节仍待本轮审核。",
+  "scope": {
+    "implemented": [
+      "D03-T01外部空间、层位、边界与缺失",
+      "D03-T02逐段参与、开放、覆盖与限定净实体长度比",
+      "D03-T03入口身份、角色、唯一参照里程与未知另一侧",
+      "D03-T04有显式情境证据的外部局部有向通行与已知子图路径",
+      "D03-T05同层二维轮廓、面积集合去重、声明分母与几何位置比较",
+      "D03-T06有字段来源的合成多用途、未知与空间去重",
+      "D06限定围合分型与同型变体接口"
+    ],
+    "notImplemented": [
+      "D04立面实例",
+      "D05组团实例",
+      "D02内部构架",
+      "D03完整通行网",
+      "D07时序",
+      "D08感知",
+      "三维几何判断",
+      "真实样本有效性",
+      "BOT/OWL推理"
+    ]
+  },
+  "basis": [
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+      "items": [
+        "B-C01",
+        "B-C03",
+        "B-C05",
+        "B-C06",
+        "B-C07",
+        "B-R02",
+        "B-R04",
+        "B-R09",
+        "B-R12",
+        "B-A07",
+        "B-A08"
+      ]
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "items": [
+        "U02",
+        "U03",
+        "U04",
+        "U10",
+        "U11",
+        "U13",
+        "U14"
+      ]
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D03院落与空间组织拆解表.md",
+      "items": [
+        "D03-T01",
+        "D03-T02",
+        "D03-T03",
+        "D03-T04",
+        "D03-T05",
+        "D03-T06"
+      ]
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "items": [
+        "D06-T01",
+        "D06-T03"
+      ]
+    }
+  ],
+  "source": {
+    "id": "EV01",
+    "name": "D03人工合成设定与来源定位",
+    "sourceKind": "synthetic-not-observation",
+    "sourcePath": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+    "sourceVersion": "1.0",
+    "creator": "研究协作过程中的人工试例设计",
+    "supportScope": "仅证明本试例如何设定；不支持真实建筑、类型有效性或独立互证"
+  },
+  "classificationScheme": {
+    "id": "R01",
+    "name": "四侧院落围合构成候选方案",
+    "version": "1.0",
+    "mode": "exclusive-single",
+    "status": "user-approved-working-rule-limited-synthetic-scope",
+    "unitOfAnalysis": "one-courtyard",
+    "applicableShape": "rectangular-reference",
+    "sideIds": [
+      "N",
+      "E",
+      "S",
+      "W"
+    ],
+    "allowRotation": true,
+    "allowReflection": true,
+    "definingFeatures": [
+      "完整且可判定的四侧序列",
+      "每侧的building/wall/open参与类别",
+      "实际参与端点和来源引用一致"
+    ],
+    "auxiliaryFeatures": [
+      "入口中心里程比；不决定围合类",
+      "N/E/S/W绝对方位"
+    ],
+    "rules": [
+      {
+        "code": "ENC-3B-1W",
+        "name": "三侧建筑＋一侧院墙",
+        "pattern": [
+          "building",
+          "building",
+          "wall",
+          "building"
+        ]
+      },
+      {
+        "code": "ENC-2B-1W-1O",
+        "name": "相邻两侧建筑＋一侧院墙＋一侧开放",
+        "pattern": [
+          "building",
+          "building",
+          "wall",
+          "open"
+        ]
+      }
+    ],
+    "exclusions": [
+      "非四侧或不符合本例矩形参照范围：out-of-scope",
+      "关键参与情况未知：unknown",
+      "已知但不符规则：known-unmatched",
+      "互斥规则同时满足：rule-conflict",
+      "字段、来源、版本或关系不一致：invalid-input"
+    ],
+    "boundaryPolicy": "按院落侧的主界定对象分粗类；院墙上有门洞仍记wall，入口另记，不计算实体边界长度比例；混合一侧/不规则边界须另审规则",
+    "localTypeNames": [],
+    "origin": "从既有D03/D06候选方法提出的本研究工作规则，不命名为三合院/四合院等地方类型"
+  },
+  "examples": [
+    {
+      "id": "A",
+      "name": "三侧建筑、一侧院墙；入口中心里程比0.50",
+      "unit": {
+        "id": "A-U01",
+        "name": "A例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "A-C01",
+        "name": "A例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "A-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "A-BW",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "A-BN",
+          "name": "A例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "A-BE",
+          "name": "A例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "A-BW",
+          "name": "A例W侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "A-W01",
+        "name": "A例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "A-I01",
+        "name": "A例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "A-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "B",
+      "name": "同一围合构成；入口中心里程比0.25",
+      "unit": {
+        "id": "B-U01",
+        "name": "B例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "B-C01",
+        "name": "B例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "B-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "B-BW",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "B-BN",
+          "name": "B例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "B-BE",
+          "name": "B例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "B-BW",
+          "name": "B例W侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "B-W01",
+        "name": "B例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "B-I01",
+        "name": "B例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 2.0,
+        "endChainageM": 4.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "B-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "C",
+      "name": "相邻两侧建筑、一侧院墙、一侧开放",
+      "unit": {
+        "id": "C-U01",
+        "name": "C例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "C-C01",
+        "name": "C例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "四边是人工指定的院地分析边界；不代表普适院落划分"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "C-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "C-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "C-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "open",
+          "participantId": null,
+          "participantScope": "明确没有连续实体界定；不是缺资料",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "C-BN",
+          "name": "C例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "C-BE",
+          "name": "C例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "C-W01",
+        "name": "C例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "C-I01",
+        "name": "C例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "C-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    },
+    {
+      "id": "D",
+      "name": "西侧参与情况未知；不补造建筑或开放事实",
+      "unit": {
+        "id": "D-U01",
+        "name": "D例宅院分析整体",
+        "boundaryBasis": "人工声明的建筑、院落和院墙整体范围；非产权界线"
+      },
+      "courtyard": {
+        "id": "D-C01",
+        "name": "D例院落",
+        "shapeCode": "rectangular-reference",
+        "level": "合成院地参照层",
+        "geometryVersion": "1.0",
+        "unit": "m",
+        "boundaryOrder": "N-E-S-W clockwise from northwest; S chainage starts at southeast",
+        "geometryState": "plan reference only; no complete 3D volume",
+        "interpretation": "D例西侧是理论参照线，不声称已识别实体边界"
+      },
+      "boundary": [
+        {
+          "id": "N",
+          "order": 0,
+          "startXY": [
+            0.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            10.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "D-BN",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "E",
+          "order": 1,
+          "startXY": [
+            12.0,
+            10.0
+          ],
+          "endXY": [
+            12.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "building",
+          "participantId": "D-BE",
+          "participantScope": "朝院一侧，未细分实体墙",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "S",
+          "order": 2,
+          "startXY": [
+            12.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            0.0
+          ],
+          "state": "known",
+          "kind": "wall",
+          "participantId": "D-W01",
+          "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+          "dataVersion": "1.0"
+        },
+        {
+          "id": "W",
+          "order": 3,
+          "startXY": [
+            0.0,
+            0.0
+          ],
+          "endXY": [
+            0.0,
+            10.0
+          ],
+          "state": "unknown",
+          "kind": "unknown",
+          "participantId": null,
+          "participantScope": "仅有理论参照边，不知参与者",
+          "dataVersion": "1.0"
+        }
+      ],
+      "buildings": [
+        {
+          "id": "D-BN",
+          "name": "D例N侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        },
+        {
+          "id": "D-BE",
+          "name": "D例E侧建筑",
+          "role": "boundary-building",
+          "geometryState": "schematic-facing-side-only"
+        }
+      ],
+      "wall": {
+        "id": "D-W01",
+        "name": "D例南侧院墙",
+        "geometryState": "schematic-host-only"
+      },
+      "entrance": {
+        "id": "D-I01",
+        "name": "D例院墙入口界面",
+        "referenceBoundaryId": "S",
+        "startChainageM": 5.0,
+        "endChainageM": 7.0,
+        "referenceRule": "同一南侧直线段从东向西累计里程；中心为起止里程均值",
+        "unit": "m",
+        "dataVersion": "1.0",
+        "courtyardSideStatus": "known",
+        "farSideStatus": "unknown",
+        "passabilityStatus": "not-assessed",
+        "hostId": "D-W01",
+        "unknownReason": "本任务不登记外侧空间，不据入口推通行"
+      },
+      "syntheticReason": "人工控制的正例、变体、开放对照或缺失例；不是来自任何景宁建筑"
+    }
+  ],
+  "review": {
+    "firstExample": "user-approved-limited-synthetic-expression",
+    "firstExampleQuote": "可以，审核通过",
+    "scopeQuote": "可以，我觉得拆解没问题，我们可以继续了，完整D03所有的拆解吧，一并更新到D03的审核视图.html中",
+    "extension": "new-details-awaiting-user-review",
+    "empiricalValidity": "not-validated"
+  },
+  "externalExtension": {
+    "id": "E",
+    "name": "双院落—外部过渡—局部通行与用途",
+    "version": "E-1.0",
+    "source": {
+      "id": "EV02",
+      "name": "D03外部六项合成设定",
+      "sourceVersion": "E-1.0",
+      "sourceKind": "synthetic-not-observation",
+      "sourcePath": "研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+      "creator": "研究协作过程人工试例设计",
+      "supportScope": "仅说明E例假设及预期计算；不支持真实通行、用途、地方类型或文化解释"
+    },
+    "objects": [
+      {
+        "id": "E-U01",
+        "name": "E例外部宅院分析范围",
+        "labels": [
+          "Zone",
+          "DwellingUnit"
+        ],
+        "boundaryBasis": "人工声明分析用地；不是产权或实测地籍",
+        "axisXY": [
+          0.0,
+          1.0
+        ],
+        "axisBasis": "从入口向院内的人工参照正方向；不推社会位序",
+        "networkCoverage": "partial-external-known-subgraph",
+        "polygon": [
+          [
+            0.0,
+            0.0
+          ],
+          [
+            16.0,
+            0.0
+          ],
+          [
+            16.0,
+            16.0
+          ],
+          [
+            0.0,
+            16.0
+          ],
+          [
+            0.0,
+            0.0
+          ]
+        ],
+        "geometryVersion": "E-1.0",
+        "geometryComplete": true,
+        "geometryBasis": "same-level-plan-analysis-footprint",
+        "coordinateFrame": "E-local-xy",
+        "unit": "m",
+        "level": "E-ground",
+        "floorZM": 0.0
+      },
+      {
+        "id": "E-C01",
+        "name": "E例前部院落",
+        "labels": [
+          "Zone",
+          "Space",
+          "Courtyard"
+        ],
+        "spaceKind": "courtyard",
+        "coverState": "uncovered",
+        "boundaryBasis": "按平面围合与开放理论划界人工声明",
+        "useState": "known",
+        "useValues": [
+          "晾晒",
+          "临时停留"
+        ],
+        "useContext": "人工日常情境E-use-1；非田野观察",
+        "useEvidenceRole": "synthetic-assignment",
+        "useScope": "this-space",
+        "useLocator": "/externalExtension/objects/1/useValues",
+        "polygon": [
+          [
+            2.0,
+            2.0
+          ],
+          [
+            10.0,
+            2.0
+          ],
+          [
+            10.0,
+            8.0
+          ],
+          [
+            2.0,
+            8.0
+          ],
+          [
+            2.0,
+            2.0
+          ]
+        ],
+        "geometryVersion": "E-1.0",
+        "geometryComplete": true,
+        "geometryBasis": "same-level-plan-analysis-footprint",
+        "coordinateFrame": "E-local-xy",
+        "unit": "m",
+        "level": "E-ground",
+        "floorZM": 0.0,
+        "boundaries": [
+          {
+            "id": "N",
+            "polyline": [
+              [
+                2.0,
+                8.0
+              ],
+              [
+                10.0,
+                8.0
+              ]
+            ],
+            "kind": "covered-transition",
+            "state": "known",
+            "participantId": "E-G01",
+            "solidIntervalsM": [],
+            "solidState": "known",
+            "coverState": "covered-open-sided",
+            "basis": "声明分析层位上的线段；实体段扣入口，廊盖不计实体围合；无三维闭合含义"
+          },
+          {
+            "id": "E",
+            "polyline": [
+              [
+                10.0,
+                8.0
+              ],
+              [
+                10.0,
+                2.0
+              ]
+            ],
+            "kind": "building",
+            "state": "known",
+            "participantId": "E-B01",
+            "solidIntervalsM": [
+              [
+                0.0,
+                6.0
+              ]
+            ],
+            "solidState": "known",
+            "coverState": "uncovered",
+            "basis": "声明分析层位上的线段；实体段扣入口，廊盖不计实体围合；无三维闭合含义"
+          },
+          {
+            "id": "S",
+            "polyline": [
+              [
+                10.0,
+                2.0
+              ],
+              [
+                2.0,
+                2.0
+              ]
+            ],
+            "kind": "wall",
+            "state": "known",
+            "participantId": "E-W01",
+            "solidIntervalsM": [
+              [
+                0.0,
+                3.0
+              ],
+              [
+                5.0,
+                8.0
+              ]
+            ],
+            "solidState": "known",
+            "coverState": "uncovered",
+            "basis": "声明分析层位上的线段；实体段扣入口，廊盖不计实体围合；无三维闭合含义"
+          },
+          {
+            "id": "W",
+            "polyline": [
+              [
+                2.0,
+                2.0
+              ],
+              [
+                2.0,
+                8.0
+              ]
+            ],
+            "kind": "open",
+            "state": "known",
+            "participantId": null,
+            "solidIntervalsM": [],
+            "solidState": "known",
+            "coverState": "uncovered",
+            "basis": "声明分析层位上的线段；实体段扣入口，廊盖不计实体围合；无三维闭合含义"
+          }
+        ]
+      },
+      {
+        "id": "E-C02",
+        "name": "E例后部院落",
+        "labels": [
+          "Zone",
+          "Space",
+          "Courtyard"
+        ],
+        "spaceKind": "courtyard",
+        "coverState": "uncovered",
+        "boundaryBasis": "按平面围合与开放理论划界人工声明",
+        "useState": "unknown",
+        "useValues": [],
+        "useContext": "本合成例未声明用途",
+        "useEvidenceRole": "synthetic-assignment",
+        "useScope": "this-space",
+        "useLocator": "/externalExtension/objects/2/useValues",
+        "polygon": [
+          [
+            2.0,
+            10.0
+          ],
+          [
+            10.0,
+            10.0
+          ],
+          [
+            10.0,
+            14.0
+          ],
+          [
+            2.0,
+            14.0
+          ],
+          [
+            2.0,
+            10.0
+          ]
+        ],
+        "geometryVersion": "E-1.0",
+        "geometryComplete": true,
+        "geometryBasis": "same-level-plan-analysis-footprint",
+        "coordinateFrame": "E-local-xy",
+        "unit": "m",
+        "level": "E-ground",
+        "floorZM": 0.0,
+        "boundaries": [
+          {
+            "id": "N",
+            "polyline": [
+              [
+                2.0,
+                14.0
+              ],
+              [
+                10.0,
+                14.0
+              ]
+            ],
+            "kind": "building",
+            "state": "known",
+            "participantId": "E-B02",
+            "solidIntervalsM": [
+              [
+                0.0,
+                8.0
+              ]
+            ],
+            "solidState": "known",
+            "coverState": "uncovered",
+            "basis": "声明分析层位上的线段；实体段扣入口，廊盖不计实体围合；无三维闭合含义"
+          },
+          {
+            "id": "E",
+            "polyline": [
+              [
+                10.0,
+                14.0
+              ],
+              [
+                10.0,
+                10.0
+              ]
+            ],
+            "kind": "building",
+            "state": "known",
+            "participantId": "E-B01",
+            "solidIntervalsM": [
+              [
+                0.0,
+                4.0
+              ]
+            ],
+            "solidState": "known",
+            "coverState": "uncovered",
+            "basis": "声明分析层位上的线段；实体段扣入口，廊盖不计实体围合；无三维闭合含义"
+          },
+          {
+            "id": "S",
+            "polyline": [
+              [
+                10.0,
+                10.0
+              ],
+              [
+                2.0,
+                10.0
+              ]
+            ],
+            "kind": "covered-transition",
+            "state": "known",
+            "participantId": "E-G01",
+            "solidIntervalsM": [],
+            "solidState": "known",
+            "coverState": "covered-open-sided",
+            "basis": "声明分析层位上的线段；实体段扣入口，廊盖不计实体围合；无三维闭合含义"
+          },
+          {
+            "id": "W",
+            "polyline": [
+              [
+                2.0,
+                10.0
+              ],
+              [
+                2.0,
+                14.0
+              ]
+            ],
+            "kind": "open",
+            "state": "known",
+            "participantId": null,
+            "solidIntervalsM": [],
+            "solidState": "known",
+            "coverState": "uncovered",
+            "basis": "声明分析层位上的线段；实体段扣入口，廊盖不计实体围合；无三维闭合含义"
+          }
+        ]
+      },
+      {
+        "id": "E-G01",
+        "name": "E例有盖开放过渡廊",
+        "labels": [
+          "Zone",
+          "Space",
+          "ExternalTransition"
+        ],
+        "spaceKind": "covered-transition",
+        "coverState": "covered-open-sided",
+        "boundaryBasis": "人工划定外部有盖空间；不等于封闭室内",
+        "useState": "known",
+        "useValues": [
+          "通行",
+          "临时停留"
+        ],
+        "useContext": "人工日常情境E-use-1；非田野观察",
+        "useEvidenceRole": "synthetic-assignment",
+        "useScope": "this-space",
+        "useLocator": "/externalExtension/objects/3/useValues",
+        "polygon": [
+          [
+            2.0,
+            8.0
+          ],
+          [
+            10.0,
+            8.0
+          ],
+          [
+            10.0,
+            10.0
+          ],
+          [
+            2.0,
+            10.0
+          ],
+          [
+            2.0,
+            8.0
+          ]
+        ],
+        "geometryVersion": "E-1.0",
+        "geometryComplete": true,
+        "geometryBasis": "same-level-plan-analysis-footprint",
+        "coordinateFrame": "E-local-xy",
+        "unit": "m",
+        "level": "E-ground",
+        "floorZM": 0.0
+      },
+      {
+        "id": "E-P01",
+        "name": "E例入口平台",
+        "labels": [
+          "Zone",
+          "Space",
+          "ExternalTransition"
+        ],
+        "spaceKind": "entry-platform",
+        "coverState": "uncovered",
+        "boundaryBasis": "入口前平台的理论分析范围",
+        "useState": "unknown",
+        "useValues": [],
+        "useContext": "未从平台形状推断用途",
+        "useEvidenceRole": "synthetic-assignment",
+        "useScope": "this-space",
+        "useLocator": "/externalExtension/objects/4/useValues",
+        "polygon": [
+          [
+            2.0,
+            0.0
+          ],
+          [
+            10.0,
+            0.0
+          ],
+          [
+            10.0,
+            2.0
+          ],
+          [
+            2.0,
+            2.0
+          ],
+          [
+            2.0,
+            0.0
+          ]
+        ],
+        "geometryVersion": "E-1.0",
+        "geometryComplete": true,
+        "geometryBasis": "same-level-plan-analysis-footprint",
+        "coordinateFrame": "E-local-xy",
+        "unit": "m",
+        "level": "E-ground",
+        "floorZM": 0.0
+      },
+      {
+        "id": "E-B01",
+        "name": "E例东侧建筑",
+        "labels": [
+          "Zone",
+          "Building"
+        ],
+        "boundaryBasis": "建筑地面外包投影；不记录室内隔间",
+        "polygon": [
+          [
+            10.0,
+            2.0
+          ],
+          [
+            14.0,
+            2.0
+          ],
+          [
+            14.0,
+            14.0
+          ],
+          [
+            10.0,
+            14.0
+          ],
+          [
+            10.0,
+            2.0
+          ]
+        ],
+        "geometryVersion": "E-1.0",
+        "geometryComplete": true,
+        "geometryBasis": "same-level-plan-analysis-footprint",
+        "coordinateFrame": "E-local-xy",
+        "unit": "m",
+        "level": "E-ground",
+        "floorZM": 0.0
+      },
+      {
+        "id": "E-B02",
+        "name": "E例北侧建筑",
+        "labels": [
+          "Zone",
+          "Building"
+        ],
+        "boundaryBasis": "建筑地面外包投影；不记录室内隔间",
+        "polygon": [
+          [
+            2.0,
+            14.0
+          ],
+          [
+            10.0,
+            14.0
+          ],
+          [
+            10.0,
+            16.0
+          ],
+          [
+            2.0,
+            16.0
+          ],
+          [
+            2.0,
+            14.0
+          ]
+        ],
+        "geometryVersion": "E-1.0",
+        "geometryComplete": true,
+        "geometryBasis": "same-level-plan-analysis-footprint",
+        "coordinateFrame": "E-local-xy",
+        "unit": "m",
+        "level": "E-ground",
+        "floorZM": 0.0
+      },
+      {
+        "id": "E-W01",
+        "name": "E例南侧院墙",
+        "labels": [
+          "Element",
+          "Wall"
+        ],
+        "boundaryBasis": "地面分析层位上的院墙载体；不据此断言承重",
+        "geometryVersion": "E-1.0"
+      }
+    ],
+    "entrances": [
+      {
+        "id": "E-I01",
+        "name": "E例院门",
+        "referenceSpaceId": "E-C01",
+        "referenceBoundaryId": "S",
+        "referenceGeometryVersion": "E-1.0",
+        "startChainageM": 3.0,
+        "endChainageM": 5.0,
+        "correspondence": "unique-on-reference-line",
+        "fromSpaceId": "E-P01",
+        "toSpaceId": "E-C01",
+        "hostId": "E-W01",
+        "farSideState": "known",
+        "unit": "m",
+        "level": "E-ground",
+        "clearWidthM": 2.0,
+        "clearHeightState": "known",
+        "clearHeightM": 2.1,
+        "stepHeightM": 0.0,
+        "geometryBasis": "人工界面分析范围；不将净宽高换算为普适可通行阈值"
+      },
+      {
+        "id": "E-I02",
+        "name": "E例院落—廊开放分界",
+        "referenceSpaceId": "E-C01",
+        "referenceBoundaryId": "N",
+        "referenceGeometryVersion": "E-1.0",
+        "startChainageM": 2.0,
+        "endChainageM": 4.0,
+        "correspondence": "unique-on-reference-line",
+        "fromSpaceId": "E-C01",
+        "toSpaceId": "E-G01",
+        "hostId": null,
+        "farSideState": "known",
+        "unit": "m",
+        "level": "E-ground",
+        "clearWidthM": 2.0,
+        "clearHeightState": "known",
+        "clearHeightM": 2.1,
+        "stepHeightM": 0.0,
+        "geometryBasis": "人工界面分析范围；不将净宽高换算为普适可通行阈值"
+      },
+      {
+        "id": "E-I03",
+        "name": "E例廊—后院开放分界",
+        "referenceSpaceId": "E-C02",
+        "referenceBoundaryId": "S",
+        "referenceGeometryVersion": "E-1.0",
+        "startChainageM": 3.0,
+        "endChainageM": 5.0,
+        "correspondence": "unique-on-reference-line",
+        "fromSpaceId": "E-G01",
+        "toSpaceId": "E-C02",
+        "hostId": null,
+        "farSideState": "known",
+        "unit": "m",
+        "level": "E-ground",
+        "clearWidthM": 2.0,
+        "clearHeightState": "known",
+        "clearHeightM": 2.1,
+        "stepHeightM": 0.0,
+        "geometryBasis": "人工界面分析范围；不将净宽高换算为普适可通行阈值"
+      },
+      {
+        "id": "E-I04",
+        "name": "E例后院西侧局部入口线索",
+        "referenceSpaceId": "E-C02",
+        "referenceBoundaryId": "W",
+        "referenceGeometryVersion": "E-1.0",
+        "startChainageM": 1.0,
+        "endChainageM": 2.0,
+        "correspondence": "unique-on-reference-line",
+        "fromSpaceId": "E-C02",
+        "toSpaceId": null,
+        "hostId": null,
+        "farSideState": "unknown",
+        "unit": "m",
+        "level": "E-ground",
+        "clearWidthM": 1.0,
+        "clearHeightState": "unknown",
+        "geometryBasis": "人工界面分析范围；不将净宽高换算为普适可通行阈值"
+      }
+    ],
+    "access": [
+      {
+        "id": "ACCESS-E-P01-E-C01",
+        "from": "E-P01",
+        "to": "E-C01",
+        "via": "E-I01",
+        "contextId": "E-walk-1",
+        "actor": "正常成人步行（人工情境）",
+        "doorState": "无门扇阻挡（人工声明）",
+        "obstacleState": "该方向已确认无障碍（人工声明）",
+        "observationTime": "synthetic-snapshot-E-1",
+        "state": "passable-asserted",
+        "evidenceRole": "synthetic-explicit-passage-assertion",
+        "reversePolicy": "仅存明确方向；缺少反向记录不等于反向不可达"
+      },
+      {
+        "id": "ACCESS-E-C01-E-P01",
+        "from": "E-C01",
+        "to": "E-P01",
+        "via": "E-I01",
+        "contextId": "E-walk-1",
+        "actor": "正常成人步行（人工情境）",
+        "doorState": "无门扇阻挡（人工声明）",
+        "obstacleState": "该方向已确认无障碍（人工声明）",
+        "observationTime": "synthetic-snapshot-E-1",
+        "state": "passable-asserted",
+        "evidenceRole": "synthetic-explicit-passage-assertion",
+        "reversePolicy": "仅存明确方向；缺少反向记录不等于反向不可达"
+      },
+      {
+        "id": "ACCESS-E-C01-E-G01",
+        "from": "E-C01",
+        "to": "E-G01",
+        "via": "E-I02",
+        "contextId": "E-walk-1",
+        "actor": "正常成人步行（人工情境）",
+        "doorState": "无门扇阻挡（人工声明）",
+        "obstacleState": "该方向已确认无障碍（人工声明）",
+        "observationTime": "synthetic-snapshot-E-1",
+        "state": "passable-asserted",
+        "evidenceRole": "synthetic-explicit-passage-assertion",
+        "reversePolicy": "仅存明确方向；缺少反向记录不等于反向不可达"
+      },
+      {
+        "id": "ACCESS-E-G01-E-C01",
+        "from": "E-G01",
+        "to": "E-C01",
+        "via": "E-I02",
+        "contextId": "E-walk-1",
+        "actor": "正常成人步行（人工情境）",
+        "doorState": "无门扇阻挡（人工声明）",
+        "obstacleState": "该方向已确认无障碍（人工声明）",
+        "observationTime": "synthetic-snapshot-E-1",
+        "state": "passable-asserted",
+        "evidenceRole": "synthetic-explicit-passage-assertion",
+        "reversePolicy": "仅存明确方向；缺少反向记录不等于反向不可达"
+      },
+      {
+        "id": "ACCESS-E-G01-E-C02",
+        "from": "E-G01",
+        "to": "E-C02",
+        "via": "E-I03",
+        "contextId": "E-walk-1",
+        "actor": "正常成人步行（人工情境）",
+        "doorState": "无门扇阻挡（人工声明）",
+        "obstacleState": "该方向已确认无障碍（人工声明）",
+        "observationTime": "synthetic-snapshot-E-1",
+        "state": "passable-asserted",
+        "evidenceRole": "synthetic-explicit-passage-assertion",
+        "reversePolicy": "仅存明确方向；缺少反向记录不等于反向不可达"
+      }
+    ],
+    "rules": {
+      "id": "R02",
+      "version": "D03-external-1.0",
+      "name": "D03外部六项操作规则",
+      "geometry": "二维简单有效多边形；同一层位、坐标系、米制；未定尺度不算面积。集合并集去重，子集检查后除完整声明范围。",
+      "enclosure": "只按声明层位的逐段实体线长；扣门洞，开放廊不因有盖计为实体。未知时停算全周比。",
+      "entry": "唯一同一折线参照，中心为起止里程均值；不使用弦中点。",
+      "access": "仅有证据的同情境、明确方向、完整两端与via；最少跨界次数限已知外部子图，不是步行距离或全宅最短。",
+      "use": "用途原值归空间，多值不重复计空间；类型层主张不得赋予具名空间。",
+      "classification": "E例含过渡廊，不套R01四侧类别；不自动新增地方类型。"
+    },
+    "comparisons": [
+      {
+        "id": "POS-E-C02-E-C01",
+        "subject": "E-C02",
+        "reference": "E-C01",
+        "axisFrom": "E-U01",
+        "meaning": "几何中心沿入口向内参照的位移；不是社会位序或通行串联"
+      }
+    ],
+    "pathRequests": [
+      {
+        "from": "E-P01",
+        "to": "E-C02",
+        "contextId": "E-walk-1"
+      },
+      {
+        "from": "E-C02",
+        "to": "E-P01",
+        "contextId": "E-walk-1"
+      }
+    ],
+    "typeLevelClaims": [
+      {
+        "text": "仅类型层的用途线索不能分配给具体空间",
+        "evidenceRole": "synthetic-counterexample-not-literature",
+        "appliesTo": "type-only",
+        "assignedToInstance": false
+      }
+    ]
+  }
+}

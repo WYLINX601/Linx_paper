@@ -1,0 +1,182 @@
+{
+  "scope": "单个合成案例的文件一致性、计算与5题推演核对；不代表真实样本验证",
+  "checks": [
+    {
+      "name": "节点ID唯一",
+      "pass": true,
+      "detail": 40
+    },
+    {
+      "name": "关系ID唯一",
+      "pass": true,
+      "detail": 166
+    },
+    {
+      "name": "关系端点存在",
+      "pass": true,
+      "detail": 166
+    },
+    {
+      "name": "关系类型均有基础定义",
+      "pass": true,
+      "detail": 9
+    },
+    {
+      "name": "每条关系有有效证据",
+      "pass": true,
+      "detail": "合成证据EV01—EV08"
+    },
+    {
+      "name": "材料标签字典一致",
+      "pass": true,
+      "detail": "木、砖、灰泥、陶瓦"
+    },
+    {
+      "name": "材料标签来源可追溯",
+      "pass": true,
+      "detail": "全部来自EV01合成设定，非实测"
+    },
+    {
+      "name": "合成证据不冒充实测",
+      "pass": true,
+      "detail": "8份同源合成记录"
+    },
+    {
+      "name": "直接通行边有界面和情境",
+      "pass": true,
+      "detail": "5组双向关系；不将普通有向边自动视为双向"
+    },
+    {
+      "name": "窗不生成步行通道",
+      "pass": true,
+      "detail": "I06—I10不属于步行通道"
+    },
+    {
+      "name": "开放分界无需实体墙",
+      "pass": true,
+      "detail": "I01堂屋—前廊、I04前廊—前院"
+    },
+    {
+      "name": "门窗开口位于宿主墙",
+      "pass": true,
+      "detail": "8处开口，2处无墙开放分界"
+    },
+    {
+      "name": "坡度计算可复现",
+      "pass": true,
+      "detail": {
+        "slopeDeg": 29.05460409907714
+      }
+    },
+    {
+      "name": "含挑檐屋面面积可复现",
+      "pass": true,
+      "detail": {
+        "areaM2": 103.77995182114896
+      }
+    },
+    {
+      "name": "檐口与承托线分开",
+      "pass": true,
+      "detail": {
+        "actualEaveZ": 3.2666666666666666,
+        "wallAxisSupportZ": 3.6
+      }
+    },
+    {
+      "name": "方位距离按统一口径",
+      "pass": true,
+      "detail": {
+        "S02": [
+          1.6,
+          4.35
+        ],
+        "S03": [
+          8.0,
+          4.35
+        ]
+      }
+    },
+    {
+      "name": "冻结文件未更改：合成真值.json",
+      "pass": true,
+      "detail": "ae891389caa9b7468fd00344756a2bc85a1438b35ef37f43d2b26d267a3962b8"
+    },
+    {
+      "name": "冻结文件未更改：遮蔽输入.json",
+      "pass": true,
+      "detail": "6de304fed4e0e3a83fe03a12dee83bb2cb15e4487de8acb703461a13d3167aa1"
+    },
+    {
+      "name": "推演题目无缺漏",
+      "pass": true,
+      "detail": [
+        "P1",
+        "P2",
+        "P3",
+        "P4",
+        "P5"
+      ]
+    },
+    {
+      "name": "P1：几何推导",
+      "pass": true,
+      "detail": {
+        "absoluteErrorDeg": 4.099999998175008e-06,
+        "usedToolCalculation": true
+      }
+    },
+    {
+      "name": "P2：关系推导",
+      "pass": true,
+      "detail": {
+        "from": "S01",
+        "to": "S03",
+        "relation": "直接通行",
+        "interface": "I03",
+        "wall": "W05",
+        "interface_location": "门洞",
+        "scenario": "正常成人步行；设定无阻挡",
+        "direction": "双向"
+      }
+    },
+    {
+      "name": "P3：有据标签提取",
+      "pass": true,
+      "detail": [
+        "材质_木",
+        "材质_陶瓦"
+      ]
+    },
+    {
+      "name": "P4：不足信息保留未知",
+      "pass": true,
+      "detail": {
+        "status": "unknown",
+        "notScoredAsIncorrectForAbstaining": true
+      }
+    },
+    {
+      "name": "P5：不足信息保留未知",
+      "pass": true,
+      "detail": {
+        "status": "unknown",
+        "notScoredAsIncorrectForAbstaining": true
+      }
+    }
+  ],
+  "summary": {
+    "passed": 24,
+    "total": 24,
+    "allPassed": true,
+    "blindPilot": {
+      "questions": 5,
+      "deterministicDerivations": 2,
+      "evidenceExtraction": 1,
+      "underdeterminedAbstentions": 2,
+      "geometryAbsoluteErrorDeg": 4.099999998175008e-06,
+      "interpretation": "本次仅检查一个明确给定信息的5题流程，不估计模型性能；通行题基本是规则展开，不是新建筑事实发现。"
+    },
+    "reviewLimit": "程序核对不代替图纸视觉检查、建筑专业审查或现场校验。"
+  }
+}

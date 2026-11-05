@@ -1,0 +1,14 @@
+{
+  "normal_compile_payload_equals_frozen": true,
+  "full_analysis_equals_frozen": true,
+  "model_json_roundtrip": true,
+  "payload_json_roundtrip": true,
+  "full_analysis_json_roundtrip": true,
+  "actual_lpg_reversed_full_analysis_equal": true,
+  "EV09_entire_record_preserved_and_version_1_1": true,
+  "historical_EV09_source_relations_preserved_except_current_assertion_version": true,
+  "all_old_evidenceRole_preserved": true,
+  "only_five_new_edges_exact_endpoints_and_type": true,
+  "no_added_nodes": true,
+  "no_forbidden_module_imports": true
+}

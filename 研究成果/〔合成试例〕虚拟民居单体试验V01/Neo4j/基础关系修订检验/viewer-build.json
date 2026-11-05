@@ -1,0 +1,27 @@
+{
+  "source": "genuine-verified-Neo4j-readback",
+  "modelSHA256": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+  "htmlSHA256": "cadd36f352036ba1156888d1c2419c459259f4836dd6f397b1a87575b76c5ae5",
+  "templateSHA256": "aff376f6207c833634e6e85b076a34516b75fa5f6b09c8ea940966acd726188f",
+  "documentsSHA256": {
+    "D01": "4bca6dfe73fac7de8df5f623a05898240b85f2f678016e39698ba9d052522a53",
+    "D03": "b939414108d68a96e7e7432878c9a021db4ea68957192dab5caaea937150a81b",
+    "D04": "4f2170635019e568a8167294dc5c4185a00b73728cdad46b42bbc9edfa9e0bef",
+    "D05": "bc1fab2bc8de8225d8f1322fabb80107cc427e08ee86a062ccc5446b948f20fb",
+    "D06": "8a34203da8d436089836d396b8faae62bdf6b489eb073b755a5eeef78979e3cc"
+  },
+  "tasks": [
+    "D01",
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06",
+    "来源与阅读履历",
+    "D04",
+    "D05",
+    "D06"
+  ],
+  "output": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-fix-iwt59djh/candidates/研究成果/〔合成试例〕虚拟民居单体试验V01/审核视图.html"
+}

@@ -1,0 +1,43 @@
+{
+  "date": "2026-10-12",
+  "reason": "用户确认连续图文表，保留此前33页布局及可恢复来源",
+  "files": [
+    {
+      "original_path": "outputs/研究对象候选导师浏览版/研究对象候选汇总-导师浏览版.html",
+      "archive_path": "archive/2026-10-12-候选浏览版紧凑排版/研究对象候选汇总-导师浏览版.html",
+      "sha256": "8476d7ff4373fdd60c405ae938c9b96a502ca70035126c31bb2dedb8f395a221",
+      "archived_sha256": "8476d7ff4373fdd60c405ae938c9b96a502ca70035126c31bb2dedb8f395a221"
+    },
+    {
+      "original_path": "outputs/研究对象候选导师浏览版/研究对象候选汇总-导师浏览版.pdf",
+      "archive_path": "archive/2026-10-12-候选浏览版紧凑排版/研究对象候选汇总-导师浏览版.pdf",
+      "sha256": "726370e3d048b8169f139e095789a11d87bad6f4c3777b2bacf661f3ef0612f3",
+      "archived_sha256": "726370e3d048b8169f139e095789a11d87bad6f4c3777b2bacf661f3ef0612f3"
+    },
+    {
+      "original_path": "研究对象候选汇总-导师浏览版.md",
+      "archive_path": "archive/2026-10-12-候选浏览版紧凑排版/研究对象候选汇总-导师浏览版-33页.md",
+      "sha256": "03480a0b2ba7c5cf12bcee8e3ab7b62cd6f80439f6366c257b4c1fe899ff5ae9",
+      "archived_sha256": "d7aafe7a6c237eb96106990d77668b62d848b485f50c3989b4468aecc5ad8ae9"
+    },
+    {
+      "original_path": "outputs/研究对象候选导师浏览版/build.py",
+      "archive_path": "archive/2026-10-12-候选浏览版紧凑排版/build.py",
+      "sha256": "bfc1aaf687addfd96c954360351ca73ae94c4dcc5e5821a3fd8805ac434c873f",
+      "archived_sha256": "bfc1aaf687addfd96c954360351ca73ae94c4dcc5e5821a3fd8805ac434c873f"
+    },
+    {
+      "original_path": "outputs/研究对象候选导师浏览版/展示内容.tsv",
+      "archive_path": "archive/2026-10-12-候选浏览版紧凑排版/展示内容.tsv",
+      "sha256": "8d98c3af519f896e87210779bbe8f95de3dc1887278e08f47878337c9c2df9ee",
+      "archived_sha256": "8d98c3af519f896e87210779bbe8f95de3dc1887278e08f47878337c9c2df9ee"
+    },
+    {
+      "original_path": "outputs/研究对象候选导师浏览版/核对记录.json",
+      "archive_path": "archive/2026-10-12-候选浏览版紧凑排版/核对记录.json",
+      "sha256": "052c0bfad1ce4fe4114f226ae2df9dde5bcbaf496928d94f6f502f6096558a3f",
+      "archived_sha256": "052c0bfad1ce4fe4114f226ae2df9dde5bcbaf496928d94f6f502f6096558a3f"
+    }
+  ],
+  "markdown_changes": "仅增加归档提示、归档状态和修复相对链接。"
+}

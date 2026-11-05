@@ -1,0 +1,41 @@
+--- reviewed/analyze.py
++++ published/analyze.py
+@@ -25,7 +25,7 @@
+  return issues,datums[0]['target'] if len(datums)==1 else None
+ 
+ def analyze(graph):
+- N={n['properties']['uid']:n for n in graph['nodes']};R=graph['relationships'];M=json.loads(N['V01:SOURCE']['properties']['rawModelJson']);contract=M['analysisContract'];result={'version':VERSION,'sourceModelSha256':N['V01:SOURCE']['properties']['sourceModelSha256'],'evidenceStatus':'synthetic-only','D01':{},'D03':{}}
++ N={n['properties']['uid']:n for n in graph['nodes']};R=sorted(graph['relationships'],key=lambda r:r['properties']['uid']);M=json.loads(N['V01:SOURCE']['properties']['rawModelJson']);contract=M['analysisContract'];result={'version':VERSION,'sourceModelSha256':N['V01:SOURCE']['properties']['sourceModelSha256'],'evidenceStatus':'synthetic-only','D01':{},'D03':{}}
+  dims=[]
+  for id in contract['D01']['objects']:
+   n=N[PREFIX+id];p=n['properties'];fields=['widthM','depthM','groundZM']+(['eaveZM','ridgeZM'] if 'Building' in n['labels'] else [])
+
+--- reviewed/run_graph.py
++++ published/run_graph.py
+@@ -66,7 +66,14 @@
+  w=Path(args.workspace);out=w/'db';model_path=Path(args.model);m,p=compile_model(model_path);model_sha=p['sourceModelSha256'];require(model_sha==args.model_sha,'Source hash differs');baseline=json.loads((out/'before/graph.json').read_text());old,untouched=split(baseline);preserve_original_geometry(m,old)
+  stage=out/'execution-stage.json';binding_sha={'modelSHA256':model_sha,'payloadSHA256':digest(p),'compilerSHA256':code_hash(),'beforeFingerprint':digest(baseline)}
+  if stage.exists():
+-  st=json.loads(stage.read_text());require(all(st[k]==v for k,v in binding_sha.items()),'Execution version conflict');require(args.mode=='verify','Stage exists; read back instead of resending')
++  st=json.loads(stage.read_text());require(args.mode=='verify','Stage exists; read back instead of resending')
++  require(all(st[k]==v for k,v in binding_sha.items() if k!='compilerSHA256'),'Execution source/payload/baseline conflict')
++  if st['compilerSHA256']!=binding_sha['compilerSHA256']:
++   require(args.verification_upgrade,'Verifier code changed; explicit audited upgrade receipt required')
++   upgrade=json.loads(Path(args.verification_upgrade).read_text())
++   require(upgrade['scope']=='read-only-verifier-upgrade' and upgrade['oldCompilerSHA256']==st['compilerSHA256'] and upgrade['newCompilerSHA256']==binding_sha['compilerSHA256'],'Verifier upgrade mismatch')
++   require(upgrade['modelSHA256']==model_sha and upgrade['payloadSHA256']==binding_sha['payloadSHA256'] and upgrade['beforeFingerprint']==binding_sha['beforeFingerprint'],'Verifier upgrade source conflict')
++   require(set(upgrade['changedFiles'])=={'analyze.py','run_graph.py'},'Unexpected verifier upgrade scope')
+  save(w/'generated/payload.json',p);save(w/'generated/queries.json',queries());save(w/'generated/query-params.json',query_params());(w/'generated/replace.cypher').write_text(REPLACE)
+  async with connected(out) as call:
+   current,_=await snapshot(call,out/'current');schema=json.loads((out/'current/schema.json').read_text());oldschema=json.loads((out/'before/schema.json').read_text());require(schema==oldschema,'Schema changed')
+@@ -114,8 +121,9 @@
+   require(answers['Q13_legacy_topology']==[{'type':'AXIS_JOINS','count':12},{'type':'ENVELOPE_INTERSECTS','count':4},{'type':'SHARES_BOUNDARY','count':1}],'Legacy topology changed')
+   analysis=analyze(active);require(analysis==analyze(p),'Readback analysis differs');save(out/'analysis-results.json',analysis)
+   report={'status':'verified-unified-synthetic-prototype-new-details-await-user-review',**binding_sha,'at':datetime.datetime.now().astimezone().isoformat(),'exactNodes':len(active['nodes']),'exactRelationships':len(active['relationships']),'originalV01NodeIdentitiesPreserved':sum(n['key'].startswith('V01:') for n in old['nodes']),'allOriginalV01GeometriesUnchanged':True,'legacyTrialNodesActive':0,'nativeTypes':'verified','constraintsIndexesUnchanged':True,'preservedOtherGraphFingerprint':digest(remaining),'queryCounts':{k:len(v) for k,v in answers.items()},'analysisItems':list(analysis['D03']),'empiricalValidity':'not-validated','restoreRehearsed':False}
++  if args.mode=='verify' and stage.exists() and st['compilerSHA256']!=binding_sha['compilerSHA256']:report.update(executionCompilerSHA256=st['compilerSHA256'],verificationCodeUpgrade=upgrade)
+   save(out/'verification.json',report)
+   if stage.exists():st=json.loads(stage.read_text());st.update(stage='verified',verificationFingerprint=digest(report));save(stage,st)
+   print(json.dumps(report,ensure_ascii=False))
+ if __name__=='__main__':
+- p=argparse.ArgumentParser();p.add_argument('--workspace',required=True);p.add_argument('--model',required=True);p.add_argument('--model-sha',required=True);p.add_argument('--mode',choices=['preflight','write','verify'],required=True);p.add_argument('--authorization');asyncio.run(main(p.parse_args()))
++ p=argparse.ArgumentParser();p.add_argument('--workspace',required=True);p.add_argument('--model',required=True);p.add_argument('--model-sha',required=True);p.add_argument('--mode',choices=['preflight','write','verify'],required=True);p.add_argument('--authorization');p.add_argument('--verification-upgrade');asyncio.run(main(p.parse_args()))

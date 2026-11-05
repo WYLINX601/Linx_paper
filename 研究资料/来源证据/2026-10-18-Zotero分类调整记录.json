@@ -1,0 +1,369 @@
+{
+  "date": "2026-10-18",
+  "groups": [
+    [
+      "01 景宁与畲族研究",
+      [
+        "传统民居与营造",
+        "村落与聚落",
+        "文化与装饰",
+        "保护与当代设计"
+      ]
+    ],
+    [
+      "02 建筑风貌与理论",
+      [
+        "风貌概念与认知",
+        "类型学与形态",
+        "地域性与在地性",
+        "风貌形成与演变"
+      ]
+    ],
+    [
+      "03 风貌特征研究方法",
+      [
+        "要素识别与指标体系",
+        "特征提取与编码",
+        "量化评价与分类",
+        "比较分析与地域分异",
+        "特征图谱与谱系"
+      ]
+    ],
+    [
+      "04 数字采集与资料组织",
+      [
+        "田野调查与建筑测绘",
+        "摄影测量与三维建模",
+        "数据库与信息模型"
+      ]
+    ],
+    [
+      "05 知识图谱与语义组织",
+      [
+        "本体与语义体系",
+        "图谱构建与质量评价",
+        "知识查询与解释应用"
+      ]
+    ],
+    [
+      "06 AI与计算方法",
+      [
+        "视觉识别与特征学习",
+        "生成式设计",
+        "大模型与上下文"
+      ]
+    ],
+    [
+      "07 保护更新与规划实践",
+      [
+        "民居与村落",
+        "街区与城镇",
+        "政策与规范"
+      ]
+    ]
+  ],
+  "collectionKeys": {
+    "1": "EILBRVMC",
+    "2": "C7RYV4RJ",
+    "3": "38BCITMZ",
+    "4": "7ZLJFPT5",
+    "5": "B89X6BM7",
+    "6": "T2JV3SZZ",
+    "7": "6M98AFBK",
+    "1.1": "38RES3Y8",
+    "1.2": "9YP5T42N",
+    "1.3": "DAKLZVU6",
+    "1.4": "X6LEVVYA",
+    "2.1": "Y7VFSVXJ",
+    "2.2": "N7S4EHIA",
+    "2.3": "PGCSYBMT",
+    "2.4": "QUNYIW59",
+    "3.1": "2QBGPKGV",
+    "3.2": "2MILVR4R",
+    "3.3": "IYQSW23L",
+    "3.4": "7LVSXF45",
+    "3.5": "M9Q5BNER",
+    "4.1": "JWCYVJKZ",
+    "4.2": "JMYSLMY3",
+    "4.3": "GM3FQTUK",
+    "5.1": "G54FALCQ",
+    "5.2": "AV6BSHWI",
+    "5.3": "69JM5HRB",
+    "6.1": "GK6Y84WH",
+    "6.2": "V8XP4QQA",
+    "6.3": "E774X8R2",
+    "7.1": "3QXA8RGB",
+    "7.2": "RKM7QQLV",
+    "7.3": "596KBB96"
+  },
+  "assignments": {
+    "1.1": [
+      "ZWDJJE99",
+      "ETTYATRB",
+      "MTHKHYEF",
+      "EUX6U8YJ",
+      "83W7CJW2",
+      "BUUUUWRW",
+      "VRWLBN8X"
+    ],
+    "1.2": [
+      "3IJX2PUQ",
+      "6NQGHZQC",
+      "B5SDQYE2",
+      "PIMB8MAY",
+      "T8PH8Q5D",
+      "I3VDTFJC"
+    ],
+    "1.3": [
+      "FZKMT53U",
+      "SMUB4I7F",
+      "5WC9FHTZ",
+      "7KCJR9EB",
+      "3ZLU96M4",
+      "T8PH8Q5D"
+    ],
+    "1.4": [
+      "VA5UTB9Y",
+      "5ADYPAF3",
+      "XTFALTFH",
+      "2W4EEPYU",
+      "ETTYATRB",
+      "MTHKHYEF",
+      "VCIM9KVW",
+      "AAPV5P6L",
+      "84LBLY2H",
+      "U7EKYEJZ",
+      "VSES7L3M",
+      "6NQGHZQC",
+      "B5SDQYE2"
+    ],
+    "2.1": [
+      "Q7HR6YYW",
+      "UWGQ2XM4",
+      "EQWFCRIH"
+    ],
+    "2.2": [
+      "EBLCUSUI",
+      "88DFH34N",
+      "3528BMIT",
+      "FSS4JRN4",
+      "92HEGM9S",
+      "NQD9DRI3",
+      "QWEES4NZ",
+      "YTSWPLNA",
+      "C4R7XSWK",
+      "3HYH5DQQ",
+      "P2KHZ7AI",
+      "26QUPIXE",
+      "T3F2ERJG",
+      "4ZB238BG",
+      "KMJP5QXR",
+      "N27YJCKR"
+    ],
+    "2.3": [
+      "CG9ZWBFG",
+      "C55R5NJT",
+      "9SR5XZDK",
+      "REZX5WCU",
+      "JJWLPEX5",
+      "R25FT9QF",
+      "EQWFCRIH",
+      "BW4WU9CG",
+      "RYMCY25R",
+      "CEZ9X7KN"
+    ],
+    "2.4": [
+      "A76UCHIN",
+      "JM5GAGHD",
+      "BLDC2BPA",
+      "YW6DMA9K",
+      "92HEGM9S",
+      "Q4S9U5JR"
+    ],
+    "3.1": [
+      "AFGRLCLH",
+      "EAEYA3FH",
+      "CIC2JA6P",
+      "7G9GV372",
+      "NID934IE",
+      "DLALJDQC",
+      "6K9Q8IB4"
+    ],
+    "3.2": [
+      "DMFXW3FX",
+      "7G9GV372",
+      "VLT986TI",
+      "CIC2JA6P"
+    ],
+    "3.3": [
+      "H3VYKRXE",
+      "KXJIQPBK",
+      "RGM7WYJS",
+      "EITNB9TI",
+      "QH58JJUV",
+      "EB775TXI",
+      "5MCG5EBM",
+      "GR3UDRQU",
+      "UTYUW66Z",
+      "D3LG8TDM",
+      "YIFE5HBS",
+      "4ZB238BG"
+    ],
+    "3.4": [
+      "BLDC2BPA",
+      "YW6DMA9K",
+      "LYPTPTGS",
+      "EITNB9TI",
+      "N27YJCKR"
+    ],
+    "3.5": [
+      "H5INWQQ7",
+      "FGLF9INT",
+      "5MAP72E6",
+      "6K9Q8IB4",
+      "DLALJDQC",
+      "BQZMUMA6"
+    ],
+    "4.1": [
+      "QF58FNZ7",
+      "NID934IE"
+    ],
+    "4.2": [
+      "G7IK8ML5",
+      "QF58FNZ7",
+      "JXLK36G8",
+      "VT2P8MQX",
+      "9Y6QB8TQ",
+      "PZ3CR96H"
+    ],
+    "4.3": [
+      "M2YJ4CAL",
+      "6MPNXLEX",
+      "QX6HSHFX",
+      "6QHD96WU",
+      "7DN6GEAX",
+      "HWB76KX6",
+      "NID934IE",
+      "NADELL9Y"
+    ],
+    "5.1": [
+      "DMFXW3FX",
+      "KMJP5QXR"
+    ],
+    "5.2": [
+      "VPJ5ASSK",
+      "PZ3CR96H",
+      "HWB76KX6"
+    ],
+    "5.3": [
+      "VPJ5ASSK",
+      "HWB76KX6",
+      "T2MG7DQM"
+    ],
+    "6.1": [
+      "YIRAZ67L",
+      "EITNB9TI",
+      "RGM7WYJS",
+      "QH58JJUV",
+      "UTYUW66Z",
+      "VLT986TI",
+      "NADELL9Y"
+    ],
+    "6.2": [
+      "SF8ENWTJ",
+      "LPDREZUV",
+      "3QB2NZGJ",
+      "K3SHSIBI",
+      "3IF89UU3",
+      "CEZ9X7KN",
+      "T2MG7DQM",
+      "U5XSDGI5"
+    ],
+    "6.3": [
+      "B792XRM8",
+      "VPJ5ASSK"
+    ],
+    "7.1": [
+      "FSS4JRN4",
+      "QWEES4NZ",
+      "C4R7XSWK",
+      "G7IK8ML5",
+      "NUB7I8PP",
+      "N39ZQQNA",
+      "6QQU55GU",
+      "HM77QC9D",
+      "KXJIQPBK",
+      "ETTYATRB",
+      "MTHKHYEF",
+      "2W4EEPYU",
+      "6NQGHZQC",
+      "B5SDQYE2",
+      "FHJJGCY7",
+      "7DN6GEAX",
+      "GR3UDRQU",
+      "I6HME2V4",
+      "VCIM9KVW"
+    ],
+    "7.2": [
+      "IF9S2DJA",
+      "5H6SC7IP",
+      "UNRAN74G",
+      "7U3XYUVI",
+      "L35I4UAW",
+      "PRX49B5D",
+      "YJDNDHHY",
+      "SJMTHHRT",
+      "94ZNJZ3V",
+      "DQHQFAM9",
+      "GCNGR3VF",
+      "YJGPSHDL",
+      "B42UNDDD",
+      "Q4S9U5JR",
+      "7U53BE5I",
+      "XVQPWASG",
+      "LHF5NT5N",
+      "3HYH5DQQ",
+      "RYUXJIS9",
+      "84LBLY2H",
+      "U7EKYEJZ",
+      "VSES7L3M"
+    ],
+    "7.3": [
+      "GTC8CA2K",
+      "CUTULEF5",
+      "QRSUI36Z"
+    ]
+  },
+  "coreCollection": "WWRSRPBQ",
+  "coreItems": [
+    "ZWDJJE99",
+    "ETTYATRB",
+    "83W7CJW2",
+    "5WC9FHTZ",
+    "6NQGHZQC",
+    "BUUUUWRW",
+    "7KCJR9EB",
+    "VRWLBN8X",
+    "PIMB8MAY",
+    "DMFXW3FX",
+    "AFGRLCLH",
+    "BLDC2BPA",
+    "7G9GV372",
+    "FGLF9INT",
+    "H5INWQQ7",
+    "NID934IE",
+    "M2YJ4CAL",
+    "PZ3CR96H",
+    "VPJ5ASSK",
+    "JXLK36G8"
+  ],
+  "legacyCollection": "CJKL755G",
+  "notClassified": [
+    "HUNY7SB8"
+  ],
+  "futureTopics": [
+    "04 数字采集与资料组织/数据质量与证据管理",
+    "05 知识图谱与语义组织/知识抽取与关联"
+  ],
+  "basis": "按题名、已有关键词和可用摘要整理，未据此修改阅读状态；疑似重复条目未合并。"
+}

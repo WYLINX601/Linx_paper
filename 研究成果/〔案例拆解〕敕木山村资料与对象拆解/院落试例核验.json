@@ -1,0 +1,870 @@
+{
+  "version": "0.3",
+  "status": "published_and_readback_verified",
+  "checked_at": "2026-11-03T17:10:15+08:00",
+  "source_sha256": "2fdd9a08f14f80aa725ed877d6e395c832ca13ce4ff25fb366f03dba87b8a399",
+  "source_inputs": [
+    {
+      "key": "PIW7KR8U",
+      "title": "浙江省丽水市景宁县敕木山村 国家历史文化名城研究中心历史街区调研",
+      "authors": [
+        "张云",
+        "都铭"
+      ],
+      "year": "2025",
+      "attachment": "N9ALJ8SM",
+      "pdf_sha256": "2b03a9666fef818846c9ab2ece55ab2fd246173e1d26d71bebe100249c9055ac",
+      "pages_read": [
+        1,
+        2
+      ],
+      "text_sha256": "89657f687b283f0487d948c69b6572965ab95bbce8dc4fe3a26090a4d056e8a7"
+    },
+    {
+      "key": "VQRBWRBF",
+      "title": "浙江畲族80年文化变迁——《浙江景宁县敕木山畲民调查记》回访调查",
+      "authors": [
+        "何孝辉"
+      ],
+      "year": "2012",
+      "attachment": "DAJ6JURK",
+      "pdf_sha256": "abc08e6dda9deb014edbae3bfc7932a7106bb567700ae300f1e093671b8280a5",
+      "pages_read": [
+        3,
+        4
+      ],
+      "text_sha256": "62b3987fc9a193d3b0972688e3b9c35e3d32954f0eea3fd11b9c6df85d3f239c"
+    }
+  ],
+  "reading_scope": "接续2026-11-02阅读：张云、都铭PDF1—2全文，何孝辉PDF3—4建筑相关部分；M008-F08新增看图，其余三图沿用前轮。2026-11-03完成中断恢复、呈现检查与发布。",
+  "independent_extraction": {
+    "task": "限定文献成果定向提取；不是重新审查作者成果或新版页面复核",
+    "model_observed": "gpt-6.1-sol",
+    "reasoning_requested": "medium",
+    "reasoning_verification": "启动参数；未从运行日志单独确认实际档位",
+    "exit_code": 0,
+    "input_hashes": {
+      "source-manifest.json": "453e18624d3097e3790554fba734b0a5ba5ef8bf9a2838546b126971dc52e8a6",
+      "PIW7KR8U-selected.txt": "89657f687b283f0487d948c69b6572965ab95bbce8dc4fe3a26090a4d056e8a7",
+      "VQRBWRBF-selected.txt": "62b3987fc9a193d3b0972688e3b9c35e3d32954f0eea3fd11b9c6df85d3f239c",
+      "extraction-query.txt": "c480f591ad1a13cfefa7ea03e6bbea74867fd78b971aff0c618a39b1808eacad"
+    },
+    "report_sha256": "db3951edb405afc58a32866cf9acb5ccfeb6d1f62f48baa615dbb6a5b90d82cc",
+    "report": "# 民居形制、院落与外部空间组织：既有成果提取\n\n来源：source-manifest.json；张云、都铭（2025）《浙江省丽水市景宁县敕木山村》两页全文提取文本；何孝辉（2012）《浙江畲族80年文化变迁——〈浙江景宁县敕木山畲民调查记〉回访调查》PDF第3—4页（印刷50—51页）。以下按篇保留作者描述，图注作为说明入口。\n\n## 一、张云、都铭（2025，PIW7KR8U）\n\n1. 溪沟统合的外部空间\n道路、公共空间、各户建筑与水池，以溪沟为依托形成树状组织。\n短原句：“都统一在溪沟形成的树状结构中。”\n定位：PDF1，§2首段。支撑图注：“宅旁阶梯、沟渠及挡墙1／2”“街巷与民居1／2”。\n\n2. 一字型民居\n传统民居多为一字型两层楼房，大多三至五开间，另有两座达到八开间。\n短原句：“多为一字型的两层楼房”。\n定位：PDF2，§3“村内传统民居形制简朴”段。支撑图注：“独栋一字型民居及条状前院”。\n\n3. 一字型民居组合成内院\n作者图注明确描述，一字型民居可以通过组合形成内院；可作为院落组合形式保存。\n短原句／支撑图注：“组合形成内院的一字型民居”。\n定位：PDF1图注；同页另有“民居建筑组团”图注。\n\n4. 朝东的条状前院及复合用途\n民居顺坡多为东西朝向，前后院狭长、平行建筑；朝东前院作为入口，用地紧张时兼设牲畜圈栏。\n短原句：“作为入口的前院也常设饲养牲畜的圈栏”。\n定位：PDF2，§3“顺应坡向”段。支撑图注：“独栋一字型民居及条状前院”。\n\n5. 朝西后院、厨房与水池\n后院常借岩壁或上层台地挡土墙围合，空间似天井；紧贴开敞厨房，以竹竿引山水入池，蓄水养鱼并供日常生活。\n短原句：“后院紧贴着开敞的厨房”。\n定位：PDF2，§3“顺应坡向”段。支撑图注：“一字型民居条状后院和鱼塘”。\n\n6. 从山水到梯田的用水小系统\n水入池后经宅院流出，汇入小水渠灌溉梯田。养鱼用于鉴定水质、防御危害，是文中明确归于村民的说法。\n短原句：“山-鱼池-建筑-水渠-梯田”；“据村民所述”。\n定位：PDF2，同上段。支撑图注：“一字型民居条状后院和鱼塘”，说明其中后院、水池环节。\n\n7. 蓝姓族长的四合院\n作者另记村内较低处一栋汉族风格四合院，曾为蓝姓族长居所，作为同篇具名例子保留。\n短原句：“一栋汉族风格的四合院建筑”。\n定位：PDF2，§3“村内传统民居形制简朴”段。支撑图注：“蓝姓族长的四合院民居”。\n\n## 二、何孝辉（2012，VQRBWRBF）\n\n8. 敕木山依山布局与房前院落\n作者描述敕木山房屋依陡坡因地而建，整体分布不规则，房前有院子者较少。\n短原句：“很少有人家房前有院子”。\n定位：PDF3／印刷50页，§（三）首段。该选段以正文支撑，无配套图注。\n\n9. 一长排形与间数配置\n作者记录房屋一般三间、五间或七间，称其样式为一长排形，并将间数多少联系于家庭财富和社会地位。同篇具名例子另记蓝村长家房屋及其“敕木山畲族民居1号”名称。\n短原句：“样式是一长排形”。\n定位：PDF4／印刷51页，页首续段及“在83年前”段。该选段无配套图注。\n\n10. 大张坑与东弄新村的布局例子\n大张坑房屋依山排列，布局相对规则，呈一排排、层层重叠；东弄新村建于公路旁，房屋一至五层。\n短原句：“排列布局相对规则”；“村寨建在公路旁边”。\n定位：PDF4／印刷51页，“相比敕木山村”段。该选段无配套图注。\n\n## 成果中心的组织方式\n以“形制称谓—院落组合—方向与用途—厨房水池及水流组织”为主线，每项直接附出处。\n两篇各自成组保留，具名例子随所属文献说明，不跨篇合并身份或裁决描述差异。\n图片挂接相应成果；局部观察进入图片说明，不替代作者的整体认识。\n",
+    "main_session_selection": "采用本例形制、院落与用水相关成果；村落总体溪沟树状格局及其他村比较保留在原来源，本轮不扩展。"
+  },
+  "changes": [
+    "文献已有成果优先，类型可独立保存",
+    "局部观察转入图片说明，不再作主图节点",
+    "撤去无依据身份猜测与重复的未来建模条件",
+    "不同作者的原称谓和描述分别保留"
+  ],
+  "software": {
+    "build": {
+      "generator_version": "CMS-CY-render-2.0",
+      "source_sha256": "2fdd9a08f14f80aa725ed877d6e395c832ca13ce4ff25fb366f03dba87b8a399",
+      "counts": {
+        "findings": 11,
+        "nodes": 15,
+        "relations": 11,
+        "evidence": 15,
+        "views": 3,
+        "image_notes": 4,
+        "cases": 2
+      },
+      "checks": [
+        "node/relation IDs distinct",
+        "CY-E01: source exists",
+        "CY-E01: source aligned",
+        "CY-E01: page or declared continuation aligned",
+        "CY-E01: original references retained",
+        "CY-E01: exact page available",
+        "CY-E01: quotation matches exact PDF page",
+        "CY-E02: source exists",
+        "CY-E02: source aligned",
+        "CY-E02: page or declared continuation aligned",
+        "CY-E02: original references retained",
+        "CY-E02: exact page available",
+        "CY-E02: quotation matches exact PDF page",
+        "CY-E03: source exists",
+        "CY-E03: source aligned",
+        "CY-E03: page or declared continuation aligned",
+        "CY-E03: original references retained",
+        "CY-E03: exact page available",
+        "CY-E03: quotation matches exact PDF page",
+        "CY-E04: source exists",
+        "CY-E04: source aligned",
+        "CY-E04: page or declared continuation aligned",
+        "CY-E04: original references retained",
+        "CY-E04: exact page available",
+        "CY-E04: quotation matches exact PDF page",
+        "CY-E05: source exists",
+        "CY-E05: source aligned",
+        "CY-E05: page or declared continuation aligned",
+        "CY-E05: original references retained",
+        "CY-E05: exact page available",
+        "CY-E05: quotation matches exact PDF page",
+        "CY-E06: source exists",
+        "CY-E06: source aligned",
+        "CY-E06: page or declared continuation aligned",
+        "CY-E06: original references retained",
+        "CY-E06: exact page available",
+        "CY-E06: quotation matches exact PDF page",
+        "CY-E07: source exists",
+        "CY-E07: source aligned",
+        "CY-E07: page or declared continuation aligned",
+        "CY-E07: original references retained",
+        "CY-E07: exact page available",
+        "CY-E07: quotation matches exact PDF page",
+        "CY-E08: source exists",
+        "CY-E08: source aligned",
+        "CY-E08: page or declared continuation aligned",
+        "CY-E08: original references retained",
+        "CY-E08: exact page available",
+        "CY-E08: quotation matches exact PDF page",
+        "CY-E09: source exists",
+        "CY-E09: source aligned",
+        "CY-E09: page or declared continuation aligned",
+        "CY-E09: original references retained",
+        "CY-E09: exact page available",
+        "CY-E09: quotation matches exact PDF page",
+        "CY-E10: source exists",
+        "CY-E10: source aligned",
+        "CY-E10: page or declared continuation aligned",
+        "CY-E10: original references retained",
+        "CY-E10: exact page available",
+        "CY-E10: quotation matches exact PDF page",
+        "CY-E11: source exists",
+        "CY-E11: source aligned",
+        "CY-E11: page or declared continuation aligned",
+        "CY-E11: original references retained",
+        "CY-E11: exact page available",
+        "CY-E11: quotation matches exact PDF page",
+        "CY-E11: quotation matches exact PDF page",
+        "CY-E12: source exists",
+        "CY-E12: source aligned",
+        "CY-E12: page or declared continuation aligned",
+        "CY-E12: original references retained",
+        "CY-E12: exact page available",
+        "CY-E12: quotation matches exact PDF page",
+        "CY-E13: source exists",
+        "CY-E13: source aligned",
+        "CY-E13: page or declared continuation aligned",
+        "CY-E13: original references retained",
+        "CY-E13: exact page available",
+        "CY-E13: quotation matches exact PDF page",
+        "CY-E14: source exists",
+        "CY-E14: source aligned",
+        "CY-E14: page or declared continuation aligned",
+        "CY-E14: original references retained",
+        "CY-E14: exact page available",
+        "CY-E14: quotation matches exact PDF page",
+        "CY-E15: source exists",
+        "CY-E15: source aligned",
+        "CY-E15: page or declared continuation aligned",
+        "CY-E15: original references retained",
+        "CY-E15: exact page available",
+        "CY-E15: quotation matches exact PDF page",
+        "CMS-CY-T01: evidence valid",
+        "CMS-CY-T01: image exists",
+        "CMS-CY-T02: evidence valid",
+        "CMS-CY-T02: field sources explicit",
+        "CMS-CY-T02: field sources explicit",
+        "CMS-CY-T02: image exists",
+        "CMS-CY-T02: image exists",
+        "CMS-CY-T03: evidence valid",
+        "CMS-CY-T03: field sources explicit",
+        "CMS-CY-G01: evidence valid",
+        "CMS-CY-G01: image exists",
+        "CMS-CY-G02: evidence valid",
+        "CMS-CY-G02: image exists",
+        "CMS-CY-P01: evidence valid",
+        "CMS-CY-P01: field sources explicit",
+        "CMS-CY-P02: evidence valid",
+        "CMS-CY-P02: field sources explicit",
+        "CMS-CY-P02: field sources explicit",
+        "CMS-CY-P02: field sources explicit",
+        "CMS-CY-P02: image exists",
+        "CMS-CY-P03: evidence valid",
+        "CMS-CY-P03: field sources explicit",
+        "CMS-CY-P03: field sources explicit",
+        "CMS-CY-P03: field sources explicit",
+        "CMS-CY-P03: image exists",
+        "CMS-CY-P04: evidence valid",
+        "CMS-CY-P04: field sources explicit",
+        "CMS-CY-P05: evidence valid",
+        "CMS-CY-P06: evidence valid",
+        "CMS-CY-W01: evidence valid",
+        "CMS-CY-W02: evidence valid",
+        "CMS-CY-W02: field sources explicit",
+        "CMS-CY-W02: field sources explicit",
+        "CMS-CY-W02: image exists",
+        "CMS-CY-W04: evidence valid",
+        "CMS-CY-W05: evidence valid",
+        "CMS-CY-R11: evidence valid",
+        "CMS-CY-R12: evidence valid",
+        "CMS-CY-R05: evidence valid",
+        "CMS-CY-R06: evidence valid",
+        "CMS-CY-R07: evidence valid",
+        "CMS-CY-R08: evidence valid",
+        "CMS-CY-R09: evidence valid",
+        "CMS-CY-R13: evidence valid",
+        "CMS-CY-R14: evidence valid",
+        "CMS-CY-R15: evidence valid",
+        "CMS-CY-R16: evidence valid",
+        "CY-K01: evidence valid",
+        "CY-K01: image exists",
+        "CY-K02: evidence valid",
+        "CY-K02: image exists",
+        "CY-K03: evidence valid",
+        "CY-K03: image exists",
+        "CY-K03: image exists",
+        "CY-K04: evidence valid",
+        "CY-K04: image exists",
+        "CY-K04: image exists",
+        "CY-K05: evidence valid",
+        "CY-K05: image exists",
+        "CY-K06: evidence valid",
+        "CY-K06: image exists",
+        "CY-K07: evidence valid",
+        "CY-K07: image exists",
+        "CY-K08: evidence valid",
+        "CY-K08: image exists",
+        "CY-K09: evidence valid",
+        "CY-K09: image exists",
+        "CY-K10: evidence valid",
+        "CY-K11: evidence valid",
+        "CMS-O05: evidence valid",
+        "CMS-O05: image exists",
+        "CMS-O02: evidence valid",
+        "CMS-CY-T01: examples valid",
+        "CMS-CY-T02: examples valid",
+        "CMS-CY-T03: examples valid",
+        "CMS-CY-G01: examples valid",
+        "CMS-CY-G02: examples valid",
+        "CMS-CY-P01: examples valid",
+        "CMS-CY-P02: examples valid",
+        "CMS-CY-P03: examples valid",
+        "CMS-CY-P04: examples valid",
+        "CMS-CY-P05: examples valid",
+        "CMS-CY-P06: examples valid",
+        "CMS-CY-W01: examples valid",
+        "CMS-CY-W02: examples valid",
+        "CMS-CY-W04: examples valid",
+        "CMS-CY-W05: examples valid",
+        "CMS-O05: optional type valid",
+        "CMS-O02: optional type valid",
+        "CMS-CY-R11: endpoints valid",
+        "CMS-CY-R11: views valid",
+        "CMS-CY-R12: endpoints valid",
+        "CMS-CY-R12: views valid",
+        "CMS-CY-R05: endpoints valid",
+        "CMS-CY-R05: views valid",
+        "CMS-CY-R06: endpoints valid",
+        "CMS-CY-R06: views valid",
+        "CMS-CY-R07: endpoints valid",
+        "CMS-CY-R07: views valid",
+        "CMS-CY-R08: endpoints valid",
+        "CMS-CY-R08: views valid",
+        "CMS-CY-R09: endpoints valid",
+        "CMS-CY-R09: views valid",
+        "CMS-CY-R13: endpoints valid",
+        "CMS-CY-R13: views valid",
+        "CMS-CY-R14: endpoints valid",
+        "CMS-CY-R14: views valid",
+        "CMS-CY-R15: endpoints valid",
+        "CMS-CY-R15: views valid",
+        "CMS-CY-R16: endpoints valid",
+        "CMS-CY-R16: views valid",
+        "forms: complete display layout",
+        "forms: displayed endpoints valid",
+        "forms: initial selection valid",
+        "courtyard: complete display layout",
+        "courtyard: displayed endpoints valid",
+        "courtyard: initial selection valid",
+        "water: complete display layout",
+        "water: displayed endpoints valid",
+        "water: initial selection valid",
+        "all network records reachable",
+        "CY-K01: thematic placement valid",
+        "CY-K01: author attribution consistent",
+        "CY-K02: thematic placement valid",
+        "CY-K02: author attribution consistent",
+        "CY-K03: thematic placement valid",
+        "CY-K03: author attribution consistent",
+        "CY-K04: thematic placement valid",
+        "CY-K04: author attribution consistent",
+        "CY-K05: thematic placement valid",
+        "CY-K05: author attribution consistent",
+        "CY-K06: thematic placement valid",
+        "CY-K06: author attribution consistent",
+        "CY-K07: thematic placement valid",
+        "CY-K07: author attribution consistent",
+        "CY-K08: thematic placement valid",
+        "CY-K08: author attribution consistent",
+        "CY-K09: thematic placement valid",
+        "CY-K09: author attribution consistent",
+        "CY-K10: thematic placement valid",
+        "CY-K10: author attribution consistent",
+        "CY-K11: thematic placement valid",
+        "CY-K11: author attribution consistent",
+        "one maintained image note per material",
+        "M008-F08: original image reference valid",
+        "M008-F08: findings links valid",
+        "one maintained image note per material",
+        "M008-F09: original image reference valid",
+        "M008-F09: findings links valid",
+        "one maintained image note per material",
+        "M008-F10: original image reference valid",
+        "M008-F10: findings links valid",
+        "one maintained image note per material",
+        "M008-F12: original image reference valid",
+        "M008-F12: findings links valid",
+        "M008-F12: local observations separately attributed",
+        "all displayed images have maintained notes",
+        "retired observation and conjecture records absent from network",
+        "source alternatives preserved"
+      ],
+      "outputs": {
+        "院落与外部空间审核.html": "cfe07dd8c504680d94dc63d06cb19eba225b3b1a6c46ac77d513446705de39de",
+        "院落试例说明.md": "3abbb2d15d52266e435f7628d8c67052603f0fc8f2d440173a15d2a1932b5042"
+      },
+      "image_sha256": {
+        "M008-F08": "725845f309aac3513d2eac6d27486665aed908c75e3b4a4d2121583af484e979",
+        "M008-F09": "eda32e7c9dc73a1fd0201c1f8be6c4421b6c77f111f2fb236b579eabdc891394",
+        "M008-F10": "b2fb72b7da76e66d7941c87a1f6997ab5dc44a761753bd2c6090dc398c36035d",
+        "M008-F12": "6ccf7891018d8c8d4833cbc4e13b1c2c5e1ac65821861933cc36f920946295ee"
+      },
+      "template_sha256": "5648b1387410b6dfa0fb1ed13f503a560064b55b0e2d039f81b32978092bdba9"
+    },
+    "unit": {
+      "tests_run": 10,
+      "failures": [],
+      "errors": [],
+      "successful": true,
+      "source_sha256": "2fdd9a08f14f80aa725ed877d6e395c832ca13ce4ff25fb366f03dba87b8a399"
+    },
+    "browser": {
+      "source_sha256": "2fdd9a08f14f80aa725ed877d6e395c832ca13ce4ff25fb366f03dba87b8a399",
+      "checks": [
+        {
+          "view": "forms",
+          "id": "CMS-CY-R11",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CMS-CY-R12",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CMS-CY-T01",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CMS-CY-T02",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CMS-CY-T03",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CMS-CY-G01",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CMS-CY-G02",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CY-K01",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CY-K02",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CY-K03",
+          "ok": true
+        },
+        {
+          "view": "forms",
+          "id": "CY-K10",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-R05",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-R06",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-R07",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-R08",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-R09",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-P01",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-P02",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-P03",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-P04",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-P05",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CMS-CY-P06",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CY-K04",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CY-K05",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CY-K06",
+          "ok": true
+        },
+        {
+          "view": "courtyard",
+          "id": "CY-K11",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-R13",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-R14",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-R15",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-R16",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-W01",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-W02",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-P01",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-W04",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CMS-CY-W05",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CY-K07",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CY-K08",
+          "ok": true
+        },
+        {
+          "view": "water",
+          "id": "CY-K09",
+          "ok": true
+        }
+      ],
+      "overlaps": [],
+      "keyboard": true,
+      "zoom": 1.2,
+      "reset": 1,
+      "dialog": true,
+      "images": [
+        {
+          "name": "组合形成内院的一字型民居",
+          "loaded": true
+        },
+        {
+          "name": "独栋一字型民居及条状前院",
+          "loaded": true
+        },
+        {
+          "name": "一字型民居条状后院和鱼塘",
+          "loaded": true
+        },
+        {
+          "name": "蓝姓族长的四合院民居",
+          "loaded": true
+        },
+        {
+          "name": "组合形成内院的一字型民居",
+          "loaded": true
+        }
+      ],
+      "errors": [],
+      "mobile": {
+        "viewport": 390,
+        "document": 390,
+        "graph": 600,
+        "graphClient": 360,
+        "errors": []
+      }
+    },
+    "markdown": [
+      {
+        "title": "敕木山村资料与对象拆解",
+        "viewport": 1440,
+        "width": 1440,
+        "tables": [],
+        "images": [],
+        "bold": 1,
+        "file": "README-preview.html",
+        "source_sha256": "7570404492e995ac9790fcae0cb7b1ac56d0dda48e73dc043c437dcd05604007"
+      },
+      {
+        "title": "院落文献成果示例：生成与维护",
+        "viewport": 1440,
+        "width": 1440,
+        "tables": [],
+        "images": [],
+        "bold": 0,
+        "file": "instructions-preview.html",
+        "source_sha256": "abb06d5c489f831520cebbaf60d0f61e056fa75a63f4e0a1d82131fef3370bd2"
+      },
+      {
+        "title": "院落示例：成果提取重组前快照",
+        "viewport": 1440,
+        "width": 1440,
+        "tables": [],
+        "images": [],
+        "bold": 0,
+        "file": "archive-preview.html",
+        "source_sha256": "b420a6c6a57b5f3398ee0f8b95eef2ac3f53eb1748b7b534f2478088213e9dcf"
+      },
+      {
+        "title": "敕木山民居：形制与院落组织的文献成果",
+        "viewport": 1440,
+        "width": 1440,
+        "tables": [
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ]
+        ],
+        "images": [
+          {
+            "loaded": true,
+            "name": "组合形成内院的一字型民居"
+          },
+          {
+            "loaded": true,
+            "name": "独栋一字型民居及条状前院"
+          },
+          {
+            "loaded": true,
+            "name": "一字型民居条状后院和鱼塘"
+          },
+          {
+            "loaded": true,
+            "name": "蓝姓族长的四合院民居"
+          }
+        ],
+        "bold": 2,
+        "file": "note-preview.html",
+        "source_sha256": "3abbb2d15d52266e435f7628d8c67052603f0fc8f2d440173a15d2a1932b5042"
+      }
+    ],
+    "markdown_renderer": "markdown-it-py浏览器预览，非Obsidian原生渲染"
+  },
+  "scope": {
+    "unchanged": [
+      "主源除courtyard_pilot之外的所有字段",
+      "原32项资料索引",
+      "首轮主表及Excalidraw",
+      "D03",
+      "BOT双基准",
+      "V01",
+      "Zotero",
+      "Neo4j"
+    ],
+    "interpretation": "程序和提取质量检查不等于新的建筑实证或作者结论被独立验证"
+  },
+  "archive": "archive/2026-11-03-院落示例成果提取重组前/README.md",
+  "published_at": "2026-11-03T17:10:19+08:00",
+  "publication": {
+    "files": [
+      {
+        "path": "archive/2026-11-03-院落示例成果提取重组前/调整前原件.zip",
+        "sha256": "130a2552872969b773f9993f154aabcd9b1c32f286789d7b2c2f0a9fae3313c1"
+      },
+      {
+        "path": "archive/2026-11-03-院落示例成果提取重组前/院落与外部空间审核.html",
+        "sha256": "bd8ba6ffd659226bc8b08de336f26c51655aea65ee7aba02ef7adaca90c01f0d"
+      },
+      {
+        "path": "archive/2026-11-03-院落示例成果提取重组前/README.md",
+        "sha256": "b420a6c6a57b5f3398ee0f8b95eef2ac3f53eb1748b7b534f2478088213e9dcf"
+      },
+      {
+        "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/拆解主源.json",
+        "sha256": "2fdd9a08f14f80aa725ed877d6e395c832ca13ce4ff25fb366f03dba87b8a399"
+      },
+      {
+        "path": "项目管理/敕木山资料拆解/generate_courtyard.py",
+        "sha256": "9ef3886ba0c002b3001ebd046f0467356224d66a123eac3f1681cbd8e58f0b39"
+      },
+      {
+        "path": "项目管理/敕木山资料拆解/courtyard_template.html",
+        "sha256": "5648b1387410b6dfa0fb1ed13f503a560064b55b0e2d039f81b32978092bdba9"
+      },
+      {
+        "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落与外部空间审核.html",
+        "sha256": "cfe07dd8c504680d94dc63d06cb19eba225b3b1a6c46ac77d513446705de39de"
+      },
+      {
+        "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "sha256": "3abbb2d15d52266e435f7628d8c67052603f0fc8f2d440173a15d2a1932b5042"
+      },
+      {
+        "path": "项目管理/敕木山资料拆解/院落试例生成说明.md",
+        "sha256": "abb06d5c489f831520cebbaf60d0f61e056fa75a63f4e0a1d82131fef3370bd2"
+      },
+      {
+        "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "sha256": "7570404492e995ac9790fcae0cb7b1ac56d0dda48e73dc043c437dcd05604007"
+      },
+      {
+        "path": "archive/README.md",
+        "sha256": "175ab434bbcb7d9b4d8391b32969ef9fa06dd3d1de8aa30e3a5cbefe86228399"
+      }
+    ],
+    "archive_originals_verified": 8,
+    "published_generator_rebuild_matches": true,
+    "scoped_link_checks": [
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落与外部空间审核.html"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/拆解主源.json"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例核验.json"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F08.png"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F09.png"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F10.png"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "研究资料/村落资料/敕木山/sources/2026-11-02/素材/M008-F12.png"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md",
+        "target": "archive/2026-11-03-院落示例成果提取重组前/README.md"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/拆解主表.md"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/素材与对象审核图.excalidraw.md"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/拆解主源.json"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/核验记录.json"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究资料/村落资料/敕木山/README.md"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "项目管理/敕木山资料拆解/generate_views.py"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "项目管理/敕木山资料拆解/素材审核图脚本.md"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落与外部空间审核.html"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例核验.json"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "archive/2026-11-03-院落示例成果提取重组前/README.md"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/拆解主源.json"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "项目管理/敕木山资料拆解/generate_courtyard.py"
+      },
+      {
+        "document": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+        "target": "项目管理/敕木山资料拆解/院落试例生成说明.md"
+      },
+      {
+        "document": "项目管理/敕木山资料拆解/院落试例生成说明.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/拆解主源.json"
+      },
+      {
+        "document": "项目管理/敕木山资料拆解/院落试例生成说明.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落与外部空间审核.html"
+      },
+      {
+        "document": "项目管理/敕木山资料拆解/院落试例生成说明.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例说明.md"
+      },
+      {
+        "document": "项目管理/敕木山资料拆解/院落试例生成说明.md",
+        "target": "项目管理/敕木山资料拆解/generate_courtyard.py"
+      },
+      {
+        "document": "项目管理/敕木山资料拆解/院落试例生成说明.md",
+        "target": "项目管理/敕木山资料拆解/courtyard_template.html"
+      },
+      {
+        "document": "项目管理/敕木山资料拆解/院落试例生成说明.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/院落试例核验.json"
+      },
+      {
+        "document": "项目管理/敕木山资料拆解/院落试例生成说明.md",
+        "target": "archive/2026-11-03-院落示例成果提取重组前/README.md"
+      },
+      {
+        "document": "archive/2026-11-03-院落示例成果提取重组前/README.md",
+        "target": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md"
+      },
+      {
+        "document": "archive/2026-11-03-院落示例成果提取重组前/README.md",
+        "target": "archive/2026-11-03-院落示例成果提取重组前/院落与外部空间审核.html"
+      },
+      {
+        "document": "archive/2026-11-03-院落示例成果提取重组前/README.md",
+        "target": "archive/2026-11-03-院落示例成果提取重组前/调整前原件.zip"
+      }
+    ]
+  }
+}

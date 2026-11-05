@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (s:V01 {uid:'V01:S06'}),(t:V01 {uid:'V01:ST01'}) RETURN s.uid AS space,t.uid AS street,labels(s) AS spaceLabels,labels(t) AS referenceLabels,s.geometryJson AS spaceGeometry,t.geometryJson AS streetGeometry,s.groundZM AS spaceLevel,s.geometryVersion AS spaceVersion,t.geometryVersion AS streetVersion",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"referenceLabels\": [\n      \"KGItem\",\n      \"Entity\",\n      \"Demo\",\n      \"V01\",\n      \"SpatialReference\",\n      \"StreetSegment\"\n    ],\n    \"space\": \"V01:S06\",\n    \"spaceGeometry\": \"{\\\"kind\\\":\\\"rect\\\",\\\"max\\\":[5.8,-4.92],\\\"min\\\":[3.8,-6.3],\\\"z\\\":0}\",\n    \"spaceLabels\": [\n      \"KGItem\",\n      \"Entity\",\n      \"Space\",\n      \"Demo\",\n      \"V01\",\n      \"Zone\",\n      \"ExternalTransition\"\n    ],\n    \"spaceLevel\": 0,\n    \"spaceVersion\": \"V01-unified-2.2\",\n    \"street\": \"V01:ST01\",\n    \"streetGeometry\": \"{\\\"centerline\\\":[[0,-6.8],[9.6,-6.8]],\\\"kind\\\":\\\"street_reference\\\",\\\"surfaceXY\\\":[0,-8.8,9.6,-8.8,9.6,-4.92,0,-4.92],\\\"surfaceZM\\\":0}\",\n    \"streetVersion\": \"V01-unified-2.2\"\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:13:52.290788+08:00"
+}

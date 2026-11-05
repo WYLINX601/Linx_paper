@@ -1,0 +1,41 @@
+{
+  "constraints": [
+    {
+      "labelsOrTypes": [
+        "KGItem"
+      ],
+      "name": "kgitem_uid_unique",
+      "properties": [
+        "uid"
+      ],
+      "type": "UNIQUENESS"
+    }
+  ],
+  "indexes": [
+    {
+      "labelsOrTypes": null,
+      "name": "index_343aff4e",
+      "properties": null,
+      "state": "ONLINE",
+      "type": "LOOKUP"
+    },
+    {
+      "labelsOrTypes": null,
+      "name": "index_f7700477",
+      "properties": null,
+      "state": "ONLINE",
+      "type": "LOOKUP"
+    },
+    {
+      "labelsOrTypes": [
+        "KGItem"
+      ],
+      "name": "kgitem_uid_unique",
+      "properties": [
+        "uid"
+      ],
+      "state": "ONLINE",
+      "type": "RANGE"
+    }
+  ]
+}

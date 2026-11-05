@@ -1,0 +1,74 @@
+{
+  "blocking": true,
+  "findings": [
+    {
+      "id": "F01",
+      "severity": "high",
+      "issue": "阻塞：31条既有关系的证据角色被无授权统一改成synthetic_assignment，不满足旧语义字段仅升模型版本的要求。",
+      "evidence": [
+        "review-fixed/baseline/model-2.1.json:4139-4150：R030.evidenceRole=legacy-synthetic-passage-assertion；review-fixed/candidate/model.json:4656-4667变成synthetic_assignment。其他4条旧通行断言同样变化。",
+        "baseline/model-2.1.json:4765-4780：R058原为geometry_derived；candidate/model.json:5282-5297变成synthetic_assignment。",
+        "baseline/model-2.1.json:7158-7173、7470-7485、7574-7583与candidate/model.json:7840-7855、8152-8167、8256-8265：墙轴连接、墙柱包络、屋面表示关系原有synthetic_geometry_derived被改写。",
+        "review-output/evidence-role-drift.json记录全部31条：5条通行、R058、16条WJ/WC、9条RS关系。compile_model.py:209、run_graph.py:33会将这些候选属性实际投影和替换到既有关系。"
+      ],
+      "reproduction": "执行 /Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python -B review-output/independent_review.py；按关系ID比较基线与候选的properties.evidenceRole，得到31处非版本差异。候选payload与当前编译结果一致，因此不是仅文案差异。影响是丢失旧情境断言与几何派生的证据分层；其他actor/clearance等警告仍在，未据此推断候选声称真实通行有效。",
+      "recommendation": "从2.1按原ID恢复这31个evidenceRole；保留本轮5条新边及获授权的局部范围/来源版本修订。增加非授权既有属性差异白名单检查，不能只核对ID、几何和新增边数量。"
+    },
+    {
+      "id": "F02",
+      "severity": "high",
+      "issue": "阻塞：新增屋顶GeoJSON包含tuple，导致正式审核页构建对刚保存分析的读回一致性断言必然失败。",
+      "evidence": [
+        "review-fixed/tools/semantics.py:74：intersectionGeoJSON直接使用Shapely mapping(hit)，coordinates为tuple。",
+        "review-fixed/tools/run_graph.py:130与tools/mcp_client.py:8-9：分析通过json.dumps保存，tuple被序列化为JSON array。",
+        "review-fixed/tools/build_review.py:18-19：将新算出的Python分析对象与json.loads的结果直接比较；tuple不等于list。该断言位于审核页输出之前（31-35行）。",
+        "review-output/json-roundtrip-repro.json：fullAnalysisRoundtripEqual=false、normalizedEqual=true；具体路径/basicRelations/roofCoverage/0/intersectionGeoJSON/coordinates由tuple变为list。"
+      ],
+      "reproduction": "独立脚本用真实候选compile_model和analyze计算a，再实际执行a == json.loads(json.dumps(a))，得到false；JSON归一化两侧后为true。未导入或运行run_graph.py，也未执行完整build_review；该结果直接复现build_review.py:19的相等谓词，而不是伪造数据库输出。影响：即使数据库写入、逐属性读回及分析保存均正确，非preview审核视图构建仍会AssertionError。",
+      "recommendation": "在语义输出边界把GeoJSON转换为纯JSON类型，或在构建一致性比较时对两侧做相同JSON规范化；保留实际值一致性检查，勿简单删除断言。增加analyze结果JSON往返及正式构建路径的本地回归测试。"
+    },
+    {
+      "id": "F03",
+      "severity": "medium",
+      "issue": "逐对象应用义务检查存在可复现假通过：只计数，未完整验证界面两侧角色、成员端点及局部断言来源。",
+      "evidence": [
+        "review-fixed/tools/semantics.py:139仅要求MEMBER_OF_ZONE恰好一条，不验证目标为组织对象；142仅检查侧边条数与目标去重，不要求完整界面恰有一个side-a和一个side-b。",
+        "review-fixed/tools/semantics.py:121、127核对部分来源字段；未校验BOUNDARY_PARTICIPANT.assertionSourceUid。149-161仍为各对象生成declared-application-obligations-passed-not-completeness-proof。",
+        "review-fixed/tools/compile_model.py:171-172未补足MEMBER_OF_ZONE端点或I01两侧唯一角色检查；interface_qualification（107-135行）只覆盖D03指定entrances。",
+        "review-output/mutation-probes.json：C01成员边目标改为EV09、I01的side-b改为side-a，均被完整validate_model接受；对应实际LPG改值也被analyze接受。清空SRC-C01.fields、删除或改错BOUND-S04-C01.assertionSourceUid亦不报警。"
+      ],
+      "reproduction": "运行独立脚本，查看canonical_duplicate_I01_side_a_passes_validate_model与canonical_member_target_source_passes_validate_model，结果均为accepted/result=true；查看实际LPG的wrong_actual_interface_roles、wrong_actual_old_member_target与missing_actual_boundary_assertionSourceUid。所有反例仅改内存副本，保留rawModelJson不变。影响是应用义务通过标签强于实际检查；这不是要求证明全建筑语义完备。run_graph.py:118的精确投影读回能另外挡住偏离固定payload的数据库变更，因此不将这些反例冒称可绕过整套写入guard。",
+      "recommendation": "按现有V01角色检查端点类别和已声明组织归属；完整界面要求side-a/side-b各一个，部分界面保留I08—10的已知单侧例外；对局部断言核验来源UID、来源对象版本与定位，对列为必须的来源义务给出实际检查结果。继续允许I01/I04无宿主、B03独立、SOURCE零度。"
+    },
+    {
+      "id": "F04",
+      "severity": "low",
+      "issue": "非写入阻塞的审计包一致性问题：candidate/analysis.json仍是2.1分析，不能作为本候选2.2的验收结果。",
+      "evidence": [
+        "review-fixed/candidate/analysis.json:2-3声明V01-unified-2.1及基线SHA 34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a；文件无basicRelations。",
+        "review-fixed/tools/analyze.py:109-113会为本候选生成basicRelations；当前模型及payload SHA为dc34d566727682816cfe555c9840cb86d6f1672d7e14701d7b9c19a07e1e0cad。",
+        "review-output/verification.json：compiledPayloadMatchesFrozen=true，而analysisMatchesFrozen=false。"
+      ],
+      "reproduction": "独立脚本重新编译candidate/model.json、分析所得payload并以JSON类型归一化比较冻结candidate/analysis.json，仍不一致；缺少basicRelations及版本/SHA错配与F02的tuple/list问题彼此独立。build_review与run_graph会重新计算分析，未发现它们实际消费此旧文件。",
+      "recommendation": "在正式候选包中重新生成2.2分析；若该文件有意保留为2.1历史凭据，应显式标注历史角色并移出当前候选结果入口。不重放2.1迁移。"
+    }
+  ],
+  "checked": [
+    "manifest初末均33个受约束文件哈希匹配；manifest自身SHA初末一致。模型55节点，payload加SOURCE共56；285→290边，旧ID/端点/类型/原几何保持，EV09整个节点仍与基线相同且来源版本1.1。仅新增授权的5条BOUNDARY_PARTICIPANT。",
+    "按独立有限墙厚多边形减洞、圆柱解析截线和逐边段几何并集复算：声明局部范围无数值差异；S04南侧柱长0.14/0.28/0.28/0.14m，与S05端柱0.02m不同；S06北侧扣I05后0.2+0.2=0.4m；原R059—R073共15墙关系已定位。",
+    "对六空间全部24边段独立求并集，登记实体长度和重叠去重一致。四处端柱对相邻侧边另有几何截交，但在明确局部侧范围之外且不改变登记实体并集；不据此机械补边或扩大授权。",
+    "S04的W04/W05/W08/W09仅为几何候选，不新增边；未登记残余未被自动标开放。",
+    "RF01投影独立复算：S01—S04全覆盖，S05局部5.616平方米，S06交集0；保留指定屋顶与总体开敞、其他未登记顶盖的区别。",
+    "I04仅由两侧空间边界取得柱并裁切，独立得到三个2.92m平面段；未加柱宿主或将段长宣称步行净宽。S06/ST01交集2.76平方米且声明同层；无新增包含、合并或通行边。",
+    "56项对象清单含必须/可选/不适用/未知；预期I08—10外侧未知、I01/I04无墙宿主、B03独立、SOURCE零度均通过；未把清单当作完备性或实证有效性证明，另见F03检查强度缺口。",
+    "17个独立内存变异探针：实际LPG反序结果一致；删除实际boundaryBasis/柱geometryJson、改柱半径或局部缓存均拒绝，未回退rawModel；角色/来源薄弱处见F03。所提供test_semantics.py实际执行36测试全部通过，不能覆盖本轮发现。",
+    "静态检查run_graph.py：仅匹配既有节点更新属性、更新旧关系属性、创建严格5条边；无DELETE/DROP/MERGE/DDL。核查旧图属性/标签/端点/原生类型、来源SHA、冻结载荷、代码hash、预检和授权、write-started-no-retry、无盲目重试、无关图/模式/精确读回/查询/分析分层。仅静态评价，未执行Cypher。"
+  ],
+  "limits": [
+    "只读review-fixed及其manifest；唯一写入review-output。未读取Paper、数据库、配置/凭据、其他会话、技能或日志；未联网、未启动子agent、未调用Neo4j或Obsidian。Python及已安装依赖仅用于本地-B运行。",
+    "未执行或导入tools/run_graph.py，未调用mcp_client.connected；run_graph只作文本和AST检查。未验证真实Neo4j Cypher执行计划、写入事务或数据库现状；冻结候选不等于数据库已写状态。",
+    "未执行完整审核页构建，因为冻结包不含其必需的全部文档/数据库回执，且禁止执行run_graph依赖；F02由真实分析的JSON往返相等谓词直接复现。",
+    "tests/all-tests.json是随附历史声明，除实际运行的36个基础关系测试外，未宣称重新执行其他测试套件。",
+    "仅本合成V01限定切片/投影和应用义务检查，不做完整BOT/OWL推理、全部潜在建筑语义完备证明、真实净空/受力/通行或实证有效性检验；不把旧2.1发布欠项认作需重放旧迁移。"
+  ]
+}

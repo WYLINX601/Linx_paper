@@ -1,0 +1,58 @@
+[
+  {
+    "id": "duplicate-node",
+    "rejected": true
+  },
+  {
+    "id": "missing-endpoint",
+    "rejected": true
+  },
+  {
+    "id": "wrong-label",
+    "rejected": true
+  },
+  {
+    "id": "wrong-type",
+    "rejected": true
+  },
+  {
+    "id": "wrong-namespace",
+    "rejected": true
+  },
+  {
+    "id": "wrong-source",
+    "rejected": true
+  },
+  {
+    "id": "stale-old-node",
+    "rejected": true
+  },
+  {
+    "id": "stale-old-edge",
+    "rejected": true
+  },
+  {
+    "id": "null-uid",
+    "rejected": true
+  },
+  {
+    "id": "changed-property",
+    "rejected": true
+  },
+  {
+    "id": "wrong-native-type",
+    "rejected": true
+  },
+  {
+    "id": "equal-value-wrong-native-type",
+    "rejected": true
+  },
+  {
+    "id": "missing-actor",
+    "rejected": true
+  },
+  {
+    "id": "duplicate-use",
+    "rejected": true
+  }
+]

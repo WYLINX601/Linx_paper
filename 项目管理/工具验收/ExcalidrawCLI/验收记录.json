@@ -1,0 +1,118 @@
+{
+  "ready": true,
+  "vault": "Paper",
+  "pluginVersion": "2.29.1",
+  "drawing": "项目管理/工具验收/ExcalidrawCLI/CLI连通性验收.excalidraw.md",
+  "out": "项目管理/工具验收/ExcalidrawCLI/CLI连通性验收.png",
+  "elementCount": 5,
+  "idMap": {
+    "start": "oyRhSTIv",
+    "finish": "kxIbWAdj",
+    "connection": "VS1jmQOZ"
+  },
+  "revision": "disk:2m6-rg2v7e-9vf4eq",
+  "created": {
+    "apiVersion": 1,
+    "session": "oF9TQa8hQJZH9b3fDtiOmFFCYpXwpR01",
+    "command": "create",
+    "requestId": "demo-73e4a540-f4cf-4852-a146-c226f9b1c670-create",
+    "status": "completed",
+    "ok": true,
+    "persistence": "saved",
+    "mutation": "applied",
+    "warnings": [],
+    "target": {
+      "vault": "Paper",
+      "path": "项目管理/工具验收/ExcalidrawCLI/CLI连通性验收.excalidraw.md"
+    },
+    "data": {
+      "path": "项目管理/工具验收/ExcalidrawCLI/CLI连通性验收.excalidraw.md",
+      "createdIds": [
+        "oyRhSTIv",
+        "kxIbWAdj",
+        "VS1jmQOZ",
+        "yOPbbAR6",
+        "rvW7MSJW"
+      ],
+      "idMap": {
+        "start": "oyRhSTIv",
+        "finish": "kxIbWAdj",
+        "connection": "VS1jmQOZ"
+      },
+      "groupMap": {}
+    }
+  },
+  "exported": {
+    "apiVersion": 1,
+    "session": "oF9TQa8hQJZH9b3fDtiOmFFCYpXwpR01",
+    "command": "export",
+    "requestId": "demo-73e4a540-f4cf-4852-a146-c226f9b1c670-export",
+    "status": "completed",
+    "ok": true,
+    "persistence": "saved",
+    "mutation": "applied",
+    "warnings": [],
+    "target": {
+      "vault": "Paper",
+      "path": "项目管理/工具验收/ExcalidrawCLI/CLI连通性验收.excalidraw.md"
+    },
+    "revision": "disk:2m6-rg2v7e-9vf4eq",
+    "data": {
+      "path": "项目管理/工具验收/ExcalidrawCLI/CLI连通性验收.png",
+      "format": "png",
+      "bytes": 12281,
+      "width": 480,
+      "height": 100,
+      "source": "disk",
+      "theme": "light",
+      "revision": "disk:2m6-rg2v7e-9vf4eq",
+      "effectiveScale": 1,
+      "imageSummary": {
+        "original": 0,
+        "thumbnail": 0,
+        "placeholder": 0
+      },
+      "imageDecisions": {
+        "items": [],
+        "total": 0
+      },
+      "representationId": "preview:5c-p9ized-6tzjw7",
+      "sceneToPreview": {
+        "sceneBounds": {
+          "x": -10,
+          "y": -10,
+          "width": 480,
+          "height": 100
+        },
+        "output": {
+          "width": 480,
+          "height": 100
+        }
+      }
+    }
+  },
+  "checks": {
+    "completeDiskRead": true,
+    "boundLabels": true,
+    "arrowBindings": true,
+    "pngBytesVerified": true,
+    "visualInspection": "PNG inspected: Start/Finish, intact boxes and arrow, no evident clipping",
+    "existingResearchModified": false,
+    "liveRead": {
+      "viewId": "8a48eb4cc76c17fa",
+      "dirty": false,
+      "total": 5
+    },
+    "guiVisibleAcceptance": "not verified: CLI screenshots showed a different existing canvas",
+    "applyOnExistingDrawing": "not executed"
+  },
+  "records": [
+    "/Users/wangyuelin/.hermes/profiles/academic/state/obsidian-excalidraw-cli/Paper/03fe07c8b4cad318c3868ba21dbc6c05cd8ad6a5d962abd6de098ba7ea1d9fbd.json",
+    "/Users/wangyuelin/.hermes/profiles/academic/state/obsidian-excalidraw-cli/Paper/2a15e1303b510a123b26153b83c0db005ddc2817fec9b795e39306009832a831.json"
+  ],
+  "offlineTests": {
+    "passed": 25,
+    "failed": 0
+  },
+  "upstreamCommit": "41306ec5369a11c8cae877ba71c9baa461b6ead6"
+}

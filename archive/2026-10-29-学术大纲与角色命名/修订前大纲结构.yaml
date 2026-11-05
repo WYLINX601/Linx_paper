@@ -1,0 +1,396 @@
+schema_version: 1
+status: working-outline-not-final-manuscript
+scope: 当前工作大纲；章目从v0.6接续，结构化并不代表旧题名已对齐现行研究定位
+positioning_source: context/PROJECT_CONTEXT.md
+change_note: 2026-10-29：用户确认动态大纲与主题角色后，迁入单源结构；未改正文、采用状态或研究结论
+chapters:
+- id: chapter-1
+  title: 绪论
+  included: true
+  path: 论文章节/01-绪论/章节导航.md
+  purpose: 总述问题、目标与路线；后续章节反哺本章，不把计划改成已完成结果。
+  body_source: 论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md#第一章 绪论
+  status: 工作结构；沿用旧稿章目，待结合当前定位逐项修订
+  sections:
+  - id: section-1-1
+    title: 研究背景
+    included: true
+    purpose: 背景、界定与总述
+    topics:
+    - 主题研究/畲族民居研究现状与研究缺口/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '1.1'
+    origin_chapter_path: 论文章节/01-绪论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-1-2
+    title: 研究目的与意义
+    included: true
+    purpose: 背景、界定与总述
+    topics:
+    - 主题研究/畲族民居研究现状与研究缺口/主题研究.md
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '1.2'
+    origin_chapter_path: 论文章节/01-绪论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-1-3
+    title: 相关概念界定
+    included: true
+    purpose: 背景、界定与总述
+    topics:
+    - 主题研究/研究对象与样本边界/主题研究.md
+    - 主题研究/多尺度语义模型与建模依据/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '1.3'
+    origin_chapter_path: 论文章节/01-绪论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-1-4
+    title: 国内外相关研究现状
+    included: true
+    purpose: 背景、界定与总述
+    topics:
+    - 主题研究/畲族民居研究现状与研究缺口/主题研究.md
+    - 主题研究/类型识别与语义关系表达/主题研究.md
+    status: 综述1.4.2已在旧稿引用；新增主题映射不代表其他段落已采用
+    origin_number: '1.4'
+    origin_chapter_path: 论文章节/01-绪论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-1-5
+    title: 研究目标、内容与方法
+    included: true
+    purpose: 背景、界定与总述
+    topics:
+    - 主题研究/研究对象与样本边界/主题研究.md
+    - 主题研究/多尺度语义模型与建模依据/主题研究.md
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '1.5'
+    origin_chapter_path: 论文章节/01-绪论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-1-6
+    title: 研究技术路线
+    included: true
+    purpose: 背景、界定与总述
+    topics:
+    - 主题研究/风貌特征筛选与数据记录/主题研究.md
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '1.6'
+    origin_chapter_path: 论文章节/01-绪论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+- id: chapter-2
+  title: 景宁畲族传统民居研究对象与多尺度资料基础
+  included: true
+  path: 论文章节/02-研究对象与资料基础/章节导航.md
+  purpose: 交代研究对象、样本和资料可用性；不能以文献线索数量替代现存建筑数。
+  body_source: 论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md#第二章 景宁畲族传统民居研究对象与多尺度资料基础
+  status: 工作结构；沿用旧稿章目，待结合当前定位逐项修订
+  sections:
+  - id: section-2-1
+    title: 研究范围与对象
+    included: true
+    purpose: 对象和资料依据
+    topics:
+    - 主题研究/研究对象与样本边界/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '2.1'
+    origin_chapter_path: 论文章节/02-研究对象与资料基础/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-2-2
+    title: 研究区域的自然、人文与聚落环境
+    included: true
+    purpose: 对象和资料依据
+    topics:
+    - 主题研究/研究对象与样本边界/主题研究.md
+    - 主题研究/畲族民居研究现状与研究缺口/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '2.2'
+    origin_chapter_path: 论文章节/02-研究对象与资料基础/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-2-3
+    title: 传统民居分布与调查样本选取
+    included: true
+    purpose: 对象和资料依据
+    topics:
+    - 主题研究/研究对象与样本边界/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '2.3'
+    origin_chapter_path: 论文章节/02-研究对象与资料基础/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-2-4
+    title: 多尺度风貌调查与数字化资料采集
+    included: true
+    purpose: 对象和资料依据
+    topics:
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    - 主题研究/风貌特征筛选与数据记录/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '2.4'
+    origin_chapter_path: 论文章节/02-研究对象与资料基础/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-2-5
+    title: 调研资料整理与证据质量控制
+    included: true
+    purpose: 对象和资料依据
+    topics:
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    - 主题研究/风貌特征筛选与数据记录/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '2.5'
+    origin_chapter_path: 论文章节/02-研究对象与资料基础/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-2-6
+    title: 本章小结
+    included: true
+    purpose: 对象和资料依据
+    topics:
+    - 主题研究/研究对象与样本边界/主题研究.md
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '2.6'
+    origin_chapter_path: 论文章节/02-研究对象与资料基础/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+- id: chapter-3
+  title: 传统民居多尺度风貌特征提取与知识图谱组织体系设计
+  included: true
+  path: 论文章节/03-体系与方法设计/章节导航.md
+  purpose: 展开特征、语义表达与三维关联方法；候选规则、实施约定和验证结果分别表述。
+  body_source: 论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md#第三章 传统民居多尺度风貌特征提取与知识图谱组织体系设计
+  status: 工作结构；沿用旧稿章目，待结合当前定位逐项修订
+  sections:
+  - id: section-3-1
+    title: 体系设计目标与总体框架
+    included: true
+    purpose: 方法与判据展开
+    topics:
+    - 主题研究/多尺度语义模型与建模依据/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '3.1'
+    origin_chapter_path: 论文章节/03-体系与方法设计/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-3-2
+    title: 多尺度建筑风貌特征体系与提取规则
+    included: true
+    purpose: 方法与判据展开
+    topics:
+    - 主题研究/风貌特征筛选与数据记录/主题研究.md
+    - 主题研究/类型识别与语义关系表达/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '3.2'
+    origin_chapter_path: 论文章节/03-体系与方法设计/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-3-3
+    title: 建筑风貌知识图谱模式层设计
+    included: true
+    purpose: 方法与判据展开
+    topics:
+    - 主题研究/多尺度语义模型与建模依据/主题研究.md
+    - 主题研究/类型识别与语义关系表达/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '3.3'
+    origin_chapter_path: 论文章节/03-体系与方法设计/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-3-4
+    title: 特征提取、图谱构建与风貌认知的实施流程
+    included: true
+    purpose: 方法与判据展开
+    topics:
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    - 主题研究/合成试建与规则检验/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '3.4'
+    origin_chapter_path: 论文章节/03-体系与方法设计/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-3-5
+    title: 本章小结
+    included: true
+    purpose: 方法与判据展开
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 计划采用；需对齐当前目标并补足证据
+    origin_number: '3.5'
+    origin_chapter_path: 论文章节/03-体系与方法设计/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+- id: chapter-4
+  title: 景宁畲族典型村落风貌特征提取与知识图谱构建
+  included: true
+  path: 论文章节/04-案例实施与检验/章节导航.md
+  purpose: 说明真实案例实施及检验；V01仅作合成试建参照，不放入实证样本统计。
+  body_source: 论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md#第四章 景宁畲族典型村落风貌特征提取与知识图谱构建
+  status: 工作结构；沿用旧稿章目，待结合当前定位逐项修订
+  sections:
+  - id: section-4-1
+    title: 实证样本与图谱构建的数据准备
+    included: true
+    purpose: 实施、校核与修订
+    topics:
+    - 主题研究/研究对象与样本边界/主题研究.md
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '4.1'
+    origin_chapter_path: 论文章节/04-案例实施与检验/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-4-2
+    title: 典型村落多尺度风貌特征提取与结构化整理
+    included: true
+    purpose: 实施、校核与修订
+    topics:
+    - 主题研究/风貌特征筛选与数据记录/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '4.2'
+    origin_chapter_path: 论文章节/04-案例实施与检验/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-4-3
+    title: 典型村落建筑风貌知识图谱实例化构建
+    included: true
+    purpose: 实施、校核与修订
+    topics:
+    - 主题研究/多尺度语义模型与建模依据/主题研究.md
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '4.3'
+    origin_chapter_path: 论文章节/04-案例实施与检验/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-4-4
+    title: 图谱数据校核、可用性检验与体系修订
+    included: true
+    purpose: 实施、校核与修订
+    topics:
+    - 主题研究/合成试建与规则检验/主题研究.md
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '4.4'
+    origin_chapter_path: 论文章节/04-案例实施与检验/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-4-5
+    title: 本章小结
+    included: true
+    purpose: 实施、校核与修订
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '4.5'
+    origin_chapter_path: 论文章节/04-案例实施与检验/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+- id: chapter-5
+  title: 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
+  included: true
+  path: 论文章节/05-分析比较与讨论/章节导航.md
+  purpose: 将可复核分析结果组织为建筑认识与方法讨论；当前不预写真实样本结论。
+  body_source: 论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md#第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
+  status: 工作结构；沿用旧稿章目，待结合当前定位逐项修订
+  sections:
+  - id: section-5-1
+    title: 风貌认知的分析基础与表达方式
+    included: true
+    purpose: 分析比较与解释
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '5.1'
+    origin_chapter_path: 论文章节/05-分析比较与讨论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-5-2
+    title: 村落整体尺度的空间形态与群体风貌认知
+    included: true
+    purpose: 分析比较与解释
+    topics:
+    - 主题研究/研究对象与样本边界/主题研究.md
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '5.2'
+    origin_chapter_path: 论文章节/05-分析比较与讨论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-5-3
+    title: 建筑组团尺度的空间组织与风貌组合认知
+    included: true
+    purpose: 分析比较与解释
+    topics:
+    - 主题研究/类型识别与语义关系表达/主题研究.md
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '5.3'
+    origin_chapter_path: 论文章节/05-分析比较与讨论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-5-4
+    title: 建筑单体尺度的风貌类型与特征组合认知
+    included: true
+    purpose: 分析比较与解释
+    topics:
+    - 主题研究/类型识别与语义关系表达/主题研究.md
+    - 主题研究/风貌特征筛选与数据记录/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '5.4'
+    origin_chapter_path: 论文章节/05-分析比较与讨论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-5-5
+    title: 村落—组团—单体跨尺度风貌关联与综合比较
+    included: true
+    purpose: 分析比较与解释
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    - 主题研究/三维资料质量与空间区域关联/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '5.5'
+    origin_chapter_path: 论文章节/05-分析比较与讨论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-5-6
+    title: 建筑风貌系统性归纳与知识图谱方法价值
+    included: true
+    purpose: 分析比较与解释
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '5.6'
+    origin_chapter_path: 论文章节/05-分析比较与讨论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-5-7
+    title: 本章小结
+    included: true
+    purpose: 分析比较与解释
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '5.7'
+    origin_chapter_path: 论文章节/05-分析比较与讨论/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+- id: chapter-6
+  title: 结论与展望
+  included: true
+  path: 论文章节/06-结论与展望/章节导航.md
+  purpose: 只总结已有证据支持的结果；创新声明、局限和适用边界须逐项回到方法及案例检验。
+  body_source: 论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md#第六章 结论与展望
+  status: 工作结构；沿用旧稿章目，待结合当前定位逐项修订
+  sections:
+  - id: section-6-1
+    title: 主要研究结论
+    included: true
+    purpose: 归纳、贡献与限制
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '6.1'
+    origin_chapter_path: 论文章节/06-结论与展望/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-6-2
+    title: 研究贡献与创新点
+    included: true
+    purpose: 归纳、贡献与限制
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '6.2'
+    origin_chapter_path: 论文章节/06-结论与展望/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文
+  - id: section-6-3
+    title: 研究不足与展望
+    included: true
+    purpose: 归纳、贡献与限制
+    topics:
+    - 主题研究/案例查询风貌比较与有效性/主题研究.md
+    - 主题研究/研究对象与样本边界/主题研究.md
+    status: 研究准备；真实样本、分析或结论证据待补
+    origin_number: '6.3'
+    origin_chapter_path: 论文章节/06-结论与展望/章节导航.md
+    change_note: 从v0.6章节采用表接续，题名及论证位置仍可调整；未重写正文

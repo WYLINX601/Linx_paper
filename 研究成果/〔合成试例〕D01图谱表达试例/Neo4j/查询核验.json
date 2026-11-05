@@ -1,0 +1,138 @@
+{
+  "ok": true,
+  "executedAtUtc": "2026-10-29T06:09:48.091808+00:00",
+  "queryCount": 11,
+  "assertionCount": 32,
+  "assertions": [
+    {
+      "test": "组成恰为两建筑一院落",
+      "passed": true
+    },
+    {
+      "test": "BOT关系IRI不变",
+      "passed": true
+    },
+    {
+      "test": "两栋水平尺度直接可算",
+      "passed": true
+    },
+    {
+      "test": "自身檐高仍为5和4米",
+      "passed": true
+    },
+    {
+      "test": "高宽比不变",
+      "passed": true
+    },
+    {
+      "test": "比较保存值与对象属性重算仍为2米",
+      "passed": true
+    },
+    {
+      "test": "无需M节点即可追到两对象及各自字段定位",
+      "passed": true
+    },
+    {
+      "test": "旧记录节点已移除",
+      "passed": true
+    },
+    {
+      "test": "共享来源仅一个",
+      "passed": true
+    },
+    {
+      "test": "全部节点仍明确为合成且类别无冲突",
+      "passed": true
+    },
+    {
+      "test": "旧基准单位情境缺失反例仍受保护",
+      "passed": true
+    },
+    {
+      "test": "比例缺失和零分母不填0",
+      "passed": true
+    },
+    {
+      "test": "来源反查对应三对象",
+      "passed": true
+    },
+    {
+      "test": "同一来源不重复且来源版本明示",
+      "passed": true
+    },
+    {
+      "test": "Q07返回完整测试集合",
+      "passed": true
+    },
+    {
+      "test": "Q08返回完整测试集合",
+      "passed": true
+    },
+    {
+      "test": "Q10返回完整测试集合",
+      "passed": true
+    },
+    {
+      "test": "追溯同时显示实际与预期版本且匹配",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：01_正常",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：02_来源未覆盖字段",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：03_几何版本变化",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：04_来源版本变化",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：05_来源关系缺失",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：06_引用关系错误",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：07_基准未覆盖字段",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：08_来源定位缺失",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：09_角色错误",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：10_数值改变而保存结果过期",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：11_缺失字段名",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：12_缺失几何引用版本",
+      "passed": true
+    },
+    {
+      "test": "共用保护逻辑：13_来源节点与来源边共同升级但结果引用未更新",
+      "passed": true
+    },
+    {
+      "test": "实际来源字段均存在、版本匹配且不为全对象背书",
+      "passed": true
+    }
+  ],
+  "sourceModelSha256": "71d0042f94d4c926c9143ed5a82e1ff850c47b0aa26b44b3d1056d9c14e9c5c1",
+  "scope": "真实数据库功能查询；Q07/Q08/Q10为只读参数反例；Q10与Q04使用同一保护表达式。合成限定检验，不证明真实建筑有效性；1e-9是浮点一致性阈值。"
+}

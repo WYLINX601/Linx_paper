@@ -1,0 +1,29 @@
+[
+  {
+    "id": "SH-001",
+    "url": "https://zjjcmspublic.oss-cn-hangzhou-zwynet-d01-a.internet.cloud.zj.gov.cn/jcms_files/jcms1/web2734/site/attach/0/51f33cfe24f2463b9b4b05157c7fd218.pdf",
+    "file": "景政办发2023-48号-名镇志名村志实施方案.pdf",
+    "date": "2026-10-22",
+    "bytes": 508786,
+    "sha256": "e3ef2aaa24f17518ba9765ff9b92c6acf2399c73e94f3b41665ae04760e6a133",
+    "scope": "来源渠道及计划，不证明两村志书已出版"
+  },
+  {
+    "id": "SH-002",
+    "url": "https://ndlsearch.ndl.go.jp/books/R100000002-Ia0000048472?ar=4e1f&locale=ja",
+    "file": "1995县志-NDL馆藏记录.html",
+    "date": "2026-10-22",
+    "bytes": 213398,
+    "sha256": "f4acb090ca6c2b47fed08d8041458cbe2f9b5fff0cfa2d0f0c311025e1c4025e",
+    "scope": "书目/序言入口，未取得全书或核读两村记载"
+  },
+  {
+    "id": "SH-003",
+    "url": "https://www.shidianguji.com/book/CADAL06200114/chapter/1lmy8us4p45xc",
+    "file": "同治景宁县志-识典古籍序言.html",
+    "date": "2026-10-22",
+    "bytes": 400206,
+    "sha256": "663e2f87b08b75c89870a4f78b347da864399fb47cb5616446213df568c4784b",
+    "scope": "书目/序言入口，未取得全书或核读两村记载"
+  }
+]

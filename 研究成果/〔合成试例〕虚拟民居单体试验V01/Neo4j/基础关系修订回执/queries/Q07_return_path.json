@@ -1,0 +1,17 @@
+{
+  "query": "MATCH p=(a:V01 {uid:'V01:S04'})-[rs:DIRECT_ACCESS_TO*1..8]-(b:V01 {uid:'V01:S06'})\nWHERE all(n IN nodes(p) WHERE n.uid IN $externalUids)\nAND all(idx IN range(0,size(rs)-1) WHERE rs[idx].contextId='V01-walk-baseline' AND rs[idx].snapshot='V01-synthetic-T0' AND rs[idx].actor='正常成人步行（旧合成情境断言）' AND (startNode(rs[idx])=nodes(p)[idx] OR rs[idx].bidirectional=true))\nRETURN [n IN nodes(p)|n.uid] AS nodes,[r IN rs|r.viaUid] AS via,size(rs) AS crossings ORDER BY crossings LIMIT 1",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"crossings\": 2,\n    \"nodes\": [\n      \"V01:S04\",\n      \"V01:S05\",\n      \"V01:S06\"\n    ],\n    \"via\": [\n      \"V01:I04\",\n      \"V01:I05\"\n    ]\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:13:51.749335+08:00"
+}

@@ -1,0 +1,20 @@
+{
+  "files": 14,
+  "all_equal": true,
+  "checks": {
+    "cache/images/img_01de165d001c.png": true,
+    "cache/images/img_9ced67c0b506.png": true,
+    "cache/images/img_da9b01bf0b1d.png": true,
+    "cache/images/img_1ae9edb0888d.png": true,
+    "cache/images/img_0d1e42fedef2.png": true,
+    "cache/images/img_47ecfade5d72.png": true,
+    "cache/images/img_a7fd8b4fa164.png": true,
+    "cache/images/img_a0a075279b4a.png": true,
+    "cache/images/img_023f52ad1bca.png": true,
+    "cache/terminal-output/out-1793087750-4189010-48a0.log": true,
+    "cache/terminal-output/out-1793024381-3839343-7950.log": true,
+    "cache/scratch/hermes-snap-95fb7ae54b74.sh": true,
+    "cache/scratch/hermes-snap-c9af87bd64dd.sh": true,
+    "cache/scratch/hermes-snap-4dd7266ffa16.sh": true
+  }
+}

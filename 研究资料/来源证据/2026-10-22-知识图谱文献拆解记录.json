@@ -1,0 +1,559 @@
+{
+  "date": "2026-10-22",
+  "collection_key": "2MILVR4R",
+  "collection_name": "03 风貌特征研究方法／特征提取与编码",
+  "items_total": 35,
+  "full_or_targeted_reading": 24,
+  "abstract_screening_only": 11,
+  "individual_maps": 24,
+  "summary_maps": 3,
+  "source_policy": "仅原文阅读与映射整理；Zotero附件、题录、研究context及论文正文未修改。",
+  "inventory": [
+    {
+      "number": 1,
+      "key": "VLT986TI",
+      "title": "Identifying and Interpreting Traditional Architectural Style Characteristics Based on Deep Learning",
+      "date": "2025-11-17",
+      "authors": "Chen, Changyao; Li, Shaodan; Ding, Jiayou; Hu, Yincui; Fan, Ziyue",
+      "item_type": "preprint",
+      "scope": "题录与摘要筛查",
+      "reason": "深度学习识别环境、建筑与景观特征，具有特征提取参考价值；摘要未将实体关系图谱作为主要产出。"
+    },
+    {
+      "number": 2,
+      "key": "7G9GV372",
+      "title": "中国传统村落民居建筑风貌特征提取与评价方法研究——以北京市门头沟区为例",
+      "date": "2026",
+      "authors": "黄庭晚",
+      "item_type": "journalArticle",
+      "scope": "题录与摘要筛查",
+      "reason": "围绕五类民居风貌控制要素及评价展开，可作字段与评价候选参考；摘要未见知识图谱构建流程。"
+    },
+    {
+      "number": 3,
+      "key": "DMFXW3FX",
+      "title": "地域性民居风貌要素语义体系构筑方法及特征解析——以徽州地区为例",
+      "date": "2019",
+      "authors": "汪强; 李早; 高翔; 叶茂盛",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/01-徽州民居语义体系.smm.md",
+      "reading_scope": "全文4页（印刷页94—97）；核对PDF第2、4页图表原页；第3页正文已读，图5/7细节点未逐一转录。",
+      "graph_kind": "语义本体"
+    },
+    {
+      "number": 4,
+      "key": "CIC2JA6P",
+      "title": "皖北乡村建筑风貌特征识别及优化策略",
+      "date": "2025-03-16",
+      "authors": "申程程; 吴运法",
+      "item_type": "thesis",
+      "scope": "题录与摘要筛查",
+      "reason": "CiteSpace用于研究现状，主体为皖北建筑风貌识别和优化策略；本轮不把附属计量步骤单列为图谱搭建研究。"
+    },
+    {
+      "number": 5,
+      "key": "5BG4898K",
+      "title": "基于本体论的传统村落文化知识图谱生成及其应用——以安徽省绩溪县伏岭村为例",
+      "date": "2026",
+      "authors": "陈晓华; 唐文龙; 鲍香玉",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/02-伏岭村文化知识图谱.smm.md",
+      "reading_scope": "全文7页（印刷63—69）；PDF第3—4页图1—2和表1—4原页核对；不包含末页接排的另一篇文章参考文献。",
+      "graph_kind": "实体关系知识图谱"
+    },
+    {
+      "number": 6,
+      "key": "F7ULIAKR",
+      "title": "传统村落地方性知识特征识别与图谱构建——以随州传统村落为例",
+      "date": "2026",
+      "authors": "杨语嫣; 孙皓; 孙元煦; 盛茹钰",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/05-随州地方性知识图谱.smm.md",
+      "reading_scope": "全文定向精读：Zotero全文接口读取期刊文印刷页144—149（PDF第1—6页），并核对全文元数据与核心图像；非外部文献系统综述。",
+      "graph_kind": "知识谱系与图示"
+    },
+    {
+      "number": 7,
+      "key": "NQN66646",
+      "title": "基于CiteSpace的山西省传统村落研究现状与发展趋势",
+      "date": "2026",
+      "authors": "赵钰; 陈启新",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B01-山西研究趋势.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–4页（共4页）；对应印刷页194–197，末页为结论。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 8,
+      "key": "GGWB5MUW",
+      "title": "基于空间基因概念格的重庆市黔江区传统村落集中连片保护风貌设计研究",
+      "date": "No date",
+      "authors": "李开厚; 董莉莉",
+      "item_type": "thesis",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/07-黔江空间基因概念格.smm.md",
+      "reading_scope": "学位论文定向精读，非全篇逐页精读。Zotero全文接口返回PDF第1—100页，目录显示全篇182页；重点核读PDF第12—16、33—50、52—56、79—90、92—96、107—114、139—143、171—174页。逐页接口因PDF trailer解析错误，PDF第107—114、139—143、171—174页以Zotero返回的附件路径在内存修复副本中核验；原附件未修改。 作者与2026年4月依据中文封面；董莉莉为导师，不作为共同作者。",
+      "graph_kind": "形式概念格"
+    },
+    {
+      "number": 9,
+      "key": "ACRXNXC9",
+      "title": "基于CiteSpace的河南省传统村落研究知识图谱分析",
+      "date": "2026",
+      "authors": "边宇浩",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B02-河南研究图谱.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–5页（共5页）；PDF第1–4页为印刷页53–56，PDF第5页为印刷页61的参考文献续页（原刊标注“上接56页”）。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 10,
+      "key": "3GICB3B5",
+      "title": "基于CiteSpace的传统村落保护与发展可视化分析",
+      "date": "2025",
+      "authors": "陈钰皓; 李田; 赵家莹",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B03-保护与发展.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–4页（共4页）；对应印刷页27–30，末页含结论及参考文献起始。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 11,
+      "key": "ICRVUMHA",
+      "title": "传统村落数字化保护研究知识图谱解析",
+      "date": "2025-08-29",
+      "authors": "罗雅欣1; 李欣原2; 徐维南1; 刘丽荣1",
+      "item_type": "conferencePaper",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B04-数字化保护.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–10页（共10页）；页码按PDF定位：第1–8页为正文、图表及结论，第9–10页为注释/参考文献/作者信息；原文未见连续印刷页码。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 12,
+      "key": "95UFJBNQ",
+      "title": "中国传统村落特征的解读与集群识别——基于聚类和知识图谱的认知与利用方法",
+      "date": "2025",
+      "authors": "王笑; 朱雪融; 唐芃",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/03-村落聚类与知识图谱.smm.md",
+      "reading_scope": "全文精读：Zotero 附件 NWZLFV5V，PDF 第1–8页（印刷页82–89）。核对了方法流程图、形态聚类图和知识图谱/案例图（PDF第2、3、6、7页）；Zotero 分页解析报 invalid file trailer 后，关键图表以原附件尾部修复仅在内存完成的页面图像核对，未改动附件。",
+      "graph_kind": "实体关系知识图谱"
+    },
+    {
+      "number": 13,
+      "key": "3BPLD6PK",
+      "title": "我国传统村落传承保护研究综述与展望——基于CiteSpace知识图谱可视化分析",
+      "date": "2025",
+      "authors": "周狄挺; 张侠",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B05-传承保护综述.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–4页（共4页）；对应印刷页66–69，末页含结论。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 14,
+      "key": "5ZVJ2RBH",
+      "title": "地方性知识视角下的传统村落文化景观保护与利用——以恩施州咸丰县马家沟村为例",
+      "date": "2025",
+      "authors": "张娅薇; 周睿彬; 王宸烁; 舒阳",
+      "item_type": "journalArticle",
+      "scope": "题录与摘要筛查",
+      "reason": "地方性知识提取—评价—应用框架，值得后续补读；摘要未见实体关系图谱实现。"
+    },
+    {
+      "number": 15,
+      "key": "IPQ8JIB9",
+      "title": "基于CSSCI与北大核心期刊文献的我国传统村落火灾研究现状及热点问题知识图谱分析",
+      "date": "2024",
+      "authors": "陈宇露; 余压芳",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B06-火灾研究.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–3页（共3页）；对应印刷页16–18，末页含结论及参考文献。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 16,
+      "key": "L9GDYJPH",
+      "title": "西江流域广府传统村落的景观特征及其形成机制研究",
+      "date": "No date",
+      "authors": "吴奇; 潘莹",
+      "item_type": "thesis",
+      "scope": "题录与摘要筛查",
+      "reason": "主体是西江流域广府村落景观特征及其形成机制；保留空间与环境解释参考，未在本轮展开。"
+    },
+    {
+      "number": 17,
+      "key": "5N22UESQ",
+      "title": "永春县传统村落活化度评价与优化设计策略研究",
+      "date": "No date",
+      "authors": "王坤; 曾献君",
+      "item_type": "thesis",
+      "scope": "题录与摘要筛查",
+      "reason": "主体是永春传统村落活化度评价与策略，不属于本轮图谱构造主线。"
+    },
+    {
+      "number": 18,
+      "key": "MITZPS7U",
+      "title": "传统村落问答系统智能问句识别方法研究",
+      "date": "No date",
+      "authors": "穆潇莹; 崔红霞",
+      "item_type": "thesis",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/04-传统村落问答系统.smm.md",
+      "reading_scope": "章节重点阅读，非全文精读：通过 Zotero 全文读取封面、摘要、目录及正文印刷页1–38（PDF第7–44页），重点阅读第3章知识图谱构建（印刷页12–19）、第4章问句识别（印刷页20–31）、第5章实验/系统（印刷页32–37）和第6章总结（印刷页38）；参考文献未精读。Zotero 分页解析报 invalid file trailer，关键本体关系表和实验表以原附件尾部修复仅在内存完成的图像核对，未修改附件。学位论文封面报告完成于2023年6月，渤海大学软件工程专业，导师崔红霞。",
+      "graph_kind": "实体关系知识图谱"
+    },
+    {
+      "number": 19,
+      "key": "TN6XYSHX",
+      "title": "基于CiteSpace的传统村落空间形态研究知识图谱分析",
+      "date": "2023",
+      "authors": "刘益曦; 周圆圆; 章菥妤; 过萍艳",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B07-空间形态研究.smm.md",
+      "reading_scope": "本地PDF共5页；读取PDF第1–4页的本文（印刷页53–56，含参考文献/结论）；PDF第5页为印刷页133的同刊相邻文章，未用于本文证据。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 20,
+      "key": "QC5SEHHU",
+      "title": "基于活态化存续的滇西南传统村落更新设计研究 ——以普洱市紫马街村公共空间设计为例",
+      "date": "No date",
+      "authors": "李知原; 秦凡",
+      "item_type": "thesis",
+      "scope": "题录与摘要筛查",
+      "reason": "科学知识图谱用于文献热点梳理，主体是紫马街村公共空间更新设计。"
+    },
+    {
+      "number": 21,
+      "key": "WMGG4MXL",
+      "title": "基于文化景观基因的丽江玉湖村纳西族传统村落环境更新设计",
+      "date": "No date",
+      "authors": "张嘉妮; 王贞",
+      "item_type": "thesis",
+      "scope": "题录与摘要筛查",
+      "reason": "文化景观基因识别与环境更新设计，具有特征分类参考价值；摘要未见实体关系图数据库实现。"
+    },
+    {
+      "number": 22,
+      "key": "2YCDHRLI",
+      "title": "文化遗产保护视角下布依族传统村落声景观研究",
+      "date": "No date",
+      "authors": "韩亚洁; 许大为",
+      "item_type": "thesis",
+      "scope": "题录与摘要筛查",
+      "reason": "声景观保护对象、感知与综合评价，当前与民居语义／三维关联主线间接相关。"
+    },
+    {
+      "number": 23,
+      "key": "P79JNJWJ",
+      "title": "基于CiteSpace的四川省传统村落研究现状与展望分析",
+      "date": "2023",
+      "authors": "胡建门; 文志远; 陈宇",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B08-四川研究.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–6页（共6页）；对应印刷页13–18，含结论与参考文献。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 24,
+      "key": "XDCBHCZZ",
+      "title": "基于CiteSpace的国内传统村落民居特征研究进展",
+      "date": "2022",
+      "authors": "梅晓林; 邹昌锋",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B09-民居特征研究.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–4页（共4页）；对应印刷页504–507，末页含结论与参考文献。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 25,
+      "key": "J3XHWU57",
+      "title": "基于CiteSpace的传统村落建筑风貌数字化保护研究知识图谱分析",
+      "date": "2022-12-03",
+      "authors": "李娜1,2; 张姗姗1,2",
+      "item_type": "conferencePaper",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B10-建筑风貌数字化.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–5页（共5页）；对应印刷页521–525，末页含参考文献。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 26,
+      "key": "BWS56LTD",
+      "title": "米脂县传统村落景观的地方性知识图谱构建研究",
+      "date": "No date",
+      "authors": "李帅; 张中华",
+      "item_type": "thesis",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/06-米脂地方性知识图谱.smm.md",
+      "reading_scope": "学位论文定向精读，非全篇逐页精读。Zotero全文接口返回PDF第1—98页，目录显示全篇171页；重点阅读PDF第12—21、37—67、98—100、102—135、151—152、164页。逐页接口因PDF trailer解析错误，PDF第101页以后通过Zotero附件路径对内存修复副本进行核读；原附件未修改。 作者与2022年6月依据扫描封面；张中华为导师，不作为共同作者。",
+      "graph_kind": "知识谱系与图示"
+    },
+    {
+      "number": 27,
+      "key": "WBNE3739",
+      "title": "基于CiteSpace的中国传统村落水环境知识图谱分析",
+      "date": "2022",
+      "authors": "吴双; 郭晓华; 王万喜",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B11-水环境研究.smm.md",
+      "reading_scope": "本地PDF共5页；读取PDF第1–4页的本文（印刷页27–30，含结论及参考文献）；PDF第5页为印刷页31的同刊相邻文章，未用于本文证据。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 28,
+      "key": "LUV7LDLM",
+      "title": "中国传统村落景观研究的知识图谱分析",
+      "date": "2022",
+      "authors": "谢谦; 刘沛林; 徐美",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B12-景观研究.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–7页（共7页）；对应印刷页202–208，含结论、讨论和参考文献。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 29,
+      "key": "LZHY7PKF",
+      "title": "基于Citespace的贵州省传统村落研究可视化分析",
+      "date": "2022",
+      "authors": "陈豫川",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B13-贵州研究.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–5页（共5页）；对应印刷页14–18，末页含结论及参考文献。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 30,
+      "key": "KNA7YDUH",
+      "title": "禹州地区传统村落街巷空间风貌特征及提升研究",
+      "date": "No date",
+      "authors": "梁生; 刘韶军",
+      "item_type": "thesis",
+      "scope": "题录与摘要筛查",
+      "reason": "街巷风貌特征与提升策略，具有组团与街巷关联参考价值；本轮保留为后续资料。"
+    },
+    {
+      "number": 31,
+      "key": "KHNSXURJ",
+      "title": "近30年来中国传统村落的研究热点、进程及展望——基于CiteSpace的可视化解析",
+      "date": "2021",
+      "authors": "张睿婕; 高元; 李佳奇",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B14-近30年研究热点.smm.md",
+      "reading_scope": "本地PDF共8页；读取PDF第1–7页的本文正文（印刷页1–7）及第8页参考文献续页（印刷页15）；第8页另含相邻文章开头，该相邻内容未用于本文证据。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 32,
+      "key": "IRC6AKIT",
+      "title": "基于知识图谱的国内传统村落研究进展综述",
+      "date": "2021",
+      "authors": "吴慧虹; 申梦婷; 李苑华",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B15-国内研究进展.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–4页（共4页）；对应印刷页7–10，含结论及参考文献。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 33,
+      "key": "Z3C8KDR5",
+      "title": "基于CiteSpace的中国传统村落文化景观知识图谱分析",
+      "date": "2021",
+      "authors": "金科; 陈祖展",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B16-文化景观研究.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–6页（共6页）；对应印刷页10–15，含结论、限制及参考文献。",
+      "graph_kind": "文献计量网络"
+    },
+    {
+      "number": 34,
+      "key": "B9FZFEMA",
+      "title": "四川阆中市传统村落公共空间分析与活化策略研究 ——以天宫院村为例",
+      "date": "2021-03-16",
+      "authors": "陈远; 吴柏清; 宋克纯",
+      "item_type": "thesis",
+      "scope": "题录与摘要筛查",
+      "reason": "CiteSpace用于文献背景，主体为公共空间问卷及空间句法分析与活化策略。"
+    },
+    {
+      "number": 35,
+      "key": "DUJUISJF",
+      "title": "基于科学知识图谱的中国传统村落空间形态研究综述",
+      "date": "2020",
+      "authors": "宋丽美; 徐峰; 邓源; 陈燕妮",
+      "item_type": "journalArticle",
+      "scope": "正文拆解",
+      "output": "文献库/文献导图/知识图谱文献拆解/B17-空间形态综述.smm.md",
+      "reading_scope": "本地PDF逐页读取第1–5页（共5页）；对应印刷页94–98，含结论及研究框架。",
+      "graph_kind": "文献计量网络"
+    }
+  ],
+  "mindmap_validation": [
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/01-徽州民居语义体系.smm.md",
+      "sha256": "e609c88386f15a61b674e645dc43a11db7362b45b779c7606b00a49f46397105",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/02-伏岭村文化知识图谱.smm.md",
+      "sha256": "9093658d691519a216c28ae71e672368e1dfbedcaa824306499fe9575c5971c7",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/03-村落聚类与知识图谱.smm.md",
+      "sha256": "9e4c7e845758826ca6cf9bd5844aa8c6d412e8607a3179473cee0cfe018f5841",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/04-传统村落问答系统.smm.md",
+      "sha256": "83aebf1c0451276e71bd16e6f542ddc43ce36241528ce033d76712208d54d3eb",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/05-随州地方性知识图谱.smm.md",
+      "sha256": "70c31927dad72f13d6be0527b0f50c7a642da7409e1f9f6db19a53ea73723fe5",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/06-米脂地方性知识图谱.smm.md",
+      "sha256": "323e94e3e298417bec952f2073031f96df2360229df006722d42914617d57fb7",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/07-黔江空间基因概念格.smm.md",
+      "sha256": "d7a5d9ef72b3e3491c0f31b0d04b097f72ae03e71616ae0ee3de0fc43cd1dc5a",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B01-山西研究趋势.smm.md",
+      "sha256": "8d6c83b3c079b897eef2dd88382ccdb307178a6766e791b4244fe5d9f892ff76",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B02-河南研究图谱.smm.md",
+      "sha256": "394458297ae37016bfc2d5f91e5a5cfcd198c4ea60201287c18835ec0c395e97",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B03-保护与发展.smm.md",
+      "sha256": "d8545293e4cbeeeaffc670930d87cb4df453d0a63b68d62d809afb8f86254fdc",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B04-数字化保护.smm.md",
+      "sha256": "37b813c2720ded576bfad0b54d8c97a982d0abc54759358aafdf36cf56d4bcfb",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B05-传承保护综述.smm.md",
+      "sha256": "240714e191e285c5534a14eebc19695a0ec31a76621fb22f375f3bbde246320e",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B06-火灾研究.smm.md",
+      "sha256": "1398c7ef578d923164d6cb9d6cf0866cbde188178487600304217b5a98f8d8be",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B07-空间形态研究.smm.md",
+      "sha256": "7de1f9737097be868c5b83edd2328d27ee003985cec95e5e360e790102475e26",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B08-四川研究.smm.md",
+      "sha256": "04d46b4f5c0e1abfc17f3c13cb5198759d01e533389e4d350591cb9bfa21e44b",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B09-民居特征研究.smm.md",
+      "sha256": "b7fca33a8f2a3035e3efb6fb51d775779b8fb1e180addc7751529b25a1665e95",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B10-建筑风貌数字化.smm.md",
+      "sha256": "949f1da5552c649921aef08b9eee1e8bc7ea08fc84180573d41700d9bfe4b144",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B11-水环境研究.smm.md",
+      "sha256": "411afbaade5414bb44c5801891d3cabe3dc1d1ebf9a539057056570d282cf887",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B12-景观研究.smm.md",
+      "sha256": "11bf6c546613e4a5895cd1924d89bb82fa7f025a6db4072662da2ffe85326b31",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B13-贵州研究.smm.md",
+      "sha256": "0a66b6ff665d368e85baf376d16243fff90937e6b95a5dbe27c9ce01508a5a6b",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B14-近30年研究热点.smm.md",
+      "sha256": "30cad01102f3f2c8b6dbf55251928526df17720a0c0ce06b5c40d8a1d56f6c51",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B15-国内研究进展.smm.md",
+      "sha256": "705eee8c7f5ef6237fd749da40ea9916356fc10cc6d81d70b70992bb07f78111",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B16-文化景观研究.smm.md",
+      "sha256": "2ba9793ff486f2c310c2506192cc45f3d77af29deb7bbde1e1188e4c18862b42",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/B17-空间形态综述.smm.md",
+      "sha256": "58d494c5f3b850b39288f617e226e3db28f3017a7f71ea8c8ace1e5147e33bd6",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/08-跨论文方法比较.smm.md",
+      "sha256": "95c205f1010cc22d643ea890c05a278374a48a57aefde78cd5375640e566b62e",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/09-本论文候选思路（待讨论）.smm.md",
+      "sha256": "179f16b2dca38bcf79c0f730ac6279aeef91e3ed8056b32665413f1272690f78",
+      "validation_ok": true
+    },
+    {
+      "file": "文献库/文献导图/知识图谱文献拆解/00-阅读导航.smm.md",
+      "sha256": "e7c203d49ce93ce48986fd216ada0a0769f1b17aac15cc69470632e236324d81",
+      "validation_ok": true
+    }
+  ],
+  "summary_paths": {
+    "nav": "文献库/文献导图/知识图谱文献拆解/00-阅读导航.smm.md",
+    "compare": "文献库/文献导图/知识图谱文献拆解/08-跨论文方法比较.smm.md",
+    "candidates": "文献库/文献导图/知识图谱文献拆解/09-本论文候选思路（待讨论）.smm.md"
+  },
+  "limitations": [
+    "3篇学位论文为核心章节重点阅读，不称全篇精读",
+    "文件解析兼容性验收不等于像素级排版验收",
+    "候选研究思路未作为已批准技术路线",
+    "跨篇结论只限本批材料，不宣称领域研究空白"
+  ]
+}

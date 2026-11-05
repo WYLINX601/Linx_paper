@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (n:V01)-[r:HAS_SOURCE]->(s:V01) WHERE r.id STARTS WITH 'X-SRC-' RETURN n.uid AS object,s.uid AS source,r.fields AS fields,r.locator AS locator,r.sourceVersion AS expectedVersion,s.sourceVersion AS actualVersion ORDER BY object",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.874807+08:00"
+}

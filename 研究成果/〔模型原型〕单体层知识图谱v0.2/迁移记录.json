@@ -1,0 +1,34 @@
+{
+  "fromVersion": "0.1",
+  "toVersion": "0.2",
+  "date": "2026-10-22",
+  "baselineFiles": {
+    "outputs/单体层知识图谱v0.1/图谱预览.png": "0875b367dc25490151116f10a5f82a95ecbea849ff00970c19a6241ef264d206",
+    "outputs/单体层知识图谱v0.1/独立验收.md": "a5e553255048a2368b255624a53f63b0f1957ca82f20af738d261b106f577eee",
+    "outputs/单体层知识图谱v0.1/验证结果.json": "471dbab03a7833637946ba79f83e1e8cd083ebed1eb5b57e7509d1f5dd38306f",
+    "outputs/单体层知识图谱v0.1/检查图谱.py": "40248ab118a8f78c0b32a18260274a68b8f86481f99152790c35ec5d4becad57",
+    "outputs/单体层知识图谱v0.1/案例图谱.json": "3efea4bddad187cbf4aa6a44949ab7e887955b4157709fd1b498a17bce8fa454",
+    "outputs/单体层知识图谱v0.1/案例与查询检验.md": "19c5e2e1be580079e56288eea9e6ff7b4ab5fc2dd25ce1eb55ee7c4cf92041ec",
+    "outputs/单体层知识图谱v0.1/生成浏览图.py": "7fb2ebcf823dd89cbc8fa369c270a61d1b92cdc0daa528da16d4b667688bf286",
+    "outputs/单体层知识图谱v0.1/模型定义.json": "7e4a41d7ac66b620c11f6fe1084514051a18e6132ae0bb428977b5dffbe70a02",
+    "outputs/单体层知识图谱v0.1/图谱浏览.html": "63cdf5abe34eb0b168cca0a3c7a1fecc280c97360d0c582a80991b12a8745bca",
+    "outputs/单体层知识图谱v0.1/建模说明.md": "cfcdab0db79a609060d4ad6c91abb14498fd9db391926f9183397f8ccbe3db5a",
+    "outputs/单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF63.png": "da99a3348215bcebcce1250b38a9a2f6ab2363810c92c960f0fae4c04cabc7fe",
+    "outputs/单体层知识图谱v0.1/证据图页/83W7CJW2-PDF5.png": "7ec6c9fe56254ff455dbeaa8ed293e722513df2a30e1053ce6a27bf75e611990",
+    "outputs/单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF55.png": "fbab032f143bf652afcb82e0938c41aafb4e4dc8154fb1ac1311701b2c18f1a0",
+    "outputs/单体层知识图谱v0.1/证据图页/ZWDJJE99-PDF56.png": "6101034907b1f108c83271d06b9734dd921f8291768532362134bca734a1e22f"
+  },
+  "preservedFacts": [
+    "nodes",
+    "assertions",
+    "classifications",
+    "gaps",
+    "conflicts",
+    "limits",
+    "sources"
+  ],
+  "pathChanges": "evidence.image改为指向保留的v0.1证据图页；不重复复制PDF和原图。",
+  "newActualBuildingFacts": 0,
+  "newSyntheticDataset": "空间关系演示.json",
+  "researchValidation": "未新增现场验证或真实三维绑定。"
+}

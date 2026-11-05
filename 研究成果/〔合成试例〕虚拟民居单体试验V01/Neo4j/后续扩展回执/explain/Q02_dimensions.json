@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (n:V01) WHERE n.uid IN $dimensionUids RETURN n.uid AS uid,n.widthM AS widthM,n.depthM AS depthM,n.groundZM AS groundZM,n.eaveZM AS eaveZM,n.eaveZM-n.groundZM AS ownEaveHeightM,n.widthM/n.depthM AS widthDepthRatio,(n.eaveZM-n.groundZM)/n.widthM AS ownEaveHeightWidthRatio,n.measurementBoundaryBasis AS basis ORDER BY uid",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:40:48.110597+08:00"
+}

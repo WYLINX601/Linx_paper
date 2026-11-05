@@ -1,0 +1,36 @@
+[
+  {
+    "file": "研究成果/景宁畲族传统民居建筑特征/图7-敕木山28号蓝姓寮卷草凤凰纹骨架.png",
+    "source_pdf": "/Users/wangyuelin/Zotero/storage/PIHCARAE/蓝法勤 - 2013 - 浙江景宁畲族传统民居卷草凤凰纹装饰研究.pdf",
+    "pdf_page": 2,
+    "printed_page": 95,
+    "figure": "图1",
+    "method": "extract native PDF image; unmodified"
+  },
+  {
+    "file": "研究成果/景宁畲族传统民居建筑特征/图8-敕木山蓝村长门楼凤凰纹.jpg",
+    "source_pdf": "/Users/wangyuelin/Zotero/storage/PIHCARAE/蓝法勤 - 2013 - 浙江景宁畲族传统民居卷草凤凰纹装饰研究.pdf",
+    "pdf_page": 3,
+    "printed_page": 96,
+    "figure": "图6",
+    "method": "extract native PDF image; unmodified"
+  },
+  {
+    "file": "研究成果/景宁畲族传统民居建筑特征/图6-木构侧样与屋面分层变体.png",
+    "source_pdf": "/Users/wangyuelin/Zotero/storage/52VRHDAG/赵潇诺 - 2023 - 景宁畲族传统民居营造技艺研究.pdf",
+    "pdf_page": 62,
+    "printed_page": 51,
+    "figure": "图3.11",
+    "method": "crop rendered original PDF page, preserve figure and caption",
+    "render_size": [
+      1838,
+      2600
+    ],
+    "crop_box": [
+      242,
+      260,
+      1637,
+      1853
+    ]
+  }
+]

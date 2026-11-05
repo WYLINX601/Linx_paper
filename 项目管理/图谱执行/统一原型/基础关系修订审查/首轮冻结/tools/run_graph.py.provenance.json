@@ -1,0 +1,10 @@
+{
+  "artifact_role": "transferred_copy",
+  "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+  "source_path": "项目管理/图谱执行/统一原型/tools/run_graph.py",
+  "sha256": "37e3601a43303c95e725de05158e4cfb5f290c07fe478e029f56a0a676e76570",
+  "size_bytes": 14848,
+  "source_modified_at_utc": "2026-10-30T13:15:27Z",
+  "downloaded_at_utc": "2026-10-30T23:06:26Z",
+  "local_copy_path": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/originals/tools/run_graph.py"
+}

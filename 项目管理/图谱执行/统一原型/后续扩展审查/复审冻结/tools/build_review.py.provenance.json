@@ -1,0 +1,10 @@
+{
+  "artifact_role": "transferred_copy",
+  "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+  "source_path": "项目管理/图谱执行/统一原型/tools/build_review.py",
+  "sha256": "6bd74cbbe81b7ed84d82c528118747a9a7bae98d03b4e1c6c927ffac022c9901",
+  "size_bytes": 3195,
+  "source_modified_at_utc": "2026-10-30T13:15:26Z",
+  "downloaded_at_utc": "2026-10-30T23:06:26Z",
+  "local_copy_path": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-next-ozht7hck/originals/tools/build_review.py"
+}

@@ -1,0 +1,239 @@
+{
+  "testedAt": "2026-10-22T12:58:44.928320+00:00",
+  "transport": "SSH stdio",
+  "command": [
+    "/usr/bin/ssh",
+    "-T",
+    "-o",
+    "BatchMode=yes",
+    "linx-HP-EliteDesk-880-G6-Tower-PC",
+    "/usr/bin/python3",
+    "/home/linx/.local/share/neo4j-paper/tools/MCP启动.py"
+  ],
+  "initialize": {
+    "protocolVersion": "2024-11-05",
+    "capabilities": {
+      "tools": {
+        "listChanged": true
+      }
+    },
+    "serverInfo": {
+      "name": "neo4j-mcp",
+      "version": "v1.6.1"
+    },
+    "instructions": "This is the Neo4j official MCP server and can provide tool calling to interact with your Neo4j database,by inferring the schema with tools like get-schema and executing arbitrary Cypher queries with read-cypher."
+  },
+  "tools": [
+    {
+      "annotations": {
+        "title": "Get Neo4j Schema",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "description": "\n\t\tRetrieve the schema information from the Neo4j database, including node labels, relationship types, and property keys.\n\t\tIf the database contains no data, no schema information is returned.",
+      "inputSchema": {
+        "properties": {},
+        "required": [],
+        "type": "object"
+      },
+      "name": "get-schema"
+    },
+    {
+      "annotations": {
+        "title": "Read Cypher",
+        "readOnlyHint": true,
+        "destructiveHint": false,
+        "idempotentHint": true,
+        "openWorldHint": true
+      },
+      "description": "read-cypher can run only read-only Cypher statements. For write operations (CREATE, MERGE, DELETE, SET, etc...), schema/admin commands, or PROFILE queries, use write-cypher instead.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "query": {
+            "type": "string",
+            "description": "The Cypher query to execute"
+          },
+          "params": {
+            "type": "object",
+            "description": "Parameters to pass to the Cypher query",
+            "additionalProperties": true
+          }
+        },
+        "required": [
+          "query"
+        ],
+        "additionalProperties": false
+      },
+      "name": "read-cypher"
+    }
+  ],
+  "calls": [
+    {
+      "purpose": "MCP连接验证",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "RETURN 'connected' AS status"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"status\": \"connected\"\n  }\n]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "使用MCP skill读取实际图谱结构",
+      "name": "get-schema",
+      "arguments": {},
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[{\"key\":\"Entity\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"scheme\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"OBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"SCHEME\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Classification\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\",\"Classification\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"TYPE\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Classification\"],\"properties\":{\"linkId\":\"STRING\"}},\"VIA\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Assertion\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"adjacent_to\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"direct_access_to\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_element\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Element\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_space\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_type\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"in_scheme\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\"],\"properties\":{\"assertionId\":\"STRING\",\"projectionId\":\"STRING\",\"qualifiers\":\"STRING\",\"sourceField\":\"STRING\"}},\"interface_of\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"located_in\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Place\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"realized_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Element\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"record_about_place\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Place\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"represented_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"Dwelling\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"SUBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"has_element\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Element\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_space\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"located_in\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Place\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"represented_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"INPUT\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"Element\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"OBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"has_element\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Dwelling\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"realized_by\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Demo\",\"Interface\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"represented_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"KGItem\",\"value\":{\"type\":\"node\",\"properties\":{\"accessContextJson\":\"STRING\",\"attachmentKey\":\"STRING\",\"attribution\":\"STRING\",\"author\":\"STRING\",\"class\":\"STRING\",\"conflictingEvidenceJson\":\"STRING\",\"criteriaResultsJson\":\"STRING\",\"datasetKind\":\"STRING\",\"decision\":\"STRING\",\"derivedFromJson\":\"STRING\",\"evidenceIdsJson\":\"STRING\",\"hasValue\":\"BOOLEAN\",\"image\":\"STRING\",\"label\":\"STRING\",\"locator\":\"STRING\",\"method\":\"STRING\",\"name\":\"STRING\",\"normalizedTerm\":\"STRING\",\"note\":\"STRING\",\"object\":\"STRING\",\"observer\":\"STRING\",\"path\":\"STRING\",\"pdfPages\":\"LIST\",\"pdfPagesJson\":\"STRING\",\"predicate\":\"STRING\",\"printedPages\":\"LIST\",\"printedPagesJson\":\"STRING\",\"rawJson\":\"STRING\",\"recordedAt\":\"STRING\",\"scheme\":\"STRING\",\"scope\":\"STRING\",\"snapshotType\":\"STRING\",\"source\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"sourceKind\":\"STRING\",\"sourceRef\":\"STRING\",\"status\":\"STRING\",\"subject\":\"STRING\",\"summary\":\"STRING\",\"temporalScope\":\"STRING\",\"title\":\"STRING\",\"type\":\"STRING\",\"uid\":\"STRING\",\"value\":\"STRING\",\"valueJson\":\"STRING\",\"via\":\"STRING\",\"visualChecked\":\"BOOLEAN\",\"year\":\"INTEGER\",\"zoteroKey\":\"STRING\"},\"relationships\":{\"CONFLICTING_EVIDENCE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Evidence\"],\"properties\":{\"linkId\":\"STRING\"}},\"EVIDENCED_BY\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Evidence\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"FROM_SOURCE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Source\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"INPUT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"OBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\",\"Place\",\"Representation\",\"Space\",\"Element\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"SCHEME\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\",\"Dwelling\",\"Representation\",\"Space\",\"Element\",\"Demo\",\"Interface\"],\"properties\":{\"linkId\":\"STRING\"}},\"TYPE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\"],\"properties\":{\"linkId\":\"STRING\"}},\"VIA\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Demo\",\"Interface\"],\"properties\":{\"linkId\":\"STRING\"}},\"adjacent_to\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"direct_access_to\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_element\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Element\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_space\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_type\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"in_scheme\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\"],\"properties\":{\"assertionId\":\"STRING\",\"projectionId\":\"STRING\",\"qualifiers\":\"STRING\",\"sourceField\":\"STRING\"}},\"interface_of\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"located_in\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Place\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"realized_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Element\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"record_about_place\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Place\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"represented_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"Source\",\"value\":{\"type\":\"node\",\"properties\":{\"attachmentKey\":\"STRING\",\"author\":\"STRING\",\"datasetKind\":\"STRING\",\"note\":\"STRING\",\"path\":\"STRING\",\"rawJson\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"sourceKind\":\"STRING\",\"title\":\"STRING\",\"uid\":\"STRING\",\"year\":\"INTEGER\",\"zoteroKey\":\"STRING\"},\"relationships\":{\"FROM_SOURCE\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Evidence\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}}}}},{\"key\":\"TypeScheme\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"OBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"SCHEME\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Classification\"],\"properties\":{\"linkId\":\"STRING\"}},\"in_scheme\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\"],\"properties\":{\"assertionId\":\"STRING\",\"projectionId\":\"STRING\",\"qualifiers\":\"STRING\",\"sourceField\":\"STRING\"}}}}},{\"key\":\"interface_of\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"has_space\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"SCHEME\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"realized_by\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"direct_access_to\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"Classification\",\"value\":{\"type\":\"node\",\"properties\":{\"attribution\":\"STRING\",\"criteriaResultsJson\":\"STRING\",\"datasetKind\":\"STRING\",\"decision\":\"STRING\",\"evidenceIdsJson\":\"STRING\",\"note\":\"STRING\",\"rawJson\":\"STRING\",\"scheme\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"subject\":\"STRING\",\"temporalScope\":\"STRING\",\"type\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"EVIDENCED_BY\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Evidence\"],\"properties\":{\"linkId\":\"STRING\"}},\"INPUT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"SCHEME\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"linkId\":\"STRING\"}},\"TYPE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\"],\"properties\":{\"linkId\":\"STRING\"}}}}},{\"key\":\"CONFLICTING_EVIDENCE\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"Evidence\",\"value\":{\"type\":\"node\",\"properties\":{\"attribution\":\"STRING\",\"datasetKind\":\"STRING\",\"image\":\"STRING\",\"locator\":\"STRING\",\"pdfPages\":\"LIST\",\"pdfPagesJson\":\"STRING\",\"printedPages\":\"LIST\",\"printedPagesJson\":\"STRING\",\"rawJson\":\"STRING\",\"source\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"sourceRef\":\"STRING\",\"summary\":\"STRING\",\"uid\":\"STRING\",\"visualChecked\":\"BOOLEAN\"},\"relationships\":{\"CONFLICTING_EVIDENCE\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"EVIDENCED_BY\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\",\"Classification\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"FROM_SOURCE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Source\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}}}}},{\"key\":\"located_in\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"has_type\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"in_scheme\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"projectionId\":\"STRING\",\"qualifiers\":\"STRING\",\"sourceField\":\"STRING\"}}},{\"key\":\"TYPE\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"ModelSnapshot\",\"value\":{\"type\":\"node\",\"properties\":{\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"snapshotType\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"}}},{\"key\":\"TypeConcept\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"scheme\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"SUBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"TYPE\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Classification\"],\"properties\":{\"linkId\":\"STRING\"}},\"has_type\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"in_scheme\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\"],\"properties\":{\"assertionId\":\"STRING\",\"projectionId\":\"STRING\",\"qualifiers\":\"STRING\",\"sourceField\":\"STRING\"}}}}},{\"key\":\"Space\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"OBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"adjacent_to\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"direct_access_to\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_space\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Dwelling\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"interface_of\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Demo\",\"Interface\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"represented_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"Literature\",\"value\":{\"type\":\"node\",\"properties\":{\"attachmentKey\":\"STRING\",\"attribution\":\"STRING\",\"author\":\"STRING\",\"class\":\"STRING\",\"conflictingEvidenceJson\":\"STRING\",\"criteriaResultsJson\":\"STRING\",\"datasetKind\":\"STRING\",\"decision\":\"STRING\",\"derivedFromJson\":\"STRING\",\"evidenceIdsJson\":\"STRING\",\"hasValue\":\"BOOLEAN\",\"image\":\"STRING\",\"label\":\"STRING\",\"locator\":\"STRING\",\"name\":\"STRING\",\"note\":\"STRING\",\"object\":\"STRING\",\"path\":\"STRING\",\"pdfPages\":\"LIST\",\"predicate\":\"STRING\",\"printedPages\":\"LIST\",\"rawJson\":\"STRING\",\"scheme\":\"STRING\",\"scope\":\"STRING\",\"source\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"sourceRef\":\"STRING\",\"status\":\"STRING\",\"subject\":\"STRING\",\"summary\":\"STRING\",\"temporalScope\":\"STRING\",\"title\":\"STRING\",\"type\":\"STRING\",\"uid\":\"STRING\",\"value\":\"STRING\",\"valueJson\":\"STRING\",\"visualChecked\":\"BOOLEAN\",\"year\":\"INTEGER\",\"zoteroKey\":\"STRING\"},\"relationships\":{\"CONFLICTING_EVIDENCE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Evidence\"],\"properties\":{\"linkId\":\"STRING\"}},\"EVIDENCED_BY\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Evidence\"],\"properties\":{\"linkId\":\"STRING\"}},\"FROM_SOURCE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Source\"],\"properties\":{\"linkId\":\"STRING\"}},\"INPUT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"OBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\",\"Place\",\"Representation\",\"Space\",\"Element\"],\"properties\":{\"linkId\":\"STRING\"}},\"SCHEME\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\",\"Dwelling\",\"Representation\",\"Space\",\"Element\"],\"properties\":{\"linkId\":\"STRING\"}},\"TYPE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\"],\"properties\":{\"linkId\":\"STRING\"}},\"has_element\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Element\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_space\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Space\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_type\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"in_scheme\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\"],\"properties\":{\"assertionId\":\"STRING\",\"projectionId\":\"STRING\",\"qualifiers\":\"STRING\",\"sourceField\":\"STRING\"}},\"located_in\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Place\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"record_about_place\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Place\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"represented_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"Demo\",\"value\":{\"type\":\"node\",\"properties\":{\"accessContextJson\":\"STRING\",\"attribution\":\"STRING\",\"author\":\"STRING\",\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"evidenceIdsJson\":\"STRING\",\"hasValue\":\"BOOLEAN\",\"label\":\"STRING\",\"locator\":\"STRING\",\"method\":\"STRING\",\"name\":\"STRING\",\"normalizedTerm\":\"STRING\",\"note\":\"STRING\",\"object\":\"STRING\",\"observer\":\"STRING\",\"pdfPagesJson\":\"STRING\",\"predicate\":\"STRING\",\"printedPagesJson\":\"STRING\",\"rawJson\":\"STRING\",\"recordedAt\":\"STRING\",\"scope\":\"STRING\",\"source\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"sourceKind\":\"STRING\",\"sourceRef\":\"STRING\",\"status\":\"STRING\",\"subject\":\"STRING\",\"summary\":\"STRING\",\"temporalScope\":\"STRING\",\"title\":\"STRING\",\"uid\":\"STRING\",\"value\":\"STRING\",\"valueJson\":\"STRING\",\"via\":\"STRING\",\"visualChecked\":\"BOOLEAN\",\"year\":\"INTEGER\"},\"relationships\":{\"EVIDENCED_BY\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Evidence\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"FROM_SOURCE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Source\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"OBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\",\"Element\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Dwelling\",\"Demo\",\"Space\",\"Interface\"],\"properties\":{\"linkId\":\"STRING\"}},\"VIA\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Demo\",\"Interface\"],\"properties\":{\"linkId\":\"STRING\"}},\"adjacent_to\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"direct_access_to\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"has_space\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"interface_of\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"realized_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Element\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"EVIDENCED_BY\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"Assertion\",\"value\":{\"type\":\"node\",\"properties\":{\"accessContextJson\":\"STRING\",\"attribution\":\"STRING\",\"conflictingEvidenceJson\":\"STRING\",\"datasetKind\":\"STRING\",\"derivedFromJson\":\"STRING\",\"evidenceIdsJson\":\"STRING\",\"hasValue\":\"BOOLEAN\",\"method\":\"STRING\",\"normalizedTerm\":\"STRING\",\"note\":\"STRING\",\"object\":\"STRING\",\"observer\":\"STRING\",\"predicate\":\"STRING\",\"rawJson\":\"STRING\",\"recordedAt\":\"STRING\",\"scope\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"status\":\"STRING\",\"subject\":\"STRING\",\"temporalScope\":\"STRING\",\"uid\":\"STRING\",\"value\":\"STRING\",\"valueJson\":\"STRING\",\"via\":\"STRING\"},\"relationships\":{\"CONFLICTING_EVIDENCE\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Evidence\"],\"properties\":{\"linkId\":\"STRING\"}},\"EVIDENCED_BY\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Literature\",\"Evidence\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"INPUT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Classification\"],\"properties\":{\"linkId\":\"STRING\"}},\"OBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeScheme\",\"Place\",\"Representation\",\"Space\",\"Element\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\",\"Dwelling\",\"Representation\",\"Space\",\"Element\",\"Demo\",\"Interface\"],\"properties\":{\"linkId\":\"STRING\"}},\"VIA\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Demo\",\"Interface\"],\"properties\":{\"linkId\":\"STRING\"}}}}},{\"key\":\"Representation\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"OBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"SUBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\",\"Classification\"],\"properties\":{\"linkId\":\"STRING\"}},\"has_type\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"TypeConcept\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"record_about_place\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Place\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"represented_by\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Dwelling\",\"Element\",\"Space\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"record_about_place\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"FROM_SOURCE\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"OBJECT\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"VIA\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"DatasetSnapshot\",\"value\":{\"type\":\"node\",\"properties\":{\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"snapshotType\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"}}},{\"key\":\"SupplementSnapshot\",\"value\":{\"type\":\"node\",\"properties\":{\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"snapshotType\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"}}},{\"key\":\"SUBJECT\",\"value\":{\"type\":\"relationship\",\"properties\":{\"linkId\":\"STRING\"}}},{\"key\":\"has_element\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"Place\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"OBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Literature\",\"Assertion\"],\"properties\":{\"linkId\":\"STRING\"}},\"located_in\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Dwelling\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"record_about_place\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Entity\",\"Literature\",\"Representation\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"Interface\",\"value\":{\"type\":\"node\",\"properties\":{\"class\":\"STRING\",\"datasetKind\":\"STRING\",\"label\":\"STRING\",\"name\":\"STRING\",\"rawJson\":\"STRING\",\"sourceHash\":\"STRING\",\"sourceId\":\"STRING\",\"uid\":\"STRING\"},\"relationships\":{\"SUBJECT\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Assertion\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"VIA\":{\"direction\":\"in\",\"labels\":[\"KGItem\",\"Assertion\",\"Demo\"],\"properties\":{\"linkId\":\"STRING\"}},\"interface_of\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Space\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}},\"realized_by\":{\"direction\":\"out\",\"labels\":[\"KGItem\",\"Entity\",\"Element\",\"Demo\"],\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}}},{\"key\":\"represented_by\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}},{\"key\":\"adjacent_to\",\"value\":{\"type\":\"relationship\",\"properties\":{\"assertionId\":\"STRING\",\"qualifiers\":\"STRING\"}}}]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "使用建模skill检查现有唯一约束",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "SHOW CONSTRAINTS YIELD name, type, labelsOrTypes, properties RETURN name,type,labelsOrTypes,properties"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"labelsOrTypes\": [\n      \"KGItem\"\n    ],\n    \"name\": \"kgitem_uid_unique\",\n    \"properties\": [\n      \"uid\"\n    ],\n    \"type\": \"UNIQUENESS\"\n  }\n]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "使用导入skill检查索引状态",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "SHOW INDEXES YIELD name,state,populationPercent RETURN name,state,populationPercent"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"name\": \"index_343aff4e\",\n    \"populationPercent\": 100,\n    \"state\": \"ONLINE\"\n  },\n  {\n    \"name\": \"index_f7700477\",\n    \"populationPercent\": 100,\n    \"state\": \"ONLINE\"\n  },\n  {\n    \"name\": \"kgitem_uid_unique\",\n    \"populationPercent\": 100,\n    \"state\": \"ONLINE\"\n  }\n]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "文献与演示隔离计数",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "MATCH (n:Entity) RETURN n.datasetKind AS dataset,count(n) AS entities ORDER BY dataset"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"dataset\": \"literature_case\",\n    \"entities\": 14\n  },\n  {\n    \"dataset\": \"synthetic_demo\",\n    \"entities\": 7\n  }\n]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "断言、分类与总节点数量",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "MATCH (n:KGItem) RETURN count(n) AS allNodes, sum(CASE WHEN n:Assertion THEN 1 ELSE 0 END) AS assertions, sum(CASE WHEN n:Classification THEN 1 ELSE 0 END) AS classifications"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"allNodes\": 94,\n    \"assertions\": 55,\n    \"classifications\": 4\n  }\n]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "实际空间通行演示及界面情境",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "MATCH (a:Assertion:Demo {predicate:'direct_access_to'})-[:SUBJECT]->(s:Entity:Demo) MATCH (a)-[:OBJECT]->(t:Entity:Demo) MATCH (a)-[:VIA]->(i:Interface:Demo) RETURN a.sourceId AS assertion,s.label AS source,t.label AS target,i.label AS interface,a.accessContextJson AS context ORDER BY assertion"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"assertion\": \"ACCESS_HV\",\n    \"context\": \"{\\\"scenario\\\":\\\"教学示例中的正常使用时段\\\",\\\"agent\\\":\\\"可独立行走的成人\\\",\\\"mode\\\":\\\"普通步行\\\"}\",\n    \"interface\": \"堂屋—前廊开放分界\",\n    \"source\": \"堂屋（演示）\",\n    \"target\": \"前廊（演示）\"\n  },\n  {\n    \"assertion\": \"ACCESS_VH\",\n    \"context\": \"{\\\"scenario\\\":\\\"教学示例中的正常使用时段\\\",\\\"agent\\\":\\\"可独立行走的成人\\\",\\\"mode\\\":\\\"普通步行\\\"}\",\n    \"interface\": \"堂屋—前廊开放分界\",\n    \"source\": \"前廊（演示）\",\n    \"target\": \"堂屋（演示）\"\n  }\n]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "争议屋面断言的支持与冲突证据",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "MATCH (a:Assertion:Literature {sourceId:'F_1_roof_layered'})-[r:EVIDENCED_BY|CONFLICTING_EVIDENCE]->(e:Evidence:Literature)-[:FROM_SOURCE]->(s:Source:Literature) RETURN a.value AS value,a.status AS status,type(r) AS evidenceRole,e.sourceId AS evidence,s.title AS source ORDER BY evidenceRole"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"evidence\": \"E_COMMON\",\n    \"evidenceRole\": \"CONFLICTING_EVIDENCE\",\n    \"source\": \"景宁畲族传统民居营造技艺研究\",\n    \"status\": \"disputed\",\n    \"value\": true\n  },\n  {\n    \"evidence\": \"E_Z1\",\n    \"evidenceRole\": \"EVIDENCED_BY\",\n    \"source\": \"景宁畲族传统民居营造技艺研究\",\n    \"status\": \"disputed\",\n    \"value\": true\n  }\n]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "分类判断不能混为正向类型事实",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "MATCH (c:Classification:Literature) RETURN c.sourceId AS classification,c.decision AS decision,c.criteriaResultsJson AS criteria ORDER BY classification"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"classification\": \"CLASS_1\",\n    \"criteria\": \"[{\\\"criterion\\\":\\\"T_56_C1\\\",\\\"feature\\\":\\\"column_bay_form\\\",\\\"expected\\\":\\\"五柱六筒\\\",\\\"actual\\\":\\\"五柱六筒\\\",\\\"assertion\\\":\\\"F_1_column_bay_form\\\",\\\"result\\\":\\\"satisfied\\\",\\\"reason\\\":\\\"\\\"}]\",\n    \"decision\": \"criteria_match\"\n  },\n  {\n    \"classification\": \"CLASS_8\",\n    \"criteria\": \"[{\\\"criterion\\\":\\\"T_55_C1\\\",\\\"feature\\\":\\\"column_bay_form\\\",\\\"expected\\\":\\\"五柱五筒\\\",\\\"actual\\\":\\\"五柱五筒\\\",\\\"assertion\\\":\\\"F_8_column_bay_form\\\",\\\"result\\\":\\\"satisfied\\\",\\\"reason\\\":\\\"\\\"}]\",\n    \"decision\": \"criteria_match\"\n  },\n  {\n    \"classification\": \"PROTO_1\",\n    \"criteria\": \"[{\\\"criterion\\\":\\\"P_WALL\\\",\\\"feature\\\":\\\"load_bearing\\\",\\\"expected\\\":false,\\\"actual\\\":true,\\\"assertion\\\":\\\"F_1_load_bearing\\\",\\\"result\\\":\\\"not_satisfied\\\",\\\"reason\\\":\\\"\\\"},{\\\"criterion\\\":\\\"P_COURT\\\",\\\"feature\\\":\\\"rear_courtyard_form\\\",\\\"expected\\\":\\\"一字形\\\",\\\"actual\\\":\\\"方形\\\",\\\"assertion\\\":\\\"F_1_rear_courtyard_form\\\",\\\"result\\\":\\\"not_satisfied\\\",\\\"reason\\\":\\\"\\\"},{\\\"criterion\\\":\\\"P_COLUMN\\\",\\\"feature\\\":\\\"column_bay_form\\\",\\\"expected\\\":\\\"五柱四筒\\\",\\\"actual\\\":\\\"五柱六筒\\\",\\\"assertion\\\":\\\"F_1_column_bay_form\\\",\\\"result\\\":\\\"not_satisfied\\\",\\\"reason\\\":\\\"\\\"},{\\\"criterion\\\":\\\"P_ROOF\\\",\\\"feature\\\":\\\"roof_layered\\\",\\\"expected\\\":false,\\\"actual\\\":true,\\\"assertion\\\":\\\"F_1_roof_layered\\\",\\\"result\\\":\\\"unknown\\\",\\\"reason\\\":\\\"原文表/文概括不一致，表值保留但暂不用于确定判定\\\"}]\",\n    \"decision\": \"criteria_not_match\"\n  },\n  {\n    \"classification\": \"PROTO_8\",\n    \"criteria\": \"[{\\\"criterion\\\":\\\"P_WALL\\\",\\\"feature\\\":\\\"load_bearing\\\",\\\"expected\\\":false,\\\"actual\\\":false,\\\"assertion\\\":\\\"F_8_load_bearing\\\",\\\"result\\\":\\\"satisfied\\\",\\\"reason\\\":\\\"\\\"},{\\\"criterion\\\":\\\"P_COURT\\\",\\\"feature\\\":\\\"rear_courtyard_form\\\",\\\"expected\\\":\\\"一字形\\\",\\\"actual\\\":\\\"一字形\\\",\\\"assertion\\\":\\\"F_8_rear_courtyard_form\\\",\\\"result\\\":\\\"satisfied\\\",\\\"reason\\\":\\\"\\\"},{\\\"criterion\\\":\\\"P_COLUMN\\\",\\\"feature\\\":\\\"column_bay_form\\\",\\\"expected\\\":\\\"五柱四筒\\\",\\\"actual\\\":\\\"五柱五筒\\\",\\\"assertion\\\":\\\"F_8_column_bay_form\\\",\\\"result\\\":\\\"not_satisfied\\\",\\\"reason\\\":\\\"\\\"},{\\\"criterion\\\":\\\"P_ROOF\\\",\\\"feature\\\":\\\"roof_layered\\\",\\\"expected\\\":false,\\\"actual\\\":false,\\\"assertion\\\":\\\"F_8_roof_layered\\\",\\\"result\\\":\\\"satisfied\\\",\\\"reason\\\":\\\"\\\"}]\",\n    \"decision\": \"criteria_not_match\"\n  }\n]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "导入完整性检查：标识缺失与重复",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "MATCH (n:KGItem) WITH n.uid AS uid,count(n) AS copies WHERE uid IS NULL OR copies>1 RETURN uid,copies"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[]"
+          }
+        ]
+      }
+    },
+    {
+      "purpose": "不存在文献案例通行断言",
+      "name": "read-cypher",
+      "arguments": {
+        "query": "MATCH (a:Assertion:Literature {predicate:'direct_access_to'}) RETURN count(a) AS count"
+      },
+      "result": {
+        "content": [
+          {
+            "type": "text",
+            "text": "[\n  {\n    \"count\": 0\n  }\n]"
+          }
+        ]
+      }
+    }
+  ],
+  "status": "passed"
+}

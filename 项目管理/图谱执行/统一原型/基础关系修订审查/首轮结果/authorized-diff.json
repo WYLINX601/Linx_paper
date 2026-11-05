@@ -1,0 +1,2482 @@
+{
+  "nodes": {
+    "S01": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/boundaryBasis",
+        "before": null,
+        "after": "既有房间分析矩形，主体采用内侧净边界；S01南侧为开放理论分界。保持原几何，不声明完整净三维体。"
+      },
+      {
+        "path": "/properties/boundarySegments",
+        "before": null,
+        "after": [
+          {
+            "id": "N",
+            "polyline": [
+              [
+                3.32,
+                7.08
+              ],
+              [
+                6.28,
+                7.08
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "E",
+            "polyline": [
+              [
+                6.28,
+                7.08
+              ],
+              [
+                6.28,
+                1.5
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "S",
+            "polyline": [
+              [
+                6.28,
+                1.5
+              ],
+              [
+                3.32,
+                1.5
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "W",
+            "polyline": [
+              [
+                3.32,
+                1.5
+              ],
+              [
+                3.32,
+                7.08
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          }
+        ]
+      },
+      {
+        "path": "/properties/coverState",
+        "before": null,
+        "after": "covered"
+      },
+      {
+        "path": "/properties/coverStateMeaning",
+        "before": null,
+        "after": "overall-space-character-not-zero-projection"
+      },
+      {
+        "path": "/properties/overallCoverType",
+        "before": null,
+        "after": "enclosed-covered-space"
+      },
+      {
+        "path": "/propertyOrigins/analysisSliceZM",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/1/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundaryBasis",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/1/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundarySegments",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/1/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/coverStateMeaning",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/1/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/overallCoverType",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/1/geometry"
+        }
+      }
+    ],
+    "S02": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/boundaryBasis",
+        "before": null,
+        "after": "既有房间分析矩形，主体采用内侧净边界；S01南侧为开放理论分界。保持原几何，不声明完整净三维体。"
+      },
+      {
+        "path": "/properties/boundarySegments",
+        "before": null,
+        "after": [
+          {
+            "id": "N",
+            "polyline": [
+              [
+                0.12,
+                7.08
+              ],
+              [
+                3.08,
+                7.08
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "E",
+            "polyline": [
+              [
+                3.08,
+                7.08
+              ],
+              [
+                3.08,
+                1.62
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "S",
+            "polyline": [
+              [
+                3.08,
+                1.62
+              ],
+              [
+                0.12,
+                1.62
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "W",
+            "polyline": [
+              [
+                0.12,
+                1.62
+              ],
+              [
+                0.12,
+                7.08
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          }
+        ]
+      },
+      {
+        "path": "/properties/coverState",
+        "before": null,
+        "after": "covered"
+      },
+      {
+        "path": "/properties/coverStateMeaning",
+        "before": null,
+        "after": "overall-space-character-not-zero-projection"
+      },
+      {
+        "path": "/properties/overallCoverType",
+        "before": null,
+        "after": "enclosed-covered-space"
+      },
+      {
+        "path": "/propertyOrigins/analysisSliceZM",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/2/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundaryBasis",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/2/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundarySegments",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/2/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/coverStateMeaning",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/2/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/overallCoverType",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/2/geometry"
+        }
+      }
+    ],
+    "S03": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/boundaryBasis",
+        "before": null,
+        "after": "既有房间分析矩形，主体采用内侧净边界；S01南侧为开放理论分界。保持原几何，不声明完整净三维体。"
+      },
+      {
+        "path": "/properties/boundarySegments",
+        "before": null,
+        "after": [
+          {
+            "id": "N",
+            "polyline": [
+              [
+                6.52,
+                7.08
+              ],
+              [
+                9.48,
+                7.08
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "E",
+            "polyline": [
+              [
+                9.48,
+                7.08
+              ],
+              [
+                9.48,
+                1.62
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "S",
+            "polyline": [
+              [
+                9.48,
+                1.62
+              ],
+              [
+                6.52,
+                1.62
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "W",
+            "polyline": [
+              [
+                6.52,
+                1.62
+              ],
+              [
+                6.52,
+                7.08
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          }
+        ]
+      },
+      {
+        "path": "/properties/coverState",
+        "before": null,
+        "after": "covered"
+      },
+      {
+        "path": "/properties/coverStateMeaning",
+        "before": null,
+        "after": "overall-space-character-not-zero-projection"
+      },
+      {
+        "path": "/properties/overallCoverType",
+        "before": null,
+        "after": "enclosed-covered-space"
+      },
+      {
+        "path": "/propertyOrigins/analysisSliceZM",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/3/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundaryBasis",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/3/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundarySegments",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/3/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/coverStateMeaning",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/3/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/overallCoverType",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/3/geometry"
+        }
+      }
+    ],
+    "S04": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/boundaryBasis",
+        "before": null,
+        "after": "前廊既有轴线/分界分析矩形，非统一净空间；墙端转角仅作几何候选，不新增持久边。"
+      },
+      {
+        "path": "/properties/boundarySegments",
+        "before": null,
+        "after": [
+          {
+            "id": "N",
+            "polyline": [
+              [
+                0,
+                1.5
+              ],
+              [
+                9.6,
+                1.5
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "E",
+            "polyline": [
+              [
+                9.6,
+                1.5
+              ],
+              [
+                9.6,
+                0
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "S",
+            "polyline": [
+              [
+                9.6,
+                0
+              ],
+              [
+                0,
+                0
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "W",
+            "polyline": [
+              [
+                0,
+                0
+              ],
+              [
+                0,
+                1.5
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          }
+        ]
+      },
+      {
+        "path": "/properties/coverStateMeaning",
+        "before": null,
+        "after": "overall-space-character-not-zero-projection"
+      },
+      {
+        "path": "/properties/overallCoverType",
+        "before": null,
+        "after": "covered-open-sided-space"
+      },
+      {
+        "path": "/propertyOrigins/analysisSliceZM",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/4/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundaryBasis",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/4/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundarySegments",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/4/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/coverStateMeaning",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/4/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/overallCoverType",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/4/geometry"
+        }
+      }
+    ],
+    "S05": [
+      {
+        "path": "/properties/boundaryBasis",
+        "before": null,
+        "after": "院内墙面及北侧开放分界构成的既有分析矩形；边段属性，不另建节点。"
+      },
+      {
+        "path": "/properties/boundaryCoverStateMeaning",
+        "before": null,
+        "after": "旧侧向性格/廊关联说明，不承诺该边每一点均有或没有顶盖；逐点顶盖另作RF01投影查询。"
+      },
+      {
+        "path": "/properties/coverStateMeaning",
+        "before": null,
+        "after": "overall-space-character-not-zero-projection"
+      },
+      {
+        "path": "/properties/overallCoverType",
+        "before": null,
+        "after": "open-air-space-character"
+      },
+      {
+        "path": "/propertyOrigins/analysisSliceZM",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/5/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundaryBasis",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/5/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundarySegments",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/5/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/coverStateMeaning",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/5/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/overallCoverType",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/5/geometry"
+        }
+      }
+    ],
+    "S06": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/boundaryBasis",
+        "before": null,
+        "after": "院门外出入分析裁切矩形；北界对应W10外表面，其余边为理论裁切线，不因无墙称未知或自动形成围合。"
+      },
+      {
+        "path": "/properties/boundarySegments",
+        "before": null,
+        "after": [
+          {
+            "id": "N",
+            "polyline": [
+              [
+                3.8,
+                -4.92
+              ],
+              [
+                5.8,
+                -4.92
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "E",
+            "polyline": [
+              [
+                5.8,
+                -4.92
+              ],
+              [
+                5.8,
+                -6.3
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "S",
+            "polyline": [
+              [
+                5.8,
+                -6.3
+              ],
+              [
+                3.8,
+                -6.3
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          },
+          {
+            "id": "W",
+            "polyline": [
+              [
+                3.8,
+                -6.3
+              ],
+              [
+                3.8,
+                -4.92
+              ]
+            ],
+            "state": "known",
+            "boundaryMeaning": "declared-analysis-boundary-not-physical-closure"
+          }
+        ]
+      },
+      {
+        "path": "/properties/coverStateMeaning",
+        "before": null,
+        "after": "overall-space-character-not-zero-projection"
+      },
+      {
+        "path": "/properties/overallCoverType",
+        "before": null,
+        "after": "open-air-space-character"
+      },
+      {
+        "path": "/propertyOrigins/analysisSliceZM",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/6/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundaryBasis",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/6/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/boundarySegments",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/6/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/coverStateMeaning",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/6/geometry"
+        }
+      },
+      {
+        "path": "/propertyOrigins/overallCoverType",
+        "before": null,
+        "after": {
+          "status": "research-working-interpretation-of-synthetic-geometry",
+          "ruleVersion": "V01-local-boundary-coverage-v1",
+          "source": "EV01",
+          "locator": "/nodes/6/geometry"
+        }
+      }
+    ]
+  },
+  "relationships": {
+    "R030": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "legacy-synthetic-passage-assertion",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "R034": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "legacy-synthetic-passage-assertion",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "R038": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "legacy-synthetic-passage-assertion",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "R041": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "legacy-synthetic-passage-assertion",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "R045": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "legacy-synthetic-passage-assertion",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "R058": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "R059": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R060": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R061": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R062": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R063": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R064": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R065": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R066": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R067": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R068": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R069": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R070": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R071": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R072": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R073": [
+      {
+        "path": "/properties/analysisSliceZM",
+        "before": null,
+        "after": 1.0
+      },
+      {
+        "path": "/properties/geometryVersion",
+        "before": null,
+        "after": "V01-unified-2.2"
+      },
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N",
+          "E",
+          "S",
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      },
+      {
+        "path": "/properties/rangeState",
+        "before": "not-localized",
+        "after": "localized-by-existing-geometry"
+      }
+    ],
+    "R074": [
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "W"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      }
+    ],
+    "R075": [
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "E"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      }
+    ],
+    "R076": [
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "S"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      }
+    ],
+    "WJ-W01-W03": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W01-W06": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W01-W08": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W02-W03": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W02-W07": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W02-W09": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W03-W04": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W03-W05": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W04-W06": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W05-W07": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W08-W10": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WJ-W09-W10": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WC-W01-C01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WC-W02-C04": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WC-W08-C01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "WC-W09-C04": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-PART-RS01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-DOC-EV01-RS01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-DOC-EV07-RS01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-DOC-EV08-RS01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-PART-RS02": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-DOC-EV01-RS02": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-DOC-EV07-RS02": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-DOC-EV08-RS02": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "RS-RS01-RS02": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": "synthetic_geometry_derived",
+        "after": "synthetic_assignment"
+      }
+    ],
+    "BOUND-S05-S04": [
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      }
+    ],
+    "BOUND-S05-C01": [
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      }
+    ],
+    "BOUND-S05-C02": [
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      }
+    ],
+    "BOUND-S05-C03": [
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      }
+    ],
+    "BOUND-S05-C04": [
+      {
+        "path": "/properties/localBoundaryIds",
+        "before": null,
+        "after": [
+          "N"
+        ]
+      },
+      {
+        "path": "/properties/localRangeBasis",
+        "before": null,
+        "after": "z=1m有限墙柱截面裁取本空间已声明边界；按宿主扣洞；重叠只在空间边段汇总中求并集"
+      },
+      {
+        "path": "/properties/localRuleVersion",
+        "before": null,
+        "after": "V01-local-boundary-coverage-v1"
+      }
+    ],
+    "SRC-S01": [
+      {
+        "path": "/properties/fields",
+        "before": [
+          "analysisItems",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "recordStatus",
+          "researchScopeStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ],
+        "after": [
+          "analysisItems",
+          "analysisSliceZM",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "boundaryBasis",
+          "boundarySegments",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "coverStateMeaning",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "overallCoverType",
+          "recordStatus",
+          "researchScopeStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ]
+      }
+    ],
+    "SRC-S02": [
+      {
+        "path": "/properties/fields",
+        "before": [
+          "analysisItems",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "recordStatus",
+          "researchScopeStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ],
+        "after": [
+          "analysisItems",
+          "analysisSliceZM",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "boundaryBasis",
+          "boundarySegments",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "coverStateMeaning",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "overallCoverType",
+          "recordStatus",
+          "researchScopeStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ]
+      }
+    ],
+    "SRC-S03": [
+      {
+        "path": "/properties/fields",
+        "before": [
+          "analysisItems",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "recordStatus",
+          "researchScopeStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ],
+        "after": [
+          "analysisItems",
+          "analysisSliceZM",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "boundaryBasis",
+          "boundarySegments",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "coverStateMeaning",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "overallCoverType",
+          "recordStatus",
+          "researchScopeStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ]
+      }
+    ],
+    "SRC-S04": [
+      {
+        "path": "/properties/fields",
+        "before": [
+          "analysisItems",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "recordStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ],
+        "after": [
+          "analysisItems",
+          "analysisSliceZM",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "boundaryBasis",
+          "boundarySegments",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "coverStateMeaning",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "overallCoverType",
+          "recordStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ]
+      }
+    ],
+    "SRC-S05": [
+      {
+        "path": "/properties/fields",
+        "before": [
+          "analysisItems",
+          "analysisSliceZM",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "boundarySegments",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "enclosureBasis",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "recordStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ],
+        "after": [
+          "analysisItems",
+          "analysisSliceZM",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "boundaryBasis",
+          "boundaryCoverStateMeaning",
+          "boundarySegments",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "coverStateMeaning",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "enclosureBasis",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "overallCoverType",
+          "recordStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ]
+      }
+    ],
+    "SRC-S06": [
+      {
+        "path": "/properties/fields",
+        "before": [
+          "analysisItems",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "recordStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ],
+        "after": [
+          "analysisItems",
+          "analysisSliceZM",
+          "areaBasis",
+          "areaM2",
+          "axisAzimuthDeg",
+          "boundaryBasis",
+          "boundarySegments",
+          "caseId",
+          "clearHeightState",
+          "coordinateFrame",
+          "coverState",
+          "coverStateMeaning",
+          "depthDirection",
+          "depthM",
+          "dimensionStatus",
+          "divisionBasis",
+          "enclosure",
+          "floorZ",
+          "footprintShape",
+          "footprintXY",
+          "geometryActive",
+          "geometryVersion",
+          "groundZM",
+          "measurementBoundaryBasis",
+          "overallCoverType",
+          "recordStatus",
+          "scenario",
+          "unit",
+          "use",
+          "useContext",
+          "useEvidenceRole",
+          "useScope",
+          "useState",
+          "useValues",
+          "widthDirection",
+          "widthM"
+        ]
+      }
+    ],
+    "D04-FACADE-W03": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/259"
+      }
+    ],
+    "D04-FACADE-W10": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/260"
+      }
+    ],
+    "D05-MEM-B01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/261"
+      }
+    ],
+    "D05-MEM-B02": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/262"
+      }
+    ],
+    "D05-MEM-B03": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/263"
+      }
+    ],
+    "D05-DATUM-B03": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/264"
+      }
+    ],
+    "D05-DATUM-CG01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/265"
+      }
+    ],
+    "D05-DATUM-ST01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/266"
+      }
+    ],
+    "D05-DATUM-TP01": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/267"
+      }
+    ],
+    "D05-LEFT": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/268"
+      }
+    ],
+    "D05-RIGHT": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/269"
+      }
+    ],
+    "D05-GROUND": [
+      {
+        "path": "/properties/evidenceRole",
+        "before": null,
+        "after": "synthetic_assignment"
+      },
+      {
+        "path": "/properties/locator",
+        "before": null,
+        "after": "/relationships/270"
+      }
+    ]
+  },
+  "additions": [
+    {
+      "id": "BOUND-S04-C01",
+      "type": "BOUNDARY_PARTICIPANT",
+      "source": "S04",
+      "target": "C01",
+      "properties": {
+        "boundaryId": "S",
+        "localBoundaryIds": [
+          "S"
+        ],
+        "participantRole": "column-section",
+        "participantKind": "column",
+        "rangeState": "localized-by-existing-geometry",
+        "analysisSliceZM": 1.0,
+        "geometryVersion": "V01-unified-2.2",
+        "localRuleVersion": "V01-local-boundary-coverage-v1",
+        "semanticOrigin": "research-extension",
+        "scope": "前廊南界本侧柱截面，不复制院落侧范围",
+        "localRangeBasis": "本空间边界独立裁取；z=1m；扣宿主开口；不推受力、三维包含或通行",
+        "assertionSourceUid": "V01:EV01",
+        "assertionSourceVersion": "V01-unified-2.2",
+        "assertionLocator": "/relationships/285",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "locator": "/relationships/285",
+        "evidenceRole": "synthetic_assignment"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "BOUND-S04-C02",
+      "type": "BOUNDARY_PARTICIPANT",
+      "source": "S04",
+      "target": "C02",
+      "properties": {
+        "boundaryId": "S",
+        "localBoundaryIds": [
+          "S"
+        ],
+        "participantRole": "column-section",
+        "participantKind": "column",
+        "rangeState": "localized-by-existing-geometry",
+        "analysisSliceZM": 1.0,
+        "geometryVersion": "V01-unified-2.2",
+        "localRuleVersion": "V01-local-boundary-coverage-v1",
+        "semanticOrigin": "research-extension",
+        "scope": "前廊南界本侧柱截面，不复制院落侧范围",
+        "localRangeBasis": "本空间边界独立裁取；z=1m；扣宿主开口；不推受力、三维包含或通行",
+        "assertionSourceUid": "V01:EV01",
+        "assertionSourceVersion": "V01-unified-2.2",
+        "assertionLocator": "/relationships/286",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "locator": "/relationships/286",
+        "evidenceRole": "synthetic_assignment"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "BOUND-S04-C03",
+      "type": "BOUNDARY_PARTICIPANT",
+      "source": "S04",
+      "target": "C03",
+      "properties": {
+        "boundaryId": "S",
+        "localBoundaryIds": [
+          "S"
+        ],
+        "participantRole": "column-section",
+        "participantKind": "column",
+        "rangeState": "localized-by-existing-geometry",
+        "analysisSliceZM": 1.0,
+        "geometryVersion": "V01-unified-2.2",
+        "localRuleVersion": "V01-local-boundary-coverage-v1",
+        "semanticOrigin": "research-extension",
+        "scope": "前廊南界本侧柱截面，不复制院落侧范围",
+        "localRangeBasis": "本空间边界独立裁取；z=1m；扣宿主开口；不推受力、三维包含或通行",
+        "assertionSourceUid": "V01:EV01",
+        "assertionSourceVersion": "V01-unified-2.2",
+        "assertionLocator": "/relationships/287",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "locator": "/relationships/287",
+        "evidenceRole": "synthetic_assignment"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "BOUND-S04-C04",
+      "type": "BOUNDARY_PARTICIPANT",
+      "source": "S04",
+      "target": "C04",
+      "properties": {
+        "boundaryId": "S",
+        "localBoundaryIds": [
+          "S"
+        ],
+        "participantRole": "column-section",
+        "participantKind": "column",
+        "rangeState": "localized-by-existing-geometry",
+        "analysisSliceZM": 1.0,
+        "geometryVersion": "V01-unified-2.2",
+        "localRuleVersion": "V01-local-boundary-coverage-v1",
+        "semanticOrigin": "research-extension",
+        "scope": "前廊南界本侧柱截面，不复制院落侧范围",
+        "localRangeBasis": "本空间边界独立裁取；z=1m；扣宿主开口；不推受力、三维包含或通行",
+        "assertionSourceUid": "V01:EV01",
+        "assertionSourceVersion": "V01-unified-2.2",
+        "assertionLocator": "/relationships/288",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "locator": "/relationships/288",
+        "evidenceRole": "synthetic_assignment"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    },
+    {
+      "id": "BOUND-S06-W10",
+      "type": "BOUNDARY_PARTICIPANT",
+      "source": "S06",
+      "target": "W10",
+      "properties": {
+        "boundaryId": "N",
+        "localBoundaryIds": [
+          "N"
+        ],
+        "participantRole": "wall-boundary",
+        "participantKind": "wall",
+        "rangeState": "localized-by-existing-geometry",
+        "analysisSliceZM": 1.0,
+        "geometryVersion": "V01-unified-2.2",
+        "localRuleVersion": "V01-local-boundary-coverage-v1",
+        "semanticOrigin": "research-extension",
+        "scope": "院门外侧北界W10局部；扣除I05后保留门洞两旁实体段",
+        "localRangeBasis": "本空间边界独立裁取；z=1m；扣宿主开口；不推受力、三维包含或通行",
+        "assertionSourceUid": "V01:EV01",
+        "assertionSourceVersion": "V01-unified-2.2",
+        "assertionLocator": "/relationships/289",
+        "sourceUid": "V01:EV01",
+        "sourceVersion": "V01-unified-2.2",
+        "locator": "/relationships/289",
+        "evidenceRole": "synthetic_assignment"
+      },
+      "status": "synthetic_assignment",
+      "evidence": [
+        "EV01",
+        "EV02"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "P1": {
+    "value": 29.0546041,
+    "unit": "deg",
+    "rule": "atan((ridgeZ-wallSupportZ)/(axisDepth/2))",
+    "status": "derivable"
+  },
+  "P2": {
+    "value": true,
+    "via": "I03",
+    "source": "S01",
+    "target": "S03",
+    "bidirectional": true,
+    "status": "derivable"
+  },
+  "P3": {
+    "value": [
+      "材质_木",
+      "材质_陶瓦"
+    ],
+    "status": "extractable"
+  },
+  "P4": {
+    "truth": "材质_砖",
+    "observable_status": "underdetermined",
+    "acceptable": "拒绝确证；可列带依据和待验证条件的材料候选"
+  },
+  "P5": {
+    "truth": "卧室",
+    "observable_status": "underdetermined",
+    "acceptable": "拒绝确证；可列多种用途假设但不改成事实"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (b:V01)-[r:REFERENCES_GROUND]->(p:V01) RETURN b.uid AS building,p.uid AS profile,p.geometryJson AS geometry,p.groundState AS state,r.pointIndex AS pointIndex,r.objectPointField AS objectPointField,b.groundPointXYZ AS objectPoint ORDER BY building",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.853048+08:00"
+}

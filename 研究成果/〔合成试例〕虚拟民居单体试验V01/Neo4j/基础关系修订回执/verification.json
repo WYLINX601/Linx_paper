@@ -1,0 +1,89 @@
+{
+  "status": "verified-unified-synthetic-prototype-new-details-await-user-review",
+  "modelSHA256": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+  "payloadSHA256": "78531899f2c01ff9a669d75c513985bea38614eb13a0407e136fceb91aa3983c",
+  "compilerSHA256": "a2f9399f31a2020982d2091a83cfdb5fb621bfc4c98bb6b63194c189cc6ab1d5",
+  "beforeFingerprint": "3738fdc69533c91ab43f2db0aa116eb625516d14e2be3ba6faae024821df2142",
+  "at": "2026-11-02T20:13:52.599726+08:00",
+  "exactNodes": 56,
+  "exactRelationships": 290,
+  "originalV01NodeIdentitiesPreserved": 56,
+  "allOriginalV01GeometriesUnchanged": true,
+  "legacyTrialNodesActive": 0,
+  "nativeTypes": "verified",
+  "constraintsIndexesUnchanged": true,
+  "preservedOtherGraphFingerprint": "a703d71579c9879b2eb3414cd061af62faa25273afbb114b594903fef486c47b",
+  "queryCounts": {
+    "Q01_identity": 56,
+    "Q02_dimensions": 8,
+    "Q03_comparison": 1,
+    "Q04_boundary": 8,
+    "Q05_interfaces": 5,
+    "Q06_outward_path": 1,
+    "Q07_return_path": 1,
+    "Q08_local_area_inputs": 2,
+    "Q09_uses": 3,
+    "Q10_sources": 12,
+    "Q11_roles_and_scope": 25,
+    "Q12_no_duplicates": 1,
+    "Q13_legacy_topology": 3,
+    "Q14_facade_records": 2,
+    "Q15_facade_openings": 4,
+    "Q16_collection": 3,
+    "Q17_street_sides": 2,
+    "Q18_ground_reference": 1,
+    "Q19_explicit_local_pair": 1,
+    "Q20_extension_sources": 14,
+    "Q21_local_boundaries": 28,
+    "Q22_roof_projection_inputs": 6,
+    "Q23_open_interface_columns": 8,
+    "Q24_street_reference_inputs": 1,
+    "Q25_object_relationship_inventory": 56,
+    "Q26_interface_completeness": 10
+  },
+  "analysisItems": [
+    "T01",
+    "T02",
+    "T03",
+    "T04",
+    "T05",
+    "T06"
+  ],
+  "empiricalValidity": "not-validated",
+  "restoreRehearsed": false,
+  "extensionAnalysisItems": {
+    "D04": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06"
+    ],
+    "D05": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05",
+      "T06"
+    ],
+    "D06": [
+      "T01",
+      "T02",
+      "T03",
+      "T04",
+      "T05"
+    ]
+  },
+  "newDistinctObjectIds": [],
+  "newRelationshipIds": [
+    "BOUND-S04-C01",
+    "BOUND-S04-C02",
+    "BOUND-S04-C03",
+    "BOUND-S04-C04",
+    "BOUND-S06-W10"
+  ],
+  "scope": "V01 in-place basic-relation correction; no node or relationship deletion, no 2.1 replay",
+  "basicRelationObjectCoverage": 56
+}

@@ -1,0 +1,2690 @@
+
+
+
+
+
+    <!DOCTYPE html>
+    <html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+    <head runat="server"><script>localStorage.removeItem("iframe_status");
+!function(t,e){"object"==typeof exports&&"object"==typeof module?module.exports=e():"function"==typeof define&&define.amd?define([],e):"object"==typeof exports?exports.TestModule=e():t.TestModule=e()}(this,(function(){return function(){var t={203:function(t,e,n){function r(t){return r="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},r(t)}var o=n(809).proxy,i=n(359),a={start:function(){o({onRequest:function(t,e){t.headers["wzws-api-verify"]=(new Date).getTime(),e.next(t)},onResponse:function(t,e){if(t.headers["wzws-api-verify"]){var n=null,o=t.response;if("object"===r(o)&&null!==o)n=o;else if("string"==typeof o&&""!==o.trim())try{n=JSON.parse(o)}catch(t){console.error("JSON 解析失败:",t,"原始字符串:",o),n={}}else n={};n.location?i.add(n.popup,n.location,(function(){!function(n){var r=n.url,o=n.method,i=n.headers,a=n.body,s=new XMLHttpRequest;if(s.onreadystatechange=function(){4===s.readyState&&200===s.status&&(t.response=s.responseText,e.next(t))},s.open(o,r),i)for(var u in i)i.hasOwnProperty(u)&&s.setRequestHeader(u,i[u]);a?s.send(a):s.send()}(t.config)})):e.next(t)}else e.next(t)}})}};t.exports=a},74:function(t,e,n){var r=n(359),o={ping_api:"/ICSMSG",ping_interval:15e3,send_beat:function(){var t=new XMLHttpRequest;t.onreadystatechange=function(){if(this.readyState===XMLHttpRequest.DONE&&200===this.status){var e;try{e=JSON.parse(t.responseText)}catch(t){e={}}e.location&&r.add(e.popup,e.location)}},t.open("POST",o.ping_api),t.send(JSON.stringify({id:"ping",version:1,value:Date.now()}))},start:function(){setInterval(this.send_beat,this.ping_interval)}};t.exports=o},809:function(t,e){function n(t){return n="function"==typeof Symbol&&"symbol"==typeof Symbol.iterator?function(t){return typeof t}:function(t){return t&&"function"==typeof Symbol&&t.constructor===Symbol&&t!==Symbol.prototype?"symbol":typeof t},n(t)}var r=["load","loadend","timeout","error","readystatechange","abort"],o="__origin_xhr";function i(t,e){var n={};for(var r in t)n[r]=t[r];return n.target=n.currentTarget=e,n}var a=r[0],s=r[1],u=r[2],f=r[3],c=r[4],l=r[5],d="prototype";function h(t){return t.watcher||(t.watcher=document.createElement("a"))}function p(t,e){var n,r=t.getProxy(),o="on"+e+"_",a=i({type:e},r);r[o]&&r[o](a),"function"==typeof Event?n=new Event(e,{bubbles:!1}):(n=document.createEvent("Event")).initEvent(e,!1,!0),h(t).dispatchEvent(n)}function v(t){this.xhr=t,this.xhrProxy=t.getProxy()}function y(t){function e(t){v.call(this,t)}return e[d]=Object.create(v[d]),e[d].next=t,e}e.proxy=function(t,e){return function(t,e){var a=t.onRequest,s=t.onResponse,d=t.onError;function v(t){var e=t.responseType;if(!e||"text"===e)return t.responseText;var n=t.response;if("json"===e&&!n)try{return JSON.parse(t.responseText)}catch(t){console.warn(t)}return n}function y(){return!0}function g(t){return function(e,n){return function(t,e,n,r){var o=new b(t);n={config:t.config,error:n,type:r},d?d(n,o):o.next(n)}(e,0,n,t),!0}}function x(t,e){return 4===t.readyState&&0!==t.status?function(t,e){var n=new m(t),r={response:v(e),status:e.status,statusText:e.statusText,config:t.config,headers:t.resHeader||t.getAllResponseHeaders().split("\r\n").reduce((function(t,e){if(""===e)return t;var n=e.split(":");return t[n.shift()]=function(t){return t.replace(/^\s+|\s+$/g,"")}(n.join(":")),t}),{})};if(!s)return n.resolve(r);s(r,n)}(t,e):4!==t.readyState&&p(t,c),!0}var w=function(t,e){var a=(e=e||window).XMLHttpRequest;function s(e){return function(){var n=this.hasOwnProperty(e+"_")?this[e+"_"]:this[o][e],r=(t[e]||{}).getter;return r&&r(n,this)||n}}function u(e){return function(n){var r=this[o],a=this,s=t[e];if("on"===e.substring(0,2))a[e+"_"]=n,r[e]=function(o){o=i(o,a),t[e]&&t[e].call(a,r,o)||n.call(a,o)};else{var u=(s||{}).setter;n=u&&u(n,a)||n,this[e+"_"]=n;try{r[e]=n}catch(t){}}}}function f(e){return function(){var n=[].slice.call(arguments);if(t[e]){var r=t[e].call(this,n,this[o]);if(r)return r}return this[o][e].apply(this[o],n)}}return e.XMLHttpRequest=function(){for(var t=new a,e=0;e<r.length;++e){var i="on"+r[e];void 0===t[i]&&(t[i]=null)}for(var c in t){var l="";try{l=n(t[c])}catch(t){}"function"===l?this[c]=f(c):c!==o&&Object.defineProperty(this,c,{get:s(c),set:u(c),enumerable:!0})}var d=this;t.getProxy=function(){return d},this[o]=t},Object.assign(e.XMLHttpRequest,{UNSENT:0,OPENED:1,HEADERS_RECEIVED:2,LOADING:3,DONE:4}),{originXhr:a,unHook:function(){e.XMLHttpRequest=a,a=void 0}}}({onload:y,onloadend:y,onerror:g(f),ontimeout:g(u),onabort:g(l),onreadystatechange:function(t){return x(t,this)},open:function(t,e){var n=this,r=e.config={headers:{}};r.method=t[0],r.url=t[1],r.async=t[2],r.user=t[3],r.password=t[4],r.xhr=e;var o="on"+c;if(e[o]||(e[o]=function(){return x(e,n)}),a)return!0},send:function(t,e){var n=e.config;if(n.withCredentials=e.withCredentials,n.body=t[0],a){var r=function(){a(n,new _(e))};return!1===n.async?r():setTimeout(r),!0}},setRequestHeader:function(t,e){if(e.config.headers[t[0].toLowerCase()]=t[1],a)return!0},addEventListener:function(t,e){var n=this;if(-1!==r.indexOf(t[0])){var o=t[1];return h(e).addEventListener(t[0],(function(e){var r=i(e,n);r.type=t[0],r.isTrusted=!0,o.call(n,r)})),!0}},getAllResponseHeaders:function(t,e){var n=e.resHeader;if(n){var r="";for(var o in n)r+=o+": "+n[o]+"\r\n";return r}},getResponseHeader:function(t,e){var n=e.resHeader;if(n)return n[(t[0]||"").toLowerCase()]}},e);return{originXhr:w.originXhr,unProxy:w.unHook}}(t,e=e||window)},v[d]=Object.create({resolve:function(t){var e=this.xhrProxy,n=this.xhr;e.readyState=4,n.resHeader=t.headers,e.response=e.responseText=t.response,e.statusText=t.statusText,e.status=t.status,p(n,c),p(n,a),p(n,s)},reject:function(t){this.xhrProxy.status=0,p(this.xhr,t.type),p(this.xhr,s)}});var _=y((function(t){var e=this.xhr;for(var n in t=t||e.config,e.withCredentials=t.withCredentials,e.open(t.method,t.url,!1!==t.async,t.user,t.password),t.headers)e.setRequestHeader(n,t.headers[n]);e.send(t.body)})),m=y((function(t){this.resolve(t)})),b=y((function(t){this.reject(t)}))},359:function(t){var e={has_init:!1,interval_id:null,iframe_queue:[],iframe_info_now:null,add:function(t,e){var n=arguments.length>2&&void 0!==arguments[2]?arguments[2]:null;window.addEventListener&&window.localStorage&&(this.has_init||(this.init(),this.has_init=!0),this.append_queue(t,e,n)&&!this.interval_id&&this.run())},init:function(){window.addEventListener("storage",this.listen_storage_iframeClose),window.onbeforeunload=this.listen_pageClose},listen_storage_iframeClose:function(t){"iframe_status"===t.key&&"off"===t.newValue&&this.del_iframe()},listen_pageClose:function(){this.del_iframe()},append_queue:function(t,e,n){var r=this.iframe_info_now;if(r&&r.location!==e&&(r=null),!r&&this.iframe_queue.length>0)for(var o in this.iframe_queue)if(o.location===e){r=o;break}return r?(n&&r.callbacks.push(n),!1):(this.iframe_queue.push({popup:t,location:e,callbacks:n?[n]:[]}),!0)},run:function(){var t=this;this.queue_interval_id=setInterval((function(){t.try_create_iframe()}),500)},try_create_iframe:function(){if(0===this.iframe_queue.length)return clearInterval(this.interval_id),void(this.queue_interval_id=null);if("on"!==localStorage.getItem("iframe_status")){var t=this.iframe_queue.shift();t&&(localStorage.setItem("iframe_status","on"),this.iframe_info_now=t,this.create_iframe(t))}},create_iframe:function(t){var e=this,n=document.createElement("iframe");n.style="position:fixed !important;top:0;bottom:0;left:0;right:0;margin:auto;z-index:9999;background:white;width:456px;height:360px",n.style.display=t.popup?"block":"none",n.setAttribute("id","iframe_box"),n.setAttribute("src",t.location),n.setAttribute("frameborder","0"),n.setAttribute("allowtransparency","no"),n.onload=function(){e.listen_textContent()},document.body.appendChild(n)},listen_textContent:function(){var t,e=document.getElementById("iframe_box").contentDocument.body;try{t=JSON.parse(e.textContent)}catch(e){t={}}if(t.verify_status){this.del_iframe();var n=this.iframe_info_now;if(n.callbacks.length>0)for(var r in n.callbacks)n.callbacks[r]();this.iframe_info_now=null,localStorage.setItem("iframe_status","off")}},del_iframe:function(){var t=window.document.getElementById("iframe_box");t&&t.parentNode.removeChild(t)}};t.exports=e}},e={};function n(r){var o=e[r];if(void 0!==o)return o.exports;var i=e[r]={exports:{}};return t[r](i,i.exports,n),i.exports}return function(){var t={heartbeat:"WZWS_HB_SW",api_verify:"true"},e={heartbeat:n(74),api_verify:n(203)};for(var r in t)if("true"===t[r]){var o=e[r];o&&o.start()}}(),{}}()}));</script>
+        <meta name="renderer" content="webkit"/>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <title>国家哲学社会科学文献中心</title>
+        <meta name="keywords" content="文献中心,期刊库,中文期刊,外文期刊,古籍,集刊,优先发布,习近平新时代中国特色社会主义思想">
+        <meta name="description" content="为贯彻落实习近平总书记在哲学社会科学工作座谈会上的讲话精神，中国社会科学院牵头建设国家哲学社会科学文献中心。中心立足全国哲学社会科学领域，由国家投入和支持，开展哲学社会科学文献信息资源建设和服务。中心目前收录的文献类型包括中文期刊、外文期刊、集刊、古籍，并建设了优先发布栏目、习近平新时代中国特色社会主义思想专栏等。">
+        <meta name="copyright" content="中国社会科学院图书馆">
+        <meta name="author" content="中国社会科学院图书馆">
+        <meta name="baidu-site-verification" content="codeva-10vo0vjfkh" />
+        <!-- PC站,帮助百度提交校验识别结果的正确性，减少百度蜘蛛把PC站当成M站，或者把M站当成PC站进行抓取。 -->
+        <meta name="applicable-device" content="pc">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0, user-scalable=yes"/>
+        <link rel="icon" href="/images/favicon.ico" type="x-icon">
+        <link href="/js/layui/css/layui.css" rel="stylesheet"/>
+        <link href="/css/jquery.hiSlider.css" rel="stylesheet"/>
+            <link href="/css/style.css" media="all" rel="stylesheet" type="text/css" />
+        <link href="/js/autocomplete/jquery-ui.css" rel="stylesheet" />
+        <script type="text/javascript" src="/js/vue/2.6.9/vue.min.js"></script>
+        <script type="text/javascript" src="/js/jquery-1.11.1.min.js"></script>
+        <script type="text/javascript" src="/js/jquery.hiSlider.js"></script>
+        <script type="text/javascript" src="/js/layui/layui.js"></script>
+        <script type="text/javascript" src="/js/common.js"></script>
+        <script type="text/javascript" src="/js/DateFormat.js"></script>
+        <script type="text/javascript" src="/js/jquery.base64.js"></script>
+        <script src="/js/autocomplete/jquery-ui.js"></script>
+        <script type="text/javascript">
+            document.write('<script src="/js/web/Master.js?a='+Math.random()+'"><\/script>');
+            document.write('<script src="/js/util/ms.util.js?b='+Math.random()+'"><\/script>');
+        </script>
+        <script type="text/javascript" src="/js/sensorsdata.min.js"></script>
+        <script type="text/javascript" src="/js/grayscale.js"></script>
+        <script type="text/javascript" src="/js/gray_theme.js"></script>
+        <script type="text/javascript" src="/js/jquery.md5.js"></script>
+        <script type="text/javascript" src="/js/axios/axios.js"></script>
+        <script src="/js/web/xss.js"></script>
+        <script type='text/javascript' src='https://webchat02.7moor.com/javascripts/7moorInit.js?accessId=31764640-cb90-11f1-a532-a5cbbb4bd5cd&autoShow=false&language=ZHCN' async='async'></script>
+            <script>
+
+        var sensors = window['sensorsDataAnalytic201505'];
+
+        // import sensors from 'sa-sdk-javascript'
+        sensors.init({
+            //线上埋点ES地址
+            server_url: 'https://log.ncpssd.cn/ubancpssd',
+            //公司环境和埋点ES地址
+            // server_url: 'http://183.242.161.51:19002/ubancpssd',
+            //将heatmap设置为空对象表示开启$WebClick和$WebStay事件的采集
+            heatmap: {
+                //default 表示开启，自动采集 $WebClick 事件，可以设置 'not_collect' 表示关闭。
+                clickmap: 'default',
+                //default 表示开启，自动采集 $WebStay 事件，可以设置 'not_collect' 表示关闭。
+                //  scroll_notice_map:'default'
+                //是否开启触达注意力图，default 表示开启，自动采集 $WebStay 事件，可以设置 'not_collect' 表示关闭。
+                //需要 Web JS SDK 版本号大于 1.9.1
+                // scroll_notice_map:'not_collect',
+                scroll_notice_map: 'default',
+                scroll_delay_time: 2000,
+                scroll_event_duration: 18000 //单位秒，预置属性停留时长 event_duration 的最大值。默认5个小时，也就是300分钟，18000秒。
+            },
+            //设置该属性后SDK在url切换后自动采集$pageview事件
+            is_track_single_page: true,
+            show_log: false
+        });
+
+        var start = 0;
+        var end = 0;
+
+        // 若点击预览则不记录日志
+        if (window.location.pathname !== '/modifiedTitle/review'){
+            var timer = setInterval(function () {
+                start = window.performance.timing.requestStart;
+                end = window.performance.timing.responseEnd;
+                var pageType = getUrlParam("pageType")
+                pageType = pageType == null ? '1' : pageType
+                var synUpdateType = getUrlParam("synUpdateType")
+                synUpdateType = synUpdateType == null ? '' : synUpdateType
+
+                if (!synUpdateType) {
+                    // 集刊标识
+                    var type = getUrlParam("type")
+                    if (type === 'collectionsArticle'){
+                        synUpdateType = 3
+                    }
+                }
+                if (0 !== start && 0 !== end) {
+                    sensors.registerPage({
+                        usertypeid: 10,
+                        event_duration: end - start,
+                        exploreName: getExploreName(),
+                        systemName: getSystemName(),
+                        synUpdateType: synUpdateType,
+                        pageType: pageType
+                    })
+                    clearInterval(timer)
+                }
+            })
+        }
+
+        function getExploreName() {
+            var userAgent = navigator.userAgent;
+            if (userAgent.indexOf("Opera") > -1 || userAgent.indexOf("OPR") > -1) {
+                return 'Opera';
+            } else if (userAgent.indexOf("compatible") > -1 && userAgent.indexOf("MSIE") > -1) {
+                return 'IE';
+            } else if (userAgent.indexOf("Edge") > -1) {
+                return 'Edge';
+            } else if (userAgent.indexOf("Firefox") > -1) {
+                return 'Firefox';
+            } else if (userAgent.indexOf("Safari") > -1 && userAgent.indexOf("Chrome") == -1) {
+                return 'Safari';
+            } else if (userAgent.indexOf("Chrome") > -1 && userAgent.indexOf("Safari") > -1) {
+                return 'Chrome';
+            } else if (!!window.ActiveXObject || "ActiveXObject" in window) {
+                return 'IE>=11';
+            } else {
+                return 'Unkonwn';
+            }
+        }
+
+        // 获取url中的参数
+        function getUrlParam(name) {
+            var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)"); //构造一个含有目标参数的正则表达式对象
+            var r = window.location.search.substr(1).match(reg);  //匹配目标参数
+            if (r != null) return decodeURI(r[2]);
+            return null; //返回参数值
+        }
+
+        //获取操作系统类型
+        function getSystemName() {
+            var sUserAgent = navigator.userAgent;
+            var isWin = (navigator.platform == "Win32") || (navigator.platform == "Windows");
+            var isMac = (navigator.platform == "Mac68K") || (navigator.platform == "MacPPC") || (navigator.platform == "Macintosh") || (navigator.platform == "MacIntel");
+            if (isMac) return "Mac";
+            var isUnix = (navigator.platform == "X11") && !isWin && !isMac;
+            if (isUnix) return "Unix";
+            var isLinux = (String(navigator.platform).indexOf("Linux") > -1);
+            if (isLinux) return "Linux";
+            if (isWin) {
+                var isWin2K = sUserAgent.indexOf("Windows NT 5.0") > -1 || sUserAgent.indexOf("Windows 2000") > -1;
+                if (isWin2K) return "Win2000";
+                var isWinXP = sUserAgent.indexOf("Windows NT 5.1") > -1 || sUserAgent.indexOf("Windows XP") > -1;
+                if (isWinXP) return "WinXP";
+                var isWin2003 = sUserAgent.indexOf("Windows NT 5.2") > -1 || sUserAgent.indexOf("Windows 2003") > -1;
+                if (isWin2003) return "Win2003";
+                var isWinVista = sUserAgent.indexOf("Windows NT 6.0") > -1 || sUserAgent.indexOf("Windows Vista") > -1;
+                if (isWinVista) return "WinVista";
+                var isWin7 = sUserAgent.indexOf("Windows NT 6.1") > -1 || sUserAgent.indexOf("Windows 7") > -1;
+                if (isWin7) return "Win7";
+                var isWin10 = sUserAgent.indexOf("Windows NT 10") > -1 || sUserAgent.indexOf("Windows 10") > -1;
+                if (isWin10) return "Win10";
+            }
+            return "other";
+        }
+
+
+        //首次进入页面不会触发$pageview，需要手动调用一次
+        // sensors.quick('autoTrack');
+
+        var _hmt = _hmt || [];
+        (function () {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?a2e1dbec5d4200f69389a10a0dce981b";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+            <script src="/js/jquery.md5.js"></script>
+    <script src="/js/web/Literature/articleinfo.js"></script>
+    <script src="/js/jquery.base64.js"></script>
+    <script src="/js/DateFormat.js"></script>
+
+        <style type="text/css">
+            #cnt2, #div_TS, #div_GJ {
+                padding-top: 80px;
+            }
+
+            #qkadvancetab tr div, #tab_TS tr div, #qkadvancetab tr span, #tab_TS tr span, #div_GJ tr span {
+                float: left;
+            }
+
+            #qkadvancetab tr td, #tab_TS tr td, #div_GJ tr td {
+                padding-bottom: 10px;
+            }
+
+            .class_layer {
+                display: none;
+                position: absolute;
+                top: 120px;
+                width: 100%;
+                text-align: center;
+                z-index: 198910150;
+            }
+
+            .class_sel {
+                position: relative;
+                width: 790px;
+                margin: 0 auto;
+                text-align: left;
+                background: #fff;
+                z-index: 199;
+                box-shadow: 5px 10px 30px rgba(0, 0, 0, 0.5);
+            }
+
+            .class_sel h6 {
+                background: #E76C71;
+                color: #FFFFFF;
+                font-family: Microsoft YaHei;
+                font-weight: lighter;
+                height: 50px;
+                padding-left: 15px;
+            }
+
+            .class_sel h6 span {
+                float: left;
+                font-size: 14px;
+                height: 24px;
+                letter-spacing: 2px;
+                line-height: 50px;
+                color: #FFF;
+                text-align: center;
+            }
+
+            .class_sel h6 .close {
+                float: right;
+                padding: 5px;
+                font-family: Comic Sans MS;
+                cursor: pointer;
+                opacity: 1;
+                text-shadow: unset;
+                font-size: 15px;
+                font-weight: normal;
+            }
+
+            .class_sel .cnt {
+                padding: 10px 15px;
+            }
+
+            .class_sel li {
+                overflow: hidden;
+                width: 750px;
+                margin: 5px 15px;
+            }
+
+            .class_sel li h4 {
+                font-weight: bold;
+                margin-bottom: 5px;
+                background: #f8d6d7;
+                height: 50px;
+                line-height: 50px;
+                color: #746a68;
+                font-size: 16px;
+                font-weight: normal;
+            }
+
+            .class_sel li h4 a {
+                height: 20px;
+                width: 20px;
+                float: right;
+                margin-right: 30px;
+                background: url(/images/samll-add.png);
+                margin-top: 15px;
+            }
+
+            .class_sel li h4 .hide {
+                display: block;
+                background: url("/images/small-hide.png") no-repeat;
+            }
+
+            .class_sel li h4 label {
+                font-size: 14px;
+                float: left;
+                margin-left: 30px;
+            }
+
+            .class_sel li .sub {
+                display: none;
+                overflow: hidden;
+                width: 715px;
+                margin-left: 35px;
+                margin-bottom: 10px;
+                background: unset;
+                height: auto;
+            }
+
+            .class_sel li .sub label {
+                float: left;
+                width: 175px;
+                font-size: 14px;
+                font-weight: lighter;
+                color: #333;
+                margin: 5px 0;
+            }
+
+            .power-top {
+                width: 1200px;
+                margin: 0 auto;
+                padding: 20px 0;
+            }
+
+            .power {
+                background: url(/images/power.jpg) no-repeat top center;
+                height: 250px;
+            }
+
+            .logo-xxi img {
+                height: 100px;
+            }
+
+            .power .search-c {
+                top: 150px;
+            }
+
+            .wid250 {
+                width: 252px;
+            }
+
+            .wid1010 {
+                width: 1010px;
+            }
+
+            .wid1010 .jour-pic ul li {
+                float: left;
+                width: 16%;
+                margin-right: 6px;
+            }
+
+            .search-xuexi .search-c {
+                background: url('/images/search_bg2.png');
+                top: 195px;
+                left: 50%;
+                margin-left: -500px;
+            }
+
+            .search-xuexi .search-c .in input {
+                width: 560px;
+            }
+
+            .search-xuexi .up_oown1.searchField-ul {
+                margin-top: 0px;
+                width: 184px;
+            }
+
+            .nav-items li {
+                border-bottom: 1px solid #CCC;
+                white-space: nowrap;
+                overflow: hidden;
+                text-overflow: ellipsis;
+            }
+
+            .nav-items li:hover {
+                color: #ffffff;
+            }
+
+            /*  搜索联想框  */
+            .search_bg {
+                position: absolute;
+                top: 61px;
+                left: 250px;
+                width: 637px;
+                background: #fff;
+                padding: 0 20px;
+                box-sizing: border-box;
+                border-radius: 0 0 6px 6px;
+                max-height: 360px;
+                overflow-y: auto;
+                z-index: 9;;
+            }
+
+            .search_bg p {
+                line-height: 35px;
+                color: #999;
+                font-size: 16px;
+                cursor: pointer;
+            }
+
+            .search_bg p:hover {
+                color: #d92129
+            }
+
+            .float-content p{
+                line-height: 27px;
+                color: black;
+            }
+
+            .float-content p a{
+                color: black;
+                font-weight: 900;
+            }
+
+            .addstick:after{
+                content: "|";
+                padding-left: 12px;
+            }
+
+            .addstick:last-child:after{
+                content: "";
+            }
+
+            #ul_text ul.clr{
+                float: left;
+            }
+
+            .head-t{
+                position: relative;
+            }
+
+            #replace{
+                position: absolute;
+                right: 50px;
+            }
+
+            .translate_cn{
+                position: absolute;
+                right: 30px;
+                cursor: pointer;
+            }
+
+            .translate_cn img{
+                width: 20px;
+                height: 20px;
+                margin-right: 8px;
+            }
+
+            .bdlj{
+                position: absolute;
+                left: 0;
+            }
+
+            .explain2 .layui-form-checkbox{
+                opacity: 0.5;
+                pointer-events: none;
+            }
+        </style>
+    </head>
+    <body oncontextmenu="return false" onselectstart="return false" ondragstart="return false"  runat="server">
+<a href=/raylink_0></a>
+    <header>
+    <div id="themeType" class="theme-type"></div>
+        <div class="header">
+            <div class="head-t">
+                <div class="head-tleft">
+                    <span id="replace">您好，
+                        请<a onclick="rediUrl()" style="cursor: pointer;"> 登录</a> <a href='/register' style="margin-left: 20px;"> 注册</a>
+                    </span>
+                    <a onclick="en_link()" target="_blank" class="translate_cn"><img src="/images/yasuotupian/icon_fanyi_Azhong.png" alt="">EN</a>
+                    <i style="position: absolute;left: 200px;">2026年10月22日 星期四</i>
+                </div>
+                <div class="head-tright" style="position: absolute;left: 20px;top: 3px;">
+                    中国社会科学院图书馆承建
+                </div>
+            </div>
+        </div>
+        <nav>
+                <div class="nav-top">
+                    <div class="logo">
+                        <a href="/index"><img src="/images/logo.png" alt="国家哲学社会科学文献中心" width="385" height="56" /></a>
+                    </div>
+                    <div class="nav">
+                        <a href="/index" target="_blank">首页</a>
+                        <a class="nav-resource" href="/journal/index" target="_blank">资源</a>
+                        <a class="nav-zhuanti" href="/topics/detailsList?id=1103&wfColumn=1&resourceType=0" target="_blank">专题</a>
+                        <a class="nav-service" href="/service/index" target="_blank">服务</a>
+                        <a class="nav-about" onclick="bianyihref('/aboutUs?mainTitle=中心简介')" style="cursor:pointer;">关于我们</a>
+                        <a class="nav-help" onclick="bianyihref('/service/help?mainTitle=使用指南')"  style="cursor:pointer;">帮助</a>
+
+                    </div>
+                    <ul class="nav-items nav-items-resource">
+                        <li><a href="/journal/index?nav=1&langType=1&s=-1">中文期刊</a></li>
+                        <li><a href="/journal/list?nav=1&langType=2&s=2">外文期刊</a></li>
+                        <li><a href="/Literature/ancientbooklistNew?nav=5">古籍</a></li>
+                        <li><a href="/Collections/index?nav=1&langType=1&s=-1">集刊</a></li>
+                        <li><a href="/ForeignBooks/getForeignBookQueryUrl">外文图书</a></li>
+                        <li><a href="/Literature/prpSeparatePageList">优先发布论文</a></li>
+                    </ul>
+                    <ul class="nav-items nav-items-zhuanti" style="margin-left: 854px;">
+                                <li class="lineheight"><a href="/topics/detailsList?id=1103&wfColumn=1&resourceType=0">习近平新时代<br/>中国特色社会主义思想</a></li>
+                                <li class="lineheight"><a href="/topics/details?id=1107&wfColumn=1&resourceType=203">研究阐释宣传<br/>党的二十大和二十届<br/>历次全会精神</a></li>
+                                <li class="lineheight"><a href="/topics/detailsList?id=4&wfColumn=1&resourceType=0">建设中国特色新型智库</a></li>
+                                <li class="lineheight"><a href="/topicsGd/gdIndex">古典学研究</a></li>
+                    </ul>
+                    <ul class="nav-items nav-items-service" style="margin-left: 942px;">
+                        <li><a href="/service/index">数据库导航</a></li>
+                        <li><a href="/service/index?id=11">外部资源导航</a></li>
+                        <li><a href="/service/index?id=15">学术网站导航</a></li>
+                        <li><a href="/service/index?id=17">社科机构导航</a></li>
+                    </ul>
+                    <ul class="nav-items nav-items-about" style="margin-left: 1050px;">
+                            <li><a style="cursor: pointer;" onclick="bianyihref('/aboutUs?mainTitle=中心简介')">中心简介</a></li>
+                            <li><a style="cursor: pointer;" onclick="bianyihref('/aboutUs?mainTitle=联系我们')">联系我们</a></li>
+                            <li><a style="cursor: pointer;" onclick="bianyihref('/aboutUs?mainTitle=版权声明')">版权声明</a></li>
+                    </ul>
+                    <ul class="nav-items nav-items-help" style="margin-left: 1162px;">
+                        <li><a onclick="qimoChatClick();" style="cursor: pointer">在线咨询</a></li>
+                            <li><a style="cursor: pointer;" onclick="bianyihref('/service/help?mainTitle=使用指南')">使用指南</a></li>
+                            <li><a style="cursor: pointer;" onclick="bianyihref('/service/help?mainTitle=常见问题')">常见问题</a></li>
+                    </ul>
+                    <input type="hidden" id="hidNavID" value="1" />
+                </div>
+        </nav>
+            <div class="beijigndandu" style="background-color: #E5E5E5;">
+                <div class="second">
+                    <div class="con-search">
+                        <div class="con-s-c">
+                            <div class="search-type-style">
+                                <ul class="clr zx-s search-type">
+                                        <li data-val="0"><a href="javascript:void(0);">全部文献</a></li>
+                                        <li data-val="1" data-lang="1"><a href="/journal/index?nav=1&langType=1&s=-1">中文期刊</a></li>
+                                        <li data-val="1" data-lang="2"><a href="/journal/list?nav=1&langType=2&s=2">外文期刊</a></li>
+                                        <li data-val="5"><a href="/Literature/ancientbooklistNew?nav=5">古籍</a></li>
+                                        <li data-val="7" data-lang="7"><a href="/Collections/index?nav=1&langType=1&s=-1">集刊</a></li>
+                                        <li data-val="8" data-lang="8"><a href="/ForeignBooks/getForeignBookQueryUrl">外文图书</a></li>
+                                        <li data-val="6"><a href="/Literature/prplist?nav=6">优先发布论文</a></li>
+                                </ul>
+                            </div>
+                            <div class="search-s">
+                                <div class="sea_one">
+                                    <a class="searchField" href="javascript:void(0);">题名/关键词</a>
+                                </div>
+                                <div class="up_oown1 searchField-ul" id="searchFields0">
+                                    <ul class="clr">
+                                        <li data-val="TS">题名/关键词</li>
+                                        <li data-val="TITE">题名</li>
+                                        <li data-val="CRTR">作者</li>
+                                        <li data-val="IKST">关键词</li>
+                                        <li data-val="ISSN">ISSN</li>
+                                    </ul>
+                                </div>
+                                <div class="up_oown1 searchField-ul" id="searchFields1">
+                                    <ul class="clr">
+                                        <li data-val='TS'>刊名</li>
+                                        <li data-val='Publisher'>主办单位</li>
+                                        <li data-val='ChiefEditor'>主编</li>
+                                        <li data-val='ISSN'>ISSN</li>
+                                    </ul>
+                                </div>
+                                <div class="up_oown1 searchField-ul" id="searchFieldsGJ">
+                                    <ul class="clr">
+                                        <li data-val='IKTE'>题名</li>
+                                        <li data-val='IKCR'>责任者</li>
+                                        <li data-val='ISBN'>索书号</li>
+                                        <li data-val='IKTS'>出版者</li>
+                                        <li data-val='BDNM'>条码号</li>
+                                    </ul>
+                                </div>
+                                <div class="up_oown1 searchField-ul" id="searchFileYXFB">
+                                    <ul class="clr">
+                                        <li data-val="TS">题名/关键词</li>
+                                        <li data-val="TITE">题名</li>
+                                        <li data-val="CRTR">作者</li>
+                                        <li data-val="IKST">关键词</li>
+                                        <li data-val="ISSN">ISSN</li>
+                                        <li data-val="CNEM">刊名</li>
+                                    </ul>
+                                </div>
+                                <div class="up_oown1 searchField-ul" id="searchFieldsBook" style="display: none">
+                                    <ul>
+                                        <li data-val='IKTE'>书名</li>
+                                        <li data-val='IKCR'>著者</li>
+                                        <li data-val='ISBN'>索书号</li>
+                                        <li data-val='TSPS'>出版社</li>
+                                        <li data-val='BDNM'>条码号</li>
+                                    </ul>
+                                </div>
+                                <div class="up_oown1 searchField-ul" id="jikanBook" style="display: none">
+                                    <ul>
+                                        <li data-val='TS'>刊名</li>
+                                        <li data-val='Publisher'>主办单位</li>
+                                        <li data-val='ChiefEditor'>主编</li>
+                                        <li data-val='ISSN'>ISBN</li>
+                                    </ul>
+                                </div>
+                                <div class="up_oown1 searchField-ul" id="waiwenxiala" style="display: none">
+                                    <ul>
+                                        <li data-val='name'>书名</li>
+                                        <li data-val='zuoZhe'>作者</li>
+                                        <li data-val='ChuBanShe'>出版社</li>
+                                        <li data-val='IS'>eISBN</li>
+                                    </ul>
+                                </div>
+                                <div class="in">
+                                    <input name="" maxlength="200" type="text" id="text_search" onblur="hideSearch()" autocomplete="off" class="ui-autocomplete-input" placeholder="请输入文献信息"/>
+                                </div>
+                                <div class="in">
+                                    <button id="but_search" type="button" onclick="Basicsearch()"></button>
+                                </div>
+                                <div class="sea_three" onclick="showSearchAdvanced(); return false">高级检索</div>
+                                <div class="search_bg" style="display:none"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        <div>
+            <input type="hidden" id="hidSearchType" value="0"/>
+            <input type="hidden" id="hidSearchValue" value=""/>
+            <input type="hidden" id="select_type" name="interest" value="TS"/>
+            <!--高级检索弹出层-->
+            <div id="advanced_search" class="dialog1 popup show" style="display: none;">
+                <div class="iofo-title floatl">
+                    <ul class="clr">
+                            <li class="current" id="article" onclick="Show_ASearch(this)"><a href="javascript:void(0);">文章</a></li>
+                            <li class="journal" id="QK" onclick="Show_ASearch(this)"><a href="javascript:void(0);">期刊</a></li>
+                            <li id="gj" onclick="Show_ASearch(this)"><a href="javascript:void(0);">古籍</a></li>
+                            <li id="waiwen" onclick="Show_ASearch(this)"><a href="javascript:void(0);">外文图书</a></li>
+                            <li id="expression" onclick="Show_ASearch(this)"><a href="javascript:void(0);">表达式检索</a></li>
+                        <div class="clo">
+                            <a href="javascript:void(0);" id="close_advanced_search"><img src="/images/close2.png" alt="关闭"></a>
+                        </div>
+                    </ul>
+                </div>
+                <!--文章高级检索页面-->
+                <div id="search_article" class="cnt layui-form">
+                    <div id="ul_text" class="col-lg-12 col-md-12 trace-left">
+                        <ul class="clr" style="margin-left: 89px;">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_1">
+                                        <option value="2">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input id="u_txt_1" type="text" maxlength="120" name="title" lay-verify="title" autocomplete="off" placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="layui-input-inline" style="width: 150px;">
+                                    <select id="u_select2_1" lay-filter="f_select2_1">
+                                        <option value="TS" selected="selected">题名/关键词</option>
+                                        <option value="CRTR">作者</option>
+                                        <option value="IKST">关键词</option>
+                                        <option value="TITE">题名</option>
+                                        <option value="CNEM">出版物名称</option>
+                                        <option value="IKTS">出版社</option>
+                                        <option value="IKIS">机构</option>
+                                        <option value="CLAS">中图分类号</option>
+                                        <option value="IKRK">摘要</option>
+                                        <option value="ISSN">ISSN</option>
+                                        <option value="IMBE">基金资助</option>
+                                    </select>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="clr show">
+                            <li>
+                                <a href="javascript:void(0);"><img alt="删除一行" src="/images/qu.png" onclick="Subtractionseach(this);return false"/></a>
+                            </li>
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_2">
+                                        <option value="2">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input type="text" id="u_txt_2" maxlength="120" name="title" lay-verify="title" autocomplete="off" placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="layui-input-inline" style="width: 50px;">
+                                        <select id="u_select3_2">
+                                            <option value="AND">与</option>
+                                            <option value="OR">或</option>
+                                            <option value="NOT">非</option>
+                                        </select>
+                                    </div>
+                                    <div class="layui-input-inline" style="width: 150px;">
+                                        <select id="u_select2_2" lay-filter="f_select2_2">
+                                            <option value="TS">题名/关键词</option>
+                                            <option value="CRTR" selected="selected">作者</option>
+                                            <option value="IKST">关键词</option>
+                                            <option value="TITE">题名</option>
+                                            <option value="CNEM">出版物名称</option>
+                                            <option value="IKTS">出版社</option>
+                                            <option value="IKIS">机构</option>
+                                            <option value="CLAS">中图分类号</option>
+                                            <option value="IKRK">摘要</option>
+                                            <option value="ISSN">ISSN</option>
+                                            <option value="IMBE">基金资助</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="Addseach(this);return false"><img alt="增加一行" src="/images/add1.png"/></a>
+                            </li>
+                        </ul>
+                        <ul class="clr" style="display: none;">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_3">
+                                        <option value="2">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input id="u_txt_3" maxlength="120" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="layui-input-inline" style="width: 50px;">
+                                        <select id="u_select3_3">
+                                            <option value="AND">与</option>
+                                            <option value="OR">或</option>
+                                            <option value="NOT">非</option>
+                                        </select>
+                                    </div>
+                                    <div class="layui-input-inline" style="width: 150px;">
+                                        <select id="u_select2_3" lay-filter="f_select2_3">
+                                            <option value="TS">题名/关键词</option>
+                                            <option value="CRTR">作者</option>
+                                            <option value="IKST">关键词</option>
+                                            <option value="TITE">题名</option>
+                                            <option value="CNEM" selected="selected">出版物名称</option>
+                                            <option value="IKTS">出版社</option>
+                                            <option value="IKIS">机构</option>
+                                            <option value="CLAS">中图分类号</option>
+                                            <option value="IKRK">摘要</option>
+                                            <option value="ISSN">ISSN</option>
+                                            <option value="IMBE">基金资助</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="clr" style="display: none;">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_4">
+                                        <option value="2">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input id="u_txt_4" maxlength="120" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="layui-input-inline" style="width: 50px;">
+                                        <select id="u_select3_4">
+                                            <option value="AND">与</option>
+                                            <option value="OR">或</option>
+                                            <option value="NOT">非</option>
+                                        </select>
+                                    </div>
+                                    <div class="layui-input-inline" style="width: 150px;">
+                                        <select id="u_select2_4" lay-filter="f_select2_4">
+                                            <option value="TS">题名/关键词</option>
+                                            <option value="CRTR">作者</option>
+                                            <option value="IKST">关键词</option>
+                                            <option value="TITE">题名</option>
+                                            <option value="CNEM">出版物名称</option>
+                                            <option value="IKTS" selected="selected">出版社</option>
+                                            <option value="IKIS">机构</option>
+                                            <option value="CLAS">中图分类号</option>
+                                            <option value="IKRK">摘要</option>
+                                            <option value="ISSN">ISSN</option>
+                                            <option value="IMBE">基金资助</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="clr" style="display: none;">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_5">
+                                        <option value="2">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input id="u_txt_5" maxlength="120" type="text" name="title" lay-verify="title" autocomplete="off" placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="layui-input-inline" style="width: 50px;">
+                                        <select id="u_select3_5">
+                                            <option value="AND">与</option>
+                                            <option value="OR">或</option>
+                                            <option value="NOT">非</option>
+                                        </select>
+                                    </div>
+                                    <div class="layui-input-inline" style="width: 150px;">
+                                        <select id="u_select2_5" lay-filter="f_select2_5">
+                                            <option value="TS">题名/关键词</option>
+                                            <option value="CRTR">作者</option>
+                                            <option value="IKST">关键词</option>
+                                            <option value="TITE">题名</option>
+                                            <option value="CNEM">出版物名称</option>
+                                            <option value="IKTS">出版社</option>
+                                            <option value="IKIS" selected="selected">机构</option>
+                                            <option value="CLAS">中图分类号</option>
+                                            <option value="IKRK">摘要</option>
+                                            <option value="ISSN">ISSN</option>
+                                            <option value="IMBE">基金资助</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="time">
+                        <h3>时间限定</h3>
+                        <ul class="clr">
+                            <li class="zhengchangwenzhang">出版年份：</li>
+                            <li class="youxianfabuwenzhang" style="display: none;">发布时间：</li>
+                            <li>
+                                <div class="layui-input-inline" style="width: 90px;">
+                                    <input type="text" name="date" id="date_start" lay-verify="date"
+                                           placeholder="yyyy-mm-dd" autocomplete="off" class="layui-input"
+                                           onclick="layui.laydate({ elem: this })">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="layui-input-inline" style="margin-left: 10px; margin-right: 10px;">至</div>
+                            </li>
+                            <li>
+                                <div class="layui-input-inline" style="width: 90px;">
+                                    <input type="text" name="date" id="date_end" lay-verify="date"
+                                           placeholder="yyyy-mm-dd" autocomplete="off" class="layui-input"
+                                           onclick="layui.laydate({ elem: this })">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gj-wx" >
+                        <h3>资源类型</h3>
+                        <p class="explain" id="p_zy">
+                            <input type="checkbox" title="全部" value="全部"/>
+                            <input type="checkbox" title="中文期刊" value="中文期刊"/>
+                            <input type="checkbox" title="外文期刊" value="外文期刊"/>
+                            <input type="checkbox" title="集刊" value="集刊"/>
+                            <input title="古籍" type="checkbox" value="古籍"/>
+                            <input type="checkbox" title="优先发布论文" value="优先发布论文"/>
+                        </p>
+                        <p class="explain2" id="p_zy2">
+                            <input type="checkbox" title="优先发布论文" value="优先发布论文" checked disabled/>
+                        </p>
+                    </div>
+                    <div class="gj-wx subjectClass">
+                        <h3>核心期刊</h3>
+                        <p class="explain" id="p_qk">
+                            <input type="radio" name="radio" value="全部期刊" title="全部期刊"/>
+                            <input type="radio" name="radio" value="*" title="核心期刊"/>
+                        </p>
+                    </div>
+                    <div class="gj-wx subjectClass">
+                        <h3>学科分类</h3>
+                        <p class="explain" id="p_xkfl">
+                            <input type="checkbox" value="B,A,D917.2,G44" title="哲学宗教"/>
+                            <input type="checkbox" value="C" title="社会学"/>
+                            <input type="checkbox" value="D,E126,E266,DF" title="政治法律"/>
+                            <input type="checkbox" value="F,C8,C9" title="经济管理"/>
+                            <input type="checkbox" value="G,Z,N99" title="文化科学"/>
+                            <input type="checkbox" value="H" title="语言文字"/>
+                            <input type="checkbox" value="I" title="文学"/>
+                            <input type="checkbox" value="J,TU-8" title="艺术"/>
+                            <input type="checkbox" value="K,G26" title="历史地理"/>
+                            <input type="checkbox" value="N,C94" title="自然科学总论"/>
+                        </p>
+                    </div>
+                    <div class="gj-wx language" >
+                        <h3>语言</h3>
+                        <p class="explain" id="p_y">
+                            <input type="checkbox" value="1" title="中文"/>
+                            <input type="checkbox" value="2" title="外文"/>
+                        </p>
+                    </div>
+                    <div class="trace-s">
+                        <a href="javascript:void(0);" onclick="AdvancedSearch()">提交</a>
+                        <a href="javascript:void(0);" onclick="clearcontent();return false;">清除</a>
+                    </div>
+                </div>
+                <!--检索表达式检索页面-->
+                <div id="Search_text" style="display: none; margin-top: -15px;" class="layui-form">
+                    <div class="trace-left col-lg-12 col-md-12 retrieval">
+                        <p><textarea id="txt_seach" style="height: 125px; resize: none;"></textarea></p>
+                    </div>
+                    <div class="gj-wx">
+                        <h3>文献类型</h3>
+                        <p class="explain3" id="p_atype">
+                            <input type="checkbox" value="全部" title="全部"/>
+                            <input type="checkbox" value="期刊" title="期刊"/>
+                            <input type="checkbox" value="古籍" title="古籍"/>
+                        </p>
+                    </div>
+                    <div class="gj-wx">
+                        <h3>帮助</h3>
+                        <div class="search-exp-tips">
+                            <b>可检索词：</b>
+                            <div class="clr">
+                                <span class="ml20">题名=IKTE</span><span>作者=IKCR</span><span>关键词=IKST</span><span>ISSN=ISSN</span>
+                                <span class="ml20">出版社/主管单位=IKTS</span><span>出版物名称=CNEM</span><span>摘要=IKRK</span><span>机构/主管机构=IKIS</span>
+                                <span class="ml20">基金资助=IMBE</span><span>中图分类号=CLAS</span>
+                            </div>
+                            <b>检索规则说明：</b>
+                            <p class="ml20">AND代表"并且"；OR代表"或者"；NOT代表"不包含" (注意必须大写,运算符两边需空一格) </p>
+                            <b>检索范例：</b>
+                            <p class="ml20">范例一：( IKTE=图书馆学 OR IKST=情报学) AND IKCR=范并思</p>
+                            <p class="ml20">范例二：IKTS=计算机应用与软件 AND (IKST=C++ OR IKST=Basic) NOT IKIS=西华师范大学</p>
+                        </div>
+                    </div>
+                    <div class="trace-s">
+                        <a href="javascript:void(0);" onclick="Search_text()">提交</a>
+                        <a href="javascript:void(0);" onclick="clearcontent();return false;">清除</a>
+                    </div>
+                </div>
+                <!--期刊检索-->
+                <div class="cnt" style="display: none;" id="cnt2">
+                    <table width="100%" id="qkadvancetab" class="search-input" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="110" align="right">刊名：</td>
+                            <td>
+                                <div>
+                                    <input type="text" value="" class="input" name="PeriodName" size="25"/>
+                                </div>
+                                <span>
+                                    <select id="searchType">
+                                        <option value="2">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </span>
+                            </td>
+                            <td width="" align="right">主办单位：</td>
+                            <td>
+                                <input type="text" value="" class="input" name="Publisher" size="25"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">出版地：</td>
+                            <td>
+                                <input type="text" class="input" value="" size="25" name="Address"/>
+                            </td>
+                            <td align="right">ISSN：</td>
+                            <td>
+                                <input type="text" value="" name="ISSN" class="input" size="25"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">主编：</td>
+                            <td>
+                                <input type="text" name="ChiefEditor" value="" class="input" size="25"/>
+                            </td>
+                            <td align="right">邮发代号：</td>
+                            <td>
+                                <input type="text" name="SemYFCode" value="" class="input" size="25"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">中图分类号：</td>
+                            <td colspan="3">
+                                <input type="text" id="qkselclass" name="Class" value="" class="input" size="25"/>
+                                <a class="flb" href="javascript:void(0);" onclick="openadvaqkclass()">查看分类表</a>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="time">
+                        <h3>核心期刊</h3>
+                        <ul>
+                            <li style="margin: 0 20px;">
+                                <input type="radio" name="Vip_Ext0_MRange" id="Vip_Ext0_MRange1" value="1"/>核心期刊
+                            </li>
+                            <li>
+                                <input type="radio" name="Vip_Ext0_MRange" id="Vip_Ext0_MRange3" value="3" checked="checked"/>全部期刊
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="time" >
+                        <h3>语言</h3>
+                        <ul>
+                            <li style="margin: 0 20px;">
+                                <input type="radio" name="radLangType" id="radLangType1" checked="checked" value="1"/>中文
+                            </li>
+                            <li>
+                                <input type="radio" name="radLangType" id="radLangType2" value="2"/>英文
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="trace-s"><a href="javascript:void(0);" onclick="qkSearchCondition()">提交</a></div>
+                </div>
+                <!--古籍-->
+                <div class="cnt search-input" id="div_GJ" style="display: none">
+                    <table width="100%" id="tab_GJ" cellspacing="0" cellpadding="0">
+                        <tr>
+                            <td width="110" align="right">题名：</td>
+                            <td>
+                                <div>
+                                    <input type="text" value="" class="input" id="gj_title" size="25"/>
+                                </div>
+                            </td>
+                            <td align="right">分类：</td>
+                            <td>
+                                <input type="text" value="" class="input" id="gj_classname" size="25"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">册数：</td>
+                            <td>
+                                <input type="text" class="input" value="" size="25" id="gj_num"/>
+                            </td>
+                            <td align="right">条码号：</td>
+                            <td>
+                                <input type="text" id="gj_barcodenum" class="input" size="25"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">责任者：</td>
+                            <td>
+                                <input type="text" id="gj_author_c" value="" class="input" size="25"/>
+                            </td>
+                            <td align="right">出版者：</td>
+                            <td>
+                                <input type="text" id="gj_press" value="" class="input" size="25"/>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td align="right">出版时间：</td>
+                            <td>
+                                <input type="text" id="gj_pubdate" value="" class="input" size="25"/>
+                            </td>
+                            <td align="right">索书号：</td>
+                            <td>
+                                <input type="text" id="gj_isbn" value="" class="input" size="25"/>
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="trace-s"><a href="javascript:void(0);" onclick="Search_GJ()">提交</a></div>
+                </div>
+                <div id="search_waiwen" style="display: none;" class="cnt">
+                    <div id="ul_textww" class="col-lg-12 col-md-12 trace-left layui-form">
+                        <ul class="clr" style="margin-left: 53px;">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_1ww">
+                                        <option value="0">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input id="u_txt_1ww" maxlength="120" type="text" name="title" lay-verify="title" autocomplete="off"
+                                           placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="layui-input-inline" style="width: 150px;">
+                                    <select id="u_select2_1_ww" lay-filter="f_select2_1">
+                                        <option value="name" selected="selected">书名</option>
+                                        <option value="zuoZhe">作者</option>
+                                        <option value="BanZhe">编者</option>
+                                        <option value="IS">eISBN</option>
+                                        <option value="BanCi">版次</option>
+                                        <option value="ChuBanShe">出版社</option>
+                                        <option value="JanJie">内容简介</option>
+                                    </select>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="clr show">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_2ww">
+                                        <option value="0">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input type="text" maxlength="120" id="u_txt_2ww" name="title" lay-verify="title" autocomplete="off"
+                                           placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="layui-input-inline" style="width: 50px;">
+                                        <select id="u_select3_2ww">
+                                            <option value="0">与</option>
+                                            <option value="1">或</option>
+                                            <option value="2">非</option>
+                                        </select>
+                                    </div>
+                                    <div class="layui-input-inline" style="width: 150px;">
+                                        <select id="u_select2_2_ww" lay-filter="f_select2_2">
+                                            <option value="name">书名</option>
+                                            <option value="zuoZhe" selected="selected">作者</option>
+                                            <option value="BanZhe">编者</option>
+                                            <option value="IS">eISBN</option>
+                                            <option value="BanCi">版次</option>
+                                            <option value="ChuBanShe">出版社</option>
+                                            <option value="JanJie">内容简介</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="clr">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_3ww">
+                                        <option value="0">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input id="u_txt_3ww" maxlength="120" type="text" name="title" lay-verify="title" autocomplete="off"
+                                           placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="layui-input-inline" style="width: 50px;">
+                                        <select id="u_select3_3ww">
+                                            <option value="0">与</option>
+                                            <option value="1">或</option>
+                                            <option value="2">非</option>
+                                        </select>
+                                    </div>
+                                    <div class="layui-input-inline" style="width: 150px;">
+                                        <select id="u_select2_3_ww" lay-filter="f_select2_3">
+                                            <option value="name">书名</option>
+                                            <option value="zuoZhe">作者</option>
+                                            <option value="BanZhe" selected="selected">编者</option>
+                                            <option value="IS">eISBN</option>
+                                            <option value="BanCi">版次</option>
+                                            <option value="ChuBanShe">出版社</option>
+                                            <option value="JanJie">内容简介</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="clr">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_4ww">
+                                        <option value="0">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input id="u_txt_4ww" maxlength="120" type="text" name="title" lay-verify="title" autocomplete="off"
+                                           placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="layui-input-inline" style="width: 50px;">
+                                        <select id="u_select3_4ww">
+                                            <option value="0">与</option>
+                                            <option value="1">或</option>
+                                            <option value="2">非</option>
+                                        </select>
+                                    </div>
+                                    <div class="layui-input-inline" style="width: 150px;">
+                                        <select id="u_select2_4_ww" lay-filter="f_select2_4">
+                                            <option value="name">书名</option>
+                                            <option value="zuoZhe">作者</option>
+                                            <option value="BanZhe">编者</option>
+                                            <option value="IS" selected="selected">eISBN</option>
+                                            <option value="BanCi">版次</option>
+                                            <option value="ChuBanShe">出版社</option>
+                                            <option value="JanJie">内容简介</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                        <ul class="clr">
+                            <li>
+                                <div class="layui-input-inline" style="width: 70px;">
+                                    <select id="u_select1_5ww">
+                                        <option value="0">精确</option>
+                                        <option value="1">模糊</option>
+                                    </select>
+                                </div>
+                            </li>
+                            <li class="col-lg-6 col-md-6 col-sm-6 pl0">
+                                <div class="layui-input-inline" style="width: 427px;">
+                                    <input id="u_txt_5ww" maxlength="120" type="text" name="title" lay-verify="title" autocomplete="off"
+                                           placeholder="请输入关键词" class="layui-input">
+                                </div>
+                            </li>
+                            <li>
+                                <div>
+                                    <div class="layui-input-inline" style="width: 50px;">
+                                        <select id="u_select3_5ww">
+                                            <option value="0">与</option>
+                                            <option value="1">或</option>
+                                            <option value="2">非</option>
+                                        </select>
+                                    </div>
+                                    <div class="layui-input-inline" style="width: 150px;">
+                                        <select id="u_select2_5_ww" lay-filter="f_select2_5">
+                                            <option value="name">书名</option>
+                                            <option value="zuoZhe">作者</option>
+                                            <option value="BanZhe">编者</option>
+                                            <option value="IS">eISBN</option>
+                                            <option value="BanCi" selected="selected">版次</option>
+                                            <option value="ChuBanShe">出版社</option>
+                                            <option value="JanJie">内容简介</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="time layui-form">
+                        <h3>时间限定</h3>
+                        <ul class="clr">
+                            <li>出版日期：</li>
+                            <li>
+                                <div class="layui-input-inline" style="width: 90px;">
+                                    <input type="text" name="date" id="date_startww" lay-verify="date" placeholder="yyyy-mm-dd"
+                                           autocomplete="off" class="layui-input" onclick="layui.laydate({ elem: this })">
+                                </div>
+                            </li>
+                            <li>
+                                <div class="layui-input-inline" style="margin-left: 10px; margin-right: 10px;">至</div>
+                            </li>
+                            <li>
+                                <div class="layui-input-inline" style="width: 90px;">
+                                    <input type="text" name="date" id="date_endww" lay-verify="date" placeholder="yyyy-mm-dd"
+                                           autocomplete="off" class="layui-input" onclick="layui.laydate({ elem: this })">
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="gj-wx language">
+                        <h3>语种</h3>
+                        <p class="explain" id="p_yww">
+                            <input name="radLangTypeWW" type="radio" value="eng" title="英语" style="display: none;">
+                        </p>
+                    </div>
+                    <div class="trace-s layui-form">
+                        <a href="javascript:void(0);" onclick="waiwen_search()">提交</a>
+                        <a href="javascript:void(0);" onclick="clearcontent2();return false;">清除</a></div>
+                </div>
+            </div>
+            <!--中图分类弹出层-->
+            <div id="advanceqkclass" class="class_layer">
+                <div class="class_sel">
+                    <h6>
+                        <span>分类表</span>
+                        <div class="clo">
+                            <a href="javascript:void(0);" onclick="closeadvaqkclass()"><img alt="关闭" src="/images/close2.png"></a>
+                        </div>
+                    </h6>
+                    <div class="">
+                        <ul id="listclassdiv">
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class1" type="checkbox" level="1" value="B+A+D917.2+G44">哲学宗教</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class1" type="checkbox" level="2" value="B0">哲学理论</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="A+B0+B17">马克思主义哲学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B1">世界哲学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B2">中国哲学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B3+B4+B5+B6+B7">外国哲学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B80">思维科学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B81">逻辑学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B82">伦理学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B83">美学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B9">宗教学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B84+D917.2+G44+R395">心理学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B84+B841+B842">基础心理学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B844+G44">发展与教育心理学</label>
+                                    <label><input name="class1" type="checkbox" level="2" value="B849">应用心理学</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class2" type="checkbox" level="1" value="C">社会学</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class2" type="checkbox" level="2" value="C8">统计学</label>
+                                    <label><input name="class2" type="checkbox" level="2" value="C92">人口学</label>
+                                    <label><input name="class2" type="checkbox" level="2" value="C95">民族学</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class3" type="checkbox" level="1" value="D+E126+E266+DF">政治法律</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class3" type="checkbox" level="2" value="D0+D1+D2+D3+D4+D5+D6+D7+D8">政治学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D1+D3+D4">国际共产主义运动</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D2">中共党史</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D5">国际政治</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D8">外交学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D81">国际关系</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D6+D7">中外政治制度</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="">外交学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D9+DF">法学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D90+DF0">法学理论</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D911+D921+DF2+D912.1+D922.1+DF3">宪法学与行政法学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D914+D924+D997.9+DF6">刑法学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D912.2+D912.5+D913+D923+D922.5+DF5+DF47">民商法学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D915+D925+DF7">诉讼法学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D912.2+D922.2+D996+DF4">经济法学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D912.6+D922.6+D996.9+DF46">环境与资源保护法学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D99+DF9">国际法学</label>
+                                    <label><input name="class3" type="checkbox" level="2" value="D921.13+D922.12+D926.238+D924.394+D912.8+E126+E266+DF32">军事法学</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class4" type="checkbox" level="1" value="F+C8+C9">经济管理</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class4" type="checkbox" level="2" value="C93">管理学</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="C96">人力资源管理</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F0">政治经济学</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F1">世界经济</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F2">国民经济</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F23">会计学</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F27">企业管理</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F3+F4+F5+F6+F7">产业经济</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F713.5+F723">市场营销</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F713.8">广告</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F59">旅游管理</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F74+F75+F11+F222.5">国际贸易</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F81+F82">财政学</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F83">金融学</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="F84">保险</label>
+                                    <label><input name="class4" type="checkbox" level="2" value="C97+F24">劳动经济</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class5" type="checkbox" level="1" value="G+Z+N99">文化科学</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class5" type="checkbox" level="2" value="G20">传播学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G21">新闻学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G25">图书馆学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G27">档案学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G35+N99">情报学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G4+G5+G6+G7">教育学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G4+G5">教育技术学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G40">教育学原理</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G42">课程与教学论</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G61">学前教育学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G64">高等教育学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G72">成人教育学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G71">职业技术教育学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G76">特殊教育学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G8">体育学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G80">运动人体科学</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G807+G808+G82+G83+G84+G86+G87+G88">体育训练</label>
+                                    <label><input name="class5" type="checkbox" level="2" value="G85">民族体育</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class6" type="checkbox" level="1" value="H">语言文字</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class6" type="checkbox" level="2" value="H0">语言学</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H1">汉语</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H2">少数民族语言</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H31">英语</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H32">法语</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H33">德语</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H34">西班牙语</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H35">俄语</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H36">日语</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H37">阿拉伯语</label>
+                                    <label><input name="class6" type="checkbox" level="2" value="H91">世界语</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class7" type="checkbox" level="1" value="I">文学</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class7" type="checkbox" level="2" value="I0">文学理论</label>
+                                    <label><input name="class7" type="checkbox" level="2" value="I1">世界文学</label>
+                                    <label><input name="class7" type="checkbox" level="2" value="I2">中国文学</label>
+                                    <label><input name="class7" type="checkbox" level="2" value="I3+I4+I5+I6+I7">其他各国文学</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class8" type="checkbox" level="1" value="J+TU-8">艺术</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class8" type="checkbox" level="2" value="J0+J1">艺术理论</label>
+                                    <label><input name="class8" type="checkbox" level="2" value="J2+J3">美术</label>
+                                    <label><input name="class8" type="checkbox" level="2" value="J4">摄影艺术</label>
+                                    <label><input name="class8" type="checkbox" level="2" value="J5+TU-8">艺术设计</label>
+                                    <label><input name="class8" type="checkbox" level="2" value="J6">音乐</label>
+                                    <label><input name="class8" type="checkbox" level="2" value="J7">舞蹈</label>
+                                    <label><input name="class8" type="checkbox" level="2" value="J8">戏剧戏曲</label>
+                                    <label><input name="class8" type="checkbox" level="2" value="J9">电影电视艺术</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class9" type="checkbox" level="1" value="K+G26">历史地理</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class9" type="checkbox" level="2" value="K0+K1+K2+K3+K4+K5+K6+K7+K8">历史学</label>
+                                    <label><input name="class9" type="checkbox" level="2" value="K2">中国史</label>
+                                    <label><input name="class9" type="checkbox" level="2" value="K1+K3+K4+K5+K6+K7">世界史</label>
+                                    <label><input name="class9" type="checkbox" level="2" value="K85+K86+K87+K88+G26">考古学及博物馆学</label>
+                                    <label><input name="class9" type="checkbox" level="2" value="K89">民俗学</label>
+                                    <label><input name="class9" type="checkbox" level="2" value="K9">人文地理学</label>
+                                </div>
+                            </li>
+                            <li>
+                                <h4>
+                                    <a href="javascript:void(0)" class="show"></a>
+                                    <label><input name="class10" type="checkbox" level="1" value="N+C94">自然科学总论</label>
+                                </h4>
+                                <div class="sub">
+                                    <label><input name="class10" type="checkbox" level="2" value="N94+C94">系统科学</label>
+                                    <label><input name="class10" type="checkbox" level="2" value="N0">科学技术哲学</label>
+                                </div>
+                            </li>
+                        </ul>
+                        <div class="trace-s" style="float: unset; padding-bottom: 40px;">
+                            <a href="javascript:void(0);" onclick="seleadvqkclass()">提交</a>
+                            <a href="javascript:void(0);" onclick="closeadvaqkclass()">关闭</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <input type="hidden" id="templatePageType" value="" />
+        <input type="hidden" id="templateCop" value="" />
+    </header>
+    <main>
+    <input type="hidden" id="ftl_urlId" value="CSGH2025002015">
+    <input type="hidden" id="ftl_urlType" value="journalArticle">
+    <input type="hidden" id="ftl_urlTypename" value="中文期刊文章">
+    <input type="hidden" id="ftl_urlPagetype" value="">
+    <input type="hidden" id="ftl_urlPageUrl" value="">
+    <input type="hidden" id="ftl_urlNav" value="1">
+    <input type="hidden" id="ftl_urlSynUpdateType" value="">
+    <input type="hidden" id="ftl_urlBarcodenum" value="">
+    <input type="hidden" id="ftl_urlyulan" value="">
+    <input type="hidden" id="ftl_urlpreview" value="">
+    <div class="c-bg clr">
+        <div class="content mt20 clr">
+            <div class="hot-doc mb20 clr">
+                <div class="book-pic">
+                    <div class="b-pic" style="position: relative;">
+                        <img id="img" onerror="this.src='/images/bookb5.png'" width="168" height="233" class="imgone"/>
+                        <div style="display: none;height: 168px;width:168px;position: absolute;top: 80px;" class="beiyong">
+                            <p id="ycong" style="font-weight: 900;font-size: 21px;color: #274f9a;padding: 0 10px;"></p>
+                            <p id="yctwo" style="color: #274f9a;position: absolute;bottom: 0;right: 12px;"></p>
+                        </div>
+                        <span class="qikanliebiaoYX" style="display: none"></span>
+                        <div class="shoucang">
+                        </div>
+                    </div>
+                    <div class="b-content ml20">
+                        <h1 id="h2_title_c" class="H2Style"></h1>
+                        <h3 id="h3_title_e" class="color-gray"></h3>
+                        <p id="p_creator" class="literature"></p>
+                        <p id="p_institutions" class="literature"></p>
+                        <p id="p_institutionse" class="literature"></p>
+                        <p id="p_imburse" class="literature"></p>
+                        <p id="p_media" class="literature"></p>
+                        <p id="p_year" class="literature"></p>
+                        <div id="spread-container-z">
+                            <p id="p_remark" class="literature"></p>
+                            <div id="zhankaiZ"><span class="ellipsisZ">...展开</span></div>
+                        </div>
+                        <div id="spread-container-Y">
+                            <p id="p_remarke" class="literature"></p>
+                            <div id="zhankaiY"><span class="ellipsisY">...Spread</span></div>
+                        </div>
+                        <p id="p_page" class="literature"></p>
+                        <p id="p_pagination" class="literature"></p>
+                        <p id="p_keyword" class="literature"></p>
+                        <p id="p_class" class="literature"></p>
+                        <p id="p_lngCollect" class="literature"></p>
+                        <div class="read">
+                            <a id="a_down" class="all-down pointer">全文下载</a>
+                            <a id="a_reader" target="_blank" class="read-all pointer">阅读全文</a>
+                            <a id="all_downqw" target="_blank" class="all_downqw pointer" style="display: none; padding-left: 8px;">附加材料下载</a>
+                            <a onclick="backPrePage()" href="javascript:void (0);" class="return pointer">返回</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <style type="text/css">
+        .text-spread-container {
+            position: relative;
+            overflow: hidden;
+            max-height: 108px;
+        }
+
+        #zhankaiZ,#zhankaiY{
+            display: none;
+            color: #d92b2a;
+            font-size: 16px;
+            text-align: right;
+            line-height: 20px;
+            padding-right: 10px;
+        }
+
+        .ellipsisZ,.ellipsisY{
+            position: absolute;
+            right: 10px;
+            bottom: 8px;
+            cursor: pointer;
+            background-color: #f2f2f2;
+        }
+
+        .ellipsisZ:before,.ellipsisY:before,.inst-toggle-btn:before{
+            position: absolute;
+            right: 100%;
+            content: "";
+            top: 2px;
+            width: 8px;
+            height: 18px;
+            background-image: linear-gradient(310deg, #f2f2f2, hsla(0, 0%, 100%, 0));
+        }
+
+        .showTags {
+            font-size: 14px;
+        }
+
+        #ul_text1 {
+            width: 380px;
+        }
+
+        #ul_text1 span {
+            border: 1px solid #bbb;
+            padding: 2px 5px;
+            border-radius: 5px;
+            margin-right: 10px;
+            cursor: pointer;
+            display: inline-block;
+            margin-top: 5px;
+        }
+
+        #ul_text1 span.current, #ul_text1 span:hover {
+            background: #d92129;
+            color: #FFF;
+            border-color: #d92129;
+        }
+
+        .showAddDiv {
+            width: 380px;
+            margin: auto 10px;
+            margin-top: 15px;
+        }
+
+        .showSelect{
+            background: #d92b2a;
+            padding: 6px 15px;
+            border-radius: 3px;
+            color: #fff;
+            font-size: 12px;
+        }
+        .showSelect:hover{
+            color: #fff;
+            opacity: .9;
+        }
+        .yxbiaoshi{
+            display: inline-block;
+            height: 28px;
+            text-align: center;
+            line-height: 30px;
+            width: 100px;
+            background:url("/images/yxfbBSXQ.png") no-repeat;
+            background-size: 27%;
+            position: relative;
+            top: 7px;
+            left: 8px;
+        }
+        .literature{
+            text-align: justify;
+            word-break: normal;
+        }
+
+        @-moz-document url-prefix() {
+            #p_imburse{
+                word-break: break-all;
+            }
+        }
+
+        .H2Style{
+            color: #323232;
+            margin-bottom: 5px;
+            font-size: 24px;
+            font-weight: bold;
+            line-height: 30px;
+            font-family: "Microsoft YaHei";
+            word-break: normal;
+            text-align: justify;
+        }
+
+        .radered li a {
+            word-break: normal;
+            text-align: justify;
+        }
+
+        .H2Style i{
+            padding: 1px 3px;
+            background: #d92129;
+            color: #fff;
+            font-size: 18px;
+            font-weight: normal;
+            margin-left: 8px;
+        }
+
+        sup, sub {
+            line-height: 1;
+        }
+    </style>
+    <div class="showTags layui-form">
+        <div id="ul_text1" class="col-lg-12 col-md-12 trace-left showSelectDiv">
+            <div class="tagList">请选择标签：
+            </div>
+            <br/>
+            <a href="javascript:void(0);" class="showAdd"><img src="/images/add.png"/> 添加新标签</a>
+        </div>
+        <div class="showAddDiv" style="display:none;">
+            <a href="javascript:void(0);" class="showSelect">返回选择</a><br/><br/>
+            请输入标签名：<input id="txtName" class="layui-input" maxlength="15"/>(标签名最多不超过15个字符)
+        </div>
+        <input type="hidden" id="hidType" value="0"/>
+        <input type="hidden" id="hidTags" value=""/>
+    </div>
+    <div id="myLayerContent" class="custom-layer-content">
+        <div class="close-btn" onclick="layer.closeAll()">
+            <svg width="20" height="20">
+                <line x1="2" y1="2" x2="18" y2="18" stroke="black" stroke-width="1"/>
+                <line x1="2" y1="18" x2="18" y2="2" stroke="black" stroke-width="1"/>
+            </svg>
+        </div>
+        <div class="cont_head_box">
+            <div class="layer-header">
+                <div class="layer-header">
+                    <div class="icon-svg"></div>
+                    <h3 id="h2_title_c_d"></h3>
+                </div>
+                <span class="wenjiantiaoshu_zip" style="padding-right: 50px;"></span>
+                <span class="wenjiandaxiao_zip"></span>
+            </div>
+
+            <div class="download-btns">
+                <a id="a_attach_zip" class="all_down_zar" style="display: none;">下载ZIP</a>
+                <a id="a_attach_rar" class="all_down_zar" style="display: none;">下载RAR</a>
+            </div>
+
+            <div id="download-progress">
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                    <div style="flex: 1;border-radius: 3px; overflow: hidden;height: 40px;">
+                        <span id="speed-display">0.00 MB/s</span>
+                        <span style="float: right;">
+                            <span id="progress-percentage" style="margin-left: 10px; font-weight: bold; color: #333;">0%</span>
+                            <span id="cloase_down" onclick="close_down_list()" style="margin-left: 10px; font-weight: bold; color: #333;padding: 2px 5px;cursor: pointer;" title="取消下载">
+                                <svg width="10" height="10">
+                                  <line x1="1" y1="1" x2="9" y2="9" stroke="black" stroke-width="1"/>
+                                  <line x1="1" y1="9" x2="9" y2="1" stroke="black" stroke-width="1"/>
+                                </svg>
+                            </span>
+                        </span>
+                        <div class="wai_progress"> <div id="progress-bar"></div></div>
+                    </div></div>
+            </div>
+        </div>
+        <div class="fileList_tab">
+            <div class="rar_list" style="display: none;">
+                <table class="file-list-table">
+                    <tbody id="rarListBody">
+                    <tr>
+                        <td colspan="3" style="text-align:center; color: #999;">加载中...</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="zip_list" style="display: none;">
+                <table class="file-list-table">
+                    <tbody id="zipListBody">
+                    <tr>
+                        <td colspan="3" style="text-align:center; color: #999;">加载中...</td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <input type="hidden" id="qkCoverImageHost" value="https://ft.ncpssd.cn/image/get/qwcover" />
+    <input type="hidden" id="nssdImageHost2" value="https://ft.ncpssd.cn/oaserver/v1/api/external/journalCover?id=" />
+    <input type="hidden" id="ancientImageHost" value="https://ft.ncpssd.cn/image/get/ancientCover/{fileName}" />
+    <input type="hidden" id="prpYears" value="" />
+    <input type="hidden" id="prpNum" value="" />
+    </main>
+    <footer>
+        <div class="foot">
+<div class="footer">
+    <div class="foot-left" style="width:700px;">
+        <p class="f-logo">
+            <img src="https://ft.ncpssd.cn/image/get/npssd/address?url=img/1644548423530.jpg" width="491" height="71" alt="国家哲学社会科学文献中心"/>
+        </p>
+        <p><strong>电话：</strong>010-85195335</p>
+        <p><strong>E-mail：</strong>ncpssd@cass.org.cn</p>
+        <p><strong>地址：</strong>北京市东城区建国门内大街5号</p>
+        <p><strong>邮编：</strong>100732</p>
+    </div>
+    <div class="foot-right">
+        <img src="https://ft.ncpssd.cn/image/get/npssd/address?url=img/1650081428558.jpg" width="163" height="163" alt="扫一扫打开微信小程序"/>
+        <p>扫一扫打开微信小程序</p>
+    </div>
+    <div class="foot-right" style="margin-right: 40px;">
+        <img src="https://ft.ncpssd.cn/image/get/npssd/address?url=img/1644548423505.jpg" width="163" height="163" alt="扫一扫关注微信"/>
+        <p>扫一扫关注微信</p>
+    </div>
+    <div class="foot-right" style="margin-right: 40px;">
+        <img src="https://ft.ncpssd.cn/image/get/npssd/address?url=img/1730881808693.jpg" width="163" height="163" alt="扫一扫下载APP"/>
+        <p>扫一扫下载APP</p>
+    </div>
+</div>
+            <div class="about-us" style="line-height: 40px;">
+                        <a href="/aboutUs?mainTitle=中心简介" class="addstick">中心简介</a>
+                        <a href="/aboutUs?mainTitle=联系我们" class="addstick">联系我们</a>
+                        <a href="/aboutUs?mainTitle=版权声明" class="addstick">版权声明</a>
+            </div>
+            <div class="fo0t-b">国家哲学社会科学文献中心版权所有<br/>
+                <a href="https://beian.miit.gov.cn/#/Integrated/index" target="_blank">京ICP备09037430号-3</a>
+                <a style="padding-left: 30px;" href="https://beian.mps.gov.cn/#/query/webSearch?code=11010102007898" rel="noreferrer" target="_blank">
+                    <img width="16px" src="/images/beian.png" alt="京公网安备11010102007898号">
+                    京公网安备11010102007898号
+                </a>
+            </div>
+            <div class="bdlj">
+                <a href="https://tongji.baidu.com/web5/welcome/login" target="_blank"><img src="https://hmcdn.baidu.com/static/hmt/icon/21.gif" alt="百度统计"></a>
+            </div>
+            <input type="hidden" id="hidPageRawUrl" value="?id=CSGH2025002015&type=journalArticle&typename=%E4%B8%AD%E6%96%87%E6%9C%9F%E5%88%8A%E6%96%87%E7%AB%A0&nav=1&langType=1"/>
+        </div>
+    </footer>
+    <script type="text/javascript">
+        var index;
+        $(function () {
+            // 判断浏览器函数
+            if(window.navigator.userAgent.match(/(phone|pad|pod|iPhone|iPod|ios|iPad|Android|Mobile|BlackBerry|IEMobile|MQQBrowser|JUC|Fennec|wOSBrowser|BrowserNG|WebOS|Symbian|Windows Phone)/i)) {
+                // 移动端
+                if (window.location.href.indexOf('/journal/index') != -1 && ms.util.getParameter("platform") == 'PC') {
+                    window.location.href = 'https://m.ncpssd.cn' + '/ajax/userinfo.ashx' + window.location.search;
+                    return;
+                }
+                if (window.location.href.indexOf('/common/restPassword') != -1 || window.location.href.indexOf('/journal/details') != -1 || window.location.href.indexOf('/Literature/articleinfo') != -1 || window.location.href.indexOf('/Literature/ancientbooklistNew') != -1) {
+                    window.location.href = 'https://m.ncpssd.cn' + window.location.pathname + window.location.search;
+                    return;
+                }
+                if (window.location.href.indexOf('/topics/details') != -1) {
+                    return;
+                }
+                window.location.href = 'https://m.ncpssd.cn';
+            }
+            var suid=''
+            var suid1=encodeURI(suid).replace(/\+/g,'%2B')
+            //机构login
+            $.post("/organLogin",{suid:suid1}, function (json) {
+                if (json.succee) {
+                    if(ms.util.isEmpty(json.headPic)){
+                        var a = document.getElementById('replace').innerHTML = "您好，<a href='/user'><img alt='" + json.data + "' style=\"width: 24px;height: 24px;border-radius: 50%\" src=\"/images/head.png\" onerror=\"this.src='/images/head.png';\">&ensp;" + json.data + "&ensp;</a>" +
+                            "<a href='javascript:void(0);' onclick='loginOut();' style='margin-left: 20px;'>退出登录</a>"
+                    }else{
+                        var a = document.getElementById('replace').innerHTML = "您好，<a href='/user'><img alt='" + json.data + "' style=\"width: 24px;height: 24px;border-radius: 50%\" src=\" " + json.headPic + "\" onerror=\"this.src='/images/head.png';\">&ensp;" + json.data + "&ensp;</a>" +
+                            "<a href='javascript:void(0);' onclick='loginOut();' style='margin-left: 20px;'>退出登录</a>"
+                    }
+                }
+            });
+            //隐藏核心期刊和学科分类
+            $("#p_zy").click(function(){
+                if ($("#p_zy").find("input[type='checkbox']:checked").length > 0) {
+                    for (var i = 0; i < $("#p_zy").find("input[type='checkbox']:checked").length; i++) {
+                        var temp = $($("#p_zy").find("input[type='checkbox']:checked")[i]).val();
+                        if(temp == "全部"){
+                            $(".subjectClass").show();
+                            $(".language").show();
+                            break
+                        }else{
+                            $(".language").hide();
+                            if(temp == "外文期刊" || temp == "古籍"){
+                                $(".subjectClass").hide();
+                            }else{
+                                $(".subjectClass").show();
+                                break
+                            }
+                        }
+                    }
+                }else {
+                    $(".language").show();
+                    $(".subjectClass").show();
+                }
+            })
+            layui.use(['layer', 'jquery', 'form'], function () {
+                var layer = layui.layer,
+                    $ = layui.jquery,
+                    form = layui.form();
+                form.on('select(f_select2_1)', function (data) {
+                    form.render('select');//select是固定写法 不是选择器
+                });
+                form.on('select(f_select2_2)', function (data) {
+                    form.render('select');//select是固定写法 不是选择器
+                });
+                form.on('select(f_select2_3)', function (data) {
+                    form.render('select');//select是固定写法 不是选择器
+                });
+                form.on('select(f_select2_4)', function (data) {
+                    form.render('select');//select是固定写法 不是选择器
+                });
+                form.on('select(f_select2_5)', function (data) {
+                    form.render('select');//select是固定写法 不是选择器
+                });
+            });
+            $(".ckepopBottom").remove();
+            $(".nav-items li a").each(function () {
+                if ($(this).attr("href") == $("#hidPageRawUrl").val())
+                    $(this).parent().addClass("current");
+            });
+            $(".nav-resource").mouseover(function () {
+                $(".nav-items-resource").show();
+            });
+            $(".nav-resource").mouseleave(function () {
+                $(".nav-items-resource").hide();
+            });
+            $(".nav-items-resource").mouseover(function () {
+                $(".nav-items-resource").show();
+            });
+            $(".nav-items-resource").mouseleave(function () {
+                $(".nav-items-resource").hide();
+            });
+            $(".nav-service").mouseover(function () {
+                $(".nav-items-service").show();
+            });
+            $(".nav-service").mouseleave(function () {
+                $(".nav-items-service").hide();
+            });
+            $(".nav-items-service").mouseover(function () {
+                $(".nav-items-service").show();
+            });
+            $(".nav-items-service").mouseleave(function () {
+                $(".nav-items-service").hide();
+            });
+            $(".nav-about").mouseover(function () {
+                $(".nav-items-about").show();
+            });
+            $(".nav-about").mouseleave(function () {
+                $(".nav-items-about").hide();
+            });
+            $(".nav-items-about").mouseover(function () {
+                $(".nav-items-about").show();
+            });
+            $(".nav-items-about").mouseleave(function () {
+                $(".nav-items-about").hide();
+            });
+            $(".nav-help").mouseover(function () {
+                $(".nav-items-help").show();
+            });
+            $(".nav-help").mouseleave(function () {
+                $(".nav-items-help").hide();
+            });
+            $(".nav-items-help").mouseover(function () {
+                $(".nav-items-help").show();
+            });
+            $(".nav-items-help").mouseleave(function () {
+                $(".nav-items-help").hide();
+            });
+            $(".nav-zhuanti").mouseover(function () {
+                $(".nav-items-zhuanti").show();
+            });
+            $(".nav-zhuanti").mouseleave(function () {
+                $(".nav-items-zhuanti").hide();
+            });
+            $(".nav-items-zhuanti").mouseover(function () {
+                $(".nav-items-zhuanti").show();
+            });
+            $(".nav-items-zhuanti").mouseleave(function () {
+                $(".nav-items-zhuanti").hide();
+            });
+            $(".nav a").eq($("#hidNavID").val()).addClass("current");
+            $(".search-type li").click(function () {
+                $(".search-type li.zx-current").removeClass("zx-current");
+                $(this).addClass("zx-current");
+                $("#hidSearchType").val($(this).attr("data-val"));
+                $("#hidSearchValue").val($(this).attr("data-lang"));
+            });
+            $(".sea_one").on("click", function (e) {
+                var showItemID = "#searchFields0";
+                if ($("#hidSearchType").val() == "1") {
+                    showItemID = "#searchFields1";
+                }
+                if ($("#hidSearchType").val() == "5") {
+                    showItemID = "#searchFieldsGJ";
+                }
+                if ($("#hidSearchType").val() == "6") {
+                    showItemID = "#searchFileYXFB";
+                }
+                if ($("#hidSearchType").val() == "2") {
+                    showItemID = "#searchFieldsBook";
+                }
+                if ($("#hidSearchType").val() == "7") {
+                    showItemID = "#jikanBook";
+                }
+                if ($("#hidSearchType").val() == "8") {
+                    showItemID = "#waiwenxiala";
+                }
+                if ($(showItemID).is(":hidden")) {
+                    $(".up_oown1").hide();
+                    $(showItemID).show();
+                } else {
+                    $(showItemID).hide();
+                }
+
+                $(document).one("click", function () {
+                    $(showItemID).hide();
+                });
+
+                e.stopPropagation();
+            });
+            $(".searchField-ul").on("click", function (e) {
+                e.stopPropagation();
+            });
+            $(".searchField-ul ul li").on("click", function () {
+                $(".searchField").html($(this).text());
+                $("#select_type").val($(this).attr("data-val"));
+                $(".searchField-ul").hide();
+            });
+            $("#close_advanced_search").click(function () {
+                document.body.style.overflow = "" ;
+                layer.close(index);
+            });
+            $(".search-xuexi .searchField-ul ul li").on("click", function () {
+                $("#hidSearchType").val($(this).attr("data-type"));
+            });
+            $(".se_one").on("click", function (e) {
+                var showItemID = "#searchFields0_xuexi";
+                if ($(showItemID).is(":hidden")) {
+                    $(".up_oown1").hide();
+                    $(showItemID).show();
+                } else {
+                    $(showItemID).hide();
+                }
+                $(document).one("click", function () {
+                    $(showItemID).hide();
+                });
+                e.stopPropagation();
+            });
+        });
+        window.onload = function () {
+            //通过css样式区分是否为灰白主题
+            if (isGrayDisplay()) {//灰白主题处理网站图片
+                //静态资源图片处理
+                grayscale(document.querySelectorAll('img'))
+                //服务器资源图片处理
+                changeImage()
+            }
+            //设置专题过高的行高问题
+            /*$(".lineheight").each(function(ide,key){
+                if($(this).text().length > 8) {
+                    var newstr = $(this).text().slice(0, 6) + "<br/>" + $(this).text().slice(6)
+                    var newstr2 = newstr.slice(0, 21) + "<br/>" + newstr.slice(21)
+                    $(this).children("a").html(newstr2)
+                }})*/
+            $(".lineheight").each(function(ide,key){
+                if($(this).html().indexOf("<br>") == -1){
+                    $(this).css("line-height","45px")
+                }else{
+                    $(this).css("line-height","20px")
+                }
+            })
+        }
+        function changeImage(imgs) {
+            if (!imgs) {
+                imgs = document.querySelectorAll('img');
+            }
+            // var imgs = document.querySelectorAll('img');
+            for (var i = 0; i < imgs.length; i++) {
+                (function (i) {
+                    var src = imgs[i].getAttribute('data-web-src');//只会请求一次
+                    if (src) {
+                        getBase64(src, function (e) {
+                            imgs[i].setAttribute("src", e);
+                        })
+                    }
+                })(i)
+            }
+        }
+        function rediUrl(){
+            window.location.href = '/login?pageUrl=' + encodeURIComponent(window.location.href)
+        }
+        var searchIndex = 0;
+        var timer = null;
+        $("#text_search").keyup(function (e) {
+            if (e.keyCode == 13) {
+                Basicsearch()
+            }
+            if (e.keyCode == 38) {
+                searchIndex -= 1
+                console.log(searchIndex)
+                if (searchIndex > 0) {
+                    $(".search_bg>p").eq(searchIndex - 1).css('color', '#d92129').siblings().css('color', '')
+                    $("#text_search").val($(".search_bg>p").eq(searchIndex - 1).text())
+                } else {
+                    $(".search_bg>p").css('color', '')
+                    searchIndex = 0
+                }
+            }
+            if (e.keyCode == 40) {
+                searchIndex += 1
+                console.log(searchIndex)
+                if (searchIndex <= $(".search_bg>p").size()) {
+                    $(".search_bg>p").eq(searchIndex - 1).css('color', '#d92129').siblings().css('color', '')
+                    $("#text_search").val($(".search_bg>p").eq(searchIndex - 1).text())
+                } else {
+                    searchIndex = $(".search_bg>p").size()
+                }
+
+
+            }
+        });
+        function setBookDefaultImg(img) {
+            img.src = "/images/bookb5.png";
+        }
+        function getSearch() {
+            function search2() {
+                searchIndex = 0
+                var value = document.getElementById("text_search").value
+                if(value == ""){
+                    $(".search_bg").hide()
+                }
+                $.ajax({
+                    url: '/searchHandler/getautocomplete',
+                    data: {
+                        search: value
+                    },
+                    type: 'post',
+                    async: false,
+                    contentType: "application/x-www-form-urlencoded",
+                    dataType: 'json',
+                    success: function (json) {
+                        if (json.succee) {
+                            $(".search_bg").show()
+                            var list = ""
+                            json.data.map(function (item) {
+                                list += "<p onclick=\"selectTag('" + item + "')\">" + item + "</p>";
+                                if(list == ""){
+                                    $(".search_bg").hide()
+                                }else{
+                                    $(".search_bg").show()
+                                }
+                            });
+                            $(".search_bg").html(list)
+                        }
+                    }
+                });
+            }
+            debounce(search2(), 500);
+        }
+        //节流
+        function debounce(fn, delay) {
+            if (timer) {
+                clearTimeout(timer)
+            }
+            timer = setTimeout(fn, delay) // 简化写法
+        }
+        function selectTag(item) {
+            console.log(item)
+            $("#text_search").val(item)
+            Basicsearch()
+        }
+        function hideSearch() {
+            setTimeout(function () {
+                searchIndex = 0;
+                $(".search_bg").hide();
+            }, 500);
+        }
+        function loginOut() {
+            $.post("/logout", {"action": "loginout"}, function (json) {
+                if (json.succee) {
+                    window.location.href = "/";
+                }
+            });
+        }
+        //编译url兼容ie跳转
+        function bianyihref(url){
+            window.open(encodeURI(url),"_blank")
+        }
+        // 删除url中某个参数,并跳转
+        function funcUrlDel(name) {
+            var loca = window.location;
+            if (loca.href.indexOf("?") > 0) {
+                var baseUrl = loca.origin + loca.pathname + "?";
+                var query = loca.search.substr(1);
+                if (query.indexOf(name) > -1) {
+                    var obj = {}
+                    var arr = query.split("&");
+                    for (var i = 0; i < arr.length; i++) {
+                        arr[i] = arr[i].split("=");
+                        obj[arr[i][0]] = arr[i][1];
+                    };
+                    delete obj[name];
+                    var url = baseUrl + JSON.stringify(obj).replace(/[\"\{\}]/g, "").replace(/\:/g, "=").replace(/\,/g, "&");
+                    return url
+                } else {
+                    return loca.href;
+                }
+            } else {
+                return loca.href;
+            }
+        }
+        function showSearchAdvanced() {
+            document.body.style.overflow = "hidden";
+            // 判断优先发布时高级检索条件区别
+            if ($("#hidSearchType").val() == "6") {
+                $(".explain").hide()
+                $(".explain2").show()
+                $(".language").hide()
+                $("#p_xkfl").show();
+                $("#p_qk").show();
+                $(".youxianfabuwenzhang").show()
+                $(".zhengchangwenzhang").hide()
+            } else {
+                $(".explain").show()
+                $(".explain2").hide()
+                $(".language").show()
+                $("#p_xkfl").show();
+                $("#p_qk").show();
+                $(".youxianfabuwenzhang").hide()
+                $(".zhengchangwenzhang").show()
+            }
+            index = layer.open({
+                type: 1,
+                area: ['66%', '90%'],
+                shade: false,
+                title: false, //不显示标题
+                closeBtn: 0,
+                offset:["5%",0],
+                content: $('#advanced_search')//捕获的元素
+            });
+        }
+        //添加检索条件
+        function Addseach(obj) {
+            var model = $(obj).parents("ul").prevAll().length;
+            if (model < 4) {
+                //var temp = $(obj).parents("ul").prop("outerHTML");
+                //$(obj).parents("ul").after(temp);
+                $(obj).parents("ul").next().prepend($(obj).parents("ul").find("li:first").prop("outerHTML"));
+                $(obj).parents("ul").next().append($(obj).parents("ul").find("li:last").prop("outerHTML"));
+                $(obj).parents("ul").removeClass('show');
+                $(obj).parents("ul").next().addClass('show');
+                $(obj).parents("ul").next().show();
+                $(obj).parents("ul").find("li:first").remove();
+                $(obj).parents("ul").find("li:last").remove();
+            }
+        }
+        //减少检索条件
+        function Subtractionseach(obj) {
+            var model = $(obj).parents("ul").prevAll().length;
+            if (model > 1) {
+                $(obj).parents("ul").prev().prepend($(obj).parents("ul").find("li:first").prop("outerHTML"));
+                $(obj).parents("ul").prev().append($(obj).parents("ul").find("li:last").prop("outerHTML"));
+                $(obj).parents("ul").find("li.col-md-6").find("div.layui-input-inline").find("input.layui-input").val('')
+                $(obj).parents("ul").removeClass('show');
+                $(obj).parents("ul").prev().addClass('show');
+                $(obj).parents("ul").hide();
+                $(obj).parents("ul").find("li:last").remove();
+                $(obj).parents("ul").find("li:first").remove();
+            }
+        }
+        // 跳转英文版
+        function en_link(){
+            $.post("/sso/getTokenCurrentUser?ssoClient=wxEN", function (res) {
+                if (res.code === 200) {
+                    window.open("https://en.ncpssd.cn/sso/login" + "?token=" + encodeURIComponent (res.data.token))
+                } else {
+                    window.open("https://en.ncpssd.cn")
+                }
+            });
+        }
+        layui.use(['form', 'layer', 'layedit', 'laydate'], function () {
+            var form = layui.form(),
+                layer = layui.layer,
+                layedit = layui.layedit,
+                laydate = layui.laydate;//初始化时见控件
+            //设置开始时间控件
+            var start = {
+                max: '2099-06-16 23:59:59'
+                , istoday: false
+                , choose: function (datas) {
+                    end.min = datas; //开始日选好后，重置结束日的最小日期
+                    end.start = datas //将结束日的初始值设定为开始日
+                }
+            };
+            //设置结束时间控件
+            var end = {
+                max: '2099-06-16 23:59:59'
+                , istoday: false
+                , choose: function (datas) {
+                    start.max = datas; //结束日选好后，重置开始日的最大日期
+                }
+            };
+            if (document.getElementById('date_start') != null) {
+                document.getElementById('date_start').onclick = function () {
+                    start.elem = this;
+                    laydate(start);
+                }
+            }
+            if (document.getElementById('date_end') != null) {
+                document.getElementById('date_end').onclick = function () {
+                    end.elem = this
+                    laydate(end);
+                }
+            }
+            if (document.getElementById('date_Rstart') != null) {
+                document.getElementById('date_Rstart').onclick = function () {
+                    start.elem = this;
+                    laydate(start);
+                }
+            }
+            if (document.getElementById('date_Rend') != null) {
+                document.getElementById('date_Rend').onclick = function () {
+                    end.elem = this
+                    laydate(end);
+                }
+            }
+        });
+        // 动态判断限制输入框长度
+        document.addEventListener('DOMContentLoaded', function() {
+            // 普通检索限制输入长度为中文180，英文300
+            setupDynamicMaxlength('#text_search',180,300);
+            // 高级检索弹出框限制输入长度为中文120，英文210
+            for (let i=1;i<6;i++){
+                setupDynamicMaxlength('#u_txt_' + i,120,210)
+            }
+        });
+    </script>
+    </body>
+    </html>
+<script>
+    for (let i = 0; i <=3; i++) {
+        document.body.innerHTML = document.body.innerHTML.replace('[1]', '');
+    }
+
+    $(function(){
+        if($("#p_remark").get(0).offsetHeight > 120){
+            $("#zhankaiZ").show()
+            $("#spread-container-z").addClass("text-spread-container")
+        }else {
+            $("#zhankaiZ").hide()
+            $("#spread-container-z").removeClass("text-spread-container")
+        }
+
+        if($("#p_remarke").get(0).offsetHeight > 120){
+            $("#zhankaiY").show()
+            $("#spread-container-Y").addClass("text-spread-container")
+        }else {
+            $("#zhankaiY").hide()
+            $("#spread-container-Y").removeClass("text-spread-container")
+        }
+    })
+
+    $('#zhankaiZ').on('click', function () {
+        if ($("#zhankaiZ").text() == "...展开") {
+            $("#spread-container-z").removeClass("text-spread-container")
+            $("#zhankaiZ").html("<span style='cursor:pointer'>收起</span>")
+        }else if($("#zhankaiZ").text() == "收起"){
+            $("#spread-container-z").addClass("text-spread-container")
+            $("#zhankaiZ").html("<span class=\"ellipsisZ\">...展开</span>")
+        }
+    })
+
+    $('#zhankaiY').on('click', function () {
+        if ($("#zhankaiY").text() == "...Spread") {
+            $("#spread-container-Y").removeClass("text-spread-container")
+            $("#zhankaiY").html("<span style='cursor:pointer'>Pack Up</span>")
+        }else if($("#zhankaiY").text() == "Pack Up"){
+            $("#spread-container-Y").addClass("text-spread-container")
+            $("#zhankaiY").html("<span class=\"ellipsisY\">...Spread</span>")
+        }
+    });
+
+    $("#all_downqw").click(function () {
+        window.download_list = layer.open({
+            type: 1,
+            title: false,
+            closeBtn: 0,
+            area: ['600px', 'auto'],
+            content: $('#myLayerContent'),
+            shade: 0.3,
+            offset: { top: '10%'},
+            skin: 'custom_layer',
+            shadeClose: true,
+            success: function(layero, index) {
+                var obj = {};
+                obj.id = $("#ftl_urlId").val();
+                obj.preview = $("#ftl_urlpreview").val();
+                $.ajax({
+                    url: '/articleinfoHandler/getAttachmentList',
+                    type: 'POST',
+                    contentType: "application/json; charset=utf-8",
+                    data: JSON.stringify(obj),
+                    dataType: 'json',
+                    async: false,
+                    success: function (res) {
+                        var data = res.data;
+                        if(data.zipUpload){$("#a_attach_zip").show()}
+                        if(data.rarUpload){$("#a_attach_rar").show()}
+                        renderRarList(data.rar);
+                        renderZipList(data.zip);
+                        var contentHeight = $('#myLayerContent').outerHeight();
+                        var maxHeight = 600; // 设定最大高度
+                        if (contentHeight > maxHeight) {
+                            layer.style(index, {
+                                height: maxHeight + 'px',
+                            });
+                            $('#myLayerContent').css({
+                                'overflow-y': 'auto',
+                                'max-height': maxHeight + 'px'
+                            });
+                        } else {
+                            layer.style(index, {
+                                height: contentHeight + 'px'
+                            });
+                        };
+                    }
+                });
+            }
+        })
+    });
+
+    // 渲染 RAR 列表
+    function renderRarList(rarFiles) {
+        var $tbody = $('#rarListBody');
+        $tbody.empty();
+        var totalSize = 0;
+        var fileCount = 0;
+        if (rarFiles && rarFiles.length > 0) {
+            rarFiles.forEach(function(file) {
+                var sizeNum = parseFloat(file.fileSize.replace(/[^0-9.]/g, '')) || 0;
+                totalSize += sizeNum;
+                fileCount++;
+                $tbody.append(
+                    '<tr>' +
+                    '<td width="50px" align="center"><span class="icon_svg_sm">' + file.fileType + '</span></td>' +
+                    '<td>' + file.fileName + '</td>' +
+                    '<td width="80px" align="center">' + file.fileSize + '</td>' +
+                    '</tr>'
+                );
+            });
+            $('.wenjiantiaoshu_rar').text(fileCount + ' 个文件');
+            $('.wenjiandaxiao_rar').text(totalSize.toFixed(2) + ' MB');
+            $('.rar_list').show();
+        } else {
+            $('.rar_list').hide();
+            $tbody.append('<tr><td colspan="3" style="text-align:center; color: #999;">暂无RAR文件</td></tr>');
+        }
+    };
+
+    // 渲染 ZIP 列表
+    function renderZipList(zipFiles) {
+        var $tbody = $('#zipListBody');
+        $tbody.empty();
+        var totalSize = 0;
+        var fileCount = 0;
+        if (zipFiles && zipFiles.length > 0) {
+            zipFiles.forEach(function(file) {
+                var sizeNum = parseFloat(file.fileSize.replace(/[^0-9.]/g, '')) || 0;
+                totalSize += sizeNum;
+                fileCount++;
+                $tbody.append(
+                    '<tr>' +
+                    '<td width="50px" align="center"><span class="icon_svg_sm">' + file.fileType + '</span></td>' +
+                    '<td>' + file.fileName + '</td>' +
+                    '<td width="80px" align="center">' + file.fileSize + '</td>' +
+                    '</tr>'
+                );
+            });
+            $('.wenjiantiaoshu_zip').text(fileCount + ' 个文件');
+            $('.wenjiandaxiao_zip').text(totalSize.toFixed(2) + ' MB');
+            $('.zip_list').show();
+        } else {
+            $('.zip_list').hide();
+            $tbody.append('<tr><td colspan="3" style="text-align:center; color: #999;">暂无ZIP文件</td></tr>');
+        }
+    };
+
+    document.addEventListener("DOMContentLoaded", function() {
+        const zhEl = document.getElementById('p_institutions');
+        const enEl = document.getElementById('p_institutionse');
+        if (!zhEl || !enEl) return;
+
+        const wrapper = document.createElement('div');
+        wrapper.className = 'inst-wrapper';
+        zhEl.parentNode.insertBefore(wrapper, zhEl);
+        wrapper.appendChild(zhEl);
+        wrapper.appendChild(enEl);
+
+        const computedStyle = window.getComputedStyle(wrapper);
+        const lineHeight = parseFloat(computedStyle.lineHeight) || 24;
+        const maxLines = 4;
+        const maxHeightPixel = lineHeight * maxLines;
+
+        requestAnimationFrame(() => {
+            const realHeight = wrapper.scrollHeight;
+            if (realHeight > maxHeightPixel) {
+                wrapper.style.maxHeight = maxHeightPixel + 'px';
+                const btnWrap = document.createElement('span');
+                btnWrap.className = 'inst-btn-wrap';
+
+                const btn = document.createElement('button');
+                btn.className = 'inst-toggle-btn';
+                btn.innerText = '展开';
+                btnWrap.innerHTML = '... ';
+                btnWrap.appendChild(btn);
+                wrapper.appendChild(btnWrap);
+                let isExpanded = false;
+                btn.addEventListener('click', function(e) {
+                    e.stopPropagation();
+                    isExpanded = !isExpanded;
+                    if (isExpanded) {
+                        wrapper.style.maxHeight = realHeight + 20 + 'px';
+                        wrapper.style.height = realHeight + 20 + 'px';
+                        btnWrap.innerHTML = '';
+                        btn.innerText = '收起';
+                        btn.className = 'inst-toggle-btn_shouqi';
+                        btnWrap.appendChild(btn);
+                    } else {
+                        wrapper.style.maxHeight = maxHeightPixel + 'px';
+                        btn.innerText = '展开';
+                        btn.className = 'inst-toggle-btn';
+                        btnWrap.innerHTML = '... ';
+                        btnWrap.appendChild(btn);
+                    }
+                });
+            } else {
+                wrapper.style.maxHeight = 'none';
+            }
+        });
+    });
+</script>
+<style>
+    .inst-wrapper {
+        position: relative;
+        max-height: 80px;
+        overflow: hidden;
+        /*transition: max-height 0.35s ease;*/
+        box-sizing: content-box;
+    }
+
+    .inst-wrapper p {
+        margin: 0;
+        padding: 0;
+        line-height: 24px;
+    }
+
+    .inst-btn-wrap {
+        position: absolute;
+        right: 10px;
+        bottom: 3px;
+        background:#f2f2f2;
+        padding-left: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        color: #d92b2a;
+    }
+
+    .inst-toggle-btn,.inst-toggle-btn_shouqi {
+        border: none;
+        background: transparent;
+        color: #d32f2f;
+        padding: 0;
+        font-size: 16px;
+        font-weight: 500;
+        cursor: pointer;
+        outline: none;
+    }
+
+    .chuchu_style{
+        color: blue;
+        border: none!important;
+        text-align: justify;
+        word-break: normal;
+    }
+    .chuchu_style:hover{
+        color: blue;
+    }
+    .qikanliebiaoYX{
+        background: url("/images/tj/qikanliebiaoYX.png") no-repeat;
+        background-size: 100% 100%;
+        position: absolute;
+        top: 15px;
+        right: -8px;
+        display: inline-block;
+        width: 60px;
+        height: 60px;
+    }
+
+    .custom-layer-content {
+        box-sizing: border-box;
+        font-family: "Microsoft YaHei", sans-serif;
+        display: none;
+    }
+    .icon-svg {
+        width: 40px;
+        height: 40px;
+        margin: 0 auto 10px;
+        background-image: url(/images/yaosuo_da.svg);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+
+    .icon_svg_sm{
+        background: url(/images/wenjian_samll.svg) no-repeat 0 2px;
+        background-size: 18px 16px;
+        padding-left: 20px;
+    }
+    .layer-header {
+        text-align: center;
+        margin-bottom: 20px;
+        position: relative;
+    }
+    .layer-header .icon {
+        font-size: 40px;
+        color: #5FB878;
+        margin-bottom: 10px;
+    }
+    .layer-header h3 {
+        font-size: 18px;
+        font-weight: bold;
+        color: #333;
+    }
+
+    .file-list-table {
+        width: 100%;
+        border-collapse: collapse;
+        margin: 0 auto;
+        text-align: left;
+    }
+    .file-list-table th, .file-list-table td {
+        border: 1px solid #e6e6e6;
+        padding: 8px;
+    }
+    .file-list-table th {
+        background-color: #f8f8f8;
+    }
+
+    .close-btn {
+        position: absolute;
+        top: 10px;
+        right: 15px;
+        color: #999;
+        font-size: 14px;
+        cursor: pointer;
+        padding: 10px;
+        z-index: 2;
+    }
+    .close-btn:hover { color: #ff5722; }
+
+    .all_down_zar{
+        background: #d92129;
+        margin-right: 10px;
+        padding: 10px 45px 10px 45px;
+        color: #fff;
+    }
+
+    .all_down_zar:hover{
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .download-btns{
+        text-align: center;
+        margin-bottom: 10px;
+    }
+
+    .custom_layer{
+        border-radius: 10px!important;
+        overflow: hidden;
+    }
+
+    .cont_head_box{
+        height: 190px;
+        position: sticky;
+        top: 0;
+        background: #fff;
+        padding: 20px;
+        padding-bottom: 8px;
+    }
+
+    .fileList_tab{
+        padding: 20px;
+        /*padding-top: 0;*/
+    }
+
+    #download-progress {
+        border-radius: 5px;
+        overflow: hidden;
+        display: none;
+        width: 96%;
+        height: 40px;
+        line-height: 18px;
+        margin: 0 10px;
+    }
+    .wai_progress{
+        background: #ccc;
+        border-radius: 10px;
+    }
+    #progress-bar {
+        transition: width 0.3s ease;
+        width: 0%;
+        height: 18px;
+        background: #d92b2a;
+        border-radius: 10px
+    }
+
+     /*按钮loading*/
+    .btn_loading {
+        position: relative;
+        pointer-events: none;
+        padding: 10px 70px;
+    }
+
+    .btn_loading::after {
+        content: '';
+        position: absolute;
+        width: 20px;
+        height: 20px;
+        top: 50%;
+        left: 50%;
+        margin-top: -10px;
+        margin-left: -10px;
+        border: 2px solid #ffffff;
+        border-top: 2px solid #000000;
+        border-radius: 50%;
+        animation: spin 1s linear infinite;
+    }
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+
+    .mululist{
+        font-size: 16px;
+        margin: 10px 0;
+    }
+</style>

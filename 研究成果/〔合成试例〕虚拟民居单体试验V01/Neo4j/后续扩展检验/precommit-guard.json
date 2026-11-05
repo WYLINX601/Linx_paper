@@ -1,0 +1,503 @@
+{
+  "status": "passed",
+  "frozenEntries": 27,
+  "currentFrozenMatches": 26,
+  "sources": 33,
+  "archiveFiles": 49,
+  "checks": [
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+      "sha256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+      "sha256": "04ff3f093fdeeac949df03dcd6c5bf47da7db93ff8a66ef52e57b043e2524ece",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/构建方法与决策记录.md",
+      "sha256": "64f39e938787c1faef7106dd8280f8bb7f8aab617feb6e5c1ddb2c231a59eb60",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/README.md",
+      "sha256": "dd396f69a7d83f96a2d66638e1570715531e39b293b5e0f7506a8d833529a953",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+      "sha256": "3d63eefdfa22ba8366aeec61911dae2a11870c959ca393d2ab05a9509f108cbc",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+      "sha256": "ff356ab34e1d844c466156e48ea36b4f8eb9e7ee8a6dec21898707318ea22169",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/类型图谱.md",
+      "sha256": "bf49f5b34acd27b3b24c59a80622499d1a9021a4d007dab20e11dfbd4a454c12",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+      "sha256": "79c153c94a2cbfdbca87d45b93159c700637e47beedbc03e3874dd5479fcb08a",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/README.md",
+      "sha256": "3ea9116caa603394a01660efa273b93e267c68ea6646e95ffb937a1abda40a02",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解表.md",
+      "sha256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解表.md",
+      "sha256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解表.md",
+      "sha256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D04立面材料与装饰拆解图.smm.md",
+      "sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D05民居组合街巷与地形拆解图.smm.md",
+      "sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔分析框架〕风貌分析拆解/D06类型比较与关联解释拆解图.smm.md",
+      "sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "context/PROJECT_CONTEXT.md",
+      "sha256": "c50ec93ba8cae84f5332cff7614a2a0e7f80168af3d2ed547aeffd292bb0fb16",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "d46e14fe5c6da95a09f8a4788c9feaa5cda2d7bd0c892f17342e139f1e14c7b2",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+      "sha256": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/README.md",
+      "sha256": "9ee35c7d778ff14351cf9d2aa83ba46d84235545e640bc340d40b170e6e19209",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/check.py",
+      "sha256": "a3ff9e6a3c27b2a3e0a861fd2a9a406740346c0a0d8781b269ae25d9d32ac3b7",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/test_unified.py",
+      "sha256": "3868044fe61f937f713519c67d5e71e8d495939d0b88c4cb9a9664f48e6062e8",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/test_legacy.py",
+      "sha256": "e1c353fab2b151ab8636803527ab7ceee7f0014fde4f2a7da65fb6985b51d5a7",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/健康检查/research_structure.py",
+      "sha256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/维护规则.md",
+      "sha256": "400c99f6e42d56a2e634c7c94679960a62b4479810adb3806eb2dd3f085cef21",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/动态研究体系.md",
+      "sha256": "2c45856d6eaa7146d82e7284b4f89f50c45c628decf5564f559b1efe73e8d02a",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/viewer.base.html",
+      "sha256": "7f2f98bfc9cab7a5b27c6645334c8224bc5e82730027d3359954aac352b68221",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/compile_model.py",
+      "sha256": "c746341ff2dcb861fd2d57c6f69635e626ccd686a6c8c3d98b64cd2887727ce8",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/viewer.template.html",
+      "sha256": "a562af0e647b54c7c621a0cc34a3724b08593fa4046074579cdcdf146654458b",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/run_graph.py",
+      "sha256": "37e3601a43303c95e725de05158e4cfb5f290c07fe478e029f56a0a676e76570",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/mcp_client.py",
+      "sha256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/queries.py",
+      "sha256": "68636aaa679d0ce0f9278543f13bfb7dd5de9191e7ff32a30d075996e730ea57",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/build_review.py",
+      "sha256": "6bd74cbbe81b7ed84d82c528118747a9a7bae98d03b4e1c6c927ffac022c9901",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "项目管理/图谱执行/统一原型/tools/analyze.py",
+      "sha256": "fffa67f39c04fd1fe4acec033173cf867f8aa3fdb0238db2f789bd7eaaf2e8ea",
+      "kind": "source",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/analysis-readme.md.snapshot",
+      "sha256": "3ea9116caa603394a01660efa273b93e267c68ea6646e95ffb937a1abda40a02",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/archive-readme.md.snapshot",
+      "sha256": "7a5b280bca22866487288497685f074b79395c45fd0a7a44f9abc67f0b85dbe0",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/bot.md.snapshot",
+      "sha256": "ff356ab34e1d844c466156e48ea36b4f8eb9e7ee8a6dec21898707318ea22169",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/check.py",
+      "sha256": "a3ff9e6a3c27b2a3e0a861fd2a9a406740346c0a0d8781b269ae25d9d32ac3b7",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/context.md.snapshot",
+      "sha256": "c50ec93ba8cae84f5332cff7614a2a0e7f80168af3d2ed547aeffd292bb0fb16",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d01-table.md.snapshot",
+      "sha256": "4bca6dfe73fac7de8df5f623a05898240b85f2f678016e39698ba9d052522a53",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d03-table.md.snapshot",
+      "sha256": "d25894ed8104e030926b8fe32f44b519a8526f0c062c9c50938da1f5b06b9e67",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d03.json",
+      "sha256": "a5db462da49afa526e8d0a0c2402884cca0c3f2759f4fda300f01f39fdd0abf3",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d04.md.snapshot",
+      "sha256": "96c05e98ffb650f57a5f7f57fd3d3f1703eca990df8df73efb4e2da44dd94a10",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d04.smm.md.snapshot",
+      "sha256": "310ffdae025a244e164fdc2c87ae5387df8a798aea403ec0697ea356145998d9",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d05.md.snapshot",
+      "sha256": "4f4b6e6f7c11501e2d1d3d2b62b96f8bb561bf9b1fd4276a489988e72431ad69",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d05.smm.md.snapshot",
+      "sha256": "7be004be866462f14e107a7974db9038762e72fc34dc7385282ec8a0c4497863",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d06.md.snapshot",
+      "sha256": "1c5f7daa8bc2778c7b1ccae7b8da5645eead0c336fb93797d501ca1cf956ab5c",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/d06.smm.md.snapshot",
+      "sha256": "0da80131925bc695ed96f1be31d4cd74387d51f03eabc5f4613d89c3cb1e6437",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/db-readme.md.snapshot",
+      "sha256": "dd396f69a7d83f96a2d66638e1570715531e39b293b5e0f7506a8d833529a953",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/dynamic.md.snapshot",
+      "sha256": "2c45856d6eaa7146d82e7284b4f89f50c45c628decf5564f559b1efe73e8d02a",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/maintenance.md.snapshot",
+      "sha256": "400c99f6e42d56a2e634c7c94679960a62b4479810adb3806eb2dd3f085cef21",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/method.md.snapshot",
+      "sha256": "64f39e938787c1faef7106dd8280f8bb7f8aab617feb6e5c1ddb2c231a59eb60",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/model.json",
+      "sha256": "6d6585651e395db051cfc01bff76c79cadc38815aeab0703ca6f1b3135896f5b",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/optimization.md.snapshot",
+      "sha256": "3d63eefdfa22ba8366aeec61911dae2a11870c959ca393d2ab05a9509f108cbc",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/review-old.html.snapshot",
+      "sha256": "d5625844af6935c3b4ac834feb6e5fa36ecbd84f8af398d84044ed931274207d",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/route.json",
+      "sha256": "d46e14fe5c6da95a09f8a4788c9feaa5cda2d7bd0c892f17342e139f1e14c7b2",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/route.md.snapshot",
+      "sha256": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/structure.py",
+      "sha256": "95f30ab57616a6e8e7bc4509349bfb908b66f87522e5d8c8736a41e7833f8259",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/test_legacy.py",
+      "sha256": "e1c353fab2b151ab8636803527ab7ceee7f0014fde4f2a7da65fb6985b51d5a7",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/test_unified.py",
+      "sha256": "3868044fe61f937f713519c67d5e71e8d495939d0b88c4cb9a9664f48e6062e8",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools/analyze.py",
+      "sha256": "fffa67f39c04fd1fe4acec033173cf867f8aa3fdb0238db2f789bd7eaaf2e8ea",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools/build_review.py",
+      "sha256": "6bd74cbbe81b7ed84d82c528118747a9a7bae98d03b4e1c6c927ffac022c9901",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools/compile_model.py",
+      "sha256": "c746341ff2dcb861fd2d57c6f69635e626ccd686a6c8c3d98b64cd2887727ce8",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools/mcp_client.py",
+      "sha256": "bea8348458b5aaaf7e66d5d6f8be0004a7e9c90893ef507b9b151b352c34ea52",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools/queries.py",
+      "sha256": "68636aaa679d0ce0f9278543f13bfb7dd5de9191e7ff32a30d075996e730ea57",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools/run_graph.py",
+      "sha256": "37e3601a43303c95e725de05158e4cfb5f290c07fe478e029f56a0a676e76570",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools/viewer.base.html.snapshot",
+      "sha256": "7f2f98bfc9cab7a5b27c6645334c8224bc5e82730027d3359954aac352b68221",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools/viewer.template.html.snapshot",
+      "sha256": "a562af0e647b54c7c621a0cc34a3724b08593fa4046074579cdcdf146654458b",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/tools-readme.md.snapshot",
+      "sha256": "9ee35c7d778ff14351cf9d2aa83ba46d84235545e640bc340d40b170e6e19209",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/topic_artifact_views.py",
+      "sha256": "f5b88d2359588f579e19e87edabe5753f9aadd34a241e4cd320c47e6cf945c19",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/types-readme.md.snapshot",
+      "sha256": "79c153c94a2cbfdbca87d45b93159c700637e47beedbc03e3874dd5479fcb08a",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/types.md.snapshot",
+      "sha256": "bf49f5b34acd27b3b24c59a80622499d1a9021a4d007dab20e11dfbd4a454c12",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/v01-readme.md.snapshot",
+      "sha256": "04ff3f093fdeeac949df03dcd6c5bf47da7db93ff8a66ef52e57b043e2524ece",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/originals/v01.json",
+      "sha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/db/before/components.json",
+      "sha256": "6a49af96acc02944db745cd95739a0cf0d415e917efed5bb4c23a6c3d605f859",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/db/before/graph.json",
+      "sha256": "66ac85363cd77c53758321042069a42dc9cf189383acac5c846e92a35382a42e",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/db/before/raw.json",
+      "sha256": "6594b39e44475573a42a3d5b7a03101fdc647bd40ca24db2430b9f62d33ec3b3",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/db/before/schema.json",
+      "sha256": "148a295a56be078ab8fb40dfa29000c4f2cbb6748bae0596c2ea223767fd6447",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/db/before/summary.json",
+      "sha256": "c9cafc8da32cc611c09bc400641329b31151dde03eca100843920ae7561dbd97",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/tests/baseline-analysis.json",
+      "sha256": "a365326d3ef39e921fcd022cf67a2f8a32dfb7b107c295bf1e92f07071be949e",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/tests/baseline-exact.json",
+      "sha256": "c0f6a51a29e7e04f524bf7d603db6b6e231583d32fdcc7fe3a4df37b908e5e04",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/manifest.json",
+      "sha256": "da19809f41700f415660927642c41845d9b6d223381462bbfcaae3777c04c6ba",
+      "kind": "archive",
+      "match": true
+    },
+    {
+      "path": "archive/2026-10-31-统一原型D04-D06扩展前/README.md",
+      "sha256": "22aa2421286539d2be2b9e3bfc4b3442e2c389a5ad805d1293467059ce6e2bf2",
+      "kind": "archive",
+      "match": true
+    }
+  ],
+  "modelSHA256": "34d8c27da739f94eac856b7c975959de17558c1acbd00c6415e49261baa1387a",
+  "unrelatedDiffSHA256": null
+}

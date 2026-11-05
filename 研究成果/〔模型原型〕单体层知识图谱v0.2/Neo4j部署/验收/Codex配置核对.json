@@ -1,0 +1,23 @@
+{
+  "status": "passed",
+  "otherSettingsPreserved": true,
+  "backupPath": "/Users/wangyuelin/.config/neo4j-paper/codex-config-before-mcp-20261022T205750.toml",
+  "serverConfig": {
+    "startup_timeout_sec": 30,
+    "tool_timeout_sec": 60,
+    "enabled_tools": [
+      "get-schema",
+      "read-cypher"
+    ],
+    "command": "/usr/bin/ssh",
+    "args": [
+      "-T",
+      "-o",
+      "BatchMode=yes",
+      "linx-HP-EliteDesk-880-G6-Tower-PC",
+      "/usr/bin/python3",
+      "/home/linx/.local/share/neo4j-paper/tools/MCP启动.py"
+    ]
+  },
+  "note": "Codex CLI normalized an existing empty node_repl args list away; exact empty list restored, semantic comparison to pre-install backup now matches excluding the new server."
+}

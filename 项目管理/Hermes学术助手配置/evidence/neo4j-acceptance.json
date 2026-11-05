@@ -1,0 +1,10 @@
+{
+  "time": "2026-10-26T14:20:02.493891+00:00",
+  "service": "neo4j",
+  "query": "MATCH (n) WITH count(n) AS nodes OPTIONAL MATCH ()-[r]->() RETURN nodes, count(r) AS relationships",
+  "before": "[\n  {\n    \"nodes\": 43,\n    \"relationships\": 191\n  }\n]",
+  "schema_sha256": "c36a750d15f72febe61f91f4dc8e3aeef0e3191de651ac87284cdf1a16147c1f",
+  "schema_chars": 51925,
+  "after": "[\n  {\n    \"nodes\": 43,\n    \"relationships\": 191\n  }\n]",
+  "read_only_calls": true
+}

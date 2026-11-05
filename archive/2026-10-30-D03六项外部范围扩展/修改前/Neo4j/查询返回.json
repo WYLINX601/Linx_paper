@@ -1,0 +1,1208 @@
+{
+  "Q01": [
+    {
+      "buildings": [
+        "D03V01:A-BN",
+        "D03V01:A-BW",
+        "D03V01:A-BE"
+      ],
+      "courtyard": "D03V01:A-C01",
+      "example": "A",
+      "geometryState": "plan reference only; no complete 3D volume",
+      "unit": "D03V01:A-U01"
+    },
+    {
+      "buildings": [
+        "D03V01:B-BW",
+        "D03V01:B-BN",
+        "D03V01:B-BE"
+      ],
+      "courtyard": "D03V01:B-C01",
+      "example": "B",
+      "geometryState": "plan reference only; no complete 3D volume",
+      "unit": "D03V01:B-U01"
+    },
+    {
+      "buildings": [
+        "D03V01:C-BE",
+        "D03V01:C-BN"
+      ],
+      "courtyard": "D03V01:C-C01",
+      "example": "C",
+      "geometryState": "plan reference only; no complete 3D volume",
+      "unit": "D03V01:C-U01"
+    },
+    {
+      "buildings": [
+        "D03V01:D-BE",
+        "D03V01:D-BN"
+      ],
+      "courtyard": "D03V01:D-C01",
+      "example": "D",
+      "geometryState": "plan reference only; no complete 3D volume",
+      "unit": "D03V01:D-U01"
+    }
+  ],
+  "Q02": [
+    {
+      "courtyard": "D03V01:A-C01",
+      "example": "A",
+      "kind": "building",
+      "participant": "D03V01:A-BN",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "N",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:A-C01",
+      "example": "A",
+      "kind": "building",
+      "participant": "D03V01:A-BE",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "E",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:A-C01",
+      "example": "A",
+      "kind": "wall",
+      "participant": "D03V01:A-W01",
+      "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+      "side": "S",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:A-C01",
+      "example": "A",
+      "kind": "building",
+      "participant": "D03V01:A-BW",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "W",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:B-C01",
+      "example": "B",
+      "kind": "building",
+      "participant": "D03V01:B-BN",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "N",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:B-C01",
+      "example": "B",
+      "kind": "building",
+      "participant": "D03V01:B-BE",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "E",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:B-C01",
+      "example": "B",
+      "kind": "wall",
+      "participant": "D03V01:B-W01",
+      "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+      "side": "S",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:B-C01",
+      "example": "B",
+      "kind": "building",
+      "participant": "D03V01:B-BW",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "W",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:C-C01",
+      "example": "C",
+      "kind": "building",
+      "participant": "D03V01:C-BN",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "N",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:C-C01",
+      "example": "C",
+      "kind": "building",
+      "participant": "D03V01:C-BE",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "E",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:C-C01",
+      "example": "C",
+      "kind": "wall",
+      "participant": "D03V01:C-W01",
+      "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+      "side": "S",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:C-C01",
+      "example": "C",
+      "kind": "open",
+      "participant": null,
+      "participantScope": null,
+      "side": "W",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:D-C01",
+      "example": "D",
+      "kind": "building",
+      "participant": "D03V01:D-BN",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "N",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:D-C01",
+      "example": "D",
+      "kind": "building",
+      "participant": "D03V01:D-BE",
+      "participantScope": "朝院一侧，未细分实体墙",
+      "side": "E",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:D-C01",
+      "example": "D",
+      "kind": "wall",
+      "participant": "D03V01:D-W01",
+      "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+      "side": "S",
+      "state": "known"
+    },
+    {
+      "courtyard": "D03V01:D-C01",
+      "example": "D",
+      "kind": "unknown",
+      "participant": null,
+      "participantScope": null,
+      "side": "W",
+      "state": "unknown"
+    }
+  ],
+  "Q03": [
+    {
+      "boundary": "S",
+      "courtyard": "D03V01:A-C01",
+      "endM": 7,
+      "entrance": "D03V01:A-I01",
+      "example": "A",
+      "farSideStatus": "unknown",
+      "host": "D03V01:A-W01",
+      "lengthM": 12,
+      "passabilityStatus": "not-assessed",
+      "relativePosition": 0.5,
+      "startM": 5,
+      "valid": true
+    },
+    {
+      "boundary": "S",
+      "courtyard": "D03V01:B-C01",
+      "endM": 4,
+      "entrance": "D03V01:B-I01",
+      "example": "B",
+      "farSideStatus": "unknown",
+      "host": "D03V01:B-W01",
+      "lengthM": 12,
+      "passabilityStatus": "not-assessed",
+      "relativePosition": 0.25,
+      "startM": 2,
+      "valid": true
+    },
+    {
+      "boundary": "S",
+      "courtyard": "D03V01:C-C01",
+      "endM": 7,
+      "entrance": "D03V01:C-I01",
+      "example": "C",
+      "farSideStatus": "unknown",
+      "host": "D03V01:C-W01",
+      "lengthM": 12,
+      "passabilityStatus": "not-assessed",
+      "relativePosition": 0.5,
+      "startM": 5,
+      "valid": true
+    },
+    {
+      "boundary": "S",
+      "courtyard": "D03V01:D-C01",
+      "endM": 7,
+      "entrance": "D03V01:D-I01",
+      "example": "D",
+      "farSideStatus": "unknown",
+      "host": "D03V01:D-W01",
+      "lengthM": 12,
+      "passabilityStatus": "not-assessed",
+      "relativePosition": 0.5,
+      "startM": 5,
+      "valid": true
+    }
+  ],
+  "Q04": [
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/0/buildings/1",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:A-BE",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/0/buildings/0",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:A-BN",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/0/buildings/2",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:A-BW",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "boundaryIds",
+        "boundaryKinds",
+        "boundaryLengthsM",
+        "boundaryLocators",
+        "boundaryOrder",
+        "boundaryParticipantUids",
+        "boundarySegmentsJson",
+        "boundaryStates",
+        "dataVersion",
+        "geometryState",
+        "geometryVersion",
+        "identityBasis",
+        "interpretation",
+        "level",
+        "name",
+        "shapeCode",
+        "sourceLocator",
+        "unit",
+        "unitUid"
+      ],
+      "locator": "/examples/0",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:A-C01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "courtyardSideStatus",
+        "dataVersion",
+        "endChainageM",
+        "expectedCourtyardUid",
+        "expectedHostUid",
+        "farSideStatus",
+        "inputSourceVersion",
+        "name",
+        "passabilityStatus",
+        "referenceBoundaryId",
+        "referenceGeometryVersion",
+        "referenceLengthM",
+        "referenceRule",
+        "sourceLocator",
+        "startChainageM",
+        "unit",
+        "unknownReason"
+      ],
+      "locator": "/examples/0",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:A-I01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "boundaryBasis",
+        "dataVersion",
+        "geometryState",
+        "name"
+      ],
+      "locator": "/examples/0/unit",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:A-U01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name"
+      ],
+      "locator": "/examples/0/wall",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:A-W01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/1/buildings/1",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:B-BE",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/1/buildings/0",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:B-BN",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/1/buildings/2",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:B-BW",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "boundaryIds",
+        "boundaryKinds",
+        "boundaryLengthsM",
+        "boundaryLocators",
+        "boundaryOrder",
+        "boundaryParticipantUids",
+        "boundarySegmentsJson",
+        "boundaryStates",
+        "dataVersion",
+        "geometryState",
+        "geometryVersion",
+        "identityBasis",
+        "interpretation",
+        "level",
+        "name",
+        "shapeCode",
+        "sourceLocator",
+        "unit",
+        "unitUid"
+      ],
+      "locator": "/examples/1",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:B-C01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "courtyardSideStatus",
+        "dataVersion",
+        "endChainageM",
+        "expectedCourtyardUid",
+        "expectedHostUid",
+        "farSideStatus",
+        "inputSourceVersion",
+        "name",
+        "passabilityStatus",
+        "referenceBoundaryId",
+        "referenceGeometryVersion",
+        "referenceLengthM",
+        "referenceRule",
+        "sourceLocator",
+        "startChainageM",
+        "unit",
+        "unknownReason"
+      ],
+      "locator": "/examples/1",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:B-I01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "boundaryBasis",
+        "dataVersion",
+        "geometryState",
+        "name"
+      ],
+      "locator": "/examples/1/unit",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:B-U01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name"
+      ],
+      "locator": "/examples/1/wall",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:B-W01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/2/buildings/1",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:C-BE",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/2/buildings/0",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:C-BN",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "boundaryIds",
+        "boundaryKinds",
+        "boundaryLengthsM",
+        "boundaryLocators",
+        "boundaryOrder",
+        "boundaryParticipantUids",
+        "boundarySegmentsJson",
+        "boundaryStates",
+        "dataVersion",
+        "geometryState",
+        "geometryVersion",
+        "identityBasis",
+        "interpretation",
+        "level",
+        "name",
+        "shapeCode",
+        "sourceLocator",
+        "unit",
+        "unitUid"
+      ],
+      "locator": "/examples/2",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:C-C01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "courtyardSideStatus",
+        "dataVersion",
+        "endChainageM",
+        "expectedCourtyardUid",
+        "expectedHostUid",
+        "farSideStatus",
+        "inputSourceVersion",
+        "name",
+        "passabilityStatus",
+        "referenceBoundaryId",
+        "referenceGeometryVersion",
+        "referenceLengthM",
+        "referenceRule",
+        "sourceLocator",
+        "startChainageM",
+        "unit",
+        "unknownReason"
+      ],
+      "locator": "/examples/2",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:C-I01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "boundaryBasis",
+        "dataVersion",
+        "geometryState",
+        "name"
+      ],
+      "locator": "/examples/2/unit",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:C-U01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name"
+      ],
+      "locator": "/examples/2/wall",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:C-W01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/3/buildings/1",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:D-BE",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name",
+        "role"
+      ],
+      "locator": "/examples/3/buildings/0",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:D-BN",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "boundaryIds",
+        "boundaryKinds",
+        "boundaryLengthsM",
+        "boundaryLocators",
+        "boundaryOrder",
+        "boundaryParticipantUids",
+        "boundarySegmentsJson",
+        "boundaryStates",
+        "dataVersion",
+        "geometryState",
+        "geometryVersion",
+        "identityBasis",
+        "interpretation",
+        "level",
+        "name",
+        "shapeCode",
+        "sourceLocator",
+        "unit",
+        "unitUid"
+      ],
+      "locator": "/examples/3",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:D-C01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "analysisItems",
+        "botClassIri",
+        "courtyardSideStatus",
+        "dataVersion",
+        "endChainageM",
+        "expectedCourtyardUid",
+        "expectedHostUid",
+        "farSideStatus",
+        "inputSourceVersion",
+        "name",
+        "passabilityStatus",
+        "referenceBoundaryId",
+        "referenceGeometryVersion",
+        "referenceLengthM",
+        "referenceRule",
+        "sourceLocator",
+        "startChainageM",
+        "unit",
+        "unknownReason"
+      ],
+      "locator": "/examples/3",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:D-I01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "boundaryBasis",
+        "dataVersion",
+        "geometryState",
+        "name"
+      ],
+      "locator": "/examples/3/unit",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:D-U01",
+      "source": "D03V01:EV01"
+    },
+    {
+      "actualVersion": "1.0",
+      "evidenceRole": "synthetic-assignment",
+      "expectedVersion": "1.0",
+      "fields": [
+        "botClassIri",
+        "dataVersion",
+        "geometryState",
+        "name"
+      ],
+      "locator": "/examples/3/wall",
+      "locatorKind": "JSON-pointer",
+      "object": "D03V01:D-W01",
+      "source": "D03V01:EV01"
+    }
+  ],
+  "Q05": [
+    {
+      "boundaryIds": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "boundaryKinds": [
+        "building",
+        "building",
+        "wall",
+        "building"
+      ],
+      "boundaryStates": [
+        "known",
+        "known",
+        "known",
+        "known"
+      ],
+      "cacheConsistent": true,
+      "cachedStatus": "candidate-assigned",
+      "cachedType": "ENC-3B-1W",
+      "candidateType": "ENC-3B-1W",
+      "courtyard": "D03V01:A-C01",
+      "example": "A",
+      "geometryVersion": "1.0",
+      "inputModelVersion": "1.0",
+      "matches": [
+        "ENC-3B-1W"
+      ],
+      "participants": [
+        "D03V01:A-BN",
+        "D03V01:A-BE",
+        "D03V01:A-W01",
+        "D03V01:A-BW"
+      ],
+      "patternKey": "building|building|wall|building",
+      "resultStatus": "candidate-assigned",
+      "ruleVersion": "1.0",
+      "sourceLocators": [
+        "/examples/0/boundary/0",
+        "/examples/0/boundary/1",
+        "/examples/0/boundary/2",
+        "/examples/0/boundary/3"
+      ]
+    },
+    {
+      "boundaryIds": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "boundaryKinds": [
+        "building",
+        "building",
+        "wall",
+        "building"
+      ],
+      "boundaryStates": [
+        "known",
+        "known",
+        "known",
+        "known"
+      ],
+      "cacheConsistent": true,
+      "cachedStatus": "candidate-assigned",
+      "cachedType": "ENC-3B-1W",
+      "candidateType": "ENC-3B-1W",
+      "courtyard": "D03V01:B-C01",
+      "example": "B",
+      "geometryVersion": "1.0",
+      "inputModelVersion": "1.0",
+      "matches": [
+        "ENC-3B-1W"
+      ],
+      "participants": [
+        "D03V01:B-BN",
+        "D03V01:B-BE",
+        "D03V01:B-W01",
+        "D03V01:B-BW"
+      ],
+      "patternKey": "building|building|wall|building",
+      "resultStatus": "candidate-assigned",
+      "ruleVersion": "1.0",
+      "sourceLocators": [
+        "/examples/1/boundary/0",
+        "/examples/1/boundary/1",
+        "/examples/1/boundary/2",
+        "/examples/1/boundary/3"
+      ]
+    },
+    {
+      "boundaryIds": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "boundaryKinds": [
+        "building",
+        "building",
+        "wall",
+        "open"
+      ],
+      "boundaryStates": [
+        "known",
+        "known",
+        "known",
+        "known"
+      ],
+      "cacheConsistent": true,
+      "cachedStatus": "candidate-assigned",
+      "cachedType": "ENC-2B-1W-1O",
+      "candidateType": "ENC-2B-1W-1O",
+      "courtyard": "D03V01:C-C01",
+      "example": "C",
+      "geometryVersion": "1.0",
+      "inputModelVersion": "1.0",
+      "matches": [
+        "ENC-2B-1W-1O"
+      ],
+      "participants": [
+        "D03V01:C-BN",
+        "D03V01:C-BE",
+        "D03V01:C-W01",
+        ""
+      ],
+      "patternKey": "building|building|wall|open",
+      "resultStatus": "candidate-assigned",
+      "ruleVersion": "1.0",
+      "sourceLocators": [
+        "/examples/2/boundary/0",
+        "/examples/2/boundary/1",
+        "/examples/2/boundary/2",
+        "/examples/2/boundary/3"
+      ]
+    },
+    {
+      "boundaryIds": [
+        "N",
+        "E",
+        "S",
+        "W"
+      ],
+      "boundaryKinds": [
+        "building",
+        "building",
+        "wall",
+        "unknown"
+      ],
+      "boundaryStates": [
+        "known",
+        "known",
+        "known",
+        "unknown"
+      ],
+      "cacheConsistent": true,
+      "cachedStatus": "unknown",
+      "cachedType": "",
+      "candidateType": "",
+      "courtyard": "D03V01:D-C01",
+      "example": "D",
+      "geometryVersion": "1.0",
+      "inputModelVersion": "1.0",
+      "matches": [],
+      "participants": [
+        "D03V01:D-BN",
+        "D03V01:D-BE",
+        "D03V01:D-W01",
+        ""
+      ],
+      "patternKey": "building|building|wall|unknown",
+      "resultStatus": "unknown",
+      "ruleVersion": "1.0",
+      "sourceLocators": [
+        "/examples/3/boundary/0",
+        "/examples/3/boundary/1",
+        "/examples/3/boundary/2",
+        "/examples/3/boundary/3"
+      ]
+    }
+  ],
+  "Q06": [
+    {
+      "d06Comparison": [
+        {
+          "boundaryIds": [
+            "N",
+            "E",
+            "S",
+            "W"
+          ],
+          "boundaryKinds": [
+            "building",
+            "building",
+            "wall",
+            "building"
+          ],
+          "boundaryStates": [
+            "known",
+            "known",
+            "known",
+            "known"
+          ],
+          "cacheConsistent": true,
+          "candidateType": "ENC-3B-1W",
+          "courtyard": "D03V01:A-C01",
+          "example": "A",
+          "geometryVersion": "1.0",
+          "inputModelVersion": "1.0",
+          "participants": [
+            "D03V01:A-BN",
+            "D03V01:A-BE",
+            "D03V01:A-W01",
+            "D03V01:A-BW"
+          ],
+          "pattern": "building|building|wall|building",
+          "ruleVersion": "1.0",
+          "sourceLocators": [
+            "/examples/0/boundary/0",
+            "/examples/0/boundary/1",
+            "/examples/0/boundary/2",
+            "/examples/0/boundary/3"
+          ],
+          "status": "candidate-assigned"
+        },
+        {
+          "boundaryIds": [
+            "N",
+            "E",
+            "S",
+            "W"
+          ],
+          "boundaryKinds": [
+            "building",
+            "building",
+            "wall",
+            "building"
+          ],
+          "boundaryStates": [
+            "known",
+            "known",
+            "known",
+            "known"
+          ],
+          "cacheConsistent": true,
+          "candidateType": "ENC-3B-1W",
+          "courtyard": "D03V01:B-C01",
+          "example": "B",
+          "geometryVersion": "1.0",
+          "inputModelVersion": "1.0",
+          "participants": [
+            "D03V01:B-BN",
+            "D03V01:B-BE",
+            "D03V01:B-W01",
+            "D03V01:B-BW"
+          ],
+          "pattern": "building|building|wall|building",
+          "ruleVersion": "1.0",
+          "sourceLocators": [
+            "/examples/1/boundary/0",
+            "/examples/1/boundary/1",
+            "/examples/1/boundary/2",
+            "/examples/1/boundary/3"
+          ],
+          "status": "candidate-assigned"
+        },
+        {
+          "boundaryIds": [
+            "N",
+            "E",
+            "S",
+            "W"
+          ],
+          "boundaryKinds": [
+            "building",
+            "building",
+            "wall",
+            "open"
+          ],
+          "boundaryStates": [
+            "known",
+            "known",
+            "known",
+            "known"
+          ],
+          "cacheConsistent": true,
+          "candidateType": "ENC-2B-1W-1O",
+          "courtyard": "D03V01:C-C01",
+          "example": "C",
+          "geometryVersion": "1.0",
+          "inputModelVersion": "1.0",
+          "participants": [
+            "D03V01:C-BN",
+            "D03V01:C-BE",
+            "D03V01:C-W01",
+            ""
+          ],
+          "pattern": "building|building|wall|open",
+          "ruleVersion": "1.0",
+          "sourceLocators": [
+            "/examples/2/boundary/0",
+            "/examples/2/boundary/1",
+            "/examples/2/boundary/2",
+            "/examples/2/boundary/3"
+          ],
+          "status": "candidate-assigned"
+        },
+        {
+          "boundaryIds": [
+            "N",
+            "E",
+            "S",
+            "W"
+          ],
+          "boundaryKinds": [
+            "building",
+            "building",
+            "wall",
+            "unknown"
+          ],
+          "boundaryStates": [
+            "known",
+            "known",
+            "known",
+            "unknown"
+          ],
+          "cacheConsistent": true,
+          "candidateType": "",
+          "courtyard": "D03V01:D-C01",
+          "example": "D",
+          "geometryVersion": "1.0",
+          "inputModelVersion": "1.0",
+          "participants": [
+            "D03V01:D-BN",
+            "D03V01:D-BE",
+            "D03V01:D-W01",
+            ""
+          ],
+          "pattern": "building|building|wall|unknown",
+          "ruleVersion": "1.0",
+          "sourceLocators": [
+            "/examples/3/boundary/0",
+            "/examples/3/boundary/1",
+            "/examples/3/boundary/2",
+            "/examples/3/boundary/3"
+          ],
+          "status": "unknown"
+        }
+      ]
+    }
+  ],
+  "Q07": [
+    {
+      "crossDatasetEdges": 0
+    }
+  ],
+  "Q08": [
+    {
+      "labels": [
+        "KGItem",
+        "Building",
+        "Zone",
+        "D03V01"
+      ],
+      "n": 10
+    },
+    {
+      "labels": [
+        "KGItem",
+        "D03V01",
+        "ClassificationScheme"
+      ],
+      "n": 1
+    },
+    {
+      "labels": [
+        "KGItem",
+        "Element",
+        "Wall",
+        "D03V01"
+      ],
+      "n": 4
+    },
+    {
+      "labels": [
+        "KGItem",
+        "Interface",
+        "D03V01",
+        "EntranceInterface"
+      ],
+      "n": 4
+    },
+    {
+      "labels": [
+        "KGItem",
+        "Source",
+        "SyntheticSource",
+        "D03V01"
+      ],
+      "n": 1
+    },
+    {
+      "labels": [
+        "KGItem",
+        "Space",
+        "Zone",
+        "D03V01",
+        "Courtyard"
+      ],
+      "n": 4
+    },
+    {
+      "labels": [
+        "KGItem",
+        "Zone",
+        "DwellingUnit",
+        "D03V01"
+      ],
+      "n": 4
+    }
+  ]
+}

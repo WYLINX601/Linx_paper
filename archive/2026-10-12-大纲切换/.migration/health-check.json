@@ -1,0 +1,12 @@
+{
+  "archived_files": 8,
+  "original_snapshots_verified": 20,
+  "local_links_checked": 319,
+  "new_broken_links": [],
+  "preexisting_missing_external_or_reference_targets": [
+    "/Users/wangyuelin/Downloads/新录音 2.md"
+  ],
+  "diagrams_and_png_unchanged": true,
+  "latest_outline_only_reference_updates": true,
+  "frontmatter_validation": "All project Markdown YAML frontmatter parsed with Ruby YAML."
+}

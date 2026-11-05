@@ -1,0 +1,77 @@
+[
+  {
+    "purpose": "MCP连接验证",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "RETURN 'connected' AS status"
+    }
+  },
+  {
+    "purpose": "使用MCP skill读取实际图谱结构",
+    "name": "get-schema",
+    "arguments": {}
+  },
+  {
+    "purpose": "使用建模skill检查现有唯一约束",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "SHOW CONSTRAINTS YIELD name, type, labelsOrTypes, properties RETURN name,type,labelsOrTypes,properties"
+    }
+  },
+  {
+    "purpose": "使用导入skill检查索引状态",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "SHOW INDEXES YIELD name,state,populationPercent RETURN name,state,populationPercent"
+    }
+  },
+  {
+    "purpose": "文献与演示隔离计数",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "MATCH (n:Entity) RETURN n.datasetKind AS dataset,count(n) AS entities ORDER BY dataset"
+    }
+  },
+  {
+    "purpose": "断言、分类与总节点数量",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "MATCH (n:KGItem) RETURN count(n) AS allNodes, sum(CASE WHEN n:Assertion THEN 1 ELSE 0 END) AS assertions, sum(CASE WHEN n:Classification THEN 1 ELSE 0 END) AS classifications"
+    }
+  },
+  {
+    "purpose": "实际空间通行演示及界面情境",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "MATCH (a:Assertion:Demo {predicate:'direct_access_to'})-[:SUBJECT]->(s:Entity:Demo) MATCH (a)-[:OBJECT]->(t:Entity:Demo) MATCH (a)-[:VIA]->(i:Interface:Demo) RETURN a.sourceId AS assertion,s.label AS source,t.label AS target,i.label AS interface,a.accessContextJson AS context ORDER BY assertion"
+    }
+  },
+  {
+    "purpose": "争议屋面断言的支持与冲突证据",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "MATCH (a:Assertion:Literature {sourceId:'F_1_roof_layered'})-[r:EVIDENCED_BY|CONFLICTING_EVIDENCE]->(e:Evidence:Literature)-[:FROM_SOURCE]->(s:Source:Literature) RETURN a.value AS value,a.status AS status,type(r) AS evidenceRole,e.sourceId AS evidence,s.title AS source ORDER BY evidenceRole"
+    }
+  },
+  {
+    "purpose": "分类判断不能混为正向类型事实",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "MATCH (c:Classification:Literature) RETURN c.sourceId AS classification,c.decision AS decision,c.criteriaResultsJson AS criteria ORDER BY classification"
+    }
+  },
+  {
+    "purpose": "导入完整性检查：标识缺失与重复",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "MATCH (n:KGItem) WITH n.uid AS uid,count(n) AS copies WHERE uid IS NULL OR copies>1 RETURN uid,copies"
+    }
+  },
+  {
+    "purpose": "不存在文献案例通行断言",
+    "name": "read-cypher",
+    "arguments": {
+      "query": "MATCH (a:Assertion:Literature {predicate:'direct_access_to'}) RETURN count(a) AS count"
+    }
+  }
+]

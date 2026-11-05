@@ -1,0 +1,67 @@
+{
+  "date": "2026-10-23",
+  "namespace": "kgmodel:single:v01:",
+  "scope": "主会话MCP只读回读；全量记录一致性另见数据库逐记录核验.json",
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "label": "候选定义数量",
+        "query": "MATCH (n:ModelDefinition) WHERE n.uid STARTS WITH 'kgmodel:single:v01:' RETURN n.kind AS kind,count(*) AS count ORDER BY kind",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "[\n  {\n    \"count\": 12,\n    \"kind\": \"ModelAnalysisQuestion\"\n  },\n  {\n    \"count\": 121,\n    \"kind\": \"ModelDecision\"\n  },\n  {\n    \"count\": 15,\n    \"kind\": \"ModelElementProfile\"\n  },\n  {\n    \"count\": 15,\n    \"kind\": \"ModelEntityType\"\n  },\n  {\n    \"count\": 164,\n    \"kind\": \"ModelEvidenceReference\"\n  },\n  {\n    \"count\": 7,\n    \"kind\": \"ModelOpenIssue\"\n  },\n  {\n    \"count\": 75,\n    \"kind\": \"ModelProperty\"\n  },\n  {\n    \"count\": 8,\n    \"kind\": \"ModelRecordProfile\"\n  },\n  {\n    \"count\": 28,\n    \"kind\": \"ModelRelation\"\n  },\n  {\n    \"count\": 100,\n    \"kind\": \"ModelResearchItem\"\n  },\n  {\n    \"count\": 1,\n    \"kind\": \"ModelVersion\"\n  }\n]"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "label": "命名空间与实例标签隔离",
+        "query": "MATCH (n) WHERE n.uid STARTS WITH 'kgmodel:single:v01:' RETURN count(n) AS candidateNodes, sum(CASE WHEN n:Dwelling OR n:Building OR n:Space OR n:Element THEN 1 ELSE 0 END) AS domainInstanceLabels,collect(DISTINCT n.sourceHash) AS sourceHashes",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "[\n  {\n    \"candidateNodes\": 546,\n    \"domainInstanceLabels\": 0,\n    \"sourceHashes\": [\n      \"0bb011ccc3e7f06f19473ec6da0028c12c6f9d4a3997f0a85a8758be56736009\"\n    ]\n  }\n]"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "label": "图边边界",
+        "query": "MATCH (a)-[r]->(b) RETURN sum(CASE WHEN a.uid STARTS WITH 'kgmodel:single:v01:' AND b.uid STARTS WITH 'kgmodel:single:v01:' THEN 1 ELSE 0 END) AS candidateEdges,sum(CASE WHEN (a.uid STARTS WITH 'kgmodel:single:v01:') <> (b.uid STARTS WITH 'kgmodel:single:v01:') THEN 1 ELSE 0 END) AS crossingEdges",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "[\n  {\n    \"candidateEdges\": 3497,\n    \"crossingEdges\": 0\n  }\n]"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "label": "体量错落依据路径",
+        "query": "MATCH (i:ModelResearchItem {uid:'kgmodel:single:v01:ModelResearchItem:B402'})-[r]->(n) RETURN type(r) AS relation,collect(n.name) AS targets ORDER BY relation",
+        "result": {
+          "content": [
+            {
+              "type": "text",
+              "text": "[\n  {\n    \"relation\": \"REFERENCES_EVIDENCE\",\n    \"targets\": [\n      \"XL:NEW03\",\n      \"YTSWPLNA:E6\",\n      \"NQD9DRI3:E17\"\n    ]\n  },\n  {\n    \"relation\": \"USES_ENTITY_TYPE\",\n    \"targets\": [\n      \"空间单元\",\n      \"单栋建筑\",\n      \"民居研究单元\",\n      \"空间或构件界面\",\n      \"地点或外部空间\",\n      \"可观察表面区域\",\n      \"图纸或调查记录\",\n      \"空间参照框架\",\n      \"建筑实体部分\"\n    ]\n  },\n  {\n    \"relation\": \"USES_PROFILE\",\n    \"targets\": [\n      \"体量\"\n    ]\n  },\n  {\n    \"relation\": \"USES_PROPERTY\",\n    \"targets\": [\n      \"部位位置与顺序参照\",\n      \"方向或朝向\",\n      \"形态观察描述\",\n      \"宽度测值\",\n      \"测点标高\",\n      \"进深测值\"\n    ]\n  },\n  {\n    \"relation\": \"USES_RECORD_PROFILE\",\n    \"targets\": [\n      \"证据定位\",\n      \"分析结果\",\n      \"来源\",\n      \"带来源的断言\",\n      \"测量记录\"\n    ]\n  },\n  {\n    \"relation\": \"USES_RELATION\",\n    \"targets\": [\n      \"相对方位\",\n      \"使用空间参照\",\n      \"相对测点高差\"\n    ]\n  }\n]"
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,193 @@
+{
+  "routes": [
+    {
+      "view": "overview",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "D01",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T01",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T02",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T03",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T04",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T05",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T06",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "D04",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "D05",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "D06",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "all",
+      "evidence": false,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "overview",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "D01",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T01",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T02",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T03",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T04",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T05",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "T06",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "D04",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "D05",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "D06",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    },
+    {
+      "view": "all",
+      "evidence": true,
+      "nonEndpointCircleCrossings": []
+    }
+  ],
+  "documents": [
+    {
+      "key": "D01",
+      "characters": 16907,
+      "headings": 35,
+      "empty": false
+    },
+    {
+      "key": "T01",
+      "characters": 1220,
+      "headings": 1,
+      "empty": false
+    },
+    {
+      "key": "T02",
+      "characters": 1200,
+      "headings": 1,
+      "empty": false
+    },
+    {
+      "key": "T03",
+      "characters": 1307,
+      "headings": 1,
+      "empty": false
+    },
+    {
+      "key": "T04",
+      "characters": 1228,
+      "headings": 1,
+      "empty": false
+    },
+    {
+      "key": "T05",
+      "characters": 1202,
+      "headings": 1,
+      "empty": false
+    },
+    {
+      "key": "T06",
+      "characters": 1150,
+      "headings": 1,
+      "empty": false
+    },
+    {
+      "key": "来源与阅读履历",
+      "characters": 1745,
+      "headings": 1,
+      "empty": false
+    },
+    {
+      "key": "D04",
+      "characters": 13306,
+      "headings": 13,
+      "empty": false
+    },
+    {
+      "key": "D05",
+      "characters": 13080,
+      "headings": 13,
+      "empty": false
+    },
+    {
+      "key": "D06",
+      "characters": 15711,
+      "headings": 18,
+      "empty": false
+    }
+  ],
+  "errors": []
+}

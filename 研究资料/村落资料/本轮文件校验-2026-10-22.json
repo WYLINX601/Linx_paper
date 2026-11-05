@@ -1,0 +1,441 @@
+{
+  "date": "2026-10-22",
+  "tables": {
+    "敕木山": {
+      "rows": 94,
+      "unique": 94,
+      "missing": [],
+      "duplicate": []
+    },
+    "大张坑": {
+      "rows": 94,
+      "unique": 94,
+      "missing": [],
+      "duplicate": []
+    }
+  },
+  "new_markdown_links": [],
+  "broken_local_links": [],
+  "source_files": [
+    {
+      "path": "共享来源/2026-10-22/敕木山2025原刊-下载验证码.png",
+      "bytes": 120386,
+      "sha256": "5e1ee38add3f053e8ce95b384eba8020870cea28346ba25b5eeaaaf38096beb1",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/同治景宁县志-识典古籍序言.html",
+      "bytes": 400206,
+      "sha256": "663e2f87b08b75c89870a4f78b347da864399fb47cb5616446213df568c4784b",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/乾隆县志-登录限制.png",
+      "bytes": 55504,
+      "sha256": "82f5792e6e3f7802a73857fb149e34619b47ff2beab59c12396d88e5431c4f41",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/知网-敕木山-检索第一页.txt",
+      "bytes": 70415,
+      "sha256": "5da704c687f09cdc2df366e5d3d75c400bdac7d38f6745796663e54c65c266a3",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/知网-敕木山-时间排序.txt",
+      "bytes": 69154,
+      "sha256": "7bfe619aec01ce9959f165e3134efc1c1d56ffb6353c84693249d8163558422b",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/1995县志-NDL馆藏记录.html",
+      "bytes": 213398,
+      "sha256": "f4acb090ca6c2b47fed08d8041458cbe2f9b5fff0cfa2d0f0c311025e1c4025e",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/景政办发2023-48号-名镇志名村志实施方案.pdf",
+      "bytes": 508786,
+      "sha256": "e3ef2aaa24f17518ba9765ff9b92c6acf2399c73e94f3b41665ae04760e6a133",
+      "pdf_magic": true
+    },
+    {
+      "path": "共享来源/2026-10-22/乾隆县志-资源页-浏览器记录.txt",
+      "bytes": 12682,
+      "sha256": "cafd7d4d41459a944f6eaf2e6ee696a1e34714dd84da9ddb0eb66e5cef765fd7",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/原始资料接收清单.csv",
+      "bytes": 297,
+      "sha256": "dcc8534216d55e8b6275392655eec76b934f1b5ed393a39681befcc5eacc6e6d",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/景政办发2023-48号-名镇志名村志实施方案.txt",
+      "bytes": 23785,
+      "sha256": "b6538d7110a39bdf23c3e38c7055a1f825b1b528ee4b99f778373b5550c6632f",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/共享下载记录.json",
+      "bytes": 1210,
+      "sha256": "4afb564a478f79f26465cf2084dfa8f9c4ebd2a2300e7b6765d1aaf1e8d1dccd",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/数字博物馆-丽水筛选-浏览器记录.txt",
+      "bytes": 2563,
+      "sha256": "50872def239afce5e611d9db18d981193fffce466b7649c44f7ffb9acfd2366d",
+      "pdf_magic": null
+    },
+    {
+      "path": "共享来源/2026-10-22/敕木山2025原刊-知网题录与摘要.txt",
+      "bytes": 18654,
+      "sha256": "3232cecf325558466f2fa0aa1ac399b689a2cb4f61f2797b2d41966750da64fa",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/r03-2019-pengpai-stubble-research-text.txt",
+      "bytes": 19202,
+      "sha256": "2805ea1015c43288f468495e18716cfea9208c16ae22a217fab8a9cc5e5f98ef",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/w02-2026-protection-register.html",
+      "bytes": 30156,
+      "sha256": "7c755c7af65405ff81f09ee375d63e8cf19244bba4f9c51e47d6d8d8a2de498e",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/r03-2019-pengpai-stubble-research.html",
+      "bytes": 61550,
+      "sha256": "cea8dc177dc9a13ad003754f96dbf1bb3db7905090fcd71f7f4ddadb90441edf",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry-text.txt",
+      "bytes": 5226,
+      "sha256": "3e666400d81ab46fddbdac2f4a8e524cbe550f1c17687cd0ccdaf25c764828f7",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/w01-2022-lishui-historic-residences.html",
+      "bytes": 15639,
+      "sha256": "274475603adc3f930e89059564b5e2846fed9fdd36cfc5bfe2824d5303b7cbbf",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/s02-2018-sohu-story.html",
+      "bytes": 28204,
+      "sha256": "7509eb69abbd9c8fbc4709708d7b518cdb12ce1de80844fee78cfdd75cc55705",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/l18-2025-journal-issue-metadata-text.txt",
+      "bytes": 15330,
+      "sha256": "a51999dbb3ea83cbd9d9bbaff6029c014f2adeba44333fa3145f2898495242b8",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/m008-ncpssd-official-article-metadata.html",
+      "bytes": 148849,
+      "sha256": "b01ed682498fd5712f8c07c39e5a21434c3469f9b3440f3b57255ad125fc9c20",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/w09-2015-protection-range-approval-text.txt",
+      "bytes": 13215,
+      "sha256": "a356c95e25b29fb1198e279aedae60220bbaf55d51603a129650e7e41ba8d08e",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/m008-ncpssd-official-article-metadata-text.txt",
+      "bytes": 7779,
+      "sha256": "e1571fce9da6cabb3fbfc924deedd8908eb2b4aa2f23b2867bd8c797df85202f",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/chai-2025-selected-page-extracts.txt",
+      "bytes": 8255,
+      "sha256": "c6cf8f29703e4d088ec990d68dac9d4abc95ed5ac32e459bd730d3172eac4d9e",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/r02-2023-local-newspaper-text.txt",
+      "bytes": 5154,
+      "sha256": "febd06873e47a43b3d5fe59fd1e7f4c38ede79cecdf4a2428ece35726bb94b25",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/fetch-log.txt",
+      "bytes": 3546,
+      "sha256": "fa633df69eb1b0cb0548d833bcf9881083f93b08909dbdcbe1de939cb7deee39",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/w01-2022-lishui-historic-residences-text.txt",
+      "bytes": 2743,
+      "sha256": "b575128a20f136eb5d27d9cfee95475d763803745479db08c661b72bcc88417d",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/w09-2015-ceb-download-response.html",
+      "bytes": 70,
+      "sha256": "98674c627549e36ea4b7bb127cdfe1d3d5f7c52d2b0fc4a679e85bbeb4e7d5d3",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/w02-2026-protection-register-text.txt",
+      "bytes": 2225,
+      "sha256": "993351e46979e243864e8be5112d0260fa6360f00d146edb63bf8fb1e42c29b8",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/r04-2026-lishui-heritage-entry.html",
+      "bytes": 15616,
+      "sha256": "6b297bc3c6ce91777e12bb7995ba46b0d9ecb304d36e2edc927cad3caa829e46",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/l18-2025-journal-issue-metadata.html",
+      "bytes": 284841,
+      "sha256": "213baae9d77dfcaa2f7ae012b16f56d0419dd7252863d44c93e9143b0f12bd04",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/r02-2023-local-newspaper.html",
+      "bytes": 40344,
+      "sha256": "fc43c04978c4879ada3c3c558a6d242709f18857932207f206e30cf676279a69",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/s02-2018-sohu-story-text.txt",
+      "bytes": 4718,
+      "sha256": "5bed8d851582fbb52ac1d684086e61c9c8571bfd7a50ff899b37165b0aa573b5",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/m008-2025-fulltext-extract-with-locators.txt",
+      "bytes": 8346,
+      "sha256": "14c92787e0e69bebd516e0662914904e758b1efd969e1b2f4257ad67989ab58a",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/m008-cnki-article-page-accessibility-capture.txt",
+      "bytes": 18654,
+      "sha256": "3232cecf325558466f2fa0aa1ac399b689a2cb4f61f2797b2d41966750da64fa",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/w09-2015-protection-range-approval.html",
+      "bytes": 26620,
+      "sha256": "f733869a7eef7dea752b9a0c3ad7358ec7685807837f02bc5ec2a1ef711c657d",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/w09-2015-ceb-download-response-text.txt",
+      "bytes": 16,
+      "sha256": "4dff4159eebaa45c8fa15a0839609be5727f18af091002af0ef8d6cfd6009de5",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/m008-2025-城市规划-敕木山村调研-张云.pdf",
+      "bytes": 1786169,
+      "sha256": "f341f2cc72bffac8bb4b5d138836218ec74c09ef6b2938609f490cc30495eb9d",
+      "pdf_magic": true
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/chai-2025-3IJX2PUQ-pdf-079.png",
+      "bytes": 775733,
+      "sha256": "58a6bed35bf2730450049ae3ea4f39991f7ed2741fcbaf20ce0de4b511e14eaa",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/chai-2025-3IJX2PUQ-pdf-044.png",
+      "bytes": 484069,
+      "sha256": "b15899821e799be2552fbda9b29d4f5360225ef47f032dd93eeaae0d55df23b4",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/chai-2025-3IJX2PUQ-pdf-080.png",
+      "bytes": 736509,
+      "sha256": "d648a5c5749b3480c11cf4e1d42d60224b2abab9b2dc2d6a485a4cb90bfaebd4",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/chai-2025-3IJX2PUQ-pdf-034.png",
+      "bytes": 626018,
+      "sha256": "0b0244e448c32e3c0bacae5d9cfc5f25931940274ad0d97e69ded5aedfee5c73",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/l18-2013-7KCJR9EB-pdf-5.png",
+      "bytes": 21142,
+      "sha256": "2c76f19a293c7d591e1396f492093296c8431457b097e0ae92edd77d86a6cdcb",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/l18-2013-7KCJR9EB-pdf-4.png",
+      "bytes": 421909,
+      "sha256": "629744261fe2935a4fe63ccc3bd8826bb36bcfdd31f477e84759c8b8bc797989",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/chai-2025-3IJX2PUQ-pdf-038.png",
+      "bytes": 352203,
+      "sha256": "bc3ffe4bb3f09bb43764c4f82b7de5f486944cc00c5dac6f0e1500099dca769b",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/l18-2013-7KCJR9EB-pdf-6.png",
+      "bytes": 21163,
+      "sha256": "0b5d0062f41d147716157af02af70b7b61114192334d653089d194eeaf1df34e",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/chai-2025-3IJX2PUQ-pdf-039.png",
+      "bytes": 304783,
+      "sha256": "183bb98b9442c47344d086aafd84307a5389cc5a02e9cb88cda2cfa6329ff8e2",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/l18-2013-7KCJR9EB-pdf-3.png",
+      "bytes": 636981,
+      "sha256": "cdac51e1860a2038fac1536753e17afd4ccd7dac2c316267441541d99d45859e",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/m008-2025-城市规划-敕木山村调研-1.png",
+      "bytes": 3405910,
+      "sha256": "90c66e693b54f1c5370674af11fe80d8be8602b6759cded253f5ea02d0a27b80",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/l18-2013-7KCJR9EB-pdf-2.png",
+      "bytes": 50112,
+      "sha256": "bfe341bebdc68ccafb093d33171f2b76825aa49854ce07d2a90d04749432dee8",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/m008-2025-城市规划-敕木山村调研-2.png",
+      "bytes": 3011311,
+      "sha256": "ae7e064e151fbf467c0c585d35087070f5fd88e708ece7def456aa99274a9ac3",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/l18-2013-7KCJR9EB-pdf-1.png",
+      "bytes": 144690,
+      "sha256": "3907bf7b1a3a33dc152148a4e1fcaa381a330e999f3aa9281d686c56549a3e40",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/east-dong-2008-PIMB8MAY-pdf-2.png",
+      "bytes": 2507795,
+      "sha256": "908ae4f06d1730c1592222515171f444c0eec4c04ba0f7eb90b6b57f86dd5b44",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/east-dong-2008-PIMB8MAY-pdf-1.png",
+      "bytes": 2537095,
+      "sha256": "c0cbab632618cc10b69539f7e310eae23c547c3c2d74ea1f5dd91acaf500056d",
+      "pdf_magic": null
+    },
+    {
+      "path": "敕木山/sources/2026-10-22/pdf-pages/l10-2006-EUX6U8YJ-pdf-2.png",
+      "bytes": 433209,
+      "sha256": "7d5396fcdd718c593cc06857d2a179edd5dd8db078ddfd4c26316187a8a6e52c",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/资料提取批次.json",
+      "bytes": 16177,
+      "sha256": "f845739e99334cdef7b325a3d63a7db82cdfaa16900bca8528699d8d49ac3a7d",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/W09-敕木山中的畲族红寨-书目页-MegBook.html",
+      "bytes": 8269,
+      "sha256": "971995230d2dc1e3f34636513233f56a14056086ec54b713ca9daece6f99e2b6",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/W06-浙江在线-北溪村行政调整及大张坑-2023-10-08.html",
+      "bytes": 23835,
+      "sha256": "d89fb38d85f6eacd7fdba44495c5dac269ef6e39ed8824c6d77ddf5ae833b26f",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/W05-景宁革命遗址保护利用规划-2024-2030.pdf",
+      "bytes": 23878061,
+      "sha256": "8fdeeddd20cd2d91c91818f214660b2d98c5c88f7b64e629a4867d85262b46ad",
+      "pdf_magic": true
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/W04-潮新闻-2026-08-31.html",
+      "bytes": 49135,
+      "sha256": "ac5a1374315ee544f56e039c9e18ad6ff73e1b00eca7579b584e82b41d172232",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/W10-乡村景观营建与文化传承研究-书目页-MegBook.html",
+      "bytes": 8028,
+      "sha256": "2e9c57624eee4960bf02980b6d81a1a543f1722761f9fe409564025c2cc81a56",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/W07-北溪村村庄规划-2023-2035.pdf",
+      "bytes": 19961956,
+      "sha256": "8b559f4fd06954bcb4e4e1b4ed838bc2e484893225d0ac84b9172638b11c1b6d",
+      "pdf_magic": true
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/W08-景宁县省级传统村落集中连片试点-2024-02-05.html",
+      "bytes": 26392,
+      "sha256": "7308b9ac4e349dac228501d8d24da0e3c59bb079ea9e6cb07e6a158d5564b1df",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/pages/L22-page-092.png",
+      "bytes": 652567,
+      "sha256": "17dfa78b16d2188c6464b8bb50740306678cab3c7c22ebc6a22b1b98fcbd9b66",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/pages/L12-page-035.png",
+      "bytes": 163830,
+      "sha256": "73448507abc2be396e12bc479422a8e1a1a8e8b152c50b0dc2aaaef7cd874d9c",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/pages/W05-page-39.png",
+      "bytes": 2143533,
+      "sha256": "22f48a002b1b09b82389527acc7416b1c0cefc8b60ea18a6e9fc9a2a76db386f",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/pages/W05-page-38.png",
+      "bytes": 2092451,
+      "sha256": "fb852aa54af545092abef9aff88c913bba204c6433e92ae2303ad29d72f6e853",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/pages/L12-page-039.png",
+      "bytes": 336228,
+      "sha256": "4349c27537bed11d4d2bb3b307a12a3a3becf40f2b7c0fb5132f78973314b68b",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/pages/L12-page-067.png",
+      "bytes": 150646,
+      "sha256": "455a99e3fd50fb177a7533a2a38e8bbd7d7a894e47b24eea42ee3f5bcaff2a0e",
+      "pdf_magic": null
+    },
+    {
+      "path": "大张坑/sources/2026-10-22/pages/L14-page-048.png",
+      "bytes": 412083,
+      "sha256": "a92e4b0ee426f3c905c9bfa557b92c0e01c4abf76af0e3182ad69a2f66d3e250",
+      "pdf_magic": null
+    }
+  ]
+}

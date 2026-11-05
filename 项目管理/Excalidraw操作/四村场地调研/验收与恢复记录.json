@@ -1,0 +1,468 @@
+{
+  "targetPath": "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md",
+  "diskRevision": "disk:1dya-v0gn28-15jsp62",
+  "liveRevision": "oF9TQa8hQJZH9b3fDtiOmFFCYpXwpR01:4b90740b1acb12b2:3:1",
+  "elementCount": 174,
+  "textCount": 123,
+  "imageCount": 6,
+  "panels": [
+    {
+      "key": "dongnong",
+      "title": "01　东弄村",
+      "cardCount": 8
+    },
+    {
+      "key": "dazhangkeng",
+      "title": "02　大张坑村",
+      "cardCount": 8
+    },
+    {
+      "key": "chimushan",
+      "title": "03　敕木山村 ★",
+      "cardCount": 8
+    },
+    {
+      "key": "huishantou",
+      "title": "04　惠山头",
+      "cardCount": 4
+    }
+  ],
+  "expectedTexts": 115,
+  "allTextsPresent": true,
+  "originalIdAndTextRetained": true,
+  "liveAndDiskIdsMatch": true,
+  "cardContainmentAndNoOverlap": {
+    "passed": true,
+    "count": 28
+  },
+  "linkChecks": [
+    {
+      "path": "研究资料/来源证据/assets/she-web-2026-10-06/S04/S04-05.jpg",
+      "exists": true
+    },
+    {
+      "path": "研究资料/来源证据/assets/she-crops/BUUUUWRW-p065-fig44-ground.png",
+      "exists": true
+    },
+    {
+      "path": "文献库/吴钰-2022-新畲寮风格民居设计.md",
+      "exists": true
+    },
+    {
+      "path": "研究资料/对象候选/研究对象候选汇总-按村落.md",
+      "exists": true
+    },
+    {
+      "path": "研究资料/来源证据/2026-10-06-重点民居逐项调研与照片图册.md",
+      "exists": true
+    },
+    {
+      "path": "文献库/赵圣洁-2013-东弄村畲族民居初探.md",
+      "exists": true
+    },
+    {
+      "path": "文献库/柴一涵-2024-畲族传统村落公共文化空间重构.md",
+      "exists": true
+    },
+    {
+      "path": "文献库/朱凌-2012-县城建筑有机更新.md",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/大张坑/assets/web/S05-03.jpg",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/大张坑/sources/2026-10-22/pages/W05-page-38.png",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/大张坑/本轮资料提取表-2026-10-22.md",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/大张坑/assets/crops/L14-pdf072-fig523.png",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/大张坑/资料索引.md",
+      "exists": true
+    },
+    {
+      "path": "文献库/王文辉-2015-大张坑畲族民居及其保护更新.md",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/大张坑/sources/2026-10-22/W05-景宁革命遗址保护利用规划-2024-2030.pdf",
+      "exists": true
+    },
+    {
+      "path": "研究资料/来源证据/assets/she-web-2026-10-06/S01/S01-02.jpg",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/敕木山/images/图7-敕木山28号蓝姓寮卷草凤凰纹骨架.png",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/敕木山/本轮资料提取表-2026-10-22.md",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/敕木山/sources/2026-10-22/m008-2025-fulltext-extract-with-locators.txt",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/敕木山/资料索引.md",
+      "exists": true
+    },
+    {
+      "path": "研究资料/村落资料/敕木山/待核与缺口.md",
+      "exists": true
+    },
+    {
+      "path": "文献库/蓝法勤-2013-卷草凤凰纹装饰研究.md",
+      "exists": true
+    }
+  ],
+  "exported": {
+    "apiVersion": 1,
+    "session": "oF9TQa8hQJZH9b3fDtiOmFFCYpXwpR01",
+    "command": "export",
+    "requestId": "village-survey-final-export-20261102-2",
+    "status": "completed",
+    "ok": true,
+    "persistence": "saved",
+    "mutation": "applied",
+    "warnings": [],
+    "target": {
+      "vault": "Paper",
+      "path": "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md"
+    },
+    "revision": "disk:1dya-v0gn28-15jsp62",
+    "data": {
+      "path": "研究资料/对象候选/场地调研 2026-11-02 14.17.09.png",
+      "format": "png",
+      "bytes": 3008993,
+      "width": 2800,
+      "height": 3244,
+      "source": "disk",
+      "theme": "light",
+      "revision": "disk:1dya-v0gn28-15jsp62",
+      "effectiveScale": 0.7959067652075043,
+      "imageSummary": {
+        "original": 6,
+        "thumbnail": 0,
+        "placeholder": 0
+      },
+      "imageDecisions": {
+        "items": [
+          {
+            "elementId": "mT9DWxAG",
+            "fileId": "47f9789772d25b45bc3f44023ff469f15d206097",
+            "mode": "original",
+            "reason": "default",
+            "label": "Image mT9DWxAG",
+            "bytes": null,
+            "mimeType": null
+          },
+          {
+            "elementId": "5p3babCd",
+            "fileId": "7ede2344004ab9bd804fb19b6be2e45d6ef0f7d7",
+            "mode": "original",
+            "reason": "default",
+            "label": "Image 5p3babCd",
+            "bytes": null,
+            "mimeType": null
+          },
+          {
+            "elementId": "rUnVDLGA",
+            "fileId": "d5d3c6ec52cabf00a06a8d1e43963b00abd95587",
+            "mode": "original",
+            "reason": "default",
+            "label": "Image rUnVDLGA",
+            "bytes": null,
+            "mimeType": null
+          },
+          {
+            "elementId": "MF96aJax",
+            "fileId": "5f0131da2a063288f13a390b2fe105b784f4ac11",
+            "mode": "original",
+            "reason": "default",
+            "label": "Image MF96aJax",
+            "bytes": null,
+            "mimeType": null
+          },
+          {
+            "elementId": "RQWuyl7c",
+            "fileId": "36f3d05b880fd7551ca8a2f8e867affab585ca5d",
+            "mode": "original",
+            "reason": "default",
+            "label": "Image RQWuyl7c",
+            "bytes": null,
+            "mimeType": null
+          },
+          {
+            "elementId": "pAe6Chg6",
+            "fileId": "680a61c95b1ce83ce6e9bf4b6053a1c61e051319",
+            "mode": "original",
+            "reason": "default",
+            "label": "Image pAe6Chg6",
+            "bytes": null,
+            "mimeType": null
+          }
+        ],
+        "total": 6
+      },
+      "representationId": "preview:xw-1pus1uc-rurek8",
+      "sceneToPreview": {
+        "sceneBounds": {
+          "x": 26,
+          "y": 16,
+          "width": 3518,
+          "height": 4076.099999999999
+        },
+        "output": {
+          "width": 2800,
+          "height": 3244
+        }
+      }
+    }
+  },
+  "publication": {
+    "path": "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md",
+    "sha256": "9f440d2a7dbd176d50e34ac085069b68f4fd9eaedec278d1583435e0336da67b",
+    "size_bytes": 72354,
+    "created": false,
+    "backup": {
+      "created_at_utc": "2026-11-02T07:16:41Z",
+      "original_path": "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md",
+      "canonical_path": "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md",
+      "backup_path": ".hermes-academic-backups/20261102T071641Z_b6c3cb0cebdd40929b2856dbf88fa2f1.bak",
+      "original_sha256": "f3bf14f62be603999f57be675b1ff523bce00ecefd456d2c69d5b4359a487b43",
+      "original_size_bytes": 2722,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "9f440d2a7dbd176d50e34ac085069b68f4fd9eaedec278d1583435e0336da67b",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    "permissions_mode_octal": "0644",
+    "readback_verified": true
+  },
+  "visualCheck": "Final PNG is byte-identical to inspected layout-v2 overview; all four panel crops visually inspected, citations and body separated. Native GUI opened exact target; viewport fit requested.",
+  "finalPngEqualsVisuallyCheckedStage": true,
+  "finalPngSha256": "5e89f8f9fb2b1741e6082576a64a4c0fca0c88e76e004f2128ec295ed0c67817",
+  "finalHashStableAfterGuiOpenAndZoom": true,
+  "reviewedTextSnapshotSha256": "63c3c033d3056dffb6b2c0baffc09f71c2d27fb529f65664e47426ef7879956f",
+  "searchEvidence": [
+    {
+      "query": "惠山头",
+      "command": [
+        "obsidian",
+        "vault=Paper",
+        "search",
+        "query=惠山头",
+        "format=json"
+      ],
+      "results": [
+        "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md"
+      ],
+      "scope": "Obsidian indexed Markdown in Paper"
+    },
+    {
+      "query": "惠山",
+      "command": [
+        "obsidian",
+        "vault=Paper",
+        "search",
+        "query=惠山",
+        "format=json"
+      ],
+      "results": [
+        "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md"
+      ],
+      "scope": "Obsidian indexed Markdown in Paper"
+    },
+    {
+      "query": "山头",
+      "command": [
+        "obsidian",
+        "vault=Paper",
+        "search",
+        "query=山头",
+        "format=json"
+      ],
+      "results": [
+        "研究资料/村落资料/大张坑/本轮资料提取表-2026-10-22.md",
+        "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md"
+      ],
+      "scope": "Obsidian indexed Markdown in Paper"
+    }
+  ],
+  "review": {
+    "decision": "revise",
+    "findings": [
+      {
+        "severity": "medium",
+        "panel": "惠山头｜已有数据",
+        "claim": "“本轮所读候选底稿、两村分村索引及库内Markdown检索中，尚未定位‘惠山头’专属案例档案”，并标注检索词及2026-11-02日期。",
+        "evidence": "board-data.json第97行宣称已经完成库内Markdown检索，但指定冻结快照未提供该检索的范围、结果或记录。candidate.md、chimu_index.md、dazhang_index.md只能支持这些具体材料未提供惠山头专属案例，不能据此核实库内检索已经实施及其结论。",
+        "fix": "将表述限定为“本轮提供的冻结快照中，尚未定位‘惠山头’专属案例档案”，删除无配套记录的库内检索声明、检索词及检索日期；继续保留“不证明对象或资料不存在”的限制。"
+      }
+    ],
+    "coverage": [
+      "东弄",
+      "大张坑",
+      "敕木山",
+      "惠山头"
+    ],
+    "limits": "仅以指定冻结快照审核board-data.json文字，新提取表优先于旧候选底稿；paper0.json、paper2.json仅读取到阅读卡前段，未作为全文核验依据。未发现其他有充分快照依据的实质错误：东弄已承认赵圣洁自身的34／9／9幢质量调查，未将两份质量表认定为两套独立52栋；大张坑已保留自然村口径、面积冲突及资料单位边界；敕木山已采用原刊取得后的新证据，文字标题及副标题保留星标，未据星标认定正式样本。未修改文件，未访问Paper、其他项目或网络，未调用terminal或子代理；未打开图片或实际看板，不评价像素、视觉突出程度、链接可达性或现场现状。",
+    "mainSessionResolution": "唯一问题为检索证据未包含在子代理输入。现已重新执行并保存search-evidence.json，主会话确认结论范围。候选文字未更改；独立审核未覆盖该新增附件。",
+    "reviewedBoardSha256": "63c3c033d3056dffb6b2c0baffc09f71c2d27fb529f65664e47426ef7879956f",
+    "requestedModel": "gpt-6.1-sol",
+    "requestedReasoningEffort": "medium"
+  },
+  "sourceSnapshots": [
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/candidate.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/candidate.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "研究资料/对象候选/研究对象候选汇总-按村落.md",
+      "sha256": "bf4c970c23c56d9f8b0e065c1a731b9a29d2a8a7ddf1e04945430c3b210e7ef6",
+      "size_bytes": 75412,
+      "source_modified_at_utc": "2026-10-29T04:26:54Z",
+      "downloaded_at_utc": "2026-11-02T06:50:07Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/candidate.md"
+    },
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/chimu_extract.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/chimu_extract.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "研究资料/村落资料/敕木山/本轮资料提取表-2026-10-22.md",
+      "sha256": "323824b87da6d929a8035b9c1ea97baddd722af14a5c3882242a06f43fb0af5e",
+      "size_bytes": 10763,
+      "source_modified_at_utc": "2026-10-22T07:29:38Z",
+      "downloaded_at_utc": "2026-11-02T06:50:08Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/chimu_extract.md"
+    },
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/dazhang_extract.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/dazhang_extract.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "研究资料/村落资料/大张坑/本轮资料提取表-2026-10-22.md",
+      "sha256": "b7d9fdaabe1c6121dbb0fb3aff92667b782a4294449af25b1c0ba030c20efa33",
+      "size_bytes": 17581,
+      "source_modified_at_utc": "2026-10-28T05:43:39Z",
+      "downloaded_at_utc": "2026-11-02T06:50:08Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/dazhang_extract.md"
+    },
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/chimu_index.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/chimu_index.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "研究资料/村落资料/敕木山/资料索引.md",
+      "sha256": "ffb3c7a5b3fa4977882456c74b363a876665fa28afdbe5c4948d1b09020e94ee",
+      "size_bytes": 56218,
+      "source_modified_at_utc": "2026-10-28T04:29:38Z",
+      "downloaded_at_utc": "2026-11-02T06:50:08Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/chimu_index.md"
+    },
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/dazhang_index.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/dazhang_index.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "研究资料/村落资料/大张坑/资料索引.md",
+      "sha256": "800bb0d5fc4168ad7c96731ef2a143bc8af0994171f132ca2773060b0e6e512b",
+      "size_bytes": 65396,
+      "source_modified_at_utc": "2026-10-28T05:43:39Z",
+      "downloaded_at_utc": "2026-11-02T06:50:08Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/dazhang_index.md"
+    },
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/dongnong_card.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/dongnong_card.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "文献库/赵圣洁-2013-东弄村畲族民居初探.md",
+      "sha256": "27b1b9e7fc4197c24130dad3bde56e8a417f6e53c9ce368beef3e562f306a8b3",
+      "size_bytes": 20330,
+      "source_modified_at_utc": "2026-10-28T04:29:43Z",
+      "downloaded_at_utc": "2026-11-02T06:50:08Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/dongnong_card.md"
+    },
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/status_evidence.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/status_evidence.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "研究资料/来源证据/2026-10-06-景宁畲族建筑遗存文献现状列表.md",
+      "sha256": "4931c4e6d03949e3517b16243e23075ac04c71a0bb6ff58b4fc74d0d7b5d878a",
+      "size_bytes": 94087,
+      "source_modified_at_utc": "2026-10-28T05:43:41Z",
+      "downloaded_at_utc": "2026-11-02T06:50:08Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/status_evidence.md"
+    },
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/web_photos.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/web_photos.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "研究资料/来源证据/2026-10-06-重点民居逐项调研与照片图册.md",
+      "sha256": "1d69488c9cfa7145326f8d8952ec90839bf22016879d41a311c81993750b0a75",
+      "size_bytes": 19817,
+      "source_modified_at_utc": "2026-10-28T05:43:42Z",
+      "downloaded_at_utc": "2026-11-02T06:50:08Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/web_photos.md"
+    },
+    {
+      "local_path": "/tmp/village-survey-layout.7bTYOK/target_original.md",
+      "provenance_path": "/tmp/village-survey-layout.7bTYOK/target_original.md.provenance.json",
+      "artifact_role": "transferred_copy",
+      "source_of_truth": "local:/Users/wangyuelin/Desktop/Obsidian/Paper",
+      "source_path": "研究资料/对象候选/场地调研 2026-11-02 14.17.09.excalidraw.md",
+      "sha256": "f3bf14f62be603999f57be675b1ff523bce00ecefd456d2c69d5b4359a487b43",
+      "size_bytes": 2722,
+      "source_modified_at_utc": "2026-11-02T06:45:50Z",
+      "downloaded_at_utc": "2026-11-02T06:50:08Z",
+      "local_copy_path": "/tmp/village-survey-layout.7bTYOK/target_original.md"
+    },
+    {
+      "path": "文献库/吴钰-2022-新畲寮风格民居设计.md",
+      "sha256": "6858d530c955f56abe6d3c52b206157b9ae56b6c7b6bfb5bc382035138a596b7",
+      "size_bytes": 15486,
+      "text": "omitted; authoritative source retained in Paper"
+    },
+    {
+      "path": "文献库/朱凌-2012-县城建筑有机更新.md",
+      "sha256": "07106da8767ae5af69e02ada775732d75d85b980c2d0bb64422338c3470c637d",
+      "size_bytes": 20570,
+      "text": "omitted; authoritative source retained in Paper"
+    },
+    {
+      "path": "文献库/柴一涵-2024-畲族传统村落公共文化空间重构.md",
+      "sha256": "bc8ebeb00bb88716d0252afede8c82e96500c75d81ae431e46ae60f00cf018dc",
+      "size_bytes": 20450,
+      "text": "omitted; authoritative source retained in Paper"
+    },
+    {
+      "path": "文献库/王文辉-2015-大张坑畲族民居及其保护更新.md",
+      "sha256": "4cf1735a0d3e66db2fa9a2af49e4fe92dff8bf0a5998d31b38fa78e8f88bea8f",
+      "size_bytes": 16660,
+      "text": "omitted; authoritative source retained in Paper"
+    },
+    {
+      "path": "文献库/蓝法勤-2013-卷草凤凰纹装饰研究.md",
+      "sha256": "50b7aade46361a775666c97f315e777b2d696a4e878b81d4b8a7b98059b4f84a",
+      "size_bytes": 15796,
+      "text": "omitted; authoritative source retained in Paper"
+    }
+  ],
+  "originalBackupBytesVerified": true,
+  "taskCreatedCandidatesTrashed": true,
+  "nativeGuiVisuallyConfirmed": true,
+  "nativeGuiViewport": "Full four-panel canvas fitted at 23%; exact original target title confirmed"
+}

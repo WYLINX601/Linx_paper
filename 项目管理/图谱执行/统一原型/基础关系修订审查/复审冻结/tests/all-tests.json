@@ -1,0 +1,58 @@
+[
+  {
+    "suite": "D04",
+    "tests": 30,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true
+  },
+  {
+    "suite": "D05",
+    "tests": 25,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true
+  },
+  {
+    "suite": "unified",
+    "tests": 50,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "success": true
+  },
+  {
+    "suite": "extensions",
+    "tests": 36,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 1,
+    "success": true
+  },
+  {
+    "suite": "review-fixes",
+    "tests": 11,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true
+  },
+  {
+    "suite": "basic-relations",
+    "tests": 52,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true
+  },
+  {
+    "suite": "legacy",
+    "tests": 10,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "success": true
+  }
+]

@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (n:V01)-[r:HAS_SOURCE]->(src) WHERE n.uid IN $externalUids AND n.useState='known' AND all(f IN ['useState','useValues','useScope'] WHERE f IN r.fields) AND r.sourceVersion=src.sourceVersion UNWIND n.useValues AS use RETURN use,collect(DISTINCT n.uid) AS spaceUids,count(DISTINCT n.uid) AS spaceCount ORDER BY use",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"spaceCount\": 1,\n    \"spaceUids\": [\n      \"V01:S04\"\n    ],\n    \"use\": \"交通与停留\"\n  },\n  {\n    \"spaceCount\": 1,\n    \"spaceUids\": [\n      \"V01:S06\"\n    ],\n    \"use\": \"出入参照\"\n  },\n  {\n    \"spaceCount\": 1,\n    \"spaceUids\": [\n      \"V01:S05\"\n    ],\n    \"use\": \"户外生活\"\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:13:51.769344+08:00"
+}

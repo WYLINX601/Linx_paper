@@ -1,0 +1,101 @@
+[
+  {
+    "name": "reverse_actual_LPG",
+    "outcome": "accepted",
+    "objectCoverageCount": 56,
+    "semanticCompleteness": "not-proved",
+    "agreesWithCandidateBasicRelations": true
+  },
+  {
+    "name": "missing_actual_boundaryBasis",
+    "outcome": "rejected",
+    "error": "ValueError: Missing actual basic-relation field S04"
+  },
+  {
+    "name": "changed_actual_local_cache",
+    "outcome": "rejected",
+    "error": "ValueError: Local boundary cache differs from actual geometry"
+  },
+  {
+    "name": "missing_actual_column_geometry",
+    "outcome": "rejected",
+    "error": "ValueError: Missing actual geometry C01"
+  },
+  {
+    "name": "changed_actual_column_radius",
+    "outcome": "rejected",
+    "error": "ValueError: Boundary cache differs from source geometry"
+  },
+  {
+    "name": "missing_actual_member_type",
+    "outcome": "rejected",
+    "error": "ValueError: Missing/ambiguous member organisation C01"
+  },
+  {
+    "name": "missing_actual_C01_source_fields",
+    "outcome": "accepted",
+    "objectCoverageCount": 56,
+    "semanticCompleteness": "not-proved",
+    "agreesWithCandidateBasicRelations": true
+  },
+  {
+    "name": "missing_actual_EV01_source_version",
+    "outcome": "rejected",
+    "error": "ValueError: Unsupported extension field B01.analysisItems"
+  },
+  {
+    "name": "changed_actual_EV01_source_version",
+    "outcome": "rejected",
+    "error": "ValueError: Unsupported extension field B01.analysisItems"
+  },
+  {
+    "name": "missing_actual_boundary_assertionSourceUid",
+    "outcome": "accepted",
+    "objectCoverageCount": 56,
+    "semanticCompleteness": "not-proved",
+    "agreesWithCandidateBasicRelations": true
+  },
+  {
+    "name": "changed_actual_boundary_assertionSourceUid",
+    "outcome": "accepted",
+    "objectCoverageCount": 56,
+    "semanticCompleteness": "not-proved",
+    "agreesWithCandidateBasicRelations": true
+  },
+  {
+    "name": "missing_actual_boundary_participantRole",
+    "outcome": "rejected",
+    "error": "KeyError: 'participantRole'"
+  },
+  {
+    "name": "wrong_actual_old_member_target",
+    "outcome": "accepted",
+    "objectCoverageCount": 56,
+    "semanticCompleteness": "not-proved",
+    "agreesWithCandidateBasicRelations": false
+  },
+  {
+    "name": "wrong_actual_interface_roles",
+    "outcome": "accepted",
+    "objectCoverageCount": 56,
+    "semanticCompleteness": "not-proved",
+    "agreesWithCandidateBasicRelations": true
+  },
+  {
+    "name": "missing_actual_I04_clearance_warning",
+    "outcome": "accepted",
+    "objectCoverageCount": 56,
+    "semanticCompleteness": "not-proved",
+    "agreesWithCandidateBasicRelations": true
+  },
+  {
+    "name": "canonical_duplicate_I01_side_a_passes_validate_model",
+    "outcome": "accepted",
+    "result": true
+  },
+  {
+    "name": "canonical_member_target_source_passes_validate_model",
+    "outcome": "accepted",
+    "result": true
+  }
+]

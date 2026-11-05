@@ -1,0 +1,17 @@
+{
+  "query": "EXPLAIN MATCH (s:V01 {uid:'V01:ST01'})-[r:STREET_BOUNDARY_PARTICIPANT]->(p:V01) RETURN s.uid AS street,s.geometryJson AS geometry,p.uid AS participant,r.side AS side,r.role AS role,r.segmentsJson AS segments,r.geometryVersion AS version ORDER BY side",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-11-02T20:01:39.843424+08:00"
+}

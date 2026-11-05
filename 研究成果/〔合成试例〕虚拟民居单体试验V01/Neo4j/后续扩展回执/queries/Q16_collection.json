@@ -1,0 +1,17 @@
+{
+  "query": "MATCH (c:V01 {uid:'V01:CG01'})-[r:HAS_ANALYSIS_MEMBER]->(b:V01) OPTIONAL MATCH (u:V01)-[:BOT_HAS_BUILDING]->(b) RETURN c.uid AS collection,labels(c) AS collectionLabels,b.uid AS building,r.ordinal AS ordinal,r.role AS role,collect(u.uid) AS dwellingOwners,b.footprintXY AS footprint,b.groundZM AS groundZM,b.eaveZM AS eaveZM,b.ridgeZM AS ridgeZM ORDER BY ordinal",
+  "raw": {
+    "meta": null,
+    "content": [
+      {
+        "type": "text",
+        "text": "[\n  {\n    \"building\": \"V01:B01\",\n    \"collection\": \"V01:CG01\",\n    \"collectionLabels\": [\n      \"KGItem\",\n      \"Entity\",\n      \"Demo\",\n      \"V01\",\n      \"AnalysisCollection\"\n    ],\n    \"dwellingOwners\": [\n      \"V01:U01\"\n    ],\n    \"eaveZM\": 3.2666666666666666,\n    \"footprint\": [\n      0,\n      0,\n      9.6,\n      0,\n      9.6,\n      7.2,\n      0,\n      7.2\n    ],\n    \"groundZM\": 0,\n    \"ordinal\": 1,\n    \"ridgeZM\": 5.6,\n    \"role\": \"same-U01-main\"\n  },\n  {\n    \"building\": \"V01:B02\",\n    \"collection\": \"V01:CG01\",\n    \"collectionLabels\": [\n      \"KGItem\",\n      \"Entity\",\n      \"Demo\",\n      \"V01\",\n      \"AnalysisCollection\"\n    ],\n    \"dwellingOwners\": [\n      \"V01:U01\"\n    ],\n    \"eaveZM\": 7,\n    \"footprint\": [\n      10,\n      -6,\n      14,\n      -6,\n      14,\n      0,\n      10,\n      0\n    ],\n    \"groundZM\": 3,\n    \"ordinal\": 2,\n    \"ridgeZM\": 8,\n    \"role\": \"same-U01-annex\"\n  },\n  {\n    \"building\": \"V01:B03\",\n    \"collection\": \"V01:CG01\",\n    \"collectionLabels\": [\n      \"KGItem\",\n      \"Entity\",\n      \"Demo\",\n      \"V01\",\n      \"AnalysisCollection\"\n    ],\n    \"dwellingOwners\": [],\n    \"eaveZM\": 3,\n    \"footprint\": [\n      0,\n      -12,\n      9.6,\n      -12,\n      9.6,\n      -8.8,\n      0,\n      -8.8\n    ],\n    \"groundZM\": 0,\n    \"ordinal\": 3,\n    \"ridgeZM\": 4.8,\n    \"role\": \"neighbor-dwelling\"\n  }\n]",
+        "annotations": null,
+        "meta": null
+      }
+    ],
+    "structuredContent": null,
+    "isError": false
+  },
+  "at": "2026-10-31T07:50:24.978058+08:00"
+}

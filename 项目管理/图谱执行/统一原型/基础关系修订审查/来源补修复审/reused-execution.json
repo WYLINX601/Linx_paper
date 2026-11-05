@@ -1,0 +1,12 @@
+{
+  "command": [
+    "/Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python",
+    "-B",
+    "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/prototype-fix-iwt59djh/review3-output/reused_previous_independent_review.py"
+  ],
+  "exitCode": 0,
+  "sourceSHA256": "f665c9ad4206e79027377e35a21306a90be03d8564d1e76611a4de1e397c1bed",
+  "executedSHA256": "5cb7e19eaee4151afe4bad274f80588c19119455004a88bbff96ed03faff9896",
+  "onlyFIXandOUTChanged": true,
+  "attribution": "复用上一轮独立脚本；非本轮新编独立证明；未运行随附test_semantics.py"
+}

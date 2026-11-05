@@ -1,0 +1,81 @@
+{
+  "source_json_sha256": "87e53a5312b1e1dc2d7ce9aac0f135c8b5bb08e6917ea0655312aa1856b160c3",
+  "native_disk_revision": "disk:52ju-psb5eb-utthn",
+  "native_elements": 604,
+  "native_images": 45,
+  "material_cards_expected": 237,
+  "missing_material_ids": [],
+  "missing_object_ids": [],
+  "missing_local_images": [],
+  "checks": "磁盘原生解析；所有材料ID与对象ID出现；本地图片引用存在。不是实证核验。",
+  "status": "首轮材料拆解与文件验收完成；对象同一性/真实建模未完成",
+  "verified_files": [
+    {
+      "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/拆解主源.json",
+      "sha256": "87e53a5312b1e1dc2d7ce9aac0f135c8b5bb08e6917ea0655312aa1856b160c3",
+      "size_bytes": 234361
+    },
+    {
+      "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/拆解主表.md",
+      "sha256": "a27a22f56da1231c1c61f44387e42544624e6faa175c1ad299a15eeffc7f3abb",
+      "size_bytes": 102097
+    },
+    {
+      "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/README.md",
+      "sha256": "c02c3a236d65d496e1ed3dde42d026fb082ba72afa261ffeeedbeae93ba7dbcb",
+      "size_bytes": 2017
+    },
+    {
+      "path": "研究成果/〔案例拆解〕敕木山村资料与对象拆解/素材与对象审核图.excalidraw.md",
+      "sha256": "5c63fda8ef984b4b11d8817afc1d6b494fc752443f608a0923d10db3124de5f1",
+      "size_bytes": 289265
+    }
+  ],
+  "native_content_overlaps": [],
+  "generator_repeat_identical": true,
+  "broken_new_active_markdown_links": [],
+  "visual_checks": [
+    "原生导出总览，卡片无明显重叠截断",
+    "2025材料区前部，文字与原刊裁切图无明显覆盖",
+    "旧材料区前部，条目与图片对应",
+    "完整图缩览检查区域完整，不替代逐字核图",
+    "Markdown实际浏览器渲染11表232行，无横向溢出，查看对象表与首篇证据表"
+  ],
+  "visual_limits": "完整图为大型纵向源图，需放大/搜索材料ID；仅45幅图像嵌入，其他图表按原页定位编目并可跳转Zotero。未宣称全部图像精读、原图全量嵌入或实际Obsidian桌面截图验收。",
+  "independent_review": {
+    "frozen_input_sha256": "669babb8ac2a546cb75dc5c272614dba23cd2176ad771c6830903c0b41559cba",
+    "independent_coverage": "独立审核四篇：2025张云都铭、2012何孝辉、2015钟梦迪、2013蓝法勤；核文字全文与指定原页。",
+    "accepted_corrections": [
+      "三类纹样定位补PDF2—3",
+      "补4座保护集合",
+      "补寨墙与台地古道关系",
+      "补前后院用途及借地形围合",
+      "补地方梁/寮塞称谓",
+      "补同工匠跨宅比较"
+    ],
+    "after_review": "上述修改、五篇补充和植物定向候选由主会话核对；不称最终全部数据已独立复核。",
+    "delegation_boundary": "文化/区域子任务已读材料并核图，但未交候选文件；主会话完成这五篇整理。植物子任务交付定向候选，四篇独立审核另有完整结果。"
+  },
+  "web_bibliography_check": "本次未新增在线目录核查；书目信息以本轮读取的Zotero题录和已存原件/资料为限。",
+  "village_entry_update": {
+    "path": "研究资料/村落资料/敕木山/README.md",
+    "sha256": "655c877ebd68cadb1fe84ec58eb0836d4c01e2544410397aece163fa627bfeb7",
+    "size_bytes": 4707,
+    "created": false,
+    "backup": {
+      "created_at_utc": "2026-11-02T08:43:45Z",
+      "original_path": "研究资料/村落资料/敕木山/README.md",
+      "canonical_path": "研究资料/村落资料/敕木山/README.md",
+      "backup_path": ".hermes-academic-backups/20261102T084345Z_ee181f5adebe43c9af810676d81af53f.bak",
+      "original_sha256": "6d850e1e40ce92c0688a0a75a9d20067a6a8a52d3581714cc4b0e348fdd9b917",
+      "original_size_bytes": 3762,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "655c877ebd68cadb1fe84ec58eb0836d4c01e2544410397aece163fa627bfeb7",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    "permissions_mode_octal": "0644",
+    "readback_verified": true
+  },
+  "no_database_write": true,
+  "no_zotero_write": true
+}

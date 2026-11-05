@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "status": "working-path-not-execution-results",
+  "positioning_source": "context/PROJECT_CONTEXT.md",
+  "scope": "已确认的理论—体系—景宁图谱—风貌分析研究主线及反馈；不是已完成流程。合成试建保留为正文外的过程支线，不作为论文成果或真实应用证据",
+  "nodes": [
+    {
+      "id": "scope",
+      "title": "界定问题、对象与范围",
+      "topics": [
+        "研究对象与样本边界",
+        "畲族民居研究现状与研究缺口"
+      ],
+      "status": "对象类型已确认；纳入标准与样本仍待落实"
+    },
+    {
+      "id": "concept",
+      "title": "界定传统民居风貌及研究内涵",
+      "topics": [
+        "畲族民居研究现状与研究缺口",
+        "研究对象与样本边界"
+      ],
+      "status": "已有概念与文献对照；工作定义及近义概念辨析待综合"
+    },
+    {
+      "id": "analysis-foundations",
+      "title": "比较风貌分析理论与方法并论证采用",
+      "topics": [
+        "畲族民居研究现状与研究缺口",
+        "类型识别与语义关系表达"
+      ],
+      "status": "已有应用论文与类型拆解；理论原典、统一比较及取舍待补"
+    },
+    {
+      "id": "kg-foundations",
+      "title": "明确知识图谱概念与建模基础",
+      "topics": [
+        "多尺度语义模型与建模依据"
+      ],
+      "status": "已有方法比较与双基准；基础概念及表示层次待综合"
+    },
+    {
+      "id": "theory",
+      "title": "论证理论与技术结合，形成研究框架",
+      "topics": [
+        "畲族民居研究现状与研究缺口",
+        "类型识别与语义关系表达",
+        "多尺度语义模型与建模依据"
+      ],
+      "status": "四问题中的结合任务；已有局部衔接，完整理论链与技术支撑、适用条件待论证"
+    },
+    {
+      "id": "evidence",
+      "title": "核查资料、身份与质量",
+      "topics": [
+        "研究对象与样本边界",
+        "三维资料质量与空间区域关联"
+      ],
+      "status": "已有资料索引；现状与三维可用性待核验"
+    },
+    {
+      "id": "features",
+      "title": "构建多尺度特征分类与记录体系",
+      "topics": [
+        "风貌特征筛选与数据记录"
+      ],
+      "status": "D03—D05主要记录／分析范围已确认，D01及D02外部部分按各自主源；局部类型接口与规则候选待试采。D02内部构架暂停，D07暂缓，D08本阶段不纳入"
+    },
+    {
+      "id": "semantics",
+      "title": "构建知识图谱模型与跨尺度关系",
+      "topics": [
+        "多尺度语义模型与建模依据",
+        "类型识别与语义关系表达"
+      ],
+      "status": "已有依据与原型；条目状态分别核对"
+    },
+    {
+      "id": "spatial",
+      "title": "建立三维区域关联方法",
+      "topics": [
+        "三维资料质量与空间区域关联"
+      ],
+      "status": "研究目标；资料与判据待落实"
+    },
+    {
+      "id": "trial",
+      "title": "过程支线：合成试建（不进入正文）",
+      "topics": [
+        "合成试建与规则检验"
+      ],
+      "status": "V01、D01、D03V01保持合成身份；D03六项外部表达完成技术检验，首例已通过、新增细节待审；真实适用性未验证，不入正文或默认附录"
+    },
+    {
+      "id": "case",
+      "title": "构建景宁畲族民居实例图谱",
+      "topics": [
+        "研究对象与样本边界",
+        "风貌特征筛选与数据记录",
+        "多尺度语义模型与建模依据",
+        "三维资料质量与空间区域关联"
+      ],
+      "status": "第四章计划成果；需真实样本、记录、实例化及质量校核；区域关联单独核查，不由三维资料不足推定所有实例事实均不可构建"
+    },
+    {
+      "id": "case-spatial",
+      "title": "在可核验资料范围内完成实例区域关联",
+      "topics": [
+        "三维资料质量与空间区域关联",
+        "多尺度语义模型与建模依据"
+      ],
+      "status": "仍为研究目标；需真实对象、几何及对应核查，未覆盖部分标为未实施或受限，不作为全部图谱分析的前提"
+    },
+    {
+      "id": "evaluation",
+      "title": "分析风貌特征并形成建筑学认识",
+      "topics": [
+        "案例查询风貌比较与有效性",
+        "类型识别与语义关系表达",
+        "三维资料质量与空间区域关联"
+      ],
+      "status": "D06综合产出范围已确认；由可比记录与局部类型形成组合、变体、现状空间差异及证据化建筑学解释。具体判据与真实样本未验证；时期演变和人的感知不在本阶段"
+    }
+  ],
+  "edges": [
+    {
+      "from": "scope",
+      "to": "evidence",
+      "kind": "dependency",
+      "label": "限定采证范围"
+    },
+    {
+      "from": "scope",
+      "to": "features",
+      "kind": "dependency",
+      "label": "限定信息用途"
+    },
+    {
+      "from": "evidence",
+      "to": "features",
+      "kind": "dependency",
+      "label": "约束可采性"
+    },
+    {
+      "from": "features",
+      "to": "semantics",
+      "kind": "dependency",
+      "label": "提供表达需求"
+    },
+    {
+      "from": "evidence",
+      "to": "spatial",
+      "kind": "dependency",
+      "label": "核验几何前提"
+    },
+    {
+      "from": "semantics",
+      "to": "spatial",
+      "kind": "dependency",
+      "label": "明确关联对象"
+    },
+    {
+      "from": "semantics",
+      "to": "trial",
+      "kind": "dependency",
+      "label": "过程检查，不列为论文章节"
+    },
+    {
+      "from": "trial",
+      "to": "semantics",
+      "kind": "feedback",
+      "label": "反例与纠偏"
+    },
+    {
+      "from": "spatial",
+      "to": "case-spatial",
+      "kind": "dependency",
+      "label": "区域关联子任务的方法前提"
+    },
+    {
+      "from": "evidence",
+      "to": "case",
+      "kind": "dependency",
+      "label": "正式样本与可用资料"
+    },
+    {
+      "from": "case",
+      "to": "evaluation",
+      "kind": "dependency",
+      "label": "提供可比实例记录、局部类型归类依据及原始证据"
+    },
+    {
+      "from": "evaluation",
+      "to": "features",
+      "kind": "feedback",
+      "label": "以变体与反例反馈修订字段及类型规则"
+    },
+    {
+      "from": "evaluation",
+      "to": "spatial",
+      "kind": "feedback",
+      "label": "修订关联方法"
+    },
+    {
+      "from": "evidence",
+      "to": "scope",
+      "kind": "feedback",
+      "label": "据资料调整边界"
+    },
+    {
+      "from": "theory",
+      "to": "features",
+      "kind": "dependency",
+      "label": "提供尺度与分类依据"
+    },
+    {
+      "from": "theory",
+      "to": "semantics",
+      "kind": "dependency",
+      "label": "提供知识组织依据"
+    },
+    {
+      "from": "semantics",
+      "to": "case",
+      "kind": "dependency",
+      "label": "共用模型与实例化规则"
+    },
+    {
+      "from": "case",
+      "to": "semantics",
+      "kind": "feedback",
+      "label": "真实资料中的适配与纠偏"
+    },
+    {
+      "from": "case",
+      "to": "case-spatial",
+      "kind": "dependency",
+      "label": "提供需关联的真实对象"
+    },
+    {
+      "from": "evidence",
+      "to": "case-spatial",
+      "kind": "dependency",
+      "label": "可核验的覆盖、坐标及几何前提"
+    },
+    {
+      "from": "case-spatial",
+      "to": "evaluation",
+      "kind": "dependency",
+      "label": "仅为依赖三维关联的分析任务提供证据"
+    },
+    {
+      "from": "scope",
+      "to": "concept",
+      "kind": "dependency",
+      "label": "明确概念与范围问题"
+    },
+    {
+      "from": "concept",
+      "to": "analysis-foundations",
+      "kind": "dependency",
+      "label": "确定分析对象与问题"
+    },
+    {
+      "from": "scope",
+      "to": "kg-foundations",
+      "kind": "dependency",
+      "label": "明确知识组织需求"
+    },
+    {
+      "from": "analysis-foundations",
+      "to": "theory",
+      "kind": "dependency",
+      "label": "提供分析观点与采用理由"
+    },
+    {
+      "from": "kg-foundations",
+      "to": "theory",
+      "kind": "dependency",
+      "label": "提供表示与建模依据"
+    },
+    {
+      "from": "evidence",
+      "to": "theory",
+      "kind": "feedback",
+      "label": "以资料条件约束结合范围"
+    },
+    {
+      "from": "theory",
+      "to": "spatial",
+      "kind": "dependency",
+      "label": "明确关联用途与技术条件"
+    },
+    {
+      "from": "theory",
+      "to": "evaluation",
+      "kind": "dependency",
+      "label": "限定分析问题和解释边界"
+    }
+  ]
+}

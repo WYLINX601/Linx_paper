@@ -1,0 +1,58 @@
+{
+  "capturedAtUtc": "2026-10-28T08:48:33.534722+00:00",
+  "transport": "configured academic neo4j-paper SSH-backed MCP",
+  "version": [
+    {
+      "edition": "community",
+      "name": "Neo4j Kernel",
+      "versions": [
+        "5.26.32"
+      ]
+    }
+  ],
+  "constraints": [
+    {
+      "labelsOrTypes": [
+        "KGItem"
+      ],
+      "name": "kgitem_uid_unique",
+      "properties": [
+        "uid"
+      ],
+      "type": "UNIQUENESS"
+    }
+  ],
+  "indexes": [
+    {
+      "labelsOrTypes": null,
+      "name": "index_343aff4e",
+      "properties": null,
+      "state": "ONLINE",
+      "type": "LOOKUP"
+    },
+    {
+      "labelsOrTypes": null,
+      "name": "index_f7700477",
+      "properties": null,
+      "state": "ONLINE",
+      "type": "LOOKUP"
+    },
+    {
+      "labelsOrTypes": [
+        "KGItem"
+      ],
+      "name": "kgitem_uid_unique",
+      "properties": [
+        "uid"
+      ],
+      "state": "ONLINE",
+      "type": "RANGE"
+    }
+  ],
+  "fingerprint": "3b211af59b32a29f7d10f282f303ef9ed271e18a964fd0b44f41617a6687f11a",
+  "nodeCount": 43,
+  "relationshipCount": 191,
+  "sourceModelSha256": "acdba681d31fe32ad2304b34ad5e66a2cc955e7aea4801552215606c64281b67",
+  "restorationScope": "logical graph labels, properties, endpoints and native property types; not a binary database dump; no restore performed",
+  "mutationsExecuted": false
+}

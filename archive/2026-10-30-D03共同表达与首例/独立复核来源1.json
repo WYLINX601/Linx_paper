@@ -1,0 +1,19 @@
+[
+  {
+    "path": "compile_model.py",
+    "sha256": "01f2f203b15ef0d591179109e3ae3dc00c8b6d1316635c75dc033ca1a4ddb39c"
+  },
+  {
+    "path": "candidates/研究成果/〔合成试例〕D03院落围合图谱试例/案例模型.json",
+    "sha256": "cc24d143ef47b3d411665a84e510ed0675f4c1c141d22edfdb49bcdff65e0bc1"
+  },
+  {
+    "path": "candidates/研究成果/〔合成试例〕D03院落围合图谱试例/README.md",
+    "sha256": "07234110f1eba72dba51dc719d5376c91d495cc9b26a00979f11dac5949d766f"
+  },
+  {
+    "path": "candidates/研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+    "sha256": "32a3c7f87e9200da4da75dac57a3c62139e871481c3626ffb940cc06e5099d6b",
+    "scope": "U14 only"
+  }
+]

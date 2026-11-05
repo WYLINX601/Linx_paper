@@ -1,0 +1,27 @@
+{
+  "changedByTask": [
+    "研究成果/〔分析框架〕风貌分析拆解/README.md",
+    "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md",
+    "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md",
+    "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md"
+  ],
+  "preexistingOutOfSync": [],
+  "unrelatedDifferencesUntouched": true,
+  "stats": {
+    "chapters": 6,
+    "sections": 37,
+    "subsections": 17,
+    "adoptions": 88,
+    "topics": 8,
+    "roles": 6,
+    "route_nodes": 13,
+    "artifact_packages": 21,
+    "artifact_relations": 62
+  },
+  "expectedSHA256": {
+    "研究成果/〔分析框架〕风貌分析拆解/README.md": "3ea9116caa603394a01660efa273b93e267c68ea6646e95ffb937a1abda40a02",
+    "研究成果/〔合成试例〕虚拟民居单体试验V01/README.md": "04ff3f093fdeeac949df03dcd6c5bf47da7db93ff8a66ef52e57b043e2524ece",
+    "研究成果/〔类型图谱〕建筑空间界面与构成关系类型图谱/README.md": "79c153c94a2cbfdbca87d45b93159c700637e47beedbc03e3874dd5479fcb08a",
+    "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md": "5c3f7b276f36aedec4ff0e5822d9fd8ae53f4a5cf1c5383543f987fbaf3298c8"
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "date": "2026-10-22",
+  "service": "neo4j-paper.service",
+  "base": "/home/linx/.local/share/neo4j-paper",
+  "config": "/home/linx/.config/neo4j-paper/conf",
+  "credentials": "/home/linx/.config/neo4j-paper/access.json",
+  "listenAddress": "100.68.38.32",
+  "ports": [
+    7474,
+    7687
+  ],
+  "neo4j": "5.26.32-community",
+  "java": "Temurin 21.0.13+9",
+  "packages": [
+    {
+      "name": "neo4j-community-5.26.32-unix.tar.gz",
+      "url": "https://dist.neo4j.org/neo4j-community-5.26.32-unix.tar.gz",
+      "sha256": "d279ae6a9b38034280681a558b0cd222dce89f87cc3d9867f1f7bd28ef5ebc30",
+      "directory": "neo4j-community-5.26.32"
+    },
+    {
+      "name": "OpenJDK21U-jdk_x64_linux_hotspot_21.0.13_9.tar.gz",
+      "url": "https://github.com/adoptium/temurin21-binaries/releases/download/jdk-21.0.13%2B9/OpenJDK21U-jdk_x64_linux_hotspot_21.0.13_9.tar.gz",
+      "sha256": "d7f5d5cf865a2902b70ff549b97586a7d3f234e016f041ab447ea740c7d66d1c",
+      "directory": "jdk-21.0.13+9"
+    }
+  ],
+  "access": "Tailscale私网 + Neo4j认证；不绑定校园网或公网接口",
+  "scope": "用户目录部署；未安装Docker或修改全局Java。",
+  "memory": "heap max 768MiB + page cache 256MiB; service MemoryMax 2300M"
+}

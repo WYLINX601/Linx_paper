@@ -1,0 +1,214 @@
+[
+  {
+    "target": "研究资料/来源证据/assets/倾斜摄影模型利用/Gao2023.pdf",
+    "local_sha256": "0030b9dc16db85ea178b0a0beea675956de3bffc69c33276144113085616b374",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "研究资料/来源证据/assets/倾斜摄影模型利用/Gao2023.pdf",
+        "sha256": "0030b9dc16db85ea178b0a0beea675956de3bffc69c33276144113085616b374",
+        "size_bytes": 2604462,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "研究资料/来源证据/assets/倾斜摄影模型利用/Zhang2022-PKU.html",
+    "local_sha256": "8707506a81220c38c91643fdd9872fd007908e7e791f3ac1ada2c055493a5a2d",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "研究资料/来源证据/assets/倾斜摄影模型利用/Zhang2022-PKU.html",
+        "sha256": "8707506a81220c38c91643fdd9872fd007908e7e791f3ac1ada2c055493a5a2d",
+        "size_bytes": 49500,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "研究资料/来源证据/assets/倾斜摄影模型利用/Zhang2022-publisher.html",
+    "local_sha256": "9d9695624142a79dd65e79bbaa1aa0f89c4d7e342d77969b7bfa31cd990b3809",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "研究资料/来源证据/assets/倾斜摄影模型利用/Zhang2022-publisher.html",
+        "sha256": "9d9695624142a79dd65e79bbaa1aa0f89c4d7e342d77969b7bfa31cd990b3809",
+        "size_bytes": 246810,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "研究资料/来源证据/assets/倾斜摄影模型利用/CloudCompare-CSF.md",
+    "local_sha256": "4bba122748517acefa30d84b0e0e0bd41071441d7a8632b12b83f0809caa3c6d",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "研究资料/来源证据/assets/倾斜摄影模型利用/CloudCompare-CSF.md",
+        "sha256": "4bba122748517acefa30d84b0e0e0bd41071441d7a8632b12b83f0809caa3c6d",
+        "size_bytes": 1711,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "研究资料/来源证据/assets/倾斜摄影模型利用/Revit2021-pointcloud.html",
+    "local_sha256": "c1553d914926fc8ad0c795ef9f83aa2eff20817b616e4719a06ba25320d35fbf",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "研究资料/来源证据/assets/倾斜摄影模型利用/Revit2021-pointcloud.html",
+        "sha256": "c1553d914926fc8ad0c795ef9f83aa2eff20817b616e4719a06ba25320d35fbf",
+        "size_bytes": 13418,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "文献库/专题精读/倾斜摄影模型利用/复核材料/抽核输入快照.zip",
+    "local_sha256": "ef92dd979e8fbdaccb24a2518f048e4ba201f5db0d11c49d7b33c5f316c3e970",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "文献库/专题精读/倾斜摄影模型利用/复核材料/抽核输入快照.zip",
+        "sha256": "ef92dd979e8fbdaccb24a2518f048e4ba201f5db0d11c49d7b33c5f316c3e970",
+        "size_bytes": 29412,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "文献库/专题精读/倾斜摄影模型利用/复核材料/独立抽核记录.md",
+    "local_sha256": "f339359332c0460f80e79750f7c74ccc5938e9389652d39825ff33ad2be4a733",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "文献库/专题精读/倾斜摄影模型利用/复核材料/独立抽核记录.md",
+        "sha256": "f339359332c0460f80e79750f7c74ccc5938e9389652d39825ff33ad2be4a733",
+        "size_bytes": 14467,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "文献库/专题精读/倾斜摄影模型利用/来源索引.json",
+    "local_sha256": "02f1e5f381dd6966217dde4f587872c369d2d223e9e90ff796c1cbf09120de39",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "文献库/专题精读/倾斜摄影模型利用/来源索引.json",
+        "sha256": "02f1e5f381dd6966217dde4f587872c369d2d223e9e90ff796c1cbf09120de39",
+        "size_bytes": 4799,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "文献库/专题精读/倾斜摄影模型利用/模型利用方法比较.smm.md",
+    "local_sha256": "b1257efcc6916037574570b64a044810cae195c147dbf1575ec9dc3953c1af23",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "文献库/专题精读/倾斜摄影模型利用/模型利用方法比较.smm.md",
+        "sha256": "b1257efcc6916037574570b64a044810cae195c147dbf1575ec9dc3953c1af23",
+        "size_bytes": 16409,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "文献库/专题精读/倾斜摄影模型利用/证据与阅读记录.md",
+    "local_sha256": "ca26f64798ef36a5271938c65361a39c3b85709e96bbe6a834feeb7c56e85665",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "文献库/专题精读/倾斜摄影模型利用/证据与阅读记录.md",
+        "sha256": "ca26f64798ef36a5271938c65361a39c3b85709e96bbe6a834feeb7c56e85665",
+        "size_bytes": 22221,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "文献库/README.md",
+    "local_sha256": "ee6fd0208f4dedabab855b5dbc4c2b0138a46e65d322dfaba16f410df6bfe8bc",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "文献库/README.md",
+        "sha256": "ee6fd0208f4dedabab855b5dbc4c2b0138a46e65d322dfaba16f410df6bfe8bc",
+        "size_bytes": 7521,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-10-30T04:37:57Z",
+          "original_path": "文献库/README.md",
+          "canonical_path": "文献库/README.md",
+          "backup_path": ".hermes-academic-backups/20261030T043757Z_a62345ef894940f2aa1fd3d108af39f1.bak",
+          "original_sha256": "0873663a6613edd7d38cacf216143c8d835d0fb2607e50fa4fc0d143ef191bd7",
+          "original_size_bytes": 7212,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "ee6fd0208f4dedabab855b5dbc4c2b0138a46e65d322dfaba16f410df6bfe8bc",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  },
+  {
+    "target": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+    "local_sha256": "69c645afbaade7e4653e58cdc0f062942bbafdac0530d6f57b024e1a6e56982a",
+    "write": {
+      "ok": true,
+      "result": {
+        "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+        "sha256": "69c645afbaade7e4653e58cdc0f062942bbafdac0530d6f57b024e1a6e56982a",
+        "size_bytes": 6002,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-10-30T04:37:57Z",
+          "original_path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+          "canonical_path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md",
+          "backup_path": ".hermes-academic-backups/20261030T043757Z_968b7ef98dc2415ea5d252b0dc8c4e23.bak",
+          "original_sha256": "0d8c296f526e5bf190c05ed15109d7e466c49208ea2dd0f482aa7daaf1b9ae9d",
+          "original_size_bytes": 5080,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "69c645afbaade7e4653e58cdc0f062942bbafdac0530d6f57b024e1a6e56982a",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      }
+    }
+  }
+]

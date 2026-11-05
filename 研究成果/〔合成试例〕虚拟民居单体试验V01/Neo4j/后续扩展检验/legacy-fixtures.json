@@ -1,0 +1,935 @@
+{
+  "status": "passed-local-regression-not-active-db",
+  "classificationAssignments": [
+    {
+      "example": "A",
+      "status": "candidate-assigned",
+      "candidateType": "ENC-3B-1W",
+      "ruleVersion": "1.0",
+      "ruleDefinitionSha256": "8b75c725177d9832bab96d4398503224aa6bbafd7aa75f56f69bfd714b9c7d8b",
+      "inputVersion": "1.0",
+      "inputModelVersion": "1.1",
+      "sourceUid": "D03V01:EV01",
+      "sourceRelationUid": "D03V01:SRC-A-C01",
+      "inputFields": [
+        "boundaryIds",
+        "boundaryKinds",
+        "boundaryStates",
+        "shapeCode",
+        "boundaryParticipantUids",
+        "boundaryLocators",
+        "geometryVersion"
+      ],
+      "inputBoundaryVersion": "1.0",
+      "analysisItems": [
+        "D06-T01",
+        "D06-T03"
+      ],
+      "recordStatus": "derived-candidate",
+      "evidenceRole": "derived-not-independent-evidence",
+      "reviewStatus": "user-review-pending"
+    },
+    {
+      "example": "B",
+      "status": "candidate-assigned",
+      "candidateType": "ENC-3B-1W",
+      "ruleVersion": "1.0",
+      "ruleDefinitionSha256": "8b75c725177d9832bab96d4398503224aa6bbafd7aa75f56f69bfd714b9c7d8b",
+      "inputVersion": "1.0",
+      "inputModelVersion": "1.1",
+      "sourceUid": "D03V01:EV01",
+      "sourceRelationUid": "D03V01:SRC-B-C01",
+      "inputFields": [
+        "boundaryIds",
+        "boundaryKinds",
+        "boundaryStates",
+        "shapeCode",
+        "boundaryParticipantUids",
+        "boundaryLocators",
+        "geometryVersion"
+      ],
+      "inputBoundaryVersion": "1.0",
+      "analysisItems": [
+        "D06-T01",
+        "D06-T03"
+      ],
+      "recordStatus": "derived-candidate",
+      "evidenceRole": "derived-not-independent-evidence",
+      "reviewStatus": "user-review-pending"
+    },
+    {
+      "example": "C",
+      "status": "candidate-assigned",
+      "candidateType": "ENC-2B-1W-1O",
+      "ruleVersion": "1.0",
+      "ruleDefinitionSha256": "8b75c725177d9832bab96d4398503224aa6bbafd7aa75f56f69bfd714b9c7d8b",
+      "inputVersion": "1.0",
+      "inputModelVersion": "1.1",
+      "sourceUid": "D03V01:EV01",
+      "sourceRelationUid": "D03V01:SRC-C-C01",
+      "inputFields": [
+        "boundaryIds",
+        "boundaryKinds",
+        "boundaryStates",
+        "shapeCode",
+        "boundaryParticipantUids",
+        "boundaryLocators",
+        "geometryVersion"
+      ],
+      "inputBoundaryVersion": "1.0",
+      "analysisItems": [
+        "D06-T01",
+        "D06-T03"
+      ],
+      "recordStatus": "derived-candidate",
+      "evidenceRole": "derived-not-independent-evidence",
+      "reviewStatus": "user-review-pending"
+    },
+    {
+      "example": "D",
+      "status": "unknown",
+      "candidateType": "",
+      "ruleVersion": "1.0",
+      "ruleDefinitionSha256": "8b75c725177d9832bab96d4398503224aa6bbafd7aa75f56f69bfd714b9c7d8b",
+      "inputVersion": "1.0",
+      "inputModelVersion": "1.1",
+      "sourceUid": "D03V01:EV01",
+      "sourceRelationUid": "D03V01:SRC-D-C01",
+      "inputFields": [
+        "boundaryIds",
+        "boundaryKinds",
+        "boundaryStates",
+        "shapeCode",
+        "boundaryParticipantUids",
+        "boundaryLocators",
+        "geometryVersion"
+      ],
+      "inputBoundaryVersion": "1.0",
+      "analysisItems": [
+        "D06-T01",
+        "D06-T03"
+      ],
+      "recordStatus": "derived-candidate",
+      "evidenceRole": "derived-not-independent-evidence",
+      "reviewStatus": "user-review-pending"
+    }
+  ],
+  "analysis": {
+    "items": {
+      "T01": [
+        {
+          "uid": "D03V01:A-C01",
+          "name": "A例院落",
+          "example": "A",
+          "level": "合成院地参照层",
+          "boundaryBasis": "四边是人工指定的院地分析边界；不代表普适院落划分",
+          "geometryComplete": "reference-ring-only",
+          "geometryRole": "二维分析范围，非完整三维体",
+          "coverage": "not-assessed",
+          "state": "synthetic-declared",
+          "sourceLocator": "/examples/0"
+        },
+        {
+          "uid": "D03V01:B-C01",
+          "name": "B例院落",
+          "example": "B",
+          "level": "合成院地参照层",
+          "boundaryBasis": "四边是人工指定的院地分析边界；不代表普适院落划分",
+          "geometryComplete": "reference-ring-only",
+          "geometryRole": "二维分析范围，非完整三维体",
+          "coverage": "not-assessed",
+          "state": "synthetic-declared",
+          "sourceLocator": "/examples/1"
+        },
+        {
+          "uid": "D03V01:C-C01",
+          "name": "C例院落",
+          "example": "C",
+          "level": "合成院地参照层",
+          "boundaryBasis": "四边是人工指定的院地分析边界；不代表普适院落划分",
+          "geometryComplete": "reference-ring-only",
+          "geometryRole": "二维分析范围，非完整三维体",
+          "coverage": "not-assessed",
+          "state": "synthetic-declared",
+          "sourceLocator": "/examples/2"
+        },
+        {
+          "uid": "D03V01:D-C01",
+          "name": "D例院落",
+          "example": "D",
+          "level": "合成院地参照层",
+          "boundaryBasis": "D例西侧是理论参照线，不声称已识别实体边界",
+          "geometryComplete": "reference-ring-only",
+          "geometryRole": "二维分析范围，非完整三维体",
+          "coverage": "not-assessed",
+          "state": "synthetic-declared",
+          "sourceLocator": "/examples/3"
+        },
+        {
+          "uid": "D03V01:E-C01",
+          "name": "E例前部院落",
+          "example": "E",
+          "level": "E-ground",
+          "boundaryBasis": "按平面围合与开放理论划界人工声明",
+          "geometryComplete": true,
+          "geometryRole": "二维分析范围，非完整三维体",
+          "coverage": "uncovered",
+          "state": "synthetic-declared",
+          "sourceLocator": "/externalExtension/objects/1"
+        },
+        {
+          "uid": "D03V01:E-C02",
+          "name": "E例后部院落",
+          "example": "E",
+          "level": "E-ground",
+          "boundaryBasis": "按平面围合与开放理论划界人工声明",
+          "geometryComplete": true,
+          "geometryRole": "二维分析范围，非完整三维体",
+          "coverage": "uncovered",
+          "state": "synthetic-declared",
+          "sourceLocator": "/externalExtension/objects/2"
+        },
+        {
+          "uid": "D03V01:E-G01",
+          "name": "E例有盖开放过渡廊",
+          "example": "E",
+          "level": "E-ground",
+          "boundaryBasis": "人工划定外部有盖空间；不等于封闭室内",
+          "geometryComplete": true,
+          "geometryRole": "二维分析范围，非完整三维体",
+          "coverage": "covered-open-sided",
+          "state": "synthetic-declared",
+          "sourceLocator": "/externalExtension/objects/3"
+        },
+        {
+          "uid": "D03V01:E-P01",
+          "name": "E例入口平台",
+          "example": "E",
+          "level": "E-ground",
+          "boundaryBasis": "入口前平台的理论分析范围",
+          "geometryComplete": true,
+          "geometryRole": "二维分析范围，非完整三维体",
+          "coverage": "uncovered",
+          "state": "synthetic-declared",
+          "sourceLocator": "/externalExtension/objects/4"
+        }
+      ],
+      "T02": [
+        {
+          "uid": "D03V01:A-C01",
+          "example": "A",
+          "segments": [
+            {
+              "id": "N",
+              "order": 0,
+              "startXY": [
+                0.0,
+                10.0
+              ],
+              "endXY": [
+                12.0,
+                10.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "A-BN",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "E",
+              "order": 1,
+              "startXY": [
+                12.0,
+                10.0
+              ],
+              "endXY": [
+                12.0,
+                0.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "A-BE",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "S",
+              "order": 2,
+              "startXY": [
+                12.0,
+                0.0
+              ],
+              "endXY": [
+                0.0,
+                0.0
+              ],
+              "state": "known",
+              "kind": "wall",
+              "participantId": "A-W01",
+              "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "W",
+              "order": 3,
+              "startXY": [
+                0.0,
+                0.0
+              ],
+              "endXY": [
+                0.0,
+                10.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "A-BW",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            }
+          ],
+          "status": "not-assessed-net-length",
+          "netSolidLengthM": null,
+          "ratio": null,
+          "reason": "首例只声明粗粒度侧类；未提供逐段实体及扣洞覆盖，不能由building/wall类别直接算净比例"
+        },
+        {
+          "uid": "D03V01:B-C01",
+          "example": "B",
+          "segments": [
+            {
+              "id": "N",
+              "order": 0,
+              "startXY": [
+                0.0,
+                10.0
+              ],
+              "endXY": [
+                12.0,
+                10.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "B-BN",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "E",
+              "order": 1,
+              "startXY": [
+                12.0,
+                10.0
+              ],
+              "endXY": [
+                12.0,
+                0.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "B-BE",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "S",
+              "order": 2,
+              "startXY": [
+                12.0,
+                0.0
+              ],
+              "endXY": [
+                0.0,
+                0.0
+              ],
+              "state": "known",
+              "kind": "wall",
+              "participantId": "B-W01",
+              "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "W",
+              "order": 3,
+              "startXY": [
+                0.0,
+                0.0
+              ],
+              "endXY": [
+                0.0,
+                10.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "B-BW",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            }
+          ],
+          "status": "not-assessed-net-length",
+          "netSolidLengthM": null,
+          "ratio": null,
+          "reason": "首例只声明粗粒度侧类；未提供逐段实体及扣洞覆盖，不能由building/wall类别直接算净比例"
+        },
+        {
+          "uid": "D03V01:C-C01",
+          "example": "C",
+          "segments": [
+            {
+              "id": "N",
+              "order": 0,
+              "startXY": [
+                0.0,
+                10.0
+              ],
+              "endXY": [
+                12.0,
+                10.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "C-BN",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "E",
+              "order": 1,
+              "startXY": [
+                12.0,
+                10.0
+              ],
+              "endXY": [
+                12.0,
+                0.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "C-BE",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "S",
+              "order": 2,
+              "startXY": [
+                12.0,
+                0.0
+              ],
+              "endXY": [
+                0.0,
+                0.0
+              ],
+              "state": "known",
+              "kind": "wall",
+              "participantId": "C-W01",
+              "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "W",
+              "order": 3,
+              "startXY": [
+                0.0,
+                0.0
+              ],
+              "endXY": [
+                0.0,
+                10.0
+              ],
+              "state": "known",
+              "kind": "open",
+              "participantId": null,
+              "participantScope": "明确没有连续实体界定；不是缺资料",
+              "dataVersion": "1.0"
+            }
+          ],
+          "status": "not-assessed-net-length",
+          "netSolidLengthM": null,
+          "ratio": null,
+          "reason": "首例只声明粗粒度侧类；未提供逐段实体及扣洞覆盖，不能由building/wall类别直接算净比例"
+        },
+        {
+          "uid": "D03V01:D-C01",
+          "example": "D",
+          "segments": [
+            {
+              "id": "N",
+              "order": 0,
+              "startXY": [
+                0.0,
+                10.0
+              ],
+              "endXY": [
+                12.0,
+                10.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "D-BN",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "E",
+              "order": 1,
+              "startXY": [
+                12.0,
+                10.0
+              ],
+              "endXY": [
+                12.0,
+                0.0
+              ],
+              "state": "known",
+              "kind": "building",
+              "participantId": "D-BE",
+              "participantScope": "朝院一侧，未细分实体墙",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "S",
+              "order": 2,
+              "startXY": [
+                12.0,
+                0.0
+              ],
+              "endXY": [
+                0.0,
+                0.0
+              ],
+              "state": "known",
+              "kind": "wall",
+              "participantId": "D-W01",
+              "participantScope": "院墙上的入口不改变本例粗粒度侧类",
+              "dataVersion": "1.0"
+            },
+            {
+              "id": "W",
+              "order": 3,
+              "startXY": [
+                0.0,
+                0.0
+              ],
+              "endXY": [
+                0.0,
+                10.0
+              ],
+              "state": "unknown",
+              "kind": "unknown",
+              "participantId": null,
+              "participantScope": "仅有理论参照边，不知参与者",
+              "dataVersion": "1.0"
+            }
+          ],
+          "status": "not-assessed-net-length",
+          "netSolidLengthM": null,
+          "ratio": null,
+          "reason": "首例只声明粗粒度侧类；未提供逐段实体及扣洞覆盖，不能由building/wall类别直接算净比例"
+        },
+        {
+          "uid": "D03V01:E-C01",
+          "example": "E",
+          "status": "computed",
+          "perimeterM": 28.0,
+          "knownLengthM": 28.0,
+          "netSolidLengthM": 12.0,
+          "coverageRatio": 1.0,
+          "ratio": 0.42857142857142855,
+          "segments": [
+            {
+              "id": "N",
+              "kind": "covered-transition",
+              "participantId": "E-G01",
+              "lengthM": 8.0,
+              "solidLengthM": 0.0,
+              "cover": "covered-open-sided"
+            },
+            {
+              "id": "E",
+              "kind": "building",
+              "participantId": "E-B01",
+              "lengthM": 6.0,
+              "solidLengthM": 6.0,
+              "cover": "uncovered"
+            },
+            {
+              "id": "S",
+              "kind": "wall",
+              "participantId": "E-W01",
+              "lengthM": 8.0,
+              "solidLengthM": 6.0,
+              "cover": "uncovered"
+            },
+            {
+              "id": "W",
+              "kind": "open",
+              "participantId": null,
+              "lengthM": 6.0,
+              "solidLengthM": 0.0,
+              "cover": "uncovered"
+            }
+          ],
+          "rule": "声明分析层位：扣门洞，廊盖不计实体；不等于三维闭合度或人的感受"
+        },
+        {
+          "uid": "D03V01:E-C02",
+          "example": "E",
+          "status": "computed",
+          "perimeterM": 24.0,
+          "knownLengthM": 24.0,
+          "netSolidLengthM": 12.0,
+          "coverageRatio": 1.0,
+          "ratio": 0.5,
+          "segments": [
+            {
+              "id": "N",
+              "kind": "building",
+              "participantId": "E-B02",
+              "lengthM": 8.0,
+              "solidLengthM": 8.0,
+              "cover": "uncovered"
+            },
+            {
+              "id": "E",
+              "kind": "building",
+              "participantId": "E-B01",
+              "lengthM": 4.0,
+              "solidLengthM": 4.0,
+              "cover": "uncovered"
+            },
+            {
+              "id": "S",
+              "kind": "covered-transition",
+              "participantId": "E-G01",
+              "lengthM": 8.0,
+              "solidLengthM": 0.0,
+              "cover": "covered-open-sided"
+            },
+            {
+              "id": "W",
+              "kind": "open",
+              "participantId": null,
+              "lengthM": 4.0,
+              "solidLengthM": 0.0,
+              "cover": "uncovered"
+            }
+          ],
+          "rule": "声明分析层位：扣门洞，廊盖不计实体；不等于三维闭合度或人的感受"
+        }
+      ],
+      "T03": [
+        {
+          "uid": "D03V01:A-I01",
+          "example": "A",
+          "status": "computed",
+          "relativePosition": 0.5,
+          "farSide": "unknown",
+          "passage": "not-assessed",
+          "hostUid": "D03V01:A-W01"
+        },
+        {
+          "uid": "D03V01:B-I01",
+          "example": "B",
+          "status": "computed",
+          "relativePosition": 0.25,
+          "farSide": "unknown",
+          "passage": "not-assessed",
+          "hostUid": "D03V01:B-W01"
+        },
+        {
+          "uid": "D03V01:C-I01",
+          "example": "C",
+          "status": "computed",
+          "relativePosition": 0.5,
+          "farSide": "unknown",
+          "passage": "not-assessed",
+          "hostUid": "D03V01:C-W01"
+        },
+        {
+          "uid": "D03V01:D-I01",
+          "example": "D",
+          "status": "computed",
+          "relativePosition": 0.5,
+          "farSide": "unknown",
+          "passage": "not-assessed",
+          "hostUid": "D03V01:D-W01"
+        },
+        {
+          "uid": "D03V01:E-I01",
+          "example": "E",
+          "status": "computed",
+          "relativePosition": 0.5,
+          "centerXY": [
+            6.0,
+            2.0
+          ],
+          "from": "D03V01:E-P01",
+          "to": "D03V01:E-C01",
+          "farSide": "known",
+          "hostUid": "D03V01:E-W01",
+          "scope": "唯一折线里程；不设居中阈值，不凭入口推通行"
+        },
+        {
+          "uid": "D03V01:E-I02",
+          "example": "E",
+          "status": "computed",
+          "relativePosition": 0.375,
+          "centerXY": [
+            5.0,
+            8.0
+          ],
+          "from": "D03V01:E-C01",
+          "to": "D03V01:E-G01",
+          "farSide": "known",
+          "hostUid": null,
+          "scope": "唯一折线里程；不设居中阈值，不凭入口推通行"
+        },
+        {
+          "uid": "D03V01:E-I03",
+          "example": "E",
+          "status": "computed",
+          "relativePosition": 0.5,
+          "centerXY": [
+            6.0,
+            10.0
+          ],
+          "from": "D03V01:E-G01",
+          "to": "D03V01:E-C02",
+          "farSide": "known",
+          "hostUid": null,
+          "scope": "唯一折线里程；不设居中阈值，不凭入口推通行"
+        },
+        {
+          "uid": "D03V01:E-I04",
+          "example": "E",
+          "status": "computed",
+          "relativePosition": 0.375,
+          "centerXY": [
+            2.0,
+            11.5
+          ],
+          "from": "D03V01:E-C02",
+          "to": null,
+          "farSide": "unknown",
+          "hostUid": null,
+          "scope": "唯一折线里程；不设居中阈值，不凭入口推通行"
+        }
+      ],
+      "T04": [
+        {
+          "from": "D03V01:E-P01",
+          "to": "D03V01:E-C02",
+          "context": "E-walk-1",
+          "status": "confirmed-path-in-known-subgraph",
+          "path": [
+            "D03V01:E-P01",
+            "D03V01:E-C01",
+            "D03V01:E-G01",
+            "D03V01:E-C02"
+          ],
+          "edgeIds": [
+            "D03V01:ACCESS-E-P01-E-C01",
+            "D03V01:ACCESS-E-C01-E-G01",
+            "D03V01:ACCESS-E-G01-E-C02"
+          ],
+          "crossings": 3,
+          "scope": "仅已知外部有向子图；非全宅最短、非步行距离",
+          "rejectedEdges": []
+        },
+        {
+          "from": "D03V01:E-C02",
+          "to": "D03V01:E-P01",
+          "context": "E-walk-1",
+          "status": "no-confirmed-path-not-unreachable",
+          "path": [],
+          "edgeIds": [],
+          "crossings": null,
+          "scope": "仅已知外部有向子图；非全宅最短、非步行距离",
+          "rejectedEdges": []
+        },
+        {
+          "example": "A",
+          "status": "not-assessed",
+          "crossings": null,
+          "reason": "外侧未知、没有直接通行证据；不补边"
+        },
+        {
+          "example": "B",
+          "status": "not-assessed",
+          "crossings": null,
+          "reason": "外侧未知、没有直接通行证据；不补边"
+        },
+        {
+          "example": "C",
+          "status": "not-assessed",
+          "crossings": null,
+          "reason": "外侧未知、没有直接通行证据；不补边"
+        },
+        {
+          "example": "D",
+          "status": "not-assessed",
+          "crossings": null,
+          "reason": "外侧未知、没有直接通行证据；不补边"
+        }
+      ],
+      "T05": [
+        {
+          "kind": "reference-area",
+          "uid": "D03V01:A-C01",
+          "example": "A",
+          "areaM2": 120.0,
+          "status": "synthetic-reference-only",
+          "ratio": null,
+          "reason": "仅人工闭合参照轮廓面积；整体边界未知，不能给全宅比例；围合参与未知不等于参照轮廓未定义"
+        },
+        {
+          "kind": "reference-area",
+          "uid": "D03V01:B-C01",
+          "example": "B",
+          "areaM2": 120.0,
+          "status": "synthetic-reference-only",
+          "ratio": null,
+          "reason": "仅人工闭合参照轮廓面积；整体边界未知，不能给全宅比例；围合参与未知不等于参照轮廓未定义"
+        },
+        {
+          "kind": "reference-area",
+          "uid": "D03V01:C-C01",
+          "example": "C",
+          "areaM2": 120.0,
+          "status": "synthetic-reference-only",
+          "ratio": null,
+          "reason": "仅人工闭合参照轮廓面积；整体边界未知，不能给全宅比例；围合参与未知不等于参照轮廓未定义"
+        },
+        {
+          "kind": "reference-area",
+          "uid": "D03V01:D-C01",
+          "example": "D",
+          "areaM2": 120.0,
+          "status": "synthetic-reference-only",
+          "ratio": null,
+          "reason": "仅人工闭合参照轮廓面积；整体边界未知，不能给全宅比例；围合参与未知不等于参照轮廓未定义"
+        },
+        {
+          "kind": "area-configuration",
+          "example": "E",
+          "status": "computed",
+          "denominatorUid": "D03V01:E-U01",
+          "denominatorM2": 256.0,
+          "spaceAreasM2": {
+            "D03V01:E-C01": 48.0,
+            "D03V01:E-C02": 32.0,
+            "D03V01:E-G01": 16.0,
+            "D03V01:E-P01": 16.0
+          },
+          "rawSumM2": 112.0,
+          "spaceUnionM2": 112.0,
+          "overlapDeductedM2": 0.0,
+          "courtyardUnionM2": 80.0,
+          "courtyardRatio": 0.3125,
+          "scope": "同层平面分析投影；非全宅室内空间配比，非三维体积；剩余面积不补造房间"
+        },
+        {
+          "kind": "plan-position",
+          "source": "D03V01:E-C02",
+          "target": "D03V01:E-C01",
+          "example": "E",
+          "status": "computed",
+          "alongAxisM": 7.0,
+          "crossAxisM": 0.0,
+          "cacheConsistent": true,
+          "meaning": "几何中心沿入口向内参照的位移；不是社会位序或通行串联"
+        }
+      ],
+      "T06": [
+        {
+          "uid": "D03V01:A-C01",
+          "example": "A",
+          "state": "unknown",
+          "uses": [],
+          "reason": "首例没有用途证据，不由名称或几何补值"
+        },
+        {
+          "uid": "D03V01:B-C01",
+          "example": "B",
+          "state": "unknown",
+          "uses": [],
+          "reason": "首例没有用途证据，不由名称或几何补值"
+        },
+        {
+          "uid": "D03V01:C-C01",
+          "example": "C",
+          "state": "unknown",
+          "uses": [],
+          "reason": "首例没有用途证据，不由名称或几何补值"
+        },
+        {
+          "uid": "D03V01:D-C01",
+          "example": "D",
+          "state": "unknown",
+          "uses": [],
+          "reason": "首例没有用途证据，不由名称或几何补值"
+        },
+        {
+          "uid": "D03V01:E-C01",
+          "example": "E",
+          "state": "known",
+          "uses": [
+            "晾晒",
+            "临时停留"
+          ],
+          "context": "人工日常情境E-use-1；非田野观察",
+          "sourceLocator": "/externalExtension/objects/1/useValues",
+          "evidenceRole": "synthetic-assignment",
+          "reason": "多用途仍是一个空间；仅人工设定，不是现实用途调查"
+        },
+        {
+          "uid": "D03V01:E-C02",
+          "example": "E",
+          "state": "unknown",
+          "uses": [],
+          "context": "本合成例未声明用途",
+          "sourceLocator": "/externalExtension/objects/2/useValues",
+          "evidenceRole": "synthetic-assignment",
+          "reason": "多用途仍是一个空间；仅人工设定，不是现实用途调查"
+        },
+        {
+          "uid": "D03V01:E-G01",
+          "example": "E",
+          "state": "known",
+          "uses": [
+            "通行",
+            "临时停留"
+          ],
+          "context": "人工日常情境E-use-1；非田野观察",
+          "sourceLocator": "/externalExtension/objects/3/useValues",
+          "evidenceRole": "synthetic-assignment",
+          "reason": "多用途仍是一个空间；仅人工设定，不是现实用途调查"
+        },
+        {
+          "uid": "D03V01:E-P01",
+          "example": "E",
+          "state": "unknown",
+          "uses": [],
+          "context": "未从平台形状推断用途",
+          "sourceLocator": "/externalExtension/objects/4/useValues",
+          "evidenceRole": "synthetic-assignment",
+          "reason": "多用途仍是一个空间；仅人工设定，不是现实用途调查"
+        }
+      ]
+    },
+    "useSummary": {
+      "knownSpaces": 2,
+      "useAssignments": 4,
+      "spacesByUse": {
+        "临时停留": 2,
+        "晾晒": 1,
+        "通行": 1
+      },
+      "unknownSpaces": 2,
+      "notAdditive": true
+    },
+    "engine": "Python + Shapely; inputs are verified Neo4j readback",
+    "boundary": "Synthetic external-scope tests only; not empirical validity"
+  }
+}
