@@ -1,0 +1,67 @@
+[
+  {
+    "path": "论文章节/大纲结构.yaml",
+    "sha256": "9d0a20401fea1eca9d62d4aa0ffbc85a68addf52fcd374b0552984d0e43849bc",
+    "size_bytes": 96801
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+    "sha256": "3d4413ed5262bfdba8a41c5008b87a87820f01981b7a7e218979fca43182a24e",
+    "size_bytes": 10517
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/论文研究框架图.drawio",
+    "sha256": "d75d999f2d7336c2928e34cc68039ee311c9cdbecfae995cc1e95dd962bac8fa",
+    "size_bytes": 31108
+  },
+  {
+    "path": "论文章节/论文目录.smm.md",
+    "sha256": "8770284b929f7ffa52d07ca877b977a2498a6aec905b9b7d69aa2468db09a1c7",
+    "size_bytes": 33248
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/README.md",
+    "sha256": "863d4ff95bf30c3fd25419728fd42e88b113b36eed524d4504f18712ba8d2501",
+    "size_bytes": 10825
+  },
+  {
+    "path": "context/PROJECT_CONTEXT.md",
+    "sha256": "5ada16559af82373f15e24f8a9ca23623add154717e26e3d2ca4e62b6fdca9f8",
+    "size_bytes": 49707
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/论文研究框架图.png",
+    "sha256": "0ed28299f5c3080e7409f9fc95c8025992485af0d4b78c3f8fc40cfd77eed2c4",
+    "size_bytes": 736652
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/论文研究框架图.pdf",
+    "sha256": "dc5d8189db267035f9698c718e4851d3062bb021d52ba91a24d1ba413391aa04",
+    "size_bytes": 564729
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/论文研究框架图.svg",
+    "sha256": "7ecd7eafe76b2f6894c230ac0c2009ec89c0d33d38b5eae809e063583a7f23ea",
+    "size_bytes": 41660
+  },
+  {
+    "path": "研究成果/〔研究路线〕论文研究路径/研究路径工作图.md",
+    "sha256": "9d4a4d33d52d77af172305bac837c3073b7e26430feeacedf91fc7046f1b6799",
+    "size_bytes": 18936
+  },
+  {
+    "path": "论文章节/现行大纲.md",
+    "sha256": "b83d2e73653964cc0dc621e892753fdd88117d28871b38a339be004d4b2a225f",
+    "size_bytes": 30459
+  },
+  {
+    "path": ".smm-embed-image-files/论文章节_论文目录.svg",
+    "sha256": "3f3eeaf6f97f0e42eea2c12b7392bb93f8d9ae3f9f3158bdcd0ebbfe117cfcd2",
+    "size_bytes": 120500
+  },
+  {
+    "path": "论文章节/README.md",
+    "sha256": "48ff6a7df539a273b9af8026819c7843301b0f86288527e8d0a32a0874d20d33",
+    "size_bytes": 4382
+  }
+]

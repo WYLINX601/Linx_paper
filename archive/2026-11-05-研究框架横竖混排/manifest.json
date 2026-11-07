@@ -1,0 +1,46 @@
+{
+  "role": "pre-layout-change rollback snapshot",
+  "files": {
+    "target-before.excalidraw.md": {
+      "sha256": "df499bbebb1a726a2c440bc4c8d261ffbc3c1d379a925c2025af1de39be7bdb1",
+      "bytes": 139302
+    },
+    "target-before.png": {
+      "sha256": "f3d7169721ad4120e9ce6ab95abcd17d774e2bd0b16690e54e84bf16205720b0",
+      "bytes": 1770579
+    },
+    "source-spec.json": {
+      "sha256": "abc89cfb8f7cc6ce23b1c9606c0996f55de4fd7a1f17ae4d42dfd7c9e4771d2a",
+      "bytes": 83200
+    },
+    "source-disk.json": {
+      "sha256": "765adacf915bfb59f9ad5068f1ac9bae7cfb2a14f84ef1cdd2da2b5a9150d46e",
+      "bytes": 646399
+    },
+    "outline.yaml": {
+      "sha256": "73598aefb895c92d87051ddabb63ac5358aa06c7cd0311d7faa23624b15eecd6",
+      "bytes": 97849
+    },
+    "route.json": {
+      "sha256": "7bfca892e4f5a25cbb623ef4ce55ecd85b1ded1463f67d53507f35ca01eaf708",
+      "bytes": 10945
+    },
+    "operation-before.md": {
+      "sha256": "6fd64757d89311f6cd2eb4e65facfe11ea1822f28951096b367a77cb02d54315",
+      "bytes": 3365
+    },
+    "package-before.md": {
+      "sha256": "efccaf432c12b9c51b322326e2595c1ec9d41362e137d47840b26003ec7e7ba2",
+      "bytes": 14569
+    },
+    "acceptance-before.json": {
+      "sha256": "055ba81db0ea4b428625da93457395a2c87f52851772f0809a16836cd90390ba",
+      "bytes": 8558
+    },
+    "source-transfers.json": {
+      "sha256": "9492666a3edc68fe495e55e4a67b0808948eabbe610911d536264074761e9106",
+      "bytes": 5920
+    }
+  },
+  "scope": "Drawing layout only. Canonical sources are read-only snapshots."
+}

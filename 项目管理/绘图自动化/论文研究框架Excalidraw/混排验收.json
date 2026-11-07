@@ -1,0 +1,382 @@
+{
+  "sourceRevision": "disk:2twr-8gw4xk-18kluq6",
+  "candidateRevision": "disk:2uqr-i19ow-2esrta",
+  "complete": true,
+  "elements": 596,
+  "texts": 273,
+  "terminalConcepts": 125,
+  "arrows": 108,
+  "allIdsTypesTextAndEndpointsPreserved": true,
+  "leafFontSizes": [
+    22
+  ],
+  "boundTextOverflows": [],
+  "leafCardOverlaps": [],
+  "arrowsThroughLeaves": [],
+  "captionCardOverlaps": [],
+  "captionOverlaps": [],
+  "captionAnnotationOverlaps": [],
+  "actualExport": {
+    "path": "archive/2026-11-06-研究框架紧凑重排/二次收紧/原生预览.png",
+    "format": "png",
+    "bytes": 1329341,
+    "width": 2154,
+    "height": 3510,
+    "source": "disk",
+    "theme": "light",
+    "revision": "disk:2uqr-i19ow-2esrta",
+    "effectiveScale": 1,
+    "imageSummary": {
+      "original": 0,
+      "thumbnail": 0,
+      "placeholder": 0
+    },
+    "imageDecisions": {
+      "items": [],
+      "total": 0
+    },
+    "representationId": "preview:5e-1hq3o50-1okpyzo",
+    "sceneToPreview": {
+      "sceneBounds": {
+        "x": 4,
+        "y": -1.5499999999999972,
+        "width": 2154,
+        "height": 3510.3500000000013
+      },
+      "output": {
+        "width": 2154,
+        "height": 3510
+      }
+    }
+  },
+  "previousExportBounds": {
+    "width": 2660,
+    "height": 5897.25
+  },
+  "canvasAreaReductionFromPreviousPercent": 51.79801277325322,
+  "widthReductionPercent": 19.022556390977442,
+  "heightReductionPercent": 40.47479757514093,
+  "geometricDensityProxy": {
+    "previous": 0.09967310563643152,
+    "new": 0.16148457384171566,
+    "definition": "sum terminal-card areas / sum chapter-frame areas; not blank pixel percentage"
+  },
+  "drawioNativeIdsTextEndpointsMatch": true,
+  "imageElements": 0,
+  "target": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md",
+  "updated": "2026-11-06",
+  "layoutIteration": "content-fitted dense modules after user rejection of first compact layout",
+  "drawioNativeRender": {
+    "cells": 598,
+    "edges": 108,
+    "validEndpoints": 108,
+    "renderedEdges": 108,
+    "textOverflow": [],
+    "bounds": {
+      "x": 19.425,
+      "y": 14.450000000000003,
+      "width": 2123.15,
+      "height": 3480.3500000000013
+    }
+  },
+  "reviewedChapters": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "recoveryArchive": "archive/2026-11-06-研究框架紧凑重排/二次收紧/二次收紧前原件.zip",
+  "unchangedResearchInputs": {
+    "论文章节/大纲结构.yaml": "73598aefb895c92d87051ddabb63ac5358aa06c7cd0311d7faa23624b15eecd6",
+    "研究成果/〔研究路线〕论文研究路径/研究路径结构.json": "7bfca892e4f5a25cbb623ef4ce55ecd85b1ded1463f67d53507f35ca01eaf708"
+  },
+  "userVisualApproval": "pending",
+  "researchValidity": "not evaluated",
+  "mainSessionOnly": true,
+  "globalCheck": {
+    "preexistingFailure": "论文章节/章节导航/01-绪论.md",
+    "otherChecks": "alignment, claims, artifacts, literature, materials, tests passed; not a full-vault all-green claim",
+    "postPublication": "Same pre-existing outline difference only; all other six check groups passed"
+  },
+  "finalRevision": "disk:2uqr-i19ow-2esrta",
+  "allFinalElementsMatchReviewedCandidate": true,
+  "finalDiskPngByteIdentical": true,
+  "finalPngSha256": "c34d965e7fdaa492c1b93baa7ffc4b4d06095d3bb62e867d3a2893e07c0ee2b3",
+  "formalDiskExport": {
+    "apiVersion": 1,
+    "session": "gwcdPecDodFfJ39tZlgbh3EgViYlGn6l",
+    "command": "export",
+    "requestId": "dense-framework-20261106-0948-final-disk-png",
+    "status": "completed",
+    "ok": true,
+    "persistence": "saved",
+    "mutation": "applied",
+    "warnings": [],
+    "target": {
+      "vault": "Paper",
+      "path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md"
+    },
+    "revision": "disk:2uqr-i19ow-2esrta",
+    "data": {
+      "path": "archive/2026-11-06-研究框架紧凑重排/二次收紧/正式画布回读.png",
+      "format": "png",
+      "bytes": 1329341,
+      "width": 2154,
+      "height": 3510,
+      "source": "disk",
+      "theme": "light",
+      "revision": "disk:2uqr-i19ow-2esrta",
+      "effectiveScale": 1,
+      "imageSummary": {
+        "original": 0,
+        "thumbnail": 0,
+        "placeholder": 0
+      },
+      "imageDecisions": {
+        "items": [],
+        "total": 0
+      },
+      "representationId": "preview:5e-1hq3o50-1okpyzo",
+      "sceneToPreview": {
+        "sceneBounds": {
+          "x": 4,
+          "y": -1.5499999999999972,
+          "width": 2154,
+          "height": 3510.3500000000013
+        },
+        "output": {
+          "width": 2154,
+          "height": 3510
+        }
+      }
+    }
+  },
+  "publication": {
+    "archive/2026-11-06-研究框架紧凑重排/二次收紧/二次收紧前原件.zip": {
+      "path": "archive/2026-11-06-研究框架紧凑重排/二次收紧/二次收紧前原件.zip",
+      "sha256": "3dd5f86a4eec5a356b53ef5cd47536c8a13387ebb321f3ae5ecece4412d375e4",
+      "size_bytes": 2012248,
+      "created": true,
+      "backup": null,
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "archive/2026-11-06-研究框架紧凑重排/二次收紧/执行记录.zip": {
+      "path": "archive/2026-11-06-研究框架紧凑重排/二次收紧/执行记录.zip",
+      "sha256": "a204227e9916908a2d2bdb595611f4cce08339bda9526ed489b5e31cefa54c8f",
+      "size_bytes": 309082,
+      "created": true,
+      "backup": null,
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "archive/2026-11-06-研究框架紧凑重排/二次收紧/README.md": {
+      "path": "archive/2026-11-06-研究框架紧凑重排/二次收紧/README.md",
+      "sha256": "cb388d2447522b19c60a1135ddc2fc7c61b64605fbcaa9eb94a4bec5ab30d766",
+      "size_bytes": 1583,
+      "created": true,
+      "backup": null,
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md": {
+      "path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md",
+      "sha256": "cbac4802fca4f73974548cb5948404ee25abf19977269c5d95f4cf5296b99416",
+      "size_bytes": 137879,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md",
+        "canonical_path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_2efb8825168246cbbe45c3555f9d76ee.bak",
+        "original_sha256": "97271cf1bed713b3a6ae4e8762618375efc67b83fa61c78db7a2347159d51caa",
+        "original_size_bytes": 136799,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "cbac4802fca4f73974548cb5948404ee25abf19977269c5d95f4cf5296b99416",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.png": {
+      "path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.png",
+      "sha256": "c34d965e7fdaa492c1b93baa7ffc4b4d06095d3bb62e867d3a2893e07c0ee2b3",
+      "size_bytes": 1329341,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.png",
+        "canonical_path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.png",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_32b949005522411ab256b8925d1f2dfa.bak",
+        "original_sha256": "a367bdbd77198ffc329f00382d45efeb03bc5d20af82682db533c35d08ec2417",
+        "original_size_bytes": 1672236,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "c34d965e7fdaa492c1b93baa7ffc4b4d06095d3bb62e867d3a2893e07c0ee2b3",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.svg": {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.svg",
+      "sha256": "eba8dfb6ff8b44b1ffde067a72100b5f9a43fb28652950e9c1752d8341eb501d",
+      "size_bytes": 417851,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.svg",
+        "canonical_path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.svg",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_1ee899fa416746c8bb10a0571b359db9.bak",
+        "original_sha256": "9461a2585460f6666ab810f6989367874a7e79895b9b7b3defff9114cffded43",
+        "original_size_bytes": 452507,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "eba8dfb6ff8b44b1ffde067a72100b5f9a43fb28652950e9c1752d8341eb501d",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.drawio": {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.drawio",
+      "sha256": "dd550ecd1029b41664ee9b67cd0e4d658df5aca4db21c05164b7682769d6e5a1",
+      "size_bytes": 228592,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.drawio",
+        "canonical_path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.drawio",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_c89aeee550154cb58a539daaa4599d56.bak",
+        "original_sha256": "fafb57d243a42217094e18228c742d7d8f602a017244156a4289a70d56cca612",
+        "original_size_bytes": 226224,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "dd550ecd1029b41664ee9b67cd0e4d658df5aca4db21c05164b7682769d6e5a1",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅第三章局部.png": {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅第三章局部.png",
+      "sha256": "219cf985ece5b1b2ebab003399a3b8b24c4141a6a0bf3f689174186cd3938f8e",
+      "size_bytes": 280043,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅第三章局部.png",
+        "canonical_path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅第三章局部.png",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_bb8b2094341c411889b41d8bf119e6c2.bak",
+        "original_sha256": "e8b09c3d0059dd954c16e7b497880749d6fdf914662e8f8565f30face8d00966",
+        "original_size_bytes": 323448,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "219cf985ece5b1b2ebab003399a3b8b24c4141a6a0bf3f689174186cd3938f8e",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排布局工作表示.json": {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排布局工作表示.json",
+      "sha256": "bc70f6c337e08ecae6d99c746e01f15c4363ae5aa3bd3185f40db3bfee62c070",
+      "size_bytes": 220637,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排布局工作表示.json",
+        "canonical_path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排布局工作表示.json",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_6a8a1310bf214e8d8f5174e83373862b.bak",
+        "original_sha256": "2851756b8cd413608851c06eb7e84e4746ec6c926916a391e5ce3b8238946dc9",
+        "original_size_bytes": 206585,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "bc70f6c337e08ecae6d99c746e01f15c4363ae5aa3bd3185f40db3bfee62c070",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "项目管理/绘图自动化/论文研究框架Excalidraw/混排验收.json": {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/混排验收.json",
+      "sha256": "d1ed5a63b673e2ee913fda3bda5818f1a174e403e8f113e615ee6c547490b3ef",
+      "size_bytes": 2966,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "项目管理/绘图自动化/论文研究框架Excalidraw/混排验收.json",
+        "canonical_path": "项目管理/绘图自动化/论文研究框架Excalidraw/混排验收.json",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_a27f02d0ab144ff78807c75811ba5b2a.bak",
+        "original_sha256": "adae9e7bb3a208f3fe1c9bfeac934305d32c51a16b64fd170638f440861897dd",
+        "original_size_bytes": 14519,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "d1ed5a63b673e2ee913fda3bda5818f1a174e403e8f113e615ee6c547490b3ef",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "项目管理/绘图自动化/论文研究框架Excalidraw/README.md": {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/README.md",
+      "sha256": "2d0f16a8eca5de0fa0e440dfc8e04a613a6705bb9ca7e75f1042cb28e22558ee",
+      "size_bytes": 3507,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "项目管理/绘图自动化/论文研究框架Excalidraw/README.md",
+        "canonical_path": "项目管理/绘图自动化/论文研究框架Excalidraw/README.md",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_f7a058319cc44069819b41659a9f1364.bak",
+        "original_sha256": "ab44ceae76cbe00fc11af64f2dccbdb4bebdd3ae9da00c09004b5f8c41cd4702",
+        "original_size_bytes": 3190,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "2d0f16a8eca5de0fa0e440dfc8e04a613a6705bb9ca7e75f1042cb28e22558ee",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "研究成果/〔研究路线〕论文研究路径/README.md": {
+      "path": "研究成果/〔研究路线〕论文研究路径/README.md",
+      "sha256": "82f4214e6079c6118d4abd1d2dbfe66eef6dff692b384890003b9fe4171d5dae",
+      "size_bytes": 18865,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "研究成果/〔研究路线〕论文研究路径/README.md",
+        "canonical_path": "研究成果/〔研究路线〕论文研究路径/README.md",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_cb4c4c8a056745b89d2d95f52ae2b7a3.bak",
+        "original_sha256": "b36eccb68458f6ad5a4afdaf65e621b1dd4d62dea55c0f71de781af1f089914d",
+        "original_size_bytes": 18666,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "82f4214e6079c6118d4abd1d2dbfe66eef6dff692b384890003b9fe4171d5dae",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    },
+    "archive/2026-11-06-研究框架紧凑重排/README.md": {
+      "path": "archive/2026-11-06-研究框架紧凑重排/README.md",
+      "sha256": "613d23fe56918c1a057cc1facdc814a2f15ade42825902d825423e23c090163b",
+      "size_bytes": 2396,
+      "created": false,
+      "backup": {
+        "created_at_utc": "2026-11-06T01:43:29Z",
+        "original_path": "archive/2026-11-06-研究框架紧凑重排/README.md",
+        "canonical_path": "archive/2026-11-06-研究框架紧凑重排/README.md",
+        "backup_path": ".hermes-academic-backups/20261106T014329Z_b7bc3bac2fb546cbaec7a35cb9c992f8.bak",
+        "original_sha256": "20ea345609560ab06cdb8bd51ccbbe598d895abd348123b0a99b2702edf8f7c0",
+        "original_size_bytes": 2141,
+        "original_permissions_mode_octal": "0644",
+        "requested_new_sha256": "613d23fe56918c1a057cc1facdc814a2f15ade42825902d825423e23c090163b",
+        "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+      },
+      "permissions_mode_octal": "0644",
+      "readback_verified": true
+    }
+  },
+  "desktopVisibleTarget": {
+    "verified": false,
+    "reason": "The visible Obsidian tab changed to another user drawing during GUI inspection; no unrelated tabs were closed or refocused. Native final disk readback, exact-target open and rendered exports succeeded.",
+    "nativeTargetOpenSucceeded": true,
+    "nativeCleanLiveSummaryObserved": true,
+    "scope": "Final acceptance relies on exact saved-scene equality and six actual rendered chapter inspections, not on the later screenshot of another canvas."
+  }
+}

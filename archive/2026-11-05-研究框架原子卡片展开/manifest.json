@@ -1,0 +1,36 @@
+{
+  "date": "2026-11-05",
+  "scope": "before atomic-card logic expansion",
+  "files": [
+    {
+      "path": "论文章节/大纲结构.yaml",
+      "sha256": "73598aefb895c92d87051ddabb63ac5358aa06c7cd0311d7faa23624b15eecd6",
+      "bytes": 97849
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "7bfca892e4f5a25cbb623ef4ce55ecd85b1ded1463f67d53507f35ca01eaf708",
+      "bytes": 10945
+    },
+    {
+      "path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md",
+      "sha256": "6f1ff8dd20e54b3678ffbfb54e68feb39b3ffb0cef29a290c519ecd2e8ba3de6",
+      "bytes": 40906
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/README.md",
+      "sha256": "76d9a7e02d5128bf4d62457a43e3fca15f4e14bec8a613f47fb4151ca0565a3d",
+      "bytes": 12639
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/README.md",
+      "sha256": "7a6eb9243be2cd2df0b17642cbfdbe9a890fd7df3be2acb88ed3488771e00a58",
+      "bytes": 1646
+    },
+    {
+      "path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.png",
+      "sha256": "dedd2662c3c6e9dab012629219d3f883261685a2acec59e8b8525d1f24e253ed",
+      "bytes": 655981
+    }
+  ]
+}

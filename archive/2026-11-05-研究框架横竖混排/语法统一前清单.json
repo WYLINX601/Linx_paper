@@ -1,0 +1,38 @@
+{
+  "target-before.excalidraw.md": {
+    "sha256": "7322c30dc7756271c13179135e15d4394600f25f5f19921cf612c999e954d9ef",
+    "bytes": 142573
+  },
+  "target-before.png": {
+    "sha256": "d92182e88228ba3e5fe3d00845c5919d402d37f05632b3710172d08c6b64b667",
+    "bytes": 1598938
+  },
+  "source-spec.json": {
+    "sha256": "0d124e7a325b7a60b47eb078740ca6863b4774a9a4df3e0552e19e1d05113758",
+    "bytes": 201788
+  },
+  "source-disk.json": {
+    "sha256": "615642f38c13e6012678bee66abd3f5d02f375c578b85521eaea894328d9c6b9",
+    "bytes": 650025
+  },
+  "source-transfers.json": {
+    "sha256": "c0d6b84c48ecc962d2a126778cb2a590f7718b25ea160f4ba6f7675e5e2a56fd",
+    "bytes": 6799
+  },
+  "operation-before.md": {
+    "sha256": "6fd64757d89311f6cd2eb4e65facfe11ea1822f28951096b367a77cb02d54315",
+    "bytes": 3365
+  },
+  "package-before.md": {
+    "sha256": "efccaf432c12b9c51b322326e2595c1ec9d41362e137d47840b26003ec7e7ba2",
+    "bytes": 14569
+  },
+  "outline.yaml": {
+    "sha256": "73598aefb895c92d87051ddabb63ac5358aa06c7cd0311d7faa23624b15eecd6",
+    "bytes": 97849
+  },
+  "route.json": {
+    "sha256": "7bfca892e4f5a25cbb623ef4ce55ecd85b1ded1463f67d53507f35ca01eaf708",
+    "bytes": 10945
+  }
+}

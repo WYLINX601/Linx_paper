@@ -2,7 +2,7 @@
   "schema_version": 1,
   "status": "working-path-not-execution-results",
   "positioning_source": "context/PROJECT_CONTEXT.md",
-  "scope": "已确认的理论—体系—景宁图谱—风貌分析研究主线及反馈；不是已完成流程。合成试建保留为正文外的过程支线，不作为论文成果或真实应用证据",
+  "scope": "2026-11-05目录逻辑接续：规则—真实事实—建筑学认识；研究可迭代，不是已完成流程，合成试建仍为正文外过程支线。 2026-11-05补充知识组织对类型比较的限定支撑关系，不改为建库完成后的单向流水线。",
   "nodes": [
     {
       "id": "scope",
@@ -51,7 +51,7 @@
     },
     {
       "id": "evidence",
-      "title": "核查资料、身份与质量",
+      "title": "核定真实样本、分析单元与输入资料质量",
       "topics": [
         "研究对象与样本边界",
         "三维资料质量与空间区域关联"
@@ -100,7 +100,7 @@
         "多尺度语义模型与建模依据",
         "三维资料质量与空间区域关联"
       ],
-      "status": "第四章计划成果；需真实样本、记录、实例化及质量校核；区域关联单独核查，不由三维资料不足推定所有实例事实均不可构建"
+      "status": "第四章计划：样本—数据—构建—结果；输入质量与成图记录关系质量分别检验，真实样本和资料仍待核定；三维不足不使全部非空间事实不可构建。"
     },
     {
       "id": "case-spatial",
@@ -120,6 +120,24 @@
         "三维资料质量与空间区域关联"
       ],
       "status": "D06综合产出范围已确认；由可比记录与局部类型形成组合、变体、现状空间差异及证据化建筑学解释。具体判据与真实样本未验证；时期演变和人的感知不在本阶段"
+    },
+    {
+      "id": "type-methods",
+      "title": "制定类型识别与比较分析方法",
+      "topics": [
+        "类型识别与比较",
+        "风貌特征筛选与数据记录"
+      ],
+      "status": "第三章方法任务；已有候选路径，分类单位、判据、未知与反例、组合比较和规则修订仍需落实与真实样本验证；对象、特征与关系的统一表达支撑比较，但不要求先完成数据库导入或全部三维关联；保留真实比较中反例与适配的反馈修订。"
+    },
+    {
+      "id": "application-review",
+      "title": "依据实际分析评价图谱与三维关联作用",
+      "topics": [
+        "图谱试建、查询与有效性",
+        "三维资料质量与空间区域关联"
+      ],
+      "status": "第五章计划；与输入质量、成图质量分开，不预设优于表格或图集，不宣称普遍复用性已验证"
     }
   ],
   "edges": [
@@ -296,6 +314,48 @@
       "to": "evaluation",
       "kind": "dependency",
       "label": "限定分析问题和解释边界"
+    },
+    {
+      "from": "theory",
+      "to": "type-methods",
+      "kind": "dependency",
+      "label": "分析依据与取舍"
+    },
+    {
+      "from": "features",
+      "to": "type-methods",
+      "kind": "dependency",
+      "label": "分类单位与记录判据"
+    },
+    {
+      "from": "type-methods",
+      "to": "case",
+      "kind": "dependency",
+      "label": "归类记录规则，不预填类型结果"
+    },
+    {
+      "from": "type-methods",
+      "to": "evaluation",
+      "kind": "dependency",
+      "label": "局部类型、组合与同条件比较程序"
+    },
+    {
+      "from": "evaluation",
+      "to": "type-methods",
+      "kind": "feedback",
+      "label": "反例及真实资料修订规则"
+    },
+    {
+      "from": "evaluation",
+      "to": "application-review",
+      "kind": "dependency",
+      "label": "以实际分析证据评价支持作用与限制"
+    },
+    {
+      "from": "semantics",
+      "to": "type-methods",
+      "kind": "dependency",
+      "label": "结构化特征与关系支撑"
     }
   ]
 }

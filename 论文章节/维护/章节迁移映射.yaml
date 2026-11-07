@@ -1,6 +1,6 @@
 schema_version: 1
 status: working-mapping-not-final
-updated: 2026-11-04
+updated: '2026-11-05'
 scope: >-
   v0.6正文工作稿的二级节与现行大纲活动节的迁移映射。只表示可接续、需改写、需移入或新写的施工关系，
   不表示正文已完成、引文已核或结论已成立。稳定节ID以大纲结构为准。
@@ -10,212 +10,244 @@ source_body: 论文章节/全文工作稿/景宁畲族传统民居风貌特征�
 mappings:
 # 第一章 绪论
 - old_chapter: 第一章 绪论
-  old: "1.1 研究背景"
+  old: 1.1 研究背景
   current: [section-1-1]
   action: rewrite
-  note: 保留背景素材，补“问题提出”；不以数字化趋势代替具体研究问题。
+  note: 保留背景素材，只交代问题缘起；正式问题集中在绪论的问题目标节。
 - old_chapter: 第一章 绪论
-  old: "1.2 研究目的与意义"
+  old: 1.2 研究目的与意义
   current: [section-1-2]
   action: rewrite
   note: 与旧1.5的目标部分合并为“研究问题、目标与意义”，先问题后目标。
 - old_chapter: 第一章 绪论
-  old: "1.3 相关概念界定"
+  old: 1.3 相关概念界定
   current: [section-1-3]
   action: rewrite
   note: 对象与范围留在绪论；概念辨析移入第二章2.1，不在绪论重复展开。
 - old_chapter: 第一章 绪论
-  old: "1.4 国内外相关研究现状"
+  old: 1.4 国内外相关研究现状
   current: [section-1-4]
   action: rewrite
   note: 保留综述与1.4.2引文，补“有原文证据的缺口”；不把图谱应用本身写成创新。
 - old_chapter: 第一章 绪论
-  old: "1.5 研究目标、内容与方法"
+  old: 1.5 研究目标、内容与方法
   current: [section-1-2, section-1-5]
   action: split
   note: 目标并入1.4；内容与方法留在1.5，按“体系—实例—分析”重排。
 - old_chapter: 第一章 绪论
-  old: "1.6 研究技术路线"
+  old: 1.6 研究技术路线
   current: [section-1-6]
   action: rewrite
   note: 接续研究路径JSON，但正文只呈现论文论证路线，不把过程日志写成正文。
 
 # 第二章 现行章为新写；旧第二章对象/资料内容迁入第四章
-- old_chapter: null
-  old: null
+- old_chapter:
+  old:
   current: [section-2-style-concept]
   action: new
   note: 新写“风貌是什么”；现有夏雷、吴莹及跨文献对照只作依据，不等于本章已成稿。
-- old_chapter: null
-  old: null
+- old_chapter:
+  old:
   current: [section-2-analysis-foundations]
   action: new
   note: 新写“怎样分析”；类型学、形态、感知、文化解释作为比较对象，不预设全部采用。
-- old_chapter: null
-  old: null
+- old_chapter:
+  old:
   current: [section-2-kg-foundations]
   action: new
   note: 新写“图谱是什么”；补知识图谱基础概念直接来源，BOT只作建模参照。
-- old_chapter: null
-  old: null
+- old_chapter:
+  old:
   current: [section-2-integration-framework]
   action: new
   note: 新写“如何结合”；说明理论—观察—知识组织—分析解释的链条，不提前写第三章模型。
-- old_chapter: null
-  old: null
+- old_chapter:
+  old:
   current: [section-2-summary]
   action: new
   note: 新写本章小结；只总结前四节已论证内容。
 - old_chapter: 第二章 景宁畲族传统民居研究对象与多尺度资料基础
-  old: "2.1 研究范围与对象"
+  old: 2.1 研究范围与对象
   current: [section-2-1]
   action: move
-  note: 对象范围的核心已在第一章1.3；样本选择与多尺度分析单元移入第四章4.1。
+  note: 绪论交代研究对象边界，第四章样本三级节落实样本与分析单元；正文尚未移动。
 - old_chapter: 第二章 景宁畲族传统民居研究对象与多尺度资料基础
-  old: "2.2 研究区域的自然、人文与聚落环境"
+  old: 2.2 研究区域的自然、人文与聚落环境
   current: [section-2-2]
   action: move
-  note: 移入第四章4.1之前的地域背景；只保留与民居解释有关的背景。
+  note: 移入第四章地域概况三级节，只保留服务民居研究的背景。
 - old_chapter: 第二章 景宁畲族传统民居研究对象与多尺度资料基础
-  old: "2.3 传统民居分布与调查样本选取"
+  old: 2.3 传统民居分布与调查样本选取
   current: [section-2-1]
   action: merge
-  note: 候选核查并入4.1“研究样本选择与多尺度分析单元”；候选人身份核查仍回证据页，不单列一节。
+  note: 并入第四章样本选择三级节；候选对象身份回查原始证据，不默认正式纳入。
 - old_chapter: 第二章 景宁畲族传统民居研究对象与多尺度资料基础
-  old: "2.4 多尺度风貌调查与数字化资料采集"
+  old: 2.4 多尺度风貌调查与数字化资料采集
   current: [section-2-4]
   action: move
-  note: 移入第四章4.3“多源资料整理与研究对象对应”；保留资料时点与三维条件。
+  note: 移入第四章资料采集、整理与质量评估三级节；保留资料时点与待核状态。
 - old_chapter: 第二章 景宁畲族传统民居研究对象与多尺度资料基础
-  old: "2.5 调研资料整理与证据质量控制"
+  old: 2.5 调研资料整理与证据质量控制
   current: [section-2-4, section-4-4]
   action: split
-  note: 资料整理入4.3；质量校核与图谱质量检验合入4.7，不另立“资料章”。
+  note: 拆分输入资料质量与成图后的记录关系质量；分别接续第四章资料节和成果检验节。
 - old_chapter: 第二章 景宁畲族传统民居研究对象与多尺度资料基础
-  old: "2.6 本章小结"
+  old: 2.6 本章小结
   current: [section-4-5]
   action: move
-  note: 旧资料章小结由第四章4.8“本章小结”接续；现行第二章另有新写小结。
+  note: 由第四章小结接续资料与实例成果边界；现行第二章小结另写。
 
 # 第三章 体系与模型
 - old_chapter: 第三章 传统民居多尺度风貌特征提取与知识图谱组织体系设计
-  old: "3.1 体系设计目标与总体框架"
+  old: 3.1 体系设计目标与总体框架
   current: [section-3-2]
   action: merge
-  note: 总体框架并入3.1“构建原则与分类方法”开头；不再单列“目标与框架”一节。
-- old_chapter: null
-  old: null
+  note: 总体原则接续第三章构建依据与原则，具体类型识别程序另在类型方法节展开。
+- old_chapter:
+  old:
   current: [section-3-multiscale]
   action: new
   note: 2026-11-04将原3.2—3.4三个并列二级节收束为3.2“多尺度风貌特征体系”父节；三个三级节保留原稳定ID。
 - old_chapter: 第三章 传统民居多尺度风貌特征提取与知识图谱组织体系设计
-  old: "3.2 多尺度建筑风貌特征体系与提取规则"
+  old: 3.2 多尺度建筑风貌特征体系与提取规则
   current: [section-3-2, section-3-village, section-3-group, section-3-building]
   action: split
-  note: 按村落、组团、单体三个三级节重排，置于3.2父节下；原则与提取方法留在3.1。
+  note: 三个尺度在多尺度特征父节下共同展开；构建依据与记录原则留本章首节。
 - old_chapter: 第三章 传统民居多尺度风貌特征提取与知识图谱组织体系设计
-  old: "3.3 建筑风貌知识图谱模式层设计"
+  old: 3.3 建筑风貌知识图谱模式层设计
   current: [section-3-3]
   action: rewrite
-  note: 并入3.3“跨尺度知识关联与图谱模型整合”；模式层与跨尺度关系一起写。
+  note: 接续图谱总体结构与跨尺度知识关联三级节；保留原稳定ID与来源。
 - old_chapter: 第三章 传统民居多尺度风貌特征提取与知识图谱组织体系设计
-  old: "3.4 特征提取、图谱构建与风貌认知的实施流程"
+  old: 3.4 特征提取、图谱构建与风貌认知的实施流程
   current: [section-3-4]
   action: rewrite
-  note: 改为3.5“实例化与数据质量控制方法”；实施流程压缩为方法接口，不写成开发日志。
+  note: 接续图谱实例化与质量控制三级节，不把建库过程当作类型分析方法。
 - old_chapter: 第三章 传统民居多尺度风貌特征提取与知识图谱组织体系设计
-  old: "3.5 本章小结"
+  old: 3.5 本章小结
   current: [section-3-5]
   action: rewrite
   note: 只总结体系与模型，不提前写景宁实例或风貌结论。
-- old_chapter: null
-  old: null
+- old_chapter:
+  old:
   current: [section-3-spatial-association]
   action: new
   note: 新增“语义对象与三维空间区域的关联方法”；旧稿只有零散讨论，不能直接充当本节。
 
 # 第四章 景宁实例
 - old_chapter: 第四章 景宁畲族典型村落风貌特征提取与知识图谱构建
-  old: "4.1 实证样本与图谱构建的数据准备"
+  old: 4.1 实证样本与图谱构建的数据准备
   current: [section-2-1, section-2-4]
   action: split
-  note: 样本选择入4.1；数据准备入4.3；不再保留“实证样本”这一预设表述。
+  note: 拆入第四章样本选择与资料采集两个三级节，不沿用实证已完成预设。
 - old_chapter: 第四章 景宁畲族典型村落风貌特征提取与知识图谱构建
-  old: "4.2 典型村落多尺度风貌特征提取与结构化整理"
+  old: 4.2 典型村落多尺度风貌特征提取与结构化整理
   current: [section-4-2]
   action: rewrite
-  note: 改为4.4“多尺度风貌特征提取与语义标注”；去掉“典型村落”预设，按实际样本写。
+  note: 接续资料与特征提取组内的语义标注三级节；真实类型分布与差异留第五章。
 - old_chapter: 第四章 景宁畲族典型村落风貌特征提取与知识图谱构建
-  old: "4.3 典型村落建筑风貌知识图谱实例化构建"
+  old: 4.3 典型村落建筑风貌知识图谱实例化构建
   current: [section-4-3]
   action: rewrite
-  note: 改为4.5“风貌知识图谱实例化”；突出真实资料与合成试例分开。
+  note: 接续实例数据组织与图谱构建三级节；真实资料与合成试例分开。
 - old_chapter: 第四章 景宁畲族典型村落风貌特征提取与知识图谱构建
-  old: "4.4 图谱数据校核、可用性检验与体系修订"
+  old: 4.4 图谱数据校核、可用性检验与体系修订
   current: [section-4-4]
   action: rewrite
-  note: 改为4.7“构建结果与质量检验”；体系修订反馈可保留，但不写成方法有效性结论。
+  note: 接续图谱构建成果与质量检验；不据导入、查询成功认定方法有效。
 - old_chapter: 第四章 景宁畲族典型村落风貌特征提取与知识图谱构建
-  old: "4.5 本章小结"
+  old: 4.5 本章小结
   current: [section-4-5]
   action: rewrite
   note: 归纳实际图谱与三维关联成果；限定第五章输入。
-- old_chapter: null
-  old: null
+- old_chapter:
+  old:
   current: [section-4-spatial-association]
   action: new
   note: 新增“民居实例与三维空间区域关联”；旧稿没有独立、可核验的实施节。
 
 # 第五章 风貌分析
 - old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
-  old: "5.1 风貌认知的分析基础与表达方式"
-  current: [section-5-1]
-  action: rewrite
-  note: 改为“分析任务与比较方法”；先说明分析问题，再谈表达。
-- old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
-  old: "5.2 村落整体尺度的空间形态与群体风貌认知"
+  old: 5.2 村落整体尺度的空间形态与群体风貌认知
   current: [section-5-2]
   action: rewrite
   note: 保留尺度素材；结论按真实证据重写，不沿用旧稿的概括判断。
 - old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
-  old: "5.3 建筑组团尺度的空间组织与风貌组合认知"
+  old: 5.3 建筑组团尺度的空间组织与风貌组合认知
   current: [section-5-3]
   action: rewrite
   note: 保留组合与空间关系素材；明确样本范围和比较条件。
 - old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
-  old: "5.4 建筑单体尺度的风貌类型与特征组合认知"
+  old: 5.4 建筑单体尺度的风貌类型与特征组合认知
   current: [section-5-4]
   action: rewrite
   note: 保留类型与特征素材；类型形成仍是候选方法，不写成已定论。
 - old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
-  old: "5.5 村落—组团—单体跨尺度风貌关联与综合比较"
+  old: 5.5 村落—组团—单体跨尺度风貌关联与综合比较
   current: [section-5-5]
   action: rewrite
   note: 保留跨尺度比较素材；明确可比范围与不可比项。
 - old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
-  old: "5.6 建筑风貌系统性归纳与知识图谱方法价值"
+  old: 5.6 建筑风貌系统性归纳与知识图谱方法价值
   current: [section-5-5, section-5-6]
   action: split
-  note: 建筑学归纳并入5.5；方法价值改为5.6“应用评价”，不替代建筑学结论。
+  note: 建筑学综合与方法应用评价分别接续第五章相应节；不互相替代。
 - old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
-  old: "5.7 本章小结"
+  old: 5.7 本章小结
   current: [section-5-7]
   action: rewrite
   note: 只总结有证据的分析认识与方法评价，不重复摘要式贡献。
 
 # 第六章 结论
 - old_chapter: 第六章 结论与展望
-  old: "6.1 主要研究结论"
+  old: 6.1 主要研究结论
   current: [section-6-1]
   action: rewrite
   note: 按“体系—实例—分析”三条结论重写，不把过程当结论。
 - old_chapter: 第六章 结论与展望
-  old: "6.2 研究贡献与创新点"
+  old: 6.2 研究贡献与创新点
   current: [section-6-2]
   action: rewrite
-  note: 现行节名改为“研究贡献”；“创新点”待证据与比较支持后再写。
+  note: 接续研究贡献与适用范围；新增知识及方法贡献须有既有研究对照和真实应用证据。
 - old_chapter: 第六章 结论与展望
-  old: "6.3 研究不足与展望"
+  old: 6.3 研究不足与展望
   current: [section-6-3]
   action: rewrite
   note: 保留不足与后续方向；与资料条件、样本边界和未验证项对应。
+- old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
+  old: 5.1 风貌认知的分析基础与表达方式
+  current:
+  - section-3-type-methods
+  action: split
+  note: 旧准备性章节中的通用类型识别与比较程序转入第三章；需改写，不表示旧稿已具备完整方法。
+- old_chapter: 第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知
+  old: 5.1 风貌认知的分析基础与表达方式
+  current:
+  - section-2-1
+  - section-4-4
+  action: split
+  note: 旧准备性章节的样本、单元与可用范围转入第四章；逐项有效样本、缺失值和分母仍在第五章对应图表说明。
+- old_chapter:
+  old:
+  current:
+  - section-3-graph-methods
+  action: new
+  note: 2026-11-05新增论证层级；归并统一模型、三维关联和实例化方法为父节，原节点保留下移。不表示需要重复写一套内容。
+- old_chapter:
+  old:
+  current:
+  - section-4-sampling
+  action: new
+  note: 2026-11-05新增论证层级；归并地域背景与样本选择为父节。不表示需要重复写一套内容。
+- old_chapter:
+  old:
+  current:
+  - section-4-data-production
+  action: new
+  note: 2026-11-05新增论证层级；归并资料与特征生产为父节，原任务下移保留。不表示需要重复写一套内容。
+- old_chapter:
+  old:
+  current:
+  - section-4-instance-construction
+  action: new
+  note: 2026-11-05新增论证层级；归并实例构建与三维关联为父节。不表示需要重复写一套内容。

@@ -1,0 +1,517 @@
+{
+  "completed_at": "2026-11-06T00:14:58.363494+08:00",
+  "scope": "项目管理/绘图自动化/论文研究框架Excalidraw",
+  "before_count": 70,
+  "removed_count": 65,
+  "remaining_count": 5,
+  "remaining_files": [
+    "项目管理/绘图自动化/论文研究框架Excalidraw/README.md",
+    "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.svg",
+    "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅第三章局部.png",
+    "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排布局工作表示.json",
+    "项目管理/绘图自动化/论文研究框架Excalidraw/混排验收.json"
+  ],
+  "filesystem_tree": {
+    "files": [
+      ".DS_Store",
+      "README.md",
+      "横竖混排/横主竖辅总览.svg",
+      "横竖混排/横主竖辅第三章局部.png",
+      "横竖混排/混排布局工作表示.json",
+      "混排验收.json"
+    ],
+    "directories": [
+      "横竖混排"
+    ]
+  },
+  "filesystem_matches_obsidian_inventory": true,
+  "removed_files": [
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/创建请求.json",
+      "source_sha256": "38d24bb26b499adc7ffcc52dd8698f944b18f0b47d19f814b675efdb4fdf2448",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/创建请求.json",
+      "reconciliation": "Exact mac-paper read returned not_found; source inventory count 69; resumed without replaying successful delete."
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/复绘验收.json",
+      "source_sha256": "c444f548134e139725a56b3abd1f8c0c43bae82d813c1e367805fc8a96dc4067",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/复绘验收.json"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/原生布局构造.excalidraw",
+      "source_sha256": "0e3b815b2b620181298dd43cdf3929273de24fa59cf16f2284f917663fe9078f",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/原生布局构造.excalidraw"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/原生构造请求.json",
+      "source_sha256": "eb95e274a646fb59bc75a190383ab582af42c451d6f917a0f0a268d2efcd3899",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/原生构造请求.json"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版修正候选.excalidraw.md",
+      "source_sha256": "7322c30dc7756271c13179135e15d4394600f25f5f19921cf612c999e954d9ef",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版修正候选.excalidraw.md"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版修正构造.excalidraw",
+      "source_sha256": "45640009420f18c18b2bda4adcd78973dc27d7d9edc68898aaf015d23702fab5",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版修正构造.excalidraw"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版修正构造请求.json",
+      "source_sha256": "18a3b3e598a3dac19cd3075e0b378d5081dc9de989d4bf2d071aee4bb2beed5b",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版修正构造请求.json"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版修正模板.excalidraw",
+      "source_sha256": "44c99d8def9d450895036cad183e794291e707910d3c76ec1187c50b4a4054a1",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版修正模板.excalidraw"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版局部示例.png",
+      "source_sha256": "d618fa7d1a82018525e07482bdb517fcebf643fb46e8c39a383b99a8114a7556",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/排版局部示例.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/校对原生构造请求.json",
+      "source_sha256": "83ecac17dc713f16c45676c2459d4782c703606a8d7fecee8c207f19c2704dee",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/校对原生构造请求.json"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/校对布局构造.excalidraw",
+      "source_sha256": "68d4af655126d24af40a570f717934ddedc962a00cb0a044f6d764ae5ab60d0a",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/校对布局构造.excalidraw"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/校对身份保留模板.excalidraw",
+      "source_sha256": "be537f7149082e11a9cdb459a9895626f4dedf29e5dc6a174ce7ad8007123f73",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/校对身份保留模板.excalidraw"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.png",
+      "source_sha256": "5a03a5ad20c7dbd1a3c0fd58bc744562ef910134ceb222df1e473e5984d1ecaa",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅总览.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅排版候选.excalidraw.md",
+      "source_sha256": "ab40b78e5603e68853aa3adec95f65c1cc45db14555ddbf00ab14007185a0648",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅排版候选.excalidraw.md"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅正式回读.png",
+      "source_sha256": "5a03a5ad20c7dbd1a3c0fd58bc744562ef910134ceb222df1e473e5984d1ecaa",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/横主竖辅正式回读.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/正式画布回读.png",
+      "source_sha256": "d92182e88228ba3e5fe3d00845c5919d402d37f05632b3710172d08c6b64b667",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/正式画布回读.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排候选.excalidraw.md",
+      "source_sha256": "139a4fcb473f80085945879cf1075ba05f5718e917866aed5d457ba0d17dba0d",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排候选.excalidraw.md"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排总览.png",
+      "source_sha256": "262f45b26f07c189aac452fbb06e4ec8a4e26281821c9b562162d9e3be9155fe",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排总览.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排总览.svg",
+      "source_sha256": "ceabf92980f69609b0eba6493452e5b2922a49fe64a07cf26e751ec52578e7fb",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排总览.svg"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排校对候选.excalidraw.md",
+      "source_sha256": "7b693fb8ca0a6b148e22676c47496b57c9bff74805df470176257eb94587ad99",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排校对候选.excalidraw.md"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排验收总览.png",
+      "source_sha256": "d92182e88228ba3e5fe3d00845c5919d402d37f05632b3710172d08c6b64b667",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排验收总览.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排验收总览.svg",
+      "source_sha256": "564df7a2fb17c8a0a4da15db5e1548d95768bc04cbf1ba5b6089a328b9418a45",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/混排验收总览.svg"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第1章.png",
+      "source_sha256": "c3d5a1812f39961020fd32945b2813336398f0779f89f34a1b729867f2c5afcf",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第1章.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第1章语法校对.png",
+      "source_sha256": "96b73a4bf3bb951692933916bc1f3973d80274c104853c5c77f07e7433859434",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第1章语法校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第1章验收.png",
+      "source_sha256": "1c4d320e481cc2790282f2294b1917e7c01a2d68ec726902929c2d44ec7e0305",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第1章验收.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第2章.png",
+      "source_sha256": "546acc71be65c53aa5b9c87193158ae92d0f6e8e7322a49dc1f6b3b8e86a606d",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第2章.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第2章语法校对.png",
+      "source_sha256": "16cf76987235fbdd3fc3d80a83952a5eb76fd425247181c658106bcae9b5abaa",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第2章语法校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第2章验收.png",
+      "source_sha256": "ede39dd695fea1ff50d86d08e04215a098589771687b7480e86498791ade70f5",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第2章验收.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第3章.png",
+      "source_sha256": "daea1faee5959db9b4e333e076b8fa4afe5b41280b4e837a7f45d01cbc73fdb0",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第3章.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第3章语法校对.png",
+      "source_sha256": "043df5efb116a19b30ea5c92e9a6eee2c56b5b98b8b58776388d87d53630d789",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第3章语法校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第3章验收.png",
+      "source_sha256": "c219820d4a10e8173d648122b5a02e5b0ab37f14a790a45da1425c79fc5e7526",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第3章验收.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第4章.png",
+      "source_sha256": "4ec838ab41ea23906cf7bcb2d488d8dc891c235e904a3e7dc64b978e0c7fb064",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第4章.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第4章语法校对.png",
+      "source_sha256": "de274671ef328b92b464c728a4841296985707f1b3020a7e8ea1cf01ce988d46",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第4章语法校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第4章验收.png",
+      "source_sha256": "be188edb4f4bd5a141e16ea3aeb704754cda222965726b4e8741181c6926a6ec",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第4章验收.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第5章.png",
+      "source_sha256": "d13fa4deff2facaedebd1084ae3cfad43278ad6be7f99d7748fea85829a0ef49",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第5章.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第5章语法校对.png",
+      "source_sha256": "0968da19b8a833fbd8a8eef48cf371dfbbabd800c1e748981f7ef9d6bdd65529",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第5章语法校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第5章验收.png",
+      "source_sha256": "39a7e72f142be113b1aff13e22c2572ed55543a5932d9b78e38b2efb8217fb40",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第5章验收.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第6章.png",
+      "source_sha256": "676e1f979d7afcc74cd20b3ed360014d78ca8a5813c3f6be0710ee9b3ada22a7",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第6章.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第6章语法校对.png",
+      "source_sha256": "fcc41f6ffe8ecead8cf533b57fd8c8b21f7f822f43350cad8c8866624134acb7",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第6章语法校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第6章验收.png",
+      "source_sha256": "861ba83bc15c0200d889578adcd8ddc29c328b40cd24e389d737ed009263955a",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/第6章验收.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/视觉语法构造.excalidraw",
+      "source_sha256": "7cf546a224ba1786e5f8487adbfab7af7ed75b0170494d17cc45e080be691419",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/视觉语法构造.excalidraw"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/视觉语法构造请求.json",
+      "source_sha256": "4d42ccef0d802439fa033ec6379b949971229884d25b49c1f0b3973c662a8f36",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/视觉语法构造请求.json"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/视觉语法模板.excalidraw",
+      "source_sha256": "619f9865164ce1d69d35e39bc0eca1ab63fa87e4df00b9d07271a1eb2819fdee",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/视觉语法模板.excalidraw"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/身份保留模板.excalidraw",
+      "source_sha256": "2deb2cc3c5e7bc4993a9ed6deb38cf876e35dd48d0275c92769246249f386dd7",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/横竖混排/身份保留模板.excalidraw"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/卡片关系工作表示.json",
+      "source_sha256": "abc89cfb8f7cc6ce23b1c9606c0996f55de4fd7a1f17ae4d42dfd7c9e4771d2a",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/卡片关系工作表示.json"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/原生构造请求.json",
+      "source_sha256": "fe180f6abd0184975f550cd571109dd0dd834ff4dba54ebeae9e42b3a78984c9",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/原生构造请求.json"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/正式画布回读.png",
+      "source_sha256": "f3d7169721ad4120e9ce6ab95abcd17d774e2bd0b16690e54e84bf16205720b0",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/正式画布回读.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第1章校对.png",
+      "source_sha256": "cc45faf116d56719a61d99356aa57c7c7816595ab87233b8a19153aee2133865",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第1章校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第1章检查.png",
+      "source_sha256": "cc45faf116d56719a61d99356aa57c7c7816595ab87233b8a19153aee2133865",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第1章检查.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第2章校对.png",
+      "source_sha256": "fc15c8cb40ee1a2f67b3bcb3bc23f40304bb15ad4ab04cb998ec17bc8b4f0a08",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第2章校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第2章检查.png",
+      "source_sha256": "fc15c8cb40ee1a2f67b3bcb3bc23f40304bb15ad4ab04cb998ec17bc8b4f0a08",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第2章检查.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第3章校对.png",
+      "source_sha256": "735d54298c568ab8b589745889642a6680db43a43c4e29c377518e4b66788c9c",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第3章校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第3章检查.png",
+      "source_sha256": "735d54298c568ab8b589745889642a6680db43a43c4e29c377518e4b66788c9c",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第3章检查.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第4章校对.png",
+      "source_sha256": "90a50187df944721e5858ca198f96df9c624e6df1aa15958563257a8ba920d9b",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第4章校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第4章检查.png",
+      "source_sha256": "6b93505b71846e617029593c94b14a3a7fd7c408f308e21bb8a1151d4b477a7b",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第4章检查.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第5章校对.png",
+      "source_sha256": "f9f7f4650676c3d431712e7ae62a6182192d2b4657efc9faa60a8e01e929b77f",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第5章校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第5章检查.png",
+      "source_sha256": "f9f7f4650676c3d431712e7ae62a6182192d2b4657efc9faa60a8e01e929b77f",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第5章检查.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第6章校对.png",
+      "source_sha256": "18456fe662695f93f16ddbefec97e54fdca928b897e3d8ce39beb9b5dd91c427",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第6章校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第6章检查.png",
+      "source_sha256": "18456fe662695f93f16ddbefec97e54fdca928b897e3d8ce39beb9b5dd91c427",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第6章检查.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第三章模型方法局部.png",
+      "source_sha256": "e7a1ee7c1439a0336c6f8d56215f77518c4f4040428e18e834ec40e37c4a9108",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/第三章模型方法局部.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/长图校对.png",
+      "source_sha256": "f3d7169721ad4120e9ce6ab95abcd17d774e2bd0b16690e54e84bf16205720b0",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/长图校对.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/长图校对.svg",
+      "source_sha256": "d052a43c5ae0b93a78fe878dd2b1c019671649739f6f3a87f6862d7e39b75535",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/长图校对.svg"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/长图检查.png",
+      "source_sha256": "b2d67584f4ae47280ee4b76bf39f33cc8b003554ae175925dd0e58b1de7abcda",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/长图检查.png"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/长图检查.svg",
+      "source_sha256": "a1b3f81180bc61dc6b2c7862136feb4a20aff7d9b388b606cae5979f42ebacf2",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开/长图检查.svg"
+    },
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开验收.json",
+      "source_sha256": "055ba81db0ea4b428625da93457395a2c87f52851772f0809a16836cd90390ba",
+      "method": "Obsidian delete without permanent",
+      "response": "Moved to trash: 项目管理/绘图自动化/论文研究框架Excalidraw/逻辑展开验收.json"
+    }
+  ],
+  "archive": "archive/2026-11-06-研究框架废弃图清理",
+  "archive_readback": {
+    "zip_sha256": "14df4c87551f701390467f4e8e740909b8edf4734d0f0cb0f4760cd3fbb38f33",
+    "verified_original_members": 65,
+    "counts_by_suffix": {
+      ".json": 9,
+      ".excalidraw": 8,
+      ".md": 4,
+      ".png": 40,
+      ".svg": 4
+    },
+    "readback_verified": true
+  },
+  "protected_files_unchanged": [
+    {
+      "path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md",
+      "sha256": "ab40b78e5603e68853aa3adec95f65c1cc45db14555ddbf00ab14007185a0648",
+      "size_bytes": 143447
+    },
+    {
+      "path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.png",
+      "sha256": "5a03a5ad20c7dbd1a3c0fd58bc744562ef910134ceb222df1e473e5984d1ecaa",
+      "size_bytes": 1606921
+    },
+    {
+      "path": "论文章节/大纲结构.yaml",
+      "sha256": "73598aefb895c92d87051ddabb63ac5358aa06c7cd0311d7faa23624b15eecd6",
+      "size_bytes": 97849
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+      "sha256": "7bfca892e4f5a25cbb623ef4ce55ecd85b1ded1463f67d53507f35ca01eaf708",
+      "size_bytes": 10945
+    },
+    {
+      "path": "论文章节/论文目录.smm.md",
+      "sha256": "d3678cd4dacff2a2a58da08e243d74e0a5d4a58761759a7b6377e4e78095dc4b",
+      "size_bytes": 33092
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/论文研究框架图.drawio",
+      "sha256": "ed9be969d5c44acefe30c111596de4672e2ee1cb579795afba204072376de21c",
+      "size_bytes": 31639
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/论文研究框架图.svg",
+      "sha256": "6a02f4f5548ca0d806dd6fcdfac5c4be2cfacf6b8019c0c0a56196bff4fa6b21",
+      "size_bytes": 42577
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/论文研究框架图.png",
+      "sha256": "10517aac4d9828a7aa244fef7a04a88f6b545cc18bdd426eeca9b453772d34e3",
+      "size_bytes": 775046
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/论文研究框架图.pdf",
+      "sha256": "aa11193f3dfb368ae28b08523afa42ec57b7a8709aca3af11d99cab6c7b6d0c9",
+      "size_bytes": 593528
+    }
+  ],
+  "native_drawing_readback": {
+    "path": "Excalidraw/Drawing 2026-11-05 19.54.23.excalidraw.md",
+    "source": "disk",
+    "revision": "disk:2z1f-trdrig-sxlcdc",
+    "total": 596,
+    "assetIds": [],
+    "types": {
+      "rectangle": 215,
+      "arrow": 108,
+      "text": 273
+    }
+  },
+  "reference_checks": [
+    {
+      "path": "项目管理/绘图自动化/论文研究框架Excalidraw/README.md",
+      "sha256": "4e3e3e2d598df07c8aa9f8a47e5dd0023db50c75c8359f7525aa14ba22cb6064",
+      "links_to_removed_work_files": 0
+    },
+    {
+      "path": "研究成果/〔研究路线〕论文研究路径/README.md",
+      "sha256": "880f78f7c3abc1639751b4f75cca6011802ee86a99dbce2b4b30f6a7b3412cc9",
+      "links_to_removed_work_files": 0
+    },
+    {
+      "path": "archive/README.md",
+      "sha256": "ca387cd0a278a153ab8240fdd24d6df7d0a8ad8dbbfacc847404bdf7c000fac8",
+      "links_to_removed_work_files": 0
+    }
+  ],
+  "maintenance": {
+    "exit_code": 1,
+    "new_failures": 0,
+    "remaining_preexisting_difference": "论文章节/章节导航/01-绪论.md — 既有表格空格格式差异，未为本次清理覆盖。",
+    "full_vault_green": false
+  },
+  "boundary": "只清理本轮自动绘图的废弃过程工件；现行图未重新绘制，研究与实证状态未更改。当前SVG、第三章阅读局部与被1106汇报引用的概览版按用途保留。"
+}

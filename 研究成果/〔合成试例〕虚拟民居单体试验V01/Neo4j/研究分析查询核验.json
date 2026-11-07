@@ -1,0 +1,516 @@
+{
+  "receiptType": "transcribed-live-MCP-returns-with-generated-query-hashes",
+  "recordedAt": "2026-11-06T10:20:36.629475+08:00",
+  "modelVersion": "V01-unified-2.2",
+  "sourceModelPath": "研究成果/〔合成试例〕虚拟民居单体试验V01/案例模型.json",
+  "sourceModelSha256": "3d80d09fff48138ae88acf1bf0b41563f45c01d9ce40ed2c56a2a615659df220",
+  "canonicalQueryPath": "研究成果/〔合成试例〕虚拟民居单体试验V01/Neo4j/基础关系修订审核查询.cypher",
+  "canonicalQuerySha256": "c73fb73b4b900b1293acc138d0a9167511a779e6eba45d9ae6e04490b6b5361b",
+  "tableVerification": "22 exact Table queries executed in the preceding round of this conversation; source model, canonical queries and parameter text unchanged on fresh read.",
+  "graphVerification": "22 exact Graph queries executed read-only through configured SSH-backed Neo4j MCP in this round; valueType checked for anchor, relation and path columns.",
+  "graphQueryCount": 22,
+  "databaseWrites": false,
+  "neo4jBrowserGUI": "not-exercised; native result types verified, not an actual Neo4j Browser screenshot acceptance",
+  "paperCheckBefore": {
+    "passed": false,
+    "knownOutOfSync": [
+      "论文章节/章节导航/01-绪论.md"
+    ],
+    "otherChecks": [
+      "alignment",
+      "claims",
+      "artifacts",
+      "literature",
+      "materials",
+      "tests"
+    ],
+    "unrelatedRepairPerformed": false
+  },
+  "queries": [
+    {
+      "id": "C01",
+      "title": "对象层级、构件成员与平面参照",
+      "graphQuerySha256": "30460ae88a5205f2b4513e9e49e7770a86af16677cfcb6298f19dce8b793ca2a",
+      "tableQuerySha256": "d39a7a6ecdd8bcc2ccd7f01b3dfdc05b06bb8f88917fc4360c81878e09e5d884",
+      "graphReturnRows": 25,
+      "tableReturnRows": 25,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C02",
+      "title": "面宽、进深、自身檐高和比例",
+      "graphQuerySha256": "e4c1ffb9064cf743cb35f41987cb965b35c942ffce0f2d13a5e125f80e299697",
+      "tableQuerySha256": "886db13326e5a6e4a1a4e38bc481e725f23b319d5c5ace6abbd41d27ab9d16f7",
+      "graphReturnRows": 20,
+      "tableReturnRows": 8,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C03",
+      "title": "侧房减主屋的共同基准檐口高差",
+      "graphQuerySha256": "89a109fc6b4a2a0e0e7222756632a8383c59364c971b0bf92960d053ed6acd03",
+      "tableQuerySha256": "1962b434275e519c0849ae6e4b06473ef45d3e5a961a9b3b82ea349d3e35c557",
+      "graphReturnRows": 1,
+      "tableReturnRows": 1,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C04",
+      "title": "外部屋顶系统与几何坡面的描述",
+      "graphQuerySha256": "6bd71c3a9dc6e714d857dcf2d6916ec927141586f5d9439be945d311c003347d",
+      "tableQuerySha256": "cd11575ed9c95a3562faef1dab973d01eaa1bdde2e90adfb9d45653ca5bca56f",
+      "graphReturnRows": 3,
+      "tableReturnRows": 3,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C05",
+      "title": "墙轴交接、墙柱包络相交、坡面共边",
+      "graphQuerySha256": "0afa17d8baff196c240886cf8d8218d0d68c0ac17b5edeccdf7c79f1cb536ab7",
+      "tableQuerySha256": "446408f272dc7b357f09c851fcfdd8d5c6fe72afa73e8f9096e31e945c564f40",
+      "graphReturnRows": 17,
+      "tableReturnRows": 17,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C06",
+      "title": "前院由哪些墙、柱和过渡空间参与界定",
+      "graphQuerySha256": "f5a28ac086dfcf55aa278b91bad635f2f1005dfb49105a856703b85081d60ba1",
+      "tableQuerySha256": "ef13c3d8011f6dee30dfcf9c421f71f90157e95befdbc33e0199ca9243730aea",
+      "graphReturnRows": 8,
+      "tableReturnRows": 8,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C07",
+      "title": "入口的两侧空间、宿主及相对位置",
+      "graphQuerySha256": "9f113087f795a3fca8129088236f46825747c24c6830d2ad76d0dd7656c49f24",
+      "tableQuerySha256": "15a8da0de7360dbbc7b11cdcaaf150724fe7172b74469616a4bbff986c19861b",
+      "graphReturnRows": 5,
+      "tableReturnRows": 5,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C08",
+      "title": "院外参照经前院到前廊的路径",
+      "graphQuerySha256": "f8da48085eaa286629055dcc67278e9bddbb6b2b583fa0dc931be0a007ec8861",
+      "tableQuerySha256": "a77125aa232747dfc577708022bd59a0e3ca425369e6989a91f77e2b28411708",
+      "graphReturnRows": 1,
+      "tableReturnRows": 1,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "NULL"
+      ],
+      "pathTypes": [
+        "PATH NOT NULL"
+      ]
+    },
+    {
+      "id": "C09",
+      "title": "局部面积窗口与空间轮廓",
+      "graphQuerySha256": "dbc5080295c65c78e26e4408c71036f010646907c952cace4ee943af7805a4ba",
+      "tableQuerySha256": "c2cdb1d8d1b7d5e46c3acbe5e5437ec898167f05a215887afdc34f18ceb0b723",
+      "graphReturnRows": 2,
+      "tableReturnRows": 2,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "NULL"
+      ],
+      "pathTypes": [
+        "PATH NOT NULL"
+      ]
+    },
+    {
+      "id": "C10",
+      "title": "有来源支持的空间用途分布",
+      "graphQuerySha256": "90c657e66dc4f029769219b00f5b824fb8a1d5058348b1e9b06bdd2b7522d61c",
+      "tableQuerySha256": "9760cd6e56828a253a47574d139e8321d2b88eda88e122274ab7c4dcb3c4376a",
+      "graphReturnRows": 3,
+      "tableReturnRows": 3,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C11",
+      "title": "局部立面、投影、材料分区及来源",
+      "graphQuerySha256": "455fb5fdc438341fb124737ce53d8d68526b5aa85a39c0fad2b8879e2ebe11a1",
+      "tableQuerySha256": "991db989e103b050ec61271a0b8834b98836a0e2e5cd03da53fb24974ecf5045",
+      "graphReturnRows": 2,
+      "tableReturnRows": 2,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C12",
+      "title": "指定局部的开口数量与描述性候选归类",
+      "graphQuerySha256": "5548911511574d66991d39c73747883f30a2aa7fdf032aa94766d5521e3f273a",
+      "tableQuerySha256": "24e7476e8ea331b37d86f49e84b42c0a7e2cf2b7496d6a81d930a3fed31665e6",
+      "graphReturnRows": 4,
+      "tableReturnRows": 2,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C13",
+      "title": "材料标签按构件类别分别计数",
+      "graphQuerySha256": "baa014d1e339da487e3dd4f39d669b9f028166d73c30204ad4508cdb81f2c101",
+      "tableQuerySha256": "3520c454377ce0c3282ca0d37ab967636e073c2c6c3570bf9b925fc6c3d2b405",
+      "graphReturnRows": 15,
+      "tableReturnRows": 5,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C14",
+      "title": "建筑组成员、归属与高程比较矩阵",
+      "graphQuerySha256": "284dc165ecd6f95bec0006917e3837108171f035c1d891a74dda7b5aed174294",
+      "tableQuerySha256": "f1355c940e067cfd867929674004e28cfddb5fd78540e2a10c83baf2f3cf1c5e",
+      "graphReturnRows": 3,
+      "tableReturnRows": 3,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C15",
+      "title": "街段两侧构成与局部里程",
+      "graphQuerySha256": "4847033a5e0f294c2707efa0501485aca735fd190b8299e2bf5296e9527bd144",
+      "tableQuerySha256": "dd652812ad3be3e03a71f408456b92c0116d5d58653ed43be846683107a823b1",
+      "graphReturnRows": 2,
+      "tableReturnRows": 2,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C16",
+      "title": "建筑与独立地面剖面的对应",
+      "graphQuerySha256": "3f14d72860fef2b3113c06bcc62104b4bcf8f60088c1c281cf71797cecee7ce8",
+      "tableQuerySha256": "99d1c517ceb4c2b4e2dcb67f125bcfc27a4640882a884a7760ef3ab93092c06e",
+      "graphReturnRows": 1,
+      "tableReturnRows": 1,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C17",
+      "title": "院墙局部—院门—前院的显式配对",
+      "graphQuerySha256": "7cba92d7dfbe5739a24f18cefc8402d0415f6dfd38d731de2c311ffeb0728073",
+      "tableQuerySha256": "eb075117b056b4ab0c0792ab78eef1e88ff81f9c56796a9a90db5d3d24b1c746",
+      "graphReturnRows": 1,
+      "tableReturnRows": 1,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C18",
+      "title": "关键属性的来源、字段支持范围和版本",
+      "graphQuerySha256": "9e6c1e1fe42653285d9c2a293cef5aac76af64ba64cc48d9d280f8cdc63b6fa4",
+      "tableQuerySha256": "625dda4bd5dd3c5ae56faf1e928a41177abd6a726464ff6267ed5933b5fdf983",
+      "graphReturnRows": 12,
+      "tableReturnRows": 12,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C19",
+      "title": "哪些界面的另一侧空间尚未实例化",
+      "graphQuerySha256": "ca30a6687d98d8185a225814626d2ed7efc5ee13dbf3b5293ceda77197729760",
+      "tableQuerySha256": "eeffb5297181b8a5db1ff85d9ad1ebde312d2b42a610bd6746352251c6c133f9",
+      "graphReturnRows": 6,
+      "tableReturnRows": 3,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "RELATIONSHIP NOT NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C20",
+      "title": "指定屋顶覆盖各空间的复算输入",
+      "graphQuerySha256": "a954952266d9953f1870ebb565ee6fa7e3b76fb37255a0f0561592d9f18e65c3",
+      "tableQuerySha256": "7230285dc5379d1ca45c496cca2c41fc18e4bde0701e9963ea118a19aa8d83ca",
+      "graphReturnRows": 6,
+      "tableReturnRows": 6,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    },
+    {
+      "id": "C21",
+      "title": "开放分界经两侧空间定位柱占用",
+      "graphQuerySha256": "8778ca9909b6f924a70d00e1fdc413dd81b3987978e11ae7a9a455f7ad093a42",
+      "tableQuerySha256": "8bbb7d9a764a643d50baedf89a1d3190f4ad22324c0915c2cf623937bf06a3f6",
+      "graphReturnRows": 8,
+      "tableReturnRows": 8,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "NULL"
+      ],
+      "pathTypes": [
+        "PATH NOT NULL"
+      ]
+    },
+    {
+      "id": "C22",
+      "title": "院外参照区与街段的空间对应输入",
+      "graphQuerySha256": "62cb47e82fe6db91cf27468e09c2d9fb64e23b25830262f187ccf3da0dadfa34",
+      "tableQuerySha256": "763a91af6889ff8bc810a799a5b8f279910466056670bace073768d911a0e32b",
+      "graphReturnRows": 1,
+      "tableReturnRows": 1,
+      "nodeTypes": [
+        "NODE NOT NULL"
+      ],
+      "relationTypes": [
+        "NULL"
+      ],
+      "pathTypes": [
+        "NULL"
+      ]
+    }
+  ],
+  "tableSelectedObservations": {
+    "C02": {
+      "inspection": "All eight rows inspected; below are two building rows only, not a full raw response.",
+      "rows": [
+        {
+          "uid": "V01:B01",
+          "widthM": 9.6,
+          "depthM": 7.2,
+          "groundZM": 0,
+          "eaveZM": 3.2666666666666666,
+          "ownEaveHeightM": 3.2666666666666666,
+          "widthDepthRatio": 1.3333333333333333
+        },
+        {
+          "uid": "V01:B02",
+          "widthM": 6,
+          "depthM": 4,
+          "groundZM": 3,
+          "eaveZM": 7,
+          "ownEaveHeightM": 4,
+          "widthDepthRatio": 1.5
+        }
+      ]
+    },
+    "C03": [
+      {
+        "uid": "V01:CMP01",
+        "subject": "V01:B02",
+        "reference": "V01:B01",
+        "valid": true,
+        "valueM": 3.7333333333333334,
+        "cacheAgreement": true
+      }
+    ],
+    "C08": [
+      {
+        "nodes": [
+          "V01:S06",
+          "V01:S05",
+          "V01:S04"
+        ],
+        "via": [
+          "V01:I05",
+          "V01:I04"
+        ],
+        "crossings": 2
+      }
+    ],
+    "C12": [
+      {
+        "host": "V01:W03",
+        "owner": "V01:B01",
+        "localRegion": "D04-W03-N",
+        "openingCount": 3,
+        "candidate": "multiple-openings-local",
+        "ruleVersion": "D06-local-candidate-0.1"
+      },
+      {
+        "host": "V01:W10",
+        "owner": "V01:U01",
+        "localRegion": "D04-W10-S",
+        "openingCount": 1,
+        "candidate": "single-opening-local",
+        "ruleVersion": "D06-local-candidate-0.1"
+      }
+    ],
+    "C13": [
+      {
+        "objectClass": "Column",
+        "material": "材质_木",
+        "objectCount": 4
+      },
+      {
+        "objectClass": "Roof",
+        "material": "材质_木",
+        "objectCount": 1
+      },
+      {
+        "objectClass": "Roof",
+        "material": "材质_陶瓦",
+        "objectCount": 1
+      },
+      {
+        "objectClass": "Wall",
+        "material": "材质_灰泥",
+        "objectCount": 10
+      },
+      {
+        "objectClass": "Wall",
+        "material": "材质_砖",
+        "objectCount": 10
+      }
+    ],
+    "C19": [
+      {
+        "interface": "V01:I08",
+        "name": "西室北窗",
+        "knownSides": 1
+      },
+      {
+        "interface": "V01:I09",
+        "name": "堂屋北窗",
+        "knownSides": 1
+      },
+      {
+        "interface": "V01:I10",
+        "name": "东室北窗",
+        "knownSides": 1
+      }
+    ]
+  }
+}
