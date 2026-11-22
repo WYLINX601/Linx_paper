@@ -1,0 +1,582 @@
+{
+  "schema": "ars-role-acceptance/1",
+  "checked_at_utc": "2026-11-10T05:59:51.378171+00:00",
+  "scope": "role_configuration_and_minimal_native_dispatch_not_full_research_pipeline",
+  "source_lock": {
+    "suite_version": "3.23.0",
+    "upstream_commit": "6ab4b03bf70a118a1b3ee7f3263ed9f19031061b"
+  },
+  "role_registry_sha256": "fdf15fa28f809c53403d38958187b94a888247c5e55a44f76d1529a92db41207",
+  "role_counts": {
+    "canonical_roles": 45,
+    "subagents": 34,
+    "main_roles": 11,
+    "aliases": 4,
+    "instances": 4,
+    "contract_calls": 4,
+    "unmapped": 0
+  },
+  "unit_tests": {
+    "count": 62,
+    "status": "pass",
+    "log": "..............................................................\n----------------------------------------------------------------------\nRan 62 tests in 1.194s\n\nOK\n"
+  },
+  "doctor": {
+    "status": "pass",
+    "check_count": 47,
+    "failure_count": 0
+  },
+  "final_source_hashes": {
+    "ars_role_routes.py": "3f84c7070225a4f701f3de2e5ead1a8dc4f5797b96070bf4d9692e47b3affc45",
+    "ars_role_provider.py": "4c18dc7f84cb9cc23a4788992e1c8321c471db57218024f7b27dcceb0721c9cf",
+    "ars_paper.py": "aeeb4527c4e223e53d91e14b269d9ff79dc79d16adcb07cc6beddacaff15150d",
+    "角色路由.json": "fdf15fa28f809c53403d38958187b94a888247c5e55a44f76d1529a92db41207",
+    "工作流映射.json": "546ea42888acf7386edab0fc5e5340ca9ed8c0db1ec712c946c09b771bdbd684",
+    "test_ars_roles.py": "276a1bed9faaa04e7c70afebf3274a56a3644c1a56f4498f423595a6f84eb545",
+    "test_ars_paper.py": "1d1ef0dbf27d13aa9e278477856145457e3949500a9d026367de7b0b464b0fe5"
+  },
+  "probes": [
+    {
+      "profile": "research",
+      "model_route": "literature",
+      "role_id": "deep-research/bibliography_agent",
+      "parent_toolsets": [
+        "delegation",
+        "ars_research"
+      ],
+      "session_id": "local-2625fc1bfce719ddc350fde122128320858b0c1b61aa7f7b5433af4851b2a904",
+      "tool_call_id": "call_rSMAVH0DVNfQx0tfyYvqsTUa",
+      "route": {
+        "backend": "ars_roles",
+        "label": "deep-research/bibliography_agent",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal"
+      },
+      "status": "completed",
+      "tool_trace": [
+        {
+          "tool": "read_file",
+          "args_bytes": 154,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "offset",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/bibliography_agent.md"
+            }
+          },
+          "result_bytes": 3010,
+          "status": "ok"
+        },
+        {
+          "tool": "read_file",
+          "args_bytes": 115,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "offset",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-academic-search/SKILL.md"
+            }
+          },
+          "result_bytes": 2848,
+          "status": "ok"
+        }
+      ],
+      "child_summary": {
+        "probe": "ARS_ROLE_PROBE_OK",
+        "role_id": "deep-research/bibliography_agent",
+        "actual_read_scope": [
+          {
+            "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/bibliography_agent.md",
+            "lines": "1-40"
+          },
+          {
+            "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-academic-search/SKILL.md",
+            "lines": "1-40"
+          }
+        ],
+        "source_locators": [
+          "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/bibliography_agent.md:1-40",
+          "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-academic-search/SKILL.md:1-40"
+        ],
+        "unresolved": [
+          "仅配置测试；角色和技能均仅读取前40行，未完整读取，未执行科学工作。"
+        ],
+        "execution_evidence": {
+          "tool": "functions.read_file",
+          "calls": 2,
+          "each_call": {
+            "offset": 1,
+            "limit": 40
+          },
+          "writes_performed": false,
+          "other_tools_used": false
+        }
+      },
+      "scope": "role_and_skill_headers_only_not_scientific_work"
+    },
+    {
+      "profile": "readonly",
+      "model_route": "evidence_review",
+      "role_id": "academic-paper/peer_reviewer_agent",
+      "parent_toolsets": [
+        "delegation",
+        "ars_readonly"
+      ],
+      "session_id": "local-f78d1df947280d0a3888c19df43be9d573c5fe1de3de69c43a5c592c75b9bd2a",
+      "tool_call_id": "call_02c2d7949ccd490381ab9d00fefbd9fc",
+      "route": {
+        "backend": "ars_roles",
+        "label": "academic-paper/peer_reviewer_agent",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal"
+      },
+      "status": "completed",
+      "tool_trace": [
+        {
+          "tool": "read_file",
+          "args_bytes": 156,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "offset",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/academic-paper/agents/peer_reviewer_agent.md"
+            }
+          },
+          "result_bytes": 3157,
+          "status": "ok"
+        },
+        {
+          "tool": "read_file",
+          "args_bytes": 108,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "offset",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-reviewer/SKILL.md"
+            }
+          },
+          "result_bytes": 4704,
+          "status": "ok"
+        }
+      ],
+      "child_summary": {
+        "probe": "ARS_ROLE_PROBE_OK",
+        "role_id": "academic-paper/peer_reviewer_agent",
+        "actual_read_scope": [
+          {
+            "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/academic-paper/agents/peer_reviewer_agent.md",
+            "lines": "1-40"
+          },
+          {
+            "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-reviewer/SKILL.md",
+            "lines": "1-40"
+          }
+        ],
+        "source_locators": [
+          "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/academic-paper/agents/peer_reviewer_agent.md:1-40",
+          "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-reviewer/SKILL.md:1-40"
+        ],
+        "unresolved": [
+          "仅配置测试；未完整读取角色或技能文件，未读取工作流协议，未执行实质科研任务。"
+        ],
+        "execution_evidence": {
+          "tool": "functions.read_file",
+          "calls": 2,
+          "results": "两次均成功返回指定文件第1-40行。",
+          "writes": false,
+          "other_tools_used": false
+        }
+      },
+      "scope": "role_and_skill_headers_only_not_scientific_work"
+    },
+    {
+      "profile": "candidate",
+      "model_route": "academic_write",
+      "role_id": "deep-research/report_compiler_agent",
+      "parent_toolsets": [
+        "delegation",
+        "ars_candidate"
+      ],
+      "session_id": "local-ce1d505f35047fc0230c4d49ebf17bc13d816df5c0d69312f56a5d04447b2d6e",
+      "tool_call_id": "call_a1eb4f2d392c424ab293fd8aafba4fa5",
+      "route": {
+        "backend": "ars_roles",
+        "label": "deep-research/report_compiler_agent",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal"
+      },
+      "status": "completed",
+      "tool_trace": [
+        {
+          "tool": "read_file",
+          "args_bytes": 157,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "offset",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/report_compiler_agent.md"
+            }
+          },
+          "result_bytes": 2802,
+          "status": "ok"
+        },
+        {
+          "tool": "read_file",
+          "args_bytes": 107,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "offset",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-writing/SKILL.md"
+            }
+          },
+          "result_bytes": 3314,
+          "status": "ok"
+        }
+      ],
+      "child_summary": {
+        "probe": "ARS_ROLE_PROBE_OK",
+        "role_id": "deep-research/report_compiler_agent",
+        "actual_read_scope": [
+          {
+            "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/report_compiler_agent.md",
+            "lines": "1-40"
+          },
+          {
+            "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-writing/SKILL.md",
+            "lines": "1-40"
+          }
+        ],
+        "source_locators": [
+          "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/report_compiler_agent.md:1-40",
+          "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-writing/SKILL.md:1-40"
+        ],
+        "unresolved": [
+          "仅配置测试；未完整读取角色或技能，未读取工作流协议，未执行或完成任何科学工作。"
+        ],
+        "execution_evidence": {
+          "tool": "functions.read_file",
+          "calls": 2,
+          "each_call": {
+            "offset": 1,
+            "limit": 40
+          },
+          "results": "两次调用均成功返回指定文件第1至40行。",
+          "writes_performed": false,
+          "other_tools_used": false
+        }
+      },
+      "scope": "role_and_skill_headers_only_not_scientific_work"
+    },
+    {
+      "profile": "compute",
+      "model_route": "research_analysis",
+      "role_id": "deep-research/meta_analysis_agent",
+      "parent_toolsets": [
+        "delegation",
+        "ars_compute"
+      ],
+      "session_id": "local-46899382acdff7cab41c36f2aef890117fca0c26a290012c5e27fb47e722cc60",
+      "tool_call_id": "call_e09ec57dea2941b7a6b148ea73788bb6",
+      "route": {
+        "backend": "ars_roles",
+        "label": "deep-research/meta_analysis_agent",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal"
+      },
+      "status": "completed",
+      "tool_trace": [
+        {
+          "tool": "read_file",
+          "args_bytes": 155,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "offset",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/meta_analysis_agent.md"
+            }
+          },
+          "result_bytes": 3418,
+          "status": "ok"
+        },
+        {
+          "tool": "read_file",
+          "args_bytes": 113,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "offset",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/statistical-analysis/SKILL.md"
+            }
+          },
+          "result_bytes": 2896,
+          "status": "ok"
+        }
+      ],
+      "child_summary": {
+        "probe": "ARS_ROLE_PROBE_OK",
+        "role_id": "deep-research/meta_analysis_agent",
+        "actual_read_scope": [
+          {
+            "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/meta_analysis_agent.md",
+            "lines": "1-40"
+          },
+          {
+            "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/statistical-analysis/SKILL.md",
+            "lines": "1-40"
+          }
+        ],
+        "source_locators": [
+          "context.prompt_absolute_path",
+          "context.skill_refs[0].absolute_path"
+        ],
+        "unresolved": [
+          "仅配置测试；未完整读取角色或技能，未读取工作流协议，未执行或验证任何科学工作。"
+        ],
+        "execution_evidence": {
+          "tool": "functions.read_file",
+          "calls": [
+            {
+              "offset": 1,
+              "limit": 40,
+              "returned_lines": "1-40"
+            },
+            {
+              "offset": 1,
+              "limit": 40,
+              "returned_lines": "1-40"
+            }
+          ],
+          "writes": false,
+          "other_tools_used": false
+        }
+      },
+      "scope": "role_and_skill_headers_only_not_scientific_work"
+    }
+  ],
+  "independent_static_reviews": [
+    {
+      "session_id": "local-c0d4d2857bdbb383ecf4ab281e8a26c5648220fc2b649ddfec49300f018a9487",
+      "status": "findings_required_changes",
+      "frozen_directory": "review-frozen",
+      "source_hashes": {
+        "ars_role_routes.py": "d6c4afc439508e9db2296a697a75004b262b968ed6d187210eee56e9eb94479a",
+        "ars_role_provider.py": "2c5bb7b2178eac6d384e73d87a57f4745b1ab4937d5f75874082b370b353a7e0",
+        "角色路由.json": "fd1370451120a9b3fb3637007f5c0e7e63f16e46bdcd7ca3462774244586100d",
+        "工作流映射.json": "546ea42888acf7386edab0fc5e5340ca9ed8c0db1ec712c946c09b771bdbd684",
+        "test_ars_roles.py": "6c8e23887cdadc26c40ae5be0723a12c2d3c0d5b1137b5bc5a603e42dd02842a"
+      },
+      "reviewer_report": "结论：这份冻结适配已有较完整的角色登记和显式路由拒绝逻辑，但仍有来源归属校验漏洞、上下文合同可被删改等阻断问题，不能给出“可验收通过”的意见。以下仅为只读静态软件审查，不是论文审稿，也不是科研流程执行。\n\n一、实际读取范围与验证边界\n\n已完整读取以下六个文件，均位于：\n/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/ars-role-completion/review-frozen/\n\n  ars_role_routes.py：1–235\n  ars_role_provider.py：1–91\n  角色路由.json：1–1584\n  工作流映射.json：1–451\n  test_ars_roles.py：1–203\n  hashes.json：1–7\n\n未读取目录外文件，未写文件，未运行命令、测试或模型调用。hashes.json 的摘要值已读到，但没有计算文件摘要进行独立核验；安装源、技能正文、Hermes 核心接口实现及真实配置均不在本次实读范围内。\n\n二、阻断问题\n\n1. 完整角色 ID 的“来源归属”校验并未真正检查来源目录\n\n证据：\n  ars_role_routes.py:92–93 仅检查：\n    identifier == workflow + \"/\" + prompt_file 的文件名主干\n  ars_role_routes.py:83–84、113–115 检查的是整个来源文件集合。\n  ars_role_routes.py:109–112 只要求存在声明 workflow 的协议文件。\n\n因此，同时把某条记录的 workflow 和 id 改成另一个工作流，并补上对应协议，仍可能通过校验；prompt_file 保持原值，整体覆盖集合也不变。例如将 bibliography_agent 的 ID 和 workflow 一起改为 academic-paper，现有归属检查不能发现其来源仍在 deep-research。\n\n当前 JSON 中未见这种错配，但“错误归属会被拒绝”的保证不成立。test_ars_roles.py:184–187 只改 workflow、不同时改 ID，没有覆盖这个漏洞。\n\n建议验收条件：对来源路径的工作流目录作精确校验，而不是只取文件名主干。\n\n2. 角色执行指令可从 context 中删除或替换，provider 仍可能接受\n\n证据：\n  ars_role_routes.py:193–201 生成执行指令、授权声明和工具限制说明。\n  ars_role_routes.py:215–234 的校验清单没有校验 execution_instructions、authorization、tool_profile_enforcement、tool_scope_note。\n  ars_role_provider.py:69 校验后即选择模型，不重建这些内容。\n\n只保留被校验的身份、技能、协议等字段，同时删除或替换 execution_instructions，静态上仍符合 validate_context 的检查条件。这样“必须先读原角色与协议”“不得跳过输入、推定作者确认”等关键执行指令可以丢失。\n\n这不是要求 provider 强制执行提示词，而是它连交付给 worker 的关键合同文本都没有保持完整。已有测试只覆盖路径、技能和协议引用等删改，没有覆盖执行指令删改。\n\n3. output_contract 登记了，但没有进入 worker brief，也没有结果侧检查\n\n证据：\n  角色路由.json:90–98 等各角色记录要求披露 actual_read_scope、source_locators、unresolved、execution_evidence。\n  ars_role_routes.py:189–207 生成的 context 和返回对象没有携带 output_contract。\n  ars_role_provider.py:50–78 仅返回路由，没有输出合同验证。\n\n不能因为原始角色文件可能也包含类似要求，就认定这里已经传递了登记表中的输出合同；本次未读取那些文件。就所审代码而言，登记的披露要求未形成完整执行链。这会直接影响“实际读了什么、执行了什么”的验收依据。\n\n三、其余重要问题与限制\n\n4. A/B/仲裁只有席位绑定，没有独立性和先后关系的验证\n\n已配置三个完整实例 ID：\n  sr-screener/reviewer_a\n  sr-screener/reviewer_b\n  sr-screener/adjudicator\n\n三者继承 sr-screener/screening_reviewer_agent，使用只读工具配置，拥有不同 seat/context_policy；实例不得覆盖 route/tools 的校验也存在。\n证据：角色路由.json:1556–1577；ars_role_routes.py:130–137、151–163。\n\n但：\n  source_refs 可以为空，且不在 validate_context 的绑定检查中；\n  没有 A/B 输入摘要一致性校验；\n  没有“仲裁必须等盲审完成”的状态或证据检查；\n  prompt_variant_source 只引用整份 prompts.md，没有具体变体的定位字段。\n\n证据：ars_role_routes.py:186–197、215–234。\ntest_ars_roles.py:122–128 仅证明三个标签不同以及生成只读 toolsets，不能证明独立筛选或仲裁条件成立。\n\n文件已披露材料限制是提示词级约束，因此我不把它误报为“已声称实现技术隔离”；但要验收实际双筛选能力，这些仍是未完成验证的条件。\n\n5. 工具配置在注册时创建，路由时重读登记表，两者可能漂移\n\n证据：\n  ars_role_provider.py:83–90 注册时创建 custom toolset。\n  ars_role_provider.py:64–69 每次路由重新读取登记表。\n  ars_role_routes.py:140–145 只固定 readonly 的工具内容，其他配置只检查名称唯一性。\n\n若注册后 research/candidate/compute 的工具列表发生变化，即使重新生成 brief，新登记表描述的工具集合也未必等于已经注册的同名工具集合。代码没有登记表版本一致性检查或重新注册机制。\n\n这是条件性静态缺陷，不是本次已观察到的运行故障；但它独立于“provider 看不到 toolsets”的已披露限制。\n\n四、逐项覆盖检查结果\n\n角色覆盖：\n  冻结 JSON 登记了 45 个规范角色：\n    deep-research：14\n    academic-paper：12\n    academic-paper-reviewer：7\n    academic-pipeline：5\n    sr-screener：4\n    experiment-agent：2\n    shared：1\n  另有 4 个插件别名、3 个筛选实例。\n\n  静态检查未见登记内重复 ID 或明显缺失字段；代码会比对七个指定 agents 目录中的直接 *.md 文件和别名目录。但实际安装源是否恰好完整覆盖，未在此次范围内核验。inventory_scope 也不是动态发现所有可能新增角色目录的机制。\n\nmain/subagent 分工：\n  登记为 11 个 main、34 个 subagent。\n  main 包括研究问题/导师对话、作者 intake/修订对话、流程协调与状态维护、筛选协议/QC/报告组织、study_manager。\n  main 的 route=null、tool_profile=main；role_brief 与 provider 都有拒绝委派 main 的代码。\n  证据：ars_role_routes.py:98–105、176–178；ars_role_provider.py:66–68。\n  未在所读代码中看到 main 角色合同的自动执行实现；这里能确认的是配置和拒绝子委派逻辑。\n\n技能引用：\n  readonly 工具集确实包含 read_file、search_files，而不依赖 skill_view。\n  skill_refs 提供绝对路径和 SHA-256，执行指令明确允许 read_file 替代 skill_view，设计上解决了只读 worker 无 skill_view 的入口问题。\n  证据：角色路由.json:20–26；ars_role_routes.py:31–52、194–195、217–219。\n  但真实技能是否存在、可读、内容是否能在该工具集合下执行，未实测。test_ars_roles.py:164–169 是测试进程读取文件，不是实际 worker 读取证据。\n\n未知角色与隐式回退：\n  resolve_role 未找到角色会显式报错。\n  provider 要求 ars_role 与 option 恰选一个；未知 option、缺失模型路由会拒绝；返回路由明确设置 fallback_providers=[]。\n  证据：ars_role_routes.py:151–158；ars_role_provider.py:53–58、65、70–76。\n  option 是已披露的显式非 ARS 扩展入口，不应当算作隐式回退。不过代码无法自行判断任务实质是否属于 ARS，分类仍依赖调用方遵守合同。\n  测试文件没有直接覆盖“未知 ars_role”这一负例。\n\n五、toolsets 接口事实与最终意见\n\n按你提供的接口事实，provider.route_task 不接收原生保留字段 toolsets。本适配生成最小 native_task.toolsets，但不能据此声称 provider 强制隔离。\n\n这一限制在角色路由.json:1582 已明确披露；provider 也没有错误地尝试从 task 读取 toolsets。我不将这项已披露限制本身列为新增阻断漏洞。inherit_mcp_toolsets=false 的检查也不等于权限沙箱。\n\n最终意见：暂不通过软件验收。\n\n依据是以上静态可见的合同绑定与一致性问题，而不是进程是否成功。此次没有运行测试，因此没有测试通过结论；没有实际 worker 或模型调用，因此没有角色遵循度、工具实际暴露范围、独立性或模型效果结论。现有测试源码不能替代这些证据。",
+      "review_type": "separate_context_same_model_static_readonly_not_cross_model"
+    },
+    {
+      "session_id": "local-b50085a552ca3b5adf0f2328e9a52780039239affdf25980a855da7827cfa39d",
+      "status": "static_accepted_before_runtime_api_correction",
+      "frozen_directory": "review-final-frozen",
+      "source_hashes": {
+        "ars_role_routes.py": "1055fa1201636b2ba4c5f832be156cb8f8a0afcabf6e9026241ae7614f72afea",
+        "ars_role_provider.py": "7a8ee834446dd20f1c8617ac7bfe05e65ad6924d263de428bd72b03f5500a6b8",
+        "ars_paper.py": "c6fb0234f83e2f35a32fd3022ba0082df6573f163778ec8e68a606db109158f5",
+        "角色路由.json": "0de4df57310f87565b77039b65935203e929614f5b4cc275d0662338661be417",
+        "工作流映射.json": "546ea42888acf7386edab0fc5e5340ca9ed8c0db1ec712c946c09b771bdbd684",
+        "test_ars_roles.py": "e3d9b73823a21c11e83552d3bf1ccc05fda4c74a3188e970ab5360b8ac2f2ae1",
+        "test_ars_paper.py": "1d1ef0dbf27d13aa9e278477856145457e3949500a9d026367de7b0b464b0fe5"
+      },
+      "reviewer_report": "结论：就本次限定的“角色配置与可调用交接”范围，静态只读验收通过，未发现需要阻断该冻结候选的缺陷。上一版四项阻断点均可在代码中找到对应修复。另有一项非阻断的异常处理问题，见下文。\n\n这不等于安装验收、测试通过或真实 worker 调用成功。\n\n一、实际读取范围\n\n仅在以下目录内进行文件发现和内容读取：\n/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/ars-role-completion/review-final-frozen\n\n完整读到了以下八份文件，工具均报告未截断：\n  ars_paper.py\n  ars_role_routes.py\n  ars_role_provider.py\n  角色路由.json\n  工作流映射.json\n  test_ars_paper.py\n  test_ars_roles.py\n  hashes.json\n\n未读取目录外文件，未写文件，未运行命令、导入候选代码或执行测试。hashes.json 已读取，但未重新计算文件摘要，因此不宣称冻结摘要已核验。\n\n以下行号均相对于上述目录。\n\n二、上一版四项修复核对\n\n1. workflow/id 联合伪装：已修复所述路径\n\nars_role_routes.py:99–101 同时要求：\n  id 必须匹配 workflow 与 prompt 文件名；\n  prompt_file 必须实际位于 ars/<workflow>/agents/<文件名>。\n\n因此，仅联合修改 workflow/id、再补上伪装工作流协议，仍会因来源目录不一致被拒绝。覆盖清单还在 :90–91、:121–123 与安装目录枚举进行比较。\n\n对应回归用例位于 test_ars_roles.py:216–222。\n注意：这里确认的是校验逻辑，不是已验证外部安装源或运行时文件系统。\n\n2. execution_instructions 可删除：已修复\n\n执行指令由 ars_role_routes.py:15–18 定义，在 :232 写入 worker context；:263、:271–272 按固定值校验。删除或更改该字段会导致绑定校验失败。\n\n对应删除回归用例位于 test_ars_roles.py:224–234。\n\n3. output_contract 未传：已修复\n\nars_role_routes.py:236 将角色合同或默认合同放进 context；:262、:271–272 校验一致性。\n\n四项重审调用虽未逐项配置 output_contract，但会采用 :20–21 的默认合同，不会因此漏传。对应传递用例位于 test_ars_roles.py:252–258。\n\n:15–18 明确要求遵循原角色输出协议，并另行披露合同元数据，不要求自动改写上游 wire format。符合此次验收口径；主会话审核原角色输出和实际 tool_trace 仍是调用方责任。\n\n4. 注册后工具配置漂移：注册表漂移路径已修复\n\nars_role_provider.py:94–102 注册工具集后，将当时注册表摘要绑定到 provider；:23–26 检查 epoch，:42、:75 在生成参数和 ARS 路由时调用。\n\n因此，修改角色注册表中的工具配置后，即使重新生成 brief，旧 provider 也会拒绝，要求新会话。对应回归用例位于 test_ars_roles.py:236–241。\n\n这项机制固定的是注册表 epoch；它不能据此证明外部全局工具集没有被其他代码重新注册，也不能证明实际 child 工具配置。后两项需要外部运行证据，本次未验。\n\n三、配置一致性\n\n候选注册表中的角色分布为：\n  deep-research：14\n  academic-paper：12\n  academic-paper-reviewer：7\n  academic-pipeline：5\n  sr-screener：4\n  experiment-agent：2\n  shared：1\n\n合计45个规范角色，其中34个 subagent、11个 main。四个插件别名独立维护，不计入新增规范角色。\n\n配置与调用代码相互一致：\n  main 角色 route=null、tool_profile=main；provider 和 brief 均拒绝将其委派。\n  subagent 使用的路由名称均存在于工作流映射的六项 route_names 中。\n  readonly 工具面固定为 read_file/search_files，且工具集名称不可重复。\n  未知角色无隐式父模型回退；非 ARS 扩展必须显式选择 option。\n\n相关位置：\n  角色路由.json:67–1534、:1535–1560\n  工作流映射.json:96–117\n  ars_role_routes.py:106–113、:176–186、:214–216\n  ars_role_provider.py:63–89\n\n四个筛选席位：\n  reviewer_a、reviewer_b、adjudicator、senior_qc 均继承同一规范 screening_reviewer_agent；\n  席位、context_policy 和提示变体锚点分别配置；\n  instance 不允许覆盖执行归属、路由或工具权限。\n\n位置：角色路由.json:1561–1594；ars_role_routes.py:161–175、:189–201、:224–238。\n\n四个合同级重审调用：\n  phase1、phase2a、phase2b、phase2b_scoped 均绑定 re_review_mode_protocol.md；\n  均为 readonly subagent，带各自 phase、source_anchor、context_policy 和合同 schema 引用；\n  没有用首轮 eic/editorial_synthesizer 替代重审合同调用。\n\n位置：角色路由.json:1600–1717；ars_role_routes.py:124–146。\n\n以上是候选内部一致性。未读外部原始协议，不能证明锚点存在、源摘要吻合或各阶段 schema 引用完全符合上游正文。\n\n四、发现的非阻断代码问题\n\nF1：注册表读取超时未统一转换为 DelegationRouteError。\n\n具体可达路径：\n  ArsRoleProvider.route_task()\n  → ars_role_provider.py:74 调用 load_registry()\n  → ars_role_routes.py:66 的 subprocess.run(..., timeout=25)\n  → mac-paper 超过25秒，抛出 subprocess.TimeoutExpired\n  → ars_role_provider.py:90 的捕获列表不包含该异常，原异常直接逸出。\n\n影响：读取失败仍会停止路由，不构成权限放宽或错误角色交接；但可能绕过 provider 预期的结构化路由错误处理。上层最终如何展示，本次未读 Hermes 实现，无法确认。\n\n建议补充 SubprocessError/TimeoutExpired 的转换及对应异常用例。此项不阻断本次配置与交接静态验收。\n\n五、不列为缺陷的边界\n\n以下事项没有被误判为本软件必须实现的科研运行器功能：\n  实际盲态、A/B 材料相同、仲裁先后、科学有效性；\n  自动审核 worker 是否真正读完协议、输出是否科学正确；\n  自动修改上游输出格式；\n  provider 独立强制 task.toolsets；\n  文件系统隔离或 OS 沙箱。\n\n角色路由.json:1598 已披露 provider 看不到保留字段 toolsets；生成最小工具集并约束调用方，与强制隔离是两件事。ars_role_routes.py:243–245 生成工具选择，ars_role_provider.py:55–58 提醒不得省略或扩大，二者口径一致。\n\n最终状态：静态配置与交接验收通过；有一项非阻断异常处理建议。未运行测试，未验证外部安装源、原生 provider 接口、工具解析器或真实 worker/tool_trace，不将候选测试代码的断言当作已通过结果。",
+      "review_type": "separate_context_same_model_static_readonly_not_cross_model"
+    },
+    {
+      "session_id": "local-80ec896e8d339edcb36fc1640fb2d5fbe57a6e6b329415aa1099031f9b193c88",
+      "status": "runtime_delta_static_accepted",
+      "frozen_directory": "review-runtime-frozen",
+      "source_hashes": {
+        "ars_role_routes.py": "3f84c7070225a4f701f3de2e5ead1a8dc4f5797b96070bf4d9692e47b3affc45",
+        "ars_role_provider.py": "4c18dc7f84cb9cc23a4788992e1c8321c471db57218024f7b27dcceb0721c9cf",
+        "ars_paper.py": "aeeb4527c4e223e53d91e14b269d9ff79dc79d16adcb07cc6beddacaff15150d",
+        "角色路由.json": "fdf15fa28f809c53403d38958187b94a888247c5e55a44f76d1529a92db41207",
+        "工作流映射.json": "546ea42888acf7386edab0fc5e5340ca9ed8c0db1ec712c946c09b771bdbd684",
+        "test_ars_roles.py": "276a1bed9faaa04e7c70afebf3274a56a3644c1a56f4498f423595a6f84eb545",
+        "test_ars_paper.py": "1d1ef0dbf27d13aa9e278477856145457e3949500a9d026367de7b0b464b0fe5"
+      },
+      "reviewer_report": "结论：限定本次差异，未发现破坏原有角色绑定、来源校验或拒绝回退逻辑的新增阻断项。native_task 收敛为 goal/context/ars_role，与附带安装源码摘录一致。可接受为静态兼容修订，但不能据此宣称独立父 CLI 的实际工具隔离或真实子任务派发已经验证。\n\n主要审查意见\n\n1. 原有绑定与拒绝逻辑保留\n\n   ars_role_routes.py:215–302 中，brief 生成与 validate_context 同步更新了工具权限说明，并同步加入 declared_tool_profile 的绑定检查；没有仅修改生成端而遗漏校验端的问题。\n\n   角色身份、registry 哈希、prompt 路径及哈希、技能来源、协议引用、席位、阶段、门禁、输出契约的检查仍在。主会话角色不可委派、未知角色拒绝、注册后 registry 漂移拒绝、显式模型路由及 fallback_providers=[] 的路径也未被此次差异绕开（ars_role_provider.py:62–93）。\n\n   删除 role='leaf' 不构成已见的能力约束退化：附带源码注释明确说明旧 role 不对模型公开且能力由深度决定，不能继续把它视为有效的逐任务限制。\n\n2. 与安装源码证据一致，但证据覆盖有限\n\n   installed-api-evidence.json:4–14 明确显示 dispatch 传入 toolsets=None；:16–88 的基础任务 schema 没有 role/toolsets。ars_role_provider.py:41–54 另提供 ars_role 扩展参数。因此，本次生成的三个字段与“基础 schema 加 provider 参数”的设计吻合。\n\n   改为说明“任意父会话中工具配置只是指导，严格子集依赖受限父会话”，也正确撤回了原先逐任务 toolsets 强制收窄的说法。\n\n   但摘录未包含 CLI 工具选择、_build_child_preserving_parent_tools 的实现或最终工具表构建。因此，“只开启 delegation+指定 ars_* 后的有效工具表确实没有额外工具”仍是本轮证据未覆盖的运行前提，不是已验证事实。代码中的 parent_toolset_scope_for_strict_subset 是声明，不是 provider 对当前父会话的检查。\n\n3. readable-context 未见绑定损失\n\n   ars_role_routes.py:256–263 保留 goal、ars_role 和其他 brief 元数据，只把 context JSON 字符串解包成 context_object；ars_paper.py:264–269 在输出时使用 indent=2，形成多行对象运输格式。\n\n   重建后仍走原 validate_context，没有新增免校验派发入口。新增往返测试也检查了任务完整相等及路由标签（test_ars_roles.py:270–277）。\n\n   注意：“避免长行截断”仅针对对象结构展开。若单个字段本身特别长，仍可能产生长行；此格式不等于任意长度内容都能保证完整读取。当前实现作为缓解措施合理，不宜表述为彻底消除截断。\n\n4. TimeoutExpired 处理正确，范围应保持准确\n\n   ars_role_provider.py:92–93 新增捕获 subprocess.SubprocessError，覆盖 TimeoutExpired，并转成 DelegationRouteError，没有引入父模型回退。新增测试在 route_task 的 registry 读取点注入超时，覆盖这一目标路径（test_ars_roles.py:265–268）。\n\n   这不覆盖 task_parameters() 或 register() 中的超时；它们仍在该 try/except 外。如果修订主张只是“路由阶段结构化拒绝”，没有问题；若主张“所有初始化/注册超时都结构化拒绝”，则超出了实现和测试范围。\n\n阻断项与非阻断建议\n\n   本次差异的静态接受：未见新增阻断项。\n\n   对“实际严格工具子集已成立”的验收：当前附带证据不足，不能以本轮审查替代有效父/子工具表及真实派发证据。这是运行验收缺口，不是此次改动已证实的缺陷。\n\n   非阻断测试建议：新增 declared_tool_profile 的删除/篡改拒绝用例；当前通用字段删除测试尚未包含它。现有校验代码已经检查该字段，缺的是专门回归覆盖。\n\n实际阅读范围\n\n   全文读取：\n   runtime-delta.diff（1–204）\n   installed-api-evidence.json（1–89）\n   hashes.json（1–9）\n   ars_role_routes.py（1–302）\n   ars_role_provider.py（1–104）\n   test_ars_roles.py（1–288）\n\n   局部读取：\n   ars_paper.py（170–277）\n\n   以上均位于指定 review-runtime-frozen 目录。仅列举过目录文件名，未读取整份角色 JSON、工作流映射 JSON 或 test_ars_paper.py，也未读取目录外安装源码、Paper 主源及其他外部原文件。hashes.json 仅作清单阅读，未重新计算或核验文件哈希。未运行测试、未导入执行代码、未派发任务、未写文件。本结论不覆盖整套科研流程或外部原文件的正确性。",
+      "review_type": "separate_context_same_model_static_readonly_not_cross_model"
+    }
+  ],
+  "earlier_probe_failure": {
+    "session_id": "local-af4a5c54f2b5757dfa5073ef72b2a9ffaf127a76995f5cec1f3ab7e1dbcae435",
+    "dispatched": 0,
+    "cause": "unsupported role/toolsets task fields and truncated escaped context lines",
+    "resolved_by": "supported native fields, readable transport, separately restricted parent CLI scopes"
+  },
+  "permission_limit": "The installed model-facing delegate_task schema exposes neither role nor toolsets per task, and current native dispatch inherits the parent tool surface. Native payloads contain only goal/context/ars_role. Declared tool profiles are prompt-level guidance in an unrestricted parent. For a strict subset, use a bounded parent CLI session with delegation plus the specific ars_* toolset. inherit_mcp_toolsets=false alone does not remove parent MCP tools on this API. Paths, destinations and withholding remain prompt-level, not an OS sandbox.",
+  "not_verified": [
+    "all_roles_with_real_scientific_tasks",
+    "full_pipeline",
+    "actual_blinding_or_screening_accuracy",
+    "desktop_GUI_end_to_end",
+    "OS_or_filesystem_sandbox",
+    "unrestricted_parent_tool_isolation",
+    "cross_model_validation",
+    "MCP_service_connectivity",
+    "whole_vault_health"
+  ],
+  "review_snapshot": {
+    "path": "角色路由审查快照.zip",
+    "sha256": "1cd4dc2ef73bf20ad0fa19af2fc0667f9c2da02d572c0d93d5bfb921f32d58de"
+  },
+  "code_write_backups": [
+    {
+      "created_at_utc": "2026-11-10T05:42:08Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json",
+      "backup_path": ".hermes-academic-backups/20261110T054208Z_8d767dec17d14af9926a890d27b98f42.bak",
+      "original_sha256": "8c8c02e6313de9dacb966429af574b8075ed620e19b6196297a5f829760e434a",
+      "original_size_bytes": 49068,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "0de4df57310f87565b77039b65935203e929614f5b4cc275d0662338661be417",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:42:08Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+      "backup_path": ".hermes-academic-backups/20261110T054208Z_db65444fa7af49c68d5e35c35e09fdb2.bak",
+      "original_sha256": "b8410228a18d7326e12d26ae8aa43e7469896f0e68fe0b5d90a292ed0a9b9f11",
+      "original_size_bytes": 9689,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "546ea42888acf7386edab0fc5e5340ca9ed8c0db1ec712c946c09b771bdbd684",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:42:09Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_routes.py",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_routes.py",
+      "backup_path": ".hermes-academic-backups/20261110T054209Z_abffb266cb2e4a20a30302d39971b64a.bak",
+      "original_sha256": "8a825eb700308e11447895ca69b988bad31f210aec7b61f0d0b8303f7ae1dac2",
+      "original_size_bytes": 11831,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "1055fa1201636b2ba4c5f832be156cb8f8a0afcabf6e9026241ae7614f72afea",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:42:09Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_provider.py",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_provider.py",
+      "backup_path": ".hermes-academic-backups/20261110T054209Z_c9f5f93aa339494594a2031ac49b94aa.bak",
+      "original_sha256": "2c5bb7b2178eac6d384e73d87a57f4745b1ab4937d5f75874082b370b353a7e0",
+      "original_size_bytes": 4387,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "7a8ee834446dd20f1c8617ac7bfe05e65ad6924d263de428bd72b03f5500a6b8",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:42:09Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/ars_paper.py",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/ars_paper.py",
+      "backup_path": ".hermes-academic-backups/20261110T054209Z_b974599bb34e42fba1ce2284fdc01c79.bak",
+      "original_sha256": "1e3674f92e6dbd558b22bc1d376f5c575ff393a0c77fc89ab9087f58bcecf909",
+      "original_size_bytes": 14556,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "c6fb0234f83e2f35a32fd3022ba0082df6573f163778ec8e68a606db109158f5",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:42:09Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/test_ars_roles.py",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/test_ars_roles.py",
+      "backup_path": ".hermes-academic-backups/20261110T054209Z_0323e3891c1d404b800590ab3a61c34b.bak",
+      "original_sha256": "c537f9708552eea64679cb2af946b631348526c98cde2245d060e2545d1fb7e0",
+      "original_size_bytes": 8093,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "e3d9b73823a21c11e83552d3bf1ccc05fda4c74a3188e970ab5360b8ac2f2ae1",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:50:58Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_routes.py",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_routes.py",
+      "backup_path": ".hermes-academic-backups/20261110T055058Z_1a0fce27d6ba4d2993cf3f68bbcf5e12.bak",
+      "original_sha256": "1055fa1201636b2ba4c5f832be156cb8f8a0afcabf6e9026241ae7614f72afea",
+      "original_size_bytes": 18019,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "3f84c7070225a4f701f3de2e5ead1a8dc4f5797b96070bf4d9692e47b3affc45",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:50:58Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_provider.py",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_provider.py",
+      "backup_path": ".hermes-academic-backups/20261110T055058Z_6dfb465515504f77b0ad26af4b58ba49.bak",
+      "original_sha256": "7a8ee834446dd20f1c8617ac7bfe05e65ad6924d263de428bd72b03f5500a6b8",
+      "original_size_bytes": 4993,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "4c18dc7f84cb9cc23a4788992e1c8321c471db57218024f7b27dcceb0721c9cf",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:50:58Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/ars_paper.py",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/ars_paper.py",
+      "backup_path": ".hermes-academic-backups/20261110T055058Z_301e70a98aa94af4a71c82022116ca8c.bak",
+      "original_sha256": "c6fb0234f83e2f35a32fd3022ba0082df6573f163778ec8e68a606db109158f5",
+      "original_size_bytes": 14880,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "aeeb4527c4e223e53d91e14b269d9ff79dc79d16adcb07cc6beddacaff15150d",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:50:58Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json",
+      "backup_path": ".hermes-academic-backups/20261110T055058Z_76d141710a2548e5b2e88286c44e4c06.bak",
+      "original_sha256": "0de4df57310f87565b77039b65935203e929614f5b4cc275d0662338661be417",
+      "original_size_bytes": 57078,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "fdf15fa28f809c53403d38958187b94a888247c5e55a44f76d1529a92db41207",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    },
+    {
+      "created_at_utc": "2026-11-10T05:50:58Z",
+      "original_path": "项目管理/Hermes学术助手配置/ARS融合/test_ars_roles.py",
+      "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/test_ars_roles.py",
+      "backup_path": ".hermes-academic-backups/20261110T055058Z_b26ea83db9e04b28918488bdc4761fc2.bak",
+      "original_sha256": "e3d9b73823a21c11e83552d3bf1ccc05fda4c74a3188e970ab5360b8ac2f2ae1",
+      "original_size_bytes": 13592,
+      "original_permissions_mode_octal": "0644",
+      "requested_new_sha256": "276a1bed9faaa04e7c70afebf3274a56a3644c1a56f4498f423595a6f84eb545",
+      "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+    }
+  ]
+}

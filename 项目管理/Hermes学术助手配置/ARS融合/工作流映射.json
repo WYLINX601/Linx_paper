@@ -1,0 +1,457 @@
+{
+  "schema": "ars-paper-integration/1",
+  "status": "active_adapter",
+  "framework_skill": "academic-research-suite",
+  "role_registry": "角色路由.json",
+  "source_lock": {
+    "suite_version": "3.23.0",
+    "upstream_commit": "6ab4b03bf70a118a1b3ee7f3263ed9f19031061b",
+    "latest_inspected_release": "3.24.2",
+    "latest_release_applied": false
+  },
+  "authority": {
+    "startup": [
+      "AGENTS.md",
+      "README.md",
+      "context/PROJECT_CONTEXT.md"
+    ],
+    "outline": "论文章节/大纲结构.yaml",
+    "questions": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json",
+    "bot": "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md",
+    "local_model": "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md",
+    "runtime_guide": "项目管理/Hermes学术助手配置/README.md"
+  },
+  "core_workflows": {
+    "deep-research": {
+      "path": "ars/deep-research/WORKFLOW.md",
+      "modes": [
+        "full",
+        "quick",
+        "review",
+        "lit-review",
+        "three-way-scan",
+        "fact-check",
+        "socratic",
+        "systematic-review"
+      ]
+    },
+    "academic-paper": {
+      "path": "ars/academic-paper/WORKFLOW.md",
+      "modes": [
+        "full",
+        "plan",
+        "outline-only",
+        "revision",
+        "revision-coach",
+        "abstract-only",
+        "lit-review",
+        "format-convert",
+        "citation-check",
+        "disclosure",
+        "rebuttal-audit"
+      ]
+    },
+    "academic-paper-reviewer": {
+      "path": "ars/academic-paper-reviewer/WORKFLOW.md",
+      "modes": [
+        "full",
+        "re-review",
+        "quick",
+        "methodology-focus",
+        "guided",
+        "calibration"
+      ]
+    },
+    "academic-pipeline": {
+      "path": "ars/academic-pipeline/WORKFLOW.md",
+      "modes": [
+        "pipeline"
+      ],
+      "resume_recipe": "resume_from_passport=<hash>"
+    },
+    "sr-screener": {
+      "path": "ars/sr-screener/WORKFLOW.md",
+      "modes": [
+        "protocol",
+        "quick",
+        "pilot",
+        "ta-screen",
+        "ft-screen",
+        "adjudicate",
+        "audit",
+        "report"
+      ]
+    },
+    "experiment-agent": {
+      "path": "ars/experiment-agent/WORKFLOW.md",
+      "modes": [
+        "run",
+        "manage",
+        "validate",
+        "plan"
+      ],
+      "companion_not_core_ars": true
+    }
+  },
+  "delegation": {
+    "backend": "model_map",
+    "model_settings_owner": "academic/config.yaml:delegation.backends.model_map",
+    "route_names": [
+      "literature",
+      "evidence_review",
+      "graph_modeling",
+      "paper_maintenance",
+      "academic_write",
+      "research_analysis"
+    ],
+    "fallback": "explicit_named_default_for_unselected_tasks_empty_provider_fallbacks",
+    "rules": [
+      "ARS子任务使用ars-paper role-brief生成的goal/context/option；角色、席位和合同保留在context中，模型由Hermes官方Model routes选择。",
+      "正式派发前显式运行ars-paper role-check校验任务包；此检查不是model_map运行时拦截，不能声称所有直接调用均受ARS硬校验。",
+      "本地非ARS扩展可直接显式使用option；未选路由使用Hermes中配置的具名默认路由，六条路由显式禁用供应商回退。",
+      "同模型多角色不等于跨模型验证；独立执行、冻结材料和评审准确性分别说明。",
+      "子任务返回候选与证据，正式Paper写回由主会话负责；工具和文件范围不构成操作系统沙箱。",
+      "角色配置不是实际研究授权，不自动启用数据库写入、外部供应商或实验执行。"
+    ],
+    "role_registry": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json"
+  },
+  "execution_policy": {
+    "cross_model_default": "off_requires_provider_and_content_consent",
+    "database_default": "no_implicit_write",
+    "experiment_bridge": "only_explicit_user_authorized_task_outside_ars_pipeline",
+    "paper_write": "mac-paper_current_sha_or_expect_missing",
+    "research_decisions": "user_owned_no_inferred_confirmation",
+    "small_tasks": "no_mandatory_passport_or_full_pipeline",
+    "paper_reading": "reuse_or_persist_partial_card_before_reading_update_actual_scope_then_downstream_no_duplicate_or_bulk_backfill",
+    "long_runs": "use_real_ars_passport_and_run_ledger_in_task_owner_not_parallel_research_state",
+    "review_fallback": "only_workflow_permitted_single_context_mode_otherwise_block_required_independent_stage"
+  },
+  "tasks": [
+    {
+      "id": "rq-discuss",
+      "title": "研究问题与思路讨论",
+      "kind": "ars",
+      "workflow": "deep-research",
+      "mode": "socratic",
+      "skills": [
+        "scientific-brainstorming"
+      ],
+      "route": null,
+      "output_owner": "研究路径问题主源；未确认时仅讨论",
+      "gates": [
+        "user_research_decision",
+        "no_automatic_lower_mapping"
+      ]
+    },
+    {
+      "id": "research",
+      "title": "专题研究与文献检索",
+      "kind": "ars",
+      "workflow": "deep-research",
+      "mode": "full",
+      "skills": [
+        "nature-academic-search",
+        "literature-review"
+      ],
+      "route": "literature",
+      "output_owner": "既有主题或文献任务",
+      "gates": [
+        "source_verification"
+      ]
+    },
+    {
+      "id": "literature-review",
+      "title": "文献综述与证据综合",
+      "kind": "ars",
+      "workflow": "deep-research",
+      "mode": "lit-review",
+      "skills": [
+        "literature-review",
+        "nature-academic-search"
+      ],
+      "route": "literature",
+      "output_owner": "文献库或所属主题",
+      "gates": [
+        "source_verification",
+        "screening_explicit_only"
+      ]
+    },
+    {
+      "id": "paper-read",
+      "title": "论文卡片先行与单篇核读",
+      "kind": "native_extension",
+      "workflow": "deep-research",
+      "mode": null,
+      "skills": [
+        "nature-paper-card",
+        "read-research-paper",
+        "pdf",
+        "obsidian-mindmap"
+      ],
+      "route": "literature",
+      "output_owner": "单篇卡片主记录；原生导图为阅读视图",
+      "gates": [
+        "actual_read_scope",
+        "source_locators",
+        "card_before_reading_and_downstream",
+        "reuse_existing_card_no_duplicate"
+      ],
+      "note": "先查同篇并复用；无卡先保存Partial初读卡，再核读补卡后处理。定向阅读不扩大为全文，不自动补历史卡；本地扩展，不是ARS官方模式。"
+    },
+    {
+      "id": "compare-methods",
+      "title": "多篇方法与框架比较",
+      "kind": "ars",
+      "workflow": "deep-research",
+      "mode": "three-way-scan",
+      "skills": [
+        "paper-methods-comparison",
+        "nature-paper-card",
+        "read-research-paper",
+        "obsidian-mindmap"
+      ],
+      "route": "literature",
+      "output_owner": "原有专题比较任务",
+      "gates": [
+        "per_paper_evidence",
+        "per_paper_card_before_reading_and_comparison",
+        "independent_review_if_available"
+      ],
+      "note": "WHY/HOW/WHAT组织比较；逐篇阅读与用户讨论节奏由比较技能执行。"
+    },
+    {
+      "id": "fact-check",
+      "title": "论点与引用证据核查",
+      "kind": "ars",
+      "workflow": "deep-research",
+      "mode": "fact-check",
+      "skills": [
+        "nature-paper-card",
+        "nature-academic-search",
+        "pdf"
+      ],
+      "route": "evidence_review",
+      "output_owner": "所核论点的证据记录",
+      "gates": [
+        "existence_not_entailment",
+        "source_locators"
+      ]
+    },
+    {
+      "id": "outline",
+      "title": "大纲与论证结构",
+      "kind": "ars",
+      "workflow": "academic-paper",
+      "mode": "outline-only",
+      "skills": [
+        "nature-writing",
+        "obsidian-knowledge-manager"
+      ],
+      "route": "academic_write",
+      "output_owner": "大纲YAML与显式派生视图",
+      "gates": [
+        "user_outline_decision",
+        "outline_ops_guarded_publication"
+      ]
+    },
+    {
+      "id": "write",
+      "title": "正文写作与论证",
+      "kind": "ars",
+      "workflow": "academic-paper",
+      "mode": "full",
+      "skills": [
+        "nature-writing",
+        "nature-polishing"
+      ],
+      "route": "academic_write",
+      "output_owner": "选定正文工作稿",
+      "gates": [
+        "approved_scope_and_outline",
+        "material_gaps_not_fabrication"
+      ]
+    },
+    {
+      "id": "review",
+      "title": "模拟审稿",
+      "kind": "ars",
+      "workflow": "academic-paper-reviewer",
+      "mode": "full",
+      "skills": [
+        "nature-reviewer"
+      ],
+      "route": "evidence_review",
+      "output_owner": "稿件所属审查任务",
+      "gates": [
+        "read_only",
+        "confirmed_review_criteria",
+        "honest_review_independence"
+      ],
+      "note": "ARS审稿合同为主；nature-reviewer只补领域视角，不另起第二套裁决。"
+    },
+    {
+      "id": "revision",
+      "title": "修订与审稿回复",
+      "kind": "ars",
+      "workflow": "academic-paper",
+      "mode": "revision",
+      "skills": [
+        "nature-writing",
+        "nature-response"
+      ],
+      "route": "academic_write",
+      "output_owner": "选定稿件与逐条回复",
+      "gates": [
+        "author_revision_choices",
+        "claim_drift_review"
+      ]
+    },
+    {
+      "id": "screening",
+      "title": "系统筛选",
+      "kind": "ars",
+      "workflow": "sr-screener",
+      "mode": "protocol",
+      "skills": [
+        "nature-academic-search"
+      ],
+      "route": "evidence_review",
+      "output_owner": "用户选定综述任务",
+      "gates": [
+        "explicit_screening_request",
+        "confirmed_protocol",
+        "independent_review_for_dual_screening"
+      ]
+    },
+    {
+      "id": "pipeline",
+      "title": "完整研究到论文流程",
+      "kind": "ars",
+      "workflow": "academic-pipeline",
+      "mode": "pipeline",
+      "skills": [],
+      "route": null,
+      "output_owner": "同一论文任务；复用现有主源",
+      "gates": [
+        "explicit_end_to_end_request",
+        "stage_confirmation",
+        "integrity_before_and_after_review"
+      ]
+    },
+    {
+      "id": "experiment-plan",
+      "title": "研究设计与验证方案",
+      "kind": "companion",
+      "workflow": "experiment-agent",
+      "mode": "plan",
+      "skills": [
+        "statistical-analysis"
+      ],
+      "route": "research_analysis",
+      "output_owner": "所属方法与验证任务",
+      "gates": [
+        "user_method_decision",
+        "plan_not_executed_result"
+      ]
+    },
+    {
+      "id": "analysis",
+      "title": "数据分析与结果复核",
+      "kind": "companion",
+      "workflow": "experiment-agent",
+      "mode": "validate",
+      "skills": [
+        "statistical-analysis",
+        "spreadsheets",
+        "scientific-visualization"
+      ],
+      "route": "research_analysis",
+      "output_owner": "所属实证任务及真实执行记录",
+      "gates": [
+        "explicit_execution_authorization",
+        "real_inputs_and_outputs",
+        "no_pipeline_autonomous_experiments"
+      ]
+    },
+    {
+      "id": "graph-design",
+      "title": "建筑对象拆解与图谱建模",
+      "kind": "native_extension",
+      "workflow": "deep-research",
+      "mode": null,
+      "skills": [
+        "architectural-element-decomposition",
+        "neo4j-modeling-skill"
+      ],
+      "route": "graph_modeling",
+      "output_owner": "双基准及案例JSON原主源",
+      "gates": [
+        "read_dual_baselines",
+        "real_case_evidence",
+        "database_write_separately_authorized"
+      ]
+    },
+    {
+      "id": "vault-maintenance",
+      "title": "知识库结构与日常维护",
+      "kind": "native_extension",
+      "workflow": null,
+      "mode": null,
+      "skills": [
+        "obsidian-knowledge-manager",
+        "project-context-workflow",
+        "obsidian-doc-finalize"
+      ],
+      "route": "paper_maintenance",
+      "output_owner": "Paper既有维护入口",
+      "gates": [
+        "scoped_authorization",
+        "guarded_writes",
+        "no_research_state_inference"
+      ]
+    },
+    {
+      "id": "document-delivery",
+      "title": "文档与格式交付",
+      "kind": "ars",
+      "workflow": "academic-paper",
+      "mode": "format-convert",
+      "skills": [
+        "documents",
+        "pdf",
+        "nature-data"
+      ],
+      "route": "academic_write",
+      "output_owner": "原稿或所属成果包",
+      "gates": [
+        "requested_format",
+        "render_and_inspect",
+        "editable_source"
+      ]
+    },
+    {
+      "id": "visual-delivery",
+      "title": "图示导图与演示交付",
+      "kind": "native_extension",
+      "workflow": null,
+      "mode": null,
+      "skills": [
+        "drawio-skill",
+        "obsidian-mindmap",
+        "obsidian-excalidraw-cli",
+        "nature-figure",
+        "scientific-visualization",
+        "nature-paper2ppt",
+        "presentations"
+      ],
+      "route": "academic_write",
+      "output_owner": "所属成果包与原生可编辑图源",
+      "gates": [
+        "explicit_delivery_request",
+        "load_only_requested_format_skill",
+        "render_and_inspect"
+      ],
+      "note": "原生交付技能扩展，不声称ARS自主生成传播材料。"
+    }
+  ]
+}

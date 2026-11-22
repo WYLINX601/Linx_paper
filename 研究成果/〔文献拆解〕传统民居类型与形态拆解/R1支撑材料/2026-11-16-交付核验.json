@@ -1,0 +1,288 @@
+{
+  "scope": "staged R1 candidate and support, not whole-vault health or scientific validation",
+  "reference_entries": 8,
+  "cited_reference_ids": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "body_han_characters": 2167,
+  "body_nonwhitespace_characters": 2424,
+  "subsections": 4,
+  "validated_links": 28,
+  "links": [
+    {
+      "source": "R1-传统民居建筑形态与类型研究-正文候选.md",
+      "target": "R1-正文依据与待核项.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-传统民居建筑形态与类型研究-正文候选.md",
+      "target": "证据与阅读记录.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-传统民居建筑形态与类型研究-正文候选.md",
+      "target": "README.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "主题研究/〔研究方法〕类型识别与比较/〔研究方法〕类型识别与比较.md",
+      "kind": "wiki",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "context/PROJECT_CONTEXT.md",
+      "kind": "wiki",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "R1-传统民居建筑形态与类型研究-正文候选.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "证据与阅读记录.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "R1-传统民居建筑形态与类型研究-正文候选.md#本节参考文献",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "../../文献库/文献导图/传统民居类型与形态拆解/17-徽州类型学思想.smm.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "zotero://open-pdf/library/items/4Z9CLYCY?page=2",
+      "kind": "zotero_attachment_exists",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "../../文献库/文献导图/传统民居类型与形态拆解/11-徽州空间形式.smm.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "zotero://open-pdf/library/items/UNEXNUUS?page=54",
+      "kind": "zotero_attachment_exists",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "../../文献库/文献导图/传统民居类型与形态拆解/15-清水江自组织演化.smm.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "zotero://open-pdf/library/items/ERC8V363?page=3",
+      "kind": "zotero_attachment_exists",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "../../文献库/文献导图/传统民居类型与形态拆解/13-晋东南院落形态.smm.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "zotero://open-pdf/library/items/AFAMFD6H?page=1",
+      "kind": "zotero_attachment_exists",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "../../文献库/文献导图/传统民居类型与形态拆解/12-闽南二维空间量化.smm.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "zotero://open-pdf/library/items/XT9W8IED?page=62",
+      "kind": "zotero_attachment_exists",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "zotero://open-pdf/library/items/JCIGHAWR?page=1",
+      "kind": "zotero_attachment_exists",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "../../文献库/文献导图/传统民居类型与形态拆解/19-景宁木构侧样.smm.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "zotero://open-pdf/library/items/M2XVALGA?page=4",
+      "kind": "zotero_attachment_exists",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "../../文献库/文献导图/传统民居类型与形态拆解/22-后溪村形态类型保护.smm.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "zotero://open-pdf/library/items/4CM4NNC9?page=3",
+      "kind": "zotero_attachment_exists",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "证据与阅读记录.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "R1支撑材料/2026-11-16-三组来源独立核查.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "R1支撑材料/2026-11-16-三组来源核查输入.md",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "R1支撑材料/R1快速综述-讨论包.zip",
+      "kind": "markdown",
+      "exists": true
+    },
+    {
+      "source": "R1-正文依据与待核项.md",
+      "target": "R1支撑材料/2026-11-16-交付核验.json",
+      "kind": "markdown",
+      "exists": true
+    }
+  ],
+  "input_snapshot_manifest_entries_verified": 25,
+  "input_snapshot_zip_sha256": "283141d98b14316b4a6556f0d109c468203f64ff0e4f6a6b5d308b680068558d",
+  "source_sha256": {
+    "R1-传统民居建筑形态与类型研究-正文候选.md": "854ba0ede148f18562ce810c37b7a4e1e908756373f93825a5a9221b3c00268d",
+    "R1-正文依据与待核项.md": "2f0eb9a3d3a28f3a31033b584999ae0473984abc961721baf9faec7bf0c0deba"
+  },
+  "fixed_review_inputs_unchanged": {
+    "source-claims.md": "f222760af475628d600f1c40f5715bd04bc4048acefc6d4db5b1b434bfbbf68c",
+    "R1-传统民居建筑形态与类型研究-正文候选.md": "854ba0ede148f18562ce810c37b7a4e1e908756373f93825a5a9221b3c00268d"
+  },
+  "independent_review_sha256": "89be6276609d979c1a5c7192a307c1e32cb963af97fda3cb6c0960d52a16a3a0",
+  "independent_review_pdf_hashes_match": [
+    "4Z9CLYCY",
+    "ERC8V363",
+    "4CM4NNC9"
+  ],
+  "independent_review_scope": "three extracted source claims, not full candidate manuscript",
+  "pdf_sha256": {
+    "4Z9CLYCY": "8df3f2487b395b471313cdfb438fad3d85ad54b475d18123db8df92f24b34858",
+    "UNEXNUUS": "d60f1b038d5fc0c79e8a0e56280a7bae94167c3acf97423df3b4484eea52dc76",
+    "ERC8V363": "80f2e0ee280e72c15c7206cb134c09f0eae31e133ca6fa2d70b4c4ee592f7a93",
+    "AFAMFD6H": "519a42c398c3a8b226b18daab9c0eea01e041ff4dc37a834085b1126035d8142",
+    "XT9W8IED": "30a2568c7e0d3ef9a85df3f48226ede793ce844ba553111b9f7c7da5c81214ca",
+    "JCIGHAWR": "d8198661b44ae382040370cac035faa6947696702855eaede91091db9fce5a31",
+    "M2XVALGA": "05b77ecafb7a1138fead55c9ba42467c4a037a1ed842d5faea8d57f84ec969bd",
+    "4CM4NNC9": "52eb503487222fb7ebad2938577b1221986d271b840cc0ee7eb181afe5ea37a7"
+  },
+  "html_files": [
+    "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/r1-body-ofsdavd8/R1-传统民居建筑形态与类型研究-正文候选.html",
+    "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/r1-body-ofsdavd8/R1-正文依据与待核项.html"
+  ],
+  "html_sha256": {
+    "R1-传统民居建筑形态与类型研究-正文候选.html": "c7946bc51e752ad9fa10bd3993b4b1d40f0fe8103784de065840fc4deee70e8b",
+    "R1-正文依据与待核项.html": "b07e6ccd66cddd1698287b371fb5df10763ec6b69e3d3ec71a7dc37de465be72"
+  },
+  "visual_inspection": {
+    "status": "main-session inspected derived HTML screenshots",
+    "scope": "body opening and conclusion/reference transition; support evidence table and independent-check section",
+    "not_assessed": "Obsidian-native interface and Zotero link opening",
+    "checks": {
+      "body": {
+        "horizontalOverflow": false,
+        "sections": [
+          "（一）类型划分首先取决于分析对象与形态依据",
+          "（二）形制归纳、组合分析与量化分类承担不同任务",
+          "（三）从类型关系走向原型与空间解释，需要相应证据",
+          "（四）对本研究的启示：借鉴可比较的分析关系，而非照搬类型名录"
+        ],
+        "remainingLiteralMarkers": false,
+        "source_sha256": "854ba0ede148f18562ce810c37b7a4e1e908756373f93825a5a9221b3c00268d"
+      },
+      "support": {
+        "horizontalOverflow": false,
+        "tableColumns": [
+          [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+          ],
+          [
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3,
+            3
+          ],
+          [
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+          ]
+        ],
+        "sections": [
+          "1. 本次回答的问题与中心判断",
+          "2. 段落—依据对应",
+          "3. 书目身份、精读与原文入口",
+          "4. 术语口径",
+          "5. 实际阅读与未解决事项",
+          "6. 支撑材料与保存身份"
+        ],
+        "remainingLiteralMarkers": false,
+        "source_sha256": "2f0eb9a3d3a28f3a31033b584999ae0473984abc961721baf9faec7bf0c0deba"
+      }
+    }
+  }
+}

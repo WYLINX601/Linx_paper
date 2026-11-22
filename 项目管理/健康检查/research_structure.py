@@ -3,13 +3,15 @@ from pathlib import Path
 import argparse,hashlib,json,posixpath,re,subprocess,yaml
 from urllib.parse import quote
 import topic_artifact_views as artifacts
-ROOT=Path('/Users/wangyuelin/Desktop/Obsidian/Paper')
+import research_questions as thesis
+ROOT=Path(__file__).resolve().parents[2]
 BRIDGE='/Users/wangyuelin/.hermes/profiles/academic/bin/mac-paper'
 OUTLINE='论文章节/大纲结构.yaml'
 ROUTE='研究成果/〔研究路线〕论文研究路径/研究路径结构.json'
 ROLES=('研究界定','理论与文献依据','体系设计','研究方法','操作方法','检验与评价')
 ROLE_PURPOSE={'研究界定':'研究什么、不研究什么','理论与文献依据':'已有认识、借鉴依据与缺口','体系设计':'对象、信息和关系如何组成整体','研究方法':'如何获得认识及其依据','操作方法':'如何执行、记录与复核','检验与评价':'如何判断有效性及适用边界'}
 def read(path):
+    if Path(path).name.startswith('._'):return ''
     p=subprocess.run([BRIDGE,'read',path],capture_output=True,text=True,check=True);r=json.loads(p.stdout)
     if not r.get('ok'):raise RuntimeError(r)
     return r['result']['text']
@@ -73,6 +75,7 @@ def adoption_body(rows,topics=None):
     return note('map-adoption','章节—主题反向入口',body)
 
 def validate_route(route,topics):
+    route=thesis.resolve_route(route)
     assert route['schema_version']==1 and route['nodes']
     ids=[n['id'] for n in route['nodes']];assert len(ids)==len(set(ids))
     graph={i:[] for i in ids}
@@ -92,7 +95,7 @@ def validate_route(route,topics):
     for i in ids:visit(i)
 
 def generate(read_fn,root=ROOT):
-    model=yaml.safe_load(read_fn(OUTLINE));route=json.loads(read_fn(ROUTE));topics={};out={}
+    model=yaml.safe_load(read_fn(OUTLINE));route_source=json.loads(read_fn(ROUTE));route=thesis.resolve_route(route_source);topics={};out={}
     discovered=artifacts.discover_topics(read_fn,root)
     for info in discovered.values():
         p=info['path'];s=read_fn(p);m=meta(s)
@@ -103,7 +106,7 @@ def generate(read_fn,root=ROOT):
         topics[p]=m
         role='**研究角色：〔'+m['research_role']+'〕**　辅助角色：'+('、'.join(m['research_roles_secondary']) or '无')+'。\n\n角色说明本主题承担的职责，不表示章节归属、研究进度或已验证；主角色和辅助角色只在本主题页维护，标签与展示前缀由它们生成。\n'
         out[p]=artifacts.block(s,'research-role',role,'## 问题与范围')
-    validate(model,topics,root);validate_route(route,topics)
+    validate(model,topics,root);validate_route(route_source,topics)
     for p,m in topics.items():
         assert len(set(m['research_roles_secondary']))==len(m['research_roles_secondary'])
     # First update artifact relationship views using the same role metadata.
@@ -213,19 +216,25 @@ def generate(read_fn,root=ROOT):
         ts=[discovered[t]['path'] for t in n['topics']]
         body+='| '+n['title']+' | '+'、'.join(link(p,t,'〔'+topics[t]['research_role']+'〕'+topic_name(t)) for t in ts)+' | '+clean(n['status'])+' |\n'
     body+='\n## 图源职责\n\n本工作图由JSON生成，随研究依赖调整，不等于正文结构同步或研究完成。原[[研究成果/〔研究路线〕论文研究路径/研究路径图.drawio|draw.io图源]]及[[研究成果/〔研究路线〕论文研究路径/研究路径图.png|PNG]]保留为2026-10-20定位同步的阶段汇报快照；没有自动同步，不称为最新工作图。需要新的正式汇报图时，另行从已核对的工作主源更新draw.io并重新导出核验。\n'
-    out[p]=note('dynamic-research-path','研究路径工作图',body)
+    out[p]=thesis.route_view(route_source) if route_source.get('view_mode')==thesis.MODE else note('dynamic-research-path','研究路径工作图',body)
     active_subsections=sum(sub['included'] for c in model['chapters'] if c['included'] for sec in c['sections'] if sec['included'] for sub in sec.get('subsections',[]))
     return out,{'chapters':sum(c['included'] for c in model['chapters']),'sections':active_sections,'subsections':active_subsections,'adoptions':len(rows),'topics':len(topics),'roles':len(ROLES),'route_nodes':len(route['nodes']),'artifact_packages':arstats['packages'],'artifact_relations':arstats['relations']}
 
 if __name__=='__main__':
-    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--check',action='store_true');ap.add_argument('--output-dir',type=Path);a=ap.parse_args()
+    ap=argparse.ArgumentParser(description=__doc__);ap.add_argument('--check',action='store_true');ap.add_argument('--output-dir',type=Path);ap.add_argument('--route-only',action='store_true',help='check or render only the deferred thesis-question skeleton');a=ap.parse_args()
     if not a.check and not a.output_dir:ap.error('choose --check or --output-dir')
     if a.output_dir and a.output_dir.resolve().is_relative_to(ROOT):ap.error('output must be outside Paper')
     cache={}
     def cached(p):
         if p not in cache:cache[p]=read(p) if (ROOT/p).exists() else ''
         return cache[p]
-    out,stats=generate(cached);changed=[p for p,s in out.items() if s!=cached(p)]
+    if a.route_only:
+        route=json.loads(cached(ROUTE));questions=thesis.validate(route)
+        out={'研究成果/〔研究路线〕论文研究路径/研究路径工作图.md':thesis.route_view(route)}
+        stats={'route_nodes':len(questions),'route_edges':len(route['edges']),'lower_links':0}
+    else:
+        out,stats=generate(cached)
+    changed=[p for p,s in out.items() if s!=cached(p)]
     if a.output_dir:
         for p,s in out.items():
             f=a.output_dir/p;f.parent.mkdir(parents=True,exist_ok=True);f.write_text(s)

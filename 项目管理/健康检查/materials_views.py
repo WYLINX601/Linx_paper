@@ -2,7 +2,7 @@
 from pathlib import Path
 import argparse,json,posixpath,subprocess,yaml
 from urllib.parse import quote
-ROOT=Path('/Users/wangyuelin/Desktop/Obsidian/Paper')
+ROOT=Path(__file__).resolve().parents[2]
 BRIDGE=Path('/Users/wangyuelin/.hermes/profiles/academic/bin/mac-paper')
 LINK_SOURCE='README.md'
 CATEGORIES=[
@@ -13,6 +13,7 @@ CATEGORIES=[
 ]
 
 def read(path):
+    if Path(path).name.startswith('._'):return ''
     r=subprocess.run([str(BRIDGE),'read',path],capture_output=True,text=True,check=True)
     d=json.loads(r.stdout)
     if not d.get('ok'):raise RuntimeError(d)
@@ -28,7 +29,7 @@ def block(text,name,body):
     a,b=text.split(begin);_,c=b.split(end);return a+new+c
 
 def counts(path):
-    files=[p for p in path.rglob('*') if p.is_file()]
+    files=[p for p in path.rglob('*') if p.is_file() and not p.name.startswith('._') and p.name!='.DS_Store']
     md=sum(1 for p in files if p.suffix.lower()=='.md')
     js=sum(1 for p in files if p.suffix.lower()=='.json')
     img=sum(1 for p in files if p.suffix.lower() in ('.png','.jpg','.jpeg','.gif'))

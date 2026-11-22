@@ -1,0 +1,727 @@
+{
+  "schema": "paper-card-local-verification/1",
+  "verified_at_utc": "2026-11-16T13:12:10.539547+00:00",
+  "scope": "skill_adaptation_and_scoped_technical_checks_not_real_paper_reading",
+  "status": "scoped_technical_pass_with_preexisting_whole_vault_failures",
+  "user_rule": "后续涉及论文阅读，都先创建或复用精读论文卡片，再进行处理，以便后续复用。",
+  "version": "1.2.0-paper.1",
+  "skill_tests": {
+    "tests": 49,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0
+  },
+  "ars_adapter_test_count": 20,
+  "synthetic_execution": {
+    "scope": "synthetic_technical_only",
+    "runs": [
+      {
+        "argv": [
+          "/Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python",
+          "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-paper-card/scripts/prepare_paper.py",
+          "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke/synthetic-source.pdf",
+          "--output",
+          "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke/source_bundle.json",
+          "--render-dir",
+          "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke/rendered-pages"
+        ],
+        "returncode": 0,
+        "stdout": "warning: The `fitz` API is deprecated and will be removed in future. Use `import pymupdf` instead.\nWrote source bundle: /Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke/source_bundle.json\nPages: 1\nSections: 1\nFigures: 1\nTables: 1\nEquations: 0\nBundle validation: valid\nRecommended locator mode: page-grounded\n",
+        "stderr": ""
+      },
+      {
+        "argv": [
+          "/Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python",
+          "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-paper-card/scripts/audit_paper_card.py",
+          "--card",
+          "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke/synthetic-card.md",
+          "--bundle",
+          "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke/source_bundle.json",
+          "--locator-mode",
+          "page-grounded",
+          "--report",
+          "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke/audit-report.json"
+        ],
+        "returncode": 0,
+        "stdout": "Audit status: pass (passes=13, warnings=0, errors=0)\nPASS    sections: Sections 01-16 are present in order.\nPASS    forbidden_sections: No Sections 17 or 18 found.\nPASS    status_header: The evidence-status header has at least seven fields.\nPASS    locator_mode_declaration: The card declares locator mode: page-grounded.\nPASS    paper_pointers: Found 10 paper source pointers.\nPASS    page_pointer_range: Every PDF page pointer refers to available source pages.\n        {\"pointers\": []}\nPASS    page_grounding: PDF page pointers are explicit and unambiguous.\nPASS    figures_coverage: All 1 inventoried figures appear in the card.\nPASS    tables_coverage: All 1 inventoried tables appear in the card.\nPASS    equations_coverage: All 0 inventoried equations appear in the card.\nPASS    limitations_split: Sections 12 and 13 are both present.\nPASS    ideas_deferred: Research ideas were not requested; no candidate was required.\nPASS    out_of_scope: No excluded content detected.\nWrote audit report: /Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke/audit-report.json\n",
+        "stderr": ""
+      }
+    ],
+    "render_h2_count": 16,
+    "files": {
+      "synthetic-source.pdf": "340c67792fdee79b412a93b0191a4ae52fbec7abaf1b7797a37f56cead47cdbf",
+      "source_bundle.json": "63c1784a62b96a9ab78b0cacd2f99bd45ed55396046797b379d1f580a4b0ab33",
+      "synthetic-card.md": "c99e3d432974a2f79b43e3d7fcbd3d32d46ee2ad5336ccc256d3b9ad8f153a36",
+      "audit-report.json": "3a0f27cef813518f7239cf8382e9a257c4ebfc705f4d546bb8cdb286e7daf4ff"
+    }
+  },
+  "synthetic_audit": {
+    "schema_version": "1.0",
+    "summary": {
+      "status": "pass",
+      "passes": 13,
+      "warnings": 0,
+      "errors": 0
+    },
+    "metrics": {
+      "locator_mode": "page-grounded",
+      "sections_found": [
+        "01",
+        "02",
+        "03",
+        "04",
+        "05",
+        "06",
+        "07",
+        "08",
+        "09",
+        "10",
+        "11",
+        "12",
+        "13",
+        "14",
+        "15",
+        "16"
+      ],
+      "paper_pointer_count": 10,
+      "figures_in_bundle": 1,
+      "tables_in_bundle": 1,
+      "equations_in_bundle": 0
+    },
+    "findings": [
+      {
+        "level": "pass",
+        "code": "sections",
+        "message": "Sections 01-16 are present in order."
+      },
+      {
+        "level": "pass",
+        "code": "forbidden_sections",
+        "message": "No Sections 17 or 18 found."
+      },
+      {
+        "level": "pass",
+        "code": "status_header",
+        "message": "The evidence-status header has at least seven fields."
+      },
+      {
+        "level": "pass",
+        "code": "locator_mode_declaration",
+        "message": "The card declares locator mode: page-grounded."
+      },
+      {
+        "level": "pass",
+        "code": "paper_pointers",
+        "message": "Found 10 paper source pointers."
+      },
+      {
+        "level": "pass",
+        "code": "page_pointer_range",
+        "message": "Every PDF page pointer refers to available source pages.",
+        "details": {
+          "pointers": []
+        }
+      },
+      {
+        "level": "pass",
+        "code": "page_grounding",
+        "message": "PDF page pointers are explicit and unambiguous."
+      },
+      {
+        "level": "pass",
+        "code": "figures_coverage",
+        "message": "All 1 inventoried figures appear in the card."
+      },
+      {
+        "level": "pass",
+        "code": "tables_coverage",
+        "message": "All 1 inventoried tables appear in the card."
+      },
+      {
+        "level": "pass",
+        "code": "equations_coverage",
+        "message": "All 0 inventoried equations appear in the card."
+      },
+      {
+        "level": "pass",
+        "code": "limitations_split",
+        "message": "Sections 12 and 13 are both present."
+      },
+      {
+        "level": "pass",
+        "code": "ideas_deferred",
+        "message": "Research ideas were not requested; no candidate was required."
+      },
+      {
+        "level": "pass",
+        "code": "out_of_scope",
+        "message": "No excluded content detected."
+      }
+    ],
+    "input_hashes": {
+      "card_sha256": "c99e3d432974a2f79b43e3d7fcbd3d32d46ee2ad5336ccc256d3b9ad8f153a36",
+      "bundle_sha256": "63c1784a62b96a9ab78b0cacd2f99bd45ed55396046797b379d1f580a4b0ab33"
+    },
+    "verification_scope": "structure_and_detected_locator_checks_not_claim_entailment_or_reading_attestation"
+  },
+  "main_session_visual_check": {
+    "synthetic_pdf": "Chinese text and two rectangles, Figure 3-2 and Table 2.1 inspected",
+    "synthetic_markdown": "16 sections, 6 header breaks; four-column evidence table visually inspected",
+    "guide": "Rendered HTML preview inspected; not native Obsidian GUI acceptance"
+  },
+  "boundary": [
+    "No real-paper end-to-end reading quality evaluation",
+    "No historical card backfill",
+    "No Zotero/Neo4j writes",
+    "No research-question mapping or thesis content changes",
+    "No independent reviewer execution or full ARS pipeline",
+    "Whole-vault maintenance baseline failed before Paper publication; retained below, not repaired"
+  ],
+  "publication_note": "Existing files: SHA-guarded backups and verified replacement. New files: explicit recoverable-exclusive-create; complete-file visibility is NOT atomic. mac-paper binary was not edited in this task.",
+  "initial_new_file_failure": {
+    "target": "项目管理/Hermes学术助手配置/论文精读卡片使用说明.md",
+    "code": "write_failed",
+    "readback": "not_found",
+    "resolution": "Only missing target resumed with live-supported recoverable mode; completed writes were not replayed"
+  },
+  "execution_logs": {
+    "skill_tests": {
+      "argv": [
+        "/Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python",
+        "-m",
+        "pytest",
+        "-q",
+        "-c",
+        "/dev/null",
+        "--confcutdir=/Users/wangyuelin/.hermes/profiles/academic/skills/nature-paper-card/tests",
+        "-p",
+        "no:cacheprovider",
+        "--junitxml=/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/test-results.xml",
+        "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-paper-card/tests"
+      ],
+      "returncode": 0,
+      "stdout": ".................................................                        [100%]\n=============================== warnings summary ===============================\ntest_paper_adaptation.py::test_pdf_cli_prepares_and_renders_real_pdf_bytes\ntest_paper_adaptation.py::test_pdf_cli_prepares_and_renders_real_pdf_bytes\n  <frozen importlib._bootstrap>:491: DeprecationWarning: builtin type SwigPyPacked has no __module__ attribute\n\ntest_paper_adaptation.py::test_pdf_cli_prepares_and_renders_real_pdf_bytes\ntest_paper_adaptation.py::test_pdf_cli_prepares_and_renders_real_pdf_bytes\n  <frozen importlib._bootstrap>:491: DeprecationWarning: builtin type SwigPyObject has no __module__ attribute\n\ntest_paper_adaptation.py::test_pdf_cli_prepares_and_renders_real_pdf_bytes\n  <frozen importlib._bootstrap>:491: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n\n-- Docs: https://docs.pytest.org/en/stable/how-to/capture-warnings.html\n49 passed, 5 warnings in 0.94s\n",
+      "stderr": "<sys>:0: DeprecationWarning: builtin type swigvarlink has no __module__ attribute\n"
+    },
+    "ars_adapter_tests": {
+      "argv": [
+        "/Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt",
+        "-p",
+        "test_ars_paper.py",
+        "-v"
+      ],
+      "returncode": 0,
+      "stdout": "",
+      "stderr": "test_bridge_hash_mismatch_is_refused (test_ars_paper.AdapterTests.test_bridge_hash_mismatch_is_refused) ... ok\ntest_duplicate_task_is_refused (test_ars_paper.AdapterTests.test_duplicate_task_is_refused) ... ok\ntest_empty_goal_is_refused (test_ars_paper.AdapterTests.test_empty_goal_is_refused) ... ok\ntest_even_default_mode_requires_actual_contract_loading (test_ars_paper.AdapterTests.test_even_default_mode_requires_actual_contract_loading) ... ok\ntest_every_task_resolves_without_spawning (test_ars_paper.AdapterTests.test_every_task_resolves_without_spawning) ... ok\ntest_exact_goal_and_honest_status_are_preserved (test_ars_paper.AdapterTests.test_exact_goal_and_honest_status_are_preserved) ... ok\ntest_extension_cannot_claim_upstream_mode (test_ars_paper.AdapterTests.test_extension_cannot_claim_upstream_mode) ... ok\ntest_invalid_mode_override_is_refused (test_ars_paper.AdapterTests.test_invalid_mode_override_is_refused) ... ok\ntest_inventory_covers_every_workflow (test_ars_paper.AdapterTests.test_inventory_covers_every_workflow) ... ok\ntest_missing_source_lock_is_a_controlled_error (test_ars_paper.AdapterTests.test_missing_source_lock_is_a_controlled_error) ... ok\ntest_mode_change_does_not_reuse_task_default_gates (test_ars_paper.AdapterTests.test_mode_change_does_not_reuse_task_default_gates) ... ok\ntest_removed_authority_policy_is_refused (test_ars_paper.AdapterTests.test_removed_authority_policy_is_refused) ... ok\ntest_removed_mandatory_gate_is_refused (test_ars_paper.AdapterTests.test_removed_mandatory_gate_is_refused) ... ok\ntest_required_gates_are_preserved (test_ars_paper.AdapterTests.test_required_gates_are_preserved) ... ok\ntest_route_typo_is_refused (test_ars_paper.AdapterTests.test_route_typo_is_refused) ... ok\ntest_source_receipts_deduplicate_and_do_not_claim_research_review (test_ars_paper.AdapterTests.test_source_receipts_deduplicate_and_do_not_claim_research_review) ... ok\ntest_unknown_task_is_refused (test_ars_paper.AdapterTests.test_unknown_task_is_refused) ... ok\ntest_unknown_task_kind_is_refused (test_ars_paper.AdapterTests.test_unknown_task_kind_is_refused) ... ok\ntest_unsafe_source_paths_are_refused_before_subprocess (test_ars_paper.AdapterTests.test_unsafe_source_paths_are_refused_before_subprocess) ... ok\ntest_upstream_mode_overrides_are_available (test_ars_paper.AdapterTests.test_upstream_mode_overrides_are_available) ... ok\n\n----------------------------------------------------------------------\nRan 20 tests in 0.015s\n\nOK\n"
+    },
+    "synthetic_smoke": {
+      "argv": [
+        "/Users/wangyuelin/.hermes/profiles/academic/runtime/venv/bin/python",
+        "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-paper-card/scripts/smoke_test.py",
+        "--output-dir",
+        "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke"
+      ],
+      "returncode": 0,
+      "stdout": "{\"status\": \"pass\", \"scope\": \"synthetic_technical_only\", \"output_dir\": \"/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/paper-card-adapt/smoke\", \"audit\": {\"status\": \"pass\", \"passes\": 13, \"warnings\": 0, \"errors\": 0}}\n",
+      "stderr": ""
+    },
+    "whole_maintenance_baseline": {
+      "argv": [
+        "/Users/wangyuelin/.hermes/profiles/academic/bin/paper-maintain",
+        "check"
+      ],
+      "returncode": 1,
+      "stdout": "Paper check\n  FAIL outline\nTraceback (most recent call last):\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/research_structure.py\", line 235, in <module>\n    out,stats=generate(cached)\n              ~~~~~~~~^^^^^^^^\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/research_structure.py\", line 97, in generate\n    model=yaml.safe_load(read_fn(OUTLINE));route_source=json.loads(read_fn(ROUTE));route=thesis.resolve_route(route_source);topics={};out={}\n                                                        ~~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py\", line 352, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py\", line 363, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n  ok   alignment\n  FAIL claims\nTraceback (most recent call last):\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/research_claims.py\", line 287, in <module>\n    out, stats = generate(cached)\n                 ~~~~~~~~^^^^^^^^\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/research_claims.py\", line 209, in generate\n    topics, by_path, questions, claims = discover(read_fn)\n                                         ~~~~~~~~^^^^^^^^^\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/research_claims.py\", line 77, in discover\n    assert topics, 'no research topics discovered'\n           ^^^^^^\nAssertionError: no research topics discovered\n  FAIL artifacts\nTraceback (most recent call last):\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/topic_artifact_views.py\", line 155, in <module>\n    out,stats=generate(cached);changed=[p for p,s in out.items() if s!=cached(p)]\n              ~~~~~~~~^^^^^^^^\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/topic_artifact_views.py\", line 60, in generate\n    packages=sorted(p for p in (root/'研究成果').iterdir() if p.is_dir() and not p.name.startswith('.'))\n                               ~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 836, in iterdir\n    with os.scandir(root_dir) as scandir_it:\n         ~~~~~~~~~~^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/wangyuelin/Desktop/Obsidian/Paper/研究成果'\n  FAIL literature\nTraceback (most recent call last):\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/literature_views.py\", line 163, in <module>\n    out,stats=generate(cached);changed=[p for p,s in out.items() if current(p)!=s]\n              ~~~~~~~~^^^^^^^^\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/literature_views.py\", line 104, in generate\n    topics=topic_rows();maps=map_rows()\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/literature_views.py\", line 82, in topic_rows\n    for d in sorted((ROOT/'文献库/专题精读').iterdir()):\n                    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 836, in iterdir\n    with os.scandir(root_dir) as scandir_it:\n         ~~~~~~~~~~^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/wangyuelin/Desktop/Obsidian/Paper/文献库/专题精读'\n  FAIL materials\nTraceback (most recent call last):\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/materials_views.py\", line 95, in <module>\n    out,stats=generate(cached);changed=[p for p,s in out.items() if current(p)!=s]\n              ~~~~~~~~^^^^^^^^\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/materials_views.py\", line 56, in generate\n    villages=village_rows()\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/materials_views.py\", line 41, in village_rows\n    for d in sorted(base.iterdir()):\n                    ~~~~~~~~~~~~^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/pathlib/__init__.py\", line 836, in iterdir\n    with os.scandir(root_dir) as scandir_it:\n         ~~~~~~~~~~^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/wangyuelin/Desktop/Obsidian/Paper/研究资料/村落资料'\n  FAIL tests\n 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py\", line 363, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\n\n======================================================================\nERROR: setUpClass (test_research_structure.DynamicResearchTests)\n----------------------------------------------------------------------\nTraceback (most recent call last):\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/test_research_structure.py\", line 15, in setUpClass\n    rs.generate(reader,cls.root)\n    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^\n  File \"/Volumes/LinxSpace/Paper/项目管理/健康检查/research_structure.py\", line 97, in generate\n    model=yaml.safe_load(read_fn(OUTLINE));route_source=json.loads(read_fn(ROUTE));route=thesis.resolve_route(route_source);topics={};out={}\n                                                        ~~~~~~~~~~^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/__init__.py\", line 352, in loads\n    return _default_decoder.decode(s)\n           ~~~~~~~~~~~~~~~~~~~~~~~^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py\", line 345, in decode\n    obj, end = self.raw_decode(s, idx=_w(s, 0).end())\n               ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/homebrew/Cellar/python@3.14/3.14.7/Frameworks/Python.framework/Versions/3.14/lib/python3.14/json/decoder.py\", line 363, in raw_decode\n    raise JSONDecodeError(\"Expecting value\", s, err.value) from None\njson.decoder.JSONDecodeError: Expecting value: line 1 column 1 (char 0)\n\n----------------------------------------------------------------------\nRan 35 tests in 0.038s\n\nFAILED (errors=3)\nresult: 6 failure(s)\n",
+      "stderr": ""
+    },
+    "ars_live_doctor": {
+      "argv": [
+        "/Users/wangyuelin/.hermes/profiles/academic/bin/ars-paper",
+        "doctor"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"status\": \"pass\",\n  \"task_count\": 18,\n  \"workflow_count\": 6,\n  \"role_counts\": {\n    \"canonical_roles\": 45,\n    \"subagents\": 34,\n    \"main_roles\": 11,\n    \"aliases\": 4,\n    \"instances\": 4,\n    \"contract_calls\": 4,\n    \"unmapped\": 0\n  },\n  \"checks\": [\n    {\n      \"check\": \"workflow:deep-research\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/WORKFLOW.md\"\n    },\n    {\n      \"check\": \"workflow:academic-paper\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/academic-paper/WORKFLOW.md\"\n    },\n    {\n      \"check\": \"workflow:academic-paper-reviewer\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/academic-paper-reviewer/WORKFLOW.md\"\n    },\n    {\n      \"check\": \"workflow:academic-pipeline\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/academic-pipeline/WORKFLOW.md\"\n    },\n    {\n      \"check\": \"workflow:sr-screener\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/sr-screener/WORKFLOW.md\"\n    },\n    {\n      \"check\": \"workflow:experiment-agent\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/experiment-agent/WORKFLOW.md\"\n    },\n    {\n      \"check\": \"suite_source_lock\",\n      \"status\": \"pass\",\n      \"detail\": \"3.23.0\"\n    },\n    {\n      \"check\": \"skill:academic-research-suite\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:architectural-element-decomposition\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/architectural-element-decomposition/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:documents\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/documents/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:drawio-skill\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/drawio-skill/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:literature-review\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/literature-review/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-academic-search\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-academic-search/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-data\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-data/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-figure\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-figure/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-paper-card\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-paper-card/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-paper2ppt\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-paper2ppt/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-polishing\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-polishing/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-response\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-response/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-reviewer\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-reviewer/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:nature-writing\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/nature-writing/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:neo4j-modeling-skill\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/neo4j-modeling-skill/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:obsidian-doc-finalize\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/obsidian-doc-finalize/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:obsidian-excalidraw-cli\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/obsidian-excalidraw-cli/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:obsidian-knowledge-manager\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/obsidian-knowledge-manager/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:obsidian-mindmap\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/obsidian-mindmap/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:paper-methods-comparison\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/paper-methods-comparison/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:pdf\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/pdf/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:presentations\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/presentations/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:project-context-workflow\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/project-context-workflow/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:read-research-paper\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/read-research-paper/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:scientific-brainstorming\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/scientific-brainstorming/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:scientific-visualization\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/scientific-visualization/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:spreadsheets\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/spreadsheets/SKILL.md\"\n    },\n    {\n      \"check\": \"skill:statistical-analysis\",\n      \"status\": \"pass\",\n      \"detail\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/statistical-analysis/SKILL.md\"\n    },\n    {\n      \"check\": \"profile_scope\",\n      \"status\": \"pass\",\n      \"detail\": \"academic only\"\n    },\n    {\n      \"check\": \"framework_auto_load\",\n      \"status\": \"pass\",\n      \"detail\": \"academic-workspace, academic-research-suite\"\n    },\n    {\n      \"check\": \"delegation_backend\",\n      \"status\": \"pass\",\n      \"detail\": \"model_map\"\n    },\n    {\n      \"check\": \"official_model_routes_parser\",\n      \"status\": \"pass\",\n      \"detail\": \"Installed official parser; no skipped or normalized-duplicate entries\"\n    },\n    {\n      \"check\": \"route:literature\",\n      \"status\": \"pass\",\n      \"detail\": \"Explicit model/provider or endpoint, description and no provider fallback; per-route model choice is owned by Hermes, not Paper\"\n    },\n    {\n      \"check\": \"route:evidence_review\",\n      \"status\": \"pass\",\n      \"detail\": \"Explicit model/provider or endpoint, description and no provider fallback; per-route model choice is owned by Hermes, not Paper\"\n    },\n    {\n      \"check\": \"route:graph_modeling\",\n      \"status\": \"pass\",\n      \"detail\": \"Explicit model/provider or endpoint, description and no provider fallback; per-route model choice is owned by Hermes, not Paper\"\n    },\n    {\n      \"check\": \"route:paper_maintenance\",\n      \"status\": \"pass\",\n      \"detail\": \"Explicit model/provider or endpoint, description and no provider fallback; per-route model choice is owned by Hermes, not Paper\"\n    },\n    {\n      \"check\": \"route:academic_write\",\n      \"status\": \"pass\",\n      \"detail\": \"Explicit model/provider or endpoint, description and no provider fallback; per-route model choice is owned by Hermes, not Paper\"\n    },\n    {\n      \"check\": \"route:research_analysis\",\n      \"status\": \"pass\",\n      \"detail\": \"Explicit model/provider or endpoint, description and no provider fallback; per-route model choice is owned by Hermes, not Paper\"\n    },\n    {\n      \"check\": \"explicit_default_model_route\",\n      \"status\": \"pass\",\n      \"detail\": \"Valid named default is configured in Hermes; its choice is user-managed, not fixed by Paper\"\n    },\n    {\n      \"check\": \"delegation_toolset:cli\",\n      \"status\": \"pass\",\n      \"detail\": \"effective on new sessions; live child execution is a separate test\"\n    },\n    {\n      \"check\": \"delegation_toolset:api_server\",\n      \"status\": \"pass\",\n      \"detail\": \"effective on new sessions; live child execution is a separate test\"\n    },\n    {\n      \"check\": \"role_registry_full_coverage\",\n      \"status\": \"pass\",\n      \"detail\": \"{\\\"canonical_roles\\\": 45, \\\"subagents\\\": 34, \\\"main_roles\\\": 11, \\\"aliases\\\": 4, \\\"instances\\\": 4, \\\"contract_calls\\\": 4, \\\"unmapped\\\": 0}\"\n    },\n    {\n      \"check\": \"mcp_inheritance_compatibility_setting\",\n      \"status\": \"pass\",\n      \"detail\": \"This setting alone is not a per-task tool boundary: the installed native API inherits parent tools; restrict the parent session when required\"\n    }\n  ],\n  \"failure_count\": 0,\n  \"source_truth\": \"Paper mapping + installed files/config\",\n  \"not_tested_by_doctor\": [\n    \"MCP service connectivity\",\n    \"scientific validity\",\n    \"full ARS pipeline\",\n    \"independent multi-review accuracy\",\n    \"whole-vault health\",\n    \"GUI acceptance\",\n    \"LLM child execution\"\n  ]\n}\n",
+      "stderr": ""
+    },
+    "route_paper_read": {
+      "argv": [
+        "/Users/wangyuelin/.hermes/profiles/academic/bin/ars-paper",
+        "route",
+        "paper-read"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"id\": \"paper-read\",\n  \"title\": \"论文卡片先行与单篇核读\",\n  \"kind\": \"native_extension\",\n  \"workflow\": \"deep-research\",\n  \"mode\": null,\n  \"skills\": [\n    \"nature-paper-card\",\n    \"read-research-paper\",\n    \"pdf\",\n    \"obsidian-mindmap\"\n  ],\n  \"route\": \"literature\",\n  \"output_owner\": \"单篇卡片主记录；原生导图为阅读视图\",\n  \"gates\": [\n    \"actual_read_scope\",\n    \"source_locators\",\n    \"card_before_reading_and_downstream\",\n    \"reuse_existing_card_no_duplicate\",\n    \"read_selected_workflow_mode_contract_before_dispatch\"\n  ],\n  \"note\": \"先查同篇并复用；无卡先保存Partial初读卡，再核读补卡后处理。定向阅读不扩大为全文，不自动补历史卡；本地扩展，不是ARS官方模式。\",\n  \"task_default_gates\": [\n    \"actual_read_scope\",\n    \"source_locators\",\n    \"card_before_reading_and_downstream\",\n    \"reuse_existing_card_no_duplicate\"\n  ],\n  \"workflow_path\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/WORKFLOW.md\",\n  \"framework_skill\": \"academic-research-suite\",\n  \"skills_are_selective\": true,\n  \"execution_status\": \"prepared_not_dispatched\",\n  \"dispatch_allowed_by_this_adapter\": false,\n  \"mode_contract\": {\n    \"status\": \"not_loaded_by_adapter\",\n    \"changed_from_task_default\": false,\n    \"requires\": \"Read the selected workflow and role contracts; establish their inputs, prerequisites and real author decisions before dispatch.\"\n  },\n  \"role_prompt_required_at_dispatch\": true,\n  \"authority\": {\n    \"startup\": [\n      \"AGENTS.md\",\n      \"README.md\",\n      \"context/PROJECT_CONTEXT.md\"\n    ],\n    \"outline\": \"论文章节/大纲结构.yaml\",\n    \"questions\": \"研究成果/〔研究路线〕论文研究路径/研究路径结构.json\",\n    \"bot\": \"研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md\",\n    \"local_model\": \"研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md\",\n    \"runtime_guide\": \"项目管理/Hermes学术助手配置/README.md\"\n  },\n  \"execution_policy\": {\n    \"cross_model_default\": \"off_requires_provider_and_content_consent\",\n    \"database_default\": \"no_implicit_write\",\n    \"experiment_bridge\": \"only_explicit_user_authorized_task_outside_ars_pipeline\",\n    \"paper_write\": \"mac-paper_current_sha_or_expect_missing\",\n    \"research_decisions\": \"user_owned_no_inferred_confirmation\",\n    \"small_tasks\": \"no_mandatory_passport_or_full_pipeline\",\n    \"paper_reading\": \"reuse_or_persist_partial_card_before_reading_update_actual_scope_then_downstream_no_duplicate_or_bulk_backfill\",\n    \"long_runs\": \"use_real_ars_passport_and_run_ledger_in_task_owner_not_parallel_research_state\",\n    \"review_fallback\": \"only_workflow_permitted_single_context_mode_otherwise_block_required_independent_stage\"\n  },\n  \"notice\": \"This is routing metadata, not a running agent, source review, permission grant, or completed stage.\"\n}\n",
+      "stderr": ""
+    },
+    "route_comparison": {
+      "argv": [
+        "/Users/wangyuelin/.hermes/profiles/academic/bin/ars-paper",
+        "route",
+        "compare-methods"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"id\": \"compare-methods\",\n  \"title\": \"多篇方法与框架比较\",\n  \"kind\": \"ars\",\n  \"workflow\": \"deep-research\",\n  \"mode\": \"three-way-scan\",\n  \"skills\": [\n    \"paper-methods-comparison\",\n    \"nature-paper-card\",\n    \"read-research-paper\",\n    \"obsidian-mindmap\"\n  ],\n  \"route\": \"literature\",\n  \"output_owner\": \"原有专题比较任务\",\n  \"gates\": [\n    \"per_paper_evidence\",\n    \"per_paper_card_before_reading_and_comparison\",\n    \"independent_review_if_available\",\n    \"read_selected_workflow_mode_contract_before_dispatch\"\n  ],\n  \"note\": \"WHY/HOW/WHAT组织比较；逐篇阅读与用户讨论节奏由比较技能执行。\",\n  \"task_default_gates\": [\n    \"per_paper_evidence\",\n    \"per_paper_card_before_reading_and_comparison\",\n    \"independent_review_if_available\"\n  ],\n  \"workflow_path\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/WORKFLOW.md\",\n  \"framework_skill\": \"academic-research-suite\",\n  \"skills_are_selective\": true,\n  \"execution_status\": \"prepared_not_dispatched\",\n  \"dispatch_allowed_by_this_adapter\": false,\n  \"mode_contract\": {\n    \"status\": \"not_loaded_by_adapter\",\n    \"changed_from_task_default\": false,\n    \"requires\": \"Read the selected workflow and role contracts; establish their inputs, prerequisites and real author decisions before dispatch.\"\n  },\n  \"role_prompt_required_at_dispatch\": true,\n  \"authority\": {\n    \"startup\": [\n      \"AGENTS.md\",\n      \"README.md\",\n      \"context/PROJECT_CONTEXT.md\"\n    ],\n    \"outline\": \"论文章节/大纲结构.yaml\",\n    \"questions\": \"研究成果/〔研究路线〕论文研究路径/研究路径结构.json\",\n    \"bot\": \"研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md\",\n    \"local_model\": \"研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md\",\n    \"runtime_guide\": \"项目管理/Hermes学术助手配置/README.md\"\n  },\n  \"execution_policy\": {\n    \"cross_model_default\": \"off_requires_provider_and_content_consent\",\n    \"database_default\": \"no_implicit_write\",\n    \"experiment_bridge\": \"only_explicit_user_authorized_task_outside_ars_pipeline\",\n    \"paper_write\": \"mac-paper_current_sha_or_expect_missing\",\n    \"research_decisions\": \"user_owned_no_inferred_confirmation\",\n    \"small_tasks\": \"no_mandatory_passport_or_full_pipeline\",\n    \"paper_reading\": \"reuse_or_persist_partial_card_before_reading_update_actual_scope_then_downstream_no_duplicate_or_bulk_backfill\",\n    \"long_runs\": \"use_real_ars_passport_and_run_ledger_in_task_owner_not_parallel_research_state\",\n    \"review_fallback\": \"only_workflow_permitted_single_context_mode_otherwise_block_required_independent_stage\"\n  },\n  \"notice\": \"This is routing metadata, not a running agent, source review, permission grant, or completed stage.\"\n}\n",
+      "stderr": ""
+    },
+    "route_fact_check": {
+      "argv": [
+        "/Users/wangyuelin/.hermes/profiles/academic/bin/ars-paper",
+        "route",
+        "fact-check"
+      ],
+      "returncode": 0,
+      "stdout": "{\n  \"id\": \"fact-check\",\n  \"title\": \"论点与引用证据核查\",\n  \"kind\": \"ars\",\n  \"workflow\": \"deep-research\",\n  \"mode\": \"fact-check\",\n  \"skills\": [\n    \"nature-paper-card\",\n    \"nature-academic-search\",\n    \"pdf\"\n  ],\n  \"route\": \"evidence_review\",\n  \"output_owner\": \"所核论点的证据记录\",\n  \"gates\": [\n    \"existence_not_entailment\",\n    \"source_locators\",\n    \"read_selected_workflow_mode_contract_before_dispatch\"\n  ],\n  \"task_default_gates\": [\n    \"existence_not_entailment\",\n    \"source_locators\"\n  ],\n  \"workflow_path\": \"/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/WORKFLOW.md\",\n  \"framework_skill\": \"academic-research-suite\",\n  \"skills_are_selective\": true,\n  \"execution_status\": \"prepared_not_dispatched\",\n  \"dispatch_allowed_by_this_adapter\": false,\n  \"mode_contract\": {\n    \"status\": \"not_loaded_by_adapter\",\n    \"changed_from_task_default\": false,\n    \"requires\": \"Read the selected workflow and role contracts; establish their inputs, prerequisites and real author decisions before dispatch.\"\n  },\n  \"role_prompt_required_at_dispatch\": true,\n  \"authority\": {\n    \"startup\": [\n      \"AGENTS.md\",\n      \"README.md\",\n      \"context/PROJECT_CONTEXT.md\"\n    ],\n    \"outline\": \"论文章节/大纲结构.yaml\",\n    \"questions\": \"研究成果/〔研究路线〕论文研究路径/研究路径结构.json\",\n    \"bot\": \"研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md\",\n    \"local_model\": \"研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md\",\n    \"runtime_guide\": \"项目管理/Hermes学术助手配置/README.md\"\n  },\n  \"execution_policy\": {\n    \"cross_model_default\": \"off_requires_provider_and_content_consent\",\n    \"database_default\": \"no_implicit_write\",\n    \"experiment_bridge\": \"only_explicit_user_authorized_task_outside_ars_pipeline\",\n    \"paper_write\": \"mac-paper_current_sha_or_expect_missing\",\n    \"research_decisions\": \"user_owned_no_inferred_confirmation\",\n    \"small_tasks\": \"no_mandatory_passport_or_full_pipeline\",\n    \"paper_reading\": \"reuse_or_persist_partial_card_before_reading_update_actual_scope_then_downstream_no_duplicate_or_bulk_backfill\",\n    \"long_runs\": \"use_real_ars_passport_and_run_ledger_in_task_owner_not_parallel_research_state\",\n    \"review_fallback\": \"only_workflow_permitted_single_context_mode_otherwise_block_required_independent_stage\"\n  },\n  \"notice\": \"This is routing metadata, not a running agent, source review, permission grant, or completed stage.\"\n}\n",
+      "stderr": ""
+    }
+  },
+  "source_provenance": {
+    "source": "/Users/wangyuelin/Downloads/nature-skills-main/skills/nature-paper-card",
+    "source_kind": "user_supplied_local_snapshot",
+    "upstream_declared_version": "1.2.0",
+    "local_version": "1.2.0-paper.1",
+    "upstream_commit": null,
+    "remote_latest_checked": false,
+    "license_file": "references/UPSTREAM-LICENSE.txt",
+    "source_snapshot": "/Users/wangyuelin/.hermes/profiles/academic/backups/paper-card-20261116-205047/upstream-nature-paper-card.zip",
+    "prechange_backup": "/Users/wangyuelin/.hermes/profiles/academic/backups/paper-card-20261116-205047",
+    "previous_entrypoints": {
+      "read-research-paper/SKILL.md": "5fd5b93c183dd0aceab809fbff5abe0ee6d9a338e611feb66337d68ca5a58ead",
+      "academic-research-suite/SKILL.md": "f90da9f42d9b2244ba0921a74829d9fb55043764e152ae4a858f9eb159ecd0ba"
+    },
+    "copied_files": [
+      {
+        "path": "manifest.yaml",
+        "upstream_sha256": "0feb08158b0cf0376fc0df93792c63544deff539769ff9086c48e287261f53c3"
+      },
+      {
+        "path": "references/card-schema.md",
+        "upstream_sha256": "68e60cc78d99106446809d94622bc679da767010f686ec422d29550a21a02d82"
+      },
+      {
+        "path": "references/evidence-and-provenance.md",
+        "upstream_sha256": "2731956e7c1b2e180eb4a6c13dd631c731b322dfe7d61e43d6fd4fb3e704e817"
+      },
+      {
+        "path": "references/research-idea-gates.md",
+        "upstream_sha256": "7eed78f2e65d1408d6e2902448cd05928f7d10e3a78799be2ebc1d81ac3849fd"
+      },
+      {
+        "path": "scripts/audit_paper_card.py",
+        "upstream_sha256": "d3d999c15afa14c809e165734a4dbc3d24e569498bf17583e68a2fcd8a2f523b"
+      },
+      {
+        "path": "scripts/prepare_paper.py",
+        "upstream_sha256": "52c767a4897a44200001d00bdcf741dc43d937f40f0c5897cc6b5d1eb7b41d86"
+      },
+      {
+        "path": "static/core/output-contract.md",
+        "upstream_sha256": "3216e9520da78e7c5a9d59c36623fb0c2e72a36768433d6b6ef7afdfb608c959"
+      },
+      {
+        "path": "static/core/principles.md",
+        "upstream_sha256": "2af19631dcc1d0e2648d44e4841ee10ea9e5fd9d7c500fb1b5fda0609aa28e3c"
+      },
+      {
+        "path": "static/core/workflow.md",
+        "upstream_sha256": "af48c36220f35cd6d9c49e1c748a0f7c696454feef10f1b5b87608301615a5dd"
+      },
+      {
+        "path": "static/fragments/paper_type/clinical.md",
+        "upstream_sha256": "0e8e9ee708b6630e41f9957de7af4c208dc8d65ef5cb3a6920addcb21028febb"
+      },
+      {
+        "path": "static/fragments/paper_type/discovery.md",
+        "upstream_sha256": "b70590d5782f1c250ca63bfe8c7825b505d5528d736a9ba17f9d9bfa87f567b4"
+      },
+      {
+        "path": "static/fragments/paper_type/materials.md",
+        "upstream_sha256": "aba4fd902e50d79ed6952a86470819747f430a11f54c3774f899b01ef912ed8f"
+      },
+      {
+        "path": "static/fragments/paper_type/methods.md",
+        "upstream_sha256": "25144949f53c3c9846f51ab32d2e7c6d9339589c66bb883161584226186ee24b"
+      },
+      {
+        "path": "static/fragments/paper_type/resource.md",
+        "upstream_sha256": "4713b03501ceeacd5a394f4c3bd499263757b172eb98f2fd7e44778125f5e5fd"
+      },
+      {
+        "path": "static/fragments/paper_type/review.md",
+        "upstream_sha256": "f41b7e3755f3bab4cbcbb612067f65e34381668cb15f8d27a850a062caecab9e"
+      },
+      {
+        "path": "tests/test_audit_page_ranges.py",
+        "upstream_sha256": "fc29a7a6944b2488470f18be3f5e7a7c686333f1431573c6c564a3e37c906ed4"
+      },
+      {
+        "path": "tests/test_prepare_paper.py",
+        "upstream_sha256": "472dbae36fe513efbe1b3552118c627b6e560440bccc47700f3460dd99f2cc76"
+      }
+    ],
+    "note": "Original ZIP is the upstream byte record; active installed files may carry explicitly documented local modifications."
+  },
+  "upstream_recorded_files_unchanged": true,
+  "installed_files": [
+    {
+      "path": "SKILL.md",
+      "sha256": "0a4eeb9605e0a7a7f4fea9c302176a719c08649e0b486d9099bd43df5dd18a3a"
+    },
+    {
+      "path": "manifest.yaml",
+      "sha256": "549612cb0f08080a23f21f38a63c592c146e8298c04bd02355862749af4ab335"
+    },
+    {
+      "path": "references/UPSTREAM-LICENSE.txt",
+      "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+    },
+    {
+      "path": "references/card-schema.md",
+      "sha256": "68e60cc78d99106446809d94622bc679da767010f686ec422d29550a21a02d82"
+    },
+    {
+      "path": "references/evidence-and-provenance.md",
+      "sha256": "2731956e7c1b2e180eb4a6c13dd631c731b322dfe7d61e43d6fd4fb3e704e817"
+    },
+    {
+      "path": "references/lenses/architecture.md",
+      "sha256": "019368e5406b5360d584a7edba6335fef09dd5ceac95ba2f772ca832a009723d"
+    },
+    {
+      "path": "references/lenses/theory-framework.md",
+      "sha256": "19f7c2f12b9779e9c7fb845c2d122969d7b973123964cb773252a05bb65ab8e2"
+    },
+    {
+      "path": "references/paper-adaptation.md",
+      "sha256": "6badb668e49db8e8cb543ffb8f65b3ba391a288114cda52877d0f9dd8a5c1904"
+    },
+    {
+      "path": "references/paper-card-schema.md",
+      "sha256": "247a0eac97bd7177eae9b5fc2e3dbf08f406ad072a5e8fb02794eb8f8eab8f9a"
+    },
+    {
+      "path": "references/research-idea-gates.md",
+      "sha256": "7eed78f2e65d1408d6e2902448cd05928f7d10e3a78799be2ebc1d81ac3849fd"
+    },
+    {
+      "path": "references/source-provenance.json",
+      "sha256": "20a0940f81b7567cac083eddadcbb37775cc80d4ee36647409b97e3db7c02156"
+    },
+    {
+      "path": "scripts/audit_paper_card.py",
+      "sha256": "0bb15cfd8d3ce8d9c81386b172e8ea0c0e9a7e4f74dc92baa98d5d13c44a7412"
+    },
+    {
+      "path": "scripts/prepare_paper.py",
+      "sha256": "483abfdd3d38d7cd25bb42fb4c86a3216a46394d63cdeca9c232959d0a52bcf3"
+    },
+    {
+      "path": "scripts/smoke_test.py",
+      "sha256": "ba8bb2f07d0ef271c6ea2dd94cfc6164889db1bb29d80cb57264934e5d118d93"
+    },
+    {
+      "path": "static/core/output-contract.md",
+      "sha256": "3216e9520da78e7c5a9d59c36623fb0c2e72a36768433d6b6ef7afdfb608c959"
+    },
+    {
+      "path": "static/core/principles.md",
+      "sha256": "2af19631dcc1d0e2648d44e4841ee10ea9e5fd9d7c500fb1b5fda0609aa28e3c"
+    },
+    {
+      "path": "static/core/workflow.md",
+      "sha256": "af48c36220f35cd6d9c49e1c748a0f7c696454feef10f1b5b87608301615a5dd"
+    },
+    {
+      "path": "static/fragments/paper_type/clinical.md",
+      "sha256": "0e8e9ee708b6630e41f9957de7af4c208dc8d65ef5cb3a6920addcb21028febb"
+    },
+    {
+      "path": "static/fragments/paper_type/discovery.md",
+      "sha256": "b70590d5782f1c250ca63bfe8c7825b505d5528d736a9ba17f9d9bfa87f567b4"
+    },
+    {
+      "path": "static/fragments/paper_type/materials.md",
+      "sha256": "aba4fd902e50d79ed6952a86470819747f430a11f54c3774f899b01ef912ed8f"
+    },
+    {
+      "path": "static/fragments/paper_type/methods.md",
+      "sha256": "25144949f53c3c9846f51ab32d2e7c6d9339589c66bb883161584226186ee24b"
+    },
+    {
+      "path": "static/fragments/paper_type/resource.md",
+      "sha256": "4713b03501ceeacd5a394f4c3bd499263757b172eb98f2fd7e44778125f5e5fd"
+    },
+    {
+      "path": "static/fragments/paper_type/review.md",
+      "sha256": "f41b7e3755f3bab4cbcbb612067f65e34381668cb15f8d27a850a062caecab9e"
+    },
+    {
+      "path": "templates/paper-card.md",
+      "sha256": "498972c50be7db3a8d2cdffb0620849611a227d6d63c9142eed6af311603fd08"
+    },
+    {
+      "path": "tests/test_audit_page_ranges.py",
+      "sha256": "a1375eb19f9227869ded9c80257d32911a0f41aeced5f0f57294ac2588d26b5c"
+    },
+    {
+      "path": "tests/test_paper_adaptation.py",
+      "sha256": "b009b98a7e9457ba8a35b3941d374f586237ff3582aac0e62f322181d582bf01"
+    },
+    {
+      "path": "tests/test_prepare_paper.py",
+      "sha256": "472dbae36fe513efbe1b3552118c627b6e560440bccc47700f3460dd99f2cc76"
+    }
+  ],
+  "modified_entrypoints": [
+    {
+      "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/read-research-paper/SKILL.md",
+      "sha256": "bc7a611339274330d16df4f2f941c4877b20fdaf73c00e67c06825189655c3a7",
+      "backup": "/Users/wangyuelin/.hermes/profiles/academic/backups/paper-card-20261116-205047/read-research-paper/SKILL.md",
+      "backup_sha256": "5fd5b93c183dd0aceab809fbff5abe0ee6d9a338e611feb66337d68ca5a58ead"
+    },
+    {
+      "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/paper-methods-comparison/SKILL.md",
+      "sha256": "99ace398f36d9516d98c53b3a5b9c88f96aa2251371e19c7cb203a10c1bcbd32",
+      "backup": "/Users/wangyuelin/.hermes/profiles/academic/backups/paper-card-20261116-205047/paper-methods-comparison/SKILL.md",
+      "backup_sha256": "041735edc31abdd1c0a385fee8bfc9ff25eed3198625ba005d97586d5f929d97"
+    },
+    {
+      "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/SKILL.md",
+      "sha256": "47702df4684133e045929303cf989a74769e4912b778430c678c46eaf02b8fb3",
+      "backup": "/Users/wangyuelin/.hermes/profiles/academic/backups/paper-card-20261116-205047/academic-research-suite/SKILL.md",
+      "backup_sha256": "f90da9f42d9b2244ba0921a74829d9fb55043764e152ae4a858f9eb159ecd0ba"
+    }
+  ],
+  "paper_publication_receipts": [
+    {
+      "local_candidate": "AGENTS.md",
+      "target": "AGENTS.md",
+      "expected_sha256": "833dcc8902de8eb2b75006819d2af99646c83421968df194615a4714fe419fb2",
+      "candidate_sha256": "0d363c027d83b3479601fc91f1010063fadeed230f47327f7553321a20b0be88",
+      "bridge_receipt": {
+        "ok": true,
+        "result": {
+          "path": "AGENTS.md",
+          "sha256": "0d363c027d83b3479601fc91f1010063fadeed230f47327f7553321a20b0be88",
+          "size_bytes": 12061,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:06:56Z",
+            "original_path": "AGENTS.md",
+            "canonical_path": "AGENTS.md",
+            "backup_path": ".hermes-academic-backups/20261116T130656Z_1cf0dedd7f8c42bda091a87da6f51446.bak",
+            "original_sha256": "833dcc8902de8eb2b75006819d2af99646c83421968df194615a4714fe419fb2",
+            "original_size_bytes": 10755,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "0d363c027d83b3479601fc91f1010063fadeed230f47327f7553321a20b0be88",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "local_candidate": "guide.md",
+      "target": "项目管理/Hermes学术助手配置/README.md",
+      "expected_sha256": "7b51633c99c65fd9f111d7fce42045712d278b6816a0002d230f3120ee4e123f",
+      "candidate_sha256": "a0d392fe8b3f9de843257a44f01545cd3d60b74cbf322f7d80cad96c86fa7c87",
+      "bridge_receipt": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/Hermes学术助手配置/README.md",
+          "sha256": "a0d392fe8b3f9de843257a44f01545cd3d60b74cbf322f7d80cad96c86fa7c87",
+          "size_bytes": 8272,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:06:56Z",
+            "original_path": "项目管理/Hermes学术助手配置/README.md",
+            "canonical_path": "项目管理/Hermes学术助手配置/README.md",
+            "backup_path": ".hermes-academic-backups/20261116T130656Z_52611869005c46ac8e9a5099704f7ffe.bak",
+            "original_sha256": "7b51633c99c65fd9f111d7fce42045712d278b6816a0002d230f3120ee4e123f",
+            "original_size_bytes": 7190,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "a0d392fe8b3f9de843257a44f01545cd3d60b74cbf322f7d80cad96c86fa7c87",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "local_candidate": "ars-guide.md",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+      "expected_sha256": "74da52d98ee134429b2da21261b75725d84e0aa46cf02ab81881e594462abebb",
+      "candidate_sha256": "79453d4fdb89296266ea564cea97b457c22f0f2dddba677863adc68ee5006397",
+      "bridge_receipt": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+          "sha256": "79453d4fdb89296266ea564cea97b457c22f0f2dddba677863adc68ee5006397",
+          "size_bytes": 16363,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:06:57Z",
+            "original_path": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+            "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+            "backup_path": ".hermes-academic-backups/20261116T130657Z_7776a7e02782485384680d224d50e6a2.bak",
+            "original_sha256": "74da52d98ee134429b2da21261b75725d84e0aa46cf02ab81881e594462abebb",
+            "original_size_bytes": 15943,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "79453d4fdb89296266ea564cea97b457c22f0f2dddba677863adc68ee5006397",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "local_candidate": "literature-rules.md",
+      "target": "文献库/文献库维护规则.md",
+      "expected_sha256": "edc62603545a5a94798e8008fce94f5799d8560a3351047c78bd3fd02cf95251",
+      "candidate_sha256": "4ad626ae47f1374a3e86713a46560f6db58542aed16463f8881ef6423787213e",
+      "bridge_receipt": {
+        "ok": true,
+        "result": {
+          "path": "文献库/文献库维护规则.md",
+          "sha256": "4ad626ae47f1374a3e86713a46560f6db58542aed16463f8881ef6423787213e",
+          "size_bytes": 7156,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:06:58Z",
+            "original_path": "文献库/文献库维护规则.md",
+            "canonical_path": "文献库/文献库维护规则.md",
+            "backup_path": ".hermes-academic-backups/20261116T130658Z_a4ae6f9a4eee4e45a2077e0cdf5d1678.bak",
+            "original_sha256": "edc62603545a5a94798e8008fce94f5799d8560a3351047c78bd3fd02cf95251",
+            "original_size_bytes": 5818,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "4ad626ae47f1374a3e86713a46560f6db58542aed16463f8881ef6423787213e",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "local_candidate": "literature-entry.md",
+      "target": "文献库/README.md",
+      "expected_sha256": "cd6b5a7b2a2aa0dae8b5904b5a3dcc5dd79ec586812708c5bdf48ad70d924c0f",
+      "candidate_sha256": "47250bdf7f5c029930c90eb9b1ff2018eb4ef3f599a7be934e37cc4dfc10a503",
+      "bridge_receipt": {
+        "ok": true,
+        "result": {
+          "path": "文献库/README.md",
+          "sha256": "47250bdf7f5c029930c90eb9b1ff2018eb4ef3f599a7be934e37cc4dfc10a503",
+          "size_bytes": 3765,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:06:58Z",
+            "original_path": "文献库/README.md",
+            "canonical_path": "文献库/README.md",
+            "backup_path": ".hermes-academic-backups/20261116T130658Z_7be09531e2ec4b738e49c6464db6daba.bak",
+            "original_sha256": "cd6b5a7b2a2aa0dae8b5904b5a3dcc5dd79ec586812708c5bdf48ad70d924c0f",
+            "original_size_bytes": 3413,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "47250bdf7f5c029930c90eb9b1ff2018eb4ef3f599a7be934e37cc4dfc10a503",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "local_candidate": "workflow-map.json",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+      "expected_sha256": "fde5e478bcc8599343c5e986a143b9b5f3910f7998071885c029c2068d262547",
+      "candidate_sha256": "d06f6744ac16d73aa888d96d93af1a8e1ac47c5b94c2736c2fa818ba02565805",
+      "bridge_receipt": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+          "sha256": "d06f6744ac16d73aa888d96d93af1a8e1ac47c5b94c2736c2fa818ba02565805",
+          "size_bytes": 13474,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:06:59Z",
+            "original_path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+            "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+            "backup_path": ".hermes-academic-backups/20261116T130659Z_58f308a97c8240d2b3e3642813d99c8d.bak",
+            "original_sha256": "fde5e478bcc8599343c5e986a143b9b5f3910f7998071885c029c2068d262547",
+            "original_size_bytes": 12970,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "d06f6744ac16d73aa888d96d93af1a8e1ac47c5b94c2736c2fa818ba02565805",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true
+        }
+      }
+    },
+    {
+      "target": "项目管理/Hermes学术助手配置/论文精读卡片使用说明.md",
+      "bridge_receipt": {
+        "ok": true,
+        "result": {
+          "path": "项目管理/Hermes学术助手配置/论文精读卡片使用说明.md",
+          "sha256": "8d5b835a42ae25037caedd5618b57e6a475f62c57f77a6ee7a3f468f1a5a12e2",
+          "size_bytes": 8278,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "2f7a70bda6cc4c32b31a1dc633042362",
+            "path": "项目管理/Hermes学术助手配置/论文精读卡片使用说明.md",
+            "created_at_utc": "2026-11-16T13:12:07Z",
+            "status": "verified",
+            "sha256": "8d5b835a42ae25037caedd5618b57e6a475f62c57f77a6ee7a3f468f1a5a12e2",
+            "size_bytes": 8278,
+            "payload_path": ".hermes-academic-backups/recovery/2971f8000af0230b6c0eafec071a569aadcbf7add693d5f1bfea6f795b13140b/2f7a70bda6cc4c32b31a1dc633042362/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/2971f8000af0230b6c0eafec071a569aadcbf7add693d5f1bfea6f795b13140b/2f7a70bda6cc4c32b31a1dc633042362/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    }
+  ],
+  "final_source_hashes": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "0d363c027d83b3479601fc91f1010063fadeed230f47327f7553321a20b0be88"
+    },
+    {
+      "path": "项目管理/Hermes学术助手配置/README.md",
+      "sha256": "a0d392fe8b3f9de843257a44f01545cd3d60b74cbf322f7d80cad96c86fa7c87"
+    },
+    {
+      "path": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+      "sha256": "79453d4fdb89296266ea564cea97b457c22f0f2dddba677863adc68ee5006397"
+    },
+    {
+      "path": "文献库/文献库维护规则.md",
+      "sha256": "4ad626ae47f1374a3e86713a46560f6db58542aed16463f8881ef6423787213e"
+    },
+    {
+      "path": "文献库/README.md",
+      "sha256": "47250bdf7f5c029930c90eb9b1ff2018eb4ef3f599a7be934e37cc4dfc10a503"
+    },
+    {
+      "path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+      "sha256": "d06f6744ac16d73aa888d96d93af1a8e1ac47c5b94c2736c2fa818ba02565805"
+    },
+    {
+      "path": "项目管理/Hermes学术助手配置/论文精读卡片使用说明.md",
+      "sha256": "8d5b835a42ae25037caedd5618b57e6a475f62c57f77a6ee7a3f468f1a5a12e2"
+    }
+  ]
+}

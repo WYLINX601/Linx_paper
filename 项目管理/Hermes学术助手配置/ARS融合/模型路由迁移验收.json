@@ -1,0 +1,415 @@
+{
+  "schema": "paper-model-routes-migration/1",
+  "checked_date": "2026-11-11",
+  "status": "scoped_runtime_pass",
+  "config": {
+    "status": "pass",
+    "profile": "/Users/wangyuelin/.hermes/profiles/academic",
+    "backup": "/Users/wangyuelin/.hermes/profiles/academic/backups/model-routes-20261111-150243/config.before.yaml",
+    "before_sha256": "5ad76b01d06b758af0c53aa0f397efe30232c716efa22369e17f1266147e4975",
+    "after_sha256": "52eca7c40bc87f340adb44e15bfda4222793a27a04b4e00fc1f4d21f22422ef6",
+    "changed_paths": [
+      "delegation.backends.model_map.options",
+      "delegation.backends.model_map.default",
+      "delegation.backend"
+    ],
+    "unrelated_parsed_settings_unchanged": true,
+    "existing_model_provider_effort_tier_unchanged": true,
+    "active_backend": "model_map",
+    "default": "evidence_review",
+    "routes": [
+      {
+        "name": "literature",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal",
+        "fallback_providers": []
+      },
+      {
+        "name": "evidence_review",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal",
+        "fallback_providers": []
+      },
+      {
+        "name": "graph_modeling",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal",
+        "fallback_providers": []
+      },
+      {
+        "name": "paper_maintenance",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal",
+        "fallback_providers": []
+      },
+      {
+        "name": "academic_write",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal",
+        "fallback_providers": []
+      },
+      {
+        "name": "research_analysis",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal",
+        "fallback_providers": []
+      }
+    ]
+  },
+  "documentation_render": [
+    {
+      "file": "README.md",
+      "sha256": "74da52d98ee134429b2da21261b75725d84e0aa46cf02ab81881e594462abebb",
+      "headings": 13,
+      "tables": 2,
+      "render": "pass"
+    },
+    {
+      "file": "config-README.md",
+      "sha256": "84a941e1032cd1fdd76cc572d32553bdfcb0daa698b13abce5762fba33aae5ca",
+      "headings": 6,
+      "tables": 0,
+      "render": "pass"
+    },
+    {
+      "file": "验证记录.md",
+      "sha256": "f052a2ab16005fd297adf06fb9f2237c95b8a2e0d1b91fbbc6d62171f5564b29",
+      "headings": 16,
+      "tables": 3,
+      "render": "pass"
+    }
+  ],
+  "local_browser_review": "Actual local Chromium screenshots checked for current-mode introduction and new validation table; no horizontal overflow; not Obsidian-native GUI acceptance",
+  "tests": {
+    "count": 80,
+    "exit_code": 0,
+    "scope": "Published Paper adapter, legacy compatibility and official Model routes; installed sources are dependencies, not a self-contained offline suite"
+  },
+  "doctor": {
+    "count": 49,
+    "status": "pass",
+    "role_counts": {
+      "canonical_roles": 45,
+      "subagents": 34,
+      "main_roles": 11,
+      "aliases": 4,
+      "instances": 4,
+      "contract_calls": 4,
+      "unmapped": 0
+    }
+  },
+  "preflight": {
+    "status": "pass",
+    "role_id": "deep-research/bibliography_agent",
+    "option": "literature",
+    "enforcement": "explicit_preflight_only_not_runtime_interception",
+    "authorization": "not_granted_by_preflight"
+  },
+  "actual_smoke": {
+    "session_id": "local-dfab3fdcb19db5854d8ed088d640da01021d6da317167fde4927a8f78bc52b93",
+    "tool_call_id": "call_16675248d5d04c039dd5ec84704ff723",
+    "exact_task_payload_preserved": true,
+    "delegate_calls": 1,
+    "execution": "finite CLI synchronous child",
+    "child": {
+      "task_index": 0,
+      "status": "completed",
+      "summary": "MODEL_ROUTES_CHILD_OK\n\nRead lines 1–20 only of:\n- `/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/bibliography_agent.md`\n- `/Users/wangyuelin/.hermes/profiles/academic/skills/nature-academic-search/SKILL.md`\n\nHeaders only, not full contract execution. No protocols, research materials, web searches, or file writes. No issues encountered.",
+      "api_calls": 3,
+      "duration_seconds": 10.28,
+      "model": "gpt-6.1-sol",
+      "exit_reason": "completed",
+      "truncated": false,
+      "tokens": {
+        "input": 18714,
+        "output": 208
+      },
+      "tool_trace": [
+        {
+          "tool": "read_file",
+          "args_bytes": 143,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/academic-research-suite/ars/deep-research/agents/bibliography_agent.md"
+            }
+          },
+          "result_bytes": 1519,
+          "status": "ok"
+        },
+        {
+          "tool": "read_file",
+          "args_bytes": 104,
+          "input_summary": {
+            "argument_keys": [
+              "limit",
+              "path"
+            ],
+            "targets": {
+              "path": "/Users/wangyuelin/.hermes/profiles/academic/skills/nature-academic-search/SKILL.md"
+            }
+          },
+          "result_bytes": 1620,
+          "status": "ok"
+        }
+      ],
+      "cost_usd": 0.0,
+      "cost_status": "included",
+      "route": {
+        "backend": "model_map",
+        "label": "literature",
+        "provider": "openai-codex",
+        "model": "gpt-6.1-sol",
+        "reasoning_effort": "medium",
+        "service_tier": "normal"
+      },
+      "live_transcript": "/Users/wangyuelin/.hermes/profiles/academic/cache/delegation/live/deleg_ce6f08eb/task-0.log"
+    }
+  },
+  "independent_static_review": {
+    "delegation_id": "deleg_089c132a",
+    "subagent_id": "sa-0-198e98dc",
+    "model": "gpt-6.1-sol",
+    "scope": "Frozen candidate sources and installed official model_map.py only; no config or credentials",
+    "finding": "Preflight could accept options rejected by official parser",
+    "resolution": "Main session reused installed official parser and added missing/blank/type/normalized-duplicate negative tests; fixed standalone interpreter import path and added isolated interpreter test",
+    "second_independent_review_run": false,
+    "reviewed_to_published_delta": {
+      "ars_paper.py": {
+        "reviewed": "737e67c2285c01739e879ab5c93976162a380ddfd013999f63c50f88fc09b5cd",
+        "published": "e2574644e150e39827c97c2d9b07d62d8f1cadad28fcfd1db4b36337f6bb560c"
+      },
+      "ars_role_routes.py": {
+        "reviewed": "ecf484e0c11d3a61a70747ace2e8791ad92ac7ae58e55d83327e68beeba783c4",
+        "published": "613bf936fdd51fc9976b376e7896ed15772d512769f8064409fa56d7113e3a91"
+      },
+      "test_model_routes.py": {
+        "reviewed": "af5f9cc5d3a1c8a8fc5f7edd20606eb57e0a47cce3c0e291897da6cdbe2e628b",
+        "published": "da59da66b813d729b1556e651521dfe84054884d33cc8405b3798112edd2fee6"
+      },
+      "README.md": {
+        "reviewed": "88d6d7387a15e4e70a60487b85eebcaa661fd249003b22492509e7e85d435f25",
+        "published": "74da52d98ee134429b2da21261b75725d84e0aa46cf02ab81881e594462abebb"
+      }
+    }
+  },
+  "source_hashes": {
+    "ars_paper.py": "e2574644e150e39827c97c2d9b07d62d8f1cadad28fcfd1db4b36337f6bb560c",
+    "ars_role_routes.py": "613bf936fdd51fc9976b376e7896ed15772d512769f8064409fa56d7113e3a91",
+    "test_ars_roles.py": "eb54de558ddd93baa8e0466f1e8ee5ddef9db115adaa1d56f9afa1a655de9889",
+    "工作流映射.json": "fde5e478bcc8599343c5e986a143b9b5f3910f7998071885c029c2068d262547",
+    "角色路由.json": "6f8ddc3b7651c194e32b14e995d93df921e557be7889af266af44f0a20150afc",
+    "README.md": "74da52d98ee134429b2da21261b75725d84e0aa46cf02ab81881e594462abebb",
+    "config-README.md": "84a941e1032cd1fdd76cc572d32553bdfcb0daa698b13abce5762fba33aae5ca",
+    "test_model_routes.py": "da59da66b813d729b1556e651521dfe84054884d33cc8405b3798112edd2fee6"
+  },
+  "publication_receipts": [
+    {
+      "local": "ars_paper.py",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/ars_paper.py",
+      "receipt": {
+        "path": "项目管理/Hermes学术助手配置/ARS融合/ars_paper.py",
+        "sha256": "e2574644e150e39827c97c2d9b07d62d8f1cadad28fcfd1db4b36337f6bb560c",
+        "size_bytes": 16765,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-11-11T07:15:12Z",
+          "original_path": "项目管理/Hermes学术助手配置/ARS融合/ars_paper.py",
+          "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/ars_paper.py",
+          "backup_path": ".hermes-academic-backups/20261111T071512Z_666342d2f53a4e05b605c4504c398f31.bak",
+          "original_sha256": "aeeb4527c4e223e53d91e14b269d9ff79dc79d16adcb07cc6beddacaff15150d",
+          "original_size_bytes": 15279,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "e2574644e150e39827c97c2d9b07d62d8f1cadad28fcfd1db4b36337f6bb560c",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      },
+      "candidate_sha256": "e2574644e150e39827c97c2d9b07d62d8f1cadad28fcfd1db4b36337f6bb560c"
+    },
+    {
+      "local": "ars_role_routes.py",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/ars_role_routes.py",
+      "receipt": {
+        "path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_routes.py",
+        "sha256": "613bf936fdd51fc9976b376e7896ed15772d512769f8064409fa56d7113e3a91",
+        "size_bytes": 22786,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-11-11T07:15:12Z",
+          "original_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_routes.py",
+          "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/ars_role_routes.py",
+          "backup_path": ".hermes-academic-backups/20261111T071512Z_79e81fa6c282424faf2940cf4bca1348.bak",
+          "original_sha256": "3f84c7070225a4f701f3de2e5ead1a8dc4f5797b96070bf4d9692e47b3affc45",
+          "original_size_bytes": 19261,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "613bf936fdd51fc9976b376e7896ed15772d512769f8064409fa56d7113e3a91",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      },
+      "candidate_sha256": "613bf936fdd51fc9976b376e7896ed15772d512769f8064409fa56d7113e3a91"
+    },
+    {
+      "local": "test_ars_roles.py",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/test_ars_roles.py",
+      "receipt": {
+        "path": "项目管理/Hermes学术助手配置/ARS融合/test_ars_roles.py",
+        "sha256": "eb54de558ddd93baa8e0466f1e8ee5ddef9db115adaa1d56f9afa1a655de9889",
+        "size_bytes": 15838,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-11-11T07:15:12Z",
+          "original_path": "项目管理/Hermes学术助手配置/ARS融合/test_ars_roles.py",
+          "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/test_ars_roles.py",
+          "backup_path": ".hermes-academic-backups/20261111T071512Z_d023479adcb44d57a158943b2fbcad47.bak",
+          "original_sha256": "276a1bed9faaa04e7c70afebf3274a56a3644c1a56f4498f423595a6f84eb545",
+          "original_size_bytes": 15499,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "eb54de558ddd93baa8e0466f1e8ee5ddef9db115adaa1d56f9afa1a655de9889",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      },
+      "candidate_sha256": "eb54de558ddd93baa8e0466f1e8ee5ddef9db115adaa1d56f9afa1a655de9889"
+    },
+    {
+      "local": "工作流映射.json",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+      "receipt": {
+        "path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+        "sha256": "fde5e478bcc8599343c5e986a143b9b5f3910f7998071885c029c2068d262547",
+        "size_bytes": 12970,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-11-11T07:15:12Z",
+          "original_path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+          "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/工作流映射.json",
+          "backup_path": ".hermes-academic-backups/20261111T071512Z_ed5e3c50ec4442ce94488054067fa0d6.bak",
+          "original_sha256": "546ea42888acf7386edab0fc5e5340ca9ed8c0db1ec712c946c09b771bdbd684",
+          "original_size_bytes": 12711,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "fde5e478bcc8599343c5e986a143b9b5f3910f7998071885c029c2068d262547",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      },
+      "candidate_sha256": "fde5e478bcc8599343c5e986a143b9b5f3910f7998071885c029c2068d262547"
+    },
+    {
+      "local": "角色路由.json",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json",
+      "receipt": {
+        "path": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json",
+        "sha256": "6f8ddc3b7651c194e32b14e995d93df921e557be7889af266af44f0a20150afc",
+        "size_bytes": 57194,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-11-11T07:15:12Z",
+          "original_path": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json",
+          "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/角色路由.json",
+          "backup_path": ".hermes-academic-backups/20261111T071512Z_c34a5f08ffd54bd59f2c34de6bbce7fe.bak",
+          "original_sha256": "fdf15fa28f809c53403d38958187b94a888247c5e55a44f76d1529a92db41207",
+          "original_size_bytes": 57174,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "6f8ddc3b7651c194e32b14e995d93df921e557be7889af266af44f0a20150afc",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      },
+      "candidate_sha256": "6f8ddc3b7651c194e32b14e995d93df921e557be7889af266af44f0a20150afc"
+    },
+    {
+      "local": "README.md",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+      "receipt": {
+        "path": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+        "sha256": "74da52d98ee134429b2da21261b75725d84e0aa46cf02ab81881e594462abebb",
+        "size_bytes": 15943,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-11-11T07:15:12Z",
+          "original_path": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+          "canonical_path": "项目管理/Hermes学术助手配置/ARS融合/README.md",
+          "backup_path": ".hermes-academic-backups/20261111T071512Z_33ec75b8e4bc4e5aa75593bf6ca16d7a.bak",
+          "original_sha256": "133e9076bc8a92f26a843dcf582a61e240e5442899304bd2a830fa2142cafb7b",
+          "original_size_bytes": 13390,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "74da52d98ee134429b2da21261b75725d84e0aa46cf02ab81881e594462abebb",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      },
+      "candidate_sha256": "74da52d98ee134429b2da21261b75725d84e0aa46cf02ab81881e594462abebb"
+    },
+    {
+      "local": "config-README.md",
+      "target": "项目管理/Hermes学术助手配置/README.md",
+      "receipt": {
+        "path": "项目管理/Hermes学术助手配置/README.md",
+        "sha256": "84a941e1032cd1fdd76cc572d32553bdfcb0daa698b13abce5762fba33aae5ca",
+        "size_bytes": 6215,
+        "created": false,
+        "backup": {
+          "created_at_utc": "2026-11-11T07:15:12Z",
+          "original_path": "项目管理/Hermes学术助手配置/README.md",
+          "canonical_path": "项目管理/Hermes学术助手配置/README.md",
+          "backup_path": ".hermes-academic-backups/20261111T071512Z_32148a4aedc5423da0e4105d13a6c0b8.bak",
+          "original_sha256": "16ac0cf31e50bd6113d3338949f33d728ab536a38bda8b2568f70f68c6b6a893",
+          "original_size_bytes": 5613,
+          "original_permissions_mode_octal": "0644",
+          "requested_new_sha256": "84a941e1032cd1fdd76cc572d32553bdfcb0daa698b13abce5762fba33aae5ca",
+          "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+        },
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      },
+      "candidate_sha256": "84a941e1032cd1fdd76cc572d32553bdfcb0daa698b13abce5762fba33aae5ca"
+    },
+    {
+      "local": "test_model_routes.py",
+      "target": "项目管理/Hermes学术助手配置/ARS融合/test_model_routes.py",
+      "receipt": {
+        "path": "项目管理/Hermes学术助手配置/ARS融合/test_model_routes.py",
+        "sha256": "da59da66b813d729b1556e651521dfe84054884d33cc8405b3798112edd2fee6",
+        "size_bytes": 10635,
+        "created": true,
+        "backup": null,
+        "permissions_mode_octal": "0644",
+        "readback_verified": true
+      },
+      "candidate_sha256": "da59da66b813d729b1556e651521dfe84054884d33cc8405b3798112edd2fee6"
+    }
+  ],
+  "not_tested": [
+    "Desktop GUI end-to-end",
+    "full scientific workflows",
+    "all roles substantive tasks",
+    "DeepSeek or other new providers",
+    "complete available child tool surface",
+    "MCP connectivity"
+  ],
+  "whole_vault_baseline": "Existing outline/alignment source-read failures, materials view drift and ruamel test-environment error; unrelated sources not modified",
+  "policy": "Official model_map does not intercept ARS bindings; role-check is explicit preflight only"
+}

@@ -1,0 +1,306 @@
+{
+  "files": [
+    {
+      "name": "README.md",
+      "sha256": "24f8e16bbdfcb36731eb210bf07765b08d6fa5cb9f627d45011334fa82057490",
+      "html_sha256": "a6db945680bd0a617bbc9099a7e877941780df4313778bcc12259a0c2fec6830"
+    },
+    {
+      "name": "新增来源核读记录.md",
+      "sha256": "180dcaa2787dc944019ba34878c264e016fce3b059ee7ad3c8d3b1dc3ef0a240",
+      "html_sha256": "763e253fefa1a0ec1097a3b96c82a1273dfa33b1772eb5fd9a11c832dde7138d"
+    },
+    {
+      "name": "交付检查与限制.md",
+      "sha256": "9ae561873818613555ad38d6fbe206e96ddeb3bc211fde13894b033aaca6aa6b",
+      "html_sha256": "8368d4008243608d01a3afce8178d72e476346f6cf0843755ea8d6ecec7907e6"
+    },
+    {
+      "name": "R4-建筑领域知识建模-正文候选.md",
+      "sha256": "366af4c4c26803b78c18ddc5ee40a13da48493e854da098f482bec558ae53c99",
+      "body_han_chars": 1886,
+      "sections": 4,
+      "footnote_ids": [
+        "bot",
+        "bot-eval",
+        "mes",
+        "wang",
+        "wu"
+      ],
+      "html_sha256": "ea7c02e15448b7803452a9ecc63f6c7d7a5fb0fa157f4647378d0749d8aaff22"
+    },
+    {
+      "name": "R4-正文依据与待核项.md",
+      "sha256": "5ffba64fd8d25a1cc6a25d35b8a181c03e0b466b8676b03c95ca1e906c895e18",
+      "html_sha256": "83d4f7c1817736bf7b361ef412a1e21ec860d85ea415892424d045f0e8fcb399"
+    },
+    {
+      "name": "R5-知识发现与保护更新应用-正文候选.md",
+      "sha256": "2d8e288b68d5b6f6e52a852457ef38e44a898d74312a9ca9681129d58187c010",
+      "body_han_chars": 2118,
+      "sections": 4,
+      "footnote_ids": [
+        "bot",
+        "guo",
+        "mes",
+        "wang",
+        "wu"
+      ],
+      "html_sha256": "58bf0c4dec190f94cddfee6391ba411a1a9cb0137403d421e1b60a7daf649e2e"
+    },
+    {
+      "name": "R5-正文依据与待核项.md",
+      "sha256": "31a67a80fb007658d46c278b9dd7670f0468edad98b0f398adb5ef310870b97e",
+      "html_sha256": "c882fb4d77ff03801352aba4abeb8242fa058c2029b1c3a18f0733836637483b"
+    },
+    {
+      "name": "R2-景宁畲族传统民居研究-正文候选.md",
+      "sha256": "61143f3aa8a7ff7ce7ff6fc2f50cbfacd8030f112f54e2fed66f0af0ab450e18",
+      "body_han_chars": 2622,
+      "sections": 4,
+      "footnote_ids": [],
+      "html_sha256": "db79dec5c23da3afc3cebde54dc9d1ff121b3221aa8e5f1efc13d8573fe32860"
+    },
+    {
+      "name": "R2-正文依据与待核项.md",
+      "sha256": "a5c1ebd5b0d75e6b997004747f2774871ff3ad07819343f796a1981fbe2f32e5",
+      "html_sha256": "63f965e7f3399b983c87228909eb550ee887463acdadc3d21a27be1aff8913d1"
+    },
+    {
+      "name": "R3-建筑遗产数字化保护与信息管理-正文候选.md",
+      "sha256": "0f31733d28a1dc4ef1e1c4f987bcde456a071fac16395afa729b605a09a2279f",
+      "body_han_chars": 2742,
+      "sections": 4,
+      "footnote_ids": [],
+      "html_sha256": "4619122c72b27f8c9061b589d0bc95b53e08a8542f40372ceb43095803974f27"
+    },
+    {
+      "name": "R3-正文依据与待核项.md",
+      "sha256": "d14a7bfa12a432ac6beebc3092c2991b372d1a5af1f35657249935d7f0b1719c",
+      "html_sha256": "a0a2bca60f81114771a7c323fd527f10bc46f527d0fe4058cca5657a148a7599"
+    }
+  ],
+  "links": [
+    {
+      "source": "README.md",
+      "target": "../../〔文献拆解〕传统民居类型与形态拆解/R1-传统民居建筑形态与类型研究-正文候选.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "../../〔文献拆解〕传统民居类型与形态拆解/R1-正文依据与待核项.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "R2-景宁畲族传统民居研究-正文候选.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "R2-正文依据与待核项.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "R3-建筑遗产数字化保护与信息管理-正文候选.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "R3-正文依据与待核项.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "R4-建筑领域知识建模-正文候选.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "R4-正文依据与待核项.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "R5-知识发现与保护更新应用-正文候选.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "R5-正文依据与待核项.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "新增来源核读记录.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "README.md",
+      "target": "交付检查与限制.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "新增来源核读记录.md",
+      "target": "文献库/Rasmussen等-2021-BOT建筑拓扑本体.md",
+      "kind": "wiki"
+    },
+    {
+      "source": "新增来源核读记录.md",
+      "target": "文献库/Messaoudi等-2018-遗产保护状态三维语义标注.md",
+      "kind": "wiki"
+    },
+    {
+      "source": "新增来源核读记录.md",
+      "target": "文献库/王垚-年份待核-木构架健康评估与修缮知识图谱.md",
+      "kind": "wiki"
+    },
+    {
+      "source": "交付检查与限制.md",
+      "target": "新增来源核读记录.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R4-建筑领域知识建模-正文候选.md",
+      "target": "R4-正文依据与待核项.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R4-正文依据与待核项.md",
+      "target": "R4-建筑领域知识建模-正文候选.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R4-正文依据与待核项.md",
+      "target": "../../../文献库/吴莹-2018-江南古镇语义网络量化.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R4-正文依据与待核项.md",
+      "target": "../../../文献库/Rasmussen等-2021-BOT建筑拓扑本体.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R4-正文依据与待核项.md",
+      "target": "../../../文献库/Messaoudi等-2018-遗产保护状态三维语义标注.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R4-正文依据与待核项.md",
+      "target": "../../../文献库/王垚-年份待核-木构架健康评估与修缮知识图谱.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R5-知识发现与保护更新应用-正文候选.md",
+      "target": "R5-正文依据与待核项.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R5-正文依据与待核项.md",
+      "target": "R5-知识发现与保护更新应用-正文候选.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R5-正文依据与待核项.md",
+      "target": "../../../文献库/吴莹-2018-江南古镇语义网络量化.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R5-正文依据与待核项.md",
+      "target": "../../../文献库/Rasmussen等-2021-BOT建筑拓扑本体.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R5-正文依据与待核项.md",
+      "target": "../../../文献库/Messaoudi等-2018-遗产保护状态三维语义标注.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R5-正文依据与待核项.md",
+      "target": "../../../文献库/王垚-年份待核-木构架健康评估与修缮知识图谱.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R5-正文依据与待核项.md",
+      "target": "../../../文献库/郭锐等-2026-多源数据与知识图谱历史建筑保护.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R5-正文依据与待核项.md",
+      "target": "新增来源核读记录.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R2-正文依据与待核项.md",
+      "target": "../../../文献库/赵圣洁-2013-东弄村畲族民居初探.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R2-正文依据与待核项.md",
+      "target": "../../../文献库/王文辉-2015-大张坑畲族民居及其保护更新.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R2-正文依据与待核项.md",
+      "target": "../../../文献库/汪梅-2006-景宁畲族住宅建筑特色.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R2-正文依据与待核项.md",
+      "target": "../../../文献库/牛建农-年份待核-景宁畲族民居特色探析.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R2-正文依据与待核项.md",
+      "target": "../../../文献库/潘钊-2017-景宁畲族传统建筑文化.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R2-正文依据与待核项.md",
+      "target": "../../../文献库/蓝法勤-2013-卷草凤凰纹装饰研究.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R2-正文依据与待核项.md",
+      "target": "../../../文献库/赵潇诺-2023-景宁畲族木构侧样.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R2-正文依据与待核项.md",
+      "target": "../../../文献库/赵潇诺-2022-景宁畲族传统民居营造技艺.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R3-建筑遗产数字化保护与信息管理-正文候选.md",
+      "target": "../../../文献库/夏雷-2020-东北严寒地区村落风貌数据库-数据收集工作明细.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R3-建筑遗产数字化保护与信息管理-正文候选.md",
+      "target": "../../../文献库/汤茗喆-2021-数字信息模型与传统村落风貌保护更新.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R3-建筑遗产数字化保护与信息管理-正文候选.md",
+      "target": "../../../文献库/郭锐等-2026-多源数据与知识图谱历史建筑保护.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R3-正文依据与待核项.md",
+      "target": "../../../文献库/夏雷-2020-东北严寒地区村落风貌数据库-数据收集工作明细.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R3-正文依据与待核项.md",
+      "target": "../../../文献库/汤茗喆-2021-数字信息模型与传统村落风貌保护更新.md",
+      "kind": "markdown"
+    },
+    {
+      "source": "R3-正文依据与待核项.md",
+      "target": "../../../文献库/郭锐等-2026-多源数据与知识图谱历史建筑保护.md",
+      "kind": "markdown"
+    }
+  ],
+  "scope": "R2-R5 candidates and support; not whole-vault health"
+}

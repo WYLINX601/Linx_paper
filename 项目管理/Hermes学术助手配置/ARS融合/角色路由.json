@@ -1,0 +1,1718 @@
+{
+  "schema": "ars-role-routes/1",
+  "source_lock": {
+    "suite_version": "3.23.0",
+    "upstream_commit": "6ab4b03bf70a118a1b3ee7f3263ed9f19031061b"
+  },
+  "inventory_scope": {
+    "canonical_agent_dirs": [
+      "ars/deep-research/agents",
+      "ars/academic-paper/agents",
+      "ars/academic-paper-reviewer/agents",
+      "ars/academic-pipeline/agents",
+      "ars/sr-screener/agents",
+      "ars/experiment-agent/agents",
+      "ars/shared/agents"
+    ],
+    "plugin_alias_dir": "ars/agents"
+  },
+  "tool_profiles": {
+    "readonly": {
+      "toolset": "ars_readonly",
+      "tools": [
+        "read_file",
+        "search_files"
+      ],
+      "write_scope": "none"
+    },
+    "research": {
+      "toolset": "ars_research",
+      "tools": [
+        "read_file",
+        "search_files",
+        "web_search",
+        "web_extract",
+        "skill_view",
+        "vision_analyze"
+      ],
+      "write_scope": "none"
+    },
+    "candidate": {
+      "toolset": "ars_candidate",
+      "tools": [
+        "read_file",
+        "search_files",
+        "write_file",
+        "patch",
+        "skill_view",
+        "vision_analyze"
+      ],
+      "write_scope": "authorized_scratch_candidates_prompt_level"
+    },
+    "compute": {
+      "toolset": "ars_compute",
+      "tools": [
+        "read_file",
+        "search_files",
+        "write_file",
+        "patch",
+        "skill_view",
+        "vision_analyze",
+        "terminal",
+        "process_manage"
+      ],
+      "write_scope": "explicit_authorized_execution_prompt_level"
+    }
+  },
+  "roles": [
+    {
+      "id": "deep-research/bibliography_agent",
+      "label": "文献检索与书目整理",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/bibliography_agent.md",
+      "prompt_sha256": "1b43694808fbd99a5b99590796d5b3112fa0b3d8c4d82b0aa886462ef8dc344b",
+      "execution": "subagent",
+      "route": "literature",
+      "tool_profile": "research",
+      "skills": [
+        "nature-academic-search"
+      ],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/devils_advocate_agent",
+      "label": "研究假设与论证质疑",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/devils_advocate_agent.md",
+      "prompt_sha256": "568a72b6f2bf28ec9af156eb8f7c78c1bd061d837dd1251f50883d309d56e3c3",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/editor_in_chief_agent",
+      "label": "研究报告模拟主编审查",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/editor_in_chief_agent.md",
+      "prompt_sha256": "041624be60b32316f864d7dcf4eea37ec245ea6ed65f8213d641c1f14725b88c",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/ethics_review_agent",
+      "label": "研究伦理与诚信自查",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/ethics_review_agent.md",
+      "prompt_sha256": "bfedf2244aca9fceb84b8096e1340132c101541528232bf84984c0b8b842527a",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "advisory_not_institutional_approval"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/meta_analysis_agent",
+      "label": "定量证据综合",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/meta_analysis_agent.md",
+      "prompt_sha256": "8bc6c33fcff87e090ff6174a746a0d5c6b114f5f4f079ebc38fda6cf4aeb95a9",
+      "execution": "subagent",
+      "route": "research_analysis",
+      "tool_profile": "compute",
+      "skills": [
+        "statistical-analysis"
+      ],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "explicit_compute_or_render_authorization"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/monitoring_agent",
+      "label": "文献发展按需监测",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/monitoring_agent.md",
+      "prompt_sha256": "76179537d4be16795bd78d30f88931befc60a2cb564b41a77abf4653694c5aee",
+      "execution": "subagent",
+      "route": "literature",
+      "tool_profile": "research",
+      "skills": [
+        "nature-academic-search"
+      ],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "on_demand_only_no_implicit_schedule"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/report_compiler_agent",
+      "label": "研究报告编纂",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/report_compiler_agent.md",
+      "prompt_sha256": "546fccee1fab315d9a43a528c50862a2d27a17db1275d2fc58e2e312733fcbfd",
+      "execution": "subagent",
+      "route": "academic_write",
+      "tool_profile": "candidate",
+      "skills": [
+        "nature-writing"
+      ],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/research_architect_agent",
+      "label": "研究方法蓝图",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/research_architect_agent.md",
+      "prompt_sha256": "0799efca117e19d662ca28bd692d95a6587cc88fcc19290067a023ff4136314e",
+      "execution": "subagent",
+      "route": "research_analysis",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/research_question_agent",
+      "label": "研究问题澄清",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/research_question_agent.md",
+      "prompt_sha256": "c6b78bd8ba893975b3f8b134bc4793a5aab7249c3bd46d68cbfc1b45573daaf4",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation",
+        "no_inferred_author_decision_or_question_generation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/risk_of_bias_agent",
+      "label": "研究偏倚审查",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/risk_of_bias_agent.md",
+      "prompt_sha256": "e50b88d08bbd8ed9c4aa8e8fa54809e94d50910f142340dc83593a090a58fd17",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/socratic_mentor_agent",
+      "label": "研究思路对话",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/socratic_mentor_agent.md",
+      "prompt_sha256": "7c841fe486dfb47ee19ba4d3a3a95c929929c1a96b7e0ff8b998e3f774fa66d2",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation",
+        "no_inferred_author_decision_or_question_generation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/source_verification_agent",
+      "label": "来源与证据核查",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/source_verification_agent.md",
+      "prompt_sha256": "3ffecae526acdde6d28bb8d2a9f5a88f95c00f51338c8f4d4a724ced3f7777bf",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "research",
+      "skills": [
+        "nature-academic-search"
+      ],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/synthesis_agent",
+      "label": "跨来源综合",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/synthesis_agent.md",
+      "prompt_sha256": "9032f977fc6a4aee5a1623b745b78affa3478dbf8f49b97b09090f2ccea7b52e",
+      "execution": "subagent",
+      "route": "literature",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "deep-research/timeline_extraction_agent",
+      "label": "时点与引用来源提取",
+      "workflow": "deep-research",
+      "kind": "ars",
+      "prompt_file": "ars/deep-research/agents/timeline_extraction_agent.md",
+      "prompt_sha256": "8c39e70ed043b542269dda36e25731e47dd1c2193716146c147863f2701aed2c",
+      "execution": "subagent",
+      "route": "literature",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/deep-research/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/abstract_bilingual_agent",
+      "label": "摘要与双语核对",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/abstract_bilingual_agent.md",
+      "prompt_sha256": "cadd8aaa47fce069ca4e709a6a97fc33dea93dc6c5ef3acc603469bac63f7073",
+      "execution": "subagent",
+      "route": "academic_write",
+      "tool_profile": "candidate",
+      "skills": [
+        "nature-polishing"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/argument_builder_agent",
+      "label": "论文论证构建",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/argument_builder_agent.md",
+      "prompt_sha256": "54c855027859dd9c4f3db59e3eb89d5ef31e14260b52b90f5bd17d2552266b58",
+      "execution": "subagent",
+      "route": "academic_write",
+      "tool_profile": "candidate",
+      "skills": [
+        "nature-writing"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/citation_compliance_agent",
+      "label": "引用格式与合规核查",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/citation_compliance_agent.md",
+      "prompt_sha256": "1fe2957b96aa2f810c2c3a6ecba580cb194fdf6d699666d976431482386e7402",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "research",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/draft_writer_agent",
+      "label": "正文候选起草",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/draft_writer_agent.md",
+      "prompt_sha256": "df1304c86eb92b29e4bf293a2494cec6e07ebf28a03dc5d0cbc93373c570ab29",
+      "execution": "subagent",
+      "route": "academic_write",
+      "tool_profile": "candidate",
+      "skills": [
+        "nature-writing"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/formatter_agent",
+      "label": "稿件格式与交付",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/formatter_agent.md",
+      "prompt_sha256": "ba5676a35cfae3aa3338d5998884d1ed08c410ccea8c3bf8df28ae95fe98bdb0",
+      "execution": "subagent",
+      "route": "academic_write",
+      "tool_profile": "compute",
+      "skills": [
+        "documents",
+        "pdf"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "explicit_compute_or_render_authorization"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/intake_agent",
+      "label": "作者配置访谈",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/intake_agent.md",
+      "prompt_sha256": "e5f75d71f0c7e7bd1598ac9b990087cef715a6d827091f263e20c4b9295e0bc0",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/literature_strategist_agent",
+      "label": "写作文献策略",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/literature_strategist_agent.md",
+      "prompt_sha256": "536489e3704f0b8e1736bff82b75ee2abf1179460fa24cc17899b2115af9eba7",
+      "execution": "subagent",
+      "route": "literature",
+      "tool_profile": "research",
+      "skills": [
+        "nature-academic-search"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/peer_reviewer_agent",
+      "label": "写作阶段自查审稿",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/peer_reviewer_agent.md",
+      "prompt_sha256": "6175209ee2d978bbad6d96e844dfeebe51ccff476fe7f7aff64460f111201f16",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [
+        "nature-reviewer"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/revision_coach_agent",
+      "label": "作者修订策略对话",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/revision_coach_agent.md",
+      "prompt_sha256": "8fa7287c1f8ce99a6fc73dc51dfcbf6a92a58a92d8002a630806d6793d18315f",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [
+        "nature-response"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/socratic_mentor_agent",
+      "label": "论文思路对话",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/socratic_mentor_agent.md",
+      "prompt_sha256": "3bdb9d42c3b7d303c79c936ec04e6e00a33ba74b6e0d5bf0fdd519a842ec1321",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation",
+        "no_inferred_author_decision_or_question_generation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/structure_architect_agent",
+      "label": "章节与论证结构设计",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/structure_architect_agent.md",
+      "prompt_sha256": "6784fe3dcb606efad3ce5b4d37f1f3df0c4c2bcb8a5e5f1f8443fd05594c99c2",
+      "execution": "subagent",
+      "route": "academic_write",
+      "tool_profile": "candidate",
+      "skills": [
+        "nature-writing"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper/visualization_agent",
+      "label": "论文图表设计与核对",
+      "workflow": "academic-paper",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper/agents/visualization_agent.md",
+      "prompt_sha256": "c22ba5e209bf4901a81e8770657ff165e3996d451efa402dec0c2f3f3901bb22",
+      "execution": "subagent",
+      "route": "academic_write",
+      "tool_profile": "compute",
+      "skills": [
+        "nature-figure",
+        "scientific-visualization"
+      ],
+      "protocols": [
+        "ars/academic-paper/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "explicit_compute_or_render_authorization"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper-reviewer/devils_advocate_reviewer_agent",
+      "label": "反方审稿席位",
+      "workflow": "academic-paper-reviewer",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper-reviewer/agents/devils_advocate_reviewer_agent.md",
+      "prompt_sha256": "b42eb5559bf91c8767f85e532dfa240e5e30feb92ae3fc0be96f20058acfcf6a",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "frozen_same_inputs_no_peer_answers",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper-reviewer/domain_reviewer_agent",
+      "label": "领域审稿席位",
+      "workflow": "academic-paper-reviewer",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper-reviewer/agents/domain_reviewer_agent.md",
+      "prompt_sha256": "eb6660aafadc851e3fc4545111b5113d467c9eb263ef069394db62c944ece1e5",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "research",
+      "skills": [
+        "nature-reviewer"
+      ],
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "frozen_same_inputs_no_peer_answers",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper-reviewer/editorial_synthesizer_agent",
+      "label": "模拟审稿意见综合",
+      "workflow": "academic-paper-reviewer",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper-reviewer/agents/editorial_synthesizer_agent.md",
+      "prompt_sha256": "3809d989ed5ff6c19da141d6717031f4392d7052038abf879a5226ab385f3394",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper-reviewer/eic_agent",
+      "label": "期刊适配审稿席位",
+      "workflow": "academic-paper-reviewer",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper-reviewer/agents/eic_agent.md",
+      "prompt_sha256": "c5ec3150c7e7cc4c89358853d13af0bde8f211e0a735bcd8c72330d1f931943d",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "frozen_same_inputs_no_peer_answers",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper-reviewer/field_analyst_agent",
+      "label": "审稿领域与角色配置",
+      "workflow": "academic-paper-reviewer",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper-reviewer/agents/field_analyst_agent.md",
+      "prompt_sha256": "26dacdebdfdd70373cf93167c7b02cca41306fe21f9a25a5d615f7aea61dadee",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper-reviewer/methodology_reviewer_agent",
+      "label": "方法审稿席位",
+      "workflow": "academic-paper-reviewer",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper-reviewer/agents/methodology_reviewer_agent.md",
+      "prompt_sha256": "91e462ee104cc253a44d387570ea95a49a4efffcc2b4765617baf292431de6cb",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "frozen_same_inputs_no_peer_answers",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-paper-reviewer/perspective_reviewer_agent",
+      "label": "跨学科审稿席位",
+      "workflow": "academic-paper-reviewer",
+      "kind": "ars",
+      "prompt_file": "ars/academic-paper-reviewer/agents/perspective_reviewer_agent.md",
+      "prompt_sha256": "49bb946547593a918bd60faee88555d46a2a10b39f2857ef94163eef65920d81",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/academic-paper-reviewer/references/reviewer_sprint_prompt_source.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "frozen_same_inputs_no_peer_answers",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-pipeline/claim_ref_alignment_audit_agent",
+      "label": "论断与引文对齐审查",
+      "workflow": "academic-pipeline",
+      "kind": "ars",
+      "prompt_file": "ars/academic-pipeline/agents/claim_ref_alignment_audit_agent.md",
+      "prompt_sha256": "e9f1fb7c9cc96e2307e51c66dd201e33f4008fa580d7d5fd244da21731e9e77a",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "research",
+      "skills": [],
+      "protocols": [
+        "ars/academic-pipeline/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "ARS_CLAIM_AUDIT_explicit_opt_in"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-pipeline/collaboration_depth_agent",
+      "label": "协作过程观察",
+      "workflow": "academic-pipeline",
+      "kind": "ars",
+      "prompt_file": "ars/academic-pipeline/agents/collaboration_depth_agent.md",
+      "prompt_sha256": "cb7b351696e5f85e80255f4478db047fa0f8819dc9a2b290a09bd836246fc641",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/academic-pipeline/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "advisory_only_never_changes_gate"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-pipeline/integrity_verification_agent",
+      "label": "稿件与报告过程诚信核查",
+      "workflow": "academic-pipeline",
+      "kind": "ars",
+      "prompt_file": "ars/academic-pipeline/agents/integrity_verification_agent.md",
+      "prompt_sha256": "45dca88507c5727267bcca2b5be755e1fddc50ddef74ce6b8a4c77f43824b936",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "research",
+      "skills": [],
+      "protocols": [
+        "ars/academic-pipeline/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-pipeline/pipeline_orchestrator_agent",
+      "label": "流程总协调",
+      "workflow": "academic-pipeline",
+      "kind": "ars",
+      "prompt_file": "ars/academic-pipeline/agents/pipeline_orchestrator_agent.md",
+      "prompt_sha256": "7deab301b7fdea17099c68f9e44585eb690917d566941793404c1d7d4f3f92fe",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/academic-pipeline/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "academic-pipeline/state_tracker_agent",
+      "label": "流程状态与护照维护",
+      "workflow": "academic-pipeline",
+      "kind": "ars",
+      "prompt_file": "ars/academic-pipeline/agents/state_tracker_agent.md",
+      "prompt_sha256": "787b994b727235451ca885f5be51ce3590dca9fd7134c66f38ba6ac4287eca26",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/academic-pipeline/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "sr-screener/protocol_architect_agent",
+      "label": "筛选协议确认",
+      "workflow": "sr-screener",
+      "kind": "ars",
+      "prompt_file": "ars/sr-screener/agents/protocol_architect_agent.md",
+      "prompt_sha256": "99dd7482340eb18094cfebdfd8ca60bdf2922ba90911a6a3340b8b1315f1fb2c",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/sr-screener/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "sr-screener/qc_auditor_agent",
+      "label": "筛选质量组织与复核分派",
+      "workflow": "sr-screener",
+      "kind": "ars",
+      "prompt_file": "ars/sr-screener/agents/qc_auditor_agent.md",
+      "prompt_sha256": "913010222ea9ca8718068280b2e4946d229c257634977f758ed2f0ff9f8565c7",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/sr-screener/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "sr-screener/reporter_agent",
+      "label": "筛选输出组织与脚本交付",
+      "workflow": "sr-screener",
+      "kind": "ars",
+      "prompt_file": "ars/sr-screener/agents/reporter_agent.md",
+      "prompt_sha256": "f27704142da810744a5e987cf89206bb31fabf72a8e742467bd4f21a6452a438",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/sr-screener/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "sr-screener/screening_reviewer_agent",
+      "label": "独立文献筛选模板",
+      "workflow": "sr-screener",
+      "kind": "ars",
+      "prompt_file": "ars/sr-screener/agents/screening_reviewer_agent.md",
+      "prompt_sha256": "e5307f24461a46a6b74da80343529668946efa94733932919bda4f0ac456c22c",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/sr-screener/WORKFLOW.md",
+        "ars/sr-screener/templates/prompts.md",
+        "ars/sr-screener/references/reviewer_roles.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "confirmed_screening_protocol",
+        "main_verifies_frozen_input_identity",
+        "no_peer_answers_for_a_b",
+        "adjudication_only_after_blind_outputs",
+        "prompt_level_material_scope_not_filesystem_isolation"
+      ],
+      "context_policy": "frozen_same_inputs_no_peer_answers",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "experiment-agent/code_runner_agent",
+      "label": "获授权实验与代码执行",
+      "workflow": "experiment-agent",
+      "kind": "companion",
+      "prompt_file": "ars/experiment-agent/agents/code_runner_agent.md",
+      "prompt_sha256": "54937084589413787fe328ab1561329791cc2ca83222d9bf8283949399cf66de",
+      "execution": "subagent",
+      "route": "research_analysis",
+      "tool_profile": "compute",
+      "skills": [
+        "statistical-analysis"
+      ],
+      "protocols": [
+        "ars/experiment-agent/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "explicit_compute_or_render_authorization"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "experiment-agent/study_manager_agent",
+      "label": "人类研究流程与作者交互",
+      "workflow": "experiment-agent",
+      "kind": "companion",
+      "prompt_file": "ars/experiment-agent/agents/study_manager_agent.md",
+      "prompt_sha256": "0416767252da10adcb5c35c2fa2ccea905f51d39a24d4b296db270df72eaf635",
+      "execution": "main",
+      "route": null,
+      "tool_profile": "main",
+      "skills": [],
+      "protocols": [
+        "ars/experiment-agent/WORKFLOW.md"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "no_subagent_user_confirmation"
+      ],
+      "context_policy": "main_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    },
+    {
+      "id": "shared/compliance_agent",
+      "label": "报告透明度与规范核查",
+      "workflow": "shared",
+      "kind": "ars",
+      "prompt_file": "ars/shared/agents/compliance_agent.md",
+      "prompt_sha256": "cf51ff7a3bf3fb40fa072e465974fdd934c4922392f57cb6609f24bd4cbef0b9",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "protocols": [
+        "ars/shared/compliance_checkpoint_protocol.md",
+        "ars/shared/compliance_report.schema.json"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication"
+      ],
+      "context_policy": "fresh_bounded_context",
+      "output_contract": {
+        "authority": "original_role_prompt",
+        "publication": "main_session_only",
+        "must_disclose": [
+          "actual_read_scope",
+          "source_locators",
+          "unresolved",
+          "execution_evidence"
+        ]
+      }
+    }
+  ],
+  "aliases": [
+    {
+      "prompt_file": "ars/agents/report_compiler_agent.md",
+      "canonical_role": "deep-research/report_compiler_agent",
+      "sha256": "546fccee1fab315d9a43a528c50862a2d27a17db1275d2fc58e2e312733fcbfd",
+      "reason": "byte_identical_plugin_entry_not_new_role"
+    },
+    {
+      "prompt_file": "ars/agents/research_architect_agent.md",
+      "canonical_role": "deep-research/research_architect_agent",
+      "sha256": "0799efca117e19d662ca28bd692d95a6587cc88fcc19290067a023ff4136314e",
+      "reason": "byte_identical_plugin_entry_not_new_role"
+    },
+    {
+      "prompt_file": "ars/agents/screening_reviewer_agent.md",
+      "canonical_role": "sr-screener/screening_reviewer_agent",
+      "sha256": "e5307f24461a46a6b74da80343529668946efa94733932919bda4f0ac456c22c",
+      "reason": "byte_identical_plugin_entry_not_new_role"
+    },
+    {
+      "prompt_file": "ars/agents/synthesis_agent.md",
+      "canonical_role": "deep-research/synthesis_agent",
+      "sha256": "9032f977fc6a4aee5a1623b745b78affa3478dbf8f49b97b09090f2ccea7b52e",
+      "reason": "byte_identical_plugin_entry_not_new_role"
+    }
+  ],
+  "instances": [
+    {
+      "id": "sr-screener/reviewer_a",
+      "canonical_role": "sr-screener/screening_reviewer_agent",
+      "seat": "reviewer_a",
+      "context_policy": "frozen_same_inputs_no_peer_answers",
+      "prompt_variant_source": "ars/sr-screener/templates/prompts.md",
+      "prompt_variant_anchor": "<!-- prompt:reviewer_intro -->"
+    },
+    {
+      "id": "sr-screener/reviewer_b",
+      "canonical_role": "sr-screener/screening_reviewer_agent",
+      "seat": "reviewer_b",
+      "context_policy": "frozen_same_inputs_no_peer_answers",
+      "prompt_variant_source": "ars/sr-screener/templates/prompts.md",
+      "prompt_variant_anchor": "<!-- prompt:reviewer_intro -->"
+    },
+    {
+      "id": "sr-screener/adjudicator",
+      "canonical_role": "sr-screener/screening_reviewer_agent",
+      "seat": "adjudicator",
+      "context_policy": "only_after_blind_reviews_complete",
+      "prompt_variant_source": "ars/sr-screener/templates/prompts.md",
+      "prompt_variant_anchor": "<!-- prompt:adjudicator_intro -->"
+    },
+    {
+      "id": "sr-screener/senior_qc",
+      "canonical_role": "sr-screener/screening_reviewer_agent",
+      "seat": "senior_qc",
+      "context_policy": "fresh_recheck_no_presumption_of_prior_exclusion",
+      "prompt_variant_source": "ars/sr-screener/templates/prompts.md",
+      "prompt_variant_anchor": "<!-- prompt:qc_intro -->"
+    }
+  ],
+  "default_unknown_role": "refuse_no_parent_model_fallback",
+  "missing_route": "refuse_no_parent_model_fallback",
+  "main_roles": "not_delegatable_keep_current_main_model",
+  "permissions_note": "The active official model_map payload contains goal/context/option; role identity and contracts remain in context. ars-paper role-check is an explicit preflight, not runtime interception: direct model_map calls do not enforce ARS bindings. The legacy ars_roles provider remains available for scoped rollback and registers ars_* toolsets, but is not the active model router. Children inherit parent tools; strict subsets require a bounded parent CLI with delegation plus the declared ars_* toolset. Paths and withholding remain prompt-level, not an OS sandbox.",
+  "configuration_checked_at": "2026-11-11",
+  "contract_calls": [
+    {
+      "id": "academic-paper-reviewer/re_review_phase1",
+      "kind": "protocol_call",
+      "workflow": "academic-paper-reviewer",
+      "phase": "phase1",
+      "prompt_file": "ars/academic-paper-reviewer/references/re_review_mode_protocol.md",
+      "prompt_sha256": "e71c5e5fc477f19aef0c72a621cb313832b54abe42497642481dc681f6b1f036",
+      "source_anchor": "#### Phase 1 — criteria commitment (revision-blind)",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "context_policy": "revision_blind_no_manuscripts_or_letter",
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/shared/contracts/re_review/input_manifest.schema.json",
+        "ars/shared/contracts/re_review/precommitment.schema.json"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "frozen_round1_cards",
+        "phase_specific_withholding_matrix",
+        "validated_previous_gate_outputs",
+        "main_session_runs_required_synthesis_checker"
+      ],
+      "note": "Local routing ID for an upstream protocol call, not a new official agent file; never substitute eic_agent or editorial_synthesizer_agent."
+    },
+    {
+      "id": "academic-paper-reviewer/re_review_phase2a",
+      "kind": "protocol_call",
+      "workflow": "academic-paper-reviewer",
+      "phase": "phase2a",
+      "prompt_file": "ars/academic-paper-reviewer/references/re_review_mode_protocol.md",
+      "prompt_sha256": "e71c5e5fc477f19aef0c72a621cb313832b54abe42497642481dc681f6b1f036",
+      "source_anchor": "#### Phase 2A — evidence verdict (persuasion-blind)",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "context_policy": "persuasion_blind_no_response_letter",
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/shared/contracts/re_review/input_manifest.schema.json",
+        "ars/shared/contracts/re_review/verdict_record.schema.json"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "frozen_round1_cards",
+        "phase_specific_withholding_matrix",
+        "validated_previous_gate_outputs",
+        "main_session_runs_required_synthesis_checker"
+      ],
+      "note": "Local routing ID for an upstream protocol call, not a new official agent file; never substitute eic_agent or editorial_synthesizer_agent."
+    },
+    {
+      "id": "academic-paper-reviewer/re_review_phase2b",
+      "kind": "protocol_call",
+      "workflow": "academic-paper-reviewer",
+      "phase": "phase2b",
+      "prompt_file": "ars/academic-paper-reviewer/references/re_review_mode_protocol.md",
+      "prompt_sha256": "e71c5e5fc477f19aef0c72a621cb313832b54abe42497642481dc681f6b1f036",
+      "source_anchor": "#### Phase 2B — claim matching (letter revealed)",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "context_policy": "only_after_evidence_committed_then_letter",
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/shared/contracts/re_review/input_manifest.schema.json",
+        "ars/shared/contracts/re_review/traceability.schema.json"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "frozen_round1_cards",
+        "phase_specific_withholding_matrix",
+        "validated_previous_gate_outputs",
+        "main_session_runs_required_synthesis_checker"
+      ],
+      "note": "Local routing ID for an upstream protocol call, not a new official agent file; never substitute eic_agent or editorial_synthesizer_agent."
+    },
+    {
+      "id": "academic-paper-reviewer/re_review_phase2b_scoped",
+      "kind": "protocol_call",
+      "workflow": "academic-paper-reviewer",
+      "phase": "phase2b_scoped",
+      "prompt_file": "ars/academic-paper-reviewer/references/re_review_mode_protocol.md",
+      "prompt_sha256": "e71c5e5fc477f19aef0c72a621cb313832b54abe42497642481dc681f6b1f036",
+      "source_anchor": "**Deferral loop (the ONLY place user input enters the derivation):**",
+      "execution": "subagent",
+      "route": "evidence_review",
+      "tool_profile": "readonly",
+      "skills": [],
+      "context_policy": "one_scoped_item_no_letter_no_other_items",
+      "protocols": [
+        "ars/academic-paper-reviewer/WORKFLOW.md",
+        "ars/shared/contracts/re_review/input_manifest.schema.json",
+        "ars/shared/contracts/re_review/traceability.schema.json"
+      ],
+      "gates": [
+        "selected_role_and_workflow_contract",
+        "actual_user_scope",
+        "main_session_final_publication",
+        "frozen_round1_cards",
+        "phase_specific_withholding_matrix",
+        "validated_previous_gate_outputs",
+        "main_session_runs_required_synthesis_checker"
+      ],
+      "note": "Local routing ID for an upstream protocol call, not a new official agent file; never substitute eic_agent or editorial_synthesizer_agent."
+    }
+  ]
+}

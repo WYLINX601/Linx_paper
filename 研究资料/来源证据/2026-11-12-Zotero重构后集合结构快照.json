@@ -1,0 +1,3271 @@
+{
+ "snapshot_utc": "2026-11-12T14:00:03.846308+00:00",
+ "stage": "migrated-not-yet-cleaned",
+ "item_count": 330,
+ "collection_count": 81,
+ "new_collections": [
+  {
+   "key": "82EBTITX",
+   "name": "01 景宁畲族民居研究",
+   "parent": false
+  },
+  {
+   "key": "WFN44JLW",
+   "name": "保护与当代设计",
+   "parent": "82EBTITX"
+  },
+  {
+   "key": "G2XVVNAJ",
+   "name": "村落与聚落",
+   "parent": "82EBTITX"
+  },
+  {
+   "key": "FPX2L7KL",
+   "name": "民居形制与营造",
+   "parent": "82EBTITX"
+  },
+  {
+   "key": "P3JQRKWL",
+   "name": "文化与装饰",
+   "parent": "82EBTITX"
+  },
+  {
+   "key": "GEWGIVWJ",
+   "name": "02 建筑形态与类型理论",
+   "parent": false
+  },
+  {
+   "key": "GNMYRLVZ",
+   "name": "风貌概念与管控",
+   "parent": "GEWGIVWJ"
+  },
+  {
+   "key": "KVGWE59T",
+   "name": "建筑形态研究",
+   "parent": "GEWGIVWJ"
+  },
+  {
+   "key": "YN88KLIP",
+   "name": "聚落与空间形态",
+   "parent": "GEWGIVWJ"
+  },
+  {
+   "key": "XGH8NJSK",
+   "name": "类型学理论与方法",
+   "parent": "GEWGIVWJ"
+  },
+  {
+   "key": "NBF5LA7L",
+   "name": "类型学应用研究",
+   "parent": "GEWGIVWJ"
+  },
+  {
+   "key": "NI8C5TMZ",
+   "name": "03 民居特征提取与评价",
+   "parent": false
+  },
+  {
+   "key": "WQUA23WS",
+   "name": "风貌评价与量化测评",
+   "parent": "NI8C5TMZ"
+  },
+  {
+   "key": "B2QSFV3T",
+   "name": "景观基因与特征图谱",
+   "parent": "NI8C5TMZ"
+  },
+  {
+   "key": "DGXMK9EY",
+   "name": "空间分析与句法",
+   "parent": "NI8C5TMZ"
+  },
+  {
+   "key": "S4HRT3GN",
+   "name": "特征识别与提取",
+   "parent": "NI8C5TMZ"
+  },
+  {
+   "key": "88CJ3LKV",
+   "name": "研究综述与文献计量",
+   "parent": "NI8C5TMZ"
+  },
+  {
+   "key": "J5R6A7G3",
+   "name": "04 数字采集与遗产信息",
+   "parent": false
+  },
+  {
+   "key": "ATKKVGHX",
+   "name": "三维采集与摄影测量",
+   "parent": "J5R6A7G3"
+  },
+  {
+   "key": "LRFNP6PR",
+   "name": "数据库与信息模型",
+   "parent": "J5R6A7G3"
+  },
+  {
+   "key": "7TRILSIK",
+   "name": "数字档案与数字化保护",
+   "parent": "J5R6A7G3"
+  },
+  {
+   "key": "QHHZU376",
+   "name": "05 知识组织与智能计算",
+   "parent": false
+  },
+  {
+   "key": "AD2K5E6K",
+   "name": "本体与语义模型",
+   "parent": "QHHZU376"
+  },
+  {
+   "key": "DVASLX8Z",
+   "name": "知识图谱构建与应用",
+   "parent": "QHHZU376"
+  },
+  {
+   "key": "4K84HDZJ",
+   "name": "AI与视觉计算",
+   "parent": "QHHZU376"
+  },
+  {
+   "key": "BX48FZWX",
+   "name": "06 保护更新与规划实践",
+   "parent": false
+  },
+  {
+   "key": "M2L9BBI8",
+   "name": "保护更新与再利用",
+   "parent": "BX48FZWX"
+  },
+  {
+   "key": "SK6DPGDE",
+   "name": "规划与风貌管控",
+   "parent": "BX48FZWX"
+  },
+  {
+   "key": "JFKSQ3XB",
+   "name": "设计策略与实践",
+   "parent": "BX48FZWX"
+  },
+  {
+   "key": "5CUBNNJL",
+   "name": "政策与规范",
+   "parent": "BX48FZWX"
+  }
+ ],
+ "old_collections": [
+  {
+   "key": "EILBRVMC",
+   "name": "01 景宁与畲族研究",
+   "parent": false
+  },
+  {
+   "key": "X6LEVVYA",
+   "name": "保护与当代设计",
+   "parent": "EILBRVMC"
+  },
+  {
+   "key": "38RES3Y8",
+   "name": "传统民居与营造",
+   "parent": "EILBRVMC"
+  },
+  {
+   "key": "9YP5T42N",
+   "name": "村落与聚落",
+   "parent": "EILBRVMC"
+  },
+  {
+   "key": "L4KI25ZR",
+   "name": "敕木山",
+   "parent": "9YP5T42N"
+  },
+  {
+   "key": "CJ4EAJIF",
+   "name": "东弄村",
+   "parent": "9YP5T42N"
+  },
+  {
+   "key": "DAKLZVU6",
+   "name": "文化与装饰",
+   "parent": "EILBRVMC"
+  },
+  {
+   "key": "C7RYV4RJ",
+   "name": "02 建筑理论",
+   "parent": false
+  },
+  {
+   "key": "PGCSYBMT",
+   "name": "地域性与在地性",
+   "parent": "C7RYV4RJ"
+  },
+  {
+   "key": "Y7VFSVXJ",
+   "name": "风貌概念与认知",
+   "parent": "C7RYV4RJ"
+  },
+  {
+   "key": "QUNYIW59",
+   "name": "风貌形成与演变",
+   "parent": "C7RYV4RJ"
+  },
+  {
+   "key": "964KQV2J",
+   "name": "建筑形态",
+   "parent": "C7RYV4RJ"
+  },
+  {
+   "key": "N7S4EHIA",
+   "name": "类型学",
+   "parent": "C7RYV4RJ"
+  },
+  {
+   "key": "38BCITMZ",
+   "name": "03 研究方法",
+   "parent": false
+  },
+  {
+   "key": "7LVSXF45",
+   "name": "比较分析",
+   "parent": "38BCITMZ"
+  },
+  {
+   "key": "IYQSW23L",
+   "name": "量化评价与分类",
+   "parent": "38BCITMZ"
+  },
+  {
+   "key": "2MILVR4R",
+   "name": "特征提取与编码",
+   "parent": "38BCITMZ"
+  },
+  {
+   "key": "M9Q5BNER",
+   "name": "特征图谱与谱系",
+   "parent": "38BCITMZ"
+  },
+  {
+   "key": "2QBGPKGV",
+   "name": "要素识别与指标体系",
+   "parent": "38BCITMZ"
+  },
+  {
+   "key": "7ZLJFPT5",
+   "name": "04 数字采集与资料组织",
+   "parent": false
+  },
+  {
+   "key": "JMYSLMY3",
+   "name": "摄影测量与三维建模",
+   "parent": "7ZLJFPT5"
+  },
+  {
+   "key": "GM3FQTUK",
+   "name": "数据库与信息模型",
+   "parent": "7ZLJFPT5"
+  },
+  {
+   "key": "X2QVHKGF",
+   "name": "数字化保护",
+   "parent": "7ZLJFPT5"
+  },
+  {
+   "key": "JWCYVJKZ",
+   "name": "田野调查与建筑测绘",
+   "parent": "7ZLJFPT5"
+  },
+  {
+   "key": "B89X6BM7",
+   "name": "05 知识图谱与语义组织",
+   "parent": false
+  },
+  {
+   "key": "G54FALCQ",
+   "name": "本体与语义体系",
+   "parent": "B89X6BM7"
+  },
+  {
+   "key": "AV6BSHWI",
+   "name": "图谱构建与质量评价",
+   "parent": "B89X6BM7"
+  },
+  {
+   "key": "69JM5HRB",
+   "name": "知识查询与解释应用",
+   "parent": "B89X6BM7"
+  },
+  {
+   "key": "T2JV3SZZ",
+   "name": "06 AI与计算方法",
+   "parent": false
+  },
+  {
+   "key": "E774X8R2",
+   "name": "大模型与上下文",
+   "parent": "T2JV3SZZ"
+  },
+  {
+   "key": "V8XP4QQA",
+   "name": "生成式设计",
+   "parent": "T2JV3SZZ"
+  },
+  {
+   "key": "GK6Y84WH",
+   "name": "视觉识别与特征学习",
+   "parent": "T2JV3SZZ"
+  },
+  {
+   "key": "6M98AFBK",
+   "name": "07 保护更新与规划实践",
+   "parent": false
+  },
+  {
+   "key": "RKM7QQLV",
+   "name": "街区与城镇",
+   "parent": "6M98AFBK"
+  },
+  {
+   "key": "3QXA8RGB",
+   "name": "民居与村落",
+   "parent": "6M98AFBK"
+  },
+  {
+   "key": "596KBB96",
+   "name": "政策与规范",
+   "parent": "6M98AFBK"
+  },
+  {
+   "key": "CJKL755G",
+   "name": "99 整理前分类（2026-10-18）",
+   "parent": false
+  },
+  {
+   "key": "MMSRJ9IJ",
+   "name": "建筑风貌",
+   "parent": "CJKL755G"
+  },
+  {
+   "key": "52BGL2XT",
+   "name": "民居建筑风貌",
+   "parent": "MMSRJ9IJ"
+  },
+  {
+   "key": "2UDM8WX7",
+   "name": "畲族",
+   "parent": "MMSRJ9IJ"
+  },
+  {
+   "key": "P3G2MV3U",
+   "name": "在地性",
+   "parent": "MMSRJ9IJ"
+  },
+  {
+   "key": "CI7CJ7RT",
+   "name": "建筑风貌+AI",
+   "parent": "CJKL755G"
+  },
+  {
+   "key": "RIPURRSN",
+   "name": "特征学习",
+   "parent": "CI7CJ7RT"
+  },
+  {
+   "key": "9PDWUKXV",
+   "name": "建筑类型学",
+   "parent": "CJKL755G"
+  },
+  {
+   "key": "IV5SEUAI",
+   "name": "建筑图谱",
+   "parent": "CJKL755G"
+  },
+  {
+   "key": "BTTQPYUW",
+   "name": "数字化保护",
+   "parent": "CJKL755G"
+  },
+  {
+   "key": "S5PDSSSQ",
+   "name": "三维建模",
+   "parent": "BTTQPYUW"
+  },
+  {
+   "key": "PF2232HU",
+   "name": "语义图谱&AI",
+   "parent": "CJKL755G"
+  },
+  {
+   "key": "WWRSRPBQ",
+   "name": "毕业论文核心文献",
+   "parent": false
+  },
+  {
+   "key": "ENBCUWKN",
+   "name": "山地民居街巷与空间语义",
+   "parent": false
+  },
+  {
+   "key": "HZQEVL84",
+   "name": "夏雷论文｜第二章引用原文",
+   "parent": false
+  }
+ ],
+ "items": [
+  {
+   "key": "QRSUI36Z",
+   "title": "村镇规划法规文件中对风貌管控内容的解析及优化建议",
+   "collections": [
+    "C87PZCFM",
+    "596KBB96",
+    "5CUBNNJL"
+   ]
+  },
+  {
+   "key": "GTC8CA2K",
+   "title": "中共中央办公厅 国务院办公厅印发《农村人居环境整治提升五年行动方案（2021-2025年）》__2021年第35号国务院公报_中国政府网",
+   "collections": [
+    "MMSRJ9IJ",
+    "596KBB96",
+    "5CUBNNJL"
+   ]
+  },
+  {
+   "key": "CG9ZWBFG",
+   "title": "田园综合体背景下乡村公共建筑“在地性”设计的策略初探",
+   "collections": [
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "C55R5NJT",
+   "title": "乡村振兴背景下乡村公共建筑“在地性”设计策略探究 ——以庐江鲍店村核心区乡村公共建筑为例",
+   "collections": [
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "FHJJGCY7",
+   "title": "多元要素链接联动式传统村落民居建筑更新设计研究——以北京市门头沟区琉璃渠村为例",
+   "collections": [
+    "52BGL2XT",
+    "3QXA8RGB",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "QWEES4NZ",
+   "title": "建筑类型学视角下传统聚落民居改造策略研究——以定南县忠诚村团龙围小组为例",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "3QXA8RGB",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "3HYH5DQQ",
+   "title": "基于建筑类型学理论的徽州历史街区有机更新策略",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "RKM7QQLV",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "7DN6GEAX",
+   "title": "基于数字信息模型的传统村落建筑风貌保护更新方法研究 ——以尚志市镇北村为例",
+   "collections": [
+    "MMSRJ9IJ",
+    "GM3FQTUK",
+    "3QXA8RGB",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "HBSQ5CAK",
+   "title": "基于建筑类型学的当代地域性旅游服务中心设计策略研究",
+   "collections": [
+    "N7S4EHIA",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "UNXPFYVE",
+   "title": "基于建筑类型学的梅山文化园建筑与环境设计研究",
+   "collections": [
+    "N7S4EHIA",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "KJKB36XU",
+   "title": "汉中传统民居形态的地域性传承策略研究",
+   "collections": [
+    "964KQV2J",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "GHC2HS48",
+   "title": "汉中传统民居形态的地域性传承策略研究",
+   "collections": [
+    "964KQV2J",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "CK2LERFG",
+   "title": "曾子故里传统民居空间形态更新设计研究 ——以嘉祥县满硐镇为例",
+   "collections": [
+    "964KQV2J",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "3ULAENNN",
+   "title": "陕南传统民居区系特征图谱及保护传承策略研究",
+   "collections": [
+    "964KQV2J",
+    "JFKSQ3XB"
+   ]
+  },
+  {
+   "key": "HM77QC9D",
+   "title": "Review of research on digital protection and application of cultural heritage",
+   "collections": [
+    "C87PZCFM",
+    "3QXA8RGB",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "6QQU55GU",
+   "title": "古村落传统文化遗产的数字化保护与传承",
+   "collections": [
+    "C87PZCFM",
+    "3QXA8RGB",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "RYUXJIS9",
+   "title": "关于我国城市历史文化遗产保护的若干思考",
+   "collections": [
+    "C87PZCFM",
+    "RKM7QQLV",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "5H6SC7IP",
+   "title": "基于规划实施平台的区域风貌管控思路与实践",
+   "collections": [
+    "C87PZCFM",
+    "IV5SEUAI",
+    "RKM7QQLV",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "I6HME2V4",
+   "title": "基于地域特点的乡村建筑风貌管控研究——以河南省平顶山市鲁山县为例",
+   "collections": [
+    "C87PZCFM",
+    "3QXA8RGB",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "CUTULEF5",
+   "title": "中办 国办印发《关于推进实施国家文化数字化战略的意见》",
+   "collections": [
+    "C87PZCFM",
+    "596KBB96",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "U5XSDGI5",
+   "title": "Generative AI and the History of Architecture",
+   "collections": [
+    "V8XP4QQA",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "VLT986TI",
+   "title": "Identifying and Interpreting Traditional Architectural Style Characteristics Based on Deep Learning",
+   "collections": [
+    "PF2232HU",
+    "2MILVR4R",
+    "GK6Y84WH",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "L35I4UAW",
+   "title": "贵州省示范小城镇风貌规划控制研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "RKM7QQLV",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "PRX49B5D",
+   "title": "小城镇风貌控制规划研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "52BGL2XT",
+    "RKM7QQLV",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "SF8ENWTJ",
+   "title": "A Neural Algorithm of Artistic Style",
+   "collections": [
+    "CI7CJ7RT",
+    "V8XP4QQA",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "YIRAZ67L",
+   "title": "计算机视觉技术在城市开放空间研究中的应用进展",
+   "collections": [
+    "CI7CJ7RT",
+    "GK6Y84WH",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "LPDREZUV",
+   "title": "基于AIGC的城市滨水区特色风貌营造研究——以广州白鹅潭片区为例",
+   "collections": [
+    "G4DXHK6A",
+    "CI7CJ7RT",
+    "V8XP4QQA",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "JM5GAGHD",
+   "title": "基于序参量演变的乡村风貌有序化组织机制探究——1970年以来国内外乡村风貌研究进展及启示",
+   "collections": [
+    "MMSRJ9IJ",
+    "52BGL2XT",
+    "QUNYIW59",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "EITNB9TI",
+   "title": "Analysis of the Uniqueness and Similarity of City Landscapes Based on Deep Style Learning",
+   "collections": [
+    "CI7CJ7RT",
+    "IYQSW23L",
+    "7LVSXF45",
+    "GK6Y84WH",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "DQHQFAM9",
+   "title": "城市风貌规划的理念与方法——兼议台州市路桥区城市风貌规划",
+   "collections": [
+    "MMSRJ9IJ",
+    "RKM7QQLV",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "GCNGR3VF",
+   "title": "小城镇风貌管治的内涵及研究方向",
+   "collections": [
+    "MMSRJ9IJ",
+    "RKM7QQLV",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "RGM7WYJS",
+   "title": "基于深度学习的传统村落建筑肌理风貌定量评价",
+   "collections": [
+    "CI7CJ7RT",
+    "IYQSW23L",
+    "GK6Y84WH",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "IF9S2DJA",
+   "title": "浙江嘉兴：城市更新中传统肌理与风貌片区的识别与保护",
+   "collections": [
+    "CI7CJ7RT",
+    "RKM7QQLV",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "NADELL9Y",
+   "title": "基于深度学习与街景影像的建筑风格数据集构建方法——以武汉市为例 - 中国知网",
+   "collections": [
+    "G4DXHK6A",
+    "GM3FQTUK",
+    "GK6Y84WH",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "QH58JJUV",
+   "title": "基于人工智能的环路沿线风貌分析评估研究",
+   "collections": [
+    "G4DXHK6A",
+    "CI7CJ7RT",
+    "IYQSW23L",
+    "GK6Y84WH",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "VPJ5ASSK",
+   "title": "人工智能赋能下的城市风貌评价理论知识图谱建构",
+   "collections": [
+    "G4DXHK6A",
+    "CI7CJ7RT",
+    "AV6BSHWI",
+    "69JM5HRB",
+    "E774X8R2",
+    "WWRSRPBQ",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "B792XRM8",
+   "title": "A Survey of Context Engineering for Large Language Models",
+   "collections": [
+    "CI7CJ7RT",
+    "E774X8R2",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "3QB2NZGJ",
+   "title": "AIGC技术在建筑连续性空间设计中的应用研究 - 中国知网",
+   "collections": [
+    "CI7CJ7RT",
+    "V8XP4QQA",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "K3SHSIBI",
+   "title": "基于生成对抗网络的建筑类型学研究方法——以法国盛期哥特式教堂为例",
+   "collections": [
+    "CI7CJ7RT",
+    "V8XP4QQA",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "KMJP5QXR",
+   "title": "建筑类型学视角下江南古镇空间的语义网络量化研究",
+   "collections": [
+    "CI7CJ7RT",
+    "N7S4EHIA",
+    "G54FALCQ",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "CEZ9X7KN",
+   "title": "基于AIGC的乡村建筑在地性生成设计——以重庆市黔江区社溪村为例",
+   "collections": [
+    "MMSRJ9IJ",
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "V8XP4QQA",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "YJGPSHDL",
+   "title": "历史街区景观风貌的保护与再生",
+   "collections": [
+    "52BGL2XT",
+    "RKM7QQLV",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "3IF89UU3",
+   "title": "地理文化空间约束AIGC赋能乡村特色建筑风貌生成路径——以广州市增城区为例",
+   "collections": [
+    "RIPURRSN",
+    "V8XP4QQA",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "B42UNDDD",
+   "title": "青岛传统风貌建筑保护利用图则编制方法研究",
+   "collections": [
+    "52BGL2XT",
+    "RKM7QQLV",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "Q4S9U5JR",
+   "title": "城市历史街区建筑风貌特征及演变研究——以大连市近代建筑立面管控为例",
+   "collections": [
+    "52BGL2XT",
+    "QUNYIW59",
+    "RKM7QQLV",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "XVQPWASG",
+   "title": "城乡规划视角下建筑风貌保护与传承策略研究",
+   "collections": [
+    "52BGL2XT",
+    "RKM7QQLV",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "LHF5NT5N",
+   "title": "建筑风貌管控机制与房屋外立面改造策略研究——以厦门翔安区为例",
+   "collections": [
+    "52BGL2XT",
+    "RKM7QQLV",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "FSS4JRN4",
+   "title": "类型学在豫西乡村聚落更新与发展中的应用研究",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "3QXA8RGB",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "C4R7XSWK",
+   "title": "基于建筑类型学的舟山市传统村落空间形态及更新保护研究",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "3QXA8RGB",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "DMFXW3FX",
+   "title": "地域性民居风貌要素语义体系构筑方法及特征解析——以徽州地区为例",
+   "collections": [
+    "MMSRJ9IJ",
+    "2MILVR4R",
+    "G54FALCQ",
+    "WWRSRPBQ",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "PZ3CR96H",
+   "title": "基于多源数据融合与知识图谱的历史建筑数字化保护方法研究",
+   "collections": [
+    "IV5SEUAI",
+    "JMYSLMY3",
+    "AV6BSHWI",
+    "WWRSRPBQ",
+    "DVASLX8Z"
+   ]
+  },
+  {
+   "key": "QF58FNZ7",
+   "title": "多源数字化勘测技术在北京通州燃灯塔中的应用研究",
+   "collections": [
+    "S5PDSSSQ",
+    "JWCYVJKZ",
+    "JMYSLMY3",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "NUB7I8PP",
+   "title": "赣派建筑遗产的数字化保护与修缮设计策略研究 ——以流坑古村为例",
+   "collections": [
+    "BTTQPYUW",
+    "3QXA8RGB",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "N39ZQQNA",
+   "title": "泰宁县乡土建筑遗产价值分析及数字化保护实践研究",
+   "collections": [
+    "BTTQPYUW",
+    "3QXA8RGB",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "UTYUW66Z",
+   "title": "基于街景图片机器学习技术的城市建筑风貌分类研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "IYQSW23L",
+    "GK6Y84WH",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "HWB76KX6",
+   "title": "基于知识图谱的古建筑木构架健康状态评估与修缮方法研究",
+   "collections": [
+    "IV5SEUAI",
+    "GM3FQTUK",
+    "AV6BSHWI",
+    "69JM5HRB",
+    "DVASLX8Z"
+   ]
+  },
+  {
+   "key": "82R3E7R4",
+   "title": "An ontological model for the reality-based 3D annotation of heritage building conservation state",
+   "collections": [
+    "G54FALCQ",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "QKDNM54Y",
+   "title": "OntPreHer3D: Ontology for Preservation of Cultural Heritage 3D Models",
+   "collections": [
+    "G54FALCQ",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "L7BZWN9Y",
+   "title": "SEMANTIC ANNOTATIONS ON HERITAGE MODELS: 2D/3D APPROACHES AND FUTURE RESEARCH CHALLENGES",
+   "collections": [
+    "G54FALCQ",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "3KL83WK2",
+   "title": "基于机器学习的建筑立面数据库构建——以汕头小公园开埠区为例",
+   "collections": [
+    "G54FALCQ",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "LCJ853J7",
+   "title": "数智时代下“岭南地区”历史建筑数字设计研究 ——以江门市司前镇镬耳屋为例",
+   "collections": [
+    "G54FALCQ",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "6TEACH2F",
+   "title": "基于形态类型学的传统村落空间形态保护研究——以渝东南酉水河镇后溪村为例",
+   "collections": [
+    "N7S4EHIA",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "V5RJB5WJ",
+   "title": "形态类型学理论以及本土化的探明",
+   "collections": [
+    "GM3FQTUK",
+    "HZQEVL84",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "3MCDW76I",
+   "title": "上海郊野公园村落景观风貌塑造规划研究——以青西郊野公园为例",
+   "collections": [
+    "HZQEVL84",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "LTPRUUQ4",
+   "title": "论城市风貌规划的角色与方向",
+   "collections": [
+    "HZQEVL84",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "Z3P9UZB8",
+   "title": "城乡统筹理念下的我国城乡规划编制体系改革探索",
+   "collections": [
+    "HZQEVL84",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "U28A979I",
+   "title": "天津市城乡规划编制体系回顾、反思与展望",
+   "collections": [
+    "HZQEVL84",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "6TQZK243",
+   "title": "我国乡村规划编制体系研究综述",
+   "collections": [
+    "HZQEVL84",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "FGTTVBJU",
+   "title": "大数据时代的城市规划响应",
+   "collections": [
+    "HZQEVL84",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "83I5SPLA",
+   "title": "绿色视角下严寒地区村镇现状特征及规划转型研究",
+   "collections": [
+    "HZQEVL84",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "X7A9N385",
+   "title": "建筑类型学本体论基础",
+   "collections": [
+    "N7S4EHIA",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "V9F3WNAX",
+   "title": "我国城市更新背景下建筑类型学的重新解读",
+   "collections": [
+    "N7S4EHIA",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "4DA6LQWB",
+   "title": "建筑类型学在传统风貌地段保护与更新中的应用",
+   "collections": [
+    "N7S4EHIA",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "7SY8EUF6",
+   "title": "建筑类型学视角下江南古镇空间的语义网络量化研究",
+   "collections": [
+    "N7S4EHIA",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "NX2GWDG3",
+   "title": "建筑类型学理论的局限性及其当代扩充",
+   "collections": [
+    "N7S4EHIA",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "PNZ3865Z",
+   "title": "BOT: The building topology ontology of the W3C linked building data group",
+   "collections": [
+    "AV6BSHWI",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "9WWMSBC5",
+   "title": "Development of an Indoor Space Semantic Model and Its Implementation as an IndoorGML Extension",
+   "collections": [
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "5BG4898K",
+   "title": "基于本体论的传统村落文化知识图谱生成及其应用——以安徽省绩溪县伏岭村为例",
+   "collections": [
+    "2MILVR4R",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "ICRVUMHA",
+   "title": "传统村落数字化保护研究知识图谱解析",
+   "collections": [
+    "2MILVR4R",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "95UFJBNQ",
+   "title": "中国传统村落特征的解读与集群识别——基于聚类和知识图谱的认知与利用方法",
+   "collections": [
+    "2MILVR4R",
+    "DVASLX8Z"
+   ]
+  },
+  {
+   "key": "MITZPS7U",
+   "title": "传统村落问答系统智能问句识别方法研究",
+   "collections": [
+    "2MILVR4R",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "BWS56LTD",
+   "title": "米脂县传统村落景观的地方性知识图谱构建研究",
+   "collections": [
+    "2MILVR4R",
+    "DVASLX8Z"
+   ]
+  },
+  {
+   "key": "JVMYPXT2",
+   "title": "BOT: The building topology ontology of the W3C linked building data group",
+   "collections": [
+    "AV6BSHWI",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "DG2WV35M",
+   "title": "SimpleBIM : from full ifcOWL graphs to simplified building graphs",
+   "collections": [
+    "G54FALCQ",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "ZUEBLGG7",
+   "title": "本体论研究综述",
+   "collections": [
+    "G54FALCQ",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "KACJWK3D",
+   "title": "传统聚落景观基因的本体模型及其构建",
+   "collections": [
+    "ENBCUWKN",
+    "AD2K5E6K"
+   ]
+  },
+  {
+   "key": "P37FRVVE",
+   "title": "Knowledge Graphs Generation from Cultural Heritage Texts: Combining LLMs and Ontological Engineering for Scholarly Debates",
+   "collections": [
+    "9YP5T42N",
+    "DVASLX8Z"
+   ]
+  },
+  {
+   "key": "58N6LJ9F",
+   "title": "Knowledge graph construction and application in geosciences: A review",
+   "collections": [
+    "QUNYIW59",
+    "DVASLX8Z"
+   ]
+  },
+  {
+   "key": "YDR9ZFAR",
+   "title": "常州民居建筑形态的构成与更新研究",
+   "collections": [
+    "964KQV2J",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "LE5I7AB4",
+   "title": "基于HBIM与地方性知识的渝西传统民居数字化保护与活化利用研究",
+   "collections": [
+    "964KQV2J",
+    "4K84HDZJ"
+   ]
+  },
+  {
+   "key": "3VGHINZN",
+   "title": "陕西关中传统民居建筑空间形态研究",
+   "collections": [
+    "964KQV2J",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "W43H2EHI",
+   "title": "基于特色风貌保护的传统村落更新研究——以弥勒法依哨村为例",
+   "collections": [
+    "QUNYIW59",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "B5R8J4VN",
+   "title": "基于特色风貌保护的传统村落更新研究——以弥勒法依哨村为例",
+   "collections": [
+    "QUNYIW59",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "S9Z6MFN5",
+   "title": "青岛传统风貌建筑保护利用图则编制方法研究",
+   "collections": [
+    "QUNYIW59",
+    "SK6DPGDE"
+   ]
+  },
+  {
+   "key": "NDIDNTBK",
+   "title": "“留住乡愁”的传统村落数字化保护",
+   "collections": [
+    "X2QVHKGF",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "3JZF779Q",
+   "title": "基于Citespace的传统村落数字化保护研究可视化分析",
+   "collections": [
+    "X2QVHKGF",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "QKKJLQ38",
+   "title": "国内传统建筑数字化保护研究现状与趋势",
+   "collections": [
+    "X2QVHKGF",
+    "7TRILSIK"
+   ]
+  },
+  {
+   "key": "BBE6828Z",
+   "title": "Smart Data-Enabled Conservation and Knowledge Generation for Architectural Heritage System",
+   "collections": [
+    "69JM5HRB",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "J8PKSR28",
+   "title": "Full article: Progressive protection and digital renewal of Tujia traditional dwellings: a case study of Caoguitang",
+   "collections": [
+    "69JM5HRB",
+    "M2L9BBI8"
+   ]
+  },
+  {
+   "key": "89AYUXEG",
+   "title": "Gao 等 - 2023 - RESEARCH ON THE APPLICATION OF UAV OBLIQUE PHOTOGRAMMETRY TO LILONG HOUSING TAKING MEILAN LANE AS A",
+   "collections": [
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "9Y6QB8TQ",
+   "title": "RESEARCH ON THE APPLICATION OF UAV OBLIQUE PHOTOGRAMMETRY TO LILONG HOUSING: TAKING MEILAN LANE AS AN EXAMPLE",
+   "collections": [
+    "JMYSLMY3",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "T2MG7DQM",
+   "title": "图谱语义驱动的历史文化遗产三维空间重塑技术——以《红楼梦》大观园为例",
+   "collections": [
+    "PF2232HU",
+    "69JM5HRB",
+    "V8XP4QQA",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "EAEYA3FH",
+   "title": "传统聚落景观基因识别提取体系的研究热点、演进及展望",
+   "collections": [
+    "MMSRJ9IJ",
+    "52BGL2XT",
+    "2QBGPKGV",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "VT2P8MQX",
+   "title": "无人机倾斜摄影技术支持的古驿站城镇形态特征研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "JMYSLMY3",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "JXLK36G8",
+   "title": "基于无人机倾斜摄影测量技术的古建筑三维建模与保护研究",
+   "collections": [
+    "S5PDSSSQ",
+    "JMYSLMY3",
+    "WWRSRPBQ",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "G7IK8ML5",
+   "title": "基于全景建模与GIS技术的苏州东山镇传统村落数字化保护路径研究",
+   "collections": [
+    "BTTQPYUW",
+    "JMYSLMY3",
+    "3QXA8RGB",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "6MPNXLEX",
+   "title": "基于ArcEngine的城市规划数据库管理系统的研究和实现",
+   "collections": [
+    "BTTQPYUW",
+    "GM3FQTUK",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "QX6HSHFX",
+   "title": "建筑色彩数据库的应用研究",
+   "collections": [
+    "BTTQPYUW",
+    "GM3FQTUK",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "6QHD96WU",
+   "title": "城市建设基础空间数据库建设方法的探讨",
+   "collections": [
+    "BTTQPYUW",
+    "GM3FQTUK",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "X76XPY6H",
+   "title": "Aïoli: A reality-based 3D annotation cloud platform for the collaborative documentation of cultural heritage artefacts",
+   "collections": [
+    "G54FALCQ",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "NCUF3I7A",
+   "title": "一种基于建筑遥感影像的数据库管理系统 - 中国知网",
+   "collections": [
+    "G54FALCQ",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "58PSWU99",
+   "title": "支持大数据管理的NoSQL系统研究综述",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "R744T8VJ",
+   "title": "非关系型与关系型空间数据库对比分析与协同应用研究",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "C5RM65VZ",
+   "title": "C/S到B/S模式转换的技术研究",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "RFC62TND",
+   "title": "基于B/S物联网环境监测系统MySQL数据库的设计与实现",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "NSI3LTFE",
+   "title": "基于MySQL数据库的优化",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "F2BUSCPT",
+   "title": "城市规划信息系统中数据库的设计",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "NWAICWB4",
+   "title": "城市空间分析GIS应用指南",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "2QVVPDGC",
+   "title": "常州市工程地质数据库建设及规划应用探索",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "KRFPPPT2",
+   "title": "城市设计教学中数据库的建立技巧与策略",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "TZ4AI48H",
+   "title": "土地利用数据库建立的技术探讨",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "A4IK2EZ9",
+   "title": "城市规划空间数据库管理系统设计",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "X9I6SE95",
+   "title": "Database Research: Achievements and Opportunities Into the 21st Century",
+   "collections": [
+    "HZQEVL84",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "3GICB3B5",
+   "title": "基于CiteSpace的传统村落保护与发展可视化分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "3BPLD6PK",
+   "title": "我国传统村落传承保护研究综述与展望——基于CiteSpace知识图谱可视化分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "IPQ8JIB9",
+   "title": "基于CSSCI与北大核心期刊文献的我国传统村落火灾研究现状及热点问题知识图谱分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "TN6XYSHX",
+   "title": "基于CiteSpace的传统村落空间形态研究知识图谱分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "P79JNJWJ",
+   "title": "基于CiteSpace的四川省传统村落研究现状与展望分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "DNSIIQ2A",
+   "title": "OpenGIS® Implementation Standard for Geographic information - Simple feature access - Part 1: Common architecture",
+   "collections": [
+    "2MILVR4R",
+    "LRFNP6PR"
+   ]
+  },
+  {
+   "key": "NP39AY65",
+   "title": "结合BIM技术的工业遗产数字化保护与再利用策略研究",
+   "collections": [
+    "7ZLJFPT5",
+    "X2QVHKGF",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "DNMDJDC6",
+   "title": "基于XR技术的传统村落数字化保护研究 ——以江头村为例",
+   "collections": [
+    "X2QVHKGF",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "PJXD46GR",
+   "title": "基于全景建模与GIS技术的苏州东山镇传统村落数字化保护路径研究",
+   "collections": [
+    "X2QVHKGF",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "JUGVJIGP",
+   "title": "全景漫游技术在传统村落数字化中的应用",
+   "collections": [
+    "X2QVHKGF",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "7CHMSLAC",
+   "title": "Chinese vernacular villages renovation: A methodology for establishing a 3D interactive database",
+   "collections": [
+    "69JM5HRB",
+    "ATKKVGHX"
+   ]
+  },
+  {
+   "key": "BQZMUMA6",
+   "title": "基因图谱视角下嘉绒藏区民族建筑研究——以西索村为例",
+   "collections": [
+    "M9Q5BNER",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "Q7HR6YYW",
+   "title": "城市风貌特色的维护、弘扬、完善和塑造",
+   "collections": [
+    "MMSRJ9IJ",
+    "Y7VFSVXJ",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "UNRAN74G",
+   "title": "小城镇地域传统建筑风貌整治设计研究            ——以贵州省榕江县古州镇石板街风貌整治设计为例",
+   "collections": [
+    "MMSRJ9IJ",
+    "52BGL2XT",
+    "RKM7QQLV",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "AFGRLCLH",
+   "title": "传统聚落景观基因的识别与提取方法研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "2QBGPKGV",
+    "WWRSRPBQ",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "A76UCHIN",
+   "title": "城市特色危机与城市建筑风貌的自组织机制            ——一个基于市场化建设体制的研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "52BGL2XT",
+    "QUNYIW59",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "EB775TXI",
+   "title": "乡村景观特征评估与规划",
+   "collections": [
+    "MMSRJ9IJ",
+    "IYQSW23L",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "BLDC2BPA",
+   "title": "中国传统民居建筑风貌地域分异特征与形成机理",
+   "collections": [
+    "MMSRJ9IJ",
+    "QUNYIW59",
+    "7LVSXF45",
+    "WWRSRPBQ",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "YIFE5HBS",
+   "title": "基于模糊层次分析法的建筑抗震设计方案比选研究",
+   "collections": [
+    "G4DXHK6A",
+    "IYQSW23L",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "5MCG5EBM",
+   "title": "乡村景观特征评估与规划",
+   "collections": [
+    "P3G2MV3U",
+    "IYQSW23L",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "YW6DMA9K",
+   "title": "中国传统民居建筑风貌地域分异特征与形成机理",
+   "collections": [
+    "MMSRJ9IJ",
+    "52BGL2XT",
+    "QUNYIW59",
+    "7LVSXF45",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "LYPTPTGS",
+   "title": "多因子综合的四川传统村落民居建筑风貌区划研究",
+   "collections": [
+    "52BGL2XT",
+    "7LVSXF45",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "5MAP72E6",
+   "title": "川西地区传统村落空间形态图谱研究",
+   "collections": [
+    "52BGL2XT",
+    "M9Q5BNER",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "N27YJCKR",
+   "title": "多民族混居型传统村落空间形态特征解析",
+   "collections": [
+    "52BGL2XT",
+    "N7S4EHIA",
+    "7LVSXF45",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "D3LG8TDM",
+   "title": "小城镇风貌评价方法研究——以浙江沈荡镇为例",
+   "collections": [
+    "52BGL2XT",
+    "IYQSW23L",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "7G9GV372",
+   "title": "中国传统村落民居建筑风貌特征提取与评价方法研究——以北京市门头沟区为例",
+   "collections": [
+    "52BGL2XT",
+    "2QBGPKGV",
+    "2MILVR4R",
+    "WWRSRPBQ",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "7U53BE5I",
+   "title": "城市重点片区建筑风貌设计引导的方法",
+   "collections": [
+    "52BGL2XT",
+    "RKM7QQLV",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "DLALJDQC",
+   "title": "近现代上海市工业遗产建筑基因识别与风貌解析——以第三次全国文物普查结果为例",
+   "collections": [
+    "52BGL2XT",
+    "2QBGPKGV",
+    "M9Q5BNER",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "NID934IE",
+   "title": "建筑风貌数据库建设信息采集研究——以传统巴渝建筑风貌为例",
+   "collections": [
+    "52BGL2XT",
+    "2QBGPKGV",
+    "JWCYVJKZ",
+    "GM3FQTUK",
+    "WWRSRPBQ",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "26QUPIXE",
+   "title": "类型学方法下土坑村建筑的分析",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "4ZB238BG",
+   "title": "建筑类型学下闽南古厝民居二维空间量化研究 ——以福建省土坑村民居为例",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "IYQSW23L",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "6K9Q8IB4",
+   "title": "渤海南域乡村民居建筑基因识别与图谱研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "2QBGPKGV",
+    "M9Q5BNER",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "H5INWQQ7",
+   "title": "阴山商道沿线传统民居特征图谱研究",
+   "collections": [
+    "IV5SEUAI",
+    "M9Q5BNER",
+    "WWRSRPBQ",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "H3VYKRXE",
+   "title": "桂林平安壮寨建筑风貌量化评价研究",
+   "collections": [
+    "BTTQPYUW",
+    "IYQSW23L",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "KXJIQPBK",
+   "title": "浙江乡村聚落建筑风貌的量化测评与整治策略研究",
+   "collections": [
+    "BTTQPYUW",
+    "IYQSW23L",
+    "3QXA8RGB",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "CIC2JA6P",
+   "title": "皖北乡村建筑风貌特征识别及优化策略",
+   "collections": [
+    "MMSRJ9IJ",
+    "2QBGPKGV",
+    "2MILVR4R",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "FGLF9INT",
+   "title": "康巴藏区传统民居建筑风貌图谱研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "M9Q5BNER",
+    "WWRSRPBQ",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "GR3UDRQU",
+   "title": "闽北传统村落建筑风貌评价和优化策略研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "IYQSW23L",
+    "3QXA8RGB",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "M2YJ4CAL",
+   "title": "东北严寒地区村落风貌数据库系统设计与应用研究",
+   "collections": [
+    "MMSRJ9IJ",
+    "BTTQPYUW",
+    "GM3FQTUK",
+    "WWRSRPBQ",
+    "HZQEVL84",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "7U3XYUVI",
+   "title": "小城镇地域传统建筑风貌整治设计研究 ——以贵州省榕江县古州镇石板街风貌整治设计为例",
+   "collections": [
+    "MMSRJ9IJ",
+    "RKM7QQLV",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "UWGQ2XM4",
+   "title": "城市风貌解析与控制",
+   "collections": [
+    "BTTQPYUW",
+    "Y7VFSVXJ",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "CG8C3ETQ",
+   "title": "严寒地区村镇建筑景观风貌数据库设计研究",
+   "collections": [
+    "GM3FQTUK",
+    "HZQEVL84",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "MS8ZCBEY",
+   "title": "貌由风生——以宝鸡城市风貌体系构建为例",
+   "collections": [
+    "HZQEVL84",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "BIYLCUDB",
+   "title": "对TOPSIS法用于综合评价的改进",
+   "collections": [
+    "HZQEVL84",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "L5YXIIRX",
+   "title": "基于改进TOPSIS法的城市土地利用绩效评价及障碍因子诊断——以重庆市为例",
+   "collections": [
+    "HZQEVL84",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "QPSKVXKV",
+   "title": "基于改进TOPSIS方法的甘肃省土地利用结构合理性评价",
+   "collections": [
+    "HZQEVL84",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "AR5L935U",
+   "title": "浙江台州地区传统民居类型与特征研究",
+   "collections": [
+    "7LVSXF45",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "P2JU42S3",
+   "title": "内在的秩序——对建筑类型学形态创作特征的比较研究",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "AZ9LR62N",
+   "title": "历史环境的人文解析与再生研究——基于建筑类型学理论的分析",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "9MC9FC7N",
+   "title": "建筑类型学下闽南古厝民居二维空间量化研究 ——以福建省土坑村民居为例",
+   "collections": [
+    "N7S4EHIA",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "95CPSTYY",
+   "title": "基于建筑类型学下的“徽质空间”分析",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "DG4HQXB7",
+   "title": "基于建筑类型学与多元数据分析的传统民居的演变研究——以武夷山城村为例",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "BL2ASWPS",
+   "title": "建筑类型学视野下的中外骑楼建筑之比较研究",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "HLDJTVLP",
+   "title": "基于建筑类型学来分析传统园林空间在现代的传承 ——以中国美术学院专家接待中心“水岸山居”为例",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "MIHB8K8V",
+   "title": "基于建筑类型学的杭州居住建筑空调能耗研究与设计优化",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "VU9UVVD9",
+   "title": "江西省传统村落建筑类型学探析——以吉水县燕坊古村为例",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "HXAV4QAF",
+   "title": "类型学方法下土坑村建筑的分析",
+   "collections": [
+    "N7S4EHIA",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "F7ULIAKR",
+   "title": "传统村落地方性知识特征识别与图谱构建——以随州传统村落为例",
+   "collections": [
+    "2MILVR4R",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "NQN66646",
+   "title": "基于CiteSpace的山西省传统村落研究现状与发展趋势",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "GGWB5MUW",
+   "title": "基于空间基因概念格的重庆市黔江区传统村落集中连片保护风貌设计研究",
+   "collections": [
+    "2MILVR4R",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "ACRXNXC9",
+   "title": "基于CiteSpace的河南省传统村落研究知识图谱分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "5ZVJ2RBH",
+   "title": "地方性知识视角下的传统村落文化景观保护与利用——以恩施州咸丰县马家沟村为例",
+   "collections": [
+    "2MILVR4R",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "L9GDYJPH",
+   "title": "西江流域广府传统村落的景观特征及其形成机制研究",
+   "collections": [
+    "2MILVR4R",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "5N22UESQ",
+   "title": "永春县传统村落活化度评价与优化设计策略研究",
+   "collections": [
+    "2MILVR4R",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "QC5SEHHU",
+   "title": "基于活态化存续的滇西南传统村落更新设计研究 ——以普洱市紫马街村公共空间设计为例",
+   "collections": [
+    "2MILVR4R",
+    "DGXMK9EY"
+   ]
+  },
+  {
+   "key": "WMGG4MXL",
+   "title": "基于文化景观基因的丽江玉湖村纳西族传统村落环境更新设计",
+   "collections": [
+    "2MILVR4R",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "2YCDHRLI",
+   "title": "文化遗产保护视角下布依族传统村落声景观研究",
+   "collections": [
+    "2MILVR4R",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "XDCBHCZZ",
+   "title": "基于CiteSpace的国内传统村落民居特征研究进展",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "J3XHWU57",
+   "title": "基于CiteSpace的传统村落建筑风貌数字化保护研究知识图谱分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "WBNE3739",
+   "title": "基于CiteSpace的中国传统村落水环境知识图谱分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "LUV7LDLM",
+   "title": "中国传统村落景观研究的知识图谱分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "LZHY7PKF",
+   "title": "基于Citespace的贵州省传统村落研究可视化分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "KNA7YDUH",
+   "title": "禹州地区传统村落街巷空间风貌特征及提升研究",
+   "collections": [
+    "2MILVR4R",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "KHNSXURJ",
+   "title": "近30年来中国传统村落的研究热点、进程及展望——基于CiteSpace的可视化解析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "IRC6AKIT",
+   "title": "基于知识图谱的国内传统村落研究进展综述",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "Z3C8KDR5",
+   "title": "基于CiteSpace的中国传统村落文化景观知识图谱分析",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "B9FZFEMA",
+   "title": "四川阆中市传统村落公共空间分析与活化策略研究 ——以天宫院村为例",
+   "collections": [
+    "2MILVR4R",
+    "DGXMK9EY"
+   ]
+  },
+  {
+   "key": "DUJUISJF",
+   "title": "基于科学知识图谱的中国传统村落空间形态研究综述",
+   "collections": [
+    "2MILVR4R",
+    "88CJ3LKV"
+   ]
+  },
+  {
+   "key": "69N3YWVJ",
+   "title": "丰州镇传统建筑形态分析",
+   "collections": [
+    "964KQV2J",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "3W4QE8RJ",
+   "title": "地域建筑形态特征研究",
+   "collections": [
+    "964KQV2J",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "MVSSV45T",
+   "title": "基于量化方法的徽派和赣派传统民居形态特征比较研究——以婺源县与金溪县为例",
+   "collections": [
+    "964KQV2J",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "2EEUF48G",
+   "title": "贵州省雷山县苗族传统民居立面形态特征量化研究",
+   "collections": [
+    "964KQV2J",
+    "WQUA23WS"
+   ]
+  },
+  {
+   "key": "6Q6F4Y79",
+   "title": "新时代拉萨藏式建筑风貌设计创新路径研究——基于藏译现代建筑理念",
+   "collections": [
+    "QUNYIW59",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "VKK728B8",
+   "title": "浙江典型地区传统村落风貌研究 ——以桐庐县深澳村为例",
+   "collections": [
+    "QUNYIW59",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "GS753PYQ",
+   "title": "浙江典型地区传统村落风貌研究 ——以桐庐县深澳村为例",
+   "collections": [
+    "Y7VFSVXJ",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "LP5AKM2A",
+   "title": "浙江典型地区传统村落风貌研究 ——以桐庐县深澳村为例",
+   "collections": [
+    "Y7VFSVXJ",
+    "GNMYRLVZ"
+   ]
+  },
+  {
+   "key": "QFPWETCF",
+   "title": "Research on the Spatial Sequence of Building Facades in Huizhou Regional Traditional Villages",
+   "collections": [
+    "7ZLJFPT5",
+    "7LVSXF45",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "D7VADDFL",
+   "title": "传统聚落景观基因的“多尺度”识别与“双系统”解译——以川西羌族聚落研究为例",
+   "collections": [
+    "7ZLJFPT5",
+    "7LVSXF45",
+    "B2QSFV3T"
+   ]
+  },
+  {
+   "key": "DXCVTMUE",
+   "title": "Characterization of public space forms in traditional Chinese villages based on spatial syntax: Zhangli village as an example",
+   "collections": [
+    "7LVSXF45",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "NZ8MZ6X6",
+   "title": "Multiscale Identification and Typological Analysis of the Built Environment in Traditional Dong Settlements in Southwest Hunan, China",
+   "collections": [
+    "7LVSXF45",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "BY35BF9Y",
+   "title": "Multi-Scale Ecological Coupling Mechanisms of Environment, Pattern, and Architecture in Traditional Villages of Southern Shaanxi",
+   "collections": [
+    "7LVSXF45",
+    "S4HRT3GN"
+   ]
+  },
+  {
+   "key": "BW4WU9CG",
+   "title": "基于乡土记忆的乡村公共空间营建策略研究与实践",
+   "collections": [
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "YN88KLIP"
+   ]
+  },
+  {
+   "key": "TJY6VMRY",
+   "title": "环境适应性视野下的晋中地区传统聚落形态模式研究",
+   "collections": [
+    "GM3FQTUK",
+    "HZQEVL84",
+    "YN88KLIP"
+   ]
+  },
+  {
+   "key": "7LXAPDV9",
+   "title": "东北地区传统聚落演进中的人文、地貌、气候因素研究",
+   "collections": [
+    "HZQEVL84",
+    "YN88KLIP"
+   ]
+  },
+  {
+   "key": "PF9X5MTE",
+   "title": "以空间句法方法探寻传统村落的深层空间结构",
+   "collections": [
+    "ENBCUWKN",
+    "YN88KLIP"
+   ]
+  },
+  {
+   "key": "QAWMI8Z2",
+   "title": "广灵地区传统民居建筑空间形态解析——以宋窑村宋氏宅院为例",
+   "collections": [
+    "964KQV2J",
+    "YN88KLIP"
+   ]
+  },
+  {
+   "key": "PD3FPKZ5",
+   "title": "东北地区少数民族传统乡村聚落空间形态图谱研究",
+   "collections": [
+    "AV6BSHWI",
+    "YN88KLIP"
+   ]
+  },
+  {
+   "key": "MTHKHYEF",
+   "title": "浙江景宁传统畲族民居及其保护与更新            ——以大张坑村为中心",
+   "collections": [
+    "C87PZCFM",
+    "38RES3Y8",
+    "X6LEVVYA",
+    "3QXA8RGB",
+    "WFN44JLW"
+   ]
+  },
+  {
+   "key": "3ZLU96M4",
+   "title": "Architectural Semiotics Unveiled: Parallel Investigations into Visual Processing Mechanisms and Cognitive Discrepancies of She Ethnic Motifs",
+   "collections": [
+    "PF2232HU",
+    "DAKLZVU6",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "YJDNDHHY",
+   "title": "江苏省特色小城镇的特征及发展建议",
+   "collections": [
+    "MMSRJ9IJ",
+    "52BGL2XT",
+    "RKM7QQLV",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "SJMTHHRT",
+   "title": "文旅类特色小镇同质化问题与差异化策略研究——以四川安仁古镇和洛带古镇为例",
+   "collections": [
+    "MMSRJ9IJ",
+    "RKM7QQLV",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "94ZNJZ3V",
+   "title": "特色小城镇视角下建筑立面色彩应用策略研究——以董市镇“擦亮小城镇”项目为例",
+   "collections": [
+    "MMSRJ9IJ",
+    "RKM7QQLV",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "9SR5XZDK",
+   "title": "在地化乡村公共文化空间重构设计研究 ——以宿迁市蔡集镇牛角村为例",
+   "collections": [
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "REZX5WCU",
+   "title": "重庆当代建筑的在地性表达",
+   "collections": [
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "JJWLPEX5",
+   "title": "因地而设计——“在地化设计”刍议",
+   "collections": [
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "R25FT9QF",
+   "title": "当好一个乡村建筑师——西河粮油博物馆及村民活动中心解读",
+   "collections": [
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "EQWFCRIH",
+   "title": "论“文化空间”",
+   "collections": [
+    "P3G2MV3U",
+    "Y7VFSVXJ",
+    "PGCSYBMT",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "RYMCY25R",
+   "title": "空间与地方 经验的视角 (段义孚) (z-lib.org)",
+   "collections": [
+    "P3G2MV3U",
+    "PGCSYBMT",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "FZKMT53U",
+   "title": "文化生态视域下畲族文化传承实践探析——以福建省宁德市为例",
+   "collections": [
+    "2UDM8WX7",
+    "DAKLZVU6",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "VA5UTB9Y",
+   "title": "畲族传统建筑视角下的景宁县人民医院建筑设计研究",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "WFN44JLW"
+   ]
+  },
+  {
+   "key": "SMUB4I7F",
+   "title": "旅游语境下浙江柳城畲族镇文化变迁探析",
+   "collections": [
+    "2UDM8WX7",
+    "DAKLZVU6",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "2W4EEPYU",
+   "title": "基于微更新理论的畲族传统民居设计实践——以浙江泰顺竹里畲族自治乡竹里村民居为例",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "3QXA8RGB",
+    "WFN44JLW"
+   ]
+  },
+  {
+   "key": "EBLCUSUI",
+   "title": "建筑类型学研究",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "88DFH34N",
+   "title": "广义建筑类型学研究 ——对当代西方建筑形态的类型学思考与解析",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "3528BMIT",
+   "title": "当代西方建筑类型学的架构解析",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "92HEGM9S",
+   "title": "基于建筑类型学的传统民居自组织演化研究——以黔东南清水江流域传统民居为例",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "QUNYIW59",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "NQD9DRI3",
+   "title": "类型学视角下徽州传统民居的空间形式特征研究",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "YTSWPLNA",
+   "title": "基于建筑类型学的晋东南传统民居院落形态特征研究",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "P2KHZ7AI",
+   "title": "基于建筑类型学的侗族民居形态研究——以大茅坡营村为例",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "T3F2ERJG",
+   "title": "徽州民居的建筑类型学研究",
+   "collections": [
+    "9PDWUKXV",
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "ETTYATRB",
+   "title": "浙江景宁传统畲族民居及其保护与更新 ——以大张坑村为中心",
+   "collections": [
+    "2UDM8WX7",
+    "38RES3Y8",
+    "X6LEVVYA",
+    "3QXA8RGB",
+    "WWRSRPBQ",
+    "WFN44JLW"
+   ]
+  },
+  {
+   "key": "AAPV5P6L",
+   "title": "基于民族特性的新畲寮风格民居设计研究 ——以景宁东弄村为例",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "WFN44JLW"
+   ]
+  },
+  {
+   "key": "5WC9FHTZ",
+   "title": "浙江景宁畲族传统建筑文化研究",
+   "collections": [
+    "2UDM8WX7",
+    "DAKLZVU6",
+    "WWRSRPBQ",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "84LBLY2H",
+   "title": "浙南地区民族特色城市风貌规划研究——以浙江景宁畲族自治县为例",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "RKM7QQLV",
+    "WFN44JLW"
+   ]
+  },
+  {
+   "key": "VSES7L3M",
+   "title": "浙江景宁畲族自治县县城建筑有机更新研究",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "RKM7QQLV",
+    "WFN44JLW"
+   ]
+  },
+  {
+   "key": "PIMB8MAY",
+   "title": "国家历史文化名城研究中心历史街区调研——浙江景宁东弄畲族村",
+   "collections": [
+    "2UDM8WX7",
+    "9YP5T42N",
+    "WWRSRPBQ",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "NZ2FV5ND",
+   "title": "广义建筑类型学研究 ——对当代西方建筑形态的类型学思考与解析",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "KAS58UH6",
+   "title": "建筑类型学研究",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "ZPQBX7YP",
+   "title": "西方建筑类型学和城市形态学：整合与应用",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "RZYTMQET",
+   "title": "当代西方建筑类型学的架构解析",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "JCWXV8RP",
+   "title": "隔岸问山——一种聚集丰富差异性的建筑类型学",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "CM5PQ77G",
+   "title": "基于建筑类型学的城市滨水景观空间研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "ZFHANZYT",
+   "title": "建筑类型学的研究与实践",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "EIUP2G45",
+   "title": "对建筑类型学及其方法论的浅识",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "U2BTECHD",
+   "title": "徽州民居的建筑类型学研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "CE8NAPKU",
+   "title": "人文·场所·记忆——拉斐尔·莫内欧建筑类型学理论与实践研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "IZQZ52DB",
+   "title": "战后“建筑类型学”的演变及其模糊普遍性",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "4GP2A4CP",
+   "title": "基于建筑类型学的北京当代村庄住宅形态演变研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "YZ3K3ER4",
+   "title": "建筑类型学与地域文化的体现",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "AY3SLFT2",
+   "title": "基于建筑类型学的岭南私家园林庭院空间及其界面研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "SJILL969",
+   "title": "建筑类型学的理论与实践初探",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "2NSL8QBL",
+   "title": "基于建筑类型学的场地精神塑造研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "BFZHE6VF",
+   "title": "侗族鼓楼建筑类型学研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "Q9JI7FTT",
+   "title": "基于建筑类型学的南京中华门门西地区传统民居平面空间演变",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "72EKTVT7",
+   "title": "基于建筑类型学的晋东南传统民居院落形态特征研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "TZPX63RU",
+   "title": "基于建筑类型学的徽州廊桥空间研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "UGG7UZY7",
+   "title": "基于建筑类型学城市中的线性空间研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "SHW9QLLR",
+   "title": "基于建筑类型学的城市建筑文脉建构研究",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "GKAMTUJY",
+   "title": "设计作为研究",
+   "collections": [
+    "N7S4EHIA",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "MQ55DFHA",
+   "title": "基于建筑类型学的现代居住区户外空间研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "YKI58ZPR",
+   "title": "基于建筑类型学的苏南新农村农居设计",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "7BZHJZPU",
+   "title": "基于建筑类型学的欧式几何空间秩序研究",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "7NZJ5SIG",
+   "title": "基于建筑类型学的欧式几何空间秩序研究",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "LS239537",
+   "title": "分类学与迪朗的建筑类型学",
+   "collections": [
+    "N7S4EHIA",
+    "XGH8NJSK"
+   ]
+  },
+  {
+   "key": "E3MLYTYX",
+   "title": "基于建筑类型学下特色村镇设计研究 ——以绥江渔村设计为例",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "8HHDGTUK",
+   "title": "基于建筑类型学的侗族民居形态研究——以大茅坡营村为例",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "E2EMLMGY",
+   "title": "基于建筑类型学的北京当代村庄住宅形态演变研究",
+   "collections": [
+    "N7S4EHIA",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "SGSMN4QJ",
+   "title": "Spatial Morphological Characteristics and Evolution of Traditional Villages in the Mountainous Area of Southwest Zhejiang",
+   "collections": [
+    "ENBCUWKN",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "QF5SKGIP",
+   "title": "Cultural ecology perspective on mechanisms influencing the spatial morphology of traditional villages in Suichang County, China",
+   "collections": [
+    "ENBCUWKN",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "HK44HTAM",
+   "title": "A 3-D morphological approach on spatial form and cultural identity of ethnic mountain settlements: Case from Guizhou, China",
+   "collections": [
+    "ENBCUWKN",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "24T9ZHT6",
+   "title": "The Influence of Spatial Functions on the Public Space System of Traditional Settlements",
+   "collections": [
+    "ENBCUWKN",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "5TB7J8QH",
+   "title": "云南撒玛坝梯田村寨空间特征及其社会语义研究",
+   "collections": [
+    "ENBCUWKN",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "PIW7KR8U",
+   "title": "浙江省丽水市景宁县敕木山村 国家历史文化名城研究中心历史街区调研",
+   "collections": [
+    "L4KI25ZR",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "GVU8UQLJ",
+   "title": "基于民族特性的新畲寮风格民居设计研究 ——以景宁东弄村为例",
+   "collections": [
+    "CJ4EAJIF",
+    "WFN44JLW"
+   ]
+  },
+  {
+   "key": "J7A24EMN",
+   "title": "建筑形态转译视角下乡村公共建筑设计方法研究——以德化小湖村活动中心为例",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "F8EX6JA6",
+   "title": "青岛四方路历史文化街区里院建筑形态特征研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "EWW5YM35",
+   "title": "青岛四方路历史文化街区里院建筑形态特征研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "M6FLUJQ7",
+   "title": "当代建筑形态特征的地域性表达研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "5ZB8XGSX",
+   "title": "当代建筑形态特征的地域性表达研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "F6XQ6NM5",
+   "title": "青龙地区满族传统民居建筑形态特征研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "A6F2XM3W",
+   "title": "浙江省低丘缓坡地区的建筑形态设计研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "RXAMXX8S",
+   "title": "记忆中的民族形式——基于建筑形态学的呼和浩特市老乌兰恰特剧场的形态生成研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "4825CYD6",
+   "title": "滇藏地区传统民居形态生成与演变影响因子研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "SXS6HM2S",
+   "title": "青龙地区满族传统民居建筑形态特征研究",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "A8TH7BQV",
+   "title": "基于建筑类型学的晋东南传统民居院落形态特征研究",
+   "collections": [
+    "964KQV2J",
+    "NBF5LA7L"
+   ]
+  },
+  {
+   "key": "ZI3KJPPV",
+   "title": "大理白族传统民居建筑形态研究 ——以诺邓村为例",
+   "collections": [
+    "964KQV2J",
+    "KVGWE59T"
+   ]
+  },
+  {
+   "key": "5ADYPAF3",
+   "title": "乡村振兴背景下畲族文旅融合发展路径研究——以东源县新港镇双田村为例",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "XTFALTFH",
+   "title": "营造对立并蓄的阈限体验：峩山畲族馆的设计理念分析",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "I3VDTFJC",
+   "title": "景宁畲族自治县 凤凰飞舞的浙江秘境",
+   "collections": [
+    "2UDM8WX7",
+    "9YP5T42N",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "ZWDJJE99",
+   "title": "景宁畲族传统民居营造技艺研究",
+   "collections": [
+    "2UDM8WX7",
+    "38RES3Y8",
+    "WWRSRPBQ",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "EUX6U8YJ",
+   "title": "人与自然的完美演绎——记景宁畲族住宅建筑的特色",
+   "collections": [
+    "2UDM8WX7",
+    "38RES3Y8",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "VCIM9KVW",
+   "title": "浅谈景宁畲族景观建筑的保护和开发",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "3QXA8RGB",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "3IJX2PUQ",
+   "title": "聚落“双修”视角下景宁畲族传统村落公共文化空间重构研究",
+   "collections": [
+    "2UDM8WX7",
+    "9YP5T42N",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "83W7CJW2",
+   "title": "浙西南景宁畲族民居木构侧样研究",
+   "collections": [
+    "2UDM8WX7",
+    "38RES3Y8",
+    "WWRSRPBQ",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "6NQGHZQC",
+   "title": "景宁畲族传统村落的保护与发展研究",
+   "collections": [
+    "2UDM8WX7",
+    "9YP5T42N",
+    "X6LEVVYA",
+    "3QXA8RGB",
+    "WWRSRPBQ",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "BUUUUWRW",
+   "title": "浙江省景宁县东弄村畲族民居初探",
+   "collections": [
+    "2UDM8WX7",
+    "38RES3Y8",
+    "WWRSRPBQ",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "7KCJR9EB",
+   "title": "浙江景宁畲族传统民居卷草凤凰纹装饰研究",
+   "collections": [
+    "2UDM8WX7",
+    "DAKLZVU6",
+    "WWRSRPBQ",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "U7EKYEJZ",
+   "title": "山城空间营造探讨——以浙江省景宁畲族自治县为例",
+   "collections": [
+    "2UDM8WX7",
+    "X6LEVVYA",
+    "RKM7QQLV",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "VRWLBN8X",
+   "title": "浙江景宁畲族自治县畲族民居特色探析",
+   "collections": [
+    "2UDM8WX7",
+    "38RES3Y8",
+    "WWRSRPBQ",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "T8PH8Q5D",
+   "title": "乡村景观营建与文化传承研究 以景宁地区畲族传统村落为例",
+   "collections": [
+    "2UDM8WX7",
+    "9YP5T42N",
+    "DAKLZVU6",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "DMXMQDP5",
+   "title": "传统与现代：浙江畲族民歌新形式及变迁——基于敕木山村的实证调查研究",
+   "collections": [
+    "L4KI25ZR",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "QWR5IH33",
+   "title": "畲族传统服饰的文化功能及变迁——基于敕木山村的实证调查研究",
+   "collections": [
+    "L4KI25ZR",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "Q3QJSRAK",
+   "title": "浙西南少数民族地区乡土景观研究——以景宁县环敕木山地区传统畲族聚落景观为例",
+   "collections": [
+    "L4KI25ZR",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "44AKWLBL",
+   "title": "景宁敕木山畲民生活现状调查——基于史图博《浙江景宁敕木山畲民调查记》的比较",
+   "collections": [
+    "L4KI25ZR",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "H5BFBT9N",
+   "title": "浙西南环敕木山带畲族妇女“雄冠式”头冠解析",
+   "collections": [
+    "L4KI25ZR",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "VQRBWRBF",
+   "title": "浙江畲族80年文化变迁——《浙江景宁县敕木山畲民调查记》回访调查",
+   "collections": [
+    "L4KI25ZR",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "3GUCM2SK",
+   "title": "浙南畲族社会变迁中的文化适应——以景宁敕木山区畲族村落社区汤夫人信仰为田野案例",
+   "collections": [
+    "L4KI25ZR",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "ATDN2BQQ",
+   "title": "浙江景宁惠明寺畲族聚落边界景观解析与保护开发研究",
+   "collections": [
+    "L4KI25ZR",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "TKWQU4FQ",
+   "title": "少数民族地区传统村落文化空间的保护研究 ——以景宁畲族自治县东弄村为个案",
+   "collections": [
+    "CJ4EAJIF",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "C7DT63HR",
+   "title": "浙西南少数民族地区乡土景观研究——以景宁县环敕木山地区传统畲族聚落景观为例",
+   "collections": [
+    "L4KI25ZR",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "7XAU5RYD",
+   "title": "城镇化进程中村落发展与非遗传承方式探讨——以景宁畲族自治县畲族村落东弄村为例",
+   "collections": [
+    "CJ4EAJIF",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "VBZBMSS9",
+   "title": "基于乡土特色的景宁畬族村庄植物景观营造研究",
+   "collections": [
+    "L4KI25ZR",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "K2LPZQDI",
+   "title": "以非遗为中心的景宁东弄民族村旅游开发现状解析和策略研究",
+   "collections": [
+    "CJ4EAJIF",
+    "P3JQRKWL"
+   ]
+  },
+  {
+   "key": "PE8XDRCA",
+   "title": "浙江省景宁县东弄村畲族民居初探",
+   "collections": [
+    "CJ4EAJIF",
+    "FPX2L7KL"
+   ]
+  },
+  {
+   "key": "CCYQWSZP",
+   "title": "景宁地区大漈畲乡古建田野调查",
+   "collections": [
+    "9YP5T42N",
+    "G2XVVNAJ"
+   ]
+  },
+  {
+   "key": "FIRQYKQF",
+   "title": "检索-中国知网",
+   "collections": [
+    "N7S4EHIA"
+   ]
+  },
+  {
+   "key": "HUNY7SB8",
+   "title": "Zotero 中文社区",
+   "collections": []
+  }
+ ]
+}

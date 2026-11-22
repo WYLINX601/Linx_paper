@@ -3,8 +3,9 @@ from pathlib import Path
 import argparse, json, posixpath, subprocess
 from urllib.parse import quote
 import yaml
+import research_questions as thesis
 
-ROOT = Path('/Users/wangyuelin/Desktop/Obsidian/Paper')
+ROOT = Path(__file__).resolve().parents[2]
 BRIDGE = '/Users/wangyuelin/.hermes/profiles/academic/bin/mac-paper'
 T_GLOB = '主题研究/*/*.md'
 Q_GLOB = '主题研究/*/问题/*.md'
@@ -20,6 +21,7 @@ REL = {'supports', 'qualifies', 'contradicts', 'refines', 'supersedes', 'depends
 
 
 def read(path):
+    if Path(path).name.startswith('._'):return ''
     r = subprocess.run([BRIDGE, '--timeout', '30', 'read', path], capture_output=True, text=True, check=True)
     d = json.loads(r.stdout)
     if not d.get('ok'):
@@ -65,6 +67,8 @@ def note(uid, title, body):
 def discover(read_fn):
     topics = {}
     for p in sorted(ROOT.glob(T_GLOB)):
+        if p.name.startswith('._'):
+            continue
         rel = str(p.relative_to(ROOT))
         s = read_fn(rel)
         if not s.startswith('---\n'):
@@ -78,6 +82,8 @@ def discover(read_fn):
 
     questions = {}
     for p in sorted(ROOT.glob(Q_GLOB)):
+        if p.name.startswith('._'):
+            continue
         rel = str(p.relative_to(ROOT))
         m = meta(read_fn(rel))
         assert m.get('type') == 'research-question', rel
@@ -85,6 +91,8 @@ def discover(read_fn):
 
     claims = {}
     for p in sorted(ROOT.glob(C_GLOB)):
+        if p.name.startswith('._'):
+            continue
         rel = str(p.relative_to(ROOT))
         m = meta(read_fn(rel))
         assert m.get('type') == 'research-claim', rel
@@ -238,14 +246,32 @@ def generate(read_fn):
     out[GRAPH] = json.dumps({'generated_from': '项目管理/健康检查/research_claims.py', 'nodes': nodes, 'edges': edges},
                             ensure_ascii=False, indent=2) + '\n'
 
+    route = json.loads(read_fn(thesis.ROUTE))
+    current_questions = thesis.validate(route)
+    if current_questions:
+        existing = ('**本页保留既有主题内部的局部问题与论点，尚未接入本轮研究问题。** '
+                    '旧关系不自动成为新问题的支撑，也不因本轮方向修订自动作废。当前问题见[[' + thesis.QUESTIONS + ']]。\n\n')
+        out[thesis.EXISTING_INDEX] = note('existing-topic-argument-index', '既有主题论证索引',
+                                         existing + index_body(topics, by_path, questions, claims))
+        out[thesis.EXISTING_GRAPH] = json.dumps(
+            {'generated_from': '项目管理/健康检查/research_claims.py',
+             'scope': 'existing-topic-local-relations', 'alignment_to_current_questions': 'pending-discussion',
+             'nodes': nodes, 'edges': edges}, ensure_ascii=False, indent=2) + '\n'
+        out.update(thesis.generate(route))
+
     p = TOPIC_INDEX; s = read_fn(p)
     tq = len(questions); tc = len(claims)
     b = '## 子问题与论点\n\n> 本节为派生入口；研究判断在各主题页维护。\n\n'
-    b += f"当前共 {tq} 个子问题、{tc} 个论点。" + link(p, INDEX, '查看研究论证索引') + ' · ' + link(p, '项目管理/子问题与论点维护规则.md', '维护规则') + '。\n'
+    target = thesis.EXISTING_INDEX if current_questions else INDEX
+    b += f"当前共 {tq} 个子问题、{tc} 个论点。" + link(p, target, '查看既有主题局部关系' if current_questions else '查看研究论证索引') + ' · ' + link(p, '项目管理/子问题与论点维护规则.md', '维护规则') + '。\n'
+    if current_questions:
+        b += '\n这些既有内容尚未与' + link(p, thesis.QUESTIONS, '当前上层研究问题') + '建立对应，不自动沿用为新问题的支撑。\n'
     out[p] = block(s, 'research-claim-index', b)
 
     open_qs = sum(1 for q in questions.values() if not any(q['meta']['wiki_id'] in (c['meta'].get('claim_questions') or []) for c in claims.values()))
     stats = {'topics': len(topics), 'questions': len(questions), 'claims': len(claims), 'edges': len(edges), 'open_questions': open_qs}
+    if current_questions:
+        stats.update(current_research_questions=len(current_questions), current_edges=0, current_lower_links=0)
     return out, stats
 
 

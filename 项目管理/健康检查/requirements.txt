@@ -1,0 +1,5 @@
+# Paper maintenance environment
+# Install into the academic runtime venv:
+#   python -m pip install -r 项目管理/健康检查/requirements.txt
+PyYAML>=6.0
+ruamel.yaml>=0.18

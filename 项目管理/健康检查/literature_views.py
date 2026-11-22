@@ -2,7 +2,7 @@
 from pathlib import Path
 import argparse,json,posixpath,re,subprocess,yaml
 from urllib.parse import quote
-ROOT=Path('/Users/wangyuelin/Desktop/Obsidian/Paper')
+ROOT=Path(__file__).resolve().parents[2]
 BRIDGE=Path('/Users/wangyuelin/.hermes/profiles/academic/bin/mac-paper')
 LINK_SOURCE='README.md'
 SPECIAL={'README.md','畲族文献阅读索引.md','景宁畲族传统民居建筑风貌研究综述.md','核心文献网络补充与综述修订记录.md','文献提炼模板.md','文献总索引.md','文献库维护规则.md'}
@@ -10,6 +10,7 @@ KIND={'paper-reading':'单篇阅读','literature-reading-evidence':'单篇阅读
 ENTRY_OVERRIDES={'倾斜摄影模型利用':'证据与阅读记录.md'}
 
 def read(path):
+    if Path(path).name.startswith('._'):return ''
     r=subprocess.run([str(BRIDGE),'read',path],capture_output=True,text=True,check=True)
     d=json.loads(r.stdout)
     if not d.get('ok'):raise RuntimeError(d)
@@ -57,8 +58,10 @@ def block(text,name,body):
 def collect(read_fn):
     items=[]
     for p in sorted((ROOT/'文献库').glob('*.md')):
-        if p.name in SPECIAL:continue
-        rel=p.relative_to(ROOT).as_posix();text=read_fn(rel);fm=meta(text)
+        if p.name in SPECIAL or p.name.startswith('._'):continue
+        rel=p.relative_to(ROOT).as_posix();text=read_fn(rel)
+        if not text.startswith('---\n'):continue
+        fm=meta(text)
         reading=fm.get('reading_status') or fm.get('read_status') or ''
         if not reading:
             st=str(fm.get('status') or '')
@@ -81,10 +84,10 @@ def topic_rows():
     rows=[]
     for d in sorted((ROOT/'文献库/专题精读').iterdir()):
         if not d.is_dir() or d.name.startswith('.'):continue
-        files=[p for p in d.rglob('*.md') if not p.name.endswith('.smm.md')]+list(d.rglob('*.smm.md'))
+        files=[p for p in d.rglob('*.md') if not p.name.startswith('._') and not p.name.endswith('.smm.md')]+[p for p in d.rglob('*.smm.md') if not p.name.startswith('._')]
         entry=(d/ENTRY_OVERRIDES[d.name]) if d.name in ENTRY_OVERRIDES else (d/'README.md')
         if not entry.is_file():
-            cand=sorted(d.glob('*.smm.md'))
+            cand=sorted(p for p in d.glob('*.smm.md') if not p.name.startswith('._'))
             entry=cand[0] if cand else d
         rows.append((d,entry,len(files)))
     return rows
@@ -93,7 +96,7 @@ def map_rows():
     rows=[]
     for d in sorted((ROOT/'文献库/文献导图').iterdir()):
         if not d.is_dir():continue
-        maps=list(d.glob('*.smm.md'));entry=d/'README.md'
+        maps=[p for p in d.glob('*.smm.md') if not p.name.startswith('._')];entry=d/'README.md'
         if not entry.is_file():entry=(d/'00-阅读总览.smm.md') if (d/'00-阅读总览.smm.md').is_file() else d
         rows.append((d,entry,len(maps)))
     return rows
@@ -136,6 +139,7 @@ def generate(read_fn):
     p='文献库/核读记录/README.md';base=p;LINK_SOURCE=base
     b='---\nwiki_id: literature-review-records\ntype: literature-index\nstatus: generated\nsummary: 独立复核与读回记录入口\nupdated: 2026-11-04\n---\n\n# 核读记录\n\n本目录保存独立复核、读回与验收记录，不是论文正文或新的研究结论。\n\n'
     for q in sorted((ROOT/'文献库/核读记录').glob('*.md')):
+        if q.name.startswith('._'):continue
         if q.name!='README.md':b+=f"- {link(q.relative_to(ROOT).as_posix(),q.stem)}\n"
     b+='\n复核通过只表示该次检查的对象与范围，不自动提升原论文或原成果的实证状态。\n'
     out[p]=b
@@ -143,6 +147,7 @@ def generate(read_fn):
     p='文献库/文献获取/README.md';base=p;LINK_SOURCE=base
     b='---\nwiki_id: literature-acquisition-records\ntype: literature-index\nstatus: generated\nsummary: 文献下载与获取状态记录入口\nupdated: 2026-11-04\n---\n\n# 文献获取记录\n\n本目录保存下载清单、受阻截图与访问路径，不替代 Zotero 中的原始 PDF，也不表示全文已读。\n\n'
     for q in sorted((ROOT/'文献库/文献获取').glob('*.md')):
+        if q.name.startswith('._'):continue
         if q.name!='README.md':b+=f"- {link(q.relative_to(ROOT).as_posix(),q.stem)}\n"
     b+='\n原始 PDF 仍以 Zotero 为准；获取成功不等于阅读或证据核验完成。\n'
     out[p]=b

@@ -2,13 +2,14 @@
 from pathlib import Path
 import argparse,json,posixpath,subprocess,yaml
 from urllib.parse import quote
-ROOT=Path('/Users/wangyuelin/Desktop/Obsidian/Paper')
+ROOT=Path(__file__).resolve().parents[2]
 BRIDGE=Path('/Users/wangyuelin/.hermes/profiles/academic/bin/mac-paper')
 LINK_SOURCE='论文章节/维护/章节迁移映射.md'
 ACTIONS={'rewrite':'改写','split':'拆分','merge':'合并','move':'移入','keep':'保留','new':'新写','retire':'停用'}
 SHORT={'第一章 绪论':'第一章','第二章 景宁畲族传统民居研究对象与多尺度资料基础':'第二章','第三章 传统民居多尺度风貌特征提取与知识图谱组织体系设计':'第三章','第四章 景宁畲族典型村落风貌特征提取与知识图谱构建':'第四章','第五章 基于知识图谱的景宁畲族传统民居建筑风貌综合认知':'第五章','第六章 结论与展望':'第六章'}
 
 def read(path):
+    if Path(path).name.startswith('._'):return ''
     r=subprocess.run([str(BRIDGE),'read',path],capture_output=True,text=True,check=True)
     d=json.loads(r.stdout)
     if not d.get('ok'):raise RuntimeError(d)
@@ -25,6 +26,14 @@ def generate(read_fn):
     global LINK_SOURCE
     outline=yaml.safe_load(read_fn('论文章节/大纲结构.yaml'))
     m=yaml.safe_load(read_fn('论文章节/维护/章节迁移映射.yaml'))
+    if m.get('status') != 'working-mapping-not-final':
+        p='论文章节/维护/章节迁移映射.md'
+        b=('---\nwiki_id: chapter-migration-map\ntype: derived-index\nstatus: historical\nsummary: V0.6到2026-11-05大纲的迁移映射（历史）\n---\n\n'
+           '# 章节迁移映射\n\n> **本页为历史记录，不是现行施工图。** '+str(m.get('status_note') or '')+'\n\n'
+           '现行六章结构与1.1—1.5正文见[[论文章节/现行大纲.md]]；V3.3的正文对齐与迁移映射尚未重做。旧映射仍完整保存在`章节迁移映射.yaml`与[[archive/2026-11-17-Notion-V3.3落库/README.md|V3.3落库前快照]]，仅作追溯，不用于指导当前章节改写。\n\n'
+           '- 本页不再生成逐节对照表，避免旧章号与新结构混排。\n'
+           '- 章节职责和稳定ID以[[论文章节/大纲结构.yaml|大纲结构]]为准。\n')
+        return {p:b},{'historical':True,'out_of_sync':[]}
     chapters={c['id']:c for c in outline['chapters'] if c.get('included')}
     current={}
     section_ids=set()

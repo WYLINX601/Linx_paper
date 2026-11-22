@@ -1,0 +1,121 @@
+{
+  "schema_version": "1.0",
+  "summary": {
+    "status": "fail",
+    "passes": 12,
+    "warnings": 0,
+    "errors": 1
+  },
+  "metrics": {
+    "locator_mode": "page-grounded",
+    "sections_found": [
+      "01",
+      "02",
+      "03",
+      "04",
+      "05",
+      "06",
+      "07",
+      "08",
+      "09",
+      "10",
+      "11",
+      "12",
+      "13",
+      "14",
+      "15",
+      "16"
+    ],
+    "paper_pointer_count": 14,
+    "figures_in_bundle": 9,
+    "tables_in_bundle": 0,
+    "equations_in_bundle": 0
+  },
+  "findings": [
+    {
+      "level": "pass",
+      "code": "sections",
+      "message": "Sections 01-16 are present in order."
+    },
+    {
+      "level": "pass",
+      "code": "forbidden_sections",
+      "message": "No Sections 17 or 18 found."
+    },
+    {
+      "level": "pass",
+      "code": "status_header",
+      "message": "The evidence-status header has at least seven fields."
+    },
+    {
+      "level": "pass",
+      "code": "locator_mode_declaration",
+      "message": "The card declares locator mode: page-grounded."
+    },
+    {
+      "level": "pass",
+      "code": "paper_pointers",
+      "message": "Found 14 paper source pointers."
+    },
+    {
+      "level": "pass",
+      "code": "page_pointer_range",
+      "message": "Every PDF page pointer refers to available source pages.",
+      "details": {
+        "pointers": []
+      }
+    },
+    {
+      "level": "pass",
+      "code": "page_grounding",
+      "message": "PDF page pointers are explicit and unambiguous."
+    },
+    {
+      "level": "error",
+      "code": "figures_coverage",
+      "message": "Not every main figure from the source bundle appears in the card.",
+      "details": {
+        "missing": [
+          "Figure 1",
+          "Figure 2",
+          "Figure 3",
+          "Figure 4",
+          "Figure 5",
+          "Figure 6",
+          "Figure 7",
+          "Figure 8"
+        ]
+      }
+    },
+    {
+      "level": "pass",
+      "code": "tables_coverage",
+      "message": "All 0 inventoried tables appear in the card."
+    },
+    {
+      "level": "pass",
+      "code": "equations_coverage",
+      "message": "All 0 inventoried equations appear in the card."
+    },
+    {
+      "level": "pass",
+      "code": "limitations_split",
+      "message": "Sections 12 and 13 are both present."
+    },
+    {
+      "level": "pass",
+      "code": "ideas_deferred",
+      "message": "Research ideas were not requested; no candidate was required."
+    },
+    {
+      "level": "pass",
+      "code": "out_of_scope",
+      "message": "No excluded content detected."
+    }
+  ],
+  "input_hashes": {
+    "card_sha256": "0993be2cc0909cd03205c090f7d284e9c1788130a979f89db8024e145700ff03",
+    "bundle_sha256": "e5ccab0546e40b194f2a3d4bf1a0277f690c7df04fe67b23a9f575639ffae943"
+  },
+  "verification_scope": "structure_and_detected_locator_checks_not_claim_entailment_or_reading_attestation"
+}

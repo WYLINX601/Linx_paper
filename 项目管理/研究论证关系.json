@@ -1,487 +1,80 @@
 {
-  "generated_from": "项目管理/健康检查/research_claims.py",
+  "generated_from": "研究成果/〔研究路线〕论文研究路径/研究路径结构.json#research_questions",
+  "scope": "current-thesis-questions",
+  "logic_status": "pending-discussion",
+  "association_status": "deferred",
+  "source_document": "论文章节/全文工作稿/景宁畲族传统民居建筑形态知识组织与应用研究v0.1.md",
+  "source_locator": "1.5.1 研究问题（Notion 1.5正文初稿 V0.1，2026-11-17）",
+  "existing_graph": "项目管理/既有主题论证关系.json",
   "nodes": [
     {
-      "id": "topic-semantics",
-      "kind": "topic",
-      "title": "多尺度语义模型与建模依据",
-      "status": "active",
-      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md"
+      "id": "rq-form-knowledge-scope",
+      "kind": "research-question",
+      "level": "thesis",
+      "display_id": "RQ1",
+      "title": "建筑形态知识的内容边界与分类粒度如何界定？",
+      "status": "open",
+      "path": "论文章节/研究问题.md#rq1",
+      "logic_role": null,
+      "associations": {
+        "topics": [],
+        "subquestions": [],
+        "claims": [],
+        "chapters": [],
+        "artifacts": []
+      }
     },
     {
-      "id": "topic-features",
-      "kind": "topic",
-      "title": "风貌特征筛选与数据记录",
-      "status": "active",
-      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md"
+      "id": "rq-domain-ontology-kg",
+      "kind": "research-question",
+      "level": "thesis",
+      "display_id": "RQ2",
+      "title": "如何复用与扩展既有本体构建建筑形态知识图谱？",
+      "status": "open",
+      "path": "论文章节/研究问题.md#rq2",
+      "logic_role": null,
+      "associations": {
+        "topics": [],
+        "subquestions": [],
+        "claims": [],
+        "chapters": [],
+        "artifacts": []
+      }
     },
     {
-      "id": "topic-graph-validity",
-      "kind": "topic",
-      "title": "图谱试建、查询与有效性",
-      "status": "active",
-      "path": "主题研究/〔检验与评价〕图谱试建、查询与有效性/〔检验与评价〕图谱试建、查询与有效性.md"
+      "id": "rq-form-knowledge-discovery",
+      "kind": "research-question",
+      "level": "thesis",
+      "display_id": "RQ3",
+      "title": "知识图谱能支持哪些形态发现与有限推理？",
+      "status": "open",
+      "path": "论文章节/研究问题.md#rq3",
+      "logic_role": null,
+      "associations": {
+        "topics": [],
+        "subquestions": [],
+        "claims": [],
+        "chapters": [],
+        "artifacts": []
+      }
     },
     {
-      "id": "topic-review",
-      "kind": "topic",
-      "title": "畲族民居研究与理论依据",
-      "status": "active",
-      "path": "主题研究/〔理论与文献依据〕畲族民居研究与理论依据/〔理论与文献依据〕畲族民居研究与理论依据.md"
-    },
-    {
-      "id": "topic-geometry",
-      "kind": "topic",
-      "title": "三维资料质量与空间区域关联",
-      "status": "active",
-      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/〔研究方法〕三维资料质量与空间区域关联.md"
-    },
-    {
-      "id": "topic-types",
-      "kind": "topic",
-      "title": "类型识别与比较",
-      "status": "active",
-      "path": "主题研究/〔研究方法〕类型识别与比较/〔研究方法〕类型识别与比较.md"
-    },
-    {
-      "id": "topic-scope",
-      "kind": "topic",
-      "title": "研究对象与样本边界",
-      "status": "active",
-      "path": "主题研究/〔研究界定〕研究对象与样本边界/〔研究界定〕研究对象与样本边界.md"
-    },
-    {
-      "id": "q-model-bot",
-      "kind": "question",
-      "title": "哪些定义沿用BOT",
-      "status": "active",
-      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/问题/Q-01-BOT沿用与扩展.md"
-    },
-    {
-      "id": "q-model-analysis",
-      "kind": "question",
-      "title": "模型怎样与建筑分析衔接",
-      "status": "active",
-      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/问题/Q-02-模型与建筑分析的衔接.md"
-    },
-    {
-      "id": "q-feature-selection",
-      "kind": "question",
-      "title": "哪些建筑内容值得记录",
-      "status": "active",
-      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/问题/Q-01-什么内容值得记录.md"
-    },
-    {
-      "id": "q-feature-fields",
-      "kind": "question",
-      "title": "阅读框架怎样转化为可试采字段",
-      "status": "active",
-      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/问题/Q-02-阅读框架到可试采字段.md"
-    },
-    {
-      "id": "q-feature-street",
-      "kind": "question",
-      "title": "聚落、街巷与民居接入关系",
-      "status": "active",
-      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/问题/Q-03-山地街巷与民居接入.md"
-    },
-    {
-      "id": "q-graph-synthetic-scope",
-      "kind": "question",
-      "title": "合成试建能检验什么",
-      "status": "active",
-      "path": "主题研究/〔检验与评价〕图谱试建、查询与有效性/问题/Q-01-合成试建能检验什么.md"
-    },
-    {
-      "id": "q-graph-validity",
-      "kind": "question",
-      "title": "查询比较的有效性判据",
-      "status": "active",
-      "path": "主题研究/〔检验与评价〕图谱试建、查询与有效性/问题/Q-02-查询比较的有效性判据.md"
-    },
-    {
-      "id": "q-lit-coverage",
-      "kind": "question",
-      "title": "已有研究覆盖了什么",
-      "status": "active",
-      "path": "主题研究/〔理论与文献依据〕畲族民居研究与理论依据/问题/Q-01-已有研究的证据覆盖.md"
-    },
-    {
-      "id": "q-lit-gaps",
-      "kind": "question",
-      "title": "哪些认识可支持本研究",
-      "status": "active",
-      "path": "主题研究/〔理论与文献依据〕畲族民居研究与理论依据/问题/Q-02-可支持认识与待补证据.md"
-    },
-    {
-      "id": "q-3d-correspondence",
-      "kind": "question",
-      "title": "对象怎样对应到三维区域",
-      "status": "active",
-      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/问题/Q-01-对象到三维区域的对应.md"
-    },
-    {
-      "id": "q-3d-quality",
-      "kind": "question",
-      "title": "资料达到什么条件才足以关联",
-      "status": "active",
-      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/问题/Q-02-资料质量与关联条件.md"
-    },
-    {
-      "id": "q-typology-unit",
-      "kind": "question",
-      "title": "类型比较应以什么为分析单元",
-      "status": "active",
-      "path": "主题研究/〔研究方法〕类型识别与比较/问题/Q-01-类型比较的分析单元.md"
-    },
-    {
-      "id": "q-typology-expression",
-      "kind": "question",
-      "title": "建筑分类结果怎样进入论文与图谱表达",
-      "status": "active",
-      "path": "主题研究/〔研究方法〕类型识别与比较/问题/Q-02-建筑分类与图谱表达的衔接.md"
-    },
-    {
-      "id": "q-scope-object",
-      "kind": "question",
-      "title": "什么对象属于本研究",
-      "status": "active",
-      "path": "主题研究/〔研究界定〕研究对象与样本边界/问题/Q-01-核心对象与关联对象.md"
-    },
-    {
-      "id": "q-scope-scales",
-      "kind": "question",
-      "title": "三个尺度如何服务同一民居问题",
-      "status": "active",
-      "path": "主题研究/〔研究界定〕研究对象与样本边界/问题/Q-02-三个尺度的职责.md"
-    },
-    {
-      "id": "c-model-dual-source",
-      "kind": "claim",
-      "title": "BOT原定义与本研究规则分源维护",
-      "status": "working",
-      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/论点/C-01-BOT原定义与本研究规则分源维护.md"
-    },
-    {
-      "id": "c-model-platform",
-      "kind": "claim",
-      "title": "平台实现不等于模型或推理",
-      "status": "working",
-      "path": "主题研究/〔体系设计〕多尺度语义模型与建模依据/论点/C-02-平台实现不等于模型或推理.md"
-    },
-    {
-      "id": "c-feature-recording",
-      "kind": "claim",
-      "title": "核心特征系统记录与选择性采集",
-      "status": "working",
-      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/论点/C-01-核心特征系统记录与选择性采集.md"
-    },
-    {
-      "id": "c-feature-candidate-fields",
-      "kind": "claim",
-      "title": "候选框架不是正式字段",
-      "status": "working",
-      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/论点/C-02-候选框架不是正式字段.md"
-    },
-    {
-      "id": "c-feature-street",
-      "kind": "claim",
-      "title": "山地街巷尚不能合并为已验证模型",
-      "status": "candidate",
-      "path": "主题研究/〔体系设计〕风貌特征筛选与数据记录/论点/C-03-山地街巷尚不能合并为已验证模型.md"
-    },
-    {
-      "id": "c-graph-synthetic-limit",
-      "kind": "claim",
-      "title": "合成查询只证明限定表达可执行",
-      "status": "working",
-      "path": "主题研究/〔检验与评价〕图谱试建、查询与有效性/论点/C-01-合成查询只证明限定表达可执行.md"
-    },
-    {
-      "id": "c-graph-validity-evidence",
-      "kind": "claim",
-      "title": "有效性判断需真实案例证据",
-      "status": "working",
-      "path": "主题研究/〔检验与评价〕图谱试建、查询与有效性/论点/C-02-有效性判断需真实案例证据.md"
-    },
-    {
-      "id": "c-lit-coverage",
-      "kind": "claim",
-      "title": "已有文献覆盖多层主题",
-      "status": "working",
-      "path": "主题研究/〔理论与文献依据〕畲族民居研究与理论依据/论点/C-01-已有文献覆盖多层主题.md"
-    },
-    {
-      "id": "c-lit-gap-evidence",
-      "kind": "claim",
-      "title": "研究缺口须逐项证据支持",
-      "status": "working",
-      "path": "主题研究/〔理论与文献依据〕畲族民居研究与理论依据/论点/C-02-研究缺口须逐项证据支持.md"
-    },
-    {
-      "id": "c-3d-acceptance-levels",
-      "kind": "claim",
-      "title": "三种验收层次不能互相替代",
-      "status": "working",
-      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/论点/C-01-三种验收层次不能互相替代.md"
-    },
-    {
-      "id": "c-3d-preconditions",
-      "kind": "claim",
-      "title": "关联前先确认资料与对象身份",
-      "status": "working",
-      "path": "主题研究/〔研究方法〕三维资料质量与空间区域关联/论点/C-02-关联前先确认资料与对象身份.md"
-    },
-    {
-      "id": "c-typology-levels",
-      "kind": "claim",
-      "title": "类型比较须先区分分类层次",
-      "status": "candidate",
-      "path": "主题研究/〔研究方法〕类型识别与比较/论点/C-01-类型比较须区分分类层次.md"
-    },
-    {
-      "id": "c-typology-expression-chain",
-      "kind": "claim",
-      "title": "建筑认识与表达载体应逐层对应",
-      "status": "working",
-      "path": "主题研究/〔研究方法〕类型识别与比较/论点/C-02-建筑认识与表达载体逐层对应.md"
-    },
-    {
-      "id": "c-typology-name-equivalence",
-      "kind": "claim",
-      "title": "跨文献类型名称不按字面等同",
-      "status": "working",
-      "path": "主题研究/〔研究方法〕类型识别与比较/论点/C-03-跨文献类型名称不按字面等同.md"
-    },
-    {
-      "id": "c-scope-dwelling-focus",
-      "kind": "claim",
-      "title": "研究对象收束为传统民居及其聚居风貌",
-      "status": "working",
-      "path": "主题研究/〔研究界定〕研究对象与样本边界/论点/C-01-研究对象收束为传统民居及其聚居风貌.md"
-    },
-    {
-      "id": "c-scope-first-villages",
-      "kind": "claim",
-      "title": "首批两村是案例不是代表性样本",
-      "status": "working",
-      "path": "主题研究/〔研究界定〕研究对象与样本边界/论点/C-02-首批两村是案例不是代表性样本.md"
+      "id": "rq-application-validation",
+      "kind": "research-question",
+      "level": "thesis",
+      "display_id": "RQ4",
+      "title": "知识图谱在保护更新任务中能提供何种可验证增益？",
+      "status": "open",
+      "path": "论文章节/研究问题.md#rq4",
+      "logic_role": null,
+      "associations": {
+        "topics": [],
+        "subquestions": [],
+        "claims": [],
+        "chapters": [],
+        "artifacts": []
+      }
     }
   ],
-  "edges": [
-    {
-      "from": "topic-semantics",
-      "to": "q-model-bot",
-      "type": "contains"
-    },
-    {
-      "from": "topic-semantics",
-      "to": "q-model-analysis",
-      "type": "contains"
-    },
-    {
-      "from": "topic-features",
-      "to": "q-feature-selection",
-      "type": "contains"
-    },
-    {
-      "from": "topic-features",
-      "to": "q-feature-fields",
-      "type": "contains"
-    },
-    {
-      "from": "topic-features",
-      "to": "q-feature-street",
-      "type": "contains"
-    },
-    {
-      "from": "topic-graph-validity",
-      "to": "q-graph-synthetic-scope",
-      "type": "contains"
-    },
-    {
-      "from": "topic-graph-validity",
-      "to": "q-graph-validity",
-      "type": "contains"
-    },
-    {
-      "from": "topic-review",
-      "to": "q-lit-coverage",
-      "type": "contains"
-    },
-    {
-      "from": "topic-review",
-      "to": "q-lit-gaps",
-      "type": "contains"
-    },
-    {
-      "from": "topic-geometry",
-      "to": "q-3d-correspondence",
-      "type": "contains"
-    },
-    {
-      "from": "topic-geometry",
-      "to": "q-3d-quality",
-      "type": "contains"
-    },
-    {
-      "from": "topic-types",
-      "to": "q-typology-unit",
-      "type": "contains"
-    },
-    {
-      "from": "topic-types",
-      "to": "q-typology-expression",
-      "type": "contains"
-    },
-    {
-      "from": "topic-scope",
-      "to": "q-scope-object",
-      "type": "contains"
-    },
-    {
-      "from": "topic-scope",
-      "to": "q-scope-scales",
-      "type": "contains"
-    },
-    {
-      "from": "c-model-dual-source",
-      "to": "q-model-bot",
-      "type": "answers"
-    },
-    {
-      "from": "c-model-platform",
-      "to": "q-model-analysis",
-      "type": "answers"
-    },
-    {
-      "from": "c-model-platform",
-      "to": "c-model-dual-source",
-      "type": "depends_on",
-      "note": "平台定位以区分原定义、研究规则与实现约定为前提"
-    },
-    {
-      "from": "c-feature-recording",
-      "to": "q-feature-selection",
-      "type": "answers"
-    },
-    {
-      "from": "c-feature-candidate-fields",
-      "to": "q-feature-fields",
-      "type": "answers"
-    },
-    {
-      "from": "c-feature-candidate-fields",
-      "to": "c-feature-recording",
-      "type": "depends_on",
-      "note": "字段化以记录范围和采集层次为前提"
-    },
-    {
-      "from": "c-feature-street",
-      "to": "q-feature-street",
-      "type": "answers"
-    },
-    {
-      "from": "c-feature-street",
-      "to": "c-feature-recording",
-      "type": "depends_on",
-      "note": "街巷记录沿用核心特征与选择性采集的工作方向"
-    },
-    {
-      "from": "c-graph-synthetic-limit",
-      "to": "q-graph-synthetic-scope",
-      "type": "answers"
-    },
-    {
-      "from": "c-graph-validity-evidence",
-      "to": "q-graph-validity",
-      "type": "answers"
-    },
-    {
-      "from": "c-graph-validity-evidence",
-      "to": "c-graph-synthetic-limit",
-      "type": "depends_on",
-      "note": "先区分合成证据与真实证据，才能讨论有效性"
-    },
-    {
-      "from": "c-lit-coverage",
-      "to": "q-lit-coverage",
-      "type": "answers"
-    },
-    {
-      "from": "c-lit-gap-evidence",
-      "to": "q-lit-gaps",
-      "type": "answers"
-    },
-    {
-      "from": "c-lit-gap-evidence",
-      "to": "c-lit-coverage",
-      "type": "depends_on",
-      "note": "缺口判断以已有研究的实际覆盖为前提"
-    },
-    {
-      "from": "c-3d-acceptance-levels",
-      "to": "q-3d-quality",
-      "type": "answers"
-    },
-    {
-      "from": "c-3d-preconditions",
-      "to": "q-3d-correspondence",
-      "type": "answers"
-    },
-    {
-      "from": "c-3d-preconditions",
-      "to": "c-3d-acceptance-levels",
-      "type": "depends_on",
-      "note": "前置核查以三层验收区分为基础"
-    },
-    {
-      "from": "c-typology-levels",
-      "to": "q-typology-unit",
-      "type": "answers"
-    },
-    {
-      "from": "c-typology-expression-chain",
-      "to": "q-typology-expression",
-      "type": "answers"
-    },
-    {
-      "from": "c-typology-expression-chain",
-      "to": "c-typology-levels",
-      "type": "depends_on",
-      "note": "表达对应以分析单元和分类层次的明确为前提"
-    },
-    {
-      "from": "c-typology-name-equivalence",
-      "to": "q-typology-unit",
-      "type": "answers"
-    },
-    {
-      "from": "c-typology-name-equivalence",
-      "to": "c-typology-levels",
-      "type": "qualifies",
-      "note": "为分类层次比较增加名称可比性前提：同名未必同层，异名也未必异类"
-    },
-    {
-      "from": "c-scope-dwelling-focus",
-      "to": "q-scope-object",
-      "type": "answers"
-    },
-    {
-      "from": "c-scope-dwelling-focus",
-      "to": "q-scope-scales",
-      "type": "answers"
-    },
-    {
-      "from": "c-scope-first-villages",
-      "to": "q-scope-object",
-      "type": "answers"
-    },
-    {
-      "from": "c-scope-first-villages",
-      "to": "c-scope-dwelling-focus",
-      "type": "depends_on",
-      "note": "样本讨论以对象与尺度界定为前提"
-    }
-  ]
+  "edges": []
 }

@@ -1,0 +1,26 @@
+[
+  {
+    "path": "文献库/Rasmussen等-2021-BOT建筑拓扑本体.md",
+    "sha256": "f617a56ad0599b35d950d3efc2c3eff57128dfb24b0d235acd52dcb52530b8f8",
+    "pdf": "/Users/wangyuelin/Zotero/storage/6XP3U4GG/Rasmussen et al - 2021 - BOT Building Topology Ontology.pdf",
+    "pdf_sha256": "b858353daf53c95102e45609d638f5e90039cabaa2bee7520f2b929d649b634d",
+    "audit": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/reviews-r2-r5-20261116/JVMYPXT2-card-audit.json",
+    "read_scope": "身份据英文原版：Semantic Web 12 (2021), 143–161，DOI 10.3233/SW-200385。本轮定向核读PDF2、7—10、15—18；视觉核看PDF8图2。先前JVMYPXT2/NTIMIAZZ是翻译附件，不据其文件名定年份；本次依据既有PNZ3865Z/6XP3U4GG英文原版。两条目对应同篇报告，不计两篇。"
+  },
+  {
+    "path": "文献库/Messaoudi等-2018-遗产保护状态三维语义标注.md",
+    "sha256": "0993be2cc0909cd03205c090f7d284e9c1788130a979f89db8024e145700ff03",
+    "pdf": "/Users/wangyuelin/Zotero/storage/8PNBEWRX/Messaoudi 等 - 2018 - An ontological model for the reality-based 3D annotation of heritage building conservation state.pdf",
+    "pdf_sha256": "30eac0b543d399d0f13793631865d3164691fc00a308bbb6dd6013db79ee62a6",
+    "audit": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/reviews-r2-r5-20261116/82R3E7R4-card-audit.json",
+    "read_scope": "题录为Messaoudi、Véron、Halin、De Luca，2018，Journal of Cultural Heritage 29:100–112，DOI 10.1016/j.culher.2017.05.017。附件为带前置页的作者稿，本文所记PDF页序不是期刊页码。本轮核读PDF1—2、8—18；视觉核看PDF17图9及计划文字。"
+  },
+  {
+    "path": "文献库/王垚-年份待核-木构架健康评估与修缮知识图谱.md",
+    "sha256": "9eea05c27450fc761e9fab67a082422294e7349354544f913c1c5ec53d847e35",
+    "pdf": "/Users/wangyuelin/Zotero/storage/K53GG9C7/王垚 - 2026 - 基于知识图谱的古建筑木构架健康状态评估与修缮方法研究.pdf",
+    "pdf_sha256": "1ad22582058cfe822cf88d5551fea3804467945312469acd7bbe363be8e90be0",
+    "audit": "/Users/wangyuelin/.hermes/profiles/academic/cache/scratch/reviews-r2-r5-20261116/HWB76KX6-card-audit.json",
+    "read_scope": "王垚，基于知识图谱的古建筑木构架健康状态评估与修缮方法研究，西安建筑科技大学硕士论文。PDF3英文题名页为June 7th, 2025，因此本轮采用2025；原Zotero/文件名2026保留冲突，不修改Zotero。DOI 10.27393/d.cnki.gxazu.2025.000434。本轮核读PDF1—8、32—40、43、45、61—67；视觉核看PDF34图3.2/表3.3。文件路径保留初建“年份待核”以免断链。"
+  }
+]

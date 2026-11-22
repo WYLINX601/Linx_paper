@@ -1,0 +1,671 @@
+{
+  "files": [
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/README.md",
+      "sha256": "24f8e16bbdfcb36731eb210bf07765b08d6fa5cb9f627d45011334fa82057490",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/README.md",
+          "sha256": "24f8e16bbdfcb36731eb210bf07765b08d6fa5cb9f627d45011334fa82057490",
+          "size_bytes": 4501,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "5b380b7e9aa24f99b56360a54491d4a2",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/README.md",
+            "created_at_utc": "2026-11-16T13:51:58Z",
+            "status": "verified",
+            "sha256": "24f8e16bbdfcb36731eb210bf07765b08d6fa5cb9f627d45011334fa82057490",
+            "size_bytes": 4501,
+            "payload_path": ".hermes-academic-backups/recovery/4baceae5d50c69c9311233cac26540ce71b8e41aeaa012db163067d8b6264652/5b380b7e9aa24f99b56360a54491d4a2/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/4baceae5d50c69c9311233cac26540ce71b8e41aeaa012db163067d8b6264652/5b380b7e9aa24f99b56360a54491d4a2/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/新增来源核读记录.md",
+      "sha256": "180dcaa2787dc944019ba34878c264e016fce3b059ee7ad3c8d3b1dc3ef0a240",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/新增来源核读记录.md",
+          "sha256": "180dcaa2787dc944019ba34878c264e016fce3b059ee7ad3c8d3b1dc3ef0a240",
+          "size_bytes": 3238,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "837b1389c96d47b186befd9dd87de2c1",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/新增来源核读记录.md",
+            "created_at_utc": "2026-11-16T13:51:59Z",
+            "status": "verified",
+            "sha256": "180dcaa2787dc944019ba34878c264e016fce3b059ee7ad3c8d3b1dc3ef0a240",
+            "size_bytes": 3238,
+            "payload_path": ".hermes-academic-backups/recovery/00131e681618c00591d88b7fa25dda99b8ebb4503e41c4d594ae1f5291004978/837b1389c96d47b186befd9dd87de2c1/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/00131e681618c00591d88b7fa25dda99b8ebb4503e41c4d594ae1f5291004978/837b1389c96d47b186befd9dd87de2c1/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/交付检查与限制.md",
+      "sha256": "9ae561873818613555ad38d6fbe206e96ddeb3bc211fde13894b033aaca6aa6b",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/交付检查与限制.md",
+          "sha256": "9ae561873818613555ad38d6fbe206e96ddeb3bc211fde13894b033aaca6aa6b",
+          "size_bytes": 3114,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "5fc1235271364169a3a402c3f87882eb",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/交付检查与限制.md",
+            "created_at_utc": "2026-11-16T13:51:59Z",
+            "status": "verified",
+            "sha256": "9ae561873818613555ad38d6fbe206e96ddeb3bc211fde13894b033aaca6aa6b",
+            "size_bytes": 3114,
+            "payload_path": ".hermes-academic-backups/recovery/86198d445e092eba243e26998747b432ed8e1601aef4219dc92cf9737e9121f8/5fc1235271364169a3a402c3f87882eb/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/86198d445e092eba243e26998747b432ed8e1601aef4219dc92cf9737e9121f8/5fc1235271364169a3a402c3f87882eb/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R4-建筑领域知识建模-正文候选.md",
+      "sha256": "366af4c4c26803b78c18ddc5ee40a13da48493e854da098f482bec558ae53c99",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R4-建筑领域知识建模-正文候选.md",
+          "sha256": "366af4c4c26803b78c18ddc5ee40a13da48493e854da098f482bec558ae53c99",
+          "size_bytes": 8404,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "969b06f53b8c4aada0523a0e86573b60",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R4-建筑领域知识建模-正文候选.md",
+            "created_at_utc": "2026-11-16T13:52:01Z",
+            "status": "verified",
+            "sha256": "366af4c4c26803b78c18ddc5ee40a13da48493e854da098f482bec558ae53c99",
+            "size_bytes": 8404,
+            "payload_path": ".hermes-academic-backups/recovery/89e2435682ea697f0da01bea447e966c38ed2f70edfefdf6d5d87ac985b7078a/969b06f53b8c4aada0523a0e86573b60/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/89e2435682ea697f0da01bea447e966c38ed2f70edfefdf6d5d87ac985b7078a/969b06f53b8c4aada0523a0e86573b60/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R4-正文依据与待核项.md",
+      "sha256": "5ffba64fd8d25a1cc6a25d35b8a181c03e0b466b8676b03c95ca1e906c895e18",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R4-正文依据与待核项.md",
+          "sha256": "5ffba64fd8d25a1cc6a25d35b8a181c03e0b466b8676b03c95ca1e906c895e18",
+          "size_bytes": 4534,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "ed18dba979e64642beec0b8331a4a5ef",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R4-正文依据与待核项.md",
+            "created_at_utc": "2026-11-16T13:52:02Z",
+            "status": "verified",
+            "sha256": "5ffba64fd8d25a1cc6a25d35b8a181c03e0b466b8676b03c95ca1e906c895e18",
+            "size_bytes": 4534,
+            "payload_path": ".hermes-academic-backups/recovery/d495081c25884fd05873974d6b0ad3a9cbab4d1c5f26ab471ce1e4677c0ff451/ed18dba979e64642beec0b8331a4a5ef/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/d495081c25884fd05873974d6b0ad3a9cbab4d1c5f26ab471ce1e4677c0ff451/ed18dba979e64642beec0b8331a4a5ef/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R5-知识发现与保护更新应用-正文候选.md",
+      "sha256": "2d8e288b68d5b6f6e52a852457ef38e44a898d74312a9ca9681129d58187c010",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R5-知识发现与保护更新应用-正文候选.md",
+          "sha256": "2d8e288b68d5b6f6e52a852457ef38e44a898d74312a9ca9681129d58187c010",
+          "size_bytes": 9189,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "d6755010568f4748bcc772560e525e18",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R5-知识发现与保护更新应用-正文候选.md",
+            "created_at_utc": "2026-11-16T13:52:03Z",
+            "status": "verified",
+            "sha256": "2d8e288b68d5b6f6e52a852457ef38e44a898d74312a9ca9681129d58187c010",
+            "size_bytes": 9189,
+            "payload_path": ".hermes-academic-backups/recovery/0b2e378f6d59025ec1a07de01813b571348b517ad799e38b87647c346be9eea3/d6755010568f4748bcc772560e525e18/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/0b2e378f6d59025ec1a07de01813b571348b517ad799e38b87647c346be9eea3/d6755010568f4748bcc772560e525e18/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R5-正文依据与待核项.md",
+      "sha256": "31a67a80fb007658d46c278b9dd7670f0468edad98b0f398adb5ef310870b97e",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R5-正文依据与待核项.md",
+          "sha256": "31a67a80fb007658d46c278b9dd7670f0468edad98b0f398adb5ef310870b97e",
+          "size_bytes": 5687,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "bb44f44c8c8246aa83529d5b2c4898e3",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R5-正文依据与待核项.md",
+            "created_at_utc": "2026-11-16T13:52:04Z",
+            "status": "verified",
+            "sha256": "31a67a80fb007658d46c278b9dd7670f0468edad98b0f398adb5ef310870b97e",
+            "size_bytes": 5687,
+            "payload_path": ".hermes-academic-backups/recovery/6bef9e0ec8c32fb5e6e7aea818e187c26c7676efe83e8f4aa93600338d8e984d/bb44f44c8c8246aa83529d5b2c4898e3/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/6bef9e0ec8c32fb5e6e7aea818e187c26c7676efe83e8f4aa93600338d8e984d/bb44f44c8c8246aa83529d5b2c4898e3/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R2-景宁畲族传统民居研究-正文候选.md",
+      "sha256": "61143f3aa8a7ff7ce7ff6fc2f50cbfacd8030f112f54e2fed66f0af0ab450e18",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R2-景宁畲族传统民居研究-正文候选.md",
+          "sha256": "61143f3aa8a7ff7ce7ff6fc2f50cbfacd8030f112f54e2fed66f0af0ab450e18",
+          "size_bytes": 12185,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "a7fa23b65a8a46c1953cc64ed05c8f94",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R2-景宁畲族传统民居研究-正文候选.md",
+            "created_at_utc": "2026-11-16T13:52:05Z",
+            "status": "verified",
+            "sha256": "61143f3aa8a7ff7ce7ff6fc2f50cbfacd8030f112f54e2fed66f0af0ab450e18",
+            "size_bytes": 12185,
+            "payload_path": ".hermes-academic-backups/recovery/031bd9d7dc6227a4f137a5886b6fbc656cd9d42fed2ce8f20514b4694209332d/a7fa23b65a8a46c1953cc64ed05c8f94/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/031bd9d7dc6227a4f137a5886b6fbc656cd9d42fed2ce8f20514b4694209332d/a7fa23b65a8a46c1953cc64ed05c8f94/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R2-正文依据与待核项.md",
+      "sha256": "a5c1ebd5b0d75e6b997004747f2774871ff3ad07819343f796a1981fbe2f32e5",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R2-正文依据与待核项.md",
+          "sha256": "a5c1ebd5b0d75e6b997004747f2774871ff3ad07819343f796a1981fbe2f32e5",
+          "size_bytes": 11391,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "3698a4e603464b89b4474e6fa8afb04e",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R2-正文依据与待核项.md",
+            "created_at_utc": "2026-11-16T13:52:05Z",
+            "status": "verified",
+            "sha256": "a5c1ebd5b0d75e6b997004747f2774871ff3ad07819343f796a1981fbe2f32e5",
+            "size_bytes": 11391,
+            "payload_path": ".hermes-academic-backups/recovery/d08970d872af0ed2ca7bd54ca710e1ba374dbd6b5d42fe3a4a840802b414307c/3698a4e603464b89b4474e6fa8afb04e/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/d08970d872af0ed2ca7bd54ca710e1ba374dbd6b5d42fe3a4a840802b414307c/3698a4e603464b89b4474e6fa8afb04e/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R3-建筑遗产数字化保护与信息管理-正文候选.md",
+      "sha256": "0f31733d28a1dc4ef1e1c4f987bcde456a071fac16395afa729b605a09a2279f",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R3-建筑遗产数字化保护与信息管理-正文候选.md",
+          "sha256": "0f31733d28a1dc4ef1e1c4f987bcde456a071fac16395afa729b605a09a2279f",
+          "size_bytes": 12405,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "5e69a84f228b42d793c5b6a465c696c3",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R3-建筑遗产数字化保护与信息管理-正文候选.md",
+            "created_at_utc": "2026-11-16T13:52:06Z",
+            "status": "verified",
+            "sha256": "0f31733d28a1dc4ef1e1c4f987bcde456a071fac16395afa729b605a09a2279f",
+            "size_bytes": 12405,
+            "payload_path": ".hermes-academic-backups/recovery/0f516bb5784ebaab2a597b103a65395a72cbc88d63682343f60fb3ae766211d4/5e69a84f228b42d793c5b6a465c696c3/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/0f516bb5784ebaab2a597b103a65395a72cbc88d63682343f60fb3ae766211d4/5e69a84f228b42d793c5b6a465c696c3/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R3-正文依据与待核项.md",
+      "sha256": "d14a7bfa12a432ac6beebc3092c2991b372d1a5af1f35657249935d7f0b1719c",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R3-正文依据与待核项.md",
+          "sha256": "d14a7bfa12a432ac6beebc3092c2991b372d1a5af1f35657249935d7f0b1719c",
+          "size_bytes": 9803,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "d8db91e7972a4beb9c2f2e26da87a67d",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/R3-正文依据与待核项.md",
+            "created_at_utc": "2026-11-16T13:52:07Z",
+            "status": "verified",
+            "sha256": "d14a7bfa12a432ac6beebc3092c2991b372d1a5af1f35657249935d7f0b1719c",
+            "size_bytes": 9803,
+            "payload_path": ".hermes-academic-backups/recovery/fc22a94f0eaad1a7337d018cee3e1b6b54700325b7f9d0998eaceb750a0fbf2a/d8db91e7972a4beb9c2f2e26da87a67d/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/fc22a94f0eaad1a7337d018cee3e1b6b54700325b7f9d0998eaceb750a0fbf2a/d8db91e7972a4beb9c2f2e26da87a67d/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/交付核验.json",
+      "sha256": "ef9cb2960cd9ff2a3575bb2b9b294d6788e25d3107739c1e27aed07fa71991c6",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/交付核验.json",
+          "sha256": "ef9cb2960cd9ff2a3575bb2b9b294d6788e25d3107739c1e27aed07fa71991c6",
+          "size_bytes": 10509,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "bcd333b675c5458f987ba4f1f20b1e43",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/交付核验.json",
+            "created_at_utc": "2026-11-16T13:52:07Z",
+            "status": "verified",
+            "sha256": "ef9cb2960cd9ff2a3575bb2b9b294d6788e25d3107739c1e27aed07fa71991c6",
+            "size_bytes": 10509,
+            "payload_path": ".hermes-academic-backups/recovery/29c4ba82a65753b2ab600a43e310711c5f6c791f955eec2c408f20b18200f86b/bcd333b675c5458f987ba4f1f20b1e43/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/29c4ba82a65753b2ab600a43e310711c5f6c791f955eec2c408f20b18200f86b/bcd333b675c5458f987ba4f1f20b1e43/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/渲染检查.json",
+      "sha256": "4db32130290b79b89101f30345ca8dcee380133500826f44cc63742b0d383870",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/渲染检查.json",
+          "sha256": "4db32130290b79b89101f30345ca8dcee380133500826f44cc63742b0d383870",
+          "size_bytes": 3102,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "8f8526ba157c448f87da6bb638f7759e",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/渲染检查.json",
+            "created_at_utc": "2026-11-16T13:52:08Z",
+            "status": "verified",
+            "sha256": "4db32130290b79b89101f30345ca8dcee380133500826f44cc63742b0d383870",
+            "size_bytes": 3102,
+            "payload_path": ".hermes-academic-backups/recovery/e267e7f2d43b9271c62df86e9901bd060934891f5211f7791165cebea86f5cbb/8f8526ba157c448f87da6bb638f7759e/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/e267e7f2d43b9271c62df86e9901bd060934891f5211f7791165cebea86f5cbb/8f8526ba157c448f87da6bb638f7759e/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/R2-R3主会话审订.json",
+      "sha256": "fcd1d1230b1b24fa695f119a449ccd7fea8a35dc34ed17594850a4f308e54559",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/R2-R3主会话审订.json",
+          "sha256": "fcd1d1230b1b24fa695f119a449ccd7fea8a35dc34ed17594850a4f308e54559",
+          "size_bytes": 6220,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "663043c87b49467e8a66840b5e38eebf",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/R2-R3主会话审订.json",
+            "created_at_utc": "2026-11-16T13:52:09Z",
+            "status": "verified",
+            "sha256": "fcd1d1230b1b24fa695f119a449ccd7fea8a35dc34ed17594850a4f308e54559",
+            "size_bytes": 6220,
+            "payload_path": ".hermes-academic-backups/recovery/ffff5d8d619faf4bec620e11dd32fb58da5b6761da92fef52eaf5c35466e31d1/663043c87b49467e8a66840b5e38eebf/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/ffff5d8d619faf4bec620e11dd32fb58da5b6761da92fef52eaf5c35466e31d1/663043c87b49467e8a66840b5e38eebf/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/R2-R3来源指纹核对.json",
+      "sha256": "581c54e090c2f528edb2fe0d58f042d3be236c1587363f695ee37440f0907386",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/R2-R3来源指纹核对.json",
+          "sha256": "581c54e090c2f528edb2fe0d58f042d3be236c1587363f695ee37440f0907386",
+          "size_bytes": 2393,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "eb4279c072854b5da607eb37be255f83",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/R2-R3来源指纹核对.json",
+            "created_at_utc": "2026-11-16T13:52:10Z",
+            "status": "verified",
+            "sha256": "581c54e090c2f528edb2fe0d58f042d3be236c1587363f695ee37440f0907386",
+            "size_bytes": 2393,
+            "payload_path": ".hermes-academic-backups/recovery/f5da8c1edbb8bbac80b3734da0921b954b591281dcb926ccacc933ddded7de90/eb4279c072854b5da607eb37be255f83/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/f5da8c1edbb8bbac80b3734da0921b954b591281dcb926ccacc933ddded7de90/eb4279c072854b5da607eb37be255f83/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/新卡回读与原文指纹.json",
+      "sha256": "34f2ae5c9656b55d8d176ac259796646db038cafbd080ec21a050374a1c53468",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/新卡回读与原文指纹.json",
+          "sha256": "34f2ae5c9656b55d8d176ac259796646db038cafbd080ec21a050374a1c53468",
+          "size_bytes": 2687,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "a1d3226d7d2c412c8a2a7bc38aaf04dd",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/新卡回读与原文指纹.json",
+            "created_at_utc": "2026-11-16T13:52:10Z",
+            "status": "verified",
+            "sha256": "34f2ae5c9656b55d8d176ac259796646db038cafbd080ec21a050374a1c53468",
+            "size_bytes": 2687,
+            "payload_path": ".hermes-academic-backups/recovery/bd26da13482a2bae56164cbb645175ea2982e3a27847d7e126d138b2e49946c6/a1d3226d7d2c412c8a2a7bc38aaf04dd/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/bd26da13482a2bae56164cbb645175ea2982e3a27847d7e126d138b2e49946c6/a1d3226d7d2c412c8a2a7bc38aaf04dd/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/BOT卡片审计.json",
+      "sha256": "6c7e5d1e1d850d9f30c1686e91eadf5a2ebad489360c912519ecda5babd734e3",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/BOT卡片审计.json",
+          "sha256": "6c7e5d1e1d850d9f30c1686e91eadf5a2ebad489360c912519ecda5babd734e3",
+          "size_bytes": 3149,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "a871e880967544c48a5d725cffac653a",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/BOT卡片审计.json",
+            "created_at_utc": "2026-11-16T13:52:11Z",
+            "status": "verified",
+            "sha256": "6c7e5d1e1d850d9f30c1686e91eadf5a2ebad489360c912519ecda5babd734e3",
+            "size_bytes": 3149,
+            "payload_path": ".hermes-academic-backups/recovery/4870a0d0d444ea058d5b47b114e1001b9c17212a169952bdaf292735f1743257/a871e880967544c48a5d725cffac653a/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/4870a0d0d444ea058d5b47b114e1001b9c17212a169952bdaf292735f1743257/a871e880967544c48a5d725cffac653a/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/Messaoudi卡片审计.json",
+      "sha256": "b750d41fdd6754aef9641475ad17d893efb0700af6626f10540263f3dce9759e",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/Messaoudi卡片审计.json",
+          "sha256": "b750d41fdd6754aef9641475ad17d893efb0700af6626f10540263f3dce9759e",
+          "size_bytes": 2874,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "40875bee0bb1415e8180f96940808179",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/Messaoudi卡片审计.json",
+            "created_at_utc": "2026-11-16T13:52:11Z",
+            "status": "verified",
+            "sha256": "b750d41fdd6754aef9641475ad17d893efb0700af6626f10540263f3dce9759e",
+            "size_bytes": 2874,
+            "payload_path": ".hermes-academic-backups/recovery/2528e3ce945cdc8bd0ce12b67d5ca246129f41e54fe08fae8e25f5f487b42449/40875bee0bb1415e8180f96940808179/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/2528e3ce945cdc8bd0ce12b67d5ca246129f41e54fe08fae8e25f5f487b42449/40875bee0bb1415e8180f96940808179/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/王垚卡片审计.json",
+      "sha256": "e352bfc9f238bdf3b8a036e7e07a3833b9fd1136e2bb054ec8949f9fcfc8a7ea",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/王垚卡片审计.json",
+          "sha256": "e352bfc9f238bdf3b8a036e7e07a3833b9fd1136e2bb054ec8949f9fcfc8a7ea",
+          "size_bytes": 3971,
+          "created": true,
+          "backup": null,
+          "recovery": {
+            "id": "0caa289966c745cf9c31c77ff4a739e8",
+            "path": "研究成果/〔文献对照〕风貌分析目标文献对照/综述正文/检查记录/王垚卡片审计.json",
+            "created_at_utc": "2026-11-16T13:52:12Z",
+            "status": "verified",
+            "sha256": "e352bfc9f238bdf3b8a036e7e07a3833b9fd1136e2bb054ec8949f9fcfc8a7ea",
+            "size_bytes": 3971,
+            "payload_path": ".hermes-academic-backups/recovery/5c4506adf0b61aff41bd78bc684dc76456c78b21ea379b7f4972e1d752e44637/0caa289966c745cf9c31c77ff4a739e8/payload.bin",
+            "record_path": ".hermes-academic-backups/recovery/5c4506adf0b61aff41bd78bc684dc76456c78b21ea379b7f4972e1d752e44637/0caa289966c745cf9c31c77ff4a739e8/record.json",
+            "recovery": "Inspect target and verify payload SHA first. Upload with the current target hash, or --expect-missing --create-mode recoverable if absent. Never replay blindly."
+          },
+          "permissions_mode_octal": "0644",
+          "readback_verified": true,
+          "publication_mode": "recoverable-exclusive-create",
+          "complete_file_atomic_visibility": false
+        }
+      }
+    },
+    {
+      "target": "研究成果/〔文献对照〕风貌分析目标文献对照/README.md",
+      "sha256": "2e3fba347f0153f5f49d27ce61290cfad94dc876355253da8b516a852e7bd4bf",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "研究成果/〔文献对照〕风貌分析目标文献对照/README.md",
+          "sha256": "2e3fba347f0153f5f49d27ce61290cfad94dc876355253da8b516a852e7bd4bf",
+          "size_bytes": 5231,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:52:13Z",
+            "original_path": "研究成果/〔文献对照〕风貌分析目标文献对照/README.md",
+            "canonical_path": "研究成果/〔文献对照〕风貌分析目标文献对照/README.md",
+            "backup_path": ".hermes-academic-backups/20261116T135213Z_ced6a783e89546ae906310518dc8c872.bak",
+            "original_sha256": "3ebd9845fed5954a4ccfed9aec24f7e8cab6e1c2153205203f6cee152e5cd6b5",
+            "original_size_bytes": 4876,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "2e3fba347f0153f5f49d27ce61290cfad94dc876355253da8b516a852e7bd4bf",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true,
+          "publication_mode": "atomic-replace",
+          "complete_file_atomic_visibility": true
+        }
+      }
+    },
+    {
+      "target": "文献库/文献总索引.md",
+      "sha256": "2346b980b66d3c56067699cc639cd2c87559648905ff616455d85b24bc95994a",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "文献库/文献总索引.md",
+          "sha256": "2346b980b66d3c56067699cc639cd2c87559648905ff616455d85b24bc95994a",
+          "size_bytes": 21210,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:52:13Z",
+            "original_path": "文献库/文献总索引.md",
+            "canonical_path": "文献库/文献总索引.md",
+            "backup_path": ".hermes-academic-backups/20261116T135213Z_5db50c0a9105447ca559e1f4afbce0a0.bak",
+            "original_sha256": "5ab3422c5191410d14fce29ee7c42fc31b4c157a410f25f2b2af6d39c078d5a5",
+            "original_size_bytes": 19617,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "2346b980b66d3c56067699cc639cd2c87559648905ff616455d85b24bc95994a",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true,
+          "publication_mode": "atomic-replace",
+          "complete_file_atomic_visibility": true
+        }
+      }
+    },
+    {
+      "target": "文献库/README.md",
+      "sha256": "d5c82fe071384cef9ba0fc7980e558c38d848cb2252858eb2381311e4410f859",
+      "readback_verified": true,
+      "receipt": {
+        "ok": true,
+        "result": {
+          "path": "文献库/README.md",
+          "sha256": "d5c82fe071384cef9ba0fc7980e558c38d848cb2252858eb2381311e4410f859",
+          "size_bytes": 3765,
+          "created": false,
+          "backup": {
+            "created_at_utc": "2026-11-16T13:52:14Z",
+            "original_path": "文献库/README.md",
+            "canonical_path": "文献库/README.md",
+            "backup_path": ".hermes-academic-backups/20261116T135214Z_0e8f586695b142f4ad47a37b637641b6.bak",
+            "original_sha256": "47250bdf7f5c029930c90eb9b1ff2018eb4ef3f599a7be934e37cc4dfc10a503",
+            "original_size_bytes": 3765,
+            "original_permissions_mode_octal": "0700",
+            "requested_new_sha256": "d5c82fe071384cef9ba0fc7980e558c38d848cb2252858eb2381311e4410f859",
+            "restore": "Copy backup_path back to original_path after confirming the desired recovery point."
+          },
+          "permissions_mode_octal": "0700",
+          "readback_verified": true,
+          "publication_mode": "atomic-replace",
+          "complete_file_atomic_visibility": true
+        }
+      }
+    }
+  ],
+  "scope": "R2-R5 candidates, supporting checks and scoped entry/index updates",
+  "protected_unchanged": {
+    "论文章节/大纲结构.yaml": true,
+    "研究成果/〔研究路线〕论文研究路径/研究路径结构.json": true,
+    "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md": true,
+    "研究成果/〔建模依据〕知识图谱建模基准/BOT基准.md": true,
+    "研究成果/〔建模依据〕知识图谱建模基准/本研究优化基准.md": true
+  },
+  "review_body_count": 4,
+  "published_target_count": 22
+}

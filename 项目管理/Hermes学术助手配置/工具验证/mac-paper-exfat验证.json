@@ -1,0 +1,172 @@
+{
+  "tests": {
+    "tests_run": 12,
+    "failures": 0,
+    "errors": 0,
+    "successful": true,
+    "bridge_sha256": "359e643478639134f6f96703d6cdae0032bb45aacec40cdf9dfb8d9648e3431f",
+    "scope": "isolated local scratch roots; fault injection is not physical power-loss testing"
+  },
+  "exfat_delivery": {
+    "published_and_readback_verified": [
+      {
+        "path": "研究成果/〔文献拆解〕传统民居类型与形态拆解/R1支撑材料/R1快速综述-讨论包.zip",
+        "sha256": "283141d98b14316b4a6556f0d109c468203f64ff0e4f6a6b5d308b680068558d"
+      },
+      {
+        "path": "研究成果/〔文献拆解〕传统民居类型与形态拆解/R1支撑材料/2026-11-16-三组来源独立核查.md",
+        "sha256": "89be6276609d979c1a5c7192a307c1e32cb963af97fda3cb6c0960d52a16a3a0"
+      },
+      {
+        "path": "研究成果/〔文献拆解〕传统民居类型与形态拆解/R1支撑材料/2026-11-16-三组来源核查输入.md",
+        "sha256": "f222760af475628d600f1c40f5715bd04bc4048acefc6d4db5b1b434bfbbf68c"
+      },
+      {
+        "path": "研究成果/〔文献拆解〕传统民居类型与形态拆解/R1-传统民居建筑形态与类型研究-正文候选.md",
+        "sha256": "854ba0ede148f18562ce810c37b7a4e1e908756373f93825a5a9221b3c00268d"
+      },
+      {
+        "path": "研究成果/〔文献拆解〕传统民居类型与形态拆解/R1-正文依据与待核项.md",
+        "sha256": "2f0eb9a3d3a28f3a31033b584999ae0473984abc961721baf9faec7bf0c0deba"
+      },
+      {
+        "path": "研究成果/〔文献拆解〕传统民居类型与形态拆解/R1支撑材料/2026-11-16-交付核验.json",
+        "sha256": "336f8f2f30d24ffbdd6e6fab725aac5e94681d91a46ec4f39106d83635bdb11b"
+      },
+      {
+        "path": "研究成果/〔文献拆解〕传统民居类型与形态拆解/README.md",
+        "sha256": "b940a0fc6e363807cf5dc92a6754b14860086ff6adf32d2675414e1065e3f4a9"
+      }
+    ],
+    "file_count": 7,
+    "protected_sources_unchanged": {
+      "论文章节/大纲结构.yaml": "73598aefb895c92d87051ddabb63ac5358aa06c7cd0311d7faa23624b15eecd6",
+      "研究成果/〔研究路线〕论文研究路径/研究路径结构.json": "e73f19826a60c4d0e8e2678c685b6496b1872e8f413c74010a1bbc0685bcf123",
+      "论文章节/全文工作稿/景宁畲族传统民居风貌特征提取与知识图谱构建研究v0.6.md": "b68cc0ab3a136a9d154a29cc5478aa1ca9b221768145aeebdfd75f3b93522f09",
+      "研究成果/〔文献拆解〕传统民居类型与形态拆解/证据与阅读记录.md": "deadfa680cb75a3db3e6f44754f24996533f116ff47e40ecfe84fe4a5436cc42",
+      "主题研究/〔研究方法〕类型识别与比较/〔研究方法〕类型识别与比较.md": "a3eae9ce5b9871ef0a2b60ab1c1a4e205e4f6f277b6d99398494b36314f7a299"
+    },
+    "published_relative_links_checked": [
+      {
+        "source": "R1-传统民居建筑形态与类型研究-正文候选.md",
+        "target": "R1-正文依据与待核项.md"
+      },
+      {
+        "source": "R1-传统民居建筑形态与类型研究-正文候选.md",
+        "target": "证据与阅读记录.md"
+      },
+      {
+        "source": "R1-传统民居建筑形态与类型研究-正文候选.md",
+        "target": "README.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "R1-传统民居建筑形态与类型研究-正文候选.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "证据与阅读记录.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "R1-传统民居建筑形态与类型研究-正文候选.md#本节参考文献"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "../../文献库/文献导图/传统民居类型与形态拆解/17-徽州类型学思想.smm.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "../../文献库/文献导图/传统民居类型与形态拆解/11-徽州空间形式.smm.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "../../文献库/文献导图/传统民居类型与形态拆解/15-清水江自组织演化.smm.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "../../文献库/文献导图/传统民居类型与形态拆解/13-晋东南院落形态.smm.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "../../文献库/文献导图/传统民居类型与形态拆解/12-闽南二维空间量化.smm.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "../../文献库/文献导图/传统民居类型与形态拆解/19-景宁木构侧样.smm.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "../../文献库/文献导图/传统民居类型与形态拆解/22-后溪村形态类型保护.smm.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "证据与阅读记录.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "R1支撑材料/2026-11-16-三组来源独立核查.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "R1支撑材料/2026-11-16-三组来源核查输入.md"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "R1支撑材料/R1快速综述-讨论包.zip"
+      },
+      {
+        "source": "R1-正文依据与待核项.md",
+        "target": "R1支撑材料/2026-11-16-交付核验.json"
+      },
+      {
+        "source": "README.md",
+        "target": "R1-传统民居建筑形态与类型研究-正文候选.md"
+      },
+      {
+        "source": "README.md",
+        "target": "R1-正文依据与待核项.md"
+      },
+      {
+        "source": "README.md",
+        "target": "R1支撑材料/R1快速综述-讨论包.zip"
+      },
+      {
+        "source": "README.md",
+        "target": "../../主题研究/〔研究方法〕类型识别与比较/〔研究方法〕类型识别与比较.md"
+      },
+      {
+        "source": "README.md",
+        "target": "../../主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md"
+      },
+      {
+        "source": "README.md",
+        "target": "../../主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md"
+      },
+      {
+        "source": "README.md",
+        "target": "../../主题研究/〔研究方法〕类型识别与比较/〔研究方法〕类型识别与比较.md"
+      },
+      {
+        "source": "README.md",
+        "target": "../../主题研究/〔体系设计〕风貌特征筛选与数据记录/〔体系设计〕风貌特征筛选与数据记录.md"
+      },
+      {
+        "source": "README.md",
+        "target": "../../主题研究/〔体系设计〕多尺度语义模型与建模依据/〔体系设计〕多尺度语义模型与建模依据.md"
+      },
+      {
+        "source": "README.md",
+        "target": "../〔文献拆解〕传统民居类型与形态拆解/证据与阅读记录.md"
+      },
+      {
+        "source": "README.md",
+        "target": "../../文献库/文献导图/传统民居类型与形态拆解/00-阅读总览.smm.md"
+      }
+    ],
+    "whole_vault_health": "not passed; pre-existing migration path failures, see support note"
+  },
+  "actual_readme_backup_sha256": "9ed272601c1693640e6d207c4e2e53d47d9f86ab2d3304a12451f66e265478ab",
+  "current_bridge_sha256": "359e643478639134f6f96703d6cdae0032bb45aacec40cdf9dfb8d9648e3431f",
+  "scope": "Unit tests in isolated scratch; real ExFAT R1 upload/readback and existing-file backup; no physical power-cut tests"
+}

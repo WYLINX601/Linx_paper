@@ -2,9 +2,10 @@
 from pathlib import Path
 import argparse,json,posixpath,subprocess,yaml
 from urllib.parse import quote
-ROOT=Path('/Users/wangyuelin/Desktop/Obsidian/Paper')
+ROOT=Path(__file__).resolve().parents[2]
 BRIDGE=Path('/Users/wangyuelin/.hermes/profiles/academic/bin/mac-paper')
 def read(path):
+    if Path(path).name.startswith('._'):return ''
     r=subprocess.run([str(BRIDGE),'read',path],capture_output=True,text=True,check=True)
     d=json.loads(r.stdout)
     if not d.get('ok'):raise RuntimeError(d)

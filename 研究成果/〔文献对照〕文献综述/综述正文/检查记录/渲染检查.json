@@ -1,0 +1,139 @@
+[
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [
+      [
+        3
+      ]
+    ],
+    "brokenFootnotes": 0,
+    "name": "README.md",
+    "source_sha256": "24f8e16bbdfcb36731eb210bf07765b08d6fa5cb9f627d45011334fa82057490"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [],
+    "brokenFootnotes": 0,
+    "name": "新增来源核读记录.md",
+    "source_sha256": "180dcaa2787dc944019ba34878c264e016fce3b059ee7ad3c8d3b1dc3ef0a240"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [],
+    "brokenFootnotes": 0,
+    "name": "交付检查与限制.md",
+    "source_sha256": "9ae561873818613555ad38d6fbe206e96ddeb3bc211fde13894b033aaca6aa6b"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [],
+    "brokenFootnotes": 0,
+    "name": "R4-建筑领域知识建模-正文候选.md",
+    "source_sha256": "366af4c4c26803b78c18ddc5ee40a13da48493e854da098f482bec558ae53c99"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [
+      [
+        3
+      ],
+      [
+        3
+      ]
+    ],
+    "brokenFootnotes": 0,
+    "name": "R4-正文依据与待核项.md",
+    "source_sha256": "5ffba64fd8d25a1cc6a25d35b8a181c03e0b466b8676b03c95ca1e906c895e18"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [],
+    "brokenFootnotes": 0,
+    "name": "R5-知识发现与保护更新应用-正文候选.md",
+    "source_sha256": "2d8e288b68d5b6f6e52a852457ef38e44a898d74312a9ca9681129d58187c010"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [
+      [
+        4
+      ],
+      [
+        3
+      ]
+    ],
+    "brokenFootnotes": 0,
+    "name": "R5-正文依据与待核项.md",
+    "source_sha256": "31a67a80fb007658d46c278b9dd7670f0468edad98b0f398adb5ef310870b97e"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [],
+    "brokenFootnotes": 0,
+    "name": "R2-景宁畲族传统民居研究-正文候选.md",
+    "source_sha256": "61143f3aa8a7ff7ce7ff6fc2f50cbfacd8030f112f54e2fed66f0af0ab450e18"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [
+      [
+        3
+      ],
+      [
+        3
+      ],
+      [
+        2
+      ]
+    ],
+    "brokenFootnotes": 0,
+    "name": "R2-正文依据与待核项.md",
+    "source_sha256": "a5c1ebd5b0d75e6b997004747f2774871ff3ad07819343f796a1981fbe2f32e5"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [],
+    "brokenFootnotes": 0,
+    "name": "R3-建筑遗产数字化保护与信息管理-正文候选.md",
+    "source_sha256": "0f31733d28a1dc4ef1e1c4f987bcde456a071fac16395afa729b605a09a2279f"
+  },
+  {
+    "width": 785,
+    "viewport": 800,
+    "rawBold": false,
+    "tables": [
+      [
+        3
+      ],
+      [
+        3
+      ],
+      [
+        2
+      ]
+    ],
+    "brokenFootnotes": 0,
+    "name": "R3-正文依据与待核项.md",
+    "source_sha256": "d14a7bfa12a432ac6beebc3092c2991b372d1a5af1f35657249935d7f0b1719c"
+  }
+]

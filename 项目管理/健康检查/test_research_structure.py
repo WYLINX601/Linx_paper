@@ -35,7 +35,7 @@ class DynamicResearchTests(unittest.TestCase):
     def test_move_section_between_chapters(self):
         c=self.model['chapters'];sec=c[0]['sections'].pop(0);c[1]['sections'].append(sec);a,_=self.render();rows=json.loads(a['项目管理/章节采用记录.json']);self.assertTrue(all(r['chapter_id']==c[1]['id'] for r in rows if r['section_id']==sec['id']))
     def test_new_section(self):
-        c=self.model['chapters'][0];s=copy.deepcopy(c['sections'][0]);s.update(id='section-test-added',title='测试新增节点',change_note='仅测试，不写入研究库');c['sections'].append(s)
+        c=self.model['chapters'][0];s=copy.deepcopy(c['sections'][0]);s.update(id='section-test-added',title='测试新增节点',change_note='仅测试，不写入研究库');s.pop('subsections',None);c['sections'].append(s)
         a,st=self.render();self.assertEqual(st['sections'],self.section_count+1);self.assertIn('section-test-added',a[c['path']])
     def test_new_chapter(self):
         c=copy.deepcopy(self.model['chapters'][0]);c.update(id='chapter-test-added',path='论文章节/测试新章/章节导航.md',title='测试新章');c['sections']=[];self.model['chapters'].append(c)
@@ -74,10 +74,13 @@ class DynamicResearchTests(unittest.TestCase):
         c=self.model['chapters'][0];c['sections'][0]['evidence_required']=['仅测试的必要证据'];c['sections'][0]['completion_gate']='仅测试的完成判据';a,_=self.render()
         self.assertIn('仅测试的必要证据',a['论文章节/现行大纲.md']);self.assertIn('仅测试的完成判据',a[c['path']])
     def test_dependency_cycle_rejected(self):
-        r=json.loads(self.data[rs.ROUTE]);r['edges'].append({'from':'evaluation','to':'scope','kind':'dependency','label':'测试环'});self.data[rs.ROUTE]=json.dumps(r)
-        with self.assertRaises(AssertionError):self.render()
+        r={'schema_version':1,'nodes':[{'id':i,'title':i,'status':'仅测试','topics':[]} for i in ('a','b')],
+           'edges':[{'from':'a','to':'b','kind':'dependency','label':'测试依赖'},{'from':'b','to':'a','kind':'dependency','label':'测试环'}]}
+        with self.assertRaises(AssertionError):rs.validate_route(r,{})
     def test_feedback_cycle_allowed(self):
-        r=json.loads(self.data[rs.ROUTE]);r['edges'].append({'from':'evaluation','to':'scope','kind':'feedback','label':'测试反馈'});self.data[rs.ROUTE]=json.dumps(r);self.render()
+        r={'schema_version':1,'nodes':[{'id':i,'title':i,'status':'仅测试','topics':[]} for i in ('a','b')],
+           'edges':[{'from':'a','to':'b','kind':'dependency','label':'测试依赖'},{'from':'b','to':'a','kind':'feedback','label':'测试反馈'}]}
+        rs.validate_route(r,{})
     def test_state_change_updates_adoptions_without_promoting_others(self):
         s=self.model['chapters'][0]['sections'][0];s['status']='测试状态：暂停采用';a,_=self.render();rows=json.loads(a['项目管理/章节采用记录.json']);self.assertTrue(all(r['status']=='测试状态：暂停采用' for r in rows if r['section_id']==s['id']));self.assertTrue(all(r['status']!='测试状态：暂停采用' for r in rows if r['section_id']!=s['id']))
 if __name__=='__main__':unittest.main(verbosity=2)
