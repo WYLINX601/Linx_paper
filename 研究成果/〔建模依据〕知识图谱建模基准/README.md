@@ -14,7 +14,7 @@ artifact_group: current
 artifact_boundary: BOT整理不是原创本体成果；工作基准存在不等于所有条目已实施或已验证。
 artifact_title: 知识图谱建模基准
 artifact_label: 建模依据
-updated: '2026-11-04'
+updated: '2026-11-23'
 ---
 
 # 知识图谱建模基准
